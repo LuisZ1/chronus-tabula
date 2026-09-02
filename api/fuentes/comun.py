@@ -65,7 +65,7 @@ def cargar_historia():
 
 def guardar_historia(d):
     with open(HISTORIA, "w", encoding="utf-8") as f:
-        json.dump(d, f, ensure_ascii=False, indent=2)
+        json.dump(d, f, ensure_ascii=False, indent="\t")
 
 
 def proponer(con, tipo, pais, resumen, payload, fuente):
