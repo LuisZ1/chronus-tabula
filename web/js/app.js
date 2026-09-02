@@ -926,6 +926,67 @@ const TIME_SEGMENTS = [
 ];
 const SLIDER_MAX = 1000;
 
+/* ---------- modo móvil: zoom temporal por épocas ----------
+   En pantallas pequeñas el rango completo (5.026 años) deja ~15 años por
+   píxel: imposible de manejar con el dedo. Solución: chips de época que
+   acotan el deslizador al tramo elegido (1-2 años/px) + burbuja-lupa
+   sobre el pulgar. En escritorio nada cambia. */
+
+const mqMobile = window.matchMedia('(max-width: 720px)');
+function isMobile() { return mqMobile.matches; }
+
+const ERAS = [
+  { key: 'era.ancient', from: -3000, to: 500 },
+  { key: 'era.medieval', from: 500, to: 1500 },
+  { key: 'era.earlymodern', from: 1500, to: 1800 },
+  { key: 'era.contemporary', from: 1800, to: 1950 },
+  { key: 'era.modern', from: 1950, to: MAX_YEAR }
+];
+let activeEra = 2;
+
+function eraFor(y) {
+  for (let i = ERAS.length - 1; i > 0; i--) if (y >= ERAS[i].from) return i;
+  return 0;
+}
+
+/* mapeo posición↔año vigente: época activa en móvil, tramos globales en escritorio */
+function curYearToPos(y) {
+  if (!isMobile()) return yearToPos(y);
+  const e = ERAS[activeEra];
+  y = Math.max(e.from, Math.min(e.to, y));
+  return Math.round((y - e.from) / (e.to - e.from) * SLIDER_MAX);
+}
+function curPosToYear(p) {
+  if (!isMobile()) return posToYear(p);
+  const e = ERAS[activeEra];
+  return Math.round(e.from + p / SLIDER_MAX * (e.to - e.from));
+}
+
+function updateEraChips() {
+  const box = document.getElementById('eraChips');
+  if (!box) return;
+  if (!box.children.length) {
+    ERAS.forEach((e, i) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.addEventListener('click', () => {
+        activeEra = i;
+        const y = Math.max(e.from, Math.min(e.to, state.requestedYear));
+        updateEraChips();
+        buildTimeMarks();
+        requestYear(y, { force: true });
+      });
+      box.appendChild(b);
+    });
+  }
+  [...box.children].forEach((b, i) => {
+    b.textContent = i18n.t(ERAS[i].key);
+    b.classList.toggle('on', i === activeEra);
+  });
+  const on = box.children[activeEra];
+  if (on && on.scrollIntoView) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+}
+
 function yearToPos(y) {
   y = Math.max(TIME_SEGMENTS[0].from, Math.min(TIME_SEGMENTS[TIME_SEGMENTS.length - 1].to, y));
   let acc = 0;
@@ -970,17 +1031,35 @@ function markAction(it) {
   }
 }
 
+/* burbuja-lupa sobre el pulgar del deslizador (solo móvil): el dedo tapa
+   el valor, así que el año flota en grande por encima mientras se arrastra */
+function showSliderBubble(slider) {
+  if (!isMobile()) return;
+  const b = document.getElementById('sliderBubble');
+  if (!b) return;
+  b.hidden = false;
+  b.textContent = i18n.formatYear(state.requestedYear);
+  const pct = +slider.value / SLIDER_MAX;
+  b.style.left = `calc(${(pct * 100).toFixed(2)}% + ${((0.5 - pct) * 34).toFixed(1)}px)`;
+}
+function hideSliderBubble() {
+  const b = document.getElementById('sliderBubble');
+  if (b) b.hidden = true;
+}
+
 function buildTimeMarks() {
   const box = document.getElementById('timeMarks');
   if (!box || !historia) return;
   closeMarkPop();
   box.innerHTML = '';
   const keys = followKeys();
+  // en móvil, solo las marcas de la época activa (el deslizador solo la abarca a ella)
+  const enRango = y => !isMobile() || (y >= ERAS[activeEra].from && y <= ERAS[activeEra].to);
 
   const lanes = [
-    { top: 1, items: (historia.conflictos || []).filter(c => c.inicio >= TIME_SEGMENTS[0].from && warRelevant(c, keys))
+    { top: 1, items: (historia.conflictos || []).filter(c => c.inicio >= TIME_SEGMENTS[0].from && enRango(c.inicio) && warRelevant(c, keys))
         .map(c => ({ tipo: 'war', y: c.inicio, y2: c.fin, n: c.nombre, c })) },
-    { top: 17, items: (historia.eventos || []).filter(ev => ev.anio >= TIME_SEGMENTS[0].from && eventRelevant(ev, keys))
+    { top: 17, items: (historia.eventos || []).filter(ev => ev.anio >= TIME_SEGMENTS[0].from && enRango(ev.anio) && eventRelevant(ev, keys))
         .map(ev => ({ tipo: 'event', y: ev.anio, n: ev.nombre, inv: ev.categoria === 'invento', ev })) }
   ];
 
@@ -992,7 +1071,7 @@ function buildTimeMarks() {
     const groups = [];
     let g = null;
     for (const it of lane.items) {
-      const p = yearToPos(it.y) / SLIDER_MAX * 100;
+      const p = curYearToPos(it.y) / SLIDER_MAX * 100;
       if (g && p - g.pLast < 1.5) { g.list.push(it); g.pLast = p; g.p = (g.p0 + p) / 2; }
       else { g = { p0: p, pLast: p, p, list: [it] }; groups.push(g); }
     }
@@ -1032,13 +1111,15 @@ function buildTimeMarks() {
     }
   }
 
-  // etiquetas de los límites de tramo
-  for (const y of [500, 1500]) {
-    const el = document.createElement('span');
-    el.className = 'tmark tm-limit';
-    el.style.left = (yearToPos(y) / SLIDER_MAX * 100) + '%';
-    el.textContent = y;
-    box.appendChild(el);
+  // etiquetas de los límites de tramo (en móvil las dan los chips de época)
+  if (!isMobile()) {
+    for (const y of [500, 1500]) {
+      const el = document.createElement('span');
+      el.className = 'tmark tm-limit';
+      el.style.left = (yearToPos(y) / SLIDER_MAX * 100) + '%';
+      el.textContent = y;
+      box.appendChild(el);
+    }
   }
 }
 
@@ -1080,10 +1161,14 @@ function requestYear(y, opts = {}) {
   if (y === state.requestedYear && !opts.force) return;
   if (!opts.fromPlay) stopPlay();
   state.requestedYear = y;
+  if (isMobile()) {                       // sincronizar la época activa con el año
+    const ei = eraFor(y);
+    if (ei !== activeEra) { activeEra = ei; updateEraChips(); buildTimeMarks(); }
+  }
   const slider = document.getElementById('yearSlider');
   const input = document.getElementById('yearInput');
   input.value = y;
-  slider.value = yearToPos(y);
+  slider.value = curYearToPos(y);
   updateShownLabel(nearestYear(y));
   clearTimeout(yearDebounce);
   yearDebounce = setTimeout(() => {
@@ -1215,7 +1300,12 @@ function setupControls() {
   const slider = document.getElementById('yearSlider');
   const input = document.getElementById('yearInput');
 
-  slider.addEventListener('input', () => requestYear(posToYear(+slider.value)));
+  slider.addEventListener('input', () => {
+    requestYear(curPosToYear(+slider.value));
+    showSliderBubble(slider);
+  });
+  ['change', 'pointerup', 'pointercancel', 'touchend', 'blur'].forEach(ev =>
+    slider.addEventListener(ev, hideSliderBubble));
   input.addEventListener('change', () => requestYear(+input.value || 0));
 
   document.getElementById('prevYear').addEventListener('click', () => {
@@ -1240,6 +1330,7 @@ function setupControls() {
       refreshLayersControl();
       updateLegend();
       buildTimeMarks();
+      updateEraChips();
       updateYearPanel();
     });
   });
@@ -1302,6 +1393,20 @@ async function init() {
   fillFollowDatalist();
   buildTimeMarks();
   if (h && h.follow && paisPorId.has(h.follow)) setFollow(paisPorId.get(h.follow));
+
+  // modo móvil: época inicial, chips y reacción al cambiar de tamaño/orientación
+  activeEra = eraFor(startYear);
+  updateEraChips();
+  mqMobile.addEventListener('change', () => {
+    activeEra = eraFor(state.requestedYear);
+    updateEraChips();
+    buildTimeMarks();
+    document.getElementById('yearSlider').value = curYearToPos(state.requestedYear);
+  });
+  // en móvil los paneles arrancan plegados; su título los abre y cierra
+  const lp = document.getElementById('layersPanel');
+  lp.querySelector('.panel-title').addEventListener('click', () => lp.classList.toggle('collapsed'));
+  if (isMobile()) lp.classList.add('collapsed');
 
   state.requestedYear = null; // fuerza la primera petición
   requestYear(startYear, { force: true, fromPlay: true });
