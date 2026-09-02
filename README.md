@@ -42,7 +42,9 @@ La web se publica automáticamente en **GitHub Pages**: cada push a `main` dispa
 web/                        LA APLICACIÓN (estática, desplegable en cualquier hosting)
   index.html                página única: mapa, paneles y barra de tiempo
   admin.html                panel de administración (necesita la API en marcha)
-  css/, js/, i18n/, lib/    estilos, lógica, traducciones y librerías locales
+  css/, i18n/, lib/         estilos, traducciones y librerías locales
+  js/                       lógica por secciones: nucleo, datos, fichas, zonas,
+                              capas, mapa, paneles, tiempo, arranque
   data/historia.json        ★ TODO el conocimiento curado: países, gobernantes,
                               población, conflictos, zonas, batallas y eventos
   data/geojson/             53 mapas de fronteras world_*.geojson (historical-basemaps)
