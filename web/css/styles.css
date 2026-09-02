@@ -1,0 +1,262 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+#map { position: absolute; inset: 0; background: #d4e6f1; }
+
+/* ---- Barra superior ---- */
+#topbar {
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+  z-index: 1000; display: flex; align-items: center; gap: 12px;
+  background: rgba(255,255,255,.92); padding: 6px 16px; border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+}
+#topbar h1 { font-size: 17px; margin: 0; color: #2c3e50; font-weight: 600; }
+#langSelect { border: 1px solid #ccc; border-radius: 6px; padding: 3px 6px; font-size: 13px; background: #fff; }
+
+/* ---- Indicador de carga ---- */
+#loading {
+  position: absolute; top: 60px; left: 50%; transform: translateX(-50%);
+  z-index: 1100; display: flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,.95); padding: 6px 14px; border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25); font-size: 14px; color: #333;
+}
+#loading.hidden { display: none; }
+.spinner {
+  width: 16px; height: 16px; border: 3px solid #ddd; border-top-color: #3498db;
+  border-radius: 50%; animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---- Barra de tiempo inferior ---- */
+#timebar {
+  position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%);
+  z-index: 1000; width: min(860px, calc(100% - 30px));
+  background: rgba(255,255,255,.94); border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.3); padding: 12px 18px 8px;
+}
+.timebar-row { display: flex; align-items: center; gap: 10px; }
+.timebar-row.labels { justify-content: space-between; margin-top: 2px; font-size: 12px; color: #666; }
+#showingLabel { font-size: 14px; color: #2c3e50; }
+#showingLabel strong { font-size: 15px; }
+
+#yearSlider { flex: 1; accent-color: #2980b9; height: 26px; cursor: pointer; }
+#yearInput {
+  width: 84px; padding: 4px 6px; border: 1px solid #ccc; border-radius: 6px;
+  font-size: 14px; text-align: center;
+}
+.step-btn {
+  border: 1px solid #ccc; background: #fff; border-radius: 6px;
+  width: 30px; height: 30px; cursor: pointer; font-size: 12px; color: #2c3e50;
+}
+.step-btn:hover { background: #eaf2f8; }
+
+/* ---- Popup ---- */
+.territory-popup h3 { margin: 0 0 6px; font-size: 15px; color: #2c3e50; }
+.territory-popup table { border-collapse: collapse; font-size: 13px; }
+.territory-popup td { padding: 2px 6px 2px 0; vertical-align: top; }
+.territory-popup td:first-child { color: #777; white-space: nowrap; }
+.territory-popup a { color: #2980b9; }
+
+@media (max-width: 600px) {
+  #topbar h1 { font-size: 14px; }
+  #yearInput { width: 70px; }
+}
+
+/* ---- Etiquetas de territorios (nombre + escudo) ---- */
+.map-label-wrap { background: none; border: none; }
+.map-label {
+  display: inline-flex; align-items: center; gap: 4px;
+  transform: translate(-50%, -50%);
+  font-size: 12px; font-weight: 600; color: #2c2c2c;
+  white-space: nowrap; pointer-events: none; line-height: 1;
+  text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 1px 2px rgba(255,255,255,.9);
+}
+.map-label .coa-img {
+  height: 13px;           /* misma altura que el texto */
+  width: auto; max-width: 22px;
+  filter: drop-shadow(0 0 1px rgba(255,255,255,.9));
+}
+
+/* ---- Marcadores de batalla ---- */
+.battle-wrap { background: none; border: none; }
+.battle-label {
+  display: inline-flex; align-items: center; gap: 3px;
+  transform: translate(-50%, -100%);
+  font-size: 11px; font-weight: 600; color: #7a1010;
+  background: rgba(255,255,255,.88); border: 1px solid #b33a3a;
+  border-radius: 10px; padding: 1px 7px 1px 4px;
+  white-space: nowrap; cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.battle-label .battle-ico { font-size: 12px; }
+.battle-popup p { font-size: 12.5px; color: #555; margin: 6px 0 0; max-width: 300px; }
+
+/* ---- Caja de seguimiento (topbar) ---- */
+.follow-box { display: inline-flex; align-items: center; gap: 4px; }
+#followInput {
+  width: 190px; padding: 4px 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 13px;
+}
+.mini-btn {
+  border: 1px solid #ccc; background: #fff; border-radius: 6px;
+  width: 22px; height: 22px; cursor: pointer; font-size: 11px; color: #555; line-height: 1;
+}
+.mini-btn:hover { background: #eaf2f8; }
+
+/* ---- Panel de capas (izquierda) ---- */
+#layersPanel {
+  position: absolute; top: 90px; left: 10px; z-index: 1000;
+  background: rgba(255,255,255,.94); border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25); padding: 8px 12px;
+  display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: #333;
+}
+#layersPanel label { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.panel-title { font-weight: 700; font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: .4px; }
+
+/* ---- Leyenda del año (derecha) ---- */
+#rightPanels {
+  position: absolute; top: 92px; right: 10px; z-index: 1000;
+  width: 260px; display: flex; flex-direction: column; gap: 8px;
+  max-height: calc(100vh - 210px);
+}
+#legendPanel, #yearPanel {
+  background: rgba(255,255,255,.94); border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25); padding: 8px 10px;
+  display: flex; flex-direction: column; min-height: 0;
+}
+#legendPanel { max-height: 34vh; }
+#yearPanel { max-height: 38vh; }
+.legend-head { display: flex; align-items: center; justify-content: space-between; }
+#legendList { overflow-y: auto; margin-top: 6px; }
+#legendPanel.collapsed #legendList { display: none; }
+.legend-row {
+  display: flex; align-items: center; gap: 6px; padding: 2px 4px;
+  font-size: 12px; color: #333; border-radius: 5px; cursor: pointer;
+}
+.legend-row:hover { background: #eaf2f8; }
+.legend-row .chip { width: 12px; height: 12px; border-radius: 3px; border: 1px solid rgba(0,0,0,.25); flex: none; }
+.legend-row .lname { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.legend-row .larea { color: #888; font-size: 11px; white-space: nowrap; }
+
+/* ---- Marcadores de eventos ---- */
+.event-label {
+  display: inline-flex; align-items: center; gap: 3px;
+  transform: translate(-50%, -100%);
+  font-size: 11px; font-weight: 600; color: #7a5a00;
+  background: rgba(255,252,235,.92); border: 1px solid #c9a227;
+  border-radius: 10px; padding: 1px 7px 1px 4px;
+  white-space: nowrap; cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+.event-label .event-ico { font-size: 11px; }
+
+/* ---- Territorios menores (Ceuta, Canarias, Azores…) ---- */
+.terr-label {
+  display: inline-flex; align-items: center; gap: 4px;
+  transform: translate(-50%, -50%);
+  font-size: 10.5px; font-weight: 600; color: #333;
+  background: rgba(255,255,255,.85); border: 1px solid rgba(0,0,0,.25);
+  border-radius: 9px; padding: 1px 6px 1px 3px;
+  white-space: nowrap; cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+.terr-dot {
+  width: 9px; height: 9px; border-radius: 50%; flex: none;
+  border: 1.5px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.35);
+  display: inline-block;
+}
+.terr-popup h3 .terr-dot { width: 11px; height: 11px; vertical-align: -1px; }
+
+/* ---- Margen de años (panel de capas) ---- */
+.margen-row { display: flex; align-items: center; gap: 6px; margin-top: 6px; border-top: 1px solid #e5e5e5; padding-top: 6px; }
+.margen-row span { font-size: 12px; color: #555; }
+.margen-row select { font-size: 12px; padding: 1px 4px; border: 1px solid #ccc; border-radius: 5px; background: #fff; }
+
+/* ---- Fuentes plegadas en las fichas ---- */
+details.fuentes { margin-top: 7px; border-top: 1px solid #e3e3e3; padding-top: 4px; }
+details.fuentes summary { cursor: pointer; font-size: 11px; color: #888; user-select: none; list-style: none; }
+details.fuentes summary::before { content: '▸ '; }
+details.fuentes[open] summary::before { content: '▾ '; }
+details.fuentes summary::-webkit-details-marker { display: none; }
+details.fuentes div { font-size: 11px; color: #777; margin-top: 3px; line-height: 1.5; word-break: break-all; }
+details.fuentes a { color: #2d6f9e; text-decoration: none; }
+.terr-popup p { font-size: 12.5px; color: #555; margin: 6px 0 0; max-width: 300px; }
+/* con el mundo entero a la vista, solo el punto de color */
+#map.terr-mini .terr-label { background: transparent; border: none; box-shadow: none; padding: 0; }
+#map.terr-mini .terr-label .terr-name { display: none; }
+
+/* ---- Extracto de Wikipedia en popups ---- */
+.wiki-extract { margin-top: 8px; border-top: 1px solid #e3e3e3; padding-top: 6px; max-width: 300px; }
+.wiki-extract img { float: left; width: 64px; margin: 0 8px 4px 0; border-radius: 6px; }
+.wiki-extract p { font-size: 12px; color: #444; margin: 0; }
+.wiki-src { clear: both; font-size: 10px; color: #999; margin-top: 4px; }
+
+/* ---- Escudos ocultables ---- */
+#map.hide-coa .coa-img { display: none !important; }
+
+/* ---- Barra de tiempo: play y velocidad ---- */
+#speedSelect {
+  border: 1px solid #ccc; border-radius: 6px; padding: 3px 2px; font-size: 12px; background: #fff; height: 30px;
+}
+#playBtn { font-size: 13px; }
+
+@media (max-width: 900px) {
+  #followInput { width: 120px; }
+}
+
+/* ---- Zonas de conflicto (franjas diagonales) ---- */
+path.war-zone { fill: url(#warstripes); cursor: pointer; }
+path.war-zone:hover { stroke-width: 3; }
+.war-popup p { font-size: 12.5px; color: #555; margin: 6px 0 0; max-width: 300px; }
+
+/* ---- Zona ocupada (retaguardia): sombreado suave, sin franjas ---- */
+path.war-occupied { cursor: pointer; }
+path.war-occupied:hover { fill-opacity: 0.22; }
+
+/* ---- Barra no lineal: marcas clicables ---- */
+.slider-wrap { flex: 1; position: relative; }
+.slider-wrap #yearSlider { width: 100%; display: block; }
+#timeMarks { position: relative; height: 32px; margin: 0 8px; }
+.tmark { position: absolute; transform: translateX(-50%); cursor: pointer; line-height: 1; }
+.tm-war { width: 8px; height: 8px; background: #c0392b; transform: translateX(-50%) rotate(45deg); }
+.tm-war:hover { background: #7a1010; transform: translateX(-50%) rotate(45deg) scale(1.5); }
+.tm-event { font-size: 11px; color: #c9a227; }
+.tm-event:hover { color: #7a5a00; transform: translateX(-50%) scale(1.35); }
+.tm-cluster {
+  min-width: 17px; height: 15px; border-radius: 8px; color: #fff; padding: 0 4px;
+  font: 600 10px/15px system-ui, sans-serif; text-align: center;
+}
+.tm-cluster:hover { transform: translateX(-50%) scale(1.2); }
+.tmc-war { background: #c0392b; }
+.tmc-event { background: #b8860b; }
+.tm-limit { top: 6px; font-size: 9px; color: #999; cursor: default; padding-left: 3px; border-left: 1px solid #ccc; height: 22px; }
+.mark-pop {
+  position: absolute; bottom: 36px; z-index: 1200; transform: translateX(-8%);
+  background: #fff; border: 1px solid #ddd; border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.25); padding: 5px 4px;
+  min-width: 230px; max-width: 320px; max-height: 220px; overflow-y: auto;
+}
+.mp-row {
+  display: flex; gap: 6px; align-items: baseline; padding: 3px 8px;
+  border-radius: 5px; cursor: pointer; font-size: 12.5px; color: #333;
+}
+.mp-row:hover { background: #eaf2f8; }
+.mp-row .mp-n { flex: 1; }
+.mp-row .mp-y { color: #999; font-size: 11px; white-space: nowrap; }
+
+/* ---- Panel «Este año» ---- */
+#yearPanelBody { overflow-y: auto; margin-top: 4px; min-height: 0; }
+#yearPanel.collapsed #yearPanelBody { display: none; }
+.yp-sec { font-size: 11px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: .3px; margin: 6px 0 2px; }
+.yp-row {
+  display: flex; align-items: baseline; gap: 5px; padding: 3px 4px;
+  font-size: 12.5px; color: #333; border-radius: 5px; cursor: pointer; line-height: 1.25;
+}
+.yp-row:hover { background: #eaf2f8; }
+.yp-row .yp-ico { flex: none; }
+.yp-row .yp-name { flex: 1; }
+.yp-row .yp-years { color: #999; font-size: 11px; white-space: nowrap; }
+.yp-empty { color: #aaa; font-size: 12px; padding: 2px 4px; }
+@media (max-width: 900px) { #rightPanels { display: none; } }
+
+/* ---- Pie de fuentes en fichas ---- */
+details.fuentes { max-width: 300px; }
