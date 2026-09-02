@@ -1,0 +1,5 @@
+# Finales de línea uniformes (LF) para que git no vea el fichero entero
+# cambiado cuando un editor guarda con CRLF de Windows.
+* text=auto eol=lf
+*.png binary
+*.geojson text eol=lf
