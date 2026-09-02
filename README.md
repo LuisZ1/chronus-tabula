@@ -80,6 +80,8 @@ Cada país, conflicto y evento lleva un campo `fuentes` con sus referencias (`wi
 
 Además de la edición manual, el proyecto puede ingerir datos de fuentes abiertas con un flujo curado: los scripts de `scripts/fuentes/` consultan las APIs y generan **propuestas** en una base SQLite local; nada se publica sin revisión humana.
 
+El panel está **protegido con usuario y contraseña**: la primera vez que lo abras te pedirá crear el administrador (la contraseña se guarda como hash PBKDF2 con sal en la base editorial local, nunca en claro ni en el repositorio) y después el login devuelve un token de sesión de 7 días renovables; toda la API lo exige y hay límite de intentos fallidos. Como capas adicionales, el servidor solo escucha en `127.0.0.1` y `editorial.db` está en `.gitignore`.
+
 La forma cómoda es el **panel de administración** (`http://localhost:9000/admin.html` con `python api/servidor.py` en marcha): muestra las fuentes configuradas con su última ejecución, el mapeo país ↔ fuente (campos `owid` y QID de `wikidata` en `historia.json`), lanza actualizaciones con un botón (con «modo demo» sin red), enseña cada propuesta con el dato ya mapeado a nuestro formato, y permite aprobar, rechazar y exportar con el validador integrado.
 
 Las ingestas **guardan cada propuesta al momento** y recuerdan por qué país iban: si una se corta a medias (red, límite de peticiones, cierre del servidor), nada se pierde y la siguiente ejecución **continúa donde se quedó** sin repetir los países ya consultados — el panel lo indica con «a medias: X/Y países». Al completarse la pila, la próxima ejecución vuelve a empezar desde el principio; el botón «↺ Empezar de cero» fuerza ese reinicio en cualquier momento.

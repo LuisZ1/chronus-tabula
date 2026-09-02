@@ -54,10 +54,40 @@ tr.abierta + tr.payload { display:table-row; }
 .vacio { color:var(--muted); padding:14px; }
 #error { display:none; background:var(--badbg); color:var(--bad); border:1px solid var(--bad); border-radius:10px; padding:12px 16px; margin-top:16px; }
 .mini { font-size:12px; color:var(--muted); }
+/* --- acceso --- */
+#login { position:fixed; inset:0; z-index:100; background:var(--bg); display:none; align-items:center; justify-content:center; padding:20px; }
+#login.visible { display:flex; }
+.login-card { background:var(--panel); border:1px solid var(--line); border-radius:14px; box-shadow:0 10px 40px rgba(0,0,0,.12); padding:28px 30px; width:340px; max-width:100%; }
+.login-card h2 { margin:0 0 4px; font-size:20px; }
+.login-card .mini { margin:0 0 16px; display:block; }
+.login-card label { display:block; font-size:12.5px; color:var(--muted); margin:10px 0 4px; }
+.login-card input { width:100%; padding:9px 10px; border:1px solid var(--line); border-radius:8px; font-size:14px; background:var(--bg); color:var(--ink); }
+.login-card button { width:100%; margin-top:16px; padding:10px; font-size:14px; }
+#loginError { display:none; margin-top:12px; font-size:12.5px; color:var(--bad); background:var(--badbg); border-radius:8px; padding:8px 10px; }
+#sesion { float:right; font-size:12.5px; color:var(--muted); }
+#sesion button { padding:4px 12px; font-size:12px; margin-left:8px; }
 </style>
 </head>
 <body>
+<div id="login">
+  <form class="login-card" id="loginForm">
+    <h2 id="loginTitulo">Iniciar sesión</h2>
+    <span class="mini" id="loginSub">Panel de administración de Chronus Tabula</span>
+    <label for="lgUsuario">Usuario</label>
+    <input id="lgUsuario" autocomplete="username" required>
+    <label for="lgPass">Contraseña</label>
+    <input id="lgPass" type="password" autocomplete="current-password" required minlength="8">
+    <div id="lgConfirmaBox" style="display:none">
+      <label for="lgConfirma">Repite la contraseña</label>
+      <input id="lgConfirma" type="password" autocomplete="new-password" minlength="8">
+    </div>
+    <button id="lgBtn" type="submit">Entrar</button>
+    <div id="loginError"></div>
+  </form>
+</div>
+
 <div class="wrap">
+  <span id="sesion"></span>
   <h1>🛠️ Panel de administración <small>Chronus Tabula</small></h1>
   <a class="volver" href="/">← volver al mapa</a>
   <div id="error">No se puede contactar con la API. Arranca el servidor con <code>python api/servidor.py</code> y abre este panel en <code>http://localhost:9000/admin.html</code>.</div>
@@ -95,10 +125,72 @@ tr.abierta + tr.payload { display:table-row; }
 
 <script>
 const $ = s => document.querySelector(s);
+
+/* --- sesión: token en localStorage, cabecera Bearer y manejo de 401 --- */
+let token = null;
+try { token = localStorage.getItem('chronus.token'); } catch (e) {}
+function guardarToken(t) {
+  token = t;
+  try { t ? localStorage.setItem('chronus.token', t) : localStorage.removeItem('chronus.token'); } catch (e) {}
+}
+
 async function api(ruta, opciones) {
-  const r = await fetch(ruta, opciones);
+  const op = Object.assign({}, opciones);
+  op.headers = Object.assign({}, op.headers, token ? { 'Authorization': 'Bearer ' + token } : {});
+  const r = await fetch(ruta, op);
+  if (r.status === 401 && !ruta.startsWith('/api/auth/')) { mostrarLogin(false); throw new Error('sesión caducada'); }
   if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.status);
   return r.json();
+}
+
+/* --- pantalla de acceso: crear administrador (primera vez) o iniciar sesión --- */
+let modoCrear = false;
+function mostrarLogin(crear) {
+  modoCrear = crear;
+  $('#loginTitulo').textContent = crear ? 'Crear usuario administrador' : 'Iniciar sesión';
+  $('#loginSub').textContent = crear
+    ? 'Primera ejecución: elige las credenciales que protegerán este panel (mínimo 8 caracteres).'
+    : 'Panel de administración de Chronus Tabula';
+  $('#lgConfirmaBox').style.display = crear ? 'block' : 'none';
+  $('#lgConfirma').required = crear;
+  $('#lgBtn').textContent = crear ? 'Crear y entrar' : 'Entrar';
+  $('#loginError').style.display = 'none';
+  $('#login').classList.add('visible');
+  $('#lgUsuario').focus();
+}
+
+$('#loginForm').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  const err = $('#loginError');
+  err.style.display = 'none';
+  if (modoCrear && $('#lgPass').value !== $('#lgConfirma').value) {
+    err.textContent = 'Las contraseñas no coinciden.'; err.style.display = 'block'; return;
+  }
+  $('#lgBtn').disabled = true;
+  try {
+    const r = await api('/api/auth/' + (modoCrear ? 'crear' : 'login'), {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ usuario: $('#lgUsuario').value, password: $('#lgPass').value })
+    });
+    guardarToken(r.token);
+    $('#login').classList.remove('visible');
+    pintarSesion(r.usuario);
+    await cargarTodo();
+  } catch (e) {
+    err.textContent = e.message; err.style.display = 'block';
+  }
+  $('#lgBtn').disabled = false;
+});
+
+function pintarSesion(usuario) {
+  $('#sesion').innerHTML = usuario
+    ? `👤 ${esc(usuario)} <button class="sec" id="btnSalir">Cerrar sesión</button>` : '';
+  const b = $('#btnSalir');
+  if (b) b.addEventListener('click', async () => {
+    try { await api('/api/auth/salir', { method: 'POST' }); } catch (e) {}
+    guardarToken(null);
+    location.reload();
+  });
 }
 function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
@@ -290,10 +382,18 @@ $('#btnExportar').addEventListener('click', async ev => {
   ev.target.disabled = false;
 });
 
+async function cargarTodo() {
+  await Promise.all([cargarEstado(), cargarFuentes(), cargarMapeo(), cargarPropuestas()]);
+  reengancharIngesta();  // si hay una ingesta en marcha, mostrar su progreso
+}
+
 (async function init() {
   try {
-    await Promise.all([cargarEstado(), cargarFuentes(), cargarMapeo(), cargarPropuestas()]);
-    reengancharIngesta();  // si hay una ingesta en marcha, mostrar su progreso
+    const a = await api('/api/auth/estado');
+    if (!a.configurado) return mostrarLogin(true);      // primera vez: crear administrador
+    if (!a.autenticado) return mostrarLogin(false);     // sesión caducada o inexistente
+    pintarSesion(a.usuario);
+    await cargarTodo();
   } catch (e) {
     $('#error').style.display = 'block';
   }

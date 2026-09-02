@@ -23,8 +23,12 @@ import os
 import subprocess
 import sys
 import threading
+import time
 from datetime import datetime
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+
+from seguridad import (cerrar_sesion, crear_sesion, crear_usuario, hay_usuarios,
+                       validar_token, verificar)
 
 ENV_UTF8 = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
 
@@ -58,6 +62,10 @@ FUENTES = {
 }
 
 ingesta_en_curso = threading.Lock()
+
+# límite de intentos de login: tras 5 fallos seguidos, 30 s de espera
+login_lock = threading.Lock()
+login_fallos = {"n": 0, "hasta": 0.0}
 
 # estado en vivo de la ingesta actual (protegido por estado_lock)
 estado_lock = threading.Lock()
@@ -135,6 +143,22 @@ class Manejador(SimpleHTTPRequestHandler):
         n = int(self.headers.get("Content-Length") or 0)
         return json.loads(self.rfile.read(n) or b"{}")
 
+    # --- autenticación ---
+    def token_de(self):
+        auth = self.headers.get("Authorization") or ""
+        return auth[7:].strip() if auth.startswith("Bearer ") else None
+
+    def autenticado(self):
+        con = conectar()
+        usuario = validar_token(con, self.token_de())
+        con.close()
+        return usuario
+
+    def exige_login(self, ruta):
+        """Toda la API exige token salvo el propio login/alta."""
+        PUBLICAS = ("/api/auth/estado", "/api/auth/login", "/api/auth/crear")
+        return ruta.startswith("/api/") and ruta not in PUBLICAS
+
     def log_message(self, fmt, *args):  # silenciar estáticos, mantener API
         if "/api/" in (args[0] if args else ""):
             super().log_message(fmt, *args)
@@ -142,6 +166,14 @@ class Manejador(SimpleHTTPRequestHandler):
     # --- rutas ---
     def do_GET(self):
         ruta, _, query = self.path.partition("?")
+        if ruta == "/api/auth/estado":
+            con = conectar()
+            configurado = hay_usuarios(con)
+            usuario = validar_token(con, self.token_de())
+            con.close()
+            return self.json_out({"configurado": configurado, "autenticado": bool(usuario), "usuario": usuario})
+        if self.exige_login(ruta) and not self.autenticado():
+            return self.json_out({"error": "no autorizado: inicia sesión"}, 401)
         if ruta == "/api/estado":
             return self.api_estado()
         if ruta == "/api/fuentes":
@@ -161,6 +193,15 @@ class Manejador(SimpleHTTPRequestHandler):
 
     def do_POST(self):
         ruta = self.path.split("?")[0]
+        if ruta == "/api/auth/crear":
+            return self.api_auth_crear()
+        if ruta == "/api/auth/login":
+            return self.api_auth_login()
+        if self.exige_login(ruta) and not self.autenticado():
+            return self.json_out({"error": "no autorizado: inicia sesión"}, 401)
+        if ruta == "/api/auth/salir":
+            con = conectar(); cerrar_sesion(con, self.token_de()); con.close()
+            return self.json_out({"cerrada": True})
         if ruta.startswith("/api/ingestas/"):
             resto = ruta[len("/api/ingestas/"):].strip("/").split("/")
             if len(resto) == 2 and resto[1] == "reiniciar":
@@ -175,6 +216,46 @@ class Manejador(SimpleHTTPRequestHandler):
         return self.json_out({"error": "ruta desconocida"}, 404)
 
     # --- implementación ---
+    def api_auth_crear(self):
+        """Alta del administrador: solo funciona la primera vez (sin usuarios)."""
+        datos = self.json_in()
+        con = conectar()
+        if hay_usuarios(con):
+            con.close()
+            return self.json_out({"error": "ya existe un administrador; inicia sesión"}, 403)
+        error = crear_usuario(con, datos.get("usuario"), datos.get("password"))
+        if error:
+            con.close()
+            return self.json_out({"error": error}, 400)
+        token = crear_sesion(con, datos.get("usuario").strip())
+        con.close()
+        self.json_out({"token": token, "usuario": datos.get("usuario").strip()})
+
+    def api_auth_login(self):
+        with login_lock:
+            if time.time() < login_fallos["hasta"]:
+                espera = int(login_fallos["hasta"] - time.time()) + 1
+                return self.json_out({"error": f"demasiados intentos; espera {espera} s"}, 429)
+        datos = self.json_in()
+        con = conectar()
+        if not hay_usuarios(con):
+            con.close()
+            return self.json_out({"error": "aún no hay administrador; crea el usuario"}, 409)
+        if not verificar(con, datos.get("usuario"), datos.get("password")):
+            con.close()
+            with login_lock:
+                login_fallos["n"] += 1
+                if login_fallos["n"] >= 5:
+                    login_fallos["n"] = 0
+                    login_fallos["hasta"] = time.time() + 30
+            time.sleep(0.4)  # frenar fuerza bruta
+            return self.json_out({"error": "usuario o contraseña incorrectos"}, 401)
+        with login_lock:
+            login_fallos["n"] = 0
+        token = crear_sesion(con, datos.get("usuario").strip())
+        con.close()
+        self.json_out({"token": token, "usuario": datos.get("usuario").strip()})
+
     def api_estado(self):
         con = conectar(); init_ingestas(con)
         estados = dict(con.execute("SELECT estado, COUNT(*) FROM propuestas GROUP BY estado").fetchall())
