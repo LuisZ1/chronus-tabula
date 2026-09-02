@@ -213,5 +213,19 @@ Después, prueba visual: arranca el servidor, ve a los años que tocan tus datos
 ## Contribuciones que sí tocan código
 
 - **Traducciones**: copia `web/i18n/es.json` a `web/i18n/<código>.json`, traduce los valores (las claves no se tocan), añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `index.html`.
-- **Interfaz o lógica**: todo vive en `web/js/app.js` (comentado por secciones: mapa, popups, zonas, barra, paneles, filtros) y `web/css/styles.css`. Para cambios grandes, abre antes un issue y lo hablamos.
+- **Interfaz o lógica**: el JavaScript vive en `web/js/`, dividido por secciones que comparten ámbito global (sin build; el orden de carga lo fija `index.html`):
+
+  | Fichero | Qué contiene |
+  |---|---|
+  | `nucleo.js` | estado global, constantes, preferencias y utilidades |
+  | `datos.js` | carga de `historia.json`, países, seguimiento y relevancia |
+  | `fichas.js` | popups, fuentes y extractos de Wikipedia |
+  | `zonas.js` | zonas de guerra y recorte costero |
+  | `capas.js` | marcadores: batallas, eventos y territorios menores |
+  | `mapa.js` | estilo, etiquetas y escudos, análisis del año, carga y capas base |
+  | `paneles.js` | leyenda, panel «Este año» y panel de capas |
+  | `tiempo.js` | barra de tiempo, épocas del modo móvil, marcas y reproducción |
+  | `arranque.js` | `init()` |
+
+  Los estilos están en `web/css/styles.css`. La indentación del código es con **tabuladores** (hay un `.prettierrc` en la raíz: `prettier --write "web/js/*.js"` lo aplica solo). Para cambios grandes, abre antes un issue y lo hablamos.
 - **Mapas base o de fronteras**: los GeoJSON provienen de [historical-basemaps](https://github.com/aourednik/historical-basemaps); si hay versiones nuevas, se regenera también `data/years.json`.
