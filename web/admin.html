@@ -395,7 +395,15 @@ async function cargarTodo() {
     pintarSesion(a.usuario);
     await cargarTodo();
   } catch (e) {
-    $('#error').style.display = 'block';
+    const err = $('#error');
+    if (/github\.io$/.test(location.hostname) || location.protocol === 'file:') {
+      // copia publicada (hosting estático): aquí no existe la API ni el panel
+      err.innerHTML = 'Estás viendo la <strong>copia publicada de la web</strong>: aquí no hay API ni base editorial, ' +
+        'así que el panel de administración no funciona (tampoco hace falta protegerlo). ' +
+        'El panel es una herramienta local: en tu máquina, arranca <code>python api/servidor.py</code> y abre ' +
+        '<code>http://localhost:9000/admin.html</code> — la primera vez te pedirá crear el usuario administrador.';
+    }
+    err.style.display = 'block';
   }
 })();
 </script>
