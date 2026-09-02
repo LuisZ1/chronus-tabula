@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chronus Tabula · Administración</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+<style>
+:root {
+  --bg:#f4f2ec; --panel:#fffdf8; --ink:#2b2e33; --muted:#767a80; --line:#e2ded4;
+  --accent:#2d6f9e; --ok:#2e7d4f; --bad:#b3362b; --warn:#b07818;
+  --okbg:#e8f3ec; --badbg:#f7e5e2; --warnbg:#f7efdd; --hover:#edf3f8; --code:#eeebe2;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; padding:34px 20px 80px; }
+.wrap { max-width:1080px; margin:0 auto; }
+h1 { font-size:26px; margin:0; }
+h1 small { font-size:13px; color:var(--muted); font-weight:400; margin-left:10px; }
+h2 { font-size:19px; margin:36px 0 10px; }
+a.volver { color:var(--accent); font-size:13px; text-decoration:none; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:14px; }
+.stat { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px 14px; }
+.stat b { display:block; font-size:22px; }
+.stat span { font-size:12px; color:var(--muted); }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-top:12px; }
+.f-head { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
+.f-head h3 { margin:0; font-size:16px; }
+.pill { font-size:11px; font-weight:600; padding:1px 9px; border-radius:999px; }
+.p-ok { color:var(--ok); background:var(--okbg); } .p-bad { color:var(--bad); background:var(--badbg); }
+.p-warn { color:var(--warn); background:var(--warnbg); }
+.f-desc { color:var(--muted); font-size:13.5px; margin:4px 0 10px; }
+.f-meta { font-size:12px; color:var(--muted); }
+button { font:600 13px system-ui,sans-serif; color:#fff; background:var(--accent); border:0; border-radius:8px; padding:7px 16px; cursor:pointer; }
+button:hover { filter:brightness(1.1); }
+button:disabled { opacity:.5; cursor:wait; }
+button.sec { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+button.peligro { background:transparent; color:var(--bad); border:1px solid var(--bad); }
+label.demo { font-size:12.5px; color:var(--muted); margin-left:8px; }
+.acciones { display:flex; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap; }
+pre.log { background:var(--code); border:1px solid var(--line); border-radius:8px; padding:10px 12px; font:12px/1.5 ui-monospace,Consolas,monospace; white-space:pre-wrap; max-height:220px; overflow-y:auto; margin:10px 0 0; }
+table { border-collapse:collapse; width:100%; font-size:13.5px; background:var(--panel); }
+.tbl { border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:10px; overflow-x:auto; }
+th,td { padding:7px 10px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+th { font-size:11.5px; text-transform:uppercase; letter-spacing:.4px; color:var(--muted); }
+tr:last-child td { border-bottom:none; }
+tr.sel { background:var(--hover); }
+td.mono, .mono { font-family:ui-monospace,Consolas,monospace; font-size:12px; }
+.filtros { display:flex; gap:8px; align-items:center; margin-top:12px; flex-wrap:wrap; }
+.filtros select { padding:5px 8px; border:1px solid var(--line); border-radius:7px; background:var(--panel); font-size:13px; }
+.payload { display:none; }
+tr.abierta + tr.payload { display:table-row; }
+.payload td { background:var(--code); }
+.payload pre { margin:0; font:11.5px/1.5 ui-monospace,Consolas,monospace; white-space:pre-wrap; max-height:260px; overflow-y:auto; }
+.vacio { color:var(--muted); padding:14px; }
+#error { display:none; background:var(--badbg); color:var(--bad); border:1px solid var(--bad); border-radius:10px; padding:12px 16px; margin-top:16px; }
+.mini { font-size:12px; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🛠️ Panel de administración <small>Chronus Tabula</small></h1>
+  <a class="volver" href="/">← volver al mapa</a>
+  <div id="error">No se puede contactar con la API. Arranca el servidor con <code>python api/servidor.py</code> y abre este panel en <code>http://localhost:9000/admin.html</code>.</div>
+
+  <div class="grid" id="estado"></div>
+
+  <h2>Fuentes externas</h2>
+  <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>historia.json</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
+  <div id="fuentes"></div>
+
+  <h2>Mapeo país ↔ fuente</h2>
+  <p class="mini">Qué identificador usa cada país en cada fuente (campos <code>owid</code> y <code>wikidata</code> de <code>historia.json</code>) y cuántos datos tiene ya. Para ingerir un país nuevo, añádele su identificador en el JSON.</p>
+  <div class="tbl"><table id="mapeo"><thead><tr>
+    <th>País</th><th>OWID (entidad)</th><th>Wikidata (QID)</th><th>Gobernantes</th><th>Población</th><th>Fuentes actuales</th>
+  </tr></thead><tbody></tbody></table></div>
+
+  <h2>Cola de propuestas</h2>
+  <div class="filtros">
+    <select id="fEstado">
+      <option value="pendiente">pendientes</option>
+      <option value="aprobada">aprobadas</option>
+      <option value="rechazada">rechazadas</option>
+      <option value="exportada">exportadas</option>
+    </select>
+    <button class="sec" id="btnAprobarSel">Aprobar seleccionadas</button>
+    <button class="peligro" id="btnRechazarSel">Rechazar seleccionadas</button>
+    <button id="btnExportar">⬇ Exportar aprobadas a historia.json</button>
+    <button class="sec" id="btnDepurar" title="Rechaza automáticamente las propuestas de batalla pendientes cuyas coordenadas caen lejos del teatro de operaciones de su conflicto (asignación errónea por año+país)">🧹 Depurar geografía</button>
+  </div>
+  <div class="tbl"><table id="props"><thead><tr>
+    <th><input type="checkbox" id="selTodas"></th><th>#</th><th>Tipo</th><th>País</th><th>Resumen (dato mapeado)</th><th>Fuente</th><th></th>
+  </tr></thead><tbody></tbody></table></div>
+  <pre class="log" id="logExport" style="display:none"></pre>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+async function api(ruta, opciones) {
+  const r = await fetch(ruta, opciones);
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.status);
+  return r.json();
+}
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+async function cargarEstado() {
+  const e = await api('/api/estado');
+  const p = e.propuestas || {};
+  $('#estado').innerHTML = `
+    <div class="stat"><b>${e.paises}</b><span>países</span></div>
+    <div class="stat"><b>${e.conflictos}</b><span>conflictos</span></div>
+    <div class="stat"><b>${e.eventos}</b><span>eventos</span></div>
+    <div class="stat"><b>${p.pendiente || 0}</b><span>propuestas pendientes</span></div>
+    <div class="stat"><b>${p.aprobada || 0}</b><span>aprobadas sin exportar</span></div>
+    <div class="stat"><b>${p.exportada || 0}</b><span>exportadas</span></div>`;
+}
+
+async function cargarFuentes() {
+  const fs = await api('/api/fuentes');
+  $('#fuentes').innerHTML = fs.map(f => `
+    <div class="card" data-f="${f.id}">
+      <div class="f-head">
+        <h3>${esc(f.nombre)}</h3>
+        <span class="pill p-warn">${esc(f.licencia)}</span>
+        ${f.ultima ? `<span class="pill ${f.ultima.ok ? 'p-ok' : 'p-bad'}">última: ${esc(f.ultima.fecha)} ${f.ultima.ok ? '✔' : '✘'}</span>` : '<span class="pill">nunca ejecutada</span>'}
+        ${f.progreso ? `<span class="pill p-warn" title="La ejecución anterior se quedó a medias: la próxima continuará donde lo dejó, sin repetir los países ya consultados.">⏸ a medias: ${f.progreso.hechas}${f.progreso.total ? '/' + f.progreso.total : ''} países — continuará donde se quedó</span>` : ''}
+      </div>
+      <div class="f-desc">${esc(f.descripcion)} · <a href="${esc(f.url)}" target="_blank" rel="noopener">fuente ↗</a></div>
+      <div class="acciones">
+        <button class="lanzar">${f.progreso ? 'Continuar donde se quedó' : 'Actualizar ahora'}</button>
+        ${f.progreso ? '<button class="peligro reiniciar" title="Olvidar el progreso guardado y lanzar la pila desde el primer país">↺ Empezar de cero</button>' : ''}
+        <label class="demo"><input type="checkbox" class="esDemo"> modo demo (sin red)</label>
+        ${f.ultima && f.ultima.salida ? '<button class="sec verlog">ver última salida</button>' : ''}
+      </div>
+      <pre class="log" style="display:none">${f.ultima && f.ultima.salida ? esc(f.ultima.salida) : ''}</pre>
+    </div>`).join('');
+  document.querySelectorAll('#fuentes .card').forEach(card => {
+    const log = card.querySelector('.log');
+    const lanzar = async btn => {
+      btn.disabled = true; btn.textContent = '⏳ Lanzando…';
+      log.style.display = 'block'; log.textContent = 'lanzando la ingesta…';
+      try {
+        await api('/api/ingestas/' + card.dataset.f, {
+          method: 'POST', headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({ demo: card.querySelector('.esDemo').checked })
+        });
+        await vigilarIngesta(card.dataset.f);
+      } catch (e) {
+        // si ya había una ingesta en curso, nos reenganchamos a su progreso
+        if (!(await reengancharIngesta())) {
+          log.textContent = 'ERROR: ' + e.message;
+          btn.disabled = false; btn.textContent = 'Actualizar ahora';
+        }
+      }
+    };
+    card.querySelector('.lanzar').addEventListener('click', ev => lanzar(ev.target));
+    const reiniciar = card.querySelector('.reiniciar');
+    if (reiniciar) reiniciar.addEventListener('click', async () => {
+      reiniciar.disabled = true;
+      try {
+        await api('/api/ingestas/' + card.dataset.f + '/reiniciar', { method: 'POST' });
+        await lanzar(card.querySelector('.lanzar'));   // pila olvidada: lanzar desde el primer país
+      } catch (e) {
+        log.style.display = 'block'; log.textContent = 'ERROR al reiniciar: ' + e.message;
+        reiniciar.disabled = false;
+      }
+    });
+    const verlog = card.querySelector('.verlog');
+    if (verlog) verlog.addEventListener('click', () => {
+      log.style.display = log.style.display === 'none' ? 'block' : 'none';
+    });
+  });
+}
+
+// --- seguimiento en vivo de una ingesta en segundo plano ---
+function fmtCrono(seg) {
+  return Math.floor(seg / 60) + ':' + String(seg % 60).padStart(2, '0');
+}
+
+async function vigilarIngesta(fid) {
+  const card = document.querySelector(`#fuentes .card[data-f="${fid}"]`);
+  if (!card) return;
+  const log = card.querySelector('.log');
+  const btn = card.querySelector('.lanzar');
+  document.querySelectorAll('#fuentes .lanzar').forEach(b => b.disabled = true);
+  log.style.display = 'block';
+  let inicio = Date.now();
+  while (true) {
+    let est;
+    try { est = await api('/api/ingestas/estado'); }
+    catch (e) { log.textContent += '\nERROR consultando el progreso: ' + e.message; break; }
+    if (est.inicio) {
+      const t = new Date(est.inicio).getTime();
+      if (!isNaN(t)) inicio = t;
+    }
+    const seg = Math.max(0, Math.round((Date.now() - inicio) / 1000));
+    btn.textContent = `⏳ Actualizando… ${fmtCrono(seg)}`;
+    const texto = (est.lineas || []).join('\n');
+    if (log.textContent !== texto) {
+      log.textContent = texto || 'arrancando… (la fuente puede tardar en responder)';
+      log.scrollTop = log.scrollHeight;
+    }
+    if (est.terminada) {
+      if (est.ok === false) log.textContent += '\n✘ la ingesta terminó con errores';
+      log.scrollTop = log.scrollHeight;
+      btn.textContent = 'Actualizar ahora';
+      break;
+    }
+    await new Promise(r => setTimeout(r, 1500));
+  }
+  await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes()]);
+}
+
+// al abrir el panel (o tras un fallo por «ya hay una ingesta en curso»),
+// detectar una ingesta en marcha y reengancharse a su progreso
+async function reengancharIngesta() {
+  try {
+    const est = await api('/api/ingestas/estado');
+    if (est && est.fid && !est.terminada) { await vigilarIngesta(est.fid); return true; }
+  } catch (e) { /* sin API: el aviso general ya lo cubre */ }
+  return false;
+}
+
+async function cargarMapeo() {
+  const m = await api('/api/mapeo');
+  $('#mapeo tbody').innerHTML = m.map(p => `
+    <tr><td><strong>${esc(p.nombre)}</strong> <span class="mini mono">${esc(p.id)}</span></td>
+    <td class="mono">${p.owid ? esc(p.owid) : '—'}</td>
+    <td class="mono">${p.wikidata ? `<a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}" target="_blank" rel="noopener">${esc(p.wikidata)}</a>` : '—'}</td>
+    <td>${p.gobernantes}</td><td>${p.poblacion}</td>
+    <td class="mini">${p.fuentes.map(esc).join(', ')}</td></tr>`).join('')
+    || '<tr><td colspan="6" class="vacio">ningún país tiene identificadores de fuente todavía</td></tr>';
+}
+
+async function cargarPropuestas() {
+  const estado = $('#fEstado').value;
+  const ps = await api('/api/propuestas?estado=' + estado);
+  $('#props tbody').innerHTML = ps.map(p => `
+    <tr data-id="${p.id}">
+      <td><input type="checkbox" class="sel" ${estado === 'pendiente' ? '' : 'disabled'}></td>
+      <td class="mono">#${p.id}</td><td>${esc(p.tipo)}</td><td>${esc(p.pais)}</td>
+      <td>${esc(p.resumen)} <button class="sec verpayload" style="padding:1px 8px;font-size:11px">datos</button></td>
+      <td class="mono mini">${esc(p.fuente)}</td>
+      <td>${estado === 'pendiente' ? `<button class="sec una" data-a="aprobar">✓</button> <button class="peligro una" data-a="rechazar">✕</button>` : ''}</td>
+    </tr>
+    <tr class="payload"><td colspan="7"><pre>${esc(JSON.stringify(p.payload, null, 2))}</pre></td></tr>`).join('')
+    || `<tr><td colspan="7" class="vacio">no hay propuestas en estado «${esc(estado)}»</td></tr>`;
+
+  document.querySelectorAll('#props .verpayload').forEach(b =>
+    b.addEventListener('click', () => b.closest('tr').classList.toggle('abierta')));
+  document.querySelectorAll('#props .una').forEach(b =>
+    b.addEventListener('click', () => accion([+b.closest('tr').dataset.id], b.dataset.a)));
+}
+
+async function accion(ids, accion) {
+  if (!ids.length) return;
+  await api('/api/propuestas/accion', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ ids, accion })
+  });
+  await Promise.all([cargarEstado(), cargarPropuestas()]);
+}
+function seleccionadas() {
+  return [...document.querySelectorAll('#props .sel:checked')].map(c => +c.closest('tr').dataset.id);
+}
+$('#btnAprobarSel').addEventListener('click', () => accion(seleccionadas(), 'aprobar'));
+$('#btnRechazarSel').addEventListener('click', () => accion(seleccionadas(), 'rechazar'));
+$('#selTodas').addEventListener('change', e =>
+  document.querySelectorAll('#props .sel:not(:disabled)').forEach(c => c.checked = e.target.checked));
+$('#fEstado').addEventListener('change', cargarPropuestas);
+$('#btnDepurar').addEventListener('click', async ev => {
+  ev.target.disabled = true;
+  const log = $('#logExport'); log.style.display = 'block'; log.textContent = 'comprobando la geografía de las propuestas…';
+  try {
+    const r = await api('/api/propuestas/depurar', { method: 'POST' });
+    log.textContent = (r.detalle || []).join('\n') +
+      `\n${r.rechazadas} propuesta(s) rechazadas por caer fuera del teatro de su conflicto (±${r.margen_grados}°), de ${r.pendientes_revisadas} pendientes revisadas.`;
+    await Promise.all([cargarEstado(), cargarPropuestas()]);
+  } catch (e) { log.textContent = 'ERROR: ' + e.message; }
+  ev.target.disabled = false;
+});
+
+$('#btnExportar').addEventListener('click', async ev => {
+  ev.target.disabled = true;
+  const log = $('#logExport'); log.style.display = 'block'; log.textContent = 'exportando…';
+  try {
+    const r = await api('/api/exportar', { method: 'POST' });
+    log.textContent = r.salida || '(sin salida)';
+    await Promise.all([cargarEstado(), cargarPropuestas(), cargarMapeo()]);
+  } catch (e) { log.textContent = 'ERROR: ' + e.message; }
+  ev.target.disabled = false;
+});
+
+(async function init() {
+  try {
+    await Promise.all([cargarEstado(), cargarFuentes(), cargarMapeo(), cargarPropuestas()]);
+    reengancharIngesta();  // si hay una ingesta en marcha, mostrar su progreso
+  } catch (e) {
+    $('#error').style.display = 'block';
+  }
+})();
+</script>
+</body>
+</html>

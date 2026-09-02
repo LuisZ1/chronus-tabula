@@ -1,0 +1,15 @@
+# base editorial local (propuestas del pipeline): nunca se sube
+api/editorial.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+
+# carpetas de descarte locales
+_to_delete/
+_to_delete_scripts/
+
+# sistema
+.DS_Store
+Thumbs.db
