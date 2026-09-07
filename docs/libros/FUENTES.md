@@ -86,3 +86,31 @@ candidato · ⏳ sin fuente legal localizada aún.
 `libros/` (con un nombre tipo `pais-titulo.pdf`) y pide a Claude «analiza los libros
 nuevos de libros/»: extraerá el texto, lo contrastará con `historia.json` y dejará su
 ficha en `docs/libros/fichas/`.
+
+---
+
+## Lote «libros de texto - parte 1» (34 PDF aportados por el usuario, 2026-09-07)
+
+Material aportado legítimamente por el usuario, en `libros/libros de texto - parte 1/`
+(fuera del control de versiones). Se extrajo el **texto** con `pdftotext` y se analizó
+extrayendo **solo hechos** (fechas, gobernantes, batallas, eventos) — nunca prosa literal.
+Los 7 tomos de Juan de Mariana (~3.800 pp., h. 1600) quedan diferidos para una pasada
+final de bajo coste. Fichas resultantes en `docs/libros/fichas/`:
+
+| Ficha | Libros base | Candidatos |
+|---|---|---|
+| `grecia.md` | *Historia Antigua II: Grecia* (Univ. Cantabria) + *Breve historia de Grecia* | 44 |
+| `china.md` | *Breve historia de la China milenaria*; *Breve historia de la RPC 1949-2019* | 58 |
+| `roma.md` | *El Imperio Romano 31 a.C.–235 d.C.*; Herodiano | 39 |
+| `inglaterra.md` | *Pequeña historia de Inglaterra* (Chesterton); *Breve historia de Inglaterra* (Jenkins) | 64 |
+| `japon.md` | *Historia de Japón* (Walker) | 51 |
+| `otomano.md` | *Breve historia del Imperio otomano*; *El Imperio otomano 1451-1807* | 62 |
+| `universal.md` | Wells; *Toda la historia del mundo*; Santillana; cronología universal | 35 |
+| `edad-media.md` | *Historia de la Edad Media* (tomo I); Montanelli | 31 |
+| `espana.md` | *Historia de España* (síntesis); cronología España 2012-2013 | 41 |
+
+**Total: 428 candidatos** para revisar e incorporar a `historia.json` en el paso de
+consolidación (listas de emperadores romanos, sultanes otomanos, monarcas ingleses y
+españoles, dinastías chinas, shogunes japoneses, Mesopotamia antigua, reinos medievales,
+etc.). La incorporación la hace un único proceso en serie, con dedup contra el corpus
+existente y validación, para no romper `historia.json`.
