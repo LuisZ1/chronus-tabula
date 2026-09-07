@@ -60,5 +60,6 @@
   "panel.wars": "Active conflicts",
   "panel.facts": "Points of interest",
   "panel.none": "— nothing recorded —",
-  "popup.sources": "Sources"
+  "popup.sources": "Sources",
+  "nav.title": "Drag the handles to zoom the view; drag the middle to pan (double-click: show all)"
 }

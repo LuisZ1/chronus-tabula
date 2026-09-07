@@ -12,6 +12,26 @@ const TIME_SEGMENTS = [
 	{ from: 1500, to: MAX_YEAR, w: 500 }
 ];
 const SLIDER_MAX = 1000;
+const RANGO_MIN = -3000; // primer año de la barra
+const RANGO_SPAN = MAX_YEAR - RANGO_MIN;
+
+/* ---------- navegador tipo Premiere (escritorio) ----------
+   En vez de una escala no lineal (que hacía impredecible el salto), la barra
+   es LINEAL dentro de una «ventana visible» [viewLo, viewHi]. El navegador de
+   abajo representa todo el rango y sus tiradores acercan/alejan esa ventana:
+   al estrecharla, cada píxel de la barra vale menos años (más precisión), y las
+   etiquetas de los extremos muestran siempre qué tramo abarca. */
+
+let viewLo = RANGO_MIN;
+let viewHi = MAX_YEAR;
+
+function winPosToYear(p) {
+	return Math.round(viewLo + (p / SLIDER_MAX) * (viewHi - viewLo));
+}
+function winYearToPos(y) {
+	const f = (y - viewLo) / (viewHi - viewLo);
+	return Math.round(Math.max(0, Math.min(1, f)) * SLIDER_MAX);
+}
 
 /* ---------- modo móvil: zoom temporal por épocas ----------
    En pantallas pequeñas el rango completo (5.026 años) deja ~15 años por
@@ -38,17 +58,109 @@ function eraFor(y) {
 	return 0;
 }
 
-/* mapeo posición↔año vigente: época activa en móvil, tramos globales en escritorio */
+/* mapeo posición↔año vigente: época activa en móvil, ventana del navegador en escritorio */
 function curYearToPos(y) {
-	if (!isMobile()) return yearToPos(y);
+	if (!isMobile()) return winYearToPos(y);
 	const e = ERAS[activeEra];
 	y = Math.max(e.from, Math.min(e.to, y));
 	return Math.round(((y - e.from) / (e.to - e.from)) * SLIDER_MAX);
 }
 function curPosToYear(p) {
-	if (!isMobile()) return posToYear(p);
+	if (!isMobile()) return winPosToYear(p);
 	const e = ERAS[activeEra];
 	return Math.round(e.from + (p / SLIDER_MAX) * (e.to - e.from));
+}
+
+/* etiquetas de los extremos de la barra: siempre muestran el tramo que abarca
+   (la ventana del navegador en escritorio, la época activa en móvil) */
+function updateEdgeLabels() {
+	const lo = document.getElementById('edgeLo'),
+		hi = document.getElementById('edgeHi');
+	if (!lo || !hi) return;
+	if (isMobile()) {
+		const e = ERAS[activeEra];
+		lo.textContent = i18n.formatYear(e.from);
+		hi.textContent = i18n.formatYear(e.to);
+	} else {
+		lo.textContent = i18n.formatYear(viewLo);
+		hi.textContent = i18n.formatYear(viewHi);
+	}
+}
+
+/* ---------- navegador: pinta la ventana y engancha tiradores/arrastre ---------- */
+function navRender() {
+	const win = document.getElementById('navWin');
+	if (!win) return;
+	win.style.left = ((viewLo - RANGO_MIN) / RANGO_SPAN) * 100 + '%';
+	win.style.width = ((viewHi - viewLo) / RANGO_SPAN) * 100 + '%';
+	updateEdgeLabels();
+}
+
+// aplica un cambio de ventana: repinta navegador, marcas, etiquetas y reubica el pulgar
+function applyView() {
+	navRender();
+	if (historia) buildTimeMarks();
+	const slider = document.getElementById('yearSlider');
+	if (slider) slider.value = curYearToPos(state.requestedYear);
+	actualizarPasoFlechas();
+}
+
+function setupNavigator() {
+	const nav = document.getElementById('navBar');
+	if (!nav) return;
+	const win = document.getElementById('navWin');
+	const MINW = 30 / RANGO_SPAN; // ventana mínima ~30 años
+	const fx = cx => {
+		const r = nav.getBoundingClientRect();
+		return Math.max(0, Math.min(1, (cx - r.left) / r.width));
+	};
+	let mode = null,
+		grabDX = 0;
+	nav.addEventListener('pointerdown', e => {
+		nav.setPointerCapture(e.pointerId);
+		const t = e.target;
+		let loF = (viewLo - RANGO_MIN) / RANGO_SPAN,
+			hiF = (viewHi - RANGO_MIN) / RANGO_SPAN;
+		if (t.classList.contains('l')) mode = 'L';
+		else if (t.classList.contains('r')) mode = 'R';
+		else if (t === win) {
+			mode = 'M';
+			grabDX = fx(e.clientX) - loF;
+		} else {
+			// clic en la pista: centrar la ventana ahí
+			const w = hiF - loF,
+				c = fx(e.clientX);
+			loF = Math.max(0, Math.min(1 - w, c - w / 2));
+			viewLo = Math.round(RANGO_MIN + loF * RANGO_SPAN);
+			viewHi = Math.round(viewLo + w * RANGO_SPAN);
+			mode = 'M';
+			grabDX = fx(e.clientX) - (viewLo - RANGO_MIN) / RANGO_SPAN;
+			applyView();
+		}
+	});
+	nav.addEventListener('pointermove', e => {
+		if (!mode) return;
+		const p = fx(e.clientX);
+		let loF = (viewLo - RANGO_MIN) / RANGO_SPAN,
+			hiF = (viewHi - RANGO_MIN) / RANGO_SPAN;
+		if (mode === 'L') loF = Math.min(hiF - MINW, p);
+		else if (mode === 'R') hiF = Math.max(loF + MINW, p);
+		else {
+			const w = hiF - loF;
+			loF = Math.max(0, Math.min(1 - w, p - grabDX));
+			hiF = loF + w;
+		}
+		viewLo = Math.round(RANGO_MIN + loF * RANGO_SPAN);
+		viewHi = Math.round(RANGO_MIN + hiF * RANGO_SPAN);
+		applyView();
+	});
+	['pointerup', 'pointercancel'].forEach(ev => nav.addEventListener(ev, () => (mode = null)));
+	nav.addEventListener('dblclick', () => {
+		viewLo = RANGO_MIN;
+		viewHi = MAX_YEAR;
+		applyView();
+	});
+	navRender();
 }
 
 function updateEraChips() {
@@ -74,6 +186,7 @@ function updateEraChips() {
 	});
 	const on = box.children[activeEra];
 	if (on && on.scrollIntoView) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+	actualizarPasoFlechas();
 }
 
 function yearToPos(y) {
@@ -154,8 +267,10 @@ function buildTimeMarks() {
 	closeMarkPop();
 	box.innerHTML = '';
 	const keys = followKeys();
-	// en móvil, solo las marcas de la época activa (el deslizador solo la abarca a ella)
-	const enRango = y => !isMobile() || (y >= ERAS[activeEra].from && y <= ERAS[activeEra].to);
+	// solo las marcas del tramo que abarca la barra: la época activa en móvil,
+	// la ventana del navegador en escritorio
+	const enRango = y =>
+		isMobile() ? y >= ERAS[activeEra].from && y <= ERAS[activeEra].to : y >= viewLo && y <= viewHi;
 
 	const lanes = [
 		{
@@ -232,16 +347,25 @@ function buildTimeMarks() {
 		}
 	}
 
-	// etiquetas de los límites de tramo (en móvil las dan los chips de época)
-	if (!isMobile()) {
-		for (const y of [500, 1500]) {
-			const el = document.createElement('span');
-			el.className = 'tmark tm-limit';
-			el.style.left = (yearToPos(y) / SLIDER_MAX) * 100 + '%';
-			el.textContent = y;
-			box.appendChild(el);
-		}
-	}
+	updateEdgeLabels();
+}
+
+/* salto de las flechas ◀ ▶: una cantidad «redonda» (1,2,5,10,25,50,100,250,500)
+   proporcional al tramo visible — fina al acercar, amplia al ver todo — para que
+   el usuario siempre sepa cuánto avanza (el tooltip lo muestra). */
+function pasoFlechas() {
+	const span = isMobile() ? ERAS[activeEra].to - ERAS[activeEra].from : viewHi - viewLo;
+	const raw = span / 100;
+	return [1, 2, 5, 10, 25, 50, 100, 250, 500].find(n => n >= raw) || 1000;
+}
+function actualizarPasoFlechas() {
+	const paso = pasoFlechas();
+	const en = i18n.lang === 'en';
+	const unidad = en ? (paso === 1 ? ' year' : ' years') : paso === 1 ? ' año' : ' años';
+	const prev = document.getElementById('prevYear'),
+		next = document.getElementById('nextYear');
+	if (prev) prev.title = (en ? 'Back ' : 'Retroceder ') + paso + unidad;
+	if (next) next.title = (en ? 'Forward ' : 'Avanzar ') + paso + unidad;
 }
 
 /* ---------- petición de año (barra, input, play, hash) ---------- */
@@ -261,6 +385,18 @@ function requestYear(y, opts = {}) {
 			updateEraChips();
 			buildTimeMarks();
 		}
+	} else if (y < viewLo || y > viewHi) {
+		// el año pedido cae fuera de la ventana visible: desplázala para incluirlo
+		const w = viewHi - viewLo;
+		if (y < viewLo) {
+			viewLo = Math.max(RANGO_MIN, y);
+			viewHi = Math.min(MAX_YEAR, viewLo + w);
+		} else {
+			viewHi = Math.min(MAX_YEAR, y);
+			viewLo = Math.max(RANGO_MIN, viewHi - w);
+		}
+		navRender();
+		if (historia) buildTimeMarks();
 	}
 	const slider = document.getElementById('yearSlider');
 	const input = document.getElementById('yearInput');
@@ -323,14 +459,13 @@ function setupControls() {
 	);
 	input.addEventListener('change', () => requestYear(+input.value || 0));
 
-	document.getElementById('prevYear').addEventListener('click', () => {
-		const i = state.years.indexOf(state.shownYear);
-		if (i > 0) requestYear(state.years[i - 1]);
-	});
-	document.getElementById('nextYear').addEventListener('click', () => {
-		const i = state.years.indexOf(state.shownYear);
-		if (i >= 0 && i < state.years.length - 1) requestYear(state.years[i + 1]);
-	});
+	document.getElementById('prevYear').addEventListener('click', () =>
+		requestYear(state.requestedYear - pasoFlechas())
+	);
+	document.getElementById('nextYear').addEventListener('click', () =>
+		requestYear(state.requestedYear + pasoFlechas())
+	);
+	actualizarPasoFlechas();
 
 	document.getElementById('playBtn').addEventListener('click', () => {
 		if (state.playTimer) stopPlay();
@@ -347,6 +482,7 @@ function setupControls() {
 			updateLegend();
 			buildTimeMarks();
 			updateEraChips();
+			actualizarPasoFlechas();
 			updateYearPanel();
 		});
 	});
@@ -367,6 +503,8 @@ function setupControls() {
 		if (pais) setFollow(pais);
 	});
 	document.getElementById('followClear').addEventListener('click', () => setFollow(null));
+
+	setupNavigator();
 
 	map.on('moveend zoomend', () => {
 		updateLabels();

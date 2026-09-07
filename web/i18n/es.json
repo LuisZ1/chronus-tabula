@@ -60,5 +60,6 @@
   "panel.wars": "Conflictos activos",
   "panel.facts": "Datos de interés",
   "panel.none": "— nada registrado —",
-  "popup.sources": "Fuentes"
+  "popup.sources": "Fuentes",
+  "nav.title": "Arrastra los tiradores para acercar la vista; el centro para desplazarte (doble clic: ver todo)"
 }

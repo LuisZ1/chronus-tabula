@@ -60,6 +60,7 @@ async function init() {
 	mqMobile.addEventListener('change', () => {
 		activeEra = eraFor(state.requestedYear);
 		updateEraChips();
+		navRender(); // el navegador (escritorio) y su ventana
 		buildTimeMarks();
 		document.getElementById('yearSlider').value = curYearToPos(state.requestedYear);
 	});
