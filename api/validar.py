@@ -224,6 +224,8 @@ def main():
         if b and nombres_pais and b not in nombres_pais:
             aviso(donde, f"su 'pais' ({t['pais']!r}) no coincide con ningún país de 'paises'; "
                          "el punto no heredará el color del país en el mapa")
+        if "poligono" in t:
+            valida_poligono(donde + " poligono", t["poligono"])
         valida_fuentes(donde, t)
 
     # resultado
