@@ -81,3 +81,5 @@ Todos son **gobernantes del país `roma`** (emperadores del Alto Imperio). Coord
 - **Pescenio Níger** y **Clodio Albino** (193-197) fueron usurpadores/pretendientes, no emperadores legítimos: van dentro del conflicto de la guerra civil severa, no como gobernantes.
 - La **revuelta de Boudica** (Britania, ~60-61, bajo Nerón) aparece en el libro pero encaja dentro del conflicto `britania` ya cubierto; no se repropone como conflicto nuevo.
 - Ambos libros cubren solo el **Alto Imperio** (hasta 238); no aportan nada sobre el Bajo Imperio ni la división/caída de Occidente (ya cubiertos por otros ítems del corpus).
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

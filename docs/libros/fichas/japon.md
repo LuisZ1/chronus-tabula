@@ -96,3 +96,5 @@ Japón ya está como país `japon`. Conflictos existentes: `genpei`, `sengoku`, 
 - **Fechas de Nobunaga como gobernante**: el libro da sus fechas de vida (1534–1582); el rango 1568–1582 (entrada en Kioto → muerte en el Honnō-ji) es añadido mío estándar.
 - **Solapamientos con corpus**: `imjin` = invasión de Corea de Hideyoshi (1592–98), ya cubierta; `mongoles-japon` cubre 1274/1281; `guerra-ruso-japonesa` cubre Tsushima 1905; `wwii` cubre Midway/Guadalcanal/Pearl Harbor/bombas. Sekigahara, Nagashino, Okehazama y Toba-Fushimi son las batallas realmente nuevas de alto valor cartográfico.
 - **Coordenadas**: las de batallas y ciudades son fiables; las marcadas «—» o «(nacional)» corresponden a hechos sin punto único (hambrunas, edictos, cierre del país).
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

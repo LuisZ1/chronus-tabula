@@ -98,3 +98,5 @@ Como países-dinastía: `han`, `tang`, `song`, `ming`, `qing`. Conflictos chinos
 - **Guerra de Corea 1950-53**: ya cubierta (`guerra-corea`); el libro contemporáneo la llama «Guerra para Resistir la Agresión de EE.UU. y Ayudar a Corea» — no reproponer.
 - El libro contemporáneo es una obra oficial del PCCh: prosa muy ideológica y pocos hechos geolocalizables fuera de los listados (fundación RPC, Tíbet, hitos científico-militares, reforma/apertura, retornos de HK/Macao, OMC, JJOO). Fechas de esos hitos sí son precisas y contrastables.
 - Batalla de la guerra Chu-Han: el libro narra la derrota final de Xiang Yu ante Liu Bang (202 a. C.) sin nombrar explícitamente «Gaixia»; se ha dejado el conflicto sin batalla nombrada para no introducir un dato no presente en la fuente.
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

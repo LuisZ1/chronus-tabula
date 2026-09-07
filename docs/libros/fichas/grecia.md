@@ -108,3 +108,5 @@ Grecia aparece con el país `macedonia` y los conflictos `guerras-medicas`, `ale
 - **Coordenadas aproximadas** derivadas de conocimiento geográfico; conviene verificar las de yacimientos menos evidentes (Ipso en Frigia, Gaugamela cerca de Mosul, Naucratis en el Delta).
 - **Guerra del Peloponeso** es la ausencia más llamativa del corpus dado que ya están las Guerras Médicas y las conquistas de Alejandro: es el conflicto griego clásico de mayor peso que falta.
 - Grecia como tal no tiene país propio en el corpus (solo `macedonia`); habría que decidir si las póleis (Atenas, Esparta, Tebas, Corinto) se modelan como estados o si se crea una entidad "Grecia clásica". Los tres grandes reinos helenísticos (Seléucida, Lágida/Ptolemaico, Pérgamo) sí son claramente estados territoriales que faltan.
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

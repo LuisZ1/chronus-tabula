@@ -73,3 +73,5 @@ El corpus ya es muy rico: Egipto, Grecia, Roma, Cartago, islam (Omeya, Abasí, A
 - **`unificacion-qin` ya está** como conflicto; Qin Shi Huang se propone solo como *gobernante* y la Gran Muralla como *evento*, para no duplicar.
 - **Descartados por falta de respaldo en estos 4 libros** (aunque serían huecos reales): Imperio gupta, Sultanato de Delhi, reinos coreanos (Silla/Goryeo/Joseon), Imperio de Ghana, Reino de Aksum, olmecas/toltecas — apenas se mencionan o no aparecen con datos mapeables aquí; buscar en manuales específicos.
 - India antigua: `Toda la historia` documenta colonización del valle del Ganges y del Dekkán por "reyes indios" sin nombrar dinastías; el Maurya se sostiene por Asóka + Taxila. Confirmar límites del imperio con atlas.
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

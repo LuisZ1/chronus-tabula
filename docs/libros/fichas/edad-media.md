@@ -75,3 +75,5 @@ El corpus ya trae Bizancio, sasánidas, hunos, francos, Carlomagno (con su coron
 - **Kleidion 1014:** Lacarra narra la campaña de Basilio II ("Bulgaróctono") sin nombrar explícitamente la batalla; el nombre y la localización (Belasitsa) proceden del conocimiento estándar y deberían verificarse.
 - **Lombardos / gépidos:** Lacarra data la partida hacia Italia el 2 de abril de 568; la conquista efectiva del norte de Italia se completa en los años siguientes (hasta ~572). El reino cae ante Carlomagno en 774.
 - **Coronación de Otón I (962):** distinta de la ya incluida "Coronación de Carlomagno" (800); marca la línea que lleva al Sacro Imperio, país ya presente en el corpus, por lo que encaja mejor como evento fundacional.
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

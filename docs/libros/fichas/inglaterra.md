@@ -121,3 +121,5 @@ Ya existen los países `inglaterra` y `granbretana`; los conflictos `hastings`, 
 - **Frontera `inglaterra` → `granbretana`**: propongo asignar a `inglaterra` los monarcas hasta Ana (1707) y a `granbretana` desde Jorge I. Los Estuardo (Jacobo I–Ana) fueron a la vez reyes de Escocia desde 1603 (unión de coronas), matiz que el mapa quizá quiera reflejar.
 - **Monarcas del s. XX–XXI** (Jorge V, Eduardo VIII, Jorge VI, Carlos III) apenas o nada aparecen en estos libros (Chesterton llega hasta ~1914–1920; el .txt de Jenkins se corta muy pronto). Sus fechas provienen de conocimiento estándar, no de las fuentes; marcar como respaldo débil.
 - **Batallas del s. XX y napoleónicas** (Waterloo, Trafalgar) aparecen en Chesterton pero quedan bajo `napoleonicas`, ya cubierto; no se reproponen.
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.
