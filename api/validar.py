@@ -153,6 +153,13 @@ def main():
                         err(donde, f"nombres_periodo '{per.get('nombre')}': 'desde' debe ser un año entero")
                     elif per.get("hasta") is not None and not es_anio(per.get("hasta")):
                         err(donde, f"nombres_periodo '{per.get('nombre')}': 'hasta' debe ser un año entero o ausente")
+        # bloque de revisión: marca de que los datos ya se han validado (resumable)
+        rev = p.get("revision")
+        if rev is not None:
+            if not isinstance(rev, dict):
+                err(donde, "'revision' debe ser un objeto")
+            elif rev.get("estado") not in ("validado", "borrador"):
+                err(donde, "revision.estado debe ser 'validado' o 'borrador'")
         valida_fuentes(donde, p)
 
     # 4) conflictos
