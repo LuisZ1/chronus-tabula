@@ -4967,7 +4967,8 @@
 			"id": "etiopia",
 			"nombre": "Etiopía",
 			"nombres": [
-				"Ethiopia"
+				"Ethiopia",
+				"Axum"
 			],
 			"wiki": "Etiopía",
 			"wikidata": "Q115",
@@ -4977,6 +4978,19 @@
 					"url": "https://es.wikipedia.org/wiki/Etiopía",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-02"
+				}
+			],
+			"relacionados": [
+				"Aksum",
+				"Axum",
+				"Reino de Aksum"
+			],
+			"gobernantes": [
+				{
+					"desde": 325,
+					"hasta": 360,
+					"nombre": "Ezana",
+					"titulo": "Rey de Aksum, primer monarca cristiano de África"
 				}
 			]
 		},
@@ -5424,6 +5438,218 @@
 					"url": "https://es.wikipedia.org/wiki/Canuto_II_de_Dinamarca",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-02"
+				}
+			]
+		},
+		{
+			"id": "mali",
+			"nombre": "Imperio de Malí",
+			"nombres": [
+				"Mali"
+			],
+			"wiki": "Imperio de Malí",
+			"relacionados": [
+				"Malí"
+			],
+			"wikidata": "Q324867",
+			"gobernantes": [
+				{
+					"desde": 1235,
+					"hasta": 1255,
+					"nombre": "Sundiata Keita",
+					"titulo": "Fundador del imperio (batalla de Kirina)"
+				},
+				{
+					"desde": 1312,
+					"hasta": 1337,
+					"nombre": "Mansa Musa",
+					"titulo": "Mansa; posiblemente el hombre más rico de la historia"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1300,
+					"valor": 5000000
+				}
+			],
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Imperio de Malí",
+					"url": "https://es.wikipedia.org/wiki/Imperio_de_Malí",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "songhai",
+			"nombre": "Imperio songhai",
+			"nombres": [
+				"Songhai"
+			],
+			"wiki": "Imperio songhai",
+			"wikidata": "Q206789",
+			"gobernantes": [
+				{
+					"desde": 1464,
+					"hasta": 1492,
+					"nombre": "Sonni Alí",
+					"titulo": "Conquistador de Tombuctú y Djenné"
+				},
+				{
+					"desde": 1493,
+					"hasta": 1528,
+					"nombre": "Askia Mohamed",
+					"titulo": "Askia; apogeo del imperio"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Imperio songhai",
+					"url": "https://es.wikipedia.org/wiki/Imperio_songhai",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "zimbabue",
+			"nombre": "Gran Zimbabue",
+			"nombres": [
+				"Great Zimbabwe"
+			],
+			"wiki": "Gran Zimbabue",
+			"wikidata": "Q209217",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Gran Zimbabue",
+					"url": "https://es.wikipedia.org/wiki/Gran_Zimbabue",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "mayas",
+			"nombre": "Mayas",
+			"wiki": "Cultura maya",
+			"wikidata": "Q28567",
+			"nombres": [
+				"Maya chiefdoms and states",
+				"Maya states",
+				"Maya city-states",
+				"Maya Yucateco",
+				"Mayas"
+			],
+			"gobernantes": [
+				{
+					"desde": 615,
+					"hasta": 683,
+					"nombre": "Pakal el Grande",
+					"titulo": "Ajaw de Palenque"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Cultura maya",
+					"url": "https://es.wikipedia.org/wiki/Cultura_maya",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "azteca",
+			"nombre": "Imperio azteca",
+			"nombres": [
+				"Aztec Empire"
+			],
+			"wiki": "Imperio azteca",
+			"relacionados": [
+				"Aztecas",
+				"México"
+			],
+			"wikidata": "Q12542",
+			"gobernantes": [
+				{
+					"desde": 1428,
+					"hasta": 1440,
+					"nombre": "Itzcóatl",
+					"titulo": "Tlatoani; funda la Triple Alianza"
+				},
+				{
+					"desde": 1502,
+					"hasta": 1520,
+					"nombre": "Moctezuma II",
+					"titulo": "Tlatoani a la llegada de Cortés"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1500,
+					"valor": 5000000
+				}
+			],
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Imperio azteca",
+					"url": "https://es.wikipedia.org/wiki/Imperio_azteca",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "teotihuacan",
+			"nombre": "Teotihuacán",
+			"nombres": [
+				"Teotihuacán",
+				"Teotihuacàn"
+			],
+			"wiki": "Teotihuacán",
+			"wikidata": "Q172613",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Teotihuacán",
+					"url": "https://es.wikipedia.org/wiki/Teotihuacán",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
 				}
 			]
 		}
@@ -23562,6 +23788,1269 @@
 					"wiki": "Batalla de Assandun"
 				}
 			]
+		},
+		{
+			"id": "revolucion-francesa",
+			"nombre": "Revolución francesa y guerras revolucionarias",
+			"inicio": 1789,
+			"fin": 1799,
+			"paises": [
+				"Francia",
+				"Austria",
+				"Prusia",
+				"Gran Bretaña",
+				"España"
+			],
+			"bajas": "~1 millón de muertos (Terror, Vendée y guerras)",
+			"descripcion": "De la toma de la Bastilla al 18 de brumario de Napoleón: cae la monarquía, la república sobrevive al Terror y a la coalición europea, y nace el mundo político moderno.",
+			"wiki": "Revolución francesa",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Revolución francesa",
+					"url": "https://es.wikipedia.org/wiki/Revolución_francesa",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Francia revolucionaria",
+					"tipo": "frente",
+					"desde": 1792,
+					"hasta": 1799,
+					"poligono": [
+						[
+							50.8,
+							2.0
+						],
+						[
+							49.5,
+							7.8
+						],
+						[
+							43.5,
+							6.8
+						],
+						[
+							43.3,
+							-1.5
+						],
+						[
+							48.5,
+							-4.5
+						]
+					]
+				},
+				{
+					"nombre": "Guerra de la Vendée",
+					"tipo": "frente",
+					"desde": 1793,
+					"hasta": 1796,
+					"poligono": [
+						[
+							47.5,
+							-2.3
+						],
+						[
+							47.4,
+							-0.4
+						],
+						[
+							46.3,
+							-0.7
+						],
+						[
+							46.4,
+							-2.2
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Batalla de Valmy",
+					"anio": 1792,
+					"lat": 49.08,
+					"lng": 4.77,
+					"descripcion": "El cañoneo que salvó la Revolución: la república se proclama dos días después.",
+					"wiki": "Batalla de Valmy"
+				},
+				{
+					"nombre": "Batalla de Fleurus",
+					"anio": 1794,
+					"lat": 50.48,
+					"lng": 4.55,
+					"descripcion": "Victoria decisiva sobre la coalición; primer uso militar de un globo de observación.",
+					"wiki": "Batalla de Fleurus (1794)"
+				}
+			]
+		},
+		{
+			"id": "revolucion-haitiana",
+			"nombre": "Revolución haitiana",
+			"inicio": 1791,
+			"fin": 1804,
+			"paises": [
+				"Haití",
+				"Francia",
+				"España",
+				"Gran Bretaña"
+			],
+			"bajas": "~350.000 muertos",
+			"descripcion": "La mayor rebelión de esclavos de la historia: Toussaint Louverture y Dessalines derrotan a Francia y fundan la primera república negra del mundo.",
+			"wiki": "Revolución haitiana",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Revolución haitiana",
+					"url": "https://es.wikipedia.org/wiki/Revolución_haitiana",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Saint-Domingue en armas",
+					"tipo": "frente",
+					"desde": 1791,
+					"hasta": 1804,
+					"poligono": [
+						[
+							19.9,
+							-73.5
+						],
+						[
+							19.8,
+							-71.7
+						],
+						[
+							18.0,
+							-71.7
+						],
+						[
+							18.0,
+							-74.5
+						],
+						[
+							19.1,
+							-74.5
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Batalla de Vertières",
+					"anio": 1803,
+					"lat": 19.73,
+					"lng": -72.22,
+					"descripcion": "La victoria final de Dessalines sobre el ejército napoleónico; la independencia se proclama en enero de 1804.",
+					"wiki": "Batalla de Vertières"
+				}
+			]
+		},
+		{
+			"id": "guerra-secesion-eeuu",
+			"nombre": "Guerra de Secesión de Estados Unidos",
+			"inicio": 1861,
+			"fin": 1865,
+			"paises": [
+				"Estados Unidos"
+			],
+			"bajas": "~750.000 muertos, la guerra más letal de la historia de EE. UU.",
+			"descripcion": "La Unión contra la Confederación esclavista: de Fort Sumter a Appomattox, con la Proclamación de Emancipación (1863) aboliendo la esclavitud.",
+			"wiki": "Guerra de Secesión",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra de Secesión",
+					"url": "https://es.wikipedia.org/wiki/Guerra_de_Secesión",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Frente oriental (Virginia)",
+					"tipo": "frente",
+					"desde": 1861,
+					"hasta": 1865,
+					"poligono": [
+						[
+							39.7,
+							-78.5
+						],
+						[
+							39.5,
+							-75.8
+						],
+						[
+							36.8,
+							-76.2
+						],
+						[
+							36.9,
+							-79.5
+						]
+					]
+				},
+				{
+					"nombre": "Frente occidental (Misisipi–Tennessee)",
+					"tipo": "frente",
+					"desde": 1862,
+					"hasta": 1864,
+					"poligono": [
+						[
+							37.0,
+							-90.5
+						],
+						[
+							36.5,
+							-85.0
+						],
+						[
+							32.0,
+							-88.5
+						],
+						[
+							32.3,
+							-91.2
+						]
+					]
+				},
+				{
+					"nombre": "Marcha de Sherman a Georgia",
+					"tipo": "frente",
+					"desde": 1864,
+					"hasta": 1865,
+					"poligono": [
+						[
+							34.0,
+							-85.5
+						],
+						[
+							33.7,
+							-81.0
+						],
+						[
+							32.0,
+							-81.0
+						],
+						[
+							32.5,
+							-85.0
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Batalla de Antietam",
+					"anio": 1862,
+					"lat": 39.47,
+					"lng": -77.74,
+					"bajas": "~23.000 bajas en un día",
+					"descripcion": "El día más sangriento de la historia militar estadounidense.",
+					"wiki": "Batalla de Antietam"
+				},
+				{
+					"nombre": "Batalla de Gettysburg",
+					"anio": 1863,
+					"lat": 39.81,
+					"lng": -77.23,
+					"bajas": "~50.000 bajas",
+					"descripcion": "El punto de inflexión: Lee nunca volverá a invadir el norte.",
+					"wiki": "Batalla de Gettysburg"
+				},
+				{
+					"nombre": "Sitio de Vicksburg",
+					"anio": 1863,
+					"lat": 32.35,
+					"lng": -90.88,
+					"descripcion": "Grant parte en dos la Confederación al controlar el Misisipi.",
+					"wiki": "Sitio de Vicksburg"
+				},
+				{
+					"nombre": "Rendición de Appomattox",
+					"anio": 1865,
+					"lat": 37.38,
+					"lng": -78.8,
+					"descripcion": "Lee se rinde a Grant; fin de la guerra.",
+					"wiki": "Batalla de Appomattox Court House"
+				}
+			]
+		},
+		{
+			"id": "rebelion-taiping",
+			"nombre": "Rebelión Taiping",
+			"inicio": 1850,
+			"fin": 1864,
+			"paises": [
+				"China",
+				"Gran Bretaña",
+				"Francia"
+			],
+			"bajas": "~20-30 millones de muertos: la guerra civil más letal de la historia",
+			"descripcion": "Hong Xiuquan, autoproclamado hermano de Jesucristo, funda el «Reino Celestial de la Gran Paz» y arrastra al valle del Yangtsé a una guerra que desangra a la China Qing.",
+			"wiki": "Rebelión Taiping",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Rebelión Taiping",
+					"url": "https://es.wikipedia.org/wiki/Rebelión_Taiping",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Reino Celestial (valle del Yangtsé)",
+					"tipo": "ocupado",
+					"desde": 1853,
+					"hasta": 1864,
+					"poligono": [
+						[
+							32.5,
+							115.0
+						],
+						[
+							32.3,
+							121.0
+						],
+						[
+							29.5,
+							120.5
+						],
+						[
+							29.0,
+							114.5
+						]
+					]
+				},
+				{
+					"nombre": "Campañas Qing de reconquista",
+					"tipo": "frente",
+					"desde": 1860,
+					"hasta": 1864,
+					"poligono": [
+						[
+							32.6,
+							117.5
+						],
+						[
+							32.4,
+							119.8
+						],
+						[
+							31.5,
+							119.6
+						],
+						[
+							31.6,
+							117.5
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Toma de Nankín",
+					"anio": 1853,
+					"lat": 32.06,
+					"lng": 118.8,
+					"descripcion": "Los taiping hacen de Nankín su «capital celestial» durante once años."
+				},
+				{
+					"nombre": "Caída de Nankín",
+					"anio": 1864,
+					"lat": 32.05,
+					"lng": 118.78,
+					"descripcion": "El ejército de Zeng Guofan aplasta el reino; matanza de cientos de miles."
+				}
+			]
+		},
+		{
+			"id": "guerra-ruso-japonesa",
+			"nombre": "Guerra ruso-japonesa",
+			"inicio": 1904,
+			"fin": 1905,
+			"paises": [
+				"Japón",
+				"Rusia"
+			],
+			"bajas": "~130.000-170.000 muertos",
+			"descripcion": "Japón aplasta al Imperio ruso por Manchuria y Corea: la primera victoria de una potencia asiática sobre una europea en la era moderna, preludio de la revolución de 1905.",
+			"wiki": "Guerra ruso-japonesa",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra ruso-japonesa",
+					"url": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Manchuria meridional",
+					"tipo": "frente",
+					"desde": 1904,
+					"hasta": 1905,
+					"poligono": [
+						[
+							42.5,
+							122.0
+						],
+						[
+							42.0,
+							126.5
+						],
+						[
+							38.7,
+							122.5
+						],
+						[
+							39.5,
+							121.0
+						]
+					]
+				},
+				{
+					"nombre": "Estrecho de Tsushima",
+					"tipo": "frente",
+					"desde": 1905,
+					"hasta": 1905,
+					"mar": true,
+					"poligono": [
+						[
+							35.5,
+							128.5
+						],
+						[
+							35.0,
+							130.5
+						],
+						[
+							33.5,
+							130.0
+						],
+						[
+							33.8,
+							128.3
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Sitio de Port Arthur",
+					"anio": 1904,
+					"hasta": 1905,
+					"lat": 38.82,
+					"lng": 121.24,
+					"descripcion": "Cinco meses de asedio a la base naval rusa.",
+					"wiki": "Sitio de Port Arthur"
+				},
+				{
+					"nombre": "Batalla de Mukden",
+					"anio": 1905,
+					"lat": 41.8,
+					"lng": 123.43,
+					"descripcion": "La mayor batalla terrestre hasta entonces: más de 600.000 combatientes."
+				}
+			]
+		},
+		{
+			"id": "revolucion-rusa",
+			"nombre": "Revolución rusa y guerra civil",
+			"inicio": 1917,
+			"fin": 1922,
+			"paises": [
+				"Rusia"
+			],
+			"bajas": "~7-12 millones de muertos (guerra, terror y hambruna)",
+			"descripcion": "Febrero derriba al zar, Octubre da el poder a los bolcheviques, y la guerra civil entre rojos y blancos acaba con la fundación de la URSS (1922).",
+			"wiki": "Revolución rusa",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Revolución rusa",
+					"url": "https://es.wikipedia.org/wiki/Revolución_rusa",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra civil rusa",
+					"url": "https://es.wikipedia.org/wiki/Guerra_civil_rusa",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Rusia europea en guerra civil",
+					"tipo": "frente",
+					"desde": 1918,
+					"hasta": 1921,
+					"poligono": [
+						[
+							58.5,
+							30.0
+						],
+						[
+							56.5,
+							50.5
+						],
+						[
+							48.0,
+							45.0
+						],
+						[
+							47.0,
+							38.5
+						],
+						[
+							52.5,
+							31.0
+						]
+					]
+				},
+				{
+					"nombre": "Frente de Siberia (Kolchak)",
+					"tipo": "frente",
+					"desde": 1918,
+					"hasta": 1920,
+					"poligono": [
+						[
+							57.5,
+							60.0
+						],
+						[
+							56.5,
+							84.0
+						],
+						[
+							53.0,
+							82.0
+						],
+						[
+							54.0,
+							60.5
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Asalto al Palacio de Invierno",
+					"anio": 1917,
+					"lat": 59.94,
+					"lng": 30.31,
+					"descripcion": "La Revolución de Octubre toma Petrogrado casi sin sangre.",
+					"wiki": "Revolución de Octubre"
+				},
+				{
+					"nombre": "Defensa de Tsaritsyn",
+					"anio": 1918,
+					"hasta": 1919,
+					"lat": 48.71,
+					"lng": 44.51,
+					"descripcion": "La futura Stalingrado, disputada entre rojos y blancos."
+				}
+			]
+		},
+		{
+			"id": "guerra-civil-china",
+			"nombre": "Guerra civil china",
+			"inicio": 1927,
+			"fin": 1949,
+			"paises": [
+				"China"
+			],
+			"bajas": "~6-8 millones de muertos (sin contar la guerra contra Japón)",
+			"descripcion": "Nacionalistas del Kuomintang contra comunistas de Mao, con la tregua forzada por la invasión japonesa (1937-1945): acaba con la República Popular en Pekín y el KMT refugiado en Taiwán.",
+			"wiki": "Guerra civil china",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra civil china",
+					"url": "https://es.wikipedia.org/wiki/Guerra_civil_china",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Sóviets del sur y Larga Marcha",
+					"tipo": "frente",
+					"desde": 1927,
+					"hasta": 1936,
+					"poligono": [
+						[
+							29.5,
+							113.5
+						],
+						[
+							28.5,
+							117.0
+						],
+						[
+							24.5,
+							115.5
+						],
+						[
+							25.5,
+							111.5
+						]
+					]
+				},
+				{
+					"nombre": "Ofensivas finales (Manchuria y llanura central)",
+					"tipo": "frente",
+					"desde": 1946,
+					"hasta": 1949,
+					"poligono": [
+						[
+							44.0,
+							122.0
+						],
+						[
+							42.0,
+							126.0
+						],
+						[
+							33.5,
+							118.5
+						],
+						[
+							34.5,
+							113.0
+						],
+						[
+							40.0,
+							115.5
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Campaña de Huaihai",
+					"anio": 1948,
+					"hasta": 1949,
+					"lat": 34.26,
+					"lng": 117.19,
+					"descripcion": "Medio millón de soldados del KMT aniquilados o capturados: la batalla decisiva."
+				},
+				{
+					"nombre": "Toma de Pekín",
+					"anio": 1949,
+					"lat": 39.9,
+					"lng": 116.4,
+					"descripcion": "Mao proclama la República Popular el 1 de octubre de 1949."
+				}
+			]
+		},
+		{
+			"id": "guerra-corea",
+			"nombre": "Guerra de Corea",
+			"inicio": 1950,
+			"fin": 1953,
+			"paises": [
+				"Corea",
+				"Estados Unidos",
+				"China",
+				"URSS"
+			],
+			"bajas": "~3 millones de muertos, la mitad civiles",
+			"descripcion": "El Norte invade el Sur; la ONU (con EE. UU.) lo rechaza hasta el Yalu y China interviene: tres años de guerra para volver casi al paralelo 38, donde el armisticio de 1953 congela la península hasta hoy.",
+			"wiki": "Guerra de Corea",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra de Corea",
+					"url": "https://es.wikipedia.org/wiki/Guerra_de_Corea",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Invasión del Sur y perímetro de Pusan",
+					"tipo": "frente",
+					"desde": 1950,
+					"hasta": 1950,
+					"poligono": [
+						[
+							38.0,
+							126.2
+						],
+						[
+							37.5,
+							129.2
+						],
+						[
+							35.0,
+							129.3
+						],
+						[
+							34.7,
+							126.4
+						]
+					]
+				},
+				{
+					"nombre": "Contraofensiva hasta el Yalu e intervención china",
+					"tipo": "frente",
+					"desde": 1950,
+					"hasta": 1951,
+					"poligono": [
+						[
+							41.8,
+							124.5
+						],
+						[
+							41.5,
+							129.8
+						],
+						[
+							39.0,
+							127.8
+						],
+						[
+							39.2,
+							124.8
+						]
+					]
+				},
+				{
+					"nombre": "Estancamiento en el paralelo 38",
+					"tipo": "frente",
+					"desde": 1951,
+					"hasta": 1953,
+					"poligono": [
+						[
+							38.6,
+							126.3
+						],
+						[
+							38.5,
+							128.9
+						],
+						[
+							37.8,
+							128.7
+						],
+						[
+							37.9,
+							126.4
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Desembarco de Incheon",
+					"anio": 1950,
+					"lat": 37.46,
+					"lng": 126.62,
+					"descripcion": "La jugada maestra de MacArthur revierte la guerra en dos semanas.",
+					"wiki": "Batalla de Incheon"
+				},
+				{
+					"nombre": "Batalla del embalse de Chosin",
+					"anio": 1950,
+					"lat": 40.48,
+					"lng": 127.2,
+					"descripcion": "Retirada épica de los marines cercados por el ejército chino a -30 °C."
+				}
+			]
+		},
+		{
+			"id": "guerra-vietnam",
+			"nombre": "Guerra de Vietnam",
+			"inicio": 1955,
+			"fin": 1975,
+			"paises": [
+				"Vietnam",
+				"Estados Unidos",
+				"China",
+				"URSS"
+			],
+			"bajas": "~2-3,5 millones de muertos",
+			"descripcion": "El Norte comunista y el Vietcong contra el Sur y Estados Unidos: la guerra que EE. UU. no pudo ganar acaba con la caída de Saigón y la reunificación (1976).",
+			"wiki": "Guerra de Vietnam",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra de Vietnam",
+					"url": "https://es.wikipedia.org/wiki/Guerra_de_Vietnam",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Vietnam del Sur (guerrilla y ofensivas)",
+					"tipo": "frente",
+					"desde": 1960,
+					"hasta": 1975,
+					"poligono": [
+						[
+							17.0,
+							106.5
+						],
+						[
+							16.0,
+							108.8
+						],
+						[
+							10.0,
+							107.2
+						],
+						[
+							8.8,
+							104.8
+						],
+						[
+							11.5,
+							105.5
+						]
+					]
+				},
+				{
+					"nombre": "Bombardeos sobre el Norte (Rolling Thunder)",
+					"tipo": "frente",
+					"desde": 1965,
+					"hasta": 1972,
+					"poligono": [
+						[
+							21.5,
+							104.8
+						],
+						[
+							21.3,
+							107.2
+						],
+						[
+							18.5,
+							106.2
+						],
+						[
+							19.0,
+							104.5
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Ofensiva del Tet",
+					"anio": 1968,
+					"lat": 16.47,
+					"lng": 107.58,
+					"descripcion": "El asalto simultáneo a cien ciudades quiebra la opinión pública estadounidense; Hué, arrasada.",
+					"wiki": "Ofensiva del Tet"
+				},
+				{
+					"nombre": "Caída de Saigón",
+					"anio": 1975,
+					"lat": 10.78,
+					"lng": 106.7,
+					"descripcion": "Los tanques norvietnamitas entran en el palacio presidencial; evacuación en helicóptero de la embajada.",
+					"wiki": "Caída de Saigón"
+				}
+			]
+		},
+		{
+			"id": "guerra-iran-irak",
+			"nombre": "Guerra Irán-Irak",
+			"inicio": 1980,
+			"fin": 1988,
+			"paises": [
+				"Irán",
+				"Irak"
+			],
+			"bajas": "~1 millón de muertos",
+			"descripcion": "Sadam Huseín invade el Irán revolucionario esperando una victoria rápida: ocho años de guerra de trincheras, gas y «oleadas humanas» para volver a la frontera inicial.",
+			"wiki": "Guerra Irán-Irak",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra Irán-Irak",
+					"url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Frente del Shatt al-Arab y Juzestán",
+					"tipo": "frente",
+					"desde": 1980,
+					"hasta": 1988,
+					"poligono": [
+						[
+							33.0,
+							45.5
+						],
+						[
+							32.5,
+							48.8
+						],
+						[
+							29.9,
+							48.8
+						],
+						[
+							30.5,
+							46.5
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Batalla de Jorramchahr",
+					"anio": 1980,
+					"lat": 30.44,
+					"lng": 48.18,
+					"descripcion": "La «Stalingrado iraní»: Irak toma la ciudad casa por casa; Irán la recupera en 1982."
+				},
+				{
+					"nombre": "Toma de la península de Fao",
+					"anio": 1986,
+					"lat": 29.98,
+					"lng": 48.47,
+					"descripcion": "Irán corta el acceso iraquí al Golfo durante dos años."
+				}
+			]
+		},
+		{
+			"id": "guerras-yugoslavas",
+			"nombre": "Guerras yugoslavas",
+			"inicio": 1991,
+			"fin": 2001,
+			"paises": [
+				"Yugoslavia",
+				"Croacia",
+				"Bosnia",
+				"Serbia",
+				"Kosovo"
+			],
+			"bajas": "~130.000-140.000 muertos y millones de desplazados",
+			"descripcion": "La desintegración de Yugoslavia en guerras de limpieza étnica: Eslovenia, Croacia, Bosnia (con el sitio de Sarajevo) y Kosovo, hasta la intervención de la OTAN.",
+			"wiki": "Guerras yugoslavas",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerras yugoslavas",
+					"url": "https://es.wikipedia.org/wiki/Guerras_yugoslavas",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Guerra de Croacia",
+					"tipo": "frente",
+					"desde": 1991,
+					"hasta": 1995,
+					"poligono": [
+						[
+							45.9,
+							15.6
+						],
+						[
+							45.5,
+							19.0
+						],
+						[
+							44.3,
+							17.0
+						],
+						[
+							44.0,
+							15.2
+						]
+					]
+				},
+				{
+					"nombre": "Guerra de Bosnia",
+					"tipo": "frente",
+					"desde": 1992,
+					"hasta": 1995,
+					"poligono": [
+						[
+							45.2,
+							16.2
+						],
+						[
+							44.8,
+							19.4
+						],
+						[
+							42.9,
+							18.5
+						],
+						[
+							43.3,
+							16.5
+						]
+					]
+				},
+				{
+					"nombre": "Guerra de Kosovo",
+					"tipo": "frente",
+					"desde": 1998,
+					"hasta": 1999,
+					"poligono": [
+						[
+							43.2,
+							20.0
+						],
+						[
+							43.1,
+							21.7
+						],
+						[
+							42.0,
+							21.3
+						],
+						[
+							42.1,
+							20.0
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Batalla de Vukovar",
+					"anio": 1991,
+					"lat": 45.35,
+					"lng": 19.0,
+					"descripcion": "87 días de asedio; la primera ciudad europea arrasada desde 1945.",
+					"wiki": "Batalla de Vukovar"
+				},
+				{
+					"nombre": "Sitio de Sarajevo",
+					"anio": 1992,
+					"hasta": 1996,
+					"lat": 43.86,
+					"lng": 18.41,
+					"bajas": "~14.000 muertos",
+					"descripcion": "El asedio más largo a una capital en la historia moderna: 1.425 días.",
+					"wiki": "Sitio de Sarajevo"
+				}
+			]
+		},
+		{
+			"id": "genocidio-ruanda",
+			"nombre": "Genocidio de Ruanda",
+			"inicio": 1994,
+			"fin": 1994,
+			"paises": [
+				"Ruanda"
+			],
+			"bajas": "~800.000 tutsis y hutus moderados asesinados en cien días",
+			"descripcion": "Tras el derribo del avión presidencial, el poder hutu organiza el exterminio de los tutsis; el Frente Patriótico Ruandés de Kagame toma el país y detiene la matanza.",
+			"wiki": "Genocidio de Ruanda",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Genocidio de Ruanda",
+					"url": "https://es.wikipedia.org/wiki/Genocidio_de_Ruanda",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Ruanda",
+					"tipo": "frente",
+					"desde": 1994,
+					"hasta": 1994,
+					"poligono": [
+						[
+							-1.1,
+							29.0
+						],
+						[
+							-1.1,
+							30.9
+						],
+						[
+							-2.8,
+							30.8
+						],
+						[
+							-2.8,
+							29.0
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Toma de Kigali",
+					"anio": 1994,
+					"lat": -1.95,
+					"lng": 30.06,
+					"descripcion": "El FPR entra en la capital el 4 de julio y pone fin al genocidio."
+				}
+			]
+		},
+		{
+			"id": "guerra-golfo",
+			"nombre": "Guerra del Golfo",
+			"inicio": 1990,
+			"fin": 1991,
+			"paises": [
+				"Irak",
+				"Kuwait",
+				"Estados Unidos",
+				"Arabia Saudí",
+				"Gran Bretaña",
+				"Francia"
+			],
+			"bajas": "~25.000-50.000 muertos iraquíes; 292 de la coalición",
+			"descripcion": "Sadam invade Kuwait; una coalición de 35 países lo expulsa en la operación Tormenta del Desierto: cien horas de guerra terrestre tras seis semanas de bombardeo.",
+			"wiki": "Guerra del Golfo",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Guerra del Golfo",
+					"url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Kuwait ocupado",
+					"tipo": "ocupado",
+					"desde": 1990,
+					"hasta": 1991,
+					"poligono": [
+						[
+							30.1,
+							46.5
+						],
+						[
+							30.0,
+							48.4
+						],
+						[
+							28.6,
+							48.3
+						],
+						[
+							28.5,
+							46.5
+						]
+					]
+				},
+				{
+					"nombre": "Tormenta del Desierto",
+					"tipo": "frente",
+					"desde": 1991,
+					"hasta": 1991,
+					"poligono": [
+						[
+							31.0,
+							44.5
+						],
+						[
+							30.5,
+							48.0
+						],
+						[
+							28.8,
+							47.8
+						],
+						[
+							29.2,
+							44.8
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Liberación de la ciudad de Kuwait",
+					"anio": 1991,
+					"lat": 29.38,
+					"lng": 47.99,
+					"descripcion": "La coalición entra en la capital el 27 de febrero; los pozos de petróleo arden."
+				}
+			]
 		}
 	],
 	"eventos": [
@@ -24867,6 +26356,253 @@
 					"url": "https://es.wikipedia.org/wiki/Vinlandia",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-02"
+				}
+			]
+		},
+		{
+			"nombre": "Peregrinación de Mansa Musa a La Meca",
+			"anio": 1324,
+			"lat": 30.05,
+			"lng": 31.25,
+			"paises": [
+				"Imperio de Malí"
+			],
+			"descripcion": "El emperador de Malí cruza África con tanto oro que hunde su precio en El Cairo durante años: el mapa de Europa empieza a dibujar Tombuctú.",
+			"wiki": "Mansa Musa",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Mansa Musa",
+					"url": "https://es.wikipedia.org/wiki/Mansa_Musa",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Restauración Meiji",
+			"anio": 1868,
+			"lat": 35.68,
+			"lng": 139.69,
+			"paises": [
+				"Japón"
+			],
+			"descripcion": "Japón desmonta el sogunato y se industrializa en una generación: de país cerrado a potencia mundial.",
+			"wiki": "Restauración Meiji",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Restauración Meiji",
+					"url": "https://es.wikipedia.org/wiki/Restauración_Meiji",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Abolición de la esclavitud",
+			"anio": 1833,
+			"hasta": 1888,
+			"lat": 51.5,
+			"lng": -0.12,
+			"paises": [
+				"Gran Bretaña",
+				"Estados Unidos",
+				"Brasil"
+			],
+			"descripcion": "Del Imperio británico (1833) a Estados Unidos (1865) y Brasil (1888, el último de América): medio siglo para desmantelar la esclavitud legal atlántica.",
+			"wiki": "Abolicionismo",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Abolicionismo",
+					"url": "https://es.wikipedia.org/wiki/Abolicionismo",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Conferencia de Berlín: el reparto de África",
+			"anio": 1884,
+			"hasta": 1885,
+			"lat": 52.52,
+			"lng": 13.4,
+			"paises": [
+				"Alemania",
+				"Francia",
+				"Gran Bretaña",
+				"Portugal",
+				"España"
+			],
+			"descripcion": "Las potencias europeas se reparten África con regla y escuadra, sin un solo africano en la mesa.",
+			"wiki": "Conferencia de Berlín",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Conferencia de Berlín",
+					"url": "https://es.wikipedia.org/wiki/Conferencia_de_Berlín",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Partición de la India",
+			"anio": 1947,
+			"lat": 28.61,
+			"lng": 77.21,
+			"paises": [
+				"India",
+				"Pakistán",
+				"Gran Bretaña"
+			],
+			"descripcion": "Independencia y partición en India y Pakistán: ~15 millones de desplazados y hasta un millón de muertos en la mayor migración forzosa de la historia.",
+			"wiki": "Partición de la India",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Partición de la India",
+					"url": "https://es.wikipedia.org/wiki/Partición_de_la_India",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Crisis de Suez",
+			"anio": 1956,
+			"lat": 30.59,
+			"lng": 32.27,
+			"paises": [
+				"Egipto",
+				"Gran Bretaña",
+				"Francia",
+				"Israel"
+			],
+			"descripcion": "Nasser nacionaliza el canal; la expedición anglo-francesa fracasa por la presión de EE. UU. y la URSS: fin simbólico de los imperios europeos.",
+			"wiki": "Crisis de Suez",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Crisis de Suez",
+					"url": "https://es.wikipedia.org/wiki/Crisis_de_Suez",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Crisis de los misiles de Cuba",
+			"anio": 1962,
+			"lat": 23.11,
+			"lng": -82.37,
+			"paises": [
+				"Cuba",
+				"Estados Unidos",
+				"URSS"
+			],
+			"descripcion": "Trece días al borde de la guerra nuclear: los misiles soviéticos se retiran a cambio de los estadounidenses en Turquía.",
+			"wiki": "Crisis de los misiles de Cuba",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Crisis de los misiles de Cuba",
+					"url": "https://es.wikipedia.org/wiki/Crisis_de_los_misiles_de_Cuba",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Revolución Cultural china",
+			"anio": 1966,
+			"hasta": 1976,
+			"lat": 39.9,
+			"lng": 116.4,
+			"paises": [
+				"China"
+			],
+			"descripcion": "Mao lanza a los guardias rojos contra «los cuatro viejos»: una década de purgas y caos con entre medio millón y dos millones de muertos.",
+			"wiki": "Revolución Cultural",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Revolución Cultural",
+					"url": "https://es.wikipedia.org/wiki/Revolución_Cultural",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Fin del apartheid",
+			"anio": 1994,
+			"lat": -25.75,
+			"lng": 28.19,
+			"paises": [
+				"Sudáfrica"
+			],
+			"descripcion": "Nelson Mandela, 27 años preso, gana las primeras elecciones libres de Sudáfrica y entierra el apartheid.",
+			"wiki": "Apartheid",
+			"fuentes": [
+				{
+					"id": "openstax:world-history",
+					"url": "https://openstax.org/details/books/world-history-volume-1",
+					"licencia": "CC BY-NC-SA 4.0",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Apartheid",
+					"url": "https://es.wikipedia.org/wiki/Apartheid",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				},
+				{
+					"id": "wikipedia-es:Nelson Mandela",
+					"url": "https://es.wikipedia.org/wiki/Nelson_Mandela",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
 				}
 			]
 		}
