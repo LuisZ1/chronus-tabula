@@ -22,15 +22,23 @@ function paisDeTerritorio(t) {
 	);
 }
 
-function updateTerritorios() {
+async function updateTerritorios() {
 	if (!state.territoryLayer || !historia) return;
 	if (state.lastTerrYear === state.requestedYear) return;
 	state.lastTerrYear = state.requestedYear;
-	state.territoryLayer.clearLayers();
 	const y = state.requestedYear;
-	for (const t of historia.territorios || []) {
+	const enRango = (historia.territorios || []).filter(t => {
 		const fin = t.hasta !== undefined && t.hasta !== null ? t.hasta : MAX_YEAR;
-		if (y < t.desde || y > fin) continue;
+		return y >= t.desde && y <= fin;
+	});
+	// si algún territorio dibuja su extensión (polígono), cargar antes el
+	// contorno de costas para recortarlo igual que las zonas de guerra
+	if (enRango.some(t => t.poligono)) {
+		await ensureLand();
+		if (state.lastTerrYear !== y) return; // el usuario ya cambió de año
+	}
+	state.territoryLayer.clearLayers();
+	for (const t of enRango) {
 		const p = paisDeTerritorio(t);
 		// color del país TAL COMO LO PINTA EL MAPA de este año: el nombre de la
 		// entidad cambia entre siglos (Great Britain → United Kingdom…), así que
@@ -38,6 +46,24 @@ function updateTerritorios() {
 		const nombres = (p && p.nombres) || [];
 		const enMapa = nombres.find(n => state.areaByName.has(n));
 		const color = colorFor(enMapa || nombres[0] || t.pais || t.nombre);
+		// extensión aproximada: polígono recortado a la costa (para entidades
+		// sin frontera propia en los mapas, como Sumeria o las póleis griegas)
+		if (t.poligono) {
+			const anillos = t.mar ? [t.poligono] : clipZoneToLand('terr|' + t.nombre, t.poligono);
+			if (anillos) {
+				L.polygon(anillos, {
+					pane: 'warzones',
+					renderer: warRenderer,
+					className: 'terr-zone',
+					color,
+					weight: 1,
+					fillColor: color,
+					fillOpacity: 0.3
+				})
+					.bindPopup(() => territorioPopupHtml(t, color), { maxWidth: 340 })
+					.addTo(state.territoryLayer);
+			}
+		}
 		const icon = L.divIcon({
 			html: `<span class="terr-label"><span class="terr-dot" style="background:${color}"></span><span class="terr-name">${escHtml(t.nombre)}</span></span>`,
 			className: 'battle-wrap',
