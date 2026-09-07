@@ -13,8 +13,8 @@ function updateLegend() {
 		const e = state.legendData[i];
 		const km2 = e.area * DEG2_TO_KM2;
 		if (km2 < 1000) break;
-		const pais = paisPorNombre.get(e.key);
-		const display = (pais && pais.nombre) || e.key;
+		// nombre por época (RD del Congo…); la leyenda sí admite nombres históricos
+		const display = nombreVisible(e.key, state.shownYear, true);
 		rows.push(
 			`<div class="legend-row" data-i="${i}"><span class="chip" style="background:${colorFor(e.key)}"></span><span class="lname" title="${escHtml(e.key)}">${escHtml(display)}</span><span class="larea">${fmtKm2(km2)}</span></div>`
 		);

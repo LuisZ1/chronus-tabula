@@ -5678,7 +5678,8 @@
 			"id": "sudan",
 			"nombre": "Sudán",
 			"nombres": [
-				"Sudan"
+				"Sudan",
+				"Anglo-Egyption Sudan"
 			],
 			"wiki": "Sudán",
 			"wikidata": "Q1049",
@@ -5730,7 +5731,9 @@
 			"nombre": "Etiopía",
 			"nombres": [
 				"Ethiopia",
-				"Axum"
+				"Axum",
+				"Ethiopia (Italy)",
+				"Abyssinia"
 			],
 			"wiki": "Etiopía",
 			"wikidata": "Q115",
@@ -5760,7 +5763,8 @@
 			"id": "libia",
 			"nombre": "Libia",
 			"nombres": [
-				"Libya"
+				"Libya",
+				"Libya (IT)"
 			],
 			"wiki": "Libia",
 			"wikidata": "Q1016",
@@ -6246,6 +6250,17 @@
 					"url": "https://es.wikipedia.org/wiki/Imperio_de_Malí",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-07"
+				}
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Imperio de Malí",
+					"desde": 1230,
+					"hasta": 1600
+				},
+				{
+					"nombre": "Malí",
+					"desde": 1960
 				}
 			]
 		},
@@ -7302,6 +7317,701 @@
 					"url": "https://es.wikipedia.org/wiki/Xia_Occidental",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "argelia",
+			"nombre": "Argelia",
+			"nombres": [
+				"Algeria",
+				"Algeria (France)",
+				"Algeria (FR)"
+			],
+			"wiki": "es:Argelia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Argelia",
+					"url": "https://es.wikipedia.org/wiki/Argelia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "angola",
+			"nombre": "Angola",
+			"nombres": [
+				"Angola",
+				"Angola (Portugal)"
+			],
+			"wiki": "es:Angola",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Angola",
+					"url": "https://es.wikipedia.org/wiki/Angola",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "benin",
+			"nombre": "Benín",
+			"nombres": [
+				"Benin"
+			],
+			"wiki": "es:Benín",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Benín",
+					"url": "https://es.wikipedia.org/wiki/Ben%C3%ADn",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "botsuana",
+			"nombre": "Botsuana",
+			"nombres": [
+				"Botswana"
+			],
+			"wiki": "es:Botsuana",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Botsuana",
+					"url": "https://es.wikipedia.org/wiki/Botsuana",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "burkina-faso",
+			"nombre": "Burkina Faso",
+			"nombres": [
+				"Burkina Faso"
+			],
+			"wiki": "es:Burkina Faso",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Burkina Faso",
+					"url": "https://es.wikipedia.org/wiki/Burkina_Faso",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "burundi",
+			"nombre": "Burundi",
+			"nombres": [
+				"Burundi"
+			],
+			"wiki": "es:Burundi",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Burundi",
+					"url": "https://es.wikipedia.org/wiki/Burundi",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "camerun",
+			"nombre": "Camerún",
+			"nombres": [
+				"Cameroon"
+			],
+			"wiki": "es:Camerún",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Camerún",
+					"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "republica-centroafricana",
+			"nombre": "Rep. Centroafricana",
+			"nombres": [
+				"Central African Republic"
+			],
+			"wiki": "es:República Centroafricana",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): República Centroafricana",
+					"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "chad",
+			"nombre": "Chad",
+			"nombres": [
+				"Chad"
+			],
+			"wiki": "es:Chad",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Chad",
+					"url": "https://es.wikipedia.org/wiki/Chad",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "rep-congo",
+			"nombre": "Rep. del Congo",
+			"nombres": [
+				"Congo",
+				"Congo (France)"
+			],
+			"wiki": "es:República del Congo",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): República del Congo",
+					"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Congo",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "yibuti",
+			"nombre": "Yibuti",
+			"nombres": [
+				"Djibouti"
+			],
+			"wiki": "es:Yibuti",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Yibuti",
+					"url": "https://es.wikipedia.org/wiki/Yibuti",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "guinea-ecuatorial",
+			"nombre": "Guinea Ecuatorial",
+			"nombres": [
+				"Equatorial Guinea"
+			],
+			"wiki": "es:Guinea Ecuatorial",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Guinea Ecuatorial",
+					"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "eritrea",
+			"nombre": "Eritrea",
+			"nombres": [
+				"Eritrea",
+				"Eritrea (Italy)"
+			],
+			"wiki": "es:Eritrea",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Eritrea",
+					"url": "https://es.wikipedia.org/wiki/Eritrea",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "gabon",
+			"nombre": "Gabón",
+			"nombres": [
+				"Gabon"
+			],
+			"wiki": "es:Gabón",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Gabón",
+					"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "gambia",
+			"nombre": "Gambia",
+			"nombres": [
+				"Gambia, The",
+				"Gambia"
+			],
+			"wiki": "es:Gambia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Gambia",
+					"url": "https://es.wikipedia.org/wiki/Gambia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "ghana",
+			"nombre": "Ghana",
+			"nombres": [
+				"Ghana"
+			],
+			"wiki": "es:Ghana",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Ghana",
+					"url": "https://es.wikipedia.org/wiki/Ghana",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "guinea",
+			"nombre": "Guinea",
+			"nombres": [
+				"Guinea"
+			],
+			"wiki": "es:Guinea",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Guinea",
+					"url": "https://es.wikipedia.org/wiki/Guinea",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "guinea-bisau",
+			"nombre": "Guinea-Bisáu",
+			"nombres": [
+				"Guinea-Bissau",
+				"Guinea-Bissau (Portugal)"
+			],
+			"wiki": "es:Guinea-Bisáu",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Guinea-Bisáu",
+					"url": "https://es.wikipedia.org/wiki/Guinea-Bis%C3%A1u",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "costa-marfil",
+			"nombre": "Costa de Marfil",
+			"nombres": [
+				"Ivory Coast"
+			],
+			"wiki": "es:Costa de Marfil",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Costa de Marfil",
+					"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "kenia",
+			"nombre": "Kenia",
+			"nombres": [
+				"Kenya"
+			],
+			"wiki": "es:Kenia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Kenia",
+					"url": "https://es.wikipedia.org/wiki/Kenia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "lesoto",
+			"nombre": "Lesoto",
+			"nombres": [
+				"Lesotho"
+			],
+			"wiki": "es:Lesoto",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Lesoto",
+					"url": "https://es.wikipedia.org/wiki/Lesoto",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "liberia",
+			"nombre": "Liberia",
+			"nombres": [
+				"Liberia"
+			],
+			"wiki": "es:Liberia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Liberia",
+					"url": "https://es.wikipedia.org/wiki/Liberia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "madagascar",
+			"nombre": "Madagascar",
+			"nombres": [
+				"Madagascar",
+				"Madagascar (France)"
+			],
+			"wiki": "es:Madagascar",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Madagascar",
+					"url": "https://es.wikipedia.org/wiki/Madagascar",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "malaui",
+			"nombre": "Malaui",
+			"nombres": [
+				"Malawi"
+			],
+			"wiki": "es:Malaui",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Malaui",
+					"url": "https://es.wikipedia.org/wiki/Malaui",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "mauritania",
+			"nombre": "Mauritania",
+			"nombres": [
+				"Mauritania"
+			],
+			"wiki": "es:Mauritania",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Mauritania",
+					"url": "https://es.wikipedia.org/wiki/Mauritania",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "marruecos",
+			"nombre": "Marruecos",
+			"nombres": [
+				"Morocco",
+				"Morocco (France)"
+			],
+			"wiki": "es:Marruecos",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Marruecos",
+					"url": "https://es.wikipedia.org/wiki/Marruecos",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "mozambique",
+			"nombre": "Mozambique",
+			"nombres": [
+				"Mozambique",
+				"Mozambique (Portugal)"
+			],
+			"wiki": "es:Mozambique",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Mozambique",
+					"url": "https://es.wikipedia.org/wiki/Mozambique",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "namibia",
+			"nombre": "Namibia",
+			"nombres": [
+				"Namibia"
+			],
+			"wiki": "es:Namibia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Namibia",
+					"url": "https://es.wikipedia.org/wiki/Namibia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "niger",
+			"nombre": "Níger",
+			"nombres": [
+				"Niger"
+			],
+			"wiki": "es:Níger",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Níger",
+					"url": "https://es.wikipedia.org/wiki/N%C3%ADger",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "nigeria",
+			"nombre": "Nigeria",
+			"nombres": [
+				"Nigeria"
+			],
+			"wiki": "es:Nigeria",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Nigeria",
+					"url": "https://es.wikipedia.org/wiki/Nigeria",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "ruanda",
+			"nombre": "Ruanda",
+			"nombres": [
+				"Rwanda",
+				"Rwanda (Belgium)"
+			],
+			"wiki": "es:Ruanda",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Ruanda",
+					"url": "https://es.wikipedia.org/wiki/Ruanda",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "senegal",
+			"nombre": "Senegal",
+			"nombres": [
+				"Senegal"
+			],
+			"wiki": "es:Senegal",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Senegal",
+					"url": "https://es.wikipedia.org/wiki/Senegal",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "sierra-leona",
+			"nombre": "Sierra Leona",
+			"nombres": [
+				"Sierra Leone"
+			],
+			"wiki": "es:Sierra Leona",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Sierra Leona",
+					"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "somalia",
+			"nombre": "Somalia",
+			"nombres": [
+				"Somalia"
+			],
+			"wiki": "es:Somalia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Somalia",
+					"url": "https://es.wikipedia.org/wiki/Somalia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "sudafrica",
+			"nombre": "Sudáfrica",
+			"nombres": [
+				"South Africa"
+			],
+			"wiki": "es:Sudáfrica",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Sudáfrica",
+					"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "esuatini",
+			"nombre": "Esuatini",
+			"nombres": [
+				"Swaziland"
+			],
+			"wiki": "es:Esuatini",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Esuatini",
+					"url": "https://es.wikipedia.org/wiki/Esuatini",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "tanzania",
+			"nombre": "Tanzania",
+			"nombres": [
+				"Tanzania, United Republic of"
+			],
+			"wiki": "es:Tanzania",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Tanzania",
+					"url": "https://es.wikipedia.org/wiki/Tanzania",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "togo",
+			"nombre": "Togo",
+			"nombres": [
+				"Togo"
+			],
+			"wiki": "es:Togo",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Togo",
+					"url": "https://es.wikipedia.org/wiki/Togo",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "tunez",
+			"nombre": "Túnez",
+			"nombres": [
+				"Tunisia",
+				"Tunis"
+			],
+			"wiki": "es:Túnez",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Túnez",
+					"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "uganda",
+			"nombre": "Uganda",
+			"nombres": [
+				"Uganda"
+			],
+			"wiki": "es:Uganda",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Uganda",
+					"url": "https://es.wikipedia.org/wiki/Uganda",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "sahara-occidental",
+			"nombre": "Sáhara Occidental",
+			"nombres": [
+				"Western Sahara"
+			],
+			"wiki": "es:Sáhara Occidental",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Sáhara Occidental",
+					"url": "https://es.wikipedia.org/wiki/S%C3%A1hara_Occidental",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "zambia",
+			"nombre": "Zambia",
+			"nombres": [
+				"Zambia"
+			],
+			"wiki": "es:Zambia",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Zambia",
+					"url": "https://es.wikipedia.org/wiki/Zambia",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "zimbabue-pais",
+			"nombre": "Zimbabue",
+			"nombres": [
+				"Zimbabwe"
+			],
+			"wiki": "es:Zimbabue",
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): Zimbabue",
+					"url": "https://es.wikipedia.org/wiki/Zimbabue",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "rd-congo",
+			"nombre": "RD del Congo",
+			"nombres": [
+				"Zaire",
+				"Belgian Congo",
+				"Zaire (Belgium)"
+			],
+			"wiki": "es:República Democrática del Congo",
+			"nombres_periodo": [
+				{
+					"nombre": "Congo Belga",
+					"desde": -3000,
+					"hasta": 1959
+				},
+				{
+					"nombre": "Congo (Léopoldville)",
+					"desde": 1960,
+					"hasta": 1970
+				},
+				{
+					"nombre": "Zaire",
+					"desde": 1971,
+					"hasta": 1996
+				},
+				{
+					"nombre": "RD del Congo",
+					"desde": 1997
+				}
+			],
+			"fuentes": [
+				{
+					"id": "Wikipedia (es): República Democrática del Congo",
+					"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
+					"consultado": "2026-09"
 				}
 			]
 		}

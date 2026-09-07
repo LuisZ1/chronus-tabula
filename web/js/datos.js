@@ -27,6 +27,37 @@ function paisFor(props) {
 	return paisPorNombre.get(props.NAME) || paisPorNombre.get(props.SUBJECTO) || null;
 }
 
+/* ---------- nombre visible de un país en el mapa/leyenda ----------
+   El GeoJSON rotula en inglés y a veces con un nombre desactualizado
+   (p. ej. «Zaire» para la RD del Congo). Preferimos el nombre de la ficha:
+   - si define 'nombres_periodo', el que corresponda al año (así cada mapa
+     muestra el nombre correcto de esa época: Congo Belga → Zaire → RD del Congo);
+   - si no, el 'nombre' de la ficha, PERO en la etiqueta del mapa solo cuando es
+     un nombre moderno (no un imperio/reino histórico), para no rotular un país
+     moderno como su antiguo imperio; la leyenda sí admite el nombre histórico.
+   - en último caso, el nombre original del GeoJSON. */
+const NOMBRE_HISTORICO = /imperio|reino|califato|dinast[íi]a|vikingos|dos naciones|sacro|bizan|hel[ée]n|antigua|cl[áa]sic|\//i;
+
+function nombrePeriodo(pais, y) {
+	if (!pais || !Array.isArray(pais.nombres_periodo)) return null;
+	for (const per of pais.nombres_periodo) {
+		const desde = per.desde ?? -1e9;
+		const hasta = per.hasta ?? 1e9;
+		if (y >= desde && y <= hasta) return per.nombre;
+	}
+	return null;
+}
+
+function nombreVisible(name, y, permitirHistorico) {
+	const pais = paisPorNombre.get(name);
+	if (pais) {
+		const per = nombrePeriodo(pais, y);
+		if (per) return per;
+		if (pais.nombre && (permitirHistorico || !NOMBRE_HISTORICO.test(pais.nombre))) return pais.nombre;
+	}
+	return name;
+}
+
 function gobernanteEn(pais, y) {
 	if (!pais || !pais.gobernantes) return [];
 	return pais.gobernantes.filter(g => g.desde <= y && y <= g.hasta);
