@@ -13,3 +13,6 @@ _to_delete_scripts/
 # sistema
 .DS_Store
 Thumbs.db
+
+# libros de texto de referencia (material con licencia/copyright: NO se sube)
+libros/
