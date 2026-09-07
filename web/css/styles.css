@@ -114,6 +114,24 @@ body {
 	font-size: 15px;
 }
 
+/* salto de las flechas: oculto en escritorio (el tooltip basta), visible en móvil */
+.paso-info {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin: 6px 0 0;
+	font:
+		600 13px system-ui,
+		sans-serif;
+	color: #2c3e50;
+	font-variant-numeric: tabular-nums;
+}
+.paso-info .pi-a {
+	color: #2980b9;
+	font-size: 12px;
+}
+
 #yearSlider {
 	flex: 1;
 	accent-color: #2980b9;
@@ -378,9 +396,8 @@ body {
 		background: #fff;
 		border: 4px solid #2980b9;
 	}
-	#timeMarks {
-		height: 26px;
-		margin: 0 4px;
+	.paso-info {
+		display: flex;
 	}
 	#layersPanel {
 		top: 56px;
@@ -791,6 +808,24 @@ path.war-occupied:hover {
 	height: 32px;
 	margin: 0 8px;
 }
+/* franja de marcas de móvil: oculta en escritorio (allí van bajo el deslizador) */
+#timeMarksM {
+	display: none;
+}
+/* móvil: el hueco bajo el deslizador es demasiado estrecho para las pastillas,
+   así que ocultamos ese carril y usamos una franja a todo el ancho. Va DESPUÉS
+   de la regla base para ganarle (misma especificidad, gana la última). */
+@media (max-width: 720px) {
+	#timeMarks {
+		display: none;
+	}
+	#timeMarksM {
+		display: block;
+		position: relative;
+		height: 44px;
+		margin: 2px 8px 0;
+	}
+}
 .tmark {
 	position: absolute;
 	transform: translateX(-50%);
@@ -834,6 +869,16 @@ path.war-occupied:hover {
 }
 .tmc-event {
 	background: #b8860b;
+}
+/* pastillas grandes y tocables para el modo móvil (⚔️3, ⭐2) */
+.tm-mob {
+	min-width: 24px;
+	height: 18px;
+	border-radius: 9px;
+	padding: 0 6px;
+	font:
+		700 11px/18px system-ui,
+		sans-serif;
 }
 .tm-limit {
 	top: 6px;

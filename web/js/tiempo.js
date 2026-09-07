@@ -186,6 +186,7 @@ function updateEraChips() {
 	});
 	const on = box.children[activeEra];
 	if (on && on.scrollIntoView) on.scrollIntoView({ inline: 'center', block: 'nearest' });
+	updateEdgeLabels(); // que los extremos coincidan siempre con la época activa
 	actualizarPasoFlechas();
 }
 
@@ -262,7 +263,9 @@ function hideSliderBubble() {
 }
 
 function buildTimeMarks() {
-	const box = document.getElementById('timeMarks');
+	// en móvil las marcas van en su propia franja a todo el ancho (#timeMarksM);
+	// en escritorio, bajo el deslizador (#timeMarks) para alinearse con él
+	const box = document.getElementById(isMobile() ? 'timeMarksM' : 'timeMarks');
 	if (!box || !historia) return;
 	closeMarkPop();
 	box.innerHTML = '';
@@ -289,35 +292,65 @@ function buildTimeMarks() {
 
 	const fmt = it => `${it.n} (${i18n.formatYear(it.y)}${it.y2 ? '–' + i18n.formatYear(it.y2) : ''})`;
 
+	// en móvil el dedo necesita blancos grandes: agrupamos mucho más (pastillas
+	// con el número) y las hacemos tocables; en escritorio, marcas finas y densas.
+	const mob = isMobile();
+	const gap = 1.5; // escritorio: encadenado fino por proximidad
+	const binW = 13; // móvil: ancho de cada casilla (%) -> ~7-8 pastillas por carril
+
 	for (const lane of lanes) {
 		lane.items.sort((a, b) => a.y - b.y);
-		// clustering por proximidad en % de la barra
 		const groups = [];
-		let g = null;
-		for (const it of lane.items) {
-			const p = (curYearToPos(it.y) / SLIDER_MAX) * 100;
-			if (g && p - g.pLast < 1.5) {
-				g.list.push(it);
-				g.pLast = p;
-				g.p = (g.p0 + p) / 2;
-			} else {
-				g = { p0: p, pLast: p, p, list: [it] };
-				groups.push(g);
+		if (mob) {
+			// móvil: casillas de ancho fijo (no encadenado, que colapsaría todo en
+			// una sola pastilla con datos densos); cada pastilla va al centro de su
+			// casilla -> número acotado, bien repartido y sin solapes.
+			const bins = new Map();
+			for (const it of lane.items) {
+				const p = (curYearToPos(it.y) / SLIDER_MAX) * 100;
+				const k = Math.floor(p / binW);
+				let arr = bins.get(k);
+				if (!arr) bins.set(k, (arr = []));
+				arr.push(it);
+			}
+			for (const [k, list] of bins) groups.push({ p: (k + 0.5) * binW, list });
+		} else {
+			// escritorio: encadenado por proximidad en % de la barra
+			let g = null;
+			for (const it of lane.items) {
+				const p = (curYearToPos(it.y) / SLIDER_MAX) * 100;
+				if (g && p - g.pLast < gap) {
+					g.list.push(it);
+					g.pLast = p;
+					g.p = (g.p0 + p) / 2;
+				} else {
+					g = { p0: p, pLast: p, p, list: [it] };
+					groups.push(g);
+				}
 			}
 		}
 		for (const gr of groups) {
 			const el = document.createElement('span');
 			el.tabIndex = 0;
+			const war = lane.top === 1;
 			if (gr.list.length > 1) {
-				el.className = 'tmark tm-cluster ' + (lane.top === 1 ? 'tmc-war' : 'tmc-event');
-				el.textContent = gr.list.length;
-				el.style.top = lane.top - 2 + 'px';
+				el.className =
+					'tmark tm-cluster ' + (war ? 'tmc-war' : 'tmc-event') + (mob ? ' tm-mob' : '');
+				el.textContent = mob ? (war ? '⚔️' : '⭐') + gr.list.length : gr.list.length;
+				el.style.top = (mob ? (war ? 0 : 20) : lane.top - 2) + 'px';
 				el.title = gr.list.slice(0, 8).map(fmt).join('\n') + (gr.list.length > 8 ? '\n…' : '');
 			} else {
 				const it = gr.list[0];
-				el.className = 'tmark ' + (it.tipo === 'war' ? 'tm-war' : 'tm-event');
-				if (it.tipo === 'event') el.textContent = it.inv ? '💡' : '★';
-				el.style.top = lane.top + 'px';
+				if (mob) {
+					// en móvil, también las marcas sueltas son pastillas tocables
+					el.className = 'tmark tm-cluster tm-mob ' + (war ? 'tmc-war' : 'tmc-event');
+					el.textContent = war ? '⚔️' : it.inv ? '💡' : '⭐';
+					el.style.top = (war ? 0 : 20) + 'px';
+				} else {
+					el.className = 'tmark ' + (it.tipo === 'war' ? 'tm-war' : 'tm-event');
+					if (it.tipo === 'event') el.textContent = it.inv ? '💡' : '★';
+					el.style.top = lane.top + 'px';
+				}
 				el.title = fmt(it);
 			}
 			el.style.left = gr.p + '%';
@@ -366,6 +399,11 @@ function actualizarPasoFlechas() {
 		next = document.getElementById('nextYear');
 	if (prev) prev.title = (en ? 'Back ' : 'Retroceder ') + paso + unidad;
 	if (next) next.title = (en ? 'Forward ' : 'Avanzar ') + paso + unidad;
+	// en móvil el tooltip no se ve al tocar: mostramos el salto en un texto fijo
+	const info = document.getElementById('pasoInfo');
+	if (info)
+		info.innerHTML =
+			'<span class="pi-a">◀</span> ±' + paso + unidad + ' <span class="pi-a">▶</span>';
 }
 
 /* ---------- petición de año (barra, input, play, hash) ---------- */
