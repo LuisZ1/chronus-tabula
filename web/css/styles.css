@@ -164,6 +164,77 @@ body {
 	color: #2980b9;
 }
 
+/* ---- Navegador de zoom tipo Premiere (escritorio) ---- */
+#navBar {
+	position: relative;
+	height: 22px;
+	margin: 2px 40px 0;
+	border: 1px solid var(--line, #ddd8cd);
+	border-radius: 7px;
+	overflow: hidden;
+	background: #ece7dc;
+	touch-action: none;
+	user-select: none;
+	cursor: pointer;
+}
+#navBar .nav-eras {
+	position: absolute;
+	inset: 0;
+	opacity: 0.4;
+	background: linear-gradient(
+		90deg,
+		#cbb78f 0 20%,
+		#a8c0a0 20% 40%,
+		#9db6cf 40% 78%,
+		#c9a3b4 78% 100%
+	);
+}
+#navBar .nav-win {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: rgba(41, 128, 158, 0.24);
+	border: 1px solid #2980b9;
+	border-radius: 3px;
+	cursor: grab;
+	min-width: 6px;
+}
+#navBar .nav-win:active {
+	cursor: grabbing;
+}
+#navBar .nav-h {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #2980b9;
+	cursor: ew-resize;
+}
+#navBar .nav-h.l {
+	left: -1px;
+	border-radius: 3px 0 0 3px;
+}
+#navBar .nav-h.r {
+	right: -1px;
+	border-radius: 0 3px 3px 0;
+}
+#navBar .nav-h::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 2px;
+	height: 10px;
+	background: #fff;
+	border-radius: 1px;
+}
+@media (max-width: 720px) {
+	#navBar {
+		display: none;
+	} /* en móvil el zoom lo dan los chips de época */
+}
+
 /* ---- Chips de época y burbuja-lupa (modo móvil) ---- */
 .era-chips {
 	display: none;
