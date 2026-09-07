@@ -5679,18 +5679,171 @@
 			"nombre": "Sudán",
 			"nombres": [
 				"Sudan",
-				"Anglo-Egyption Sudan"
+				"Anglo-Egyption Sudan",
+				"Sudán Anglo-Egipcio",
+				"República del Sudán"
 			],
-			"wiki": "Sudán",
+			"wiki": "es:Sudán",
 			"wikidata": "Q1049",
 			"fuentes": [
 				{
-					"id": "wikipedia-es:Sudán",
-					"url": "https://es.wikipedia.org/wiki/Sudán",
-					"licencia": "CC BY-SA",
-					"consultado": "2026-09-02"
+					"id": "wikipedia_es",
+					"url": "https://es.wikipedia.org/wiki/Sud%C3%A1n",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_heads",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sudan",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Sudan",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_kush",
+					"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1049",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Kush",
+					"desde": -780,
+					"hasta": 350
+				},
+				{
+					"nombre": "Estado mahdista (Mahdiyya)",
+					"desde": 1885,
+					"hasta": 1899
+				},
+				{
+					"nombre": "Sudán Anglo-Egipcio",
+					"desde": 1899,
+					"hasta": 1956
+				},
+				{
+					"nombre": "República del Sudán",
+					"desde": 1956
+				}
+			],
+			"gobernantes": [
+				{
+					"nombre": "Reino de Kush (Napata y Meroe)",
+					"desde": -780,
+					"hasta": 350,
+					"cargo": "Reino histórico nubio (dinastía kushita XXV de Egipto s. VIII a.C.; capital en Meroe desde ~300 a.C.)"
+				},
+				{
+					"nombre": "Muhammad Ahmad (el Mahdi)",
+					"desde": 1881,
+					"hasta": 1885,
+					"cargo": "Líder del Estado mahdista"
+				},
+				{
+					"nombre": "Abdallahi ibn Muhammad (el Califa)",
+					"desde": 1885,
+					"hasta": 1899,
+					"cargo": "Líder del Estado mahdista"
+				},
+				{
+					"nombre": "Ibrahim Abbud",
+					"desde": 1958,
+					"hasta": 1964,
+					"cargo": "Presidente / Jefe del Consejo Supremo"
+				},
+				{
+					"nombre": "Ismail al-Azhari",
+					"desde": 1965,
+					"hasta": 1969,
+					"cargo": "Presidente del Consejo de Soberanía"
+				},
+				{
+					"nombre": "Gaafar Nimeiry",
+					"desde": 1969,
+					"hasta": 1985,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Abdel Rahman Swar al-Dahab",
+					"desde": 1985,
+					"hasta": 1986,
+					"cargo": "Presidente del Consejo Militar Transitorio"
+				},
+				{
+					"nombre": "Ahmed al-Mirghani",
+					"desde": 1986,
+					"hasta": 1989,
+					"cargo": "Presidente del Consejo Supremo"
+				},
+				{
+					"nombre": "Omar al-Bashir",
+					"desde": 1989,
+					"hasta": 2019,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Abdel Fattah al-Burhan",
+					"desde": 2019,
+					"hasta": 2026,
+					"cargo": "Presidente del Consejo Soberano de Transición"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1956,
+					"valor": 10262536,
+					"fuente": "Wikipedia (Demographics of Sudan), censo (Sudán completo)"
+				},
+				{
+					"anio": 1973,
+					"valor": 14819000,
+					"fuente": "Wikipedia (Demographics of Sudan), censo (Sudán completo)"
+				},
+				{
+					"anio": 1983,
+					"valor": 20594000,
+					"fuente": "Wikipedia (Demographics of Sudan), censo (Sudán completo)"
+				},
+				{
+					"anio": 1993,
+					"valor": 30000000,
+					"fuente": "Wikipedia (Demographics of Sudan), censo (Sudán completo, pre-secesión)"
+				},
+				{
+					"anio": 2008,
+					"valor": 39154490,
+					"fuente": "Wikipedia (Demographics of Sudan), censo (Sudán completo, pre-secesión de Sudán del Sur 2011)"
+				},
+				{
+					"anio": 2018,
+					"valor": 41999000,
+					"fuente": "Wikipedia (Demographics of Sudan), estimación (sin Sudán del Sur)"
+				},
+				{
+					"anio": 2023,
+					"valor": 50043000,
+					"fuente": "Wikipedia (Demographics of Sudan), estimación (sin Sudán del Sur)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "1f8dcf33ae17",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "yemen",
@@ -5728,21 +5881,32 @@
 		},
 		{
 			"id": "etiopia",
-			"nombre": "Etiopía",
+			"nombre": "Etiopia",
 			"nombres": [
 				"Ethiopia",
 				"Axum",
 				"Ethiopia (Italy)",
-				"Abyssinia"
+				"Abyssinia",
+				"Abisinia",
+				"Imperio de Etiopia"
 			],
-			"wiki": "Etiopía",
+			"wiki": "es:Etiopía",
 			"wikidata": "Q115",
 			"fuentes": [
 				{
-					"id": "wikipedia-es:Etiopía",
-					"url": "https://es.wikipedia.org/wiki/Etiopía",
-					"licencia": "CC BY-SA",
-					"consultado": "2026-09-02"
+					"id": "wikipedia-es",
+					"url": "https://es.wikipedia.org/wiki/Etiop%C3%ADa",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-en-jefes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ethiopia",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q115",
+					"consultado": "2026-09"
 				}
 			],
 			"relacionados": [
@@ -5752,30 +5916,358 @@
 			],
 			"gobernantes": [
 				{
-					"desde": 325,
-					"hasta": 360,
-					"nombre": "Ezana",
-					"titulo": "Rey de Aksum, primer monarca cristiano de África"
+					"nombre": "Tewodros II",
+					"desde": 1855,
+					"hasta": 1868,
+					"cargo": "Emperador (dinastia salomonica restaurada)"
+				},
+				{
+					"nombre": "Yohannes IV",
+					"desde": 1872,
+					"hasta": 1889,
+					"cargo": "Emperador"
+				},
+				{
+					"nombre": "Menelik II",
+					"desde": 1889,
+					"hasta": 1913,
+					"cargo": "Emperador"
+				},
+				{
+					"nombre": "Iyasu V (Lij Iyasu)",
+					"desde": 1913,
+					"hasta": 1916,
+					"cargo": "Emperador designado (depuesto)"
+				},
+				{
+					"nombre": "Zewditu",
+					"desde": 1916,
+					"hasta": 1930,
+					"cargo": "Emperatriz"
+				},
+				{
+					"nombre": "Haile Selassie I",
+					"desde": 1930,
+					"hasta": 1974,
+					"cargo": "Emperador (regente desde 1916)"
+				},
+				{
+					"nombre": "Aman Andom",
+					"desde": 1974,
+					"hasta": 1974,
+					"cargo": "Jefe de Estado (Derg)"
+				},
+				{
+					"nombre": "Tafari Benti",
+					"desde": 1974,
+					"hasta": 1977,
+					"cargo": "Jefe de Estado (Derg)"
+				},
+				{
+					"nombre": "Mengistu Haile Mariam",
+					"desde": 1977,
+					"hasta": 1991,
+					"cargo": "Jefe de Estado (Derg / presidente)"
+				},
+				{
+					"nombre": "Meles Zenawi",
+					"desde": 1991,
+					"hasta": 1995,
+					"cargo": "Presidente del Gobierno de Transicion"
+				},
+				{
+					"nombre": "Negasso Gidada",
+					"desde": 1995,
+					"hasta": 2001,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Girma Wolde-Giorgis",
+					"desde": 2001,
+					"hasta": 2013,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mulatu Teshome",
+					"desde": 2013,
+					"hasta": 2018,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Sahle-Work Zewde",
+					"desde": 2018,
+					"hasta": 2024,
+					"cargo": "Presidenta"
+				},
+				{
+					"nombre": "Taye Atske Selassie",
+					"desde": 2024,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Meles Zenawi",
+					"desde": 1995,
+					"hasta": 2012,
+					"cargo": "Primer ministro (jefe de gobierno)"
+				},
+				{
+					"nombre": "Hailemariam Desalegn",
+					"desde": 2012,
+					"hasta": 2018,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Abiy Ahmed",
+					"desde": 2018,
+					"hasta": 2026,
+					"cargo": "Primer ministro"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Aksum",
+					"desde": -100,
+					"hasta": 940
+				},
+				{
+					"nombre": "Imperio de Etiopia (Abisinia)",
+					"desde": 1270,
+					"hasta": 1974
+				},
+				{
+					"nombre": "Republica Democratica Popular de Etiopia (Derg)",
+					"desde": 1974,
+					"hasta": 1991
+				},
+				{
+					"nombre": "Republica Democratica Federal de Etiopia",
+					"desde": 1991,
+					"hasta": 2026
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 18434000,
+					"fuente": "Estimacion (Wikipedia)"
+				},
+				{
+					"anio": 1984,
+					"valor": 39868501,
+					"fuente": "Censo 1984 (Wikipedia)"
+				},
+				{
+					"anio": 1994,
+					"valor": 53477265,
+					"fuente": "Censo 1994 (Wikipedia)"
+				},
+				{
+					"anio": 2007,
+					"valor": 73750932,
+					"fuente": "Censo 2007 (Wikipedia)"
+				},
+				{
+					"anio": 2015,
+					"valor": 90320987,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 2024,
+					"valor": 126527000,
+					"fuente": "Estimacion (Wikipedia)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "3f7ba991ab96",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "libia",
 			"nombre": "Libia",
 			"nombres": [
 				"Libya",
-				"Libya (IT)"
+				"Libya (IT)",
+				"Libia",
+				"Reino de Libia",
+				"Yamahiriya Árabe Libia",
+				"Estado de Libia"
 			],
-			"wiki": "Libia",
+			"wiki": "es:Libia",
 			"wikidata": "Q1016",
 			"fuentes": [
 				{
-					"id": "wikipedia-es:Libia",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Libia",
-					"licencia": "CC BY-SA",
-					"consultado": "2026-09-02"
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Libya",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-demo",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Libya",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1016",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Tripolitania otomana (dominio otomano)",
+					"desde": 1551,
+					"hasta": 1911
+				},
+				{
+					"nombre": "Libia italiana",
+					"desde": 1911,
+					"hasta": 1943
+				},
+				{
+					"nombre": "Reino de Libia",
+					"desde": 1951,
+					"hasta": 1969
+				},
+				{
+					"nombre": "República Árabe Libia",
+					"desde": 1969,
+					"hasta": 1977
+				},
+				{
+					"nombre": "Yamahiriya Árabe Libia Popular y Socialista",
+					"desde": 1977,
+					"hasta": 2011
+				},
+				{
+					"nombre": "Estado de Libia",
+					"desde": 2011,
+					"hasta": 2026
+				}
+			],
+			"gobernantes": [
+				{
+					"nombre": "Imperio otomano",
+					"desde": 1551,
+					"hasta": 1911,
+					"cargo": "Dominio otomano (Tripolitania)"
+				},
+				{
+					"nombre": "Reino de Italia",
+					"desde": 1911,
+					"hasta": 1943,
+					"cargo": "Administración colonial (Libia italiana)"
+				},
+				{
+					"nombre": "Idris I",
+					"desde": 1951,
+					"hasta": 1969,
+					"cargo": "Rey de Libia"
+				},
+				{
+					"nombre": "Muamar el Gadafi",
+					"desde": 1969,
+					"hasta": 2011,
+					"cargo": "Jefe de Estado de facto / Líder de la Revolución"
+				},
+				{
+					"nombre": "Mustafa Abdul Jalil",
+					"desde": 2011,
+					"hasta": 2012,
+					"cargo": "Presidente del Consejo Nacional de Transición"
+				},
+				{
+					"nombre": "Mohammed Magariaf",
+					"desde": 2012,
+					"hasta": 2013,
+					"cargo": "Presidente del Congreso Nacional General"
+				},
+				{
+					"nombre": "Nouri Abusahmain",
+					"desde": 2013,
+					"hasta": 2016,
+					"cargo": "Presidente del Congreso Nacional General"
+				},
+				{
+					"nombre": "Fayez al-Sarraj",
+					"desde": 2016,
+					"hasta": 2021,
+					"cargo": "Presidente del Consejo Presidencial (GNA)"
+				},
+				{
+					"nombre": "Mohamed al-Menfi",
+					"desde": 2021,
+					"hasta": 2026,
+					"cargo": "Presidente del Consejo Presidencial"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1931,
+					"valor": 704000,
+					"fuente": "Censo 1931"
+				},
+				{
+					"anio": 1954,
+					"valor": 1089000,
+					"fuente": "Censo 1954"
+				},
+				{
+					"anio": 1964,
+					"valor": 1564000,
+					"fuente": "Censo 1964"
+				},
+				{
+					"anio": 1973,
+					"valor": 2249000,
+					"fuente": "Censo 1973"
+				},
+				{
+					"anio": 1984,
+					"valor": 3643000,
+					"fuente": "Censo 1984"
+				},
+				{
+					"anio": 2006,
+					"valor": 5658000,
+					"fuente": "Censo 2006"
+				},
+				{
+					"anio": 2022,
+					"valor": 7137931,
+					"fuente": "CIA World Factbook (est.)"
+				},
+				{
+					"anio": 2025,
+					"valor": 7420000,
+					"fuente": "ONU (est. 1-1-2025)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "747fd8886493",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "armenia",
@@ -5815,9 +6307,12 @@
 			"id": "egipto",
 			"nombre": "Egipto",
 			"nombres": [
-				"Egypt"
+				"Egypt",
+				"Antiguo Egipto",
+				"República Árabe de Egipto",
+				"Misr"
 			],
-			"wiki": "Antiguo Egipto",
+			"wiki": "es:Egipto",
 			"relacionados": [
 				"Antiguo Egipto",
 				"Imperio Nuevo de Egipto",
@@ -5831,310 +6326,254 @@
 			"owid": "Egypt",
 			"gobernantes": [
 				{
-					"desde": -2665,
-					"hasta": -2645,
-					"nombre": "Zoser",
-					"titulo": "Faraón (III dinastía)"
+					"nombre": "Narmer (Menes)",
+					"desde": -3100,
+					"hasta": -3070,
+					"cargo": "Faraón (Dinastía I, unificador)"
 				},
 				{
+					"nombre": "Keops (Jufu)",
 					"desde": -2589,
 					"hasta": -2566,
-					"nombre": "Keops (Jufu)",
-					"titulo": "Faraón (IV dinastía)"
+					"cargo": "Faraón (Dinastía IV)"
 				},
 				{
-					"desde": -2061,
-					"hasta": -2010,
-					"nombre": "Mentuhotep II",
-					"titulo": "Faraón, reunificador (Imperio Medio)"
+					"nombre": "Hatshepsut",
+					"desde": -1479,
+					"hasta": -1458,
+					"cargo": "Faraona (Dinastía XVIII)"
 				},
 				{
-					"desde": -1878,
-					"hasta": -1839,
-					"nombre": "Sesostris III",
-					"titulo": "Faraón (XII dinastía)"
-				},
-				{
-					"desde": -1550,
-					"hasta": -1525,
-					"nombre": "Amosis I",
-					"titulo": "Faraón, fundador del Imperio Nuevo"
-				},
-				{
+					"nombre": "Tutmosis III",
 					"desde": -1479,
 					"hasta": -1425,
-					"nombre": "Tutmosis III",
-					"titulo": "Faraón, conquistador hasta el Éufrates"
+					"cargo": "Faraón (Dinastía XVIII)"
 				},
 				{
-					"desde": -1473,
-					"hasta": -1458,
-					"nombre": "Hatshepsut",
-					"titulo": "Faraona (XVIII dinastía)"
-				},
-				{
-					"desde": -1390,
-					"hasta": -1352,
-					"nombre": "Amenhotep III",
-					"titulo": "Faraón, apogeo de la XVIII dinastía"
-				},
-				{
-					"desde": -1352,
-					"hasta": -1336,
 					"nombre": "Akenatón",
-					"titulo": "Faraón, reforma de Atón"
+					"desde": -1353,
+					"hasta": -1336,
+					"cargo": "Faraón (Dinastía XVIII)"
 				},
 				{
-					"desde": -1336,
-					"hasta": -1327,
 					"nombre": "Tutankamón",
-					"titulo": "Faraón (XVIII dinastía)"
+					"desde": -1332,
+					"hasta": -1323,
+					"cargo": "Faraón (Dinastía XVIII)"
 				},
 				{
+					"nombre": "Ramsés II",
 					"desde": -1279,
 					"hasta": -1213,
-					"nombre": "Ramsés II",
-					"titulo": "Faraón, 66 años de reinado"
+					"cargo": "Faraón (Dinastía XIX)"
 				},
 				{
-					"desde": -1186,
-					"hasta": -1155,
-					"nombre": "Ramsés III",
-					"titulo": "Faraón, vencedor de los Pueblos del Mar"
-				},
-				{
-					"desde": -945,
-					"hasta": -924,
-					"nombre": "Sheshonq I",
-					"titulo": "Faraón (XXII dinastía, libia)"
-				},
-				{
-					"desde": -690,
-					"hasta": -664,
-					"nombre": "Taharqo",
-					"titulo": "Faraón kushita (XXV dinastía)"
-				},
-				{
-					"desde": -664,
-					"hasta": -610,
-					"nombre": "Psamético I",
-					"titulo": "Faraón, renacimiento saíta"
-				},
-				{
-					"desde": -305,
-					"hasta": -282,
-					"nombre": "Ptolomeo I Sóter",
-					"titulo": "Faraón, fundador de la dinastía ptolemaica"
-				},
-				{
+					"nombre": "Cleopatra VII",
 					"desde": -51,
 					"hasta": -30,
-					"nombre": "Cleopatra VII",
-					"titulo": "Última faraona de Egipto"
+					"cargo": "Reina (Dinastía Ptolemaica)"
+				},
+				{
+					"nombre": "Mehmet Alí (Muhammad Ali)",
+					"desde": 1805,
+					"hasta": 1848,
+					"cargo": "Valí (gobernador otomano)"
+				},
+				{
+					"nombre": "Ismail Pachá",
+					"desde": 1863,
+					"hasta": 1879,
+					"cargo": "Jedive"
+				},
+				{
+					"nombre": "Fuad I",
+					"desde": 1922,
+					"hasta": 1936,
+					"cargo": "Rey"
+				},
+				{
+					"nombre": "Faruq I",
+					"desde": 1936,
+					"hasta": 1952,
+					"cargo": "Rey"
+				},
+				{
+					"nombre": "Muhammad Naguib",
+					"desde": 1953,
+					"hasta": 1954,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Gamal Abdel Nasser",
+					"desde": 1954,
+					"hasta": 1970,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Anwar el-Sadat",
+					"desde": 1970,
+					"hasta": 1981,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Hosni Mubarak",
+					"desde": 1981,
+					"hasta": 2011,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mohamed Hussein Tantawi",
+					"desde": 2011,
+					"hasta": 2012,
+					"cargo": "Presidente del Consejo Supremo de las Fuerzas Armadas (jefe de Estado de facto)"
+				},
+				{
+					"nombre": "Mohamed Morsi",
+					"desde": 2012,
+					"hasta": 2013,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Adly Mansur",
+					"desde": 2013,
+					"hasta": 2014,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Abdelfatah Al-Sisi",
+					"desde": 2014,
+					"hasta": 2026,
+					"cargo": "Presidente"
 				}
 			],
 			"poblacion": [
 				{
-					"anio": -10000,
-					"valor": 13668
-				},
-				{
-					"anio": -9000,
-					"valor": 20274
-				},
-				{
-					"anio": -8000,
-					"valor": 30172
-				},
-				{
-					"anio": -7000,
-					"valor": 45006
-				},
-				{
-					"anio": -6000,
-					"valor": 67243
-				},
-				{
-					"anio": -5000,
-					"valor": 100585
-				},
-				{
-					"anio": -4000,
-					"valor": 250510
-				},
-				{
-					"anio": -3000,
-					"valor": 1000000
-				},
-				{
-					"anio": -2000,
-					"valor": 1500000
-				},
-				{
-					"anio": -1000,
-					"valor": 2000000
-				},
-				{
-					"anio": 0,
-					"valor": 4000000
-				},
-				{
-					"anio": 100,
-					"valor": 4300000
-				},
-				{
-					"anio": 200,
-					"valor": 4600000
-				},
-				{
-					"anio": 300,
-					"valor": 4300000
-				},
-				{
-					"anio": 400,
-					"valor": 4000000
-				},
-				{
-					"anio": 500,
-					"valor": 3500000
-				},
-				{
-					"anio": 600,
-					"valor": 3000000
-				},
-				{
-					"anio": 700,
-					"valor": 3400000
-				},
-				{
-					"anio": 800,
-					"valor": 3800000
-				},
-				{
-					"anio": 900,
-					"valor": 4400000
-				},
-				{
-					"anio": 1000,
-					"valor": 5000000
-				},
-				{
-					"anio": 1100,
-					"valor": 4350000
-				},
-				{
-					"anio": 1200,
-					"valor": 4000000
-				},
-				{
-					"anio": 1300,
-					"valor": 4700000
-				},
-				{
-					"anio": 1400,
-					"valor": 4050000
-				},
-				{
-					"anio": 1500,
-					"valor": 4000000
-				},
-				{
-					"anio": 1600,
-					"valor": 5000000
-				},
-				{
-					"anio": 1700,
-					"valor": 4500000
-				},
-				{
-					"anio": 1750,
-					"valor": 4000000
+					"anio": -1250,
+					"valor": 3500000,
+					"fuente": "estimación historiadores"
 				},
 				{
 					"anio": 1800,
-					"valor": 3500000
+					"valor": 4500000,
+					"fuente": "estimación historiadores"
 				},
 				{
-					"anio": 1850,
-					"valor": 5638537
+					"anio": 1882,
+					"valor": 6712000,
+					"fuente": "censo (Wikipedia es)"
 				},
 				{
-					"anio": 1900,
-					"valor": 9940289
+					"anio": 1897,
+					"valor": 9715000,
+					"fuente": "censo (Wikipedia es)"
 				},
 				{
-					"anio": 1910,
-					"valor": 11361079
-				},
-				{
-					"anio": 1920,
-					"valor": 12731391
-				},
-				{
-					"anio": 1930,
-					"valor": 14249967
-				},
-				{
-					"anio": 1940,
-					"valor": 16423191
-				},
-				{
-					"anio": 1950,
-					"valor": 21148168
+					"anio": 1927,
+					"valor": 14218000,
+					"fuente": "censo (Wikipedia es)"
 				},
 				{
 					"anio": 1960,
-					"valor": 26896480
+					"valor": 26085000,
+					"fuente": "censo (Wikipedia es)"
 				},
 				{
-					"anio": 1970,
-					"valor": 34623990
+					"anio": 1986,
+					"valor": 48254000,
+					"fuente": "censo (Wikipedia es)"
 				},
 				{
-					"anio": 1980,
-					"valor": 43950413
-				},
-				{
-					"anio": 1990,
-					"valor": 58396625
-				},
-				{
-					"anio": 2000,
-					"valor": 73083287
-				},
-				{
-					"anio": 2010,
-					"valor": 89196073
-				},
-				{
-					"anio": 2020,
-					"valor": 109315118
+					"anio": 2006,
+					"valor": 72798000,
+					"fuente": "censo (Wikipedia es)"
 				},
 				{
 					"anio": 2023,
-					"valor": 114535772
+					"valor": 112716600,
+					"fuente": "Wikipedia (es)"
 				}
 			],
 			"fuentes": [
 				{
-					"id": "wikipedia-es:Antiguo Egipto",
+					"id": "wikipedia-es",
+					"url": "https://es.wikipedia.org/wiki/Egipto",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-es-antiguo",
 					"url": "https://es.wikipedia.org/wiki/Antiguo_Egipto",
-					"licencia": "CC BY-SA",
-					"consultado": "2026-09-02"
+					"consultado": "2026-09"
 				},
 				{
-					"id": "wikipedia-es:Anexo:Faraones del Antiguo Egipto",
-					"url": "https://es.wikipedia.org/wiki/Anexo:Faraones_del_Antiguo_Egipto",
-					"licencia": "CC BY-SA",
-					"consultado": "2026-09-02"
-				},
-				{
-					"id": "owid:population",
-					"url": "https://ourworldindata.org/grapher/population",
-					"licencia": "CC BY (HYDE, Gapminder, ONU)",
-					"consultado": "2026-09-02"
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q79",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Antiguo Egipto",
+					"desde": -3100,
+					"hasta": -30
+				},
+				{
+					"nombre": "Egipto romano y bizantino",
+					"desde": -30,
+					"hasta": 641
+				},
+				{
+					"nombre": "Egipto islámico",
+					"desde": 641,
+					"hasta": 1517
+				},
+				{
+					"nombre": "Egipto otomano",
+					"desde": 1517,
+					"hasta": 1867
+				},
+				{
+					"nombre": "Jedivato de Egipto",
+					"desde": 1867,
+					"hasta": 1914
+				},
+				{
+					"nombre": "Sultanato de Egipto",
+					"desde": 1914,
+					"hasta": 1922
+				},
+				{
+					"nombre": "Reino de Egipto",
+					"desde": 1922,
+					"hasta": 1953
+				},
+				{
+					"nombre": "República de Egipto",
+					"desde": 1953,
+					"hasta": 1958
+				},
+				{
+					"nombre": "República Árabe Unida",
+					"desde": 1958,
+					"hasta": 1971
+				},
+				{
+					"nombre": "República Árabe de Egipto",
+					"desde": 1971,
+					"hasta": 2026
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "4a2e6acd506c",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "vikingos",
@@ -6211,58 +6650,209 @@
 			"id": "mali",
 			"nombre": "Imperio de Malí",
 			"nombres": [
-				"Mali"
+				"Mali",
+				"Malí",
+				"Imperio de Malí",
+				"Imperio mandinga",
+				"República de Malí"
 			],
-			"wiki": "Imperio de Malí",
+			"wiki": "es:Imperio de Malí",
 			"relacionados": [
 				"Malí"
 			],
-			"wikidata": "Q324867",
+			"wikidata": "Q463705",
 			"gobernantes": [
 				{
+					"nombre": "Sundiata Keita (Mari Djata I)",
 					"desde": 1235,
 					"hasta": 1255,
-					"nombre": "Sundiata Keita",
-					"titulo": "Fundador del imperio (batalla de Kirina)"
+					"cargo": "Mansa (fundador del Imperio de Malí)"
 				},
 				{
+					"nombre": "Uli Keita (Mansa Uli)",
+					"desde": 1255,
+					"hasta": 1270,
+					"cargo": "Mansa"
+				},
+				{
+					"nombre": "Sakura",
+					"desde": 1285,
+					"hasta": 1300,
+					"cargo": "Mansa"
+				},
+				{
+					"nombre": "Abubakari II (Muhammad ibn Qu)",
+					"desde": 1310,
+					"hasta": 1312,
+					"cargo": "Mansa"
+				},
+				{
+					"nombre": "Musa I (Mansa Musa)",
 					"desde": 1312,
 					"hasta": 1337,
-					"nombre": "Mansa Musa",
-					"titulo": "Mansa; posiblemente el hombre más rico de la historia"
+					"cargo": "Mansa"
+				},
+				{
+					"nombre": "Maghan I",
+					"desde": 1337,
+					"hasta": 1341,
+					"cargo": "Mansa"
+				},
+				{
+					"nombre": "Suleyman",
+					"desde": 1341,
+					"hasta": 1360,
+					"cargo": "Mansa"
+				},
+				{
+					"nombre": "Mahmud IV",
+					"desde": 1590,
+					"hasta": 1610,
+					"cargo": "Mansa (último gobernante importante)"
+				},
+				{
+					"nombre": "Modibo Keïta",
+					"desde": 1960,
+					"hasta": 1968,
+					"cargo": "Presidente (Malí moderno)"
+				},
+				{
+					"nombre": "Moussa Traoré",
+					"desde": 1968,
+					"hasta": 1991,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Amadou Toumani Touré",
+					"desde": 1991,
+					"hasta": 1992,
+					"cargo": "Presidente (transición militar)"
+				},
+				{
+					"nombre": "Alpha Oumar Konaré",
+					"desde": 1992,
+					"hasta": 2002,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Amadou Toumani Touré",
+					"desde": 2002,
+					"hasta": 2012,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Dioncounda Traoré",
+					"desde": 2012,
+					"hasta": 2013,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Ibrahim Boubacar Keïta",
+					"desde": 2013,
+					"hasta": 2020,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Bah Ndaw",
+					"desde": 2020,
+					"hasta": 2021,
+					"cargo": "Presidente de la transición"
+				},
+				{
+					"nombre": "Assimi Goïta",
+					"desde": 2021,
+					"hasta": 2026,
+					"cargo": "Presidente de la transición"
 				}
 			],
 			"poblacion": [
 				{
-					"anio": 1300,
-					"valor": 5000000
+					"anio": 1976,
+					"valor": 6394918,
+					"fuente": "Censo de Malí 1976"
+				},
+				{
+					"anio": 1987,
+					"valor": 7696348,
+					"fuente": "Censo de Malí 1987"
+				},
+				{
+					"anio": 1998,
+					"valor": 9790492,
+					"fuente": "Censo de Malí 1998"
+				},
+				{
+					"anio": 2009,
+					"valor": 14528662,
+					"fuente": "Censo de Malí 2009"
+				},
+				{
+					"anio": 2018,
+					"valor": 19329841,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2022,
+					"valor": 22621000,
+					"fuente": "Estimación (Wikipedia es)"
 				}
 			],
 			"fuentes": [
 				{
-					"id": "openstax:world-history",
-					"url": "https://openstax.org/details/books/world-history-volume-1",
-					"licencia": "CC BY-NC-SA 4.0",
-					"consultado": "2026-09-07"
+					"id": "wiki_es_imperio",
+					"url": "https://es.wikipedia.org/wiki/Imperio_de_Mal%C3%AD",
+					"consultado": "2026-09"
 				},
 				{
-					"id": "wikipedia-es:Imperio de Malí",
-					"url": "https://es.wikipedia.org/wiki/Imperio_de_Malí",
-					"licencia": "CC BY-SA",
-					"consultado": "2026-09-07"
+					"id": "wiki_es_mali",
+					"url": "https://es.wikipedia.org/wiki/Mali",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki_en_hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Mali",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata_imperio",
+					"url": "https://www.wikidata.org/wiki/Q463705",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata_mali",
+					"url": "https://www.wikidata.org/wiki/Q912",
+					"consultado": "2026-09"
 				}
 			],
 			"nombres_periodo": [
 				{
 					"nombre": "Imperio de Malí",
-					"desde": 1230,
-					"hasta": 1600
+					"desde": 1235,
+					"hasta": 1610
 				},
 				{
-					"nombre": "Malí",
-					"desde": 1960
+					"nombre": "Sudán Francés (colonia)",
+					"desde": 1892,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República de Malí",
+					"desde": 1960,
+					"hasta": 2026
 				}
-			]
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "50f6c24b4110",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "songhai",
@@ -7326,656 +7916,6636 @@
 			"nombres": [
 				"Algeria",
 				"Algeria (France)",
-				"Algeria (FR)"
+				"Algeria (FR)",
+				"Argelia"
 			],
 			"wiki": "es:Argelia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Argelia",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Argelia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q262",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Algeria",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~DZA",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Argelia francesa",
+					"desde": 1830,
+					"hasta": 1962
+				},
+				{
+					"nombre": "República Argelina Democrática y Popular",
+					"desde": 1962,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q262",
+			"gobernantes": [
+				{
+					"nombre": "Masinisa",
+					"desde": -202,
+					"hasta": -148,
+					"cargo": "rey de Numidia"
+				},
+				{
+					"nombre": "Jugurta",
+					"desde": -118,
+					"hasta": -105,
+					"cargo": "rey de Numidia"
+				},
+				{
+					"nombre": "Reino zayyánida de Tremecén",
+					"desde": 1235,
+					"hasta": 1554,
+					"cargo": "dinastía (Abdalwadíes)"
+				},
+				{
+					"nombre": "Hayreddin Barbarroja",
+					"desde": 1518,
+					"hasta": 1533,
+					"cargo": "beylerbey (Regencia otomana de Argel)"
+				},
+				{
+					"nombre": "Regencia de Argel (deys otomanos)",
+					"desde": 1671,
+					"hasta": 1830,
+					"cargo": "dey"
+				},
+				{
+					"nombre": "Abd al-Qadir al-Yazairi (Abdelkader)",
+					"desde": 1832,
+					"hasta": 1847,
+					"cargo": "emir (resistencia a la conquista francesa)"
+				},
+				{
+					"nombre": "Ferhat Abbas",
+					"desde": 1962,
+					"hasta": 1963,
+					"cargo": "presidente de la Asamblea Constituyente (jefe de Estado)"
+				},
+				{
+					"nombre": "Ahmed Ben Bella",
+					"desde": 1963,
+					"hasta": 1965,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Houari Boumédiène",
+					"desde": 1965,
+					"hasta": 1978,
+					"cargo": "presidente (Consejo de la Revolución y presidente de la República)"
+				},
+				{
+					"nombre": "Rabah Bitat",
+					"desde": 1978,
+					"hasta": 1979,
+					"cargo": "presidente interino"
+				},
+				{
+					"nombre": "Chadli Bendjedid",
+					"desde": 1979,
+					"hasta": 1992,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Mohamed Boudiaf",
+					"desde": 1992,
+					"hasta": 1992,
+					"cargo": "presidente (Alto Comité de Estado)"
+				},
+				{
+					"nombre": "Ali Kafi",
+					"desde": 1992,
+					"hasta": 1994,
+					"cargo": "presidente (Alto Comité de Estado)"
+				},
+				{
+					"nombre": "Liamine Zéroual",
+					"desde": 1994,
+					"hasta": 1999,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Abdelaziz Bouteflika",
+					"desde": 1999,
+					"hasta": 2019,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Abdelkader Bensalah",
+					"desde": 2019,
+					"hasta": 2019,
+					"cargo": "presidente interino"
+				},
+				{
+					"nombre": "Abdelmadjid Tebboune",
+					"desde": 2019,
+					"hasta": 2026,
+					"cargo": "presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1900,
+					"valor": 4700000,
+					"fuente": "estimación (OWID)"
+				},
+				{
+					"anio": 1950,
+					"valor": 8872000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1966,
+					"valor": 12096000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1987,
+					"valor": 23038000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2008,
+					"valor": 34080000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2024,
+					"valor": 46700000,
+					"fuente": "UN/OWID (estimación)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "60ea06def536",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "angola",
 			"nombre": "Angola",
 			"nombres": [
 				"Angola",
-				"Angola (Portugal)"
+				"Angola (Portugal)",
+				"República de Angola"
 			],
 			"wiki": "es:Angola",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Angola",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Angola",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q916",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Angola",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Angola",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Angola portuguesa",
+					"desde": 1575,
+					"hasta": 1975
+				},
+				{
+					"nombre": "República Popular de Angola",
+					"desde": 1975,
+					"hasta": 1992
+				},
+				{
+					"nombre": "República de Angola",
+					"desde": 1992,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q916",
+			"gobernantes": [
+				{
+					"nombre": "Afonso I de Kongo (Mvemba a Nzinga)",
+					"desde": 1509,
+					"hasta": 1543,
+					"cargo": "Manikongo (rey del Reino del Kongo)"
+				},
+				{
+					"nombre": "Nzinga Mbande (Reina Nzinga)",
+					"desde": 1624,
+					"hasta": 1663,
+					"cargo": "Reina de Ndongo y Matamba"
+				},
+				{
+					"nombre": "Administración colonial portuguesa",
+					"desde": 1575,
+					"hasta": 1975,
+					"cargo": "Colonia de Portugal"
+				},
+				{
+					"nombre": "Agostinho Neto",
+					"desde": 1975,
+					"hasta": 1979,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "José Eduardo dos Santos",
+					"desde": 1979,
+					"hasta": 2017,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "João Lourenço",
+					"desde": 2017,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 4148000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1970,
+					"valor": 5926000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1990,
+					"valor": 10335000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 2000,
+					"valor": 13926000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 2014,
+					"valor": 25789024,
+					"fuente": "Censo de Angola 2014"
+				},
+				{
+					"anio": 2023,
+					"valor": 36750000,
+					"fuente": "ONU (World Population Prospects)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "c91e64fc8bf2",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "benin",
 			"nombre": "Benín",
 			"nombres": [
-				"Benin"
+				"Benin",
+				"Dahomey",
+				"República de Dahomey",
+				"República Popular de Benín"
 			],
 			"wiki": "es:Benín",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Benín",
-					"url": "https://es.wikipedia.org/wiki/Ben%C3%ADn",
+					"id": "wikipedia-es",
+					"url": "https://es.wikipedia.org/wiki/Benín",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q962",
 					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Dahomey",
+					"desde": 1600,
+					"hasta": 1904
+				},
+				{
+					"nombre": "Dahomey (colonia francesa)",
+					"desde": 1904,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República de Dahomey",
+					"desde": 1960,
+					"hasta": 1975
+				},
+				{
+					"nombre": "República Popular de Benín",
+					"desde": 1975,
+					"hasta": 1990
+				},
+				{
+					"nombre": "República de Benín",
+					"desde": 1990,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q962",
+			"gobernantes": [
+				{
+					"nombre": "Agaja",
+					"desde": 1718,
+					"hasta": 1740,
+					"cargo": "Rey de Dahomey"
+				},
+				{
+					"nombre": "Ghezo",
+					"desde": 1818,
+					"hasta": 1858,
+					"cargo": "Rey de Dahomey"
+				},
+				{
+					"nombre": "Glele",
+					"desde": 1858,
+					"hasta": 1889,
+					"cargo": "Rey de Dahomey"
+				},
+				{
+					"nombre": "Béhanzin",
+					"desde": 1889,
+					"hasta": 1894,
+					"cargo": "Rey de Dahomey"
+				},
+				{
+					"nombre": "Agoli-Agbo",
+					"desde": 1894,
+					"hasta": 1900,
+					"cargo": "Rey de Dahomey"
+				},
+				{
+					"nombre": "Hubert Maga",
+					"desde": 1960,
+					"hasta": 1963,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Christophe Soglo",
+					"desde": 1963,
+					"hasta": 1964,
+					"cargo": "Jefe de Estado (provisional)"
+				},
+				{
+					"nombre": "Sourou-Migan Apithy",
+					"desde": 1964,
+					"hasta": 1965,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Christophe Soglo",
+					"desde": 1965,
+					"hasta": 1967,
+					"cargo": "Presidente (junta militar)"
+				},
+				{
+					"nombre": "Alphonse Alley",
+					"desde": 1967,
+					"hasta": 1968,
+					"cargo": "Presidente (junta militar)"
+				},
+				{
+					"nombre": "Émile Derlin Zinsou",
+					"desde": 1968,
+					"hasta": 1969,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Hubert Maga",
+					"desde": 1970,
+					"hasta": 1972,
+					"cargo": "Presidente (Consejo Presidencial)"
+				},
+				{
+					"nombre": "Mathieu Kérékou",
+					"desde": 1972,
+					"hasta": 1991,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Nicéphore Soglo",
+					"desde": 1991,
+					"hasta": 1996,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mathieu Kérékou",
+					"desde": 1996,
+					"hasta": 2006,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Thomas Boni Yayi",
+					"desde": 2006,
+					"hasta": 2016,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Patrice Talon",
+					"desde": 2016,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1910,
+					"valor": 643000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 1950,
+					"valor": 2046000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 1960,
+					"valor": 2237000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2010,
+					"valor": 8086000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2020,
+					"valor": 9882000,
+					"fuente": "Wikipedia (es), proyección"
+				},
+				{
+					"anio": 2023,
+					"valor": 13400000,
+					"fuente": "Wikipedia (es)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "539063592428",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "botsuana",
 			"nombre": "Botsuana",
 			"nombres": [
-				"Botswana"
+				"Botswana",
+				"Bechuanalandia",
+				"Protectorado de Bechuanalandia"
 			],
 			"wiki": "es:Botsuana",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Botsuana",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Botsuana",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-es-presidentes",
+					"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Botsuana",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q963",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Protectorado de Bechuanalandia",
+					"desde": 1885,
+					"hasta": 1966
+				},
+				{
+					"nombre": "República de Botsuana",
+					"desde": 1966,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q963",
+			"gobernantes": [
+				{
+					"nombre": "Seretse Khama",
+					"desde": 1966,
+					"hasta": 1980,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Quett Masire",
+					"desde": 1980,
+					"hasta": 1998,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Festus Mogae",
+					"desde": 1998,
+					"hasta": 2008,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ian Khama",
+					"desde": 2008,
+					"hasta": 2018,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mokgweetsi Masisi",
+					"desde": 2018,
+					"hasta": 2024,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Duma Boko",
+					"desde": 2024,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1971,
+					"valor": 574000,
+					"fuente": "Wikipedia (es), censo"
+				},
+				{
+					"anio": 1995,
+					"valor": 1500000,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 2001,
+					"valor": 1680863,
+					"fuente": "Censo (Wikipedia)"
+				},
+				{
+					"anio": 2011,
+					"valor": 2024904,
+					"fuente": "Wikipedia (es), censo"
+				},
+				{
+					"anio": 2022,
+					"valor": 2346179,
+					"fuente": "Censo 2022 (Wikipedia)"
+				},
+				{
+					"anio": 2024,
+					"valor": 2450668,
+					"fuente": "Estimacion (Wikipedia)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "444a06a0a047",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "burkina-faso",
 			"nombre": "Burkina Faso",
 			"nombres": [
-				"Burkina Faso"
+				"Burkina Faso",
+				"Alto Volta",
+				"Upper Volta",
+				"República del Alto Volta"
 			],
 			"wiki": "es:Burkina Faso",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Burkina Faso",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Burkina_Faso",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burkina_Faso",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q965",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "República del Alto Volta",
+					"desde": 1958,
+					"hasta": 1984
+				},
+				{
+					"nombre": "Burkina Faso",
+					"desde": 1984,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q965",
+			"gobernantes": [
+				{
+					"nombre": "Maurice Yaméogo",
+					"desde": 1960,
+					"hasta": 1966,
+					"cargo": "Presidente de la República"
+				},
+				{
+					"nombre": "Sangoulé Lamizana",
+					"desde": 1966,
+					"hasta": 1980,
+					"cargo": "Presidente de la República"
+				},
+				{
+					"nombre": "Saye Zerbo",
+					"desde": 1980,
+					"hasta": 1982,
+					"cargo": "Jefe de Estado (junta militar)"
+				},
+				{
+					"nombre": "Jean-Baptiste Ouédraogo",
+					"desde": 1982,
+					"hasta": 1983,
+					"cargo": "Jefe de Estado"
+				},
+				{
+					"nombre": "Thomas Sankara",
+					"desde": 1983,
+					"hasta": 1987,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Blaise Compaoré",
+					"desde": 1987,
+					"hasta": 2014,
+					"cargo": "Presidente de la República"
+				},
+				{
+					"nombre": "Michel Kafando",
+					"desde": 2014,
+					"hasta": 2015,
+					"cargo": "Presidente de transición"
+				},
+				{
+					"nombre": "Roch Marc Christian Kaboré",
+					"desde": 2015,
+					"hasta": 2022,
+					"cargo": "Presidente de la República"
+				},
+				{
+					"nombre": "Paul-Henri Sandaogo Damiba",
+					"desde": 2022,
+					"hasta": 2022,
+					"cargo": "Jefe de Estado (militar)"
+				},
+				{
+					"nombre": "Ibrahim Traoré",
+					"desde": 2022,
+					"hasta": 2026,
+					"cargo": "Presidente de transición"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1901,
+					"valor": 2900000,
+					"fuente": "Wikipedia (es) - estimación"
+				},
+				{
+					"anio": 1950,
+					"valor": 3000000,
+					"fuente": "Wikipedia (es) - estimación"
+				},
+				{
+					"anio": 1975,
+					"valor": 5600000,
+					"fuente": "Censo 1975"
+				},
+				{
+					"anio": 1996,
+					"valor": 10300000,
+					"fuente": "Censo 1996"
+				},
+				{
+					"anio": 2006,
+					"valor": 14000000,
+					"fuente": "Censo 2006"
+				},
+				{
+					"anio": 2019,
+					"valor": 20500000,
+					"fuente": "Censo 2019"
+				},
+				{
+					"anio": 2024,
+					"valor": 23519192,
+					"fuente": "Wikipedia (es) - estimación"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "3adccb8fafa0",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "burundi",
 			"nombre": "Burundi",
 			"nombres": [
-				"Burundi"
+				"Burundi",
+				"Reino de Burundi",
+				"República de Burundi",
+				"Urundi"
 			],
 			"wiki": "es:Burundi",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Burundi",
+					"id": "wiki_es",
 					"url": "https://es.wikipedia.org/wiki/Burundi",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki_en_hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burundi",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q967",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Burundi",
+					"desde": 1680,
+					"hasta": 1966
+				},
+				{
+					"nombre": "Ruanda-Urundi (administración belga)",
+					"desde": 1916,
+					"hasta": 1962
+				},
+				{
+					"nombre": "República de Burundi",
+					"desde": 1966
+				}
+			],
+			"wikidata": "Q967",
+			"gobernantes": [
+				{
+					"nombre": "Ntare Rugamba",
+					"desde": 1796,
+					"hasta": 1850,
+					"cargo": "Rey (Mwami)"
+				},
+				{
+					"nombre": "Mwezi Gisabo",
+					"desde": 1852,
+					"hasta": 1908,
+					"cargo": "Rey (Mwami)"
+				},
+				{
+					"nombre": "Mwambutsa IV",
+					"desde": 1915,
+					"hasta": 1966,
+					"cargo": "Rey (Mwami)"
+				},
+				{
+					"nombre": "Ntare V",
+					"desde": 1966,
+					"hasta": 1966,
+					"cargo": "Rey (Mwami)"
+				},
+				{
+					"nombre": "Michel Micombero",
+					"desde": 1966,
+					"hasta": 1976,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Jean-Baptiste Bagaza",
+					"desde": 1976,
+					"hasta": 1987,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Pierre Buyoya",
+					"desde": 1987,
+					"hasta": 1993,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Melchior Ndadaye",
+					"desde": 1993,
+					"hasta": 1993,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Cyprien Ntaryamira",
+					"desde": 1994,
+					"hasta": 1994,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Sylvestre Ntibantunganya",
+					"desde": 1994,
+					"hasta": 1996,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Pierre Buyoya",
+					"desde": 1996,
+					"hasta": 2003,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Domitien Ndayizeye",
+					"desde": 2003,
+					"hasta": 2005,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Pierre Nkurunziza",
+					"desde": 2005,
+					"hasta": 2020,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Évariste Ndayishimiye",
+					"desde": 2020,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1979,
+					"valor": 4028420,
+					"fuente": "Censo de Burundi 1979"
+				},
+				{
+					"anio": 1990,
+					"valor": 5292793,
+					"fuente": "Censo de Burundi 1990"
+				},
+				{
+					"anio": 2008,
+					"valor": 8053574,
+					"fuente": "Censo de Burundi 2008"
+				},
+				{
+					"anio": 2015,
+					"valor": 10500000,
+					"fuente": "Estimación (Wikipedia es)"
+				},
+				{
+					"anio": 2020,
+					"valor": 11890784,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2023,
+					"valor": 12889576,
+					"fuente": "Estimación (Wikipedia es)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "755bd5650bf0",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "camerun",
 			"nombre": "Camerún",
 			"nombres": [
-				"Cameroon"
+				"Cameroon",
+				"Kamerun",
+				"Cameroun"
 			],
 			"wiki": "es:Camerún",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Camerún",
+					"id": "wikipedia_es",
 					"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_heads",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Cameroon",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Cameroon",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1009",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Kamerun (colonia alemana)",
+					"desde": 1884,
+					"hasta": 1919
+				},
+				{
+					"nombre": "Cameroun francés / Cameroons británico (mandatos)",
+					"desde": 1919,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República de Camerún",
+					"desde": 1960,
+					"hasta": 1961
+				},
+				{
+					"nombre": "República Federal de Camerún",
+					"desde": 1961,
+					"hasta": 1972
+				},
+				{
+					"nombre": "República Unida de Camerún",
+					"desde": 1972,
+					"hasta": 1984
+				},
+				{
+					"nombre": "República de Camerún",
+					"desde": 1984,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1009",
+			"gobernantes": [
+				{
+					"nombre": "Ahmadou Ahidjo",
+					"desde": 1960,
+					"hasta": 1982,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Paul Biya",
+					"desde": 1982,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 4466000,
+					"fuente": "Wikipedia (Demographics of Cameroon), estimación ONU"
+				},
+				{
+					"anio": 1960,
+					"valor": 5409000,
+					"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+				},
+				{
+					"anio": 1976,
+					"valor": 7598000,
+					"fuente": "Wikipedia (Demographics of Cameroon), censo"
+				},
+				{
+					"anio": 1987,
+					"valor": 10434000,
+					"fuente": "Wikipedia (Demographics of Cameroon), censo"
+				},
+				{
+					"anio": 2000,
+					"valor": 15678000,
+					"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+				},
+				{
+					"anio": 2020,
+					"valor": 26211000,
+					"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+				},
+				{
+					"anio": 2022,
+					"valor": 29321637,
+					"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "ba9126c3deda",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "republica-centroafricana",
 			"nombre": "Rep. Centroafricana",
 			"nombres": [
-				"Central African Republic"
+				"Central African Republic",
+				"República Centroafricana"
 			],
 			"wiki": "es:República Centroafricana",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): República Centroafricana",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q929",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Central_African_Republic",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~CAF",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Ubangui-Chari (colonia francesa)",
+					"desde": 1903,
+					"hasta": 1958
+				},
+				{
+					"nombre": "República Centroafricana",
+					"desde": 1960,
+					"hasta": 2026
+				},
+				{
+					"nombre": "Imperio Centroafricano",
+					"desde": 1976,
+					"hasta": 1979
+				}
+			],
+			"wikidata": "Q929",
+			"gobernantes": [
+				{
+					"nombre": "Sultanato de Bangassou (pueblo zande)",
+					"desde": 1878,
+					"hasta": 1917,
+					"cargo": "sultanato precolonial"
+				},
+				{
+					"nombre": "Sultanato de Dar al-Kuti (Muhammad al-Sanusi)",
+					"desde": 1890,
+					"hasta": 1911,
+					"cargo": "sultanato precolonial"
+				},
+				{
+					"nombre": "David Dacko",
+					"desde": 1960,
+					"hasta": 1966,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Jean-Bédel Bokassa",
+					"desde": 1966,
+					"hasta": 1976,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Bokassa I",
+					"desde": 1976,
+					"hasta": 1979,
+					"cargo": "emperador (Imperio Centroafricano)"
+				},
+				{
+					"nombre": "David Dacko",
+					"desde": 1979,
+					"hasta": 1981,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "André Kolingba",
+					"desde": 1981,
+					"hasta": 1993,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Ange-Félix Patassé",
+					"desde": 1993,
+					"hasta": 2003,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "François Bozizé",
+					"desde": 2003,
+					"hasta": 2013,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Michel Djotodia",
+					"desde": 2013,
+					"hasta": 2014,
+					"cargo": "presidente (jefe de Estado de transición)"
+				},
+				{
+					"nombre": "Catherine Samba-Panza",
+					"desde": 2014,
+					"hasta": 2016,
+					"cargo": "jefa de Estado de transición"
+				},
+				{
+					"nombre": "Faustin-Archange Touadéra",
+					"desde": 2016,
+					"hasta": 2026,
+					"cargo": "presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 1327000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1960,
+					"valor": 1503000,
+					"fuente": "estimación (OWID)"
+				},
+				{
+					"anio": 1988,
+					"valor": 2688000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2003,
+					"valor": 3895000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2020,
+					"valor": 4830000,
+					"fuente": "UN/OWID (estimación)"
+				},
+				{
+					"anio": 2024,
+					"valor": 5330000,
+					"fuente": "UN/OWID (estimación)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "b88486ec4552",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "chad",
 			"nombre": "Chad",
 			"nombres": [
-				"Chad"
+				"Chad",
+				"República del Chad"
 			],
 			"wiki": "es:Chad",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Chad",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Chad",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q657",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Chad",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Chad",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Chad francés (África Ecuatorial Francesa)",
+					"desde": 1900,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República del Chad",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q657",
+			"gobernantes": [
+				{
+					"nombre": "Dinastía Sayfawa (Imperio de Kanem-Bornu)",
+					"desde": 900,
+					"hasta": 1846,
+					"cargo": "Mai (soberanos del Imperio de Kanem-Bornu)"
+				},
+				{
+					"nombre": "Idris Alooma",
+					"desde": 1564,
+					"hasta": 1596,
+					"cargo": "Mai del Imperio de Kanem-Bornu"
+				},
+				{
+					"nombre": "Sultanato de Ouaddai",
+					"desde": 1635,
+					"hasta": 1912,
+					"cargo": "Sultanato precolonial"
+				},
+				{
+					"nombre": "Reino de Baguirmi",
+					"desde": 1522,
+					"hasta": 1897,
+					"cargo": "Reino precolonial"
+				},
+				{
+					"nombre": "Rabih az-Zubayr",
+					"desde": 1893,
+					"hasta": 1900,
+					"cargo": "Caudillo conquistador"
+				},
+				{
+					"nombre": "François Tombalbaye",
+					"desde": 1960,
+					"hasta": 1975,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Noël Milarew Odingar",
+					"desde": 1975,
+					"hasta": 1975,
+					"cargo": "Jefe de Estado interino"
+				},
+				{
+					"nombre": "Félix Malloum",
+					"desde": 1975,
+					"hasta": 1979,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Goukouni Oueddei",
+					"desde": 1979,
+					"hasta": 1982,
+					"cargo": "Presidente (GUNT)"
+				},
+				{
+					"nombre": "Hissène Habré",
+					"desde": 1982,
+					"hasta": 1990,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Idriss Déby",
+					"desde": 1990,
+					"hasta": 2021,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mahamat Déby",
+					"desde": 2021,
+					"hasta": 2026,
+					"cargo": "Presidente (de transición y luego electo)"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 2429000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1970,
+					"valor": 3656000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1990,
+					"valor": 6011000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 2000,
+					"valor": 8222000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 2009,
+					"valor": 11039873,
+					"fuente": "Censo del Chad 2009"
+				},
+				{
+					"anio": 2023,
+					"valor": 18768000,
+					"fuente": "ONU (World Population Prospects)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "aa2a19493040",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "rep-congo",
 			"nombre": "Rep. del Congo",
 			"nombres": [
 				"Congo",
-				"Congo (France)"
+				"Congo (France)",
+				"República del Congo",
+				"Congo-Brazzaville",
+				"República Popular del Congo"
 			],
 			"wiki": "es:República del Congo",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): República del Congo",
-					"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Congo",
+					"id": "wikipedia-es",
+					"url": "https://es.wikipedia.org/wiki/República_del_Congo",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q971",
 					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Congo Francés",
+					"desde": 1882,
+					"hasta": 1958
+				},
+				{
+					"nombre": "República del Congo",
+					"desde": 1960,
+					"hasta": 1969
+				},
+				{
+					"nombre": "República Popular del Congo",
+					"desde": 1969,
+					"hasta": 1992
+				},
+				{
+					"nombre": "República del Congo",
+					"desde": 1992,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q971",
+			"gobernantes": [
+				{
+					"nombre": "Fulbert Youlou",
+					"desde": 1960,
+					"hasta": 1963,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Alphonse Massamba-Débat",
+					"desde": 1963,
+					"hasta": 1968,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Marien Ngouabi",
+					"desde": 1968,
+					"hasta": 1977,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joachim Yhombi-Opango",
+					"desde": 1977,
+					"hasta": 1979,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Denis Sassou-Nguesso",
+					"desde": 1979,
+					"hasta": 1992,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Pascal Lissouba",
+					"desde": 1992,
+					"hasta": 1997,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Denis Sassou-Nguesso",
+					"desde": 1997,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1960,
+					"valor": 1010000,
+					"fuente": "Our World in Data (est.)"
+				},
+				{
+					"anio": 1980,
+					"valor": 1800000,
+					"fuente": "Our World in Data (est.)"
+				},
+				{
+					"anio": 2000,
+					"valor": 3100000,
+					"fuente": "Our World in Data (est.)"
+				},
+				{
+					"anio": 2014,
+					"valor": 4662446,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2018,
+					"valor": 5000000,
+					"fuente": "Wikipedia (es), estimación"
+				},
+				{
+					"anio": 2023,
+					"valor": 6100000,
+					"fuente": "Our World in Data (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "e414475bfe6f",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "yibuti",
 			"nombre": "Yibuti",
 			"nombres": [
-				"Djibouti"
+				"Djibouti",
+				"Somalilandia Francesa",
+				"Territorio Frances de los Afars y los Issas"
 			],
 			"wiki": "es:Yibuti",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Yibuti",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Yibuti",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q977",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Somalilandia Francesa",
+					"desde": 1896,
+					"hasta": 1967
+				},
+				{
+					"nombre": "Territorio Frances de los Afars y los Issas",
+					"desde": 1967,
+					"hasta": 1977
+				},
+				{
+					"nombre": "Republica de Yibuti",
+					"desde": 1977,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q977",
+			"gobernantes": [
+				{
+					"nombre": "Hassan Gouled Aptidon",
+					"desde": 1977,
+					"hasta": 1999,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ismail Omar Guelleh",
+					"desde": 1999,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1960,
+					"valor": 83000,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 2009,
+					"valor": 818159,
+					"fuente": "Censo 2009 (Wikipedia)"
+				},
+				{
+					"anio": 2016,
+					"valor": 846000,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 2023,
+					"valor": 1136455,
+					"fuente": "Wikipedia (es), estimacion"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "e58225e05623",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "guinea-ecuatorial",
 			"nombre": "Guinea Ecuatorial",
 			"nombres": [
-				"Equatorial Guinea"
+				"Equatorial Guinea",
+				"Guinea Ecuatorial",
+				"Guinea Española"
 			],
 			"wiki": "es:Guinea Ecuatorial",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Guinea Ecuatorial",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Equatorial_Guinea",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-demo",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Equatorial_Guinea",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q983",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Guinea Española",
+					"desde": 1926,
+					"hasta": 1968
+				},
+				{
+					"nombre": "Guinea Ecuatorial",
+					"desde": 1968,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q983",
+			"gobernantes": [
+				{
+					"nombre": "Francisco Macías Nguema",
+					"desde": 1968,
+					"hasta": 1979,
+					"cargo": "Presidente de la República"
+				},
+				{
+					"nombre": "Teodoro Obiang Nguema Mbasogo",
+					"desde": 1979,
+					"hasta": 2026,
+					"cargo": "Presidente de la República"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 226000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 1970,
+					"valor": 291000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 1990,
+					"valor": 374000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2000,
+					"valor": 520000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2010,
+					"valor": 700000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2021,
+					"valor": 1634466,
+					"fuente": "ONU - WPP 2022"
+				},
+				{
+					"anio": 2022,
+					"valor": 1679172,
+					"fuente": "CIA World Factbook (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "1e6169beb82a",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "eritrea",
 			"nombre": "Eritrea",
 			"nombres": [
 				"Eritrea",
-				"Eritrea (Italy)"
+				"Eritrea (Italy)",
+				"Eritrea italiana",
+				"Estado de Eritrea"
 			],
 			"wiki": "es:Eritrea",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Eritrea",
+					"id": "wiki_es",
 					"url": "https://es.wikipedia.org/wiki/Eritrea",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki_en_hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Eritrea",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q986",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Eritrea italiana (colonia)",
+					"desde": 1890,
+					"hasta": 1941
+				},
+				{
+					"nombre": "Administración militar británica",
+					"desde": 1941,
+					"hasta": 1952
+				},
+				{
+					"nombre": "Federación con Etiopía / provincia etíope",
+					"desde": 1952,
+					"hasta": 1993
+				},
+				{
+					"nombre": "Estado de Eritrea",
+					"desde": 1993
+				}
+			],
+			"wikidata": "Q986",
+			"gobernantes": [
+				{
+					"nombre": "Isaías Afwerki",
+					"desde": 1993,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1928,
+					"valor": 510000,
+					"fuente": "Censo colonial italiano (Wikipedia es)"
+				},
+				{
+					"anio": 1984,
+					"valor": 2700000,
+					"fuente": "Estimación"
+				},
+				{
+					"anio": 1993,
+					"valor": 3200000,
+					"fuente": "Estimación (independencia)"
+				},
+				{
+					"anio": 2000,
+					"valor": 3800000,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2010,
+					"valor": 5700000,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2023,
+					"valor": 6147398,
+					"fuente": "Estimación (Wikipedia es)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "9b444bea270c",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "gabon",
 			"nombre": "Gabón",
 			"nombres": [
-				"Gabon"
+				"Gabon",
+				"República Gabonesa"
 			],
 			"wiki": "es:Gabón",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Gabón",
+					"id": "wikipedia_es",
 					"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_heads",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Gabon",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Gabon",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1000",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Gabón (colonia francesa / África Ecuatorial Francesa)",
+					"desde": 1885,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República Gabonesa",
+					"desde": 1960
+				}
+			],
+			"wikidata": "Q1000",
+			"gobernantes": [
+				{
+					"nombre": "Léon M'ba",
+					"desde": 1961,
+					"hasta": 1967,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Omar Bongo Ondimba",
+					"desde": 1967,
+					"hasta": 2009,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ali Bongo Ondimba",
+					"desde": 2009,
+					"hasta": 2023,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Brice Oligui Nguema",
+					"desde": 2023,
+					"hasta": 2026,
+					"cargo": "Presidente (jefe de la transición desde 2023; electo 2025)"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1960,
+					"valor": 486000,
+					"fuente": "Wikipedia (Demographics of Gabon), estimación"
+				},
+				{
+					"anio": 1970,
+					"valor": 530000,
+					"fuente": "Wikipedia (Demographics of Gabon), estimación"
+				},
+				{
+					"anio": 1993,
+					"valor": 1065000,
+					"fuente": "Wikipedia (Demographics of Gabon), estimación ONU"
+				},
+				{
+					"anio": 2003,
+					"valor": 1378000,
+					"fuente": "Wikipedia (Demographics of Gabon), estimación ONU"
+				},
+				{
+					"anio": 2013,
+					"valor": 1811079,
+					"fuente": "Wikipedia (Gabón), censo"
+				},
+				{
+					"anio": 2022,
+					"valor": 2404000,
+					"fuente": "Wikipedia (Demographics of Gabon), estimación"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "9fe5678e72e8",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "gambia",
 			"nombre": "Gambia",
 			"nombres": [
 				"Gambia, The",
-				"Gambia"
+				"Gambia",
+				"The Gambia"
 			],
 			"wiki": "es:Gambia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Gambia",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Gambia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1005",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Gambia",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~GMB",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Gambia británica (colonia y protectorado)",
+					"desde": 1821,
+					"hasta": 1965
+				},
+				{
+					"nombre": "Gambia (reino de la Commonwealth)",
+					"desde": 1965,
+					"hasta": 1970
+				},
+				{
+					"nombre": "República de Gambia",
+					"desde": 1970,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1005",
+			"gobernantes": [
+				{
+					"nombre": "Imperio de Malí (dominio sobre la región)",
+					"desde": 1235,
+					"hasta": 1600,
+					"cargo": "imperio precolonial"
+				},
+				{
+					"nombre": "Reino de Kaabu (mandinga)",
+					"desde": 1537,
+					"hasta": 1867,
+					"cargo": "reino precolonial"
+				},
+				{
+					"nombre": "Isabel II",
+					"desde": 1965,
+					"hasta": 1970,
+					"cargo": "reina (jefa de Estado)"
+				},
+				{
+					"nombre": "Dawda Jawara",
+					"desde": 1970,
+					"hasta": 1994,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Yahya Jammeh",
+					"desde": 1994,
+					"hasta": 2017,
+					"cargo": "presidente (jefe de junta militar 1994-1996)"
+				},
+				{
+					"nombre": "Adama Barrow",
+					"desde": 2017,
+					"hasta": 2026,
+					"cargo": "presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 272000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1963,
+					"valor": 315000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1983,
+					"valor": 687000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1993,
+					"valor": 1038000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2003,
+					"valor": 1360000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2013,
+					"valor": 1882000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2024,
+					"valor": 2770000,
+					"fuente": "UN/OWID (estimación)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "39b6b2db67a3",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "ghana",
 			"nombre": "Ghana",
 			"nombres": [
-				"Ghana"
+				"Ghana",
+				"República de Ghana",
+				"Costa de Oro"
 			],
 			"wiki": "es:Ghana",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Ghana",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Ghana",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q117",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ghana",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Ghana",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Costa de Oro británica",
+					"desde": 1867,
+					"hasta": 1957
+				},
+				{
+					"nombre": "Ghana",
+					"desde": 1957,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q117",
+			"gobernantes": [
+				{
+					"nombre": "Osei Tutu",
+					"desde": 1701,
+					"hasta": 1717,
+					"cargo": "Asantehene (fundador del Imperio Ashanti)"
+				},
+				{
+					"nombre": "Dinastía Ashanti (Asantehene)",
+					"desde": 1701,
+					"hasta": 1902,
+					"cargo": "Soberanos del Imperio Ashanti"
+				},
+				{
+					"nombre": "Prempeh I",
+					"desde": 1888,
+					"hasta": 1931,
+					"cargo": "Asantehene del Imperio Ashanti"
+				},
+				{
+					"nombre": "Administración colonial británica (Costa de Oro)",
+					"desde": 1867,
+					"hasta": 1957,
+					"cargo": "Colonia británica"
+				},
+				{
+					"nombre": "Kwame Nkrumah",
+					"desde": 1957,
+					"hasta": 1960,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Kwame Nkrumah",
+					"desde": 1960,
+					"hasta": 1966,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joseph Arthur Ankrah",
+					"desde": 1966,
+					"hasta": 1969,
+					"cargo": "Presidente del Consejo de Liberación Nacional (junta militar)"
+				},
+				{
+					"nombre": "Akwasi Afrifa",
+					"desde": 1969,
+					"hasta": 1970,
+					"cargo": "Presidente del Consejo de Liberación Nacional (junta militar)"
+				},
+				{
+					"nombre": "Edward Akufo-Addo",
+					"desde": 1970,
+					"hasta": 1972,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ignatius Kutu Acheampong",
+					"desde": 1972,
+					"hasta": 1978,
+					"cargo": "Jefe de la junta militar (NRC/SMC)"
+				},
+				{
+					"nombre": "Fred Akuffo",
+					"desde": 1978,
+					"hasta": 1979,
+					"cargo": "Presidente del Consejo Militar Supremo"
+				},
+				{
+					"nombre": "Jerry Rawlings",
+					"desde": 1979,
+					"hasta": 1979,
+					"cargo": "Presidente del Consejo Revolucionario de las Fuerzas Armadas"
+				},
+				{
+					"nombre": "Hilla Limann",
+					"desde": 1979,
+					"hasta": 1981,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Jerry Rawlings",
+					"desde": 1981,
+					"hasta": 1993,
+					"cargo": "Presidente del Consejo Provisional de Defensa Nacional"
+				},
+				{
+					"nombre": "Jerry Rawlings",
+					"desde": 1993,
+					"hasta": 2001,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "John Kufuor",
+					"desde": 2001,
+					"hasta": 2009,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "John Atta Mills",
+					"desde": 2009,
+					"hasta": 2012,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "John Mahama",
+					"desde": 2012,
+					"hasta": 2017,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Nana Akufo-Addo",
+					"desde": 2017,
+					"hasta": 2025,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "John Mahama",
+					"desde": 2025,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 5078000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1960,
+					"valor": 6726815,
+					"fuente": "Censo de Ghana 1960"
+				},
+				{
+					"anio": 1984,
+					"valor": 12296081,
+					"fuente": "Censo de Ghana 1984"
+				},
+				{
+					"anio": 2000,
+					"valor": 18912079,
+					"fuente": "Censo de Ghana 2000"
+				},
+				{
+					"anio": 2010,
+					"valor": 24658823,
+					"fuente": "Censo de Ghana 2010"
+				},
+				{
+					"anio": 2021,
+					"valor": 30832019,
+					"fuente": "Censo de Ghana 2021"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "ab5b1566c389",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "guinea",
 			"nombre": "Guinea",
 			"nombres": [
-				"Guinea"
+				"Guinea",
+				"Guinea-Conakri",
+				"Guinea Francesa",
+				"República de Guinea"
 			],
 			"wiki": "es:Guinea",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Guinea",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Guinea",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1006",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Imamato de Futa Yallon",
+					"desde": 1727,
+					"hasta": 1896
+				},
+				{
+					"nombre": "Guinea Francesa",
+					"desde": 1891,
+					"hasta": 1958
+				},
+				{
+					"nombre": "República de Guinea",
+					"desde": 1958,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1006",
+			"gobernantes": [
+				{
+					"nombre": "Ahmed Sékou Touré",
+					"desde": 1958,
+					"hasta": 1984,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Lansana Conté",
+					"desde": 1984,
+					"hasta": 2008,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Moussa Dadis Camara",
+					"desde": 2008,
+					"hasta": 2009,
+					"cargo": "Presidente (junta militar)"
+				},
+				{
+					"nombre": "Sékouba Konaté",
+					"desde": 2009,
+					"hasta": 2010,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Alpha Condé",
+					"desde": 2010,
+					"hasta": 2021,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mamadi Doumbouya",
+					"desde": 2021,
+					"hasta": 2026,
+					"cargo": "Presidente de transición"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1901,
+					"valor": 1500000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 1926,
+					"valor": 2100000,
+					"fuente": "Wikipedia (es), censo"
+				},
+				{
+					"anio": 1950,
+					"valor": 2700000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 1983,
+					"valor": 4500000,
+					"fuente": "Wikipedia (es), censo"
+				},
+				{
+					"anio": 2000,
+					"valor": 7500000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2010,
+					"valor": 10100000,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2023,
+					"valor": 13900000,
+					"fuente": "Our World in Data (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "5149775c13ed",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "guinea-bisau",
-			"nombre": "Guinea-Bisáu",
+			"nombre": "Guinea-Bisau",
 			"nombres": [
 				"Guinea-Bissau",
-				"Guinea-Bissau (Portugal)"
+				"Guinea-Bissau (Portugal)",
+				"Guinea Portuguesa"
 			],
 			"wiki": "es:Guinea-Bisáu",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Guinea-Bisáu",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Guinea-Bis%C3%A1u",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-en-jefes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Guinea-Bissau",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1007",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Guinea Portuguesa",
+					"desde": 1879,
+					"hasta": 1973
+				},
+				{
+					"nombre": "Republica de Guinea-Bisau",
+					"desde": 1973,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1007",
+			"gobernantes": [
+				{
+					"nombre": "Luis Cabral",
+					"desde": 1973,
+					"hasta": 1980,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joao Bernardo Vieira",
+					"desde": 1980,
+					"hasta": 1999,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Malam Bacai Sanha",
+					"desde": 1999,
+					"hasta": 2000,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Kumba Iala",
+					"desde": 2000,
+					"hasta": 2003,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Henrique Rosa",
+					"desde": 2003,
+					"hasta": 2005,
+					"cargo": "Presidente de transicion"
+				},
+				{
+					"nombre": "Joao Bernardo Vieira",
+					"desde": 2005,
+					"hasta": 2009,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Raimundo Pereira",
+					"desde": 2009,
+					"hasta": 2009,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Malam Bacai Sanha",
+					"desde": 2009,
+					"hasta": 2012,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Manuel Serifo Nhamadjo",
+					"desde": 2012,
+					"hasta": 2014,
+					"cargo": "Presidente de transicion"
+				},
+				{
+					"nombre": "Jose Mario Vaz",
+					"desde": 2014,
+					"hasta": 2020,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Umaro Sissoco Embalo",
+					"desde": 2020,
+					"hasta": 2025,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Horta N'Tam (Horta Inta-A Na Man)",
+					"desde": 2025,
+					"hasta": 2026,
+					"cargo": "Presidente de transicion (junta militar)"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1979,
+					"valor": 767739,
+					"fuente": "Censo 1979 (Wikipedia)"
+				},
+				{
+					"anio": 1991,
+					"valor": 983367,
+					"fuente": "Wikipedia (es), censo"
+				},
+				{
+					"anio": 1998,
+					"valor": 1206311,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2006,
+					"valor": 1460253,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2022,
+					"valor": 1644000,
+					"fuente": "Wikipedia (es), estimacion"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "d776a10ecd7a",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "costa-marfil",
 			"nombre": "Costa de Marfil",
 			"nombres": [
-				"Ivory Coast"
+				"Ivory Coast",
+				"Costa de Marfil",
+				"Côte d'Ivoire",
+				"República de Costa de Marfil"
 			],
 			"wiki": "es:Costa de Marfil",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Costa de Marfil",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ivory_Coast",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-demo",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Ivory_Coast",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1008",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "República de Costa de Marfil",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1008",
+			"gobernantes": [
+				{
+					"nombre": "Félix Houphouët-Boigny",
+					"desde": 1960,
+					"hasta": 1993,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Henri Konan Bédié",
+					"desde": 1993,
+					"hasta": 1999,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Robert Guéï",
+					"desde": 1999,
+					"hasta": 2000,
+					"cargo": "Presidente (junta militar)"
+				},
+				{
+					"nombre": "Laurent Gbagbo",
+					"desde": 2000,
+					"hasta": 2011,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Alassane Ouattara",
+					"desde": 2010,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 2630000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 1960,
+					"valor": 3504000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 1980,
+					"valor": 8034000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2000,
+					"valor": 16455000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2010,
+					"valor": 21530000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2020,
+					"valor": 26812000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 2021,
+					"valor": 27478249,
+					"fuente": "ONU - WPP 2022"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "4e79c9e788ce",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "kenia",
 			"nombre": "Kenia",
 			"nombres": [
-				"Kenya"
+				"Kenya",
+				"Kenia",
+				"República de Kenia",
+				"África Oriental Británica"
 			],
 			"wiki": "es:Kenia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Kenia",
+					"id": "wiki_es",
 					"url": "https://es.wikipedia.org/wiki/Kenia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q114",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "África Oriental Británica / Colonia de Kenia",
+					"desde": 1895,
+					"hasta": 1963
+				},
+				{
+					"nombre": "República de Kenia",
+					"desde": 1963,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q114",
+			"gobernantes": [
+				{
+					"nombre": "Jomo Kenyatta",
+					"desde": 1963,
+					"hasta": 1978,
+					"cargo": "Primer ministro (1963-1964) y Presidente"
+				},
+				{
+					"nombre": "Daniel arap Moi",
+					"desde": 1978,
+					"hasta": 2002,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mwai Kibaki",
+					"desde": 2002,
+					"hasta": 2013,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Uhuru Kenyatta",
+					"desde": 2013,
+					"hasta": 2022,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "William Ruto",
+					"desde": 2022,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1890,
+					"valor": 1000000,
+					"fuente": "Evolución demográfica (Wikipedia es)"
+				},
+				{
+					"anio": 1948,
+					"valor": 5405966,
+					"fuente": "Censo colonial 1948"
+				},
+				{
+					"anio": 1969,
+					"valor": 10942705,
+					"fuente": "Censo de Kenia 1969"
+				},
+				{
+					"anio": 1999,
+					"valor": 28686607,
+					"fuente": "Censo de Kenia 1999"
+				},
+				{
+					"anio": 2009,
+					"valor": 38610097,
+					"fuente": "Censo de Kenia 2009"
+				},
+				{
+					"anio": 2019,
+					"valor": 47564296,
+					"fuente": "Censo de Kenia 2019"
+				},
+				{
+					"anio": 2023,
+					"valor": 53005614,
+					"fuente": "Estimación (Wikipedia es)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "5f0e93a3879b",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "lesoto",
 			"nombre": "Lesoto",
 			"nombres": [
-				"Lesotho"
+				"Lesotho",
+				"Basutolandia",
+				"Basutoland"
 			],
 			"wiki": "es:Lesoto",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Lesoto",
+					"id": "wikipedia_es",
 					"url": "https://es.wikipedia.org/wiki/Lesoto",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Lesotho",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1013",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Moshoeshoe I (Basutolandia)",
+					"desde": 1824,
+					"hasta": 1868
+				},
+				{
+					"nombre": "Basutolandia (protectorado británico)",
+					"desde": 1868,
+					"hasta": 1966
+				},
+				{
+					"nombre": "Reino de Lesoto",
+					"desde": 1966
+				}
+			],
+			"wikidata": "Q1013",
+			"gobernantes": [
+				{
+					"nombre": "Moshoeshoe I",
+					"desde": 1824,
+					"hasta": 1870,
+					"cargo": "Rey (fundador de la nación basoto)"
+				},
+				{
+					"nombre": "Moshoeshoe II",
+					"desde": 1966,
+					"hasta": 1990,
+					"cargo": "Rey"
+				},
+				{
+					"nombre": "Letsie III",
+					"desde": 1990,
+					"hasta": 1995,
+					"cargo": "Rey"
+				},
+				{
+					"nombre": "Moshoeshoe II",
+					"desde": 1995,
+					"hasta": 1996,
+					"cargo": "Rey (restaurado)"
+				},
+				{
+					"nombre": "Letsie III",
+					"desde": 1996,
+					"hasta": 2026,
+					"cargo": "Rey"
+				},
+				{
+					"nombre": "Leabua Jonathan",
+					"desde": 1966,
+					"hasta": 1986,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Justin Metsing Lekhanya",
+					"desde": 1986,
+					"hasta": 1991,
+					"cargo": "Jefe de la junta militar"
+				},
+				{
+					"nombre": "Ntsu Mokhehle",
+					"desde": 1993,
+					"hasta": 1997,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Pakalitha Mosisili",
+					"desde": 1998,
+					"hasta": 2012,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Thomas Thabane",
+					"desde": 2012,
+					"hasta": 2015,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Pakalitha Mosisili",
+					"desde": 2015,
+					"hasta": 2017,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Thomas Thabane",
+					"desde": 2017,
+					"hasta": 2020,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Moeketsi Majoro",
+					"desde": 2020,
+					"hasta": 2022,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Sam Matekane",
+					"desde": 2022,
+					"hasta": 2026,
+					"cargo": "Primer ministro"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 734000,
+					"fuente": "Wikipedia (Demographics of Lesotho), estimación ONU"
+				},
+				{
+					"anio": 1960,
+					"valor": 852000,
+					"fuente": "Wikipedia (Demographics of Lesotho), estimación ONU"
+				},
+				{
+					"anio": 1970,
+					"valor": 1033000,
+					"fuente": "Wikipedia (Demographics of Lesotho), estimación ONU"
+				},
+				{
+					"anio": 1990,
+					"valor": 1639000,
+					"fuente": "Wikipedia (Demographics of Lesotho), estimación ONU"
+				},
+				{
+					"anio": 2000,
+					"valor": 1964000,
+					"fuente": "Wikipedia (Demographics of Lesotho), estimación ONU"
+				},
+				{
+					"anio": 2016,
+					"valor": 2007201,
+					"fuente": "Wikipedia (Demographics of Lesotho), censo"
+				},
+				{
+					"anio": 2023,
+					"valor": 2311472,
+					"fuente": "Wikipedia (Demographics of Lesotho), estimación"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "85fbfbe59032",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "liberia",
 			"nombre": "Liberia",
 			"nombres": [
-				"Liberia"
+				"Liberia",
+				"República de Liberia"
 			],
 			"wiki": "es:Liberia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Liberia",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Liberia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1014",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Liberia",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~LBR",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Colonia de la Sociedad Americana de Colonización (Mancomunidad de Liberia)",
+					"desde": 1822,
+					"hasta": 1847
+				},
+				{
+					"nombre": "República de Liberia",
+					"desde": 1847,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1014",
+			"gobernantes": [
+				{
+					"nombre": "Joseph Jenkins Roberts",
+					"desde": 1848,
+					"hasta": 1856,
+					"cargo": "presidente (primer presidente)"
+				},
+				{
+					"nombre": "Stephen Allen Benson",
+					"desde": 1856,
+					"hasta": 1864,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Daniel Bashiel Warner",
+					"desde": 1864,
+					"hasta": 1868,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "James Spriggs Payne",
+					"desde": 1868,
+					"hasta": 1870,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Edward James Roye",
+					"desde": 1870,
+					"hasta": 1871,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "James Skivring Smith",
+					"desde": 1871,
+					"hasta": 1872,
+					"cargo": "presidente interino"
+				},
+				{
+					"nombre": "Joseph Jenkins Roberts",
+					"desde": 1872,
+					"hasta": 1876,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "James Spriggs Payne",
+					"desde": 1876,
+					"hasta": 1878,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Anthony W. Gardiner",
+					"desde": 1878,
+					"hasta": 1883,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Alfred Francis Russell",
+					"desde": 1883,
+					"hasta": 1884,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Hilary R. W. Johnson",
+					"desde": 1884,
+					"hasta": 1892,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Joseph James Cheeseman",
+					"desde": 1892,
+					"hasta": 1896,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "William D. Coleman",
+					"desde": 1896,
+					"hasta": 1900,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Garretson W. Gibson",
+					"desde": 1900,
+					"hasta": 1904,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Arthur Barclay",
+					"desde": 1904,
+					"hasta": 1912,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Daniel Edward Howard",
+					"desde": 1912,
+					"hasta": 1920,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Charles D. B. King",
+					"desde": 1920,
+					"hasta": 1930,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Edwin Barclay",
+					"desde": 1930,
+					"hasta": 1944,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "William Tubman",
+					"desde": 1944,
+					"hasta": 1971,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "William Tolbert",
+					"desde": 1971,
+					"hasta": 1980,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Samuel Doe",
+					"desde": 1980,
+					"hasta": 1990,
+					"cargo": "jefe de Estado (Consejo de Redención del Pueblo) y presidente"
+				},
+				{
+					"nombre": "Amos Sawyer",
+					"desde": 1990,
+					"hasta": 1994,
+					"cargo": "presidente del Gobierno interino de Unidad Nacional"
+				},
+				{
+					"nombre": "Charles Taylor",
+					"desde": 1997,
+					"hasta": 2003,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Moses Blah",
+					"desde": 2003,
+					"hasta": 2003,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Gyude Bryant",
+					"desde": 2003,
+					"hasta": 2006,
+					"cargo": "presidente del Gobierno nacional de transición"
+				},
+				{
+					"nombre": "Ellen Johnson Sirleaf",
+					"desde": 2006,
+					"hasta": 2018,
+					"cargo": "presidenta"
+				},
+				{
+					"nombre": "George Weah",
+					"desde": 2018,
+					"hasta": 2024,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Joseph Boakai",
+					"desde": 2024,
+					"hasta": 2026,
+					"cargo": "presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 824000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1962,
+					"valor": 1016000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1984,
+					"valor": 2102000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2008,
+					"valor": 3476000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2020,
+					"valor": 5000000,
+					"fuente": "UN/OWID (estimación)"
+				},
+				{
+					"anio": 2024,
+					"valor": 5610000,
+					"fuente": "UN/OWID (estimación)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "7ff2f70a2b63",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "madagascar",
 			"nombre": "Madagascar",
 			"nombres": [
 				"Madagascar",
-				"Madagascar (France)"
+				"Madagascar (France)",
+				"República de Madagascar"
 			],
 			"wiki": "es:Madagascar",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Madagascar",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Madagascar",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1019",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Madagascar",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Madagascar",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Madagascar (Imerina)",
+					"desde": 1817,
+					"hasta": 1897
+				},
+				{
+					"nombre": "Madagascar (colonia francesa)",
+					"desde": 1897,
+					"hasta": 1958
+				},
+				{
+					"nombre": "República Malgache",
+					"desde": 1958,
+					"hasta": 1975
+				},
+				{
+					"nombre": "República Democrática de Madagascar",
+					"desde": 1975,
+					"hasta": 1992
+				},
+				{
+					"nombre": "República de Madagascar",
+					"desde": 1992,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1019",
+			"gobernantes": [
+				{
+					"nombre": "Andrianampoinimerina",
+					"desde": 1787,
+					"hasta": 1810,
+					"cargo": "Rey de Imerina"
+				},
+				{
+					"nombre": "Radama I",
+					"desde": 1810,
+					"hasta": 1828,
+					"cargo": "Rey de Madagascar"
+				},
+				{
+					"nombre": "Ranavalona I",
+					"desde": 1828,
+					"hasta": 1861,
+					"cargo": "Reina de Madagascar"
+				},
+				{
+					"nombre": "Radama II",
+					"desde": 1861,
+					"hasta": 1863,
+					"cargo": "Rey de Madagascar"
+				},
+				{
+					"nombre": "Rasoherina",
+					"desde": 1863,
+					"hasta": 1868,
+					"cargo": "Reina de Madagascar"
+				},
+				{
+					"nombre": "Ranavalona II",
+					"desde": 1868,
+					"hasta": 1883,
+					"cargo": "Reina de Madagascar"
+				},
+				{
+					"nombre": "Ranavalona III",
+					"desde": 1883,
+					"hasta": 1897,
+					"cargo": "Reina de Madagascar (última soberana)"
+				},
+				{
+					"nombre": "Administración colonial francesa",
+					"desde": 1897,
+					"hasta": 1960,
+					"cargo": "Colonia de Francia"
+				},
+				{
+					"nombre": "Philibert Tsiranana",
+					"desde": 1959,
+					"hasta": 1972,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Gabriel Ramanantsoa",
+					"desde": 1972,
+					"hasta": 1975,
+					"cargo": "Presidente (jefe de gobierno militar)"
+				},
+				{
+					"nombre": "Richard Ratsimandrava",
+					"desde": 1975,
+					"hasta": 1975,
+					"cargo": "Jefe de Estado (asesinado a los 6 días)"
+				},
+				{
+					"nombre": "Gilles Andriamahazo",
+					"desde": 1975,
+					"hasta": 1975,
+					"cargo": "Jefe de Estado interino"
+				},
+				{
+					"nombre": "Didier Ratsiraka",
+					"desde": 1975,
+					"hasta": 1993,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Albert Zafy",
+					"desde": 1993,
+					"hasta": 1996,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Norbert Ratsirahonana",
+					"desde": 1996,
+					"hasta": 1997,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Didier Ratsiraka",
+					"desde": 1997,
+					"hasta": 2002,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Marc Ravalomanana",
+					"desde": 2002,
+					"hasta": 2009,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Andry Rajoelina",
+					"desde": 2009,
+					"hasta": 2014,
+					"cargo": "Presidente de la Alta Autoridad de Transición"
+				},
+				{
+					"nombre": "Hery Rajaonarimampianina",
+					"desde": 2014,
+					"hasta": 2018,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Rivo Rakotovao",
+					"desde": 2018,
+					"hasta": 2019,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Andry Rajoelina",
+					"desde": 2019,
+					"hasta": 2025,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Michael Randrianirina",
+					"desde": 2025,
+					"hasta": 2026,
+					"cargo": "Presidente (tras el golpe de 2025)"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 4084000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1970,
+					"valor": 6549000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1990,
+					"valor": 11281000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 2000,
+					"valor": 15364000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 2018,
+					"valor": 25674196,
+					"fuente": "Censo de Madagascar 2018 (RGPH-3)"
+				},
+				{
+					"anio": 2021,
+					"valor": 28915653,
+					"fuente": "ONU (World Population Prospects 2022)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "3797e127923d",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "malaui",
 			"nombre": "Malaui",
 			"nombres": [
-				"Malawi"
+				"Malawi",
+				"Nyasalandia",
+				"Nyasaland",
+				"República de Malaui"
 			],
 			"wiki": "es:Malaui",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Malaui",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Malaui",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1020",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Imperio Maravi",
+					"desde": 1480,
+					"hasta": 1700
+				},
+				{
+					"nombre": "Protectorado de Nyasalandia",
+					"desde": 1907,
+					"hasta": 1964
+				},
+				{
+					"nombre": "Malaui",
+					"desde": 1964,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1020",
+			"gobernantes": [
+				{
+					"nombre": "Hastings Kamuzu Banda",
+					"desde": 1964,
+					"hasta": 1994,
+					"cargo": "Primer ministro y luego Presidente"
+				},
+				{
+					"nombre": "Bakili Muluzi",
+					"desde": 1994,
+					"hasta": 2004,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Bingu wa Mutharika",
+					"desde": 2004,
+					"hasta": 2012,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joyce Banda",
+					"desde": 2012,
+					"hasta": 2014,
+					"cargo": "Presidenta"
+				},
+				{
+					"nombre": "Peter Mutharika",
+					"desde": 2014,
+					"hasta": 2020,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Lazarus Chakwera",
+					"desde": 2020,
+					"hasta": 2025,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Peter Mutharika",
+					"desde": 2025,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1966,
+					"valor": 4039583,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 1977,
+					"valor": 5547460,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 1987,
+					"valor": 7988507,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 1998,
+					"valor": 9933868,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2008,
+					"valor": 13077160,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2018,
+					"valor": 17563749,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2023,
+					"valor": 20400000,
+					"fuente": "Our World in Data (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "63fb25364067",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "mauritania",
 			"nombre": "Mauritania",
 			"nombres": [
-				"Mauritania"
+				"Mauritania",
+				"Republique Islamique de Mauritanie",
+				"Republica Islamica de Mauritania"
 			],
 			"wiki": "es:Mauritania",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Mauritania",
+					"id": "wikipedia-en",
+					"url": "https://en.wikipedia.org/wiki/Mauritania",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Mauritania",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1025",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Africa Occidental Francesa (colonia de Mauritania)",
+					"desde": 1920,
+					"hasta": 1960
+				},
+				{
+					"nombre": "Republica Islamica de Mauritania",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1025",
+			"gobernantes": [
+				{
+					"nombre": "Moktar Ould Daddah",
+					"desde": 1960,
+					"hasta": 1978,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mustafa Ould Salek",
+					"desde": 1978,
+					"hasta": 1979,
+					"cargo": "Jefe de Estado (junta militar)"
+				},
+				{
+					"nombre": "Mohamed Mahmoud Ould Louly",
+					"desde": 1979,
+					"hasta": 1980,
+					"cargo": "Jefe de Estado (junta militar)"
+				},
+				{
+					"nombre": "Mohamed Khouna Ould Haidalla",
+					"desde": 1980,
+					"hasta": 1984,
+					"cargo": "Jefe de Estado"
+				},
+				{
+					"nombre": "Maaouya Ould Sid'Ahmed Taya",
+					"desde": 1984,
+					"hasta": 2005,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ely Ould Mohamed Vall",
+					"desde": 2005,
+					"hasta": 2007,
+					"cargo": "Jefe de Estado (junta militar)"
+				},
+				{
+					"nombre": "Sidi Ould Cheikh Abdallahi",
+					"desde": 2007,
+					"hasta": 2008,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mohamed Ould Abdel Aziz",
+					"desde": 2008,
+					"hasta": 2019,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mohamed Ould Ghazouani",
+					"desde": 2019,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 700000,
+					"fuente": "Wikipedia (en), estimacion"
+				},
+				{
+					"anio": 1977,
+					"valor": 1338830,
+					"fuente": "Censo 1977 (Wikipedia)"
+				},
+				{
+					"anio": 1988,
+					"valor": 1864236,
+					"fuente": "Censo 1988 (Wikipedia)"
+				},
+				{
+					"anio": 2000,
+					"valor": 2700000,
+					"fuente": "Wikipedia (en), estimacion"
+				},
+				{
+					"anio": 2013,
+					"valor": 3537368,
+					"fuente": "Censo 2013 (Wikipedia)"
+				},
+				{
+					"anio": 2021,
+					"valor": 4600000,
+					"fuente": "Wikipedia (en), estimacion"
+				},
+				{
+					"anio": 2026,
+					"valor": 5461000,
+					"fuente": "Wikipedia (en), estimacion"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "1710b63a9c6e",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "marruecos",
 			"nombre": "Marruecos",
 			"nombres": [
 				"Morocco",
-				"Morocco (France)"
+				"Morocco (France)",
+				"Marruecos",
+				"Reino de Marruecos",
+				"Al-Magrib"
 			],
 			"wiki": "es:Marruecos",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Marruecos",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Marruecos",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-rulers",
+					"url": "https://en.wikipedia.org/wiki/List_of_rulers_of_Morocco",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1028",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Protectorado francés y español de Marruecos",
+					"desde": 1912,
+					"hasta": 1956
+				},
+				{
+					"nombre": "Reino de Marruecos",
+					"desde": 1957,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1028",
+			"gobernantes": [
+				{
+					"nombre": "Dinastía idrisí (Idrisíes)",
+					"desde": 788,
+					"hasta": 974,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Dinastía almorávide (Almorávides)",
+					"desde": 1040,
+					"hasta": 1147,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Dinastía almohade (Almohades)",
+					"desde": 1121,
+					"hasta": 1269,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Dinastía meriní (Meriníes)",
+					"desde": 1244,
+					"hasta": 1465,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Dinastía wattásida (Wattásidas)",
+					"desde": 1472,
+					"hasta": 1554,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Dinastía saadí (Saadíes)",
+					"desde": 1549,
+					"hasta": 1659,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Dinastía alauí (Alauíes)",
+					"desde": 1631,
+					"hasta": 2026,
+					"cargo": "Dinastía gobernante"
+				},
+				{
+					"nombre": "Mohammed V",
+					"desde": 1957,
+					"hasta": 1961,
+					"cargo": "Rey (sultán desde 1927)"
+				},
+				{
+					"nombre": "Hassan II",
+					"desde": 1961,
+					"hasta": 1999,
+					"cargo": "Rey"
+				},
+				{
+					"nombre": "Mohammed VI",
+					"desde": 1999,
+					"hasta": 2026,
+					"cargo": "Rey"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 8953000,
+					"fuente": "ONU - World Population Prospects"
+				},
+				{
+					"anio": 1960,
+					"valor": 11626000,
+					"fuente": "Censo / ONU"
+				},
+				{
+					"anio": 1982,
+					"valor": 20419000,
+					"fuente": "Censo 1982"
+				},
+				{
+					"anio": 1994,
+					"valor": 26074000,
+					"fuente": "Censo 1994"
+				},
+				{
+					"anio": 2004,
+					"valor": 29892000,
+					"fuente": "Censo 2004"
+				},
+				{
+					"anio": 2014,
+					"valor": 33848000,
+					"fuente": "Censo 2014"
+				},
+				{
+					"anio": 2024,
+					"valor": 36828000,
+					"fuente": "Censo 2024 (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "32a476810450",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "mozambique",
 			"nombre": "Mozambique",
 			"nombres": [
 				"Mozambique",
-				"Mozambique (Portugal)"
+				"Mozambique (Portugal)",
+				"África Oriental Portuguesa",
+				"República de Mozambique"
 			],
 			"wiki": "es:Mozambique",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Mozambique",
+					"id": "wiki_es",
 					"url": "https://es.wikipedia.org/wiki/Mozambique",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1029",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "África Oriental Portuguesa (colonia)",
+					"desde": 1505,
+					"hasta": 1975
+				},
+				{
+					"nombre": "República Popular de Mozambique",
+					"desde": 1975,
+					"hasta": 1990
+				},
+				{
+					"nombre": "República de Mozambique",
+					"desde": 1990,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1029",
+			"gobernantes": [
+				{
+					"nombre": "Samora Machel",
+					"desde": 1975,
+					"hasta": 1986,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joaquim Chissano",
+					"desde": 1986,
+					"hasta": 2005,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Armando Guebuza",
+					"desde": 2005,
+					"hasta": 2015,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Filipe Nyusi",
+					"desde": 2015,
+					"hasta": 2025,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Daniel Chapo",
+					"desde": 2025,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1841,
+					"valor": 2900000,
+					"fuente": "Dato histórico (Wikipedia es)"
+				},
+				{
+					"anio": 1940,
+					"valor": 5100000,
+					"fuente": "Censo colonial (Wikipedia es)"
+				},
+				{
+					"anio": 1980,
+					"valor": 12130000,
+					"fuente": "Censo de Mozambique 1980"
+				},
+				{
+					"anio": 1997,
+					"valor": 16099246,
+					"fuente": "Censo de Mozambique 1997"
+				},
+				{
+					"anio": 2007,
+					"valor": 20632434,
+					"fuente": "Censo de Mozambique 2007"
+				},
+				{
+					"anio": 2017,
+					"valor": 27909798,
+					"fuente": "Censo de Mozambique 2017"
+				},
+				{
+					"anio": 2023,
+					"valor": 32400000,
+					"fuente": "Estimación ONU"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "45577b40ac8f",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "namibia",
 			"nombre": "Namibia",
 			"nombres": [
-				"Namibia"
+				"Namibia",
+				"África del Sudoeste",
+				"South-West Africa",
+				"Deutsch-Südwestafrika"
 			],
 			"wiki": "es:Namibia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Namibia",
+					"id": "wikipedia_es",
 					"url": "https://es.wikipedia.org/wiki/Namibia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Namibia",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1030",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "África del Sudoeste Alemana",
+					"desde": 1884,
+					"hasta": 1915
+				},
+				{
+					"nombre": "África del Sudoeste (mandato/administración sudafricana)",
+					"desde": 1915,
+					"hasta": 1990
+				},
+				{
+					"nombre": "República de Namibia",
+					"desde": 1990,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1030",
+			"gobernantes": [
+				{
+					"nombre": "Sam Nujoma",
+					"desde": 1990,
+					"hasta": 2005,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Hifikepunye Pohamba",
+					"desde": 2005,
+					"hasta": 2015,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Hage Geingob",
+					"desde": 2015,
+					"hasta": 2024,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Nangolo Mbumba",
+					"desde": 2024,
+					"hasta": 2025,
+					"cargo": "Presidente (interino)"
+				},
+				{
+					"nombre": "Netumbo Nandi-Ndaitwah",
+					"desde": 2025,
+					"hasta": 2026,
+					"cargo": "Presidenta"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 485000,
+					"fuente": "Wikipedia (Demographics of Namibia), estimación ONU"
+				},
+				{
+					"anio": 1960,
+					"valor": 603000,
+					"fuente": "Wikipedia (Demographics of Namibia), estimación ONU"
+				},
+				{
+					"anio": 1991,
+					"valor": 1409915,
+					"fuente": "Wikipedia (Demographics of Namibia), censo"
+				},
+				{
+					"anio": 2001,
+					"valor": 1830330,
+					"fuente": "Wikipedia (Demographics of Namibia), censo"
+				},
+				{
+					"anio": 2011,
+					"valor": 2113077,
+					"fuente": "Wikipedia (Demographics of Namibia), censo"
+				},
+				{
+					"anio": 2023,
+					"valor": 3022401,
+					"fuente": "Wikipedia (Demographics of Namibia), censo"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "a76a07a8a0a2",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "niger",
 			"nombre": "Níger",
 			"nombres": [
-				"Niger"
+				"Niger",
+				"Níger"
 			],
 			"wiki": "es:Níger",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Níger",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/N%C3%ADger",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1032",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Niger",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~NER",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Níger francés (África Occidental Francesa)",
+					"desde": 1922,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República del Níger",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1032",
+			"gobernantes": [
+				{
+					"nombre": "Imperio de Kanem-Bornu (dominio en el este)",
+					"desde": 1380,
+					"hasta": 1893,
+					"cargo": "imperio precolonial"
+				},
+				{
+					"nombre": "Imperio songhai (dominio en el oeste)",
+					"desde": 1464,
+					"hasta": 1591,
+					"cargo": "imperio precolonial"
+				},
+				{
+					"nombre": "Sultanato del Aïr (Agadez, tuareg)",
+					"desde": 1449,
+					"hasta": 1900,
+					"cargo": "sultanato precolonial"
+				},
+				{
+					"nombre": "Sultanato de Damagaram (Zinder)",
+					"desde": 1731,
+					"hasta": 1899,
+					"cargo": "sultanato precolonial"
+				},
+				{
+					"nombre": "Hamani Diori",
+					"desde": 1960,
+					"hasta": 1974,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Seyni Kountché",
+					"desde": 1974,
+					"hasta": 1987,
+					"cargo": "presidente (Consejo Militar Supremo)"
+				},
+				{
+					"nombre": "Ali Saibou",
+					"desde": 1987,
+					"hasta": 1993,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Mahamane Ousmane",
+					"desde": 1993,
+					"hasta": 1996,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Ibrahim Baré Maïnassara",
+					"desde": 1996,
+					"hasta": 1999,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Daouda Malam Wanké",
+					"desde": 1999,
+					"hasta": 1999,
+					"cargo": "presidente (Consejo de Reconciliación Nacional)"
+				},
+				{
+					"nombre": "Mamadou Tandja",
+					"desde": 1999,
+					"hasta": 2010,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Salou Djibo",
+					"desde": 2010,
+					"hasta": 2011,
+					"cargo": "presidente (junta militar)"
+				},
+				{
+					"nombre": "Mahamadou Issoufou",
+					"desde": 2011,
+					"hasta": 2021,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Mohamed Bazoum",
+					"desde": 2021,
+					"hasta": 2023,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Abdourahamane Tchiani (Tiani)",
+					"desde": 2023,
+					"hasta": 2026,
+					"cargo": "presidente (junta militar, CNSP)"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 2560000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1977,
+					"valor": 5102000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1988,
+					"valor": 7251000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2001,
+					"valor": 11061000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2012,
+					"valor": 17138000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2024,
+					"valor": 26200000,
+					"fuente": "UN/OWID (estimación)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "689bb0fe2351",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "nigeria",
 			"nombre": "Nigeria",
 			"nombres": [
-				"Nigeria"
+				"Nigeria",
+				"República Federal de Nigeria"
 			],
 			"wiki": "es:Nigeria",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Nigeria",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Nigeria",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1033",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Nigeria",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Nigeria",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Nigeria (colonia y protectorado británico)",
+					"desde": 1914,
+					"hasta": 1960
+				},
+				{
+					"nombre": "Nigeria",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1033",
+			"gobernantes": [
+				{
+					"nombre": "Dinastía de los Obas de Benín (Imperio de Benín)",
+					"desde": 1180,
+					"hasta": 1897,
+					"cargo": "Obas del Reino de Benín"
+				},
+				{
+					"nombre": "Alaafines del Imperio de Oyo",
+					"desde": 1400,
+					"hasta": 1836,
+					"cargo": "Soberanos yoruba del Imperio de Oyo"
+				},
+				{
+					"nombre": "Usman dan Fodio",
+					"desde": 1804,
+					"hasta": 1817,
+					"cargo": "Fundador del Califato de Sokoto"
+				},
+				{
+					"nombre": "Califato de Sokoto (Sultanes de Sokoto)",
+					"desde": 1804,
+					"hasta": 1903,
+					"cargo": "Soberanos del Califato de Sokoto"
+				},
+				{
+					"nombre": "Administración colonial británica",
+					"desde": 1900,
+					"hasta": 1960,
+					"cargo": "Colonia y protectorado del Reino Unido"
+				},
+				{
+					"nombre": "Nnamdi Azikiwe",
+					"desde": 1963,
+					"hasta": 1966,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Johnson Aguiyi-Ironsi",
+					"desde": 1966,
+					"hasta": 1966,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Yakubu Gowon",
+					"desde": 1966,
+					"hasta": 1975,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Murtala Mohammed",
+					"desde": 1975,
+					"hasta": 1976,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Olusegun Obasanjo",
+					"desde": 1976,
+					"hasta": 1979,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Shehu Shagari",
+					"desde": 1979,
+					"hasta": 1983,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Muhammadu Buhari",
+					"desde": 1983,
+					"hasta": 1985,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Ibrahim Babangida",
+					"desde": 1985,
+					"hasta": 1993,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Ernest Shonekan",
+					"desde": 1993,
+					"hasta": 1993,
+					"cargo": "Jefe de Estado interino"
+				},
+				{
+					"nombre": "Sani Abacha",
+					"desde": 1993,
+					"hasta": 1998,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Abdulsalami Abubakar",
+					"desde": 1998,
+					"hasta": 1999,
+					"cargo": "Jefe de Estado militar"
+				},
+				{
+					"nombre": "Olusegun Obasanjo",
+					"desde": 1999,
+					"hasta": 2007,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Umaru Musa Yar'Adua",
+					"desde": 2007,
+					"hasta": 2010,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Goodluck Jonathan",
+					"desde": 2010,
+					"hasta": 2015,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Muhammadu Buhari",
+					"desde": 2015,
+					"hasta": 2023,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Bola Tinubu",
+					"desde": 2023,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 36836000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1963,
+					"valor": 55670052,
+					"fuente": "Censo de Nigeria 1963"
+				},
+				{
+					"anio": 1991,
+					"valor": 88992220,
+					"fuente": "Censo de Nigeria 1991"
+				},
+				{
+					"anio": 2006,
+					"valor": 140431790,
+					"fuente": "Censo de Nigeria 2006"
+				},
+				{
+					"anio": 2022,
+					"valor": 218541000,
+					"fuente": "ONU (World Population Prospects 2022)"
+				},
+				{
+					"anio": 2023,
+					"valor": 223804632,
+					"fuente": "ONU (World Population Prospects 2024)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "8cceb7a800b7",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "ruanda",
 			"nombre": "Ruanda",
 			"nombres": [
 				"Rwanda",
-				"Rwanda (Belgium)"
+				"Rwanda (Belgium)",
+				"Ruanda-Urundi",
+				"República de Ruanda"
 			],
 			"wiki": "es:Ruanda",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Ruanda",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Ruanda",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1037",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino de Ruanda",
+					"desde": 1600,
+					"hasta": 1961
+				},
+				{
+					"nombre": "Ruanda-Urundi (mandato belga)",
+					"desde": 1922,
+					"hasta": 1962
+				},
+				{
+					"nombre": "República de Ruanda",
+					"desde": 1962,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1037",
+			"gobernantes": [
+				{
+					"nombre": "Kigeli IV Rwabugiri",
+					"desde": 1853,
+					"hasta": 1895,
+					"cargo": "Mwami (rey)"
+				},
+				{
+					"nombre": "Yuhi V Musinga",
+					"desde": 1896,
+					"hasta": 1931,
+					"cargo": "Mwami (rey)"
+				},
+				{
+					"nombre": "Mutara III Rudahigwa",
+					"desde": 1931,
+					"hasta": 1959,
+					"cargo": "Mwami (rey)"
+				},
+				{
+					"nombre": "Kigeli V Ndahindurwa",
+					"desde": 1959,
+					"hasta": 1961,
+					"cargo": "Mwami (rey)"
+				},
+				{
+					"nombre": "Grégoire Kayibanda",
+					"desde": 1962,
+					"hasta": 1973,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Juvénal Habyarimana",
+					"desde": 1973,
+					"hasta": 1994,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Théodore Sindikubwabo",
+					"desde": 1994,
+					"hasta": 1994,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Pasteur Bizimungu",
+					"desde": 1994,
+					"hasta": 2000,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Paul Kagame",
+					"desde": 2000,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1960,
+					"valor": 2900000,
+					"fuente": "Our World in Data (est.)"
+				},
+				{
+					"anio": 1978,
+					"valor": 4831527,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 1991,
+					"valor": 7157551,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2002,
+					"valor": 8128553,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2012,
+					"valor": 10515973,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2018,
+					"valor": 12301393,
+					"fuente": "Wikipedia (es), Banco Mundial"
+				},
+				{
+					"anio": 2022,
+					"valor": 13246394,
+					"fuente": "censo (Wikipedia es)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "71eef4911180",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "senegal",
 			"nombre": "Senegal",
 			"nombres": [
-				"Senegal"
+				"Senegal",
+				"Republique du Senegal",
+				"Republica del Senegal"
 			],
 			"wiki": "es:Senegal",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Senegal",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Senegal",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-es-presidentes",
+					"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Senegal",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1041",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Africa Occidental Francesa (Senegal)",
+					"desde": 1895,
+					"hasta": 1959
+				},
+				{
+					"nombre": "Federacion de Mali",
+					"desde": 1959,
+					"hasta": 1960
+				},
+				{
+					"nombre": "Republica del Senegal",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1041",
+			"gobernantes": [
+				{
+					"nombre": "Leopold Sedar Senghor",
+					"desde": 1960,
+					"hasta": 1980,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Abdou Diouf",
+					"desde": 1980,
+					"hasta": 2000,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Abdoulaye Wade",
+					"desde": 2000,
+					"hasta": 2012,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Macky Sall",
+					"desde": 2012,
+					"hasta": 2024,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Bassirou Diomaye Faye",
+					"desde": 2024,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 2416000,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 1960,
+					"valor": 3048000,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 2002,
+					"valor": 9858482,
+					"fuente": "Censo 2002 (Wikipedia)"
+				},
+				{
+					"anio": 2008,
+					"valor": 12000000,
+					"fuente": "Wikipedia (es), estimacion"
+				},
+				{
+					"anio": 2013,
+					"valor": 13508715,
+					"fuente": "Censo 2013 (Wikipedia)"
+				},
+				{
+					"anio": 2023,
+					"valor": 18126390,
+					"fuente": "Censo 2023 (Wikipedia)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "632c6e8a6609",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "sierra-leona",
 			"nombre": "Sierra Leona",
 			"nombres": [
-				"Sierra Leone"
+				"Sierra Leone",
+				"Sierra Leona",
+				"República de Sierra Leona"
 			],
 			"wiki": "es:Sierra Leona",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Sierra Leona",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sierra_Leone",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-demo",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Sierra_Leone",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1044",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Dominio de Sierra Leona (Commonwealth)",
+					"desde": 1961,
+					"hasta": 1971
+				},
+				{
+					"nombre": "República de Sierra Leona",
+					"desde": 1971,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1044",
+			"gobernantes": [
+				{
+					"nombre": "Maurice Dorman",
+					"desde": 1961,
+					"hasta": 1962,
+					"cargo": "Gobernador general"
+				},
+				{
+					"nombre": "Henry Lightfoot Boston",
+					"desde": 1962,
+					"hasta": 1968,
+					"cargo": "Gobernador general"
+				},
+				{
+					"nombre": "Banja Tejan-Sie",
+					"desde": 1968,
+					"hasta": 1971,
+					"cargo": "Gobernador general"
+				},
+				{
+					"nombre": "Christopher Okoro Cole",
+					"desde": 1971,
+					"hasta": 1971,
+					"cargo": "Gobernador general / Presidente"
+				},
+				{
+					"nombre": "Siaka Stevens",
+					"desde": 1971,
+					"hasta": 1985,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joseph Saidu Momoh",
+					"desde": 1985,
+					"hasta": 1992,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Valentine Strasser",
+					"desde": 1992,
+					"hasta": 1996,
+					"cargo": "Presidente (junta militar NPRC)"
+				},
+				{
+					"nombre": "Julius Maada Bio",
+					"desde": 1996,
+					"hasta": 1996,
+					"cargo": "Presidente (militar)"
+				},
+				{
+					"nombre": "Ahmad Tejan Kabbah",
+					"desde": 1996,
+					"hasta": 1997,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Johnny Paul Koroma",
+					"desde": 1997,
+					"hasta": 1998,
+					"cargo": "Presidente (junta AFRC)"
+				},
+				{
+					"nombre": "Ahmad Tejan Kabbah",
+					"desde": 1998,
+					"hasta": 2007,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ernest Bai Koroma",
+					"desde": 2007,
+					"hasta": 2018,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Julius Maada Bio",
+					"desde": 2018,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1963,
+					"valor": 2180355,
+					"fuente": "Censo 1963"
+				},
+				{
+					"anio": 1974,
+					"valor": 2735159,
+					"fuente": "Censo 1974"
+				},
+				{
+					"anio": 1985,
+					"valor": 3515812,
+					"fuente": "Censo 1985"
+				},
+				{
+					"anio": 2004,
+					"valor": 4976871,
+					"fuente": "Censo 2004"
+				},
+				{
+					"anio": 2014,
+					"valor": 5743725,
+					"fuente": "Censo 2014"
+				},
+				{
+					"anio": 2021,
+					"valor": 8095000,
+					"fuente": "ONU - WPP 2022"
+				},
+				{
+					"anio": 2023,
+					"valor": 8461000,
+					"fuente": "ONU - World Population Prospects"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "f10a4d5f3fac",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "somalia",
 			"nombre": "Somalia",
 			"nombres": [
-				"Somalia"
+				"Somalia",
+				"República Federal de Somalia",
+				"República Democrática Somalí",
+				"Somalia italiana"
 			],
 			"wiki": "es:Somalia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Somalia",
+					"id": "wiki_es",
 					"url": "https://es.wikipedia.org/wiki/Somalia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1045",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Somalilandia italiana y británica (colonias)",
+					"desde": 1889,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República Somalí",
+					"desde": 1960,
+					"hasta": 1969
+				},
+				{
+					"nombre": "República Democrática Somalí",
+					"desde": 1969,
+					"hasta": 1991
+				},
+				{
+					"nombre": "República Federal de Somalia",
+					"desde": 2012
+				}
+			],
+			"wikidata": "Q1045",
+			"gobernantes": [
+				{
+					"nombre": "Aden Abdullah Osman Daar",
+					"desde": 1960,
+					"hasta": 1967,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Abdirashid Ali Shermarke",
+					"desde": 1967,
+					"hasta": 1969,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mohamed Siad Barre",
+					"desde": 1969,
+					"hasta": 1991,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Ali Mahdi Muhammad",
+					"desde": 1991,
+					"hasta": 1997,
+					"cargo": "Presidente interino (disputado)"
+				},
+				{
+					"nombre": "Abdiqasim Salad Hassan",
+					"desde": 2000,
+					"hasta": 2004,
+					"cargo": "Presidente (Gobierno Nacional de Transición)"
+				},
+				{
+					"nombre": "Abdullahi Yusuf Ahmed",
+					"desde": 2004,
+					"hasta": 2008,
+					"cargo": "Presidente (Gobierno Federal de Transición)"
+				},
+				{
+					"nombre": "Sharif Sheikh Ahmed",
+					"desde": 2009,
+					"hasta": 2012,
+					"cargo": "Presidente (Gobierno Federal de Transición)"
+				},
+				{
+					"nombre": "Hassan Sheikh Mohamud",
+					"desde": 2012,
+					"hasta": 2017,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mohamed Abdullahi Mohamed (Farmaajo)",
+					"desde": 2017,
+					"hasta": 2022,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Hassan Sheikh Mohamud",
+					"desde": 2022,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1975,
+					"valor": 3253024,
+					"fuente": "Censo de Somalia 1975"
+				},
+				{
+					"anio": 1987,
+					"valor": 7114431,
+					"fuente": "Censo de Somalia 1987 (disputado)"
+				},
+				{
+					"anio": 2000,
+					"valor": 8900000,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2014,
+					"valor": 12316895,
+					"fuente": "Estimación UNFPA (PESS)"
+				},
+				{
+					"anio": 2020,
+					"valor": 15900000,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2023,
+					"valor": 18143378,
+					"fuente": "Estimación (Wikipedia es)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "16f152aa9fdd",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "sudafrica",
 			"nombre": "Sudáfrica",
 			"nombres": [
-				"South Africa"
+				"South Africa",
+				"Unión Sudafricana",
+				"Union of South Africa",
+				"República de Sudáfrica"
 			],
 			"wiki": "es:Sudáfrica",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Sudáfrica",
+					"id": "wikipedia_es",
 					"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_heads",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_South_Africa",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_South_Africa",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_reino_zulu",
+					"url": "https://es.wikipedia.org/wiki/Reino_zul%C3%BA",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q258",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Reino zulú",
+					"desde": 1816,
+					"hasta": 1897
+				},
+				{
+					"nombre": "Colonia del Cabo / colonias británicas y repúblicas bóer",
+					"desde": 1806,
+					"hasta": 1910
+				},
+				{
+					"nombre": "Unión Sudafricana",
+					"desde": 1910,
+					"hasta": 1961
+				},
+				{
+					"nombre": "República de Sudáfrica",
+					"desde": 1961,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q258",
+			"gobernantes": [
+				{
+					"nombre": "Shaka kaSenzangakhona",
+					"desde": 1816,
+					"hasta": 1828,
+					"cargo": "Rey zulú"
+				},
+				{
+					"nombre": "Dingane kaSenzangakhona",
+					"desde": 1828,
+					"hasta": 1840,
+					"cargo": "Rey zulú"
+				},
+				{
+					"nombre": "Mpande kaSenzangakhona",
+					"desde": 1840,
+					"hasta": 1872,
+					"cargo": "Rey zulú"
+				},
+				{
+					"nombre": "Cetshwayo kaMpande",
+					"desde": 1872,
+					"hasta": 1884,
+					"cargo": "Rey zulú"
+				},
+				{
+					"nombre": "Dinuzulu kaCetshwayo",
+					"desde": 1884,
+					"hasta": 1913,
+					"cargo": "Rey zulú"
+				},
+				{
+					"nombre": "Louis Botha",
+					"desde": 1910,
+					"hasta": 1919,
+					"cargo": "Primer ministro (Unión)"
+				},
+				{
+					"nombre": "Jan Smuts",
+					"desde": 1919,
+					"hasta": 1924,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "J. B. M. Hertzog",
+					"desde": 1924,
+					"hasta": 1939,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Jan Smuts",
+					"desde": 1939,
+					"hasta": 1948,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "D. F. Malan",
+					"desde": 1948,
+					"hasta": 1954,
+					"cargo": "Primer ministro (inicio del apartheid)"
+				},
+				{
+					"nombre": "J. G. Strijdom",
+					"desde": 1954,
+					"hasta": 1958,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Hendrik Verwoerd",
+					"desde": 1958,
+					"hasta": 1966,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "B. J. Vorster",
+					"desde": 1966,
+					"hasta": 1978,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "P. W. Botha",
+					"desde": 1978,
+					"hasta": 1984,
+					"cargo": "Primer ministro (luego Presidente del Estado)"
+				},
+				{
+					"nombre": "Charles Robberts Swart",
+					"desde": 1961,
+					"hasta": 1967,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "Jacobus Johannes Fouché",
+					"desde": 1968,
+					"hasta": 1975,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "Nicolaas Diederichs",
+					"desde": 1975,
+					"hasta": 1978,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "B. J. Vorster",
+					"desde": 1978,
+					"hasta": 1979,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "Marais Viljoen",
+					"desde": 1979,
+					"hasta": 1984,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "P. W. Botha",
+					"desde": 1984,
+					"hasta": 1989,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "F. W. de Klerk",
+					"desde": 1989,
+					"hasta": 1994,
+					"cargo": "Presidente del Estado"
+				},
+				{
+					"nombre": "Nelson Mandela",
+					"desde": 1994,
+					"hasta": 1999,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Thabo Mbeki",
+					"desde": 1999,
+					"hasta": 2008,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Kgalema Motlanthe",
+					"desde": 2008,
+					"hasta": 2009,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Jacob Zuma",
+					"desde": 2009,
+					"hasta": 2018,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Cyril Ramaphosa",
+					"desde": 2018,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1911,
+					"valor": 5972757,
+					"fuente": "Wikipedia (Demographics of South Africa), censo"
+				},
+				{
+					"anio": 1960,
+					"valor": 17396367,
+					"fuente": "Wikipedia (Demographics of South Africa), censo"
+				},
+				{
+					"anio": 1996,
+					"valor": 40583573,
+					"fuente": "Wikipedia (Demographics of South Africa), censo"
+				},
+				{
+					"anio": 2001,
+					"valor": 44819777,
+					"fuente": "Wikipedia (Demographics of South Africa), censo"
+				},
+				{
+					"anio": 2011,
+					"valor": 51770560,
+					"fuente": "Wikipedia (Demographics of South Africa), censo"
+				},
+				{
+					"anio": 2022,
+					"valor": 62027503,
+					"fuente": "Wikipedia (Demographics of South Africa), censo"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "f574f7e3ce00",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "esuatini",
 			"nombre": "Esuatini",
 			"nombres": [
-				"Swaziland"
+				"Swaziland",
+				"Suazilandia",
+				"Esuatini",
+				"Eswatini"
 			],
 			"wiki": "es:Esuatini",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Esuatini",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Esuatini",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1050",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en",
+					"url": "https://en.wikipedia.org/wiki/List_of_kings_of_Eswatini",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~SWZ",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Suazilandia (protectorado británico)",
+					"desde": 1903,
+					"hasta": 1968
+				},
+				{
+					"nombre": "Reino de Suazilandia",
+					"desde": 1968,
+					"hasta": 2018
+				},
+				{
+					"nombre": "Reino de Esuatini",
+					"desde": 2018,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1050",
+			"gobernantes": [
+				{
+					"nombre": "Ngwane III (dinastía Dlamini)",
+					"desde": 1745,
+					"hasta": 1780,
+					"cargo": "rey (ngwenyama)"
+				},
+				{
+					"nombre": "Sobhuza I",
+					"desde": 1815,
+					"hasta": 1836,
+					"cargo": "rey (ngwenyama)"
+				},
+				{
+					"nombre": "Mswati II",
+					"desde": 1840,
+					"hasta": 1868,
+					"cargo": "rey (ngwenyama)"
+				},
+				{
+					"nombre": "Mbandzeni",
+					"desde": 1875,
+					"hasta": 1889,
+					"cargo": "rey (ngwenyama)"
+				},
+				{
+					"nombre": "Ngwane V (Bhunu)",
+					"desde": 1889,
+					"hasta": 1899,
+					"cargo": "rey (ngwenyama)"
+				},
+				{
+					"nombre": "Sobhuza II",
+					"desde": 1899,
+					"hasta": 1982,
+					"cargo": "rey (ngwenyama); jefe de Estado desde la independencia de 1968"
+				},
+				{
+					"nombre": "Dzeliwe Shongwe",
+					"desde": 1982,
+					"hasta": 1983,
+					"cargo": "reina regente (indlovukati)"
+				},
+				{
+					"nombre": "Ntfombi Tfwala",
+					"desde": 1983,
+					"hasta": 1986,
+					"cargo": "reina regente (indlovukati)"
+				},
+				{
+					"nombre": "Mswati III",
+					"desde": 1986,
+					"hasta": 2026,
+					"cargo": "rey (ngwenyama)"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 273000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1966,
+					"valor": 375000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1986,
+					"valor": 681000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1997,
+					"valor": 980000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2007,
+					"valor": 1018000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2024,
+					"valor": 1230000,
+					"fuente": "UN/OWID (estimación)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "80e0aa379cf2",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "tanzania",
 			"nombre": "Tanzania",
 			"nombres": [
-				"Tanzania, United Republic of"
+				"Tanzania, United Republic of",
+				"Tanzania",
+				"República Unida de Tanzania"
 			],
 			"wiki": "es:Tanzania",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Tanzania",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Tanzania",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q924",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Tanzania",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Tanzania",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "África Oriental Alemana",
+					"desde": 1885,
+					"hasta": 1919
+				},
+				{
+					"nombre": "Territorio de Tanganica (mandato/administración británica)",
+					"desde": 1919,
+					"hasta": 1961
+				},
+				{
+					"nombre": "Tanganica",
+					"desde": 1961,
+					"hasta": 1964
+				},
+				{
+					"nombre": "República Unida de Tanzania",
+					"desde": 1964,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q924",
+			"gobernantes": [
+				{
+					"nombre": "Said bin Sultan",
+					"desde": 1804,
+					"hasta": 1856,
+					"cargo": "Sultán de Omán y Zanzíbar (dinastía Al Said)"
+				},
+				{
+					"nombre": "Sultanato de Zanzíbar (dinastía Al Said)",
+					"desde": 1856,
+					"hasta": 1964,
+					"cargo": "Sultanes de Zanzíbar"
+				},
+				{
+					"nombre": "Administración colonial alemana (África Oriental Alemana)",
+					"desde": 1885,
+					"hasta": 1919,
+					"cargo": "Colonia del Imperio alemán"
+				},
+				{
+					"nombre": "Administración británica de Tanganica",
+					"desde": 1919,
+					"hasta": 1961,
+					"cargo": "Mandato y fideicomiso británico"
+				},
+				{
+					"nombre": "Julius Nyerere",
+					"desde": 1962,
+					"hasta": 1964,
+					"cargo": "Presidente de Tanganica"
+				},
+				{
+					"nombre": "Julius Nyerere",
+					"desde": 1964,
+					"hasta": 1985,
+					"cargo": "Presidente de Tanzania"
+				},
+				{
+					"nombre": "Ali Hassan Mwinyi",
+					"desde": 1985,
+					"hasta": 1995,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Benjamin Mkapa",
+					"desde": 1995,
+					"hasta": 2005,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Jakaya Kikwete",
+					"desde": 2005,
+					"hasta": 2015,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "John Magufuli",
+					"desde": 2015,
+					"hasta": 2021,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Samia Suluhu Hassan",
+					"desde": 2021,
+					"hasta": 2026,
+					"cargo": "Presidenta"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 7650000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1967,
+					"valor": 12313469,
+					"fuente": "Censo de Tanzania 1967"
+				},
+				{
+					"anio": 1988,
+					"valor": 23174336,
+					"fuente": "Censo de Tanzania 1988"
+				},
+				{
+					"anio": 2002,
+					"valor": 34443603,
+					"fuente": "Censo de Tanzania 2002"
+				},
+				{
+					"anio": 2012,
+					"valor": 44928923,
+					"fuente": "Censo de Tanzania 2012"
+				},
+				{
+					"anio": 2022,
+					"valor": 61741120,
+					"fuente": "Censo de Tanzania 2022"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "9104e92beb59",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "togo",
 			"nombre": "Togo",
 			"nombres": [
-				"Togo"
+				"Togo",
+				"Togolandia",
+				"República Togolesa"
 			],
 			"wiki": "es:Togo",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Togo",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/Togo",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q945",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Togolandia alemana",
+					"desde": 1884,
+					"hasta": 1914
+				},
+				{
+					"nombre": "Togo francés",
+					"desde": 1916,
+					"hasta": 1960
+				},
+				{
+					"nombre": "República Togolesa",
+					"desde": 1960,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q945",
+			"gobernantes": [
+				{
+					"nombre": "Sylvanus Olympio",
+					"desde": 1960,
+					"hasta": 1963,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Nicolas Grunitzky",
+					"desde": 1963,
+					"hasta": 1967,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Kléber Dadjo",
+					"desde": 1967,
+					"hasta": 1967,
+					"cargo": "Presidente (comité de reconciliación, interino)"
+				},
+				{
+					"nombre": "Gnassingbé Eyadéma",
+					"desde": 1967,
+					"hasta": 2005,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Faure Gnassingbé",
+					"desde": 2005,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1960,
+					"valor": 1580000,
+					"fuente": "Our World in Data (est.)"
+				},
+				{
+					"anio": 1981,
+					"valor": 2700000,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2000,
+					"valor": 4900000,
+					"fuente": "Our World in Data (est.)"
+				},
+				{
+					"anio": 2010,
+					"valor": 6191155,
+					"fuente": "censo (Wikipedia es)"
+				},
+				{
+					"anio": 2017,
+					"valor": 7552318,
+					"fuente": "Wikipedia (es)"
+				},
+				{
+					"anio": 2023,
+					"valor": 8700000,
+					"fuente": "Our World in Data (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "77d2888d82df",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "tunez",
-			"nombre": "Túnez",
+			"nombre": "Tunez",
 			"nombres": [
 				"Tunisia",
-				"Tunis"
+				"Tunis",
+				"Republica Tunecina",
+				"Reino de Tunez"
 			],
 			"wiki": "es:Túnez",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Túnez",
+					"id": "wikipedia-es",
 					"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia-en-presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Tunisia",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q948",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Protectorado frances de Tunez",
+					"desde": 1881,
+					"hasta": 1956
+				},
+				{
+					"nombre": "Reino de Tunez",
+					"desde": 1956,
+					"hasta": 1957
+				},
+				{
+					"nombre": "Republica Tunecina",
+					"desde": 1957,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q948",
+			"gobernantes": [
+				{
+					"nombre": "Habib Bourguiba",
+					"desde": 1957,
+					"hasta": 1987,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Zine El Abidine Ben Ali",
+					"desde": 1987,
+					"hasta": 2011,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Fouad Mebazaa",
+					"desde": 2011,
+					"hasta": 2011,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Moncef Marzouki",
+					"desde": 2011,
+					"hasta": 2014,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Beji Caid Essebsi",
+					"desde": 2014,
+					"hasta": 2019,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mohamed Ennaceur",
+					"desde": 2019,
+					"hasta": 2019,
+					"cargo": "Presidente interino"
+				},
+				{
+					"nombre": "Kais Saied",
+					"desde": 2019,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1956,
+					"valor": 3783000,
+					"fuente": "Censo 1956 (Wikipedia)"
+				},
+				{
+					"anio": 1966,
+					"valor": 4533351,
+					"fuente": "Censo 1966 (Wikipedia)"
+				},
+				{
+					"anio": 1984,
+					"valor": 6966173,
+					"fuente": "Censo 1984 (Wikipedia)"
+				},
+				{
+					"anio": 2004,
+					"valor": 9910872,
+					"fuente": "Censo 2004 (Wikipedia)"
+				},
+				{
+					"anio": 2014,
+					"valor": 10982754,
+					"fuente": "Censo 2014 (Wikipedia)"
+				},
+				{
+					"anio": 2023,
+					"valor": 12458200,
+					"fuente": "Wikipedia (es), estimacion"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "dc31e404736b",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "uganda",
 			"nombre": "Uganda",
 			"nombres": [
-				"Uganda"
+				"Uganda",
+				"República de Uganda"
 			],
 			"wiki": "es:Uganda",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Uganda",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Uganda",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Uganda",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-demo",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Uganda",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q1036",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Dominio de Uganda (Commonwealth)",
+					"desde": 1962,
+					"hasta": 1963
+				},
+				{
+					"nombre": "República de Uganda",
+					"desde": 1963,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q1036",
+			"gobernantes": [
+				{
+					"nombre": "Isabel II",
+					"desde": 1962,
+					"hasta": 1963,
+					"cargo": "Reina de Uganda"
+				},
+				{
+					"nombre": "Edward Mutesa II",
+					"desde": 1963,
+					"hasta": 1966,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Milton Obote",
+					"desde": 1966,
+					"hasta": 1971,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Idi Amin",
+					"desde": 1971,
+					"hasta": 1979,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Yusuf Lule",
+					"desde": 1979,
+					"hasta": 1979,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Godfrey Binaisa",
+					"desde": 1979,
+					"hasta": 1980,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Paulo Muwanga",
+					"desde": 1980,
+					"hasta": 1980,
+					"cargo": "Presidente (Comisión Militar)"
+				},
+				{
+					"nombre": "Milton Obote",
+					"desde": 1980,
+					"hasta": 1985,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Tito Okello",
+					"desde": 1985,
+					"hasta": 1986,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Yoweri Museveni",
+					"desde": 1986,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1948,
+					"valor": 4958520,
+					"fuente": "Censo 1948"
+				},
+				{
+					"anio": 1959,
+					"valor": 6536616,
+					"fuente": "Censo 1959"
+				},
+				{
+					"anio": 1969,
+					"valor": 9548847,
+					"fuente": "Censo 1969"
+				},
+				{
+					"anio": 1980,
+					"valor": 12636179,
+					"fuente": "Censo 1980"
+				},
+				{
+					"anio": 1991,
+					"valor": 16671705,
+					"fuente": "Censo 1991"
+				},
+				{
+					"anio": 2002,
+					"valor": 24442084,
+					"fuente": "Censo 2002"
+				},
+				{
+					"anio": 2014,
+					"valor": 34856813,
+					"fuente": "Censo 2014"
+				},
+				{
+					"anio": 2024,
+					"valor": 45900000,
+					"fuente": "Censo 2024 (est.)"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "ce8e93d76b74",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "sahara-occidental",
 			"nombre": "Sáhara Occidental",
 			"nombres": [
-				"Western Sahara"
+				"Western Sahara",
+				"Sáhara Occidental",
+				"Sahara Español",
+				"República Árabe Saharaui Democrática",
+				"RASD"
 			],
 			"wiki": "es:Sáhara Occidental",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Sáhara Occidental",
+					"id": "wiki_es",
 					"url": "https://es.wikipedia.org/wiki/S%C3%A1hara_Occidental",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki_en_hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Sahrawi_Arab_Democratic_Republic",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q6250",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata_rasd",
+					"url": "https://www.wikidata.org/wiki/Q40362",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Sahara Español (colonia)",
+					"desde": 1884,
+					"hasta": 1976
+				},
+				{
+					"nombre": "República Árabe Saharaui Democrática (proclamada)",
+					"desde": 1976
+				},
+				{
+					"nombre": "Administración marroquí (de facto, mayor parte del territorio)",
+					"desde": 1975
+				}
+			],
+			"wikidata": "Q6250",
+			"gobernantes": [
+				{
+					"nombre": "El-Ouali Mustapha Sayed",
+					"desde": 1976,
+					"hasta": 1976,
+					"cargo": "Secretario General del Frente Polisario / jefe del Consejo Revolucionario (RASD)"
+				},
+				{
+					"nombre": "Mahfoud Ali Beiba",
+					"desde": 1976,
+					"hasta": 1976,
+					"cargo": "Presidente interino (Consejo Revolucionario, RASD)"
+				},
+				{
+					"nombre": "Mohamed Abdelaziz",
+					"desde": 1976,
+					"hasta": 2016,
+					"cargo": "Presidente de la RASD"
+				},
+				{
+					"nombre": "Khatri Aduh",
+					"desde": 2016,
+					"hasta": 2016,
+					"cargo": "Presidente interino (RASD)"
+				},
+				{
+					"nombre": "Brahim Ghali",
+					"desde": 2016,
+					"hasta": 2026,
+					"cargo": "Presidente de la RASD"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1974,
+					"valor": 74902,
+					"fuente": "Censo español 1974"
+				},
+				{
+					"anio": 2004,
+					"valor": 267405,
+					"fuente": "Estimación (Wikipedia es)"
+				},
+				{
+					"anio": 2013,
+					"valor": 567000,
+					"fuente": "Estimación"
+				},
+				{
+					"anio": 2018,
+					"valor": 582000,
+					"fuente": "Estimación ONU"
+				},
+				{
+					"anio": 2023,
+					"valor": 587000,
+					"fuente": "Estimación"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "93cc2511d980",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "zambia",
 			"nombre": "Zambia",
 			"nombres": [
-				"Zambia"
+				"Zambia",
+				"República de Zambia"
 			],
 			"wiki": "es:Zambia",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Zambia",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Zambia",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q953",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wiki-en-hos",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Zambia",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "owid",
+					"url": "https://ourworldindata.org/grapher/population?country=~ZMB",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Rodesia del Norte (protectorado británico)",
+					"desde": 1911,
+					"hasta": 1964
+				},
+				{
+					"nombre": "República de Zambia",
+					"desde": 1964,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q953",
+			"gobernantes": [
+				{
+					"nombre": "Reino Lunda de Kazembe",
+					"desde": 1740,
+					"hasta": 1899,
+					"cargo": "reino precolonial (Mwata Kazembe)"
+				},
+				{
+					"nombre": "Reino Lozi de Barotselandia",
+					"desde": 1600,
+					"hasta": 1969,
+					"cargo": "reino (litunga)"
+				},
+				{
+					"nombre": "Lewanika (Lubosi Lewanika)",
+					"desde": 1878,
+					"hasta": 1916,
+					"cargo": "litunga (rey) de Barotselandia"
+				},
+				{
+					"nombre": "Kenneth Kaunda",
+					"desde": 1964,
+					"hasta": 1991,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Frederick Chiluba",
+					"desde": 1991,
+					"hasta": 2002,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Levy Mwanawasa",
+					"desde": 2002,
+					"hasta": 2008,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Rupiah Banda",
+					"desde": 2008,
+					"hasta": 2011,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Michael Sata",
+					"desde": 2011,
+					"hasta": 2014,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Guy Scott",
+					"desde": 2014,
+					"hasta": 2015,
+					"cargo": "presidente interino"
+				},
+				{
+					"nombre": "Edgar Lungu",
+					"desde": 2015,
+					"hasta": 2021,
+					"cargo": "presidente"
+				},
+				{
+					"nombre": "Hakainde Hichilema",
+					"desde": 2021,
+					"hasta": 2026,
+					"cargo": "presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 2340000,
+					"fuente": "OWID"
+				},
+				{
+					"anio": 1963,
+					"valor": 3410000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1980,
+					"valor": 5662000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 1990,
+					"valor": 7383000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2000,
+					"valor": 9886000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2010,
+					"valor": 13092000,
+					"fuente": "censo"
+				},
+				{
+					"anio": 2022,
+					"valor": 19610000,
+					"fuente": "censo"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "f53e92e5f30e",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "zimbabue-pais",
 			"nombre": "Zimbabue",
 			"nombres": [
-				"Zimbabwe"
+				"Zimbabwe",
+				"Zimbabue",
+				"República de Zimbabue",
+				"Rhodesia del Sur",
+				"Rhodesia"
 			],
 			"wiki": "es:Zimbabue",
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): Zimbabue",
+					"id": "wiki-es",
 					"url": "https://es.wikipedia.org/wiki/Zimbabue",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q954",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "presidentes",
+					"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Zimbabwe",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "demografia",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_Zimbabwe",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"nombres_periodo": [
+				{
+					"nombre": "Rhodesia del Sur",
+					"desde": 1898,
+					"hasta": 1965
+				},
+				{
+					"nombre": "Rhodesia",
+					"desde": 1965,
+					"hasta": 1979
+				},
+				{
+					"nombre": "Zimbabwe Rhodesia",
+					"desde": 1979,
+					"hasta": 1979
+				},
+				{
+					"nombre": "Zimbabue",
+					"desde": 1980,
+					"hasta": 2026
+				}
+			],
+			"wikidata": "Q954",
+			"gobernantes": [
+				{
+					"nombre": "Reino de Zimbabue (Gran Zimbabue)",
+					"desde": 1220,
+					"hasta": 1450,
+					"cargo": "Reino medieval shona"
+				},
+				{
+					"nombre": "Imperio de Mutapa (Monomotapa)",
+					"desde": 1430,
+					"hasta": 1760,
+					"cargo": "Soberanos (Mwene Mutapa)"
+				},
+				{
+					"nombre": "Imperio Rozvi (Changamire)",
+					"desde": 1660,
+					"hasta": 1866,
+					"cargo": "Soberanos rozvi"
+				},
+				{
+					"nombre": "Mzilikazi",
+					"desde": 1840,
+					"hasta": 1868,
+					"cargo": "Rey del Reino Ndebele (Matabele)"
+				},
+				{
+					"nombre": "Lobengula",
+					"desde": 1868,
+					"hasta": 1894,
+					"cargo": "Rey del Reino Ndebele (Matabele)"
+				},
+				{
+					"nombre": "Administración colonial británica / Rhodesia del Sur",
+					"desde": 1890,
+					"hasta": 1965,
+					"cargo": "Colonia y territorio autónomo británico"
+				},
+				{
+					"nombre": "Ian Smith",
+					"desde": 1964,
+					"hasta": 1979,
+					"cargo": "Primer ministro de Rhodesia (UDI)"
+				},
+				{
+					"nombre": "Abel Muzorewa",
+					"desde": 1979,
+					"hasta": 1979,
+					"cargo": "Primer ministro de Zimbabwe Rhodesia"
+				},
+				{
+					"nombre": "Canaan Banana",
+					"desde": 1980,
+					"hasta": 1987,
+					"cargo": "Presidente (ceremonial)"
+				},
+				{
+					"nombre": "Robert Mugabe",
+					"desde": 1980,
+					"hasta": 1987,
+					"cargo": "Primer ministro"
+				},
+				{
+					"nombre": "Robert Mugabe",
+					"desde": 1987,
+					"hasta": 2017,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Emmerson Mnangagwa",
+					"desde": 2017,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 2747000,
+					"fuente": "ONU (World Population Prospects)"
+				},
+				{
+					"anio": 1969,
+					"valor": 5044000,
+					"fuente": "ONU (World Population Prospects) / Censo 1969"
+				},
+				{
+					"anio": 1982,
+					"valor": 7608432,
+					"fuente": "Censo de Zimbabue 1982"
+				},
+				{
+					"anio": 1992,
+					"valor": 10412548,
+					"fuente": "Censo de Zimbabue 1992"
+				},
+				{
+					"anio": 2002,
+					"valor": 11631657,
+					"fuente": "Censo de Zimbabue 2002"
+				},
+				{
+					"anio": 2012,
+					"valor": 13061239,
+					"fuente": "Censo de Zimbabue 2012"
+				},
+				{
+					"anio": 2022,
+					"valor": 15178957,
+					"fuente": "Censo de Zimbabue 2022"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "9d52789e4fb2",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		},
 		{
 			"id": "rd-congo",
@@ -7983,24 +14553,26 @@
 			"nombres": [
 				"Zaire",
 				"Belgian Congo",
-				"Zaire (Belgium)"
+				"Zaire (Belgium)",
+				"República Democrática del Congo",
+				"Congo (Léopoldville)"
 			],
 			"wiki": "es:República Democrática del Congo",
 			"nombres_periodo": [
 				{
 					"nombre": "Congo Belga",
-					"desde": -3000,
-					"hasta": 1959
+					"desde": 1908,
+					"hasta": 1960
 				},
 				{
 					"nombre": "Congo (Léopoldville)",
 					"desde": 1960,
-					"hasta": 1970
+					"hasta": 1971
 				},
 				{
 					"nombre": "Zaire",
 					"desde": 1971,
-					"hasta": 1996
+					"hasta": 1997
 				},
 				{
 					"nombre": "RD del Congo",
@@ -8009,11 +14581,121 @@
 			],
 			"fuentes": [
 				{
-					"id": "Wikipedia (es): República Democrática del Congo",
+					"id": "wikipedia_es",
 					"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_en_demographics",
+					"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Democratic_Republic_of_the_Congo",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikipedia_kongo",
+					"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+					"consultado": "2026-09"
+				},
+				{
+					"id": "wikidata",
+					"url": "https://www.wikidata.org/wiki/Q974",
+					"consultado": "2026-09"
 				}
-			]
+			],
+			"wikidata": "Q974",
+			"gobernantes": [
+				{
+					"nombre": "Reino Luba",
+					"desde": 1585,
+					"hasta": 1889,
+					"cargo": "Reino histórico (meseta de Katanga)"
+				},
+				{
+					"nombre": "Reino del Congo",
+					"desde": 1390,
+					"hasta": 1914,
+					"cargo": "Reino histórico (bajo Congo)"
+				},
+				{
+					"nombre": "Imperio Lunda",
+					"desde": 1665,
+					"hasta": 1887,
+					"cargo": "Reino histórico (sur)"
+				},
+				{
+					"nombre": "Joseph Kasa-Vubu",
+					"desde": 1960,
+					"hasta": 1965,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Mobutu Sese Seko",
+					"desde": 1965,
+					"hasta": 1997,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Laurent-Désiré Kabila",
+					"desde": 1997,
+					"hasta": 2001,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Joseph Kabila",
+					"desde": 2001,
+					"hasta": 2019,
+					"cargo": "Presidente"
+				},
+				{
+					"nombre": "Félix Tshisekedi",
+					"desde": 2019,
+					"hasta": 2026,
+					"cargo": "Presidente"
+				}
+			],
+			"poblacion": [
+				{
+					"anio": 1950,
+					"valor": 12174000,
+					"fuente": "Wikipedia (Demographics of DR Congo), estimación ONU"
+				},
+				{
+					"anio": 1960,
+					"valor": 15069000,
+					"fuente": "Wikipedia (Demographics of DR Congo), estimación ONU"
+				},
+				{
+					"anio": 1984,
+					"valor": 30631000,
+					"fuente": "Wikipedia (Demographics of DR Congo), censo"
+				},
+				{
+					"anio": 2000,
+					"valor": 52099000,
+					"fuente": "Wikipedia (Demographics of DR Congo), estimación"
+				},
+				{
+					"anio": 2020,
+					"valor": 101780263,
+					"fuente": "Wikipedia (Demographics of DR Congo), estimación"
+				},
+				{
+					"anio": 2023,
+					"valor": 102262808,
+					"fuente": "Wikipedia (República Democrática del Congo), estimación"
+				}
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-07",
+				"por": "verificador",
+				"hash": "812d71493a4d",
+				"secciones": [
+					"gobernantes",
+					"poblacion",
+					"nombres_periodo",
+					"fuentes"
+				]
+			}
 		}
 	],
 	"conflictos": [
