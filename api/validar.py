@@ -140,6 +140,19 @@ def main():
         for pob in p.get("poblacion", []):
             if not es_anio(pob.get("anio")) or not isinstance(pob.get("valor"), (int, float)):
                 err(donde, f"población inválida: {pob!r}")
+        # nombres por época: la etiqueta del mapa usa el que corresponde al año
+        np = p.get("nombres_periodo")
+        if np is not None:
+            if not isinstance(np, list):
+                err(donde, "'nombres_periodo' debe ser una lista")
+            else:
+                for per in np:
+                    if not isinstance(per, dict) or not per.get("nombre"):
+                        err(donde, f"nombres_periodo: falta 'nombre' en {per!r}")
+                    elif not es_anio(per.get("desde")):
+                        err(donde, f"nombres_periodo '{per.get('nombre')}': 'desde' debe ser un año entero")
+                    elif per.get("hasta") is not None and not es_anio(per.get("hasta")):
+                        err(donde, f"nombres_periodo '{per.get('nombre')}': 'hasta' debe ser un año entero o ausente")
         valida_fuentes(donde, p)
 
     # 4) conflictos

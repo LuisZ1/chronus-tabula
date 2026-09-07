@@ -74,7 +74,8 @@ function analyzeYear(gj) {
 		if (!info) continue;
 		if (name) {
 			state.labelData.push({
-				name,
+				name, // nombre del GeoJSON: clave de escudo/superficie (no traducir)
+				display: nombreVisible(name, state.shownYear, false), // texto visible (español/época)
 				wiki: props.wikipedia,
 				lat: info.lat,
 				lng: info.lng,
@@ -114,7 +115,7 @@ function makeLabelMarker(d) {
 	const hasUrl = typeof cached === 'string' && cached !== 'none' && cached !== 'pending';
 	const img = `<img class="coa-img ${coaClass(d.name)}" alt=""${hasUrl ? ` src="${esc(cached)}"` : ' hidden'}>`;
 	const icon = L.divIcon({
-		html: `<span class="map-label">${img}<span>${esc(d.name)}</span></span>`,
+		html: `<span class="map-label">${img}<span>${esc(d.display || d.name)}</span></span>`,
 		className: 'map-label-wrap',
 		iconSize: null
 	});
