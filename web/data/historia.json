@@ -6586,6 +6586,18 @@
 					"hasta": 601,
 					"nombre": "Recaredo I",
 					"titulo": "Rey visigodo, convertido al catolicismo (589)"
+				},
+				{
+					"desde": 672,
+					"hasta": 680,
+					"nombre": "Wamba",
+					"titulo": "Rey visigodo; sofocó la rebelión de la Septimania"
+				},
+				{
+					"desde": 710,
+					"hasta": 711,
+					"nombre": "Don Rodrigo",
+					"titulo": "Último rey visigodo; derrotado en Guadalete (711)"
 				}
 			],
 			"fuentes": [
@@ -7160,6 +7172,134 @@
 				{
 					"id": "wikipedia-es:Imperio jemer",
 					"url": "https://es.wikipedia.org/wiki/Imperio_jemer",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "zhou",
+			"nombre": "Dinastía Zhou",
+			"nombres": [
+				"Zhou states"
+			],
+			"wiki": "Dinastía Zhou",
+			"gobernantes": [
+				{
+					"desde": -1046,
+					"hasta": -1043,
+					"nombre": "Wu de Zhou",
+					"titulo": "Rey Guerrero; derrotó a los Shang en Muye (1046 a. C.)"
+				},
+				{
+					"desde": -770,
+					"hasta": -720,
+					"nombre": "Ping de Zhou",
+					"titulo": "Inicia los Zhou Orientales tras el traslado a Luoyang"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Dinastía Zhou",
+					"url": "https://es.wikipedia.org/wiki/Dinastía_Zhou",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "xia",
+			"nombre": "Dinastía Xia",
+			"nombres": [
+				"Xia"
+			],
+			"wiki": "Dinastía Xia",
+			"gobernantes": [
+				{
+					"desde": -2070,
+					"hasta": -2025,
+					"nombre": "Yu el Grande",
+					"titulo": "Fundador legendario; domó las grandes inundaciones"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Dinastía Xia",
+					"url": "https://es.wikipedia.org/wiki/Dinastía_Xia",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "jin-jurchen",
+			"nombre": "Dinastía Jin (yurchen)",
+			"nombres": [
+				"Jin Empire",
+				"Jin"
+			],
+			"wiki": "Dinastía Jin (1115-1234)",
+			"gobernantes": [
+				{
+					"desde": 1115,
+					"hasta": 1123,
+					"nombre": "Wanyan Aguda",
+					"titulo": "Taizu; funda la dinastía Jin yurchen"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Dinastía Jin (1115-1234)",
+					"url": "https://es.wikipedia.org/wiki/Dinastía_Jin_(1115-1234)",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "liao",
+			"nombre": "Dinastía Liao",
+			"nombres": [
+				"Liao",
+				"Khitans"
+			],
+			"wiki": "Dinastía Liao",
+			"gobernantes": [
+				{
+					"desde": 916,
+					"hasta": 926,
+					"nombre": "Yelü Abaoji",
+					"titulo": "Taizu; funda el imperio kitán (Liao)"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Dinastía Liao",
+					"url": "https://es.wikipedia.org/wiki/Dinastía_Liao",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"id": "xia-occidental",
+			"nombre": "Xia Occidental",
+			"nombres": [
+				"Xixia"
+			],
+			"wiki": "Xia Occidental",
+			"gobernantes": [
+				{
+					"desde": 1038,
+					"hasta": 1048,
+					"nombre": "Li Yuanhao",
+					"titulo": "Emperador fundador del reino tangut de Xia Occidental"
+				}
+			],
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Xia Occidental",
+					"url": "https://es.wikipedia.org/wiki/Xia_Occidental",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-07"
 				}
@@ -10077,6 +10217,22 @@
 					"lat": 36.18,
 					"lng": -5.71,
 					"descripcion": "Castilla y Portugal derrotan al último gran ejército invasor norteafricano."
+				},
+				{
+					"nombre": "Batalla de Clavijo",
+					"anio": 844,
+					"lat": 42.25,
+					"lng": -2.36,
+					"descripcion": "Victoria legendaria de Ramiro I de Asturias, origen del mito de Santiago Matamoros (historicidad discutida).",
+					"wiki": "Batalla de Clavijo"
+				},
+				{
+					"nombre": "Batalla de Calatañazor",
+					"anio": 1002,
+					"lat": 41.6,
+					"lng": -2.83,
+					"descripcion": "Según la tradición, primera gran derrota de Almanzor poco antes de su muerte («En Calatañazor perdió Almanzor el tambor»).",
+					"wiki": "Batalla de Calatañazor"
 				}
 			]
 		},
@@ -31161,6 +31317,68 @@
 					"lng": -100.81
 				}
 			]
+		},
+		{
+			"id": "sucesion-castellana",
+			"nombre": "Guerra de Sucesión Castellana",
+			"inicio": 1475,
+			"fin": 1479,
+			"paises": [
+				"Castilla",
+				"España",
+				"Portugal"
+			],
+			"bajas": "varios miles",
+			"descripcion": "Isabel la Católica y Fernando de Aragón contra Juana la Beltraneja y Alfonso V de Portugal por el trono de Castilla; la victoria consolida a los Reyes Católicos.",
+			"wiki": "Guerra de Sucesión Castellana",
+			"fuentes": [
+				{
+					"id": "libro:Juan de Mariana, Historia general de España (1601)",
+					"licencia": "dominio público"
+				},
+				{
+					"id": "wikipedia-es:Guerra de Sucesión Castellana",
+					"url": "https://es.wikipedia.org/wiki/Guerra_de_Sucesión_Castellana",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			],
+			"zonas": [
+				{
+					"nombre": "Frontera castellano-portuguesa",
+					"tipo": "frente",
+					"desde": 1475,
+					"hasta": 1479,
+					"poligono": [
+						[
+							41.9,
+							-6.8
+						],
+						[
+							41.7,
+							-4.8
+						],
+						[
+							40.6,
+							-5.2
+						],
+						[
+							40.8,
+							-7.0
+						]
+					]
+				}
+			],
+			"batallas": [
+				{
+					"nombre": "Batalla de Toro",
+					"anio": 1476,
+					"lat": 41.52,
+					"lng": -5.39,
+					"descripcion": "Choque indeciso en el campo pero victoria política de los Reyes Católicos, que asientan a Isabel en el trono.",
+					"wiki": "Batalla de Toro"
+				}
+			]
 		}
 	],
 	"eventos": [
@@ -35177,6 +35395,150 @@
 					"url": "https://es.wikipedia.org/wiki/Hong_Kong_británico",
 					"licencia": "CC BY-SA",
 					"consultado": "2026-09-02"
+				}
+			]
+		},
+		{
+			"nombre": "Sumeria",
+			"pais": "Sumeria",
+			"lat": 31.32,
+			"lng": 45.64,
+			"desde": -4000,
+			"hasta": -2003,
+			"descripcion": "Primera civilización urbana, en la Baja Mesopotamia. Docena de ciudades-estado (Uruk, Ur, Lagash, Kish); cuna de la escritura cuneiforme y la rueda. Reyes: Enmebaragesi de Kish (el más antiguo documentado), Ur-Nammu (III dinastía de Ur, c. 2111 a. C.), Gudea de Lagash.",
+			"wiki": "Sumeria",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Sumeria",
+					"url": "https://es.wikipedia.org/wiki/Sumeria",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Imperio acadio",
+			"pais": "Imperio acadio",
+			"lat": 32.55,
+			"lng": 44.42,
+			"desde": -2340,
+			"hasta": -2150,
+			"descripcion": "Primer imperio de la historia: Sargón de Acad (c. 2340 a. C.) unifica Mesopotamia desde su capital Agadé, cerca de Kish. Su nieto Naram-Sin (2260-2223 a. C.) lo lleva a su máxima extensión y se proclama dios.",
+			"wiki": "Imperio acadio",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Imperio acadio",
+					"url": "https://es.wikipedia.org/wiki/Imperio_acadio",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Atenas",
+			"pais": "Atenas",
+			"lat": 37.98,
+			"lng": 23.73,
+			"desde": -508,
+			"hasta": -322,
+			"descripcion": "Polis del Ática, cuna de la democracia: reformas de Clístenes (508 a. C.), siglo de Pericles (461-429 a. C.) y la Liga de Delos. Rival de Esparta en la guerra del Peloponeso.",
+			"wiki": "Atenas",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Historia de Atenas",
+					"url": "https://es.wikipedia.org/wiki/Historia_de_Atenas",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Esparta",
+			"pais": "Esparta",
+			"lat": 37.08,
+			"lng": 22.42,
+			"desde": -700,
+			"hasta": -371,
+			"descripcion": "Polis militar de Laconia, regida por la constitución de Licurgo. Leónidas cae en las Termópilas (480 a. C.); tras vencer a Atenas (404 a. C.) ejerce la hegemonía griega hasta su derrota en Leuctra (371 a. C.).",
+			"wiki": "Esparta",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Esparta",
+					"url": "https://es.wikipedia.org/wiki/Esparta",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Tebas",
+			"pais": "Tebas",
+			"lat": 38.32,
+			"lng": 23.32,
+			"desde": -379,
+			"hasta": -338,
+			"descripcion": "Capital de Beocia. Bajo Epaminondas rompe la hegemonía espartana en Leuctra (371 a. C.) y ejerce el poder en Grecia hasta Mantinea (362 a. C.).",
+			"wiki": "Tebas (Grecia)",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Tebas (Grecia)",
+					"url": "https://es.wikipedia.org/wiki/Tebas_(Grecia)",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Corinto",
+			"pais": "Corinto",
+			"lat": 37.94,
+			"lng": 22.93,
+			"desde": -700,
+			"hasta": -146,
+			"descripcion": "Rica polis comercial del istmo, potencia colonial y naval. Miembro destacado de la Liga del Peloponeso; arrasada por Roma en 146 a. C.",
+			"wiki": "Corinto",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Corinto",
+					"url": "https://es.wikipedia.org/wiki/Corinto",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Dinastía Shang",
+			"pais": "Dinastía Shang",
+			"lat": 36.1,
+			"lng": 114.35,
+			"desde": -1600,
+			"hasta": -1046,
+			"descripcion": "Primera dinastía china documentada; capital final en Yin (Anyang). Fundada por Cheng Tang; su bronce ritual y los huesos oraculares son las primeras muestras de escritura china. El último rey, Di Xin, cae ante los Zhou en Muye (1046 a. C.).",
+			"wiki": "Dinastía Shang",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Dinastía Shang",
+					"url": "https://es.wikipedia.org/wiki/Dinastía_Shang",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
+				}
+			]
+		},
+		{
+			"nombre": "Dinastía Xin",
+			"pais": "Dinastía Xin",
+			"lat": 34.27,
+			"lng": 108.95,
+			"desde": 9,
+			"hasta": 23,
+			"descripcion": "Breve dinastía del usurpador Wang Mang, que interrumpe la dinastía Han entre el Han Occidental y el Oriental con un ambicioso programa de reformas.",
+			"wiki": "Dinastía Xin",
+			"fuentes": [
+				{
+					"id": "wikipedia-es:Dinastía Xin",
+					"url": "https://es.wikipedia.org/wiki/Dinastía_Xin",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-07"
 				}
 			]
 		}
