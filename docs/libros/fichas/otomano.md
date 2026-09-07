@@ -122,3 +122,5 @@ Lista completa de sultanes de la dinastía osmanlí (gobernantes de `otomano`). 
 - **Sitios de Viena y Mohács**: pertenecen al conflicto ya existente `otomano-habsburgo`; se listan aquí solo como batallas concretas a añadir a ese conflicto (no como conflicto nuevo).
 - **Coordenadas**: todas las lat,lng son aproximadas y de conocimiento geográfico general (los libros no dan coordenadas). Verificar las de batallas de ubicación discutida (Bafeo, Prut, Marj Dabiq).
 - **Alcance temporal**: Bunes cubre 1451–1807 (bueno para reinados y guerras clásicas); Romero cubre 1299–1923 y aporta toda la cronología del s. XIX–XX (Tanzimat, Jóvenes Turcos, guerras balcánicas, Galípoli, disolución).
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.

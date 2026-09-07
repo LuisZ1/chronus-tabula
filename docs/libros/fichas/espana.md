@@ -86,3 +86,5 @@ Los conflictos bélicos del periodo (guerra civil, Rif/Marruecos, hispano-estado
 - **Reyes Católicos:** aparecen a la vez como gobernantes de `castilla`/`aragon` en el corpus; aquí se proponen para `espana` (inicio de la Monarquía Hispánica). Decidir si duplicar o enlazar reinos.
 - **Jefes de Gobierno de la democracia (Suárez→Zapatero):** son presidentes del Gobierno, no monarcas; añadir solo si el modelo admite gobernantes efectivos junto al jefe del Estado. El libro (edición 2012-2013) no cubre a Rajoy, Sánchez ni a Felipe VI: completar con fuente moderna.
 - **Batallas de la Guerra Civil / Rif:** Annual (1921), Alhucemas (1925), Guernica (1937), Teruel (1937-38) y Ebro (1938) pertenecen a conflictos ya presentes; solo tendría sentido añadirlas como sub-batallas.
+
+> **Estado (2026-09-07)**: candidatos consolidados en `historia.json` (fusión serial con dedup y validación). Los países sin correspondencia en los mapas GeoJSON quedaron diferidos.
