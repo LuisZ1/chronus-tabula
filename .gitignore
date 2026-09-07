@@ -15,4 +15,4 @@ _to_delete_scripts/
 Thumbs.db
 
 # libros de texto de referencia (material con licencia/copyright: NO se sube)
-libros/
+/libros/
