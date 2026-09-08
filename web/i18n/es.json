@@ -5,6 +5,7 @@
   "ui.prev": "Año anterior con datos",
   "ui.next": "Año siguiente con datos",
   "ui.typeYear": "Escribe un año (negativo = a. C.)",
+  "ui.help": "Ayuda: cómo se usa el mapa",
   "ui.noData": "No se pudieron cargar los datos de este año",
   "year.bc": "a. C.",
   "year.ad": "d. C.",
