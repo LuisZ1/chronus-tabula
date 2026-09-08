@@ -21,8 +21,8 @@ import time
 import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, proponer,  # noqa: E402
-                   progreso_borrar, progreso_hechas, progreso_marcar, HOY)
+from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, es_error_de_pais,  # noqa: E402
+                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY)
 
 FID = "wikidata_poblacion"
 ENDPOINT = "https://query.wikidata.org/sparql"
@@ -106,6 +106,9 @@ def main():
                 crudo = consultar(p["wikidata"])
                 time.sleep(2)  # pausa cortés
             except Exception as e:  # noqa: BLE001
+                if es_error_de_pais(e):
+                    print(f"  ⚠ {p['id']}: Wikidata responde HTTP {e.code}; se salta.", flush=True)
+                    progreso_marcar(con, FID, p["id"]); con.commit(); continue
                 con.commit(); con.close()
                 print(f"⚠ Interrumpido en '{p['id']}': lo propuesto queda guardado y la próxima "
                       "ejecución continuará desde aquí (o pulsa «Empezar de cero»).", flush=True)

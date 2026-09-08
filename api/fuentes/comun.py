@@ -148,6 +148,14 @@ def descargar_reintentos(url, timeout=180, intentos=6):
             raise
 
 
+def es_error_de_pais(e):
+    """True si el error es específico de ESTA petición/país y conviene saltarlo y
+    seguir: un HTTP 4xx (petición mala, sin artículo…) salvo 429. Un 429/5xx o un
+    fallo de red es del servidor: mejor parar y reanudar la pila más tarde."""
+    import urllib.error
+    return isinstance(e, urllib.error.HTTPError) and 400 <= e.code < 500 and e.code != 429
+
+
 def aviso_red(nombre, e):
     print(f"✘ No se pudo contactar con {nombre}: {e}")
     print("  Este script necesita internet abierto: ejecútalo en tu máquina.")
