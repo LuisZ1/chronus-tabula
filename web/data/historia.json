@@ -14696,6 +14696,2114 @@
 					"fuentes"
 				]
 			}
+		},
+		{
+			"id": "albania",
+			"nombre": "Albania",
+			"nombres": [
+				"Albania"
+			],
+			"wikidata": "Q222",
+			"wiki": "es:Albania",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q222",
+					"url": "https://www.wikidata.org/wiki/Q222",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ALB"
+		},
+		{
+			"id": "australia",
+			"nombre": "Australia",
+			"nombres": [
+				"Australia"
+			],
+			"wikidata": "Q408",
+			"wiki": "es:Australia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q408",
+					"url": "https://www.wikidata.org/wiki/Q408",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "AUS"
+		},
+		{
+			"id": "butan",
+			"nombre": "Bután",
+			"nombres": [
+				"Bhutan",
+				"Bután"
+			],
+			"wikidata": "Q917",
+			"wiki": "es:Bután",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q917",
+					"url": "https://www.wikidata.org/wiki/Q917",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BTN"
+		},
+		{
+			"id": "bielorrusia",
+			"nombre": "Bielorrusia",
+			"nombres": [
+				"Byelarus",
+				"Bielorrusia",
+				"Belarús"
+			],
+			"wikidata": "Q184",
+			"wiki": "es:Bielorrusia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q184",
+					"url": "https://www.wikidata.org/wiki/Q184",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BLR"
+		},
+		{
+			"id": "croacia",
+			"nombre": "Croacia",
+			"nombres": [
+				"Croatia",
+				"Croacia"
+			],
+			"wikidata": "Q224",
+			"wiki": "es:Croacia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q224",
+					"url": "https://www.wikidata.org/wiki/Q224",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "HRV"
+		},
+		{
+			"id": "ecuador",
+			"nombre": "Ecuador",
+			"nombres": [
+				"Ecuador"
+			],
+			"wikidata": "Q736",
+			"wiki": "es:Ecuador",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q736",
+					"url": "https://www.wikidata.org/wiki/Q736",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ECU"
+		},
+		{
+			"id": "georgia",
+			"nombre": "Georgia",
+			"nombres": [
+				"Georgia"
+			],
+			"wikidata": "Q230",
+			"wiki": "es:Georgia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q230",
+					"url": "https://www.wikidata.org/wiki/Q230",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "GEO"
+		},
+		{
+			"id": "guyana",
+			"nombre": "Guyana",
+			"nombres": [
+				"Guyana"
+			],
+			"wikidata": "Q734",
+			"wiki": "es:Guyana",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q734",
+					"url": "https://www.wikidata.org/wiki/Q734",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "GUY"
+		},
+		{
+			"id": "indonesia",
+			"nombre": "Indonesia",
+			"nombres": [
+				"Indonesia"
+			],
+			"wikidata": "Q252",
+			"wiki": "es:Indonesia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q252",
+					"url": "https://www.wikidata.org/wiki/Q252",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "IDN"
+		},
+		{
+			"id": "kazajistan",
+			"nombre": "Kazajistán",
+			"nombres": [
+				"Kazakhstan",
+				"Kazajistán",
+				"Kazajstán"
+			],
+			"wikidata": "Q232",
+			"wiki": "es:Kazajistán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q232",
+					"url": "https://www.wikidata.org/wiki/Q232",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "KAZ"
+		},
+		{
+			"id": "letonia",
+			"nombre": "Letonia",
+			"nombres": [
+				"Latvia",
+				"Letonia"
+			],
+			"wikidata": "Q211",
+			"wiki": "es:Letonia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q211",
+					"url": "https://www.wikidata.org/wiki/Q211",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LVA"
+		},
+		{
+			"id": "malta",
+			"nombre": "Malta",
+			"nombres": [
+				"Malta"
+			],
+			"wikidata": "Q233",
+			"wiki": "es:Malta",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q233",
+					"url": "https://www.wikidata.org/wiki/Q233",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MLT"
+		},
+		{
+			"id": "montserrat",
+			"nombre": "Montserrat",
+			"nombres": [
+				"Montserrat"
+			],
+			"wikidata": "Q13353",
+			"wiki": "es:Montserrat",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q13353",
+					"url": "https://www.wikidata.org/wiki/Q13353",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MSR"
+		},
+		{
+			"id": "oman",
+			"nombre": "Omán",
+			"nombres": [
+				"Oman",
+				"Omán"
+			],
+			"wikidata": "Q842",
+			"wiki": "es:Omán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q842",
+					"url": "https://www.wikidata.org/wiki/Q842",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "OMN"
+		},
+		{
+			"id": "filipinas",
+			"nombre": "Filipinas",
+			"nombres": [
+				"Philippines",
+				"Filipinas"
+			],
+			"wikidata": "Q928",
+			"wiki": "es:Filipinas",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q928",
+					"url": "https://www.wikidata.org/wiki/Q928",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PHL"
+		},
+		{
+			"id": "san-cristobal-y-nieves",
+			"nombre": "San Cristóbal y Nieves",
+			"nombres": [
+				"Saint Kitts and Nevis",
+				"San Cristóbal y Nieves"
+			],
+			"wikidata": "Q763",
+			"wiki": "es:San Cristóbal y Nieves",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q763",
+					"url": "https://www.wikidata.org/wiki/Q763",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "KNA"
+		},
+		{
+			"id": "serbia",
+			"nombre": "Serbia",
+			"nombres": [
+				"Serbia"
+			],
+			"wikidata": "Q403",
+			"wiki": "es:Serbia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q403",
+					"url": "https://www.wikidata.org/wiki/Q403",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "SRB"
+		},
+		{
+			"id": "taiwan",
+			"nombre": "Taiwán",
+			"nombres": [
+				"Taiwan",
+				"Taiwán"
+			],
+			"wikidata": "Q865",
+			"wiki": "es:Taiwán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q865",
+					"url": "https://www.wikidata.org/wiki/Q865",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TWN"
+		},
+		{
+			"id": "republica-turca-del-norte-de-chipre",
+			"nombre": "República Turca del Norte de Chipre",
+			"nombres": [
+				"Turkish Cypriot-administered area",
+				"República Turca del Norte de Chipre",
+				"Chipre del Norte"
+			],
+			"wikidata": "Q23681",
+			"wiki": "es:República Turca del Norte de Chipre",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q23681",
+					"url": "https://www.wikidata.org/wiki/Q23681",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "uzbekistan",
+			"nombre": "Uzbekistán",
+			"nombres": [
+				"Uzbekistan",
+				"Uzbekistán"
+			],
+			"wikidata": "Q265",
+			"wiki": "es:Uzbekistán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q265",
+					"url": "https://www.wikidata.org/wiki/Q265",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "UZB"
+		},
+		{
+			"id": "samoa-americana",
+			"nombre": "Samoa Americana",
+			"nombres": [
+				"American Samoa",
+				"Samoa Americana"
+			],
+			"wikidata": "Q16641",
+			"wiki": "es:Samoa Americana",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q16641",
+					"url": "https://www.wikidata.org/wiki/Q16641",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ASM"
+		},
+		{
+			"id": "bahamas",
+			"nombre": "Bahamas",
+			"nombres": [
+				"Bahamas"
+			],
+			"wikidata": "Q778",
+			"wiki": "es:Bahamas",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q778",
+					"url": "https://www.wikidata.org/wiki/Q778",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BHS"
+		},
+		{
+			"id": "bolivia",
+			"nombre": "Bolivia",
+			"nombres": [
+				"Bolivia"
+			],
+			"wikidata": "Q750",
+			"wiki": "es:Bolivia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q750",
+					"url": "https://www.wikidata.org/wiki/Q750",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BOL"
+		},
+		{
+			"id": "camboya",
+			"nombre": "Camboya",
+			"nombres": [
+				"Cambodia",
+				"Camboya"
+			],
+			"wikidata": "Q424",
+			"wiki": "es:Camboya",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q424",
+					"url": "https://www.wikidata.org/wiki/Q424",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "KHM"
+		},
+		{
+			"id": "cuba",
+			"nombre": "Cuba",
+			"nombres": [
+				"Cuba"
+			],
+			"wikidata": "Q241",
+			"wiki": "es:Cuba",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q241",
+					"url": "https://www.wikidata.org/wiki/Q241",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CUB"
+		},
+		{
+			"id": "el-salvador",
+			"nombre": "El Salvador",
+			"nombres": [
+				"El Salvador"
+			],
+			"wikidata": "Q792",
+			"wiki": "es:El Salvador",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q792",
+					"url": "https://www.wikidata.org/wiki/Q792",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "SLV"
+		},
+		{
+			"id": "grecia",
+			"nombre": "Grecia",
+			"nombres": [
+				"Greece",
+				"Grecia"
+			],
+			"wikidata": "Q41",
+			"wiki": "es:Grecia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q41",
+					"url": "https://www.wikidata.org/wiki/Q41",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "GRC"
+		},
+		{
+			"id": "haiti",
+			"nombre": "Haití",
+			"nombres": [
+				"Haiti",
+				"Haití"
+			],
+			"wikidata": "Q790",
+			"wiki": "es:Haití",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q790",
+					"url": "https://www.wikidata.org/wiki/Q790",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "HTI"
+		},
+		{
+			"id": "irak",
+			"nombre": "Irak",
+			"nombres": [
+				"Iraq",
+				"Irak"
+			],
+			"wikidata": "Q796",
+			"wiki": "es:Irak",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q796",
+					"url": "https://www.wikidata.org/wiki/Q796",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "IRQ"
+		},
+		{
+			"id": "corea-del-norte",
+			"nombre": "Corea del Norte",
+			"nombres": [
+				"Korea, Democratic People's Republic of",
+				"Corea del Norte",
+				"República Popular Democrática de Corea"
+			],
+			"wikidata": "Q423",
+			"wiki": "es:Corea del Norte",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q423",
+					"url": "https://www.wikidata.org/wiki/Q423",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PRK"
+		},
+		{
+			"id": "liechtenstein",
+			"nombre": "Liechtenstein",
+			"nombres": [
+				"Liechtenstein"
+			],
+			"wikidata": "Q347",
+			"wiki": "es:Liechtenstein",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q347",
+					"url": "https://www.wikidata.org/wiki/Q347",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LIE"
+		},
+		{
+			"id": "martinica",
+			"nombre": "Martinica",
+			"nombres": [
+				"Martinique",
+				"Martinica"
+			],
+			"wikidata": "Q17054",
+			"wiki": "es:Martinica",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q17054",
+					"url": "https://www.wikidata.org/wiki/Q17054",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "nepal",
+			"nombre": "Nepal",
+			"nombres": [
+				"Nepal"
+			],
+			"wikidata": "Q837",
+			"wiki": "es:Nepal",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q837",
+					"url": "https://www.wikidata.org/wiki/Q837",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "NPL"
+		},
+		{
+			"id": "pakistan",
+			"nombre": "Pakistán",
+			"nombres": [
+				"Pakistan",
+				"Pakistán"
+			],
+			"wikidata": "Q843",
+			"wiki": "es:Pakistán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q843",
+					"url": "https://www.wikidata.org/wiki/Q843",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PAK"
+		},
+		{
+			"id": "puerto-rico",
+			"nombre": "Puerto Rico",
+			"nombres": [
+				"Puerto Rico"
+			],
+			"wikidata": "Q1183",
+			"wiki": "es:Puerto Rico",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q1183",
+					"url": "https://www.wikidata.org/wiki/Q1183",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PRI"
+		},
+		{
+			"id": "santa-lucia",
+			"nombre": "Santa Lucía",
+			"nombres": [
+				"Saint Lucia",
+				"Santa Lucía"
+			],
+			"wikidata": "Q760",
+			"wiki": "es:Santa Lucía",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q760",
+					"url": "https://www.wikidata.org/wiki/Q760",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LCA"
+		},
+		{
+			"id": "eslovaquia",
+			"nombre": "Eslovaquia",
+			"nombres": [
+				"Slovakia",
+				"Eslovaquia"
+			],
+			"wikidata": "Q214",
+			"wiki": "es:Eslovaquia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q214",
+					"url": "https://www.wikidata.org/wiki/Q214",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "SVK"
+		},
+		{
+			"id": "tayikistan",
+			"nombre": "Tayikistán",
+			"nombres": [
+				"Tajikistan",
+				"Tayikistán"
+			],
+			"wikidata": "Q863",
+			"wiki": "es:Tayikistán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q863",
+					"url": "https://www.wikidata.org/wiki/Q863",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TJK"
+		},
+		{
+			"id": "turkmenistan",
+			"nombre": "Turkmenistán",
+			"nombres": [
+				"Turkmenistan",
+				"Turkmenistán"
+			],
+			"wikidata": "Q874",
+			"wiki": "es:Turkmenistán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q874",
+					"url": "https://www.wikidata.org/wiki/Q874",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TKM"
+		},
+		{
+			"id": "venezuela",
+			"nombre": "Venezuela",
+			"nombres": [
+				"Venezuela"
+			],
+			"wikidata": "Q717",
+			"wiki": "es:Venezuela",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q717",
+					"url": "https://www.wikidata.org/wiki/Q717",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "VEN"
+		},
+		{
+			"id": "andorra",
+			"nombre": "Andorra",
+			"nombres": [
+				"Andorra",
+				"Principado de Andorra"
+			],
+			"wikidata": "Q228",
+			"wiki": "es:Andorra",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q228",
+					"url": "https://www.wikidata.org/wiki/Q228",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "AND"
+		},
+		{
+			"id": "banglades",
+			"nombre": "Bangladés",
+			"nombres": [
+				"Bangladesh",
+				"Bangladés",
+				"Republica Popular de Banglades"
+			],
+			"wikidata": "Q902",
+			"wiki": "es:Bangladés",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q902",
+					"url": "https://www.wikidata.org/wiki/Q902",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BGD"
+		},
+		{
+			"id": "bosnia-y-herzegovina",
+			"nombre": "Bosnia y Herzegovina",
+			"nombres": [
+				"Bosnia and Herzegovina",
+				"Bosnia y Herzegovina",
+				"Bosnia-Herzegovina"
+			],
+			"wikidata": "Q225",
+			"wiki": "es:Bosnia y Herzegovina",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q225",
+					"url": "https://www.wikidata.org/wiki/Q225",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BIH"
+		},
+		{
+			"id": "canada",
+			"nombre": "Canadá",
+			"nombres": [
+				"Canada",
+				"Canadá"
+			],
+			"wikidata": "Q16",
+			"wiki": "es:Canadá",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q16",
+					"url": "https://www.wikidata.org/wiki/Q16",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CAN"
+		},
+		{
+			"id": "chipre",
+			"nombre": "Chipre",
+			"nombres": [
+				"Cyprus",
+				"Chipre",
+				"Republica de Chipre"
+			],
+			"wikidata": "Q229",
+			"wiki": "es:Chipre",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q229",
+					"url": "https://www.wikidata.org/wiki/Q229",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CYP"
+		},
+		{
+			"id": "estonia",
+			"nombre": "Estonia",
+			"nombres": [
+				"Estonia",
+				"Republica de Estonia"
+			],
+			"wikidata": "Q191",
+			"wiki": "es:Estonia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q191",
+					"url": "https://www.wikidata.org/wiki/Q191",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "EST"
+		},
+		{
+			"id": "groenlandia",
+			"nombre": "Groenlandia",
+			"nombres": [
+				"Greenland",
+				"Groenlandia",
+				"Kalaallit Nunaat"
+			],
+			"wikidata": "Q223",
+			"wiki": "es:Groenlandia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q223",
+					"url": "https://www.wikidata.org/wiki/Q223",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "GRL"
+		},
+		{
+			"id": "honduras",
+			"nombre": "Honduras",
+			"nombres": [
+				"Honduras",
+				"Republica de Honduras"
+			],
+			"wikidata": "Q783",
+			"wiki": "es:Honduras",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q783",
+					"url": "https://www.wikidata.org/wiki/Q783",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "HND"
+		},
+		{
+			"id": "irlanda",
+			"nombre": "Irlanda",
+			"nombres": [
+				"Ireland",
+				"Irlanda",
+				"Republica de Irlanda",
+				"Eire"
+			],
+			"wikidata": "Q27",
+			"wiki": "es:Irlanda",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q27",
+					"url": "https://www.wikidata.org/wiki/Q27",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "IRL"
+		},
+		{
+			"id": "corea-del-sur",
+			"nombre": "Corea del Sur",
+			"nombres": [
+				"Korea, Republic of",
+				"Corea del Sur",
+				"Republica de Corea"
+			],
+			"wikidata": "Q884",
+			"wiki": "es:Corea del Sur",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q884",
+					"url": "https://www.wikidata.org/wiki/Q884",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "KOR"
+		},
+		{
+			"id": "lituania",
+			"nombre": "Lituania",
+			"nombres": [
+				"Lithuania",
+				"Lituania",
+				"Republica de Lituania"
+			],
+			"wikidata": "Q37",
+			"wiki": "es:Lituania",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q37",
+					"url": "https://www.wikidata.org/wiki/Q37",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LTU"
+		},
+		{
+			"id": "mexico",
+			"nombre": "México",
+			"nombres": [
+				"Mexico",
+				"México",
+				"Estados Unidos Mexicanos"
+			],
+			"wikidata": "Q96",
+			"wiki": "es:México",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q96",
+					"url": "https://www.wikidata.org/wiki/Q96",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MEX"
+		},
+		{
+			"id": "antillas-neerlandesas",
+			"nombre": "Antillas Neerlandesas",
+			"nombres": [
+				"Netherlands Antilles",
+				"Antillas Neerlandesas",
+				"Antillas Holandesas"
+			],
+			"wikidata": "Q25227",
+			"wiki": "es:Antillas Neerlandesas",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q25227",
+					"url": "https://www.wikidata.org/wiki/Q25227",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "panama",
+			"nombre": "Panamá",
+			"nombres": [
+				"Panama",
+				"Panamá",
+				"Republica de Panama"
+			],
+			"wikidata": "Q804",
+			"wiki": "es:Panamá",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q804",
+					"url": "https://www.wikidata.org/wiki/Q804",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PAN"
+		},
+		{
+			"id": "catar",
+			"nombre": "Catar",
+			"nombres": [
+				"Qatar",
+				"Catar",
+				"Estado de Catar"
+			],
+			"wikidata": "Q846",
+			"wiki": "es:Catar",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q846",
+					"url": "https://www.wikidata.org/wiki/Q846",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "QAT"
+		},
+		{
+			"id": "san-martin",
+			"nombre": "San Martín",
+			"nombres": [
+				"Saint Martin",
+				"San Martín",
+				"San Martin (parte francesa)",
+				"Saint-Martin"
+			],
+			"wikidata": "Q126125",
+			"wiki": "es:San Martín",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q126125",
+					"url": "https://www.wikidata.org/wiki/Q126125",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MAF"
+		},
+		{
+			"id": "eslovenia",
+			"nombre": "Eslovenia",
+			"nombres": [
+				"Slovenia",
+				"Eslovenia",
+				"Republica de Eslovenia"
+			],
+			"wikidata": "Q215",
+			"wiki": "es:Eslovenia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q215",
+					"url": "https://www.wikidata.org/wiki/Q215",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "SVN"
+		},
+		{
+			"id": "tailandia",
+			"nombre": "Tailandia",
+			"nombres": [
+				"Thailand",
+				"Tailandia",
+				"Reino de Tailandia"
+			],
+			"wikidata": "Q869",
+			"wiki": "es:Tailandia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q869",
+					"url": "https://www.wikidata.org/wiki/Q869",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "THA"
+		},
+		{
+			"id": "islas-turcas-y-caicos",
+			"nombre": "Islas Turcas y Caicos",
+			"nombres": [
+				"Turks and Caicos Islands",
+				"Islas Turcas y Caicos"
+			],
+			"wikidata": "Q18221",
+			"wiki": "es:Islas Turcas y Caicos",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q18221",
+					"url": "https://www.wikidata.org/wiki/Q18221",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TCA"
+		},
+		{
+			"id": "vietnam",
+			"nombre": "Vietnam",
+			"nombres": [
+				"Vietnam",
+				"Vietnam",
+				"Republica Socialista de Vietnam"
+			],
+			"wikidata": "Q881",
+			"wiki": "es:Vietnam",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q881",
+					"url": "https://www.wikidata.org/wiki/Q881",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "VNM"
+		},
+		{
+			"id": "anguila",
+			"nombre": "Anguila",
+			"nombres": [
+				"Anguilla",
+				"Anguila"
+			],
+			"wikidata": "Q25228",
+			"wiki": "es:Anguila",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q25228",
+					"url": "https://www.wikidata.org/wiki/Q25228",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "AIA"
+		},
+		{
+			"id": "barbados",
+			"nombre": "Barbados",
+			"nombres": [
+				"Barbados"
+			],
+			"wikidata": "Q244",
+			"wiki": "es:Barbados",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q244",
+					"url": "https://www.wikidata.org/wiki/Q244",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BRB"
+		},
+		{
+			"id": "brasil",
+			"nombre": "Brasil",
+			"nombres": [
+				"Brazil",
+				"Brasil"
+			],
+			"wikidata": "Q155",
+			"wiki": "es:Brasil",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q155",
+					"url": "https://www.wikidata.org/wiki/Q155",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BRA"
+		},
+		{
+			"id": "chile",
+			"nombre": "Chile",
+			"nombres": [
+				"Chile"
+			],
+			"wikidata": "Q298",
+			"wiki": "es:Chile",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q298",
+					"url": "https://www.wikidata.org/wiki/Q298",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CHL"
+		},
+		{
+			"id": "republica-checa",
+			"nombre": "República Checa",
+			"nombres": [
+				"Czech Republic",
+				"República Checa",
+				"Chequia"
+			],
+			"wikidata": "Q213",
+			"wiki": "es:República Checa",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q213",
+					"url": "https://www.wikidata.org/wiki/Q213",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CZE"
+		},
+		{
+			"id": "fiyi",
+			"nombre": "Fiyi",
+			"nombres": [
+				"Fiji",
+				"Fiyi"
+			],
+			"wikidata": "Q712",
+			"wiki": "es:Fiyi",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q712",
+					"url": "https://www.wikidata.org/wiki/Q712",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "FJI"
+		},
+		{
+			"id": "granada-2",
+			"nombre": "Granada",
+			"nombres": [
+				"Grenada",
+				"Granada"
+			],
+			"wikidata": "Q769",
+			"wiki": "es:Granada",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q769",
+					"url": "https://www.wikidata.org/wiki/Q769",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "GRD"
+		},
+		{
+			"id": "hong-kong",
+			"nombre": "Hong Kong",
+			"nombres": [
+				"Hong Kong"
+			],
+			"wikidata": "Q8646",
+			"wiki": "es:Hong Kong",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q8646",
+					"url": "https://www.wikidata.org/wiki/Q8646",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "HKG"
+		},
+		{
+			"id": "italia",
+			"nombre": "Italia",
+			"nombres": [
+				"Italy",
+				"Italia"
+			],
+			"wikidata": "Q38",
+			"wiki": "es:Italia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q38",
+					"url": "https://www.wikidata.org/wiki/Q38",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ITA"
+		},
+		{
+			"id": "kuwait",
+			"nombre": "Kuwait",
+			"nombres": [
+				"Kuwait"
+			],
+			"wikidata": "Q817",
+			"wiki": "es:Kuwait",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q817",
+					"url": "https://www.wikidata.org/wiki/Q817",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "KWT"
+		},
+		{
+			"id": "luxemburgo",
+			"nombre": "Luxemburgo",
+			"nombres": [
+				"Luxembourg",
+				"Luxemburgo"
+			],
+			"wikidata": "Q32",
+			"wiki": "es:Luxemburgo",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q32",
+					"url": "https://www.wikidata.org/wiki/Q32",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LUX"
+		},
+		{
+			"id": "moldavia",
+			"nombre": "Moldavia",
+			"nombres": [
+				"Moldova",
+				"Moldavia",
+				"Moldova"
+			],
+			"wikidata": "Q217",
+			"wiki": "es:Moldavia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q217",
+					"url": "https://www.wikidata.org/wiki/Q217",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MDA"
+		},
+		{
+			"id": "nueva-zelanda",
+			"nombre": "Nueva Zelanda",
+			"nombres": [
+				"New Zealand",
+				"Nueva Zelanda",
+				"Nueva Zelandia"
+			],
+			"wikidata": "Q664",
+			"wiki": "es:Nueva Zelanda",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q664",
+					"url": "https://www.wikidata.org/wiki/Q664",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "NZL"
+		},
+		{
+			"id": "papua-nueva-guinea",
+			"nombre": "Papúa Nueva Guinea",
+			"nombres": [
+				"Papua New Guinea",
+				"Papúa Nueva Guinea"
+			],
+			"wikidata": "Q691",
+			"wiki": "es:Papúa Nueva Guinea",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q691",
+					"url": "https://www.wikidata.org/wiki/Q691",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PNG"
+		},
+		{
+			"id": "isla-de-pascua",
+			"nombre": "Isla de Pascua",
+			"nombres": [
+				"Rapa Nui",
+				"Isla de Pascua"
+			],
+			"wikidata": "Q133442",
+			"wiki": "es:Isla de Pascua",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q133442",
+					"url": "https://www.wikidata.org/wiki/Q133442",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "san-vicente-y-las-granadinas",
+			"nombre": "San Vicente y las Granadinas",
+			"nombres": [
+				"Saint Vincent and the Grenadines",
+				"San Vicente y las Granadinas"
+			],
+			"wikidata": "Q757",
+			"wiki": "es:San Vicente y las Granadinas",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q757",
+					"url": "https://www.wikidata.org/wiki/Q757",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "VCT"
+		},
+		{
+			"id": "sri-lanka",
+			"nombre": "Sri Lanka",
+			"nombres": [
+				"Sri Lanka"
+			],
+			"wikidata": "Q854",
+			"wiki": "es:Sri Lanka",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q854",
+					"url": "https://www.wikidata.org/wiki/Q854",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LKA"
+		},
+		{
+			"id": "tonga",
+			"nombre": "Tonga",
+			"nombres": [
+				"Tonga"
+			],
+			"wikidata": "Q678",
+			"wiki": "es:Tonga",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q678",
+					"url": "https://www.wikidata.org/wiki/Q678",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TON"
+		},
+		{
+			"id": "emiratos-arabes-unidos",
+			"nombre": "Emiratos Árabes Unidos",
+			"nombres": [
+				"United Arab Emirates",
+				"Emiratos Árabes Unidos"
+			],
+			"wikidata": "Q878",
+			"wiki": "es:Emiratos Árabes Unidos",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q878",
+					"url": "https://www.wikidata.org/wiki/Q878",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ARE"
+		},
+		{
+			"id": "wallis-y-futuna",
+			"nombre": "Wallis y Futuna",
+			"nombres": [
+				"Wallis and Futuna Islands",
+				"Wallis y Futuna"
+			],
+			"wikidata": "Q35555",
+			"wiki": "es:Wallis y Futuna",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q35555",
+					"url": "https://www.wikidata.org/wiki/Q35555",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "antigua-y-barbuda",
+			"nombre": "Antigua y Barbuda",
+			"nombres": [
+				"Antigua and Barbuda",
+				"Antigua y Barbuda"
+			],
+			"wikidata": "Q781",
+			"wiki": "es:Antigua y Barbuda",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q781",
+					"url": "https://www.wikidata.org/wiki/Q781",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ATG"
+		},
+		{
+			"id": "belgica",
+			"nombre": "Bélgica",
+			"nombres": [
+				"Belgium",
+				"Bélgica"
+			],
+			"wikidata": "Q31",
+			"wiki": "es:Bélgica",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q31",
+					"url": "https://www.wikidata.org/wiki/Q31",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BEL"
+		},
+		{
+			"id": "brunei",
+			"nombre": "Brunéi",
+			"nombres": [
+				"Brunei",
+				"Brunéi",
+				"Brunéi Darusalam"
+			],
+			"wikidata": "Q921",
+			"wiki": "es:Brunéi",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q921",
+					"url": "https://www.wikidata.org/wiki/Q921",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BRN"
+		},
+		{
+			"id": "colombia",
+			"nombre": "Colombia",
+			"nombres": [
+				"Colombia"
+			],
+			"wikidata": "Q739",
+			"wiki": "es:Colombia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q739",
+					"url": "https://www.wikidata.org/wiki/Q739",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "COL"
+		},
+		{
+			"id": "dominica",
+			"nombre": "Dominica",
+			"nombres": [
+				"Dominica"
+			],
+			"wikidata": "Q784",
+			"wiki": "es:Dominica",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q784",
+					"url": "https://www.wikidata.org/wiki/Q784",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "DMA"
+		},
+		{
+			"id": "finlandia",
+			"nombre": "Finlandia",
+			"nombres": [
+				"Finland",
+				"Finlandia"
+			],
+			"wikidata": "Q33",
+			"wiki": "es:Finlandia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q33",
+					"url": "https://www.wikidata.org/wiki/Q33",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "FIN"
+		},
+		{
+			"id": "guadalupe",
+			"nombre": "Guadalupe",
+			"nombres": [
+				"Guadeloupe",
+				"Guadalupe"
+			],
+			"wikidata": "Q17012",
+			"wiki": "es:Guadalupe",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q17012",
+					"url": "https://www.wikidata.org/wiki/Q17012",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "islandia",
+			"nombre": "Islandia",
+			"nombres": [
+				"Iceland",
+				"Islandia"
+			],
+			"wikidata": "Q189",
+			"wiki": "es:Islandia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q189",
+					"url": "https://www.wikidata.org/wiki/Q189",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ISL"
+		},
+		{
+			"id": "jamaica",
+			"nombre": "Jamaica",
+			"nombres": [
+				"Jamaica"
+			],
+			"wikidata": "Q766",
+			"wiki": "es:Jamaica",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q766",
+					"url": "https://www.wikidata.org/wiki/Q766",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "JAM"
+		},
+		{
+			"id": "kirguistan",
+			"nombre": "Kirguistán",
+			"nombres": [
+				"Kyrgyzstan",
+				"Kirguistán",
+				"Kirguizistán"
+			],
+			"wikidata": "Q813",
+			"wiki": "es:Kirguistán",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q813",
+					"url": "https://www.wikidata.org/wiki/Q813",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "KGZ"
+		},
+		{
+			"id": "macedonia-del-norte",
+			"nombre": "Macedonia del Norte",
+			"nombres": [
+				"Macedonia",
+				"Macedonia del Norte"
+			],
+			"wikidata": "Q221",
+			"wiki": "es:Macedonia del Norte",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q221",
+					"url": "https://www.wikidata.org/wiki/Q221",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MKD"
+		},
+		{
+			"id": "mongolia",
+			"nombre": "Mongolia",
+			"nombres": [
+				"Mongolia"
+			],
+			"wikidata": "Q711",
+			"wiki": "es:Mongolia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q711",
+					"url": "https://www.wikidata.org/wiki/Q711",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MNG"
+		},
+		{
+			"id": "nicaragua",
+			"nombre": "Nicaragua",
+			"nombres": [
+				"Nicaragua"
+			],
+			"wikidata": "Q811",
+			"wiki": "es:Nicaragua",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q811",
+					"url": "https://www.wikidata.org/wiki/Q811",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "NIC"
+		},
+		{
+			"id": "paraguay",
+			"nombre": "Paraguay",
+			"nombres": [
+				"Paraguay"
+			],
+			"wikidata": "Q733",
+			"wiki": "es:Paraguay",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q733",
+					"url": "https://www.wikidata.org/wiki/Q733",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PRY"
+		},
+		{
+			"id": "rumania",
+			"nombre": "Rumanía",
+			"nombres": [
+				"Romania",
+				"Rumanía",
+				"Rumania"
+			],
+			"wikidata": "Q218",
+			"wiki": "es:Rumanía",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q218",
+					"url": "https://www.wikidata.org/wiki/Q218",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ROU"
+		},
+		{
+			"id": "samoa",
+			"nombre": "Samoa",
+			"nombres": [
+				"Samoa"
+			],
+			"wikidata": "Q683",
+			"wiki": "es:Samoa",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q683",
+					"url": "https://www.wikidata.org/wiki/Q683",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "WSM"
+		},
+		{
+			"id": "surinam",
+			"nombre": "Surinam",
+			"nombres": [
+				"Suriname",
+				"Surinam"
+			],
+			"wikidata": "Q730",
+			"wiki": "es:Surinam",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q730",
+					"url": "https://www.wikidata.org/wiki/Q730",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "SUR"
+		},
+		{
+			"id": "trinidad-y-tobago",
+			"nombre": "Trinidad y Tobago",
+			"nombres": [
+				"Trinidad",
+				"Trinidad y Tobago"
+			],
+			"wikidata": "Q754",
+			"wiki": "es:Trinidad y Tobago",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q754",
+					"url": "https://www.wikidata.org/wiki/Q754",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TTO"
+		},
+		{
+			"id": "islas-virgenes-de-ee-uu",
+			"nombre": "Islas Vírgenes de EE. UU.",
+			"nombres": [
+				"United States Virgin Islands",
+				"Islas Vírgenes de EE. UU.",
+				"Islas Vírgenes de los Estados Unidos"
+			],
+			"wikidata": "Q11703",
+			"wiki": "es:Islas Vírgenes de EE. UU.",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q11703",
+					"url": "https://www.wikidata.org/wiki/Q11703",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "VIR"
+		},
+		{
+			"id": "argentina",
+			"nombre": "Argentina",
+			"nombres": [
+				"Argentina"
+			],
+			"wikidata": "Q414",
+			"wiki": "es:Argentina",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q414",
+					"url": "https://www.wikidata.org/wiki/Q414",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "ARG"
+		},
+		{
+			"id": "belice",
+			"nombre": "Belice",
+			"nombres": [
+				"Belize",
+				"Belice"
+			],
+			"wikidata": "Q242",
+			"wiki": "es:Belice",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q242",
+					"url": "https://www.wikidata.org/wiki/Q242",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "BLZ"
+		},
+		{
+			"id": "birmania",
+			"nombre": "Birmania",
+			"nombres": [
+				"Burma",
+				"Birmania",
+				"Myanmar"
+			],
+			"wikidata": "Q836",
+			"wiki": "es:Birmania",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q836",
+					"url": "https://www.wikidata.org/wiki/Q836",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MMR"
+		},
+		{
+			"id": "costa-rica",
+			"nombre": "Costa Rica",
+			"nombres": [
+				"Costa Rica"
+			],
+			"wikidata": "Q800",
+			"wiki": "es:Costa Rica",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q800",
+					"url": "https://www.wikidata.org/wiki/Q800",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CRI"
+		},
+		{
+			"id": "republica-dominicana",
+			"nombre": "República Dominicana",
+			"nombres": [
+				"Dominican Republic",
+				"República Dominicana"
+			],
+			"wikidata": "Q786",
+			"wiki": "es:República Dominicana",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q786",
+					"url": "https://www.wikidata.org/wiki/Q786",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "DOM"
+		},
+		{
+			"id": "guayana-francesa",
+			"nombre": "Guayana Francesa",
+			"nombres": [
+				"French Guiana",
+				"Guayana Francesa"
+			],
+			"wikidata": "Q3769",
+			"wiki": "es:Guayana Francesa",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q3769",
+					"url": "https://www.wikidata.org/wiki/Q3769",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "guatemala",
+			"nombre": "Guatemala",
+			"nombres": [
+				"Guatemala"
+			],
+			"wikidata": "Q774",
+			"wiki": "es:Guatemala",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q774",
+					"url": "https://www.wikidata.org/wiki/Q774",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "GTM"
+		},
+		{
+			"id": "india",
+			"nombre": "India",
+			"nombres": [
+				"India"
+			],
+			"wikidata": "Q668",
+			"wiki": "es:India",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q668",
+					"url": "https://www.wikidata.org/wiki/Q668",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "IND"
+		},
+		{
+			"id": "jordania",
+			"nombre": "Jordania",
+			"nombres": [
+				"Jordan",
+				"Jordania"
+			],
+			"wikidata": "Q810",
+			"wiki": "es:Jordania",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q810",
+					"url": "https://www.wikidata.org/wiki/Q810",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "JOR"
+		},
+		{
+			"id": "laos",
+			"nombre": "Laos",
+			"nombres": [
+				"Laos"
+			],
+			"wikidata": "Q819",
+			"wiki": "es:Laos",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q819",
+					"url": "https://www.wikidata.org/wiki/Q819",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "LAO"
+		},
+		{
+			"id": "malasia",
+			"nombre": "Malasia",
+			"nombres": [
+				"Malaysia",
+				"Malasia"
+			],
+			"wikidata": "Q833",
+			"wiki": "es:Malasia",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q833",
+					"url": "https://www.wikidata.org/wiki/Q833",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MYS"
+		},
+		{
+			"id": "montenegro",
+			"nombre": "Montenegro",
+			"nombres": [
+				"Montenegro"
+			],
+			"wikidata": "Q236",
+			"wiki": "es:Montenegro",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q236",
+					"url": "https://www.wikidata.org/wiki/Q236",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "MNE"
+		},
+		{
+			"id": "niue",
+			"nombre": "Niue",
+			"nombres": [
+				"Niue"
+			],
+			"wikidata": "Q34020",
+			"wiki": "es:Niue",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q34020",
+					"url": "https://www.wikidata.org/wiki/Q34020",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "NIU"
+		},
+		{
+			"id": "peru",
+			"nombre": "Perú",
+			"nombres": [
+				"Peru",
+				"Perú"
+			],
+			"wikidata": "Q419",
+			"wiki": "es:Perú",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q419",
+					"url": "https://www.wikidata.org/wiki/Q419",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "PER"
+		},
+		{
+			"id": "san-bartolome",
+			"nombre": "San Bartolomé",
+			"nombres": [
+				"Saint Barthelemy",
+				"San Bartolomé"
+			],
+			"wikidata": "Q25362",
+			"wiki": "es:San Bartolomé",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q25362",
+					"url": "https://www.wikidata.org/wiki/Q25362",
+					"consultado": "2026-09"
+				}
+			]
+		},
+		{
+			"id": "arabia-saudita",
+			"nombre": "Arabia Saudita",
+			"nombres": [
+				"Saudi Arabia",
+				"Arabia Saudita",
+				"Arabia Saudí"
+			],
+			"wikidata": "Q851",
+			"wiki": "es:Arabia Saudita",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q851",
+					"url": "https://www.wikidata.org/wiki/Q851",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "SAU"
+		},
+		{
+			"id": "suiza",
+			"nombre": "Suiza",
+			"nombres": [
+				"Switzerland",
+				"Suiza"
+			],
+			"wikidata": "Q39",
+			"wiki": "es:Suiza",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q39",
+					"url": "https://www.wikidata.org/wiki/Q39",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "CHE"
+		},
+		{
+			"id": "turquia",
+			"nombre": "Turquía",
+			"nombres": [
+				"Turkey",
+				"Turquía"
+			],
+			"wikidata": "Q43",
+			"wiki": "es:Turquía",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q43",
+					"url": "https://www.wikidata.org/wiki/Q43",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "TUR"
+		},
+		{
+			"id": "uruguay",
+			"nombre": "Uruguay",
+			"nombres": [
+				"Uruguay"
+			],
+			"wikidata": "Q77",
+			"wiki": "es:Uruguay",
+			"fuentes": [
+				{
+					"id": "Wikidata:Q77",
+					"url": "https://www.wikidata.org/wiki/Q77",
+					"consultado": "2026-09"
+				}
+			],
+			"owid": "URY"
 		}
 	],
 	"conflictos": [
