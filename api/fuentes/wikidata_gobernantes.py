@@ -25,9 +25,10 @@ FID = "wikidata_gobernantes"
 ENDPOINT = "https://query.wikidata.org/sparql"
 
 SPARQL = """
-SELECT ?persona ?personaLabel ?ini ?fin WHERE {
-  wd:%s p:P35 ?st .
-  ?st ps:P35 ?persona .
+SELECT ?persona ?personaLabel ?cargo ?ini ?fin WHERE {
+  { wd:%s p:P35 ?st . ?st ps:P35 ?persona . BIND("jefe de Estado" AS ?cargo) }
+  UNION
+  { wd:%s p:P6 ?st . ?st ps:P6 ?persona . BIND("jefe de gobierno" AS ?cargo) }
   OPTIONAL { ?st pq:P580 ?ini }
   OPTIONAL { ?st pq:P582 ?fin }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "es,en". }
@@ -55,13 +56,14 @@ def anio(fecha):
 
 
 def consultar(qid):
-    url = ENDPOINT + "?format=json&query=" + urllib.parse.quote(SPARQL % qid)
+    url = ENDPOINT + "?format=json&query=" + urllib.parse.quote(SPARQL % (qid, qid))
     datos = json.loads(descargar_reintentos(url, timeout=180))
     filas = []
     for b in datos["results"]["bindings"]:
         filas.append({
             "persona": b["persona"]["value"],
             "nombre": b["personaLabel"]["value"],
+            "cargo": b.get("cargo", {}).get("value"),
             "ini": anio(b.get("ini", {}).get("value")),
             "fin": anio(b.get("fin", {}).get("value")),
         })
@@ -108,8 +110,11 @@ def main():
             if any(apellido in n.lower() and d and abs(d - desde) <= 2 for n, d in existentes):
                 continue
             qid_p = f["persona"].rsplit("/", 1)[-1]
+            gob = {"desde": desde, "hasta": hasta, "nombre": f["nombre"]}
+            if f.get("cargo"):
+                gob["cargo"] = f["cargo"]
             payload = {
-                "gobernante": {"desde": desde, "hasta": hasta, "nombre": f["nombre"]},
+                "gobernante": gob,
                 "fuente": {"id": f"wikidata:{qid_p}", "url": f["persona"],
                            "licencia": "CC0", "consultado": HOY},
             }
