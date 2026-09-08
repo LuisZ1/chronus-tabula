@@ -107,9 +107,14 @@ tr.abierta + tr.payload { display:table-row; }
 
   <h2>Mapeo país ↔ fuente</h2>
   <p class="mini">Qué identificador usa cada país en cada fuente (campos <code>owid</code> y <code>wikidata</code> de <code>historia.json</code>) y cuántos datos tiene ya. Para ingerir un país nuevo, añádele su identificador en el JSON.</p>
+  <div class="filtros">
+    <input id="mapeoBuscar" placeholder="Buscar país…" style="flex:1;min-width:160px;padding:6px 10px;border:1px solid var(--line,#ccc);border-radius:6px;font-size:13px;">
+    <span class="mini" id="mapeoCuenta"></span>
+  </div>
   <div class="tbl"><table id="mapeo"><thead><tr>
     <th>País</th><th>OWID (entidad)</th><th>Wikidata (QID)</th><th>Gobernantes</th><th>Población</th><th>Fuentes actuales</th>
   </tr></thead><tbody></tbody></table></div>
+  <button class="sec" id="mapeoMas" style="display:none;margin-top:8px">Cargar más</button>
 
   <h2>Cola de propuestas</h2>
   <div class="filtros">
@@ -360,16 +365,38 @@ $('#btnCola').addEventListener('click', async () => {
   }
 });
 
-async function cargarMapeo() {
-  const m = await api('/api/mapeo');
-  $('#mapeo tbody').innerHTML = m.map(p => `
+// mapeo con buscador y «cargar más» (la lista completa es larga: ~260 países)
+let mapeoData = [];
+let mapeoN = 0;
+const MAPEO_PAGINA = 10;
+
+function pintarMapeo() {
+  const q = ($('#mapeoBuscar').value || '').trim().toLowerCase();
+  const filtrados = q
+    ? mapeoData.filter(p => (p.nombre + ' ' + p.id).toLowerCase().includes(q))
+    : mapeoData;
+  const visibles = filtrados.slice(0, mapeoN);
+  $('#mapeo tbody').innerHTML = visibles.map(p => `
     <tr><td><strong>${esc(p.nombre)}</strong> <span class="mini mono">${esc(p.id)}</span></td>
     <td class="mono">${p.owid ? esc(p.owid) : '—'}</td>
     <td class="mono">${p.wikidata ? `<a href="https://www.wikidata.org/wiki/${esc(p.wikidata)}" target="_blank" rel="noopener">${esc(p.wikidata)}</a>` : '—'}</td>
     <td>${p.gobernantes}</td><td>${p.poblacion}</td>
     <td class="mini">${p.fuentes.map(esc).join(', ')}</td></tr>`).join('')
-    || '<tr><td colspan="6" class="vacio">ningún país tiene identificadores de fuente todavía</td></tr>';
+    || `<tr><td colspan="6" class="vacio">${q ? 'sin resultados para «' + esc(q) + '»' : 'ningún país tiene identificadores de fuente todavía'}</td></tr>`;
+  const restantes = filtrados.length - visibles.length;
+  const btn = $('#mapeoMas');
+  btn.style.display = restantes > 0 ? '' : 'none';
+  btn.textContent = `Cargar más (${restantes} restantes)`;
+  $('#mapeoCuenta').textContent = filtrados.length ? `mostrando ${visibles.length} de ${filtrados.length}` : '';
 }
+
+async function cargarMapeo() {
+  mapeoData = await api('/api/mapeo');
+  mapeoN = MAPEO_PAGINA;
+  pintarMapeo();
+}
+$('#mapeoBuscar').addEventListener('input', () => { mapeoN = MAPEO_PAGINA; pintarMapeo(); });
+$('#mapeoMas').addEventListener('click', () => { mapeoN += 20; pintarMapeo(); });
 
 async function cargarPropuestas() {
   const estado = $('#fEstado').value;
