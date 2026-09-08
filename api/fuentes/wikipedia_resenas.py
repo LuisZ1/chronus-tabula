@@ -17,6 +17,7 @@ import sys
 import os
 import time
 import urllib.parse
+import urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, proponer,  # noqa: E402
@@ -34,18 +35,25 @@ DEMO = {"espana": {
 
 
 def titulo_wiki(p):
-    """'es:España' -> 'España'; si no hay 'wiki', usa el nombre."""
+    """'es:España' -> 'España'; si no hay 'wiki', usa el nombre. Los nombres dobles
+    («Reino Unido / Gran Bretaña») no son un título válido: toma la primera variante."""
     w = p.get("wiki") or ""
     if w.startswith("es:"):
-        return w[3:]
-    if w and ":" not in w:
-        return w
-    return p.get("nombre") or p.get("id")
+        t = w[3:]
+    elif w and ":" not in w:
+        t = w
+    else:
+        t = p.get("nombre") or p.get("id")
+    if "/" in t:
+        t = t.split("/")[0].strip()
+    return t
 
 
 def resumen(titulo):
+    # safe="" codifica también la «/» y otros caracteres: un título con barra daría
+    # HTTP 400 si se dejara literal en la ruta.
     url = ("https://es.wikipedia.org/api/rest_v1/page/summary/"
-           + urllib.parse.quote(titulo.replace(" ", "_")) + "?redirect=true")
+           + urllib.parse.quote(titulo.replace(" ", "_"), safe="") + "?redirect=true")
     datos = json.loads(descargar_reintentos(url, timeout=60))
     return {"extract": datos.get("extract") or "",
             "url": (datos.get("content_urls", {}).get("desktop", {}) or {}).get("page")
@@ -91,7 +99,15 @@ def main():
             try:
                 data = resumen(titulo_wiki(p))
                 time.sleep(1)  # pausa cortés
-            except Exception as e:  # noqa: BLE001
+            except urllib.error.HTTPError as e:
+                # el servidor respondió (hay red) pero este país no tiene resumen
+                # válido (título malo, sin artículo…): se salta y se sigue.
+                print(f"  ⚠ {p['id']}: Wikipedia responde HTTP {e.code} para «{titulo_wiki(p)}»; se salta.", flush=True)
+                if not demo:
+                    progreso_marcar(con, FID, p["id"])
+                con.commit()
+                continue
+            except Exception as e:  # noqa: BLE001 — sin red de verdad: parar y reanudar luego
                 con.commit(); con.close()
                 print(f"⚠ Interrumpido en '{p['id']}': lo propuesto queda guardado; "
                       "la próxima ejecución continúa desde aquí.", flush=True)
