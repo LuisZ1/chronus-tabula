@@ -1,0 +1,223 @@
+{
+	"id": "belice",
+	"nombre": "Belice",
+	"nombres": [
+		"Belize",
+		"Belice"
+	],
+	"wikidata": "Q242",
+	"wiki": "es:Belice",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q242",
+			"url": "https://www.wikidata.org/wiki/Q242",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Belice",
+			"url": "https://es.wikipedia.org/wiki/Belice",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "BLZ",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 200
+		},
+		{
+			"anio": -9000,
+			"valor": 250
+		},
+		{
+			"anio": -8000,
+			"valor": 313
+		},
+		{
+			"anio": -7000,
+			"valor": 391
+		},
+		{
+			"anio": -6000,
+			"valor": 489
+		},
+		{
+			"anio": -5000,
+			"valor": 611
+		},
+		{
+			"anio": -4000,
+			"valor": 764
+		},
+		{
+			"anio": -3000,
+			"valor": 955
+		},
+		{
+			"anio": -2000,
+			"valor": 1194
+		},
+		{
+			"anio": -1000,
+			"valor": 1493
+		},
+		{
+			"anio": 0,
+			"valor": 1866
+		},
+		{
+			"anio": 100,
+			"valor": 2036
+		},
+		{
+			"anio": 200,
+			"valor": 2221
+		},
+		{
+			"anio": 300,
+			"valor": 2423
+		},
+		{
+			"anio": 400,
+			"valor": 2644
+		},
+		{
+			"anio": 500,
+			"valor": 2884
+		},
+		{
+			"anio": 600,
+			"valor": 3146
+		},
+		{
+			"anio": 700,
+			"valor": 3432
+		},
+		{
+			"anio": 800,
+			"valor": 3744
+		},
+		{
+			"anio": 900,
+			"valor": 4085
+		},
+		{
+			"anio": 1000,
+			"valor": 4456
+		},
+		{
+			"anio": 1100,
+			"valor": 4861
+		},
+		{
+			"anio": 1200,
+			"valor": 5303
+		},
+		{
+			"anio": 1300,
+			"valor": 5785
+		},
+		{
+			"anio": 1400,
+			"valor": 6311
+		},
+		{
+			"anio": 1500,
+			"valor": 6885
+		},
+		{
+			"anio": 1600,
+			"valor": 7511
+		},
+		{
+			"anio": 1700,
+			"valor": 8194
+		},
+		{
+			"anio": 1750,
+			"valor": 12150
+		},
+		{
+			"anio": 1800,
+			"valor": 25526
+		},
+		{
+			"anio": 1850,
+			"valor": 25881
+		},
+		{
+			"anio": 1900,
+			"valor": 37771
+		},
+		{
+			"anio": 1910,
+			"valor": 41386
+		},
+		{
+			"anio": 1920,
+			"valor": 46640
+		},
+		{
+			"anio": 1930,
+			"valor": 52902
+		},
+		{
+			"anio": 1940,
+			"valor": 60990
+		},
+		{
+			"anio": 1950,
+			"valor": 69085
+		},
+		{
+			"anio": 1960,
+			"valor": 91330
+		},
+		{
+			"anio": 1970,
+			"valor": 120746
+		},
+		{
+			"anio": 1980,
+			"valor": 145072
+		},
+		{
+			"anio": 1990,
+			"valor": 183090
+		},
+		{
+			"anio": 2000,
+			"valor": 240809
+		},
+		{
+			"anio": 2010,
+			"valor": 320256
+		},
+		{
+			"anio": 2020,
+			"valor": 390819
+		},
+		{
+			"anio": 2023,
+			"valor": 411112
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5a9418e8842b",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Belice es un país soberano de América ubicado en el extremo noreste de América Central y en la región del Caribe. Limita al norte con México y al sur y oeste con Guatemala."
+}

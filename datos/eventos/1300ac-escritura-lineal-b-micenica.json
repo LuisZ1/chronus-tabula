@@ -1,0 +1,19 @@
+{
+	"nombre": "Escritura Lineal B micénica",
+	"anio": -1300,
+	"lat": 37.03,
+	"lng": 21.7,
+	"paises": [
+		"Grecia"
+	],
+	"descripcion": "La civilización micénica emplea la escritura silábica Lineal B, testimonio más antiguo conocido de la lengua griega, atestiguada en las tablillas de Pilos, Micenas y Cnosos.",
+	"wiki": "Lineal B",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Lineal B",
+			"url": "https://es.wikipedia.org/wiki/Lineal_B",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,124 @@
+{
+	"id": "togo",
+	"nombre": "Togo",
+	"nombres": [
+		"Togo",
+		"Togolandia",
+		"República Togolesa"
+	],
+	"wiki": "es:Togo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Togo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q945",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Togo",
+			"url": "https://es.wikipedia.org/wiki/Togo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Togolandia alemana",
+			"desde": 1884,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Togo francés",
+			"desde": 1916,
+			"hasta": 1960
+		},
+		{
+			"nombre": "República Togolesa",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q945",
+	"gobernantes": [
+		{
+			"nombre": "Sylvanus Olympio",
+			"desde": 1960,
+			"hasta": 1963,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Nicolas Grunitzky",
+			"desde": 1963,
+			"hasta": 1967,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Kléber Dadjo",
+			"desde": 1967,
+			"hasta": 1967,
+			"cargo": "Presidente (comité de reconciliación, interino)"
+		},
+		{
+			"nombre": "Gnassingbé Eyadéma",
+			"desde": 1967,
+			"hasta": 2005,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Faure Gnassingbé",
+			"desde": 2005,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 1580000,
+			"fuente": "Our World in Data (est.)"
+		},
+		{
+			"anio": 1981,
+			"valor": 2700000,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2000,
+			"valor": 4900000,
+			"fuente": "Our World in Data (est.)"
+		},
+		{
+			"anio": 2010,
+			"valor": 6191155,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2017,
+			"valor": 7552318,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2023,
+			"valor": 8700000,
+			"fuente": "Our World in Data (est.)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "77d2888d82df",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Togo es un país de África occidental. Limita con Ghana al oeste, Benín al este y Burkina Faso al norte."
+}

@@ -1,0 +1,173 @@
+{
+	"id": "guinea-bisau",
+	"nombre": "Guinea-Bisau",
+	"nombres": [
+		"Guinea-Bissau",
+		"Guinea-Bissau (Portugal)",
+		"Guinea Portuguesa"
+	],
+	"wiki": "es:Guinea-Bisáu",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Guinea-Bis%C3%A1u",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-en-jefes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Guinea-Bissau",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1007",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Guinea-Bisáu",
+			"url": "https://es.wikipedia.org/wiki/Guinea-Bis%C3%A1u",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1007",
+			"url": "https://www.wikidata.org/wiki/Q1007",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Guinea Portuguesa",
+			"desde": 1879,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Republica de Guinea-Bisau",
+			"desde": 1973,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1007",
+	"gobernantes": [
+		{
+			"nombre": "Luis Cabral",
+			"desde": 1973,
+			"hasta": 1980,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Joao Bernardo Vieira",
+			"desde": 1980,
+			"hasta": 1999,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Malam Bacai Sanha",
+			"desde": 1999,
+			"hasta": 2000,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Kumba Iala",
+			"desde": 2000,
+			"hasta": 2003,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Henrique Rosa",
+			"desde": 2003,
+			"hasta": 2005,
+			"cargo": "Presidente de transicion"
+		},
+		{
+			"nombre": "Joao Bernardo Vieira",
+			"desde": 2005,
+			"hasta": 2009,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Raimundo Pereira",
+			"desde": 2009,
+			"hasta": 2009,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Malam Bacai Sanha",
+			"desde": 2009,
+			"hasta": 2012,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Manuel Serifo Nhamadjo",
+			"desde": 2012,
+			"hasta": 2014,
+			"cargo": "Presidente de transicion"
+		},
+		{
+			"nombre": "Jose Mario Vaz",
+			"desde": 2014,
+			"hasta": 2020,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Umaro Sissoco Embalo",
+			"desde": 2020,
+			"hasta": 2025,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Horta N'Tam (Horta Inta-A Na Man)",
+			"desde": 2025,
+			"hasta": 2026,
+			"cargo": "Presidente de transicion (junta militar)"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1979,
+			"valor": 767739,
+			"fuente": "Censo 1979 (Wikipedia)"
+		},
+		{
+			"anio": 1991,
+			"valor": 983367,
+			"fuente": "Wikipedia (es), censo"
+		},
+		{
+			"anio": 1998,
+			"valor": 1206311,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2006,
+			"valor": 1460253,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2022,
+			"valor": 1644000,
+			"fuente": "Wikipedia (es), estimacion"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d776a10ecd7a",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Guinea-Bisáu o Guinea-Bissau, oficialmente la República de Guinea-Bisáu, es un país del oeste de África que cubre 36 125 km² con una población estimada de 1 644 000 habitantes (2022). Limita con Senegal al norte, Guinea al sur y al este, y con el océano Atlántico al oeste.",
+	"escudos": [
+		{
+			"archivo": "Emblem of Guinea-Bissau.svg"
+		}
+	]
+}

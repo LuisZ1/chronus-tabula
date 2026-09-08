@@ -1,0 +1,108 @@
+{
+	"id": "unificacion-italia",
+	"nombre": "Unificación romana de Italia",
+	"inicio": -343,
+	"fin": -275,
+	"paises": [
+		"Roma",
+		"Samnitas",
+		"Latinos",
+		"Epiro (Pirro)",
+		"Magna Grecia"
+	],
+	"bajas": "~100.000 muertos",
+	"descripcion": "Roma somete el centro y sur de Italia en las tres guerras samnitas (343-290 a. C.) y derrota a Pirro de Epiro (280-275 a. C.), quedando dueña de la península.",
+	"wiki": "Guerras samnitas",
+	"zonas": [
+		{
+			"nombre": "Italia central (guerras samnitas)",
+			"tipo": "frente",
+			"desde": -343,
+			"hasta": -290,
+			"poligono": [
+				[
+					43,
+					11.5
+				],
+				[
+					42.5,
+					15
+				],
+				[
+					40.8,
+					16
+				],
+				[
+					40.5,
+					14
+				],
+				[
+					41.8,
+					12.5
+				]
+			]
+		},
+		{
+			"nombre": "Magna Grecia (guerra pírrica)",
+			"tipo": "frente",
+			"desde": -280,
+			"hasta": -275,
+			"poligono": [
+				[
+					40.8,
+					15.5
+				],
+				[
+					40.5,
+					18.2
+				],
+				[
+					39,
+					17.5
+				],
+				[
+					38.8,
+					16
+				],
+				[
+					40,
+					15.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Sentino",
+			"anio": -295,
+			"lat": 43.4,
+			"lng": 12.9,
+			"descripcion": "Victoria decisiva sobre la coalición samnita-gala."
+		},
+		{
+			"nombre": "Batalla de Heraclea",
+			"anio": -280,
+			"lat": 40.2,
+			"lng": 16.7,
+			"descripcion": "Primera «victoria pírrica» de Pirro sobre Roma."
+		},
+		{
+			"nombre": "Batalla de Benevento",
+			"anio": -275,
+			"lat": 41.13,
+			"lng": 14.78,
+			"descripcion": "Roma expulsa a Pirro de Italia."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras samnitas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_samnitas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

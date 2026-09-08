@@ -1,0 +1,19 @@
+{
+	"nombre": "Compilación del Kojiki y el Nihon shoki",
+	"anio": 720,
+	"lat": 34.69,
+	"lng": 135.8,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Se redactan las primeras crónicas oficiales que fijan la mitología y la historia legendaria de Japón.",
+	"wiki": "Kojiki",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Kojiki",
+			"url": "https://es.wikipedia.org/wiki/Kojiki",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

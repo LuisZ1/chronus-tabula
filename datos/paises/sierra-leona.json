@@ -1,0 +1,182 @@
+{
+	"id": "sierra-leona",
+	"nombre": "Sierra Leona",
+	"nombres": [
+		"Sierra Leone",
+		"Sierra Leona",
+		"República de Sierra Leona"
+	],
+	"wiki": "es:Sierra Leona",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sierra_Leone",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Sierra_Leone",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1044",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Sierra Leona",
+			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Dominio de Sierra Leona (Commonwealth)",
+			"desde": 1961,
+			"hasta": 1971
+		},
+		{
+			"nombre": "República de Sierra Leona",
+			"desde": 1971,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1044",
+	"gobernantes": [
+		{
+			"nombre": "Maurice Dorman",
+			"desde": 1961,
+			"hasta": 1962,
+			"cargo": "Gobernador general"
+		},
+		{
+			"nombre": "Henry Lightfoot Boston",
+			"desde": 1962,
+			"hasta": 1968,
+			"cargo": "Gobernador general"
+		},
+		{
+			"nombre": "Banja Tejan-Sie",
+			"desde": 1968,
+			"hasta": 1971,
+			"cargo": "Gobernador general"
+		},
+		{
+			"nombre": "Christopher Okoro Cole",
+			"desde": 1971,
+			"hasta": 1971,
+			"cargo": "Gobernador general / Presidente"
+		},
+		{
+			"nombre": "Siaka Stevens",
+			"desde": 1971,
+			"hasta": 1985,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Joseph Saidu Momoh",
+			"desde": 1985,
+			"hasta": 1992,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Valentine Strasser",
+			"desde": 1992,
+			"hasta": 1996,
+			"cargo": "Presidente (junta militar NPRC)"
+		},
+		{
+			"nombre": "Julius Maada Bio",
+			"desde": 1996,
+			"hasta": 1996,
+			"cargo": "Presidente (militar)"
+		},
+		{
+			"nombre": "Ahmad Tejan Kabbah",
+			"desde": 1996,
+			"hasta": 1997,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Johnny Paul Koroma",
+			"desde": 1997,
+			"hasta": 1998,
+			"cargo": "Presidente (junta AFRC)"
+		},
+		{
+			"nombre": "Ahmad Tejan Kabbah",
+			"desde": 1998,
+			"hasta": 2007,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Ernest Bai Koroma",
+			"desde": 2007,
+			"hasta": 2018,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Julius Maada Bio",
+			"desde": 2018,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1963,
+			"valor": 2180355,
+			"fuente": "Censo 1963"
+		},
+		{
+			"anio": 1974,
+			"valor": 2735159,
+			"fuente": "Censo 1974"
+		},
+		{
+			"anio": 1985,
+			"valor": 3515812,
+			"fuente": "Censo 1985"
+		},
+		{
+			"anio": 2004,
+			"valor": 4976871,
+			"fuente": "Censo 2004"
+		},
+		{
+			"anio": 2014,
+			"valor": 5743725,
+			"fuente": "Censo 2014"
+		},
+		{
+			"anio": 2021,
+			"valor": 8095000,
+			"fuente": "ONU - WPP 2022"
+		},
+		{
+			"anio": 2023,
+			"valor": 8461000,
+			"fuente": "ONU - World Population Prospects"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f10a4d5f3fac",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Sierra Leona o Sierra Leone, oficialmente la República de Sierra Leona, es un país de África occidental. Limita al norte con Guinea, al sureste con Liberia y al suroeste con el océano Atlántico, que lo separa de Brasil unos 2840 km."
+}

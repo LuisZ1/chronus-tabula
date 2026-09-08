@@ -1,0 +1,148 @@
+{
+	"id": "hispano-estadounidense",
+	"nombre": "Guerra hispano-estadounidense (el Desastre del 98)",
+	"inicio": 1898,
+	"fin": 1898,
+	"paises": [
+		"España",
+		"Estados Unidos",
+		"Cuba",
+		"Filipinas"
+	],
+	"bajas": "~20.000 muertos (mayoría españoles por enfermedad)",
+	"descripcion": "Tras la voladura del Maine, EE. UU. arrebata a España Cuba, Puerto Rico, Filipinas y Guam: fin del imperio español de ultramar.",
+	"wiki": "Guerra hispano-estadounidense",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra hispano-estadounidense",
+			"url": "https://es.wikipedia.org/wiki/Guerra_hispano-estadounidense",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q4871158",
+			"url": "https://www.wikidata.org/wiki/Q4871158",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q5452507",
+			"url": "https://www.wikidata.org/wiki/Q5452507",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871897",
+			"url": "https://www.wikidata.org/wiki/Q4871897",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16253626",
+			"url": "https://www.wikidata.org/wiki/Q16253626",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Cuba",
+			"tipo": "frente",
+			"poligono": [
+				[
+					23.3,
+					-84.5
+				],
+				[
+					22.5,
+					-79.5
+				],
+				[
+					19.8,
+					-74.2
+				],
+				[
+					19.9,
+					-77.5
+				],
+				[
+					21.8,
+					-84.8
+				]
+			]
+		},
+		{
+			"nombre": "Filipinas (Manila)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					15,
+					120.2
+				],
+				[
+					15,
+					121.5
+				],
+				[
+					14.2,
+					121.3
+				],
+				[
+					14.2,
+					120.4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Cavite",
+			"anio": 1898,
+			"lat": 14.48,
+			"lng": 120.9,
+			"descripcion": "Dewey destruye la escuadra española de Filipinas en horas."
+		},
+		{
+			"nombre": "Batalla naval de Santiago de Cuba",
+			"anio": 1898,
+			"lat": 19.97,
+			"lng": -75.87,
+			"bajas": "~350 muertos españoles",
+			"descripcion": "La escuadra de Cervera es aniquilada al intentar romper el bloqueo."
+		},
+		{
+			"nombre": "Colinas de San Juan",
+			"anio": 1898,
+			"lat": 20.02,
+			"lng": -75.8,
+			"descripcion": "La carga de los Rough Riders de Roosevelt decide Santiago."
+		},
+		{
+			"nombre": "Batalla de Guantánamo Bay",
+			"anio": 1898,
+			"lat": 20.02,
+			"lng": -75.11
+		},
+		{
+			"nombre": "primera batalla de Cárdenas",
+			"anio": 1898,
+			"lat": 23.04,
+			"lng": -81.21
+		},
+		{
+			"nombre": "batalla de la bahía de Nipe",
+			"anio": 1898,
+			"lat": 20.77,
+			"lng": -75.68
+		},
+		{
+			"nombre": "batalla de Fajardo",
+			"anio": 1898,
+			"lat": 18.33,
+			"lng": -65.65
+		}
+	]
+}

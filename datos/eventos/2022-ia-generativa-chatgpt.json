@@ -1,0 +1,20 @@
+{
+	"nombre": "IA generativa (ChatGPT)",
+	"anio": 2022,
+	"lat": 37.77,
+	"lng": -122.42,
+	"categoria": "invento",
+	"paises": [
+		"Estados Unidos"
+	],
+	"descripcion": "El lanzamiento de ChatGPT populariza la inteligencia artificial generativa: 100 millones de usuarios en dos meses.",
+	"wiki": "ChatGPT",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:ChatGPT",
+			"url": "https://es.wikipedia.org/wiki/ChatGPT",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

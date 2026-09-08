@@ -1,0 +1,224 @@
+{
+	"id": "nigeria",
+	"nombre": "Nigeria",
+	"nombres": [
+		"Nigeria",
+		"República Federal de Nigeria"
+	],
+	"wiki": "es:Nigeria",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Nigeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1033",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Nigeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Nigeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Nigeria",
+			"url": "https://es.wikipedia.org/wiki/Nigeria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Nigeria (colonia y protectorado británico)",
+			"desde": 1914,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Nigeria",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1033",
+	"gobernantes": [
+		{
+			"nombre": "Dinastía de los Obas de Benín (Imperio de Benín)",
+			"desde": 1180,
+			"hasta": 1897,
+			"cargo": "Obas del Reino de Benín"
+		},
+		{
+			"nombre": "Alaafines del Imperio de Oyo",
+			"desde": 1400,
+			"hasta": 1836,
+			"cargo": "Soberanos yoruba del Imperio de Oyo"
+		},
+		{
+			"nombre": "Usman dan Fodio",
+			"desde": 1804,
+			"hasta": 1817,
+			"cargo": "Fundador del Califato de Sokoto"
+		},
+		{
+			"nombre": "Califato de Sokoto (Sultanes de Sokoto)",
+			"desde": 1804,
+			"hasta": 1903,
+			"cargo": "Soberanos del Califato de Sokoto"
+		},
+		{
+			"nombre": "Administración colonial británica",
+			"desde": 1900,
+			"hasta": 1960,
+			"cargo": "Colonia y protectorado del Reino Unido"
+		},
+		{
+			"nombre": "Nnamdi Azikiwe",
+			"desde": 1963,
+			"hasta": 1966,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Johnson Aguiyi-Ironsi",
+			"desde": 1966,
+			"hasta": 1966,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Yakubu Gowon",
+			"desde": 1966,
+			"hasta": 1975,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Murtala Mohammed",
+			"desde": 1975,
+			"hasta": 1976,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Olusegun Obasanjo",
+			"desde": 1976,
+			"hasta": 1979,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Shehu Shagari",
+			"desde": 1979,
+			"hasta": 1983,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Muhammadu Buhari",
+			"desde": 1983,
+			"hasta": 1985,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Ibrahim Babangida",
+			"desde": 1985,
+			"hasta": 1993,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Ernest Shonekan",
+			"desde": 1993,
+			"hasta": 1993,
+			"cargo": "Jefe de Estado interino"
+		},
+		{
+			"nombre": "Sani Abacha",
+			"desde": 1993,
+			"hasta": 1998,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Abdulsalami Abubakar",
+			"desde": 1998,
+			"hasta": 1999,
+			"cargo": "Jefe de Estado militar"
+		},
+		{
+			"nombre": "Olusegun Obasanjo",
+			"desde": 1999,
+			"hasta": 2007,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Umaru Musa Yar'Adua",
+			"desde": 2007,
+			"hasta": 2010,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Goodluck Jonathan",
+			"desde": 2010,
+			"hasta": 2015,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Muhammadu Buhari",
+			"desde": 2015,
+			"hasta": 2023,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Bola Tinubu",
+			"desde": 2023,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 36836000,
+			"fuente": "ONU (World Population Prospects)"
+		},
+		{
+			"anio": 1963,
+			"valor": 55670052,
+			"fuente": "Censo de Nigeria 1963"
+		},
+		{
+			"anio": 1991,
+			"valor": 88992220,
+			"fuente": "Censo de Nigeria 1991"
+		},
+		{
+			"anio": 2006,
+			"valor": 140431790,
+			"fuente": "Censo de Nigeria 2006"
+		},
+		{
+			"anio": 2022,
+			"valor": 218541000,
+			"fuente": "ONU (World Population Prospects 2022)"
+		},
+		{
+			"anio": 2023,
+			"valor": 223804632,
+			"fuente": "ONU (World Population Prospects 2024)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "8cceb7a800b7",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Nigeria, oficialmente República Federal de Nigeria, es un país de África occidental, que limita con Níger al norte, con Chad en el nordeste, con Camerún en el este y con Benín en el oeste. Su costa sur está localizada en el golfo de Guinea en el océano Atlántico."
+}

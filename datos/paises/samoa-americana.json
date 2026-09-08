@@ -1,0 +1,183 @@
+{
+	"id": "samoa-americana",
+	"nombre": "Samoa Americana",
+	"nombres": [
+		"American Samoa",
+		"Samoa Americana"
+	],
+	"wikidata": "Q16641",
+	"wiki": "es:Samoa Americana",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q16641",
+			"url": "https://www.wikidata.org/wiki/Q16641",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Samoa Americana",
+			"url": "https://es.wikipedia.org/wiki/Samoa_Americana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "ASM",
+	"poblacion": [
+		{
+			"anio": 0,
+			"valor": 1
+		},
+		{
+			"anio": 100,
+			"valor": 2
+		},
+		{
+			"anio": 200,
+			"valor": 4
+		},
+		{
+			"anio": 300,
+			"valor": 6
+		},
+		{
+			"anio": 400,
+			"valor": 9
+		},
+		{
+			"anio": 500,
+			"valor": 13
+		},
+		{
+			"anio": 600,
+			"valor": 20
+		},
+		{
+			"anio": 700,
+			"valor": 31
+		},
+		{
+			"anio": 800,
+			"valor": 46
+		},
+		{
+			"anio": 900,
+			"valor": 70
+		},
+		{
+			"anio": 1000,
+			"valor": 105
+		},
+		{
+			"anio": 1100,
+			"valor": 157
+		},
+		{
+			"anio": 1200,
+			"valor": 236
+		},
+		{
+			"anio": 1300,
+			"valor": 355
+		},
+		{
+			"anio": 1400,
+			"valor": 533
+		},
+		{
+			"anio": 1500,
+			"valor": 799
+		},
+		{
+			"anio": 1600,
+			"valor": 1199
+		},
+		{
+			"anio": 1700,
+			"valor": 1799
+		},
+		{
+			"anio": 1750,
+			"valor": 2325
+		},
+		{
+			"anio": 1800,
+			"valor": 3005
+		},
+		{
+			"anio": 1850,
+			"valor": 3927
+		},
+		{
+			"anio": 1900,
+			"valor": 6639
+		},
+		{
+			"anio": 1910,
+			"valor": 7469
+		},
+		{
+			"anio": 1920,
+			"valor": 8963
+		},
+		{
+			"anio": 1930,
+			"valor": 10756
+		},
+		{
+			"anio": 1940,
+			"valor": 12908
+		},
+		{
+			"anio": 1950,
+			"valor": 19070
+		},
+		{
+			"anio": 1960,
+			"valor": 20159
+		},
+		{
+			"anio": 1970,
+			"valor": 27052
+		},
+		{
+			"anio": 1980,
+			"valor": 32427
+		},
+		{
+			"anio": 1990,
+			"valor": 46659
+		},
+		{
+			"anio": 2000,
+			"valor": 56877
+		},
+		{
+			"anio": 2010,
+			"valor": 55246
+		},
+		{
+			"anio": 2020,
+			"valor": 49779
+		},
+		{
+			"anio": 2023,
+			"valor": 47544
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4c3c9c7fadbd",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Samoa Americana o Samoa Estadounidense es uno de los catorce territorios no incorporados de Estados Unidos. Es uno de los 17 territorios no autónomos bajo supervisión del Comité de Descolonización de la Organización de las Naciones Unidas."
+}

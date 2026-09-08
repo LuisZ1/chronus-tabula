@@ -1,0 +1,20 @@
+{
+	"nombre": "Pirámide escalonada de Saqqara",
+	"anio": -2650,
+	"lat": 29.87,
+	"lng": 31.22,
+	"categoria": "invento",
+	"paises": [
+		"Egipto"
+	],
+	"descripcion": "Imhotep levanta para Zoser el primer gran edificio de piedra tallada del mundo.",
+	"wiki": "Pirámide escalonada de Zoser",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pirámide escalonada de Zoser",
+			"url": "https://es.wikipedia.org/wiki/Pirámide_escalonada_de_Zoser",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

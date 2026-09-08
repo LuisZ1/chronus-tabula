@@ -1,0 +1,172 @@
+{
+	"id": "burkina-faso",
+	"nombre": "Burkina Faso",
+	"nombres": [
+		"Burkina Faso",
+		"Alto Volta",
+		"Upper Volta",
+		"República del Alto Volta"
+	],
+	"wiki": "es:Burkina Faso",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Burkina_Faso",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burkina_Faso",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q965",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Burkina Faso",
+			"url": "https://es.wikipedia.org/wiki/Burkina_Faso",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q965",
+			"url": "https://www.wikidata.org/wiki/Q965",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "República del Alto Volta",
+			"desde": 1958,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Burkina Faso",
+			"desde": 1984,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q965",
+	"gobernantes": [
+		{
+			"nombre": "Maurice Yaméogo",
+			"desde": 1960,
+			"hasta": 1966,
+			"cargo": "Presidente de la República"
+		},
+		{
+			"nombre": "Sangoulé Lamizana",
+			"desde": 1966,
+			"hasta": 1980,
+			"cargo": "Presidente de la República"
+		},
+		{
+			"nombre": "Saye Zerbo",
+			"desde": 1980,
+			"hasta": 1982,
+			"cargo": "Jefe de Estado (junta militar)"
+		},
+		{
+			"nombre": "Jean-Baptiste Ouédraogo",
+			"desde": 1982,
+			"hasta": 1983,
+			"cargo": "Jefe de Estado"
+		},
+		{
+			"nombre": "Thomas Sankara",
+			"desde": 1983,
+			"hasta": 1987,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Blaise Compaoré",
+			"desde": 1987,
+			"hasta": 2014,
+			"cargo": "Presidente de la República"
+		},
+		{
+			"nombre": "Michel Kafando",
+			"desde": 2014,
+			"hasta": 2015,
+			"cargo": "Presidente de transición"
+		},
+		{
+			"nombre": "Roch Marc Christian Kaboré",
+			"desde": 2015,
+			"hasta": 2022,
+			"cargo": "Presidente de la República"
+		},
+		{
+			"nombre": "Paul-Henri Sandaogo Damiba",
+			"desde": 2022,
+			"hasta": 2022,
+			"cargo": "Jefe de Estado (militar)"
+		},
+		{
+			"nombre": "Ibrahim Traoré",
+			"desde": 2022,
+			"hasta": 2026,
+			"cargo": "Presidente de transición"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1901,
+			"valor": 2900000,
+			"fuente": "Wikipedia (es) - estimación"
+		},
+		{
+			"anio": 1950,
+			"valor": 3000000,
+			"fuente": "Wikipedia (es) - estimación"
+		},
+		{
+			"anio": 1975,
+			"valor": 5600000,
+			"fuente": "Censo 1975"
+		},
+		{
+			"anio": 1996,
+			"valor": 10300000,
+			"fuente": "Censo 1996"
+		},
+		{
+			"anio": 2006,
+			"valor": 14000000,
+			"fuente": "Censo 2006"
+		},
+		{
+			"anio": 2019,
+			"valor": 20500000,
+			"fuente": "Censo 2019"
+		},
+		{
+			"anio": 2024,
+			"valor": 23519192,
+			"fuente": "Wikipedia (es) - estimación"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "3adccb8fafa0",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Burkina Faso es un país sin litoral de África Occidental que limita al noroeste con Malí, al este con Níger, al sureste con Benín y al sur con Costa de Marfil, Ghana y Togo. En 2025 la ONU estimó su población en 24 074 580 habitantes.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Burkina Faso.svg"
+		}
+	]
+}

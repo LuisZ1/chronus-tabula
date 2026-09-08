@@ -1,0 +1,104 @@
+{
+	"id": "tres-reinos",
+	"nombre": "Caída de los Han y Tres Reinos",
+	"inicio": 184,
+	"fin": 280,
+	"paises": [
+		"Wei",
+		"Shu Han",
+		"Wu"
+	],
+	"bajas": "~36.000.000 según los censos (guerra, hambre y epidemias)",
+	"descripcion": "De la rebelión de los Turbantes Amarillos (184) a la división de China en tres reinos y su reunificación por Jin (280); la época que noveló el «Romance de los Tres Reinos».",
+	"wiki": "Tres Reinos",
+	"zonas": [
+		{
+			"nombre": "Llanura central (guerra civil)",
+			"tipo": "frente",
+			"desde": 184,
+			"hasta": 220,
+			"poligono": [
+				[
+					38,
+					108
+				],
+				[
+					37.5,
+					117
+				],
+				[
+					32.5,
+					118
+				],
+				[
+					31,
+					112
+				],
+				[
+					34,
+					108
+				]
+			]
+		},
+		{
+			"nombre": "Tres Reinos (Wei, Shu y Wu)",
+			"tipo": "ocupado",
+			"desde": 220,
+			"hasta": 280,
+			"poligono": [
+				[
+					40,
+					105
+				],
+				[
+					39,
+					120
+				],
+				[
+					31,
+					121
+				],
+				[
+					27,
+					115
+				],
+				[
+					26,
+					105
+				],
+				[
+					31,
+					103
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Guandu",
+			"anio": 200,
+			"lat": 35.7,
+			"lng": 114.2,
+			"descripcion": "Cao Cao derrota a Yuan Shao y domina el norte."
+		},
+		{
+			"nombre": "Batalla de los Acantilados Rojos",
+			"anio": 208,
+			"lat": 29.9,
+			"lng": 113.6,
+			"bajas": "~100.000 bajas",
+			"descripcion": "La flota de Cao Cao arde; China queda dividida en tres."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tres Reinos",
+			"url": "https://es.wikipedia.org/wiki/Tres_Reinos",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

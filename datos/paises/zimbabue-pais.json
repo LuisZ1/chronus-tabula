@@ -1,0 +1,188 @@
+{
+	"id": "zimbabue-pais",
+	"nombre": "Zimbabue",
+	"nombres": [
+		"Zimbabwe",
+		"Zimbabue",
+		"República de Zimbabue",
+		"Rhodesia del Sur",
+		"Rhodesia"
+	],
+	"wiki": "es:Zimbabue",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Zimbabue",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q954",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Zimbabwe",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Zimbabwe",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Zimbabue",
+			"url": "https://es.wikipedia.org/wiki/Zimbabue",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Rhodesia del Sur",
+			"desde": 1898,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Rhodesia",
+			"desde": 1965,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Zimbabwe Rhodesia",
+			"desde": 1979,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Zimbabue",
+			"desde": 1980,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q954",
+	"gobernantes": [
+		{
+			"nombre": "Reino de Zimbabue (Gran Zimbabue)",
+			"desde": 1220,
+			"hasta": 1450,
+			"cargo": "Reino medieval shona"
+		},
+		{
+			"nombre": "Imperio de Mutapa (Monomotapa)",
+			"desde": 1430,
+			"hasta": 1760,
+			"cargo": "Soberanos (Mwene Mutapa)"
+		},
+		{
+			"nombre": "Imperio Rozvi (Changamire)",
+			"desde": 1660,
+			"hasta": 1866,
+			"cargo": "Soberanos rozvi"
+		},
+		{
+			"nombre": "Mzilikazi",
+			"desde": 1840,
+			"hasta": 1868,
+			"cargo": "Rey del Reino Ndebele (Matabele)"
+		},
+		{
+			"nombre": "Lobengula",
+			"desde": 1868,
+			"hasta": 1894,
+			"cargo": "Rey del Reino Ndebele (Matabele)"
+		},
+		{
+			"nombre": "Administración colonial británica / Rhodesia del Sur",
+			"desde": 1890,
+			"hasta": 1965,
+			"cargo": "Colonia y territorio autónomo británico"
+		},
+		{
+			"nombre": "Ian Smith",
+			"desde": 1964,
+			"hasta": 1979,
+			"cargo": "Primer ministro de Rhodesia (UDI)"
+		},
+		{
+			"nombre": "Abel Muzorewa",
+			"desde": 1979,
+			"hasta": 1979,
+			"cargo": "Primer ministro de Zimbabwe Rhodesia"
+		},
+		{
+			"nombre": "Canaan Banana",
+			"desde": 1980,
+			"hasta": 1987,
+			"cargo": "Presidente (ceremonial)"
+		},
+		{
+			"nombre": "Robert Mugabe",
+			"desde": 1980,
+			"hasta": 1987,
+			"cargo": "Primer ministro"
+		},
+		{
+			"nombre": "Robert Mugabe",
+			"desde": 1987,
+			"hasta": 2017,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Emmerson Mnangagwa",
+			"desde": 2017,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 2747000,
+			"fuente": "ONU (World Population Prospects)"
+		},
+		{
+			"anio": 1969,
+			"valor": 5044000,
+			"fuente": "ONU (World Population Prospects) / Censo 1969"
+		},
+		{
+			"anio": 1982,
+			"valor": 7608432,
+			"fuente": "Censo de Zimbabue 1982"
+		},
+		{
+			"anio": 1992,
+			"valor": 10412548,
+			"fuente": "Censo de Zimbabue 1992"
+		},
+		{
+			"anio": 2002,
+			"valor": 11631657,
+			"fuente": "Censo de Zimbabue 2002"
+		},
+		{
+			"anio": 2012,
+			"valor": 13061239,
+			"fuente": "Censo de Zimbabue 2012"
+		},
+		{
+			"anio": 2022,
+			"valor": 15178957,
+			"fuente": "Censo de Zimbabue 2022"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "9d52789e4fb2",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Zimbabue, oficialmente República de Zimbabue , es un país sin litoral situado en el sudeste de África, entre el río Zambeze, las cataratas Victoria y el río Limpopo. Limita al oeste con Botsuana, al norte con Zambia, al sur con Sudáfrica y al este con Mozambique."
+}

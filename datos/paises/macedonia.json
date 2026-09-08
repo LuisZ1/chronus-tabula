@@ -1,0 +1,40 @@
+{
+	"id": "macedonia",
+	"nombre": "Macedonia y Liga Helénica",
+	"nombres": [
+		"Macedon and Hellenic League"
+	],
+	"gobernantes": [
+		{
+			"desde": -359,
+			"hasta": -336,
+			"nombre": "Filipo II",
+			"titulo": "Rey de Macedonia"
+		},
+		{
+			"desde": -336,
+			"hasta": -323,
+			"nombre": "Alejandro Magno",
+			"titulo": "Rey de Macedonia y de Asia"
+		},
+		{
+			"desde": -277,
+			"hasta": -239,
+			"nombre": "Antígono II Gónatas",
+			"titulo": "Rey de Macedonia, consolidó la dinastía antigónida"
+		},
+		{
+			"desde": -179,
+			"hasta": -168,
+			"nombre": "Perseo",
+			"titulo": "Último rey de Macedonia, derrotado por Roma en Pidna"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Macedonia y Liga Helénica",
+			"url": "https://es.wikipedia.org/wiki/Macedonia_y_Liga_Helénica",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

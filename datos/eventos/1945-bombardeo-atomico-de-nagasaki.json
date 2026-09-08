@@ -1,0 +1,19 @@
+{
+	"nombre": "Bombardeo atómico de Nagasaki",
+	"anio": 1945,
+	"lat": 32.7736,
+	"lng": 129.8636,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "La segunda bomba atómica destruye Nagasaki el 9 de agosto de 1945, precipitando la rendición.",
+	"wiki": "Bombardeos atómicos de Hiroshima y Nagasaki",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Bombardeos atómicos de Hiroshima y Nagasaki",
+			"url": "https://es.wikipedia.org/wiki/Bombardeos_at%C3%B3micos_de_Hiroshima_y_Nagasaki",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

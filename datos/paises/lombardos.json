@@ -1,0 +1,47 @@
+{
+	"id": "lombardos",
+	"nombre": "Reino lombardo",
+	"nombres": [
+		"Lombard duchies",
+		"Lombardy"
+	],
+	"wiki": "Reino lombardo",
+	"gobernantes": [
+		{
+			"desde": 568,
+			"hasta": 572,
+			"nombre": "Alboino",
+			"titulo": "Rey de los lombardos, invasor de Italia"
+		},
+		{
+			"desde": 712,
+			"hasta": 744,
+			"nombre": "Liutprando",
+			"titulo": "Rey lombardo, apogeo del reino"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino lombardo",
+			"url": "https://es.wikipedia.org/wiki/Reino_lombardo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Reino lombardo",
+			"url": "https://es.wikipedia.org/wiki/Reino_lombardo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El reino lombardo o reino de los lombardos, más tarde, reino de (toda) Italia fue un Estado medieval temprano establecido por los lombardos en la península itálica entre 568-569 y 774.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "689d37b153e0",
+		"secciones": [
+			"resena"
+		]
+	}
+}

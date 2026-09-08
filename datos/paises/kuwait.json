@@ -1,0 +1,222 @@
+{
+	"id": "kuwait",
+	"nombre": "Kuwait",
+	"nombres": [
+		"Kuwait"
+	],
+	"wikidata": "Q817",
+	"wiki": "es:Kuwait",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q817",
+			"url": "https://www.wikidata.org/wiki/Q817",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Kuwait",
+			"url": "https://es.wikipedia.org/wiki/Kuwait",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "KWT",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 912
+		},
+		{
+			"anio": -9000,
+			"valor": 1368
+		},
+		{
+			"anio": -8000,
+			"valor": 2052
+		},
+		{
+			"anio": -7000,
+			"valor": 3079
+		},
+		{
+			"anio": -6000,
+			"valor": 4618
+		},
+		{
+			"anio": -5000,
+			"valor": 6927
+		},
+		{
+			"anio": -4000,
+			"valor": 10391
+		},
+		{
+			"anio": -3000,
+			"valor": 15587
+		},
+		{
+			"anio": -2000,
+			"valor": 23381
+		},
+		{
+			"anio": -1000,
+			"valor": 35072
+		},
+		{
+			"anio": 0,
+			"valor": 52609
+		},
+		{
+			"anio": 100,
+			"valor": 54423
+		},
+		{
+			"anio": 200,
+			"valor": 56300
+		},
+		{
+			"anio": 300,
+			"valor": 58241
+		},
+		{
+			"anio": 400,
+			"valor": 60249
+		},
+		{
+			"anio": 500,
+			"valor": 62327
+		},
+		{
+			"anio": 600,
+			"valor": 64476
+		},
+		{
+			"anio": 700,
+			"valor": 66700
+		},
+		{
+			"anio": 800,
+			"valor": 69000
+		},
+		{
+			"anio": 900,
+			"valor": 69000
+		},
+		{
+			"anio": 1000,
+			"valor": 69000
+		},
+		{
+			"anio": 1100,
+			"valor": 69000
+		},
+		{
+			"anio": 1200,
+			"valor": 69000
+		},
+		{
+			"anio": 1300,
+			"valor": 69000
+		},
+		{
+			"anio": 1400,
+			"valor": 69000
+		},
+		{
+			"anio": 1500,
+			"valor": 69000
+		},
+		{
+			"anio": 1600,
+			"valor": 135000
+		},
+		{
+			"anio": 1700,
+			"valor": 117000
+		},
+		{
+			"anio": 1750,
+			"valor": 125218
+		},
+		{
+			"anio": 1800,
+			"valor": 81280
+		},
+		{
+			"anio": 1850,
+			"valor": 81280
+		},
+		{
+			"anio": 1900,
+			"valor": 98794
+		},
+		{
+			"anio": 1910,
+			"valor": 105366
+		},
+		{
+			"anio": 1920,
+			"valor": 114746
+		},
+		{
+			"anio": 1930,
+			"valor": 124871
+		},
+		{
+			"anio": 1940,
+			"valor": 135890
+		},
+		{
+			"anio": 1950,
+			"valor": 153973
+		},
+		{
+			"anio": 1960,
+			"valor": 311066
+		},
+		{
+			"anio": 1970,
+			"valor": 809118
+		},
+		{
+			"anio": 1980,
+			"valor": 1504789
+		},
+		{
+			"anio": 1990,
+			"valor": 1684833
+		},
+		{
+			"anio": 2000,
+			"valor": 1954713
+		},
+		{
+			"anio": 2010,
+			"valor": 2943374
+		},
+		{
+			"anio": 2020,
+			"valor": 4400146
+		},
+		{
+			"anio": 2023,
+			"valor": 4838781
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "3cdb8d7e0e34",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Kuwait, cuyo nombre oficial es Estado de Kuwait, es un país árabe situado en Asia Occidental, en el extremo noreste de la península arábiga y en la punta norte del golfo Pérsico, donde comparte fronteras con Irak por el norte y con Arabia Saudita por el sur. Su nombre es un diminutivo en árabe de la palabra كوت (kūt), que significa «fortaleza»."
+}

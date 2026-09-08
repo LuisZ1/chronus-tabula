@@ -1,0 +1,19 @@
+{
+	"nombre": "DANA de Valencia",
+	"anio": 2024,
+	"lat": 39.36,
+	"lng": -0.42,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Las inundaciones del 29 de octubre causan ~230 muertos, la mayor catástrofe natural española en décadas.",
+	"wiki": "Dana de octubre de 2024 en España",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dana de octubre de 2024 en España",
+			"url": "https://es.wikipedia.org/wiki/Dana_de_octubre_de_2024_en_España",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

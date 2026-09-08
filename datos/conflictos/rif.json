@@ -1,0 +1,66 @@
+{
+	"id": "rif",
+	"nombre": "Guerra del Rif",
+	"inicio": 1911,
+	"fin": 1927,
+	"paises": [
+		"España",
+		"Francia",
+		"República del Rif (Abd el-Krim)"
+	],
+	"bajas": "~60.000 muertos",
+	"descripcion": "La resistencia rifeña de Abd el-Krim inflige a España el Desastre de Annual (1921); el desembarco de Alhucemas (1925), primera operación anfibia moderna, decide la guerra.",
+	"wiki": "Guerra del Rif",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Rif",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Rif",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "El Rif (norte de Marruecos)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					35.5,
+					-6
+				],
+				[
+					35.4,
+					-2.3
+				],
+				[
+					34.6,
+					-2.5
+				],
+				[
+					34.7,
+					-5.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Desastre de Annual",
+			"anio": 1921,
+			"lat": 35.23,
+			"lng": -3.87,
+			"bajas": "~8.000-10.000 muertos españoles",
+			"descripcion": "El hundimiento de la comandancia de Melilla sacude a España."
+		},
+		{
+			"nombre": "Desembarco de Alhucemas",
+			"anio": 1925,
+			"lat": 35.24,
+			"lng": -3.93,
+			"descripcion": "Operación conjunta hispano-francesa que quiebra a Abd el-Krim."
+		}
+	]
+}

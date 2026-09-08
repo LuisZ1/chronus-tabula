@@ -1,0 +1,74 @@
+{
+	"id": "segunda-guerra-chino-japonesa",
+	"nombre": "Segunda guerra chino-japonesa",
+	"inicio": 1937,
+	"fin": 1945,
+	"paises": [
+		"Imperio del Japón",
+		"República de China"
+	],
+	"bajas": "más de 15 millones (mayoría civiles chinos)",
+	"descripcion": "Invasión japonesa a gran escala de China desde el incidente del Puente de Marco Polo (1937): batalla de Shanghái, la masacre de Nankín y una guerra de desgaste que se funde con la Segunda Guerra Mundial.",
+	"wiki": "Segunda guerra sino-japonesa",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra sino-japonesa",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_sino-japonesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "China oriental ocupada",
+			"tipo": "frente",
+			"desde": 1937,
+			"hasta": 1945,
+			"poligono": [
+				[
+					40.5,
+					116.0
+				],
+				[
+					39.0,
+					122.2
+				],
+				[
+					30.0,
+					121.6
+				],
+				[
+					22.5,
+					113.6
+				],
+				[
+					28.0,
+					112.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Incidente del Puente de Marco Polo",
+			"anio": 1937,
+			"lat": 39.85,
+			"lng": 116.13,
+			"descripcion": "Choque que inicia la guerra total en el norte de China."
+		},
+		{
+			"nombre": "Batalla de Shanghái",
+			"anio": 1937,
+			"lat": 31.23,
+			"lng": 121.47,
+			"descripcion": "Tres meses de combates urbanos antes de la caída de la ciudad."
+		},
+		{
+			"nombre": "Masacre de Nankín",
+			"anio": 1937,
+			"lat": 32.06,
+			"lng": 118.8,
+			"descripcion": "Toma de la capital china seguida de matanzas masivas de civiles y prisioneros."
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "guerra-shakushain",
+	"nombre": "Guerra de Shakushain",
+	"inicio": 1669,
+	"fin": 1672,
+	"paises": [
+		"Pueblo ainu",
+		"Clan Matsumae (Japón)"
+	],
+	"bajas": "cientos",
+	"descripcion": "Levantamiento ainu liderado por Shakushain contra los abusos comerciales del clan Matsumae en Ezo (Hokkaido); su derrota consolida el dominio japonés sobre el norte.",
+	"wiki": "Rebelión de Shakushain",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rebelión de Shakushain",
+			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_Shakushain",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Ezo (Hokkaido) en rebelión",
+			"tipo": "frente",
+			"desde": 1669,
+			"hasta": 1672,
+			"poligono": [
+				[
+					43.2,
+					141.0
+				],
+				[
+					43.0,
+					143.6
+				],
+				[
+					42.0,
+					143.2
+				],
+				[
+					41.9,
+					140.7
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Combates del Shibuchari",
+			"anio": 1669,
+			"lat": 42.4,
+			"lng": 142.5,
+			"descripcion": "Foco inicial del alzamiento ainu contra los puestos Matsumae."
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	"id": "guerra-israel-iran",
+	"nombre": "Guerra Israel–Irán (guerra de los 12 días)",
+	"inicio": 2025,
+	"fin": 2025,
+	"paises": [
+		"Israel",
+		"Irán",
+		"Estados Unidos"
+	],
+	"bajas": "~1.100 muertos iraníes y ~30 israelíes",
+	"descripcion": "Del 13 al 24 de junio de 2025: Israel bombardea el programa nuclear y la cúpula militar iraní; Irán responde con más de 550 misiles balísticos; EE. UU. ataca Fordo, Natanz e Isfahán antes del alto el fuego.",
+	"wiki": "Guerra Irán-Israel",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Iran–Israel war",
+			"url": "https://en.wikipedia.org/wiki/Iran–Israel_war",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Campaña aérea sobre Irán",
+			"tipo": "frente",
+			"desde": 2025,
+			"hasta": 2025,
+			"poligono": [
+				[
+					36.5,
+					49.5
+				],
+				[
+					36.0,
+					53.5
+				],
+				[
+					32.0,
+					53.5
+				],
+				[
+					31.5,
+					49.5
+				],
+				[
+					34.0,
+					48.0
+				]
+			]
+		},
+		{
+			"nombre": "Misiles sobre Israel",
+			"tipo": "frente",
+			"desde": 2025,
+			"hasta": 2025,
+			"poligono": [
+				[
+					33.0,
+					34.9
+				],
+				[
+					33.0,
+					35.6
+				],
+				[
+					31.6,
+					35.3
+				],
+				[
+					31.6,
+					34.7
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Ataque a Natanz",
+			"anio": 2025,
+			"lat": 33.72,
+			"lng": 51.73,
+			"descripcion": "Primer golpe israelí contra la principal planta de enriquecimiento."
+		},
+		{
+			"nombre": "Bombardeo de Fordo",
+			"anio": 2025,
+			"lat": 34.88,
+			"lng": 50.99,
+			"descripcion": "Bombarderos B-2 de EE. UU. atacan la planta subterránea, 22 de junio."
+		},
+		{
+			"nombre": "Misiles sobre Tel Aviv",
+			"anio": 2025,
+			"lat": 32.08,
+			"lng": 34.78,
+			"descripcion": "La represalia iraní alcanza zonas urbanas israelíes."
+		}
+	]
+}

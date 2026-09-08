@@ -1,14 +1,18 @@
 # Pipeline de Chronus Tabula
 #
 # En cada push a main:
-#   1. valida historia.json (python api/validar.py) — si falla, NO se despliega
-#   2. publica la carpeta web/ en GitHub Pages
+#   1. valida los datos (python api/validar.py) — si falla, NO se despliega
+#   2. compila datos/ (un fichero por entidad) en web/data/historia.json,
+#      el único JSON que descarga la web (python api/compilar.py)
+#   3. publica la carpeta web/ en GitHub Pages
 #
-# La web es 100 % estática, así que no hay build: se sube web/ tal cual.
+# La web es 100 % estática: el único "build" es ese compilado del JSON.
+# historia.json no se versiona (está en .gitignore): se genera aquí y, en local,
+# lo generan servidor.py al arrancar y exportar.py al aplicar propuestas.
 # El panel de administración (admin.html) también se publica, pero sin la API
 # local muestra su aviso y no hace nada: el pipeline editorial sigue siendo local.
 
-name: Validar y desplegar en GitHub Pages
+name: Validar, compilar y desplegar en GitHub Pages
 
 on:
   push:
@@ -32,7 +36,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validar historia.json
+      - name: Validar los datos (datos/)
         run: python api/validar.py
 
   desplegar:
@@ -43,6 +47,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compilar datos/ → web/data/historia.json
+        run: python api/compilar.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,190 @@
+{
+	"id": "jamaica",
+	"nombre": "Jamaica",
+	"nombres": [
+		"Jamaica"
+	],
+	"wikidata": "Q766",
+	"wiki": "es:Jamaica",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q766",
+			"url": "https://www.wikidata.org/wiki/Q766",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Jamaica",
+			"url": "https://es.wikipedia.org/wiki/Jamaica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "JAM",
+	"poblacion": [
+		{
+			"anio": -2000,
+			"valor": 1
+		},
+		{
+			"anio": -1000,
+			"valor": 4
+		},
+		{
+			"anio": 0,
+			"valor": 8
+		},
+		{
+			"anio": 100,
+			"valor": 17
+		},
+		{
+			"anio": 200,
+			"valor": 34
+		},
+		{
+			"anio": 300,
+			"valor": 69
+		},
+		{
+			"anio": 400,
+			"valor": 139
+		},
+		{
+			"anio": 500,
+			"valor": 279
+		},
+		{
+			"anio": 600,
+			"valor": 559
+		},
+		{
+			"anio": 700,
+			"valor": 1118
+		},
+		{
+			"anio": 800,
+			"valor": 2237
+		},
+		{
+			"anio": 900,
+			"valor": 4475
+		},
+		{
+			"anio": 1000,
+			"valor": 8951
+		},
+		{
+			"anio": 1100,
+			"valor": 17903
+		},
+		{
+			"anio": 1200,
+			"valor": 35806
+		},
+		{
+			"anio": 1300,
+			"valor": 71612
+		},
+		{
+			"anio": 1400,
+			"valor": 143224
+		},
+		{
+			"anio": 1500,
+			"valor": 286449
+		},
+		{
+			"anio": 1600,
+			"valor": 143224
+		},
+		{
+			"anio": 1700,
+			"valor": 71612
+		},
+		{
+			"anio": 1750,
+			"valor": 154782
+		},
+		{
+			"anio": 1800,
+			"valor": 300000
+		},
+		{
+			"anio": 1850,
+			"valor": 400065
+		},
+		{
+			"anio": 1900,
+			"valor": 727676
+		},
+		{
+			"anio": 1910,
+			"valor": 815621
+		},
+		{
+			"anio": 1920,
+			"valor": 873146
+		},
+		{
+			"anio": 1930,
+			"valor": 1024958
+		},
+		{
+			"anio": 1940,
+			"valor": 1226097
+		},
+		{
+			"anio": 1950,
+			"valor": 1407214
+		},
+		{
+			"anio": 1960,
+			"valor": 1650009
+		},
+		{
+			"anio": 1970,
+			"valor": 1878191
+		},
+		{
+			"anio": 1980,
+			"valor": 2145661
+		},
+		{
+			"anio": 1990,
+			"valor": 2379880
+		},
+		{
+			"anio": 2000,
+			"valor": 2607827
+		},
+		{
+			"anio": 2010,
+			"valor": 2748573
+		},
+		{
+			"anio": 2020,
+			"valor": 2830745
+		},
+		{
+			"anio": 2023,
+			"valor": 2839785
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d98b344b982a",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Jamaica es uno de los trece países que forman la América insular, Antillas o islas del mar Caribe. Es uno de los treinta y cinco países del continente americano."
+}

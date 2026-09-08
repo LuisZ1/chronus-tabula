@@ -1,0 +1,137 @@
+{
+	"id": "kenia",
+	"nombre": "Kenia",
+	"nombres": [
+		"Kenya",
+		"Kenia",
+		"República de Kenia",
+		"África Oriental Británica"
+	],
+	"wiki": "es:Kenia",
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Kenia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q114",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Kenia",
+			"url": "https://es.wikipedia.org/wiki/Kenia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q114",
+			"url": "https://www.wikidata.org/wiki/Q114",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "África Oriental Británica / Colonia de Kenia",
+			"desde": 1895,
+			"hasta": 1963
+		},
+		{
+			"nombre": "República de Kenia",
+			"desde": 1963,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q114",
+	"gobernantes": [
+		{
+			"nombre": "Jomo Kenyatta",
+			"desde": 1963,
+			"hasta": 1978,
+			"cargo": "Primer ministro (1963-1964) y Presidente"
+		},
+		{
+			"nombre": "Daniel arap Moi",
+			"desde": 1978,
+			"hasta": 2002,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mwai Kibaki",
+			"desde": 2002,
+			"hasta": 2013,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Uhuru Kenyatta",
+			"desde": 2013,
+			"hasta": 2022,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "William Ruto",
+			"desde": 2022,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1890,
+			"valor": 1000000,
+			"fuente": "Evolución demográfica (Wikipedia es)"
+		},
+		{
+			"anio": 1948,
+			"valor": 5405966,
+			"fuente": "Censo colonial 1948"
+		},
+		{
+			"anio": 1969,
+			"valor": 10942705,
+			"fuente": "Censo de Kenia 1969"
+		},
+		{
+			"anio": 1999,
+			"valor": 28686607,
+			"fuente": "Censo de Kenia 1999"
+		},
+		{
+			"anio": 2009,
+			"valor": 38610097,
+			"fuente": "Censo de Kenia 2009"
+		},
+		{
+			"anio": 2019,
+			"valor": 47564296,
+			"fuente": "Censo de Kenia 2019"
+		},
+		{
+			"anio": 2023,
+			"valor": 53005614,
+			"fuente": "Estimación (Wikipedia es)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5f0e93a3879b",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Kenia o Kenya, oficialmente la República de Kenia o República de Kenya, es un país del este africano, que tiene fronteras con Etiopía al norte, Somalia al este, Tanzania al sur, Uganda al oeste y Sudán del Sur al noroeste, con el océano Índico bañando su costa sureste.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Kenya (Official).svg"
+		}
+	]
+}

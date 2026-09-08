@@ -1,0 +1,241 @@
+{
+	"id": "austria",
+	"nombre": "Austria / Imperio austrohúngaro",
+	"nombres": [
+		"Austria",
+		"Austrian Empire",
+		"Austria Hungary",
+		"Austro-Hungarian Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 1740,
+			"hasta": 1780,
+			"nombre": "María Teresa I",
+			"titulo": "Archiduquesa de Austria"
+		},
+		{
+			"desde": 1848,
+			"hasta": 1916,
+			"nombre": "Francisco José I",
+			"titulo": "Emperador de Austria y Rey de Hungría"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1465
+		},
+		{
+			"anio": -9000,
+			"valor": 1625
+		},
+		{
+			"anio": -8000,
+			"valor": 1802
+		},
+		{
+			"anio": -7000,
+			"valor": 2000
+		},
+		{
+			"anio": -6000,
+			"valor": 3000
+		},
+		{
+			"anio": -5000,
+			"valor": 4000
+		},
+		{
+			"anio": -4000,
+			"valor": 10000
+		},
+		{
+			"anio": -3000,
+			"valor": 20000
+		},
+		{
+			"anio": -2000,
+			"valor": 60000
+		},
+		{
+			"anio": -1000,
+			"valor": 100000
+		},
+		{
+			"anio": 0,
+			"valor": 500000
+		},
+		{
+			"anio": 100,
+			"valor": 550000
+		},
+		{
+			"anio": 200,
+			"valor": 600000
+		},
+		{
+			"anio": 300,
+			"valor": 550000
+		},
+		{
+			"anio": 400,
+			"valor": 500000
+		},
+		{
+			"anio": 500,
+			"valor": 450000
+		},
+		{
+			"anio": 600,
+			"valor": 400000
+		},
+		{
+			"anio": 700,
+			"valor": 450000
+		},
+		{
+			"anio": 800,
+			"valor": 500000
+		},
+		{
+			"anio": 900,
+			"valor": 600000
+		},
+		{
+			"anio": 1000,
+			"valor": 700000
+		},
+		{
+			"anio": 1100,
+			"valor": 900000
+		},
+		{
+			"anio": 1200,
+			"valor": 1250000
+		},
+		{
+			"anio": 1300,
+			"valor": 2000000
+		},
+		{
+			"anio": 1400,
+			"valor": 1250000
+		},
+		{
+			"anio": 1500,
+			"valor": 2000000
+		},
+		{
+			"anio": 1600,
+			"valor": 2100000
+		},
+		{
+			"anio": 1700,
+			"valor": 2120000
+		},
+		{
+			"anio": 1750,
+			"valor": 2683055
+		},
+		{
+			"anio": 1800,
+			"valor": 3000000
+		},
+		{
+			"anio": 1850,
+			"valor": 3952208
+		},
+		{
+			"anio": 1900,
+			"valor": 5979176
+		},
+		{
+			"anio": 1910,
+			"valor": 6571587
+		},
+		{
+			"anio": 1920,
+			"valor": 6486069
+		},
+		{
+			"anio": 1930,
+			"valor": 6679644
+		},
+		{
+			"anio": 1940,
+			"valor": 6725734
+		},
+		{
+			"anio": 1950,
+			"valor": 6936455
+		},
+		{
+			"anio": 1960,
+			"valor": 7047274
+		},
+		{
+			"anio": 1970,
+			"valor": 7466320
+		},
+		{
+			"anio": 1980,
+			"valor": 7548407
+		},
+		{
+			"anio": 1990,
+			"valor": 7679627
+		},
+		{
+			"anio": 2000,
+			"valor": 8012929
+		},
+		{
+			"anio": 2010,
+			"valor": 8365087
+		},
+		{
+			"anio": 2020,
+			"valor": 8921402
+		},
+		{
+			"anio": 2023,
+			"valor": 9130434
+		}
+	],
+	"relacionados": [
+		"Sacro Imperio",
+		"Austria-Hungría"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Austria / Imperio austrohúngaro",
+			"url": "https://es.wikipedia.org/wiki/Austria_/_Imperio_austrohúngaro",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Austria",
+			"url": "https://es.wikipedia.org/wiki/Austria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Austria",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6dce1bcc2101",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Austria, oficialmente República de Austria, es un país de Europa central y Estado de la Unión Europea. Limita con la República Checa y Alemania al norte, Eslovaquia y Hungría al este, Eslovenia e Italia al sur y Suiza y Liechtenstein al oeste."
+}

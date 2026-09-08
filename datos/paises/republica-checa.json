@@ -1,0 +1,224 @@
+{
+	"id": "republica-checa",
+	"nombre": "República Checa",
+	"nombres": [
+		"Czech Republic",
+		"República Checa",
+		"Chequia"
+	],
+	"wikidata": "Q213",
+	"wiki": "es:República Checa",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q213",
+			"url": "https://www.wikidata.org/wiki/Q213",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): República Checa",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Checa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "CZE",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 697
+		},
+		{
+			"anio": -9000,
+			"valor": 1395
+		},
+		{
+			"anio": -8000,
+			"valor": 2790
+		},
+		{
+			"anio": -7000,
+			"valor": 5580
+		},
+		{
+			"anio": -6000,
+			"valor": 11160
+		},
+		{
+			"anio": -5000,
+			"valor": 22320
+		},
+		{
+			"anio": -4000,
+			"valor": 44641
+		},
+		{
+			"anio": -3000,
+			"valor": 89282
+		},
+		{
+			"anio": -2000,
+			"valor": 178565
+		},
+		{
+			"anio": -1000,
+			"valor": 357130
+		},
+		{
+			"anio": 0,
+			"valor": 714260
+		},
+		{
+			"anio": 100,
+			"valor": 714975
+		},
+		{
+			"anio": 200,
+			"valor": 715690
+		},
+		{
+			"anio": 300,
+			"valor": 716407
+		},
+		{
+			"anio": 400,
+			"valor": 717124
+		},
+		{
+			"anio": 500,
+			"valor": 717842
+		},
+		{
+			"anio": 600,
+			"valor": 718560
+		},
+		{
+			"anio": 700,
+			"valor": 719280
+		},
+		{
+			"anio": 800,
+			"valor": 720000
+		},
+		{
+			"anio": 900,
+			"valor": 810000
+		},
+		{
+			"anio": 1000,
+			"valor": 900000
+		},
+		{
+			"anio": 1100,
+			"valor": 1080000
+		},
+		{
+			"anio": 1200,
+			"valor": 1440000
+		},
+		{
+			"anio": 1300,
+			"valor": 2160000
+		},
+		{
+			"anio": 1400,
+			"valor": 1800000
+		},
+		{
+			"anio": 1500,
+			"valor": 2160000
+		},
+		{
+			"anio": 1600,
+			"valor": 3240000
+		},
+		{
+			"anio": 1700,
+			"valor": 3240000
+		},
+		{
+			"anio": 1750,
+			"valor": 3687731
+		},
+		{
+			"anio": 1800,
+			"valor": 5516349
+		},
+		{
+			"anio": 1850,
+			"valor": 6826465
+		},
+		{
+			"anio": 1900,
+			"valor": 9334000
+		},
+		{
+			"anio": 1910,
+			"valor": 10036000
+		},
+		{
+			"anio": 1920,
+			"valor": 9978000
+		},
+		{
+			"anio": 1930,
+			"valor": 10648000
+		},
+		{
+			"anio": 1940,
+			"valor": 11160000
+		},
+		{
+			"anio": 1950,
+			"valor": 8916715
+		},
+		{
+			"anio": 1960,
+			"valor": 9541605
+		},
+		{
+			"anio": 1970,
+			"valor": 9801253
+		},
+		{
+			"anio": 1980,
+			"valor": 10275404
+		},
+		{
+			"anio": 1990,
+			"valor": 10301989
+		},
+		{
+			"anio": 2000,
+			"valor": 10236809
+		},
+		{
+			"anio": 2010,
+			"valor": 10464035
+		},
+		{
+			"anio": 2020,
+			"valor": 10550129
+		},
+		{
+			"anio": 2023,
+			"valor": 10809722
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "ac71517dc879",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "La República Checa, también conocida como Chequia, es un país soberano de Europa Central sin litoral. Limita con Alemania al oeste, con Austria al sur, con Eslovaquia al este y con Polonia al norte."
+}

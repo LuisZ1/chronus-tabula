@@ -1,0 +1,17 @@
+{
+	"nombre": "Madeira",
+	"pais": "Portugal",
+	"lat": 32.75,
+	"lng": -17.0,
+	"desde": 1419,
+	"descripcion": "Redescubierta por navegantes portugueses en 1418-1419 y colonizada desde 1425 por iniciativa de Juan I y del infante Enrique el Navegante.",
+	"wiki": "Madeira",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Madeira",
+			"url": "https://es.wikipedia.org/wiki/Madeira",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

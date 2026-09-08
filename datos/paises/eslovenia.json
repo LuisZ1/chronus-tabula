@@ -1,0 +1,224 @@
+{
+	"id": "eslovenia",
+	"nombre": "Eslovenia",
+	"nombres": [
+		"Slovenia",
+		"Eslovenia",
+		"Republica de Eslovenia"
+	],
+	"wikidata": "Q215",
+	"wiki": "es:Eslovenia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q215",
+			"url": "https://www.wikidata.org/wiki/Q215",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Eslovenia",
+			"url": "https://es.wikipedia.org/wiki/Eslovenia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "SVN",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1308
+		},
+		{
+			"anio": -9000,
+			"valor": 2078
+		},
+		{
+			"anio": -8000,
+			"valor": 3300
+		},
+		{
+			"anio": -7000,
+			"valor": 5242
+		},
+		{
+			"anio": -6000,
+			"valor": 8326
+		},
+		{
+			"anio": -5000,
+			"valor": 13224
+		},
+		{
+			"anio": -4000,
+			"valor": 21004
+		},
+		{
+			"anio": -3000,
+			"valor": 33359
+		},
+		{
+			"anio": -2000,
+			"valor": 52982
+		},
+		{
+			"anio": -1000,
+			"valor": 84148
+		},
+		{
+			"anio": 0,
+			"valor": 133648
+		},
+		{
+			"anio": 100,
+			"valor": 138598
+		},
+		{
+			"anio": 200,
+			"valor": 143731
+		},
+		{
+			"anio": 300,
+			"valor": 149054
+		},
+		{
+			"anio": 400,
+			"valor": 154575
+		},
+		{
+			"anio": 500,
+			"valor": 160300
+		},
+		{
+			"anio": 600,
+			"valor": 166237
+		},
+		{
+			"anio": 700,
+			"valor": 172394
+		},
+		{
+			"anio": 800,
+			"valor": 178779
+		},
+		{
+			"anio": 900,
+			"valor": 185400
+		},
+		{
+			"anio": 1000,
+			"valor": 192267
+		},
+		{
+			"anio": 1100,
+			"valor": 199388
+		},
+		{
+			"anio": 1200,
+			"valor": 206773
+		},
+		{
+			"anio": 1300,
+			"valor": 214431
+		},
+		{
+			"anio": 1400,
+			"valor": 222373
+		},
+		{
+			"anio": 1500,
+			"valor": 230609
+		},
+		{
+			"anio": 1600,
+			"valor": 239150
+		},
+		{
+			"anio": 1700,
+			"valor": 248008
+		},
+		{
+			"anio": 1750,
+			"valor": 302926
+		},
+		{
+			"anio": 1800,
+			"valor": 469664
+		},
+		{
+			"anio": 1850,
+			"valor": 610971
+		},
+		{
+			"anio": 1900,
+			"valor": 937205
+		},
+		{
+			"anio": 1910,
+			"valor": 1020920
+		},
+		{
+			"anio": 1920,
+			"valor": 1112809
+		},
+		{
+			"anio": 1930,
+			"valor": 1214751
+		},
+		{
+			"anio": 1940,
+			"valor": 1326032
+		},
+		{
+			"anio": 1950,
+			"valor": 1446362
+		},
+		{
+			"anio": 1960,
+			"valor": 1605080
+		},
+		{
+			"anio": 1970,
+			"valor": 1739869
+		},
+		{
+			"anio": 1980,
+			"valor": 1903075
+		},
+		{
+			"anio": 1990,
+			"valor": 1998010
+		},
+		{
+			"anio": 2000,
+			"valor": 1986817
+		},
+		{
+			"anio": 2010,
+			"valor": 2044611
+		},
+		{
+			"anio": 2020,
+			"valor": 2102421
+		},
+		{
+			"anio": 2023,
+			"valor": 2118394
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "067a111885fc",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Eslovenia, cuyo nombre oficial es República de Eslovenia es un país ubicado en Europa Central, siendo uno de los veintisiete Estados soberanos que forman la Unión Europea. Limita con Italia al oeste; con el mar Adriático, al suroeste; con Croacia al sur y al este; con Hungría, al noreste; y con Austria, al norte."
+}

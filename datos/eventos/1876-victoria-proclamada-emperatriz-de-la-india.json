@@ -1,0 +1,24 @@
+{
+	"nombre": "Victoria proclamada emperatriz de la India",
+	"anio": 1876,
+	"lat": 51.5,
+	"lng": -0.13,
+	"paises": [
+		"Gran Bretaña",
+		"India"
+	],
+	"descripcion": "La Royal Titles Act otorga a la reina Victoria el título de emperatriz de la India, símbolo del apogeo imperial británico.",
+	"wiki": "Emperador de la India",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Emperador de la India",
+			"url": "https://es.wikipedia.org/wiki/Emperador_de_la_India",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

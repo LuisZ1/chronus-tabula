@@ -1,0 +1,324 @@
+{
+	"id": "sucesion-espanola",
+	"nombre": "Guerra de Sucesión Española",
+	"inicio": 1701,
+	"fin": 1714,
+	"paises": [
+		"España",
+		"Francia",
+		"Gran Bretaña",
+		"Austria",
+		"Países Bajos",
+		"Portugal",
+		"Saboya"
+	],
+	"bajas": "~700.000-1.250.000 de muertos",
+	"descripcion": "Europa se disputa la corona de España entre Borbones y Austrias.",
+	"batallas": [
+		{
+			"nombre": "batalla de Rande",
+			"anio": 1702,
+			"lat": 42.25,
+			"lng": -8.74
+		},
+		{
+			"nombre": "Batalla del cabo de la Roca",
+			"anio": 1703,
+			"lat": 38.78,
+			"lng": -9.53
+		},
+		{
+			"nombre": "batalla de Speyerbach",
+			"anio": 1703,
+			"lat": 49.32,
+			"lng": 8.43
+		},
+		{
+			"nombre": "Batalla de Blenheim (Höchstädt)",
+			"anio": 1704,
+			"lat": 48.63,
+			"lng": 10.63,
+			"bajas": "~30.000 bajas francobávaras",
+			"descripcion": "Marlborough y Eugenio de Saboya derrotan a Francia."
+		},
+		{
+			"nombre": "batalla de Málaga (1704)",
+			"anio": 1704,
+			"lat": 36.7,
+			"lng": -4.37
+		},
+		{
+			"nombre": "Battle of Orford Ness",
+			"anio": 1704,
+			"lat": 52.05,
+			"lng": 1.74
+		},
+		{
+			"nombre": "Batalla de Elixheim",
+			"anio": 1705,
+			"lat": 50.78,
+			"lng": 5.01
+		},
+		{
+			"nombre": "Batalla del Huerto de las Bombas",
+			"anio": 1706,
+			"lat": 37.98,
+			"lng": -1.13
+		},
+		{
+			"nombre": "batalla de Ramillies",
+			"anio": 1706,
+			"lat": 50.64,
+			"lng": 4.92
+		},
+		{
+			"nombre": "Batalla de Almansa",
+			"anio": 1707,
+			"lat": 38.87,
+			"lng": -1.1,
+			"bajas": "~10.000 bajas aliadas",
+			"descripcion": "Victoria borbónica decisiva en suelo español."
+		},
+		{
+			"nombre": "Acción del 2 de mayo de 1707",
+			"anio": 1707,
+			"lat": 50.74,
+			"lng": 0.24
+		},
+		{
+			"nombre": "Batalla del cabo Lizard",
+			"anio": 1707,
+			"lat": 49.95,
+			"lng": -5.21
+		},
+		{
+			"nombre": "Batalla de Siracusa",
+			"anio": 1710,
+			"lat": 37.07,
+			"lng": 15.28
+		},
+		{
+			"nombre": "Sitio de Barcelona",
+			"anio": 1714,
+			"lat": 41.39,
+			"lng": 2.18,
+			"descripcion": "La ciudad cae el 11 de septiembre de 1714 ante Felipe V."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Flandes y el Rin",
+			"tipo": "frente",
+			"desde": 1701,
+			"hasta": 1712,
+			"poligono": [
+				[
+					51.8,
+					2.7
+				],
+				[
+					51.6,
+					7.5
+				],
+				[
+					49.5,
+					8.3
+				],
+				[
+					48.3,
+					7.5
+				],
+				[
+					49.5,
+					4
+				],
+				[
+					50.5,
+					2.8
+				]
+			]
+		},
+		{
+			"nombre": "Italia del norte",
+			"tipo": "frente",
+			"desde": 1701,
+			"hasta": 1707,
+			"poligono": [
+				[
+					45.7,
+					7.3
+				],
+				[
+					45.6,
+					11.5
+				],
+				[
+					44.5,
+					11.5
+				],
+				[
+					44.5,
+					7.5
+				]
+			]
+		},
+		{
+			"nombre": "Baviera (Blenheim)",
+			"tipo": "frente",
+			"desde": 1703,
+			"hasta": 1704,
+			"poligono": [
+				[
+					49.2,
+					9.8
+				],
+				[
+					49,
+					12
+				],
+				[
+					48.2,
+					12
+				],
+				[
+					48.2,
+					10
+				]
+			]
+		},
+		{
+			"nombre": "España (frentes peninsulares)",
+			"tipo": "frente",
+			"desde": 1704,
+			"hasta": 1714,
+			"poligono": [
+				[
+					42.5,
+					-1
+				],
+				[
+					42,
+					3
+				],
+				[
+					39,
+					0
+				],
+				[
+					36.5,
+					-5.5
+				],
+				[
+					38,
+					-7
+				],
+				[
+					40.5,
+					-4
+				]
+			]
+		},
+		{
+			"nombre": "Cataluña (final)",
+			"tipo": "frente",
+			"desde": 1713,
+			"hasta": 1714,
+			"poligono": [
+				[
+					42.4,
+					0.8
+				],
+				[
+					42.3,
+					3.2
+				],
+				[
+					41.2,
+					2.3
+				],
+				[
+					41.3,
+					0.8
+				]
+			]
+		}
+	],
+	"wiki": "Guerra de sucesión española",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de sucesión española",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_sucesión_española",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2890852",
+			"url": "https://www.wikidata.org/wiki/Q2890852",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2890859",
+			"url": "https://www.wikidata.org/wiki/Q2890859",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2080397",
+			"url": "https://www.wikidata.org/wiki/Q2080397",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2984988",
+			"url": "https://www.wikidata.org/wiki/Q2984988",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q11908780",
+			"url": "https://www.wikidata.org/wiki/Q11908780",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q161325",
+			"url": "https://www.wikidata.org/wiki/Q161325",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1148483",
+			"url": "https://www.wikidata.org/wiki/Q1148483",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q571861",
+			"url": "https://www.wikidata.org/wiki/Q571861",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q311759",
+			"url": "https://www.wikidata.org/wiki/Q311759",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q694502",
+			"url": "https://www.wikidata.org/wiki/Q694502",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q10671396",
+			"url": "https://www.wikidata.org/wiki/Q10671396",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

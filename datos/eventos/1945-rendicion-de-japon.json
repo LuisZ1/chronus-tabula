@@ -1,0 +1,19 @@
+{
+	"nombre": "Rendición de Japón",
+	"anio": 1945,
+	"lat": 35.68,
+	"lng": 139.75,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Japón capitula (15 ago / firma el 2 sep de 1945), poniendo fin a la Segunda Guerra Mundial.",
+	"wiki": "Rendición de Japón",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rendición de Japón",
+			"url": "https://es.wikipedia.org/wiki/Rendici%C3%B3n_de_Jap%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

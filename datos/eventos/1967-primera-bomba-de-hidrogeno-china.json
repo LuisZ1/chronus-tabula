@@ -1,0 +1,19 @@
+{
+	"nombre": "Primera bomba de hidrógeno china",
+	"anio": 1967,
+	"lat": 40.8,
+	"lng": 90.0,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El 17 de junio de 1967 China ensaya con éxito su primera bomba termonuclear en Lop Nur.",
+	"wiki": "Prueba nº 6 (China)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Bomba de hidrógeno",
+			"url": "https://es.wikipedia.org/wiki/Bomba_de_hidr%C3%B3geno",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

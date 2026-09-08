@@ -1,0 +1,19 @@
+{
+	"nombre": "Bautismo de Boris I de Bulgaria",
+	"anio": 864,
+	"lat": 43.38,
+	"lng": 27.12,
+	"paises": [
+		"Primer Imperio búlgaro"
+	],
+	"descripcion": "El kan Boris I acepta el cristianismo y bautiza a los búlgaros, integrándolos en la órbita bizantina.",
+	"wiki": "Boris I de Bulgaria",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Boris I de Bulgaria",
+			"url": "https://es.wikipedia.org/wiki/Boris_I_de_Bulgaria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

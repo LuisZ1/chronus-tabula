@@ -1,0 +1,40 @@
+{
+	"id": "gaznavi",
+	"nombre": "Imperio gaznávida",
+	"nombres": [
+		"Ghaznavid Emirate"
+	],
+	"wiki": "Imperio gaznávida",
+	"gobernantes": [
+		{
+			"desde": 998,
+			"hasta": 1030,
+			"nombre": "Mahmud de Ghazni",
+			"titulo": "Sultán gaznávida, incursiones en la India"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio gaznávida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_gaznávida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Imperio gaznávida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_gazn%C3%A1vida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Los gaznávidas o gaznavíes fueron una dinastía musulmana, de origen turco, fundada por el jefe samaní Sebük Tegin, que reinó desde finales del siglo X hasta finales del siglo XII, en un imperio constituido por las regiones de Jorasán, de Afganistán y Punyab, con capital en Gazni y luego, casi al final del régimen, en Lahore.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4b21cf8a4316",
+		"secciones": [
+			"resena"
+		]
+	}
+}

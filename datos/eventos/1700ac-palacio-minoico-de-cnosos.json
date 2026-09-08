@@ -1,0 +1,19 @@
+{
+	"nombre": "Palacio minoico de Cnosos",
+	"anio": -1700,
+	"lat": 35.3,
+	"lng": 25.16,
+	"paises": [
+		"Creta minoica"
+	],
+	"descripcion": "El palacio de Cnosos es el centro de la civilización minoica, primera cultura palacial de Europa y protagonista de la talasocracia cretense en el Egeo de la Edad del Bronce.",
+	"wiki": "Cnosos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cnosos",
+			"url": "https://es.wikipedia.org/wiki/Cnosos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

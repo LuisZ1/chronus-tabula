@@ -1,0 +1,23 @@
+{
+	"nombre": "Sínodo de Whitby",
+	"anio": 664,
+	"lat": 54.49,
+	"lng": -0.61,
+	"paises": [
+		"Inglaterra"
+	],
+	"descripcion": "El reino de Northumbria adopta el rito romano frente al celta en el cálculo de la Pascua, alineando a la Iglesia inglesa con Roma.",
+	"wiki": "Sínodo de Whitby",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sínodo de Whitby",
+			"url": "https://es.wikipedia.org/wiki/S%C3%ADnodo_de_Whitby",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

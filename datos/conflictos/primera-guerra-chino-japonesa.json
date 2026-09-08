@@ -1,0 +1,64 @@
+{
+	"id": "primera-guerra-chino-japonesa",
+	"nombre": "Primera guerra chino-japonesa",
+	"inicio": 1894,
+	"fin": 1895,
+	"paises": [
+		"Imperio Qing",
+		"Imperio del Japón",
+		"Corea Joseon"
+	],
+	"bajas": "unos 35.000 muertos",
+	"descripcion": "China (Qing) y Japón se enfrentan por el control de Corea. La derrota china, sellada en el mar Amarillo y en Weihaiwei, evidencia el atraso del imperio Qing frente al Japón modernizado; el Tratado de Shimonoseki (1895) cede Taiwán y Corea sale de la órbita china.",
+	"wiki": "Primera guerra sino-japonesa",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera guerra sino-japonesa",
+			"url": "https://es.wikipedia.org/wiki/Primera_guerra_sino-japonesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Mar Amarillo, Corea y Liaodong",
+			"tipo": "frente",
+			"desde": 1894,
+			"hasta": 1895,
+			"poligono": [
+				[
+					41.5,
+					121.0
+				],
+				[
+					41.5,
+					126.5
+				],
+				[
+					36.0,
+					126.5
+				],
+				[
+					36.0,
+					121.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del río Yalú",
+			"anio": 1894,
+			"lat": 37.5,
+			"lng": 123.4,
+			"descripcion": "Japón derrota a la flota Beiyang; dominio del mar Amarillo."
+		},
+		{
+			"nombre": "Batalla de Weihaiwei",
+			"anio": 1895,
+			"lat": 37.5,
+			"lng": 122.12,
+			"descripcion": "Rendición de la flota china; tratado de Shimonoseki."
+		}
+	]
+}

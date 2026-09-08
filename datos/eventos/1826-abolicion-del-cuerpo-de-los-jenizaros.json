@@ -1,0 +1,23 @@
+{
+	"nombre": "Abolición del cuerpo de los jenízaros",
+	"anio": 1826,
+	"lat": 41.01,
+	"lng": 28.98,
+	"paises": [
+		"Otomano"
+	],
+	"descripcion": "Mahmud II liquida por la fuerza a los jenízaros, la temida infantería de élite convertida en freno de las reformas. El 'Incidente Auspicioso' abre paso a la modernización del ejército otomano.",
+	"wiki": "Incidente Auspicioso",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Incidente Auspicioso",
+			"url": "https://es.wikipedia.org/wiki/Incidente_Auspicioso",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

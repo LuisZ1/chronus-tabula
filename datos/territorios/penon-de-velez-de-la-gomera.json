@@ -1,0 +1,17 @@
+{
+	"nombre": "Peñón de Vélez de la Gomera",
+	"pais": "España",
+	"lat": 35.172,
+	"lng": -4.3,
+	"desde": 1564,
+	"descripcion": "Conquistado por Pedro Navarro en 1508, perdido en 1522 y recuperado definitivamente por García Álvarez de Toledo en 1564. Española sin interrupción desde entonces.",
+	"wiki": "Peñón de Vélez de la Gomera",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Peñón de Vélez de la Gomera",
+			"url": "https://es.wikipedia.org/wiki/Peñón_de_Vélez_de_la_Gomera",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "El telégrafo (Morse)",
+	"anio": 1844,
+	"lat": 38.9,
+	"lng": -77.03,
+	"categoria": "invento",
+	"descripcion": "«What hath God wrought»: primer mensaje Washington-Baltimore.",
+	"wiki": "Telégrafo",
+	"paises": [
+		"Estados Unidos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Telégrafo",
+			"url": "https://es.wikipedia.org/wiki/Telégrafo",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

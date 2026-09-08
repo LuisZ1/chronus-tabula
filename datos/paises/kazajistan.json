@@ -1,0 +1,224 @@
+{
+	"id": "kazajistan",
+	"nombre": "Kazajistán",
+	"nombres": [
+		"Kazakhstan",
+		"Kazajistán",
+		"Kazajstán"
+	],
+	"wikidata": "Q232",
+	"wiki": "es:Kazajistán",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q232",
+			"url": "https://www.wikidata.org/wiki/Q232",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Kazajistán",
+			"url": "https://es.wikipedia.org/wiki/Kazajist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "KAZ",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 108469
+		},
+		{
+			"anio": -9000,
+			"valor": 126548
+		},
+		{
+			"anio": -8000,
+			"valor": 147639
+		},
+		{
+			"anio": -7000,
+			"valor": 172246
+		},
+		{
+			"anio": -6000,
+			"valor": 200953
+		},
+		{
+			"anio": -5000,
+			"valor": 234446
+		},
+		{
+			"anio": -4000,
+			"valor": 273520
+		},
+		{
+			"anio": -3000,
+			"valor": 319107
+		},
+		{
+			"anio": -2000,
+			"valor": 372291
+		},
+		{
+			"anio": -1000,
+			"valor": 434340
+		},
+		{
+			"anio": 0,
+			"valor": 506730
+		},
+		{
+			"anio": 100,
+			"valor": 542925
+		},
+		{
+			"anio": 200,
+			"valor": 581705
+		},
+		{
+			"anio": 300,
+			"valor": 623256
+		},
+		{
+			"anio": 400,
+			"valor": 667774
+		},
+		{
+			"anio": 500,
+			"valor": 715472
+		},
+		{
+			"anio": 600,
+			"valor": 766577
+		},
+		{
+			"anio": 700,
+			"valor": 821333
+		},
+		{
+			"anio": 800,
+			"valor": 880000
+		},
+		{
+			"anio": 900,
+			"valor": 900000
+		},
+		{
+			"anio": 1000,
+			"valor": 920000
+		},
+		{
+			"anio": 1100,
+			"valor": 940000
+		},
+		{
+			"anio": 1200,
+			"valor": 960000
+		},
+		{
+			"anio": 1300,
+			"valor": 1070000
+		},
+		{
+			"anio": 1400,
+			"valor": 1200000
+		},
+		{
+			"anio": 1500,
+			"valor": 1340000
+		},
+		{
+			"anio": 1600,
+			"valor": 1530000
+		},
+		{
+			"anio": 1700,
+			"valor": 1720000
+		},
+		{
+			"anio": 1750,
+			"valor": 1638203
+		},
+		{
+			"anio": 1800,
+			"valor": 2041282
+		},
+		{
+			"anio": 1850,
+			"valor": 2685063
+		},
+		{
+			"anio": 1900,
+			"valor": 4161983
+		},
+		{
+			"anio": 1910,
+			"valor": 4543093
+		},
+		{
+			"anio": 1920,
+			"valor": 4964613
+		},
+		{
+			"anio": 1930,
+			"valor": 5439477
+		},
+		{
+			"anio": 1940,
+			"valor": 5959762
+		},
+		{
+			"anio": 1950,
+			"valor": 6787149
+		},
+		{
+			"anio": 1960,
+			"valor": 9429982
+		},
+		{
+			"anio": 1970,
+			"valor": 12419056
+		},
+		{
+			"anio": 1980,
+			"valor": 15152953
+		},
+		{
+			"anio": 1990,
+			"valor": 17154060
+		},
+		{
+			"anio": 2000,
+			"valor": 15501108
+		},
+		{
+			"anio": 2010,
+			"valor": 16836808
+		},
+		{
+			"anio": 2020,
+			"valor": 19482116
+		},
+		{
+			"anio": 2023,
+			"valor": 20330109
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "a8e5f6123c92",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Kazajistán oficialmente República de Kazajstán, es un país transcontinental, con la mayor parte de su territorio situado en Asia Central y una menor parte su territorio, al oeste del río Ural, en Europa Oriental. Con una superficie de 2 724 900 km², es el noveno país más grande del mundo, así como el Estado sin litoral marítimo más extenso del mundo."
+}

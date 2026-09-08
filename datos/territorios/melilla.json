@@ -1,0 +1,17 @@
+{
+	"nombre": "Melilla",
+	"pais": "España",
+	"lat": 35.29,
+	"lng": -2.94,
+	"desde": 1497,
+	"descripcion": "Tomada en 1497 por Pedro de Estopiñán, en una expedición del duque de Medina Sidonia, e incorporada a la Corona de Castilla.",
+	"wiki": "Melilla",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Melilla",
+			"url": "https://es.wikipedia.org/wiki/Melilla",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

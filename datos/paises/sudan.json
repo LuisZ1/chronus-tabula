@@ -1,0 +1,251 @@
+{
+	"id": "sudan",
+	"nombre": "Sudán",
+	"nombres": [
+		"Sudan",
+		"Anglo-Egyption Sudan",
+		"Sudán Anglo-Egipcio",
+		"República del Sudán"
+	],
+	"wiki": "es:Sudán",
+	"wikidata": "Q1049",
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1n",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_heads",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sudan",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Sudan",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_kush",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1049",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Sudán",
+			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57265",
+			"url": "http://www.wikidata.org/entity/Q57265",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q15700032",
+			"url": "http://www.wikidata.org/entity/Q15700032",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q56556415",
+			"url": "http://www.wikidata.org/entity/Q56556415",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q48728938",
+			"url": "http://www.wikidata.org/entity/Q48728938",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q22949078",
+			"url": "http://www.wikidata.org/entity/Q22949078",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q63111184",
+			"url": "http://www.wikidata.org/entity/Q63111184",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q27654948",
+			"url": "http://www.wikidata.org/entity/Q27654948",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q1049",
+			"url": "https://www.wikidata.org/wiki/Q1049",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1049",
+			"url": "https://www.wikidata.org/wiki/Q1049",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Kush",
+			"desde": -780,
+			"hasta": 350
+		},
+		{
+			"nombre": "Estado mahdista (Mahdiyya)",
+			"desde": 1885,
+			"hasta": 1899
+		},
+		{
+			"nombre": "Sudán Anglo-Egipcio",
+			"desde": 1899,
+			"hasta": 1956
+		},
+		{
+			"nombre": "República del Sudán",
+			"desde": 1956
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Reino de Kush (Napata y Meroe)",
+			"desde": -780,
+			"hasta": 350,
+			"cargo": "Reino histórico nubio (dinastía kushita XXV de Egipto s. VIII a.C.; capital en Meroe desde ~300 a.C.)"
+		},
+		{
+			"nombre": "Muhammad Ahmad (el Mahdi)",
+			"desde": 1881,
+			"hasta": 1885,
+			"cargo": "Líder del Estado mahdista"
+		},
+		{
+			"nombre": "Abdallahi ibn Muhammad (el Califa)",
+			"desde": 1885,
+			"hasta": 1899,
+			"cargo": "Líder del Estado mahdista"
+		},
+		{
+			"nombre": "Ibrahim Abbud",
+			"desde": 1958,
+			"hasta": 1964,
+			"cargo": "Presidente / Jefe del Consejo Supremo"
+		},
+		{
+			"nombre": "Ismail al-Azhari",
+			"desde": 1965,
+			"hasta": 1969,
+			"cargo": "Presidente del Consejo de Soberanía"
+		},
+		{
+			"nombre": "Gaafar Nimeiry",
+			"desde": 1969,
+			"hasta": 1985,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Abdel Rahman Swar al-Dahab",
+			"desde": 1985,
+			"hasta": 1986,
+			"cargo": "Presidente del Consejo Militar Transitorio"
+		},
+		{
+			"nombre": "Ahmed al-Mirghani",
+			"desde": 1986,
+			"hasta": 1989,
+			"cargo": "Presidente del Consejo Supremo"
+		},
+		{
+			"nombre": "Omar al-Bashir",
+			"desde": 1989,
+			"hasta": 2019,
+			"cargo": "Presidente"
+		},
+		{
+			"desde": 1989,
+			"hasta": 2019,
+			"nombre": "Omar Hasan Ahmad al-Bashir",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2017,
+			"hasta": 2018,
+			"nombre": "Bakri Hassan Saleh",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2018,
+			"hasta": 2019,
+			"nombre": "Motazz Moussa",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"nombre": "Abdel Fattah al-Burhan",
+			"desde": 2019,
+			"hasta": 2026,
+			"cargo": "Presidente del Consejo Soberano de Transición"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Mohamed Tahir Ayala",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Ahmed Awad Ibn Auf",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Abdel Fattah Abdelrahman Burhan",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Abdalla Hamdok",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2025,
+			"valor": 48945000,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "add13d31d855",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Sudán, oficialmente República del Sudán, es uno de los cincuenta y cinco países que forman el continente africano. Su capital es Jartum y la ciudad más poblada es Omdurmán.",
+	"escudos": [
+		{
+			"archivo": "Emblem of Sudan (1956–1970).svg"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Sendero de Lágrimas",
+	"anio": 1831,
+	"hasta": 1839,
+	"lat": 35.05,
+	"lng": -85.31,
+	"descripcion": "Miles de cheroquis, creeks, chickasaw, choctaw y seminolas mueren en la deportación forzosa.",
+	"wiki": "Sendero de Lágrimas",
+	"paises": [
+		"Estados Unidos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sendero de Lágrimas",
+			"url": "https://es.wikipedia.org/wiki/Sendero_de_Lágrimas",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

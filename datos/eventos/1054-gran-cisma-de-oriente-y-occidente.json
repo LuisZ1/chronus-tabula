@@ -1,0 +1,19 @@
+{
+	"nombre": "Gran Cisma de Oriente y Occidente",
+	"anio": 1054,
+	"lat": 41.01,
+	"lng": 28.98,
+	"descripcion": "Ruptura entre las iglesias de Roma y Constantinopla.",
+	"wiki": "Cisma de Oriente y Occidente",
+	"paises": [
+		"Roma",
+		"Imperio bizantino"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cisma de Oriente y Occidente",
+			"url": "https://es.wikipedia.org/wiki/Cisma_de_Oriente_y_Occidente",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

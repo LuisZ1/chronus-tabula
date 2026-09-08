@@ -1,0 +1,148 @@
+{
+	"id": "segunda-punica",
+	"nombre": "Segunda guerra púnica",
+	"inicio": -218,
+	"fin": -201,
+	"paises": [
+		"Roma",
+		"Cartago"
+	],
+	"bajas": "~300.000 muertos",
+	"descripcion": "Aníbal cruza los Alpes e invade Italia; Roma acaba venciendo y se convierte en la potencia del Mediterráneo occidental.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Cannas",
+			"anio": -216,
+			"lat": 41.3,
+			"lng": 16.13,
+			"bajas": "~55.000 romanos muertos en un día",
+			"descripcion": "La mayor victoria de Aníbal, obra maestra del envolvimiento táctico."
+		},
+		{
+			"nombre": "Batalla de Zama",
+			"anio": -202,
+			"lat": 36.3,
+			"lng": 9.45,
+			"bajas": "~20.000 cartagineses muertos",
+			"descripcion": "Escipión el Africano derrota a Aníbal y decide la guerra."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Hispania",
+			"tipo": "frente",
+			"desde": -218,
+			"hasta": -206,
+			"poligono": [
+				[
+					43,
+					-2
+				],
+				[
+					42,
+					1.5
+				],
+				[
+					40.5,
+					0.5
+				],
+				[
+					37.5,
+					-1
+				],
+				[
+					36.8,
+					-4.5
+				],
+				[
+					38.5,
+					-5
+				],
+				[
+					40,
+					-4
+				]
+			]
+		},
+		{
+			"nombre": "Italia (invasión de Aníbal)",
+			"tipo": "frente",
+			"desde": -218,
+			"hasta": -203,
+			"poligono": [
+				[
+					45.8,
+					7
+				],
+				[
+					45.5,
+					12
+				],
+				[
+					43.5,
+					14
+				],
+				[
+					41.5,
+					16.5
+				],
+				[
+					40,
+					18.5
+				],
+				[
+					39.5,
+					16.5
+				],
+				[
+					41,
+					13.5
+				],
+				[
+					43.5,
+					10.5
+				],
+				[
+					44.8,
+					7.5
+				]
+			]
+		},
+		{
+			"nombre": "África (desembarco de Escipión)",
+			"tipo": "frente",
+			"desde": -204,
+			"hasta": -201,
+			"poligono": [
+				[
+					37.3,
+					8.5
+				],
+				[
+					37.3,
+					11
+				],
+				[
+					35.5,
+					11
+				],
+				[
+					35.5,
+					8.5
+				]
+			]
+		}
+	],
+	"wiki": "Segunda guerra púnica",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra púnica",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_púnica",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

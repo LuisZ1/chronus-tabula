@@ -1,0 +1,223 @@
+{
+	"id": "brasil",
+	"nombre": "Brasil",
+	"nombres": [
+		"Brazil",
+		"Brasil"
+	],
+	"wikidata": "Q155",
+	"wiki": "es:Brasil",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q155",
+			"url": "https://www.wikidata.org/wiki/Q155",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Brasil",
+			"url": "https://es.wikipedia.org/wiki/Brasil",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "BRA",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 415018
+		},
+		{
+			"anio": -9000,
+			"valor": 544712
+		},
+		{
+			"anio": -8000,
+			"valor": 714935
+		},
+		{
+			"anio": -7000,
+			"valor": 938352
+		},
+		{
+			"anio": -6000,
+			"valor": 1231587
+		},
+		{
+			"anio": -5000,
+			"valor": 1616458
+		},
+		{
+			"anio": -4000,
+			"valor": 2121601
+		},
+		{
+			"anio": -3000,
+			"valor": 2784602
+		},
+		{
+			"anio": -2000,
+			"valor": 3654790
+		},
+		{
+			"anio": -1000,
+			"valor": 4796912
+		},
+		{
+			"anio": 0,
+			"valor": 6295947
+		},
+		{
+			"anio": 100,
+			"valor": 6745657
+		},
+		{
+			"anio": 200,
+			"valor": 7227490
+		},
+		{
+			"anio": 300,
+			"valor": 7743739
+		},
+		{
+			"anio": 400,
+			"valor": 8296863
+		},
+		{
+			"anio": 500,
+			"valor": 8889497
+		},
+		{
+			"anio": 600,
+			"valor": 9524461
+		},
+		{
+			"anio": 700,
+			"valor": 10204779
+		},
+		{
+			"anio": 800,
+			"valor": 10933692
+		},
+		{
+			"anio": 900,
+			"valor": 11133755
+		},
+		{
+			"anio": 1000,
+			"valor": 11336686
+		},
+		{
+			"anio": 1100,
+			"valor": 12567424
+		},
+		{
+			"anio": 1200,
+			"valor": 13798161
+		},
+		{
+			"anio": 1300,
+			"valor": 15028898
+		},
+		{
+			"anio": 1400,
+			"valor": 16259636
+		},
+		{
+			"anio": 1500,
+			"valor": 18738040
+		},
+		{
+			"anio": 1600,
+			"valor": 887751
+		},
+		{
+			"anio": 1700,
+			"valor": 551256
+		},
+		{
+			"anio": 1750,
+			"valor": 1170477
+		},
+		{
+			"anio": 1800,
+			"valor": 2500000
+		},
+		{
+			"anio": 1850,
+			"valor": 7233093
+		},
+		{
+			"anio": 1900,
+			"valor": 18058538
+		},
+		{
+			"anio": 1910,
+			"valor": 22361184
+		},
+		{
+			"anio": 1920,
+			"valor": 27593186
+		},
+		{
+			"anio": 1930,
+			"valor": 33813213
+		},
+		{
+			"anio": 1940,
+			"valor": 41568218
+		},
+		{
+			"anio": 1950,
+			"valor": 53408551
+		},
+		{
+			"anio": 1960,
+			"valor": 72388124
+		},
+		{
+			"anio": 1970,
+			"valor": 95375656
+		},
+		{
+			"anio": 1980,
+			"valor": 121207451
+		},
+		{
+			"anio": 1990,
+			"valor": 149143223
+		},
+		{
+			"anio": 2000,
+			"valor": 174018278
+		},
+		{
+			"anio": 2010,
+			"valor": 193701931
+		},
+		{
+			"anio": 2020,
+			"valor": 208660845
+		},
+		{
+			"anio": 2023,
+			"valor": 211140731
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "64920f1c61b0",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Brasil, oficialmente República Federativa de Brasil, es un país soberano de América del Sur que comprende la mitad oriental del subcontinente y algunos grupos de pequeñas islas en el océano Atlántico. Su capital es Brasilia y su ciudad más poblada, São Paulo."
+}

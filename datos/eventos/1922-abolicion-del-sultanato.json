@@ -1,0 +1,23 @@
+{
+	"nombre": "Abolición del sultanato",
+	"anio": 1922,
+	"lat": 41.01,
+	"lng": 28.98,
+	"paises": [
+		"Otomano"
+	],
+	"descripcion": "La Gran Asamblea Nacional dirigida por Mustafá Kemal abole el sultanato; el último sultán, Mehmed VI, huye de Estambul. Termina así una dinastía que había reinado más de seis siglos.",
+	"wiki": "Abolición del sultanato otomano",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Abolición del sultanato otomano",
+			"url": "https://es.wikipedia.org/wiki/Abolici%C3%B3n_del_sultanato_otomano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

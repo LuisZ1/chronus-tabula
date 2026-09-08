@@ -1,0 +1,23 @@
+{
+	"nombre": "Proclamación de la República de Turquía",
+	"anio": 1923,
+	"lat": 39.93,
+	"lng": 32.86,
+	"paises": [
+		"Otomano"
+	],
+	"descripcion": "Mustafá Kemal Atatürk proclama la República de Turquía con capital en Ankara, cerrando definitivamente la era imperial otomana y fundando el Estado turco moderno.",
+	"wiki": "República de Turquía",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Historia de la República de Turquía",
+			"url": "https://es.wikipedia.org/wiki/Historia_de_la_Rep%C3%BAblica_de_Turqu%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

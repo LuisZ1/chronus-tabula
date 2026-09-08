@@ -1,0 +1,222 @@
+{
+	"id": "liechtenstein",
+	"nombre": "Liechtenstein",
+	"nombres": [
+		"Liechtenstein"
+	],
+	"wikidata": "Q347",
+	"wiki": "es:Liechtenstein",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q347",
+			"url": "https://www.wikidata.org/wiki/Q347",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Liechtenstein",
+			"url": "https://es.wikipedia.org/wiki/Liechtenstein",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LIE",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1363
+		},
+		{
+			"anio": -9000,
+			"valor": 1558
+		},
+		{
+			"anio": -8000,
+			"valor": 1780
+		},
+		{
+			"anio": -7000,
+			"valor": 2035
+		},
+		{
+			"anio": -6000,
+			"valor": 2325
+		},
+		{
+			"anio": -5000,
+			"valor": 2657
+		},
+		{
+			"anio": -4000,
+			"valor": 3037
+		},
+		{
+			"anio": -3000,
+			"valor": 3471
+		},
+		{
+			"anio": -2000,
+			"valor": 3967
+		},
+		{
+			"anio": -1000,
+			"valor": 4534
+		},
+		{
+			"anio": 0,
+			"valor": 5182
+		},
+		{
+			"anio": 100,
+			"valor": 5287
+		},
+		{
+			"anio": 200,
+			"valor": 5395
+		},
+		{
+			"anio": 300,
+			"valor": 5505
+		},
+		{
+			"anio": 400,
+			"valor": 5618
+		},
+		{
+			"anio": 500,
+			"valor": 5733
+		},
+		{
+			"anio": 600,
+			"valor": 5850
+		},
+		{
+			"anio": 700,
+			"valor": 5969
+		},
+		{
+			"anio": 800,
+			"valor": 6091
+		},
+		{
+			"anio": 900,
+			"valor": 6215
+		},
+		{
+			"anio": 1000,
+			"valor": 6342
+		},
+		{
+			"anio": 1100,
+			"valor": 6471
+		},
+		{
+			"anio": 1200,
+			"valor": 6603
+		},
+		{
+			"anio": 1300,
+			"valor": 6738
+		},
+		{
+			"anio": 1400,
+			"valor": 6876
+		},
+		{
+			"anio": 1500,
+			"valor": 7016
+		},
+		{
+			"anio": 1600,
+			"valor": 7159
+		},
+		{
+			"anio": 1700,
+			"valor": 7305
+		},
+		{
+			"anio": 1750,
+			"valor": 8291
+		},
+		{
+			"anio": 1800,
+			"valor": 5802
+		},
+		{
+			"anio": 1850,
+			"valor": 7181
+		},
+		{
+			"anio": 1900,
+			"valor": 10331
+		},
+		{
+			"anio": 1910,
+			"valor": 11121
+		},
+		{
+			"anio": 1920,
+			"valor": 12070
+		},
+		{
+			"anio": 1930,
+			"valor": 12176
+		},
+		{
+			"anio": 1940,
+			"valor": 12869
+		},
+		{
+			"anio": 1950,
+			"valor": 13786
+		},
+		{
+			"anio": 1960,
+			"valor": 16512
+		},
+		{
+			"anio": 1970,
+			"valor": 21170
+		},
+		{
+			"anio": 1980,
+			"valor": 25114
+		},
+		{
+			"anio": 1990,
+			"valor": 28912
+		},
+		{
+			"anio": 2000,
+			"valor": 33137
+		},
+		{
+			"anio": 2010,
+			"valor": 36021
+		},
+		{
+			"anio": 2020,
+			"valor": 38793
+		},
+		{
+			"anio": 2023,
+			"valor": 39622
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d7545aa49a9d",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Liechtenstein, oficialmente Principado de Liechtenstein, es un micro-Estado centroeuropeo sin litoral cuya forma de gobierno es la monarquía constitucional, ubicado entre Suiza y Austria en la orilla oriental del Rin. El idioma oficial es el alemán, pero en la vida cotidiana se habla principalmente el dialecto alemánico, con variaciones claramente locales."
+}

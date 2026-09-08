@@ -1,0 +1,114 @@
+{
+	"id": "guerras-medicas",
+	"nombre": "Guerras médicas (Persia contra Grecia)",
+	"inicio": -499,
+	"fin": -449,
+	"paises": [
+		"Persia aqueménida",
+		"Atenas",
+		"Esparta y la Liga Helénica"
+	],
+	"bajas": "~100.000-300.000 muertos",
+	"descripcion": "De la revuelta jonia a Maratón (490 a. C.), las Termópilas y Salamina (480) y Platea (479): las polis griegas frenan al mayor imperio de su tiempo.",
+	"wiki": "Guerras médicas",
+	"zonas": [
+		{
+			"nombre": "Jonia (revuelta)",
+			"tipo": "frente",
+			"desde": -499,
+			"hasta": -493,
+			"poligono": [
+				[
+					39.5,
+					26
+				],
+				[
+					39,
+					28
+				],
+				[
+					37,
+					28.5
+				],
+				[
+					36.8,
+					26.8
+				],
+				[
+					38.3,
+					26
+				]
+			]
+		},
+		{
+			"nombre": "Grecia (invasiones de Darío y Jerjes)",
+			"tipo": "frente",
+			"desde": -490,
+			"hasta": -479,
+			"poligono": [
+				[
+					40.5,
+					22
+				],
+				[
+					39.5,
+					24.5
+				],
+				[
+					37.5,
+					24.3
+				],
+				[
+					37.5,
+					22.3
+				],
+				[
+					39,
+					21.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Maratón",
+			"anio": -490,
+			"lat": 38.15,
+			"lng": 23.97,
+			"bajas": "~6.400 persas y 192 atenienses muertos",
+			"descripcion": "Milcíades rechaza la primera invasión persa."
+		},
+		{
+			"nombre": "Batalla de las Termópilas",
+			"anio": -480,
+			"lat": 38.8,
+			"lng": 22.53,
+			"descripcion": "Leónidas y sus 300 espartanos resisten hasta el final."
+		},
+		{
+			"nombre": "Batalla de Salamina",
+			"anio": -480,
+			"lat": 37.95,
+			"lng": 23.5,
+			"descripcion": "Temístocles destruye la flota persa en el estrecho."
+		},
+		{
+			"nombre": "Batalla de Platea",
+			"anio": -479,
+			"lat": 38.22,
+			"lng": 23.27,
+			"descripcion": "La infantería griega aniquila al ejército de Mardonio."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras médicas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_médicas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	"id": "montenegro",
+	"nombre": "Montenegro",
+	"nombres": [
+		"Montenegro"
+	],
+	"wikidata": "Q236",
+	"wiki": "es:Montenegro",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q236",
+			"url": "https://www.wikidata.org/wiki/Q236",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Montenegro",
+			"url": "https://es.wikipedia.org/wiki/Montenegro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "MNE",
+	"poblacion": [
+		{
+			"anio": 1800,
+			"valor": 126582
+		},
+		{
+			"anio": 1850,
+			"valor": 202257
+		},
+		{
+			"anio": 1900,
+			"valor": 442653
+		},
+		{
+			"anio": 1910,
+			"valor": 510756
+		},
+		{
+			"anio": 1920,
+			"valor": 484521
+		},
+		{
+			"anio": 1930,
+			"valor": 453378
+		},
+		{
+			"anio": 1940,
+			"valor": 424237
+		},
+		{
+			"anio": 1950,
+			"valor": 402519
+		},
+		{
+			"anio": 1960,
+			"valor": 471205
+		},
+		{
+			"anio": 1970,
+			"valor": 529679
+		},
+		{
+			"anio": 1980,
+			"valor": 584831
+		},
+		{
+			"anio": 1990,
+			"valor": 620507
+		},
+		{
+			"anio": 2000,
+			"valor": 634198
+		},
+		{
+			"anio": 2010,
+			"valor": 632088
+		},
+		{
+			"anio": 2020,
+			"valor": 607934
+		},
+		{
+			"anio": 2023,
+			"valor": 633553
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e16196f95f7e",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Montenegro es un país del sureste de Europa situado en la península balcánica, que cuenta con casi 300 km de costa a orillas del mar Adriático. Limita por el norte con Bosnia y Herzegovina y Serbia; Albania por el sur; Croacia por el oeste; y con Kosovo por el este."
+}

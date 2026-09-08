@@ -1,0 +1,19 @@
+{
+	"nombre": "Muerte de Mao y caída de la Banda de los Cuatro",
+	"anio": 1976,
+	"lat": 39.9,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "La muerte de Mao Zedong y la detención de la Banda de los Cuatro ponen fin a la Revolución Cultural y abren el camino a la Reforma y Apertura.",
+	"wiki": "Banda de los Cuatro",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Banda de los Cuatro",
+			"url": "https://es.wikipedia.org/wiki/Banda_de_los_Cuatro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

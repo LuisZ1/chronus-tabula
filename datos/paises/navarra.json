@@ -1,0 +1,38 @@
+{
+	"id": "navarra",
+	"nombre": "Reino de Navarra",
+	"nombres": [
+		"Navarre"
+	],
+	"gobernantes": [
+		{
+			"desde": 1004,
+			"hasta": 1035,
+			"nombre": "Sancho III el Mayor",
+			"titulo": "Rey de Pamplona"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Navarra",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Navarra",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Reino de Navarra",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Navarra",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Reino de Navarra fue la continuación institucional del Reino de Pamplona, uno de los reinos medievales de Europa situado en ambas vertientes de los Pirineos occidentales, pero con la mayor parte de su territorio localizado al sur de la cordillera, en el norte de la península ibérica, desde 1162.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "b15cbb9ee1a0",
+		"secciones": [
+			"resena"
+		]
+	}
+}

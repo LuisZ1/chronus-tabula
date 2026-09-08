@@ -1,0 +1,23 @@
+{
+	"nombre": "Edicto de Gülhane: inicio del Tanzimat",
+	"anio": 1839,
+	"lat": 41.01,
+	"lng": 28.98,
+	"paises": [
+		"Otomano"
+	],
+	"descripcion": "El edicto de Gülhane inaugura el Tanzimat, un periodo de reformas que busca modernizar la administración, garantizar derechos a todos los súbditos y occidentalizar las instituciones del imperio.",
+	"wiki": "Tanzimat",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tanzimat",
+			"url": "https://es.wikipedia.org/wiki/Tanzimat",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

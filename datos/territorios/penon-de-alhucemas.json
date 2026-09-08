@@ -1,0 +1,17 @@
+{
+	"nombre": "Peñón de Alhucemas",
+	"pais": "España",
+	"lat": 35.213,
+	"lng": -3.888,
+	"desde": 1673,
+	"descripcion": "Ocupado por España en 1673, durante el reinado de Carlos II. Una de las plazas de soberanía del norte de África.",
+	"wiki": "Peñón de Alhucemas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Peñón de Alhucemas",
+			"url": "https://es.wikipedia.org/wiki/Peñón_de_Alhucemas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

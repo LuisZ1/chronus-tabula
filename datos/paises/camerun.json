@@ -1,0 +1,148 @@
+{
+	"id": "camerun",
+	"nombre": "Camerún",
+	"nombres": [
+		"Cameroon",
+		"Kamerun",
+		"Cameroun"
+	],
+	"wiki": "es:Camerún",
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_heads",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Cameroon",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Cameroon",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1009",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Camerún",
+			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1009",
+			"url": "https://www.wikidata.org/wiki/Q1009",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Kamerun (colonia alemana)",
+			"desde": 1884,
+			"hasta": 1919
+		},
+		{
+			"nombre": "Cameroun francés / Cameroons británico (mandatos)",
+			"desde": 1919,
+			"hasta": 1960
+		},
+		{
+			"nombre": "República de Camerún",
+			"desde": 1960,
+			"hasta": 1961
+		},
+		{
+			"nombre": "República Federal de Camerún",
+			"desde": 1961,
+			"hasta": 1972
+		},
+		{
+			"nombre": "República Unida de Camerún",
+			"desde": 1972,
+			"hasta": 1984
+		},
+		{
+			"nombre": "República de Camerún",
+			"desde": 1984,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1009",
+	"gobernantes": [
+		{
+			"nombre": "Ahmadou Ahidjo",
+			"desde": 1960,
+			"hasta": 1982,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Paul Biya",
+			"desde": 1982,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 4466000,
+			"fuente": "Wikipedia (Demographics of Cameroon), estimación ONU"
+		},
+		{
+			"anio": 1960,
+			"valor": 5409000,
+			"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+		},
+		{
+			"anio": 1976,
+			"valor": 7598000,
+			"fuente": "Wikipedia (Demographics of Cameroon), censo"
+		},
+		{
+			"anio": 1987,
+			"valor": 10434000,
+			"fuente": "Wikipedia (Demographics of Cameroon), censo"
+		},
+		{
+			"anio": 2000,
+			"valor": 15678000,
+			"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+		},
+		{
+			"anio": 2020,
+			"valor": 26211000,
+			"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+		},
+		{
+			"anio": 2022,
+			"valor": 29321637,
+			"fuente": "Wikipedia (Demographics of Cameroon), estimación"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "ba9126c3deda",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Camerún, oficialmente la República de Camerún, es un Estado unitario organizado como república en el África central. Limita al sur con Guinea Ecuatorial, a continuación con Gabón (298 km), y con República del Congo (523 km).",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Cameroon.svg"
+		}
+	]
+}

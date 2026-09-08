@@ -1,0 +1,59 @@
+{
+	"id": "romaoccidente",
+	"nombre": "Imperio romano de Occidente",
+	"nombres": [
+		"Western Roman Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 395,
+			"hasta": 423,
+			"nombre": "Honorio",
+			"titulo": "Emperador de Occidente"
+		},
+		{
+			"desde": 425,
+			"hasta": 455,
+			"nombre": "Valentiniano III",
+			"titulo": "Emperador de Occidente"
+		},
+		{
+			"desde": 475,
+			"hasta": 476,
+			"nombre": "Rómulo Augústulo (depuesto por Odoacro)",
+			"titulo": "Emperador de Occidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 400,
+			"valor": 20000000
+		}
+	],
+	"relacionados": [
+		"Roma"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio romano de Occidente",
+			"url": "https://es.wikipedia.org/wiki/Imperio_romano_de_Occidente",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Imperio romano de Occidente",
+			"url": "https://es.wikipedia.org/wiki/Imperio_romano_de_Occidente",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Imperio romano de Occidente fue una entidad política de la Antigüedad que existió entre los años 286 y 476. Abarcaba el área occidental de Europa —al oeste de los ríos Rin y Drina—, buena parte de Gran Bretaña y la franja mediterránea de África, al norte del desierto del Sáhara hasta Libia.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f5ccb2b9f650",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Construcción de Angkor Wat",
+	"anio": 1150,
+	"lat": 13.41,
+	"lng": 103.87,
+	"paises": [
+		"Imperio jemer"
+	],
+	"descripcion": "El rey Suryavarman II levanta en Angkor el mayor conjunto religioso del mundo, dedicado al dios hindú Vishnú y convertido más tarde en templo budista. Es la cumbre del arte del Imperio jemer y hoy símbolo de Camboya.",
+	"wiki": "Angkor Wat",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Angkor Wat",
+			"url": "https://es.wikipedia.org/wiki/Angkor_Wat",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

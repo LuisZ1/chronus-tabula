@@ -1,0 +1,25 @@
+{
+	"nombre": "Peregrinación de Mansa Musa a La Meca",
+	"anio": 1324,
+	"lat": 30.05,
+	"lng": 31.25,
+	"paises": [
+		"Imperio de Malí"
+	],
+	"descripcion": "El emperador de Malí cruza África con tanto oro que hunde su precio en El Cairo durante años: el mapa de Europa empieza a dibujar Tombuctú.",
+	"wiki": "Mansa Musa",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Mansa Musa",
+			"url": "https://es.wikipedia.org/wiki/Mansa_Musa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

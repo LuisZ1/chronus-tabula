@@ -1,0 +1,222 @@
+{
+	"id": "guyana",
+	"nombre": "Guyana",
+	"nombres": [
+		"Guyana"
+	],
+	"wikidata": "Q734",
+	"wiki": "es:Guyana",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q734",
+			"url": "https://www.wikidata.org/wiki/Q734",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Guyana",
+			"url": "https://es.wikipedia.org/wiki/Guyana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "GUY",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 5
+		},
+		{
+			"anio": -9000,
+			"valor": 10
+		},
+		{
+			"anio": -8000,
+			"valor": 20
+		},
+		{
+			"anio": -7000,
+			"valor": 41
+		},
+		{
+			"anio": -6000,
+			"valor": 83
+		},
+		{
+			"anio": -5000,
+			"valor": 167
+		},
+		{
+			"anio": -4000,
+			"valor": 335
+		},
+		{
+			"anio": -3000,
+			"valor": 671
+		},
+		{
+			"anio": -2000,
+			"valor": 1342
+		},
+		{
+			"anio": -1000,
+			"valor": 2684
+		},
+		{
+			"anio": 0,
+			"valor": 5368
+		},
+		{
+			"anio": 100,
+			"valor": 6710
+		},
+		{
+			"anio": 200,
+			"valor": 8388
+		},
+		{
+			"anio": 300,
+			"valor": 10485
+		},
+		{
+			"anio": 400,
+			"valor": 13107
+		},
+		{
+			"anio": 500,
+			"valor": 16384
+		},
+		{
+			"anio": 600,
+			"valor": 20480
+		},
+		{
+			"anio": 700,
+			"valor": 25600
+		},
+		{
+			"anio": 800,
+			"valor": 32000
+		},
+		{
+			"anio": 900,
+			"valor": 40000
+		},
+		{
+			"anio": 1000,
+			"valor": 50000
+		},
+		{
+			"anio": 1100,
+			"valor": 55000
+		},
+		{
+			"anio": 1200,
+			"valor": 60000
+		},
+		{
+			"anio": 1300,
+			"valor": 70000
+		},
+		{
+			"anio": 1400,
+			"valor": 80000
+		},
+		{
+			"anio": 1500,
+			"valor": 90000
+		},
+		{
+			"anio": 1600,
+			"valor": 90000
+		},
+		{
+			"anio": 1700,
+			"valor": 99759
+		},
+		{
+			"anio": 1750,
+			"valor": 125884
+		},
+		{
+			"anio": 1800,
+			"valor": 166034
+		},
+		{
+			"anio": 1850,
+			"valor": 127122
+		},
+		{
+			"anio": 1900,
+			"valor": 297513
+		},
+		{
+			"anio": 1910,
+			"valor": 296177
+		},
+		{
+			"anio": 1920,
+			"valor": 295538
+		},
+		{
+			"anio": 1930,
+			"valor": 303521
+		},
+		{
+			"anio": 1940,
+			"valor": 339001
+		},
+		{
+			"anio": 1950,
+			"valor": 418045
+		},
+		{
+			"anio": 1960,
+			"valor": 569156
+		},
+		{
+			"anio": 1970,
+			"valor": 702714
+		},
+		{
+			"anio": 1980,
+			"valor": 774372
+		},
+		{
+			"anio": 1990,
+			"valor": 749891
+		},
+		{
+			"anio": 2000,
+			"valor": 764836
+		},
+		{
+			"anio": 2010,
+			"valor": 749259
+		},
+		{
+			"anio": 2020,
+			"valor": 807486
+		},
+		{
+			"anio": 2023,
+			"valor": 826357
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "086904cace7b",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Guyana, oficialmente la República Cooperativa de Guyana, es un país ubicado en la costa norte de América del Sur y el Caribe, miembro de la Unasur, CELAC y miembro asociado del Mercosur. Georgetown es la capital de Guyana y también es la ciudad más grande del país."
+}

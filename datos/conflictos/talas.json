@@ -1,0 +1,58 @@
+{
+	"id": "talas",
+	"nombre": "Batalla del Talas (Tang contra abasíes)",
+	"inicio": 751,
+	"fin": 751,
+	"paises": [
+		"Imperio Tang",
+		"Califato abasí",
+		"Karlukos"
+	],
+	"bajas": "~20.000-30.000 muertos",
+	"descripcion": "El choque entre China e islam por Asia Central; los prisioneros chinos difunden el secreto del papel hacia Occidente.",
+	"wiki": "Batalla del Talas",
+	"zonas": [
+		{
+			"nombre": "Valle del Talas",
+			"tipo": "frente",
+			"poligono": [
+				[
+					43.2,
+					70.8
+				],
+				[
+					43,
+					72.8
+				],
+				[
+					42.2,
+					72.5
+				],
+				[
+					42.3,
+					70.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del río Talas",
+			"anio": 751,
+			"lat": 42.52,
+			"lng": 72.23,
+			"descripcion": "Los abasíes vencen; fin de la expansión Tang hacia el oeste."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla del Talas",
+			"url": "https://es.wikipedia.org/wiki/Batalla_del_Talas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

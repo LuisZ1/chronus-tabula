@@ -1,0 +1,56 @@
+{
+	"id": "han",
+	"nombre": "Imperio Han (China)",
+	"nombres": [
+		"Han Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": -221,
+			"hasta": -210,
+			"nombre": "Qin Shi Huang",
+			"titulo": "Primer emperador de China (dinastía Qin)"
+		},
+		{
+			"desde": -202,
+			"hasta": -195,
+			"nombre": "Gaozu (Liu Bang, fundador)",
+			"titulo": "Emperador Han"
+		},
+		{
+			"desde": -202,
+			"hasta": -195,
+			"nombre": "Liu Bang (emperador Gaozu)",
+			"titulo": "Emperador Gaozu, fundador de la dinastía Han"
+		},
+		{
+			"desde": -141,
+			"hasta": -87,
+			"nombre": "Wu (apogeo de la Ruta de la Seda)",
+			"titulo": "Emperador Han"
+		},
+		{
+			"desde": -141,
+			"hasta": -87,
+			"nombre": "Emperador Wu (Liu Che)",
+			"titulo": "Emperador Wu de Han, máxima expansión del imperio"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2,
+			"valor": 57700000
+		}
+	],
+	"relacionados": [
+		"China",
+		"Qin"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Han (China)",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Han_(China)",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

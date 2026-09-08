@@ -1,0 +1,46 @@
+{
+	"id": "babilonia",
+	"nombre": "Babilonia",
+	"nombres": [
+		"Babylonia"
+	],
+	"wiki": "Babilonia",
+	"gobernantes": [
+		{
+			"desde": -1792,
+			"hasta": -1750,
+			"nombre": "Hammurabi",
+			"titulo": "Rey de Babilonia, legislador"
+		},
+		{
+			"desde": -605,
+			"hasta": -562,
+			"nombre": "Nabucodonosor II",
+			"titulo": "Rey del Imperio neobabilónico"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Babilonia",
+			"url": "https://es.wikipedia.org/wiki/Babilonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Babilonia",
+			"url": "https://es.wikipedia.org/wiki/Babilonia_(reino)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Babilonia fue un antiguo Estado localizado en la región central-sur de Mesopotamia, teniendo su epicentro en la ciudad homónima y que llegó a extenderse por Acad y Sumeria, arrebatando la hegemonía a las dinastías amorritas de Isin y Larsa del llamado Renacimiento sumerio.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6ae621f55ab3",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"id": "mitridaticas",
+	"nombre": "Guerras mitridáticas",
+	"inicio": -88,
+	"fin": -63,
+	"paises": [
+		"Roma",
+		"Reino del Ponto",
+		"Armenia"
+	],
+	"bajas": "~200.000-300.000 muertos (incluidas las Vísperas Asiáticas)",
+	"descripcion": "Tres guerras contra Mitrídates VI del Ponto; Pompeyo reorganiza todo el Oriente romano.",
+	"wiki": "Guerras mitridáticas",
+	"zonas": [
+		{
+			"nombre": "Grecia y el Egeo",
+			"tipo": "frente",
+			"desde": -88,
+			"hasta": -85,
+			"poligono": [
+				[
+					39,
+					22.5
+				],
+				[
+					38.8,
+					24.5
+				],
+				[
+					37.5,
+					24
+				],
+				[
+					37.8,
+					22.3
+				]
+			]
+		},
+		{
+			"nombre": "Anatolia y el Ponto",
+			"tipo": "frente",
+			"desde": -74,
+			"hasta": -63,
+			"poligono": [
+				[
+					41.5,
+					33
+				],
+				[
+					41.3,
+					38
+				],
+				[
+					39.5,
+					38
+				],
+				[
+					39.5,
+					32.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Queronea",
+			"anio": -86,
+			"lat": 38.5,
+			"lng": 22.85,
+			"descripcion": "Sila derrota al ejército póntico en Grecia."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras mitridáticas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_mitridáticas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

@@ -1,0 +1,194 @@
+{
+	"id": "puerto-rico",
+	"nombre": "Puerto Rico",
+	"nombres": [
+		"Puerto Rico"
+	],
+	"wikidata": "Q1183",
+	"wiki": "es:Puerto Rico",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q1183",
+			"url": "https://www.wikidata.org/wiki/Q1183",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Puerto Rico",
+			"url": "https://es.wikipedia.org/wiki/Puerto_Rico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "PRI",
+	"poblacion": [
+		{
+			"anio": -3000,
+			"valor": 1
+		},
+		{
+			"anio": -2000,
+			"valor": 2
+		},
+		{
+			"anio": -1000,
+			"valor": 5
+		},
+		{
+			"anio": 0,
+			"valor": 10
+		},
+		{
+			"anio": 100,
+			"valor": 15
+		},
+		{
+			"anio": 200,
+			"valor": 23
+		},
+		{
+			"anio": 300,
+			"valor": 35
+		},
+		{
+			"anio": 400,
+			"valor": 53
+		},
+		{
+			"anio": 500,
+			"valor": 79
+		},
+		{
+			"anio": 600,
+			"valor": 119
+		},
+		{
+			"anio": 700,
+			"valor": 179
+		},
+		{
+			"anio": 800,
+			"valor": 269
+		},
+		{
+			"anio": 900,
+			"valor": 403
+		},
+		{
+			"anio": 1000,
+			"valor": 605
+		},
+		{
+			"anio": 1100,
+			"valor": 908
+		},
+		{
+			"anio": 1200,
+			"valor": 1363
+		},
+		{
+			"anio": 1300,
+			"valor": 2044
+		},
+		{
+			"anio": 1400,
+			"valor": 3067
+		},
+		{
+			"anio": 1500,
+			"valor": 4600
+		},
+		{
+			"anio": 1600,
+			"valor": 6900
+		},
+		{
+			"anio": 1700,
+			"valor": 10351
+		},
+		{
+			"anio": 1750,
+			"valor": 38883
+		},
+		{
+			"anio": 1800,
+			"valor": 146063
+		},
+		{
+			"anio": 1850,
+			"valor": 440820
+		},
+		{
+			"anio": 1900,
+			"valor": 981410
+		},
+		{
+			"anio": 1910,
+			"valor": 1209433
+		},
+		{
+			"anio": 1920,
+			"valor": 1437455
+		},
+		{
+			"anio": 1930,
+			"valor": 1665477
+		},
+		{
+			"anio": 1940,
+			"valor": 1893499
+		},
+		{
+			"anio": 1950,
+			"valor": 2229095
+		},
+		{
+			"anio": 1960,
+			"valor": 2363917
+		},
+		{
+			"anio": 1970,
+			"valor": 2734424
+		},
+		{
+			"anio": 1980,
+			"valor": 3213679
+		},
+		{
+			"anio": 1990,
+			"valor": 3541046
+		},
+		{
+			"anio": 2000,
+			"valor": 3809868
+		},
+		{
+			"anio": 2010,
+			"valor": 3714834
+		},
+		{
+			"anio": 2020,
+			"valor": 3275800
+		},
+		{
+			"anio": 2023,
+			"valor": 3242022
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "09ae609c3721",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Puerto Rico, oficialmente el Estado Libre Asociado de Puerto Rico, es uno de los catorce territorios no incorporados y uno de los dos estados libres asociados con estatus de autogobierno de los Estados Unidos de América. Con aproximadamente 3."
+}

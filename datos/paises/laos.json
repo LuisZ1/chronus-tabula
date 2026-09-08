@@ -1,0 +1,222 @@
+{
+	"id": "laos",
+	"nombre": "Laos",
+	"nombres": [
+		"Laos"
+	],
+	"wikidata": "Q819",
+	"wiki": "es:Laos",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q819",
+			"url": "https://www.wikidata.org/wiki/Q819",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Laos",
+			"url": "https://es.wikipedia.org/wiki/Laos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LAO",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 10775
+		},
+		{
+			"anio": -9000,
+			"valor": 13469
+		},
+		{
+			"anio": -8000,
+			"valor": 16837
+		},
+		{
+			"anio": -7000,
+			"valor": 21046
+		},
+		{
+			"anio": -6000,
+			"valor": 26308
+		},
+		{
+			"anio": -5000,
+			"valor": 32885
+		},
+		{
+			"anio": -4000,
+			"valor": 41107
+		},
+		{
+			"anio": -3000,
+			"valor": 51383
+		},
+		{
+			"anio": -2000,
+			"valor": 64229
+		},
+		{
+			"anio": -1000,
+			"valor": 80287
+		},
+		{
+			"anio": 0,
+			"valor": 100359
+		},
+		{
+			"anio": 100,
+			"valor": 107962
+		},
+		{
+			"anio": 200,
+			"valor": 116141
+		},
+		{
+			"anio": 300,
+			"valor": 124939
+		},
+		{
+			"anio": 400,
+			"valor": 134404
+		},
+		{
+			"anio": 500,
+			"valor": 144587
+		},
+		{
+			"anio": 600,
+			"valor": 155540
+		},
+		{
+			"anio": 700,
+			"valor": 167323
+		},
+		{
+			"anio": 800,
+			"valor": 180000
+		},
+		{
+			"anio": 900,
+			"valor": 211428
+		},
+		{
+			"anio": 1000,
+			"valor": 242857
+		},
+		{
+			"anio": 1100,
+			"valor": 274285
+		},
+		{
+			"anio": 1200,
+			"valor": 305714
+		},
+		{
+			"anio": 1300,
+			"valor": 337142
+		},
+		{
+			"anio": 1400,
+			"valor": 368571
+		},
+		{
+			"anio": 1500,
+			"valor": 400000
+		},
+		{
+			"anio": 1600,
+			"valor": 500000
+		},
+		{
+			"anio": 1700,
+			"valor": 600000
+		},
+		{
+			"anio": 1750,
+			"valor": 650000
+		},
+		{
+			"anio": 1800,
+			"valor": 470000
+		},
+		{
+			"anio": 1850,
+			"valor": 624664
+		},
+		{
+			"anio": 1900,
+			"valor": 1378713
+		},
+		{
+			"anio": 1910,
+			"valor": 1272193
+		},
+		{
+			"anio": 1920,
+			"valor": 1046704
+		},
+		{
+			"anio": 1930,
+			"valor": 876948
+		},
+		{
+			"anio": 1940,
+			"valor": 957965
+		},
+		{
+			"anio": 1950,
+			"valor": 1684556
+		},
+		{
+			"anio": 1960,
+			"valor": 2121517
+		},
+		{
+			"anio": 1970,
+			"valor": 2669703
+		},
+		{
+			"anio": 1980,
+			"valor": 3292575
+		},
+		{
+			"anio": 1990,
+			"valor": 4311960
+		},
+		{
+			"anio": 2000,
+			"valor": 5431213
+		},
+		{
+			"anio": 2010,
+			"valor": 6334198
+		},
+		{
+			"anio": 2020,
+			"valor": 7346534
+		},
+		{
+			"anio": 2023,
+			"valor": 7665001
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6830ef224749",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Laos, oficialmente República Democrática Popular Lao, es un Estado soberano situado en la península de Indochina. Limita con Myanmar y China al noroeste, Vietnam al este, Camboya al sureste, y Tailandia al oeste y suroeste, y es el único país sin salida al mar en el Sudeste Asiático."
+}

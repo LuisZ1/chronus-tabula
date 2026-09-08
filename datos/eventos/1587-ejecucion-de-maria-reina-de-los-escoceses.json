@@ -1,0 +1,24 @@
+{
+	"nombre": "Ejecución de María, reina de los escoceses",
+	"anio": 1587,
+	"lat": 52.49,
+	"lng": -0.49,
+	"paises": [
+		"Inglaterra",
+		"Escocia"
+	],
+	"descripcion": "María Estuardo es decapitada en el castillo de Fotheringhay por orden de Isabel I, acusada de conspirar contra la corona inglesa.",
+	"wiki": "María I de Escocia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:María I de Escocia",
+			"url": "https://es.wikipedia.org/wiki/Mar%C3%ADa_I_de_Escocia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

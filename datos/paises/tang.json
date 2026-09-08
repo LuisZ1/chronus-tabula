@@ -1,0 +1,56 @@
+{
+	"id": "tang",
+	"nombre": "Imperio Tang (China)",
+	"nombres": [
+		"Tang Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 626,
+			"hasta": 649,
+			"nombre": "Taizong",
+			"titulo": "Emperador Tang"
+		},
+		{
+			"desde": 626,
+			"hasta": 649,
+			"nombre": "Li Shimin (emperador Taizong)",
+			"titulo": "Emperador Taizong, artífice de la era próspera de Zhenguan"
+		},
+		{
+			"desde": 690,
+			"hasta": 705,
+			"nombre": "Wu Zetian (única emperatriz reinante)",
+			"titulo": "Única emperatriz reinante de China (dinastía Zhou interpuesta)"
+		},
+		{
+			"desde": 712,
+			"hasta": 756,
+			"nombre": "Xuanzong",
+			"titulo": "Emperador Tang"
+		},
+		{
+			"desde": 712,
+			"hasta": 756,
+			"nombre": "Emperador Xuanzong (Li Longji)",
+			"titulo": "Emperador Xuanzong, apogeo y crisis (rebelión de An Lushan)"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 750,
+			"valor": 52000000
+		}
+	],
+	"relacionados": [
+		"China",
+		"Imperio Tang"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Tang (China)",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Tang_(China)",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

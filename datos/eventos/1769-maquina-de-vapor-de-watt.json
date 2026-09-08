@@ -1,0 +1,19 @@
+{
+	"nombre": "Máquina de vapor de Watt",
+	"anio": 1769,
+	"lat": 55.86,
+	"lng": -4.25,
+	"categoria": "invento",
+	"descripcion": "James Watt patenta su máquina de vapor en Glasgow; despega la Revolución Industrial.",
+	"wiki": "Máquina de vapor",
+	"paises": [
+		"Gran Bretaña"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Máquina de vapor",
+			"url": "https://es.wikipedia.org/wiki/Máquina_de_vapor",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

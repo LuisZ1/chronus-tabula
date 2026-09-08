@@ -1,0 +1,142 @@
+{
+	"id": "malaui",
+	"nombre": "Malaui",
+	"nombres": [
+		"Malawi",
+		"Nyasalandia",
+		"Nyasaland",
+		"República de Malaui"
+	],
+	"wiki": "es:Malaui",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Malaui",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1020",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Malaui",
+			"url": "https://es.wikipedia.org/wiki/Malaui",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio Maravi",
+			"desde": 1480,
+			"hasta": 1700
+		},
+		{
+			"nombre": "Protectorado de Nyasalandia",
+			"desde": 1907,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Malaui",
+			"desde": 1964,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1020",
+	"gobernantes": [
+		{
+			"nombre": "Hastings Kamuzu Banda",
+			"desde": 1964,
+			"hasta": 1994,
+			"cargo": "Primer ministro y luego Presidente"
+		},
+		{
+			"nombre": "Bakili Muluzi",
+			"desde": 1994,
+			"hasta": 2004,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Bingu wa Mutharika",
+			"desde": 2004,
+			"hasta": 2012,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Joyce Banda",
+			"desde": 2012,
+			"hasta": 2014,
+			"cargo": "Presidenta"
+		},
+		{
+			"nombre": "Peter Mutharika",
+			"desde": 2014,
+			"hasta": 2020,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Lazarus Chakwera",
+			"desde": 2020,
+			"hasta": 2025,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Peter Mutharika",
+			"desde": 2025,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1966,
+			"valor": 4039583,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 1977,
+			"valor": 5547460,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 1987,
+			"valor": 7988507,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 1998,
+			"valor": 9933868,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2008,
+			"valor": 13077160,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2018,
+			"valor": 17563749,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2023,
+			"valor": 20400000,
+			"fuente": "Our World in Data (est.)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "63fb25364067",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Malaui o Malawi, oficialmente la República de Malaui o República de Malawi es un país sin salida al mar ubicado en el sureste de África, antiguamente conocido como Nyasalandia, que tiene como su capital a la ciudad de Lilongüe. Limita con Zambia al noroeste, con Tanzania al noreste y con Mozambique al sureste, sur y suroeste."
+}

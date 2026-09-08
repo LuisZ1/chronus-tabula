@@ -1,0 +1,175 @@
+{
+	"id": "guerra-estado-islamico",
+	"nombre": "Guerra contra el Estado Islámico",
+	"inicio": 2014,
+	"fin": 2019,
+	"paises": [
+		"Irak",
+		"Siria",
+		"Estados Unidos",
+		"Francia",
+		"Gran Bretaña"
+	],
+	"bajas": "~100.000+ muertos",
+	"descripcion": "El EI proclama un «califato» sobre un tercio de Irak y Siria; una coalición internacional y fuerzas kurdas e iraquíes lo reducen hasta su último enclave en Baguz (2019).",
+	"wiki": "Estado Islámico",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Estado Islámico",
+			"url": "https://es.wikipedia.org/wiki/Estado_Islámico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Islamic State",
+			"url": "https://en.wikipedia.org/wiki/Islamic_State",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q22894201",
+			"url": "https://www.wikidata.org/wiki/Q22894201",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q23701422",
+			"url": "https://www.wikidata.org/wiki/Q23701422",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Territorio del «califato»",
+			"tipo": "ocupado",
+			"desde": 2014,
+			"hasta": 2017,
+			"color": "#3f3f3f",
+			"poligono": [
+				[
+					36.9,
+					41.0
+				],
+				[
+					36.4,
+					43.4
+				],
+				[
+					34.9,
+					44.2
+				],
+				[
+					33.0,
+					43.0
+				],
+				[
+					33.9,
+					40.2
+				],
+				[
+					35.8,
+					38.5
+				],
+				[
+					36.6,
+					38.9
+				]
+			]
+		},
+		{
+			"nombre": "Reconquista de Mosul",
+			"tipo": "frente",
+			"desde": 2016,
+			"hasta": 2017,
+			"poligono": [
+				[
+					36.6,
+					42.9
+				],
+				[
+					36.6,
+					43.5
+				],
+				[
+					36.1,
+					43.5
+				],
+				[
+					36.1,
+					42.9
+				]
+			]
+		},
+		{
+			"nombre": "Reconquista del Éufrates (Raqqa–Baguz)",
+			"tipo": "frente",
+			"desde": 2017,
+			"hasta": 2019,
+			"poligono": [
+				[
+					36.1,
+					38.6
+				],
+				[
+					35.9,
+					40.6
+				],
+				[
+					34.4,
+					41.0
+				],
+				[
+					34.9,
+					38.6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Sitio de Kobane",
+			"anio": 2015,
+			"lat": 36.89,
+			"lng": 38.35,
+			"descripcion": "Las milicias kurdas, con apoyo aéreo aliado, frenan por primera vez al EI.",
+			"wiki": "Sitio de Kobane"
+		},
+		{
+			"nombre": "Batalla de Mosul",
+			"anio": 2016,
+			"lat": 36.34,
+			"lng": 43.13,
+			"descripcion": "Nueve meses de combate urbano; la mayor batalla desde 2003.",
+			"wiki": "Batalla de Mosul (2016-2017)",
+			"hasta": 2017
+		},
+		{
+			"nombre": "Ofensiva de Al-Shadaddah",
+			"anio": 2016,
+			"lat": 36.06,
+			"lng": 40.73
+		},
+		{
+			"nombre": "Batalla de al-Qaryatayn",
+			"anio": 2016,
+			"lat": 34.23,
+			"lng": 37.23
+		},
+		{
+			"nombre": "Batalla de Raqqa",
+			"anio": 2017,
+			"lat": 35.95,
+			"lng": 39.01,
+			"descripcion": "Cae la «capital» siria del califato.",
+			"wiki": "Batalla de Raqa (2017)"
+		},
+		{
+			"nombre": "Batalla de Baguz",
+			"anio": 2019,
+			"lat": 34.44,
+			"lng": 40.95,
+			"descripcion": "Último reducto territorial del EI, marzo de 2019."
+		}
+	]
+}

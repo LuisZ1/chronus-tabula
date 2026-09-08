@@ -1,0 +1,105 @@
+{
+	"id": "anglo-espanola-1655",
+	"nombre": "Guerra anglo-española (1655-1660)",
+	"inicio": 1655,
+	"fin": 1660,
+	"paises": [
+		"España",
+		"Inglaterra (Cromwell)"
+	],
+	"bajas": "~30.000 muertos",
+	"descripcion": "El «Western Design» de Cromwell: Inglaterra ataca el Caribe español, fracasa en La Española pero toma Jamaica, y su flota golpea los convoyes de Indias.",
+	"wiki": "Guerra anglo-española (1655-1660)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra anglo-española (1655-1660)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1655-1660)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q4871930",
+			"url": "https://www.wikidata.org/wiki/Q4871930",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Caribe español",
+			"tipo": "frente",
+			"poligono": [
+				[
+					19.5,
+					-78.5
+				],
+				[
+					18.7,
+					-69.5
+				],
+				[
+					17.3,
+					-70
+				],
+				[
+					17.4,
+					-78.5
+				]
+			]
+		},
+		{
+			"nombre": "Rutas de la Plata (Canarias y Cádiz)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1656,
+			"hasta": 1657,
+			"poligono": [
+				[
+					36.8,
+					-7
+				],
+				[
+					36.5,
+					-5.9
+				],
+				[
+					27.8,
+					-15.7
+				],
+				[
+					28.2,
+					-17.2
+				],
+				[
+					33,
+					-13
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Jamaica",
+			"anio": 1655,
+			"lat": 17.98,
+			"lng": -76.8,
+			"descripcion": "Penn y Venables ocupan la isla, base del futuro poder inglés en el Caribe."
+		},
+		{
+			"nombre": "Ataque a Santa Cruz de Tenerife",
+			"anio": 1657,
+			"lat": 28.47,
+			"lng": -16.25,
+			"descripcion": "Blake destruye la flota de Indias fondeada, aunque la plata ya estaba en tierra."
+		},
+		{
+			"nombre": "batalla de Ocho Ríos",
+			"anio": 1657,
+			"lat": 18.41,
+			"lng": -77.11
+		}
+	]
+}

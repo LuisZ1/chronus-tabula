@@ -1,0 +1,19 @@
+{
+	"nombre": "Fundación de Roma (leyenda)",
+	"anio": -753,
+	"hasta": -740,
+	"lat": 41.89,
+	"lng": 12.48,
+	"descripcion": "Fecha legendaria de la fundación de Roma por Rómulo.",
+	"wiki": "Fundación de Roma",
+	"paises": [
+		"Roma"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Fundación de Roma",
+			"url": "https://es.wikipedia.org/wiki/Fundación_de_Roma",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

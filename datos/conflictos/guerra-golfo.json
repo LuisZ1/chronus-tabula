@@ -1,0 +1,90 @@
+{
+	"id": "guerra-golfo",
+	"nombre": "Guerra del Golfo",
+	"inicio": 1990,
+	"fin": 1991,
+	"paises": [
+		"Irak",
+		"Kuwait",
+		"Estados Unidos",
+		"Arabia Saudí",
+		"Gran Bretaña",
+		"Francia"
+	],
+	"bajas": "~25.000-50.000 muertos iraquíes; 292 de la coalición",
+	"descripcion": "Sadam invade Kuwait; una coalición de 35 países lo expulsa en la operación Tormenta del Desierto: cien horas de guerra terrestre tras seis semanas de bombardeo.",
+	"wiki": "Guerra del Golfo",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra del Golfo",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Kuwait ocupado",
+			"tipo": "ocupado",
+			"desde": 1990,
+			"hasta": 1991,
+			"poligono": [
+				[
+					30.1,
+					46.5
+				],
+				[
+					30.0,
+					48.4
+				],
+				[
+					28.6,
+					48.3
+				],
+				[
+					28.5,
+					46.5
+				]
+			]
+		},
+		{
+			"nombre": "Tormenta del Desierto",
+			"tipo": "frente",
+			"desde": 1991,
+			"hasta": 1991,
+			"poligono": [
+				[
+					31.0,
+					44.5
+				],
+				[
+					30.5,
+					48.0
+				],
+				[
+					28.8,
+					47.8
+				],
+				[
+					29.2,
+					44.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Liberación de la ciudad de Kuwait",
+			"anio": 1991,
+			"lat": 29.38,
+			"lng": 47.99,
+			"descripcion": "La coalición entra en la capital el 27 de febrero; los pozos de petróleo arden."
+		}
+	]
+}

@@ -1,0 +1,224 @@
+{
+	"id": "kirguistan",
+	"nombre": "Kirguistán",
+	"nombres": [
+		"Kyrgyzstan",
+		"Kirguistán",
+		"Kirguizistán"
+	],
+	"wikidata": "Q813",
+	"wiki": "es:Kirguistán",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q813",
+			"url": "https://www.wikidata.org/wiki/Q813",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Kirguistán",
+			"url": "https://es.wikipedia.org/wiki/Kirguist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "KGZ",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 28350
+		},
+		{
+			"anio": -9000,
+			"valor": 33075
+		},
+		{
+			"anio": -8000,
+			"valor": 38587
+		},
+		{
+			"anio": -7000,
+			"valor": 45018
+		},
+		{
+			"anio": -6000,
+			"valor": 52522
+		},
+		{
+			"anio": -5000,
+			"valor": 61275
+		},
+		{
+			"anio": -4000,
+			"valor": 71488
+		},
+		{
+			"anio": -3000,
+			"valor": 83403
+		},
+		{
+			"anio": -2000,
+			"valor": 97303
+		},
+		{
+			"anio": -1000,
+			"valor": 113520
+		},
+		{
+			"anio": 0,
+			"valor": 132440
+		},
+		{
+			"anio": 100,
+			"valor": 141900
+		},
+		{
+			"anio": 200,
+			"valor": 152036
+		},
+		{
+			"anio": 300,
+			"valor": 162896
+		},
+		{
+			"anio": 400,
+			"valor": 174531
+		},
+		{
+			"anio": 500,
+			"valor": 186998
+		},
+		{
+			"anio": 600,
+			"valor": 200355
+		},
+		{
+			"anio": 700,
+			"valor": 214666
+		},
+		{
+			"anio": 800,
+			"valor": 230000
+		},
+		{
+			"anio": 900,
+			"valor": 240000
+		},
+		{
+			"anio": 1000,
+			"valor": 250000
+		},
+		{
+			"anio": 1100,
+			"valor": 270000
+		},
+		{
+			"anio": 1200,
+			"valor": 290000
+		},
+		{
+			"anio": 1300,
+			"valor": 310000
+		},
+		{
+			"anio": 1400,
+			"valor": 330000
+		},
+		{
+			"anio": 1500,
+			"valor": 350000
+		},
+		{
+			"anio": 1600,
+			"valor": 400000
+		},
+		{
+			"anio": 1700,
+			"valor": 450000
+		},
+		{
+			"anio": 1750,
+			"valor": 590103
+		},
+		{
+			"anio": 1800,
+			"valor": 530343
+		},
+		{
+			"anio": 1850,
+			"valor": 697603
+		},
+		{
+			"anio": 1900,
+			"valor": 1100576
+		},
+		{
+			"anio": 1910,
+			"valor": 1205653
+		},
+		{
+			"anio": 1920,
+			"valor": 1320825
+		},
+		{
+			"anio": 1930,
+			"valor": 1447162
+		},
+		{
+			"anio": 1940,
+			"valor": 1585583
+		},
+		{
+			"anio": 1950,
+			"valor": 1751141
+		},
+		{
+			"anio": 1960,
+			"valor": 2215517
+		},
+		{
+			"anio": 1970,
+			"valor": 3025143
+		},
+		{
+			"anio": 1980,
+			"valor": 3729372
+		},
+		{
+			"anio": 1990,
+			"valor": 4459545
+		},
+		{
+			"anio": 2000,
+			"valor": 5025150
+		},
+		{
+			"anio": 2010,
+			"valor": 5491763
+		},
+		{
+			"anio": 2020,
+			"valor": 6664143
+		},
+		{
+			"anio": 2023,
+			"valor": 7073523
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "863b13e0beb5",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Kirguistán o Kirguizistán, oficialmente República Kirguisa ,es un país montañoso, sin litoral, ubicado en Asia Central. Comparte fronteras con Kazajistán al norte, con China al este, con Tayikistán al sur y Uzbekistán al oeste."
+}

@@ -1,0 +1,223 @@
+{
+	"id": "pakistan",
+	"nombre": "Pakistán",
+	"nombres": [
+		"Pakistan",
+		"Pakistán"
+	],
+	"wikidata": "Q843",
+	"wiki": "es:Pakistán",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q843",
+			"url": "https://www.wikidata.org/wiki/Q843",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Pakistán",
+			"url": "https://es.wikipedia.org/wiki/Pakist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "PAK",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 8500
+		},
+		{
+			"anio": -9000,
+			"valor": 29124
+		},
+		{
+			"anio": -8000,
+			"valor": 48540
+		},
+		{
+			"anio": -7000,
+			"valor": 80901
+		},
+		{
+			"anio": -6000,
+			"valor": 134835
+		},
+		{
+			"anio": -5000,
+			"valor": 224726
+		},
+		{
+			"anio": -4000,
+			"valor": 374544
+		},
+		{
+			"anio": -3000,
+			"valor": 624240
+		},
+		{
+			"anio": -2000,
+			"valor": 1040400
+		},
+		{
+			"anio": -1000,
+			"valor": 1734000
+		},
+		{
+			"anio": 0,
+			"valor": 2890000
+		},
+		{
+			"anio": 100,
+			"valor": 3102500
+		},
+		{
+			"anio": 200,
+			"valor": 3315000
+		},
+		{
+			"anio": 300,
+			"valor": 3570000
+		},
+		{
+			"anio": 400,
+			"valor": 3825000
+		},
+		{
+			"anio": 500,
+			"valor": 4080000
+		},
+		{
+			"anio": 600,
+			"valor": 4335000
+		},
+		{
+			"anio": 700,
+			"valor": 4802500
+		},
+		{
+			"anio": 800,
+			"valor": 5270000
+		},
+		{
+			"anio": 900,
+			"valor": 5907500
+		},
+		{
+			"anio": 1000,
+			"valor": 6545000
+		},
+		{
+			"anio": 1100,
+			"valor": 6800000
+		},
+		{
+			"anio": 1200,
+			"valor": 7055000
+		},
+		{
+			"anio": 1300,
+			"valor": 7055000
+		},
+		{
+			"anio": 1400,
+			"valor": 7990000
+		},
+		{
+			"anio": 1500,
+			"valor": 8500000
+		},
+		{
+			"anio": 1600,
+			"valor": 11050000
+		},
+		{
+			"anio": 1700,
+			"valor": 13600000
+		},
+		{
+			"anio": 1750,
+			"valor": 14895769
+		},
+		{
+			"anio": 1800,
+			"valor": 13119841
+		},
+		{
+			"anio": 1850,
+			"valor": 15066213
+		},
+		{
+			"anio": 1900,
+			"valor": 18263133
+		},
+		{
+			"anio": 1910,
+			"valor": 19230643
+		},
+		{
+			"anio": 1920,
+			"valor": 21780196
+		},
+		{
+			"anio": 1930,
+			"valor": 26064359
+		},
+		{
+			"anio": 1940,
+			"valor": 31284924
+		},
+		{
+			"anio": 1950,
+			"valor": 35849256
+		},
+		{
+			"anio": 1960,
+			"valor": 45709314
+		},
+		{
+			"anio": 1970,
+			"valor": 60166721
+		},
+		{
+			"anio": 1980,
+			"valor": 82291008
+		},
+		{
+			"anio": 1990,
+			"valor": 116155584
+		},
+		{
+			"anio": 2000,
+			"valor": 154879124
+		},
+		{
+			"anio": 2010,
+			"valor": 199239048
+		},
+		{
+			"anio": 2020,
+			"valor": 235001745
+		},
+		{
+			"anio": 2023,
+			"valor": 247504505
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "9b8f6f75d0f1",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Pakistán o Paquistán, oficialmente República Islámica de Pakistán, es un Estado soberano de Asia ubicado en Oriente Medio y el subcontinente indio que comparte fronteras con Afganistán al norte y noroeste, con Irán al oeste, con la India al este y con China al noreste, mientras que hacia el sur posee unos 1046 km de costa bañada por el mar Arábigo y el golfo…"
+}

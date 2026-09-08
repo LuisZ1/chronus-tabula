@@ -1,0 +1,19 @@
+{
+	"nombre": "Llegada del comodoro Perry (los barcos negros)",
+	"anio": 1853,
+	"lat": 35.29,
+	"lng": 139.67,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "La flota estadounidense de Matthew Perry fuerza la apertura de Japón al comercio exterior.",
+	"wiki": "Expedición Perry",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Expedición Perry",
+			"url": "https://es.wikipedia.org/wiki/Expedici%C3%B3n_Perry",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

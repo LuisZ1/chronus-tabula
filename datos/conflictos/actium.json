@@ -1,0 +1,91 @@
+{
+	"id": "actium",
+	"nombre": "Guerra final de la República romana",
+	"inicio": -32,
+	"fin": -30,
+	"paises": [
+		"Roma (Octavio)",
+		"Marco Antonio y Cleopatra (Egipto)"
+	],
+	"bajas": "~10.000-20.000 muertos",
+	"descripcion": "Octavio derrota a Marco Antonio y Cleopatra; Egipto se anexiona y nace el Imperio con Augusto.",
+	"wiki": "Batalla de Accio",
+	"zonas": [
+		{
+			"nombre": "Mar Jónico (Accio)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": -31,
+			"hasta": -31,
+			"poligono": [
+				[
+					39.5,
+					20
+				],
+				[
+					39.3,
+					21.2
+				],
+				[
+					38.5,
+					21
+				],
+				[
+					38.6,
+					20
+				]
+			]
+		},
+		{
+			"nombre": "Egipto",
+			"tipo": "frente",
+			"desde": -30,
+			"hasta": -30,
+			"poligono": [
+				[
+					31.4,
+					29.5
+				],
+				[
+					31.4,
+					32.3
+				],
+				[
+					29.8,
+					32
+				],
+				[
+					29.8,
+					29.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Accio",
+			"anio": -31,
+			"lat": 38.94,
+			"lng": 20.77,
+			"descripcion": "Agripa destruye la flota de Antonio y Cleopatra."
+		},
+		{
+			"nombre": "Toma de Alejandría",
+			"anio": -30,
+			"lat": 31.2,
+			"lng": 29.92,
+			"descripcion": "Suicidio de Antonio y Cleopatra; Egipto, provincia romana."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Accio",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Accio",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

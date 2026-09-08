@@ -1,0 +1,36 @@
+{
+	"nombre": "Corinto",
+	"pais": "Corinto",
+	"lat": 37.94,
+	"lng": 22.93,
+	"desde": -700,
+	"hasta": -146,
+	"descripcion": "Rica polis comercial del istmo, potencia colonial y naval. Miembro destacado de la Liga del Peloponeso; arrasada por Roma en 146 a. C.",
+	"wiki": "Corinto",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Corinto",
+			"url": "https://es.wikipedia.org/wiki/Corinto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"poligono": [
+		[
+			38.1,
+			22.55
+		],
+		[
+			38.02,
+			23.1
+		],
+		[
+			37.7,
+			23.05
+		],
+		[
+			37.72,
+			22.55
+		]
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Vinlandia: los vikingos llegan a América",
+	"anio": 1000,
+	"lat": 51.6,
+	"lng": -55.53,
+	"paises": [
+		"Vikingos (Escandinavia)"
+	],
+	"descripcion": "Leif Erikson desembarca en Vinlandia (L'Anse aux Meadows, Terranova): europeos en América 492 años antes que Colón.",
+	"wiki": "Vinlandia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Vinlandia",
+			"url": "https://es.wikipedia.org/wiki/Vinlandia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

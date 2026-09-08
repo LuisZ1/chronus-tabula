@@ -1,0 +1,19 @@
+{
+	"nombre": "Acuerdo de París sobre el clima",
+	"anio": 2015,
+	"lat": 48.86,
+	"lng": 2.35,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "195 países pactan limitar el calentamiento global «muy por debajo» de 2 °C.",
+	"wiki": "Acuerdo de París",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Acuerdo de París",
+			"url": "https://es.wikipedia.org/wiki/Acuerdo_de_París",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Apertura de la Ruta de la Seda",
+	"anio": -130,
+	"lat": 34.27,
+	"lng": 108.9,
+	"paises": [
+		"Dinastía Han"
+	],
+	"descripcion": "Las misiones del diplomático Zhang Qian bajo el emperador Wu abren las rutas comerciales que conectan China con Asia central, Persia y el Mediterráneo.",
+	"wiki": "Ruta de la Seda",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Ruta de la Seda",
+			"url": "https://es.wikipedia.org/wiki/Ruta_de_la_Seda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

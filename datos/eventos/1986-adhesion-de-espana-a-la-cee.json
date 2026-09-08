@@ -1,0 +1,19 @@
+{
+	"nombre": "Adhesión de España a la CEE",
+	"anio": 1986,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "El 1 de enero de 1986 España ingresa en la Comunidad Económica Europea (hoy Unión Europea) junto con Portugal.",
+	"wiki": "Adhesión de España a la Comunidad Económica Europea",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Adhesión de España a la Comunidad Económica Europea",
+			"url": "https://es.wikipedia.org/wiki/Adhesión_de_España_a_la_Comunidad_Económica_Europea",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

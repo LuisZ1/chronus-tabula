@@ -1,0 +1,60 @@
+{
+	"id": "navas",
+	"nombre": "Cruzada de Las Navas de Tolosa",
+	"inicio": 1212,
+	"fin": 1212,
+	"paises": [
+		"Corona de Castilla",
+		"Corona de Aragón",
+		"Reino de Navarra",
+		"Califato almohade"
+	],
+	"bajas": "~60.000 muertos según las crónicas",
+	"descripcion": "Coalición cristiana contra los almohades; punto de inflexión de la Reconquista.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Las Navas de Tolosa",
+			"anio": 1212,
+			"lat": 38.28,
+			"lng": -3.58,
+			"bajas": "grandes pérdidas almohades",
+			"descripcion": "Alfonso VIII, Pedro II y Sancho VII derrotan a al-Nasir."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Sierra Morena y campo de batalla",
+			"tipo": "frente",
+			"poligono": [
+				[
+					38.9,
+					-4.5
+				],
+				[
+					38.7,
+					-2.8
+				],
+				[
+					38,
+					-3
+				],
+				[
+					38,
+					-4.5
+				]
+			]
+		}
+	],
+	"wiki": "Batalla de Las Navas de Tolosa",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Las Navas de Tolosa",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Las_Navas_de_Tolosa",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

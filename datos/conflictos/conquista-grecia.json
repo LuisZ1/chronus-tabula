@@ -1,0 +1,100 @@
+{
+	"id": "conquista-grecia",
+	"nombre": "Guerras macedónicas y conquista de Grecia",
+	"inicio": -214,
+	"fin": -146,
+	"paises": [
+		"Roma",
+		"Macedonia",
+		"Liga Aquea",
+		"Imperio seléucida"
+	],
+	"bajas": "~100.000-200.000 muertos",
+	"descripcion": "Cuatro guerras macedónicas y la guerra aquea acaban con la Grecia helenística: en 146 a. C. Corinto es saqueada y Grecia queda bajo dominio romano.",
+	"wiki": "Guerras macedónicas",
+	"zonas": [
+		{
+			"nombre": "Macedonia y Tesalia",
+			"tipo": "frente",
+			"desde": -200,
+			"hasta": -168,
+			"poligono": [
+				[
+					41.5,
+					21
+				],
+				[
+					41,
+					23.5
+				],
+				[
+					39.3,
+					23
+				],
+				[
+					39.5,
+					21
+				]
+			]
+		},
+		{
+			"nombre": "Grecia (guerra aquea)",
+			"tipo": "frente",
+			"desde": -148,
+			"hasta": -146,
+			"poligono": [
+				[
+					38.5,
+					21.5
+				],
+				[
+					38.3,
+					23.5
+				],
+				[
+					37.5,
+					23.3
+				],
+				[
+					37.8,
+					21.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Cinoscéfalas",
+			"anio": -197,
+			"lat": 39.42,
+			"lng": 22.55,
+			"descripcion": "La legión demuestra su superioridad sobre la falange."
+		},
+		{
+			"nombre": "Batalla de Pidna",
+			"anio": -168,
+			"lat": 40.4,
+			"lng": 22.6,
+			"bajas": "~25.000 macedonios muertos",
+			"descripcion": "Fin del reino de Macedonia."
+		},
+		{
+			"nombre": "Saqueo de Corinto",
+			"anio": -146,
+			"lat": 37.9,
+			"lng": 22.9,
+			"descripcion": "Grecia pasa a ser provincia romana."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras macedónicas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_macedónicas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

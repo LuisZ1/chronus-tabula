@@ -1,0 +1,40 @@
+{
+	"id": "teotihuacan",
+	"nombre": "Teotihuacán",
+	"nombres": [
+		"Teotihuacán",
+		"Teotihuacàn"
+	],
+	"wiki": "Teotihuacán",
+	"wikidata": "Q172613",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Teotihuacán",
+			"url": "https://es.wikipedia.org/wiki/Teotihuacán",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Teotihuacán",
+			"url": "https://es.wikipedia.org/wiki/Teotihuac%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Teotihuacan o Teotihuacán, que, según nuevas investigaciones, también pudo haber sido conocida como Teohuacan, es el nombre que se le da al gran complejo arqueológico que fue uno de los mayores de Mesoamérica durante el clásico, más precisamente entre c. 100 a.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2d23933fc6e9",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,286 @@
+{
+	"id": "argelia",
+	"nombre": "Argelia",
+	"nombres": [
+		"Algeria",
+		"Algeria (France)",
+		"Algeria (FR)",
+		"Argelia"
+	],
+	"wiki": "es:Argelia",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Argelia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q262",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Algeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~DZA",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Argelia",
+			"url": "https://es.wikipedia.org/wiki/Argelia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57613",
+			"url": "http://www.wikidata.org/entity/Q57613",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q20109520",
+			"url": "http://www.wikidata.org/entity/Q20109520",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q80100650",
+			"url": "http://www.wikidata.org/entity/Q80100650",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q96612848",
+			"url": "http://www.wikidata.org/entity/Q96612848",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q109784588",
+			"url": "http://www.wikidata.org/entity/Q109784588",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q133540883",
+			"url": "http://www.wikidata.org/entity/Q133540883",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q262",
+			"url": "https://www.wikidata.org/wiki/Q262",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Argelia francesa",
+			"desde": 1830,
+			"hasta": 1962
+		},
+		{
+			"nombre": "República Argelina Democrática y Popular",
+			"desde": 1962,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q262",
+	"gobernantes": [
+		{
+			"nombre": "Masinisa",
+			"desde": -202,
+			"hasta": -148,
+			"cargo": "rey de Numidia"
+		},
+		{
+			"nombre": "Jugurta",
+			"desde": -118,
+			"hasta": -105,
+			"cargo": "rey de Numidia"
+		},
+		{
+			"nombre": "Reino zayyánida de Tremecén",
+			"desde": 1235,
+			"hasta": 1554,
+			"cargo": "dinastía (Abdalwadíes)"
+		},
+		{
+			"nombre": "Hayreddin Barbarroja",
+			"desde": 1518,
+			"hasta": 1533,
+			"cargo": "beylerbey (Regencia otomana de Argel)"
+		},
+		{
+			"nombre": "Regencia de Argel (deys otomanos)",
+			"desde": 1671,
+			"hasta": 1830,
+			"cargo": "dey"
+		},
+		{
+			"nombre": "Abd al-Qadir al-Yazairi (Abdelkader)",
+			"desde": 1832,
+			"hasta": 1847,
+			"cargo": "emir (resistencia a la conquista francesa)"
+		},
+		{
+			"nombre": "Ferhat Abbas",
+			"desde": 1962,
+			"hasta": 1963,
+			"cargo": "presidente de la Asamblea Constituyente (jefe de Estado)"
+		},
+		{
+			"nombre": "Ahmed Ben Bella",
+			"desde": 1963,
+			"hasta": 1965,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Houari Boumédiène",
+			"desde": 1965,
+			"hasta": 1978,
+			"cargo": "presidente (Consejo de la Revolución y presidente de la República)"
+		},
+		{
+			"nombre": "Rabah Bitat",
+			"desde": 1978,
+			"hasta": 1979,
+			"cargo": "presidente interino"
+		},
+		{
+			"nombre": "Chadli Bendjedid",
+			"desde": 1979,
+			"hasta": 1992,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Mohamed Boudiaf",
+			"desde": 1992,
+			"hasta": 1992,
+			"cargo": "presidente (Alto Comité de Estado)"
+		},
+		{
+			"nombre": "Ali Kafi",
+			"desde": 1992,
+			"hasta": 1994,
+			"cargo": "presidente (Alto Comité de Estado)"
+		},
+		{
+			"nombre": "Liamine Zéroual",
+			"desde": 1994,
+			"hasta": 1999,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Abdelaziz Bouteflika",
+			"desde": 1999,
+			"hasta": 2019,
+			"cargo": "presidente"
+		},
+		{
+			"desde": 2017,
+			"hasta": 2019,
+			"nombre": "Ahmed Ouyahia",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"nombre": "Abdelkader Bensalah",
+			"desde": 2019,
+			"hasta": 2019,
+			"cargo": "presidente interino"
+		},
+		{
+			"nombre": "Abdelmadjid Tebboune",
+			"desde": 2019,
+			"hasta": 2026,
+			"cargo": "presidente"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Nuredin Bedui",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2021,
+			"nombre": "Abdelaziz Djerrad",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2021,
+			"hasta": 2023,
+			"nombre": "Aiman Benabderrahmane",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2023,
+			"hasta": 2025,
+			"nombre": "Nadir Larbaoui",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2025,
+			"hasta": 2025,
+			"nombre": "Sifi Ghrieb",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1900,
+			"valor": 4700000,
+			"fuente": "estimación (OWID)"
+		},
+		{
+			"anio": 1950,
+			"valor": 8872000,
+			"fuente": "OWID"
+		},
+		{
+			"anio": 1966,
+			"valor": 12096000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 1987,
+			"valor": 23038000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2008,
+			"valor": 34080000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2024,
+			"valor": 46700000,
+			"fuente": "UN/OWID (estimación)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "be0016978bf3",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Argelia, oficialmente República Argelina Democrática y Popular, es uno de los cincuenta y cuatro países que forman el continente africano. Constitucionalmente se define como país árabe, amazig y musulmán.Su capital y ciudad más poblada es Argel.",
+	"escudos": [
+		{
+			"archivo": "National Emblem of Algeria (bronze effect).svg"
+		}
+	]
+}

@@ -1,0 +1,235 @@
+{
+	"id": "suecia",
+	"nombre": "Suecia",
+	"nombres": [
+		"Sweden",
+		"Sweden–Norway"
+	],
+	"gobernantes": [
+		{
+			"desde": 1611,
+			"hasta": 1632,
+			"nombre": "Gustavo II Adolfo (el León del Norte)",
+			"titulo": "Rey de Suecia"
+		},
+		{
+			"desde": 1697,
+			"hasta": 1718,
+			"nombre": "Carlos XII",
+			"titulo": "Rey de Suecia"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Suecia",
+			"url": "https://es.wikipedia.org/wiki/Suecia",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Suecia",
+			"url": "https://es.wikipedia.org/wiki/Suecia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Sweden",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 237
+		},
+		{
+			"anio": -9000,
+			"valor": 316
+		},
+		{
+			"anio": -8000,
+			"valor": 421
+		},
+		{
+			"anio": -7000,
+			"valor": 562
+		},
+		{
+			"anio": -6000,
+			"valor": 750
+		},
+		{
+			"anio": -5000,
+			"valor": 1000
+		},
+		{
+			"anio": -4000,
+			"valor": 2000
+		},
+		{
+			"anio": -3000,
+			"valor": 4000
+		},
+		{
+			"anio": -2000,
+			"valor": 10000
+		},
+		{
+			"anio": -1000,
+			"valor": 50000
+		},
+		{
+			"anio": 0,
+			"valor": 200000
+		},
+		{
+			"anio": 100,
+			"valor": 220000
+		},
+		{
+			"anio": 200,
+			"valor": 240000
+		},
+		{
+			"anio": 300,
+			"valor": 260000
+		},
+		{
+			"anio": 400,
+			"valor": 280000
+		},
+		{
+			"anio": 500,
+			"valor": 300000
+		},
+		{
+			"anio": 600,
+			"valor": 320000
+		},
+		{
+			"anio": 700,
+			"valor": 340000
+		},
+		{
+			"anio": 800,
+			"valor": 360000
+		},
+		{
+			"anio": 900,
+			"valor": 380000
+		},
+		{
+			"anio": 1000,
+			"valor": 400000
+		},
+		{
+			"anio": 1100,
+			"valor": 470000
+		},
+		{
+			"anio": 1200,
+			"valor": 540000
+		},
+		{
+			"anio": 1300,
+			"valor": 1100000
+		},
+		{
+			"anio": 1400,
+			"valor": 433628
+		},
+		{
+			"anio": 1500,
+			"valor": 507784
+		},
+		{
+			"anio": 1600,
+			"valor": 766244
+		},
+		{
+			"anio": 1700,
+			"valor": 1368171
+		},
+		{
+			"anio": 1750,
+			"valor": 1772683
+		},
+		{
+			"anio": 1800,
+			"valor": 2500000
+		},
+		{
+			"anio": 1850,
+			"valor": 3461607
+		},
+		{
+			"anio": 1900,
+			"valor": 5123503
+		},
+		{
+			"anio": 1910,
+			"valor": 5463482
+		},
+		{
+			"anio": 1920,
+			"valor": 5876734
+		},
+		{
+			"anio": 1930,
+			"valor": 6141408
+		},
+		{
+			"anio": 1940,
+			"valor": 6393377
+		},
+		{
+			"anio": 1950,
+			"valor": 7016565
+		},
+		{
+			"anio": 1960,
+			"valor": 7484597
+		},
+		{
+			"anio": 1970,
+			"valor": 8042783
+		},
+		{
+			"anio": 1980,
+			"valor": 8310470
+		},
+		{
+			"anio": 1990,
+			"valor": 8558571
+		},
+		{
+			"anio": 2000,
+			"valor": 8872099
+		},
+		{
+			"anio": 2010,
+			"valor": 9378234
+		},
+		{
+			"anio": 2020,
+			"valor": 10353682
+		},
+		{
+			"anio": 2023,
+			"valor": 10551493
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "93d121ad122c",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Suecia, oficialmente el Reino de Suecia, es un país escandinavo de Europa del Norte, constituido en estado social y democrático, con la monarquía parlamentaria como sistema de gobierno. Es uno de los veintisiete Estados soberanos que forman la Unión Europea."
+}

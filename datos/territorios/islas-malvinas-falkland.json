@@ -1,0 +1,17 @@
+{
+	"nombre": "Islas Malvinas / Falkland",
+	"pais": "Gran Bretaña",
+	"lat": -51.7,
+	"lng": -59.35,
+	"desde": 1833,
+	"descripcion": "Administradas por el Reino Unido desde enero de 1833. Argentina las reclama como heredera de la soberanía española y las ocupó brevemente en 1982.",
+	"wiki": "Islas Malvinas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Islas Malvinas",
+			"url": "https://es.wikipedia.org/wiki/Islas_Malvinas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

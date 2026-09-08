@@ -1,0 +1,92 @@
+{
+	"id": "franco-prusiana",
+	"nombre": "Guerra franco-prusiana",
+	"inicio": 1870,
+	"fin": 1871,
+	"paises": [
+		"Francia",
+		"Prusia y estados alemanes"
+	],
+	"bajas": "~250.000 muertos",
+	"descripcion": "La victoria prusiana provoca la unificación alemana y la caída de Napoleón III.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Sedán",
+			"anio": 1870,
+			"lat": 49.7,
+			"lng": 4.94,
+			"bajas": "~26.000 bajas y 100.000 prisioneros franceses",
+			"descripcion": "Napoleón III es capturado con su ejército."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Alsacia, Lorena y Sedán",
+			"tipo": "frente",
+			"desde": 1870,
+			"hasta": 1870,
+			"poligono": [
+				[
+					49.9,
+					2
+				],
+				[
+					49.8,
+					7.8
+				],
+				[
+					48.8,
+					7.8
+				],
+				[
+					47.8,
+					6
+				],
+				[
+					48.3,
+					3
+				],
+				[
+					49.2,
+					2.2
+				]
+			]
+		},
+		{
+			"nombre": "Sitio de París",
+			"tipo": "frente",
+			"desde": 1870,
+			"hasta": 1871,
+			"poligono": [
+				[
+					49.1,
+					1.9
+				],
+				[
+					49.1,
+					2.9
+				],
+				[
+					48.6,
+					2.9
+				],
+				[
+					48.6,
+					1.9
+				]
+			]
+		}
+	],
+	"wiki": "Guerra franco-prusiana",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra franco-prusiana",
+			"url": "https://es.wikipedia.org/wiki/Guerra_franco-prusiana",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

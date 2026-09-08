@@ -1,0 +1,62 @@
+{
+	"id": "tercera-guerra-sagrada",
+	"nombre": "Tercera Guerra Sagrada",
+	"inicio": -356,
+	"fin": -346,
+	"paises": [
+		"Fócide",
+		"Tebas",
+		"Macedonia"
+	],
+	"bajas": "miles",
+	"descripcion": "Guerra por el control del santuario de Delfos: los focenses ocuparon el oráculo y saquearon su tesoro para financiar mercenarios. La intervención de Filipo II de Macedonia en favor de la Anfictionía le dio pie a introducirse en la política griega, anticipando su hegemonía.",
+	"wiki": "Tercera Guerra Sagrada",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tercera Guerra Sagrada",
+			"url": "https://es.wikipedia.org/wiki/Tercera_Guerra_Sagrada",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Fócide y santuario de Delfos",
+			"tipo": "frente",
+			"desde": -356,
+			"hasta": -346,
+			"poligono": [
+				[
+					38.9,
+					22.2
+				],
+				[
+					38.6,
+					22.9
+				],
+				[
+					38.3,
+					22.7
+				],
+				[
+					38.4,
+					22.2
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del Campo de Azafrán",
+			"anio": -352,
+			"lat": 39.27,
+			"lng": 22.6
+		},
+		{
+			"nombre": "Delfos (santuario en disputa)",
+			"anio": -346,
+			"lat": 38.48,
+			"lng": 22.5
+		}
+	]
+}

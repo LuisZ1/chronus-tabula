@@ -1,0 +1,18 @@
+{
+	"nombre": "Constitución de Cádiz",
+	"anio": 1812,
+	"lat": 36.53,
+	"lng": -6.29,
+	"descripcion": "«La Pepa», primera constitución española, promulgada el 19 de marzo de 1812.",
+	"wiki": "Constitución española de 1812",
+	"paises": [
+		"España"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Constitución española de 1812",
+			"url": "https://es.wikipedia.org/wiki/Constitución_española_de_1812",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

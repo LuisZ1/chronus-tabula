@@ -1,0 +1,222 @@
+{
+	"id": "paraguay",
+	"nombre": "Paraguay",
+	"nombres": [
+		"Paraguay"
+	],
+	"wikidata": "Q733",
+	"wiki": "es:Paraguay",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q733",
+			"url": "https://www.wikidata.org/wiki/Q733",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Paraguay",
+			"url": "https://es.wikipedia.org/wiki/Paraguay",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "PRY",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 3500
+		},
+		{
+			"anio": -9000,
+			"valor": 4017
+		},
+		{
+			"anio": -8000,
+			"valor": 4625
+		},
+		{
+			"anio": -7000,
+			"valor": 5344
+		},
+		{
+			"anio": -6000,
+			"valor": 6198
+		},
+		{
+			"anio": -5000,
+			"valor": 7217
+		},
+		{
+			"anio": -4000,
+			"valor": 8442
+		},
+		{
+			"anio": -3000,
+			"valor": 9921
+		},
+		{
+			"anio": -2000,
+			"valor": 11719
+		},
+		{
+			"anio": -1000,
+			"valor": 13920
+		},
+		{
+			"anio": 0,
+			"valor": 16634
+		},
+		{
+			"anio": 100,
+			"valor": 20517
+		},
+		{
+			"anio": 200,
+			"valor": 25316
+		},
+		{
+			"anio": 300,
+			"valor": 31248
+		},
+		{
+			"anio": 400,
+			"valor": 38585
+		},
+		{
+			"anio": 500,
+			"valor": 47660
+		},
+		{
+			"anio": 600,
+			"valor": 58889
+		},
+		{
+			"anio": 700,
+			"valor": 72789
+		},
+		{
+			"anio": 800,
+			"valor": 90000
+		},
+		{
+			"anio": 900,
+			"valor": 95000
+		},
+		{
+			"anio": 1000,
+			"valor": 100000
+		},
+		{
+			"anio": 1100,
+			"valor": 120000
+		},
+		{
+			"anio": 1200,
+			"valor": 140000
+		},
+		{
+			"anio": 1300,
+			"valor": 160000
+		},
+		{
+			"anio": 1400,
+			"valor": 180000
+		},
+		{
+			"anio": 1500,
+			"valor": 200000
+		},
+		{
+			"anio": 1600,
+			"valor": 200000
+		},
+		{
+			"anio": 1700,
+			"valor": 200000
+		},
+		{
+			"anio": 1750,
+			"valor": 250000
+		},
+		{
+			"anio": 1800,
+			"valor": 300000
+		},
+		{
+			"anio": 1850,
+			"valor": 344865
+		},
+		{
+			"anio": 1900,
+			"valor": 463602
+		},
+		{
+			"anio": 1910,
+			"valor": 564592
+		},
+		{
+			"anio": 1920,
+			"valor": 713685
+		},
+		{
+			"anio": 1930,
+			"valor": 898760
+		},
+		{
+			"anio": 1940,
+			"valor": 1138105
+		},
+		{
+			"anio": 1950,
+			"valor": 1504351
+		},
+		{
+			"anio": 1960,
+			"valor": 1883517
+		},
+		{
+			"anio": 1970,
+			"valor": 2388030
+		},
+		{
+			"anio": 1980,
+			"valor": 3053239
+		},
+		{
+			"anio": 1990,
+			"valor": 4035752
+		},
+		{
+			"anio": 2000,
+			"valor": 5100875
+		},
+		{
+			"anio": 2010,
+			"valor": 5737973
+		},
+		{
+			"anio": 2020,
+			"valor": 6603741
+		},
+		{
+			"anio": 2023,
+			"valor": 6844150
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "359ac60280fe",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Paraguay, oficialmente República del Paraguay, es un país soberano situado en el centro de Sudamérica con grandes extensiones de bosques, cataratas y humedales.Está organizado como un estado unitario, compuesto por una capital y diecisiete departamentos. Su capital es Asunción, una de las ciudades más antiguas de América."
+}

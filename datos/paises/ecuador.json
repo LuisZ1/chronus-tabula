@@ -1,0 +1,222 @@
+{
+	"id": "ecuador",
+	"nombre": "Ecuador",
+	"nombres": [
+		"Ecuador"
+	],
+	"wikidata": "Q736",
+	"wiki": "es:Ecuador",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q736",
+			"url": "https://www.wikidata.org/wiki/Q736",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Ecuador",
+			"url": "https://es.wikipedia.org/wiki/Ecuador",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "ECU",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 69685
+		},
+		{
+			"anio": -9000,
+			"valor": 77428
+		},
+		{
+			"anio": -8000,
+			"valor": 86032
+		},
+		{
+			"anio": -7000,
+			"valor": 95591
+		},
+		{
+			"anio": -6000,
+			"valor": 106212
+		},
+		{
+			"anio": -5000,
+			"valor": 118013
+		},
+		{
+			"anio": -4000,
+			"valor": 131126
+		},
+		{
+			"anio": -3000,
+			"valor": 145696
+		},
+		{
+			"anio": -2000,
+			"valor": 161884
+		},
+		{
+			"anio": -1000,
+			"valor": 179871
+		},
+		{
+			"anio": 0,
+			"valor": 199857
+		},
+		{
+			"anio": 100,
+			"valor": 210266
+		},
+		{
+			"anio": 200,
+			"valor": 221217
+		},
+		{
+			"anio": 300,
+			"valor": 232739
+		},
+		{
+			"anio": 400,
+			"valor": 244861
+		},
+		{
+			"anio": 500,
+			"valor": 257614
+		},
+		{
+			"anio": 600,
+			"valor": 271032
+		},
+		{
+			"anio": 700,
+			"valor": 285148
+		},
+		{
+			"anio": 800,
+			"valor": 300000
+		},
+		{
+			"anio": 900,
+			"valor": 350000
+		},
+		{
+			"anio": 1000,
+			"valor": 400000
+		},
+		{
+			"anio": 1100,
+			"valor": 440000
+		},
+		{
+			"anio": 1200,
+			"valor": 480000
+		},
+		{
+			"anio": 1300,
+			"valor": 520000
+		},
+		{
+			"anio": 1400,
+			"valor": 560000
+		},
+		{
+			"anio": 1500,
+			"valor": 600000
+		},
+		{
+			"anio": 1600,
+			"valor": 500000
+		},
+		{
+			"anio": 1700,
+			"valor": 499333
+		},
+		{
+			"anio": 1750,
+			"valor": 499611
+		},
+		{
+			"anio": 1800,
+			"valor": 500000
+		},
+		{
+			"anio": 1850,
+			"valor": 813456
+		},
+		{
+			"anio": 1900,
+			"valor": 1451333
+		},
+		{
+			"anio": 1910,
+			"valor": 1679429
+		},
+		{
+			"anio": 1920,
+			"valor": 1870163
+		},
+		{
+			"anio": 1930,
+			"valor": 2052817
+		},
+		{
+			"anio": 1940,
+			"valor": 2592696
+		},
+		{
+			"anio": 1950,
+			"valor": 3516791
+		},
+		{
+			"anio": 1960,
+			"valor": 4590893
+		},
+		{
+			"anio": 1970,
+			"valor": 6155392
+		},
+		{
+			"anio": 1980,
+			"valor": 8165882
+		},
+		{
+			"anio": 1990,
+			"valor": 10473674
+		},
+		{
+			"anio": 2000,
+			"valor": 12689215
+		},
+		{
+			"anio": 2010,
+			"valor": 15076697
+		},
+		{
+			"anio": 2020,
+			"valor": 17546058
+		},
+		{
+			"anio": 2023,
+			"valor": 17980079
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "8414e7629018",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Ecuador, oficialmente República del Ecuador, es un país soberano ubicado en la región noroccidental de América del Sur. Está constituido como un Estado social, democrático, de derecho y plurinacional, cuya forma de gobierno es la de una república presidencialista, unitaria y descentralizada."
+}

@@ -1,0 +1,221 @@
+{
+	"id": "colonizacion-brasil",
+	"nombre": "Colonización portuguesa de Brasil",
+	"inicio": 1500,
+	"fin": 1654,
+	"paises": [
+		"Portugal",
+		"Pueblos tupí-guaraní",
+		"Francia",
+		"Países Bajos"
+	],
+	"bajas": "decenas de miles en combate; muchos más por epidemias y esclavitud",
+	"descripcion": "Del palo brasil de las factorías costeras (1500-1533) a las capitanías hereditarias (1534), el gobierno general de Salvador (1549), la expulsión de los franceses de Río (1567), las bandeiras hacia el interior y la guerra contra el Brasil holandés en Pernambuco (1630-1654).",
+	"wiki": "Brasil colonial",
+	"zonas": [
+		{
+			"nombre": "Factorías costeras (palo brasil)",
+			"tipo": "frente",
+			"desde": 1500,
+			"hasta": 1533,
+			"poligono": [
+				[
+					-4.5,
+					-38.5
+				],
+				[
+					-7,
+					-34.3
+				],
+				[
+					-13,
+					-37.5
+				],
+				[
+					-16.5,
+					-38.8
+				],
+				[
+					-16.5,
+					-40.5
+				],
+				[
+					-12,
+					-39.5
+				],
+				[
+					-7,
+					-36.5
+				],
+				[
+					-4.5,
+					-39.5
+				]
+			]
+		},
+		{
+			"nombre": "Capitanías del nordeste",
+			"tipo": "ocupado",
+			"desde": 1534,
+			"hasta": 1654,
+			"poligono": [
+				[
+					-5,
+					-38.5
+				],
+				[
+					-7,
+					-34.3
+				],
+				[
+					-9,
+					-35
+				],
+				[
+					-13.5,
+					-38
+				],
+				[
+					-13,
+					-40
+				],
+				[
+					-8,
+					-37.5
+				]
+			]
+		},
+		{
+			"nombre": "Bahía y gobierno general de Salvador",
+			"tipo": "frente",
+			"desde": 1549,
+			"hasta": 1560,
+			"poligono": [
+				[
+					-11.8,
+					-39.8
+				],
+				[
+					-12.5,
+					-37.8
+				],
+				[
+					-14,
+					-39
+				],
+				[
+					-13.3,
+					-40.3
+				]
+			]
+		},
+		{
+			"nombre": "Río de Janeiro (Francia Antártica)",
+			"tipo": "frente",
+			"desde": 1555,
+			"hasta": 1567,
+			"poligono": [
+				[
+					-22.4,
+					-44.2
+				],
+				[
+					-22.6,
+					-42.7
+				],
+				[
+					-23.3,
+					-43
+				],
+				[
+					-23.2,
+					-44.3
+				]
+			]
+		},
+		{
+			"nombre": "São Paulo y bandeiras hacia el interior",
+			"tipo": "frente",
+			"desde": 1580,
+			"hasta": 1654,
+			"poligono": [
+				[
+					-20.5,
+					-48
+				],
+				[
+					-22.5,
+					-44.8
+				],
+				[
+					-25,
+					-48
+				],
+				[
+					-24.5,
+					-51.5
+				],
+				[
+					-21.5,
+					-50.5
+				]
+			]
+		},
+		{
+			"nombre": "Brasil holandés (Pernambuco)",
+			"tipo": "frente",
+			"desde": 1630,
+			"hasta": 1654,
+			"poligono": [
+				[
+					-4.8,
+					-38.3
+				],
+				[
+					-7,
+					-34.3
+				],
+				[
+					-10,
+					-36
+				],
+				[
+					-9.5,
+					-38
+				],
+				[
+					-6.5,
+					-38.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Expulsión de los franceses de Río",
+			"anio": 1567,
+			"lat": -22.91,
+			"lng": -43.17,
+			"descripcion": "Mem de Sá acaba con la Francia Antártica y funda São Sebastião do Rio de Janeiro."
+		},
+		{
+			"nombre": "Batallas de Guararapes",
+			"anio": 1648,
+			"lat": -8.08,
+			"lng": -35.02,
+			"bajas": "~2.000 bajas",
+			"descripcion": "Victorias luso-brasileñas que deciden la expulsión de los holandeses."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Brasil colonial",
+			"url": "https://es.wikipedia.org/wiki/Brasil_colonial",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

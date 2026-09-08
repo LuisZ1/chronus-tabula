@@ -1,0 +1,61 @@
+{
+	"id": "genocidio-ruanda",
+	"nombre": "Genocidio de Ruanda",
+	"inicio": 1994,
+	"fin": 1994,
+	"paises": [
+		"Ruanda"
+	],
+	"bajas": "~800.000 tutsis y hutus moderados asesinados en cien días",
+	"descripcion": "Tras el derribo del avión presidencial, el poder hutu organiza el exterminio de los tutsis; el Frente Patriótico Ruandés de Kagame toma el país y detiene la matanza.",
+	"wiki": "Genocidio de Ruanda",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Genocidio de Ruanda",
+			"url": "https://es.wikipedia.org/wiki/Genocidio_de_Ruanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Ruanda",
+			"tipo": "frente",
+			"desde": 1994,
+			"hasta": 1994,
+			"poligono": [
+				[
+					-1.1,
+					29.0
+				],
+				[
+					-1.1,
+					30.9
+				],
+				[
+					-2.8,
+					30.8
+				],
+				[
+					-2.8,
+					29.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Kigali",
+			"anio": 1994,
+			"lat": -1.95,
+			"lng": 30.06,
+			"descripcion": "El FPR entra en la capital el 4 de julio y pone fin al genocidio."
+		}
+	]
+}

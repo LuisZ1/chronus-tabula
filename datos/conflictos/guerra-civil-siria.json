@@ -1,0 +1,185 @@
+{
+	"id": "guerra-civil-siria",
+	"nombre": "Guerra civil siria",
+	"inicio": 2011,
+	"fin": 2024,
+	"paises": [
+		"Siria",
+		"Rusia",
+		"Irán",
+		"Turquía",
+		"Estados Unidos"
+	],
+	"bajas": "~500.000–650.000 muertos y 13 millones de desplazados",
+	"descripcion": "Las protestas de 2011 derivan en una guerra de múltiples bandos con intervención extranjera; en diciembre de 2024 una ofensiva relámpago derriba a Bashar al-Ásad tras 53 años de régimen.",
+	"wiki": "Guerra civil siria",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra civil siria",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_siria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Syrian civil war",
+			"url": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q24205448",
+			"url": "https://www.wikidata.org/wiki/Q24205448",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Alzamiento y guerra en el oeste",
+			"tipo": "frente",
+			"desde": 2011,
+			"hasta": 2018,
+			"poligono": [
+				[
+					36.9,
+					35.9
+				],
+				[
+					36.5,
+					38.0
+				],
+				[
+					34.8,
+					37.0
+				],
+				[
+					32.7,
+					36.4
+				],
+				[
+					33.2,
+					35.9
+				],
+				[
+					35.5,
+					35.8
+				]
+			]
+		},
+		{
+			"nombre": "Batalla de Alepo",
+			"tipo": "frente",
+			"desde": 2012,
+			"hasta": 2016,
+			"poligono": [
+				[
+					36.5,
+					36.9
+				],
+				[
+					36.5,
+					37.6
+				],
+				[
+					35.9,
+					37.6
+				],
+				[
+					35.9,
+					36.9
+				]
+			]
+		},
+		{
+			"nombre": "Reducto de Idlib",
+			"tipo": "frente",
+			"desde": 2017,
+			"hasta": 2023,
+			"poligono": [
+				[
+					36.4,
+					36.3
+				],
+				[
+					36.3,
+					37.3
+				],
+				[
+					35.5,
+					37.0
+				],
+				[
+					35.5,
+					36.2
+				]
+			]
+		},
+		{
+			"nombre": "Ofensiva final (Alepo → Damasco)",
+			"tipo": "frente",
+			"desde": 2024,
+			"hasta": 2024,
+			"poligono": [
+				[
+					36.4,
+					36.9
+				],
+				[
+					36.2,
+					37.6
+				],
+				[
+					33.4,
+					36.6
+				],
+				[
+					33.4,
+					36.0
+				],
+				[
+					35.0,
+					36.4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Alepo",
+			"anio": 2012,
+			"lat": 36.2,
+			"lng": 37.16,
+			"descripcion": "Cuatro años de asedio; su recaptura por el régimen marcó un punto de inflexión.",
+			"wiki": "Batalla de Alepo",
+			"hasta": 2016
+		},
+		{
+			"nombre": "Toma de Palmira por el EI",
+			"anio": 2015,
+			"lat": 34.55,
+			"lng": 38.28,
+			"descripcion": "El Estado Islámico destruye parte del patrimonio de la ciudad antigua."
+		},
+		{
+			"nombre": "Batalla de Faluya",
+			"anio": 2016,
+			"lat": 33.37,
+			"lng": 43.77
+		},
+		{
+			"nombre": "Ofensiva de Guta Oriental",
+			"anio": 2018,
+			"lat": 33.52,
+			"lng": 36.4,
+			"descripcion": "El régimen recupera el cinturón rebelde de Damasco."
+		},
+		{
+			"nombre": "Caída de Damasco",
+			"anio": 2024,
+			"lat": 33.51,
+			"lng": 36.29,
+			"descripcion": "Los rebeldes de HTS entran en la capital el 8 de diciembre; Al-Ásad huye a Moscú.",
+			"wiki": "Caída de Damasco"
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+	"id": "hispania-romana",
+	"nombre": "Conquista romana de Hispania",
+	"inicio": -218,
+	"fin": -19,
+	"paises": [
+		"Roma",
+		"Celtíberos",
+		"Lusitanos",
+		"Cántabros y astures"
+	],
+	"bajas": "~300.000 muertos en dos siglos",
+	"descripcion": "Doscientos años de conquista: del desembarco en Ampurias (218 a. C.) a las guerras lusitanas de Viriato, el asedio de Numancia (133 a. C.) y las guerras cántabras de Augusto (29-19 a. C.).",
+	"wiki": "Conquista romana de Hispania",
+	"zonas": [
+		{
+			"nombre": "Levante y valle del Guadalquivir",
+			"tipo": "frente",
+			"desde": -218,
+			"hasta": -195,
+			"poligono": [
+				[
+					42,
+					0.5
+				],
+				[
+					39.5,
+					0
+				],
+				[
+					36.8,
+					-5.5
+				],
+				[
+					37.8,
+					-6.5
+				],
+				[
+					40,
+					-2
+				]
+			]
+		},
+		{
+			"nombre": "Lusitania (Viriato)",
+			"tipo": "frente",
+			"desde": -155,
+			"hasta": -139,
+			"poligono": [
+				[
+					40.5,
+					-7.5
+				],
+				[
+					39.5,
+					-4.5
+				],
+				[
+					38,
+					-5.5
+				],
+				[
+					38,
+					-8.5
+				],
+				[
+					39.8,
+					-8.8
+				]
+			]
+		},
+		{
+			"nombre": "Celtiberia (Numancia)",
+			"tipo": "frente",
+			"desde": -153,
+			"hasta": -133,
+			"poligono": [
+				[
+					42.3,
+					-3.5
+				],
+				[
+					42,
+					-1.5
+				],
+				[
+					41,
+					-2
+				],
+				[
+					41.2,
+					-4
+				]
+			]
+		},
+		{
+			"nombre": "Guerras cántabras",
+			"tipo": "frente",
+			"desde": -29,
+			"hasta": -19,
+			"poligono": [
+				[
+					43.6,
+					-7
+				],
+				[
+					43.5,
+					-3.5
+				],
+				[
+					42.6,
+					-3.8
+				],
+				[
+					42.8,
+					-7
+				]
+			]
+		},
+		{
+			"nombre": "Hispania romana",
+			"tipo": "ocupado",
+			"desde": -133,
+			"hasta": -19,
+			"poligono": [
+				[
+					43,
+					-8.5
+				],
+				[
+					42,
+					1
+				],
+				[
+					38.5,
+					0
+				],
+				[
+					36.2,
+					-5.7
+				],
+				[
+					37.5,
+					-8.8
+				],
+				[
+					41.5,
+					-8.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asesinato de Viriato",
+			"anio": -139,
+			"lat": 38.9,
+			"lng": -6.3,
+			"descripcion": "Roma compra a sus asesinos: «Roma no paga a traidores»."
+		},
+		{
+			"nombre": "Sitio de Numancia",
+			"anio": -133,
+			"lat": 41.81,
+			"lng": -2.44,
+			"descripcion": "Escipión Emiliano rinde por hambre a la ciudad celtíbera, símbolo de resistencia."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Conquista romana de Hispania",
+			"url": "https://es.wikipedia.org/wiki/Conquista_romana_de_Hispania",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

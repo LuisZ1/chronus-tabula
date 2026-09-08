@@ -1,0 +1,224 @@
+{
+	"id": "arabia-saudita",
+	"nombre": "Arabia Saudita",
+	"nombres": [
+		"Saudi Arabia",
+		"Arabia Saudita",
+		"Arabia Saudí"
+	],
+	"wikidata": "Q851",
+	"wiki": "es:Arabia Saudita",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q851",
+			"url": "https://www.wikidata.org/wiki/Q851",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Arabia Saudita",
+			"url": "https://es.wikipedia.org/wiki/Arabia_Saudita",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "SAU",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 17339
+		},
+		{
+			"anio": -9000,
+			"valor": 26009
+		},
+		{
+			"anio": -8000,
+			"valor": 39013
+		},
+		{
+			"anio": -7000,
+			"valor": 58520
+		},
+		{
+			"anio": -6000,
+			"valor": 87780
+		},
+		{
+			"anio": -5000,
+			"valor": 131671
+		},
+		{
+			"anio": -4000,
+			"valor": 197507
+		},
+		{
+			"anio": -3000,
+			"valor": 296260
+		},
+		{
+			"anio": -2000,
+			"valor": 444390
+		},
+		{
+			"anio": -1000,
+			"valor": 666586
+		},
+		{
+			"anio": 0,
+			"valor": 999879
+		},
+		{
+			"anio": 100,
+			"valor": 1164875
+		},
+		{
+			"anio": 200,
+			"valor": 1357099
+		},
+		{
+			"anio": 300,
+			"valor": 1581043
+		},
+		{
+			"anio": 400,
+			"valor": 1841941
+		},
+		{
+			"anio": 500,
+			"valor": 2145892
+		},
+		{
+			"anio": 600,
+			"valor": 2500000
+		},
+		{
+			"anio": 700,
+			"valor": 2450000
+		},
+		{
+			"anio": 800,
+			"valor": 2400000
+		},
+		{
+			"anio": 900,
+			"valor": 2200000
+		},
+		{
+			"anio": 1000,
+			"valor": 2000000
+		},
+		{
+			"anio": 1100,
+			"valor": 2073333
+		},
+		{
+			"anio": 1200,
+			"valor": 2146666
+		},
+		{
+			"anio": 1300,
+			"valor": 2220000
+		},
+		{
+			"anio": 1400,
+			"valor": 1950000
+		},
+		{
+			"anio": 1500,
+			"valor": 2000000
+		},
+		{
+			"anio": 1600,
+			"valor": 2250000
+		},
+		{
+			"anio": 1700,
+			"valor": 2000000
+		},
+		{
+			"anio": 1750,
+			"valor": 2037916
+		},
+		{
+			"anio": 1800,
+			"valor": 2000000
+		},
+		{
+			"anio": 1850,
+			"valor": 2235890
+		},
+		{
+			"anio": 1900,
+			"valor": 2123533
+		},
+		{
+			"anio": 1910,
+			"valor": 2188136
+		},
+		{
+			"anio": 1920,
+			"valor": 2331840
+		},
+		{
+			"anio": 1930,
+			"valor": 2555457
+		},
+		{
+			"anio": 1940,
+			"valor": 2800517
+		},
+		{
+			"anio": 1950,
+			"valor": 1703280
+		},
+		{
+			"anio": 1960,
+			"valor": 2435410
+		},
+		{
+			"anio": 1970,
+			"valor": 3562475
+		},
+		{
+			"anio": 1980,
+			"valor": 6047997
+		},
+		{
+			"anio": 1990,
+			"valor": 10640697
+		},
+		{
+			"anio": 2000,
+			"valor": 16177733
+		},
+		{
+			"anio": 2010,
+			"valor": 25157134
+		},
+		{
+			"anio": 2020,
+			"valor": 30991206
+		},
+		{
+			"anio": 2023,
+			"valor": 33264289
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "75360a576561",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Arabia Saudita o Arabia Saudí, oficialmente Reino de Arabia Saudita o Reino de Arabia Saudí, es un país de Asia Occidental, ubicado en la península arábiga —Oriente Próximo—, cuya forma de gobierno es la monarquía absoluta. Su capital y ciudad más poblada es Riad."
+}

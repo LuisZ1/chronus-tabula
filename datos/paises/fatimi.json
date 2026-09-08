@@ -1,0 +1,46 @@
+{
+	"id": "fatimi",
+	"nombre": "Califato fatimí",
+	"nombres": [
+		"Fatimid Caliphate"
+	],
+	"wiki": "Califato fatimí",
+	"gobernantes": [
+		{
+			"desde": 909,
+			"hasta": 934,
+			"nombre": "Ubayd Allah al-Mahdi",
+			"titulo": "Primer califa fatimí"
+		},
+		{
+			"desde": 953,
+			"hasta": 975,
+			"nombre": "Al-Muizz",
+			"titulo": "Califa fatimí, conquista Egipto y funda El Cairo"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Califato fatimí",
+			"url": "https://es.wikipedia.org/wiki/Califato_fatimí",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Califato fatimí",
+			"url": "https://es.wikipedia.org/wiki/Califato_fatim%C3%AD",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Califato fatimí fue el cuarto califato islámico, existente entre los siglos X y XII, bajo el gobierno de los fatimíes. Fue así el único califato chií de toda la historia —ismailita, concretamente—.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "825880272818",
+		"secciones": [
+			"resena"
+		]
+	}
+}

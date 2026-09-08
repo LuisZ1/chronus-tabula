@@ -1,0 +1,222 @@
+{
+	"id": "colombia",
+	"nombre": "Colombia",
+	"nombres": [
+		"Colombia"
+	],
+	"wikidata": "Q739",
+	"wiki": "es:Colombia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q739",
+			"url": "https://www.wikidata.org/wiki/Q739",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Colombia",
+			"url": "https://es.wikipedia.org/wiki/Colombia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "COL",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 128828
+		},
+		{
+			"anio": -9000,
+			"valor": 161035
+		},
+		{
+			"anio": -8000,
+			"valor": 201294
+		},
+		{
+			"anio": -7000,
+			"valor": 251618
+		},
+		{
+			"anio": -6000,
+			"valor": 314523
+		},
+		{
+			"anio": -5000,
+			"valor": 393153
+		},
+		{
+			"anio": -4000,
+			"valor": 491442
+		},
+		{
+			"anio": -3000,
+			"valor": 614303
+		},
+		{
+			"anio": -2000,
+			"valor": 767878
+		},
+		{
+			"anio": -1000,
+			"valor": 959848
+		},
+		{
+			"anio": 0,
+			"valor": 1199810
+		},
+		{
+			"anio": 100,
+			"valor": 1278745
+		},
+		{
+			"anio": 200,
+			"valor": 1362873
+		},
+		{
+			"anio": 300,
+			"valor": 1452536
+		},
+		{
+			"anio": 400,
+			"valor": 1548097
+		},
+		{
+			"anio": 500,
+			"valor": 1649946
+		},
+		{
+			"anio": 600,
+			"valor": 1758495
+		},
+		{
+			"anio": 700,
+			"valor": 1874186
+		},
+		{
+			"anio": 800,
+			"valor": 1997487
+		},
+		{
+			"anio": 900,
+			"valor": 2197236
+		},
+		{
+			"anio": 1000,
+			"valor": 2396985
+		},
+		{
+			"anio": 1100,
+			"valor": 2716583
+		},
+		{
+			"anio": 1200,
+			"valor": 3036181
+		},
+		{
+			"anio": 1300,
+			"valor": 3355779
+		},
+		{
+			"anio": 1400,
+			"valor": 3675377
+		},
+		{
+			"anio": 1500,
+			"valor": 3994975
+		},
+		{
+			"anio": 1600,
+			"valor": 1258417
+		},
+		{
+			"anio": 1700,
+			"valor": 798995
+		},
+		{
+			"anio": 1750,
+			"valor": 1078643
+		},
+		{
+			"anio": 1800,
+			"valor": 1206000
+		},
+		{
+			"anio": 1850,
+			"valor": 2090483
+		},
+		{
+			"anio": 1900,
+			"valor": 4034733
+		},
+		{
+			"anio": 1910,
+			"valor": 4944811
+		},
+		{
+			"anio": 1920,
+			"valor": 6275946
+		},
+		{
+			"anio": 1930,
+			"valor": 7946343
+		},
+		{
+			"anio": 1940,
+			"valor": 9311615
+		},
+		{
+			"anio": 1950,
+			"valor": 11766991
+		},
+		{
+			"anio": 1960,
+			"valor": 15606209
+		},
+		{
+			"anio": 1970,
+			"valor": 20811790
+		},
+		{
+			"anio": 1980,
+			"valor": 26104503
+		},
+		{
+			"anio": 1990,
+			"valor": 32440064
+		},
+		{
+			"anio": 2000,
+			"valor": 39089939
+		},
+		{
+			"anio": 2010,
+			"valor": 44777325
+		},
+		{
+			"anio": 2020,
+			"valor": 50629997
+		},
+		{
+			"anio": 2023,
+			"valor": 52321152
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5ee025a597c5",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Colombia, oficialmente la República de Colombia, es un país soberano situado en la región noroccidental de América del Sur. Se constituye en un Estado unitario, democrático y social de derecho, organizado en 32 departamentos y el distrito Capital de Bogotá."
+}

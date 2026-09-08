@@ -1,0 +1,19 @@
+{
+	"nombre": "Plan de Estabilización de 1959",
+	"anio": 1959,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Giro económico del franquismo hacia el liberalismo que abre el 'desarrollismo' de los años 60.",
+	"wiki": "Plan de Estabilización de 1959",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Plan de Estabilización de 1959",
+			"url": "https://es.wikipedia.org/wiki/Plan_de_Estabilización_de_1959",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

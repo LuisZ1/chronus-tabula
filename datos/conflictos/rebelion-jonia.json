@@ -1,0 +1,62 @@
+{
+	"id": "rebelion-jonia",
+	"nombre": "Rebelión jonia",
+	"inicio": -499,
+	"fin": -493,
+	"paises": [
+		"Atenas",
+		"Eretria",
+		"Imperio aqueménida"
+	],
+	"bajas": "miles",
+	"descripcion": "Revuelta de las póleis griegas de Jonia (Asia Menor) contra el dominio persa, apoyada por Atenas y Eretria. El incendio de Sardes provocó la represalia de Darío I; la derrota naval de Lade y la caída de Mileto (494) sofocaron la rebelión y desencadenaron las Guerras Médicas.",
+	"wiki": "Rebelión jónica",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rebelión jónica",
+			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_j%C3%B3nica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Jonia (costa de Asia Menor)",
+			"tipo": "frente",
+			"desde": -499,
+			"hasta": -493,
+			"poligono": [
+				[
+					38.6,
+					27.0
+				],
+				[
+					38.5,
+					28.1
+				],
+				[
+					37.3,
+					27.6
+				],
+				[
+					37.5,
+					27.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Incendio de Sardes",
+			"anio": -498,
+			"lat": 38.49,
+			"lng": 28.04
+		},
+		{
+			"nombre": "Batalla naval de Lade / caída de Mileto",
+			"anio": -494,
+			"lat": 37.53,
+			"lng": 27.28
+		}
+	]
+}

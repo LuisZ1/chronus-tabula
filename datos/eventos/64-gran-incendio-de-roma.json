@@ -1,0 +1,23 @@
+{
+	"nombre": "Gran incendio de Roma",
+	"anio": 64,
+	"lat": 41.89,
+	"lng": 12.49,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "En la noche del 18 al 19 de julio del 64 un incendio arrasa buena parte de Roma bajo el reinado de Nerón; tras él se reconstruye la ciudad y se persigue a los cristianos.",
+	"wiki": "Gran incendio de Roma",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Gran incendio de Roma",
+			"url": "https://es.wikipedia.org/wiki/Gran_incendio_de_Roma",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "song",
+	"nombre": "Imperio Song (China)",
+	"nombres": [
+		"Song Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 960,
+			"hasta": 976,
+			"nombre": "Taizu (fundador)",
+			"titulo": "Emperador Song"
+		},
+		{
+			"desde": 960,
+			"hasta": 976,
+			"nombre": "Zhao Kuangyin (emperador Taizu)",
+			"titulo": "Emperador Taizu, fundador de la dinastía Song"
+		},
+		{
+			"desde": 1100,
+			"hasta": 1126,
+			"nombre": "Huizong",
+			"titulo": "Emperador Song"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1100,
+			"valor": 100000000
+		}
+	],
+	"relacionados": [
+		"China",
+		"China Jin y Song"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Song (China)",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Song_(China)",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

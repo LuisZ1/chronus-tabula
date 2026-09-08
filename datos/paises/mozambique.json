@@ -1,0 +1,130 @@
+{
+	"id": "mozambique",
+	"nombre": "Mozambique",
+	"nombres": [
+		"Mozambique",
+		"Mozambique (Portugal)",
+		"África Oriental Portuguesa",
+		"República de Mozambique"
+	],
+	"wiki": "es:Mozambique",
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Mozambique",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1029",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Mozambique",
+			"url": "https://es.wikipedia.org/wiki/Mozambique",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "África Oriental Portuguesa (colonia)",
+			"desde": 1505,
+			"hasta": 1975
+		},
+		{
+			"nombre": "República Popular de Mozambique",
+			"desde": 1975,
+			"hasta": 1990
+		},
+		{
+			"nombre": "República de Mozambique",
+			"desde": 1990,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1029",
+	"gobernantes": [
+		{
+			"nombre": "Samora Machel",
+			"desde": 1975,
+			"hasta": 1986,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Joaquim Chissano",
+			"desde": 1986,
+			"hasta": 2005,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Armando Guebuza",
+			"desde": 2005,
+			"hasta": 2015,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Filipe Nyusi",
+			"desde": 2015,
+			"hasta": 2025,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Daniel Chapo",
+			"desde": 2025,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1841,
+			"valor": 2900000,
+			"fuente": "Dato histórico (Wikipedia es)"
+		},
+		{
+			"anio": 1940,
+			"valor": 5100000,
+			"fuente": "Censo colonial (Wikipedia es)"
+		},
+		{
+			"anio": 1980,
+			"valor": 12130000,
+			"fuente": "Censo de Mozambique 1980"
+		},
+		{
+			"anio": 1997,
+			"valor": 16099246,
+			"fuente": "Censo de Mozambique 1997"
+		},
+		{
+			"anio": 2007,
+			"valor": 20632434,
+			"fuente": "Censo de Mozambique 2007"
+		},
+		{
+			"anio": 2017,
+			"valor": 27909798,
+			"fuente": "Censo de Mozambique 2017"
+		},
+		{
+			"anio": 2023,
+			"valor": 32400000,
+			"fuente": "Estimación ONU"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "45577b40ac8f",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Mozambique, oficialmente la República de Mozambique, es un país situado al sureste de África, a orillas del océano Índico."
+}

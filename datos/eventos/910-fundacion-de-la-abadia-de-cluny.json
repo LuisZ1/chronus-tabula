@@ -1,0 +1,19 @@
+{
+	"nombre": "Fundación de la abadía de Cluny",
+	"anio": 910,
+	"lat": 46.43,
+	"lng": 4.66,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "Nace Cluny, motor de la gran reforma monástica que renovaría la Iglesia occidental.",
+	"wiki": "Abadía de Cluny",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Abadía de Cluny",
+			"url": "https://es.wikipedia.org/wiki/Abadía_de_Cluny",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

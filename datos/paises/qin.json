@@ -1,0 +1,46 @@
+{
+	"id": "qin",
+	"nombre": "Imperio Qin",
+	"nombres": [
+		"Qin"
+	],
+	"wiki": "Dinastía Qin",
+	"gobernantes": [
+		{
+			"desde": -221,
+			"hasta": -210,
+			"nombre": "Qin Shi Huang (Ying Zheng)",
+			"titulo": "Primer Emperador de China, unificador"
+		},
+		{
+			"desde": -210,
+			"hasta": -207,
+			"nombre": "Er Shi Huangdi (Huhai)",
+			"titulo": "Segundo Emperador de Qin"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Qin",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Qin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Dinastía Qin",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Qin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La dinastía Qin fue la primera dinastía imperial de China, desde el año 221 a. C.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "fd960b15af15",
+		"secciones": [
+			"resena"
+		]
+	}
+}

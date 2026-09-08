@@ -1,0 +1,19 @@
+{
+	"nombre": "Erupción del volcán de La Palma",
+	"anio": 2021,
+	"lat": 28.61,
+	"lng": -17.87,
+	"paises": [
+		"España"
+	],
+	"descripcion": "85 días de erupción en Cumbre Vieja: ~3.000 edificaciones sepultadas por la lava.",
+	"wiki": "Erupción volcánica de La Palma de 2021",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Erupción volcánica de La Palma de 2021",
+			"url": "https://es.wikipedia.org/wiki/Erupción_volcánica_de_La_Palma_de_2021",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "guadalupe",
+	"nombre": "Guadalupe",
+	"nombres": [
+		"Guadeloupe",
+		"Guadalupe"
+	],
+	"wikidata": "Q17012",
+	"wiki": "es:Guadalupe",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q17012",
+			"url": "https://www.wikidata.org/wiki/Q17012",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Guadalupe",
+			"url": "https://es.wikipedia.org/wiki/Guadalupe",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Guadalupe puede referirse a:",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2d23933fc6e9",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "xia-occidental",
+	"nombre": "Xia Occidental",
+	"nombres": [
+		"Xixia"
+	],
+	"wiki": "Xia Occidental",
+	"gobernantes": [
+		{
+			"desde": 1038,
+			"hasta": 1048,
+			"nombre": "Li Yuanhao",
+			"titulo": "Emperador fundador del reino tangut de Xia Occidental"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Xia Occidental",
+			"url": "https://es.wikipedia.org/wiki/Xia_Occidental",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Xia Occidental",
+			"url": "https://es.wikipedia.org/wiki/Imperio_tangut",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Imperio tangut, también conocido por el nombre chino de Imperio Xia Occidental o Imperio de Xi Xia fue un estado que existió entre los años 982 y 1227 en el noroeste del territorio actual de la República Popular China.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "46f4fbcce13a",
+		"secciones": [
+			"resena"
+		]
+	}
+}

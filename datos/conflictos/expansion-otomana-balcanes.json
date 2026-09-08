@@ -1,0 +1,96 @@
+{
+	"id": "expansion-otomana-balcanes",
+	"nombre": "Expansión otomana en los Balcanes",
+	"inicio": 1302,
+	"fin": 1448,
+	"paises": [
+		"Otomano",
+		"Imperio bizantino",
+		"Serbia",
+		"Hungría",
+		"Bulgaria"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Desde la batalla de Bafeo contra Bizancio, los otomanos cruzan a Europa y someten los Balcanes: derrotan a los serbios en Kosovo (1389, donde muere Murad I) y aplastan las cruzadas de Nicópolis (1396) y de Varna (1444), consolidando Rumelia como núcleo europeo del imperio.",
+	"wiki": "Expansión del Imperio otomano",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Kosovo (1389)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kosovo_(1389)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Nicópolis",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nic%C3%B3polis",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Rumelia (Balcanes otomanos)",
+			"tipo": "ocupado",
+			"desde": 1354,
+			"hasta": 1448,
+			"poligono": [
+				[
+					46.0,
+					20.0
+				],
+				[
+					45.5,
+					28.5
+				],
+				[
+					40.0,
+					26.5
+				],
+				[
+					39.5,
+					22.5
+				],
+				[
+					42.0,
+					19.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Bafeo",
+			"anio": 1302,
+			"lat": 40.7,
+			"lng": 29.9
+		},
+		{
+			"nombre": "Batalla de Kosovo Polje",
+			"anio": 1389,
+			"lat": 42.66,
+			"lng": 21.1
+		},
+		{
+			"nombre": "Batalla de Nicópolis",
+			"anio": 1396,
+			"lat": 43.7,
+			"lng": 24.9
+		},
+		{
+			"nombre": "Batalla de Varna",
+			"anio": 1444,
+			"lat": 43.2,
+			"lng": 27.91
+		},
+		{
+			"nombre": "Segunda batalla de Kosovo Polje",
+			"anio": 1448,
+			"lat": 42.66,
+			"lng": 21.1
+		}
+	]
+}

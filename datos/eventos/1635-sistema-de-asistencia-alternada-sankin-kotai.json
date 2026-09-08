@@ -1,0 +1,19 @@
+{
+	"nombre": "Sistema de asistencia alternada (sankin-kōtai)",
+	"anio": 1635,
+	"lat": 35.68,
+	"lng": 139.65,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Se obliga a los daimios a residir alternadamente en Edo, atando a la nobleza al poder Tokugawa.",
+	"wiki": "Sankin-kōtai",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sankin-kōtai",
+			"url": "https://es.wikipedia.org/wiki/Sankin-k%C5%8Dtai",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

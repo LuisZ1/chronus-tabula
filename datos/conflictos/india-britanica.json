@@ -1,0 +1,155 @@
+{
+	"id": "india-britanica",
+	"nombre": "Conquista británica de la India",
+	"inicio": 1757,
+	"fin": 1818,
+	"paises": [
+		"Gran Bretaña (Compañía de las Indias Orientales)",
+		"Bengala",
+		"Mysore",
+		"Imperio maratha"
+	],
+	"bajas": "cientos de miles de muertos (más las hambrunas de Bengala)",
+	"descripcion": "De Plassey (1757) a la derrota final de los marathas (1818): la Compañía de las Indias Orientales convierte el subcontinente en el corazón del imperio británico.",
+	"wiki": "Compañía Británica de las Indias Orientales",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Compañía Británica de las Indias Orientales",
+			"url": "https://es.wikipedia.org/wiki/Compañía_Británica_de_las_Indias_Orientales",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Bengala",
+			"tipo": "frente",
+			"desde": 1757,
+			"hasta": 1765,
+			"poligono": [
+				[
+					25.5,
+					86
+				],
+				[
+					25,
+					90
+				],
+				[
+					22,
+					89.5
+				],
+				[
+					22.3,
+					86.5
+				]
+			]
+		},
+		{
+			"nombre": "Mysore (Tipu Sultán)",
+			"tipo": "frente",
+			"desde": 1767,
+			"hasta": 1799,
+			"poligono": [
+				[
+					14,
+					75
+				],
+				[
+					13.5,
+					78.5
+				],
+				[
+					11,
+					78
+				],
+				[
+					11.3,
+					75.3
+				]
+			]
+		},
+		{
+			"nombre": "Guerras maratha",
+			"tipo": "frente",
+			"desde": 1775,
+			"hasta": 1818,
+			"poligono": [
+				[
+					22,
+					73
+				],
+				[
+					21.5,
+					79
+				],
+				[
+					17.5,
+					77.5
+				],
+				[
+					18,
+					73.5
+				]
+			]
+		},
+		{
+			"nombre": "India de la Compañía",
+			"tipo": "ocupado",
+			"desde": 1765,
+			"hasta": 1818,
+			"poligono": [
+				[
+					26,
+					80
+				],
+				[
+					25.5,
+					90
+				],
+				[
+					21.5,
+					88.5
+				],
+				[
+					16,
+					81
+				],
+				[
+					17.5,
+					79.5
+				],
+				[
+					24,
+					81
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Plassey",
+			"anio": 1757,
+			"lat": 23.8,
+			"lng": 88.25,
+			"descripcion": "Clive, con 3.000 hombres y sobornos, gana Bengala."
+		},
+		{
+			"nombre": "Caída de Seringapatam",
+			"anio": 1799,
+			"lat": 12.42,
+			"lng": 76.7,
+			"descripcion": "Muere Tipu Sultán, el «Tigre de Mysore»."
+		},
+		{
+			"nombre": "Batalla de Assaye",
+			"anio": 1803,
+			"lat": 20.25,
+			"lng": 75.89,
+			"descripcion": "La victoria que el futuro Wellington consideraba su mejor batalla."
+		}
+	]
+}

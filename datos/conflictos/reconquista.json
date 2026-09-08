@@ -1,0 +1,273 @@
+{
+	"id": "reconquista",
+	"nombre": "La Reconquista",
+	"inicio": 722,
+	"fin": 1492,
+	"paises": [
+		"Reino de Asturias",
+		"Reino de León",
+		"Corona de Castilla",
+		"Corona de Aragón",
+		"Reino de Navarra",
+		"Portugal",
+		"Califato de Córdoba",
+		"Almorávides",
+		"Califato almohade",
+		"Reino nazarí de Granada"
+	],
+	"bajas": "desconocidas: siete siglos de guerra de frontera",
+	"descripcion": "Siete siglos y medio de avance cristiano de norte a sur de la península, de Covadonga (722) a Granada (1492), con largos periodos de convivencia y frontera entre medias.",
+	"wiki": "Reconquista",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reconquista",
+			"url": "https://es.wikipedia.org/wiki/Reconquista",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q1243260",
+			"url": "https://www.wikidata.org/wiki/Q1243260",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q130251286",
+			"url": "https://www.wikidata.org/wiki/Q130251286",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q131686617",
+			"url": "https://www.wikidata.org/wiki/Q131686617",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871780",
+			"url": "https://www.wikidata.org/wiki/Q4871780",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888093",
+			"url": "https://www.wikidata.org/wiki/Q2888093",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q131542395",
+			"url": "https://www.wikidata.org/wiki/Q131542395",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q20616054",
+			"url": "https://www.wikidata.org/wiki/Q20616054",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frontera del Duero",
+			"tipo": "frente",
+			"desde": 722,
+			"hasta": 1000,
+			"poligono": [
+				[
+					43.2,
+					-8
+				],
+				[
+					43,
+					-2
+				],
+				[
+					41.5,
+					-2.5
+				],
+				[
+					41.3,
+					-8.3
+				]
+			]
+		},
+		{
+			"nombre": "Frontera del Tajo al Guadalquivir",
+			"tipo": "frente",
+			"desde": 1000,
+			"hasta": 1250,
+			"poligono": [
+				[
+					40.5,
+					-6.5
+				],
+				[
+					40.2,
+					-1
+				],
+				[
+					37.5,
+					-1.5
+				],
+				[
+					37,
+					-6.5
+				],
+				[
+					39,
+					-7.2
+				]
+			]
+		},
+		{
+			"nombre": "Frontera de Granada",
+			"tipo": "frente",
+			"desde": 1250,
+			"hasta": 1492,
+			"poligono": [
+				[
+					38.3,
+					-6
+				],
+				[
+					38,
+					-1.8
+				],
+				[
+					36.6,
+					-2
+				],
+				[
+					36.2,
+					-5.5
+				],
+				[
+					37.3,
+					-6.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Simancas",
+			"anio": 939,
+			"lat": 41.59,
+			"lng": -4.83,
+			"descripcion": "Ramiro II de León derrota a Abderramán III."
+		},
+		{
+			"nombre": "batalla de Golpejera",
+			"anio": 1072,
+			"lat": 42.24,
+			"lng": -4.66
+		},
+		{
+			"nombre": "Toma de Toledo",
+			"anio": 1085,
+			"lat": 39.86,
+			"lng": -4.03,
+			"descripcion": "Alfonso VI conquista la antigua capital visigoda; la frontera salta al Tajo."
+		},
+		{
+			"nombre": "Batalla de Sagrajas (Zalaca)",
+			"anio": 1086,
+			"lat": 38.93,
+			"lng": -6.94,
+			"descripcion": "Los almorávides aplastan a Alfonso VI y frenan el avance cristiano."
+		},
+		{
+			"nombre": "Batalla de Almodóvar del Río",
+			"anio": 1091,
+			"lat": 37.8,
+			"lng": -5.02
+		},
+		{
+			"nombre": "Conquista de Valencia (el Cid)",
+			"anio": 1094,
+			"lat": 39.47,
+			"lng": -0.38,
+			"descripcion": "Rodrigo Díaz de Vivar toma la ciudad, que perderá su viuda en 1102."
+		},
+		{
+			"nombre": "Conquista de Lisboa (1094)",
+			"anio": 1094,
+			"lat": 38.73,
+			"lng": -9.15
+		},
+		{
+			"nombre": "batalla de Bairén",
+			"anio": 1097,
+			"lat": 39.0,
+			"lng": -0.26
+		},
+		{
+			"nombre": "Batalla de Uclés",
+			"anio": 1108,
+			"lat": 39.98,
+			"lng": -2.86,
+			"descripcion": "Desastre castellano; muere el heredero Sancho Alfónsez."
+		},
+		{
+			"nombre": "batalla de Montiel (1143)",
+			"anio": 1143,
+			"lat": 39.0,
+			"lng": -4.0
+		},
+		{
+			"nombre": "batalla de Calatrava",
+			"anio": 1173,
+			"lat": 38.85,
+			"lng": -4.07
+		},
+		{
+			"nombre": "batalla del Campo de Monteagudo",
+			"anio": 1190,
+			"lat": 40.44,
+			"lng": -0.85
+		},
+		{
+			"nombre": "Batalla de Alarcos",
+			"anio": 1195,
+			"lat": 38.95,
+			"lng": -4.01,
+			"bajas": "~20.000 bajas castellanas según las crónicas",
+			"descripcion": "La gran victoria almohade que precede a Las Navas."
+		},
+		{
+			"nombre": "Conquista de Sevilla",
+			"anio": 1248,
+			"lat": 37.39,
+			"lng": -5.99,
+			"descripcion": "Fernando III toma la mayor ciudad de al-Ándalus tras dos años de asedio."
+		},
+		{
+			"nombre": "Batalla del Salado",
+			"anio": 1340,
+			"lat": 36.18,
+			"lng": -5.71,
+			"descripcion": "Castilla y Portugal derrotan al último gran ejército invasor norteafricano."
+		},
+		{
+			"nombre": "Batalla de Clavijo",
+			"anio": 844,
+			"lat": 42.25,
+			"lng": -2.36,
+			"descripcion": "Victoria legendaria de Ramiro I de Asturias, origen del mito de Santiago Matamoros (historicidad discutida).",
+			"wiki": "Batalla de Clavijo"
+		},
+		{
+			"nombre": "Batalla de Calatañazor",
+			"anio": 1002,
+			"lat": 41.6,
+			"lng": -2.83,
+			"descripcion": "Según la tradición, primera gran derrota de Almanzor poco antes de su muerte («En Calatañazor perdió Almanzor el tambor»).",
+			"wiki": "Batalla de Calatañazor"
+		}
+	]
+}

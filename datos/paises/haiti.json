@@ -1,0 +1,215 @@
+{
+	"id": "haiti",
+	"nombre": "Haití",
+	"nombres": [
+		"Haiti",
+		"Haití"
+	],
+	"wikidata": "Q790",
+	"wiki": "es:Haití",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q790",
+			"url": "https://www.wikidata.org/wiki/Q790",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Haití",
+			"url": "https://es.wikipedia.org/wiki/Hait%C3%AD",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "HTI",
+	"poblacion": [
+		{
+			"anio": -8000,
+			"valor": 1
+		},
+		{
+			"anio": -7000,
+			"valor": 3
+		},
+		{
+			"anio": -6000,
+			"valor": 7
+		},
+		{
+			"anio": -5000,
+			"valor": 14
+		},
+		{
+			"anio": -4000,
+			"valor": 28
+		},
+		{
+			"anio": -3000,
+			"valor": 57
+		},
+		{
+			"anio": -2000,
+			"valor": 114
+		},
+		{
+			"anio": -1000,
+			"valor": 228
+		},
+		{
+			"anio": 0,
+			"valor": 456
+		},
+		{
+			"anio": 100,
+			"valor": 685
+		},
+		{
+			"anio": 200,
+			"valor": 1027
+		},
+		{
+			"anio": 300,
+			"valor": 1541
+		},
+		{
+			"anio": 400,
+			"valor": 2312
+		},
+		{
+			"anio": 500,
+			"valor": 3468
+		},
+		{
+			"anio": 600,
+			"valor": 5202
+		},
+		{
+			"anio": 700,
+			"valor": 7803
+		},
+		{
+			"anio": 800,
+			"valor": 11705
+		},
+		{
+			"anio": 900,
+			"valor": 17558
+		},
+		{
+			"anio": 1000,
+			"valor": 26337
+		},
+		{
+			"anio": 1100,
+			"valor": 39506
+		},
+		{
+			"anio": 1200,
+			"valor": 59259
+		},
+		{
+			"anio": 1300,
+			"valor": 88888
+		},
+		{
+			"anio": 1400,
+			"valor": 133333
+		},
+		{
+			"anio": 1500,
+			"valor": 200000
+		},
+		{
+			"anio": 1600,
+			"valor": 39747
+		},
+		{
+			"anio": 1700,
+			"valor": 49684
+		},
+		{
+			"anio": 1750,
+			"valor": 151624
+		},
+		{
+			"anio": 1800,
+			"valor": 500000
+		},
+		{
+			"anio": 1850,
+			"valor": 938934
+		},
+		{
+			"anio": 1900,
+			"valor": 1616961
+		},
+		{
+			"anio": 1910,
+			"valor": 1883502
+		},
+		{
+			"anio": 1920,
+			"valor": 2215834
+		},
+		{
+			"anio": 1930,
+			"valor": 2530442
+		},
+		{
+			"anio": 1940,
+			"valor": 2873280
+		},
+		{
+			"anio": 1950,
+			"valor": 3265716
+		},
+		{
+			"anio": 1960,
+			"valor": 3858447
+		},
+		{
+			"anio": 1970,
+			"valor": 4635126
+		},
+		{
+			"anio": 1980,
+			"valor": 5614494
+		},
+		{
+			"anio": 1990,
+			"valor": 6854444
+		},
+		{
+			"anio": 2000,
+			"valor": 8303151
+		},
+		{
+			"anio": 2010,
+			"valor": 9803299
+		},
+		{
+			"anio": 2020,
+			"valor": 11243846
+		},
+		{
+			"anio": 2023,
+			"valor": 11637402
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6c19f473be1a",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Haití, oficialmente República de Haití, es un país de América ubicado en La Española; es uno de los trece Estados que forman la América Insular, Antillas o islas del mar Caribe. Su capital y ciudad más poblada es Puerto Príncipe."
+}

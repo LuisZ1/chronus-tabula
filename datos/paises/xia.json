@@ -1,0 +1,40 @@
+{
+	"id": "xia",
+	"nombre": "Dinastía Xia",
+	"nombres": [
+		"Xia"
+	],
+	"wiki": "Dinastía Xia",
+	"gobernantes": [
+		{
+			"desde": -2070,
+			"hasta": -2025,
+			"nombre": "Yu el Grande",
+			"titulo": "Fundador legendario; domó las grandes inundaciones"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Xia",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Xia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Dinastía Xia",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Xia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La dinastía Xia fue la primera dinastía de la historia de China. Según las crónicas chinas habría durado entre el siglo XXI a.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "cbd9741fb890",
+		"secciones": [
+			"resena"
+		]
+	}
+}

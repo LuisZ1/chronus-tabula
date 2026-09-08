@@ -1,0 +1,62 @@
+{
+	"id": "sucesion-castellana",
+	"nombre": "Guerra de Sucesión Castellana",
+	"inicio": 1475,
+	"fin": 1479,
+	"paises": [
+		"Castilla",
+		"España",
+		"Portugal"
+	],
+	"bajas": "varios miles",
+	"descripcion": "Isabel la Católica y Fernando de Aragón contra Juana la Beltraneja y Alfonso V de Portugal por el trono de Castilla; la victoria consolida a los Reyes Católicos.",
+	"wiki": "Guerra de Sucesión Castellana",
+	"fuentes": [
+		{
+			"id": "libro:Juan de Mariana, Historia general de España (1601)",
+			"licencia": "dominio público"
+		},
+		{
+			"id": "wikipedia-es:Guerra de Sucesión Castellana",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Sucesión_Castellana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frontera castellano-portuguesa",
+			"tipo": "frente",
+			"desde": 1475,
+			"hasta": 1479,
+			"poligono": [
+				[
+					41.9,
+					-6.8
+				],
+				[
+					41.7,
+					-4.8
+				],
+				[
+					40.6,
+					-5.2
+				],
+				[
+					40.8,
+					-7.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Toro",
+			"anio": 1476,
+			"lat": 41.52,
+			"lng": -5.39,
+			"descripcion": "Choque indeciso en el campo pero victoria política de los Reyes Católicos, que asientan a Isabel en el trono.",
+			"wiki": "Batalla de Toro"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "La rueda",
+	"anio": -3500,
+	"lat": 31.32,
+	"lng": 45.64,
+	"categoria": "invento",
+	"descripcion": "Las primeras ruedas de alfarero y de carro aparecen en Mesopotamia (pin en Uruk).",
+	"wiki": "Rueda",
+	"paises": [
+		"Mesopotamia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rueda",
+			"url": "https://es.wikipedia.org/wiki/Rueda",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

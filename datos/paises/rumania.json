@@ -1,0 +1,224 @@
+{
+	"id": "rumania",
+	"nombre": "Rumanía",
+	"nombres": [
+		"Romania",
+		"Rumanía",
+		"Rumania"
+	],
+	"wikidata": "Q218",
+	"wiki": "es:Rumanía",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q218",
+			"url": "https://www.wikidata.org/wiki/Q218",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Rumanía",
+			"url": "https://es.wikipedia.org/wiki/Rumania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "ROU",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 2799
+		},
+		{
+			"anio": -9000,
+			"valor": 4665
+		},
+		{
+			"anio": -8000,
+			"valor": 7776
+		},
+		{
+			"anio": -7000,
+			"valor": 12960
+		},
+		{
+			"anio": -6000,
+			"valor": 21600
+		},
+		{
+			"anio": -5000,
+			"valor": 36000
+		},
+		{
+			"anio": -4000,
+			"valor": 60000
+		},
+		{
+			"anio": -3000,
+			"valor": 100000
+		},
+		{
+			"anio": -2000,
+			"valor": 300000
+		},
+		{
+			"anio": -1000,
+			"valor": 500000
+		},
+		{
+			"anio": 0,
+			"valor": 800000
+		},
+		{
+			"anio": 100,
+			"valor": 800000
+		},
+		{
+			"anio": 200,
+			"valor": 800000
+		},
+		{
+			"anio": 300,
+			"valor": 700000
+		},
+		{
+			"anio": 400,
+			"valor": 600000
+		},
+		{
+			"anio": 500,
+			"valor": 550000
+		},
+		{
+			"anio": 600,
+			"valor": 500000
+		},
+		{
+			"anio": 700,
+			"valor": 550000
+		},
+		{
+			"anio": 800,
+			"valor": 600000
+		},
+		{
+			"anio": 900,
+			"valor": 700000
+		},
+		{
+			"anio": 1000,
+			"valor": 800000
+		},
+		{
+			"anio": 1100,
+			"valor": 900000
+		},
+		{
+			"anio": 1200,
+			"valor": 1000000
+		},
+		{
+			"anio": 1300,
+			"valor": 1500000
+		},
+		{
+			"anio": 1400,
+			"valor": 1250000
+		},
+		{
+			"anio": 1500,
+			"valor": 2000000
+		},
+		{
+			"anio": 1600,
+			"valor": 2000000
+		},
+		{
+			"anio": 1700,
+			"valor": 2500000
+		},
+		{
+			"anio": 1750,
+			"valor": 3941761
+		},
+		{
+			"anio": 1800,
+			"valor": 5500000
+		},
+		{
+			"anio": 1850,
+			"valor": 7997430
+		},
+		{
+			"anio": 1900,
+			"valor": 11005350
+		},
+		{
+			"anio": 1910,
+			"valor": 11832057
+		},
+		{
+			"anio": 1920,
+			"valor": 12403390
+		},
+		{
+			"anio": 1930,
+			"valor": 14116480
+		},
+		{
+			"anio": 1940,
+			"valor": 15807371
+		},
+		{
+			"anio": 1950,
+			"valor": 16397275
+		},
+		{
+			"anio": 1960,
+			"valor": 18313498
+		},
+		{
+			"anio": 1970,
+			"valor": 20011626
+		},
+		{
+			"anio": 1980,
+			"valor": 22154776
+		},
+		{
+			"anio": 1990,
+			"valor": 22939530
+		},
+		{
+			"anio": 2000,
+			"valor": 22046264
+		},
+		{
+			"anio": 2010,
+			"valor": 20432575
+		},
+		{
+			"anio": 2020,
+			"valor": 19392467
+		},
+		{
+			"anio": 2023,
+			"valor": 19118482
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "cbd4734c88c1",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Rumania o Rumanía es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está ubicado en la intersección de Europa Oriental y del Sureste, y cuenta con costa en el Mar Negro por el sudeste."
+}

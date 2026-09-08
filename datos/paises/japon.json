@@ -1,0 +1,423 @@
+{
+	"id": "japon",
+	"nombre": "Japón",
+	"nombres": [
+		"Japan",
+		"Imperial Japan",
+		"Empire of Japan",
+		"Imperial Japan (Fujiwara)",
+		"Shogun Japan (Kamakura)",
+		"Japan (Warring States)"
+	],
+	"gobernantes": [
+		{
+			"desde": 189,
+			"hasta": 248,
+			"nombre": "Reina Himiko (reino de Yamatai/Wa)",
+			"titulo": "Reina chamán del Wa (fechas de reinado inciertas, valor estándar)"
+		},
+		{
+			"desde": 673,
+			"hasta": 686,
+			"nombre": "Emperador Tenmu",
+			"titulo": "Emperador, consolidó el Estado Yamato"
+		},
+		{
+			"desde": 724,
+			"hasta": 749,
+			"nombre": "Emperador Shōmu",
+			"titulo": "Emperador, impulsor del Gran Buda del Tōdaiji"
+		},
+		{
+			"desde": 781,
+			"hasta": 806,
+			"nombre": "Emperador Kanmu (traslado de la capital a Kioto)",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1192,
+			"hasta": 1199,
+			"nombre": "Minamoto no Yoritomo (primer shogunato)",
+			"titulo": "Shogun"
+		},
+		{
+			"desde": 1203,
+			"hasta": 1333,
+			"nombre": "Regencia Hōjō (shikken del bakufu de Kamakura)",
+			"titulo": "Regentes shikken de facto del shogunato de Kamakura"
+		},
+		{
+			"desde": 1318,
+			"hasta": 1339,
+			"nombre": "Emperador Go-Daigo",
+			"titulo": "Emperador, líder de la Restauración Kenmu"
+		},
+		{
+			"desde": 1338,
+			"hasta": 1358,
+			"nombre": "Ashikaga Takauji",
+			"titulo": "Primer shogun del shogunato Ashikaga (Muromachi)"
+		},
+		{
+			"desde": 1368,
+			"hasta": 1394,
+			"nombre": "Ashikaga Yoshimitsu",
+			"titulo": "Tercer shogun Ashikaga, apogeo del bakufu Muromachi"
+		},
+		{
+			"desde": 1568,
+			"hasta": 1582,
+			"nombre": "Oda Nobunaga (unificador)",
+			"titulo": "Daimio"
+		},
+		{
+			"desde": 1585,
+			"hasta": 1598,
+			"nombre": "Toyotomi Hideyoshi",
+			"titulo": "Kampaku, segundo unificador de Japón"
+		},
+		{
+			"desde": 1603,
+			"hasta": 1616,
+			"nombre": "Tokugawa Ieyasu (shogunato Tokugawa)",
+			"titulo": "Shogun"
+		},
+		{
+			"desde": 1867,
+			"hasta": 1912,
+			"nombre": "Emperador Meiji (Restauración Meiji)",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1926,
+			"hasta": 1989,
+			"nombre": "Hirohito (Showa)",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1989,
+			"hasta": 2019,
+			"nombre": "Akihito",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2012,
+			"hasta": 2020,
+			"nombre": "Shinzō Abe",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Naruhito",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2020,
+			"hasta": 2021,
+			"nombre": "Yoshihide Suga",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2021,
+			"hasta": 2024,
+			"nombre": "Fumio Kishida",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2024,
+			"hasta": 2025,
+			"nombre": "Shigeru Ishiba",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2025,
+			"hasta": 2025,
+			"nombre": "Sanae Takaichi",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 5202
+		},
+		{
+			"anio": -9000,
+			"valor": 7803
+		},
+		{
+			"anio": -8000,
+			"valor": 11705
+		},
+		{
+			"anio": -7000,
+			"valor": 17558
+		},
+		{
+			"anio": -6000,
+			"valor": 26337
+		},
+		{
+			"anio": -5000,
+			"valor": 39506
+		},
+		{
+			"anio": -4000,
+			"valor": 59259
+		},
+		{
+			"anio": -3000,
+			"valor": 88888
+		},
+		{
+			"anio": -2000,
+			"valor": 133333
+		},
+		{
+			"anio": -1000,
+			"valor": 200000
+		},
+		{
+			"anio": 0,
+			"valor": 300000
+		},
+		{
+			"anio": 100,
+			"valor": 500000
+		},
+		{
+			"anio": 200,
+			"valor": 700000
+		},
+		{
+			"anio": 300,
+			"valor": 1100000
+		},
+		{
+			"anio": 400,
+			"valor": 1500000
+		},
+		{
+			"anio": 500,
+			"valor": 2250000
+		},
+		{
+			"anio": 600,
+			"valor": 3000000
+		},
+		{
+			"anio": 700,
+			"valor": 4500000
+		},
+		{
+			"anio": 800,
+			"valor": 5500000
+		},
+		{
+			"anio": 900,
+			"valor": 6400000
+		},
+		{
+			"anio": 1000,
+			"valor": 6000000
+		},
+		{
+			"anio": 1100,
+			"valor": 6200000
+		},
+		{
+			"anio": 1200,
+			"valor": 6400000
+		},
+		{
+			"anio": 1300,
+			"valor": 7300000
+		},
+		{
+			"anio": 1400,
+			"valor": 9300000
+		},
+		{
+			"anio": 1500,
+			"valor": 12300000
+		},
+		{
+			"anio": 1600,
+			"valor": 17000000
+		},
+		{
+			"anio": 1700,
+			"valor": 26700000
+		},
+		{
+			"anio": 1750,
+			"valor": 29000000
+		},
+		{
+			"anio": 1800,
+			"valor": 28000000
+		},
+		{
+			"anio": 1850,
+			"valor": 32050374
+		},
+		{
+			"anio": 1900,
+			"valor": 44416502
+		},
+		{
+			"anio": 1910,
+			"valor": 49880362
+		},
+		{
+			"anio": 1920,
+			"valor": 56328237
+		},
+		{
+			"anio": 1930,
+			"valor": 64665549
+		},
+		{
+			"anio": 1940,
+			"valor": 73591941
+		},
+		{
+			"anio": 1950,
+			"valor": 86443278
+		},
+		{
+			"anio": 1960,
+			"valor": 96399755
+		},
+		{
+			"anio": 1970,
+			"valor": 106712370
+		},
+		{
+			"anio": 1980,
+			"valor": 118358761
+		},
+		{
+			"anio": 1990,
+			"valor": 123399767
+		},
+		{
+			"anio": 2000,
+			"valor": 127027794
+		},
+		{
+			"anio": 2010,
+			"valor": 128185273
+		},
+		{
+			"anio": 2020,
+			"valor": 126304533
+		},
+		{
+			"anio": 2023,
+			"valor": 124370947
+		}
+	],
+	"relacionados": [
+		"Clan Minamoto",
+		"Clan Taira",
+		"Clan Oda",
+		"Clan Toyotomi",
+		"Clan Tokugawa",
+		"Daimios rivales"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Japón",
+			"url": "https://es.wikipedia.org/wiki/Japón",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Japón",
+			"url": "https://es.wikipedia.org/wiki/Jap%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q37979",
+			"url": "http://www.wikidata.org/entity/Q37979",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q132345",
+			"url": "http://www.wikidata.org/entity/Q132345",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q217096",
+			"url": "http://www.wikidata.org/entity/Q217096",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q122465",
+			"url": "http://www.wikidata.org/entity/Q122465",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q359480",
+			"url": "http://www.wikidata.org/entity/Q359480",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1335527",
+			"url": "http://www.wikidata.org/entity/Q1335527",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1705028",
+			"url": "http://www.wikidata.org/entity/Q1705028",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q17",
+			"url": "https://www.wikidata.org/wiki/Q17",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q17",
+			"url": "https://www.wikidata.org/wiki/Q17",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Japan",
+	"wikidata": "Q17",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "19334995bce7",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Japón es un país insular en Asia Oriental ubicado en el noroeste del océano Pacífico. Limita con el mar del Japón al oeste y se extiende desde el mar de Ojotsk en el norte hasta el mar de la China Oriental y Taiwán en el sur.",
+	"escudos": [
+		{
+			"archivo": "Kamon of the Imperial House of Japan.svg"
+		}
+	]
+}

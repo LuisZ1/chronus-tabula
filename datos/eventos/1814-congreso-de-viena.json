@@ -1,0 +1,22 @@
+{
+	"nombre": "Congreso de Viena",
+	"anio": 1814,
+	"hasta": 1815,
+	"lat": 48.21,
+	"lng": 16.37,
+	"descripcion": "Las potencias reordenan Europa tras Napoleón.",
+	"paises": [
+		"Austria",
+		"Francia",
+		"Rusia",
+		"Gran Bretaña",
+		"Prusia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Congreso de Viena",
+			"url": "https://es.wikipedia.org/wiki/Congreso_de_Viena",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

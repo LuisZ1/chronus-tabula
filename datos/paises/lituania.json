@@ -1,0 +1,224 @@
+{
+	"id": "lituania",
+	"nombre": "Lituania",
+	"nombres": [
+		"Lithuania",
+		"Lituania",
+		"Republica de Lituania"
+	],
+	"wikidata": "Q37",
+	"wiki": "es:Lituania",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q37",
+			"url": "https://www.wikidata.org/wiki/Q37",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Lituania",
+			"url": "https://es.wikipedia.org/wiki/Lituania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LTU",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 45
+		},
+		{
+			"anio": -9000,
+			"valor": 90
+		},
+		{
+			"anio": -8000,
+			"valor": 181
+		},
+		{
+			"anio": -7000,
+			"valor": 362
+		},
+		{
+			"anio": -6000,
+			"valor": 725
+		},
+		{
+			"anio": -5000,
+			"valor": 1451
+		},
+		{
+			"anio": -4000,
+			"valor": 2903
+		},
+		{
+			"anio": -3000,
+			"valor": 5806
+		},
+		{
+			"anio": -2000,
+			"valor": 11612
+		},
+		{
+			"anio": -1000,
+			"valor": 23224
+		},
+		{
+			"anio": 0,
+			"valor": 46449
+		},
+		{
+			"anio": 100,
+			"valor": 48893
+		},
+		{
+			"anio": 200,
+			"valor": 51467
+		},
+		{
+			"anio": 300,
+			"valor": 54175
+		},
+		{
+			"anio": 400,
+			"valor": 57027
+		},
+		{
+			"anio": 500,
+			"valor": 60028
+		},
+		{
+			"anio": 600,
+			"valor": 63188
+		},
+		{
+			"anio": 700,
+			"valor": 66513
+		},
+		{
+			"anio": 800,
+			"valor": 70014
+		},
+		{
+			"anio": 900,
+			"valor": 73699
+		},
+		{
+			"anio": 1000,
+			"valor": 77578
+		},
+		{
+			"anio": 1100,
+			"valor": 81661
+		},
+		{
+			"anio": 1200,
+			"valor": 85959
+		},
+		{
+			"anio": 1300,
+			"valor": 90483
+		},
+		{
+			"anio": 1400,
+			"valor": 95245
+		},
+		{
+			"anio": 1500,
+			"valor": 100258
+		},
+		{
+			"anio": 1600,
+			"valor": 105535
+		},
+		{
+			"anio": 1700,
+			"valor": 111090
+		},
+		{
+			"anio": 1750,
+			"valor": 240109
+		},
+		{
+			"anio": 1800,
+			"valor": 778655
+		},
+		{
+			"anio": 1850,
+			"valor": 1209445
+		},
+		{
+			"anio": 1900,
+			"valor": 2523151
+		},
+		{
+			"anio": 1910,
+			"valor": 2850870
+		},
+		{
+			"anio": 1920,
+			"valor": 2283303
+		},
+		{
+			"anio": 1930,
+			"valor": 2417070
+		},
+		{
+			"anio": 1940,
+			"valor": 2453223
+		},
+		{
+			"anio": 1950,
+			"valor": 2433000
+		},
+		{
+			"anio": 1960,
+			"valor": 2769099
+		},
+		{
+			"anio": 1970,
+			"valor": 3135874
+		},
+		{
+			"anio": 1980,
+			"valor": 3428417
+		},
+		{
+			"anio": 1990,
+			"valor": 3695016
+		},
+		{
+			"anio": 2000,
+			"valor": 3500410
+		},
+		{
+			"anio": 2010,
+			"valor": 3097721
+		},
+		{
+			"anio": 2020,
+			"valor": 2795766
+		},
+		{
+			"anio": 2023,
+			"valor": 2854104
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "fe968acd80b0",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Lituania, oficialmente la República de Lituania, es uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido como un Estado social y democrático de derecho, cuya forma de gobierno es la república semipresidencialista unitaria. Su territorio está organizado en diez condados."
+}

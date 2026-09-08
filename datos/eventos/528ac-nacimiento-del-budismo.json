@@ -1,0 +1,19 @@
+{
+	"nombre": "Nacimiento del budismo",
+	"anio": -528,
+	"lat": 24.7,
+	"lng": 84.99,
+	"paises": [
+		"Imperio maurya"
+	],
+	"descripcion": "Según la tradición, Siddhartha Gautama alcanza la iluminación bajo el árbol Bodhi en Bodh Gaya y se convierte en el Buda. Su enseñanza sobre el sufrimiento y su superación dará origen a una de las grandes religiones del mundo.",
+	"wiki": "Buda Gautama",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Buda Gautama",
+			"url": "https://es.wikipedia.org/wiki/Buda_Gautama",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

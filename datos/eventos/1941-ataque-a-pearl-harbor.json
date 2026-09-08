@@ -1,0 +1,19 @@
+{
+	"nombre": "Ataque a Pearl Harbor",
+	"anio": 1941,
+	"lat": 21.36,
+	"lng": -157.95,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "El ataque japonés a la base naval de Hawái arrastra a Estados Unidos a la Segunda Guerra Mundial.",
+	"wiki": "Ataque a Pearl Harbor",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Ataque a Pearl Harbor",
+			"url": "https://es.wikipedia.org/wiki/Ataque_a_Pearl_Harbor",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

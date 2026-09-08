@@ -1,0 +1,66 @@
+{
+	"id": "guerras-romano-partas-alto-imperio",
+	"nombre": "Guerras romano-partas del Alto Imperio",
+	"inicio": 54,
+	"fin": 217,
+	"paises": [
+		"Roma",
+		"Imperio parto",
+		"Armenia"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Serie de campañas por el control de Armenia y Mesopotamia: Corbulón bajo Nerón (54-63), la Pártica de Trajano (114-117), la de Lucio Vero (161-166) y la II Pártica de Septimio Severo (197-199). El conflicto con los arsácidas se prolonga hasta que los sasánidas los reemplazan.",
+	"wiki": "Guerras romano-partas",
+	"zonas": [
+		{
+			"nombre": "Frontera oriental: Armenia y Mesopotamia",
+			"tipo": "frente",
+			"desde": 54,
+			"hasta": 217,
+			"poligono": [
+				[
+					40.5,
+					39.0
+				],
+				[
+					40.5,
+					45.5
+				],
+				[
+					33.0,
+					45.5
+				],
+				[
+					33.0,
+					40.0
+				],
+				[
+					36.5,
+					38.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Ctesifonte por Trajano",
+			"anio": 116,
+			"lat": 33.09,
+			"lng": 44.58,
+			"descripcion": "Trajano ocupa la capital parta y alcanza el golfo Pérsico.",
+			"wiki": "Ctesifonte"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras romano-partas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_romano-partas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

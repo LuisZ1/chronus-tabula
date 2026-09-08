@@ -1,0 +1,19 @@
+{
+	"nombre": "Código de Hammurabi",
+	"anio": -1754,
+	"lat": 32.54,
+	"lng": 44.42,
+	"paises": [
+		"Babilonia"
+	],
+	"descripcion": "El rey Hammurabi hace grabar en una estela de basalto casi 300 leyes bajo el principio del talión (\"ojo por ojo\"): uno de los primeros grandes corpus jurídicos de la historia, hoy en el Louvre.",
+	"wiki": "Código de Hammurabi",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Código de Hammurabi",
+			"url": "https://es.wikipedia.org/wiki/Código_de_Hammurabi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

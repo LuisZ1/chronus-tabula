@@ -1,0 +1,20 @@
+{
+	"nombre": "Retorno de Hong Kong a China",
+	"anio": 1997,
+	"lat": 22.32,
+	"lng": 114.17,
+	"paises": [
+		"República Popular China",
+		"Reino Unido"
+	],
+	"descripcion": "El 1 de julio de 1997 el Reino Unido devuelve Hong Kong a China, que pasa a ser Región Administrativa Especial bajo el principio 'un país, dos sistemas'.",
+	"wiki": "Transferencia de soberanía de Hong Kong",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Transferencia de soberanía de Hong Kong",
+			"url": "https://es.wikipedia.org/wiki/Transferencia_de_soberan%C3%ADa_de_Hong_Kong",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

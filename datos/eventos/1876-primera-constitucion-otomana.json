@@ -1,0 +1,23 @@
+{
+	"nombre": "Primera constitución otomana",
+	"anio": 1876,
+	"lat": 41.01,
+	"lng": 28.98,
+	"paises": [
+		"Otomano"
+	],
+	"descripcion": "Bajo Abdul Hamid II se promulga la primera constitución (Kanun-i Esasi) y se abre un breve parlamento, pronto suspendido por el sultán. Es el primer intento de monarquía constitucional otomana.",
+	"wiki": "Constitución otomana de 1876",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Constitución otomana de 1876",
+			"url": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_otomana_de_1876",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

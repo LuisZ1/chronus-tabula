@@ -1,0 +1,19 @@
+{
+	"nombre": "Edicto de expulsión de misioneros cristianos",
+	"anio": 1587,
+	"lat": 33.6,
+	"lng": 130.4,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Hideyoshi ordena la expulsión de los misioneros jesuitas, inicio de la persecución del cristianismo.",
+	"wiki": "Edicto de expulsión de 1587",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Edicto de expulsión de 1587",
+			"url": "https://es.wikipedia.org/wiki/Edicto_de_expulsi%C3%B3n_de_1587",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

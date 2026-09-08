@@ -1,0 +1,224 @@
+{
+	"id": "mexico",
+	"nombre": "México",
+	"nombres": [
+		"Mexico",
+		"México",
+		"Estados Unidos Mexicanos"
+	],
+	"wikidata": "Q96",
+	"wiki": "es:México",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q96",
+			"url": "https://www.wikidata.org/wiki/Q96",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): México",
+			"url": "https://es.wikipedia.org/wiki/M%C3%A9xico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "MEX",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 810851
+		},
+		{
+			"anio": -9000,
+			"valor": 1013563
+		},
+		{
+			"anio": -8000,
+			"valor": 1266954
+		},
+		{
+			"anio": -7000,
+			"valor": 1583693
+		},
+		{
+			"anio": -6000,
+			"valor": 1979617
+		},
+		{
+			"anio": -5000,
+			"valor": 2474521
+		},
+		{
+			"anio": -4000,
+			"valor": 3093151
+		},
+		{
+			"anio": -3000,
+			"valor": 3866439
+		},
+		{
+			"anio": -2000,
+			"valor": 4833049
+		},
+		{
+			"anio": -1000,
+			"valor": 6041312
+		},
+		{
+			"anio": 0,
+			"valor": 7551640
+		},
+		{
+			"anio": 100,
+			"valor": 7958474
+		},
+		{
+			"anio": 200,
+			"valor": 8387481
+		},
+		{
+			"anio": 300,
+			"valor": 8839875
+		},
+		{
+			"anio": 400,
+			"valor": 9316936
+		},
+		{
+			"anio": 500,
+			"valor": 9820015
+		},
+		{
+			"anio": 600,
+			"valor": 10350537
+		},
+		{
+			"anio": 700,
+			"valor": 10910003
+		},
+		{
+			"anio": 800,
+			"valor": 11500000
+		},
+		{
+			"anio": 900,
+			"valor": 13250000
+		},
+		{
+			"anio": 1000,
+			"valor": 14860402
+		},
+		{
+			"anio": 1100,
+			"valor": 16748472
+		},
+		{
+			"anio": 1200,
+			"valor": 18658760
+		},
+		{
+			"anio": 1300,
+			"valor": 20583860
+		},
+		{
+			"anio": 1400,
+			"valor": 22518836
+		},
+		{
+			"anio": 1500,
+			"valor": 24460394
+		},
+		{
+			"anio": 1600,
+			"valor": 1000000
+		},
+		{
+			"anio": 1700,
+			"valor": 4000000
+		},
+		{
+			"anio": 1750,
+			"valor": 5678407
+		},
+		{
+			"anio": 1800,
+			"valor": 5100000
+		},
+		{
+			"anio": 1850,
+			"valor": 7688866
+		},
+		{
+			"anio": 1900,
+			"valor": 13261087
+		},
+		{
+			"anio": 1910,
+			"valor": 14503032
+		},
+		{
+			"anio": 1920,
+			"valor": 14579605
+		},
+		{
+			"anio": 1930,
+			"valor": 16689077
+		},
+		{
+			"anio": 1940,
+			"valor": 19982850
+		},
+		{
+			"anio": 1950,
+			"valor": 27587941
+		},
+		{
+			"anio": 1960,
+			"valor": 36724614
+		},
+		{
+			"anio": 1970,
+			"valor": 50814958
+		},
+		{
+			"anio": 1980,
+			"valor": 67300338
+		},
+		{
+			"anio": 1990,
+			"valor": 82820170
+		},
+		{
+			"anio": 2000,
+			"valor": 98625553
+		},
+		{
+			"anio": 2010,
+			"valor": 113623898
+		},
+		{
+			"anio": 2020,
+			"valor": 126799053
+		},
+		{
+			"anio": 2023,
+			"valor": 129739761
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "bc3c727e7507",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "México, oficialmente Estados Unidos Mexicanos, es un país soberano ubicado en la parte meridional de América del Norte; su capital y ciudad más poblada es la Ciudad de México. De acuerdo con la constitución vigente, su forma de gobierno consiste en una república representativa, democrática, laica y federal, compuesta por 32 entidades federativas."
+}

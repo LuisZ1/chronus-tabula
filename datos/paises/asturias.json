@@ -1,0 +1,46 @@
+{
+	"id": "asturias",
+	"nombre": "Reino de Asturias",
+	"nombres": [
+		"Asturias"
+	],
+	"wiki": "Reino de Asturias",
+	"gobernantes": [
+		{
+			"desde": 718,
+			"hasta": 737,
+			"nombre": "Pelayo",
+			"titulo": "Primer rey de Asturias, victoria de Covadonga"
+		},
+		{
+			"desde": 866,
+			"hasta": 910,
+			"nombre": "Alfonso III el Magno",
+			"titulo": "Rey de Asturias, gran expansión"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Asturias",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Asturias",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Reino de Asturias",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Asturias",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El reino de Asturias o de los astures fue la primera entidad política cristiana establecida en la península ibérica después del desmoronamiento del reino visigodo de Toledo tras la desaparición del rey Rodrigo en la batalla de Guadalete y la subsiguiente conquista musulmana de la península ibérica.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "41e113922fc1",
+		"secciones": [
+			"resena"
+		]
+	}
+}

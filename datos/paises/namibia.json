@@ -1,0 +1,130 @@
+{
+	"id": "namibia",
+	"nombre": "Namibia",
+	"nombres": [
+		"Namibia",
+		"África del Sudoeste",
+		"South-West Africa",
+		"Deutsch-Südwestafrika"
+	],
+	"wiki": "es:Namibia",
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Namibia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Namibia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1030",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Namibia",
+			"url": "https://es.wikipedia.org/wiki/Namibia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "África del Sudoeste Alemana",
+			"desde": 1884,
+			"hasta": 1915
+		},
+		{
+			"nombre": "África del Sudoeste (mandato/administración sudafricana)",
+			"desde": 1915,
+			"hasta": 1990
+		},
+		{
+			"nombre": "República de Namibia",
+			"desde": 1990,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1030",
+	"gobernantes": [
+		{
+			"nombre": "Sam Nujoma",
+			"desde": 1990,
+			"hasta": 2005,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Hifikepunye Pohamba",
+			"desde": 2005,
+			"hasta": 2015,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Hage Geingob",
+			"desde": 2015,
+			"hasta": 2024,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Nangolo Mbumba",
+			"desde": 2024,
+			"hasta": 2025,
+			"cargo": "Presidente (interino)"
+		},
+		{
+			"nombre": "Netumbo Nandi-Ndaitwah",
+			"desde": 2025,
+			"hasta": 2026,
+			"cargo": "Presidenta"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 485000,
+			"fuente": "Wikipedia (Demographics of Namibia), estimación ONU"
+		},
+		{
+			"anio": 1960,
+			"valor": 603000,
+			"fuente": "Wikipedia (Demographics of Namibia), estimación ONU"
+		},
+		{
+			"anio": 1991,
+			"valor": 1409915,
+			"fuente": "Wikipedia (Demographics of Namibia), censo"
+		},
+		{
+			"anio": 2001,
+			"valor": 1830330,
+			"fuente": "Wikipedia (Demographics of Namibia), censo"
+		},
+		{
+			"anio": 2011,
+			"valor": 2113077,
+			"fuente": "Wikipedia (Demographics of Namibia), censo"
+		},
+		{
+			"anio": 2023,
+			"valor": 3022401,
+			"fuente": "Wikipedia (Demographics of Namibia), censo"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "a76a07a8a0a2",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Namibia, oficialmente República de Namibia, es un país del suroeste de África. Comparte fronteras terrestres con Angola al norte, con Zambia al noreste, con Botsuana al este, con Sudáfrica al sureste y sur y con el océano Atlántico al oeste."
+}

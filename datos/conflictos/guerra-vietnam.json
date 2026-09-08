@@ -1,0 +1,101 @@
+{
+	"id": "guerra-vietnam",
+	"nombre": "Guerra de Vietnam",
+	"inicio": 1955,
+	"fin": 1975,
+	"paises": [
+		"Vietnam",
+		"Estados Unidos",
+		"China",
+		"URSS"
+	],
+	"bajas": "~2-3,5 millones de muertos",
+	"descripcion": "El Norte comunista y el Vietcong contra el Sur y Estados Unidos: la guerra que EE. UU. no pudo ganar acaba con la caída de Saigón y la reunificación (1976).",
+	"wiki": "Guerra de Vietnam",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra de Vietnam",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Vietnam",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Vietnam del Sur (guerrilla y ofensivas)",
+			"tipo": "frente",
+			"desde": 1960,
+			"hasta": 1975,
+			"poligono": [
+				[
+					17.0,
+					106.5
+				],
+				[
+					16.0,
+					108.8
+				],
+				[
+					10.0,
+					107.2
+				],
+				[
+					8.8,
+					104.8
+				],
+				[
+					11.5,
+					105.5
+				]
+			]
+		},
+		{
+			"nombre": "Bombardeos sobre el Norte (Rolling Thunder)",
+			"tipo": "frente",
+			"desde": 1965,
+			"hasta": 1972,
+			"poligono": [
+				[
+					21.5,
+					104.8
+				],
+				[
+					21.3,
+					107.2
+				],
+				[
+					18.5,
+					106.2
+				],
+				[
+					19.0,
+					104.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Ofensiva del Tet",
+			"anio": 1968,
+			"lat": 16.47,
+			"lng": 107.58,
+			"descripcion": "El asalto simultáneo a cien ciudades quiebra la opinión pública estadounidense; Hué, arrasada.",
+			"wiki": "Ofensiva del Tet"
+		},
+		{
+			"nombre": "Caída de Saigón",
+			"anio": 1975,
+			"lat": 10.78,
+			"lng": 106.7,
+			"descripcion": "Los tanques norvietnamitas entran en el palacio presidencial; evacuación en helicóptero de la embajada.",
+			"wiki": "Caída de Saigón"
+		}
+	]
+}

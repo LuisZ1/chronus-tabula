@@ -1,0 +1,1639 @@
+{
+	"id": "independencia-eeuu",
+	"nombre": "Guerra de Independencia de Estados Unidos",
+	"inicio": 1775,
+	"fin": 1783,
+	"paises": [
+		"Trece Colonias / Estados Unidos",
+		"Gran Bretaña",
+		"Francia",
+		"España",
+		"Países Bajos"
+	],
+	"bajas": "~70.000 muertos",
+	"descripcion": "Las colonias americanas se independizan de Gran Bretaña con ayuda de Francia y España. El control del territorio evolucionó: los británicos dominaron Boston (1775-76), Nueva York (1776-83), Filadelfia (1777-78) y el Sur (1779-82), mientras los patriotas controlaban Nueva Inglaterra y el interior; tras Yorktown (1781) el control británico quedó reducido a Nueva York.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Bunker Hill",
+			"anio": 1775,
+			"lat": 42.38,
+			"lng": -71.06
+		},
+		{
+			"nombre": "Batalla de Bunker Hill",
+			"anio": 1775,
+			"lat": 42.38,
+			"lng": -71.06
+		},
+		{
+			"nombre": "Captura del Fuerte Ticonderoga",
+			"anio": 1775,
+			"lat": 43.84,
+			"lng": -73.39
+		},
+		{
+			"nombre": "Batalla de Great Bridge",
+			"anio": 1775,
+			"lat": 36.72,
+			"lng": -76.24
+		},
+		{
+			"nombre": "Batalla de Kemp's Landing",
+			"anio": 1775,
+			"lat": 36.83,
+			"lng": -76.16
+		},
+		{
+			"nombre": "Batalla de Quebec",
+			"anio": 1775,
+			"lat": 46.81,
+			"lng": -71.2
+		},
+		{
+			"nombre": "Batalla de Longue-Pointe",
+			"anio": 1775,
+			"lat": 45.56,
+			"lng": -73.53
+		},
+		{
+			"nombre": "Batalla de Chelsea Creek",
+			"anio": 1775,
+			"lat": 42.38,
+			"lng": -71.03
+		},
+		{
+			"nombre": "Batalla de Long Island",
+			"anio": 1776,
+			"lat": 40.66,
+			"lng": -73.98
+		},
+		{
+			"nombre": "Landing at Kip's Bay",
+			"anio": 1776,
+			"lat": 40.74,
+			"lng": -73.97
+		},
+		{
+			"nombre": "Batalla de Pell's Point",
+			"anio": 1776,
+			"lat": 40.87,
+			"lng": -73.81
+		},
+		{
+			"nombre": "Batalla de Long Island",
+			"anio": 1776,
+			"lat": 40.66,
+			"lng": -73.98
+		},
+		{
+			"nombre": "Batalla de Harlem Heights",
+			"anio": 1776,
+			"lat": 40.81,
+			"lng": -73.96
+		},
+		{
+			"nombre": "Batalla de Fort Washington",
+			"anio": 1776,
+			"lat": 40.85,
+			"lng": -73.94
+		},
+		{
+			"nombre": "Batalla de White Plains",
+			"anio": 1776,
+			"lat": 41.03,
+			"lng": -73.78
+		},
+		{
+			"nombre": "Batalla de Iron Works Hill",
+			"anio": 1776,
+			"lat": 39.99,
+			"lng": -74.79
+		},
+		{
+			"nombre": "Batalla de Lindley's Fort",
+			"anio": 1776,
+			"lat": 34.46,
+			"lng": -82.12
+		},
+		{
+			"nombre": "Batalla de Saint-Pierre",
+			"anio": 1776,
+			"lat": 46.92,
+			"lng": -70.63
+		},
+		{
+			"nombre": "Batalla de Fort Cumberland",
+			"anio": 1776,
+			"lat": 45.87,
+			"lng": -64.29
+		},
+		{
+			"nombre": "Batalla de Sullivan's Island",
+			"anio": 1776,
+			"lat": 32.76,
+			"lng": -79.86
+		},
+		{
+			"nombre": "Batalla de Saratoga",
+			"anio": 1777,
+			"lat": 42.99,
+			"lng": -73.64,
+			"descripcion": "Victoria que convence a Francia de entrar en la guerra."
+		},
+		{
+			"nombre": "Batalla de Brandywine",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.59
+		},
+		{
+			"nombre": "Batalla de Gloucester",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.19
+		},
+		{
+			"nombre": "Battle of the Assunpink Creek",
+			"anio": 1777,
+			"lat": 40.22,
+			"lng": -74.76
+		},
+		{
+			"nombre": "Batalla de Germantown",
+			"anio": 1777,
+			"lat": 40.02,
+			"lng": -75.16
+		},
+		{
+			"nombre": "Batalla de Brandywine",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.59
+		},
+		{
+			"nombre": "Asedio de Fort Ticonderoga",
+			"anio": 1777,
+			"lat": 43.84,
+			"lng": -73.39
+		},
+		{
+			"nombre": "Batalla de Oriskany",
+			"anio": 1777,
+			"lat": 43.18,
+			"lng": -75.37
+		},
+		{
+			"nombre": "batalla de Princeton",
+			"anio": 1777,
+			"lat": 40.33,
+			"lng": -74.67
+		},
+		{
+			"nombre": "Batalla de Fort Anne",
+			"anio": 1777,
+			"lat": 43.43,
+			"lng": -73.48
+		},
+		{
+			"nombre": "Batalla de Hubbardton",
+			"anio": 1777,
+			"lat": 43.7,
+			"lng": -73.14
+		},
+		{
+			"nombre": "Batalla de Bennington",
+			"anio": 1777,
+			"lat": 42.94,
+			"lng": -73.3
+		},
+		{
+			"nombre": "Batalla de Cooch's Bridge",
+			"anio": 1777,
+			"lat": 39.64,
+			"lng": -75.73
+		},
+		{
+			"nombre": "Batalla de Paoli",
+			"anio": 1777,
+			"lat": 40.03,
+			"lng": -75.52
+		},
+		{
+			"nombre": "Batalla de Millstone",
+			"anio": 1777,
+			"lat": 40.54,
+			"lng": -74.59
+		},
+		{
+			"nombre": "Batalla de Matson's Ford",
+			"anio": 1777,
+			"lat": 40.07,
+			"lng": -75.31
+		},
+		{
+			"nombre": "Batalla de Forts Clinton and Montgomery",
+			"anio": 1777,
+			"lat": 41.32,
+			"lng": -73.99
+		},
+		{
+			"nombre": "Batalla de Short Hills",
+			"anio": 1777,
+			"lat": 40.75,
+			"lng": -74.33
+		},
+		{
+			"nombre": "Batalla de White Marsh",
+			"anio": 1777,
+			"lat": 40.12,
+			"lng": -75.23
+		},
+		{
+			"nombre": "Batalla de Red Bank",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.19
+		},
+		{
+			"nombre": "Batalla de Bound Brook",
+			"anio": 1777,
+			"lat": 40.56,
+			"lng": -74.53
+		},
+		{
+			"nombre": "Batalla de Machias (1777)",
+			"anio": 1777,
+			"lat": 44.71,
+			"lng": -67.46
+		},
+		{
+			"nombre": "Batalla de Ridgefield",
+			"anio": 1777,
+			"lat": 41.31,
+			"lng": -73.5
+		},
+		{
+			"nombre": "Batalla de Setauket",
+			"anio": 1777,
+			"lat": 40.95,
+			"lng": -73.11
+		},
+		{
+			"nombre": "Battle of the Clouds",
+			"anio": 1777,
+			"lat": 40.05,
+			"lng": -75.57
+		},
+		{
+			"nombre": "Batalla de Punk Hill",
+			"anio": 1777,
+			"lat": 40.52,
+			"lng": -74.36
+		},
+		{
+			"nombre": "Batalla de Thomas Creek",
+			"anio": 1777,
+			"lat": 30.51,
+			"lng": -81.79
+		},
+		{
+			"nombre": "batalla del cabo Finisterre (1778)",
+			"anio": 1778,
+			"lat": 42.88,
+			"lng": -9.29
+		},
+		{
+			"nombre": "Batalla de Rhode Island",
+			"anio": 1778,
+			"lat": 41.6,
+			"lng": -71.26
+		},
+		{
+			"nombre": "Batalla de Monmouth",
+			"anio": 1778,
+			"lat": 40.26,
+			"lng": -74.28
+		},
+		{
+			"nombre": "Batalla de Chestnut Neck",
+			"anio": 1778,
+			"lat": 39.54,
+			"lng": -74.46
+		},
+		{
+			"nombre": "Batalla de Cobleskill",
+			"anio": 1778,
+			"lat": 42.68,
+			"lng": -74.49
+		},
+		{
+			"nombre": "Batalla de Alligator Bridge",
+			"anio": 1778,
+			"lat": 30.57,
+			"lng": -81.83
+		},
+		{
+			"nombre": "Batalla de Barren Hill",
+			"anio": 1778,
+			"lat": 40.08,
+			"lng": -75.25
+		},
+		{
+			"nombre": "Baylor Massacre",
+			"anio": 1778,
+			"lat": 41.01,
+			"lng": -74.01
+		},
+		{
+			"nombre": "Batalla de Quinton's Bridge",
+			"anio": 1778,
+			"lat": 39.55,
+			"lng": -75.41
+		},
+		{
+			"nombre": "Cherry Valley massacre",
+			"anio": 1778,
+			"lat": 42.79,
+			"lng": -74.76
+		},
+		{
+			"nombre": "Mount Hope Bay raids",
+			"anio": 1778,
+			"lat": 41.69,
+			"lng": -71.22
+		},
+		{
+			"nombre": "Batalla de Crooked Billet",
+			"anio": 1778,
+			"lat": 40.17,
+			"lng": -75.11
+		},
+		{
+			"nombre": "Gran Asedio de Gibraltar",
+			"anio": 1779,
+			"lat": 36.14,
+			"lng": -5.35,
+			"descripcion": "España y Francia asedian el Peñón durante casi cuatro años sin éxito."
+		},
+		{
+			"nombre": "Batalla de Newtown",
+			"anio": 1779,
+			"lat": 42.05,
+			"lng": -76.73
+		},
+		{
+			"nombre": "Batalla de Stony Point",
+			"anio": 1779,
+			"lat": 41.24,
+			"lng": -73.97
+		},
+		{
+			"nombre": "Batalla de Chillicothe",
+			"anio": 1779,
+			"lat": 39.73,
+			"lng": -83.94
+		},
+		{
+			"nombre": "Batalla de Norwalk",
+			"anio": 1779,
+			"lat": 41.12,
+			"lng": -73.41
+		},
+		{
+			"nombre": "Batalla de Beaufort",
+			"anio": 1779,
+			"lat": 32.5,
+			"lng": -80.74
+		},
+		{
+			"nombre": "Batalla de Paulus Hook",
+			"anio": 1779,
+			"lat": 40.71,
+			"lng": -74.04
+		},
+		{
+			"nombre": "Batalla de Minisink",
+			"anio": 1779,
+			"lat": 41.49,
+			"lng": -74.97
+		},
+		{
+			"nombre": "Batalla de Stono Ferry",
+			"anio": 1779,
+			"lat": 32.76,
+			"lng": -80.13
+		},
+		{
+			"nombre": "batalla del Lago Pontchartrain",
+			"anio": 1779,
+			"lat": 30.19,
+			"lng": -90.1
+		},
+		{
+			"nombre": "Batalla de Kettle Creek",
+			"anio": 1779,
+			"lat": 33.69,
+			"lng": -82.89
+		},
+		{
+			"nombre": "Batalla de Camden",
+			"anio": 1780,
+			"lat": 34.36,
+			"lng": -80.61
+		},
+		{
+			"nombre": "Batalla de Colson's Mill",
+			"anio": 1780,
+			"lat": 35.15,
+			"lng": -80.08
+		},
+		{
+			"nombre": "Batalla de Connecticut Farms",
+			"anio": 1780,
+			"lat": 40.7,
+			"lng": -74.27
+		},
+		{
+			"nombre": "Batalla de Hanging Rock",
+			"anio": 1780,
+			"lat": 34.57,
+			"lng": -80.66
+		},
+		{
+			"nombre": "Batalla de Lenud's Ferry",
+			"anio": 1780,
+			"lat": 33.3,
+			"lng": -79.68
+		},
+		{
+			"nombre": "Batalla de Charlotte",
+			"anio": 1780,
+			"lat": 35.23,
+			"lng": -80.84
+		},
+		{
+			"nombre": "Batalla de Klock's Field",
+			"anio": 1780,
+			"lat": 43.0,
+			"lng": -74.71
+		},
+		{
+			"nombre": "Batalla de Fort St. George",
+			"anio": 1780,
+			"lat": 40.96,
+			"lng": -73.04
+		},
+		{
+			"nombre": "Batalla de Fishdam Ford",
+			"anio": 1780,
+			"lat": 34.6,
+			"lng": -81.42
+		},
+		{
+			"nombre": "Batalla de Monck's Corner",
+			"anio": 1780,
+			"lat": 33.2,
+			"lng": -80.01
+		},
+		{
+			"nombre": "Batalla de San Luis",
+			"anio": 1780,
+			"lat": 38.62,
+			"lng": -90.19
+		},
+		{
+			"nombre": "Batalla de Mobley's Meeting House",
+			"anio": 1780,
+			"lat": 34.45,
+			"lng": -81.27
+		},
+		{
+			"nombre": "Batalla de Musgrove Mill",
+			"anio": 1780,
+			"lat": 34.59,
+			"lng": -81.85
+		},
+		{
+			"nombre": "Batalla de Waxhaws",
+			"anio": 1780,
+			"lat": 34.74,
+			"lng": -80.63
+		},
+		{
+			"nombre": "Batalla de Piqua",
+			"anio": 1780,
+			"lat": 39.91,
+			"lng": -83.91
+		},
+		{
+			"nombre": "Batalla de Springfield",
+			"anio": 1780,
+			"lat": 40.71,
+			"lng": -74.31
+		},
+		{
+			"nombre": "Batalla de Rocky Mount",
+			"anio": 1780,
+			"lat": 34.54,
+			"lng": -80.88
+		},
+		{
+			"nombre": "Batalla de Ramsour's Mill",
+			"anio": 1780,
+			"lat": 35.48,
+			"lng": -81.26
+		},
+		{
+			"nombre": "Batalla de Shallow Ford",
+			"anio": 1780,
+			"lat": 36.08,
+			"lng": -80.53
+		},
+		{
+			"nombre": "Batalla de Young's House",
+			"anio": 1780,
+			"lat": 41.12,
+			"lng": -73.78
+		},
+		{
+			"nombre": "Batalla de Blackstock's Farm",
+			"anio": 1780,
+			"lat": 34.68,
+			"lng": -81.81
+		},
+		{
+			"nombre": "Batalla de Bull's Ferry",
+			"anio": 1780,
+			"lat": 40.79,
+			"lng": -74.0
+		},
+		{
+			"nombre": "Sitio de Yorktown",
+			"anio": 1781,
+			"lat": 37.24,
+			"lng": -76.51,
+			"descripcion": "Rendición de Cornwallis; victoria decisiva franco-americana."
+		},
+		{
+			"nombre": "Toma de Pensacola (Bernardo de Gálvez)",
+			"anio": 1781,
+			"lat": 30.42,
+			"lng": -87.22,
+			"descripcion": "Gálvez expulsa a los británicos de la Florida occidental."
+		},
+		{
+			"nombre": "Batalla de la Bahía de Chesapeake",
+			"anio": 1781,
+			"lat": 36.97,
+			"lng": -75.54
+		},
+		{
+			"nombre": "Batalla del cabo Henry",
+			"anio": 1781,
+			"lat": 37.15,
+			"lng": -75.15
+		},
+		{
+			"nombre": "Acción del 21 Julio 1781",
+			"anio": 1781,
+			"lat": 45.91,
+			"lng": -59.97
+		},
+		{
+			"nombre": "Batalla de Guilford Court House",
+			"anio": 1781,
+			"lat": 36.13,
+			"lng": -79.84
+		},
+		{
+			"nombre": "Batalla de Johnstown",
+			"anio": 1781,
+			"lat": 43.01,
+			"lng": -74.37
+		},
+		{
+			"nombre": "Batalla de Fort Slongo",
+			"anio": 1781,
+			"lat": 40.91,
+			"lng": -73.3
+		},
+		{
+			"nombre": "Batalla de Groton Heights",
+			"anio": 1781,
+			"lat": 41.35,
+			"lng": -72.08
+		},
+		{
+			"nombre": "Batalla de Eutaw Springs",
+			"anio": 1781,
+			"lat": 33.41,
+			"lng": -80.3
+		},
+		{
+			"nombre": "Batalla de Lindley's Mill",
+			"anio": 1781,
+			"lat": 35.89,
+			"lng": -79.35
+		},
+		{
+			"nombre": "Batalla de Wetzell's Mill",
+			"anio": 1781,
+			"lat": 36.08,
+			"lng": -79.79
+		},
+		{
+			"nombre": "Batalla de Blandford",
+			"anio": 1781,
+			"lat": 37.23,
+			"lng": -77.39
+		},
+		{
+			"nombre": "Reconquista de Menorca",
+			"anio": 1782,
+			"lat": 39.89,
+			"lng": 4.27,
+			"descripcion": "España recupera la isla perdida en Utrecht."
+		},
+		{
+			"nombre": "Batalla de Blue Licks",
+			"anio": 1782,
+			"lat": 38.43,
+			"lng": -83.99
+		},
+		{
+			"nombre": "acción del 12 de diciembre de 1782",
+			"anio": 1782,
+			"lat": 43.47,
+			"lng": -8.25
+		},
+		{
+			"nombre": "Batalla de Delaware Bay",
+			"anio": 1782,
+			"lat": 39.08,
+			"lng": -74.97
+		},
+		{
+			"nombre": "Naval battle off Halifax",
+			"anio": 1782,
+			"lat": 44.3,
+			"lng": -63.4
+		},
+		{
+			"nombre": "Battle of the Delaware Capes",
+			"anio": 1782,
+			"lat": 38.97,
+			"lng": -74.97
+		},
+		{
+			"nombre": "Acción del 22 Enero 1783",
+			"anio": 1783,
+			"lat": 37.09,
+			"lng": -76.16
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Control británico: Boston",
+			"tipo": "ocupado",
+			"desde": 1775,
+			"hasta": 1776,
+			"poligono": [
+				[
+					42.7,
+					-71.4
+				],
+				[
+					42.7,
+					-70.6
+				],
+				[
+					42.1,
+					-70.7
+				],
+				[
+					42.1,
+					-71.4
+				]
+			]
+		},
+		{
+			"nombre": "Control británico: Nueva York",
+			"tipo": "ocupado",
+			"desde": 1776,
+			"hasta": 1783,
+			"poligono": [
+				[
+					41.3,
+					-74.5
+				],
+				[
+					41.3,
+					-72.4
+				],
+				[
+					40.4,
+					-73.4
+				],
+				[
+					40.4,
+					-74.6
+				]
+			]
+		},
+		{
+			"nombre": "Control británico: Filadelfia",
+			"tipo": "ocupado",
+			"desde": 1777,
+			"hasta": 1778,
+			"poligono": [
+				[
+					40.3,
+					-75.8
+				],
+				[
+					40.3,
+					-74.7
+				],
+				[
+					39.6,
+					-75
+				],
+				[
+					39.6,
+					-75.9
+				]
+			]
+		},
+		{
+			"nombre": "Control británico: Georgia y Charleston",
+			"tipo": "ocupado",
+			"desde": 1779,
+			"hasta": 1782,
+			"poligono": [
+				[
+					33.7,
+					-81.8
+				],
+				[
+					33.2,
+					-78.8
+				],
+				[
+					31.5,
+					-81
+				],
+				[
+					31.8,
+					-82.8
+				]
+			]
+		},
+		{
+			"nombre": "Control británico: Canadá",
+			"tipo": "ocupado",
+			"desde": 1775,
+			"hasta": 1783,
+			"poligono": [
+				[
+					47,
+					-77
+				],
+				[
+					47,
+					-69.5
+				],
+				[
+					45,
+					-70.5
+				],
+				[
+					45,
+					-76.5
+				]
+			]
+		},
+		{
+			"nombre": "Control patriota: Nueva Inglaterra",
+			"tipo": "ocupado",
+			"color": "#2f5fa8",
+			"desde": 1776,
+			"hasta": 1783,
+			"poligono": [
+				[
+					45.2,
+					-73.5
+				],
+				[
+					44.8,
+					-68.8
+				],
+				[
+					42,
+					-70.2
+				],
+				[
+					41.5,
+					-73.6
+				]
+			]
+		},
+		{
+			"nombre": "Control patriota: interior y Virginia",
+			"tipo": "ocupado",
+			"color": "#2f5fa8",
+			"desde": 1776,
+			"hasta": 1783,
+			"poligono": [
+				[
+					42,
+					-78.5
+				],
+				[
+					41,
+					-74.8
+				],
+				[
+					37,
+					-76.2
+				],
+				[
+					36.3,
+					-80.8
+				],
+				[
+					40,
+					-80.5
+				]
+			]
+		},
+		{
+			"nombre": "Control patriota: el Sur interior",
+			"tipo": "ocupado",
+			"color": "#2f5fa8",
+			"desde": 1781,
+			"hasta": 1783,
+			"poligono": [
+				[
+					36,
+					-81
+				],
+				[
+					35,
+					-77
+				],
+				[
+					32.5,
+					-80
+				],
+				[
+					33,
+					-83.5
+				]
+			]
+		},
+		{
+			"nombre": "Campañas de Nueva Inglaterra y Saratoga",
+			"tipo": "frente",
+			"desde": 1775,
+			"hasta": 1777,
+			"poligono": [
+				[
+					44.5,
+					-74
+				],
+				[
+					44.5,
+					-69.5
+				],
+				[
+					41.8,
+					-70
+				],
+				[
+					41.5,
+					-74.2
+				]
+			]
+		},
+		{
+			"nombre": "Campañas de los estados centrales",
+			"tipo": "frente",
+			"desde": 1776,
+			"hasta": 1779,
+			"poligono": [
+				[
+					41.5,
+					-76
+				],
+				[
+					41.3,
+					-72.5
+				],
+				[
+					39,
+					-74
+				],
+				[
+					38.8,
+					-77.5
+				],
+				[
+					40.5,
+					-77.5
+				]
+			]
+		},
+		{
+			"nombre": "Campañas del Sur y Yorktown",
+			"tipo": "frente",
+			"desde": 1779,
+			"hasta": 1781,
+			"poligono": [
+				[
+					37.5,
+					-78.5
+				],
+				[
+					37,
+					-75.5
+				],
+				[
+					33.5,
+					-78
+				],
+				[
+					32,
+					-80.8
+				],
+				[
+					33,
+					-82
+				],
+				[
+					35.5,
+					-81
+				]
+			]
+		},
+		{
+			"nombre": "Gibraltar y Menorca (frente español)",
+			"tipo": "frente",
+			"desde": 1779,
+			"hasta": 1783,
+			"poligono": [
+				[
+					36.35,
+					-5.6
+				],
+				[
+					36.3,
+					-5.15
+				],
+				[
+					36.0,
+					-5.2
+				],
+				[
+					36.05,
+					-5.6
+				]
+			]
+		}
+	],
+	"wiki": "Guerra de Independencia de los Estados Unidos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Independencia de los Estados Unidos",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Independencia_de_los_Estados_Unidos",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q1419459",
+			"url": "https://www.wikidata.org/wiki/Q1419459",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2890866",
+			"url": "https://www.wikidata.org/wiki/Q2890866",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1444121",
+			"url": "https://www.wikidata.org/wiki/Q1444121",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4677299",
+			"url": "https://www.wikidata.org/wiki/Q4677299",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q28407458",
+			"url": "https://www.wikidata.org/wiki/Q28407458",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q334029",
+			"url": "https://www.wikidata.org/wiki/Q334029",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q301487",
+			"url": "https://www.wikidata.org/wiki/Q301487",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q862751",
+			"url": "https://www.wikidata.org/wiki/Q862751",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q609453",
+			"url": "https://www.wikidata.org/wiki/Q609453",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2575889",
+			"url": "https://www.wikidata.org/wiki/Q2575889",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q325486",
+			"url": "https://www.wikidata.org/wiki/Q325486",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q692137",
+			"url": "https://www.wikidata.org/wiki/Q692137",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q425773",
+			"url": "https://www.wikidata.org/wiki/Q425773",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q63313",
+			"url": "https://www.wikidata.org/wiki/Q63313",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q233417",
+			"url": "https://www.wikidata.org/wiki/Q233417",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q523857",
+			"url": "https://www.wikidata.org/wiki/Q523857",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q528183",
+			"url": "https://www.wikidata.org/wiki/Q528183",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q111648",
+			"url": "https://www.wikidata.org/wiki/Q111648",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q668595",
+			"url": "https://www.wikidata.org/wiki/Q668595",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q706755",
+			"url": "https://www.wikidata.org/wiki/Q706755",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1307876",
+			"url": "https://www.wikidata.org/wiki/Q1307876",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1546173",
+			"url": "https://www.wikidata.org/wiki/Q1546173",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q906018",
+			"url": "https://www.wikidata.org/wiki/Q906018",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1375813",
+			"url": "https://www.wikidata.org/wiki/Q1375813",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1638488",
+			"url": "https://www.wikidata.org/wiki/Q1638488",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1132579",
+			"url": "https://www.wikidata.org/wiki/Q1132579",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1238033",
+			"url": "https://www.wikidata.org/wiki/Q1238033",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1539513",
+			"url": "https://www.wikidata.org/wiki/Q1539513",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q922790",
+			"url": "https://www.wikidata.org/wiki/Q922790",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q960723",
+			"url": "https://www.wikidata.org/wiki/Q960723",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1754313",
+			"url": "https://www.wikidata.org/wiki/Q1754313",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870776",
+			"url": "https://www.wikidata.org/wiki/Q4870776",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871344",
+			"url": "https://www.wikidata.org/wiki/Q4871344",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870783",
+			"url": "https://www.wikidata.org/wiki/Q4870783",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871284",
+			"url": "https://www.wikidata.org/wiki/Q4871284",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871053",
+			"url": "https://www.wikidata.org/wiki/Q4871053",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870723",
+			"url": "https://www.wikidata.org/wiki/Q4870723",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870726",
+			"url": "https://www.wikidata.org/wiki/Q4870726",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871187",
+			"url": "https://www.wikidata.org/wiki/Q4871187",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870787",
+			"url": "https://www.wikidata.org/wiki/Q4870787",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871550",
+			"url": "https://www.wikidata.org/wiki/Q4871550",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870718",
+			"url": "https://www.wikidata.org/wiki/Q4870718",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871460",
+			"url": "https://www.wikidata.org/wiki/Q4871460",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871057",
+			"url": "https://www.wikidata.org/wiki/Q4871057",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871019",
+			"url": "https://www.wikidata.org/wiki/Q4871019",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871413",
+			"url": "https://www.wikidata.org/wiki/Q4871413",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871143",
+			"url": "https://www.wikidata.org/wiki/Q4871143",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871984",
+			"url": "https://www.wikidata.org/wiki/Q4871984",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888486",
+			"url": "https://www.wikidata.org/wiki/Q2888486",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871737",
+			"url": "https://www.wikidata.org/wiki/Q4871737",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1840117",
+			"url": "https://www.wikidata.org/wiki/Q1840117",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871696",
+			"url": "https://www.wikidata.org/wiki/Q4871696",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2237194",
+			"url": "https://www.wikidata.org/wiki/Q2237194",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2889989",
+			"url": "https://www.wikidata.org/wiki/Q2889989",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871561",
+			"url": "https://www.wikidata.org/wiki/Q4871561",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1862538",
+			"url": "https://www.wikidata.org/wiki/Q1862538",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871916",
+			"url": "https://www.wikidata.org/wiki/Q4871916",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2890385",
+			"url": "https://www.wikidata.org/wiki/Q2890385",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2425434",
+			"url": "https://www.wikidata.org/wiki/Q2425434",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871769",
+			"url": "https://www.wikidata.org/wiki/Q4871769",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1949707",
+			"url": "https://www.wikidata.org/wiki/Q1949707",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2889754",
+			"url": "https://www.wikidata.org/wiki/Q2889754",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2729621",
+			"url": "https://www.wikidata.org/wiki/Q2729621",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871999",
+			"url": "https://www.wikidata.org/wiki/Q4871999",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2323163",
+			"url": "https://www.wikidata.org/wiki/Q2323163",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871749",
+			"url": "https://www.wikidata.org/wiki/Q4871749",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3271228",
+			"url": "https://www.wikidata.org/wiki/Q3271228",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2237633",
+			"url": "https://www.wikidata.org/wiki/Q2237633",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888104",
+			"url": "https://www.wikidata.org/wiki/Q2888104",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2296381",
+			"url": "https://www.wikidata.org/wiki/Q2296381",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1811438",
+			"url": "https://www.wikidata.org/wiki/Q1811438",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872050",
+			"url": "https://www.wikidata.org/wiki/Q4872050",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871625",
+			"url": "https://www.wikidata.org/wiki/Q4871625",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871562",
+			"url": "https://www.wikidata.org/wiki/Q4871562",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4874605",
+			"url": "https://www.wikidata.org/wiki/Q4874605",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872181",
+			"url": "https://www.wikidata.org/wiki/Q4872181",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872446",
+			"url": "https://www.wikidata.org/wiki/Q4872446",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872426",
+			"url": "https://www.wikidata.org/wiki/Q4872426",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872195",
+			"url": "https://www.wikidata.org/wiki/Q4872195",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872160",
+			"url": "https://www.wikidata.org/wiki/Q4872160",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872357",
+			"url": "https://www.wikidata.org/wiki/Q4872357",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872890",
+			"url": "https://www.wikidata.org/wiki/Q4872890",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872127",
+			"url": "https://www.wikidata.org/wiki/Q4872127",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872360",
+			"url": "https://www.wikidata.org/wiki/Q4872360",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872793",
+			"url": "https://www.wikidata.org/wiki/Q4872793",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872143",
+			"url": "https://www.wikidata.org/wiki/Q4872143",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872729",
+			"url": "https://www.wikidata.org/wiki/Q4872729",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q5092505",
+			"url": "https://www.wikidata.org/wiki/Q5092505",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4677235",
+			"url": "https://www.wikidata.org/wiki/Q4677235",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4204624",
+			"url": "https://www.wikidata.org/wiki/Q4204624",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q421399",
+			"url": "https://www.wikidata.org/wiki/Q421399",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4204344",
+			"url": "https://www.wikidata.org/wiki/Q4204344",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870493",
+			"url": "https://www.wikidata.org/wiki/Q4870493",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4392087",
+			"url": "https://www.wikidata.org/wiki/Q4392087",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q6921294",
+			"url": "https://www.wikidata.org/wiki/Q6921294",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870497",
+			"url": "https://www.wikidata.org/wiki/Q4870497",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4584046",
+			"url": "https://www.wikidata.org/wiki/Q4584046",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q6981993",
+			"url": "https://www.wikidata.org/wiki/Q6981993",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870589",
+			"url": "https://www.wikidata.org/wiki/Q4870589",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4071933",
+			"url": "https://www.wikidata.org/wiki/Q4071933",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16253782",
+			"url": "https://www.wikidata.org/wiki/Q16253782",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4845442",
+			"url": "https://www.wikidata.org/wiki/Q4845442",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4583774",
+			"url": "https://www.wikidata.org/wiki/Q4583774",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q12001363",
+			"url": "https://www.wikidata.org/wiki/Q12001363",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

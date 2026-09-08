@@ -1,0 +1,59 @@
+{
+	"id": "visigodos",
+	"nombre": "Reino visigodo de Toledo",
+	"nombres": [
+		"Visigothic Kingdom",
+		"Visigoths"
+	],
+	"wiki": "Reino visigodo",
+	"gobernantes": [
+		{
+			"desde": 568,
+			"hasta": 586,
+			"nombre": "Leovigildo",
+			"titulo": "Rey visigodo, unificador de Hispania"
+		},
+		{
+			"desde": 586,
+			"hasta": 601,
+			"nombre": "Recaredo I",
+			"titulo": "Rey visigodo, convertido al catolicismo (589)"
+		},
+		{
+			"desde": 672,
+			"hasta": 680,
+			"nombre": "Wamba",
+			"titulo": "Rey visigodo; sofocó la rebelión de la Septimania"
+		},
+		{
+			"desde": 710,
+			"hasta": 711,
+			"nombre": "Don Rodrigo",
+			"titulo": "Último rey visigodo; derrotado en Guadalete (711)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino visigodo",
+			"url": "https://es.wikipedia.org/wiki/Reino_visigodo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Reino visigodo",
+			"url": "https://es.wikipedia.org/wiki/Reino_visigodo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El reino visigodo fue una entidad política establecida por el pueblo visigodo tras su asentamiento en una parte de la actual Francia y la península ibérica, en la época de las invasiones germánicas, que perduró durante buena parte de la Alta Edad Media, ocupando territorios en las Galias e Hispania en sus diversas etapas.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "9c53863ddf54",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"id": "qing",
+	"nombre": "Imperio Qing (China)",
+	"nombres": [
+		"Qing Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 1661,
+			"hasta": 1722,
+			"nombre": "Kangxi",
+			"titulo": "Emperador Qing"
+		},
+		{
+			"desde": 1735,
+			"hasta": 1796,
+			"nombre": "Qianlong",
+			"titulo": "Emperador Qing"
+		},
+		{
+			"desde": 1861,
+			"hasta": 1908,
+			"nombre": "Cixi (emperatriz regente)",
+			"titulo": "Regente"
+		},
+		{
+			"desde": 1908,
+			"hasta": 1912,
+			"nombre": "Puyi (último emperador)",
+			"titulo": "Emperador Qing"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1750,
+			"valor": 225000000
+		},
+		{
+			"anio": 1850,
+			"valor": 430000000
+		}
+	],
+	"relacionados": [
+		"China",
+		"Manchúes"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Qing (China)",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Qing_(China)",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

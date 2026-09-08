@@ -1,0 +1,19 @@
+{
+	"nombre": "Constitución de los Diecisiete Artículos",
+	"anio": 604,
+	"lat": 34.5,
+	"lng": 135.7,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "El príncipe Shōtoku promulga principios morales y burocráticos de gobierno de inspiración confuciana y budista.",
+	"wiki": "Constitución de los diecisiete artículos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Constitución de los diecisiete artículos",
+			"url": "https://es.wikipedia.org/wiki/Constituci%C3%B3n_de_los_diecisiete_art%C3%ADculos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

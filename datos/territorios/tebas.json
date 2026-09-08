@@ -1,0 +1,36 @@
+{
+	"nombre": "Tebas",
+	"pais": "Tebas",
+	"lat": 38.32,
+	"lng": 23.32,
+	"desde": -379,
+	"hasta": -338,
+	"descripcion": "Capital de Beocia. Bajo Epaminondas rompe la hegemonía espartana en Leuctra (371 a. C.) y ejerce el poder en Grecia hasta Mantinea (362 a. C.).",
+	"wiki": "Tebas (Grecia)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tebas (Grecia)",
+			"url": "https://es.wikipedia.org/wiki/Tebas_(Grecia)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"poligono": [
+		[
+			38.55,
+			22.72
+		],
+		[
+			38.5,
+			23.5
+		],
+		[
+			38.12,
+			23.55
+		],
+		[
+			38.15,
+			22.78
+		]
+	]
+}

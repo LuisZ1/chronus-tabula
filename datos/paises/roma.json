@@ -1,0 +1,251 @@
+{
+	"id": "roma",
+	"nombre": "Roma",
+	"nombres": [
+		"Rome",
+		"Roman Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": -509,
+			"hasta": -28,
+			"nombre": "República romana (Senado y cónsules)",
+			"titulo": "República"
+		},
+		{
+			"desde": -27,
+			"hasta": 14,
+			"nombre": "Augusto",
+			"titulo": "Emperador romano"
+		},
+		{
+			"desde": 14,
+			"hasta": 37,
+			"nombre": "Tiberio",
+			"titulo": "Emperador; sucesor de Augusto"
+		},
+		{
+			"desde": 37,
+			"hasta": 41,
+			"nombre": "Calígula",
+			"titulo": "Emperador; asesinado por la guardia pretoriana"
+		},
+		{
+			"desde": 41,
+			"hasta": 54,
+			"nombre": "Claudio",
+			"titulo": "Emperador; conquista de Britania"
+		},
+		{
+			"desde": 54,
+			"hasta": 68,
+			"nombre": "Nerón",
+			"titulo": "Emperador; último de la dinastía Julio-Claudia"
+		},
+		{
+			"desde": 68,
+			"hasta": 69,
+			"nombre": "Galba",
+			"titulo": "Emperador durante el año de los cuatro emperadores"
+		},
+		{
+			"desde": 69,
+			"hasta": 79,
+			"nombre": "Vespasiano",
+			"titulo": "Emperador; funda la dinastía Flavia"
+		},
+		{
+			"desde": 69,
+			"hasta": 69,
+			"nombre": "Otón",
+			"titulo": "Emperador durante el año de los cuatro emperadores"
+		},
+		{
+			"desde": 69,
+			"hasta": 69,
+			"nombre": "Vitelio",
+			"titulo": "Emperador durante el año de los cuatro emperadores"
+		},
+		{
+			"desde": 79,
+			"hasta": 81,
+			"nombre": "Tito",
+			"titulo": "Emperador flavio"
+		},
+		{
+			"desde": 81,
+			"hasta": 96,
+			"nombre": "Domiciano",
+			"titulo": "Emperador flavio; asesinado"
+		},
+		{
+			"desde": 96,
+			"hasta": 98,
+			"nombre": "Nerva",
+			"titulo": "Emperador; primero de los Antoninos"
+		},
+		{
+			"desde": 98,
+			"hasta": 117,
+			"nombre": "Trajano",
+			"titulo": "Emperador romano"
+		},
+		{
+			"desde": 117,
+			"hasta": 138,
+			"nombre": "Adriano",
+			"titulo": "Emperador romano"
+		},
+		{
+			"desde": 138,
+			"hasta": 161,
+			"nombre": "Antonino Pío",
+			"titulo": "Emperador; apogeo de la Pax Romana"
+		},
+		{
+			"desde": 161,
+			"hasta": 180,
+			"nombre": "Marco Aurelio",
+			"titulo": "Emperador romano"
+		},
+		{
+			"desde": 161,
+			"hasta": 169,
+			"nombre": "Lucio Vero",
+			"titulo": "Co-emperador junto a Marco Aurelio"
+		},
+		{
+			"desde": 180,
+			"hasta": 192,
+			"nombre": "Cómodo",
+			"titulo": "Emperador; fin de los Antoninos; asesinado"
+		},
+		{
+			"desde": 193,
+			"hasta": 211,
+			"nombre": "Septimio Severo",
+			"titulo": "Emperador; funda la dinastía Severa"
+		},
+		{
+			"desde": 193,
+			"hasta": 193,
+			"nombre": "Pértinax",
+			"titulo": "Emperador; asesinado por los pretorianos"
+		},
+		{
+			"desde": 193,
+			"hasta": 193,
+			"nombre": "Didio Juliano",
+			"titulo": "Emperador; compró el trono en subasta"
+		},
+		{
+			"desde": 211,
+			"hasta": 217,
+			"nombre": "Caracalla",
+			"titulo": "Emperador severo; Constitutio Antoniniana"
+		},
+		{
+			"desde": 211,
+			"hasta": 212,
+			"nombre": "Geta",
+			"titulo": "Co-emperador; asesinado por su hermano Caracalla"
+		},
+		{
+			"desde": 217,
+			"hasta": 218,
+			"nombre": "Macrino",
+			"titulo": "Emperador; primer princeps de rango ecuestre"
+		},
+		{
+			"desde": 218,
+			"hasta": 222,
+			"nombre": "Elagábal",
+			"titulo": "Emperador severo (Heliogábalo); asesinado"
+		},
+		{
+			"desde": 222,
+			"hasta": 235,
+			"nombre": "Severo Alejandro",
+			"titulo": "Último emperador severo; asesinado"
+		},
+		{
+			"desde": 235,
+			"hasta": 238,
+			"nombre": "Maximino el Tracio",
+			"titulo": "Primer emperador-soldado; inicia la crisis del s. III"
+		},
+		{
+			"desde": 238,
+			"hasta": 244,
+			"nombre": "Gordiano III",
+			"titulo": "Emperador proclamado tras el año de los seis emperadores"
+		},
+		{
+			"desde": 238,
+			"hasta": 238,
+			"nombre": "Gordiano I y Gordiano II",
+			"titulo": "Emperadores efímeros proclamados en África"
+		},
+		{
+			"desde": 238,
+			"hasta": 238,
+			"nombre": "Pupieno y Balbino",
+			"titulo": "Emperadores elegidos por el Senado"
+		},
+		{
+			"desde": 306,
+			"hasta": 337,
+			"nombre": "Constantino I el Grande",
+			"titulo": "Emperador romano"
+		},
+		{
+			"desde": 379,
+			"hasta": 395,
+			"nombre": "Teodosio I (último emperador de un imperio unido)",
+			"titulo": "Emperador romano"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -200,
+			"valor": 10000000
+		},
+		{
+			"anio": 14,
+			"valor": 45000000
+		},
+		{
+			"anio": 117,
+			"valor": 60000000
+		}
+	],
+	"relacionados": [
+		"Imperio romano de Occidente",
+		"Imperio romano de Oriente",
+		"Samnitas",
+		"Latinos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Roma",
+			"url": "https://es.wikipedia.org/wiki/Roma",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Roma",
+			"url": "https://es.wikipedia.org/wiki/Roma",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Roma es una ciudad, capital de la región del Lacio y de Italia. Con una población de 2 857 321 habitantes, es el municipio más poblado de Italia y la tercera ciudad más poblada de la Unión Europea.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "b637523df09f",
+		"secciones": [
+			"resena"
+		]
+	}
+}

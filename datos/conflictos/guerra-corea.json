@@ -1,0 +1,120 @@
+{
+	"id": "guerra-corea",
+	"nombre": "Guerra de Corea",
+	"inicio": 1950,
+	"fin": 1953,
+	"paises": [
+		"Corea",
+		"Estados Unidos",
+		"China",
+		"URSS"
+	],
+	"bajas": "~3 millones de muertos, la mitad civiles",
+	"descripcion": "El Norte invade el Sur; la ONU (con EE. UU.) lo rechaza hasta el Yalu y China interviene: tres años de guerra para volver casi al paralelo 38, donde el armisticio de 1953 congela la península hasta hoy.",
+	"wiki": "Guerra de Corea",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra de Corea",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Corea",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Invasión del Sur y perímetro de Pusan",
+			"tipo": "frente",
+			"desde": 1950,
+			"hasta": 1950,
+			"poligono": [
+				[
+					38.0,
+					126.2
+				],
+				[
+					37.5,
+					129.2
+				],
+				[
+					35.0,
+					129.3
+				],
+				[
+					34.7,
+					126.4
+				]
+			]
+		},
+		{
+			"nombre": "Contraofensiva hasta el Yalu e intervención china",
+			"tipo": "frente",
+			"desde": 1950,
+			"hasta": 1951,
+			"poligono": [
+				[
+					41.8,
+					124.5
+				],
+				[
+					41.5,
+					129.8
+				],
+				[
+					39.0,
+					127.8
+				],
+				[
+					39.2,
+					124.8
+				]
+			]
+		},
+		{
+			"nombre": "Estancamiento en el paralelo 38",
+			"tipo": "frente",
+			"desde": 1951,
+			"hasta": 1953,
+			"poligono": [
+				[
+					38.6,
+					126.3
+				],
+				[
+					38.5,
+					128.9
+				],
+				[
+					37.8,
+					128.7
+				],
+				[
+					37.9,
+					126.4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Desembarco de Incheon",
+			"anio": 1950,
+			"lat": 37.46,
+			"lng": 126.62,
+			"descripcion": "La jugada maestra de MacArthur revierte la guerra en dos semanas.",
+			"wiki": "Batalla de Incheon"
+		},
+		{
+			"nombre": "Batalla del embalse de Chosin",
+			"anio": 1950,
+			"lat": 40.48,
+			"lng": 127.2,
+			"descripcion": "Retirada épica de los marines cercados por el ejército chino a -30 °C."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"nombre": "Gibraltar (castellano)",
+	"pais": "España",
+	"lat": 36.14,
+	"lng": -5.35,
+	"desde": 1462,
+	"hasta": 1704,
+	"descripcion": "Reconquistado en 1462 por las tropas del duque de Medina Sidonia; castellano y español durante 242 años.",
+	"wiki": "Gibraltar",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Gibraltar",
+			"url": "https://es.wikipedia.org/wiki/Gibraltar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

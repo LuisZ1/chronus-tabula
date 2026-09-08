@@ -1,0 +1,222 @@
+{
+	"id": "georgia",
+	"nombre": "Georgia",
+	"nombres": [
+		"Georgia"
+	],
+	"wikidata": "Q230",
+	"wiki": "es:Georgia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q230",
+			"url": "https://www.wikidata.org/wiki/Q230",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Georgia",
+			"url": "https://es.wikipedia.org/wiki/Georgia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "GEO",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 25145
+		},
+		{
+			"anio": -9000,
+			"valor": 29336
+		},
+		{
+			"anio": -8000,
+			"valor": 34225
+		},
+		{
+			"anio": -7000,
+			"valor": 39929
+		},
+		{
+			"anio": -6000,
+			"valor": 46584
+		},
+		{
+			"anio": -5000,
+			"valor": 54348
+		},
+		{
+			"anio": -4000,
+			"valor": 63407
+		},
+		{
+			"anio": -3000,
+			"valor": 73974
+		},
+		{
+			"anio": -2000,
+			"valor": 86303
+		},
+		{
+			"anio": -1000,
+			"valor": 100687
+		},
+		{
+			"anio": 0,
+			"valor": 117469
+		},
+		{
+			"anio": 100,
+			"valor": 125859
+		},
+		{
+			"anio": 200,
+			"valor": 134849
+		},
+		{
+			"anio": 300,
+			"valor": 144482
+		},
+		{
+			"anio": 400,
+			"valor": 154802
+		},
+		{
+			"anio": 500,
+			"valor": 165859
+		},
+		{
+			"anio": 600,
+			"valor": 177706
+		},
+		{
+			"anio": 700,
+			"valor": 190400
+		},
+		{
+			"anio": 800,
+			"valor": 204000
+		},
+		{
+			"anio": 900,
+			"valor": 215500
+		},
+		{
+			"anio": 1000,
+			"valor": 227000
+		},
+		{
+			"anio": 1100,
+			"valor": 340500
+		},
+		{
+			"anio": 1200,
+			"valor": 454000
+		},
+		{
+			"anio": 1300,
+			"valor": 568000
+		},
+		{
+			"anio": 1400,
+			"valor": 454000
+		},
+		{
+			"anio": 1500,
+			"valor": 568000
+		},
+		{
+			"anio": 1600,
+			"valor": 681000
+		},
+		{
+			"anio": 1700,
+			"valor": 795000
+		},
+		{
+			"anio": 1750,
+			"valor": 697013
+		},
+		{
+			"anio": 1800,
+			"valor": 1072178
+		},
+		{
+			"anio": 1850,
+			"valor": 1410322
+		},
+		{
+			"anio": 1900,
+			"valor": 2219948
+		},
+		{
+			"anio": 1910,
+			"valor": 2430789
+		},
+		{
+			"anio": 1920,
+			"valor": 2662145
+		},
+		{
+			"anio": 1930,
+			"valor": 2916778
+		},
+		{
+			"anio": 1940,
+			"valor": 3195768
+		},
+		{
+			"anio": 1950,
+			"valor": 3497447
+		},
+		{
+			"anio": 1960,
+			"valor": 4053800
+		},
+		{
+			"anio": 1970,
+			"valor": 4804060
+		},
+		{
+			"anio": 1980,
+			"valor": 5165546
+		},
+		{
+			"anio": 1990,
+			"valor": 5448865
+		},
+		{
+			"anio": 2000,
+			"valor": 4328361
+		},
+		{
+			"anio": 2010,
+			"valor": 3895932
+		},
+		{
+			"anio": 2020,
+			"valor": 3795680
+		},
+		{
+			"anio": 2023,
+			"valor": 3807494
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "483ab8106807",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Georgia es un país soberano localizado en la región del Cáucaso, en la costa este del mar Negro, en el límite entre la Europa Oriental y el Asia Occidental."
+}

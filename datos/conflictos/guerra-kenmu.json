@@ -1,0 +1,70 @@
+{
+	"id": "guerra-kenmu",
+	"nombre": "Restauración Kenmu y guerra Nanbokuchō",
+	"inicio": 1333,
+	"fin": 1392,
+	"paises": [
+		"Corte del Sur (Go-Daigo)",
+		"Corte del Norte",
+		"Shogunato Ashikaga"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Go-Daigo derriba el bakufu de Kamakura (1333) e intenta restaurar el poder imperial; Ashikaga Takauji rompe con él y funda el shogunato Muromachi, abriendo el periodo de las Cortes del Norte y del Sur (Nanbokuchō) hasta la reunificación de 1392.",
+	"wiki": "Período Nanbokuchō",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Restauración Kenmu",
+			"url": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Kenmu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Período Nanbokuchō",
+			"url": "https://es.wikipedia.org/wiki/Per%C3%ADodo_Nanbokuch%C5%8D",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Kioto y las cortes rivales",
+			"tipo": "frente",
+			"desde": 1333,
+			"hasta": 1392,
+			"poligono": [
+				[
+					35.4,
+					135.5
+				],
+				[
+					35.4,
+					136.2
+				],
+				[
+					34.2,
+					135.9
+				],
+				[
+					34.7,
+					135.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Caída de Kamakura",
+			"anio": 1333,
+			"lat": 35.32,
+			"lng": 139.55,
+			"descripcion": "Nitta Yoshisada toma Kamakura y extingue la regencia Hōjō."
+		},
+		{
+			"nombre": "Batalla del río Minato (Minatogawa)",
+			"anio": 1336,
+			"lat": 34.68,
+			"lng": 135.17,
+			"descripcion": "Ashikaga Takauji derrota a Kusunoki Masashige, abriendo el shogunato Muromachi."
+		}
+	]
+}

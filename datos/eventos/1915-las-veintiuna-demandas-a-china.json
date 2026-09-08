@@ -1,0 +1,19 @@
+{
+	"nombre": "Las Veintiuna Demandas a China",
+	"anio": 1915,
+	"lat": 39.9,
+	"lng": 116.4,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Japón exige a China amplias concesiones económicas y políticas, tensando las relaciones en Asia.",
+	"wiki": "Veintiuna Demandas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Veintiuna Demandas",
+			"url": "https://es.wikipedia.org/wiki/Veintiuna_Demandas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Coronación imperial de Otón I",
+	"anio": 962,
+	"lat": 41.9,
+	"lng": 12.45,
+	"paises": [
+		"Sacro Imperio Romano Germánico"
+	],
+	"descripcion": "Otón I es coronado emperador en Roma, renovando el Imperio en Occidente y dando origen al Sacro Imperio.",
+	"wiki": "Otón I del Sacro Imperio Romano Germánico",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Otón I del Sacro Imperio Romano Germánico",
+			"url": "https://es.wikipedia.org/wiki/Otón_I_del_Sacro_Imperio_Romano_Germánico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

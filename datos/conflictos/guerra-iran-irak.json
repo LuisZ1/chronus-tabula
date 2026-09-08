@@ -1,0 +1,69 @@
+{
+	"id": "guerra-iran-irak",
+	"nombre": "Guerra Irán-Irak",
+	"inicio": 1980,
+	"fin": 1988,
+	"paises": [
+		"Irán",
+		"Irak"
+	],
+	"bajas": "~1 millón de muertos",
+	"descripcion": "Sadam Huseín invade el Irán revolucionario esperando una victoria rápida: ocho años de guerra de trincheras, gas y «oleadas humanas» para volver a la frontera inicial.",
+	"wiki": "Guerra Irán-Irak",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra Irán-Irak",
+			"url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frente del Shatt al-Arab y Juzestán",
+			"tipo": "frente",
+			"desde": 1980,
+			"hasta": 1988,
+			"poligono": [
+				[
+					33.0,
+					45.5
+				],
+				[
+					32.5,
+					48.8
+				],
+				[
+					29.9,
+					48.8
+				],
+				[
+					30.5,
+					46.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Jorramchahr",
+			"anio": 1980,
+			"lat": 30.44,
+			"lng": 48.18,
+			"descripcion": "La «Stalingrado iraní»: Irak toma la ciudad casa por casa; Irán la recupera en 1982."
+		},
+		{
+			"nombre": "Toma de la península de Fao",
+			"anio": 1986,
+			"lat": 29.98,
+			"lng": 48.47,
+			"descripcion": "Irán corta el acceso iraquí al Golfo durante dos años."
+		}
+	]
+}

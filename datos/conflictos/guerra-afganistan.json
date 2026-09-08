@@ -1,0 +1,321 @@
+{
+	"id": "guerra-afganistan",
+	"nombre": "Guerra de Afganistán",
+	"inicio": 2001,
+	"fin": 2021,
+	"paises": [
+		"Afganistán",
+		"Estados Unidos",
+		"Gran Bretaña"
+	],
+	"bajas": "~176.000–212.000 muertos",
+	"descripcion": "Tras el 11-S, EE. UU. derroca al régimen talibán; veinte años de insurgencia acaban con la retirada occidental y la vuelta talibán en 2021.",
+	"wiki": "Guerra de Afganistán (2001-2021)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Afganistán (2001-2021)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Afganistán_(2001-2021)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q385546",
+			"url": "https://www.wikidata.org/wiki/Q385546",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q267418",
+			"url": "https://www.wikidata.org/wiki/Q267418",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q281145",
+			"url": "https://www.wikidata.org/wiki/Q281145",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1234017",
+			"url": "https://www.wikidata.org/wiki/Q1234017",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1476042",
+			"url": "https://www.wikidata.org/wiki/Q1476042",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1485258",
+			"url": "https://www.wikidata.org/wiki/Q1485258",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871076",
+			"url": "https://www.wikidata.org/wiki/Q4871076",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2889318",
+			"url": "https://www.wikidata.org/wiki/Q2889318",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2889117",
+			"url": "https://www.wikidata.org/wiki/Q2889117",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2889960",
+			"url": "https://www.wikidata.org/wiki/Q2889960",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3180637",
+			"url": "https://www.wikidata.org/wiki/Q3180637",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2664174",
+			"url": "https://www.wikidata.org/wiki/Q2664174",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2638382",
+			"url": "https://www.wikidata.org/wiki/Q2638382",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872492",
+			"url": "https://www.wikidata.org/wiki/Q4872492",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q15709934",
+			"url": "https://www.wikidata.org/wiki/Q15709934",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q108081395",
+			"url": "https://www.wikidata.org/wiki/Q108081395",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Invasión estadounidense",
+			"tipo": "frente",
+			"desde": 2001,
+			"hasta": 2002,
+			"poligono": [
+				[
+					36.9,
+					64.5
+				],
+				[
+					36.7,
+					69.5
+				],
+				[
+					34.0,
+					70.5
+				],
+				[
+					31.0,
+					66.0
+				],
+				[
+					34.5,
+					62.5
+				]
+			]
+		},
+		{
+			"nombre": "Insurgencia talibán (sur y este)",
+			"tipo": "frente",
+			"desde": 2003,
+			"hasta": 2020,
+			"poligono": [
+				[
+					34.5,
+					62.0
+				],
+				[
+					34.5,
+					70.5
+				],
+				[
+					30.5,
+					67.0
+				],
+				[
+					30.0,
+					63.5
+				]
+			]
+		},
+		{
+			"nombre": "Ofensiva talibán final",
+			"tipo": "frente",
+			"desde": 2021,
+			"hasta": 2021,
+			"poligono": [
+				[
+					37.0,
+					64.0
+				],
+				[
+					37.0,
+					71.0
+				],
+				[
+					31.0,
+					67.0
+				],
+				[
+					29.5,
+					62.0
+				],
+				[
+					35.0,
+					61.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Tora Bora",
+			"anio": 2001,
+			"lat": 34.12,
+			"lng": 70.21,
+			"descripcion": "Ofensiva contra los túneles de Al Qaeda; Bin Laden escapa a Pakistán.",
+			"wiki": "Batalla de Tora Bora"
+		},
+		{
+			"nombre": "Caída de Mazari Sharif",
+			"anio": 2001,
+			"lat": 36.7,
+			"lng": 67.12
+		},
+		{
+			"nombre": "Batalla de Qala-i-Jangi",
+			"anio": 2001,
+			"lat": 36.67,
+			"lng": 66.98
+		},
+		{
+			"nombre": "Operación Anaconda",
+			"anio": 2002,
+			"lat": 33.37,
+			"lng": 69.18
+		},
+		{
+			"nombre": "Batalla de Takur Ghar",
+			"anio": 2002,
+			"lat": 33.34,
+			"lng": 69.21
+		},
+		{
+			"nombre": "Friendly fire incident at Sangin",
+			"anio": 2006,
+			"lat": 31.59,
+			"lng": 64.36
+		},
+		{
+			"nombre": "Batalla de Firebase Anaconda",
+			"anio": 2007,
+			"lat": 32.13,
+			"lng": 66.0
+		},
+		{
+			"nombre": "Batalla de Chora",
+			"anio": 2007,
+			"lat": 32.85,
+			"lng": 66.08
+		},
+		{
+			"nombre": "Batalla de Musa Qala",
+			"anio": 2007,
+			"lat": 32.44,
+			"lng": 64.74
+		},
+		{
+			"nombre": "Emboscada de Uzbin",
+			"anio": 2008,
+			"lat": 34.66,
+			"lng": 69.85
+		},
+		{
+			"nombre": "Batalla de Shewan",
+			"anio": 2008,
+			"lat": 32.62,
+			"lng": 62.49
+		},
+		{
+			"nombre": "Batalla de Alasay",
+			"anio": 2009,
+			"lat": 34.9,
+			"lng": 69.72
+		},
+		{
+			"nombre": "batalla de Ganjgal",
+			"anio": 2009,
+			"lat": 34.79,
+			"lng": 71.16
+		},
+		{
+			"nombre": "batalla de Kamdesh",
+			"anio": 2009,
+			"lat": 35.41,
+			"lng": 71.34
+		},
+		{
+			"nombre": "Operación Moshtarak (Marjah)",
+			"anio": 2010,
+			"lat": 31.52,
+			"lng": 64.12,
+			"descripcion": "La mayor ofensiva aliada de la guerra, en el bastión talibán de Helmand."
+		},
+		{
+			"nombre": "Operation Halmazag",
+			"anio": 2010,
+			"lat": 36.66,
+			"lng": 68.83
+		},
+		{
+			"nombre": "Battle of Joybar",
+			"anio": 2011,
+			"lat": 34.87,
+			"lng": 69.64
+		},
+		{
+			"nombre": "Caída de Kabul",
+			"anio": 2021,
+			"lat": 34.53,
+			"lng": 69.17,
+			"descripcion": "Los talibanes entran en la capital el 15 de agosto; evacuación caótica del aeropuerto.",
+			"wiki": "Caída de Kabul (2021)"
+		},
+		{
+			"nombre": "Batalla de Kandahar (2021)",
+			"anio": 2021,
+			"lat": 31.61,
+			"lng": 65.72
+		}
+	]
+}

@@ -1,0 +1,101 @@
+{
+	"id": "crimea-y-donbas",
+	"nombre": "Anexión de Crimea y guerra del Donbás",
+	"inicio": 2014,
+	"fin": 2021,
+	"paises": [
+		"Ucrania",
+		"Rusia"
+	],
+	"bajas": "~14.000 muertos (2014-2021)",
+	"descripcion": "Rusia se anexiona Crimea tras el Euromaidán y sostiene a los separatistas de Donetsk y Lugansk; los acuerdos de Minsk congelan un frente que estalla en 2022.",
+	"wiki": "Guerra del Dombás",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Dombás",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Dombás",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Anexión de Crimea a Rusia",
+			"url": "https://es.wikipedia.org/wiki/Anexión_de_Crimea_a_Rusia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Crimea anexionada",
+			"tipo": "ocupado",
+			"desde": 2014,
+			"hasta": 2021,
+			"poligono": [
+				[
+					46.2,
+					32.5
+				],
+				[
+					46.2,
+					36.6
+				],
+				[
+					44.4,
+					36.5
+				],
+				[
+					44.4,
+					32.9
+				]
+			]
+		},
+		{
+			"nombre": "Frente del Donbás",
+			"tipo": "frente",
+			"desde": 2014,
+			"hasta": 2021,
+			"poligono": [
+				[
+					49.3,
+					37.3
+				],
+				[
+					49.3,
+					40.2
+				],
+				[
+					47.1,
+					39.8
+				],
+				[
+					47.1,
+					37.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Ilovaisk",
+			"anio": 2014,
+			"lat": 47.92,
+			"lng": 38.2,
+			"descripcion": "Cerco y derrota del ejército ucraniano que consolidó a los separatistas."
+		},
+		{
+			"nombre": "Batalla del aeropuerto de Donetsk",
+			"anio": 2014,
+			"lat": 48.07,
+			"lng": 37.74,
+			"descripcion": "Meses de defensa de los «cíborgs» ucranianos hasta la caída de la terminal.",
+			"hasta": 2015
+		},
+		{
+			"nombre": "Batalla de Debáltsevo",
+			"anio": 2015,
+			"lat": 48.34,
+			"lng": 38.4,
+			"descripcion": "Última gran batalla antes del alto el fuego de Minsk II."
+		}
+	]
+}

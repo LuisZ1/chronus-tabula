@@ -1,0 +1,224 @@
+{
+	"id": "chipre",
+	"nombre": "Chipre",
+	"nombres": [
+		"Cyprus",
+		"Chipre",
+		"Republica de Chipre"
+	],
+	"wikidata": "Q229",
+	"wiki": "es:Chipre",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q229",
+			"url": "https://www.wikidata.org/wiki/Q229",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Chipre",
+			"url": "https://es.wikipedia.org/wiki/Chipre",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "CYP",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 922
+		},
+		{
+			"anio": -9000,
+			"valor": 1536
+		},
+		{
+			"anio": -8000,
+			"valor": 2561
+		},
+		{
+			"anio": -7000,
+			"valor": 4268
+		},
+		{
+			"anio": -6000,
+			"valor": 7114
+		},
+		{
+			"anio": -5000,
+			"valor": 11857
+		},
+		{
+			"anio": -4000,
+			"valor": 19762
+		},
+		{
+			"anio": -3000,
+			"valor": 32938
+		},
+		{
+			"anio": -2000,
+			"valor": 54896
+		},
+		{
+			"anio": -1000,
+			"valor": 91494
+		},
+		{
+			"anio": 0,
+			"valor": 152490
+		},
+		{
+			"anio": 100,
+			"valor": 157749
+		},
+		{
+			"anio": 200,
+			"valor": 163188
+		},
+		{
+			"anio": 300,
+			"valor": 168816
+		},
+		{
+			"anio": 400,
+			"valor": 174637
+		},
+		{
+			"anio": 500,
+			"valor": 180659
+		},
+		{
+			"anio": 600,
+			"valor": 186888
+		},
+		{
+			"anio": 700,
+			"valor": 193333
+		},
+		{
+			"anio": 800,
+			"valor": 200000
+		},
+		{
+			"anio": 900,
+			"valor": 175000
+		},
+		{
+			"anio": 1000,
+			"valor": 150000
+		},
+		{
+			"anio": 1100,
+			"valor": 150000
+		},
+		{
+			"anio": 1200,
+			"valor": 170000
+		},
+		{
+			"anio": 1300,
+			"valor": 200000
+		},
+		{
+			"anio": 1400,
+			"valor": 150000
+		},
+		{
+			"anio": 1500,
+			"valor": 200000
+		},
+		{
+			"anio": 1600,
+			"valor": 120000
+		},
+		{
+			"anio": 1700,
+			"valor": 110000
+		},
+		{
+			"anio": 1750,
+			"valor": 110000
+		},
+		{
+			"anio": 1800,
+			"valor": 184392
+		},
+		{
+			"anio": 1850,
+			"valor": 185395
+		},
+		{
+			"anio": 1900,
+			"valor": 236693
+		},
+		{
+			"anio": 1910,
+			"valor": 272882
+		},
+		{
+			"anio": 1920,
+			"valor": 309680
+		},
+		{
+			"anio": 1930,
+			"valor": 349917
+		},
+		{
+			"anio": 1940,
+			"valor": 444169
+		},
+		{
+			"anio": 1950,
+			"valor": 493883
+		},
+		{
+			"anio": 1960,
+			"valor": 586493
+		},
+		{
+			"anio": 1970,
+			"valor": 647443
+		},
+		{
+			"anio": 1980,
+			"valor": 683082
+		},
+		{
+			"anio": 1990,
+			"valor": 788355
+		},
+		{
+			"anio": 2000,
+			"valor": 947667
+		},
+		{
+			"anio": 2010,
+			"valor": 1127826
+		},
+		{
+			"anio": 2020,
+			"valor": 1302250
+		},
+		{
+			"anio": 2023,
+			"valor": 1344981
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d8933124d1da",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Chipre, oficialmente la República de Chipre es un país insular en el Mediterráneo oriental y el único miembro asiático de los veintisiete Estados soberanos que conforman la Unión Europea. Está situado en la isla homónima y su forma de gobierno es la república presidencialista."
+}

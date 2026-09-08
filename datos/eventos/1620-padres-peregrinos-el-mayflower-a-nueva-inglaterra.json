@@ -1,0 +1,23 @@
+{
+	"nombre": "Padres Peregrinos: el Mayflower a Nueva Inglaterra",
+	"anio": 1620,
+	"lat": 50.37,
+	"lng": -4.14,
+	"paises": [
+		"Inglaterra"
+	],
+	"descripcion": "Un grupo de puritanos separatistas zarpa de Plymouth en el Mayflower y funda la colonia de Plymouth en Norteamérica, hito de la colonización inglesa de Nueva Inglaterra.",
+	"wiki": "Mayflower",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Mayflower",
+			"url": "https://es.wikipedia.org/wiki/Mayflower",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

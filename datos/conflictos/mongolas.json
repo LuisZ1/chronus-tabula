@@ -1,0 +1,263 @@
+{
+	"id": "mongolas",
+	"nombre": "Conquistas mongolas",
+	"inicio": 1206,
+	"fin": 1279,
+	"paises": [
+		"Imperio mongol",
+		"China Jin y Song",
+		"Corasmia",
+		"Califato abasí",
+		"Rus",
+		"Polonia",
+		"Hungría"
+	],
+	"bajas": "~30.000.000-40.000.000 de muertos",
+	"descripcion": "La mayor conquista terrestre de la historia, de Corea a Polonia.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Legnica",
+			"anio": 1241,
+			"lat": 51.15,
+			"lng": 16.22,
+			"descripcion": "Los mongoles derrotan a polacos y caballeros teutónicos."
+		},
+		{
+			"nombre": "Saqueo de Bagdad",
+			"anio": 1258,
+			"lat": 33.34,
+			"lng": 44.4,
+			"bajas": "~200.000-800.000 muertos",
+			"descripcion": "Hulagu destruye la capital abasí; fin del califato de Bagdad."
+		},
+		{
+			"nombre": "Sitio de Xiangyang",
+			"anio": 1273,
+			"lat": 32.01,
+			"lng": 112.12,
+			"descripcion": "Victoria clave de Kublai Kan sobre los Song."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Mongolia y China Jin",
+			"tipo": "frente",
+			"desde": 1206,
+			"hasta": 1234,
+			"poligono": [
+				[
+					48,
+					100
+				],
+				[
+					47,
+					120
+				],
+				[
+					40,
+					122
+				],
+				[
+					34,
+					113
+				],
+				[
+					38,
+					105
+				],
+				[
+					42,
+					100
+				]
+			]
+		},
+		{
+			"nombre": "Corasmia y Persia",
+			"tipo": "frente",
+			"desde": 1219,
+			"hasta": 1231,
+			"poligono": [
+				[
+					44,
+					58
+				],
+				[
+					42,
+					68
+				],
+				[
+					36,
+					66
+				],
+				[
+					33,
+					52
+				],
+				[
+					36,
+					48
+				],
+				[
+					40,
+					52
+				]
+			]
+		},
+		{
+			"nombre": "Rus y Europa oriental",
+			"tipo": "frente",
+			"desde": 1236,
+			"hasta": 1242,
+			"poligono": [
+				[
+					56,
+					35
+				],
+				[
+					55,
+					45
+				],
+				[
+					50,
+					40
+				],
+				[
+					47,
+					20
+				],
+				[
+					50,
+					17
+				],
+				[
+					52,
+					25
+				],
+				[
+					54,
+					32
+				]
+			]
+		},
+		{
+			"nombre": "Oriente Próximo (Bagdad)",
+			"tipo": "frente",
+			"desde": 1256,
+			"hasta": 1260,
+			"poligono": [
+				[
+					38,
+					42
+				],
+				[
+					36,
+					48
+				],
+				[
+					32,
+					47
+				],
+				[
+					32.5,
+					43
+				],
+				[
+					35,
+					40
+				]
+			]
+		},
+		{
+			"nombre": "China Song",
+			"tipo": "frente",
+			"desde": 1258,
+			"hasta": 1279,
+			"poligono": [
+				[
+					33,
+					103
+				],
+				[
+					32,
+					120
+				],
+				[
+					26,
+					120
+				],
+				[
+					22,
+					110
+				],
+				[
+					26,
+					104
+				]
+			]
+		},
+		{
+			"nombre": "Dominios mongoles",
+			"tipo": "ocupado",
+			"desde": 1242,
+			"hasta": 1279,
+			"poligono": [
+				[
+					55,
+					40
+				],
+				[
+					54,
+					90
+				],
+				[
+					47,
+					125
+				],
+				[
+					40,
+					120
+				],
+				[
+					30,
+					105
+				],
+				[
+					30,
+					90
+				],
+				[
+					28,
+					63
+				],
+				[
+					33,
+					48
+				],
+				[
+					38,
+					44
+				],
+				[
+					45,
+					45
+				],
+				[
+					50,
+					50
+				]
+			]
+		}
+	],
+	"wiki": "Invasiones mongolas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Invasiones mongolas",
+			"url": "https://es.wikipedia.org/wiki/Invasiones_mongolas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

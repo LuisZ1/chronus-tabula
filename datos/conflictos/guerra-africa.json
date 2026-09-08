@@ -1,0 +1,57 @@
+{
+	"id": "guerra-africa",
+	"nombre": "Guerra de África (1859-1860)",
+	"inicio": 1859,
+	"fin": 1860,
+	"paises": [
+		"España",
+		"Marruecos"
+	],
+	"bajas": "~10.000 muertos, la mayoría por el cólera",
+	"descripcion": "La campaña de O'Donnell y Prim en Marruecos, celebrada como gesta nacional; España toma Tetuán.",
+	"wiki": "Guerra de África (1859-1860)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de África (1859-1860)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_África_(1859-1860)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Entre Ceuta y Tetuán",
+			"tipo": "frente",
+			"poligono": [
+				[
+					35.95,
+					-5.5
+				],
+				[
+					35.9,
+					-5.1
+				],
+				[
+					35.5,
+					-5.2
+				],
+				[
+					35.5,
+					-5.6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Tetuán",
+			"anio": 1860,
+			"lat": 35.57,
+			"lng": -5.37,
+			"descripcion": "Prim y los voluntarios catalanes deciden la toma de la ciudad."
+		}
+	]
+}

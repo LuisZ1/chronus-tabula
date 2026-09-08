@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Validador de data/historia.json para Chronus Tabula.
+"""Validador de los datos históricos de Chronus Tabula (árbol datos/).
 
 Ejecútalo desde la raíz del repositorio antes de abrir un merge request:
 
     python api/validar.py
 
-Comprueba estructura, campos obligatorios, coherencia de años, coordenadas
-y que los nombres de países existan en los mapas GeoJSON. Termina con
+Lee datos/ (un fichero por país, conflicto, evento y territorio) y comprueba
+estructura, campos obligatorios, coherencia de años, coordenadas y que los
+nombres de países existan en los mapas GeoJSON. Cada aviso o error indica la
+entidad afectada («paises/angola» ↔ datos/paises/angola.json). Termina con
 código 0 si todo es válido y 1 si hay errores.
 """
 import json
@@ -23,8 +25,9 @@ for _flujo in (sys.stdout, sys.stderr):
             pass
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-HISTORIA = os.path.join(RAIZ, "web", "data", "historia.json")
 GEOJSON_DIR = os.path.join(RAIZ, "web", "data", "geojson")
+sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
+from comun import cargar_historia, DATOS  # noqa: E402
 
 errores = []
 avisos = []
@@ -78,17 +81,19 @@ def valida_poligono(donde, poly):
 
 
 def main():
-    # 1) JSON bien formado
+    # 1) JSON bien formado (cada fichero de datos/; un fallo indica su ruta)
     try:
-        with open(HISTORIA, encoding="utf-8") as f:
-            d = json.load(f)
-    except FileNotFoundError:
-        print(f"✘ No encuentro {HISTORIA}. Ejecuta el script desde la raíz del repositorio.")
+        d = cargar_historia()
+    except FileNotFoundError as e:
+        print(f"✘ No encuentro los datos ({e}). Ejecuta el script desde la raíz del repositorio.")
         return 1
-    except json.JSONDecodeError as e:
-        print(f"✘ historia.json no es JSON válido: línea {e.lineno}, columna {e.colno}: {e.msg}")
+    except ValueError as e:
+        print(f"✘ JSON inválido en {e}")
         print("  Pista: vigila comas finales y comillas dobles.")
         return 1
+    if not os.path.isdir(DATOS):
+        aviso("datos", "no existe la carpeta datos/: se ha validado el historia.json monolítico "
+                       "(ejecuta python api/dividir.py para migrar)")
 
     # 2) nombres reales presentes en los GeoJSON (NAME y SUBJECTO)
     nombres_geo = set()
@@ -272,7 +277,7 @@ def main():
          sum(len(c.get("zonas", [])) for c in d.get("conflictos", [])),
          sum(len(c.get("batallas", [])) for c in d.get("conflictos", [])),
          len(d.get("eventos", [])), len(d.get("territorios", [])))
-    print(f"✔ historia.json válido — {n[0]} países, {n[1]} conflictos, {n[2]} zonas, {n[3]} batallas, {n[4]} eventos, {n[5]} territorios"
+    print(f"✔ datos válidos — {n[0]} países, {n[1]} conflictos, {n[2]} zonas, {n[3]} batallas, {n[4]} eventos, {n[5]} territorios"
           + (f" ({len(avisos)} aviso(s) no bloqueantes)" if avisos else ""))
     return 0
 

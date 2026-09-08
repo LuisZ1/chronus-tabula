@@ -1,0 +1,210 @@
+{
+	"id": "malta",
+	"nombre": "Malta",
+	"nombres": [
+		"Malta"
+	],
+	"wikidata": "Q233",
+	"wiki": "es:Malta",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q233",
+			"url": "https://www.wikidata.org/wiki/Q233",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Malta",
+			"url": "https://es.wikipedia.org/wiki/Malta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "MLT",
+	"poblacion": [
+		{
+			"anio": -7000,
+			"valor": 2
+		},
+		{
+			"anio": -6000,
+			"valor": 5
+		},
+		{
+			"anio": -5000,
+			"valor": 12
+		},
+		{
+			"anio": -4000,
+			"valor": 30
+		},
+		{
+			"anio": -3000,
+			"valor": 74
+		},
+		{
+			"anio": -2000,
+			"valor": 182
+		},
+		{
+			"anio": -1000,
+			"valor": 442
+		},
+		{
+			"anio": 0,
+			"valor": 1073
+		},
+		{
+			"anio": 100,
+			"valor": 1342
+		},
+		{
+			"anio": 200,
+			"valor": 1677
+		},
+		{
+			"anio": 300,
+			"valor": 2097
+		},
+		{
+			"anio": 400,
+			"valor": 2621
+		},
+		{
+			"anio": 500,
+			"valor": 3276
+		},
+		{
+			"anio": 600,
+			"valor": 4096
+		},
+		{
+			"anio": 700,
+			"valor": 5120
+		},
+		{
+			"anio": 800,
+			"valor": 6400
+		},
+		{
+			"anio": 900,
+			"valor": 8000
+		},
+		{
+			"anio": 1000,
+			"valor": 10000
+		},
+		{
+			"anio": 1100,
+			"valor": 10000
+		},
+		{
+			"anio": 1200,
+			"valor": 10000
+		},
+		{
+			"anio": 1300,
+			"valor": 20000
+		},
+		{
+			"anio": 1400,
+			"valor": 10000
+		},
+		{
+			"anio": 1500,
+			"valor": 20000
+		},
+		{
+			"anio": 1600,
+			"valor": 40000
+		},
+		{
+			"anio": 1700,
+			"valor": 70000
+		},
+		{
+			"anio": 1750,
+			"valor": 80000
+		},
+		{
+			"anio": 1800,
+			"valor": 134072
+		},
+		{
+			"anio": 1850,
+			"valor": 160270
+		},
+		{
+			"anio": 1900,
+			"valor": 206234
+		},
+		{
+			"anio": 1910,
+			"valor": 215840
+		},
+		{
+			"anio": 1920,
+			"valor": 212759
+		},
+		{
+			"anio": 1930,
+			"valor": 227340
+		},
+		{
+			"anio": 1940,
+			"valor": 254503
+		},
+		{
+			"anio": 1950,
+			"valor": 294685
+		},
+		{
+			"anio": 1960,
+			"valor": 330832
+		},
+		{
+			"anio": 1970,
+			"valor": 326017
+		},
+		{
+			"anio": 1980,
+			"valor": 342882
+		},
+		{
+			"anio": 1990,
+			"valor": 367913
+		},
+		{
+			"anio": 2000,
+			"valor": 399905
+		},
+		{
+			"anio": 2010,
+			"valor": 422654
+		},
+		{
+			"anio": 2020,
+			"valor": 518212
+		},
+		{
+			"anio": 2023,
+			"valor": 532964
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "8b661fa0da3c",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Malta, oficialmente la República de Malta, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Es uno de los estados más densamente poblados, compuesto por un archipiélago y situado en el centro del mar Mediterráneo, al sur de Italia, al este de Túnez y al norte de Libia."
+}

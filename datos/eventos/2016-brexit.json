@@ -1,0 +1,20 @@
+{
+	"nombre": "Brexit",
+	"anio": 2016,
+	"hasta": 2020,
+	"lat": 51.5,
+	"lng": -0.12,
+	"paises": [
+		"Gran Bretaña"
+	],
+	"descripcion": "El Reino Unido vota salir de la Unión Europea (2016) y la abandona el 31 de enero de 2020.",
+	"wiki": "Brexit",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Brexit",
+			"url": "https://es.wikipedia.org/wiki/Brexit",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

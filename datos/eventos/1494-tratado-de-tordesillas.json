@@ -1,0 +1,18 @@
+{
+	"nombre": "Tratado de Tordesillas",
+	"anio": 1494,
+	"lat": 41.5,
+	"lng": -5.0,
+	"descripcion": "Castilla y Portugal se reparten las zonas de navegación y conquista.",
+	"paises": [
+		"España",
+		"Portugal"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Tordesillas",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Tordesillas",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

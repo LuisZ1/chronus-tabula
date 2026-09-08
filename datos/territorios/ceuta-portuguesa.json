@@ -1,0 +1,18 @@
+{
+	"nombre": "Ceuta (portuguesa)",
+	"pais": "Portugal",
+	"lat": 35.889,
+	"lng": -5.307,
+	"desde": 1415,
+	"hasta": 1580,
+	"descripcion": "Conquistada por Juan I de Portugal en 1415, fue la primera plaza europea en África.",
+	"wiki": "Historia de Ceuta",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Historia de Ceuta",
+			"url": "https://es.wikipedia.org/wiki/Historia_de_Ceuta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

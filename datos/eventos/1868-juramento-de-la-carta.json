@@ -1,0 +1,19 @@
+{
+	"nombre": "Juramento de la Carta",
+	"anio": 1868,
+	"lat": 35.68,
+	"lng": 139.75,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "El nuevo gobierno Meiji proclama los principios reformistas que guiarán la modernización.",
+	"wiki": "Juramento de la Carta",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Juramento de la Carta",
+			"url": "https://es.wikipedia.org/wiki/Juramento_de_la_Carta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

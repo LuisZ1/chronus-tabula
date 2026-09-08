@@ -1,0 +1,402 @@
+{
+	"id": "inglaterra",
+	"nombre": "Inglaterra",
+	"nombres": [
+		"England",
+		"England and Ireland"
+	],
+	"gobernantes": [
+		{
+			"desde": 580,
+			"hasta": 616,
+			"nombre": "Ethelberto de Kent",
+			"titulo": "Rey de Kent"
+		},
+		{
+			"desde": 757,
+			"hasta": 796,
+			"nombre": "Offa de Mercia",
+			"titulo": "Rey de Mercia"
+		},
+		{
+			"desde": 802,
+			"hasta": 839,
+			"nombre": "Egberto de Wessex",
+			"titulo": "Rey de Wessex, unificador"
+		},
+		{
+			"desde": 871,
+			"hasta": 899,
+			"nombre": "Alfredo el Grande",
+			"titulo": "Rey de Wessex"
+		},
+		{
+			"desde": 1016,
+			"hasta": 1035,
+			"nombre": "Canuto el Grande",
+			"titulo": "Rey de Inglaterra (danés)"
+		},
+		{
+			"desde": 1042,
+			"hasta": 1066,
+			"nombre": "Eduardo el Confesor",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1066,
+			"hasta": 1087,
+			"nombre": "Guillermo I el Conquistador",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1066,
+			"hasta": 1066,
+			"nombre": "Haroldo II",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1087,
+			"hasta": 1100,
+			"nombre": "Guillermo II Rufo",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1100,
+			"hasta": 1135,
+			"nombre": "Enrique I Beauclerc",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1135,
+			"hasta": 1154,
+			"nombre": "Esteban de Blois",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1154,
+			"hasta": 1189,
+			"nombre": "Enrique II Plantagenet",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1189,
+			"hasta": 1199,
+			"nombre": "Ricardo I Corazón de León",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1199,
+			"hasta": 1216,
+			"nombre": "Juan sin Tierra",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1216,
+			"hasta": 1272,
+			"nombre": "Enrique III",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1272,
+			"hasta": 1307,
+			"nombre": "Eduardo I",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1307,
+			"hasta": 1327,
+			"nombre": "Eduardo II",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1327,
+			"hasta": 1377,
+			"nombre": "Eduardo III",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1377,
+			"hasta": 1399,
+			"nombre": "Ricardo II",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1399,
+			"hasta": 1413,
+			"nombre": "Enrique IV",
+			"titulo": "Rey de Inglaterra (Lancaster)"
+		},
+		{
+			"desde": 1413,
+			"hasta": 1422,
+			"nombre": "Enrique V",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1422,
+			"hasta": 1461,
+			"nombre": "Enrique VI",
+			"titulo": "Rey de Inglaterra (Lancaster)"
+		},
+		{
+			"desde": 1461,
+			"hasta": 1483,
+			"nombre": "Eduardo IV",
+			"titulo": "Rey de Inglaterra (York)"
+		},
+		{
+			"desde": 1483,
+			"hasta": 1485,
+			"nombre": "Ricardo III",
+			"titulo": "Rey de Inglaterra (York)"
+		},
+		{
+			"desde": 1483,
+			"hasta": 1483,
+			"nombre": "Eduardo V",
+			"titulo": "Rey de Inglaterra (York)"
+		},
+		{
+			"desde": 1485,
+			"hasta": 1509,
+			"nombre": "Enrique VII Tudor",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1509,
+			"hasta": 1547,
+			"nombre": "Enrique VIII",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1547,
+			"hasta": 1553,
+			"nombre": "Eduardo VI",
+			"titulo": "Rey de Inglaterra (Tudor)"
+		},
+		{
+			"desde": 1553,
+			"hasta": 1558,
+			"nombre": "María I",
+			"titulo": "Reina de Inglaterra (Tudor)"
+		},
+		{
+			"desde": 1558,
+			"hasta": 1603,
+			"nombre": "Isabel I",
+			"titulo": "Reina de Inglaterra"
+		},
+		{
+			"desde": 1603,
+			"hasta": 1625,
+			"nombre": "Jacobo I",
+			"titulo": "Rey de Inglaterra y Escocia (Estuardo)"
+		},
+		{
+			"desde": 1625,
+			"hasta": 1649,
+			"nombre": "Carlos I",
+			"titulo": "Rey de Inglaterra"
+		},
+		{
+			"desde": 1653,
+			"hasta": 1658,
+			"nombre": "Oliver Cromwell",
+			"titulo": "Lord Protector"
+		},
+		{
+			"desde": 1658,
+			"hasta": 1659,
+			"nombre": "Richard Cromwell",
+			"titulo": "Lord Protector de la Mancomunidad"
+		},
+		{
+			"desde": 1660,
+			"hasta": 1685,
+			"nombre": "Carlos II",
+			"titulo": "Rey de Inglaterra (Estuardo)"
+		},
+		{
+			"desde": 1685,
+			"hasta": 1688,
+			"nombre": "Jacobo II",
+			"titulo": "Rey de Inglaterra (Estuardo)"
+		},
+		{
+			"desde": 1689,
+			"hasta": 1702,
+			"nombre": "Guillermo III y María II",
+			"titulo": "Reyes conjuntos de Inglaterra"
+		},
+		{
+			"desde": 1702,
+			"hasta": 1714,
+			"nombre": "Ana Estuardo",
+			"titulo": "Reina de Inglaterra, Escocia (desde 1707 de Gran Bretaña)"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1707,
+			"valor": 5750000,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"relacionados": [
+		"Gran Bretaña",
+		"Inglaterra anglosajona",
+		"Britanos",
+		"Reino Unido"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Inglaterra",
+			"url": "https://es.wikipedia.org/wiki/Inglaterra",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Inglaterra",
+			"url": "https://es.wikipedia.org/wiki/Inglaterra",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q179876",
+			"url": "https://www.wikidata.org/wiki/Q179876",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q179876",
+			"url": "https://www.wikidata.org/wiki/Q179876",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"wikidata": "Q179876",
+	"resena": "Inglaterra es una de las cuatro naciones constituyentes del Reino Unido. Su territorio está formado por la parte sur y central de Gran Bretaña, isla que comparte junto a Escocia y Gales, y cerca de cien islas más pequeñas como las islas Sorlingas y la isla de Wight.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "3166d084bbbc",
+		"secciones": [
+			"escudos",
+			"poblacion",
+			"resena"
+		]
+	},
+	"escudos": [
+		{
+			"archivo": "Royal Arms of England (1189-1198).svg",
+			"desde": 1189,
+			"hasta": 1198
+		},
+		{
+			"archivo": "Royal arms of England.svg",
+			"desde": 1198,
+			"hasta": 1340
+		},
+		{
+			"archivo": "Coat of Arms of England (-1340).svg",
+			"desde": 1327,
+			"hasta": 1340
+		},
+		{
+			"archivo": "Coat of Arms of Edward III of England (1327-1377) (Attributed).svg",
+			"desde": 1340,
+			"hasta": 1377
+		},
+		{
+			"archivo": "Coat of Arms of Henry IV of England (1399-1413).svg",
+			"desde": 1399,
+			"hasta": 1413
+		},
+		{
+			"archivo": "Coat of Arms of Henry IV & V of England (1413-1422).svg",
+			"desde": 1413,
+			"hasta": 1422
+		},
+		{
+			"archivo": "Coat of Arms of Henry VI of England (1422-1471).svg",
+			"desde": 1422,
+			"hasta": 1461
+		},
+		{
+			"archivo": "Coat of Arms of Edward IV of England (1461-1483).svg",
+			"desde": 1461,
+			"hasta": 1470
+		},
+		{
+			"archivo": "Coat of Arms of Henry VI of England (1422-1471).svg",
+			"desde": 1470,
+			"hasta": 1471
+		},
+		{
+			"archivo": "Coat of Arms of Edward IV of England (1461-1483).svg",
+			"desde": 1471,
+			"hasta": 1483
+		},
+		{
+			"archivo": "Coat of Arms of Edward V of England (1483).svg",
+			"desde": 1483,
+			"hasta": 1483
+		},
+		{
+			"archivo": "Coat of Arms of Richard III of England (1483-1485).svg",
+			"desde": 1483,
+			"hasta": 1485
+		},
+		{
+			"archivo": "Coat of Arms of Henry VII of England (1485-1509).svg",
+			"desde": 1485,
+			"hasta": 1509
+		},
+		{
+			"archivo": "Coat of Arms of England (1509-1554).svg",
+			"desde": 1509,
+			"hasta": 1554
+		},
+		{
+			"archivo": "Coat of Arms of England (1554-1558).svg",
+			"desde": 1554,
+			"hasta": 1558
+		},
+		{
+			"archivo": "Coat of Arms of England (1558-1603).svg",
+			"desde": 1558,
+			"hasta": 1603
+		},
+		{
+			"archivo": "Coat of arms of England (1603–1649).svg",
+			"desde": 1603,
+			"hasta": 1649
+		},
+		{
+			"archivo": "Coat of Arms of England (1660-1689).svg",
+			"desde": 1660,
+			"hasta": 1689
+		},
+		{
+			"archivo": "Coat of Arms of England (c. 1690).svg",
+			"desde": 1690,
+			"hasta": 1690
+		},
+		{
+			"archivo": "Coat of arms of England (1702–1707).svg",
+			"desde": 1702,
+			"hasta": 1707
+		},
+		{
+			"archivo": "Coat of Arms of Richard II of England (1377-1399) Variant 3.svg",
+			"hasta": 1399
+		},
+		{
+			"archivo": "Royal Arms of England (1154-1189).svg",
+			"hasta": 1189
+		},
+		{
+			"archivo": "Coat of arms of England (1694–1702).svg"
+		}
+	]
+}

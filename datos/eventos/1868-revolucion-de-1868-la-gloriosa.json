@@ -1,0 +1,19 @@
+{
+	"nombre": "Revolución de 1868 (La Gloriosa)",
+	"anio": 1868,
+	"lat": 36.53,
+	"lng": -6.29,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Pronunciamiento iniciado en Cádiz que destrona a Isabel II y abre el Sexenio Democrático.",
+	"wiki": "Revolución de 1868",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revolución de 1868",
+			"url": "https://es.wikipedia.org/wiki/Revolución_de_1868",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

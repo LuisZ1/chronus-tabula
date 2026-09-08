@@ -1,0 +1,73 @@
+{
+	"id": "bulgaro-bizantinas",
+	"nombre": "Guerras búlgaro-bizantinas de Basilio II",
+	"inicio": 976,
+	"fin": 1018,
+	"paises": [
+		"Imperio bizantino",
+		"Primer Imperio búlgaro"
+	],
+	"bajas": "decenas de miles; fin del Primer Imperio búlgaro",
+	"descripcion": "Basilio II 'el Bulgaróctono' (matador de búlgaros) libra cuatro décadas de guerra contra el imperio de Samuel. Tras la aniquilación búlgara en Kleidion (1014), Bulgaria es anexionada por completo en 1018.",
+	"wiki": "Batalla de Kleidion",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Kleidion",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kleidion",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Basilio II",
+			"url": "https://es.wikipedia.org/wiki/Basilio_II",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frente balcánico búlgaro-bizantino",
+			"tipo": "frente",
+			"desde": 976,
+			"hasta": 1018,
+			"poligono": [
+				[
+					43.5,
+					22.0
+				],
+				[
+					43.0,
+					27.5
+				],
+				[
+					40.5,
+					26.0
+				],
+				[
+					40.5,
+					20.5
+				],
+				[
+					42.5,
+					20.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de las Puertas de Trajano",
+			"anio": 986,
+			"lat": 42.36,
+			"lng": 23.87,
+			"descripcion": "Samuel derrota a Basilio II en su primera campaña."
+		},
+		{
+			"nombre": "Batalla de Kleidion (Belasitsa)",
+			"anio": 1014,
+			"lat": 41.36,
+			"lng": 22.9,
+			"descripcion": "Basilio II aniquila al ejército búlgaro y ciega a los prisioneros."
+		}
+	]
+}

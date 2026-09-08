@@ -1,0 +1,221 @@
+{
+	"id": "expansion-aquemenida",
+	"nombre": "Expansión del Imperio aqueménida",
+	"inicio": -550,
+	"fin": -486,
+	"paises": [
+		"Persia aqueménida",
+		"Media",
+		"Lidia",
+		"Babilonia",
+		"Egipto",
+		"Escitia"
+	],
+	"bajas": "desconocidas (decenas de miles)",
+	"descripcion": "Ciro el Grande somete Media (550 a. C.), Lidia (546) y Babilonia (539); Cambises conquista Egipto (525) y Darío llega a Tracia y al Indo: el mayor imperio del mundo antiguo.",
+	"wiki": "Imperio aqueménida",
+	"zonas": [
+		{
+			"nombre": "Media y Lidia (Ciro)",
+			"tipo": "frente",
+			"desde": -550,
+			"hasta": -540,
+			"poligono": [
+				[
+					40,
+					27
+				],
+				[
+					39.5,
+					35
+				],
+				[
+					37,
+					44
+				],
+				[
+					35,
+					46
+				],
+				[
+					36,
+					38
+				],
+				[
+					37.5,
+					28
+				]
+			]
+		},
+		{
+			"nombre": "Babilonia",
+			"tipo": "frente",
+			"desde": -539,
+			"hasta": -538,
+			"poligono": [
+				[
+					34,
+					43
+				],
+				[
+					33.5,
+					45.5
+				],
+				[
+					31.5,
+					46.5
+				],
+				[
+					30.8,
+					44.5
+				],
+				[
+					32.5,
+					43
+				]
+			]
+		},
+		{
+			"nombre": "Egipto (Cambises)",
+			"tipo": "frente",
+			"desde": -525,
+			"hasta": -522,
+			"poligono": [
+				[
+					31.3,
+					29.8
+				],
+				[
+					31.2,
+					32.4
+				],
+				[
+					29.5,
+					31.8
+				],
+				[
+					26,
+					32.5
+				],
+				[
+					26,
+					30.8
+				],
+				[
+					29.8,
+					30
+				]
+			]
+		},
+		{
+			"nombre": "Tracia y Escitia (Darío)",
+			"tipo": "frente",
+			"desde": -513,
+			"hasta": -512,
+			"poligono": [
+				[
+					45,
+					27
+				],
+				[
+					44.5,
+					30
+				],
+				[
+					41.5,
+					29
+				],
+				[
+					41,
+					25
+				],
+				[
+					43,
+					25.5
+				]
+			]
+		},
+		{
+			"nombre": "Imperio aqueménida",
+			"tipo": "ocupado",
+			"desde": -546,
+			"hasta": -486,
+			"poligono": [
+				[
+					40,
+					28
+				],
+				[
+					39,
+					44
+				],
+				[
+					38,
+					58
+				],
+				[
+					35,
+					64
+				],
+				[
+					30,
+					62
+				],
+				[
+					28,
+					54
+				],
+				[
+					30,
+					46
+				],
+				[
+					31,
+					35
+				],
+				[
+					35,
+					30
+				],
+				[
+					38,
+					27
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Caída de Sardes",
+			"anio": -546,
+			"lat": 38.48,
+			"lng": 28.04,
+			"descripcion": "Ciro derrota a Creso y conquista Lidia y su legendario tesoro."
+		},
+		{
+			"nombre": "Toma de Babilonia",
+			"anio": -539,
+			"lat": 32.54,
+			"lng": 44.42,
+			"descripcion": "La gran ciudad cae casi sin lucha; Ciro libera a los judíos del exilio."
+		},
+		{
+			"nombre": "Batalla de Pelusio",
+			"anio": -525,
+			"lat": 31.04,
+			"lng": 32.54,
+			"descripcion": "Cambises II derrota a Psamético III y conquista Egipto."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio aqueménida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_aqueménida",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

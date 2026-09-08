@@ -1,0 +1,19 @@
+{
+	"nombre": "Enfermedad de Minamata",
+	"anio": 1956,
+	"lat": 32.21,
+	"lng": 130.4,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Envenenamiento masivo por mercurio vertido a la bahía de Minamata, hito de la conciencia ambiental.",
+	"wiki": "Enfermedad de Minamata",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Enfermedad de Minamata",
+			"url": "https://es.wikipedia.org/wiki/Enfermedad_de_Minamata",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

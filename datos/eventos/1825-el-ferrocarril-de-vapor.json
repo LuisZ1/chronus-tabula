@@ -1,0 +1,19 @@
+{
+	"nombre": "El ferrocarril de vapor",
+	"anio": 1825,
+	"lat": 54.52,
+	"lng": -1.55,
+	"categoria": "invento",
+	"descripcion": "La línea Stockton-Darlington inaugura el ferrocarril público de vapor.",
+	"wiki": "Ferrocarril",
+	"paises": [
+		"Gran Bretaña"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Ferrocarril",
+			"url": "https://es.wikipedia.org/wiki/Ferrocarril",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

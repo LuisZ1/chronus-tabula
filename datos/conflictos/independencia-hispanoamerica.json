@@ -1,0 +1,164 @@
+{
+	"id": "independencia-hispanoamerica",
+	"nombre": "Independencia hispanoamericana",
+	"inicio": 1810,
+	"fin": 1826,
+	"paises": [
+		"España",
+		"Nueva Granada",
+		"Río de la Plata",
+		"Perú",
+		"México",
+		"Chile",
+		"Venezuela"
+	],
+	"bajas": "~600.000 muertos",
+	"descripcion": "Los virreinatos americanos se independizan de España tras la crisis de 1808.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Boyacá",
+			"anio": 1819,
+			"lat": 5.45,
+			"lng": -73.42,
+			"descripcion": "Bolívar asegura la independencia de Nueva Granada."
+		},
+		{
+			"nombre": "Batalla de Ayacucho",
+			"anio": 1824,
+			"lat": -13.65,
+			"lng": -74.22,
+			"bajas": "~2.100 muertos",
+			"descripcion": "Sucre derrota al último ejército realista; fin del dominio español continental."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Nueva España (México)",
+			"tipo": "frente",
+			"desde": 1810,
+			"hasta": 1821,
+			"poligono": [
+				[
+					22.5,
+					-103.5
+				],
+				[
+					21,
+					-96.5
+				],
+				[
+					17,
+					-96.5
+				],
+				[
+					17.5,
+					-102.5
+				]
+			]
+		},
+		{
+			"nombre": "Venezuela y Nueva Granada",
+			"tipo": "frente",
+			"desde": 1810,
+			"hasta": 1823,
+			"poligono": [
+				[
+					11,
+					-75.5
+				],
+				[
+					10.5,
+					-63
+				],
+				[
+					7,
+					-63
+				],
+				[
+					3.5,
+					-73
+				],
+				[
+					6,
+					-77.5
+				],
+				[
+					9,
+					-76.5
+				]
+			]
+		},
+		{
+			"nombre": "Río de la Plata y Chile",
+			"tipo": "frente",
+			"desde": 1810,
+			"hasta": 1818,
+			"poligono": [
+				[
+					-31,
+					-71.5
+				],
+				[
+					-32,
+					-58
+				],
+				[
+					-35,
+					-57.5
+				],
+				[
+					-37,
+					-71
+				],
+				[
+					-33,
+					-72
+				]
+			]
+		},
+		{
+			"nombre": "Perú y Alto Perú",
+			"tipo": "frente",
+			"desde": 1820,
+			"hasta": 1826,
+			"poligono": [
+				[
+					-8,
+					-79.5
+				],
+				[
+					-10,
+					-73
+				],
+				[
+					-17,
+					-63.5
+				],
+				[
+					-20,
+					-66
+				],
+				[
+					-18,
+					-71
+				],
+				[
+					-12,
+					-77.5
+				]
+			]
+		}
+	],
+	"wiki": "Guerras de independencia hispanoamericanas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras de independencia hispanoamericanas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_de_independencia_hispanoamericanas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

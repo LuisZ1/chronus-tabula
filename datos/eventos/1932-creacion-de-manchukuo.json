@@ -1,0 +1,19 @@
+{
+	"nombre": "Creación de Manchukuo",
+	"anio": 1932,
+	"lat": 43.9,
+	"lng": 125.3,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Japón erige en Manchuria un Estado títere con el último emperador Qing, Puyi, como figura nominal.",
+	"wiki": "Manchukuo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Manchukuo",
+			"url": "https://es.wikipedia.org/wiki/Manchukuo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

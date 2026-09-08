@@ -1,0 +1,19 @@
+{
+	"nombre": "Exposición Universal de Shanghái (Expo 2010)",
+	"anio": 2010,
+	"lat": 31.19,
+	"lng": 121.49,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "Shanghái celebra la Exposición Universal de 2010, una de las mayores de la historia por número de visitantes.",
+	"wiki": "Exposición Universal de Shanghái 2010",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Exposición Universal de Shanghái 2010",
+			"url": "https://es.wikipedia.org/wiki/Exposici%C3%B3n_Universal_de_Shangh%C3%A1i_2010",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

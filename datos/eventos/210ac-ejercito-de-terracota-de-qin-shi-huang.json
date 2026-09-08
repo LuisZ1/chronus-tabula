@@ -1,0 +1,19 @@
+{
+	"nombre": "Ejército de terracota de Qin Shi Huang",
+	"anio": -210,
+	"lat": 34.38,
+	"lng": 109.27,
+	"paises": [
+		"Imperio Qin"
+	],
+	"descripcion": "Miles de guerreros de terracota a tamaño natural custodian el mausoleo del Primer Emperador cerca de Xi'an, descubiertos en 1974.",
+	"wiki": "Guerreros de terracota",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerreros de terracota",
+			"url": "https://es.wikipedia.org/wiki/Guerreros_de_terracota",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

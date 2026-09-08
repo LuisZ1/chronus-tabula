@@ -1,0 +1,95 @@
+{
+	"id": "guerra-civil-sudan",
+	"nombre": "Guerra civil sudanesa",
+	"inicio": 2023,
+	"fin": 2026,
+	"paises": [
+		"Sudán"
+	],
+	"bajas": "~300.000 muertos y 12 millones de desplazados (en curso)",
+	"descripcion": "El ejército (SAF) y los paramilitares RSF se disputan el país desde abril de 2023: Jartum arrasada y recuperada por el ejército (2025), matanzas en Darfur y la caída de El Fasher (2025). La mayor crisis de desplazados del mundo.",
+	"wiki": "Guerra civil sudanesa (2023-presente)",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Sudanese civil war (2023–present)",
+			"url": "https://en.wikipedia.org/wiki/Sudanese_civil_war_(2023–present)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Batalla de Jartum",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2025,
+			"poligono": [
+				[
+					16.1,
+					32.2
+				],
+				[
+					16.1,
+					33.0
+				],
+				[
+					15.3,
+					33.0
+				],
+				[
+					15.3,
+					32.2
+				]
+			]
+		},
+		{
+			"nombre": "Darfur",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2026,
+			"poligono": [
+				[
+					15.9,
+					22.8
+				],
+				[
+					15.9,
+					27.5
+				],
+				[
+					11.5,
+					27.0
+				],
+				[
+					11.5,
+					23.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Jartum",
+			"anio": 2023,
+			"lat": 15.59,
+			"lng": 32.53,
+			"descripcion": "La capital, campo de batalla urbano durante dos años; el ejército la recupera en marzo de 2025.",
+			"hasta": 2025
+		},
+		{
+			"nombre": "Masacre de Geneina",
+			"anio": 2023,
+			"lat": 13.45,
+			"lng": 22.44,
+			"descripcion": "Limpieza étnica contra los masalit en Darfur Occidental."
+		},
+		{
+			"nombre": "Caída de El Fasher",
+			"anio": 2025,
+			"lat": 13.63,
+			"lng": 25.35,
+			"bajas": "decenas de miles de muertos en el asedio",
+			"descripcion": "Tras 18 meses de asedio, las RSF toman la última capital del ejército en Darfur; matanzas documentadas por satélite."
+		}
+	]
+}

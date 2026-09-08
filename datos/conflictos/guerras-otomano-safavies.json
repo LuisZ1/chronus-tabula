@@ -1,0 +1,69 @@
+{
+	"id": "guerras-otomano-safavies",
+	"nombre": "Guerras otomano-safávidas",
+	"inicio": 1514,
+	"fin": 1639,
+	"paises": [
+		"Otomano",
+		"Persia safávida"
+	],
+	"bajas": "cientos de miles",
+	"descripcion": "Larga rivalidad con la Persia safávida por Anatolia oriental, el Cáucaso e Irak. Selim I vence al sah Ismail en Çaldıran (1514) y Solimán I conquista Tabriz y Bagdad (1534). El conflicto, de fondo religioso suní-chií, se cierra con la paz de Zuhab (1639).",
+	"wiki": "Guerras otomano-safávidas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Chaldiran",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Chaldiran",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Anatolia oriental, Cáucaso e Irak en disputa",
+			"tipo": "frente",
+			"desde": 1514,
+			"hasta": 1639,
+			"poligono": [
+				[
+					41.0,
+					40.0
+				],
+				[
+					40.0,
+					48.0
+				],
+				[
+					33.0,
+					47.0
+				],
+				[
+					33.0,
+					43.0
+				],
+				[
+					38.0,
+					41.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Çaldıran",
+			"anio": 1514,
+			"lat": 39.06,
+			"lng": 44.32
+		},
+		{
+			"nombre": "Conquista de Tabriz y Bagdad",
+			"anio": 1534,
+			"lat": 33.31,
+			"lng": 44.36
+		}
+	]
+}

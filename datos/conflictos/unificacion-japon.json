@@ -1,0 +1,84 @@
+{
+	"id": "unificacion-japon",
+	"nombre": "Unificación de Japón",
+	"inicio": 1560,
+	"fin": 1603,
+	"paises": [
+		"Oda Nobunaga",
+		"Toyotomi Hideyoshi",
+		"Tokugawa Ieyasu",
+		"Daimios rivales"
+	],
+	"bajas": "cientos de miles",
+	"descripcion": "Fase final del Sengoku: Nobunaga, Hideyoshi e Ieyasu unifican sucesivamente el país. Del ascenso de Nobunaga en Okehazama (1560) y el uso masivo de arcabuces en Nagashino (1575) a la victoria decisiva de Ieyasu en Sekigahara (1600), que abre el shogunato Tokugawa (1603).",
+	"wiki": "Período Sengoku",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Sekigahara",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Sekigahara",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Nagashino",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nagashino",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Okehazama",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Okehazama",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Honshu central bajo los unificadores",
+			"tipo": "ocupado",
+			"desde": 1560,
+			"hasta": 1603,
+			"poligono": [
+				[
+					35.7,
+					135.9
+				],
+				[
+					35.8,
+					139.8
+				],
+				[
+					34.6,
+					135.4
+				],
+				[
+					35.0,
+					137.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Okehazama",
+			"anio": 1560,
+			"lat": 35.06,
+			"lng": 136.98,
+			"descripcion": "Nobunaga aniquila al ejército de Imagawa Yoshimoto pese a la inferioridad numérica."
+		},
+		{
+			"nombre": "Batalla de Nagashino",
+			"anio": 1575,
+			"lat": 34.92,
+			"lng": 137.56,
+			"descripcion": "Descargas coordinadas de arcabuces de Nobunaga-Tokugawa destrozan la caballería Takeda."
+		},
+		{
+			"nombre": "Batalla de Sekigahara",
+			"anio": 1600,
+			"lat": 35.37,
+			"lng": 136.46,
+			"descripcion": "Victoria de Tokugawa Ieyasu que consolida su hegemonía y precede al shogunato Edo."
+		}
+	]
+}

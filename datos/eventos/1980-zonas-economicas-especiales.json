@@ -1,0 +1,19 @@
+{
+	"nombre": "Zonas Económicas Especiales",
+	"anio": 1980,
+	"lat": 22.54,
+	"lng": 114.06,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "China crea las primeras Zonas Económicas Especiales (Shenzhen, Zhuhai, Shantou y Xiamen), motores de la apertura al capital extranjero.",
+	"wiki": "Zona económica especial (China)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Zona económica especial (República Popular China)",
+			"url": "https://es.wikipedia.org/wiki/Zona_econ%C3%B3mica_especial_(Rep%C3%BAblica_Popular_China)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

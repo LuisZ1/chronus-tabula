@@ -1,0 +1,241 @@
+{
+	"id": "paisesbajos",
+	"nombre": "Países Bajos",
+	"nombres": [
+		"Dutch Republic",
+		"Netherlands"
+	],
+	"gobernantes": [
+		{
+			"desde": 1572,
+			"hasta": 1584,
+			"nombre": "Guillermo de Orange",
+			"titulo": "Estatúder"
+		},
+		{
+			"desde": 1672,
+			"hasta": 1702,
+			"nombre": "Guillermo III de Orange",
+			"titulo": "Estatúder (y Rey de Inglaterra)"
+		},
+		{
+			"desde": 1980,
+			"hasta": 2013,
+			"nombre": "Beatriz I",
+			"titulo": "Reina de los Países Bajos"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1220
+		},
+		{
+			"anio": -9000,
+			"valor": 1355
+		},
+		{
+			"anio": -8000,
+			"valor": 1506
+		},
+		{
+			"anio": -7000,
+			"valor": 1673
+		},
+		{
+			"anio": -6000,
+			"valor": 3347
+		},
+		{
+			"anio": -5000,
+			"valor": 6695
+		},
+		{
+			"anio": -4000,
+			"valor": 13391
+		},
+		{
+			"anio": -3000,
+			"valor": 26782
+		},
+		{
+			"anio": -2000,
+			"valor": 53565
+		},
+		{
+			"anio": -1000,
+			"valor": 107131
+		},
+		{
+			"anio": 0,
+			"valor": 214262
+		},
+		{
+			"anio": 100,
+			"valor": 204059
+		},
+		{
+			"anio": 200,
+			"valor": 194341
+		},
+		{
+			"anio": 300,
+			"valor": 185087
+		},
+		{
+			"anio": 400,
+			"valor": 176273
+		},
+		{
+			"anio": 500,
+			"valor": 167879
+		},
+		{
+			"anio": 600,
+			"valor": 159885
+		},
+		{
+			"anio": 700,
+			"valor": 152272
+		},
+		{
+			"anio": 800,
+			"valor": 258084
+		},
+		{
+			"anio": 900,
+			"valor": 335466
+		},
+		{
+			"anio": 1000,
+			"valor": 369012
+		},
+		{
+			"anio": 1100,
+			"valor": 442815
+		},
+		{
+			"anio": 1200,
+			"valor": 498167
+		},
+		{
+			"anio": 1300,
+			"valor": 881372
+		},
+		{
+			"anio": 1400,
+			"valor": 629551
+		},
+		{
+			"anio": 1500,
+			"valor": 1086367
+		},
+		{
+			"anio": 1600,
+			"valor": 1543183
+		},
+		{
+			"anio": 1700,
+			"valor": 2000000
+		},
+		{
+			"anio": 1750,
+			"valor": 2163333
+		},
+		{
+			"anio": 1800,
+			"valor": 2000000
+		},
+		{
+			"anio": 1850,
+			"valor": 3097727
+		},
+		{
+			"anio": 1900,
+			"valor": 5140189
+		},
+		{
+			"anio": 1910,
+			"valor": 5914229
+		},
+		{
+			"anio": 1920,
+			"valor": 6834137
+		},
+		{
+			"anio": 1930,
+			"valor": 7859443
+		},
+		{
+			"anio": 1940,
+			"valor": 8868956
+		},
+		{
+			"anio": 1950,
+			"valor": 10113759
+		},
+		{
+			"anio": 1960,
+			"valor": 11486909
+		},
+		{
+			"anio": 1970,
+			"valor": 13052082
+		},
+		{
+			"anio": 1980,
+			"valor": 14162686
+		},
+		{
+			"anio": 1990,
+			"valor": 15030886
+		},
+		{
+			"anio": 2000,
+			"valor": 16058757
+		},
+		{
+			"anio": 2010,
+			"valor": 16771232
+		},
+		{
+			"anio": 2020,
+			"valor": 17636732
+		},
+		{
+			"anio": 2023,
+			"valor": 18092526
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Países Bajos",
+			"url": "https://es.wikipedia.org/wiki/Países_Bajos",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Países Bajos",
+			"url": "https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Netherlands",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "ea88b6f643bf",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Países Bajos es una de las cuatro naciones constituyentes del Reino de los Países Bajos y un Estado miembro de la Unión Europea. Su capital y ciudad más poblada oficial es Ámsterdam,no obstante, la sede del gobierno, del parlamento, de la monarquía y de los órganos judiciales se encuentra en La Haya."
+}

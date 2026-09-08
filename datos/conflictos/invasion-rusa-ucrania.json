@@ -1,0 +1,209 @@
+{
+	"id": "invasion-rusa-ucrania",
+	"nombre": "Invasión rusa de Ucrania",
+	"inicio": 2022,
+	"fin": 2026,
+	"paises": [
+		"Ucrania",
+		"Rusia"
+	],
+	"bajas": "cientos de miles de bajas militares y decenas de miles de civiles (en curso)",
+	"descripcion": "El 24 de febrero de 2022 Rusia lanza la mayor guerra en Europa desde 1945. Fracasada la ofensiva sobre Kiev, el frente se estanca en el este y el sur; la guerra sigue en curso en 2026, con las negociaciones de paz encalladas.",
+	"wiki": "Invasión rusa de Ucrania",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Invasión rusa de Ucrania",
+			"url": "https://es.wikipedia.org/wiki/Invasión_rusa_de_Ucrania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Russian invasion of Ukraine",
+			"url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q111012552",
+			"url": "https://www.wikidata.org/wiki/Q111012552",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Ofensiva sobre Kiev",
+			"tipo": "frente",
+			"desde": 2022,
+			"hasta": 2022,
+			"poligono": [
+				[
+					51.5,
+					29.3
+				],
+				[
+					51.5,
+					31.5
+				],
+				[
+					50.3,
+					31.0
+				],
+				[
+					50.3,
+					29.6
+				]
+			]
+		},
+		{
+			"nombre": "Frente sur (Jersón–Zaporiyia)",
+			"tipo": "frente",
+			"desde": 2022,
+			"hasta": 2026,
+			"poligono": [
+				[
+					47.9,
+					32.3
+				],
+				[
+					47.6,
+					36.6
+				],
+				[
+					46.3,
+					35.9
+				],
+				[
+					46.4,
+					32.3
+				]
+			]
+		},
+		{
+			"nombre": "Frente del Donbás",
+			"tipo": "frente",
+			"desde": 2022,
+			"hasta": 2026,
+			"poligono": [
+				[
+					50.1,
+					36.9
+				],
+				[
+					49.9,
+					39.0
+				],
+				[
+					47.3,
+					38.9
+				],
+				[
+					47.6,
+					36.9
+				]
+			]
+		},
+		{
+			"nombre": "Crimea ocupada",
+			"tipo": "ocupado",
+			"desde": 2022,
+			"hasta": 2026,
+			"poligono": [
+				[
+					46.2,
+					32.5
+				],
+				[
+					46.2,
+					36.6
+				],
+				[
+					44.4,
+					36.5
+				],
+				[
+					44.4,
+					32.9
+				]
+			]
+		},
+		{
+			"nombre": "Incursión ucraniana en Kursk",
+			"tipo": "frente",
+			"desde": 2024,
+			"hasta": 2025,
+			"poligono": [
+				[
+					51.6,
+					34.2
+				],
+				[
+					51.6,
+					35.6
+				],
+				[
+					51.0,
+					35.4
+				],
+				[
+					51.0,
+					34.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Kiev",
+			"anio": 2022,
+			"lat": 50.45,
+			"lng": 30.52,
+			"descripcion": "La capital resiste; Rusia se retira del norte en abril.",
+			"wiki": "Batalla de Kiev (2022)"
+		},
+		{
+			"nombre": "Sitio de Mariúpol",
+			"anio": 2022,
+			"lat": 47.1,
+			"lng": 37.55,
+			"descripcion": "Tres meses de asedio y resistencia en la acería de Azovstal.",
+			"wiki": "Sitio de Mariúpol"
+		},
+		{
+			"nombre": "Liberación de Jersón",
+			"anio": 2022,
+			"lat": 46.64,
+			"lng": 32.61,
+			"descripcion": "Única capital regional ocupada, recuperada por Ucrania en noviembre."
+		},
+		{
+			"nombre": "Batalla de Bajmut",
+			"anio": 2022,
+			"lat": 48.59,
+			"lng": 38.0,
+			"descripcion": "La batalla más larga y sangrienta de la guerra; cae en mayo de 2023.",
+			"wiki": "Batalla de Bajmut",
+			"hasta": 2023
+		},
+		{
+			"nombre": "Batalla de la isla de las Serpientes",
+			"anio": 2022,
+			"lat": 45.26,
+			"lng": 30.2
+		},
+		{
+			"nombre": "Batalla de Avdíivka",
+			"anio": 2024,
+			"lat": 48.14,
+			"lng": 37.75,
+			"descripcion": "Rusia toma la plaza fuerte del Donbás con enormes pérdidas."
+		},
+		{
+			"nombre": "Incursión en Kursk (Sudzha)",
+			"anio": 2024,
+			"lat": 51.19,
+			"lng": 35.27,
+			"descripcion": "Primera ofensiva ucraniana en territorio ruso, repelida en 2025."
+		}
+	]
+}

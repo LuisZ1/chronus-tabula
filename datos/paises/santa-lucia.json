@@ -1,0 +1,223 @@
+{
+	"id": "santa-lucia",
+	"nombre": "Santa Lucía",
+	"nombres": [
+		"Saint Lucia",
+		"Santa Lucía"
+	],
+	"wikidata": "Q760",
+	"wiki": "es:Santa Lucía",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q760",
+			"url": "https://www.wikidata.org/wiki/Q760",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Santa Lucía",
+			"url": "https://es.wikipedia.org/wiki/Santa_Luc%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LCA",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 5
+		},
+		{
+			"anio": -9000,
+			"valor": 11
+		},
+		{
+			"anio": -8000,
+			"valor": 22
+		},
+		{
+			"anio": -7000,
+			"valor": 44
+		},
+		{
+			"anio": -6000,
+			"valor": 88
+		},
+		{
+			"anio": -5000,
+			"valor": 176
+		},
+		{
+			"anio": -4000,
+			"valor": 352
+		},
+		{
+			"anio": -3000,
+			"valor": 704
+		},
+		{
+			"anio": -2000,
+			"valor": 1408
+		},
+		{
+			"anio": -1000,
+			"valor": 2817
+		},
+		{
+			"anio": 0,
+			"valor": 5634
+		},
+		{
+			"anio": 100,
+			"valor": 6147
+		},
+		{
+			"anio": 200,
+			"valor": 6705
+		},
+		{
+			"anio": 300,
+			"valor": 7315
+		},
+		{
+			"anio": 400,
+			"valor": 7980
+		},
+		{
+			"anio": 500,
+			"valor": 8706
+		},
+		{
+			"anio": 600,
+			"valor": 9497
+		},
+		{
+			"anio": 700,
+			"valor": 10361
+		},
+		{
+			"anio": 800,
+			"valor": 11302
+		},
+		{
+			"anio": 900,
+			"valor": 12330
+		},
+		{
+			"anio": 1000,
+			"valor": 13451
+		},
+		{
+			"anio": 1100,
+			"valor": 14674
+		},
+		{
+			"anio": 1200,
+			"valor": 16008
+		},
+		{
+			"anio": 1300,
+			"valor": 17463
+		},
+		{
+			"anio": 1400,
+			"valor": 19051
+		},
+		{
+			"anio": 1500,
+			"valor": 20783
+		},
+		{
+			"anio": 1600,
+			"valor": 22672
+		},
+		{
+			"anio": 1700,
+			"valor": 24733
+		},
+		{
+			"anio": 1750,
+			"valor": 36674
+		},
+		{
+			"anio": 1800,
+			"valor": 24000
+		},
+		{
+			"anio": 1850,
+			"valor": 24171
+		},
+		{
+			"anio": 1900,
+			"valor": 53029
+		},
+		{
+			"anio": 1910,
+			"valor": 53545
+		},
+		{
+			"anio": 1920,
+			"valor": 57376
+		},
+		{
+			"anio": 1930,
+			"valor": 65923
+		},
+		{
+			"anio": 1940,
+			"valor": 76707
+		},
+		{
+			"anio": 1950,
+			"valor": 93009
+		},
+		{
+			"anio": 1960,
+			"valor": 92605
+		},
+		{
+			"anio": 1970,
+			"valor": 103184
+		},
+		{
+			"anio": 1980,
+			"valor": 119302
+		},
+		{
+			"anio": 1990,
+			"valor": 137874
+		},
+		{
+			"anio": 2000,
+			"valor": 158624
+		},
+		{
+			"anio": 2010,
+			"valor": 170921
+		},
+		{
+			"anio": 2020,
+			"valor": 178261
+		},
+		{
+			"anio": 2023,
+			"valor": 179291
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "79dba77520c1",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Santa Lucía es un país insular de América, ubicado en el mar Caribe, al norte de San Vicente y las Granadinas y al sur de la isla de la Martinica. Cubre una superficie terrestre de 617 km² con una población estimada de 183 629 habitantes en el año 2020."
+}

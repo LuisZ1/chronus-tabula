@@ -1,0 +1,53 @@
+{
+	"id": "songhai",
+	"nombre": "Imperio songhai",
+	"nombres": [
+		"Songhai"
+	],
+	"wiki": "Imperio songhai",
+	"wikidata": "Q206789",
+	"gobernantes": [
+		{
+			"desde": 1464,
+			"hasta": 1492,
+			"nombre": "Sonni Alí",
+			"titulo": "Conquistador de Tombuctú y Djenné"
+		},
+		{
+			"desde": 1493,
+			"hasta": 1528,
+			"nombre": "Askia Mohamed",
+			"titulo": "Askia; apogeo del imperio"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Imperio songhai",
+			"url": "https://es.wikipedia.org/wiki/Imperio_songhai",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Imperio songhai",
+			"url": "https://es.wikipedia.org/wiki/Imperio_songhai",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Imperio songhai, también conocido como el Imperio songai, fue un Estado ubicado en África Occidental. Desde comienzo del siglo XV hasta finales del siglo XVI, Songhai fue uno de los mayores imperios islámicos de la historia.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2379afcef0ee",
+		"secciones": [
+			"resena"
+		]
+	}
+}

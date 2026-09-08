@@ -1,0 +1,222 @@
+{
+	"id": "venezuela",
+	"nombre": "Venezuela",
+	"nombres": [
+		"Venezuela"
+	],
+	"wikidata": "Q717",
+	"wiki": "es:Venezuela",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q717",
+			"url": "https://www.wikidata.org/wiki/Q717",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Venezuela",
+			"url": "https://es.wikipedia.org/wiki/Venezuela",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "VEN",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 69396
+		},
+		{
+			"anio": -9000,
+			"valor": 77106
+		},
+		{
+			"anio": -8000,
+			"valor": 85674
+		},
+		{
+			"anio": -7000,
+			"valor": 95193
+		},
+		{
+			"anio": -6000,
+			"valor": 105770
+		},
+		{
+			"anio": -5000,
+			"valor": 117522
+		},
+		{
+			"anio": -4000,
+			"valor": 130581
+		},
+		{
+			"anio": -3000,
+			"valor": 145090
+		},
+		{
+			"anio": -2000,
+			"valor": 161211
+		},
+		{
+			"anio": -1000,
+			"valor": 179123
+		},
+		{
+			"anio": 0,
+			"valor": 199026
+		},
+		{
+			"anio": 100,
+			"valor": 209501
+		},
+		{
+			"anio": 200,
+			"valor": 220527
+		},
+		{
+			"anio": 300,
+			"valor": 232134
+		},
+		{
+			"anio": 400,
+			"valor": 244351
+		},
+		{
+			"anio": 500,
+			"valor": 257212
+		},
+		{
+			"anio": 600,
+			"valor": 270750
+		},
+		{
+			"anio": 700,
+			"valor": 285000
+		},
+		{
+			"anio": 800,
+			"valor": 300000
+		},
+		{
+			"anio": 900,
+			"valor": 300000
+		},
+		{
+			"anio": 1000,
+			"valor": 300000
+		},
+		{
+			"anio": 1100,
+			"valor": 320000
+		},
+		{
+			"anio": 1200,
+			"valor": 340000
+		},
+		{
+			"anio": 1300,
+			"valor": 360000
+		},
+		{
+			"anio": 1400,
+			"valor": 380000
+		},
+		{
+			"anio": 1500,
+			"valor": 400000
+		},
+		{
+			"anio": 1600,
+			"valor": 400000
+		},
+		{
+			"anio": 1700,
+			"valor": 500313
+		},
+		{
+			"anio": 1750,
+			"valor": 532790
+		},
+		{
+			"anio": 1800,
+			"valor": 1000000
+		},
+		{
+			"anio": 1850,
+			"valor": 1326378
+		},
+		{
+			"anio": 1900,
+			"valor": 2699561
+		},
+		{
+			"anio": 1910,
+			"valor": 3014767
+		},
+		{
+			"anio": 1920,
+			"valor": 3255672
+		},
+		{
+			"anio": 1930,
+			"valor": 3592246
+		},
+		{
+			"anio": 1940,
+			"valor": 4146367
+		},
+		{
+			"anio": 1950,
+			"valor": 5488858
+		},
+		{
+			"anio": 1960,
+			"valor": 8160087
+		},
+		{
+			"anio": 1970,
+			"valor": 11387795
+		},
+		{
+			"anio": 1980,
+			"valor": 15258225
+		},
+		{
+			"anio": 1990,
+			"valor": 19827005
+		},
+		{
+			"anio": 2000,
+			"valor": 24526707
+		},
+		{
+			"anio": 2010,
+			"valor": 28813101
+		},
+		{
+			"anio": 2020,
+			"valor": 28444080
+		},
+		{
+			"anio": 2023,
+			"valor": 28300861
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "b6c247d6ec73",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Venezuela, oficialmente República Bolivariana de Venezuela, es un país soberano de América, situado en el extremo norte de América del Sur y en la región del Caribe. Está constituido por un territorio continental y por numerosas islas, islotes, cayos y archipiélagos en el mar Caribe."
+}

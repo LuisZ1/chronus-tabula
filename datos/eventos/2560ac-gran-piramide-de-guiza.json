@@ -1,0 +1,19 @@
+{
+	"nombre": "Gran Pirámide de Guiza",
+	"anio": -2560,
+	"lat": 29.98,
+	"lng": 31.13,
+	"paises": [
+		"Egipto"
+	],
+	"descripcion": "La tumba de Keops, única maravilla del mundo antiguo en pie, fue la construcción más alta de la Tierra durante 3.800 años.",
+	"wiki": "Gran Pirámide de Guiza",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Gran Pirámide de Guiza",
+			"url": "https://es.wikipedia.org/wiki/Gran_Pirámide_de_Guiza",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

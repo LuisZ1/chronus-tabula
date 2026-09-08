@@ -1,0 +1,23 @@
+{
+	"nombre": "Revolución de los Jóvenes Turcos",
+	"anio": 1908,
+	"lat": 40.64,
+	"lng": 22.94,
+	"paises": [
+		"Otomano"
+	],
+	"descripcion": "El movimiento de los Jóvenes Turcos obliga a Abdul Hamid II a restaurar la constitución de 1876 y el parlamento. Inicia un periodo de nacionalismo turco y de creciente militarización del régimen.",
+	"wiki": "Revolución de los Jóvenes Turcos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revolución de los Jóvenes Turcos",
+			"url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_los_J%C3%B3venes_Turcos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

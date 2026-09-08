@@ -1,0 +1,19 @@
+{
+	"nombre": "Caza de espadas de Hideyoshi",
+	"anio": 1588,
+	"lat": 34.69,
+	"lng": 135.5,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Desarme de campesinos y monjes que fija la separación entre samuráis y no samuráis.",
+	"wiki": "Caza de espadas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Caza de espadas",
+			"url": "https://es.wikipedia.org/wiki/Caza_de_espadas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

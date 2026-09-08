@@ -1,0 +1,95 @@
+{
+	"id": "conflicto-israel-hezbola",
+	"nombre": "Conflicto Israel–Hezbolá",
+	"inicio": 2023,
+	"fin": 2024,
+	"paises": [
+		"Israel",
+		"Líbano"
+	],
+	"bajas": "~4.000–5.000 milicianos y ~130 israelíes muertos; 1,4 millones de desplazados libaneses",
+	"descripcion": "Un año de fuego cruzado en la frontera escala en septiembre de 2024: ataque de los buscas, muerte de Nasralá e invasión israelí del sur del Líbano; alto el fuego el 27 de noviembre de 2024.",
+	"wiki": "Conflicto Israel-Hezbolá (2023-presente)",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Israel–Hezbollah conflict (2023–present)",
+			"url": "https://en.wikipedia.org/wiki/Israel–Hezbollah_conflict_(2023–present)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Sur del Líbano",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2024,
+			"poligono": [
+				[
+					33.6,
+					35.1
+				],
+				[
+					33.4,
+					35.6
+				],
+				[
+					33.05,
+					35.6
+				],
+				[
+					33.05,
+					35.1
+				]
+			]
+		},
+		{
+			"nombre": "Galilea (norte de Israel)",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2024,
+			"poligono": [
+				[
+					33.1,
+					35.1
+				],
+				[
+					33.1,
+					35.7
+				],
+				[
+					32.8,
+					35.6
+				],
+				[
+					32.85,
+					35.1
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Ataque de los buscas",
+			"anio": 2024,
+			"lat": 33.89,
+			"lng": 35.5,
+			"descripcion": "Miles de buscapersonas y walkie-talkies de Hezbolá detonan a la vez."
+		},
+		{
+			"nombre": "Muerte de Hasán Nasralá",
+			"anio": 2024,
+			"lat": 33.85,
+			"lng": 35.51,
+			"descripcion": "Bombardeo israelí del cuartel general de Hezbolá en Beirut, 27 de septiembre.",
+			"wiki": "Hasán Nasralá"
+		},
+		{
+			"nombre": "Invasión del sur del Líbano",
+			"anio": 2024,
+			"lat": 33.12,
+			"lng": 35.35,
+			"descripcion": "Primera incursión terrestre israelí desde 2006."
+		}
+	]
+}

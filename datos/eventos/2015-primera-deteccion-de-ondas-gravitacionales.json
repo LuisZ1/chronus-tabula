@@ -1,0 +1,20 @@
+{
+	"nombre": "Primera detección de ondas gravitacionales",
+	"anio": 2015,
+	"lat": 30.56,
+	"lng": -90.77,
+	"categoria": "invento",
+	"paises": [
+		"Estados Unidos"
+	],
+	"descripcion": "LIGO capta la fusión de dos agujeros negros, cien años después de que Einstein las predijera.",
+	"wiki": "Primera observación de ondas gravitacionales",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera observación de ondas gravitacionales",
+			"url": "https://es.wikipedia.org/wiki/Primera_observación_de_ondas_gravitacionales",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

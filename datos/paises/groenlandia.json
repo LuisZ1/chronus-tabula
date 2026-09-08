@@ -1,0 +1,144 @@
+{
+	"id": "groenlandia",
+	"nombre": "Groenlandia",
+	"nombres": [
+		"Greenland",
+		"Groenlandia",
+		"Kalaallit Nunaat"
+	],
+	"wikidata": "Q223",
+	"wiki": "es:Groenlandia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q223",
+			"url": "https://www.wikidata.org/wiki/Q223",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Groenlandia",
+			"url": "https://es.wikipedia.org/wiki/Groenlandia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "GRL",
+	"poblacion": [
+		{
+			"anio": 1000,
+			"valor": 1050
+		},
+		{
+			"anio": 1100,
+			"valor": 1072
+		},
+		{
+			"anio": 1200,
+			"valor": 1093
+		},
+		{
+			"anio": 1300,
+			"valor": 1116
+		},
+		{
+			"anio": 1400,
+			"valor": 1138
+		},
+		{
+			"anio": 1500,
+			"valor": 1162
+		},
+		{
+			"anio": 1600,
+			"valor": 1185
+		},
+		{
+			"anio": 1700,
+			"valor": 1210
+		},
+		{
+			"anio": 1750,
+			"valor": 2180
+		},
+		{
+			"anio": 1800,
+			"valor": 3929
+		},
+		{
+			"anio": 1850,
+			"valor": 7081
+		},
+		{
+			"anio": 1900,
+			"valor": 12761
+		},
+		{
+			"anio": 1910,
+			"valor": 14356
+		},
+		{
+			"anio": 1920,
+			"valor": 16150
+		},
+		{
+			"anio": 1930,
+			"valor": 18169
+		},
+		{
+			"anio": 1940,
+			"valor": 20440
+		},
+		{
+			"anio": 1950,
+			"valor": 23231
+		},
+		{
+			"anio": 1960,
+			"valor": 32123
+		},
+		{
+			"anio": 1970,
+			"valor": 45485
+		},
+		{
+			"anio": 1980,
+			"valor": 50130
+		},
+		{
+			"anio": 1990,
+			"valor": 55650
+		},
+		{
+			"anio": 2000,
+			"valor": 56228
+		},
+		{
+			"anio": 2010,
+			"valor": 56634
+		},
+		{
+			"anio": 2020,
+			"valor": 56105
+		},
+		{
+			"anio": 2023,
+			"valor": 55951
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5d2517abadde",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Groenlandia es una isla situada en el hemisferio Norte, entre los océanos Atlántico y Glacial Ártico, que políticamente es una nación constituyente del Reino de Dinamarca. Con un total de 2 166 086 km², se considera la isla más grande del mundo, tomando la definición de Australia como masa continental."
+}

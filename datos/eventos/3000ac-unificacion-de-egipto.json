@@ -1,0 +1,19 @@
+{
+	"nombre": "Unificación de Egipto",
+	"anio": -3000,
+	"lat": 29.85,
+	"lng": 31.25,
+	"paises": [
+		"Egipto"
+	],
+	"descripcion": "Hacia el 3100 a. C. (aquí ajustado al inicio de la línea temporal), Narmer une el Alto y el Bajo Egipto: nace el primer Estado territorial de la historia, con capital en Menfis.",
+	"wiki": "Narmer",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Narmer",
+			"url": "https://es.wikipedia.org/wiki/Narmer",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

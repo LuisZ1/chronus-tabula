@@ -1,0 +1,19 @@
+{
+	"nombre": "La bombilla (Edison)",
+	"anio": 1879,
+	"lat": 40.56,
+	"lng": -74.34,
+	"categoria": "invento",
+	"descripcion": "Edison logra en Menlo Park una lámpara incandescente duradera.",
+	"wiki": "Lámpara incandescente",
+	"paises": [
+		"Estados Unidos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Lámpara incandescente",
+			"url": "https://es.wikipedia.org/wiki/Lámpara_incandescente",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

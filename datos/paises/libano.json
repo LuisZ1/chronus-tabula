@@ -1,0 +1,169 @@
+{
+	"id": "libano",
+	"nombre": "Líbano",
+	"nombres": [
+		"Lebanon"
+	],
+	"wiki": "Líbano",
+	"wikidata": "Q822",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Líbano",
+			"url": "https://es.wikipedia.org/wiki/Líbano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Líbano",
+			"url": "https://es.wikipedia.org/wiki/L%C3%ADbano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q363392",
+			"url": "http://www.wikidata.org/entity/Q363392",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q296771",
+			"url": "http://www.wikidata.org/entity/Q296771",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q5679624",
+			"url": "http://www.wikidata.org/entity/Q5679624",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q318493",
+			"url": "http://www.wikidata.org/entity/Q318493",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q29033962",
+			"url": "http://www.wikidata.org/entity/Q29033962",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q638463",
+			"url": "http://www.wikidata.org/entity/Q638463",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q822",
+			"url": "https://www.wikidata.org/wiki/Q822",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q822",
+			"url": "https://www.wikidata.org/wiki/Q822",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Líbano, oficialmente la República Libanesa, es un país árabe de Asia Occidental, localizado en el Levante mediterráneo. Limita al sur con Israel, al norte y al este con Siria, y al oeste con el mar Mediterráneo.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "45dbb24718af",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	},
+	"gobernantes": [
+		{
+			"desde": 2016,
+			"hasta": 2022,
+			"nombre": "Michel Aoun",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2016,
+			"hasta": 2020,
+			"nombre": "Saad Hariri",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2020,
+			"hasta": 2021,
+			"nombre": "Hassan Diab",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2021,
+			"hasta": 2025,
+			"nombre": "Najib Mikati",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2025,
+			"hasta": 2025,
+			"nombre": "Joseph Aoun",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2025,
+			"hasta": 2025,
+			"nombre": "Nawaf Salam",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 1804927,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 2297403,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 2605294,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 2703019,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 3235380,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 4341092,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2020,
+			"valor": 5702398,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2021,
+			"valor": 5261372,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Lebanon.svg"
+		}
+	]
+}

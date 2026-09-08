@@ -1,0 +1,19 @@
+{
+	"nombre": "Biblioteca y Museion de Alejandría",
+	"anio": -283,
+	"lat": 31.2,
+	"lng": 29.92,
+	"paises": [
+		"Egipto ptolemaico"
+	],
+	"descripcion": "Los primeros Ptolomeos fundan en Alejandría el Museion y su Biblioteca, mayor centro del saber del mundo helenístico, donde trabajaron sabios como Euclides, Eratóstenes y Aristarco.",
+	"wiki": "Biblioteca de Alejandría",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Biblioteca de Alejandría",
+			"url": "https://es.wikipedia.org/wiki/Biblioteca_de_Alejandr%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

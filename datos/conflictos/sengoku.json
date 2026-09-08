@@ -1,0 +1,85 @@
+{
+	"id": "sengoku",
+	"nombre": "Unificación de Japón (Sengoku)",
+	"inicio": 1560,
+	"fin": 1615,
+	"paises": [
+		"Clan Oda",
+		"Clan Toyotomi",
+		"Clan Tokugawa",
+		"Daimios rivales"
+	],
+	"bajas": "cientos de miles de muertos en siglo y medio de guerras civiles",
+	"descripcion": "Oda Nobunaga, Toyotomi Hideyoshi y Tokugawa Ieyasu unifican el Japón de los «Estados en guerra»; tras Sekigahara (1600) y Osaka (1615) llega la paz Tokugawa.",
+	"wiki": "Período Sengoku",
+	"zonas": [
+		{
+			"nombre": "Japón central",
+			"tipo": "frente",
+			"poligono": [
+				[
+					36.5,
+					136
+				],
+				[
+					36,
+					140
+				],
+				[
+					34.5,
+					139.5
+				],
+				[
+					34,
+					135
+				],
+				[
+					35,
+					134.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Okehazama",
+			"anio": 1560,
+			"lat": 35.06,
+			"lng": 136.97,
+			"descripcion": "Nobunaga, con 3.000 hombres, sorprende y destruye a 25.000."
+		},
+		{
+			"nombre": "Batalla de Nagashino",
+			"anio": 1575,
+			"lat": 34.92,
+			"lng": 137.56,
+			"descripcion": "Los arcabuces de Nobunaga aniquilan a la caballería Takeda."
+		},
+		{
+			"nombre": "Batalla de Sekigahara",
+			"anio": 1600,
+			"lat": 35.37,
+			"lng": 136.46,
+			"bajas": "~30.000 muertos",
+			"descripcion": "Ieyasu gana la batalla que decide el destino de Japón."
+		},
+		{
+			"nombre": "Sitio de Osaka",
+			"anio": 1615,
+			"lat": 34.69,
+			"lng": 135.53,
+			"descripcion": "Cae el último bastión Toyotomi; comienzan 250 años de paz."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Período Sengoku",
+			"url": "https://es.wikipedia.org/wiki/Período_Sengoku",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

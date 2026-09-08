@@ -1,0 +1,19 @@
+{
+	"nombre": "III Concilio de Toledo",
+	"anio": 589,
+	"lat": 39.86,
+	"lng": -4.02,
+	"paises": [
+		"Reino visigodo"
+	],
+	"descripcion": "Recaredo abjura del arrianismo y convierte a los visigodos al catolicismo, unificando religiosamente Hispania.",
+	"wiki": "Tercer Concilio de Toledo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tercer Concilio de Toledo",
+			"url": "https://es.wikipedia.org/wiki/Tercer_Concilio_de_Toledo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

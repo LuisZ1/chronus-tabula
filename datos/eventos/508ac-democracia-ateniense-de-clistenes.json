@@ -1,0 +1,19 @@
+{
+	"nombre": "Democracia ateniense de Clístenes",
+	"anio": -508,
+	"lat": 37.97,
+	"lng": 23.73,
+	"paises": [
+		"Atenas"
+	],
+	"descripcion": "Clístenes reorganiza a los ciudadanos en diez tribus territoriales, instaura la isonomía y el ostracismo, y consolida el gobierno de la asamblea. Se considera el nacimiento de la democracia ateniense.",
+	"wiki": "Clístenes",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Clístenes",
+			"url": "https://es.wikipedia.org/wiki/Cl%C3%ADstenes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

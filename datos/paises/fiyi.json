@@ -1,0 +1,187 @@
+{
+	"id": "fiyi",
+	"nombre": "Fiyi",
+	"nombres": [
+		"Fiji",
+		"Fiyi"
+	],
+	"wikidata": "Q712",
+	"wiki": "es:Fiyi",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q712",
+			"url": "https://www.wikidata.org/wiki/Q712",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Fiyi",
+			"url": "https://es.wikipedia.org/wiki/Fiyi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "FJI",
+	"poblacion": [
+		{
+			"anio": -1000,
+			"valor": 8383
+		},
+		{
+			"anio": 0,
+			"valor": 10479
+		},
+		{
+			"anio": 100,
+			"valor": 11644
+		},
+		{
+			"anio": 200,
+			"valor": 12937
+		},
+		{
+			"anio": 300,
+			"valor": 14375
+		},
+		{
+			"anio": 400,
+			"valor": 15972
+		},
+		{
+			"anio": 500,
+			"valor": 17747
+		},
+		{
+			"anio": 600,
+			"valor": 19719
+		},
+		{
+			"anio": 700,
+			"valor": 21910
+		},
+		{
+			"anio": 800,
+			"valor": 24344
+		},
+		{
+			"anio": 900,
+			"valor": 27049
+		},
+		{
+			"anio": 1000,
+			"valor": 30055
+		},
+		{
+			"anio": 1100,
+			"valor": 33394
+		},
+		{
+			"anio": 1200,
+			"valor": 37105
+		},
+		{
+			"anio": 1300,
+			"valor": 41228
+		},
+		{
+			"anio": 1400,
+			"valor": 45809
+		},
+		{
+			"anio": 1500,
+			"valor": 50898
+		},
+		{
+			"anio": 1600,
+			"valor": 56554
+		},
+		{
+			"anio": 1700,
+			"valor": 62838
+		},
+		{
+			"anio": 1750,
+			"valor": 81209
+		},
+		{
+			"anio": 1800,
+			"valor": 130533
+		},
+		{
+			"anio": 1850,
+			"valor": 136971
+		},
+		{
+			"anio": 1900,
+			"valor": 126498
+		},
+		{
+			"anio": 1910,
+			"valor": 147045
+		},
+		{
+			"anio": 1920,
+			"valor": 167453
+		},
+		{
+			"anio": 1930,
+			"valor": 210278
+		},
+		{
+			"anio": 1940,
+			"valor": 272546
+		},
+		{
+			"anio": 1950,
+			"valor": 309525
+		},
+		{
+			"anio": 1960,
+			"valor": 404901
+		},
+		{
+			"anio": 1970,
+			"valor": 531198
+		},
+		{
+			"anio": 1980,
+			"valor": 641985
+		},
+		{
+			"anio": 1990,
+			"valor": 773325
+		},
+		{
+			"anio": 2000,
+			"valor": 840913
+		},
+		{
+			"anio": 2010,
+			"valor": 910427
+		},
+		{
+			"anio": 2020,
+			"valor": 914971
+		},
+		{
+			"anio": 2023,
+			"valor": 924150
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e5df8784a58d",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Fiyi, oficialmente la República de Fiyi, es un país soberano insular ubicado en Oceanía, localizado en el océano Pacífico. Está constituido como una república parlamentaria."
+}

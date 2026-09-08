@@ -1,0 +1,224 @@
+{
+	"id": "bielorrusia",
+	"nombre": "Bielorrusia",
+	"nombres": [
+		"Byelarus",
+		"Bielorrusia",
+		"Belarús"
+	],
+	"wikidata": "Q184",
+	"wiki": "es:Bielorrusia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q184",
+			"url": "https://www.wikidata.org/wiki/Q184",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Bielorrusia",
+			"url": "https://es.wikipedia.org/wiki/Bielorrusia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "BLR",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 20549
+		},
+		{
+			"anio": -9000,
+			"valor": 23974
+		},
+		{
+			"anio": -8000,
+			"valor": 27970
+		},
+		{
+			"anio": -7000,
+			"valor": 32632
+		},
+		{
+			"anio": -6000,
+			"valor": 38070
+		},
+		{
+			"anio": -5000,
+			"valor": 44415
+		},
+		{
+			"anio": -4000,
+			"valor": 51818
+		},
+		{
+			"anio": -3000,
+			"valor": 60454
+		},
+		{
+			"anio": -2000,
+			"valor": 70530
+		},
+		{
+			"anio": -1000,
+			"valor": 82285
+		},
+		{
+			"anio": 0,
+			"valor": 96000
+		},
+		{
+			"anio": 100,
+			"valor": 108000
+		},
+		{
+			"anio": 200,
+			"valor": 120000
+		},
+		{
+			"anio": 300,
+			"valor": 132000
+		},
+		{
+			"anio": 400,
+			"valor": 144000
+		},
+		{
+			"anio": 500,
+			"valor": 144000
+		},
+		{
+			"anio": 600,
+			"valor": 144000
+		},
+		{
+			"anio": 700,
+			"valor": 156000
+		},
+		{
+			"anio": 800,
+			"valor": 168000
+		},
+		{
+			"anio": 900,
+			"valor": 180000
+		},
+		{
+			"anio": 1000,
+			"valor": 192000
+		},
+		{
+			"anio": 1100,
+			"valor": 288000
+		},
+		{
+			"anio": 1200,
+			"valor": 432000
+		},
+		{
+			"anio": 1300,
+			"valor": 432000
+		},
+		{
+			"anio": 1400,
+			"valor": 432000
+		},
+		{
+			"anio": 1500,
+			"valor": 576000
+		},
+		{
+			"anio": 1600,
+			"valor": 720000
+		},
+		{
+			"anio": 1700,
+			"valor": 960000
+		},
+		{
+			"anio": 1750,
+			"valor": 1562353
+		},
+		{
+			"anio": 1800,
+			"valor": 2355081
+		},
+		{
+			"anio": 1850,
+			"valor": 3097828
+		},
+		{
+			"anio": 1900,
+			"valor": 4986216
+		},
+		{
+			"anio": 1910,
+			"valor": 5483965
+		},
+		{
+			"anio": 1920,
+			"valor": 6024473
+		},
+		{
+			"anio": 1930,
+			"valor": 6600712
+		},
+		{
+			"anio": 1940,
+			"valor": 7232068
+		},
+		{
+			"anio": 1950,
+			"valor": 7127595
+		},
+		{
+			"anio": 1960,
+			"valor": 8208003
+		},
+		{
+			"anio": 1970,
+			"valor": 9014901
+		},
+		{
+			"anio": 1980,
+			"valor": 9603173
+		},
+		{
+			"anio": 1990,
+			"valor": 10186258
+		},
+		{
+			"anio": 2000,
+			"valor": 9991310
+		},
+		{
+			"anio": 2010,
+			"valor": 9490752
+		},
+		{
+			"anio": 2020,
+			"valor": 9350943
+		},
+		{
+			"anio": 2023,
+			"valor": 9115679
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "01ec92e82981",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Bielorrusia, oficialmente la República de Belarús, es un país soberano sin litoral situado en Europa Oriental y que formó parte de la Unión Soviética hasta 1991. Limita al norte con Lituania y Letonia, al este con Rusia, al sur con Ucrania y al oeste con Polonia."
+}

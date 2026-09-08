@@ -1,0 +1,19 @@
+{
+	"nombre": "Confucio y las Cien Escuelas de Pensamiento",
+	"anio": -500,
+	"lat": 35.6,
+	"lng": 116.98,
+	"paises": [
+		"Dinastía Zhou"
+	],
+	"descripcion": "En un tiempo de guerra y fragmentación florecen las grandes corrientes del pensamiento chino: confucianismo (Confucio, 551-479 a. C.), taoísmo, mohismo y legismo, base de la cultura china posterior.",
+	"wiki": "Cien escuelas de pensamiento",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cien escuelas de pensamiento",
+			"url": "https://es.wikipedia.org/wiki/Cien_escuelas_de_pensamiento",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

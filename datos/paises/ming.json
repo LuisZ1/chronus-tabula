@@ -1,0 +1,63 @@
+{
+	"id": "ming",
+	"nombre": "Imperio Ming (China)",
+	"nombres": [
+		"Ming Empire",
+		"Ming Chinese Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 1368,
+			"hasta": 1398,
+			"nombre": "Hongwu (fundador)",
+			"titulo": "Emperador Ming"
+		},
+		{
+			"desde": 1402,
+			"hasta": 1424,
+			"nombre": "Yongle (expediciones de Zheng He)",
+			"titulo": "Emperador Ming"
+		},
+		{
+			"desde": 1572,
+			"hasta": 1620,
+			"nombre": "Wanli",
+			"titulo": "Emperador Ming"
+		},
+		{
+			"desde": 1627,
+			"hasta": 1644,
+			"nombre": "Chongzhen (último Ming)",
+			"titulo": "Emperador Ming"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1400,
+			"valor": 65000000
+		},
+		{
+			"anio": 1500,
+			"valor": 100000000
+		},
+		{
+			"anio": 1600,
+			"valor": 160000000
+		}
+	],
+	"relacionados": [
+		"China",
+		"Chu",
+		"Qi",
+		"Zhao",
+		"Wei",
+		"Han"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Ming (China)",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Ming_(China)",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"id": "guerras-emishi",
+	"nombre": "Guerras contra los emishi",
+	"inicio": 774,
+	"fin": 811,
+	"paises": [
+		"Japón (Yamato/Nara-Heian)",
+		"Emishi"
+	],
+	"bajas": "miles",
+	"descripcion": "La corte de Nara y Heian somete a los emishi del norte de Honshu; Sakanoue no Tamuramaro, primer sei-i taishōgun, culmina la conquista del Tōhoku.",
+	"wiki": "Emishi",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Emishi",
+			"url": "https://es.wikipedia.org/wiki/Emishi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frontera del Tōhoku",
+			"tipo": "frente",
+			"desde": 774,
+			"hasta": 811,
+			"poligono": [
+				[
+					40.5,
+					140.4
+				],
+				[
+					41.4,
+					141.5
+				],
+				[
+					38.2,
+					141.2
+				],
+				[
+					38.0,
+					140.0
+				],
+				[
+					39.6,
+					140.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Campaña de Tamuramaro (fundación de Isawa)",
+			"anio": 802,
+			"lat": 39.15,
+			"lng": 141.13,
+			"descripcion": "Sakanoue no Tamuramaro derrota a Aterui y erige el fuerte de Isawa."
+		}
+	]
+}

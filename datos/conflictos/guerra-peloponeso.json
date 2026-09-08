@@ -1,0 +1,148 @@
+{
+	"id": "guerra-peloponeso",
+	"nombre": "Guerra del Peloponeso",
+	"inicio": -432,
+	"fin": -404,
+	"paises": [
+		"Atenas",
+		"Esparta",
+		"Corinto",
+		"Siracusa",
+		"Imperio aqueménida"
+	],
+	"bajas": "decenas de miles; devastación demográfica de Atenas por la peste (430-429 a.C.)",
+	"descripcion": "Enfrentamiento hegemónico entre la Liga de Delos liderada por Atenas y la Liga del Peloponeso liderada por Esparta. Tras la peste que se llevó a Pericles, el desastre de la expedición ateniense a Sicilia (415-413) y la intervención financiera persa, Lisandro aniquiló la flota ateniense en Egospótamos (405), forzando la rendición de Atenas y el fin de su imperio marítimo.",
+	"wiki": "Guerra del Peloponeso",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Peloponeso",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Peloponeso",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Liga de Delos (dominio ateniense del Egeo)",
+			"tipo": "frente",
+			"desde": -431,
+			"hasta": -404,
+			"poligono": [
+				[
+					40.8,
+					23.8
+				],
+				[
+					39.0,
+					26.8
+				],
+				[
+					37.0,
+					27.0
+				],
+				[
+					37.6,
+					24.0
+				],
+				[
+					38.3,
+					23.3
+				],
+				[
+					40.2,
+					23.3
+				]
+			]
+		},
+		{
+			"nombre": "Liga del Peloponeso (Esparta y aliados)",
+			"tipo": "frente",
+			"desde": -431,
+			"hasta": -404,
+			"poligono": [
+				[
+					38.0,
+					21.4
+				],
+				[
+					37.9,
+					22.9
+				],
+				[
+					37.0,
+					23.2
+				],
+				[
+					36.4,
+					22.5
+				],
+				[
+					37.2,
+					21.4
+				]
+			]
+		},
+		{
+			"nombre": "Expedición ateniense a Sicilia",
+			"tipo": "frente",
+			"desde": -415,
+			"hasta": -413,
+			"poligono": [
+				[
+					37.4,
+					14.5
+				],
+				[
+					37.5,
+					15.4
+				],
+				[
+					36.7,
+					15.3
+				],
+				[
+					36.8,
+					14.6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Potidea",
+			"anio": -432,
+			"lat": 40.19,
+			"lng": 23.33
+		},
+		{
+			"nombre": "Anfípolis",
+			"anio": -424,
+			"lat": 40.82,
+			"lng": 23.84
+		},
+		{
+			"nombre": "Mantinea",
+			"anio": -418,
+			"lat": 37.62,
+			"lng": 22.39
+		},
+		{
+			"nombre": "Desastre de Siracusa",
+			"anio": -413,
+			"lat": 37.07,
+			"lng": 15.29
+		},
+		{
+			"nombre": "Arginusas",
+			"anio": -406,
+			"lat": 39.02,
+			"lng": 26.78
+		},
+		{
+			"nombre": "Egospótamos",
+			"anio": -405,
+			"lat": 40.23,
+			"lng": 26.53
+		}
+	]
+}

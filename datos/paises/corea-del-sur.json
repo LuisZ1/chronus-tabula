@@ -1,0 +1,224 @@
+{
+	"id": "corea-del-sur",
+	"nombre": "Corea del Sur",
+	"nombres": [
+		"Korea, Republic of",
+		"Corea del Sur",
+		"Republica de Corea"
+	],
+	"wikidata": "Q884",
+	"wiki": "es:Corea del Sur",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q884",
+			"url": "https://www.wikidata.org/wiki/Q884",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Corea del Sur",
+			"url": "https://es.wikipedia.org/wiki/Corea_del_Sur",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "KOR",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 10786
+		},
+		{
+			"anio": -9000,
+			"valor": 13482
+		},
+		{
+			"anio": -8000,
+			"valor": 16853
+		},
+		{
+			"anio": -7000,
+			"valor": 21066
+		},
+		{
+			"anio": -6000,
+			"valor": 26333
+		},
+		{
+			"anio": -5000,
+			"valor": 32917
+		},
+		{
+			"anio": -4000,
+			"valor": 41146
+		},
+		{
+			"anio": -3000,
+			"valor": 51432
+		},
+		{
+			"anio": -2000,
+			"valor": 64291
+		},
+		{
+			"anio": -1000,
+			"valor": 80364
+		},
+		{
+			"anio": 0,
+			"valor": 100455
+		},
+		{
+			"anio": 100,
+			"valor": 138078
+		},
+		{
+			"anio": 200,
+			"valor": 189793
+		},
+		{
+			"anio": 300,
+			"valor": 260877
+		},
+		{
+			"anio": 400,
+			"valor": 358583
+		},
+		{
+			"anio": 500,
+			"valor": 492884
+		},
+		{
+			"anio": 600,
+			"valor": 677486
+		},
+		{
+			"anio": 700,
+			"valor": 931226
+		},
+		{
+			"anio": 800,
+			"valor": 1280000
+		},
+		{
+			"anio": 900,
+			"valor": 1440000
+		},
+		{
+			"anio": 1000,
+			"valor": 1600000
+		},
+		{
+			"anio": 1100,
+			"valor": 1920000
+		},
+		{
+			"anio": 1200,
+			"valor": 2560000
+		},
+		{
+			"anio": 1300,
+			"valor": 1920000
+		},
+		{
+			"anio": 1400,
+			"valor": 2240000
+		},
+		{
+			"anio": 1500,
+			"valor": 2560000
+		},
+		{
+			"anio": 1600,
+			"valor": 3200000
+		},
+		{
+			"anio": 1700,
+			"valor": 4000000
+		},
+		{
+			"anio": 1750,
+			"valor": 5796345
+		},
+		{
+			"anio": 1800,
+			"valor": 9395000
+		},
+		{
+			"anio": 1850,
+			"valor": 9548156
+		},
+		{
+			"anio": 1900,
+			"valor": 9687522
+		},
+		{
+			"anio": 1910,
+			"valor": 9911592
+		},
+		{
+			"anio": 1920,
+			"valor": 11464533
+		},
+		{
+			"anio": 1930,
+			"valor": 13456220
+		},
+		{
+			"anio": 1940,
+			"valor": 15330291
+		},
+		{
+			"anio": 1950,
+			"valor": 19757319
+		},
+		{
+			"anio": 1960,
+			"valor": 26115388
+		},
+		{
+			"anio": 1970,
+			"valor": 32542203
+		},
+		{
+			"anio": 1980,
+			"valor": 38141109
+		},
+		{
+			"anio": 1990,
+			"valor": 44081425
+		},
+		{
+			"anio": 2000,
+			"valor": 46766660
+		},
+		{
+			"anio": 2010,
+			"valor": 48769329
+		},
+		{
+			"anio": 2020,
+			"valor": 51858481
+		},
+		{
+			"anio": 2023,
+			"valor": 51748744
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f2886ac182cd",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "La República de Corea, comúnmente Corea del Sur, es un país soberano de Asia Oriental, ubicado en la parte sur de la península de Corea. Limita al norte con Corea del Norte, con la cual integró un solo país hasta 1945."
+}

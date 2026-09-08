@@ -1,0 +1,65 @@
+{
+	"id": "an-lushan",
+	"nombre": "Rebelión de An Lushan",
+	"inicio": 755,
+	"fin": 763,
+	"paises": [
+		"Imperio Tang",
+		"Rebeldes de An Lushan"
+	],
+	"bajas": "13-36 millones según los censos: una de las guerras más mortíferas de la historia",
+	"descripcion": "El general An Lushan se alza contra los Tang y toma las dos capitales; la dinastía sobrevive pero queda quebrada para siempre.",
+	"wiki": "Rebelión de An Lushan",
+	"zonas": [
+		{
+			"nombre": "Norte de China (capitales Tang)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					40,
+					107
+				],
+				[
+					39.5,
+					117
+				],
+				[
+					34,
+					116
+				],
+				[
+					33.5,
+					108
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Caída de Chang'an",
+			"anio": 756,
+			"lat": 34.26,
+			"lng": 108.94,
+			"descripcion": "El emperador Xuanzong huye; su guardia ejecuta a la concubina Yang Guifei."
+		},
+		{
+			"nombre": "Sitio de Suiyang",
+			"anio": 757,
+			"lat": 34.42,
+			"lng": 115.66,
+			"bajas": "decenas de miles de muertos",
+			"descripcion": "Resistencia desesperada que salva el sur de China."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rebelión de An Lushan",
+			"url": "https://es.wikipedia.org/wiki/Rebelión_de_An_Lushan",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

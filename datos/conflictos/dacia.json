@@ -1,0 +1,64 @@
+{
+	"id": "dacia",
+	"nombre": "Guerras dacias de Trajano",
+	"inicio": 101,
+	"fin": 106,
+	"paises": [
+		"Roma",
+		"Dacia (Decébalo)"
+	],
+	"bajas": "~100.000 muertos",
+	"descripcion": "Trajano conquista la Dacia de Decébalo; el oro dacio financia el foro de Trajano y su columna narra la campaña. El imperio alcanza su máxima extensión.",
+	"wiki": "Guerras dacias",
+	"zonas": [
+		{
+			"nombre": "Dacia",
+			"tipo": "frente",
+			"poligono": [
+				[
+					47,
+					22
+				],
+				[
+					46.5,
+					26
+				],
+				[
+					44.5,
+					26.5
+				],
+				[
+					44.5,
+					22.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Tapae",
+			"anio": 101,
+			"lat": 45.5,
+			"lng": 22.6,
+			"descripcion": "Trajano abre el camino hacia la capital dacia."
+		},
+		{
+			"nombre": "Caída de Sarmizegetusa",
+			"anio": 106,
+			"lat": 45.62,
+			"lng": 23.31,
+			"descripcion": "Decébalo se suicida; Dacia, provincia romana."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras dacias",
+			"url": "https://es.wikipedia.org/wiki/Guerras_dacias",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

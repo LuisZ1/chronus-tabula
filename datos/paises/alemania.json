@@ -1,0 +1,263 @@
+{
+	"id": "alemania",
+	"nombre": "Alemania",
+	"nombres": [
+		"Germany",
+		"German Empire",
+		"West Germany",
+		"East Germany"
+	],
+	"gobernantes": [
+		{
+			"desde": 1871,
+			"hasta": 1888,
+			"nombre": "Guillermo I (canciller: Bismarck)",
+			"titulo": "Emperador alemán"
+		},
+		{
+			"desde": 1888,
+			"hasta": 1918,
+			"nombre": "Guillermo II",
+			"titulo": "Emperador alemán"
+		},
+		{
+			"desde": 1933,
+			"hasta": 1945,
+			"nombre": "Adolf Hitler",
+			"titulo": "Canciller y Führer"
+		},
+		{
+			"desde": 1949,
+			"hasta": 1963,
+			"nombre": "Konrad Adenauer (RFA)",
+			"titulo": "Canciller federal"
+		},
+		{
+			"desde": 2005,
+			"hasta": 2021,
+			"nombre": "Angela Merkel",
+			"titulo": "Canciller federal"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 6576
+		},
+		{
+			"anio": -9000,
+			"valor": 9864
+		},
+		{
+			"anio": -8000,
+			"valor": 14796
+		},
+		{
+			"anio": -7000,
+			"valor": 22195
+		},
+		{
+			"anio": -6000,
+			"valor": 33292
+		},
+		{
+			"anio": -5000,
+			"valor": 44939
+		},
+		{
+			"anio": -4000,
+			"valor": 87409
+		},
+		{
+			"anio": -3000,
+			"valor": 161113
+		},
+		{
+			"anio": -2000,
+			"valor": 316670
+		},
+		{
+			"anio": -1000,
+			"valor": 625005
+		},
+		{
+			"anio": 0,
+			"valor": 3000000
+		},
+		{
+			"anio": 100,
+			"valor": 3250000
+		},
+		{
+			"anio": 200,
+			"valor": 3500000
+		},
+		{
+			"anio": 300,
+			"valor": 3500000
+		},
+		{
+			"anio": 400,
+			"valor": 3500000
+		},
+		{
+			"anio": 500,
+			"valor": 3250000
+		},
+		{
+			"anio": 600,
+			"valor": 3000000
+		},
+		{
+			"anio": 700,
+			"valor": 3125000
+		},
+		{
+			"anio": 800,
+			"valor": 3250000
+		},
+		{
+			"anio": 900,
+			"valor": 3375000
+		},
+		{
+			"anio": 1000,
+			"valor": 3500000
+		},
+		{
+			"anio": 1100,
+			"valor": 4000000
+		},
+		{
+			"anio": 1200,
+			"valor": 6000000
+		},
+		{
+			"anio": 1300,
+			"valor": 9000000
+		},
+		{
+			"anio": 1400,
+			"valor": 6500000
+		},
+		{
+			"anio": 1500,
+			"valor": 9000000
+		},
+		{
+			"anio": 1600,
+			"valor": 12000000
+		},
+		{
+			"anio": 1700,
+			"valor": 13000000
+		},
+		{
+			"anio": 1750,
+			"valor": 17897050
+		},
+		{
+			"anio": 1800,
+			"valor": 18000000
+		},
+		{
+			"anio": 1850,
+			"valor": 33717866
+		},
+		{
+			"anio": 1900,
+			"valor": 55775391
+		},
+		{
+			"anio": 1910,
+			"valor": 64056716
+		},
+		{
+			"anio": 1920,
+			"valor": 63273356
+		},
+		{
+			"anio": 1930,
+			"valor": 67246048
+		},
+		{
+			"anio": 1940,
+			"valor": 71740083
+		},
+		{
+			"anio": 1950,
+			"valor": 69847778
+		},
+		{
+			"anio": 1960,
+			"valor": 72811635
+		},
+		{
+			"anio": 1970,
+			"valor": 78205103
+		},
+		{
+			"anio": 1980,
+			"valor": 78315373
+		},
+		{
+			"anio": 1990,
+			"valor": 79707963
+		},
+		{
+			"anio": 2000,
+			"valor": 81797255
+		},
+		{
+			"anio": 2010,
+			"valor": 80830916
+		},
+		{
+			"anio": 2020,
+			"valor": 83628711
+		},
+		{
+			"anio": 2023,
+			"valor": 84548233
+		}
+	],
+	"relacionados": [
+		"Prusia",
+		"Sacro Imperio",
+		"Prusia y estados alemanes",
+		"Godos",
+		"Vándalos",
+		"Suevos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Alemania",
+			"url": "https://es.wikipedia.org/wiki/Alemania",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Alemania",
+			"url": "https://es.wikipedia.org/wiki/Alemania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Germany",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "de9eb58a0871",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Alemania, oficialmente la República Federal de Alemania, es un país de Europa central y el Estado de la Unión Europea con mayor población y PIB. Constituido en Estado social y democrático de derecho, su forma de gobierno es la república parlamentaria y federal."
+}

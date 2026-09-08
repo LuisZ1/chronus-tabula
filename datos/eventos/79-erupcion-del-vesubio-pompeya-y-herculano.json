@@ -1,0 +1,23 @@
+{
+	"nombre": "Erupción del Vesubio (Pompeya y Herculano)",
+	"anio": 79,
+	"lat": 40.75,
+	"lng": 14.49,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "La erupción del Vesubio en el año 79 sepulta Pompeya, Herculano y Estabia, conservándolas como testimonio único de la vida romana.",
+	"wiki": "Erupción del Vesubio del año 79",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Erupción del Vesubio del año 79",
+			"url": "https://es.wikipedia.org/wiki/Erupción_del_Vesubio_del_año_79",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

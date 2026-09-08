@@ -1,0 +1,66 @@
+{
+	"id": "mongoles-japon",
+	"nombre": "Invasiones mongolas de Japón",
+	"inicio": 1274,
+	"fin": 1281,
+	"paises": [
+		"Imperio mongol (Yuan)",
+		"Japón (shogunato Kamakura)",
+		"Corea (Goryeo)"
+	],
+	"bajas": "~100.000 muertos, la mayoría invasores ahogados",
+	"descripcion": "Kublai Kan lanza dos invasiones contra Japón; ambas flotas son destruidas por tifones, los «kamikaze» o vientos divinos.",
+	"wiki": "Invasiones mongolas de Japón",
+	"zonas": [
+		{
+			"nombre": "Bahía de Hakata (Kyushu)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					33.9,
+					129.8
+				],
+				[
+					33.8,
+					130.7
+				],
+				[
+					33.3,
+					130.6
+				],
+				[
+					33.4,
+					129.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Primera invasión (Bun'ei)",
+			"anio": 1274,
+			"lat": 33.62,
+			"lng": 130.35,
+			"descripcion": "Los mongoles desembarcan en Hakata; una tormenta destroza su flota."
+		},
+		{
+			"nombre": "Segunda invasión y kamikaze",
+			"anio": 1281,
+			"lat": 33.6,
+			"lng": 130.3,
+			"bajas": "~70.000 invasores perdidos",
+			"descripcion": "Un tifón aniquila la gran armada de Kublai."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Invasiones mongolas de Japón",
+			"url": "https://es.wikipedia.org/wiki/Invasiones_mongolas_de_Japón",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

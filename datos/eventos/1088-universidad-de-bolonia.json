@@ -1,0 +1,18 @@
+{
+	"nombre": "Universidad de Bolonia",
+	"anio": 1088,
+	"lat": 44.49,
+	"lng": 11.34,
+	"descripcion": "Nace la primera universidad de Europa.",
+	"wiki": "Universidad de Bolonia",
+	"paises": [
+		"Italia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Universidad de Bolonia",
+			"url": "https://es.wikipedia.org/wiki/Universidad_de_Bolonia",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

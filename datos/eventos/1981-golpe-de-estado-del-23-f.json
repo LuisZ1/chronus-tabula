@@ -1,0 +1,19 @@
+{
+	"nombre": "Golpe de Estado del 23-F",
+	"anio": 1981,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Intento de golpe de Estado del teniente coronel Tejero en el Congreso de los Diputados, frustrado en pocas horas.",
+	"wiki": "Golpe de Estado del 23 de febrero de 1981",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Golpe de Estado del 23 de febrero de 1981",
+			"url": "https://es.wikipedia.org/wiki/Golpe_de_Estado_del_23_de_febrero_de_1981",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

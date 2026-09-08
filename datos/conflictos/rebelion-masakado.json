@@ -1,0 +1,56 @@
+{
+	"id": "rebelion-masakado",
+	"nombre": "Rebelión de Taira no Masakado",
+	"inicio": 939,
+	"fin": 940,
+	"paises": [
+		"Japón (corte Heian)",
+		"Facción de Taira no Masakado"
+	],
+	"bajas": "cientos",
+	"descripcion": "El caudillo Taira no Masakado se subleva en Kantō y se proclama 'nuevo emperador'; es derrotado y muerto en 940, un temprano signo del poder militar de los bushi.",
+	"wiki": "Taira no Masakado",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Taira no Masakado",
+			"url": "https://es.wikipedia.org/wiki/Taira_no_Masakado",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Kantō sublevado",
+			"tipo": "ocupado",
+			"desde": 939,
+			"hasta": 940,
+			"poligono": [
+				[
+					36.5,
+					139.5
+				],
+				[
+					36.3,
+					140.6
+				],
+				[
+					35.6,
+					140.3
+				],
+				[
+					35.7,
+					139.4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Kojima",
+			"anio": 940,
+			"lat": 36.2,
+			"lng": 139.9,
+			"descripcion": "Fujiwara no Hidesato y Taira no Sadamori vencen y matan a Masakado."
+		}
+	]
+}

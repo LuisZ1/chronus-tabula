@@ -1,0 +1,64 @@
+{
+	"id": "cuadruple-alianza",
+	"nombre": "Guerra de la Cuádruple Alianza",
+	"inicio": 1718,
+	"fin": 1720,
+	"paises": [
+		"España",
+		"Gran Bretaña",
+		"Francia",
+		"Austria",
+		"Saboya"
+	],
+	"bajas": "~25.000 muertos",
+	"descripcion": "Felipe V intenta recuperar Sicilia y Cerdeña tras Utrecht; media Europa se coaliga en su contra.",
+	"wiki": "Guerra de la Cuádruple Alianza",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de la Cuádruple Alianza",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_la_Cuádruple_Alianza",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Sicilia y Cerdeña",
+			"tipo": "frente",
+			"poligono": [
+				[
+					41.3,
+					8
+				],
+				[
+					41.2,
+					9.9
+				],
+				[
+					36.6,
+					15.6
+				],
+				[
+					36.5,
+					12.3
+				],
+				[
+					38.8,
+					8.2
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del cabo Passaro",
+			"anio": 1718,
+			"lat": 36.68,
+			"lng": 15.15,
+			"descripcion": "La flota británica destruye por sorpresa a la española sin declaración de guerra."
+		}
+	]
+}

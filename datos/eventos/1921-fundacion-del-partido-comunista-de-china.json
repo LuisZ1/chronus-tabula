@@ -1,0 +1,19 @@
+{
+	"nombre": "Fundación del Partido Comunista de China",
+	"anio": 1921,
+	"lat": 31.22,
+	"lng": 121.47,
+	"paises": [
+		"República de China"
+	],
+	"descripcion": "En Shanghái se celebra el I Congreso del Partido Comunista de China, del que Mao Zedong es uno de los delegados fundadores.",
+	"wiki": "Partido Comunista de China",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Partido Comunista de China",
+			"url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

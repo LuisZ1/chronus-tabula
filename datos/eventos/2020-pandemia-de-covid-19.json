@@ -1,0 +1,20 @@
+{
+	"nombre": "Pandemia de COVID-19",
+	"anio": 2020,
+	"hasta": 2023,
+	"lat": 30.62,
+	"lng": 114.31,
+	"paises": [
+		"China"
+	],
+	"descripcion": "Detectado en Wuhan a finales de 2019, el SARS-CoV-2 causa ~7 millones de muertes confirmadas (y ~20+ millones estimadas) y paraliza el planeta; la OMS cierra la emergencia en mayo de 2023.",
+	"wiki": "Pandemia de COVID-19",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pandemia de COVID-19",
+			"url": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

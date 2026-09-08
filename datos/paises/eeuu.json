@@ -1,0 +1,762 @@
+{
+	"id": "eeuu",
+	"nombre": "Estados Unidos",
+	"nombres": [
+		"United States",
+		"United States of America"
+	],
+	"gobernantes": [
+		{
+			"desde": 1789,
+			"hasta": 1797,
+			"nombre": "George Washington",
+			"titulo": "Presidente"
+		},
+		{
+			"desde": 1797,
+			"hasta": 1801,
+			"nombre": "John Adams",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1801,
+			"hasta": 1809,
+			"nombre": "Thomas Jefferson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1809,
+			"hasta": 1817,
+			"nombre": "James Madison",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1817,
+			"hasta": 1825,
+			"nombre": "James Monroe",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1825,
+			"hasta": 1829,
+			"nombre": "John Quincy Adams",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1829,
+			"hasta": 1837,
+			"nombre": "Andrew Jackson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1837,
+			"hasta": 1841,
+			"nombre": "Martin Van Buren",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1841,
+			"hasta": 1841,
+			"nombre": "William Henry Harrison",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1841,
+			"hasta": 1845,
+			"nombre": "John Tyler",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1845,
+			"hasta": 1849,
+			"nombre": "James K. Polk",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1849,
+			"hasta": 1850,
+			"nombre": "Zachary Taylor",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1850,
+			"hasta": 1853,
+			"nombre": "Millard Fillmore",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1853,
+			"hasta": 1857,
+			"nombre": "Franklin Pierce",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1857,
+			"hasta": 1861,
+			"nombre": "James Buchanan",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1861,
+			"hasta": 1865,
+			"nombre": "Abraham Lincoln",
+			"titulo": "Presidente"
+		},
+		{
+			"desde": 1865,
+			"hasta": 1869,
+			"nombre": "Andrew Johnson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1869,
+			"hasta": 1877,
+			"nombre": "Ulysses S. Grant",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1877,
+			"hasta": 1881,
+			"nombre": "Rutherford B. Hayes",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1881,
+			"hasta": 1881,
+			"nombre": "James A. Garfield",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1881,
+			"hasta": 1885,
+			"nombre": "Chester A. Arthur",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1885,
+			"hasta": 1889,
+			"nombre": "Grover Cleveland",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1889,
+			"hasta": 1893,
+			"nombre": "Benjamin Harrison",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1893,
+			"hasta": 1897,
+			"nombre": "Grover Cleveland",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1897,
+			"hasta": 1901,
+			"nombre": "William McKinley",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1901,
+			"hasta": 1909,
+			"nombre": "Theodore Roosevelt",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1909,
+			"hasta": 1913,
+			"nombre": "William Howard Taft",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1913,
+			"hasta": 1921,
+			"nombre": "Woodrow Wilson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1921,
+			"hasta": 1923,
+			"nombre": "Warren G. Harding",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1923,
+			"hasta": 1929,
+			"nombre": "Calvin Coolidge",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1929,
+			"hasta": 1933,
+			"nombre": "Herbert Hoover",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1933,
+			"hasta": 1945,
+			"nombre": "Franklin D. Roosevelt",
+			"titulo": "Presidente"
+		},
+		{
+			"desde": 1945,
+			"hasta": 1953,
+			"nombre": "Harry S. Truman",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1953,
+			"hasta": 1961,
+			"nombre": "Dwight D. Eisenhower",
+			"titulo": "Presidente"
+		},
+		{
+			"desde": 1961,
+			"hasta": 1963,
+			"nombre": "John F. Kennedy",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1963,
+			"hasta": 1969,
+			"nombre": "Lyndon B. Johnson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1969,
+			"hasta": 1974,
+			"nombre": "Richard Nixon",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1974,
+			"hasta": 1977,
+			"nombre": "Gerald Ford",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1977,
+			"hasta": 1981,
+			"nombre": "Jimmy Carter",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1981,
+			"hasta": 1989,
+			"nombre": "Ronald Reagan",
+			"titulo": "Presidente"
+		},
+		{
+			"desde": 1989,
+			"hasta": 1993,
+			"nombre": "George H. W. Bush",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1993,
+			"hasta": 2001,
+			"nombre": "Bill Clinton",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2001,
+			"hasta": 2009,
+			"nombre": "George W. Bush",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2009,
+			"hasta": 2017,
+			"nombre": "Barack Obama",
+			"titulo": "Presidente"
+		},
+		{
+			"desde": 2017,
+			"hasta": 2021,
+			"nombre": "Donald Trump",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2021,
+			"hasta": 2025,
+			"nombre": "Joe Biden",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2025,
+			"hasta": 2025,
+			"nombre": "Donald Trump",
+			"cargo": "jefe de Estado"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 233969
+		},
+		{
+			"anio": -9000,
+			"valor": 259965
+		},
+		{
+			"anio": -8000,
+			"valor": 288850
+		},
+		{
+			"anio": -7000,
+			"valor": 320945
+		},
+		{
+			"anio": -6000,
+			"valor": 356605
+		},
+		{
+			"anio": -5000,
+			"valor": 396228
+		},
+		{
+			"anio": -4000,
+			"valor": 440253
+		},
+		{
+			"anio": -3000,
+			"valor": 489171
+		},
+		{
+			"anio": -2000,
+			"valor": 543523
+		},
+		{
+			"anio": -1000,
+			"valor": 603915
+		},
+		{
+			"anio": 0,
+			"valor": 671017
+		},
+		{
+			"anio": 100,
+			"valor": 702970
+		},
+		{
+			"anio": 200,
+			"valor": 736446
+		},
+		{
+			"anio": 300,
+			"valor": 771516
+		},
+		{
+			"anio": 400,
+			"valor": 808259
+		},
+		{
+			"anio": 500,
+			"valor": 846754
+		},
+		{
+			"anio": 600,
+			"valor": 887090
+		},
+		{
+			"anio": 700,
+			"valor": 929359
+		},
+		{
+			"anio": 800,
+			"valor": 973670
+		},
+		{
+			"anio": 900,
+			"valor": 1095480
+		},
+		{
+			"anio": 1000,
+			"valor": 1217406
+		},
+		{
+			"anio": 1100,
+			"valor": 1311479
+		},
+		{
+			"anio": 1200,
+			"valor": 1452821
+		},
+		{
+			"anio": 1300,
+			"valor": 1571686
+		},
+		{
+			"anio": 1400,
+			"valor": 1739207
+		},
+		{
+			"anio": 1500,
+			"valor": 1887028
+		},
+		{
+			"anio": 1600,
+			"valor": 778503
+		},
+		{
+			"anio": 1700,
+			"valor": 927076
+		},
+		{
+			"anio": 1750,
+			"valor": 3155674
+		},
+		{
+			"anio": 1800,
+			"valor": 6000000
+		},
+		{
+			"anio": 1850,
+			"valor": 23599506
+		},
+		{
+			"anio": 1900,
+			"valor": 74829905
+		},
+		{
+			"anio": 1910,
+			"valor": 90151889
+		},
+		{
+			"anio": 1920,
+			"valor": 103898175
+		},
+		{
+			"anio": 1930,
+			"valor": 119629770
+		},
+		{
+			"anio": 1940,
+			"valor": 129417367
+		},
+		{
+			"anio": 1950,
+			"valor": 154202683
+		},
+		{
+			"anio": 1960,
+			"valor": 180274556
+		},
+		{
+			"anio": 1970,
+			"valor": 207796338
+		},
+		{
+			"anio": 1980,
+			"valor": 229858656
+		},
+		{
+			"anio": 1990,
+			"valor": 253373387
+		},
+		{
+			"anio": 2000,
+			"valor": 281484126
+		},
+		{
+			"anio": 2010,
+			"valor": 311062785
+		},
+		{
+			"anio": 2020,
+			"valor": 339436156
+		},
+		{
+			"anio": 2023,
+			"valor": 343477330
+		}
+	],
+	"relacionados": [
+		"Trece Colonias"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Estados Unidos",
+			"url": "https://es.wikipedia.org/wiki/Estados_Unidos",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Estados Unidos",
+			"url": "https://es.wikipedia.org/wiki/Estados_Unidos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11806",
+			"url": "http://www.wikidata.org/entity/Q11806",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11812",
+			"url": "http://www.wikidata.org/entity/Q11812",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11813",
+			"url": "http://www.wikidata.org/entity/Q11813",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11815",
+			"url": "http://www.wikidata.org/entity/Q11815",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11816",
+			"url": "http://www.wikidata.org/entity/Q11816",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11817",
+			"url": "http://www.wikidata.org/entity/Q11817",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11820",
+			"url": "http://www.wikidata.org/entity/Q11820",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11869",
+			"url": "http://www.wikidata.org/entity/Q11869",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11881",
+			"url": "http://www.wikidata.org/entity/Q11881",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11891",
+			"url": "http://www.wikidata.org/entity/Q11891",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11896",
+			"url": "http://www.wikidata.org/entity/Q11896",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q12306",
+			"url": "http://www.wikidata.org/entity/Q12306",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q12312",
+			"url": "http://www.wikidata.org/entity/Q12312",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q12325",
+			"url": "http://www.wikidata.org/entity/Q12325",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q8612",
+			"url": "http://www.wikidata.org/entity/Q8612",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q34836",
+			"url": "http://www.wikidata.org/entity/Q34836",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35686",
+			"url": "http://www.wikidata.org/entity/Q35686",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q34597",
+			"url": "http://www.wikidata.org/entity/Q34597",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35498",
+			"url": "http://www.wikidata.org/entity/Q35498",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35171",
+			"url": "http://www.wikidata.org/entity/Q35171",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35678",
+			"url": "http://www.wikidata.org/entity/Q35678",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35041",
+			"url": "http://www.wikidata.org/entity/Q35041",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q33866",
+			"url": "http://www.wikidata.org/entity/Q33866",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35648",
+			"url": "http://www.wikidata.org/entity/Q35648",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q34296",
+			"url": "http://www.wikidata.org/entity/Q34296",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35286",
+			"url": "http://www.wikidata.org/entity/Q35286",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q36023",
+			"url": "http://www.wikidata.org/entity/Q36023",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q35236",
+			"url": "http://www.wikidata.org/entity/Q35236",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11613",
+			"url": "http://www.wikidata.org/entity/Q11613",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9696",
+			"url": "http://www.wikidata.org/entity/Q9696",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9640",
+			"url": "http://www.wikidata.org/entity/Q9640",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9588",
+			"url": "http://www.wikidata.org/entity/Q9588",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9582",
+			"url": "http://www.wikidata.org/entity/Q9582",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q23685",
+			"url": "http://www.wikidata.org/entity/Q23685",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q23505",
+			"url": "http://www.wikidata.org/entity/Q23505",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1124",
+			"url": "http://www.wikidata.org/entity/Q1124",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q207",
+			"url": "http://www.wikidata.org/entity/Q207",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q22686",
+			"url": "http://www.wikidata.org/entity/Q22686",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q6279",
+			"url": "http://www.wikidata.org/entity/Q6279",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q30",
+			"url": "https://www.wikidata.org/wiki/Q30",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q30",
+			"url": "https://www.wikidata.org/wiki/Q30",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "United States",
+	"wikidata": "Q30",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "60f81d8b02e9",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Estados Unidos, oficialmente Estados Unidos de América, es una federación constituida en una república constitucional compuesta por cincuenta estados y un distrito federal. Su capital es Washington D.",
+	"escudos": [
+		{
+			"archivo": "Greater coat of arms of the United States.svg"
+		}
+	]
+}

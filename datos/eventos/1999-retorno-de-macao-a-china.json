@@ -1,0 +1,20 @@
+{
+	"nombre": "Retorno de Macao a China",
+	"anio": 1999,
+	"lat": 22.19,
+	"lng": 113.54,
+	"paises": [
+		"República Popular China",
+		"Portugal"
+	],
+	"descripcion": "El 20 de diciembre de 1999 Portugal devuelve Macao a China, que se convierte en Región Administrativa Especial.",
+	"wiki": "Transferencia de soberanía de Macao",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Transferencia de soberanía de Macao",
+			"url": "https://es.wikipedia.org/wiki/Transferencia_de_soberan%C3%ADa_de_Macao",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

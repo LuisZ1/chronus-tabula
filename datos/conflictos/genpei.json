@@ -1,0 +1,68 @@
+{
+	"id": "genpei",
+	"nombre": "Guerra Genpei (Japón)",
+	"inicio": 1180,
+	"fin": 1185,
+	"paises": [
+		"Clan Minamoto",
+		"Clan Taira"
+	],
+	"bajas": "~20.000 muertos",
+	"descripcion": "La guerra entre los clanes Minamoto y Taira acaba en Dan-no-ura y da origen al primer shogunato: siete siglos de gobierno samurái.",
+	"wiki": "Guerras Genpei",
+	"zonas": [
+		{
+			"nombre": "Honshu occidental y mar Interior",
+			"tipo": "frente",
+			"poligono": [
+				[
+					35.5,
+					132
+				],
+				[
+					35.3,
+					136.5
+				],
+				[
+					33.8,
+					136
+				],
+				[
+					33.5,
+					130.8
+				],
+				[
+					34.5,
+					130.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Kurikara",
+			"anio": 1183,
+			"lat": 36.7,
+			"lng": 136.9,
+			"descripcion": "Victoria decisiva Minamoto en el norte."
+		},
+		{
+			"nombre": "Batalla de Dan-no-ura",
+			"anio": 1185,
+			"lat": 33.96,
+			"lng": 130.94,
+			"descripcion": "La flota Taira es aniquilada; el pequeño emperador Antoku se ahoga."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Genpei",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Genpei",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

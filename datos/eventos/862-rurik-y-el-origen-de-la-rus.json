@@ -1,0 +1,20 @@
+{
+	"nombre": "Rurik y el origen de la Rus",
+	"anio": 862,
+	"lat": 58.52,
+	"lng": 31.27,
+	"paises": [
+		"Vikingos (Escandinavia)",
+		"Rusia"
+	],
+	"descripcion": "El caudillo varego Rurik se asienta en Nóvgorod: su dinastía gobernará la Rus —y Rusia— durante siete siglos.",
+	"wiki": "Rúrik",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rúrik",
+			"url": "https://es.wikipedia.org/wiki/Rúrik",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

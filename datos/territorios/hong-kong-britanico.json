@@ -1,0 +1,18 @@
+{
+	"nombre": "Hong Kong (británico)",
+	"pais": "Gran Bretaña",
+	"lat": 22.35,
+	"lng": 114.15,
+	"desde": 1841,
+	"hasta": 1997,
+	"descripcion": "Ocupado en 1841 y cedido por el Tratado de Nankín (1842); los Nuevos Territorios se arrendaron por 99 años en 1898. En 1997 toda la colonia se retrocedió a China.",
+	"wiki": "Hong Kong británico",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Hong Kong británico",
+			"url": "https://es.wikipedia.org/wiki/Hong_Kong_británico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,153 @@
+{
+	"id": "mauritania",
+	"nombre": "Mauritania",
+	"nombres": [
+		"Mauritania",
+		"Republique Islamique de Mauritanie",
+		"Republica Islamica de Mauritania"
+	],
+	"wiki": "es:Mauritania",
+	"fuentes": [
+		{
+			"id": "wikipedia-en",
+			"url": "https://en.wikipedia.org/wiki/Mauritania",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Mauritania",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1025",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Mauritania",
+			"url": "https://es.wikipedia.org/wiki/Mauritania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Africa Occidental Francesa (colonia de Mauritania)",
+			"desde": 1920,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Republica Islamica de Mauritania",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1025",
+	"gobernantes": [
+		{
+			"nombre": "Moktar Ould Daddah",
+			"desde": 1960,
+			"hasta": 1978,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mustafa Ould Salek",
+			"desde": 1978,
+			"hasta": 1979,
+			"cargo": "Jefe de Estado (junta militar)"
+		},
+		{
+			"nombre": "Mohamed Mahmoud Ould Louly",
+			"desde": 1979,
+			"hasta": 1980,
+			"cargo": "Jefe de Estado (junta militar)"
+		},
+		{
+			"nombre": "Mohamed Khouna Ould Haidalla",
+			"desde": 1980,
+			"hasta": 1984,
+			"cargo": "Jefe de Estado"
+		},
+		{
+			"nombre": "Maaouya Ould Sid'Ahmed Taya",
+			"desde": 1984,
+			"hasta": 2005,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Ely Ould Mohamed Vall",
+			"desde": 2005,
+			"hasta": 2007,
+			"cargo": "Jefe de Estado (junta militar)"
+		},
+		{
+			"nombre": "Sidi Ould Cheikh Abdallahi",
+			"desde": 2007,
+			"hasta": 2008,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mohamed Ould Abdel Aziz",
+			"desde": 2008,
+			"hasta": 2019,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mohamed Ould Ghazouani",
+			"desde": 2019,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 700000,
+			"fuente": "Wikipedia (en), estimacion"
+		},
+		{
+			"anio": 1977,
+			"valor": 1338830,
+			"fuente": "Censo 1977 (Wikipedia)"
+		},
+		{
+			"anio": 1988,
+			"valor": 1864236,
+			"fuente": "Censo 1988 (Wikipedia)"
+		},
+		{
+			"anio": 2000,
+			"valor": 2700000,
+			"fuente": "Wikipedia (en), estimacion"
+		},
+		{
+			"anio": 2013,
+			"valor": 3537368,
+			"fuente": "Censo 2013 (Wikipedia)"
+		},
+		{
+			"anio": 2021,
+			"valor": 4600000,
+			"fuente": "Wikipedia (en), estimacion"
+		},
+		{
+			"anio": 2026,
+			"valor": 5461000,
+			"fuente": "Wikipedia (en), estimacion"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "1710b63a9c6e",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Mauritania, oficialmente la República Islámica de Mauritania, es un país ubicado en el noroeste de África. Limita con el océano Atlántico al oeste, con Senegal al suroeste, con Malí al este y al sureste, con Argelia al noreste y con el territorio del Sahara Occidental al norte."
+}

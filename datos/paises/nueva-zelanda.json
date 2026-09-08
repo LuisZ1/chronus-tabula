@@ -1,0 +1,136 @@
+{
+	"id": "nueva-zelanda",
+	"nombre": "Nueva Zelanda",
+	"nombres": [
+		"New Zealand",
+		"Nueva Zelanda",
+		"Nueva Zelandia"
+	],
+	"wikidata": "Q664",
+	"wiki": "es:Nueva Zelanda",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q664",
+			"url": "https://www.wikidata.org/wiki/Q664",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Nueva Zelanda",
+			"url": "https://es.wikipedia.org/wiki/Nueva_Zelanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "NZL",
+	"poblacion": [
+		{
+			"anio": 1200,
+			"valor": 16000
+		},
+		{
+			"anio": 1300,
+			"valor": 20000
+		},
+		{
+			"anio": 1400,
+			"valor": 20000
+		},
+		{
+			"anio": 1500,
+			"valor": 80000
+		},
+		{
+			"anio": 1600,
+			"valor": 140000
+		},
+		{
+			"anio": 1700,
+			"valor": 200000
+		},
+		{
+			"anio": 1750,
+			"valor": 180414
+		},
+		{
+			"anio": 1800,
+			"valor": 200000
+		},
+		{
+			"anio": 1850,
+			"valor": 90807
+		},
+		{
+			"anio": 1900,
+			"valor": 809099
+		},
+		{
+			"anio": 1910,
+			"valor": 1037814
+		},
+		{
+			"anio": 1920,
+			"valor": 1239349
+		},
+		{
+			"anio": 1930,
+			"valor": 1481347
+		},
+		{
+			"anio": 1940,
+			"valor": 1638415
+		},
+		{
+			"anio": 1950,
+			"valor": 1911265
+		},
+		{
+			"anio": 1960,
+			"valor": 2379482
+		},
+		{
+			"anio": 1970,
+			"valor": 2822184
+		},
+		{
+			"anio": 1980,
+			"valor": 3146325
+		},
+		{
+			"anio": 1990,
+			"valor": 3396981
+		},
+		{
+			"anio": 2000,
+			"valor": 3857576
+		},
+		{
+			"anio": 2010,
+			"valor": 4347766
+		},
+		{
+			"anio": 2020,
+			"valor": 5069895
+		},
+		{
+			"anio": 2023,
+			"valor": 5172837
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d6a551dd532c",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Nueva Zelanda es un país soberano insular ubicado en Oceanía, localizado en el suroeste del océano Pacífico, cerca de Australia y constituido en una monarquía parlamentaria. Está formado por dos grandes islas: la isla Norte y la isla Sur, junto a un gran número de islas menores, destacándose entre ellas la isla Stewart y las islas Chatham."
+}

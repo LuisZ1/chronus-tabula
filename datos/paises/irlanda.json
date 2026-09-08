@@ -1,0 +1,81 @@
+{
+	"id": "irlanda",
+	"nombre": "Irlanda",
+	"nombres": [
+		"Ireland",
+		"Irlanda",
+		"Republica de Irlanda",
+		"Eire"
+	],
+	"wikidata": "Q27",
+	"wiki": "es:Irlanda",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q27",
+			"url": "https://www.wikidata.org/wiki/Q27",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Irlanda",
+			"url": "https://es.wikipedia.org/wiki/Irlanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "IRL",
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 2912656
+		},
+		{
+			"anio": 1960,
+			"valor": 2827691
+		},
+		{
+			"anio": 1970,
+			"valor": 2961402
+		},
+		{
+			"anio": 1980,
+			"valor": 3415240
+		},
+		{
+			"anio": 1990,
+			"valor": 3514015
+		},
+		{
+			"anio": 2000,
+			"valor": 3802589
+		},
+		{
+			"anio": 2010,
+			"valor": 4559084
+		},
+		{
+			"anio": 2020,
+			"valor": 4982602
+		},
+		{
+			"anio": 2023,
+			"valor": 5196629
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "04b9c5b954e1",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Irlanda, también conocido como República de Irlanda, es un país soberano e insular que ocupa la mayor parte de la isla de Irlanda. Es uno de los veintisiete Estados miembros de la Unión Europea."
+}

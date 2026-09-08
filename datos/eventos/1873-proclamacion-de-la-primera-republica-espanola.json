@@ -1,0 +1,19 @@
+{
+	"nombre": "Proclamación de la Primera República Española",
+	"anio": 1873,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Tras la abdicación de Amadeo I, las Cortes proclaman la Primera República; duró menos de dos años.",
+	"wiki": "Primera República Española",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera República Española",
+			"url": "https://es.wikipedia.org/wiki/Primera_República_Española",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

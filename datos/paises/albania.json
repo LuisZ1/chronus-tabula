@@ -1,0 +1,222 @@
+{
+	"id": "albania",
+	"nombre": "Albania",
+	"nombres": [
+		"Albania"
+	],
+	"wikidata": "Q222",
+	"wiki": "es:Albania",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q222",
+			"url": "https://www.wikidata.org/wiki/Q222",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Albania",
+			"url": "https://es.wikipedia.org/wiki/Albania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "ALB",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1199
+		},
+		{
+			"anio": -9000,
+			"valor": 1999
+		},
+		{
+			"anio": -8000,
+			"valor": 3332
+		},
+		{
+			"anio": -7000,
+			"valor": 5554
+		},
+		{
+			"anio": -6000,
+			"valor": 9256
+		},
+		{
+			"anio": -5000,
+			"valor": 15428
+		},
+		{
+			"anio": -4000,
+			"valor": 25713
+		},
+		{
+			"anio": -3000,
+			"valor": 42855
+		},
+		{
+			"anio": -2000,
+			"valor": 71426
+		},
+		{
+			"anio": -1000,
+			"valor": 119043
+		},
+		{
+			"anio": 0,
+			"valor": 198405
+		},
+		{
+			"anio": 100,
+			"valor": 198604
+		},
+		{
+			"anio": 200,
+			"valor": 198803
+		},
+		{
+			"anio": 300,
+			"valor": 199002
+		},
+		{
+			"anio": 400,
+			"valor": 199201
+		},
+		{
+			"anio": 500,
+			"valor": 199400
+		},
+		{
+			"anio": 600,
+			"valor": 199600
+		},
+		{
+			"anio": 700,
+			"valor": 199800
+		},
+		{
+			"anio": 800,
+			"valor": 200000
+		},
+		{
+			"anio": 900,
+			"valor": 200000
+		},
+		{
+			"anio": 1000,
+			"valor": 200000
+		},
+		{
+			"anio": 1100,
+			"valor": 200000
+		},
+		{
+			"anio": 1200,
+			"valor": 200000
+		},
+		{
+			"anio": 1300,
+			"valor": 200000
+		},
+		{
+			"anio": 1400,
+			"valor": 200000
+		},
+		{
+			"anio": 1500,
+			"valor": 200000
+		},
+		{
+			"anio": 1600,
+			"valor": 200000
+		},
+		{
+			"anio": 1700,
+			"valor": 300000
+		},
+		{
+			"anio": 1750,
+			"valor": 357083
+		},
+		{
+			"anio": 1800,
+			"valor": 400000
+		},
+		{
+			"anio": 1850,
+			"valor": 501490
+		},
+		{
+			"anio": 1900,
+			"valor": 805974
+		},
+		{
+			"anio": 1910,
+			"valor": 881057
+		},
+		{
+			"anio": 1920,
+			"valor": 941221
+		},
+		{
+			"anio": 1930,
+			"valor": 995454
+		},
+		{
+			"anio": 1940,
+			"valor": 1100833
+		},
+		{
+			"anio": 1950,
+			"valor": 1247854
+		},
+		{
+			"anio": 1960,
+			"valor": 1649393
+		},
+		{
+			"anio": 1970,
+			"valor": 2181226
+		},
+		{
+			"anio": 1980,
+			"valor": 2735424
+		},
+		{
+			"anio": 1990,
+			"valor": 3277965
+		},
+		{
+			"anio": 2000,
+			"valor": 3166147
+		},
+		{
+			"anio": 2010,
+			"valor": 2928731
+		},
+		{
+			"anio": 2020,
+			"valor": 2871950
+		},
+		{
+			"anio": 2023,
+			"valor": 2811660
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6c3f4f2b0098",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Albania, oficialmente República de Albania, es un país situado en el sudeste de Europa. Se encuentra en el mar Adriático y Jónico dentro del mar Mediterráneo y comparte fronteras terrestres con Montenegro al noroeste, con Kosovo al noreste, Macedonia del Norte al este, Grecia al sur; y un límite marítimo con Grecia, Montenegro e Italia al oeste."
+}

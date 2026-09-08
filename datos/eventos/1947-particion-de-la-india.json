@@ -1,0 +1,27 @@
+{
+	"nombre": "Partición de la India",
+	"anio": 1947,
+	"lat": 28.61,
+	"lng": 77.21,
+	"paises": [
+		"India",
+		"Pakistán",
+		"Gran Bretaña"
+	],
+	"descripcion": "Independencia y partición en India y Pakistán: ~15 millones de desplazados y hasta un millón de muertos en la mayor migración forzosa de la historia.",
+	"wiki": "Partición de la India",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Partición de la India",
+			"url": "https://es.wikipedia.org/wiki/Partición_de_la_India",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"id": "conquistas-arabes",
+	"nombre": "Conquistas árabes iniciales",
+	"inicio": 632,
+	"fin": 651,
+	"paises": [
+		"Califato ortodoxo",
+		"Imperio bizantino",
+		"Imperio sasánida"
+	],
+	"bajas": "decenas de miles; colapso de Persia y pérdida bizantina de Siria y Egipto",
+	"descripcion": "Tras la muerte de Mahoma, los califas ortodoxos arrollan a las dos grandes potencias: derrotan a Bizancio en Yarmuk (636) y le arrebatan Siria y Egipto, y aniquilan al Imperio sasánida en al-Qadisiyya (637) y Nihawand (642).",
+	"wiki": "Primeras conquistas musulmanas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primeras conquistas musulmanas",
+			"url": "https://es.wikipedia.org/wiki/Primeras_conquistas_musulmanas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Yarmuk",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Yarmuk",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Conquista del Levante bizantino",
+			"tipo": "frente",
+			"desde": 633,
+			"hasta": 640,
+			"poligono": [
+				[
+					36.8,
+					36.0
+				],
+				[
+					35.5,
+					38.5
+				],
+				[
+					31.2,
+					35.2
+				],
+				[
+					31.0,
+					34.2
+				],
+				[
+					34.5,
+					35.5
+				]
+			]
+		},
+		{
+			"nombre": "Conquista de la Persia sasánida",
+			"tipo": "frente",
+			"desde": 636,
+			"hasta": 651,
+			"poligono": [
+				[
+					37.0,
+					44.0
+				],
+				[
+					36.0,
+					50.0
+				],
+				[
+					30.0,
+					52.0
+				],
+				[
+					30.0,
+					44.5
+				],
+				[
+					33.5,
+					44.0
+				]
+			]
+		},
+		{
+			"nombre": "Conquista de Egipto",
+			"tipo": "ocupado",
+			"desde": 639,
+			"hasta": 642,
+			"poligono": [
+				[
+					31.6,
+					27.0
+				],
+				[
+					31.4,
+					32.5
+				],
+				[
+					24.0,
+					33.0
+				],
+				[
+					24.0,
+					28.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Yarmuk",
+			"anio": 636,
+			"lat": 32.75,
+			"lng": 35.9,
+			"descripcion": "Derrota bizantina decisiva; se pierde Siria."
+		},
+		{
+			"nombre": "Batalla de al-Qadisiyya",
+			"anio": 637,
+			"lat": 31.8,
+			"lng": 44.3,
+			"descripcion": "Derrota sasánida; cae Ctesifonte."
+		},
+		{
+			"nombre": "Batalla de Nihawand",
+			"anio": 642,
+			"lat": 34.2,
+			"lng": 48.4,
+			"descripcion": "Última resistencia persa organizada; 'victoria de las victorias'."
+		}
+	]
+}

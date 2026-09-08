@@ -1,0 +1,320 @@
+{
+	"id": "siete-anos",
+	"nombre": "Guerra de los Siete Años",
+	"inicio": 1756,
+	"fin": 1763,
+	"paises": [
+		"Gran Bretaña",
+		"Prusia",
+		"Francia",
+		"Austria",
+		"Rusia",
+		"España",
+		"Portugal"
+	],
+	"bajas": "~900.000-1.400.000 muertos",
+	"descripcion": "La primera guerra mundial de la historia: se combate en Europa, América, el Caribe, la India y Filipinas. Gran Bretaña emerge como primera potencia colonial; Francia pierde Canadá y España cede Florida (recuperando La Habana y Manila).",
+	"wiki": "Guerra de los Siete Años",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de los Siete Años",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Siete_Años",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2606313",
+			"url": "https://www.wikidata.org/wiki/Q2606313",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888245",
+			"url": "https://www.wikidata.org/wiki/Q2888245",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q450318",
+			"url": "https://www.wikidata.org/wiki/Q450318",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2662144",
+			"url": "https://www.wikidata.org/wiki/Q2662144",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2606331",
+			"url": "https://www.wikidata.org/wiki/Q2606331",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q7283750",
+			"url": "https://www.wikidata.org/wiki/Q7283750",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q17346979",
+			"url": "https://www.wikidata.org/wiki/Q17346979",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q20036666",
+			"url": "https://www.wikidata.org/wiki/Q20036666",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q211220",
+			"url": "https://www.wikidata.org/wiki/Q211220",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q251184",
+			"url": "https://www.wikidata.org/wiki/Q251184",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q170400",
+			"url": "https://www.wikidata.org/wiki/Q170400",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Europa central",
+			"tipo": "frente",
+			"poligono": [
+				[
+					54.5,
+					10
+				],
+				[
+					53.5,
+					17.5
+				],
+				[
+					50,
+					18.5
+				],
+				[
+					49.5,
+					12
+				],
+				[
+					51.5,
+					9.5
+				]
+			]
+		},
+		{
+			"nombre": "Norteamérica (guerra franco-india)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					47.5,
+					-75
+				],
+				[
+					47,
+					-69
+				],
+				[
+					43,
+					-73
+				],
+				[
+					40,
+					-77
+				],
+				[
+					42,
+					-81
+				],
+				[
+					45.5,
+					-79
+				]
+			]
+		},
+		{
+			"nombre": "Caribe (La Habana)",
+			"tipo": "frente",
+			"desde": 1762,
+			"hasta": 1763,
+			"poligono": [
+				[
+					23.5,
+					-83.5
+				],
+				[
+					23,
+					-81
+				],
+				[
+					22.5,
+					-81.5
+				],
+				[
+					22.8,
+					-83.7
+				]
+			]
+		},
+		{
+			"nombre": "India (Bengala)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					24.5,
+					87
+				],
+				[
+					24,
+					89.5
+				],
+				[
+					22,
+					89
+				],
+				[
+					22.3,
+					87
+				]
+			]
+		},
+		{
+			"nombre": "Filipinas (Manila)",
+			"tipo": "frente",
+			"desde": 1762,
+			"hasta": 1763,
+			"poligono": [
+				[
+					15,
+					120.3
+				],
+				[
+					15,
+					121.5
+				],
+				[
+					14.2,
+					121.3
+				],
+				[
+					14.2,
+					120.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Plassey",
+			"anio": 1757,
+			"lat": 23.8,
+			"lng": 88.25,
+			"descripcion": "Clive gana Bengala para la Compañía de las Indias Orientales."
+		},
+		{
+			"nombre": "Batalla de Cap-Français",
+			"anio": 1757,
+			"lat": 19.8,
+			"lng": -72.2
+		},
+		{
+			"nombre": "Batalla de Chandannagar",
+			"anio": 1757,
+			"lat": 22.86,
+			"lng": 88.38
+		},
+		{
+			"nombre": "Batalla de Negapatam",
+			"anio": 1758,
+			"lat": 10.77,
+			"lng": 79.83
+		},
+		{
+			"nombre": "Batalla de Cuddalore (1758)",
+			"anio": 1758,
+			"lat": 11.75,
+			"lng": 79.75
+		},
+		{
+			"nombre": "Toma de Quebec (llanuras de Abraham)",
+			"anio": 1759,
+			"lat": 46.8,
+			"lng": -71.22,
+			"descripcion": "Wolfe vence a Montcalm; Francia pierde Canadá."
+		},
+		{
+			"nombre": "Batalla de Quiberon Bay",
+			"anio": 1759,
+			"lat": 47.52,
+			"lng": -3.0
+		},
+		{
+			"nombre": "Batalla de Pondicherry",
+			"anio": 1759,
+			"lat": 11.93,
+			"lng": 79.83
+		},
+		{
+			"nombre": "Raid on Le Havre",
+			"anio": 1759,
+			"lat": 49.44,
+			"lng": 0.14
+		},
+		{
+			"nombre": "Batalla de Kunersdorf",
+			"anio": 1759,
+			"lat": 52.35,
+			"lng": 14.61
+		},
+		{
+			"nombre": "Batalla de Neuville",
+			"anio": 1760,
+			"lat": 46.42,
+			"lng": -71.58
+		},
+		{
+			"nombre": "Acción del 17 Julio 1761",
+			"anio": 1761,
+			"lat": 36.5,
+			"lng": -6.39
+		},
+		{
+			"nombre": "Toma de La Habana",
+			"anio": 1762,
+			"lat": 23.13,
+			"lng": -82.35,
+			"bajas": "~5.000 bajas británicas, mayoría por fiebres",
+			"descripcion": "Gran Bretaña captura la llave del Caribe español; la devolverá por Florida."
+		},
+		{
+			"nombre": "Toma de Manila",
+			"anio": 1762,
+			"lat": 14.6,
+			"lng": 120.98,
+			"descripcion": "Una expedición desde la India ocupa la capital filipina."
+		},
+		{
+			"nombre": "Batalla de Signal Hill",
+			"anio": 1762,
+			"lat": 47.57,
+			"lng": -52.68
+		}
+	]
+}

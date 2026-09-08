@@ -1,0 +1,19 @@
+{
+	"nombre": "Reformas de Solón",
+	"anio": -594,
+	"lat": 37.97,
+	"lng": 23.73,
+	"paises": [
+		"Atenas"
+	],
+	"descripcion": "Solón, nombrado arconte de Atenas, aboló la esclavitud por deudas (seisáchtheia), organizó la sociedad en clases censitarias (timocracia) y creó la Bulé, sentando las bases institucionales que desembocarían en la democracia.",
+	"wiki": "Solón",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Solón",
+			"url": "https://es.wikipedia.org/wiki/Sol%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

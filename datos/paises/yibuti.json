@@ -1,0 +1,108 @@
+{
+	"id": "yibuti",
+	"nombre": "Yibuti",
+	"nombres": [
+		"Djibouti",
+		"Somalilandia Francesa",
+		"Territorio Frances de los Afars y los Issas"
+	],
+	"wiki": "es:Yibuti",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Yibuti",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q977",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Yibuti",
+			"url": "https://es.wikipedia.org/wiki/Yibuti",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q977",
+			"url": "https://www.wikidata.org/wiki/Q977",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Somalilandia Francesa",
+			"desde": 1896,
+			"hasta": 1967
+		},
+		{
+			"nombre": "Territorio Frances de los Afars y los Issas",
+			"desde": 1967,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Republica de Yibuti",
+			"desde": 1977,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q977",
+	"gobernantes": [
+		{
+			"nombre": "Hassan Gouled Aptidon",
+			"desde": 1977,
+			"hasta": 1999,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Ismail Omar Guelleh",
+			"desde": 1999,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 83000,
+			"fuente": "Wikipedia (es), estimacion"
+		},
+		{
+			"anio": 2009,
+			"valor": 818159,
+			"fuente": "Censo 2009 (Wikipedia)"
+		},
+		{
+			"anio": 2016,
+			"valor": 846000,
+			"fuente": "Wikipedia (es), estimacion"
+		},
+		{
+			"anio": 2023,
+			"valor": 1136455,
+			"fuente": "Wikipedia (es), estimacion"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e58225e05623",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Yibuti, oficialmente denominado República de Yibuti, es un país ubicado en el Cuerno de África. Tiene 23.200 km² y comparte fronteras con Eritrea por el norte, con Etiopía por el oeste y el sur, y con Somalia por el sureste.",
+	"escudos": [
+		{
+			"archivo": "Emblem of Djibouti.svg"
+		}
+	]
+}

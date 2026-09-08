@@ -1,0 +1,109 @@
+{
+	"id": "guerra-de-gaza",
+	"nombre": "Guerra de Gaza",
+	"inicio": 2023,
+	"fin": 2025,
+	"paises": [
+		"Israel",
+		"Palestina"
+	],
+	"bajas": "~81.000 palestinos y ~2.000 israelíes muertos",
+	"descripcion": "El ataque de Hamás del 7 de octubre de 2023 (~1.200 muertos) desata una invasión israelí de la Franja que la arrasa de norte a sur; un plan de paz auspiciado por EE. UU. impone el alto el fuego en octubre de 2025.",
+	"wiki": "Guerra Israel-Gaza (2023-2025)",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Gaza war",
+			"url": "https://en.wikipedia.org/wiki/Gaza_war",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Ataque de Israel del 7 de octubre de 2023",
+			"url": "https://es.wikipedia.org/wiki/Ataque_de_Israel_del_7_de_octubre_de_2023",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Franja de Gaza",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2025,
+			"poligono": [
+				[
+					31.6,
+					34.2
+				],
+				[
+					31.6,
+					34.57
+				],
+				[
+					31.22,
+					34.6
+				],
+				[
+					31.22,
+					34.25
+				]
+			]
+		},
+		{
+			"nombre": "Envolvente de Gaza (ataque del 7-O)",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2023,
+			"poligono": [
+				[
+					31.6,
+					34.55
+				],
+				[
+					31.55,
+					34.9
+				],
+				[
+					31.2,
+					34.8
+				],
+				[
+					31.2,
+					34.6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Ataque del 7 de octubre",
+			"anio": 2023,
+			"lat": 31.44,
+			"lng": 34.59,
+			"bajas": "~1.200 muertos y 251 rehenes",
+			"descripcion": "Hamás asalta las comunidades y el festival Nova junto a la Franja.",
+			"wiki": "Ataque de Israel del 7 de octubre de 2023"
+		},
+		{
+			"nombre": "Batalla de Ciudad de Gaza",
+			"anio": 2023,
+			"lat": 31.5,
+			"lng": 34.47,
+			"descripcion": "Invasión terrestre del norte de la Franja desde el 27 de octubre."
+		},
+		{
+			"nombre": "Batalla de Jan Yunis",
+			"anio": 2024,
+			"lat": 31.34,
+			"lng": 34.31,
+			"descripcion": "El frente se desplaza al sur de la Franja."
+		},
+		{
+			"nombre": "Ofensiva de Rafah",
+			"anio": 2024,
+			"lat": 31.29,
+			"lng": 34.25,
+			"descripcion": "Asalto al último refugio junto a la frontera egipcia."
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"id": "somalia",
+	"nombre": "Somalia",
+	"nombres": [
+		"Somalia",
+		"República Federal de Somalia",
+		"República Democrática Somalí",
+		"Somalia italiana"
+	],
+	"wiki": "es:Somalia",
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Somalia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1045",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Somalia",
+			"url": "https://es.wikipedia.org/wiki/Somalia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Somalilandia italiana y británica (colonias)",
+			"desde": 1889,
+			"hasta": 1960
+		},
+		{
+			"nombre": "República Somalí",
+			"desde": 1960,
+			"hasta": 1969
+		},
+		{
+			"nombre": "República Democrática Somalí",
+			"desde": 1969,
+			"hasta": 1991
+		},
+		{
+			"nombre": "República Federal de Somalia",
+			"desde": 2012
+		}
+	],
+	"wikidata": "Q1045",
+	"gobernantes": [
+		{
+			"nombre": "Aden Abdullah Osman Daar",
+			"desde": 1960,
+			"hasta": 1967,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Abdirashid Ali Shermarke",
+			"desde": 1967,
+			"hasta": 1969,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mohamed Siad Barre",
+			"desde": 1969,
+			"hasta": 1991,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Ali Mahdi Muhammad",
+			"desde": 1991,
+			"hasta": 1997,
+			"cargo": "Presidente interino (disputado)"
+		},
+		{
+			"nombre": "Abdiqasim Salad Hassan",
+			"desde": 2000,
+			"hasta": 2004,
+			"cargo": "Presidente (Gobierno Nacional de Transición)"
+		},
+		{
+			"nombre": "Abdullahi Yusuf Ahmed",
+			"desde": 2004,
+			"hasta": 2008,
+			"cargo": "Presidente (Gobierno Federal de Transición)"
+		},
+		{
+			"nombre": "Sharif Sheikh Ahmed",
+			"desde": 2009,
+			"hasta": 2012,
+			"cargo": "Presidente (Gobierno Federal de Transición)"
+		},
+		{
+			"nombre": "Hassan Sheikh Mohamud",
+			"desde": 2012,
+			"hasta": 2017,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mohamed Abdullahi Mohamed (Farmaajo)",
+			"desde": 2017,
+			"hasta": 2022,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Hassan Sheikh Mohamud",
+			"desde": 2022,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1975,
+			"valor": 3253024,
+			"fuente": "Censo de Somalia 1975"
+		},
+		{
+			"anio": 1987,
+			"valor": 7114431,
+			"fuente": "Censo de Somalia 1987 (disputado)"
+		},
+		{
+			"anio": 2000,
+			"valor": 8900000,
+			"fuente": "Estimación ONU"
+		},
+		{
+			"anio": 2014,
+			"valor": 12316895,
+			"fuente": "Estimación UNFPA (PESS)"
+		},
+		{
+			"anio": 2020,
+			"valor": 15900000,
+			"fuente": "Estimación ONU"
+		},
+		{
+			"anio": 2023,
+			"valor": 18143378,
+			"fuente": "Estimación (Wikipedia es)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "16f152aa9fdd",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Somalia, cuyo nombre oficial es República Federal de Somalia, es un país ubicado en el Cuerno de África, al este del continente africano. Limita al oeste y noroeste con Etiopía y Yibuti, al sur con Kenia, al norte con el golfo de Adén, y al este con el océano Índico."
+}

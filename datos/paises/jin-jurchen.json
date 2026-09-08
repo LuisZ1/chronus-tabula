@@ -1,0 +1,41 @@
+{
+	"id": "jin-jurchen",
+	"nombre": "Dinastía Jin (yurchen)",
+	"nombres": [
+		"Jin Empire",
+		"Jin"
+	],
+	"wiki": "Dinastía Jin (1115-1234)",
+	"gobernantes": [
+		{
+			"desde": 1115,
+			"hasta": 1123,
+			"nombre": "Wanyan Aguda",
+			"titulo": "Taizu; funda la dinastía Jin yurchen"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Jin (1115-1234)",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Jin_(1115-1234)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Dinastía Jin (1115-1234)",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Jin_(1115-1234)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La dinastía Jin, también conocida como la dinastía Yurchen, fue fundada por los Waynan, clan de los yurchen, los antepasados de los manchúes que fundaron la dinastía Qing quinientos años más tarde. El nombre se escribe a veces como Jinn[cita requerida] para diferenciarlo de la anterior dinastía Jin cuyo nombre se translitera igual.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "3d16c7354810",
+		"secciones": [
+			"resena"
+		]
+	}
+}

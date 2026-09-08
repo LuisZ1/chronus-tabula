@@ -1,0 +1,19 @@
+{
+	"nombre": "Proclamación de la Segunda República Española",
+	"anio": 1931,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "El 14 de abril de 1931, tras las elecciones municipales, se proclama la Segunda República y Alfonso XIII abandona el país.",
+	"wiki": "Segunda República Española",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda República Española",
+			"url": "https://es.wikipedia.org/wiki/Segunda_República_Española",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

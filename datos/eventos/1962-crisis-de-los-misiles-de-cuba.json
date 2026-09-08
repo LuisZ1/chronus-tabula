@@ -1,0 +1,27 @@
+{
+	"nombre": "Crisis de los misiles de Cuba",
+	"anio": 1962,
+	"lat": 23.11,
+	"lng": -82.37,
+	"paises": [
+		"Cuba",
+		"Estados Unidos",
+		"URSS"
+	],
+	"descripcion": "Trece días al borde de la guerra nuclear: los misiles soviéticos se retiran a cambio de los estadounidenses en Turquía.",
+	"wiki": "Crisis de los misiles de Cuba",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Crisis de los misiles de Cuba",
+			"url": "https://es.wikipedia.org/wiki/Crisis_de_los_misiles_de_Cuba",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

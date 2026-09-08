@@ -1,0 +1,60 @@
+{
+	"id": "chu-han",
+	"nombre": "Guerra Chu-Han",
+	"inicio": -206,
+	"fin": -202,
+	"paises": [
+		"Chu Occidental (Xiang Yu)",
+		"Han (Liu Bang)"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Tras el colapso de Qin, Xiang Yu, hegemón de Chu, y Liu Bang, rey de Han, se enfrentan por el control del imperio. Liu Bang derrota definitivamente a Xiang Yu en 202 a. C. y funda la dinastía Han como emperador Gaozu.",
+	"wiki": "Guerra Chu-Han",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra Chu-Han",
+			"url": "https://es.wikipedia.org/wiki/Guerra_Chu-Han",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la China milenaria",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frente entre Chu y Han en la China central",
+			"tipo": "frente",
+			"desde": -206,
+			"hasta": -202,
+			"poligono": [
+				[
+					35.0,
+					108.5
+				],
+				[
+					35.0,
+					118.5
+				],
+				[
+					31.0,
+					119.0
+				],
+				[
+					31.0,
+					109.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Gaixia",
+			"anio": -202,
+			"lat": 33.7,
+			"lng": 114.3,
+			"descripcion": "Liu Bang derrota a Xiang Yu y funda la dinastía Han."
+		}
+	]
+}

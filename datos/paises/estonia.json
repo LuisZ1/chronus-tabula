@@ -1,0 +1,223 @@
+{
+	"id": "estonia",
+	"nombre": "Estonia",
+	"nombres": [
+		"Estonia",
+		"Republica de Estonia"
+	],
+	"wikidata": "Q191",
+	"wiki": "es:Estonia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q191",
+			"url": "https://www.wikidata.org/wiki/Q191",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Estonia",
+			"url": "https://es.wikipedia.org/wiki/Estonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "EST",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 28
+		},
+		{
+			"anio": -9000,
+			"valor": 56
+		},
+		{
+			"anio": -8000,
+			"valor": 113
+		},
+		{
+			"anio": -7000,
+			"valor": 226
+		},
+		{
+			"anio": -6000,
+			"valor": 453
+		},
+		{
+			"anio": -5000,
+			"valor": 906
+		},
+		{
+			"anio": -4000,
+			"valor": 1812
+		},
+		{
+			"anio": -3000,
+			"valor": 3625
+		},
+		{
+			"anio": -2000,
+			"valor": 7250
+		},
+		{
+			"anio": -1000,
+			"valor": 14501
+		},
+		{
+			"anio": 0,
+			"valor": 29002
+		},
+		{
+			"anio": 100,
+			"valor": 30529
+		},
+		{
+			"anio": 200,
+			"valor": 32136
+		},
+		{
+			"anio": 300,
+			"valor": 33827
+		},
+		{
+			"anio": 400,
+			"valor": 35607
+		},
+		{
+			"anio": 500,
+			"valor": 37481
+		},
+		{
+			"anio": 600,
+			"valor": 39454
+		},
+		{
+			"anio": 700,
+			"valor": 41531
+		},
+		{
+			"anio": 800,
+			"valor": 43717
+		},
+		{
+			"anio": 900,
+			"valor": 46017
+		},
+		{
+			"anio": 1000,
+			"valor": 48439
+		},
+		{
+			"anio": 1100,
+			"valor": 50989
+		},
+		{
+			"anio": 1200,
+			"valor": 53673
+		},
+		{
+			"anio": 1300,
+			"valor": 56498
+		},
+		{
+			"anio": 1400,
+			"valor": 59471
+		},
+		{
+			"anio": 1500,
+			"valor": 62601
+		},
+		{
+			"anio": 1600,
+			"valor": 65896
+		},
+		{
+			"anio": 1700,
+			"valor": 69364
+		},
+		{
+			"anio": 1750,
+			"valor": 149924
+		},
+		{
+			"anio": 1800,
+			"valor": 334136
+		},
+		{
+			"anio": 1850,
+			"valor": 479333
+		},
+		{
+			"anio": 1900,
+			"valor": 873409
+		},
+		{
+			"anio": 1910,
+			"valor": 984932
+		},
+		{
+			"anio": 1920,
+			"valor": 1105673
+		},
+		{
+			"anio": 1930,
+			"valor": 1121590
+		},
+		{
+			"anio": 1940,
+			"valor": 1118777
+		},
+		{
+			"anio": 1950,
+			"valor": 1102046
+		},
+		{
+			"anio": 1960,
+			"valor": 1220464
+		},
+		{
+			"anio": 1970,
+			"valor": 1361872
+		},
+		{
+			"anio": 1980,
+			"valor": 1476465
+		},
+		{
+			"anio": 1990,
+			"valor": 1570309
+		},
+		{
+			"anio": 2000,
+			"valor": 1397001
+		},
+		{
+			"anio": 2010,
+			"valor": 1331450
+		},
+		{
+			"anio": 2020,
+			"valor": 1329675
+		},
+		{
+			"anio": 2023,
+			"valor": 1367195
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "9e82b874599b",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Estonia, oficialmente República de Estonia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, y el más pequeño de los tres países bálticos. Limita al sur con Letonia, al este con Rusia, al norte con el golfo de Finlandia y al oeste con el mar Báltico."
+}
