@@ -20,8 +20,8 @@ import urllib.parse
 import urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, proponer,  # noqa: E402
-                   progreso_borrar, progreso_hechas, progreso_marcar, HOY)
+from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, es_error_de_pais,  # noqa: E402
+                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY)
 
 FID = "wikipedia_resenas"
 LIMITE = 360  # longitud máxima de la reseña (caracteres)
@@ -99,15 +99,15 @@ def main():
             try:
                 data = resumen(titulo_wiki(p))
                 time.sleep(1)  # pausa cortés
-            except urllib.error.HTTPError as e:
-                # el servidor respondió (hay red) pero este país no tiene resumen
-                # válido (título malo, sin artículo…): se salta y se sigue.
-                print(f"  ⚠ {p['id']}: Wikipedia responde HTTP {e.code} para «{titulo_wiki(p)}»; se salta.", flush=True)
-                if not demo:
-                    progreso_marcar(con, FID, p["id"])
-                con.commit()
-                continue
-            except Exception as e:  # noqa: BLE001 — sin red de verdad: parar y reanudar luego
+            except Exception as e:  # noqa: BLE001
+                if es_error_de_pais(e):
+                    # el servidor respondió pero este país no tiene resumen válido
+                    # (título malo, sin artículo…): se salta y se sigue.
+                    print(f"  ⚠ {p['id']}: Wikipedia responde HTTP {e.code} para «{titulo_wiki(p)}»; se salta.", flush=True)
+                    if not demo:
+                        progreso_marcar(con, FID, p["id"])
+                    con.commit()
+                    continue
                 con.commit(); con.close()
                 print(f"⚠ Interrumpido en '{p['id']}': lo propuesto queda guardado; "
                       "la próxima ejecución continúa desde aquí.", flush=True)

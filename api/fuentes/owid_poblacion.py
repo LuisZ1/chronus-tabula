@@ -75,11 +75,13 @@ def main():
     historia = cargar_historia()
     con_owid = {p["id"]: p["owid"] for p in historia["paises"] if p.get("owid")}
     por_entidad = {}
+    por_codigo = {}  # también indexamos por código ISO3 (columna 'Code' del CSV)
     lector = csv.DictReader(io.StringIO(texto))
     # normalizar cabeceras: sin BOM, sin espacios, tolerante a mayúsculas
     lector.fieldnames = [ (c or "").lstrip("\ufeff").strip() for c in (lector.fieldnames or []) ]
     columnas = {c.lower(): c for c in lector.fieldnames}
     col_ent = columnas.get("entity") or columnas.get("country")
+    col_code = columnas.get("code") or columnas.get("iso_code") or columnas.get("iso3")
     col_anio = columnas.get("year")
     col_pob = next((orig for low, orig in columnas.items() if "population" in low or low == "pop"), None)
     if not (col_ent and col_anio and col_pob):
@@ -89,10 +91,14 @@ def main():
         return 1
     for fila in lector:
         try:
-            entidad, anio, valor = fila[col_ent], int(fila[col_anio]), float(fila[col_pob])
+            entidad, anio, valor = fila[col_ent], int(fila[col_anio]), int(float(fila[col_pob]))
         except (KeyError, TypeError, ValueError):
             continue
-        por_entidad.setdefault(entidad, {})[anio] = int(valor)
+        por_entidad.setdefault(entidad, {})[anio] = valor
+        if col_code:
+            cod = (fila.get(col_code) or "").strip()
+            if cod:
+                por_codigo.setdefault(cod, {})[anio] = valor
     if not por_entidad:
         print("✘ El CSV se descargó pero no se pudo leer ninguna fila; ¿cambió el formato de OWID?")
         print(f"  Primeros 200 caracteres: {texto[:200]!r}")
@@ -101,9 +107,12 @@ def main():
     con = conectar()
     nuevas = 0
     for pais_id, entidad in con_owid.items():
-        serie = por_entidad.get(entidad)
+        # el campo 'owid' de la ficha puede ser el nombre de la entidad (Spain) o
+        # su código ISO3 (ESP): probamos ambos
+        serie = (por_entidad.get(entidad) or por_codigo.get(entidad)
+                 or por_codigo.get((entidad or "").upper()))
         if not serie:
-            print(f"  ⚠ OWID no tiene entidad '{entidad}' (país {pais_id})")
+            print(f"  ⚠ OWID no tiene entidad ni código '{entidad}' (país {pais_id})")
             continue
         puntos = muestrear(serie)
         if not puntos:
