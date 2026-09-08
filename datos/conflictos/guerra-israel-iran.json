@@ -11,14 +11,6 @@
 	"bajas": "~1.100 muertos iraníes y ~30 israelíes",
 	"descripcion": "Del 13 al 24 de junio de 2025: Israel bombardea el programa nuclear y la cúpula militar iraní; Irán responde con más de 550 misiles balísticos; EE. UU. ataca Fordo, Natanz e Isfahán antes del alto el fuego.",
 	"wiki": "Guerra Irán-Israel",
-	"fuentes": [
-		{
-			"id": "wikipedia-en:Iran–Israel war",
-			"url": "https://en.wikipedia.org/wiki/Iran–Israel_war",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Campaña aérea sobre Irán",
@@ -94,6 +86,14 @@
 			"lat": 32.08,
 			"lng": 34.78,
 			"descripcion": "La represalia iraní alcanza zonas urbanas israelíes."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Iran–Israel war",
+			"url": "https://en.wikipedia.org/wiki/Iran–Israel_war",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

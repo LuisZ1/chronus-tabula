@@ -6,35 +6,6 @@
 		"Madagascar (France)",
 		"República de Madagascar"
 	],
-	"wiki": "es:Madagascar",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Madagascar",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1019",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Madagascar",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "demografia",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Madagascar",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Madagascar",
-			"url": "https://es.wikipedia.org/wiki/Madagascar",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Madagascar (Imerina)",
@@ -62,139 +33,141 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Madagascar",
 	"wikidata": "Q1019",
+	"resena": "Madagascar, oficialmente República de Madagascar, es un país insular situado en el océano Índico, frente a la costa sureste del continente africano, al este de Mozambique. La nación está comprendida por la isla homónima, la más grande de África y la cuarta más grande del mundo, y por pequeñas y numerosas islas periféricas.",
 	"gobernantes": [
 		{
 			"nombre": "Andrianampoinimerina",
+			"cargo": "Rey de Imerina",
 			"desde": 1787,
-			"hasta": 1810,
-			"cargo": "Rey de Imerina"
+			"hasta": 1810
 		},
 		{
 			"nombre": "Radama I",
+			"cargo": "Rey de Madagascar",
 			"desde": 1810,
-			"hasta": 1828,
-			"cargo": "Rey de Madagascar"
+			"hasta": 1828
 		},
 		{
 			"nombre": "Ranavalona I",
+			"cargo": "Reina de Madagascar",
 			"desde": 1828,
-			"hasta": 1861,
-			"cargo": "Reina de Madagascar"
+			"hasta": 1861
 		},
 		{
 			"nombre": "Radama II",
+			"cargo": "Rey de Madagascar",
 			"desde": 1861,
-			"hasta": 1863,
-			"cargo": "Rey de Madagascar"
+			"hasta": 1863
 		},
 		{
 			"nombre": "Rasoherina",
+			"cargo": "Reina de Madagascar",
 			"desde": 1863,
-			"hasta": 1868,
-			"cargo": "Reina de Madagascar"
+			"hasta": 1868
 		},
 		{
 			"nombre": "Ranavalona II",
+			"cargo": "Reina de Madagascar",
 			"desde": 1868,
-			"hasta": 1883,
-			"cargo": "Reina de Madagascar"
+			"hasta": 1883
 		},
 		{
 			"nombre": "Ranavalona III",
+			"cargo": "Reina de Madagascar (última soberana)",
 			"desde": 1883,
-			"hasta": 1897,
-			"cargo": "Reina de Madagascar (última soberana)"
+			"hasta": 1897
 		},
 		{
 			"nombre": "Administración colonial francesa",
+			"cargo": "Colonia de Francia",
 			"desde": 1897,
-			"hasta": 1960,
-			"cargo": "Colonia de Francia"
+			"hasta": 1960
 		},
 		{
 			"nombre": "Philibert Tsiranana",
+			"cargo": "Presidente",
 			"desde": 1959,
-			"hasta": 1972,
-			"cargo": "Presidente"
+			"hasta": 1972
 		},
 		{
 			"nombre": "Gabriel Ramanantsoa",
+			"cargo": "Presidente (jefe de gobierno militar)",
 			"desde": 1972,
-			"hasta": 1975,
-			"cargo": "Presidente (jefe de gobierno militar)"
-		},
-		{
-			"nombre": "Richard Ratsimandrava",
-			"desde": 1975,
-			"hasta": 1975,
-			"cargo": "Jefe de Estado (asesinado a los 6 días)"
+			"hasta": 1975
 		},
 		{
 			"nombre": "Gilles Andriamahazo",
+			"cargo": "Jefe de Estado interino",
 			"desde": 1975,
-			"hasta": 1975,
-			"cargo": "Jefe de Estado interino"
+			"hasta": 1975
+		},
+		{
+			"nombre": "Richard Ratsimandrava",
+			"cargo": "Jefe de Estado (asesinado a los 6 días)",
+			"desde": 1975,
+			"hasta": 1975
 		},
 		{
 			"nombre": "Didier Ratsiraka",
+			"cargo": "Presidente",
 			"desde": 1975,
-			"hasta": 1993,
-			"cargo": "Presidente"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Albert Zafy",
+			"cargo": "Presidente",
 			"desde": 1993,
-			"hasta": 1996,
-			"cargo": "Presidente"
+			"hasta": 1996
 		},
 		{
 			"nombre": "Norbert Ratsirahonana",
+			"cargo": "Presidente interino",
 			"desde": 1996,
-			"hasta": 1997,
-			"cargo": "Presidente interino"
+			"hasta": 1997
 		},
 		{
 			"nombre": "Didier Ratsiraka",
+			"cargo": "Presidente",
 			"desde": 1997,
-			"hasta": 2002,
-			"cargo": "Presidente"
+			"hasta": 2002
 		},
 		{
 			"nombre": "Marc Ravalomanana",
+			"cargo": "Presidente",
 			"desde": 2002,
-			"hasta": 2009,
-			"cargo": "Presidente"
+			"hasta": 2009
 		},
 		{
 			"nombre": "Andry Rajoelina",
+			"cargo": "Presidente de la Alta Autoridad de Transición",
 			"desde": 2009,
-			"hasta": 2014,
-			"cargo": "Presidente de la Alta Autoridad de Transición"
+			"hasta": 2014
 		},
 		{
 			"nombre": "Hery Rajaonarimampianina",
+			"cargo": "Presidente",
 			"desde": 2014,
-			"hasta": 2018,
-			"cargo": "Presidente"
+			"hasta": 2018
 		},
 		{
 			"nombre": "Rivo Rakotovao",
+			"cargo": "Presidente interino",
 			"desde": 2018,
-			"hasta": 2019,
-			"cargo": "Presidente interino"
+			"hasta": 2019
 		},
 		{
 			"nombre": "Andry Rajoelina",
+			"cargo": "Presidente",
 			"desde": 2019,
-			"hasta": 2025,
-			"cargo": "Presidente"
+			"hasta": 2025
 		},
 		{
 			"nombre": "Michael Randrianirina",
+			"cargo": "Presidente (tras el golpe de 2025)",
 			"desde": 2025,
-			"hasta": 2026,
-			"cargo": "Presidente (tras el golpe de 2025)"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -229,11 +202,39 @@
 			"fuente": "ONU (World Population Prospects 2022)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Madagascar",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1019",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Madagascar",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Madagascar",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Madagascar",
+			"url": "https://es.wikipedia.org/wiki/Madagascar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "3797e127923d",
+		"hash": "d93762342f51",
 		"secciones": [
 			"fuentes",
 			"gobernantes",
@@ -241,6 +242,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Madagascar, oficialmente República de Madagascar, es un país insular situado en el océano Índico, frente a la costa sureste del continente africano, al este de Mozambique. La nación está comprendida por la isla homónima, la más grande de África y la cuarta más grande del mundo, y por pequeñas y numerosas islas periféricas."
+	}
 }

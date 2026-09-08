@@ -4,36 +4,40 @@
 	"nombres": [
 		"Tang Empire"
 	],
+	"relacionados": [
+		"China",
+		"Imperio Tang"
+	],
 	"gobernantes": [
 		{
-			"desde": 626,
-			"hasta": 649,
-			"nombre": "Taizong",
-			"titulo": "Emperador Tang"
-		},
-		{
-			"desde": 626,
-			"hasta": 649,
 			"nombre": "Li Shimin (emperador Taizong)",
-			"titulo": "Emperador Taizong, artífice de la era próspera de Zhenguan"
+			"titulo": "Emperador Taizong, artífice de la era próspera de Zhenguan",
+			"desde": 626,
+			"hasta": 649
 		},
 		{
-			"desde": 690,
-			"hasta": 705,
+			"nombre": "Taizong",
+			"titulo": "Emperador Tang",
+			"desde": 626,
+			"hasta": 649
+		},
+		{
 			"nombre": "Wu Zetian (única emperatriz reinante)",
-			"titulo": "Única emperatriz reinante de China (dinastía Zhou interpuesta)"
+			"titulo": "Única emperatriz reinante de China (dinastía Zhou interpuesta)",
+			"desde": 690,
+			"hasta": 705
 		},
 		{
-			"desde": 712,
-			"hasta": 756,
-			"nombre": "Xuanzong",
-			"titulo": "Emperador Tang"
-		},
-		{
-			"desde": 712,
-			"hasta": 756,
 			"nombre": "Emperador Xuanzong (Li Longji)",
-			"titulo": "Emperador Xuanzong, apogeo y crisis (rebelión de An Lushan)"
+			"titulo": "Emperador Xuanzong, apogeo y crisis (rebelión de An Lushan)",
+			"desde": 712,
+			"hasta": 756
+		},
+		{
+			"nombre": "Xuanzong",
+			"titulo": "Emperador Tang",
+			"desde": 712,
+			"hasta": 756
 		}
 	],
 	"poblacion": [
@@ -41,10 +45,6 @@
 			"anio": 750,
 			"valor": 52000000
 		}
-	],
-	"relacionados": [
-		"China",
-		"Imperio Tang"
 	],
 	"fuentes": [
 		{

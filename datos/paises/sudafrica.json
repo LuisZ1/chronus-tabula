@@ -7,50 +7,16 @@
 		"Union of South Africa",
 		"República de Sudáfrica"
 	],
-	"wiki": "es:Sudáfrica",
-	"fuentes": [
-		{
-			"id": "wikipedia_es",
-			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_heads",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_South_Africa",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_demographics",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_South_Africa",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_reino_zulu",
-			"url": "https://es.wikipedia.org/wiki/Reino_zul%C3%BA",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q258",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Sudáfrica",
-			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
-		{
-			"nombre": "Reino zulú",
-			"desde": 1816,
-			"hasta": 1897
-		},
 		{
 			"nombre": "Colonia del Cabo / colonias británicas y repúblicas bóer",
 			"desde": 1806,
 			"hasta": 1910
+		},
+		{
+			"nombre": "Reino zulú",
+			"desde": 1816,
+			"hasta": 1897
 		},
 		{
 			"nombre": "Unión Sudafricana",
@@ -63,163 +29,165 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Sudáfrica",
 	"wikidata": "Q258",
+	"resena": "Sudáfrica o, en uso minoritario, Suráfrica, y oficialmente la República de Sudáfrica, es un país soberano, situado en África austral y cuya forma de gobierno es la república parlamentaria. Su territorio está organizado en nueve provincias.",
 	"gobernantes": [
 		{
 			"nombre": "Shaka kaSenzangakhona",
+			"cargo": "Rey zulú",
 			"desde": 1816,
-			"hasta": 1828,
-			"cargo": "Rey zulú"
+			"hasta": 1828
 		},
 		{
 			"nombre": "Dingane kaSenzangakhona",
+			"cargo": "Rey zulú",
 			"desde": 1828,
-			"hasta": 1840,
-			"cargo": "Rey zulú"
+			"hasta": 1840
 		},
 		{
 			"nombre": "Mpande kaSenzangakhona",
+			"cargo": "Rey zulú",
 			"desde": 1840,
-			"hasta": 1872,
-			"cargo": "Rey zulú"
+			"hasta": 1872
 		},
 		{
 			"nombre": "Cetshwayo kaMpande",
+			"cargo": "Rey zulú",
 			"desde": 1872,
-			"hasta": 1884,
-			"cargo": "Rey zulú"
+			"hasta": 1884
 		},
 		{
 			"nombre": "Dinuzulu kaCetshwayo",
+			"cargo": "Rey zulú",
 			"desde": 1884,
-			"hasta": 1913,
-			"cargo": "Rey zulú"
+			"hasta": 1913
 		},
 		{
 			"nombre": "Louis Botha",
+			"cargo": "Primer ministro (Unión)",
 			"desde": 1910,
-			"hasta": 1919,
-			"cargo": "Primer ministro (Unión)"
+			"hasta": 1919
 		},
 		{
 			"nombre": "Jan Smuts",
+			"cargo": "Primer ministro",
 			"desde": 1919,
-			"hasta": 1924,
-			"cargo": "Primer ministro"
+			"hasta": 1924
 		},
 		{
 			"nombre": "J. B. M. Hertzog",
+			"cargo": "Primer ministro",
 			"desde": 1924,
-			"hasta": 1939,
-			"cargo": "Primer ministro"
+			"hasta": 1939
 		},
 		{
 			"nombre": "Jan Smuts",
+			"cargo": "Primer ministro",
 			"desde": 1939,
-			"hasta": 1948,
-			"cargo": "Primer ministro"
+			"hasta": 1948
 		},
 		{
 			"nombre": "D. F. Malan",
+			"cargo": "Primer ministro (inicio del apartheid)",
 			"desde": 1948,
-			"hasta": 1954,
-			"cargo": "Primer ministro (inicio del apartheid)"
+			"hasta": 1954
 		},
 		{
 			"nombre": "J. G. Strijdom",
+			"cargo": "Primer ministro",
 			"desde": 1954,
-			"hasta": 1958,
-			"cargo": "Primer ministro"
+			"hasta": 1958
 		},
 		{
 			"nombre": "Hendrik Verwoerd",
+			"cargo": "Primer ministro",
 			"desde": 1958,
-			"hasta": 1966,
-			"cargo": "Primer ministro"
-		},
-		{
-			"nombre": "B. J. Vorster",
-			"desde": 1966,
-			"hasta": 1978,
-			"cargo": "Primer ministro"
-		},
-		{
-			"nombre": "P. W. Botha",
-			"desde": 1978,
-			"hasta": 1984,
-			"cargo": "Primer ministro (luego Presidente del Estado)"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Charles Robberts Swart",
+			"cargo": "Presidente del Estado",
 			"desde": 1961,
-			"hasta": 1967,
-			"cargo": "Presidente del Estado"
-		},
-		{
-			"nombre": "Jacobus Johannes Fouché",
-			"desde": 1968,
-			"hasta": 1975,
-			"cargo": "Presidente del Estado"
-		},
-		{
-			"nombre": "Nicolaas Diederichs",
-			"desde": 1975,
-			"hasta": 1978,
-			"cargo": "Presidente del Estado"
+			"hasta": 1967
 		},
 		{
 			"nombre": "B. J. Vorster",
-			"desde": 1978,
-			"hasta": 1979,
-			"cargo": "Presidente del Estado"
+			"cargo": "Primer ministro",
+			"desde": 1966,
+			"hasta": 1978
 		},
 		{
-			"nombre": "Marais Viljoen",
-			"desde": 1979,
-			"hasta": 1984,
-			"cargo": "Presidente del Estado"
+			"nombre": "Jacobus Johannes Fouché",
+			"cargo": "Presidente del Estado",
+			"desde": 1968,
+			"hasta": 1975
+		},
+		{
+			"nombre": "Nicolaas Diederichs",
+			"cargo": "Presidente del Estado",
+			"desde": 1975,
+			"hasta": 1978
+		},
+		{
+			"nombre": "B. J. Vorster",
+			"cargo": "Presidente del Estado",
+			"desde": 1978,
+			"hasta": 1979
 		},
 		{
 			"nombre": "P. W. Botha",
+			"cargo": "Primer ministro (luego Presidente del Estado)",
+			"desde": 1978,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Marais Viljoen",
+			"cargo": "Presidente del Estado",
+			"desde": 1979,
+			"hasta": 1984
+		},
+		{
+			"nombre": "P. W. Botha",
+			"cargo": "Presidente del Estado",
 			"desde": 1984,
-			"hasta": 1989,
-			"cargo": "Presidente del Estado"
+			"hasta": 1989
 		},
 		{
 			"nombre": "F. W. de Klerk",
+			"cargo": "Presidente del Estado",
 			"desde": 1989,
-			"hasta": 1994,
-			"cargo": "Presidente del Estado"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Nelson Mandela",
+			"cargo": "Presidente",
 			"desde": 1994,
-			"hasta": 1999,
-			"cargo": "Presidente"
+			"hasta": 1999
 		},
 		{
 			"nombre": "Thabo Mbeki",
+			"cargo": "Presidente",
 			"desde": 1999,
-			"hasta": 2008,
-			"cargo": "Presidente"
+			"hasta": 2008
 		},
 		{
 			"nombre": "Kgalema Motlanthe",
+			"cargo": "Presidente",
 			"desde": 2008,
-			"hasta": 2009,
-			"cargo": "Presidente"
+			"hasta": 2009
 		},
 		{
 			"nombre": "Jacob Zuma",
+			"cargo": "Presidente",
 			"desde": 2009,
-			"hasta": 2018,
-			"cargo": "Presidente"
+			"hasta": 2018
 		},
 		{
 			"nombre": "Cyril Ramaphosa",
+			"cargo": "Presidente",
 			"desde": 2018,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -254,11 +222,44 @@
 			"fuente": "Wikipedia (Demographics of South Africa), censo"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_heads",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_South_Africa",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_South_Africa",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_reino_zulu",
+			"url": "https://es.wikipedia.org/wiki/Reino_zul%C3%BA",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q258",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Sudáfrica",
+			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "f574f7e3ce00",
+		"hash": "c0d6dc4103f2",
 		"secciones": [
 			"fuentes",
 			"gobernantes",
@@ -266,6 +267,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Sudáfrica o, en uso minoritario, Suráfrica, y oficialmente la República de Sudáfrica, es un país soberano, situado en África austral y cuya forma de gobierno es la república parlamentaria. Su territorio está organizado en nueve provincias."
+	}
 }

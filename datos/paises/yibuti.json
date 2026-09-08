@@ -6,31 +6,6 @@
 		"Somalilandia Francesa",
 		"Territorio Frances de los Afars y los Issas"
 	],
-	"wiki": "es:Yibuti",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/Yibuti",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q977",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Yibuti",
-			"url": "https://es.wikipedia.org/wiki/Yibuti",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q977",
-			"url": "https://www.wikidata.org/wiki/Q977",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Somalilandia Francesa",
@@ -48,19 +23,21 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Yibuti",
 	"wikidata": "Q977",
+	"resena": "Yibuti, oficialmente denominado República de Yibuti, es un país ubicado en el Cuerno de África. Tiene 23.200 km² y comparte fronteras con Eritrea por el norte, con Etiopía por el oeste y el sur, y con Somalia por el sureste.",
 	"gobernantes": [
 		{
 			"nombre": "Hassan Gouled Aptidon",
+			"cargo": "Presidente",
 			"desde": 1977,
-			"hasta": 1999,
-			"cargo": "Presidente"
+			"hasta": 1999
 		},
 		{
 			"nombre": "Ismail Omar Guelleh",
+			"cargo": "Presidente",
 			"desde": 1999,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -85,6 +62,35 @@
 			"fuente": "Wikipedia (es), estimacion"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Djibouti.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Yibuti",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q977",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Yibuti",
+			"url": "https://es.wikipedia.org/wiki/Yibuti",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q977",
+			"url": "https://www.wikidata.org/wiki/Q977",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -98,11 +104,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Yibuti, oficialmente denominado República de Yibuti, es un país ubicado en el Cuerno de África. Tiene 23.200 km² y comparte fronteras con Eritrea por el norte, con Etiopía por el oeste y el sur, y con Somalia por el sureste.",
-	"escudos": [
-		{
-			"archivo": "Emblem of Djibouti.svg"
-		}
-	]
+	}
 }

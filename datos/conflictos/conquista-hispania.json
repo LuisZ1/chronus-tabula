@@ -9,22 +9,7 @@
 	],
 	"bajas": "desconocidas (decenas de miles)",
 	"descripcion": "Tariq y Musa conquistan el reino visigodo en pocos años; nace al-Ándalus.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Guadalete",
-			"anio": 711,
-			"lat": 36.63,
-			"lng": -5.75,
-			"descripcion": "Derrota y muerte del rey visigodo don Rodrigo."
-		},
-		{
-			"nombre": "Batalla de Covadonga",
-			"anio": 722,
-			"lat": 43.31,
-			"lng": -5.06,
-			"descripcion": "Victoria de Pelayo, inicio simbólico de la Reconquista."
-		}
-	],
+	"wiki": "Conquista omeya de Hispania",
 	"zonas": [
 		{
 			"nombre": "Andalucía y marcha a Toledo",
@@ -143,7 +128,22 @@
 			]
 		}
 	],
-	"wiki": "Conquista omeya de Hispania",
+	"batallas": [
+		{
+			"nombre": "Batalla de Guadalete",
+			"anio": 711,
+			"lat": 36.63,
+			"lng": -5.75,
+			"descripcion": "Derrota y muerte del rey visigodo don Rodrigo."
+		},
+		{
+			"nombre": "Batalla de Covadonga",
+			"anio": 722,
+			"lat": 43.31,
+			"lng": -5.06,
+			"descripcion": "Victoria de Pelayo, inicio simbólico de la Reconquista."
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Conquista omeya de Hispania",

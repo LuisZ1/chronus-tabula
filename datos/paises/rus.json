@@ -5,18 +5,19 @@
 		"Kyivan Rus",
 		"Rus' Khaganate"
 	],
+	"resena": "La Rus de Kiev fue una federación de tribus eslavas orientales desde finales del siglo IX hasta mediados del XIII, regida por la dinastía Rúrik.",
 	"gobernantes": [
 		{
-			"desde": 980,
-			"hasta": 1015,
 			"nombre": "Vladimiro I el Grande",
-			"titulo": "Gran príncipe de Kiev"
+			"titulo": "Gran príncipe de Kiev",
+			"desde": 980,
+			"hasta": 1015
 		},
 		{
-			"desde": 1019,
-			"hasta": 1054,
 			"nombre": "Yaroslav el Sabio",
-			"titulo": "Gran príncipe de Kiev"
+			"titulo": "Gran príncipe de Kiev",
+			"desde": 1019,
+			"hasta": 1054
 		}
 	],
 	"fuentes": [
@@ -32,7 +33,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La Rus de Kiev fue una federación de tribus eslavas orientales desde finales del siglo IX hasta mediados del XIII, regida por la dinastía Rúrik.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

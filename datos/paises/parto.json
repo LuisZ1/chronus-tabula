@@ -6,18 +6,19 @@
 		"Parthia"
 	],
 	"wiki": "Imperio parto",
+	"resena": "El Imperio parto, también conocido como Imperio arsácida, fue una de las principales potencias políticas y culturales iranias del antiguo Irán.",
 	"gobernantes": [
 		{
-			"desde": -247,
-			"hasta": -211,
 			"nombre": "Arsaces I",
-			"titulo": "Fundador de la dinastía arsácida"
+			"titulo": "Fundador de la dinastía arsácida",
+			"desde": -247,
+			"hasta": -211
 		},
 		{
-			"desde": -123,
-			"hasta": -88,
 			"nombre": "Mitrídates II",
-			"titulo": "Rey de reyes parto"
+			"titulo": "Rey de reyes parto",
+			"desde": -123,
+			"hasta": -88
 		}
 	],
 	"fuentes": [
@@ -34,7 +35,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Imperio parto, también conocido como Imperio arsácida, fue una de las principales potencias políticas y culturales iranias del antiguo Irán.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

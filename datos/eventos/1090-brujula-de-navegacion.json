@@ -1,14 +1,14 @@
 {
 	"nombre": "Brújula de navegación",
 	"anio": 1090,
+	"categoria": "invento",
 	"lat": 34.79,
 	"lng": 114.35,
-	"categoria": "invento",
-	"descripcion": "La China Song aplica la aguja imantada a la navegación (pin en Kaifeng).",
-	"wiki": "Brújula",
 	"paises": [
 		"China"
 	],
+	"descripcion": "La China Song aplica la aguja imantada a la navegación (pin en Kaifeng).",
+	"wiki": "Brújula",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Brújula",

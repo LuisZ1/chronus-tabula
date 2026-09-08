@@ -5,28 +5,10 @@
 		"Saint Lucia",
 		"Santa Lucía"
 	],
-	"wikidata": "Q760",
 	"wiki": "es:Santa Lucía",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q760",
-			"url": "https://www.wikidata.org/wiki/Q760",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Santa Lucía",
-			"url": "https://es.wikipedia.org/wiki/Santa_Luc%C3%ADa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q760",
 	"owid": "LCA",
+	"resena": "Santa Lucía es un país insular de América, ubicado en el mar Caribe, al norte de San Vicente y las Granadinas y al sur de la isla de la Martinica. Cubre una superficie terrestre de 617 km² con una población estimada de 183 629 habitantes en el año 2020.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 179291
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q760",
+			"url": "https://www.wikidata.org/wiki/Q760",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Santa Lucía",
+			"url": "https://es.wikipedia.org/wiki/Santa_Luc%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Santa Lucía es un país insular de América, ubicado en el mar Caribe, al norte de San Vicente y las Granadinas y al sur de la isla de la Martinica. Cubre una superficie terrestre de 617 km² con una población estimada de 183 629 habitantes en el año 2020."
+	}
 }

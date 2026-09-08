@@ -4,18 +4,19 @@
 	"nombres": [
 		"Mamluke Sultanate"
 	],
+	"resena": "El sultanato mameluco de Egipto, también conocido como Egipto mameluco o Imperio mameluco, fue un reino medieval que se extendía por Egipto, el Levante mediterráneo y el Heyaz. Duró desde la caída de la dinastía ayubí en 1250 hasta la conquista otomana de Egipto en 1517.",
 	"gobernantes": [
 		{
-			"desde": 1260,
-			"hasta": 1277,
 			"nombre": "Baibars (vencedor de los mongoles en Ain Yalut)",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1260,
+			"hasta": 1277
 		},
 		{
-			"desde": 1501,
-			"hasta": 1516,
 			"nombre": "Qansuh al-Ghawri",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1501,
+			"hasta": 1516
 		}
 	],
 	"fuentes": [
@@ -31,7 +32,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El sultanato mameluco de Egipto, también conocido como Egipto mameluco o Imperio mameluco, fue un reino medieval que se extendía por Egipto, el Levante mediterráneo y el Heyaz. Duró desde la caída de la dinastía ayubí en 1250 hasta la conquista otomana de Egipto en 1517.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

@@ -5,28 +5,10 @@
 		"Estonia",
 		"Republica de Estonia"
 	],
-	"wikidata": "Q191",
 	"wiki": "es:Estonia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q191",
-			"url": "https://www.wikidata.org/wiki/Q191",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Estonia",
-			"url": "https://es.wikipedia.org/wiki/Estonia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q191",
 	"owid": "EST",
+	"resena": "Estonia, oficialmente República de Estonia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, y el más pequeño de los tres países bálticos. Limita al sur con Letonia, al este con Rusia, al norte con el golfo de Finlandia y al oeste con el mar Báltico.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 1367195
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q191",
+			"url": "https://www.wikidata.org/wiki/Q191",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Estonia",
+			"url": "https://es.wikipedia.org/wiki/Estonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Estonia, oficialmente República de Estonia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, y el más pequeño de los tres países bálticos. Limita al sur con Letonia, al este con Rusia, al norte con el golfo de Finlandia y al oeste con el mar Báltico."
+	}
 }

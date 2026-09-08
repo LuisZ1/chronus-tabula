@@ -4,12 +4,13 @@
 	"nombres": [
 		"León"
 	],
+	"resena": "El reino de León fue un reino medieval independiente situado en la región noroeste de la península ibérica. Fue fundado en el año 910, cuando los príncipes cristianos del reino de Asturias, en la costa norte de la península, trasladaron su capital de Oviedo a la ciudad de León.",
 	"gobernantes": [
 		{
-			"desde": 1188,
-			"hasta": 1230,
 			"nombre": "Alfonso IX (primeras Cortes de León)",
-			"titulo": "Rey de León"
+			"titulo": "Rey de León",
+			"desde": 1188,
+			"hasta": 1230
 		}
 	],
 	"fuentes": [
@@ -25,7 +26,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El reino de León fue un reino medieval independiente situado en la región noroeste de la península ibérica. Fue fundado en el año 910, cuando los príncipes cristianos del reino de Asturias, en la costa norte de la península, trasladaron su capital de Oviedo a la ciudad de León.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

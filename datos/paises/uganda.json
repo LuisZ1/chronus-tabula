@@ -5,35 +5,6 @@
 		"Uganda",
 		"República de Uganda"
 	],
-	"wiki": "es:Uganda",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Uganda",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Uganda",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-demo",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Uganda",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1036",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Uganda",
-			"url": "https://es.wikipedia.org/wiki/Uganda",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Dominio de Uganda (Commonwealth)",
@@ -46,67 +17,69 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Uganda",
 	"wikidata": "Q1036",
+	"resena": "Uganda, oficialmente República de Uganda es un país soberano sin salida al mar situado en África oriental. El país limita al este con Kenia, al norte con Sudán del Sur, al oeste con República Democrática del Congo y al sur con Ruanda y al suroeste con Tanzania.",
 	"gobernantes": [
 		{
 			"nombre": "Isabel II",
+			"cargo": "Reina de Uganda",
 			"desde": 1962,
-			"hasta": 1963,
-			"cargo": "Reina de Uganda"
+			"hasta": 1963
 		},
 		{
 			"nombre": "Edward Mutesa II",
+			"cargo": "Presidente",
 			"desde": 1963,
-			"hasta": 1966,
-			"cargo": "Presidente"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Milton Obote",
+			"cargo": "Presidente",
 			"desde": 1966,
-			"hasta": 1971,
-			"cargo": "Presidente"
+			"hasta": 1971
 		},
 		{
 			"nombre": "Idi Amin",
+			"cargo": "Presidente",
 			"desde": 1971,
-			"hasta": 1979,
-			"cargo": "Presidente"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Yusuf Lule",
+			"cargo": "Presidente",
 			"desde": 1979,
-			"hasta": 1979,
-			"cargo": "Presidente"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Godfrey Binaisa",
+			"cargo": "Presidente",
 			"desde": 1979,
-			"hasta": 1980,
-			"cargo": "Presidente"
+			"hasta": 1980
 		},
 		{
 			"nombre": "Paulo Muwanga",
+			"cargo": "Presidente (Comisión Militar)",
 			"desde": 1980,
-			"hasta": 1980,
-			"cargo": "Presidente (Comisión Militar)"
+			"hasta": 1980
 		},
 		{
 			"nombre": "Milton Obote",
+			"cargo": "Presidente",
 			"desde": 1980,
-			"hasta": 1985,
-			"cargo": "Presidente"
+			"hasta": 1985
 		},
 		{
 			"nombre": "Tito Okello",
+			"cargo": "Presidente",
 			"desde": 1985,
-			"hasta": 1986,
-			"cargo": "Presidente"
+			"hasta": 1986
 		},
 		{
 			"nombre": "Yoweri Museveni",
+			"cargo": "Presidente",
 			"desde": 1986,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -151,6 +124,34 @@
 			"fuente": "Censo 2024 (est.)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Uganda",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Uganda",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Uganda",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1036",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Uganda",
+			"url": "https://es.wikipedia.org/wiki/Uganda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -163,6 +164,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Uganda, oficialmente República de Uganda es un país soberano sin salida al mar situado en África oriental. El país limita al este con Kenia, al norte con Sudán del Sur, al oeste con República Democrática del Congo y al sur con Ruanda y al suroeste con Tanzania."
+	}
 }

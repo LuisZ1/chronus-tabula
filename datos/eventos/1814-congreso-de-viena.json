@@ -4,7 +4,6 @@
 	"hasta": 1815,
 	"lat": 48.21,
 	"lng": 16.37,
-	"descripcion": "Las potencias reordenan Europa tras Napoleón.",
 	"paises": [
 		"Austria",
 		"Francia",
@@ -12,6 +11,7 @@
 		"Gran Bretaña",
 		"Prusia"
 	],
+	"descripcion": "Las potencias reordenan Europa tras Napoleón.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Congreso de Viena",

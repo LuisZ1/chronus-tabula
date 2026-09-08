@@ -10,14 +10,6 @@
 	"bajas": "miles",
 	"descripcion": "Serie de guerras por las que Esparta conquistó y sometió a la vecina Mesenia, reduciendo a su población a la condición de hilotas. La tercera guerra (464 a.C.), una revuelta de hilotas tras un terremoto, tensó las relaciones de Esparta con Atenas.",
 	"wiki": "Guerras Mesenias",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras Mesenias",
-			"url": "https://es.wikipedia.org/wiki/Guerras_Mesenias",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Mesenia (Peloponeso suroccidental)",
@@ -56,6 +48,14 @@
 			"anio": -464,
 			"lat": 37.18,
 			"lng": 21.93
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Mesenias",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Mesenias",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

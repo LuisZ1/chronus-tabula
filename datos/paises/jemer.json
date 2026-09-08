@@ -5,24 +5,25 @@
 		"Khmer Empire"
 	],
 	"wiki": "Imperio jemer",
+	"resena": "El Imperio jemer fue un imperio del Sudeste Asiático, centrado en ciudades hidráulicas en lo que hoy es el norte de Camboya. Conocido como Kambuja según sus habitantes, surgió de la antigua civilización de Chenla y perduró del 802 al 1431.",
 	"gobernantes": [
 		{
-			"desde": 802,
-			"hasta": 835,
 			"nombre": "Jayavarman II",
-			"titulo": "Fundador del Imperio jemer"
+			"titulo": "Fundador del Imperio jemer",
+			"desde": 802,
+			"hasta": 835
 		},
 		{
-			"desde": 1113,
-			"hasta": 1150,
 			"nombre": "Suryavarman II",
-			"titulo": "Rey jemer, constructor de Angkor Wat"
+			"titulo": "Rey jemer, constructor de Angkor Wat",
+			"desde": 1113,
+			"hasta": 1150
 		},
 		{
-			"desde": 1181,
-			"hasta": 1218,
 			"nombre": "Jayavarman VII",
-			"titulo": "Rey jemer, budista, fundador de Angkor Thom"
+			"titulo": "Rey jemer, budista, fundador de Angkor Thom",
+			"desde": 1181,
+			"hasta": 1218
 		}
 	],
 	"fuentes": [
@@ -39,7 +40,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Imperio jemer fue un imperio del Sudeste Asiático, centrado en ciudades hidráulicas en lo que hoy es el norte de Camboya. Conocido como Kambuja según sus habitantes, surgió de la antigua civilización de Chenla y perduró del 802 al 1431.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

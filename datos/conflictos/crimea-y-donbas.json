@@ -10,20 +10,6 @@
 	"bajas": "~14.000 muertos (2014-2021)",
 	"descripcion": "Rusia se anexiona Crimea tras el Euromaidán y sostiene a los separatistas de Donetsk y Lugansk; los acuerdos de Minsk congelan un frente que estalla en 2022.",
 	"wiki": "Guerra del Dombás",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra del Dombás",
-			"url": "https://es.wikipedia.org/wiki/Guerra_del_Dombás",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-es:Anexión de Crimea a Rusia",
-			"url": "https://es.wikipedia.org/wiki/Anexión_de_Crimea_a_Rusia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Crimea anexionada",
@@ -85,10 +71,10 @@
 		{
 			"nombre": "Batalla del aeropuerto de Donetsk",
 			"anio": 2014,
+			"hasta": 2015,
 			"lat": 48.07,
 			"lng": 37.74,
-			"descripcion": "Meses de defensa de los «cíborgs» ucranianos hasta la caída de la terminal.",
-			"hasta": 2015
+			"descripcion": "Meses de defensa de los «cíborgs» ucranianos hasta la caída de la terminal."
 		},
 		{
 			"nombre": "Batalla de Debáltsevo",
@@ -96,6 +82,20 @@
 			"lat": 48.34,
 			"lng": 38.4,
 			"descripcion": "Última gran batalla antes del alto el fuego de Minsk II."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Dombás",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Dombás",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Anexión de Crimea a Rusia",
+			"url": "https://es.wikipedia.org/wiki/Anexión_de_Crimea_a_Rusia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

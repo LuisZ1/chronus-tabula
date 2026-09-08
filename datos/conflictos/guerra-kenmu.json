@@ -11,20 +11,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Go-Daigo derriba el bakufu de Kamakura (1333) e intenta restaurar el poder imperial; Ashikaga Takauji rompe con él y funda el shogunato Muromachi, abriendo el periodo de las Cortes del Norte y del Sur (Nanbokuchō) hasta la reunificación de 1392.",
 	"wiki": "Período Nanbokuchō",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Restauración Kenmu",
-			"url": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Kenmu",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Período Nanbokuchō",
-			"url": "https://es.wikipedia.org/wiki/Per%C3%ADodo_Nanbokuch%C5%8D",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Kioto y las cortes rivales",
@@ -65,6 +51,20 @@
 			"lat": 34.68,
 			"lng": 135.17,
 			"descripcion": "Ashikaga Takauji derrota a Kusunoki Masashige, abriendo el shogunato Muromachi."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Restauración Kenmu",
+			"url": "https://es.wikipedia.org/wiki/Restauraci%C3%B3n_Kenmu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Período Nanbokuchō",
+			"url": "https://es.wikipedia.org/wiki/Per%C3%ADodo_Nanbokuch%C5%8D",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

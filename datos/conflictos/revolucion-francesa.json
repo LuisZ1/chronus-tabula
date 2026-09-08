@@ -13,20 +13,6 @@
 	"bajas": "~1 millón de muertos (Terror, Vendée y guerras)",
 	"descripcion": "De la toma de la Bastilla al 18 de brumario de Napoleón: cae la monarquía, la república sobrevive al Terror y a la coalición europea, y nace el mundo político moderno.",
 	"wiki": "Revolución francesa",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Revolución francesa",
-			"url": "https://es.wikipedia.org/wiki/Revolución_francesa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Francia revolucionaria",
@@ -97,6 +83,20 @@
 			"lng": 4.55,
 			"descripcion": "Victoria decisiva sobre la coalición; primer uso militar de un globo de observación.",
 			"wiki": "Batalla de Fleurus (1794)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Revolución francesa",
+			"url": "https://es.wikipedia.org/wiki/Revolución_francesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

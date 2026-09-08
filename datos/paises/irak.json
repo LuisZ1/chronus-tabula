@@ -5,28 +5,10 @@
 		"Iraq",
 		"Irak"
 	],
-	"wikidata": "Q796",
 	"wiki": "es:Irak",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q796",
-			"url": "https://www.wikidata.org/wiki/Q796",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Irak",
-			"url": "https://es.wikipedia.org/wiki/Irak",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q796",
 	"owid": "IRQ",
+	"resena": "Irak o Iraq, oficialmente la República de Iraq, también conocida históricamente en Occidente como Mesopotamia, es un país asiático de Oriente Próximo que abarca la mayor parte del noroeste de la cadena montañosa de Zagros, la parte oriental del desierto de Siria y la septentrional del desierto de Arabia.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 45074055
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q796",
+			"url": "https://www.wikidata.org/wiki/Q796",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Irak",
+			"url": "https://es.wikipedia.org/wiki/Irak",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Irak o Iraq, oficialmente la República de Iraq, también conocida históricamente en Occidente como Mesopotamia, es un país asiático de Oriente Próximo que abarca la mayor parte del noroeste de la cadena montañosa de Zagros, la parte oriental del desierto de Siria y la septentrional del desierto de Arabia."
+	}
 }

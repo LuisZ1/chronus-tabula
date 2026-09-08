@@ -10,17 +10,6 @@
 	"bajas": "~200.000 muertos entre las tres guerras",
 	"descripcion": "Tres guerras civiles entre liberales y carlistas por la sucesión y el modelo de país, con el norte foral como bastión carlista.",
 	"wiki": "Guerras carlistas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras carlistas",
-			"url": "https://es.wikipedia.org/wiki/Guerras_carlistas",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "País Vasco y Navarra",
@@ -116,6 +105,17 @@
 			"lat": 42.63,
 			"lng": -2.06,
 			"descripcion": "Victoria carlista en la tercera guerra."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras carlistas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_carlistas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

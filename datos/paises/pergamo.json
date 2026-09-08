@@ -5,12 +5,13 @@
 		"Pergamon"
 	],
 	"wiki": "Reino de Pérgamo",
+	"resena": "El reino de Pérgamo fue un estado de la antigüedad (241 a. C.-133 a.",
 	"gobernantes": [
 		{
-			"desde": -241,
-			"hasta": -197,
 			"nombre": "Átalo I Sóter",
-			"titulo": "Fundador del reino de Pérgamo, venció a los gálatas"
+			"titulo": "Fundador del reino de Pérgamo, venció a los gálatas",
+			"desde": -241,
+			"hasta": -197
 		}
 	],
 	"fuentes": [
@@ -27,7 +28,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El reino de Pérgamo fue un estado de la antigüedad (241 a. C.-133 a.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

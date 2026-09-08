@@ -9,14 +9,123 @@
 	],
 	"bajas": "~50.000-100.000 muertos (mayoría por enfermedad)",
 	"descripcion": "Conflicto naval entre Felipe II e Isabel I.",
+	"wiki": "Guerra anglo-española (1585-1604)",
+	"zonas": [
+		{
+			"nombre": "Flandes",
+			"tipo": "frente",
+			"desde": 1585,
+			"hasta": 1604,
+			"poligono": [
+				[
+					51.7,
+					2.8
+				],
+				[
+					51.6,
+					5.5
+				],
+				[
+					50.5,
+					5.5
+				],
+				[
+					50.4,
+					2.5
+				]
+			]
+		},
+		{
+			"nombre": "La Armada y el Canal",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1588,
+			"hasta": 1588,
+			"poligono": [
+				[
+					50.9,
+					-5
+				],
+				[
+					51.3,
+					1.8
+				],
+				[
+					50.2,
+					1.5
+				],
+				[
+					49.5,
+					-5.5
+				]
+			]
+		},
+		{
+			"nombre": "Costas atlánticas (Cádiz, Coruña, Azores)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1587,
+			"hasta": 1597,
+			"poligono": [
+				[
+					43.8,
+					-9.5
+				],
+				[
+					43.5,
+					-8
+				],
+				[
+					38,
+					-6
+				],
+				[
+					36.3,
+					-6.5
+				],
+				[
+					36.5,
+					-9
+				],
+				[
+					41,
+					-9.8
+				]
+			]
+		},
+		{
+			"nombre": "Irlanda (Kinsale)",
+			"tipo": "frente",
+			"desde": 1601,
+			"hasta": 1602,
+			"poligono": [
+				[
+					52.2,
+					-9.5
+				],
+				[
+					52.2,
+					-7.8
+				],
+				[
+					51.5,
+					-7.9
+				],
+				[
+					51.5,
+					-9.6
+				]
+			]
+		}
+	],
 	"batallas": [
 		{
 			"nombre": "La Armada Invencible",
 			"anio": 1588,
 			"lat": 50.1,
 			"lng": -1.0,
-			"bajas": "~15.000 muertos españoles, casi todos por naufragios",
-			"descripcion": "La gran flota de Felipe II fracasa en su intento de invadir Inglaterra."
+			"descripcion": "La gran flota de Felipe II fracasa en su intento de invadir Inglaterra.",
+			"bajas": "~15.000 muertos españoles, casi todos por naufragios"
 		},
 		{
 			"nombre": "batalla de Arques (1589)",
@@ -31,16 +140,16 @@
 			"lng": -8.9
 		},
 		{
-			"nombre": "batalla del golfo de Almería",
-			"anio": 1591,
-			"lat": 36.84,
-			"lng": -2.47
-		},
-		{
 			"nombre": "batalla de las islas Berlengas",
 			"anio": 1591,
 			"lat": 39.43,
 			"lng": -9.52
+		},
+		{
+			"nombre": "batalla del golfo de Almería",
+			"anio": 1591,
+			"lat": 36.84,
+			"lng": -2.47
 		},
 		{
 			"nombre": "batalla de Craon",
@@ -79,16 +188,16 @@
 			"lng": -9.18
 		},
 		{
-			"nombre": "batalla de los Mares Estrechos",
-			"anio": 1602,
-			"lat": 51.0,
-			"lng": 1.45
-		},
-		{
 			"nombre": "batalla de la bahía de Sesimbra",
 			"anio": 1602,
 			"lat": 38.4,
 			"lng": -9.1
+		},
+		{
+			"nombre": "batalla de los Mares Estrechos",
+			"anio": 1602,
+			"lat": 51.0,
+			"lng": 1.45
 		},
 		{
 			"nombre": "batalla naval del Golfo de Cádiz",
@@ -97,115 +206,6 @@
 			"lng": -7.54
 		}
 	],
-	"zonas": [
-		{
-			"nombre": "Flandes",
-			"tipo": "frente",
-			"desde": 1585,
-			"hasta": 1604,
-			"poligono": [
-				[
-					51.7,
-					2.8
-				],
-				[
-					51.6,
-					5.5
-				],
-				[
-					50.5,
-					5.5
-				],
-				[
-					50.4,
-					2.5
-				]
-			]
-		},
-		{
-			"nombre": "La Armada y el Canal",
-			"tipo": "frente",
-			"desde": 1588,
-			"hasta": 1588,
-			"poligono": [
-				[
-					50.9,
-					-5
-				],
-				[
-					51.3,
-					1.8
-				],
-				[
-					50.2,
-					1.5
-				],
-				[
-					49.5,
-					-5.5
-				]
-			],
-			"mar": true
-		},
-		{
-			"nombre": "Costas atlánticas (Cádiz, Coruña, Azores)",
-			"tipo": "frente",
-			"desde": 1587,
-			"hasta": 1597,
-			"poligono": [
-				[
-					43.8,
-					-9.5
-				],
-				[
-					43.5,
-					-8
-				],
-				[
-					38,
-					-6
-				],
-				[
-					36.3,
-					-6.5
-				],
-				[
-					36.5,
-					-9
-				],
-				[
-					41,
-					-9.8
-				]
-			],
-			"mar": true
-		},
-		{
-			"nombre": "Irlanda (Kinsale)",
-			"tipo": "frente",
-			"desde": 1601,
-			"hasta": 1602,
-			"poligono": [
-				[
-					52.2,
-					-9.5
-				],
-				[
-					52.2,
-					-7.8
-				],
-				[
-					51.5,
-					-7.9
-				],
-				[
-					51.5,
-					-9.6
-				]
-			]
-		}
-	],
-	"wiki": "Guerra anglo-española (1585-1604)",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra anglo-española (1585-1604)",

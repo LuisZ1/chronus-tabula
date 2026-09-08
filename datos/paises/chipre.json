@@ -6,28 +6,10 @@
 		"Chipre",
 		"Republica de Chipre"
 	],
-	"wikidata": "Q229",
 	"wiki": "es:Chipre",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q229",
-			"url": "https://www.wikidata.org/wiki/Q229",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Chipre",
-			"url": "https://es.wikipedia.org/wiki/Chipre",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q229",
 	"owid": "CYP",
+	"resena": "Chipre, oficialmente la República de Chipre es un país insular en el Mediterráneo oriental y el único miembro asiático de los veintisiete Estados soberanos que conforman la Unión Europea. Está situado en la isla homónima y su forma de gobierno es la república presidencialista.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 1344981
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q229",
+			"url": "https://www.wikidata.org/wiki/Q229",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Chipre",
+			"url": "https://es.wikipedia.org/wiki/Chipre",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Chipre, oficialmente la República de Chipre es un país insular en el Mediterráneo oriental y el único miembro asiático de los veintisiete Estados soberanos que conforman la Unión Europea. Está situado en la isla homónima y su forma de gobierno es la república presidencialista."
+	}
 }

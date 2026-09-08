@@ -4,28 +4,10 @@
 	"nombres": [
 		"Hong Kong"
 	],
-	"wikidata": "Q8646",
 	"wiki": "es:Hong Kong",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q8646",
-			"url": "https://www.wikidata.org/wiki/Q8646",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Hong Kong",
-			"url": "https://es.wikipedia.org/wiki/Hong_Kong",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q8646",
 	"owid": "HKG",
+	"resena": "Hong Kong, oficialmente Región Administrativa Especial de Hong Kong de la República Popular China, es una de las dos regiones administrativas especiales que existen en la República Popular China, junto con Macao.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 7442738
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q8646",
+			"url": "https://www.wikidata.org/wiki/Q8646",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Hong Kong",
+			"url": "https://es.wikipedia.org/wiki/Hong_Kong",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Hong Kong, oficialmente Región Administrativa Especial de Hong Kong de la República Popular China, es una de las dos regiones administrativas especiales que existen en la República Popular China, junto con Macao."
+	}
 }

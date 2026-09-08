@@ -4,28 +4,10 @@
 	"nombres": [
 		"Guyana"
 	],
-	"wikidata": "Q734",
 	"wiki": "es:Guyana",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q734",
-			"url": "https://www.wikidata.org/wiki/Q734",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Guyana",
-			"url": "https://es.wikipedia.org/wiki/Guyana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q734",
 	"owid": "GUY",
+	"resena": "Guyana, oficialmente la República Cooperativa de Guyana, es un país ubicado en la costa norte de América del Sur y el Caribe, miembro de la Unasur, CELAC y miembro asociado del Mercosur. Georgetown es la capital de Guyana y también es la ciudad más grande del país.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 826357
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q734",
+			"url": "https://www.wikidata.org/wiki/Q734",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Guyana",
+			"url": "https://es.wikipedia.org/wiki/Guyana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Guyana, oficialmente la República Cooperativa de Guyana, es un país ubicado en la costa norte de América del Sur y el Caribe, miembro de la Unasur, CELAC y miembro asociado del Mercosur. Georgetown es la capital de Guyana y también es la ciudad más grande del país."
+	}
 }

@@ -1,9 +1,9 @@
 {
 	"nombre": "Pirámide escalonada de Saqqara",
 	"anio": -2650,
+	"categoria": "invento",
 	"lat": 29.87,
 	"lng": 31.22,
-	"categoria": "invento",
 	"paises": [
 		"Egipto"
 	],

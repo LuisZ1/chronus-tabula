@@ -44,8 +44,8 @@
 			"anio": 70,
 			"lat": 31.78,
 			"lng": 35.22,
-			"bajas": "cientos de miles de muertos",
-			"descripcion": "Tito toma la ciudad y destruye el Segundo Templo."
+			"descripcion": "Tito toma la ciudad y destruye el Segundo Templo.",
+			"bajas": "cientos de miles de muertos"
 		},
 		{
 			"nombre": "Sitio de Masada",

@@ -14,208 +14,7 @@
 	],
 	"bajas": "~3.500.000-6.000.000 de muertos",
 	"descripcion": "Napoleón domina Europa hasta su derrota final en Waterloo. Incluye la Guerra de la Independencia Española (1808-1814).",
-	"batallas": [
-		{
-			"nombre": "Raid on Boulogne",
-			"anio": 1804,
-			"lat": 50.73,
-			"lng": 1.61
-		},
-		{
-			"nombre": "Batalla de Trafalgar",
-			"anio": 1805,
-			"lat": 36.18,
-			"lng": -6.03,
-			"bajas": "~4.500 muertos francoespañoles",
-			"descripcion": "Nelson destruye la flota francoespañola; muere en combate."
-		},
-		{
-			"nombre": "Batalla de Austerlitz",
-			"anio": 1805,
-			"lat": 49.13,
-			"lng": 16.76,
-			"bajas": "~25.000 bajas aliadas",
-			"descripcion": "La 'batalla de los tres emperadores', obra maestra de Napoleón."
-		},
-		{
-			"nombre": "Batalla del Cabo Ortegal",
-			"anio": 1805,
-			"lat": 43.82,
-			"lng": -7.86
-		},
-		{
-			"nombre": "Batalla de Dürenstein",
-			"anio": 1805,
-			"lat": 48.39,
-			"lng": 15.52
-		},
-		{
-			"nombre": "Batalla de Golymin",
-			"anio": 1806,
-			"lat": 52.82,
-			"lng": 20.87
-		},
-		{
-			"nombre": "Batalla de Pułtusk",
-			"anio": 1806,
-			"lat": 52.71,
-			"lng": 21.07
-		},
-		{
-			"nombre": "batalla de Heilsberg",
-			"anio": 1807,
-			"lat": 54.12,
-			"lng": 20.58
-		},
-		{
-			"nombre": "Batalla de Athos",
-			"anio": 1807,
-			"lat": 40.07,
-			"lng": 24.93
-		},
-		{
-			"nombre": "Batalla de Bailén",
-			"anio": 1808,
-			"lat": 38.1,
-			"lng": -3.78,
-			"bajas": "~2.500 franceses muertos y 17.000 prisioneros",
-			"descripcion": "Primera derrota en campo abierto de un ejército napoleónico, ante el general Castaños."
-		},
-		{
-			"nombre": "Levantamiento del 2 de mayo",
-			"anio": 1808,
-			"lat": 40.42,
-			"lng": -3.71,
-			"descripcion": "Madrid se alza contra las tropas de Murat; los fusilamientos del 3 de mayo los pintó Goya."
-		},
-		{
-			"nombre": "Sitios de Zaragoza",
-			"anio": 1808,
-			"lat": 41.65,
-			"lng": -0.88,
-			"bajas": "~50.000 muertos, la mayoría civiles",
-			"descripcion": "«Guerra a cuchillo»: la resistencia de Palafox asombra a Europa."
-		},
-		{
-			"nombre": "Acción del 10 de noviembre de 1808",
-			"anio": 1808,
-			"lat": 45.14,
-			"lng": -1.5
-		},
-		{
-			"nombre": "Batalla de Sandöström",
-			"anio": 1808,
-			"lat": 60.21,
-			"lng": 22.51
-		},
-		{
-			"nombre": "Batalla de Grönvikssund",
-			"anio": 1808,
-			"lat": 60.5,
-			"lng": 21.42
-		},
-		{
-			"nombre": "Battle of the Procida Canal",
-			"anio": 1809,
-			"lat": 40.77,
-			"lng": 14.03
-		},
-		{
-			"nombre": "Acción del 15 Noviembre 1810",
-			"anio": 1810,
-			"lat": 49.59,
-			"lng": -1.26
-		},
-		{
-			"nombre": "Batalla de Lissa",
-			"anio": 1811,
-			"lat": 43.09,
-			"lng": 16.17
-		},
-		{
-			"nombre": "Acción del 24 Marzo 1811",
-			"anio": 1811,
-			"lat": 49.69,
-			"lng": -1.28
-		},
-		{
-			"nombre": "Batalla de Borodinó",
-			"anio": 1812,
-			"lat": 55.52,
-			"lng": 35.82,
-			"bajas": "~70.000 muertos y heridos en un día",
-			"descripcion": "Sangrienta batalla a las puertas de Moscú durante la invasión de Rusia."
-		},
-		{
-			"nombre": "Batalla de Grado",
-			"anio": 1812,
-			"lat": 45.6,
-			"lng": 13.5
-		},
-		{
-			"nombre": "Batalla de Wolkowisk",
-			"anio": 1812,
-			"lat": 53.17,
-			"lng": 24.47
-		},
-		{
-			"nombre": "batalla de Smolensk",
-			"anio": 1812,
-			"lat": 54.78,
-			"lng": 32.05
-		},
-		{
-			"nombre": "batalla de Vilna (1812)",
-			"anio": 1812,
-			"lat": 54.68,
-			"lng": 25.28
-		},
-		{
-			"nombre": "Batalla de Krasnoi",
-			"anio": 1812,
-			"lat": 54.56,
-			"lng": 31.43
-		},
-		{
-			"nombre": "Batalla de Vitoria",
-			"anio": 1813,
-			"lat": 42.85,
-			"lng": -2.67,
-			"descripcion": "Wellington expulsa a José I; el botín francés queda esparcido por el campo."
-		},
-		{
-			"nombre": "Acción del 5 Noviembre 1813",
-			"anio": 1813,
-			"lat": 43.05,
-			"lng": 5.98
-		},
-		{
-			"nombre": "Batalla de Leipzig",
-			"anio": 1813,
-			"lat": 51.31,
-			"lng": 12.41
-		},
-		{
-			"nombre": "Batalla de Craonne",
-			"anio": 1814,
-			"lat": 49.44,
-			"lng": 3.72
-		},
-		{
-			"nombre": "Batalla de Craonne",
-			"anio": 1814,
-			"lat": 49.44,
-			"lng": 3.72
-		},
-		{
-			"nombre": "Batalla de Waterloo",
-			"anio": 1815,
-			"lat": 50.68,
-			"lng": 4.41,
-			"bajas": "~47.000 muertos y heridos",
-			"descripcion": "Wellington y Blücher derrotan definitivamente a Napoleón."
-		}
-	],
+	"wiki": "Guerras napoleónicas",
 	"zonas": [
 		{
 			"nombre": "Centroeuropa (Austerlitz, Jena)",
@@ -252,6 +51,7 @@
 		{
 			"nombre": "Trafalgar y bloqueo naval",
 			"tipo": "frente",
+			"mar": true,
 			"desde": 1805,
 			"hasta": 1806,
 			"poligono": [
@@ -271,8 +71,7 @@
 					35.9,
 					-7.5
 				]
-			],
-			"mar": true
+			]
 		},
 		{
 			"nombre": "Guerra de la Independencia Española",
@@ -443,7 +242,208 @@
 			]
 		}
 	],
-	"wiki": "Guerras napoleónicas",
+	"batallas": [
+		{
+			"nombre": "Raid on Boulogne",
+			"anio": 1804,
+			"lat": 50.73,
+			"lng": 1.61
+		},
+		{
+			"nombre": "Batalla de Austerlitz",
+			"anio": 1805,
+			"lat": 49.13,
+			"lng": 16.76,
+			"descripcion": "La 'batalla de los tres emperadores', obra maestra de Napoleón.",
+			"bajas": "~25.000 bajas aliadas"
+		},
+		{
+			"nombre": "Batalla de Dürenstein",
+			"anio": 1805,
+			"lat": 48.39,
+			"lng": 15.52
+		},
+		{
+			"nombre": "Batalla de Trafalgar",
+			"anio": 1805,
+			"lat": 36.18,
+			"lng": -6.03,
+			"descripcion": "Nelson destruye la flota francoespañola; muere en combate.",
+			"bajas": "~4.500 muertos francoespañoles"
+		},
+		{
+			"nombre": "Batalla del Cabo Ortegal",
+			"anio": 1805,
+			"lat": 43.82,
+			"lng": -7.86
+		},
+		{
+			"nombre": "Batalla de Golymin",
+			"anio": 1806,
+			"lat": 52.82,
+			"lng": 20.87
+		},
+		{
+			"nombre": "Batalla de Pułtusk",
+			"anio": 1806,
+			"lat": 52.71,
+			"lng": 21.07
+		},
+		{
+			"nombre": "Batalla de Athos",
+			"anio": 1807,
+			"lat": 40.07,
+			"lng": 24.93
+		},
+		{
+			"nombre": "batalla de Heilsberg",
+			"anio": 1807,
+			"lat": 54.12,
+			"lng": 20.58
+		},
+		{
+			"nombre": "Acción del 10 de noviembre de 1808",
+			"anio": 1808,
+			"lat": 45.14,
+			"lng": -1.5
+		},
+		{
+			"nombre": "Batalla de Bailén",
+			"anio": 1808,
+			"lat": 38.1,
+			"lng": -3.78,
+			"descripcion": "Primera derrota en campo abierto de un ejército napoleónico, ante el general Castaños.",
+			"bajas": "~2.500 franceses muertos y 17.000 prisioneros"
+		},
+		{
+			"nombre": "Batalla de Grönvikssund",
+			"anio": 1808,
+			"lat": 60.5,
+			"lng": 21.42
+		},
+		{
+			"nombre": "Batalla de Sandöström",
+			"anio": 1808,
+			"lat": 60.21,
+			"lng": 22.51
+		},
+		{
+			"nombre": "Levantamiento del 2 de mayo",
+			"anio": 1808,
+			"lat": 40.42,
+			"lng": -3.71,
+			"descripcion": "Madrid se alza contra las tropas de Murat; los fusilamientos del 3 de mayo los pintó Goya."
+		},
+		{
+			"nombre": "Sitios de Zaragoza",
+			"anio": 1808,
+			"lat": 41.65,
+			"lng": -0.88,
+			"descripcion": "«Guerra a cuchillo»: la resistencia de Palafox asombra a Europa.",
+			"bajas": "~50.000 muertos, la mayoría civiles"
+		},
+		{
+			"nombre": "Battle of the Procida Canal",
+			"anio": 1809,
+			"lat": 40.77,
+			"lng": 14.03
+		},
+		{
+			"nombre": "Acción del 15 Noviembre 1810",
+			"anio": 1810,
+			"lat": 49.59,
+			"lng": -1.26
+		},
+		{
+			"nombre": "Acción del 24 Marzo 1811",
+			"anio": 1811,
+			"lat": 49.69,
+			"lng": -1.28
+		},
+		{
+			"nombre": "Batalla de Lissa",
+			"anio": 1811,
+			"lat": 43.09,
+			"lng": 16.17
+		},
+		{
+			"nombre": "Batalla de Borodinó",
+			"anio": 1812,
+			"lat": 55.52,
+			"lng": 35.82,
+			"descripcion": "Sangrienta batalla a las puertas de Moscú durante la invasión de Rusia.",
+			"bajas": "~70.000 muertos y heridos en un día"
+		},
+		{
+			"nombre": "Batalla de Grado",
+			"anio": 1812,
+			"lat": 45.6,
+			"lng": 13.5
+		},
+		{
+			"nombre": "Batalla de Krasnoi",
+			"anio": 1812,
+			"lat": 54.56,
+			"lng": 31.43
+		},
+		{
+			"nombre": "Batalla de Wolkowisk",
+			"anio": 1812,
+			"lat": 53.17,
+			"lng": 24.47
+		},
+		{
+			"nombre": "batalla de Smolensk",
+			"anio": 1812,
+			"lat": 54.78,
+			"lng": 32.05
+		},
+		{
+			"nombre": "batalla de Vilna (1812)",
+			"anio": 1812,
+			"lat": 54.68,
+			"lng": 25.28
+		},
+		{
+			"nombre": "Acción del 5 Noviembre 1813",
+			"anio": 1813,
+			"lat": 43.05,
+			"lng": 5.98
+		},
+		{
+			"nombre": "Batalla de Leipzig",
+			"anio": 1813,
+			"lat": 51.31,
+			"lng": 12.41
+		},
+		{
+			"nombre": "Batalla de Vitoria",
+			"anio": 1813,
+			"lat": 42.85,
+			"lng": -2.67,
+			"descripcion": "Wellington expulsa a José I; el botín francés queda esparcido por el campo."
+		},
+		{
+			"nombre": "Batalla de Craonne",
+			"anio": 1814,
+			"lat": 49.44,
+			"lng": 3.72
+		},
+		{
+			"nombre": "Batalla de Craonne",
+			"anio": 1814,
+			"lat": 49.44,
+			"lng": 3.72
+		},
+		{
+			"nombre": "Batalla de Waterloo",
+			"anio": 1815,
+			"lat": 50.68,
+			"lng": 4.41,
+			"descripcion": "Wellington y Blücher derrotan definitivamente a Napoleón.",
+			"bajas": "~47.000 muertos y heridos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerras napoleónicas",

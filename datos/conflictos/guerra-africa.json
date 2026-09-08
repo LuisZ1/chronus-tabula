@@ -10,17 +10,6 @@
 	"bajas": "~10.000 muertos, la mayoría por el cólera",
 	"descripcion": "La campaña de O'Donnell y Prim en Marruecos, celebrada como gesta nacional; España toma Tetuán.",
 	"wiki": "Guerra de África (1859-1860)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de África (1859-1860)",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_África_(1859-1860)",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Entre Ceuta y Tetuán",
@@ -52,6 +41,17 @@
 			"lat": 35.57,
 			"lng": -5.37,
 			"descripcion": "Prim y los voluntarios catalanes deciden la toma de la ciudad."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de África (1859-1860)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_África_(1859-1860)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

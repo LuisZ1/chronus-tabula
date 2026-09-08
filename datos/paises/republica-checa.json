@@ -6,28 +6,10 @@
 		"República Checa",
 		"Chequia"
 	],
-	"wikidata": "Q213",
 	"wiki": "es:República Checa",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q213",
-			"url": "https://www.wikidata.org/wiki/Q213",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): República Checa",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Checa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q213",
 	"owid": "CZE",
+	"resena": "La República Checa, también conocida como Chequia, es un país soberano de Europa Central sin litoral. Limita con Alemania al oeste, con Austria al sur, con Eslovaquia al este y con Polonia al norte.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 10809722
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q213",
+			"url": "https://www.wikidata.org/wiki/Q213",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): República Checa",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Checa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La República Checa, también conocida como Chequia, es un país soberano de Europa Central sin litoral. Limita con Alemania al oeste, con Austria al sur, con Eslovaquia al este y con Polonia al norte."
+	}
 }

@@ -3,11 +3,11 @@
 	"anio": 1492,
 	"lat": 24.06,
 	"lng": -74.48,
-	"descripcion": "Colón llega a Guanahaní el 12 de octubre de 1492.",
-	"wiki": "Descubrimiento de América",
 	"paises": [
 		"España"
 	],
+	"descripcion": "Colón llega a Guanahaní el 12 de octubre de 1492.",
+	"wiki": "Descubrimiento de América",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Descubrimiento de América",

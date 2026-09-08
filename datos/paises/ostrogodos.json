@@ -5,12 +5,13 @@
 		"Ostrogoths"
 	],
 	"wiki": "Reino ostrogodo",
+	"resena": "El reino ostrogodo de Italia fue una entidad política, un reino bárbaro nominalmente parte del Imperio romano, fundado por ostrogodos germánicos y que controló los territorios de la prefectura del pretorio de Italia entre 493 y 553. Sus límites aproximados iban desde la Provenza hasta Iliria.",
 	"gobernantes": [
 		{
-			"desde": 493,
-			"hasta": 526,
 			"nombre": "Teodorico el Grande",
-			"titulo": "Rey de los ostrogodos e Italia"
+			"titulo": "Rey de los ostrogodos e Italia",
+			"desde": 493,
+			"hasta": 526
 		}
 	],
 	"fuentes": [
@@ -27,7 +28,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El reino ostrogodo de Italia fue una entidad política, un reino bárbaro nominalmente parte del Imperio romano, fundado por ostrogodos germánicos y que controló los territorios de la prefectura del pretorio de Italia entre 493 y 553. Sus límites aproximados iban desde la Provenza hasta Iliria.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

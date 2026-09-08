@@ -1,20 +1,10 @@
 {
 	"nombre": "Dinastía Shang",
 	"pais": "Dinastía Shang",
-	"lat": 36.1,
-	"lng": 114.35,
 	"desde": -1600,
 	"hasta": -1046,
-	"descripcion": "Primera dinastía china documentada; capital final en Yin (Anyang). Fundada por Cheng Tang; su bronce ritual y los huesos oraculares son las primeras muestras de escritura china. El último rey, Di Xin, cae ante los Zhou en Muye (1046 a. C.).",
-	"wiki": "Dinastía Shang",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Dinastía Shang",
-			"url": "https://es.wikipedia.org/wiki/Dinastía_Shang",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
+	"lat": 36.1,
+	"lng": 114.35,
 	"poligono": [
 		[
 			38.3,
@@ -40,5 +30,15 @@
 			35.4,
 			111.2
 		]
+	],
+	"descripcion": "Primera dinastía china documentada; capital final en Yin (Anyang). Fundada por Cheng Tang; su bronce ritual y los huesos oraculares son las primeras muestras de escritura china. El último rey, Di Xin, cae ante los Zhou en Muye (1046 a. C.).",
+	"wiki": "Dinastía Shang",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Shang",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Shang",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
 	]
 }

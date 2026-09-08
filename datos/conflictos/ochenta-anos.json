@@ -12,41 +12,6 @@
 	"bajas": "~600.000-700.000 muertos",
 	"descripcion": "La rebelión de los Países Bajos contra Felipe II se convierte en una guerra de ochenta años que desangra a la monarquía hispánica; la Paz de Westfalia reconoce la independencia holandesa.",
 	"wiki": "Guerra de los Ochenta Años",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de los Ochenta Años",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Ochenta_Años",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		},
-		{
-			"id": "wikidata:Q976820",
-			"url": "https://www.wikidata.org/wiki/Q976820",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q1411470",
-			"url": "https://www.wikidata.org/wiki/Q1411470",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q14855684",
-			"url": "https://www.wikidata.org/wiki/Q14855684",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q744588",
-			"url": "https://www.wikidata.org/wiki/Q744588",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Flandes y Brabante",
@@ -173,14 +138,49 @@
 			"anio": 1639,
 			"lat": 51.15,
 			"lng": 1.55,
-			"bajas": "~7.000 bajas españolas",
-			"descripcion": "Los holandeses destruyen la última gran armada española."
+			"descripcion": "Los holandeses destruyen la última gran armada española.",
+			"bajas": "~7.000 bajas españolas"
 		},
 		{
 			"nombre": "batalla de Newburn",
 			"anio": 1640,
 			"lat": 54.98,
 			"lng": -1.75
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de los Ochenta Años",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Ochenta_Años",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q976820",
+			"url": "https://www.wikidata.org/wiki/Q976820",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1411470",
+			"url": "https://www.wikidata.org/wiki/Q1411470",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q14855684",
+			"url": "https://www.wikidata.org/wiki/Q14855684",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q744588",
+			"url": "https://www.wikidata.org/wiki/Q744588",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

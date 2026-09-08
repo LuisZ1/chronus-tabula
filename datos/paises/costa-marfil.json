@@ -7,41 +7,6 @@
 		"Côte d'Ivoire",
 		"República de Costa de Marfil"
 	],
-	"wiki": "es:Costa de Marfil",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ivory_Coast",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-demo",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Ivory_Coast",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1008",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Costa de Marfil",
-			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q1008",
-			"url": "https://www.wikidata.org/wiki/Q1008",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "República de Costa de Marfil",
@@ -49,37 +14,39 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Costa de Marfil",
 	"wikidata": "Q1008",
+	"resena": "Costa de Marfil, oficialmente República de Costa de Marfil, es un país ubicado en África occidental. Limita con Liberia y Guinea al oeste, con Malí al noroeste, con Burkina Faso al noreste, con Ghana al este y posee costa en el golfo de Guinea por el sur.",
 	"gobernantes": [
 		{
 			"nombre": "Félix Houphouët-Boigny",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1993,
-			"cargo": "Presidente"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Henri Konan Bédié",
+			"cargo": "Presidente",
 			"desde": 1993,
-			"hasta": 1999,
-			"cargo": "Presidente"
+			"hasta": 1999
 		},
 		{
 			"nombre": "Robert Guéï",
+			"cargo": "Presidente (junta militar)",
 			"desde": 1999,
-			"hasta": 2000,
-			"cargo": "Presidente (junta militar)"
+			"hasta": 2000
 		},
 		{
 			"nombre": "Laurent Gbagbo",
+			"cargo": "Presidente",
 			"desde": 2000,
-			"hasta": 2011,
-			"cargo": "Presidente"
+			"hasta": 2011
 		},
 		{
 			"nombre": "Alassane Ouattara",
+			"cargo": "Presidente",
 			"desde": 2010,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -119,6 +86,45 @@
 			"fuente": "ONU - WPP 2022"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Ivory Coast (2).svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ivory_Coast",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Ivory_Coast",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1008",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Costa de Marfil",
+			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1008",
+			"url": "https://www.wikidata.org/wiki/Q1008",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -132,11 +138,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Costa de Marfil, oficialmente República de Costa de Marfil, es un país ubicado en África occidental. Limita con Liberia y Guinea al oeste, con Malí al noroeste, con Burkina Faso al noreste, con Ghana al este y posee costa en el golfo de Guinea por el sur.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Ivory Coast (2).svg"
-		}
-	]
+	}
 }

@@ -6,12 +6,13 @@
 		"Khitans"
 	],
 	"wiki": "Dinastía Liao",
+	"resena": "La dinastía Liao, 907-1125, también conocida como Imperio kitán fue una dinastía china, de origen extranjero, que gobernó gran parte del nordeste del territorio chino actual. Los kitán, uno de los grupos étnicos tunguses que habitaban hace siglos en la actual Manchuria, fundaron en el año 907 un estado que recibió inicialmente el nombre de Estado Kitán.",
 	"gobernantes": [
 		{
-			"desde": 916,
-			"hasta": 926,
 			"nombre": "Yelü Abaoji",
-			"titulo": "Taizu; funda el imperio kitán (Liao)"
+			"titulo": "Taizu; funda el imperio kitán (Liao)",
+			"desde": 916,
+			"hasta": 926
 		}
 	],
 	"fuentes": [
@@ -28,7 +29,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La dinastía Liao, 907-1125, también conocida como Imperio kitán fue una dinastía china, de origen extranjero, que gobernó gran parte del nordeste del territorio chino actual. Los kitán, uno de los grupos étnicos tunguses que habitaban hace siglos en la actual Manchuria, fundaron en el año 907 un estado que recibió inicialmente el nombre de Estado Kitán.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

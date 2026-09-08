@@ -4,28 +4,10 @@
 	"nombres": [
 		"Samoa"
 	],
-	"wikidata": "Q683",
 	"wiki": "es:Samoa",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q683",
-			"url": "https://www.wikidata.org/wiki/Q683",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Samoa",
-			"url": "https://es.wikipedia.org/wiki/Samoa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q683",
 	"owid": "WSM",
+	"resena": "Samoa, oficialmente Estado Independiente de Samoa, es un país soberano insular de Oceanía integrado dentro de la Polinesia. Su capital y ciudad más poblada es Apia, en la isla de Upolu.",
 	"poblacion": [
 		{
 			"anio": 0,
@@ -168,6 +150,25 @@
 			"valor": 216673
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q683",
+			"url": "https://www.wikidata.org/wiki/Q683",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Samoa",
+			"url": "https://es.wikipedia.org/wiki/Samoa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -177,6 +178,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Samoa, oficialmente Estado Independiente de Samoa, es un país soberano insular de Oceanía integrado dentro de la Polinesia. Su capital y ciudad más poblada es Apia, en la isla de Upolu."
+	}
 }

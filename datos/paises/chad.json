@@ -5,41 +5,6 @@
 		"Chad",
 		"República del Chad"
 	],
-	"wiki": "es:Chad",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Chad",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q657",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Chad",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "demografia",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Chad",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Chad",
-			"url": "https://es.wikipedia.org/wiki/Chad",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q657",
-			"url": "https://www.wikidata.org/wiki/Q657",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Chad francés (África Ecuatorial Francesa)",
@@ -52,79 +17,81 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Chad",
 	"wikidata": "Q657",
+	"resena": "Chad, cuyo nombre oficial es República del Chad, es un país sin litoral ubicado en África Central. Limita con Libia al norte, con Sudán al este, con la República Centroafricana al sur, Camerún y Nigeria al suroeste y con Níger al oeste.",
 	"gobernantes": [
 		{
 			"nombre": "Dinastía Sayfawa (Imperio de Kanem-Bornu)",
+			"cargo": "Mai (soberanos del Imperio de Kanem-Bornu)",
 			"desde": 900,
-			"hasta": 1846,
-			"cargo": "Mai (soberanos del Imperio de Kanem-Bornu)"
-		},
-		{
-			"nombre": "Idris Alooma",
-			"desde": 1564,
-			"hasta": 1596,
-			"cargo": "Mai del Imperio de Kanem-Bornu"
-		},
-		{
-			"nombre": "Sultanato de Ouaddai",
-			"desde": 1635,
-			"hasta": 1912,
-			"cargo": "Sultanato precolonial"
+			"hasta": 1846
 		},
 		{
 			"nombre": "Reino de Baguirmi",
+			"cargo": "Reino precolonial",
 			"desde": 1522,
-			"hasta": 1897,
-			"cargo": "Reino precolonial"
+			"hasta": 1897
+		},
+		{
+			"nombre": "Idris Alooma",
+			"cargo": "Mai del Imperio de Kanem-Bornu",
+			"desde": 1564,
+			"hasta": 1596
+		},
+		{
+			"nombre": "Sultanato de Ouaddai",
+			"cargo": "Sultanato precolonial",
+			"desde": 1635,
+			"hasta": 1912
 		},
 		{
 			"nombre": "Rabih az-Zubayr",
+			"cargo": "Caudillo conquistador",
 			"desde": 1893,
-			"hasta": 1900,
-			"cargo": "Caudillo conquistador"
+			"hasta": 1900
 		},
 		{
 			"nombre": "François Tombalbaye",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1975,
-			"cargo": "Presidente"
+			"hasta": 1975
 		},
 		{
 			"nombre": "Noël Milarew Odingar",
+			"cargo": "Jefe de Estado interino",
 			"desde": 1975,
-			"hasta": 1975,
-			"cargo": "Jefe de Estado interino"
+			"hasta": 1975
 		},
 		{
 			"nombre": "Félix Malloum",
+			"cargo": "Presidente",
 			"desde": 1975,
-			"hasta": 1979,
-			"cargo": "Presidente"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Goukouni Oueddei",
+			"cargo": "Presidente (GUNT)",
 			"desde": 1979,
-			"hasta": 1982,
-			"cargo": "Presidente (GUNT)"
+			"hasta": 1982
 		},
 		{
 			"nombre": "Hissène Habré",
+			"cargo": "Presidente",
 			"desde": 1982,
-			"hasta": 1990,
-			"cargo": "Presidente"
+			"hasta": 1990
 		},
 		{
 			"nombre": "Idriss Déby",
+			"cargo": "Presidente",
 			"desde": 1990,
-			"hasta": 2021,
-			"cargo": "Presidente"
+			"hasta": 2021
 		},
 		{
 			"nombre": "Mahamat Déby",
+			"cargo": "Presidente (de transición y luego electo)",
 			"desde": 2021,
-			"hasta": 2026,
-			"cargo": "Presidente (de transición y luego electo)"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -159,11 +126,50 @@
 			"fuente": "ONU (World Population Prospects)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Chad.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Chad",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q657",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Chad",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Chad",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Chad",
+			"url": "https://es.wikipedia.org/wiki/Chad",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q657",
+			"url": "https://www.wikidata.org/wiki/Q657",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "aa2a19493040",
+		"hash": "7ef9bb1f576a",
 		"secciones": [
 			"escudos",
 			"fuentes",
@@ -172,11 +178,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Chad, cuyo nombre oficial es República del Chad, es un país sin litoral ubicado en África Central. Limita con Libia al norte, con Sudán al este, con la República Centroafricana al sur, Camerún y Nigeria al suroeste y con Níger al oeste.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Chad.svg"
-		}
-	]
+	}
 }

@@ -4,28 +4,10 @@
 	"nombres": [
 		"Chile"
 	],
-	"wikidata": "Q298",
 	"wiki": "es:Chile",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q298",
-			"url": "https://www.wikidata.org/wiki/Q298",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Chile",
-			"url": "https://es.wikipedia.org/wiki/Chile",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q298",
 	"owid": "CHL",
+	"resena": "Chile, oficialmente República de Chile, es un Estado soberano ubicado en el extremo sudoeste de América del Sur. Adopta la forma de gobierno republicana, democrática, presidencialista y unitaria.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 19658833
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q298",
+			"url": "https://www.wikidata.org/wiki/Q298",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Chile",
+			"url": "https://es.wikipedia.org/wiki/Chile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Chile, oficialmente República de Chile, es un Estado soberano ubicado en el extremo sudoeste de América del Sur. Adopta la forma de gobierno republicana, democrática, presidencialista y unitaria."
+	}
 }

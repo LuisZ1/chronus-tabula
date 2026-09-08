@@ -5,28 +5,10 @@
 		"Pakistan",
 		"Pakistán"
 	],
-	"wikidata": "Q843",
 	"wiki": "es:Pakistán",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q843",
-			"url": "https://www.wikidata.org/wiki/Q843",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Pakistán",
-			"url": "https://es.wikipedia.org/wiki/Pakist%C3%A1n",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q843",
 	"owid": "PAK",
+	"resena": "Pakistán o Paquistán, oficialmente República Islámica de Pakistán, es un Estado soberano de Asia ubicado en Oriente Medio y el subcontinente indio que comparte fronteras con Afganistán al norte y noroeste, con Irán al oeste, con la India al este y con China al noreste, mientras que hacia el sur posee unos 1046 km de costa bañada por el mar Arábigo y el golfo…",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 247504505
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q843",
+			"url": "https://www.wikidata.org/wiki/Q843",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Pakistán",
+			"url": "https://es.wikipedia.org/wiki/Pakist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Pakistán o Paquistán, oficialmente República Islámica de Pakistán, es un Estado soberano de Asia ubicado en Oriente Medio y el subcontinente indio que comparte fronteras con Afganistán al norte y noroeste, con Irán al oeste, con la India al este y con China al noreste, mientras que hacia el sur posee unos 1046 km de costa bañada por el mar Arábigo y el golfo…"
+	}
 }

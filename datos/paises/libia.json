@@ -9,8 +9,173 @@
 		"Yamahiriya Árabe Libia",
 		"Estado de Libia"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Tripolitania otomana (dominio otomano)",
+			"desde": 1551,
+			"hasta": 1911
+		},
+		{
+			"nombre": "Libia italiana",
+			"desde": 1911,
+			"hasta": 1943
+		},
+		{
+			"nombre": "Reino de Libia",
+			"desde": 1951,
+			"hasta": 1969
+		},
+		{
+			"nombre": "República Árabe Libia",
+			"desde": 1969,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Yamahiriya Árabe Libia Popular y Socialista",
+			"desde": 1977,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Estado de Libia",
+			"desde": 2011,
+			"hasta": 2026
+		}
+	],
 	"wiki": "es:Libia",
 	"wikidata": "Q1016",
+	"resena": "Libia, oficialmente el Estado de Libia, es un país soberano republicano del norte de África. Su capital es Trípoli.",
+	"gobernantes": [
+		{
+			"nombre": "Imperio otomano",
+			"cargo": "Dominio otomano (Tripolitania)",
+			"desde": 1551,
+			"hasta": 1911
+		},
+		{
+			"nombre": "Reino de Italia",
+			"cargo": "Administración colonial (Libia italiana)",
+			"desde": 1911,
+			"hasta": 1943
+		},
+		{
+			"nombre": "Idris I",
+			"cargo": "Rey de Libia",
+			"desde": 1951,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Muamar el Gadafi",
+			"cargo": "Jefe de Estado de facto / Líder de la Revolución",
+			"desde": 1969,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Mustafa Abdul Jalil",
+			"cargo": "Presidente del Consejo Nacional de Transición",
+			"desde": 2011,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Mohammed Magariaf",
+			"cargo": "Presidente del Congreso Nacional General",
+			"desde": 2012,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Nouri Abusahmain",
+			"cargo": "Presidente del Congreso Nacional General",
+			"desde": 2013,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Aguilah Issa",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Fayez al-Sarraj",
+			"cargo": "Presidente del Consejo Presidencial (GNA)",
+			"desde": 2016,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Abdul Hamid Dabaiba",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Mohamed Menfi",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Mohamed al-Menfi",
+			"cargo": "Presidente del Consejo Presidencial",
+			"desde": 2021,
+			"hasta": 2026
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 1428435,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 2075651,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 3078255,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 4259811,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 5176185,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 6040612,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2024,
+			"valor": 7381023,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Libya (1969–1972).svg",
+			"desde": 1969,
+			"hasta": 1971
+		},
+		{
+			"archivo": "Coat of arms of Libya (1977–2011).svg",
+			"desde": 1977,
+			"hasta": 2011
+		},
+		{
+			"archivo": "Seal of the National Transitional Council (Libya, early version).svg",
+			"desde": 2011,
+			"hasta": 2011
+		},
+		{
+			"archivo": "Seal of the Government of National Unity (Libya).svg",
+			"desde": 2021
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -69,154 +234,11 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"nombres_periodo": [
-		{
-			"nombre": "Tripolitania otomana (dominio otomano)",
-			"desde": 1551,
-			"hasta": 1911
-		},
-		{
-			"nombre": "Libia italiana",
-			"desde": 1911,
-			"hasta": 1943
-		},
-		{
-			"nombre": "Reino de Libia",
-			"desde": 1951,
-			"hasta": 1969
-		},
-		{
-			"nombre": "República Árabe Libia",
-			"desde": 1969,
-			"hasta": 1977
-		},
-		{
-			"nombre": "Yamahiriya Árabe Libia Popular y Socialista",
-			"desde": 1977,
-			"hasta": 2011
-		},
-		{
-			"nombre": "Estado de Libia",
-			"desde": 2011,
-			"hasta": 2026
-		}
-	],
-	"gobernantes": [
-		{
-			"nombre": "Imperio otomano",
-			"desde": 1551,
-			"hasta": 1911,
-			"cargo": "Dominio otomano (Tripolitania)"
-		},
-		{
-			"nombre": "Reino de Italia",
-			"desde": 1911,
-			"hasta": 1943,
-			"cargo": "Administración colonial (Libia italiana)"
-		},
-		{
-			"nombre": "Idris I",
-			"desde": 1951,
-			"hasta": 1969,
-			"cargo": "Rey de Libia"
-		},
-		{
-			"nombre": "Muamar el Gadafi",
-			"desde": 1969,
-			"hasta": 2011,
-			"cargo": "Jefe de Estado de facto / Líder de la Revolución"
-		},
-		{
-			"nombre": "Mustafa Abdul Jalil",
-			"desde": 2011,
-			"hasta": 2012,
-			"cargo": "Presidente del Consejo Nacional de Transición"
-		},
-		{
-			"nombre": "Mohammed Magariaf",
-			"desde": 2012,
-			"hasta": 2013,
-			"cargo": "Presidente del Congreso Nacional General"
-		},
-		{
-			"nombre": "Nouri Abusahmain",
-			"desde": 2013,
-			"hasta": 2016,
-			"cargo": "Presidente del Congreso Nacional General"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2014,
-			"nombre": "Aguilah Issa",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"nombre": "Fayez al-Sarraj",
-			"desde": 2016,
-			"hasta": 2021,
-			"cargo": "Presidente del Consejo Presidencial (GNA)"
-		},
-		{
-			"nombre": "Mohamed al-Menfi",
-			"desde": 2021,
-			"hasta": 2026,
-			"cargo": "Presidente del Consejo Presidencial"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2021,
-			"nombre": "Abdul Hamid Dabaiba",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2021,
-			"nombre": "Mohamed Menfi",
-			"cargo": "jefe de Estado"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1960,
-			"valor": 1428435,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1970,
-			"valor": 2075651,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1980,
-			"valor": 3078255,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1990,
-			"valor": 4259811,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2000,
-			"valor": 5176185,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2010,
-			"valor": 6040612,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2024,
-			"valor": 7381023,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "9cc532c64cfe",
+		"hash": "296a39eed6e0",
 		"secciones": [
 			"escudos",
 			"fuentes",
@@ -225,27 +247,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Libia, oficialmente el Estado de Libia, es un país soberano republicano del norte de África. Su capital es Trípoli.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Libya (1969–1972).svg",
-			"desde": 1969,
-			"hasta": 1971
-		},
-		{
-			"archivo": "Coat of arms of Libya (1977–2011).svg",
-			"desde": 1977,
-			"hasta": 2011
-		},
-		{
-			"archivo": "Seal of the National Transitional Council (Libya, early version).svg",
-			"desde": 2011,
-			"hasta": 2011
-		},
-		{
-			"archivo": "Seal of the Government of National Unity (Libya).svg",
-			"desde": 2021
-		}
-	]
+	}
 }

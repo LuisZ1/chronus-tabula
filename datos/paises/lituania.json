@@ -6,28 +6,10 @@
 		"Lituania",
 		"Republica de Lituania"
 	],
-	"wikidata": "Q37",
 	"wiki": "es:Lituania",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q37",
-			"url": "https://www.wikidata.org/wiki/Q37",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Lituania",
-			"url": "https://es.wikipedia.org/wiki/Lituania",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q37",
 	"owid": "LTU",
+	"resena": "Lituania, oficialmente la República de Lituania, es uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido como un Estado social y democrático de derecho, cuya forma de gobierno es la república semipresidencialista unitaria. Su territorio está organizado en diez condados.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 2854104
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q37",
+			"url": "https://www.wikidata.org/wiki/Q37",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Lituania",
+			"url": "https://es.wikipedia.org/wiki/Lituania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Lituania, oficialmente la República de Lituania, es uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido como un Estado social y democrático de derecho, cuya forma de gobierno es la república semipresidencialista unitaria. Su territorio está organizado en diez condados."
+	}
 }

@@ -224,6 +224,14 @@ section.bloque .intro {
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	gap: 16px;
 }
+.rejilla.dos {
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+}
+.nota {
+	color: var(--tinta-suave);
+	max-width: 64ch;
+	margin: 20px 0 0;
+}
 .tarjeta {
 	background: var(--papel);
 	border: 1px solid var(--linea);

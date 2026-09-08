@@ -5,28 +5,10 @@
 		"Trinidad",
 		"Trinidad y Tobago"
 	],
-	"wikidata": "Q754",
 	"wiki": "es:Trinidad y Tobago",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q754",
-			"url": "https://www.wikidata.org/wiki/Q754",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Trinidad y Tobago",
-			"url": "https://es.wikipedia.org/wiki/Trinidad_y_Tobago",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q754",
 	"owid": "TTO",
+	"resena": "Trinidad y Tobago, oficialmente la República de Trinidad y Tobago, es un país soberano insular ubicado en el mar Caribe, en la región septentrional de América del Sur.",
 	"poblacion": [
 		{
 			"anio": 900,
@@ -133,6 +115,25 @@
 			"valor": 1502938
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q754",
+			"url": "https://www.wikidata.org/wiki/Q754",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Trinidad y Tobago",
+			"url": "https://es.wikipedia.org/wiki/Trinidad_y_Tobago",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -142,6 +143,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Trinidad y Tobago, oficialmente la República de Trinidad y Tobago, es un país soberano insular ubicado en el mar Caribe, en la región septentrional de América del Sur."
+	}
 }

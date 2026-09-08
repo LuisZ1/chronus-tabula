@@ -10,20 +10,6 @@
 	"bajas": "~1 millón de muertos",
 	"descripcion": "Sadam Huseín invade el Irán revolucionario esperando una victoria rápida: ocho años de guerra de trincheras, gas y «oleadas humanas» para volver a la frontera inicial.",
 	"wiki": "Guerra Irán-Irak",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra Irán-Irak",
-			"url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frente del Shatt al-Arab y Juzestán",
@@ -64,6 +50,20 @@
 			"lat": 29.98,
 			"lng": 48.47,
 			"descripcion": "Irán corta el acceso iraquí al Golfo durante dos años."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra Irán-Irak",
+			"url": "https://es.wikipedia.org/wiki/Guerra_Irán-Irak",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

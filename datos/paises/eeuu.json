@@ -5,288 +5,294 @@
 		"United States",
 		"United States of America"
 	],
+	"wikidata": "Q30",
+	"owid": "United States",
+	"relacionados": [
+		"Trece Colonias"
+	],
+	"resena": "Estados Unidos, oficialmente Estados Unidos de América, es una federación constituida en una república constitucional compuesta por cincuenta estados y un distrito federal. Su capital es Washington D.",
 	"gobernantes": [
 		{
-			"desde": 1789,
-			"hasta": 1797,
 			"nombre": "George Washington",
-			"titulo": "Presidente"
+			"titulo": "Presidente",
+			"desde": 1789,
+			"hasta": 1797
 		},
 		{
-			"desde": 1797,
-			"hasta": 1801,
 			"nombre": "John Adams",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1797,
+			"hasta": 1801
 		},
 		{
-			"desde": 1801,
-			"hasta": 1809,
 			"nombre": "Thomas Jefferson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1801,
+			"hasta": 1809
 		},
 		{
-			"desde": 1809,
-			"hasta": 1817,
 			"nombre": "James Madison",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1809,
+			"hasta": 1817
 		},
 		{
-			"desde": 1817,
-			"hasta": 1825,
 			"nombre": "James Monroe",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1817,
+			"hasta": 1825
 		},
 		{
-			"desde": 1825,
-			"hasta": 1829,
 			"nombre": "John Quincy Adams",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1825,
+			"hasta": 1829
 		},
 		{
-			"desde": 1829,
-			"hasta": 1837,
 			"nombre": "Andrew Jackson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1829,
+			"hasta": 1837
 		},
 		{
-			"desde": 1837,
-			"hasta": 1841,
 			"nombre": "Martin Van Buren",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1837,
+			"hasta": 1841
 		},
 		{
-			"desde": 1841,
-			"hasta": 1841,
 			"nombre": "William Henry Harrison",
-			"cargo": "jefe de gobierno"
-		},
-		{
+			"cargo": "jefe de gobierno",
 			"desde": 1841,
-			"hasta": 1845,
+			"hasta": 1841
+		},
+		{
 			"nombre": "John Tyler",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1841,
+			"hasta": 1845
 		},
 		{
-			"desde": 1845,
-			"hasta": 1849,
 			"nombre": "James K. Polk",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1845,
+			"hasta": 1849
 		},
 		{
-			"desde": 1849,
-			"hasta": 1850,
 			"nombre": "Zachary Taylor",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1849,
+			"hasta": 1850
 		},
 		{
-			"desde": 1850,
-			"hasta": 1853,
 			"nombre": "Millard Fillmore",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1850,
+			"hasta": 1853
 		},
 		{
-			"desde": 1853,
-			"hasta": 1857,
 			"nombre": "Franklin Pierce",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1853,
+			"hasta": 1857
 		},
 		{
-			"desde": 1857,
-			"hasta": 1861,
 			"nombre": "James Buchanan",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1857,
+			"hasta": 1861
 		},
 		{
-			"desde": 1861,
-			"hasta": 1865,
 			"nombre": "Abraham Lincoln",
-			"titulo": "Presidente"
+			"titulo": "Presidente",
+			"desde": 1861,
+			"hasta": 1865
 		},
 		{
-			"desde": 1865,
-			"hasta": 1869,
 			"nombre": "Andrew Johnson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1865,
+			"hasta": 1869
 		},
 		{
-			"desde": 1869,
-			"hasta": 1877,
 			"nombre": "Ulysses S. Grant",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1869,
+			"hasta": 1877
 		},
 		{
-			"desde": 1877,
-			"hasta": 1881,
 			"nombre": "Rutherford B. Hayes",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1877,
+			"hasta": 1881
 		},
 		{
-			"desde": 1881,
-			"hasta": 1881,
 			"nombre": "James A. Garfield",
-			"cargo": "jefe de gobierno"
-		},
-		{
+			"cargo": "jefe de gobierno",
 			"desde": 1881,
-			"hasta": 1885,
+			"hasta": 1881
+		},
+		{
 			"nombre": "Chester A. Arthur",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1881,
+			"hasta": 1885
 		},
 		{
+			"nombre": "Grover Cleveland",
+			"cargo": "jefe de gobierno",
 			"desde": 1885,
-			"hasta": 1889,
-			"nombre": "Grover Cleveland",
-			"cargo": "jefe de gobierno"
+			"hasta": 1889
 		},
 		{
-			"desde": 1889,
-			"hasta": 1893,
 			"nombre": "Benjamin Harrison",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1889,
+			"hasta": 1893
 		},
 		{
-			"desde": 1893,
-			"hasta": 1897,
 			"nombre": "Grover Cleveland",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1893,
+			"hasta": 1897
 		},
 		{
-			"desde": 1897,
-			"hasta": 1901,
 			"nombre": "William McKinley",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1897,
+			"hasta": 1901
 		},
 		{
-			"desde": 1901,
-			"hasta": 1909,
 			"nombre": "Theodore Roosevelt",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1901,
+			"hasta": 1909
 		},
 		{
-			"desde": 1909,
-			"hasta": 1913,
 			"nombre": "William Howard Taft",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1909,
+			"hasta": 1913
 		},
 		{
-			"desde": 1913,
-			"hasta": 1921,
 			"nombre": "Woodrow Wilson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1913,
+			"hasta": 1921
 		},
 		{
-			"desde": 1921,
-			"hasta": 1923,
 			"nombre": "Warren G. Harding",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1921,
+			"hasta": 1923
 		},
 		{
-			"desde": 1923,
-			"hasta": 1929,
 			"nombre": "Calvin Coolidge",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1923,
+			"hasta": 1929
 		},
 		{
-			"desde": 1929,
-			"hasta": 1933,
 			"nombre": "Herbert Hoover",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1929,
+			"hasta": 1933
 		},
 		{
-			"desde": 1933,
-			"hasta": 1945,
 			"nombre": "Franklin D. Roosevelt",
-			"titulo": "Presidente"
+			"titulo": "Presidente",
+			"desde": 1933,
+			"hasta": 1945
 		},
 		{
-			"desde": 1945,
-			"hasta": 1953,
 			"nombre": "Harry S. Truman",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1945,
+			"hasta": 1953
 		},
 		{
-			"desde": 1953,
-			"hasta": 1961,
 			"nombre": "Dwight D. Eisenhower",
-			"titulo": "Presidente"
+			"titulo": "Presidente",
+			"desde": 1953,
+			"hasta": 1961
 		},
 		{
-			"desde": 1961,
-			"hasta": 1963,
 			"nombre": "John F. Kennedy",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1961,
+			"hasta": 1963
 		},
 		{
-			"desde": 1963,
-			"hasta": 1969,
 			"nombre": "Lyndon B. Johnson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1969
 		},
 		{
-			"desde": 1969,
-			"hasta": 1974,
 			"nombre": "Richard Nixon",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1969,
+			"hasta": 1974
 		},
 		{
-			"desde": 1974,
-			"hasta": 1977,
 			"nombre": "Gerald Ford",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1977
 		},
 		{
-			"desde": 1977,
-			"hasta": 1981,
 			"nombre": "Jimmy Carter",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1977,
+			"hasta": 1981
 		},
 		{
-			"desde": 1981,
-			"hasta": 1989,
 			"nombre": "Ronald Reagan",
-			"titulo": "Presidente"
+			"titulo": "Presidente",
+			"desde": 1981,
+			"hasta": 1989
 		},
 		{
-			"desde": 1989,
-			"hasta": 1993,
 			"nombre": "George H. W. Bush",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1989,
+			"hasta": 1993
 		},
 		{
-			"desde": 1993,
-			"hasta": 2001,
 			"nombre": "Bill Clinton",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 2001
 		},
 		{
-			"desde": 2001,
-			"hasta": 2009,
 			"nombre": "George W. Bush",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2009
 		},
 		{
-			"desde": 2009,
-			"hasta": 2017,
 			"nombre": "Barack Obama",
-			"titulo": "Presidente"
+			"titulo": "Presidente",
+			"desde": 2009,
+			"hasta": 2017
 		},
 		{
+			"nombre": "Donald Trump",
+			"cargo": "jefe de gobierno",
 			"desde": 2017,
-			"hasta": 2021,
-			"nombre": "Donald Trump",
-			"cargo": "jefe de gobierno"
+			"hasta": 2021
 		},
 		{
-			"desde": 2021,
-			"hasta": 2025,
 			"nombre": "Joe Biden",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
 		},
 		{
-			"desde": 2025,
-			"hasta": 2025,
 			"nombre": "Donald Trump",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
 		}
 	],
 	"poblacion": [
@@ -471,8 +477,10 @@
 			"valor": 343477330
 		}
 	],
-	"relacionados": [
-		"Trece Colonias"
+	"escudos": [
+		{
+			"archivo": "Greater coat of arms of the United States.svg"
+		}
 	],
 	"fuentes": [
 		{
@@ -739,8 +747,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "United States",
-	"wikidata": "Q30",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -752,11 +758,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Estados Unidos, oficialmente Estados Unidos de América, es una federación constituida en una república constitucional compuesta por cincuenta estados y un distrito federal. Su capital es Washington D.",
-	"escudos": [
-		{
-			"archivo": "Greater coat of arms of the United States.svg"
-		}
-	]
+	}
 }

@@ -4,28 +4,10 @@
 	"nombres": [
 		"Guatemala"
 	],
-	"wikidata": "Q774",
 	"wiki": "es:Guatemala",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q774",
-			"url": "https://www.wikidata.org/wiki/Q774",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Guatemala",
-			"url": "https://es.wikipedia.org/wiki/Guatemala",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q774",
 	"owid": "GTM",
+	"resena": "Guatemala, oficialmente República de Guatemala, es un país soberano situado en el extremo noroccidental de América Central. De acuerdo con su constitución, su forma de gobierno consiste en una república democrática, laica y representativa para su administración en 22 departamentos y 340 municipios, los cuales están organizados en 8 regiones administrativas.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 18124841
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q774",
+			"url": "https://www.wikidata.org/wiki/Q774",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Guatemala",
+			"url": "https://es.wikipedia.org/wiki/Guatemala",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Guatemala, oficialmente República de Guatemala, es un país soberano situado en el extremo noroccidental de América Central. De acuerdo con su constitución, su forma de gobierno consiste en una república democrática, laica y representativa para su administración en 22 departamentos y 340 municipios, los cuales están organizados en 8 regiones administrativas."
+	}
 }

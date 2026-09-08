@@ -5,8 +5,9 @@
 		"Rapa Nui",
 		"Isla de Pascua"
 	],
-	"wikidata": "Q133442",
 	"wiki": "es:Isla de Pascua",
+	"wikidata": "Q133442",
+	"resena": "La isla de Pascua o Rapa Nui es una isla chilena perteneciente a la provincia de Isla de Pascua, en la región de Valparaíso. Se encuentra en plena Polinesia, Oceanía, en medio del océano Pacífico, a unos 3700 kilómetros de Caldera, en el territorio continental chileno, que constituye el punto habitado más cercano dentro de Chile.",
 	"fuentes": [
 		{
 			"id": "Wikidata:Q133442",
@@ -20,7 +21,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La isla de Pascua o Rapa Nui es una isla chilena perteneciente a la provincia de Isla de Pascua, en la región de Valparaíso. Se encuentra en plena Polinesia, Oceanía, en medio del océano Pacífico, a unos 3700 kilómetros de Caldera, en el territorio continental chileno, que constituye el punto habitado más cercano dentro de Chile.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

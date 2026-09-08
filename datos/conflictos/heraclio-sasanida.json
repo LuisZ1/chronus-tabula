@@ -12,20 +12,6 @@
 	"bajas": "desconocidas; última gran guerra de la Antigüedad entre Roma y Persia",
 	"descripcion": "Los sasánidas de Cosroes II ocupan Siria, Egipto y Anatolia y llegan a asediar Constantinopla junto a los ávaros (626). Heraclio contraataca por el Cáucaso, aliado con los jázaros, y vence en Nínive (627), forzando la restitución de todo lo perdido.",
 	"wiki": "Guerra bizantino-sasánida de 602-628",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra bizantino-sasánida de 602-628",
-			"url": "https://es.wikipedia.org/wiki/Guerra_bizantino-sasánida_de_602-628",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Batalla de Nínive (627)",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nínive_(627)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Ocupación persa de Oriente",
@@ -94,6 +80,20 @@
 			"lat": 36.35,
 			"lng": 43.15,
 			"descripcion": "Heraclio derrota al ejército persa junto al Tigris."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra bizantino-sasánida de 602-628",
+			"url": "https://es.wikipedia.org/wiki/Guerra_bizantino-sasánida_de_602-628",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Nínive (627)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nínive_(627)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

@@ -6,41 +6,6 @@
 		"Guinea Ecuatorial",
 		"Guinea Española"
 	],
-	"wiki": "es:Guinea Ecuatorial",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Equatorial_Guinea",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-demo",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Equatorial_Guinea",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q983",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Guinea Ecuatorial",
-			"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q983",
-			"url": "https://www.wikidata.org/wiki/Q983",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Guinea Española",
@@ -53,19 +18,21 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Guinea Ecuatorial",
 	"wikidata": "Q983",
+	"resena": "Guinea Ecuatorial, oficialmente República de Guinea Ecuatorial, es un país africano bañado por las aguas del golfo de Guinea que se define en su constitución como Estado independiente, republicano, unitario, social y democrático, y cuya forma de gobierno es la república presidencialista. Su territorio está formado por ocho provincias.",
 	"gobernantes": [
 		{
 			"nombre": "Francisco Macías Nguema",
+			"cargo": "Presidente de la República",
 			"desde": 1968,
-			"hasta": 1979,
-			"cargo": "Presidente de la República"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Teodoro Obiang Nguema Mbasogo",
+			"cargo": "Presidente de la República",
 			"desde": 1979,
-			"hasta": 2026,
-			"cargo": "Presidente de la República"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -105,6 +72,45 @@
 			"fuente": "CIA World Factbook (est.)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Equatorial Guinea.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Equatorial_Guinea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Equatorial_Guinea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q983",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Guinea Ecuatorial",
+			"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q983",
+			"url": "https://www.wikidata.org/wiki/Q983",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -118,11 +124,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Guinea Ecuatorial, oficialmente República de Guinea Ecuatorial, es un país africano bañado por las aguas del golfo de Guinea que se define en su constitución como Estado independiente, republicano, unitario, social y democrático, y cuya forma de gobierno es la república presidencialista. Su territorio está formado por ocho provincias.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Equatorial Guinea.svg"
-		}
-	]
+	}
 }

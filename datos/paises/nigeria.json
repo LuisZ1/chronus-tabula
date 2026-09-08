@@ -5,35 +5,6 @@
 		"Nigeria",
 		"República Federal de Nigeria"
 	],
-	"wiki": "es:Nigeria",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Nigeria",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1033",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Nigeria",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "demografia",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Nigeria",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Nigeria",
-			"url": "https://es.wikipedia.org/wiki/Nigeria",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Nigeria (colonia y protectorado británico)",
@@ -46,133 +17,135 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Nigeria",
 	"wikidata": "Q1033",
+	"resena": "Nigeria, oficialmente República Federal de Nigeria, es un país de África occidental, que limita con Níger al norte, con Chad en el nordeste, con Camerún en el este y con Benín en el oeste. Su costa sur está localizada en el golfo de Guinea en el océano Atlántico.",
 	"gobernantes": [
 		{
 			"nombre": "Dinastía de los Obas de Benín (Imperio de Benín)",
+			"cargo": "Obas del Reino de Benín",
 			"desde": 1180,
-			"hasta": 1897,
-			"cargo": "Obas del Reino de Benín"
+			"hasta": 1897
 		},
 		{
 			"nombre": "Alaafines del Imperio de Oyo",
+			"cargo": "Soberanos yoruba del Imperio de Oyo",
 			"desde": 1400,
-			"hasta": 1836,
-			"cargo": "Soberanos yoruba del Imperio de Oyo"
+			"hasta": 1836
 		},
 		{
 			"nombre": "Usman dan Fodio",
+			"cargo": "Fundador del Califato de Sokoto",
 			"desde": 1804,
-			"hasta": 1817,
-			"cargo": "Fundador del Califato de Sokoto"
+			"hasta": 1817
 		},
 		{
 			"nombre": "Califato de Sokoto (Sultanes de Sokoto)",
+			"cargo": "Soberanos del Califato de Sokoto",
 			"desde": 1804,
-			"hasta": 1903,
-			"cargo": "Soberanos del Califato de Sokoto"
+			"hasta": 1903
 		},
 		{
 			"nombre": "Administración colonial británica",
+			"cargo": "Colonia y protectorado del Reino Unido",
 			"desde": 1900,
-			"hasta": 1960,
-			"cargo": "Colonia y protectorado del Reino Unido"
+			"hasta": 1960
 		},
 		{
 			"nombre": "Nnamdi Azikiwe",
+			"cargo": "Presidente",
 			"desde": 1963,
-			"hasta": 1966,
-			"cargo": "Presidente"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Johnson Aguiyi-Ironsi",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1966,
-			"hasta": 1966,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Yakubu Gowon",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1966,
-			"hasta": 1975,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1975
 		},
 		{
 			"nombre": "Murtala Mohammed",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1975,
-			"hasta": 1976,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1976
 		},
 		{
 			"nombre": "Olusegun Obasanjo",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1976,
-			"hasta": 1979,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Shehu Shagari",
+			"cargo": "Presidente",
 			"desde": 1979,
-			"hasta": 1983,
-			"cargo": "Presidente"
+			"hasta": 1983
 		},
 		{
 			"nombre": "Muhammadu Buhari",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1983,
-			"hasta": 1985,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1985
 		},
 		{
 			"nombre": "Ibrahim Babangida",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1985,
-			"hasta": 1993,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Ernest Shonekan",
+			"cargo": "Jefe de Estado interino",
 			"desde": 1993,
-			"hasta": 1993,
-			"cargo": "Jefe de Estado interino"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Sani Abacha",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1993,
-			"hasta": 1998,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1998
 		},
 		{
 			"nombre": "Abdulsalami Abubakar",
+			"cargo": "Jefe de Estado militar",
 			"desde": 1998,
-			"hasta": 1999,
-			"cargo": "Jefe de Estado militar"
+			"hasta": 1999
 		},
 		{
 			"nombre": "Olusegun Obasanjo",
+			"cargo": "Presidente",
 			"desde": 1999,
-			"hasta": 2007,
-			"cargo": "Presidente"
+			"hasta": 2007
 		},
 		{
 			"nombre": "Umaru Musa Yar'Adua",
+			"cargo": "Presidente",
 			"desde": 2007,
-			"hasta": 2010,
-			"cargo": "Presidente"
+			"hasta": 2010
 		},
 		{
 			"nombre": "Goodluck Jonathan",
+			"cargo": "Presidente",
 			"desde": 2010,
-			"hasta": 2015,
-			"cargo": "Presidente"
+			"hasta": 2015
 		},
 		{
 			"nombre": "Muhammadu Buhari",
+			"cargo": "Presidente",
 			"desde": 2015,
-			"hasta": 2023,
-			"cargo": "Presidente"
+			"hasta": 2023
 		},
 		{
 			"nombre": "Bola Tinubu",
+			"cargo": "Presidente",
 			"desde": 2023,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -207,6 +180,34 @@
 			"fuente": "ONU (World Population Prospects 2024)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Nigeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1033",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Nigeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Nigeria",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Nigeria",
+			"url": "https://es.wikipedia.org/wiki/Nigeria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Nigeria, oficialmente República Federal de Nigeria, es un país de África occidental, que limita con Níger al norte, con Chad en el nordeste, con Camerún en el este y con Benín en el oeste. Su costa sur está localizada en el golfo de Guinea en el océano Atlántico."
+	}
 }

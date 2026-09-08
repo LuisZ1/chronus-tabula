@@ -1,9 +1,9 @@
 {
 	"nombre": "Isla de Man",
 	"pais": "Gran Bretaña",
+	"desde": 1765,
 	"lat": 54.23,
 	"lng": -4.55,
-	"desde": 1765,
 	"descripcion": "Noruega hasta el Tratado de Perth (1266) y bajo señorío feudal inglés desde 1399, la Corona británica compró el señorío en 1765 (Acta de Revestimiento). Es dependencia de la Corona, no parte del Reino Unido.",
 	"wiki": "Isla de Man",
 	"fuentes": [

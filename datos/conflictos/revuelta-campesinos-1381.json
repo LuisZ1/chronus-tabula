@@ -9,18 +9,6 @@
 	"bajas": "miles",
 	"descripcion": "Rebelión popular contra el impuesto de capitación y la servidumbre bajo Ricardo II, encabezada por Wat Tyler y John Ball. Los rebeldes de Kent y Essex toman Londres antes de ser aplastados; Tyler muere en Smithfield.",
 	"wiki": "Revuelta de los campesinos de 1381",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Revuelta de los campesinos de 1381",
-			"url": "https://es.wikipedia.org/wiki/Revuelta_de_los_campesinos_de_1381",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de Inglaterra",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Kent, Essex y Londres",
@@ -53,6 +41,18 @@
 			"anio": 1381,
 			"lat": 51.52,
 			"lng": -0.1
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revuelta de los campesinos de 1381",
+			"url": "https://es.wikipedia.org/wiki/Revuelta_de_los_campesinos_de_1381",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
 		}
 	]
 }

@@ -6,28 +6,10 @@
 		"Kirguistán",
 		"Kirguizistán"
 	],
-	"wikidata": "Q813",
 	"wiki": "es:Kirguistán",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q813",
-			"url": "https://www.wikidata.org/wiki/Q813",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Kirguistán",
-			"url": "https://es.wikipedia.org/wiki/Kirguist%C3%A1n",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q813",
 	"owid": "KGZ",
+	"resena": "Kirguistán o Kirguizistán, oficialmente República Kirguisa ,es un país montañoso, sin litoral, ubicado en Asia Central. Comparte fronteras con Kazajistán al norte, con China al este, con Tayikistán al sur y Uzbekistán al oeste.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 7073523
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q813",
+			"url": "https://www.wikidata.org/wiki/Q813",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Kirguistán",
+			"url": "https://es.wikipedia.org/wiki/Kirguist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Kirguistán o Kirguizistán, oficialmente República Kirguisa ,es un país montañoso, sin litoral, ubicado en Asia Central. Comparte fronteras con Kazajistán al norte, con China al este, con Tayikistán al sur y Uzbekistán al oeste."
+	}
 }

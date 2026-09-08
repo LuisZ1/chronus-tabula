@@ -1,9 +1,9 @@
 {
 	"nombre": "Descubrimiento del bosón de Higgs",
 	"anio": 2012,
+	"categoria": "invento",
 	"lat": 46.23,
 	"lng": 6.05,
-	"categoria": "invento",
 	"paises": [
 		"Francia"
 	],

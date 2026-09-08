@@ -11,14 +11,6 @@
 	"bajas": "unos 35.000 muertos",
 	"descripcion": "China (Qing) y Japón se enfrentan por el control de Corea. La derrota china, sellada en el mar Amarillo y en Weihaiwei, evidencia el atraso del imperio Qing frente al Japón modernizado; el Tratado de Shimonoseki (1895) cede Taiwán y Corea sale de la órbita china.",
 	"wiki": "Primera guerra sino-japonesa",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Primera guerra sino-japonesa",
-			"url": "https://es.wikipedia.org/wiki/Primera_guerra_sino-japonesa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Mar Amarillo, Corea y Liaodong",
@@ -59,6 +51,14 @@
 			"lat": 37.5,
 			"lng": 122.12,
 			"descripcion": "Rendición de la flota china; tratado de Shimonoseki."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera guerra sino-japonesa",
+			"url": "https://es.wikipedia.org/wiki/Primera_guerra_sino-japonesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

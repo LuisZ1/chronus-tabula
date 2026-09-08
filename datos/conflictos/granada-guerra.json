@@ -10,15 +10,7 @@
 	],
 	"bajas": "~100.000 muertos",
 	"descripcion": "Los Reyes Católicos conquistan el último reino musulmán de la península.",
-	"batallas": [
-		{
-			"nombre": "Toma de Granada",
-			"anio": 1492,
-			"lat": 37.18,
-			"lng": -3.6,
-			"descripcion": "Boabdil entrega las llaves de la ciudad el 2 de enero de 1492."
-		}
-	],
+	"wiki": "Guerra de Granada",
 	"zonas": [
 		{
 			"nombre": "Frente occidental (Ronda y Málaga)",
@@ -117,7 +109,15 @@
 			]
 		}
 	],
-	"wiki": "Guerra de Granada",
+	"batallas": [
+		{
+			"nombre": "Toma de Granada",
+			"anio": 1492,
+			"lat": 37.18,
+			"lng": -3.6,
+			"descripcion": "Boabdil entrega las llaves de la ciudad el 2 de enero de 1492."
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de Granada",

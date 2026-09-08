@@ -6,35 +6,6 @@
 		"Sierra Leona",
 		"República de Sierra Leona"
 	],
-	"wiki": "es:Sierra Leona",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sierra_Leone",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-demo",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Sierra_Leone",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1044",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Sierra Leona",
-			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Dominio de Sierra Leona (Commonwealth)",
@@ -47,85 +18,87 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Sierra Leona",
 	"wikidata": "Q1044",
+	"resena": "Sierra Leona o Sierra Leone, oficialmente la República de Sierra Leona, es un país de África occidental. Limita al norte con Guinea, al sureste con Liberia y al suroeste con el océano Atlántico, que lo separa de Brasil unos 2840 km.",
 	"gobernantes": [
 		{
 			"nombre": "Maurice Dorman",
+			"cargo": "Gobernador general",
 			"desde": 1961,
-			"hasta": 1962,
-			"cargo": "Gobernador general"
+			"hasta": 1962
 		},
 		{
 			"nombre": "Henry Lightfoot Boston",
+			"cargo": "Gobernador general",
 			"desde": 1962,
-			"hasta": 1968,
-			"cargo": "Gobernador general"
+			"hasta": 1968
 		},
 		{
 			"nombre": "Banja Tejan-Sie",
+			"cargo": "Gobernador general",
 			"desde": 1968,
-			"hasta": 1971,
-			"cargo": "Gobernador general"
+			"hasta": 1971
 		},
 		{
 			"nombre": "Christopher Okoro Cole",
+			"cargo": "Gobernador general / Presidente",
 			"desde": 1971,
-			"hasta": 1971,
-			"cargo": "Gobernador general / Presidente"
+			"hasta": 1971
 		},
 		{
 			"nombre": "Siaka Stevens",
+			"cargo": "Presidente",
 			"desde": 1971,
-			"hasta": 1985,
-			"cargo": "Presidente"
+			"hasta": 1985
 		},
 		{
 			"nombre": "Joseph Saidu Momoh",
+			"cargo": "Presidente",
 			"desde": 1985,
-			"hasta": 1992,
-			"cargo": "Presidente"
+			"hasta": 1992
 		},
 		{
 			"nombre": "Valentine Strasser",
+			"cargo": "Presidente (junta militar NPRC)",
 			"desde": 1992,
-			"hasta": 1996,
-			"cargo": "Presidente (junta militar NPRC)"
+			"hasta": 1996
 		},
 		{
 			"nombre": "Julius Maada Bio",
+			"cargo": "Presidente (militar)",
 			"desde": 1996,
-			"hasta": 1996,
-			"cargo": "Presidente (militar)"
+			"hasta": 1996
 		},
 		{
 			"nombre": "Ahmad Tejan Kabbah",
+			"cargo": "Presidente",
 			"desde": 1996,
-			"hasta": 1997,
-			"cargo": "Presidente"
+			"hasta": 1997
 		},
 		{
 			"nombre": "Johnny Paul Koroma",
+			"cargo": "Presidente (junta AFRC)",
 			"desde": 1997,
-			"hasta": 1998,
-			"cargo": "Presidente (junta AFRC)"
+			"hasta": 1998
 		},
 		{
 			"nombre": "Ahmad Tejan Kabbah",
+			"cargo": "Presidente",
 			"desde": 1998,
-			"hasta": 2007,
-			"cargo": "Presidente"
+			"hasta": 2007
 		},
 		{
 			"nombre": "Ernest Bai Koroma",
+			"cargo": "Presidente",
 			"desde": 2007,
-			"hasta": 2018,
-			"cargo": "Presidente"
+			"hasta": 2018
 		},
 		{
 			"nombre": "Julius Maada Bio",
+			"cargo": "Presidente",
 			"desde": 2018,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -165,6 +138,34 @@
 			"fuente": "ONU - World Population Prospects"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sierra_Leone",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Sierra_Leone",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1044",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Sierra Leona",
+			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -177,6 +178,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Sierra Leona o Sierra Leone, oficialmente la República de Sierra Leona, es un país de África occidental. Limita al norte con Guinea, al sureste con Liberia y al suroeste con el océano Atlántico, que lo separa de Brasil unos 2840 km."
+	}
 }

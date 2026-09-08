@@ -4,28 +4,10 @@
 	"nombres": [
 		"Cuba"
 	],
-	"wikidata": "Q241",
 	"wiki": "es:Cuba",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q241",
-			"url": "https://www.wikidata.org/wiki/Q241",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Cuba",
-			"url": "https://es.wikipedia.org/wiki/Cuba",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q241",
 	"owid": "CUB",
+	"resena": "Cuba, oficialmente República de Cuba, es un Estado soberano e insular ubicado en las Antillas del mar Caribe en la región de norteamérica. El territorio está organizado en quince provincias y un municipio especial con La Habana como capital y ciudad más poblada.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 11019932
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q241",
+			"url": "https://www.wikidata.org/wiki/Q241",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Cuba",
+			"url": "https://es.wikipedia.org/wiki/Cuba",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Cuba, oficialmente República de Cuba, es un Estado soberano e insular ubicado en las Antillas del mar Caribe en la región de norteamérica. El territorio está organizado en quince provincias y un municipio especial con La Habana como capital y ciudad más poblada."
+	}
 }

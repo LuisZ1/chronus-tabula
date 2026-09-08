@@ -6,28 +6,10 @@
 		"Panamá",
 		"Republica de Panama"
 	],
-	"wikidata": "Q804",
 	"wiki": "es:Panamá",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q804",
-			"url": "https://www.wikidata.org/wiki/Q804",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Panamá",
-			"url": "https://es.wikipedia.org/wiki/Panam%C3%A1",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q804",
 	"owid": "PAN",
+	"resena": "Panamá, oficialmente denominada República de Panamá, es un país ubicado en América Central. Está dividida en diez provincias y seis comarcas indígenas.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 4458758
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q804",
+			"url": "https://www.wikidata.org/wiki/Q804",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Panamá",
+			"url": "https://es.wikipedia.org/wiki/Panam%C3%A1",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Panamá, oficialmente denominada República de Panamá, es un país ubicado en América Central. Está dividida en diez provincias y seis comarcas indígenas."
+	}
 }

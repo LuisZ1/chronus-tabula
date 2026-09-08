@@ -12,24 +12,7 @@
 	],
 	"bajas": "~1.000.000-3.000.000 de muertos en dos siglos",
 	"descripcion": "Expediciones militares cristianas a Tierra Santa; se fundan y pierden los Estados cruzados.",
-	"batallas": [
-		{
-			"nombre": "Toma de Jerusalén",
-			"anio": 1099,
-			"lat": 31.78,
-			"lng": 35.23,
-			"bajas": "matanza de ~10.000-40.000 habitantes",
-			"descripcion": "La Primera Cruzada culmina con el asalto a la ciudad."
-		},
-		{
-			"nombre": "Batalla de los Cuernos de Hattin",
-			"anio": 1187,
-			"lat": 32.8,
-			"lng": 35.44,
-			"bajas": "~17.000 cruzados muertos o capturados",
-			"descripcion": "Saladino aniquila al ejército cruzado y recupera Jerusalén."
-		}
-	],
+	"wiki": "Cruzadas",
 	"zonas": [
 		{
 			"nombre": "Primera cruzada (Anatolia y Siria)",
@@ -204,7 +187,24 @@
 			]
 		}
 	],
-	"wiki": "Cruzadas",
+	"batallas": [
+		{
+			"nombre": "Toma de Jerusalén",
+			"anio": 1099,
+			"lat": 31.78,
+			"lng": 35.23,
+			"descripcion": "La Primera Cruzada culmina con el asalto a la ciudad.",
+			"bajas": "matanza de ~10.000-40.000 habitantes"
+		},
+		{
+			"nombre": "Batalla de los Cuernos de Hattin",
+			"anio": 1187,
+			"lat": 32.8,
+			"lng": 35.44,
+			"descripcion": "Saladino aniquila al ejército cruzado y recupera Jerusalén.",
+			"bajas": "~17.000 cruzados muertos o capturados"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Cruzadas",

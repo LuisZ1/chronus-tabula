@@ -13,14 +13,6 @@
 	"bajas": "decenas de miles; devastación demográfica de Atenas por la peste (430-429 a.C.)",
 	"descripcion": "Enfrentamiento hegemónico entre la Liga de Delos liderada por Atenas y la Liga del Peloponeso liderada por Esparta. Tras la peste que se llevó a Pericles, el desastre de la expedición ateniense a Sicilia (415-413) y la intervención financiera persa, Lisandro aniquiló la flota ateniense en Egospótamos (405), forzando la rendición de Atenas y el fin de su imperio marítimo.",
 	"wiki": "Guerra del Peloponeso",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra del Peloponeso",
-			"url": "https://es.wikipedia.org/wiki/Guerra_del_Peloponeso",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Liga de Delos (dominio ateniense del Egeo)",
@@ -143,6 +135,14 @@
 			"anio": -405,
 			"lat": 40.23,
 			"lng": 26.53
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Peloponeso",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Peloponeso",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

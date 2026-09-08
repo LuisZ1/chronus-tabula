@@ -56,7 +56,7 @@ function popupHtml(props) {
 	// título para el extracto de Wikipedia: preferimos el nombre curado en español
 	let wikiRef = '';
 	if (!resena) {
-		if (pais) wikiRef = 'es:' + (pais.wiki || pais.nombre);
+		if (pais) wikiRef = refWiki(pais.wiki || pais.nombre);
 		else if (props.wikipedia && !/^https?:/.test(props.wikipedia)) wikiRef = 'en:' + props.wikipedia;
 	}
 
@@ -65,6 +65,11 @@ function popupHtml(props) {
 		: '';
 
 	return `<div class="territory-popup" data-wiki="${esc(wikiRef)}"><h3>${esc(name)}</h3><table>${rows}</table>${resenaHtml}${fuentesHtml(pais)}</div>`;
+}
+
+/* 'Reino de Aragón' → 'es:Reino de Aragón'; si ya trae prefijo de idioma ('es:…', 'en:…'), se respeta */
+function refWiki(w) {
+	return /^[a-z]{2,3}:/.test(w) ? w : 'es:' + w;
 }
 
 /* ---------- extracto de Wikipedia en los popups ---------- */
@@ -141,7 +146,7 @@ function conflictPopupHtml(c, zona) {
 	if (c.paises && c.paises.length)
 		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${c.paises.map(esc).join(', ')}</td></tr>`;
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
-	const wikiRef = 'es:' + (c.wiki || c.nombre);
+	const wikiRef = refWiki(c.wiki || c.nombre);
 	return `<div class="territory-popup war-popup" data-wiki="${esc(wikiRef)}"><h3>🔥 ${esc(c.nombre)}</h3><table>${rows}</table>${c.descripcion ? `<p>${esc(c.descripcion)}</p>` : ''}${fuentesHtml(c)}</div>`;
 }
 
@@ -161,7 +166,7 @@ function battlePopupHtml(c, b) {
 	if (b.bajas) rows += `<tr><td>${i18n.t('battle.casualtiesBattle')}</td><td>${esc(b.bajas)}</td></tr>`;
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
 	const desc = [b.descripcion, c.descripcion].filter(Boolean).map(esc).join('<br>');
-	const wikiRef = 'es:' + (b.wiki || b.nombre);
+	const wikiRef = refWiki(b.wiki || b.nombre);
 	return `<div class="territory-popup battle-popup" data-wiki="${esc(wikiRef)}"><h3>⚔️ ${esc(b.nombre)}</h3><table>${rows}</table>${desc ? `<p>${desc}</p>` : ''}${fuentesHtml(b.fuentes ? b : c)}</div>`;
 }
 
@@ -174,7 +179,7 @@ function eventPopupHtml(ev) {
 	let rows = `<tr><td>${i18n.t('event.year')}</td><td>${years}</td></tr>`;
 	if (ev.paises && ev.paises.length)
 		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${ev.paises.map(esc).join(', ')}</td></tr>`;
-	const wikiRef = 'es:' + (ev.wiki || ev.nombre);
+	const wikiRef = refWiki(ev.wiki || ev.nombre);
 	const ico = ev.categoria === 'invento' ? '💡' : '⭐';
 	return `<div class="territory-popup event-popup" data-wiki="${esc(wikiRef)}"><h3>${ico} ${esc(ev.nombre)}</h3><table>${rows}</table>${ev.descripcion ? `<p>${escHtml(ev.descripcion)}</p>` : ''}${fuentesHtml(ev)}</div>`;
 }
@@ -184,6 +189,6 @@ function territorioPopupHtml(t, color) {
 	const fin = t.hasta !== undefined && t.hasta !== null ? i18n.formatYear(t.hasta) : i18n.t('terr.present');
 	let rows = `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(t.pais)}</td></tr>`;
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(t.desde)} – ${fin}</td></tr>`;
-	const wikiRef = 'es:' + (t.wiki || t.nombre);
+	const wikiRef = refWiki(t.wiki || t.nombre);
 	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}</div>`;
 }

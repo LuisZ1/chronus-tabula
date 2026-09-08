@@ -6,6 +6,133 @@
 	],
 	"wiki": "Afganistán",
 	"wikidata": "Q889",
+	"resena": "Afganistán, oficialmente el Emirato Islámico de Afganistán, pero aún reconocido internacionalmente como República Islámica de Afganistán, es un país montañoso sin salida al mar ubicado en Asia del Sur. Es un Estado islámico teocrático basado en los principios religiosos del islam suní.",
+	"gobernantes": [
+		{
+			"nombre": "Amanulá Khan",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1929
+		},
+		{
+			"nombre": "Habibulá Kalakani",
+			"cargo": "jefe de Estado",
+			"desde": 1929,
+			"hasta": 1929
+		},
+		{
+			"nombre": "Inayatullah Khan",
+			"cargo": "jefe de Estado",
+			"desde": 1929,
+			"hasta": 1929
+		},
+		{
+			"nombre": "Mohamed Nadir Shah",
+			"cargo": "jefe de Estado",
+			"desde": 1929,
+			"hasta": 1929
+		},
+		{
+			"nombre": "Mohamed Zahir Shah",
+			"cargo": "jefe de Estado",
+			"desde": 1933,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Mohammed Daud Khan",
+			"cargo": "jefe de Estado",
+			"desde": 1973,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Mohammad Najibulá",
+			"cargo": "jefe de Estado",
+			"desde": 1987,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Burhanuddin Rabbani",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Ashraf Ghani Ahmadzai",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Haibatulá Ajundzadá",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Mohammad Hasan Akhund",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 8774440,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 11015621,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 13180431,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 11731193,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 20595360,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 28397812,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2020,
+			"valor": 36643815,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2023,
+			"valor": 41454761,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Afghanistan (2004–2013).svg",
+			"desde": 2004,
+			"hasta": 2013
+		},
+		{
+			"archivo": "Emblem of Afghanistan (2013–2021) (variant).svg",
+			"desde": 2013,
+			"hasta": 2021
+		},
+		{
+			"archivo": "Arms of the Islamic Emirate of Afghanistan.svg",
+			"desde": 2021
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Afganistán",
@@ -98,143 +225,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Afganistán, oficialmente el Emirato Islámico de Afganistán, pero aún reconocido internacionalmente como República Islámica de Afganistán, es un país montañoso sin salida al mar ubicado en Asia del Sur. Es un Estado islámico teocrático basado en los principios religiosos del islam suní.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "777309239b1f",
+		"hash": "28dbb9179b8a",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 1926,
-			"hasta": 1929,
-			"nombre": "Amanulá Khan",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1929,
-			"hasta": 1929,
-			"nombre": "Inayatullah Khan",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1929,
-			"hasta": 1929,
-			"nombre": "Habibulá Kalakani",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1929,
-			"hasta": 1929,
-			"nombre": "Mohamed Nadir Shah",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1933,
-			"hasta": 1973,
-			"nombre": "Mohamed Zahir Shah",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1973,
-			"hasta": 1978,
-			"nombre": "Mohammed Daud Khan",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1987,
-			"hasta": 1992,
-			"nombre": "Mohammad Najibulá",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2001,
-			"hasta": 2001,
-			"nombre": "Burhanuddin Rabbani",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2021,
-			"nombre": "Ashraf Ghani Ahmadzai",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2021,
-			"nombre": "Haibatulá Ajundzadá",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2023,
-			"hasta": 2023,
-			"nombre": "Mohammad Hasan Akhund",
-			"cargo": "jefe de gobierno"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1960,
-			"valor": 8774440,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1970,
-			"valor": 11015621,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1980,
-			"valor": 13180431,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1990,
-			"valor": 11731193,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2000,
-			"valor": 20595360,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2010,
-			"valor": 28397812,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2020,
-			"valor": 36643815,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2023,
-			"valor": 41454761,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Emblem of Afghanistan (2004–2013).svg",
-			"desde": 2004,
-			"hasta": 2013
-		},
-		{
-			"archivo": "Emblem of Afghanistan (2013–2021) (variant).svg",
-			"desde": 2013,
-			"hasta": 2021
-		},
-		{
-			"archivo": "Arms of the Islamic Emirate of Afghanistan.svg",
-			"desde": 2021
-		}
-	]
+	}
 }

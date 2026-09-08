@@ -5,30 +5,38 @@
 		"Ming Empire",
 		"Ming Chinese Empire"
 	],
+	"relacionados": [
+		"China",
+		"Chu",
+		"Qi",
+		"Zhao",
+		"Wei",
+		"Han"
+	],
 	"gobernantes": [
 		{
-			"desde": 1368,
-			"hasta": 1398,
 			"nombre": "Hongwu (fundador)",
-			"titulo": "Emperador Ming"
+			"titulo": "Emperador Ming",
+			"desde": 1368,
+			"hasta": 1398
 		},
 		{
-			"desde": 1402,
-			"hasta": 1424,
 			"nombre": "Yongle (expediciones de Zheng He)",
-			"titulo": "Emperador Ming"
+			"titulo": "Emperador Ming",
+			"desde": 1402,
+			"hasta": 1424
 		},
 		{
-			"desde": 1572,
-			"hasta": 1620,
 			"nombre": "Wanli",
-			"titulo": "Emperador Ming"
+			"titulo": "Emperador Ming",
+			"desde": 1572,
+			"hasta": 1620
 		},
 		{
-			"desde": 1627,
-			"hasta": 1644,
 			"nombre": "Chongzhen (último Ming)",
-			"titulo": "Emperador Ming"
+			"titulo": "Emperador Ming",
+			"desde": 1627,
+			"hasta": 1644
 		}
 	],
 	"poblacion": [
@@ -44,14 +52,6 @@
 			"anio": 1600,
 			"valor": 160000000
 		}
-	],
-	"relacionados": [
-		"China",
-		"Chu",
-		"Qi",
-		"Zhao",
-		"Wei",
-		"Han"
 	],
 	"fuentes": [
 		{

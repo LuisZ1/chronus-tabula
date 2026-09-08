@@ -8,7 +8,6 @@
 		"República Democrática del Congo",
 		"Congo (Léopoldville)"
 	],
-	"wiki": "es:República Democrática del Congo",
 	"nombres_periodo": [
 		{
 			"nombre": "Congo Belga",
@@ -30,83 +29,57 @@
 			"desde": 1997
 		}
 	],
-	"fuentes": [
-		{
-			"id": "wikipedia_es",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_demographics",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Democratic_Republic_of_the_Congo",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_kongo",
-			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q974",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): República Democrática del Congo",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wiki": "es:República Democrática del Congo",
 	"wikidata": "Q974",
+	"resena": "La República Democrática del Congo es un país de África Central, uno de los cincuenta y cuatro países que forman el continente africano. Es el segundo país más grande de África, después de Argelia, así como el undécimo más grande del mundo.",
 	"gobernantes": [
 		{
-			"nombre": "Reino Luba",
-			"desde": 1585,
-			"hasta": 1889,
-			"cargo": "Reino histórico (meseta de Katanga)"
+			"nombre": "Reino del Congo",
+			"cargo": "Reino histórico (bajo Congo)",
+			"desde": 1390,
+			"hasta": 1914
 		},
 		{
-			"nombre": "Reino del Congo",
-			"desde": 1390,
-			"hasta": 1914,
-			"cargo": "Reino histórico (bajo Congo)"
+			"nombre": "Reino Luba",
+			"cargo": "Reino histórico (meseta de Katanga)",
+			"desde": 1585,
+			"hasta": 1889
 		},
 		{
 			"nombre": "Imperio Lunda",
+			"cargo": "Reino histórico (sur)",
 			"desde": 1665,
-			"hasta": 1887,
-			"cargo": "Reino histórico (sur)"
+			"hasta": 1887
 		},
 		{
 			"nombre": "Joseph Kasa-Vubu",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1965,
-			"cargo": "Presidente"
+			"hasta": 1965
 		},
 		{
 			"nombre": "Mobutu Sese Seko",
+			"cargo": "Presidente",
 			"desde": 1965,
-			"hasta": 1997,
-			"cargo": "Presidente"
+			"hasta": 1997
 		},
 		{
 			"nombre": "Laurent-Désiré Kabila",
+			"cargo": "Presidente",
 			"desde": 1997,
-			"hasta": 2001,
-			"cargo": "Presidente"
+			"hasta": 2001
 		},
 		{
 			"nombre": "Joseph Kabila",
+			"cargo": "Presidente",
 			"desde": 2001,
-			"hasta": 2019,
-			"cargo": "Presidente"
+			"hasta": 2019
 		},
 		{
 			"nombre": "Félix Tshisekedi",
+			"cargo": "Presidente",
 			"desde": 2019,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -141,11 +114,39 @@
 			"fuente": "Wikipedia (República Democrática del Congo), estimación"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Democratic_Republic_of_the_Congo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_kongo",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q974",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): República Democrática del Congo",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "812d71493a4d",
+		"hash": "fa1ccd64e80c",
 		"secciones": [
 			"fuentes",
 			"gobernantes",
@@ -153,6 +154,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La República Democrática del Congo es un país de África Central, uno de los cincuenta y cuatro países que forman el continente africano. Es el segundo país más grande de África, después de Argelia, así como el undécimo más grande del mundo."
+	}
 }

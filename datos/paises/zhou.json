@@ -5,18 +5,19 @@
 		"Zhou states"
 	],
 	"wiki": "Dinastía Zhou",
+	"resena": "La dinastía Zhou fue una dinastía china que gobernó entre los años 1046 y 256 a. C.",
 	"gobernantes": [
 		{
-			"desde": -1046,
-			"hasta": -1043,
 			"nombre": "Wu de Zhou",
-			"titulo": "Rey Guerrero; derrotó a los Shang en Muye (1046 a. C.)"
+			"titulo": "Rey Guerrero; derrotó a los Shang en Muye (1046 a. C.)",
+			"desde": -1046,
+			"hasta": -1043
 		},
 		{
-			"desde": -770,
-			"hasta": -720,
 			"nombre": "Ping de Zhou",
-			"titulo": "Inicia los Zhou Orientales tras el traslado a Luoyang"
+			"titulo": "Inicia los Zhou Orientales tras el traslado a Luoyang",
+			"desde": -770,
+			"hasta": -720
 		}
 	],
 	"fuentes": [
@@ -33,7 +34,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La dinastía Zhou fue una dinastía china que gobernó entre los años 1046 y 256 a. C.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

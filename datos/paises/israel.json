@@ -6,6 +6,237 @@
 	],
 	"wiki": "Israel",
 	"wikidata": "Q801",
+	"resena": "Israel, oficialmente Estado de Israel, es un estado soberano de Asia occidental ubicado en la región de Oriente Próximo, en el Levante mediterráneo.",
+	"gobernantes": [
+		{
+			"nombre": "David Ben-Gurión",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Jaim Weizmann",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1949
+		},
+		{
+			"nombre": "David Ben-Gurión",
+			"cargo": "jefe de gobierno",
+			"desde": 1948,
+			"hasta": 1954
+		},
+		{
+			"nombre": "Jaim Weizmann",
+			"cargo": "jefe de Estado",
+			"desde": 1949,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Yosef Sprinzak",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Yitzjak Ben-Zvi",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Moshé Sharet",
+			"cargo": "jefe de gobierno",
+			"desde": 1954,
+			"hasta": 1955
+		},
+		{
+			"nombre": "David Ben-Gurión",
+			"cargo": "jefe de gobierno",
+			"desde": 1955,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Kadish Luz",
+			"cargo": "jefe de Estado",
+			"desde": 1963,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Levi Eshkol",
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Zalman Shazar",
+			"cargo": "jefe de Estado",
+			"desde": 1963,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Golda Meir",
+			"cargo": "jefe de gobierno",
+			"desde": 1969,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Efraim Katzir",
+			"cargo": "jefe de Estado",
+			"desde": 1973,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Isaac Rabin",
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Menájem Beguín",
+			"cargo": "jefe de gobierno",
+			"desde": 1977,
+			"hasta": 1983
+		},
+		{
+			"nombre": "Yitzjak Navón",
+			"cargo": "jefe de Estado",
+			"desde": 1978,
+			"hasta": 1983
+		},
+		{
+			"nombre": "Jaim Herzog",
+			"cargo": "jefe de Estado",
+			"desde": 1983,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Shimon Peres",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1986
+		},
+		{
+			"nombre": "Isaac Shamir",
+			"cargo": "jefe de gobierno",
+			"desde": 1986,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Isaac Rabin",
+			"cargo": "jefe de gobierno",
+			"desde": 1992,
+			"hasta": 1995
+		},
+		{
+			"nombre": "Ezer Weizman",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Shimon Peres",
+			"cargo": "jefe de gobierno",
+			"desde": 1995,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Benjamín Netanyahu",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Ehud Barak",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Avraham Burg",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Moshé Katsav",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Ariel Sharón",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Ehud Ólmert",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Dalia Itzik",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Shimon Peres",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Benjamín Netanyahu",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Reuven Rivlin",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Isaac Herzog",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Naftali Bennett",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Benjamín Netanyahu",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Yair Lapid",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2023,
+			"valor": 9840000,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Israel.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Israel",
@@ -200,247 +431,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Israel, oficialmente Estado de Israel, es un estado soberano de Asia occidental ubicado en la región de Oriente Próximo, en el Levante mediterráneo.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "b72c98fac1e9",
+		"hash": "c66ca8b515f2",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 1948,
-			"hasta": 1948,
-			"nombre": "David Ben-Gurión",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1948,
-			"hasta": 1949,
-			"nombre": "Jaim Weizmann",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1948,
-			"hasta": 1954,
-			"nombre": "David Ben-Gurión",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1949,
-			"hasta": 1952,
-			"nombre": "Jaim Weizmann",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1952,
-			"hasta": 1952,
-			"nombre": "Yosef Sprinzak",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1952,
-			"hasta": 1963,
-			"nombre": "Yitzjak Ben-Zvi",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1954,
-			"hasta": 1955,
-			"nombre": "Moshé Sharet",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1955,
-			"hasta": 1963,
-			"nombre": "David Ben-Gurión",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1963,
-			"hasta": 1963,
-			"nombre": "Kadish Luz",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1963,
-			"hasta": 1973,
-			"nombre": "Zalman Shazar",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1963,
-			"hasta": 1969,
-			"nombre": "Levi Eshkol",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1969,
-			"hasta": 1974,
-			"nombre": "Golda Meir",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1973,
-			"hasta": 1978,
-			"nombre": "Efraim Katzir",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1974,
-			"hasta": 1977,
-			"nombre": "Isaac Rabin",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1977,
-			"hasta": 1983,
-			"nombre": "Menájem Beguín",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1978,
-			"hasta": 1983,
-			"nombre": "Yitzjak Navón",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1983,
-			"hasta": 1993,
-			"nombre": "Jaim Herzog",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1984,
-			"hasta": 1986,
-			"nombre": "Shimon Peres",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1986,
-			"hasta": 1992,
-			"nombre": "Isaac Shamir",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1992,
-			"hasta": 1995,
-			"nombre": "Isaac Rabin",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1993,
-			"hasta": 2000,
-			"nombre": "Ezer Weizman",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1995,
-			"hasta": 1996,
-			"nombre": "Shimon Peres",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1996,
-			"hasta": 1999,
-			"nombre": "Benjamín Netanyahu",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1999,
-			"hasta": 2001,
-			"nombre": "Ehud Barak",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2000,
-			"hasta": 2000,
-			"nombre": "Avraham Burg",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2000,
-			"hasta": 2007,
-			"nombre": "Moshé Katsav",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2001,
-			"hasta": 2006,
-			"nombre": "Ariel Sharón",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2006,
-			"hasta": 2009,
-			"nombre": "Ehud Ólmert",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2007,
-			"hasta": 2007,
-			"nombre": "Dalia Itzik",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2007,
-			"hasta": 2014,
-			"nombre": "Shimon Peres",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2009,
-			"hasta": 2021,
-			"nombre": "Benjamín Netanyahu",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2021,
-			"nombre": "Reuven Rivlin",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2022,
-			"nombre": "Naftali Bennett",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2021,
-			"nombre": "Isaac Herzog",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2022,
-			"hasta": 2022,
-			"nombre": "Yair Lapid",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2022,
-			"hasta": 2022,
-			"nombre": "Benjamín Netanyahu",
-			"cargo": "jefe de gobierno"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 2023,
-			"valor": 9840000,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Emblem of Israel.svg"
-		}
-	]
+	}
 }

@@ -5,216 +5,225 @@
 		"France",
 		"Kingdom of France"
 	],
+	"wikidata": "Q142",
+	"owid": "France",
+	"relacionados": [
+		"Reino franco",
+		"Francos",
+		"Borgoña",
+		"Ducado de Normandía"
+	],
+	"resena": "Francia, oficialmente República Francesa, es un país soberano transcontinental que se extiende por Europa Occidental y por regiones y territorios de ultramar en América y los océanos Atlántico, Pacífico e Índico. Es uno de los veintisiete Estados soberanos que integran la Unión Europea.",
 	"gobernantes": [
 		{
-			"desde": 987,
-			"hasta": 996,
 			"nombre": "Hugo Capeto",
-			"titulo": "Rey de los francos"
+			"titulo": "Rey de los francos",
+			"desde": 987,
+			"hasta": 996
 		},
 		{
-			"desde": 1180,
-			"hasta": 1223,
 			"nombre": "Felipe II Augusto",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1180,
+			"hasta": 1223
 		},
 		{
-			"desde": 1226,
-			"hasta": 1270,
 			"nombre": "Luis IX el Santo",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1226,
+			"hasta": 1270
 		},
 		{
-			"desde": 1285,
-			"hasta": 1314,
 			"nombre": "Felipe IV el Hermoso",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1285,
+			"hasta": 1314
 		},
 		{
-			"desde": 1422,
-			"hasta": 1461,
 			"nombre": "Carlos VII",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1422,
+			"hasta": 1461
 		},
 		{
-			"desde": 1515,
-			"hasta": 1547,
 			"nombre": "Francisco I",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1515,
+			"hasta": 1547
 		},
 		{
-			"desde": 1589,
-			"hasta": 1610,
 			"nombre": "Enrique IV",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1589,
+			"hasta": 1610
 		},
 		{
-			"desde": 1643,
-			"hasta": 1715,
 			"nombre": "Luis XIV el Rey Sol",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1643,
+			"hasta": 1715
 		},
 		{
-			"desde": 1715,
-			"hasta": 1774,
 			"nombre": "Luis XV",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1715,
+			"hasta": 1774
 		},
 		{
-			"desde": 1774,
-			"hasta": 1792,
 			"nombre": "Luis XVI",
-			"titulo": "Rey de Francia"
+			"titulo": "Rey de Francia",
+			"desde": 1774,
+			"hasta": 1792
 		},
 		{
-			"desde": 1804,
-			"hasta": 1815,
 			"nombre": "Napoleón I Bonaparte",
-			"titulo": "Emperador de los franceses"
+			"titulo": "Emperador de los franceses",
+			"desde": 1804,
+			"hasta": 1815
 		},
 		{
-			"desde": 1852,
-			"hasta": 1870,
 			"nombre": "Napoleón III",
-			"titulo": "Emperador de los franceses"
+			"titulo": "Emperador de los franceses",
+			"desde": 1852,
+			"hasta": 1870
 		},
 		{
-			"desde": 1947,
-			"hasta": 1954,
 			"nombre": "Vincent Auriol",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1947,
+			"hasta": 1954
 		},
 		{
-			"desde": 1954,
-			"hasta": 1959,
 			"nombre": "René Coty",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1954,
+			"hasta": 1959
 		},
 		{
-			"desde": 1959,
-			"hasta": 1969,
 			"nombre": "Charles de Gaulle",
-			"titulo": "Presidente de la República"
+			"titulo": "Presidente de la República",
+			"desde": 1959,
+			"hasta": 1969
 		},
 		{
-			"desde": 1969,
-			"hasta": 1969,
 			"nombre": "Alain Poher",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1969,
+			"hasta": 1969
 		},
 		{
-			"desde": 1969,
-			"hasta": 1974,
 			"nombre": "Georges Pompidou",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1969,
+			"hasta": 1974
 		},
 		{
-			"desde": 1974,
-			"hasta": 1974,
 			"nombre": "Alain Poher",
-			"cargo": "jefe de Estado"
-		},
-		{
+			"cargo": "jefe de Estado",
 			"desde": 1974,
-			"hasta": 1981,
+			"hasta": 1974
+		},
+		{
 			"nombre": "Valéry Giscard d'Estaing",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1974,
+			"hasta": 1981
 		},
 		{
-			"desde": 1981,
-			"hasta": 1995,
 			"nombre": "François Mitterrand",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1981,
+			"hasta": 1995
 		},
 		{
-			"desde": 1995,
-			"hasta": 2007,
 			"nombre": "Q2105",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1995,
+			"hasta": 2007
 		},
 		{
-			"desde": 2007,
-			"hasta": 2012,
-			"nombre": "Nicolas Sarkozy",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2007,
-			"hasta": 2012,
 			"nombre": "François Fillon",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2012
 		},
 		{
-			"desde": 2012,
-			"hasta": 2017,
-			"nombre": "François Hollande",
-			"cargo": "jefe de Estado"
+			"nombre": "Nicolas Sarkozy",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2012
 		},
 		{
-			"desde": 2012,
-			"hasta": 2014,
 			"nombre": "Jean-Marc Ayrault",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2014
 		},
 		{
-			"desde": 2014,
-			"hasta": 2016,
+			"nombre": "François Hollande",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2017
+		},
+		{
 			"nombre": "Manuel Valls",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
 		},
 		{
-			"desde": 2016,
-			"hasta": 2017,
 			"nombre": "Bernard Cazeneuve",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2017
 		},
 		{
-			"desde": 2017,
-			"hasta": 2017,
 			"nombre": "Q3052772",
-			"cargo": "jefe de Estado"
-		},
-		{
+			"cargo": "jefe de Estado",
 			"desde": 2017,
-			"hasta": 2020,
+			"hasta": 2017
+		},
+		{
 			"nombre": "Édouard Philippe",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2020
 		},
 		{
-			"desde": 2020,
-			"hasta": 2022,
 			"nombre": "Jean Castex",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2022
 		},
 		{
-			"desde": 2022,
-			"hasta": 2024,
 			"nombre": "Élisabeth Borne",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2024
 		},
 		{
-			"desde": 2024,
-			"hasta": 2024,
 			"nombre": "Gabriel Attal",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
 		},
 		{
-			"desde": 2024,
-			"hasta": 2024,
 			"nombre": "Michel Barnier",
-			"cargo": "jefe de gobierno"
-		},
-		{
+			"cargo": "jefe de gobierno",
 			"desde": 2024,
-			"hasta": 2025,
-			"nombre": "François Bayrou",
-			"cargo": "jefe de gobierno"
+			"hasta": 2024
 		},
 		{
-			"desde": 2025,
-			"hasta": 2025,
+			"nombre": "François Bayrou",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2025
+		},
+		{
 			"nombre": "Sébastien Lecornu",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
 		}
 	],
 	"poblacion": [
@@ -399,11 +408,10 @@
 			"valor": 66438828
 		}
 	],
-	"relacionados": [
-		"Reino franco",
-		"Francos",
-		"Borgoña",
-		"Ducado de Normandía"
+	"escudos": [
+		{
+			"archivo": "Arms of the French Republic.svg"
+		}
 	],
 	"fuentes": [
 		{
@@ -562,24 +570,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "France",
-	"wikidata": "Q142",
-	"resena": "Francia, oficialmente República Francesa, es un país soberano transcontinental que se extiende por Europa Occidental y por regiones y territorios de ultramar en América y los océanos Atlántico, Pacífico e Índico. Es uno de los veintisiete Estados soberanos que integran la Unión Europea.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "8ada7e566bff",
+		"hash": "69035ad13904",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"escudos": [
-		{
-			"archivo": "Arms of the French Republic.svg"
-		}
-	]
+	}
 }

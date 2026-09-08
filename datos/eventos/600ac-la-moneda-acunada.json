@@ -1,14 +1,14 @@
 {
 	"nombre": "La moneda acuñada",
 	"anio": -600,
+	"categoria": "invento",
 	"lat": 38.48,
 	"lng": 28.04,
-	"categoria": "invento",
-	"descripcion": "Lidia acuña las primeras monedas de electro (pin en su capital, Sardes).",
-	"wiki": "Moneda",
 	"paises": [
 		"Lidia"
 	],
+	"descripcion": "Lidia acuña las primeras monedas de electro (pin en su capital, Sardes).",
+	"wiki": "Moneda",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Moneda",

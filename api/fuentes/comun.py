@@ -7,6 +7,7 @@ guarda *propuestas* de cambio generadas por los scripts de api/fuentes/.
 Nada llega a historia.json sin aprobarse con api/revisar.py y exportarse
 con api/exportar.py.
 """
+import hashlib
 import json
 import os
 import sqlite3
@@ -101,6 +102,95 @@ def _orden(coleccion):
     return lambda r: (entero(r.get("desde")), r.get("nombre") or "")
 
 
+# ---------------------------------------------------------------------------
+# Formato canónico de las fichas
+#
+# Todo lo que se escribe en datos/ pasa por canonizar(): claves en un orden fijo
+# (las que no figuren aquí van al final, en orden alfabético, así un campo nuevo
+# no rompe nada), listas cronológicas ordenadas por año, tabs y LF. Así dos
+# personas que editan la misma ficha producen el mismo texto y los diffs solo
+# muestran cambios reales. api/formatear.py aplica (o comprueba, en CI) este
+# formato; guardar_historia() lo aplica siempre al escribir.
+# ---------------------------------------------------------------------------
+ORDEN_CLAVES = {
+    "paises": ["id", "nombre", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
+               "owid", "relacionados", "resena", "gobernantes", "poblacion", "escudos",
+               "fuentes", "revision"],
+    "conflictos": ["id", "nombre", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
+                   "zonas", "batallas", "fuentes"],
+    "eventos": ["nombre", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
+                "wiki", "fuentes"],
+    "territorios": ["nombre", "pais", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
+                    "wiki", "fuentes"],
+}
+ORDEN_SUBCLAVES = {
+    "nombres_periodo": ["nombre", "desde", "hasta", "wikidata"],
+    "gobernantes": ["nombre", "cargo", "titulo", "desde", "hasta"],
+    "poblacion": ["anio", "valor", "fuente"],
+    "escudos": ["archivo", "desde", "hasta"],
+    "fuentes": ["id", "url", "licencia", "consultado"],
+    "revision": ["estado", "fecha", "por", "hash", "secciones"],
+    "zonas": ["nombre", "tipo", "mar", "desde", "hasta", "color", "poligono"],
+    "batallas": ["nombre", "anio", "hasta", "lat", "lng", "descripcion", "bajas", "wiki"],
+}
+
+
+def _num(v, vacio=float("-inf")):
+    return v if isinstance(v, (int, float)) and not isinstance(v, bool) else vacio
+
+
+# Sublistas que se ordenan cronológicamente (el resto conserva el orden de edición:
+# 'nombres', 'fuentes', 'zonas', 'paises'… tienen un orden que puede ser significativo).
+ORDEN_LISTAS = {
+    "gobernantes": lambda g: (_num(g.get("desde")), _num(g.get("hasta")), g.get("nombre") or ""),
+    "poblacion": lambda x: (_num(x.get("anio")), x.get("fuente") or ""),
+    "nombres_periodo": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("nombre") or ""),
+    "escudos": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("archivo") or ""),
+    "batallas": lambda b: (_num(b.get("anio")), _num(b.get("hasta")), b.get("nombre") or ""),
+}
+
+
+def _ordenar_claves(obj, orden):
+    if not isinstance(obj, dict):
+        return obj
+    pos = {k: i for i, k in enumerate(orden)}
+    claves = sorted(obj, key=lambda k: (pos.get(k, len(orden)), k if k not in pos else ""))
+    return {k: obj[k] for k in claves}
+
+
+def canonizar(coleccion, reg):
+    """Devuelve una COPIA de la ficha en formato canónico (no toca el original)."""
+    if not isinstance(reg, dict):
+        return reg
+    out = {}
+    for k, v in reg.items():
+        if k in ORDEN_LISTAS and isinstance(v, list) and all(isinstance(x, dict) for x in v):
+            v = sorted(v, key=ORDEN_LISTAS[k])  # sorted es estable: empates, en orden original
+        if k in ORDEN_SUBCLAVES:
+            if isinstance(v, list):
+                v = [_ordenar_claves(x, ORDEN_SUBCLAVES[k]) for x in v]
+            else:
+                v = _ordenar_claves(v, ORDEN_SUBCLAVES[k])
+        out[k] = v
+    return _ordenar_claves(out, ORDEN_CLAVES.get(coleccion, []))
+
+
+def texto_canonico(coleccion, reg):
+    """Texto exacto que tendría el fichero de esa ficha en datos/ (tabs, LF final)."""
+    return json.dumps(canonizar(coleccion, reg), ensure_ascii=False, indent="\t") + "\n"
+
+
+def hash_revision(pais):
+    """Huella de los datos 'validables' de un país (gobernantes, población y nombres
+    por época) en forma canónica, así no depende del orden en que se escribieran.
+    Se guarda en revision.hash al validar; si después difiere, los datos cambiaron
+    tras la validación y hay que revisarlos de nuevo."""
+    c = canonizar("paises", pais)
+    canon = json.dumps({"g": c.get("gobernantes", []), "p": c.get("poblacion", []),
+                        "np": c.get("nombres_periodo", [])}, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha1(canon.encode("utf-8")).hexdigest()[:12]
+
+
 def _leer_json(ruta):
     try:
         with open(ruta, encoding="utf-8") as f:
@@ -161,7 +251,7 @@ def guardar_historia(d):
             while fn in esperados:  # dos entidades con el mismo nombre: sufijo
                 fn, i = f"{base}-{i}.json", i + 1
             esperados.add(fn)
-            _escribir_json(os.path.join(carpeta, fn), reg)
+            _escribir_json(os.path.join(carpeta, fn), canonizar(col, reg))
         for fn in os.listdir(carpeta):
             if fn.endswith(".json") and not fn.startswith("_") and fn not in esperados:
                 os.remove(os.path.join(carpeta, fn))
@@ -176,7 +266,7 @@ def compilar_web(d=None):
     os.makedirs(os.path.dirname(HISTORIA), exist_ok=True)
     salida = {k: v for k, v in d.items() if k not in COLECCIONES}
     for col in COLECCIONES:
-        salida[col] = sorted(d.get(col, []), key=_orden(col))
+        salida[col] = [canonizar(col, r) for r in sorted(d.get(col, []), key=_orden(col))]
     with open(HISTORIA, "w", encoding="utf-8", newline="\n") as f:
         json.dump(salida, f, ensure_ascii=False, indent="\t")
         f.write("\n")

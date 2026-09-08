@@ -5,24 +5,25 @@
 		"Assyria"
 	],
 	"wiki": "Asiria",
+	"resena": "Asiria hace referencia a una antigua región de la Alta Mesopotamia que toma su nombre de la ciudad de Aššur —del mismo nombre que Assur, su deidad tutelar—, y es también el nombre del Estado —y posterior imperio— que formó entre el milenio iii y i a. C.",
 	"gobernantes": [
 		{
-			"desde": -745,
-			"hasta": -727,
 			"nombre": "Tiglat-Pileser III",
-			"titulo": "Rey de Asiria, reorganizador del imperio"
+			"titulo": "Rey de Asiria, reorganizador del imperio",
+			"desde": -745,
+			"hasta": -727
 		},
 		{
-			"desde": -722,
-			"hasta": -705,
 			"nombre": "Sargón II",
-			"titulo": "Rey de Asiria"
+			"titulo": "Rey de Asiria",
+			"desde": -722,
+			"hasta": -705
 		},
 		{
-			"desde": -668,
-			"hasta": -627,
 			"nombre": "Asurbanipal",
-			"titulo": "Rey de Asiria, biblioteca de Nínive"
+			"titulo": "Rey de Asiria, biblioteca de Nínive",
+			"desde": -668,
+			"hasta": -627
 		}
 	],
 	"fuentes": [
@@ -39,7 +40,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Asiria hace referencia a una antigua región de la Alta Mesopotamia que toma su nombre de la ciudad de Aššur —del mismo nombre que Assur, su deidad tutelar—, y es también el nombre del Estado —y posterior imperio— que formó entre el milenio iii y i a. C.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

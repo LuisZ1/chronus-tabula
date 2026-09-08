@@ -11,20 +11,6 @@
 	"bajas": "decenas de miles; colapso de Persia y pérdida bizantina de Siria y Egipto",
 	"descripcion": "Tras la muerte de Mahoma, los califas ortodoxos arrollan a las dos grandes potencias: derrotan a Bizancio en Yarmuk (636) y le arrebatan Siria y Egipto, y aniquilan al Imperio sasánida en al-Qadisiyya (637) y Nihawand (642).",
 	"wiki": "Primeras conquistas musulmanas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Primeras conquistas musulmanas",
-			"url": "https://es.wikipedia.org/wiki/Primeras_conquistas_musulmanas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Batalla de Yarmuk",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Yarmuk",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Conquista del Levante bizantino",
@@ -128,6 +114,20 @@
 			"lat": 34.2,
 			"lng": 48.4,
 			"descripcion": "Última resistencia persa organizada; 'victoria de las victorias'."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primeras conquistas musulmanas",
+			"url": "https://es.wikipedia.org/wiki/Primeras_conquistas_musulmanas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Yarmuk",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Yarmuk",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

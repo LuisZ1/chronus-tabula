@@ -1,9 +1,9 @@
 {
 	"nombre": "IA generativa (ChatGPT)",
 	"anio": 2022,
+	"categoria": "invento",
 	"lat": 37.77,
 	"lng": -122.42,
-	"categoria": "invento",
 	"paises": [
 		"Estados Unidos"
 	],

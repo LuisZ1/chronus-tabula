@@ -9,16 +9,7 @@
 	],
 	"bajas": "~1.000.000 de muertos según fuentes antiguas",
 	"descripcion": "Julio César somete la Galia; su crónica es 'De bello Gallico'.",
-	"batallas": [
-		{
-			"nombre": "Sitio de Alesia",
-			"anio": -52,
-			"lat": 47.54,
-			"lng": 4.5,
-			"bajas": "decenas de miles",
-			"descripcion": "Vercingétorix se rinde a César tras el doble cerco."
-		}
-	],
+	"wiki": "Guerra de las Galias",
 	"zonas": [
 		{
 			"nombre": "Galia central y belga",
@@ -105,7 +96,16 @@
 			]
 		}
 	],
-	"wiki": "Guerra de las Galias",
+	"batallas": [
+		{
+			"nombre": "Sitio de Alesia",
+			"anio": -52,
+			"lat": 47.54,
+			"lng": 4.5,
+			"descripcion": "Vercingétorix se rinde a César tras el doble cerco.",
+			"bajas": "decenas de miles"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de las Galias",

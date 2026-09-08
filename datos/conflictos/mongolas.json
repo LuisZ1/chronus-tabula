@@ -14,30 +14,7 @@
 	],
 	"bajas": "~30.000.000-40.000.000 de muertos",
 	"descripcion": "La mayor conquista terrestre de la historia, de Corea a Polonia.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Legnica",
-			"anio": 1241,
-			"lat": 51.15,
-			"lng": 16.22,
-			"descripcion": "Los mongoles derrotan a polacos y caballeros teutónicos."
-		},
-		{
-			"nombre": "Saqueo de Bagdad",
-			"anio": 1258,
-			"lat": 33.34,
-			"lng": 44.4,
-			"bajas": "~200.000-800.000 muertos",
-			"descripcion": "Hulagu destruye la capital abasí; fin del califato de Bagdad."
-		},
-		{
-			"nombre": "Sitio de Xiangyang",
-			"anio": 1273,
-			"lat": 32.01,
-			"lng": 112.12,
-			"descripcion": "Victoria clave de Kublai Kan sobre los Song."
-		}
-	],
+	"wiki": "Invasiones mongolas",
 	"zonas": [
 		{
 			"nombre": "Mongolia y China Jin",
@@ -248,7 +225,30 @@
 			]
 		}
 	],
-	"wiki": "Invasiones mongolas",
+	"batallas": [
+		{
+			"nombre": "Batalla de Legnica",
+			"anio": 1241,
+			"lat": 51.15,
+			"lng": 16.22,
+			"descripcion": "Los mongoles derrotan a polacos y caballeros teutónicos."
+		},
+		{
+			"nombre": "Saqueo de Bagdad",
+			"anio": 1258,
+			"lat": 33.34,
+			"lng": 44.4,
+			"descripcion": "Hulagu destruye la capital abasí; fin del califato de Bagdad.",
+			"bajas": "~200.000-800.000 muertos"
+		},
+		{
+			"nombre": "Sitio de Xiangyang",
+			"anio": 1273,
+			"lat": 32.01,
+			"lng": 112.12,
+			"descripcion": "Victoria clave de Kublai Kan sobre los Song."
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Invasiones mongolas",

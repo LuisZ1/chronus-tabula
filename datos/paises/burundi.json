@@ -7,36 +7,6 @@
 		"República de Burundi",
 		"Urundi"
 	],
-	"wiki": "es:Burundi",
-	"fuentes": [
-		{
-			"id": "wiki_es",
-			"url": "https://es.wikipedia.org/wiki/Burundi",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki_en_hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burundi",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q967",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Burundi",
-			"url": "https://es.wikipedia.org/wiki/Burundi",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q967",
-			"url": "https://www.wikidata.org/wiki/Q967",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Burundi",
@@ -53,91 +23,93 @@
 			"desde": 1966
 		}
 	],
+	"wiki": "es:Burundi",
 	"wikidata": "Q967",
+	"resena": "Burundi, oficialmente República de Burundi, es un Estado soberano, ubicado en la región de los grandes lagos en África Oriental, que carece de salida al mar. Limita al norte con Ruanda, al sur y este con Tanzania, y al oeste con la República Democrática del Congo.",
 	"gobernantes": [
 		{
 			"nombre": "Ntare Rugamba",
+			"cargo": "Rey (Mwami)",
 			"desde": 1796,
-			"hasta": 1850,
-			"cargo": "Rey (Mwami)"
+			"hasta": 1850
 		},
 		{
 			"nombre": "Mwezi Gisabo",
+			"cargo": "Rey (Mwami)",
 			"desde": 1852,
-			"hasta": 1908,
-			"cargo": "Rey (Mwami)"
+			"hasta": 1908
 		},
 		{
 			"nombre": "Mwambutsa IV",
+			"cargo": "Rey (Mwami)",
 			"desde": 1915,
-			"hasta": 1966,
-			"cargo": "Rey (Mwami)"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Ntare V",
+			"cargo": "Rey (Mwami)",
 			"desde": 1966,
-			"hasta": 1966,
-			"cargo": "Rey (Mwami)"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Michel Micombero",
+			"cargo": "Presidente",
 			"desde": 1966,
-			"hasta": 1976,
-			"cargo": "Presidente"
+			"hasta": 1976
 		},
 		{
 			"nombre": "Jean-Baptiste Bagaza",
+			"cargo": "Presidente",
 			"desde": 1976,
-			"hasta": 1987,
-			"cargo": "Presidente"
+			"hasta": 1987
 		},
 		{
 			"nombre": "Pierre Buyoya",
+			"cargo": "Presidente",
 			"desde": 1987,
-			"hasta": 1993,
-			"cargo": "Presidente"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Melchior Ndadaye",
+			"cargo": "Presidente",
 			"desde": 1993,
-			"hasta": 1993,
-			"cargo": "Presidente"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Cyprien Ntaryamira",
+			"cargo": "Presidente",
 			"desde": 1994,
-			"hasta": 1994,
-			"cargo": "Presidente"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Sylvestre Ntibantunganya",
+			"cargo": "Presidente",
 			"desde": 1994,
-			"hasta": 1996,
-			"cargo": "Presidente"
+			"hasta": 1996
 		},
 		{
 			"nombre": "Pierre Buyoya",
+			"cargo": "Presidente",
 			"desde": 1996,
-			"hasta": 2003,
-			"cargo": "Presidente"
+			"hasta": 2003
 		},
 		{
 			"nombre": "Domitien Ndayizeye",
+			"cargo": "Presidente",
 			"desde": 2003,
-			"hasta": 2005,
-			"cargo": "Presidente"
+			"hasta": 2005
 		},
 		{
 			"nombre": "Pierre Nkurunziza",
+			"cargo": "Presidente",
 			"desde": 2005,
-			"hasta": 2020,
-			"cargo": "Presidente"
+			"hasta": 2020
 		},
 		{
 			"nombre": "Évariste Ndayishimiye",
+			"cargo": "Presidente",
 			"desde": 2020,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -172,6 +144,40 @@
 			"fuente": "Estimación (Wikipedia es)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Burundi.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Burundi",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki_en_hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burundi",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q967",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Burundi",
+			"url": "https://es.wikipedia.org/wiki/Burundi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q967",
+			"url": "https://www.wikidata.org/wiki/Q967",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -185,11 +191,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Burundi, oficialmente República de Burundi, es un Estado soberano, ubicado en la región de los grandes lagos en África Oriental, que carece de salida al mar. Limita al norte con Ruanda, al sur y este con Tanzania, y al oeste con la República Democrática del Congo.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Burundi.svg"
-		}
-	]
+	}
 }

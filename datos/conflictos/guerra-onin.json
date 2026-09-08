@@ -10,14 +10,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Una disputa sucesoria en el shogunato Ashikaga incendia Kioto y desata la desintegración del poder central, inicio del periodo Sengoku de los 'estados en guerra'.",
 	"wiki": "Guerra Ōnin",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra Ōnin",
-			"url": "https://es.wikipedia.org/wiki/Guerra_%C5%8Cnin",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Kioto devastada",
@@ -51,6 +43,14 @@
 			"lat": 35.01,
 			"lng": 135.77,
 			"descripcion": "Los combates entre Este y Oeste arrasan la capital durante una década."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra Ōnin",
+			"url": "https://es.wikipedia.org/wiki/Guerra_%C5%8Cnin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

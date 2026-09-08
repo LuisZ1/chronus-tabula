@@ -70,8 +70,8 @@
 			"anio": -256,
 			"lat": 37.1,
 			"lng": 13.9,
-			"bajas": "~30.000-40.000 bajas",
-			"descripcion": "Una de las mayores batallas navales de la Antigüedad."
+			"descripcion": "Una de las mayores batallas navales de la Antigüedad.",
+			"bajas": "~30.000-40.000 bajas"
 		},
 		{
 			"nombre": "Batalla de las islas Egadas",

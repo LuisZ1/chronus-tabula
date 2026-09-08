@@ -11,17 +11,6 @@
 	"bajas": "~75.000 muertos, incluidos ~28.000 civiles bóeres en campos de concentración",
 	"descripcion": "El oro del Transvaal enfrenta al imperio con las repúblicas bóeres: guerra de guerrillas, tierra quemada y los primeros campos de concentración modernos.",
 	"wiki": "Segunda guerra bóer",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Segunda guerra bóer",
-			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_bóer",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Transvaal y Orange",
@@ -52,8 +41,8 @@
 			"anio": 1900,
 			"lat": -28.65,
 			"lng": 29.52,
-			"bajas": "~1.700 bajas británicas",
-			"descripcion": "Sangrienta derrota británica en Natal."
+			"descripcion": "Sangrienta derrota británica en Natal.",
+			"bajas": "~1.700 bajas británicas"
 		},
 		{
 			"nombre": "Liberación de Mafeking",
@@ -61,6 +50,17 @@
 			"lat": -25.86,
 			"lng": 25.64,
 			"descripcion": "Fin de los 217 días de asedio defendidos por Baden-Powell."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra bóer",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_bóer",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

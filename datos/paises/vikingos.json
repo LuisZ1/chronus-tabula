@@ -16,42 +16,43 @@
 		"Normandos",
 		"Ducado de Normandía"
 	],
+	"resena": "La época vikinga es el nombre dado al periodo histórico en Escandinavia y su área de influencia en Europa, tras la edad de hierro germánica, entre los años 793 y 1066, durante el cual los vikingos —guerreros y comerciantes escandinavos— atacaron y exploraron la mayor parte de Europa, del suroeste de Asia, de África y de Norteamérica nororiental.",
 	"gobernantes": [
 		{
-			"desde": 872,
-			"hasta": 930,
 			"nombre": "Harald I Cabellera Hermosa",
-			"titulo": "Primer rey de la Noruega unificada"
+			"titulo": "Primer rey de la Noruega unificada",
+			"desde": 872,
+			"hasta": 930
 		},
 		{
-			"desde": 936,
-			"hasta": 958,
 			"nombre": "Gorm el Viejo",
-			"titulo": "Rey de Dinamarca"
+			"titulo": "Rey de Dinamarca",
+			"desde": 936,
+			"hasta": 958
 		},
 		{
-			"desde": 958,
-			"hasta": 986,
 			"nombre": "Harald Blåtand «Dientazul»",
-			"titulo": "Rey de Dinamarca, cristianizador (da nombre al Bluetooth)"
+			"titulo": "Rey de Dinamarca, cristianizador (da nombre al Bluetooth)",
+			"desde": 958,
+			"hasta": 986
 		},
 		{
-			"desde": 986,
-			"hasta": 1014,
 			"nombre": "Sven I Barbapartida",
-			"titulo": "Rey de Dinamarca y conquistador de Inglaterra (1013)"
+			"titulo": "Rey de Dinamarca y conquistador de Inglaterra (1013)",
+			"desde": 986,
+			"hasta": 1014
 		},
 		{
-			"desde": 1016,
-			"hasta": 1035,
 			"nombre": "Canuto el Grande",
-			"titulo": "Rey de Inglaterra, Dinamarca y Noruega (imperio del mar del Norte)"
+			"titulo": "Rey de Inglaterra, Dinamarca y Noruega (imperio del mar del Norte)",
+			"desde": 1016,
+			"hasta": 1035
 		},
 		{
-			"desde": 1046,
-			"hasta": 1066,
 			"nombre": "Harald III Hardrada",
-			"titulo": "Rey de Noruega, «el último vikingo»"
+			"titulo": "Rey de Noruega, «el último vikingo»",
+			"desde": 1046,
+			"hasta": 1066
 		}
 	],
 	"fuentes": [
@@ -74,7 +75,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La época vikinga es el nombre dado al periodo histórico en Escandinavia y su área de influencia en Europa, tras la edad de hierro germánica, entre los años 793 y 1066, durante el cual los vikingos —guerreros y comerciantes escandinavos— atacaron y exploraron la mayor parte de Europa, del suroeste de Asia, de África y de Norteamérica nororiental.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

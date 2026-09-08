@@ -2,15 +2,15 @@
 	"nombre": "Imprenta de Gutenberg",
 	"anio": 1450,
 	"hasta": 1455,
+	"categoria": "invento",
 	"lat": 49.99,
 	"lng": 8.27,
-	"descripcion": "Gutenberg imprime en Maguncia la Biblia de 42 líneas.",
-	"wiki": "Johannes Gutenberg",
-	"categoria": "invento",
 	"paises": [
 		"Sacro Imperio",
 		"Alemania"
 	],
+	"descripcion": "Gutenberg imprime en Maguncia la Biblia de 42 líneas.",
+	"wiki": "Johannes Gutenberg",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Johannes Gutenberg",

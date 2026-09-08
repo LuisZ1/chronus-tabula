@@ -6,6 +6,117 @@
 	],
 	"wiki": "Yemen",
 	"wikidata": "Q805",
+	"resena": "Yemen, oficialmente la República de Yemen, es un país bicontinental situado en el Oriente Próximo asiático, que comparte fronteras con Omán y Arabia Saudita.",
+	"gobernantes": [
+		{
+			"nombre": "Haidar Abu Bakr al-Attas",
+			"cargo": "jefe de gobierno",
+			"desde": 1990,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Ali Abdullah Saleh",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Muhammad Said al-Attar",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Abdul Aziz Abdul Ghani",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Faraj Said Bin Ghanem",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Abd Al-Karim Al-Iryani",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Abdul-Kader Bajammal",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Ali Muhammad Mujawar",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Mohammed Basindawa",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Abd Rabbuh Mansur al-Hadi",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Khaled Bahah",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Ahmed Obaid Bin Dagher",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Maeen Abdulmalik Saeed",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Rashad al-Alimi",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Ahmad Awad Bin Mubarak",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Salem Saleh Salem bin brek",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2017,
+			"valor": 28250420,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Yemen (2).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Yemen",
@@ -128,127 +239,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Yemen, oficialmente la República de Yemen, es un país bicontinental situado en el Oriente Próximo asiático, que comparte fronteras con Omán y Arabia Saudita.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "5189e024b29d",
+		"hash": "5638a9f6a553",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 1990,
-			"hasta": 2011,
-			"nombre": "Ali Abdullah Saleh",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1990,
-			"hasta": 1994,
-			"nombre": "Haidar Abu Bakr al-Attas",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1994,
-			"hasta": 1994,
-			"nombre": "Muhammad Said al-Attar",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1994,
-			"hasta": 1997,
-			"nombre": "Abdul Aziz Abdul Ghani",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1997,
-			"hasta": 1998,
-			"nombre": "Faraj Said Bin Ghanem",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1998,
-			"hasta": 2001,
-			"nombre": "Abd Al-Karim Al-Iryani",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2001,
-			"hasta": 2007,
-			"nombre": "Abdul-Kader Bajammal",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2007,
-			"hasta": 2011,
-			"nombre": "Ali Muhammad Mujawar",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2011,
-			"hasta": 2014,
-			"nombre": "Mohammed Basindawa",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2012,
-			"hasta": 2022,
-			"nombre": "Abd Rabbuh Mansur al-Hadi",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2016,
-			"nombre": "Khaled Bahah",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2016,
-			"hasta": 2018,
-			"nombre": "Ahmed Obaid Bin Dagher",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2018,
-			"hasta": 2024,
-			"nombre": "Maeen Abdulmalik Saeed",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2022,
-			"hasta": 2022,
-			"nombre": "Rashad al-Alimi",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2024,
-			"hasta": 2025,
-			"nombre": "Ahmad Awad Bin Mubarak",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2025,
-			"hasta": 2025,
-			"nombre": "Salem Saleh Salem bin brek",
-			"cargo": "jefe de gobierno"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 2017,
-			"valor": 28250420,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Emblem of Yemen (2).svg"
-		}
-	]
+	}
 }

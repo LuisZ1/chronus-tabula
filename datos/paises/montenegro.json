@@ -4,28 +4,10 @@
 	"nombres": [
 		"Montenegro"
 	],
-	"wikidata": "Q236",
 	"wiki": "es:Montenegro",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q236",
-			"url": "https://www.wikidata.org/wiki/Q236",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Montenegro",
-			"url": "https://es.wikipedia.org/wiki/Montenegro",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q236",
 	"owid": "MNE",
+	"resena": "Montenegro es un país del sureste de Europa situado en la península balcánica, que cuenta con casi 300 km de costa a orillas del mar Adriático. Limita por el norte con Bosnia y Herzegovina y Serbia; Albania por el sur; Croacia por el oeste; y con Kosovo por el este.",
 	"poblacion": [
 		{
 			"anio": 1800,
@@ -92,6 +74,25 @@
 			"valor": 633553
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q236",
+			"url": "https://www.wikidata.org/wiki/Q236",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Montenegro",
+			"url": "https://es.wikipedia.org/wiki/Montenegro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -101,6 +102,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Montenegro es un país del sureste de Europa situado en la península balcánica, que cuenta con casi 300 km de costa a orillas del mar Adriático. Limita por el norte con Bosnia y Herzegovina y Serbia; Albania por el sur; Croacia por el oeste; y con Kosovo por el este."
+	}
 }

@@ -5,28 +5,10 @@
 		"Anguilla",
 		"Anguila"
 	],
-	"wikidata": "Q25228",
 	"wiki": "es:Anguila",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q25228",
-			"url": "https://www.wikidata.org/wiki/Q25228",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Anguila",
-			"url": "https://es.wikipedia.org/wiki/Anguila",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q25228",
 	"owid": "AIA",
+	"resena": "El término anguila puede referirse a:las anguilas (Anguillidae), familia de peces teleósteos del orden Anguilliformes; la anguila americana ; la anguila europea ; la anguila eléctrica, pez de la familia Gymnotidae; Anguila, territorio británico de ultramar (archipiélago) localizado en el mar Caribe; Anguila, isla del archipiélago anterior; Anguilla, pueblo d…",
 	"poblacion": [
 		{
 			"anio": -7000,
@@ -197,6 +179,25 @@
 			"valor": 14435
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q25228",
+			"url": "https://www.wikidata.org/wiki/Q25228",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Anguila",
+			"url": "https://es.wikipedia.org/wiki/Anguila",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -206,6 +207,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "El término anguila puede referirse a:las anguilas (Anguillidae), familia de peces teleósteos del orden Anguilliformes; la anguila americana ; la anguila europea ; la anguila eléctrica, pez de la familia Gymnotidae; Anguila, territorio británico de ultramar (archipiélago) localizado en el mar Caribe; Anguila, isla del archipiélago anterior; Anguilla, pueblo d…"
+	}
 }

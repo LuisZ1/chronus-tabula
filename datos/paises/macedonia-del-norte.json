@@ -5,28 +5,10 @@
 		"Macedonia",
 		"Macedonia del Norte"
 	],
-	"wikidata": "Q221",
 	"wiki": "es:Macedonia del Norte",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q221",
-			"url": "https://www.wikidata.org/wiki/Q221",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Macedonia del Norte",
-			"url": "https://es.wikipedia.org/wiki/Macedonia_del_Norte",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q221",
 	"owid": "MKD",
+	"resena": "Macedonia del Norte, denominada oficialmente como República de Macedonia del Norte, es un país sin litoral situado en el sureste de Europa, en la península de los Balcanes. Limita al norte con Serbia y Kosovo, al este con Bulgaria, al sur con Grecia y al oeste con Albania.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 1831800
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q221",
+			"url": "https://www.wikidata.org/wiki/Q221",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Macedonia del Norte",
+			"url": "https://es.wikipedia.org/wiki/Macedonia_del_Norte",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Macedonia del Norte, denominada oficialmente como República de Macedonia del Norte, es un país sin litoral situado en el sureste de Europa, en la península de los Balcanes. Limita al norte con Serbia y Kosovo, al este con Bulgaria, al sur con Grecia y al oeste con Albania."
+	}
 }

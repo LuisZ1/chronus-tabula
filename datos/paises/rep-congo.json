@@ -8,31 +8,6 @@
 		"Congo-Brazzaville",
 		"República Popular del Congo"
 	],
-	"wiki": "es:República del Congo",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/República_del_Congo",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q971",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): República del Congo",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Congo",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q971",
-			"url": "https://www.wikidata.org/wiki/Q971",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Congo Francés",
@@ -55,49 +30,51 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:República del Congo",
 	"wikidata": "Q971",
+	"resena": "El Congo, oficialmente la República del Congo, también conocida con los nombres de Congo-Brazzaville o simplemente Congo del Oeste, es un país de África Central.",
 	"gobernantes": [
 		{
 			"nombre": "Fulbert Youlou",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1963,
-			"cargo": "Presidente"
+			"hasta": 1963
 		},
 		{
 			"nombre": "Alphonse Massamba-Débat",
+			"cargo": "Presidente",
 			"desde": 1963,
-			"hasta": 1968,
-			"cargo": "Presidente"
+			"hasta": 1968
 		},
 		{
 			"nombre": "Marien Ngouabi",
+			"cargo": "Presidente",
 			"desde": 1968,
-			"hasta": 1977,
-			"cargo": "Presidente"
+			"hasta": 1977
 		},
 		{
 			"nombre": "Joachim Yhombi-Opango",
+			"cargo": "Presidente",
 			"desde": 1977,
-			"hasta": 1979,
-			"cargo": "Presidente"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Denis Sassou-Nguesso",
+			"cargo": "Presidente",
 			"desde": 1979,
-			"hasta": 1992,
-			"cargo": "Presidente"
+			"hasta": 1992
 		},
 		{
 			"nombre": "Pascal Lissouba",
+			"cargo": "Presidente",
 			"desde": 1992,
-			"hasta": 1997,
-			"cargo": "Presidente"
+			"hasta": 1997
 		},
 		{
 			"nombre": "Denis Sassou-Nguesso",
+			"cargo": "Presidente",
 			"desde": 1997,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -132,6 +109,35 @@
 			"fuente": "Our World in Data (est.)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Republic of the Congo.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/República_del_Congo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q971",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): República del Congo",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Congo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q971",
+			"url": "https://www.wikidata.org/wiki/Q971",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -145,11 +151,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "El Congo, oficialmente la República del Congo, también conocida con los nombres de Congo-Brazzaville o simplemente Congo del Oeste, es un país de África Central.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of the Republic of the Congo.svg"
-		}
-	]
+	}
 }

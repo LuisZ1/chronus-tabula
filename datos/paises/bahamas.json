@@ -4,28 +4,10 @@
 	"nombres": [
 		"Bahamas"
 	],
-	"wikidata": "Q778",
 	"wiki": "es:Bahamas",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q778",
-			"url": "https://www.wikidata.org/wiki/Q778",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Bahamas",
-			"url": "https://es.wikipedia.org/wiki/Bahamas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q778",
 	"owid": "BHS",
+	"resena": "Bahamas, oficialmente la Mancomunidad de las Bahamas, es un país insular, y uno de los 13 países que forman la América Insular o Islas del Caribe, uno de los 35 del continente americano. Su capital y ciudad más poblada es Nasáu, situada en la isla de Nueva Providencia.",
 	"poblacion": [
 		{
 			"anio": -9000,
@@ -204,6 +186,25 @@
 			"valor": 399452
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q778",
+			"url": "https://www.wikidata.org/wiki/Q778",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Bahamas",
+			"url": "https://es.wikipedia.org/wiki/Bahamas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -213,6 +214,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Bahamas, oficialmente la Mancomunidad de las Bahamas, es un país insular, y uno de los 13 países que forman la América Insular o Islas del Caribe, uno de los 35 del continente americano. Su capital y ciudad más poblada es Nasáu, situada en la isla de Nueva Providencia."
+	}
 }

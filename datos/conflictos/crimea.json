@@ -13,6 +13,119 @@
 	"bajas": "~500.000-750.000 muertos, la mayoría por enfermedad",
 	"descripcion": "Las potencias occidentales frenan la expansión rusa sobre el imperio otomano; la guerra de la carga de la Brigada Ligera y de Florence Nightingale.",
 	"wiki": "Guerra de Crimea",
+	"zonas": [
+		{
+			"nombre": "Crimea y el mar Negro",
+			"tipo": "frente",
+			"poligono": [
+				[
+					46,
+					32.5
+				],
+				[
+					45.8,
+					36.5
+				],
+				[
+					44.3,
+					34.5
+				],
+				[
+					44.4,
+					33
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Oltenitza",
+			"anio": 1853,
+			"lat": 44.09,
+			"lng": 26.64
+		},
+		{
+			"nombre": "Batalla de Sinope",
+			"anio": 1853,
+			"lat": 42.02,
+			"lng": 35.15
+		},
+		{
+			"nombre": "Asedio de Silistra",
+			"anio": 1854,
+			"lat": 44.12,
+			"lng": 27.26
+		},
+		{
+			"nombre": "Batalla de Balaclava",
+			"anio": 1854,
+			"lat": 44.5,
+			"lng": 33.6,
+			"descripcion": "La carga de la Brigada Ligera, inmortalizada por Tennyson."
+		},
+		{
+			"nombre": "Batalla del río Alma",
+			"anio": 1854,
+			"lat": 44.83,
+			"lng": 33.67
+		},
+		{
+			"nombre": "batalla de Nigoiti",
+			"anio": 1854,
+			"lat": 42.08,
+			"lng": 42.11
+		},
+		{
+			"nombre": "batalla de Nigoiti",
+			"anio": 1854,
+			"lat": 42.08,
+			"lng": 42.11
+		},
+		{
+			"nombre": "batalla del Choloki",
+			"anio": 1854,
+			"lat": 41.85,
+			"lng": 41.97
+		},
+		{
+			"nombre": "batalla del Choloki",
+			"anio": 1854,
+			"lat": 41.85,
+			"lng": 41.97
+		},
+		{
+			"nombre": "Batalla de Eupatoria",
+			"anio": 1855,
+			"lat": 45.19,
+			"lng": 33.37
+		},
+		{
+			"nombre": "Batalla de Kinburn",
+			"anio": 1855,
+			"lat": 46.6,
+			"lng": 31.5
+		},
+		{
+			"nombre": "Battle of the Chernaya",
+			"anio": 1855,
+			"lat": 44.47,
+			"lng": 33.85
+		},
+		{
+			"nombre": "Battle of the Chernaya",
+			"anio": 1855,
+			"lat": 44.47,
+			"lng": 33.85
+		},
+		{
+			"nombre": "Sitio de Sebastopol",
+			"anio": 1855,
+			"lat": 44.6,
+			"lng": 33.53,
+			"descripcion": "Once meses de asedio deciden la guerra.",
+			"bajas": "~230.000 bajas"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de Crimea",
@@ -76,119 +189,6 @@
 			"url": "https://www.wikidata.org/wiki/Q2986186",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
-		}
-	],
-	"zonas": [
-		{
-			"nombre": "Crimea y el mar Negro",
-			"tipo": "frente",
-			"poligono": [
-				[
-					46,
-					32.5
-				],
-				[
-					45.8,
-					36.5
-				],
-				[
-					44.3,
-					34.5
-				],
-				[
-					44.4,
-					33
-				]
-			]
-		}
-	],
-	"batallas": [
-		{
-			"nombre": "Batalla de Oltenitza",
-			"anio": 1853,
-			"lat": 44.09,
-			"lng": 26.64
-		},
-		{
-			"nombre": "Batalla de Sinope",
-			"anio": 1853,
-			"lat": 42.02,
-			"lng": 35.15
-		},
-		{
-			"nombre": "Batalla de Balaclava",
-			"anio": 1854,
-			"lat": 44.5,
-			"lng": 33.6,
-			"descripcion": "La carga de la Brigada Ligera, inmortalizada por Tennyson."
-		},
-		{
-			"nombre": "Asedio de Silistra",
-			"anio": 1854,
-			"lat": 44.12,
-			"lng": 27.26
-		},
-		{
-			"nombre": "Batalla del río Alma",
-			"anio": 1854,
-			"lat": 44.83,
-			"lng": 33.67
-		},
-		{
-			"nombre": "batalla de Nigoiti",
-			"anio": 1854,
-			"lat": 42.08,
-			"lng": 42.11
-		},
-		{
-			"nombre": "batalla del Choloki",
-			"anio": 1854,
-			"lat": 41.85,
-			"lng": 41.97
-		},
-		{
-			"nombre": "batalla de Nigoiti",
-			"anio": 1854,
-			"lat": 42.08,
-			"lng": 42.11
-		},
-		{
-			"nombre": "batalla del Choloki",
-			"anio": 1854,
-			"lat": 41.85,
-			"lng": 41.97
-		},
-		{
-			"nombre": "Sitio de Sebastopol",
-			"anio": 1855,
-			"lat": 44.6,
-			"lng": 33.53,
-			"bajas": "~230.000 bajas",
-			"descripcion": "Once meses de asedio deciden la guerra."
-		},
-		{
-			"nombre": "Batalla de Eupatoria",
-			"anio": 1855,
-			"lat": 45.19,
-			"lng": 33.37
-		},
-		{
-			"nombre": "Battle of the Chernaya",
-			"anio": 1855,
-			"lat": 44.47,
-			"lng": 33.85
-		},
-		{
-			"nombre": "Battle of the Chernaya",
-			"anio": 1855,
-			"lat": 44.47,
-			"lng": 33.85
-		},
-		{
-			"nombre": "Batalla de Kinburn",
-			"anio": 1855,
-			"lat": 46.6,
-			"lng": 31.5
 		}
 	]
 }

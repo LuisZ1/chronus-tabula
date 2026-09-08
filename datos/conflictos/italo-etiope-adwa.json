@@ -10,14 +10,6 @@
 	"bajas": "unos 12.000 muertos (la mayoría del bando italiano en Adwa)",
 	"descripcion": "Italia intenta convertir Etiopía en protectorado apoyándose en la ambigua interpretación del Tratado de Wuchale. El emperador Menelik II moviliza un gran ejército y el 1 de marzo de 1896 aplasta a las fuerzas italianas en la batalla de Adwa, la mayor derrota de una potencia colonial europea en África; Etiopía preserva su independencia.",
 	"wiki": "Primera guerra ítalo-etíope",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Primera guerra ítalo-etíope",
-			"url": "https://es.wikipedia.org/wiki/Primera_guerra_ítalo-etíope",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Tigray y frontera de Eritrea",
@@ -62,6 +54,14 @@
 			"anio": 1896,
 			"lat": 14.17,
 			"lng": 38.9
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera guerra ítalo-etíope",
+			"url": "https://es.wikipedia.org/wiki/Primera_guerra_ítalo-etíope",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

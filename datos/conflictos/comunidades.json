@@ -10,17 +10,6 @@
 	"bajas": "~2.000-3.000 muertos",
 	"descripcion": "Las ciudades castellanas se alzan contra el joven Carlos I; la derrota de Villalar y la ejecución de Padilla, Bravo y Maldonado cierran la revuelta.",
 	"wiki": "Guerra de las Comunidades de Castilla",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de las Comunidades de Castilla",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Comunidades_de_Castilla",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Meseta castellana",
@@ -52,6 +41,17 @@
 			"lat": 41.55,
 			"lng": -5.1,
 			"descripcion": "Los comuneros son derrotados; sus líderes, decapitados al día siguiente."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de las Comunidades de Castilla",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Comunidades_de_Castilla",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

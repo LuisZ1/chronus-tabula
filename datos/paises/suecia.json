@@ -5,40 +5,22 @@
 		"Sweden",
 		"Sweden–Norway"
 	],
+	"owid": "Sweden",
+	"resena": "Suecia, oficialmente el Reino de Suecia, es un país escandinavo de Europa del Norte, constituido en estado social y democrático, con la monarquía parlamentaria como sistema de gobierno. Es uno de los veintisiete Estados soberanos que forman la Unión Europea.",
 	"gobernantes": [
 		{
-			"desde": 1611,
-			"hasta": 1632,
 			"nombre": "Gustavo II Adolfo (el León del Norte)",
-			"titulo": "Rey de Suecia"
+			"titulo": "Rey de Suecia",
+			"desde": 1611,
+			"hasta": 1632
 		},
 		{
-			"desde": 1697,
-			"hasta": 1718,
 			"nombre": "Carlos XII",
-			"titulo": "Rey de Suecia"
+			"titulo": "Rey de Suecia",
+			"desde": 1697,
+			"hasta": 1718
 		}
 	],
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Suecia",
-			"url": "https://es.wikipedia.org/wiki/Suecia",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "Wikipedia (es): Suecia",
-			"url": "https://es.wikipedia.org/wiki/Suecia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
-	"owid": "Sweden",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -221,6 +203,25 @@
 			"valor": 10551493
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Suecia",
+			"url": "https://es.wikipedia.org/wiki/Suecia",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Suecia",
+			"url": "https://es.wikipedia.org/wiki/Suecia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -230,6 +231,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Suecia, oficialmente el Reino de Suecia, es un país escandinavo de Europa del Norte, constituido en estado social y democrático, con la monarquía parlamentaria como sistema de gobierno. Es uno de los veintisiete Estados soberanos que forman la Unión Europea."
+	}
 }

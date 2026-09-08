@@ -12,18 +12,6 @@
 	"bajas": "cientos de miles",
 	"descripcion": "Serie de guerras por el control del Mediterráneo oriental. Los otomanos arrebatan a Venecia Chipre (Nicosia, 1570) y Creta (largo sitio de Candia, 1645-1669), pero sufren la gran derrota naval de Lepanto (1571) ante la Liga Santa.",
 	"wiki": "Guerras otomano-venecianas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Batalla de Lepanto",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lepanto",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Egeo y Mediterráneo oriental en disputa",
@@ -72,6 +60,18 @@
 			"anio": 1669,
 			"lat": 35.34,
 			"lng": 25.13
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Lepanto",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lepanto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

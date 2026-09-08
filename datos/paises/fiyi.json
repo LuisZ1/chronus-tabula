@@ -5,28 +5,10 @@
 		"Fiji",
 		"Fiyi"
 	],
-	"wikidata": "Q712",
 	"wiki": "es:Fiyi",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q712",
-			"url": "https://www.wikidata.org/wiki/Q712",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Fiyi",
-			"url": "https://es.wikipedia.org/wiki/Fiyi",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q712",
 	"owid": "FJI",
+	"resena": "Fiyi, oficialmente la República de Fiyi, es un país soberano insular ubicado en Oceanía, localizado en el océano Pacífico. Está constituido como una república parlamentaria.",
 	"poblacion": [
 		{
 			"anio": -1000,
@@ -173,6 +155,25 @@
 			"valor": 924150
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q712",
+			"url": "https://www.wikidata.org/wiki/Q712",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Fiyi",
+			"url": "https://es.wikipedia.org/wiki/Fiyi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -182,6 +183,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Fiyi, oficialmente la República de Fiyi, es un país soberano insular ubicado en Oceanía, localizado en el océano Pacífico. Está constituido como una república parlamentaria."
+	}
 }

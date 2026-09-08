@@ -1,20 +1,10 @@
 {
 	"nombre": "Atenas",
 	"pais": "Atenas",
-	"lat": 37.98,
-	"lng": 23.73,
 	"desde": -508,
 	"hasta": -322,
-	"descripcion": "Polis del Ática, cuna de la democracia: reformas de Clístenes (508 a. C.), siglo de Pericles (461-429 a. C.) y la Liga de Delos. Rival de Esparta en la guerra del Peloponeso.",
-	"wiki": "Atenas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Historia de Atenas",
-			"url": "https://es.wikipedia.org/wiki/Historia_de_Atenas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
+	"lat": 37.98,
+	"lng": 23.73,
 	"poligono": [
 		[
 			38.32,
@@ -36,5 +26,15 @@
 			38.0,
 			23.35
 		]
+	],
+	"descripcion": "Polis del Ática, cuna de la democracia: reformas de Clístenes (508 a. C.), siglo de Pericles (461-429 a. C.) y la Liga de Delos. Rival de Esparta en la guerra del Peloponeso.",
+	"wiki": "Atenas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Historia de Atenas",
+			"url": "https://es.wikipedia.org/wiki/Historia_de_Atenas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
 	]
 }

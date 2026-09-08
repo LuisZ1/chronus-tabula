@@ -7,25 +7,6 @@
 		"Ruanda-Urundi",
 		"República de Ruanda"
 	],
-	"wiki": "es:Ruanda",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/Ruanda",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1037",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Ruanda",
-			"url": "https://es.wikipedia.org/wiki/Ruanda",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Ruanda",
@@ -43,61 +24,63 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Ruanda",
 	"wikidata": "Q1037",
+	"resena": "Ruanda, cuyo nombre oficial es República de Rwanda, es un país en África Oriental, África Central o África centro-este sin salida al mar. Limita al norte con Uganda, al este con Tanzania, al sur con Burundi y al oeste con la República Democrática del Congo.",
 	"gobernantes": [
 		{
 			"nombre": "Kigeli IV Rwabugiri",
+			"cargo": "Mwami (rey)",
 			"desde": 1853,
-			"hasta": 1895,
-			"cargo": "Mwami (rey)"
+			"hasta": 1895
 		},
 		{
 			"nombre": "Yuhi V Musinga",
+			"cargo": "Mwami (rey)",
 			"desde": 1896,
-			"hasta": 1931,
-			"cargo": "Mwami (rey)"
+			"hasta": 1931
 		},
 		{
 			"nombre": "Mutara III Rudahigwa",
+			"cargo": "Mwami (rey)",
 			"desde": 1931,
-			"hasta": 1959,
-			"cargo": "Mwami (rey)"
+			"hasta": 1959
 		},
 		{
 			"nombre": "Kigeli V Ndahindurwa",
+			"cargo": "Mwami (rey)",
 			"desde": 1959,
-			"hasta": 1961,
-			"cargo": "Mwami (rey)"
+			"hasta": 1961
 		},
 		{
 			"nombre": "Grégoire Kayibanda",
+			"cargo": "Presidente",
 			"desde": 1962,
-			"hasta": 1973,
-			"cargo": "Presidente"
+			"hasta": 1973
 		},
 		{
 			"nombre": "Juvénal Habyarimana",
+			"cargo": "Presidente",
 			"desde": 1973,
-			"hasta": 1994,
-			"cargo": "Presidente"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Théodore Sindikubwabo",
+			"cargo": "Presidente interino",
 			"desde": 1994,
-			"hasta": 1994,
-			"cargo": "Presidente interino"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Pasteur Bizimungu",
+			"cargo": "Presidente",
 			"desde": 1994,
-			"hasta": 2000,
-			"cargo": "Presidente"
+			"hasta": 2000
 		},
 		{
 			"nombre": "Paul Kagame",
+			"cargo": "Presidente",
 			"desde": 2000,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -137,6 +120,24 @@
 			"fuente": "censo (Wikipedia es)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Ruanda",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1037",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Ruanda",
+			"url": "https://es.wikipedia.org/wiki/Ruanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -149,6 +150,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Ruanda, cuyo nombre oficial es República de Rwanda, es un país en África Oriental, África Central o África centro-este sin salida al mar. Limita al norte con Uganda, al este con Tanzania, al sur con Burundi y al oeste con la República Democrática del Congo."
+	}
 }

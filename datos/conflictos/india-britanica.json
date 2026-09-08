@@ -12,17 +12,6 @@
 	"bajas": "cientos de miles de muertos (más las hambrunas de Bengala)",
 	"descripcion": "De Plassey (1757) a la derrota final de los marathas (1818): la Compañía de las Indias Orientales convierte el subcontinente en el corazón del imperio británico.",
 	"wiki": "Compañía Británica de las Indias Orientales",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Compañía Británica de las Indias Orientales",
-			"url": "https://es.wikipedia.org/wiki/Compañía_Británica_de_las_Indias_Orientales",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Bengala",
@@ -150,6 +139,17 @@
 			"lat": 20.25,
 			"lng": 75.89,
 			"descripcion": "La victoria que el futuro Wellington consideraba su mejor batalla."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Compañía Británica de las Indias Orientales",
+			"url": "https://es.wikipedia.org/wiki/Compañía_Británica_de_las_Indias_Orientales",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

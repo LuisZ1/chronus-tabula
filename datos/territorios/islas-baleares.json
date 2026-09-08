@@ -1,9 +1,9 @@
 {
 	"nombre": "Islas Baleares",
 	"pais": "España",
+	"desde": 1229,
 	"lat": 39.6,
 	"lng": 2.9,
-	"desde": 1229,
 	"descripcion": "Jaime I de Aragón conquistó Mallorca en 1229-1231; Ibiza (1235) y Menorca (1287) completaron la incorporación a la Corona de Aragón y, con ella, a España.",
 	"wiki": "Islas Baleares",
 	"fuentes": [

@@ -1,0 +1,8 @@
+# Revisores automáticos de cada parte del repositorio (GitHub los asigna al abrir un PR).
+# Añade tu usuario en la zona que quieras cuidar (por ejemplo, los países de una región).
+*                       @LuisZ1
+/datos/                 @LuisZ1
+/schema/                @LuisZ1
+/api/                   @LuisZ1
+/web/                   @LuisZ1
+/.github/               @LuisZ1

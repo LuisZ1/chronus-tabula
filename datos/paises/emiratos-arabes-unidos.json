@@ -5,28 +5,10 @@
 		"United Arab Emirates",
 		"Emiratos Árabes Unidos"
 	],
-	"wikidata": "Q878",
 	"wiki": "es:Emiratos Árabes Unidos",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q878",
-			"url": "https://www.wikidata.org/wiki/Q878",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Emiratos Árabes Unidos",
-			"url": "https://es.wikipedia.org/wiki/Emiratos_%C3%81rabes_Unidos",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q878",
 	"owid": "ARE",
+	"resena": "Emiratos Árabes Unidos (EAU) es un país soberano constituido en monarquía federal de Oriente Próximo, situado en la península de Arabia. Está compuesto por siete emiratos: Abu Dabi, Ajman, Dubái, Fuyaira, Ras al Jaima, Sarja y Umm al-Qaywayn.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 10642089
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q878",
+			"url": "https://www.wikidata.org/wiki/Q878",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Emiratos Árabes Unidos",
+			"url": "https://es.wikipedia.org/wiki/Emiratos_%C3%81rabes_Unidos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Emiratos Árabes Unidos (EAU) es un país soberano constituido en monarquía federal de Oriente Próximo, situado en la península de Arabia. Está compuesto por siete emiratos: Abu Dabi, Ajman, Dubái, Fuyaira, Ras al Jaima, Sarja y Umm al-Qaywayn."
+	}
 }

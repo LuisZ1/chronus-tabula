@@ -12,47 +12,7 @@
 	],
 	"bajas": "~500.000 muertos",
 	"descripcion": "Guerra entre la República y los sublevados de Franco; antesala de la Segunda Guerra Mundial.",
-	"batallas": [
-		{
-			"nombre": "Defensa de Madrid",
-			"anio": 1936,
-			"lat": 40.42,
-			"lng": -3.7,
-			"descripcion": "«No pasarán»: la capital resiste el asalto inicial."
-		},
-		{
-			"nombre": "Bombardeo de Guernica",
-			"anio": 1937,
-			"lat": 43.32,
-			"lng": -2.68,
-			"bajas": "~150-300 civiles muertos",
-			"descripcion": "La Legión Cóndor arrasa la villa; inspira el cuadro de Picasso."
-		},
-		{
-			"nombre": "Batalla del Ebro",
-			"anio": 1938,
-			"lat": 41.08,
-			"lng": 0.44,
-			"bajas": "~100.000 bajas",
-			"descripcion": "La batalla más larga y dura de la guerra; agota a la República."
-		},
-		{
-			"nombre": "Batalla del Jarama",
-			"anio": 1937,
-			"lat": 40.27,
-			"lng": -3.53,
-			"bajas": "~20.000 bajas",
-			"descripcion": "Sangriento intento de cortar la carretera de Valencia."
-		},
-		{
-			"nombre": "Batalla de Teruel",
-			"anio": 1938,
-			"lat": 40.34,
-			"lng": -1.11,
-			"bajas": "~40.000 bajas entre la nieve",
-			"descripcion": "La única capital tomada por la República, reconquistada en semanas."
-		}
-	],
+	"wiki": "Guerra civil española",
 	"zonas": [
 		{
 			"nombre": "Avance sobre Madrid",
@@ -187,7 +147,47 @@
 			]
 		}
 	],
-	"wiki": "Guerra civil española",
+	"batallas": [
+		{
+			"nombre": "Defensa de Madrid",
+			"anio": 1936,
+			"lat": 40.42,
+			"lng": -3.7,
+			"descripcion": "«No pasarán»: la capital resiste el asalto inicial."
+		},
+		{
+			"nombre": "Batalla del Jarama",
+			"anio": 1937,
+			"lat": 40.27,
+			"lng": -3.53,
+			"descripcion": "Sangriento intento de cortar la carretera de Valencia.",
+			"bajas": "~20.000 bajas"
+		},
+		{
+			"nombre": "Bombardeo de Guernica",
+			"anio": 1937,
+			"lat": 43.32,
+			"lng": -2.68,
+			"descripcion": "La Legión Cóndor arrasa la villa; inspira el cuadro de Picasso.",
+			"bajas": "~150-300 civiles muertos"
+		},
+		{
+			"nombre": "Batalla de Teruel",
+			"anio": 1938,
+			"lat": 40.34,
+			"lng": -1.11,
+			"descripcion": "La única capital tomada por la República, reconquistada en semanas.",
+			"bajas": "~40.000 bajas entre la nieve"
+		},
+		{
+			"nombre": "Batalla del Ebro",
+			"anio": 1938,
+			"lat": 41.08,
+			"lng": 0.44,
+			"descripcion": "La batalla más larga y dura de la guerra; agota a la República.",
+			"bajas": "~100.000 bajas"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra civil española",

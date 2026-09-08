@@ -6,25 +6,6 @@
 		"Togolandia",
 		"República Togolesa"
 	],
-	"wiki": "es:Togo",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/Togo",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q945",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Togo",
-			"url": "https://es.wikipedia.org/wiki/Togo",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Togolandia alemana",
@@ -42,37 +23,39 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Togo",
 	"wikidata": "Q945",
+	"resena": "Togo es un país de África occidental. Limita con Ghana al oeste, Benín al este y Burkina Faso al norte.",
 	"gobernantes": [
 		{
 			"nombre": "Sylvanus Olympio",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1963,
-			"cargo": "Presidente"
+			"hasta": 1963
 		},
 		{
 			"nombre": "Nicolas Grunitzky",
+			"cargo": "Presidente",
 			"desde": 1963,
-			"hasta": 1967,
-			"cargo": "Presidente"
+			"hasta": 1967
 		},
 		{
 			"nombre": "Kléber Dadjo",
+			"cargo": "Presidente (comité de reconciliación, interino)",
 			"desde": 1967,
-			"hasta": 1967,
-			"cargo": "Presidente (comité de reconciliación, interino)"
+			"hasta": 1967
 		},
 		{
 			"nombre": "Gnassingbé Eyadéma",
+			"cargo": "Presidente",
 			"desde": 1967,
-			"hasta": 2005,
-			"cargo": "Presidente"
+			"hasta": 2005
 		},
 		{
 			"nombre": "Faure Gnassingbé",
+			"cargo": "Presidente",
 			"desde": 2005,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -107,6 +90,24 @@
 			"fuente": "Our World in Data (est.)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Togo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q945",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Togo",
+			"url": "https://es.wikipedia.org/wiki/Togo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -119,6 +120,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Togo es un país de África occidental. Limita con Ghana al oeste, Benín al este y Burkina Faso al norte."
+	}
 }

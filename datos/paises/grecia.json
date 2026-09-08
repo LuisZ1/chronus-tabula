@@ -5,28 +5,10 @@
 		"Greece",
 		"Grecia"
 	],
-	"wikidata": "Q41",
 	"wiki": "es:Grecia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q41",
-			"url": "https://www.wikidata.org/wiki/Q41",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Grecia",
-			"url": "https://es.wikipedia.org/wiki/Grecia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q41",
 	"owid": "GRC",
+	"resena": "Grecia, oficialmente llamada República Helénica, es uno de los veintisiete Estados soberanos que forman la Unión Europea. En este país viven alrededor de diez millones de habitantes, que conforman una sociedad muy homogénea donde principalmente se habla griego y se practica el cristianismo ortodoxo.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 10242910
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q41",
+			"url": "https://www.wikidata.org/wiki/Q41",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Grecia",
+			"url": "https://es.wikipedia.org/wiki/Grecia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Grecia, oficialmente llamada República Helénica, es uno de los veintisiete Estados soberanos que forman la Unión Europea. En este país viven alrededor de diez millones de habitantes, que conforman una sociedad muy homogénea donde principalmente se habla griego y se practica el cristianismo ortodoxo."
+	}
 }

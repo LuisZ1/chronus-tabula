@@ -8,113 +8,131 @@
 		"Imperio mandinga",
 		"República de Malí"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio de Malí",
+			"desde": 1235,
+			"hasta": 1610
+		},
+		{
+			"nombre": "Sudán Francés (colonia)",
+			"desde": 1892,
+			"hasta": 1960
+		},
+		{
+			"nombre": "República de Malí",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
 	"wiki": "es:Imperio de Malí",
+	"wikidata": "Q463705",
 	"relacionados": [
 		"Malí"
 	],
-	"wikidata": "Q463705",
+	"resena": "El Imperio de Mali fue un Estado medieval de los mandenká entre 1235–1546, un pueblo cuyo núcleo fue la región de Mandén, entre las actuales ciudades de Bamako (Mali) y Siguiri (Guinea), en el África Occidental. El imperio fue fundado por Sundiata Keïta.",
 	"gobernantes": [
 		{
 			"nombre": "Sundiata Keita (Mari Djata I)",
+			"cargo": "Mansa (fundador del Imperio de Malí)",
 			"desde": 1235,
-			"hasta": 1255,
-			"cargo": "Mansa (fundador del Imperio de Malí)"
+			"hasta": 1255
 		},
 		{
 			"nombre": "Uli Keita (Mansa Uli)",
+			"cargo": "Mansa",
 			"desde": 1255,
-			"hasta": 1270,
-			"cargo": "Mansa"
+			"hasta": 1270
 		},
 		{
 			"nombre": "Sakura",
+			"cargo": "Mansa",
 			"desde": 1285,
-			"hasta": 1300,
-			"cargo": "Mansa"
+			"hasta": 1300
 		},
 		{
 			"nombre": "Abubakari II (Muhammad ibn Qu)",
+			"cargo": "Mansa",
 			"desde": 1310,
-			"hasta": 1312,
-			"cargo": "Mansa"
+			"hasta": 1312
 		},
 		{
 			"nombre": "Musa I (Mansa Musa)",
+			"cargo": "Mansa",
 			"desde": 1312,
-			"hasta": 1337,
-			"cargo": "Mansa"
+			"hasta": 1337
 		},
 		{
 			"nombre": "Maghan I",
+			"cargo": "Mansa",
 			"desde": 1337,
-			"hasta": 1341,
-			"cargo": "Mansa"
+			"hasta": 1341
 		},
 		{
 			"nombre": "Suleyman",
+			"cargo": "Mansa",
 			"desde": 1341,
-			"hasta": 1360,
-			"cargo": "Mansa"
+			"hasta": 1360
 		},
 		{
 			"nombre": "Mahmud IV",
+			"cargo": "Mansa (último gobernante importante)",
 			"desde": 1590,
-			"hasta": 1610,
-			"cargo": "Mansa (último gobernante importante)"
+			"hasta": 1610
 		},
 		{
 			"nombre": "Modibo Keïta",
+			"cargo": "Presidente (Malí moderno)",
 			"desde": 1960,
-			"hasta": 1968,
-			"cargo": "Presidente (Malí moderno)"
+			"hasta": 1968
 		},
 		{
 			"nombre": "Moussa Traoré",
+			"cargo": "Presidente",
 			"desde": 1968,
-			"hasta": 1991,
-			"cargo": "Presidente"
+			"hasta": 1991
 		},
 		{
 			"nombre": "Amadou Toumani Touré",
+			"cargo": "Presidente (transición militar)",
 			"desde": 1991,
-			"hasta": 1992,
-			"cargo": "Presidente (transición militar)"
+			"hasta": 1992
 		},
 		{
 			"nombre": "Alpha Oumar Konaré",
+			"cargo": "Presidente",
 			"desde": 1992,
-			"hasta": 2002,
-			"cargo": "Presidente"
+			"hasta": 2002
 		},
 		{
 			"nombre": "Amadou Toumani Touré",
+			"cargo": "Presidente",
 			"desde": 2002,
-			"hasta": 2012,
-			"cargo": "Presidente"
+			"hasta": 2012
 		},
 		{
 			"nombre": "Dioncounda Traoré",
+			"cargo": "Presidente interino",
 			"desde": 2012,
-			"hasta": 2013,
-			"cargo": "Presidente interino"
+			"hasta": 2013
 		},
 		{
 			"nombre": "Ibrahim Boubacar Keïta",
+			"cargo": "Presidente",
 			"desde": 2013,
-			"hasta": 2020,
-			"cargo": "Presidente"
+			"hasta": 2020
 		},
 		{
 			"nombre": "Bah Ndaw",
+			"cargo": "Presidente de la transición",
 			"desde": 2020,
-			"hasta": 2021,
-			"cargo": "Presidente de la transición"
+			"hasta": 2021
 		},
 		{
 			"nombre": "Assimi Goïta",
+			"cargo": "Presidente de la transición",
 			"desde": 2021,
-			"hasta": 2026,
-			"cargo": "Presidente de la transición"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -182,23 +200,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"nombres_periodo": [
-		{
-			"nombre": "Imperio de Malí",
-			"desde": 1235,
-			"hasta": 1610
-		},
-		{
-			"nombre": "Sudán Francés (colonia)",
-			"desde": 1892,
-			"hasta": 1960
-		},
-		{
-			"nombre": "República de Malí",
-			"desde": 1960,
-			"hasta": 2026
-		}
-	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -211,6 +212,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "El Imperio de Mali fue un Estado medieval de los mandenká entre 1235–1546, un pueblo cuyo núcleo fue la región de Mandén, entre las actuales ciudades de Bamako (Mali) y Siguiri (Guinea), en el África Occidental. El imperio fue fundado por Sundiata Keïta."
+	}
 }

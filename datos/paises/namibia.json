@@ -7,30 +7,6 @@
 		"South-West Africa",
 		"Deutsch-Südwestafrika"
 	],
-	"wiki": "es:Namibia",
-	"fuentes": [
-		{
-			"id": "wikipedia_es",
-			"url": "https://es.wikipedia.org/wiki/Namibia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_demographics",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Namibia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1030",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Namibia",
-			"url": "https://es.wikipedia.org/wiki/Namibia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "África del Sudoeste Alemana",
@@ -48,37 +24,39 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Namibia",
 	"wikidata": "Q1030",
+	"resena": "Namibia, oficialmente República de Namibia, es un país del suroeste de África. Comparte fronteras terrestres con Angola al norte, con Zambia al noreste, con Botsuana al este, con Sudáfrica al sureste y sur y con el océano Atlántico al oeste.",
 	"gobernantes": [
 		{
 			"nombre": "Sam Nujoma",
+			"cargo": "Presidente",
 			"desde": 1990,
-			"hasta": 2005,
-			"cargo": "Presidente"
+			"hasta": 2005
 		},
 		{
 			"nombre": "Hifikepunye Pohamba",
+			"cargo": "Presidente",
 			"desde": 2005,
-			"hasta": 2015,
-			"cargo": "Presidente"
+			"hasta": 2015
 		},
 		{
 			"nombre": "Hage Geingob",
+			"cargo": "Presidente",
 			"desde": 2015,
-			"hasta": 2024,
-			"cargo": "Presidente"
+			"hasta": 2024
 		},
 		{
 			"nombre": "Nangolo Mbumba",
+			"cargo": "Presidente (interino)",
 			"desde": 2024,
-			"hasta": 2025,
-			"cargo": "Presidente (interino)"
+			"hasta": 2025
 		},
 		{
 			"nombre": "Netumbo Nandi-Ndaitwah",
+			"cargo": "Presidenta",
 			"desde": 2025,
-			"hasta": 2026,
-			"cargo": "Presidenta"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -113,6 +91,29 @@
 			"fuente": "Wikipedia (Demographics of Namibia), censo"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Namibia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Namibia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1030",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Namibia",
+			"url": "https://es.wikipedia.org/wiki/Namibia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -125,6 +126,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Namibia, oficialmente República de Namibia, es un país del suroeste de África. Comparte fronteras terrestres con Angola al norte, con Zambia al noreste, con Botsuana al este, con Sudáfrica al sureste y sur y con el océano Atlántico al oeste."
+	}
 }

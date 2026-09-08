@@ -6,41 +6,6 @@
 		"Kamerun",
 		"Cameroun"
 	],
-	"wiki": "es:Camerún",
-	"fuentes": [
-		{
-			"id": "wikipedia_es",
-			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_heads",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Cameroon",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_demographics",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Cameroon",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1009",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Camerún",
-			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q1009",
-			"url": "https://www.wikidata.org/wiki/Q1009",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Kamerun (colonia alemana)",
@@ -73,19 +38,21 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Camerún",
 	"wikidata": "Q1009",
+	"resena": "Camerún, oficialmente la República de Camerún, es un Estado unitario organizado como república en el África central. Limita al sur con Guinea Ecuatorial, a continuación con Gabón (298 km), y con República del Congo (523 km).",
 	"gobernantes": [
 		{
 			"nombre": "Ahmadou Ahidjo",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1982,
-			"cargo": "Presidente"
+			"hasta": 1982
 		},
 		{
 			"nombre": "Paul Biya",
+			"cargo": "Presidente",
 			"desde": 1982,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -125,6 +92,45 @@
 			"fuente": "Wikipedia (Demographics of Cameroon), estimación"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Cameroon.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_heads",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Cameroon",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Cameroon",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1009",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Camerún",
+			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1009",
+			"url": "https://www.wikidata.org/wiki/Q1009",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -138,11 +144,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Camerún, oficialmente la República de Camerún, es un Estado unitario organizado como república en el África central. Limita al sur con Guinea Ecuatorial, a continuación con Gabón (298 km), y con República del Congo (523 km).",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Cameroon.svg"
-		}
-	]
+	}
 }

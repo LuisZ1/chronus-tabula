@@ -5,18 +5,19 @@
 		"Babylonia"
 	],
 	"wiki": "Babilonia",
+	"resena": "Babilonia fue un antiguo Estado localizado en la región central-sur de Mesopotamia, teniendo su epicentro en la ciudad homónima y que llegó a extenderse por Acad y Sumeria, arrebatando la hegemonía a las dinastías amorritas de Isin y Larsa del llamado Renacimiento sumerio.",
 	"gobernantes": [
 		{
-			"desde": -1792,
-			"hasta": -1750,
 			"nombre": "Hammurabi",
-			"titulo": "Rey de Babilonia, legislador"
+			"titulo": "Rey de Babilonia, legislador",
+			"desde": -1792,
+			"hasta": -1750
 		},
 		{
-			"desde": -605,
-			"hasta": -562,
 			"nombre": "Nabucodonosor II",
-			"titulo": "Rey del Imperio neobabilónico"
+			"titulo": "Rey del Imperio neobabilónico",
+			"desde": -605,
+			"hasta": -562
 		}
 	],
 	"fuentes": [
@@ -33,7 +34,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Babilonia fue un antiguo Estado localizado en la región central-sur de Mesopotamia, teniendo su epicentro en la ciudad homónima y que llegó a extenderse por Acad y Sumeria, arrebatando la hegemonía a las dinastías amorritas de Isin y Larsa del llamado Renacimiento sumerio.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

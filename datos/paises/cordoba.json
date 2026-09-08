@@ -5,30 +5,31 @@
 		"Emirate of Córdoba",
 		"Caliphate of Córdoba"
 	],
+	"resena": "Un emirato es un territorio político bajo la administración de un emir, siendo un tipo de monarquía característica de Asia y África. En árabe, el término puede ser generalizado a una provincia o país que es administrado por un miembro de la clase dominante.",
 	"gobernantes": [
 		{
-			"desde": 756,
-			"hasta": 788,
 			"nombre": "Abderramán I",
-			"titulo": "Emir de Córdoba"
+			"titulo": "Emir de Córdoba",
+			"desde": 756,
+			"hasta": 788
 		},
 		{
-			"desde": 912,
-			"hasta": 961,
 			"nombre": "Abderramán III (califa desde 929)",
-			"titulo": "Califa de Córdoba"
+			"titulo": "Califa de Córdoba",
+			"desde": 912,
+			"hasta": 961
 		},
 		{
-			"desde": 961,
-			"hasta": 976,
 			"nombre": "Alhakén II",
-			"titulo": "Califa de Córdoba"
+			"titulo": "Califa de Córdoba",
+			"desde": 961,
+			"hasta": 976
 		},
 		{
-			"desde": 978,
-			"hasta": 1002,
 			"nombre": "Almanzor (caudillo con Hisham II de califa)",
-			"titulo": "Hayib"
+			"titulo": "Hayib",
+			"desde": 978,
+			"hasta": 1002
 		}
 	],
 	"poblacion": [
@@ -50,7 +51,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Un emirato es un territorio político bajo la administración de un emir, siendo un tipo de monarquía característica de Asia y África. En árabe, el término puede ser generalizado a una provincia o país que es administrado por un miembro de la clase dominante.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

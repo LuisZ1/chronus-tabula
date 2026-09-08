@@ -10,17 +10,6 @@
 	"bajas": "~25.000-30.000 muertos, la mayoría británicos por enfermedad",
 	"descripcion": "Gran Bretaña lanza contra la América española la mayor flota vista hasta entonces; el desastre ante Cartagena de Indias (1741) frente a Blas de Lezo mantiene el imperio español intacto medio siglo más.",
 	"wiki": "Guerra del Asiento",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra del Asiento",
-			"url": "https://es.wikipedia.org/wiki/Guerra_del_Asiento",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Caribe español",
@@ -86,19 +75,30 @@
 			"descripcion": "Vernon destruye el puerto del oro panameño; euforia en Londres."
 		},
 		{
-			"nombre": "Sitio de Cartagena de Indias",
-			"anio": 1741,
-			"lat": 10.42,
-			"lng": -75.53,
-			"bajas": "~9.500-11.500 muertos británicos (mayoría por enfermedad) frente a ~800 españoles",
-			"descripcion": "Blas de Lezo, con ~3.500 hombres y 6 navíos, derrota a los ~27.000 hombres y 124 barcos de Vernon: una de las mayores victorias navales de España."
-		},
-		{
 			"nombre": "Sitio de San Agustín",
 			"anio": 1740,
 			"lat": 29.9,
 			"lng": -81.31,
 			"descripcion": "Oglethorpe fracasa ante la Florida española."
+		},
+		{
+			"nombre": "Sitio de Cartagena de Indias",
+			"anio": 1741,
+			"lat": 10.42,
+			"lng": -75.53,
+			"descripcion": "Blas de Lezo, con ~3.500 hombres y 6 navíos, derrota a los ~27.000 hombres y 124 barcos de Vernon: una de las mayores victorias navales de España.",
+			"bajas": "~9.500-11.500 muertos británicos (mayoría por enfermedad) frente a ~800 españoles"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Asiento",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Asiento",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

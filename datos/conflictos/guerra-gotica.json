@@ -10,14 +10,6 @@
 	"bajas": "cientos de miles; Italia queda devastada",
 	"descripcion": "Justiniano envía a Belisario y luego a Narsés a recuperar Italia para el Imperio. Tras casi veinte años de asedios y despoblación, el reino ostrogodo es destruido en Tádinae (552), pero Italia queda exhausta ante la inminente llegada lombarda.",
 	"wiki": "Guerra gótica (535-554)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra gótica (535-554)",
-			"url": "https://es.wikipedia.org/wiki/Guerra_gótica_(535-554)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Campañas bizantinas en Italia",
@@ -66,6 +58,14 @@
 			"lat": 43.2,
 			"lng": 12.8,
 			"descripcion": "Narsés derrota y mata al rey Totila; fin del poder ostrogodo."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra gótica (535-554)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_gótica_(535-554)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

@@ -6,41 +6,6 @@
 		"Gambia",
 		"The Gambia"
 	],
-	"wiki": "es:Gambia",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Gambia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1005",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Gambia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~GMB",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Gambia",
-			"url": "https://es.wikipedia.org/wiki/Gambia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q1005",
-			"url": "https://www.wikidata.org/wiki/Q1005",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Gambia británica (colonia y protectorado)",
@@ -58,43 +23,45 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Gambia",
 	"wikidata": "Q1005",
+	"resena": "Gambia, oficialmente la República de Gambia, es una nación de África occidental. Se encuentra rodeada en su totalidad por Senegal, excepto en la desembocadura del río Gambia en el océano Atlántico.",
 	"gobernantes": [
 		{
 			"nombre": "Imperio de Malí (dominio sobre la región)",
+			"cargo": "imperio precolonial",
 			"desde": 1235,
-			"hasta": 1600,
-			"cargo": "imperio precolonial"
+			"hasta": 1600
 		},
 		{
 			"nombre": "Reino de Kaabu (mandinga)",
+			"cargo": "reino precolonial",
 			"desde": 1537,
-			"hasta": 1867,
-			"cargo": "reino precolonial"
+			"hasta": 1867
 		},
 		{
 			"nombre": "Isabel II",
+			"cargo": "reina (jefa de Estado)",
 			"desde": 1965,
-			"hasta": 1970,
-			"cargo": "reina (jefa de Estado)"
+			"hasta": 1970
 		},
 		{
 			"nombre": "Dawda Jawara",
+			"cargo": "presidente",
 			"desde": 1970,
-			"hasta": 1994,
-			"cargo": "presidente"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Yahya Jammeh",
+			"cargo": "presidente (jefe de junta militar 1994-1996)",
 			"desde": 1994,
-			"hasta": 2017,
-			"cargo": "presidente (jefe de junta militar 1994-1996)"
+			"hasta": 2017
 		},
 		{
 			"nombre": "Adama Barrow",
+			"cargo": "presidente",
 			"desde": 2017,
-			"hasta": 2026,
-			"cargo": "presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -134,6 +101,45 @@
 			"fuente": "UN/OWID (estimación)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of The Gambia.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Gambia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1005",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Gambia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~GMB",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Gambia",
+			"url": "https://es.wikipedia.org/wiki/Gambia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1005",
+			"url": "https://www.wikidata.org/wiki/Q1005",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -147,11 +153,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Gambia, oficialmente la República de Gambia, es una nación de África occidental. Se encuentra rodeada en su totalidad por Senegal, excepto en la desembocadura del río Gambia en el océano Atlántico.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of The Gambia.svg"
-		}
-	]
+	}
 }

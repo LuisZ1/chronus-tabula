@@ -7,25 +7,6 @@
 		"República Democrática Somalí",
 		"Somalia italiana"
 	],
-	"wiki": "es:Somalia",
-	"fuentes": [
-		{
-			"id": "wiki_es",
-			"url": "https://es.wikipedia.org/wiki/Somalia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1045",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Somalia",
-			"url": "https://es.wikipedia.org/wiki/Somalia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Somalilandia italiana y británica (colonias)",
@@ -47,67 +28,69 @@
 			"desde": 2012
 		}
 	],
+	"wiki": "es:Somalia",
 	"wikidata": "Q1045",
+	"resena": "Somalia, cuyo nombre oficial es República Federal de Somalia, es un país ubicado en el Cuerno de África, al este del continente africano. Limita al oeste y noroeste con Etiopía y Yibuti, al sur con Kenia, al norte con el golfo de Adén, y al este con el océano Índico.",
 	"gobernantes": [
 		{
 			"nombre": "Aden Abdullah Osman Daar",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1967,
-			"cargo": "Presidente"
+			"hasta": 1967
 		},
 		{
 			"nombre": "Abdirashid Ali Shermarke",
+			"cargo": "Presidente",
 			"desde": 1967,
-			"hasta": 1969,
-			"cargo": "Presidente"
+			"hasta": 1969
 		},
 		{
 			"nombre": "Mohamed Siad Barre",
+			"cargo": "Presidente",
 			"desde": 1969,
-			"hasta": 1991,
-			"cargo": "Presidente"
+			"hasta": 1991
 		},
 		{
 			"nombre": "Ali Mahdi Muhammad",
+			"cargo": "Presidente interino (disputado)",
 			"desde": 1991,
-			"hasta": 1997,
-			"cargo": "Presidente interino (disputado)"
+			"hasta": 1997
 		},
 		{
 			"nombre": "Abdiqasim Salad Hassan",
+			"cargo": "Presidente (Gobierno Nacional de Transición)",
 			"desde": 2000,
-			"hasta": 2004,
-			"cargo": "Presidente (Gobierno Nacional de Transición)"
+			"hasta": 2004
 		},
 		{
 			"nombre": "Abdullahi Yusuf Ahmed",
+			"cargo": "Presidente (Gobierno Federal de Transición)",
 			"desde": 2004,
-			"hasta": 2008,
-			"cargo": "Presidente (Gobierno Federal de Transición)"
+			"hasta": 2008
 		},
 		{
 			"nombre": "Sharif Sheikh Ahmed",
+			"cargo": "Presidente (Gobierno Federal de Transición)",
 			"desde": 2009,
-			"hasta": 2012,
-			"cargo": "Presidente (Gobierno Federal de Transición)"
+			"hasta": 2012
 		},
 		{
 			"nombre": "Hassan Sheikh Mohamud",
+			"cargo": "Presidente",
 			"desde": 2012,
-			"hasta": 2017,
-			"cargo": "Presidente"
+			"hasta": 2017
 		},
 		{
 			"nombre": "Mohamed Abdullahi Mohamed (Farmaajo)",
+			"cargo": "Presidente",
 			"desde": 2017,
-			"hasta": 2022,
-			"cargo": "Presidente"
+			"hasta": 2022
 		},
 		{
 			"nombre": "Hassan Sheikh Mohamud",
+			"cargo": "Presidente",
 			"desde": 2022,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -142,6 +125,24 @@
 			"fuente": "Estimación (Wikipedia es)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Somalia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1045",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Somalia",
+			"url": "https://es.wikipedia.org/wiki/Somalia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -154,6 +155,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Somalia, cuyo nombre oficial es República Federal de Somalia, es un país ubicado en el Cuerno de África, al este del continente africano. Limita al oeste y noroeste con Etiopía y Yibuti, al sur con Kenia, al norte con el golfo de Adén, y al este con el océano Índico."
+	}
 }

@@ -7,31 +7,6 @@
 		"República de Kenia",
 		"África Oriental Británica"
 	],
-	"wiki": "es:Kenia",
-	"fuentes": [
-		{
-			"id": "wiki_es",
-			"url": "https://es.wikipedia.org/wiki/Kenia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q114",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Kenia",
-			"url": "https://es.wikipedia.org/wiki/Kenia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q114",
-			"url": "https://www.wikidata.org/wiki/Q114",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Oriental Británica / Colonia de Kenia",
@@ -44,37 +19,39 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Kenia",
 	"wikidata": "Q114",
+	"resena": "Kenia o Kenya, oficialmente la República de Kenia o República de Kenya, es un país del este africano, que tiene fronteras con Etiopía al norte, Somalia al este, Tanzania al sur, Uganda al oeste y Sudán del Sur al noroeste, con el océano Índico bañando su costa sureste.",
 	"gobernantes": [
 		{
 			"nombre": "Jomo Kenyatta",
+			"cargo": "Primer ministro (1963-1964) y Presidente",
 			"desde": 1963,
-			"hasta": 1978,
-			"cargo": "Primer ministro (1963-1964) y Presidente"
+			"hasta": 1978
 		},
 		{
 			"nombre": "Daniel arap Moi",
+			"cargo": "Presidente",
 			"desde": 1978,
-			"hasta": 2002,
-			"cargo": "Presidente"
+			"hasta": 2002
 		},
 		{
 			"nombre": "Mwai Kibaki",
+			"cargo": "Presidente",
 			"desde": 2002,
-			"hasta": 2013,
-			"cargo": "Presidente"
+			"hasta": 2013
 		},
 		{
 			"nombre": "Uhuru Kenyatta",
+			"cargo": "Presidente",
 			"desde": 2013,
-			"hasta": 2022,
-			"cargo": "Presidente"
+			"hasta": 2022
 		},
 		{
 			"nombre": "William Ruto",
+			"cargo": "Presidente",
 			"desde": 2022,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -114,6 +91,35 @@
 			"fuente": "Estimación (Wikipedia es)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Kenya (Official).svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Kenia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q114",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Kenia",
+			"url": "https://es.wikipedia.org/wiki/Kenia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q114",
+			"url": "https://www.wikidata.org/wiki/Q114",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -127,11 +133,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Kenia o Kenya, oficialmente la República de Kenia o República de Kenya, es un país del este africano, que tiene fronteras con Etiopía al norte, Somalia al este, Tanzania al sur, Uganda al oeste y Sudán del Sur al noroeste, con el océano Índico bañando su costa sureste.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Kenya (Official).svg"
-		}
-	]
+	}
 }

@@ -4,28 +4,10 @@
 	"nombres": [
 		"Barbados"
 	],
-	"wikidata": "Q244",
 	"wiki": "es:Barbados",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q244",
-			"url": "https://www.wikidata.org/wiki/Q244",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Barbados",
-			"url": "https://es.wikipedia.org/wiki/Barbados",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q244",
 	"owid": "BRB",
+	"resena": "Barbados es un país insular de las Antillas cuya forma de gobierno es una república parlamentaria compuesta por once parroquias. Está ubicado en las Antillas Menores, al noreste del territorio continental de Venezuela, justo al este de Santa Lucía y San Vicente y las Granadinas.",
 	"poblacion": [
 		{
 			"anio": -2000,
@@ -176,6 +158,25 @@
 			"valor": 282347
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q244",
+			"url": "https://www.wikidata.org/wiki/Q244",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Barbados",
+			"url": "https://es.wikipedia.org/wiki/Barbados",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -185,6 +186,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Barbados es un país insular de las Antillas cuya forma de gobierno es una república parlamentaria compuesta por once parroquias. Está ubicado en las Antillas Menores, al noreste del territorio continental de Venezuela, justo al este de Santa Lucía y San Vicente y las Granadinas."
+	}
 }

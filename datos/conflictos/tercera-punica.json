@@ -40,8 +40,8 @@
 			"anio": -146,
 			"lat": 36.85,
 			"lng": 10.32,
-			"bajas": "~150.000 muertos",
-			"descripcion": "La ciudad es arrasada tras el asalto final."
+			"descripcion": "La ciudad es arrasada tras el asalto final.",
+			"bajas": "~150.000 muertos"
 		}
 	],
 	"fuentes": [

@@ -6,12 +6,13 @@
 		"Buwayhid Emirates"
 	],
 	"wiki": "Buyíes",
+	"resena": "Los Búyidas, también conocidos como Buyíes o en inglés como Buwaihids o Buyyids, fueron una dinastía irania chiita que era originaria de Daylam. Fundaron una confederación que controló la mayor parte de lo que hoy es Irán e Irak en los siglos X y XI.",
 	"gobernantes": [
 		{
-			"desde": 949,
-			"hasta": 983,
 			"nombre": "Adud al-Dawla",
-			"titulo": "Emir buyí, apogeo del poder sobre Bagdad"
+			"titulo": "Emir buyí, apogeo del poder sobre Bagdad",
+			"desde": 949,
+			"hasta": 983
 		}
 	],
 	"fuentes": [
@@ -28,7 +29,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Los Búyidas, también conocidos como Buyíes o en inglés como Buwaihids o Buyyids, fueron una dinastía irania chiita que era originaria de Daylam. Fundaron una confederación que controló la mayor parte de lo que hoy es Irán e Irak en los siglos X y XI.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

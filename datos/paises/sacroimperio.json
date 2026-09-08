@@ -4,54 +4,55 @@
 	"nombres": [
 		"Holy Roman Empire"
 	],
+	"resena": "El Sacro Imperio Romano Germánico, a veces llamado Imperio antiguo para distinguirlo del Imperio alemán de 1871-1918, fue una agrupación política situada en la Europa Occidental y Central, cuyo ámbito de poder recayó en el emperador romano germánico desde la Edad Media hasta inicios de la Edad Contemporánea.",
 	"gobernantes": [
 		{
-			"desde": 962,
-			"hasta": 973,
 			"nombre": "Otón I el Grande",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 962,
+			"hasta": 973
 		},
 		{
-			"desde": 1155,
-			"hasta": 1190,
 			"nombre": "Federico I Barbarroja",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1155,
+			"hasta": 1190
 		},
 		{
-			"desde": 1220,
-			"hasta": 1250,
 			"nombre": "Federico II Hohenstaufen",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1220,
+			"hasta": 1250
 		},
 		{
-			"desde": 1493,
-			"hasta": 1519,
 			"nombre": "Maximiliano I de Habsburgo",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1493,
+			"hasta": 1519
 		},
 		{
-			"desde": 1519,
-			"hasta": 1556,
 			"nombre": "Carlos V (Carlos I de España)",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1519,
+			"hasta": 1556
 		},
 		{
-			"desde": 1619,
-			"hasta": 1637,
 			"nombre": "Fernando II",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1619,
+			"hasta": 1637
 		},
 		{
-			"desde": 1740,
-			"hasta": 1780,
 			"nombre": "María Teresa (con Francisco I)",
-			"titulo": "Archiduquesa de Austria"
+			"titulo": "Archiduquesa de Austria",
+			"desde": 1740,
+			"hasta": 1780
 		},
 		{
-			"desde": 1792,
-			"hasta": 1806,
 			"nombre": "Francisco II (último emperador)",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1792,
+			"hasta": 1806
 		}
 	],
 	"poblacion": [
@@ -81,7 +82,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Sacro Imperio Romano Germánico, a veces llamado Imperio antiguo para distinguirlo del Imperio alemán de 1871-1918, fue una agrupación política situada en la Europa Occidental y Central, cuyo ámbito de poder recayó en el emperador romano germánico desde la Edad Media hasta inicios de la Edad Contemporánea.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

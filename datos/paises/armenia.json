@@ -6,6 +6,69 @@
 	],
 	"wiki": "Armenia",
 	"wikidata": "Q399",
+	"resena": "Armenia, oficialmente la República de Armenia, es un país sin salida al mar localizado en el altiplano armenio en Eurasia. Cultural, histórica y políticamente Armenia se considera como parte de Europa del Este.",
+	"gobernantes": [
+		{
+			"nombre": "Nikol Pashinián",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Armen Sarkissian",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Vahagn Jachaturián",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 1867396,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 2518408,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 3096298,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 3544695,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 3076098,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 2963496,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2017,
+			"valor": 2930450,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Armenia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Armenia",
@@ -50,79 +113,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Armenia, oficialmente la República de Armenia, es un país sin salida al mar localizado en el altiplano armenio en Eurasia. Cultural, histórica y políticamente Armenia se considera como parte de Europa del Este.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "40f6ccb06e04",
+		"hash": "10271a0966e5",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 2018,
-			"hasta": 2022,
-			"nombre": "Armen Sarkissian",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2018,
-			"hasta": 2018,
-			"nombre": "Nikol Pashinián",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2022,
-			"hasta": 2022,
-			"nombre": "Vahagn Jachaturián",
-			"cargo": "jefe de Estado"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1960,
-			"valor": 1867396,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1970,
-			"valor": 2518408,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1980,
-			"valor": 3096298,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1990,
-			"valor": 3544695,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2000,
-			"valor": 3076098,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2010,
-			"valor": 2963496,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2017,
-			"valor": 2930450,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Armenia.svg"
-		}
-	]
+	}
 }

@@ -1,0 +1,11 @@
+{
+	"// ": "Autocompletado y avisos en el editor al editar datos/: cada colección usa su esquema de schema/",
+	"json.schemas": [
+		{ "fileMatch": ["/datos/paises/*.json"], "url": "./schema/pais.json" },
+		{ "fileMatch": ["/datos/conflictos/*.json"], "url": "./schema/conflicto.json" },
+		{ "fileMatch": ["/datos/eventos/*.json"], "url": "./schema/evento.json" },
+		{ "fileMatch": ["/datos/territorios/*.json"], "url": "./schema/territorio.json" }
+	],
+	"[json]": { "editor.insertSpaces": false, "editor.tabSize": 4 },
+	"files.eol": "\n"
+}

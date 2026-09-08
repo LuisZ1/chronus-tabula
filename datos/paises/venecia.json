@@ -4,18 +4,19 @@
 	"nombres": [
 		"Venice"
 	],
+	"resena": "La República de Venecia, oficialmente la Serenísima República de Venecia y popularmente conocida como La Serenissima, fue una ciudad-Estado situada en el norte de Italia, a orillas del mar Adriático, y que luego reunió bajo su dominio a todos los vénetos del Triveneto, Istria y Dalmacia. Su capital fue la ciudad de Venecia.",
 	"gobernantes": [
 		{
-			"desde": 1192,
-			"hasta": 1205,
 			"nombre": "Enrico Dandolo (dux de la IV Cruzada)",
-			"titulo": "Dux de Venecia"
+			"titulo": "Dux de Venecia",
+			"desde": 1192,
+			"hasta": 1205
 		},
 		{
-			"desde": 1789,
-			"hasta": 1797,
 			"nombre": "Ludovico Manin (último dux)",
-			"titulo": "Dux de Venecia"
+			"titulo": "Dux de Venecia",
+			"desde": 1789,
+			"hasta": 1797
 		}
 	],
 	"fuentes": [
@@ -31,7 +32,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La República de Venecia, oficialmente la Serenísima República de Venecia y popularmente conocida como La Serenissima, fue una ciudad-Estado situada en el norte de Italia, a orillas del mar Adriático, y que luego reunió bajo su dominio a todos los vénetos del Triveneto, Istria y Dalmacia. Su capital fue la ciudad de Venecia.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

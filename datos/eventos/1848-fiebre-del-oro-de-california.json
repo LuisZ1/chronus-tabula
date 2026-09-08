@@ -4,11 +4,11 @@
 	"hasta": 1855,
 	"lat": 38.8,
 	"lng": -120.89,
-	"descripcion": "El oro de Sutter's Mill acelera la colonización del Oeste y el despojo de tierras nativas.",
-	"wiki": "Fiebre del oro de California",
 	"paises": [
 		"Estados Unidos"
 	],
+	"descripcion": "El oro de Sutter's Mill acelera la colonización del Oeste y el despojo de tierras nativas.",
+	"wiki": "Fiebre del oro de California",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Fiebre del oro de California",

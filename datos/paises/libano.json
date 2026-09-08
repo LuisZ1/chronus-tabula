@@ -6,6 +6,92 @@
 	],
 	"wiki": "Líbano",
 	"wikidata": "Q822",
+	"resena": "El Líbano, oficialmente la República Libanesa, es un país árabe de Asia Occidental, localizado en el Levante mediterráneo. Limita al sur con Israel, al norte y al este con Siria, y al oeste con el mar Mediterráneo.",
+	"gobernantes": [
+		{
+			"nombre": "Saad Hariri",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Michel Aoun",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Hassan Diab",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Najib Mikati",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Joseph Aoun",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Nawaf Salam",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 1804927,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 2297403,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 2605294,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 2703019,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 3235380,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 4341092,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2020,
+			"valor": 5702398,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2021,
+			"valor": 5261372,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Lebanon.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Líbano",
@@ -68,102 +154,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Líbano, oficialmente la República Libanesa, es un país árabe de Asia Occidental, localizado en el Levante mediterráneo. Limita al sur con Israel, al norte y al este con Siria, y al oeste con el mar Mediterráneo.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "45dbb24718af",
+		"hash": "9de6bbaca979",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 2016,
-			"hasta": 2022,
-			"nombre": "Michel Aoun",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2016,
-			"hasta": 2020,
-			"nombre": "Saad Hariri",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2020,
-			"hasta": 2021,
-			"nombre": "Hassan Diab",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2025,
-			"nombre": "Najib Mikati",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2025,
-			"hasta": 2025,
-			"nombre": "Joseph Aoun",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2025,
-			"hasta": 2025,
-			"nombre": "Nawaf Salam",
-			"cargo": "jefe de gobierno"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1960,
-			"valor": 1804927,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1970,
-			"valor": 2297403,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1980,
-			"valor": 2605294,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1990,
-			"valor": 2703019,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2000,
-			"valor": 3235380,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2010,
-			"valor": 4341092,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2020,
-			"valor": 5702398,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2021,
-			"valor": 5261372,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Lebanon.svg"
-		}
-	]
+	}
 }

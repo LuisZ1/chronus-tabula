@@ -6,28 +6,10 @@
 		"Kazajistán",
 		"Kazajstán"
 	],
-	"wikidata": "Q232",
 	"wiki": "es:Kazajistán",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q232",
-			"url": "https://www.wikidata.org/wiki/Q232",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Kazajistán",
-			"url": "https://es.wikipedia.org/wiki/Kazajist%C3%A1n",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q232",
 	"owid": "KAZ",
+	"resena": "Kazajistán oficialmente República de Kazajstán, es un país transcontinental, con la mayor parte de su territorio situado en Asia Central y una menor parte su territorio, al oeste del río Ural, en Europa Oriental. Con una superficie de 2 724 900 km², es el noveno país más grande del mundo, así como el Estado sin litoral marítimo más extenso del mundo.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 20330109
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q232",
+			"url": "https://www.wikidata.org/wiki/Q232",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Kazajistán",
+			"url": "https://es.wikipedia.org/wiki/Kazajist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Kazajistán oficialmente República de Kazajstán, es un país transcontinental, con la mayor parte de su territorio situado en Asia Central y una menor parte su territorio, al oeste del río Ural, en Europa Oriental. Con una superficie de 2 724 900 km², es el noveno país más grande del mundo, así como el Estado sin litoral marítimo más extenso del mundo."
+	}
 }

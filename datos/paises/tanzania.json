@@ -6,35 +6,6 @@
 		"Tanzania",
 		"República Unida de Tanzania"
 	],
-	"wiki": "es:Tanzania",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Tanzania",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q924",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Tanzania",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "demografia",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Tanzania",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Tanzania",
-			"url": "https://es.wikipedia.org/wiki/Tanzania",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Oriental Alemana",
@@ -57,73 +28,75 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Tanzania",
 	"wikidata": "Q924",
+	"resena": "Tanzania, oficialmente la República Unida de Tanzania, es un país situado en la costa oriental del África Central.",
 	"gobernantes": [
 		{
 			"nombre": "Said bin Sultan",
+			"cargo": "Sultán de Omán y Zanzíbar (dinastía Al Said)",
 			"desde": 1804,
-			"hasta": 1856,
-			"cargo": "Sultán de Omán y Zanzíbar (dinastía Al Said)"
+			"hasta": 1856
 		},
 		{
 			"nombre": "Sultanato de Zanzíbar (dinastía Al Said)",
+			"cargo": "Sultanes de Zanzíbar",
 			"desde": 1856,
-			"hasta": 1964,
-			"cargo": "Sultanes de Zanzíbar"
+			"hasta": 1964
 		},
 		{
 			"nombre": "Administración colonial alemana (África Oriental Alemana)",
+			"cargo": "Colonia del Imperio alemán",
 			"desde": 1885,
-			"hasta": 1919,
-			"cargo": "Colonia del Imperio alemán"
+			"hasta": 1919
 		},
 		{
 			"nombre": "Administración británica de Tanganica",
+			"cargo": "Mandato y fideicomiso británico",
 			"desde": 1919,
-			"hasta": 1961,
-			"cargo": "Mandato y fideicomiso británico"
+			"hasta": 1961
 		},
 		{
 			"nombre": "Julius Nyerere",
+			"cargo": "Presidente de Tanganica",
 			"desde": 1962,
-			"hasta": 1964,
-			"cargo": "Presidente de Tanganica"
+			"hasta": 1964
 		},
 		{
 			"nombre": "Julius Nyerere",
+			"cargo": "Presidente de Tanzania",
 			"desde": 1964,
-			"hasta": 1985,
-			"cargo": "Presidente de Tanzania"
+			"hasta": 1985
 		},
 		{
 			"nombre": "Ali Hassan Mwinyi",
+			"cargo": "Presidente",
 			"desde": 1985,
-			"hasta": 1995,
-			"cargo": "Presidente"
+			"hasta": 1995
 		},
 		{
 			"nombre": "Benjamin Mkapa",
+			"cargo": "Presidente",
 			"desde": 1995,
-			"hasta": 2005,
-			"cargo": "Presidente"
+			"hasta": 2005
 		},
 		{
 			"nombre": "Jakaya Kikwete",
+			"cargo": "Presidente",
 			"desde": 2005,
-			"hasta": 2015,
-			"cargo": "Presidente"
+			"hasta": 2015
 		},
 		{
 			"nombre": "John Magufuli",
+			"cargo": "Presidente",
 			"desde": 2015,
-			"hasta": 2021,
-			"cargo": "Presidente"
+			"hasta": 2021
 		},
 		{
 			"nombre": "Samia Suluhu Hassan",
+			"cargo": "Presidenta",
 			"desde": 2021,
-			"hasta": 2026,
-			"cargo": "Presidenta"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -158,6 +131,34 @@
 			"fuente": "Censo de Tanzania 2022"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Tanzania",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q924",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Tanzania",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Tanzania",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Tanzania",
+			"url": "https://es.wikipedia.org/wiki/Tanzania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -170,6 +171,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Tanzania, oficialmente la República Unida de Tanzania, es un país situado en la costa oriental del África Central."
+	}
 }

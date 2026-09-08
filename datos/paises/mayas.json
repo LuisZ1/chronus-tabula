@@ -1,8 +1,6 @@
 {
 	"id": "mayas",
 	"nombre": "Mayas",
-	"wiki": "Cultura maya",
-	"wikidata": "Q28567",
 	"nombres": [
 		"Maya chiefdoms and states",
 		"Maya states",
@@ -10,12 +8,15 @@
 		"Maya Yucateco",
 		"Mayas"
 	],
+	"wiki": "Cultura maya",
+	"wikidata": "Q28567",
+	"resena": "La cultura maya fue una civilización mesoamericana que se desarrolló en lo que actualmente comprenden los territorios de Guatemala y México principalmente, así como en Belice, y la parte occidental de Honduras y El Salvador abarcando más de 300 000 km².",
 	"gobernantes": [
 		{
-			"desde": 615,
-			"hasta": 683,
 			"nombre": "Pakal el Grande",
-			"titulo": "Ajaw de Palenque"
+			"titulo": "Ajaw de Palenque",
+			"desde": 615,
+			"hasta": 683
 		}
 	],
 	"fuentes": [
@@ -38,7 +39,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La cultura maya fue una civilización mesoamericana que se desarrolló en lo que actualmente comprenden los territorios de Guatemala y México principalmente, así como en Belice, y la parte occidental de Honduras y El Salvador abarcando más de 300 000 km².",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

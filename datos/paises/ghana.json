@@ -6,41 +6,6 @@
 		"República de Ghana",
 		"Costa de Oro"
 	],
-	"wiki": "es:Ghana",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Ghana",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q117",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ghana",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "demografia",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Ghana",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Ghana",
-			"url": "https://es.wikipedia.org/wiki/Ghana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q117",
-			"url": "https://www.wikidata.org/wiki/Q117",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Costa de Oro británica",
@@ -53,127 +18,129 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Ghana",
 	"wikidata": "Q117",
+	"resena": "Ghana o Gana, oficialmente la República de Ghana, es un país de África Occidental constituido como una república presidencialista. Limita al norte con Burkina Faso, al este con Togo, al oeste con Costa de Marfil y al sur con el golfo de Guinea.",
 	"gobernantes": [
 		{
 			"nombre": "Osei Tutu",
+			"cargo": "Asantehene (fundador del Imperio Ashanti)",
 			"desde": 1701,
-			"hasta": 1717,
-			"cargo": "Asantehene (fundador del Imperio Ashanti)"
+			"hasta": 1717
 		},
 		{
 			"nombre": "Dinastía Ashanti (Asantehene)",
+			"cargo": "Soberanos del Imperio Ashanti",
 			"desde": 1701,
-			"hasta": 1902,
-			"cargo": "Soberanos del Imperio Ashanti"
-		},
-		{
-			"nombre": "Prempeh I",
-			"desde": 1888,
-			"hasta": 1931,
-			"cargo": "Asantehene del Imperio Ashanti"
+			"hasta": 1902
 		},
 		{
 			"nombre": "Administración colonial británica (Costa de Oro)",
+			"cargo": "Colonia británica",
 			"desde": 1867,
-			"hasta": 1957,
-			"cargo": "Colonia británica"
+			"hasta": 1957
+		},
+		{
+			"nombre": "Prempeh I",
+			"cargo": "Asantehene del Imperio Ashanti",
+			"desde": 1888,
+			"hasta": 1931
 		},
 		{
 			"nombre": "Kwame Nkrumah",
+			"cargo": "Primer ministro",
 			"desde": 1957,
-			"hasta": 1960,
-			"cargo": "Primer ministro"
+			"hasta": 1960
 		},
 		{
 			"nombre": "Kwame Nkrumah",
+			"cargo": "Presidente",
 			"desde": 1960,
-			"hasta": 1966,
-			"cargo": "Presidente"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Joseph Arthur Ankrah",
+			"cargo": "Presidente del Consejo de Liberación Nacional (junta militar)",
 			"desde": 1966,
-			"hasta": 1969,
-			"cargo": "Presidente del Consejo de Liberación Nacional (junta militar)"
+			"hasta": 1969
 		},
 		{
 			"nombre": "Akwasi Afrifa",
+			"cargo": "Presidente del Consejo de Liberación Nacional (junta militar)",
 			"desde": 1969,
-			"hasta": 1970,
-			"cargo": "Presidente del Consejo de Liberación Nacional (junta militar)"
+			"hasta": 1970
 		},
 		{
 			"nombre": "Edward Akufo-Addo",
+			"cargo": "Presidente",
 			"desde": 1970,
-			"hasta": 1972,
-			"cargo": "Presidente"
+			"hasta": 1972
 		},
 		{
 			"nombre": "Ignatius Kutu Acheampong",
+			"cargo": "Jefe de la junta militar (NRC/SMC)",
 			"desde": 1972,
-			"hasta": 1978,
-			"cargo": "Jefe de la junta militar (NRC/SMC)"
+			"hasta": 1978
 		},
 		{
 			"nombre": "Fred Akuffo",
+			"cargo": "Presidente del Consejo Militar Supremo",
 			"desde": 1978,
-			"hasta": 1979,
-			"cargo": "Presidente del Consejo Militar Supremo"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Jerry Rawlings",
+			"cargo": "Presidente del Consejo Revolucionario de las Fuerzas Armadas",
 			"desde": 1979,
-			"hasta": 1979,
-			"cargo": "Presidente del Consejo Revolucionario de las Fuerzas Armadas"
+			"hasta": 1979
 		},
 		{
 			"nombre": "Hilla Limann",
+			"cargo": "Presidente",
 			"desde": 1979,
-			"hasta": 1981,
-			"cargo": "Presidente"
+			"hasta": 1981
 		},
 		{
 			"nombre": "Jerry Rawlings",
+			"cargo": "Presidente del Consejo Provisional de Defensa Nacional",
 			"desde": 1981,
-			"hasta": 1993,
-			"cargo": "Presidente del Consejo Provisional de Defensa Nacional"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Jerry Rawlings",
+			"cargo": "Presidente",
 			"desde": 1993,
-			"hasta": 2001,
-			"cargo": "Presidente"
+			"hasta": 2001
 		},
 		{
 			"nombre": "John Kufuor",
+			"cargo": "Presidente",
 			"desde": 2001,
-			"hasta": 2009,
-			"cargo": "Presidente"
+			"hasta": 2009
 		},
 		{
 			"nombre": "John Atta Mills",
+			"cargo": "Presidente",
 			"desde": 2009,
-			"hasta": 2012,
-			"cargo": "Presidente"
+			"hasta": 2012
 		},
 		{
 			"nombre": "John Mahama",
+			"cargo": "Presidente",
 			"desde": 2012,
-			"hasta": 2017,
-			"cargo": "Presidente"
+			"hasta": 2017
 		},
 		{
 			"nombre": "Nana Akufo-Addo",
+			"cargo": "Presidente",
 			"desde": 2017,
-			"hasta": 2025,
-			"cargo": "Presidente"
+			"hasta": 2025
 		},
 		{
 			"nombre": "John Mahama",
+			"cargo": "Presidente",
 			"desde": 2025,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -208,11 +175,50 @@
 			"fuente": "Censo de Ghana 2021"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Ghana.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Ghana",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q117",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ghana",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Ghana",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Ghana",
+			"url": "https://es.wikipedia.org/wiki/Ghana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q117",
+			"url": "https://www.wikidata.org/wiki/Q117",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "ab5b1566c389",
+		"hash": "d1f2788009f8",
 		"secciones": [
 			"escudos",
 			"fuentes",
@@ -221,11 +227,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Ghana o Gana, oficialmente la República de Ghana, es un país de África Occidental constituido como una república presidencialista. Limita al norte con Burkina Faso, al este con Togo, al oeste con Costa de Marfil y al sur con el golfo de Guinea.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Ghana.svg"
-		}
-	]
+	}
 }

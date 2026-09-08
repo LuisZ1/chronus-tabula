@@ -4,30 +4,34 @@
 	"nombres": [
 		"Qing Empire"
 	],
+	"relacionados": [
+		"China",
+		"Manchúes"
+	],
 	"gobernantes": [
 		{
-			"desde": 1661,
-			"hasta": 1722,
 			"nombre": "Kangxi",
-			"titulo": "Emperador Qing"
+			"titulo": "Emperador Qing",
+			"desde": 1661,
+			"hasta": 1722
 		},
 		{
-			"desde": 1735,
-			"hasta": 1796,
 			"nombre": "Qianlong",
-			"titulo": "Emperador Qing"
+			"titulo": "Emperador Qing",
+			"desde": 1735,
+			"hasta": 1796
 		},
 		{
-			"desde": 1861,
-			"hasta": 1908,
 			"nombre": "Cixi (emperatriz regente)",
-			"titulo": "Regente"
+			"titulo": "Regente",
+			"desde": 1861,
+			"hasta": 1908
 		},
 		{
-			"desde": 1908,
-			"hasta": 1912,
 			"nombre": "Puyi (último emperador)",
-			"titulo": "Emperador Qing"
+			"titulo": "Emperador Qing",
+			"desde": 1908,
+			"hasta": 1912
 		}
 	],
 	"poblacion": [
@@ -39,10 +43,6 @@
 			"anio": 1850,
 			"valor": 430000000
 		}
-	],
-	"relacionados": [
-		"China",
-		"Manchúes"
 	],
 	"fuentes": [
 		{

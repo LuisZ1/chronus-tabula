@@ -10,18 +10,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Mehmed Alí, gobernador de Egipto, se rebela contra el sultán. Sus tropas, dirigidas por Ibrahim Bajá, derrotan a los otomanos en Konya (1832) y Nezib (1839) y amenazan Estambul, forzando la intervención de las potencias europeas.",
 	"wiki": "Guerra egipcio-otomana (1831-1833)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra egipcio-otomana (1831-1833)",
-			"url": "https://es.wikipedia.org/wiki/Guerra_egipcio-otomana_(1831-1833)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Anatolia y Siria (campaña egipcia)",
@@ -60,6 +48,18 @@
 			"anio": 1839,
 			"lat": 37.01,
 			"lng": 37.79
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra egipcio-otomana (1831-1833)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_egipcio-otomana_(1831-1833)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

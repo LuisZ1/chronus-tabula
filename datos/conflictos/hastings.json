@@ -9,34 +9,7 @@
 	],
 	"bajas": "~10.000 muertos",
 	"descripcion": "Guillermo el Conquistador toma la corona inglesa tras Hastings.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Hastings",
-			"anio": 1066,
-			"lat": 50.91,
-			"lng": 0.49,
-			"bajas": "~7.000 muertos",
-			"descripcion": "Muere el rey Harold II; los normandos conquistan Inglaterra."
-		},
-		{
-			"nombre": "Batalla de Fulford",
-			"anio": 1066,
-			"lat": 53.93,
-			"lng": -1.07
-		},
-		{
-			"nombre": "Batalla de Stamford Bridge",
-			"anio": 1066,
-			"lat": 53.99,
-			"lng": -0.91
-		},
-		{
-			"nombre": "sitio de Exeter (1068)",
-			"anio": 1068,
-			"lat": 50.73,
-			"lng": -3.53
-		}
-	],
+	"wiki": "Conquista normanda de Inglaterra",
 	"zonas": [
 		{
 			"nombre": "Sur de Inglaterra",
@@ -87,7 +60,34 @@
 			]
 		}
 	],
-	"wiki": "Conquista normanda de Inglaterra",
+	"batallas": [
+		{
+			"nombre": "Batalla de Fulford",
+			"anio": 1066,
+			"lat": 53.93,
+			"lng": -1.07
+		},
+		{
+			"nombre": "Batalla de Hastings",
+			"anio": 1066,
+			"lat": 50.91,
+			"lng": 0.49,
+			"descripcion": "Muere el rey Harold II; los normandos conquistan Inglaterra.",
+			"bajas": "~7.000 muertos"
+		},
+		{
+			"nombre": "Batalla de Stamford Bridge",
+			"anio": 1066,
+			"lat": 53.99,
+			"lng": -0.91
+		},
+		{
+			"nombre": "sitio de Exeter (1068)",
+			"anio": 1068,
+			"lat": 50.73,
+			"lng": -3.53
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Conquista normanda de Inglaterra",

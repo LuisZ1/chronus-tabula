@@ -10,14 +10,6 @@
 	"bajas": "~4.000–5.000 milicianos y ~130 israelíes muertos; 1,4 millones de desplazados libaneses",
 	"descripcion": "Un año de fuego cruzado en la frontera escala en septiembre de 2024: ataque de los buscas, muerte de Nasralá e invasión israelí del sur del Líbano; alto el fuego el 27 de noviembre de 2024.",
 	"wiki": "Conflicto Israel-Hezbolá (2023-presente)",
-	"fuentes": [
-		{
-			"id": "wikipedia-en:Israel–Hezbollah conflict (2023–present)",
-			"url": "https://en.wikipedia.org/wiki/Israel–Hezbollah_conflict_(2023–present)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Sur del Líbano",
@@ -77,19 +69,27 @@
 			"descripcion": "Miles de buscapersonas y walkie-talkies de Hezbolá detonan a la vez."
 		},
 		{
+			"nombre": "Invasión del sur del Líbano",
+			"anio": 2024,
+			"lat": 33.12,
+			"lng": 35.35,
+			"descripcion": "Primera incursión terrestre israelí desde 2006."
+		},
+		{
 			"nombre": "Muerte de Hasán Nasralá",
 			"anio": 2024,
 			"lat": 33.85,
 			"lng": 35.51,
 			"descripcion": "Bombardeo israelí del cuartel general de Hezbolá en Beirut, 27 de septiembre.",
 			"wiki": "Hasán Nasralá"
-		},
+		}
+	],
+	"fuentes": [
 		{
-			"nombre": "Invasión del sur del Líbano",
-			"anio": 2024,
-			"lat": 33.12,
-			"lng": 35.35,
-			"descripcion": "Primera incursión terrestre israelí desde 2006."
+			"id": "wikipedia-en:Israel–Hezbollah conflict (2023–present)",
+			"url": "https://en.wikipedia.org/wiki/Israel–Hezbollah_conflict_(2023–present)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

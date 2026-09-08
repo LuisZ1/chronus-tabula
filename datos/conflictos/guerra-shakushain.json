@@ -10,14 +10,6 @@
 	"bajas": "cientos",
 	"descripcion": "Levantamiento ainu liderado por Shakushain contra los abusos comerciales del clan Matsumae en Ezo (Hokkaido); su derrota consolida el dominio japonés sobre el norte.",
 	"wiki": "Rebelión de Shakushain",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Rebelión de Shakushain",
-			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_Shakushain",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Ezo (Hokkaido) en rebelión",
@@ -51,6 +43,14 @@
 			"lat": 42.4,
 			"lng": 142.5,
 			"descripcion": "Foco inicial del alzamiento ainu contra los puestos Matsumae."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rebelión de Shakushain",
+			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_Shakushain",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

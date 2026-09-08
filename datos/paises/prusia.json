@@ -4,24 +4,29 @@
 	"nombres": [
 		"Prussia"
 	],
+	"relacionados": [
+		"Alemania",
+		"Sacro Imperio"
+	],
+	"resena": "Prusia fue un Estado del mar Báltico, situado en la llanura nordeuropea entre Pomerania, Polonia y Lituania que existió desde finales de la Edad Media, a partir de la secularización en 1525 de la parte prusiana del Estado de la Orden Teutónica.",
 	"gobernantes": [
 		{
-			"desde": 1640,
-			"hasta": 1688,
 			"nombre": "Federico Guillermo, el Gran Elector",
-			"titulo": "Elector de Brandeburgo"
+			"titulo": "Elector de Brandeburgo",
+			"desde": 1640,
+			"hasta": 1688
 		},
 		{
-			"desde": 1740,
-			"hasta": 1786,
 			"nombre": "Federico II el Grande",
-			"titulo": "Rey de Prusia"
+			"titulo": "Rey de Prusia",
+			"desde": 1740,
+			"hasta": 1786
 		},
 		{
-			"desde": 1861,
-			"hasta": 1888,
 			"nombre": "Guillermo I (con Bismarck de canciller)",
-			"titulo": "Rey de Prusia"
+			"titulo": "Rey de Prusia",
+			"desde": 1861,
+			"hasta": 1888
 		}
 	],
 	"poblacion": [
@@ -33,10 +38,6 @@
 			"anio": 1871,
 			"valor": 24700000
 		}
-	],
-	"relacionados": [
-		"Alemania",
-		"Sacro Imperio"
 	],
 	"fuentes": [
 		{
@@ -51,7 +52,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Prusia fue un Estado del mar Báltico, situado en la llanura nordeuropea entre Pomerania, Polonia y Lituania que existió desde finales de la Edad Media, a partir de la secularización en 1525 de la parte prusiana del Estado de la Orden Teutónica.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

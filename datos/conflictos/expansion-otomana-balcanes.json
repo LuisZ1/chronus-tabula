@@ -13,24 +13,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Desde la batalla de Bafeo contra Bizancio, los otomanos cruzan a Europa y someten los Balcanes: derrotan a los serbios en Kosovo (1389, donde muere Murad I) y aplastan las cruzadas de Nicópolis (1396) y de Varna (1444), consolidando Rumelia como núcleo europeo del imperio.",
 	"wiki": "Expansión del Imperio otomano",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Batalla de Kosovo (1389)",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kosovo_(1389)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Batalla de Nicópolis",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nic%C3%B3polis",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Rumelia (Balcanes otomanos)",
@@ -91,6 +73,24 @@
 			"anio": 1448,
 			"lat": 42.66,
 			"lng": 21.1
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Kosovo (1389)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kosovo_(1389)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Nicópolis",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nic%C3%B3polis",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

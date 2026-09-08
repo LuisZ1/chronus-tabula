@@ -10,18 +10,6 @@
 	"bajas": "unos 5.000 combatientes tibetanos",
 	"descripcion": "El Ejército Popular de Liberación derrota al ejército tibetano en la batalla de Qamdo (Chamdo) en octubre de 1950; en 1951 el Acuerdo de los 17 Puntos incorpora el Tíbet a la República Popular China.",
 	"wiki": "Batalla de Chamdo",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Batalla de Chamdo",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Chamdo",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de la República Popular China (1949-2019)",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Meseta tibetana oriental (Kham)",
@@ -59,6 +47,18 @@
 			"lat": 31.14,
 			"lng": 97.17,
 			"descripcion": "El Ejército Popular abre la anexión del Tíbet."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Chamdo",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Chamdo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la República Popular China (1949-2019)",
+			"licencia": "referencia"
 		}
 	]
 }

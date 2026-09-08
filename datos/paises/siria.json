@@ -6,57 +6,13 @@
 	],
 	"wiki": "Siria",
 	"wikidata": "Q858",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Siria",
-			"url": "https://es.wikipedia.org/wiki/Siria",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "Wikipedia (es): Siria",
-			"url": "https://es.wikipedia.org/wiki/Siria",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:Q7934206",
-			"url": "http://www.wikidata.org/entity/Q7934206",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P1082:Q858",
-			"url": "https://www.wikidata.org/wiki/Q858",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q858",
-			"url": "https://www.wikidata.org/wiki/Q858",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"resena": "Siria, oficialmente República Árabe Siria, es un país soberano del Oriente Próximo, bañado por la costa levantina mediterránea. Comparte fronteras con Turquía por el norte, con Irak por el este, con Israel y Jordania al sur, y con Líbano y el mar Mediterráneo por el oeste, pudiéndose ver desde sus costas a lo lejos la isla de Chipre.",
-	"revision": {
-		"estado": "validado",
-		"fecha": "2026-09-08",
-		"por": "panel-admin",
-		"hash": "14c04cbb45bb",
-		"secciones": [
-			"escudos",
-			"gobernantes",
-			"poblacion",
-			"resena"
-		]
-	},
 	"gobernantes": [
 		{
-			"desde": 2025,
-			"hasta": 2025,
 			"nombre": "Ahmed al-Charaa",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
 		}
 	],
 	"poblacion": [
@@ -98,6 +54,9 @@
 	],
 	"escudos": [
 		{
+			"archivo": "Emblem of Syria (1963–1972) based on Emblem of Syria (1945–1958, 1961–1963).svg"
+		},
+		{
 			"archivo": "Coat of arms of the United Arab Republic (1958–1971).svg",
 			"desde": 1958,
 			"hasta": 1961
@@ -115,9 +74,50 @@
 		{
 			"archivo": "Emblem of Syria (2025–present).svg",
 			"desde": 2025
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Siria",
+			"url": "https://es.wikipedia.org/wiki/Siria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		},
 		{
-			"archivo": "Emblem of Syria (1963–1972) based on Emblem of Syria (1945–1958, 1961–1963).svg"
+			"id": "Wikipedia (es): Siria",
+			"url": "https://es.wikipedia.org/wiki/Siria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q7934206",
+			"url": "http://www.wikidata.org/entity/Q7934206",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q858",
+			"url": "https://www.wikidata.org/wiki/Q858",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q858",
+			"url": "https://www.wikidata.org/wiki/Q858",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
 		}
-	]
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "14c04cbb45bb",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	}
 }

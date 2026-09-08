@@ -1,0 +1,195 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://luisz1.github.io/chronus-tabula/schema/conflicto.json",
+	"title": "Conflicto (datos/conflictos/<id>.json)",
+	"description": "Guerra o conflicto con sus batallas y zonas (frentes / territorios ocupados por fases). El fichero se llama como su 'id'.",
+	"type": "object",
+	"required": [
+		"id",
+		"nombre",
+		"inicio",
+		"fin"
+	],
+	"properties": {
+		"id": {
+			"type": "string",
+			"pattern": "^[a-z0-9-]+$"
+		},
+		"nombre": {
+			"type": "string",
+			"minLength": 1
+		},
+		"inicio": {
+			"type": "integer",
+			"minimum": -123000,
+			"maximum": 2100,
+			"description": "Año; negativo = a. C."
+		},
+		"fin": {
+			"type": "integer",
+			"minimum": -123000,
+			"maximum": 2100,
+			"description": "Año; negativo = a. C."
+		},
+		"paises": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"description": "Bandos/beligerantes tal como se muestran en la ficha (texto libre, p. ej. 'Roma (Octavio)'); si coincide con un nombre de 'paises', el filtro por país lo encuentra"
+		},
+		"bajas": {
+			"type": "string",
+			"description": "Texto libre con la estimación de bajas"
+		},
+		"descripcion": {
+			"type": "string"
+		},
+		"wiki": {
+			"type": "string",
+			"minLength": 1,
+			"description": "Título del artículo en Wikipedia en español (p. ej. 'Reino de Aragón'); admite prefijo de idioma ('es:…', 'en:…')"
+		},
+		"zonas": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"nombre",
+					"poligono"
+				],
+				"properties": {
+					"nombre": {
+						"type": "string"
+					},
+					"tipo": {
+						"enum": [
+							"frente",
+							"ocupado"
+						]
+					},
+					"mar": {
+						"type": "boolean"
+					},
+					"desde": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					},
+					"hasta": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					},
+					"color": {
+						"type": "string",
+						"pattern": "^#[0-9a-fA-F]{6}$"
+					},
+					"poligono": {
+						"type": "array",
+						"minItems": 3,
+						"description": "Lista de vértices [lat, lng]",
+						"items": {
+							"type": "array",
+							"minItems": 2,
+							"maxItems": 2,
+							"prefixItems": [
+								{
+									"type": "number",
+									"minimum": -90,
+									"maximum": 90
+								},
+								{
+									"type": "number",
+									"minimum": -180,
+									"maximum": 180
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		"batallas": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"nombre",
+					"anio",
+					"lat",
+					"lng"
+				],
+				"properties": {
+					"nombre": {
+						"type": "string",
+						"minLength": 1
+					},
+					"anio": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					},
+					"hasta": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año (negativo = a. C.) o null/ausente"
+					},
+					"lat": {
+						"type": "number",
+						"minimum": -90,
+						"maximum": 90
+					},
+					"lng": {
+						"type": "number",
+						"minimum": -180,
+						"maximum": 180
+					},
+					"descripcion": {
+						"type": "string"
+					},
+					"bajas": {
+						"type": "string"
+					},
+					"wiki": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Título del artículo en Wikipedia en español (p. ej. 'Reino de Aragón'); admite prefijo de idioma ('es:…', 'en:…')"
+					}
+				}
+			}
+		},
+		"fuentes": {
+			"type": "array",
+			"description": "Toda contribución cita su fuente. 'id' es un nombre corto (p. ej. 'Wikidata:Q29'); 'consultado' es la fecha AAAA-MM o AAAA-MM-DD.",
+			"items": {
+				"type": "object",
+				"required": [
+					"id"
+				],
+				"properties": {
+					"id": {
+						"type": "string",
+						"minLength": 1
+					},
+					"url": {
+						"type": "string"
+					},
+					"licencia": {
+						"type": "string"
+					},
+					"consultado": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}

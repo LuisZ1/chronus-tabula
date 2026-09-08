@@ -48,8 +48,8 @@
 			"anio": 1281,
 			"lat": 33.6,
 			"lng": 130.3,
-			"bajas": "~70.000 invasores perdidos",
-			"descripcion": "Un tifón aniquila la gran armada de Kublai."
+			"descripcion": "Un tifón aniquila la gran armada de Kublai.",
+			"bajas": "~70.000 invasores perdidos"
 		}
 	],
 	"fuentes": [

@@ -6,36 +6,6 @@
 		"Bechuanalandia",
 		"Protectorado de Bechuanalandia"
 	],
-	"wiki": "es:Botsuana",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/Botsuana",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia-es-presidentes",
-			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Botsuana",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q963",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Botsuana",
-			"url": "https://es.wikipedia.org/wiki/Botsuana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q963",
-			"url": "https://www.wikidata.org/wiki/Q963",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Protectorado de Bechuanalandia",
@@ -48,43 +18,45 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Botsuana",
 	"wikidata": "Q963",
+	"resena": "Botsuana, oficialmente República de Botsuana, es un país soberano sin salida al mar del sur de África cuya forma de Gobierno es la república presidencialista y unitaria. Su territorio está dividido en quince distritos, nueve rurales y seis urbanos.",
 	"gobernantes": [
 		{
 			"nombre": "Seretse Khama",
+			"cargo": "Presidente",
 			"desde": 1966,
-			"hasta": 1980,
-			"cargo": "Presidente"
+			"hasta": 1980
 		},
 		{
 			"nombre": "Quett Masire",
+			"cargo": "Presidente",
 			"desde": 1980,
-			"hasta": 1998,
-			"cargo": "Presidente"
+			"hasta": 1998
 		},
 		{
 			"nombre": "Festus Mogae",
+			"cargo": "Presidente",
 			"desde": 1998,
-			"hasta": 2008,
-			"cargo": "Presidente"
+			"hasta": 2008
 		},
 		{
 			"nombre": "Ian Khama",
+			"cargo": "Presidente",
 			"desde": 2008,
-			"hasta": 2018,
-			"cargo": "Presidente"
+			"hasta": 2018
 		},
 		{
 			"nombre": "Mokgweetsi Masisi",
+			"cargo": "Presidente",
 			"desde": 2018,
-			"hasta": 2024,
-			"cargo": "Presidente"
+			"hasta": 2024
 		},
 		{
 			"nombre": "Duma Boko",
+			"cargo": "Presidente",
 			"desde": 2024,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -119,6 +91,40 @@
 			"fuente": "Estimacion (Wikipedia)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Botswana.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Botsuana",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-es-presidentes",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Botsuana",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q963",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Botsuana",
+			"url": "https://es.wikipedia.org/wiki/Botsuana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q963",
+			"url": "https://www.wikidata.org/wiki/Q963",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -132,11 +138,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Botsuana, oficialmente República de Botsuana, es un país soberano sin salida al mar del sur de África cuya forma de Gobierno es la república presidencialista y unitaria. Su territorio está dividido en quince distritos, nueve rurales y seis urbanos.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Botswana.svg"
-		}
-	]
+	}
 }

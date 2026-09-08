@@ -6,41 +6,6 @@
 		"Angola (Portugal)",
 		"República de Angola"
 	],
-	"wiki": "es:Angola",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Angola",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q916",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Angola",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "demografia",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Angola",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Angola",
-			"url": "https://es.wikipedia.org/wiki/Angola",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q916",
-			"url": "https://www.wikidata.org/wiki/Q916",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Angola portuguesa",
@@ -58,43 +23,45 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Angola",
 	"wikidata": "Q916",
+	"resena": "Angola, cuyo nombre oficial es República de Angola, es un país ubicado al sur de África que tiene fronteras con Namibia por el sur, con Zambia por el sureste, con la República Democrática del Congo por el norte y el noreste y con la República del Congo por el noroeste, mientras que hacia el oeste tiene costa en el océano Atlántico.",
 	"gobernantes": [
 		{
 			"nombre": "Afonso I de Kongo (Mvemba a Nzinga)",
+			"cargo": "Manikongo (rey del Reino del Kongo)",
 			"desde": 1509,
-			"hasta": 1543,
-			"cargo": "Manikongo (rey del Reino del Kongo)"
-		},
-		{
-			"nombre": "Nzinga Mbande (Reina Nzinga)",
-			"desde": 1624,
-			"hasta": 1663,
-			"cargo": "Reina de Ndongo y Matamba"
+			"hasta": 1543
 		},
 		{
 			"nombre": "Administración colonial portuguesa",
+			"cargo": "Colonia de Portugal",
 			"desde": 1575,
-			"hasta": 1975,
-			"cargo": "Colonia de Portugal"
+			"hasta": 1975
+		},
+		{
+			"nombre": "Nzinga Mbande (Reina Nzinga)",
+			"cargo": "Reina de Ndongo y Matamba",
+			"desde": 1624,
+			"hasta": 1663
 		},
 		{
 			"nombre": "Agostinho Neto",
+			"cargo": "Presidente",
 			"desde": 1975,
-			"hasta": 1979,
-			"cargo": "Presidente"
+			"hasta": 1979
 		},
 		{
 			"nombre": "José Eduardo dos Santos",
+			"cargo": "Presidente",
 			"desde": 1979,
-			"hasta": 2017,
-			"cargo": "Presidente"
+			"hasta": 2017
 		},
 		{
 			"nombre": "João Lourenço",
+			"cargo": "Presidente",
 			"desde": 2017,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -129,11 +96,50 @@
 			"fuente": "ONU (World Population Prospects)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Angola.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Angola",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q916",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Angola",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Angola",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Angola",
+			"url": "https://es.wikipedia.org/wiki/Angola",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q916",
+			"url": "https://www.wikidata.org/wiki/Q916",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "c91e64fc8bf2",
+		"hash": "c35e2e73bbab",
 		"secciones": [
 			"escudos",
 			"fuentes",
@@ -142,11 +148,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Angola, cuyo nombre oficial es República de Angola, es un país ubicado al sur de África que tiene fronteras con Namibia por el sur, con Zambia por el sureste, con la República Democrática del Congo por el norte y el noreste y con la República del Congo por el noroeste, mientras que hacia el oeste tiene costa en el océano Atlántico.",
-	"escudos": [
-		{
-			"archivo": "Emblem of Angola.svg"
-		}
-	]
+	}
 }

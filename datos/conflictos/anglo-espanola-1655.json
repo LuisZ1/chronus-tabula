@@ -10,23 +10,6 @@
 	"bajas": "~30.000 muertos",
 	"descripcion": "El «Western Design» de Cromwell: Inglaterra ataca el Caribe español, fracasa en La Española pero toma Jamaica, y su flota golpea los convoyes de Indias.",
 	"wiki": "Guerra anglo-española (1655-1660)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra anglo-española (1655-1660)",
-			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1655-1660)",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		},
-		{
-			"id": "wikidata:Q4871930",
-			"url": "https://www.wikidata.org/wiki/Q4871930",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Caribe español",
@@ -100,6 +83,23 @@
 			"anio": 1657,
 			"lat": 18.41,
 			"lng": -77.11
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra anglo-española (1655-1660)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1655-1660)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q4871930",
+			"url": "https://www.wikidata.org/wiki/Q4871930",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

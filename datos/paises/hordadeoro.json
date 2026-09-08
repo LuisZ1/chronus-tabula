@@ -5,24 +5,25 @@
 		"Golden Horde",
 		"Khanate of the Golden Horde"
 	],
+	"resena": "La Horda de Oro u Horda Dorada —en tártaro: Алтын Урда, Altın Urda — fue un Estado mongol que abarcaba parte de las actuales Rusia, Ucrania y Kazajistán.",
 	"gobernantes": [
 		{
-			"desde": 1227,
-			"hasta": 1255,
 			"nombre": "Batú Kan",
-			"titulo": "Kan de la Horda de Oro"
+			"titulo": "Kan de la Horda de Oro",
+			"desde": 1227,
+			"hasta": 1255
 		},
 		{
-			"desde": 1313,
-			"hasta": 1341,
 			"nombre": "Uzbeg Kan",
-			"titulo": "Kan de la Horda de Oro"
+			"titulo": "Kan de la Horda de Oro",
+			"desde": 1313,
+			"hasta": 1341
 		},
 		{
-			"desde": 1380,
-			"hasta": 1395,
 			"nombre": "Toqtamish",
-			"titulo": "Kan de la Horda de Oro"
+			"titulo": "Kan de la Horda de Oro",
+			"desde": 1380,
+			"hasta": 1395
 		}
 	],
 	"fuentes": [
@@ -38,7 +39,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La Horda de Oro u Horda Dorada —en tártaro: Алтын Урда, Altın Urda — fue un Estado mongol que abarcaba parte de las actuales Rusia, Ucrania y Kazajistán.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

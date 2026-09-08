@@ -1,7 +1,8 @@
 # Pipeline de Chronus Tabula
 #
 # En cada push a main:
-#   1. valida los datos (python api/validar.py) — si falla, NO se despliega
+#   1. comprueba el formato canónico de datos/ (python api/formatear.py --check)
+#      y valida los datos (python api/validar.py) — si algo falla, NO se despliega
 #   2. compila datos/ (un fichero por entidad) en web/data/historia.json,
 #      el único JSON que descarga la web (python api/compilar.py)
 #   3. publica la carpeta web/ en GitHub Pages
@@ -36,7 +37,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validar los datos (datos/)
+      - name: Comprobar el formato canónico de datos/
+        run: python api/formatear.py --check
+      - name: Validar los datos (datos/) contra schema/
         run: python api/validar.py
 
   desplegar:

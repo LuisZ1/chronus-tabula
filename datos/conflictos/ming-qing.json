@@ -126,13 +126,6 @@
 			"descripcion": "Los cañones Ming hieren de muerte a Nurhaci."
 		},
 		{
-			"nombre": "Caída de Pekín",
-			"anio": 1644,
-			"lat": 39.9,
-			"lng": 116.4,
-			"descripcion": "Li Zicheng toma la capital; el último emperador Ming se ahorca."
-		},
-		{
 			"nombre": "Batalla de Shanhaiguan",
 			"anio": 1644,
 			"lat": 40.01,
@@ -140,12 +133,19 @@
 			"descripcion": "Wu Sangui abre la Gran Muralla a los manchúes."
 		},
 		{
+			"nombre": "Caída de Pekín",
+			"anio": 1644,
+			"lat": 39.9,
+			"lng": 116.4,
+			"descripcion": "Li Zicheng toma la capital; el último emperador Ming se ahorca."
+		},
+		{
 			"nombre": "Sitio de Yangzhou",
 			"anio": 1645,
 			"lat": 32.39,
 			"lng": 119.44,
-			"bajas": "masacre de la población durante diez días",
-			"descripcion": "La resistencia Ming del sur es aplastada."
+			"descripcion": "La resistencia Ming del sur es aplastada.",
+			"bajas": "masacre de la población durante diez días"
 		},
 		{
 			"nombre": "Batalla de Penghu",

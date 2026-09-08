@@ -6,22 +6,22 @@
 	],
 	"gobernantes": [
 		{
-			"desde": 1130,
-			"hasta": 1163,
 			"nombre": "Abd al-Mumin",
-			"titulo": "Califa almohade"
+			"titulo": "Califa almohade",
+			"desde": 1130,
+			"hasta": 1163
 		},
 		{
-			"desde": 1184,
-			"hasta": 1199,
 			"nombre": "Yaqub al-Mansur",
-			"titulo": "Califa almohade"
+			"titulo": "Califa almohade",
+			"desde": 1184,
+			"hasta": 1199
 		},
 		{
-			"desde": 1199,
-			"hasta": 1213,
 			"nombre": "Muhammad al-Nasir (derrotado en Las Navas)",
-			"titulo": "Califa almohade"
+			"titulo": "Califa almohade",
+			"desde": 1199,
+			"hasta": 1213
 		}
 	],
 	"fuentes": [

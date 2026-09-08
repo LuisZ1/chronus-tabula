@@ -4,28 +4,10 @@
 	"nombres": [
 		"Tonga"
 	],
-	"wikidata": "Q678",
 	"wiki": "es:Tonga",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q678",
-			"url": "https://www.wikidata.org/wiki/Q678",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Tonga",
-			"url": "https://es.wikipedia.org/wiki/Tonga",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q678",
 	"owid": "TON",
+	"resena": "Tonga, oficialmente Reino de Tonga, es un país soberano insular ubicado en Oceanía integrado dentro de la Polinesia y constituido como una monarquía parlamentaria.",
 	"poblacion": [
 		{
 			"anio": -1000,
@@ -172,6 +154,25 @@
 			"valor": 104613
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q678",
+			"url": "https://www.wikidata.org/wiki/Q678",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Tonga",
+			"url": "https://es.wikipedia.org/wiki/Tonga",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -181,6 +182,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Tonga, oficialmente Reino de Tonga, es un país soberano insular ubicado en Oceanía integrado dentro de la Polinesia y constituido como una monarquía parlamentaria."
+	}
 }

@@ -5,28 +5,10 @@
 		"Croatia",
 		"Croacia"
 	],
-	"wikidata": "Q224",
 	"wiki": "es:Croacia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q224",
-			"url": "https://www.wikidata.org/wiki/Q224",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Croacia",
-			"url": "https://es.wikipedia.org/wiki/Croacia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q224",
 	"owid": "HRV",
+	"resena": "Croacia, oficialmente República de Croacia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, ubicado entre la Europa Central, la Europa meridional y el mar Adriático; limita al noreste con Hungría, al este con Serbia, al sureste con Bosnia-Herzegovina y Montenegro, al noroeste con Eslovenia y al suroeste con el mar Adriático, donde co…",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 3896023
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q224",
+			"url": "https://www.wikidata.org/wiki/Q224",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Croacia",
+			"url": "https://es.wikipedia.org/wiki/Croacia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Croacia, oficialmente República de Croacia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, ubicado entre la Europa Central, la Europa meridional y el mar Adriático; limita al noreste con Hungría, al este con Serbia, al sureste con Bosnia-Herzegovina y Montenegro, al noroeste con Eslovenia y al suroeste con el mar Adriático, donde co…"
+	}
 }

@@ -9,20 +9,6 @@
 	"bajas": "~6-8 millones de muertos (sin contar la guerra contra Japón)",
 	"descripcion": "Nacionalistas del Kuomintang contra comunistas de Mao, con la tregua forzada por la invasión japonesa (1937-1945): acaba con la República Popular en Pekín y el KMT refugiado en Taiwán.",
 	"wiki": "Guerra civil china",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra civil china",
-			"url": "https://es.wikipedia.org/wiki/Guerra_civil_china",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Sóviets del sur y Larga Marcha",
@@ -92,6 +78,20 @@
 			"lat": 39.9,
 			"lng": 116.4,
 			"descripcion": "Mao proclama la República Popular el 1 de octubre de 1949."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra civil china",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_china",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

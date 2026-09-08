@@ -4,28 +4,10 @@
 	"nombres": [
 		"Serbia"
 	],
-	"wikidata": "Q403",
 	"wiki": "es:Serbia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q403",
-			"url": "https://www.wikidata.org/wiki/Q403",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Serbia",
-			"url": "https://es.wikipedia.org/wiki/Serbia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q403",
 	"owid": "SRB",
+	"resena": "Serbia, oficialmente República de Serbia (), es un país soberano, constituido en Estado social y democrático de derecho y cuya forma de gobierno es la república parlamentaria.",
 	"poblacion": [
 		{
 			"anio": 1800,
@@ -92,6 +74,25 @@
 			"valor": 6773204
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q403",
+			"url": "https://www.wikidata.org/wiki/Q403",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Serbia",
+			"url": "https://es.wikipedia.org/wiki/Serbia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -101,6 +102,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Serbia, oficialmente República de Serbia (), es un país soberano, constituido en Estado social y democrático de derecho y cuya forma de gobierno es la república parlamentaria."
+	}
 }

@@ -11,16 +11,7 @@
 	],
 	"bajas": "~60.000 muertos según las crónicas",
 	"descripcion": "Coalición cristiana contra los almohades; punto de inflexión de la Reconquista.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Las Navas de Tolosa",
-			"anio": 1212,
-			"lat": 38.28,
-			"lng": -3.58,
-			"bajas": "grandes pérdidas almohades",
-			"descripcion": "Alfonso VIII, Pedro II y Sancho VII derrotan a al-Nasir."
-		}
-	],
+	"wiki": "Batalla de Las Navas de Tolosa",
 	"zonas": [
 		{
 			"nombre": "Sierra Morena y campo de batalla",
@@ -45,7 +36,16 @@
 			]
 		}
 	],
-	"wiki": "Batalla de Las Navas de Tolosa",
+	"batallas": [
+		{
+			"nombre": "Batalla de Las Navas de Tolosa",
+			"anio": 1212,
+			"lat": 38.28,
+			"lng": -3.58,
+			"descripcion": "Alfonso VIII, Pedro II y Sancho VII derrotan a al-Nasir.",
+			"bajas": "grandes pérdidas almohades"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Batalla de Las Navas de Tolosa",

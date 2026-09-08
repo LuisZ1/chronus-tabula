@@ -10,20 +10,6 @@
 	"bajas": "~130.000-170.000 muertos",
 	"descripcion": "Japón aplasta al Imperio ruso por Manchuria y Corea: la primera victoria de una potencia asiática sobre una europea en la era moderna, preludio de la revolución de 1905.",
 	"wiki": "Guerra ruso-japonesa",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra ruso-japonesa",
-			"url": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Manchuria meridional",
@@ -52,9 +38,9 @@
 		{
 			"nombre": "Estrecho de Tsushima",
 			"tipo": "frente",
+			"mar": true,
 			"desde": 1905,
 			"hasta": 1905,
-			"mar": true,
 			"poligono": [
 				[
 					35.5,
@@ -91,6 +77,20 @@
 			"lat": 41.8,
 			"lng": 123.43,
 			"descripcion": "La mayor batalla terrestre hasta entonces: más de 600.000 combatientes."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra ruso-japonesa",
+			"url": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

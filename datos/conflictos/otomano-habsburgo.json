@@ -13,73 +13,7 @@
 	],
 	"bajas": "cientos de miles de muertos",
 	"descripcion": "Pugna por Hungría y el Mediterráneo entre Solimán y los Habsburgo.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Mohács",
-			"anio": 1526,
-			"lat": 45.94,
-			"lng": 18.68,
-			"bajas": "~15.000 húngaros muertos",
-			"descripcion": "Muere Luis II de Hungría; el reino queda partido."
-		},
-		{
-			"nombre": "Primer sitio de Viena",
-			"anio": 1529,
-			"lat": 48.21,
-			"lng": 16.37,
-			"descripcion": "Solimán fracasa ante las murallas de Viena."
-		},
-		{
-			"nombre": "Asedio de Güns",
-			"anio": 1532,
-			"lat": 47.38,
-			"lng": 16.55
-		},
-		{
-			"nombre": "batalla de Préveza",
-			"anio": 1538,
-			"lat": 38.96,
-			"lng": 20.75
-		},
-		{
-			"nombre": "Battle of Palast",
-			"anio": 1552,
-			"lat": 48.15,
-			"lng": 18.97
-		},
-		{
-			"nombre": "batalla de Los Gelves",
-			"anio": 1560,
-			"lat": 33.78,
-			"lng": 10.88
-		},
-		{
-			"nombre": "Battle of Sečany",
-			"anio": 1562,
-			"lat": 48.08,
-			"lng": 19.53
-		},
-		{
-			"nombre": "sitio de Malta (1565)",
-			"anio": 1565,
-			"lat": 35.89,
-			"lng": 14.52
-		},
-		{
-			"nombre": "Sitio de Szigetvár",
-			"anio": 1566,
-			"lat": 46.05,
-			"lng": 17.8
-		},
-		{
-			"nombre": "Batalla de Lepanto",
-			"anio": 1571,
-			"lat": 38.2,
-			"lng": 21.3,
-			"bajas": "~40.000 muertos",
-			"descripcion": "La Liga Santa destruye la flota otomana; combate Cervantes."
-		}
-	],
+	"wiki": "Guerras habsburgo-otomanas",
 	"zonas": [
 		{
 			"nombre": "Hungría (Mohács)",
@@ -156,6 +90,7 @@
 		{
 			"nombre": "Mediterráneo (Malta y Lepanto)",
 			"tipo": "frente",
+			"mar": true,
 			"desde": 1538,
 			"hasta": 1571,
 			"poligono": [
@@ -183,11 +118,76 @@
 					37,
 					14
 				]
-			],
-			"mar": true
+			]
 		}
 	],
-	"wiki": "Guerras habsburgo-otomanas",
+	"batallas": [
+		{
+			"nombre": "Batalla de Mohács",
+			"anio": 1526,
+			"lat": 45.94,
+			"lng": 18.68,
+			"descripcion": "Muere Luis II de Hungría; el reino queda partido.",
+			"bajas": "~15.000 húngaros muertos"
+		},
+		{
+			"nombre": "Primer sitio de Viena",
+			"anio": 1529,
+			"lat": 48.21,
+			"lng": 16.37,
+			"descripcion": "Solimán fracasa ante las murallas de Viena."
+		},
+		{
+			"nombre": "Asedio de Güns",
+			"anio": 1532,
+			"lat": 47.38,
+			"lng": 16.55
+		},
+		{
+			"nombre": "batalla de Préveza",
+			"anio": 1538,
+			"lat": 38.96,
+			"lng": 20.75
+		},
+		{
+			"nombre": "Battle of Palast",
+			"anio": 1552,
+			"lat": 48.15,
+			"lng": 18.97
+		},
+		{
+			"nombre": "batalla de Los Gelves",
+			"anio": 1560,
+			"lat": 33.78,
+			"lng": 10.88
+		},
+		{
+			"nombre": "Battle of Sečany",
+			"anio": 1562,
+			"lat": 48.08,
+			"lng": 19.53
+		},
+		{
+			"nombre": "sitio de Malta (1565)",
+			"anio": 1565,
+			"lat": 35.89,
+			"lng": 14.52
+		},
+		{
+			"nombre": "Sitio de Szigetvár",
+			"anio": 1566,
+			"lat": 46.05,
+			"lng": 17.8
+		},
+		{
+			"nombre": "Batalla de Lepanto",
+			"anio": 1571,
+			"lat": 38.2,
+			"lng": 21.3,
+			"descripcion": "La Liga Santa destruye la flota otomana; combate Cervantes.",
+			"bajas": "~40.000 muertos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerras habsburgo-otomanas",

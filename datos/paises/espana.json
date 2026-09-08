@@ -5,222 +5,248 @@
 		"Spain",
 		"Spanish Habsburg"
 	],
+	"wikidata": "Q29",
+	"wikidata_hist": [
+		"Q179293",
+		"Q190168",
+		"Q160077"
+	],
+	"owid": "Spain",
+	"relacionados": [
+		"Corona de Castilla",
+		"Corona de Aragón",
+		"Reino nazarí de Granada",
+		"Reino de León",
+		"Reino de Navarra",
+		"Califato de Córdoba",
+		"Emirato de Córdoba",
+		"Califato omeya",
+		"Califato almohade",
+		"Reino visigodo",
+		"Celtíberos",
+		"Lusitanos",
+		"Cántabros y astures",
+		"Nueva España",
+		"Perú",
+		"Nueva Granada"
+	],
+	"resena": "España, formalmente Reino de España, es un país soberano transcontinental situado principalmente en el suroeste de Europa y, en menor medida, en el norte de África. Constituido en un Estado social y Estado de Derecho, su forma de gobierno es la monarquía parlamentaria.",
 	"gobernantes": [
 		{
-			"desde": 1474,
-			"hasta": 1504,
 			"nombre": "Isabel I de Castilla",
-			"titulo": "Reina Católica de Castilla"
+			"titulo": "Reina Católica de Castilla",
+			"desde": 1474,
+			"hasta": 1504
 		},
 		{
-			"desde": 1479,
-			"hasta": 1516,
 			"nombre": "Fernando II de Aragón",
-			"titulo": "Rey Católico de Aragón y regente de Castilla"
+			"titulo": "Rey Católico de Aragón y regente de Castilla",
+			"desde": 1479,
+			"hasta": 1516
 		},
 		{
-			"desde": 1516,
-			"hasta": 1556,
 			"nombre": "Carlos I (Carlos V del Sacro Imperio)",
-			"titulo": "Rey de España y emperador del Sacro Imperio (Carlos V)"
+			"titulo": "Rey de España y emperador del Sacro Imperio (Carlos V)",
+			"desde": 1516,
+			"hasta": 1556
 		},
 		{
-			"desde": 1556,
-			"hasta": 1598,
 			"nombre": "Felipe II",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1556,
+			"hasta": 1598
 		},
 		{
-			"desde": 1598,
-			"hasta": 1621,
 			"nombre": "Felipe III",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1598,
+			"hasta": 1621
 		},
 		{
-			"desde": 1621,
-			"hasta": 1665,
 			"nombre": "Felipe IV",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1621,
+			"hasta": 1665
 		},
 		{
-			"desde": 1665,
-			"hasta": 1700,
 			"nombre": "Carlos II",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1665,
+			"hasta": 1700
 		},
 		{
-			"desde": 1700,
-			"hasta": 1746,
 			"nombre": "Felipe V",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1700,
+			"hasta": 1746
 		},
 		{
-			"desde": 1724,
-			"hasta": 1724,
 			"nombre": "Luis I",
-			"titulo": "Rey de España (reinó unos meses)"
+			"titulo": "Rey de España (reinó unos meses)",
+			"desde": 1724,
+			"hasta": 1724
 		},
 		{
-			"desde": 1746,
-			"hasta": 1759,
 			"nombre": "Fernando VI",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1746,
+			"hasta": 1759
 		},
 		{
-			"desde": 1759,
-			"hasta": 1788,
 			"nombre": "Carlos III",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1759,
+			"hasta": 1788
 		},
 		{
-			"desde": 1788,
-			"hasta": 1808,
 			"nombre": "Carlos IV",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1788,
+			"hasta": 1808
 		},
 		{
-			"desde": 1808,
-			"hasta": 1813,
 			"nombre": "José I Bonaparte (impuesto por Napoleón)",
-			"titulo": "Rey de España impuesto por Napoleón"
+			"titulo": "Rey de España impuesto por Napoleón",
+			"desde": 1808,
+			"hasta": 1813
 		},
 		{
-			"desde": 1814,
-			"hasta": 1833,
 			"nombre": "Fernando VII",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1814,
+			"hasta": 1833
 		},
 		{
-			"desde": 1833,
-			"hasta": 1868,
-			"nombre": "Isabel II",
-			"titulo": "Reina de España"
-		},
-		{
-			"desde": 1833,
-			"hasta": 1840,
 			"nombre": "María Cristina de Borbón",
-			"titulo": "Regente durante la minoría de Isabel II"
+			"titulo": "Regente durante la minoría de Isabel II",
+			"desde": 1833,
+			"hasta": 1840
 		},
 		{
-			"desde": 1840,
-			"hasta": 1843,
+			"nombre": "Isabel II",
+			"titulo": "Reina de España",
+			"desde": 1833,
+			"hasta": 1868
+		},
+		{
 			"nombre": "Baldomero Espartero",
-			"titulo": "Regente del Reino"
+			"titulo": "Regente del Reino",
+			"desde": 1840,
+			"hasta": 1843
 		},
 		{
-			"desde": 1870,
-			"hasta": 1873,
 			"nombre": "Amadeo I",
-			"titulo": "Rey de España, de la casa de Saboya"
+			"titulo": "Rey de España, de la casa de Saboya",
+			"desde": 1870,
+			"hasta": 1873
 		},
 		{
-			"desde": 1874,
-			"hasta": 1885,
 			"nombre": "Alfonso XII",
-			"titulo": "Rey de España (Restauración borbónica)"
+			"titulo": "Rey de España (Restauración borbónica)",
+			"desde": 1874,
+			"hasta": 1885
 		},
 		{
-			"desde": 1885,
-			"hasta": 1902,
 			"nombre": "María Cristina de Habsburgo-Lorena",
-			"titulo": "Regente durante la minoría de Alfonso XIII"
+			"titulo": "Regente durante la minoría de Alfonso XIII",
+			"desde": 1885,
+			"hasta": 1902
 		},
 		{
-			"desde": 1886,
-			"hasta": 1931,
 			"nombre": "Alfonso XIII",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1886,
+			"hasta": 1931
 		},
 		{
-			"desde": 1923,
-			"hasta": 1930,
 			"nombre": "Miguel Primo de Rivera",
-			"titulo": "Dictador (Directorio Militar)"
+			"titulo": "Dictador (Directorio Militar)",
+			"desde": 1923,
+			"hasta": 1930
 		},
 		{
-			"desde": 1931,
-			"hasta": 1939,
 			"nombre": "Segunda República (Alcalá-Zamora, Azaña)",
-			"titulo": "Presidentes de la República"
+			"titulo": "Presidentes de la República",
+			"desde": 1931,
+			"hasta": 1939
 		},
 		{
-			"desde": 1936,
-			"hasta": 1975,
 			"nombre": "Francisco Franco Bahamonde",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1936,
+			"hasta": 1975
 		},
 		{
-			"desde": 1939,
-			"hasta": 1975,
 			"nombre": "Francisco Franco",
-			"titulo": "Jefe del Estado"
+			"titulo": "Jefe del Estado",
+			"desde": 1939,
+			"hasta": 1975
 		},
 		{
-			"desde": 1975,
-			"hasta": 2014,
 			"nombre": "Juan Carlos I",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 1975,
+			"hasta": 2014
 		},
 		{
-			"desde": 1976,
-			"hasta": 1981,
 			"nombre": "Adolfo Suárez",
-			"titulo": "Presidente del Gobierno (Transición)"
-		},
-		{
+			"titulo": "Presidente del Gobierno (Transición)",
 			"desde": 1976,
-			"hasta": 1981,
+			"hasta": 1981
+		},
+		{
 			"nombre": "Q214367",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1976,
+			"hasta": 1981
 		},
 		{
-			"desde": 1981,
-			"hasta": 1982,
 			"nombre": "Leopoldo Calvo-Sotelo",
-			"titulo": "Presidente del Gobierno"
-		},
-		{
+			"titulo": "Presidente del Gobierno",
 			"desde": 1981,
-			"hasta": 1982,
+			"hasta": 1982
+		},
+		{
 			"nombre": "Leopoldo Calvo-Sotelo Bustelo",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1981,
+			"hasta": 1982
 		},
 		{
-			"desde": 1982,
-			"hasta": 1996,
 			"nombre": "Felipe González",
-			"titulo": "Presidente del Gobierno"
+			"titulo": "Presidente del Gobierno",
+			"desde": 1982,
+			"hasta": 1996
 		},
 		{
-			"desde": 1996,
-			"hasta": 2004,
 			"nombre": "José María Aznar",
-			"titulo": "Presidente del Gobierno"
+			"titulo": "Presidente del Gobierno",
+			"desde": 1996,
+			"hasta": 2004
 		},
 		{
-			"desde": 2004,
-			"hasta": 2011,
 			"nombre": "José Luis Rodríguez Zapatero",
-			"titulo": "Presidente del Gobierno"
+			"titulo": "Presidente del Gobierno",
+			"desde": 2004,
+			"hasta": 2011
 		},
 		{
-			"desde": 2011,
-			"hasta": 2018,
 			"nombre": "Mariano Rajoy",
-			"titulo": "Presidente del Gobierno"
+			"titulo": "Presidente del Gobierno",
+			"desde": 2011,
+			"hasta": 2018
 		},
 		{
-			"desde": 2014,
-			"hasta": 2100,
 			"nombre": "Felipe VI",
-			"titulo": "Rey de España"
+			"titulo": "Rey de España",
+			"desde": 2014,
+			"hasta": 2100
 		},
 		{
-			"desde": 2018,
-			"hasta": 2026,
 			"nombre": "Pedro Sánchez",
-			"titulo": "Presidente del Gobierno"
+			"titulo": "Presidente del Gobierno",
+			"desde": 2018,
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -405,23 +431,15 @@
 			"valor": 47911583
 		}
 	],
-	"relacionados": [
-		"Corona de Castilla",
-		"Corona de Aragón",
-		"Reino nazarí de Granada",
-		"Reino de León",
-		"Reino de Navarra",
-		"Califato de Córdoba",
-		"Emirato de Córdoba",
-		"Califato omeya",
-		"Califato almohade",
-		"Reino visigodo",
-		"Celtíberos",
-		"Lusitanos",
-		"Cántabros y astures",
-		"Nueva España",
-		"Perú",
-		"Nueva Granada"
+	"escudos": [
+		{
+			"archivo": "Escudo de España (mazonado).svg"
+		},
+		{
+			"archivo": "Escudo de España (1977-1981).svg",
+			"desde": 1977,
+			"hasta": 1981
+		}
 	],
 	"fuentes": [
 		{
@@ -472,34 +490,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Spain",
-	"wikidata": "Q29",
-	"wikidata_hist": [
-		"Q179293",
-		"Q190168",
-		"Q160077"
-	],
-	"resena": "España, formalmente Reino de España, es un país soberano transcontinental situado principalmente en el suroeste de Europa y, en menor medida, en el norte de África. Constituido en un Estado social y Estado de Derecho, su forma de gobierno es la monarquía parlamentaria.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "fde8d847ab7b",
+		"hash": "5baa1248472c",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"escudos": [
-		{
-			"archivo": "Escudo de España (1977-1981).svg",
-			"desde": 1977,
-			"hasta": 1981
-		},
-		{
-			"archivo": "Escudo de España (mazonado).svg"
-		}
-	]
+	}
 }

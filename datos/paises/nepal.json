@@ -4,28 +4,10 @@
 	"nombres": [
 		"Nepal"
 	],
-	"wikidata": "Q837",
 	"wiki": "es:Nepal",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q837",
-			"url": "https://www.wikidata.org/wiki/Q837",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Nepal",
-			"url": "https://es.wikipedia.org/wiki/Nepal",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q837",
 	"owid": "NPL",
+	"resena": "Nepal, cuyo nombre oficial es República Democrática Federal de Nepal, es un país sin salida al mar ubicado en Asia del Sur. Geográficamente se encuentra ubicado en el Himalaya, rodeado en el norte por la República Popular China y en el sur por la India.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 29694614
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q837",
+			"url": "https://www.wikidata.org/wiki/Q837",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Nepal",
+			"url": "https://es.wikipedia.org/wiki/Nepal",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Nepal, cuyo nombre oficial es República Democrática Federal de Nepal, es un país sin salida al mar ubicado en Asia del Sur. Geográficamente se encuentra ubicado en el Himalaya, rodeado en el norte por la República Popular China y en el sur por la India."
+	}
 }

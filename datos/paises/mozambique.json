@@ -7,25 +7,6 @@
 		"África Oriental Portuguesa",
 		"República de Mozambique"
 	],
-	"wiki": "es:Mozambique",
-	"fuentes": [
-		{
-			"id": "wiki_es",
-			"url": "https://es.wikipedia.org/wiki/Mozambique",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1029",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Mozambique",
-			"url": "https://es.wikipedia.org/wiki/Mozambique",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Oriental Portuguesa (colonia)",
@@ -43,37 +24,39 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Mozambique",
 	"wikidata": "Q1029",
+	"resena": "Mozambique, oficialmente la República de Mozambique, es un país situado al sureste de África, a orillas del océano Índico.",
 	"gobernantes": [
 		{
 			"nombre": "Samora Machel",
+			"cargo": "Presidente",
 			"desde": 1975,
-			"hasta": 1986,
-			"cargo": "Presidente"
+			"hasta": 1986
 		},
 		{
 			"nombre": "Joaquim Chissano",
+			"cargo": "Presidente",
 			"desde": 1986,
-			"hasta": 2005,
-			"cargo": "Presidente"
+			"hasta": 2005
 		},
 		{
 			"nombre": "Armando Guebuza",
+			"cargo": "Presidente",
 			"desde": 2005,
-			"hasta": 2015,
-			"cargo": "Presidente"
+			"hasta": 2015
 		},
 		{
 			"nombre": "Filipe Nyusi",
+			"cargo": "Presidente",
 			"desde": 2015,
-			"hasta": 2025,
-			"cargo": "Presidente"
+			"hasta": 2025
 		},
 		{
 			"nombre": "Daniel Chapo",
+			"cargo": "Presidente",
 			"desde": 2025,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -113,6 +96,24 @@
 			"fuente": "Estimación ONU"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Mozambique",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1029",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Mozambique",
+			"url": "https://es.wikipedia.org/wiki/Mozambique",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -125,6 +126,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Mozambique, oficialmente la República de Mozambique, es un país situado al sureste de África, a orillas del océano Índico."
+	}
 }

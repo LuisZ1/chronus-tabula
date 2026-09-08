@@ -1,20 +1,10 @@
 {
 	"nombre": "Imperio acadio",
 	"pais": "Imperio acadio",
-	"lat": 32.55,
-	"lng": 44.42,
 	"desde": -2340,
 	"hasta": -2150,
-	"descripcion": "Primer imperio de la historia: Sargón de Acad (c. 2340 a. C.) unifica Mesopotamia desde su capital Agadé, cerca de Kish. Su nieto Naram-Sin (2260-2223 a. C.) lo lleva a su máxima extensión y se proclama dios.",
-	"wiki": "Imperio acadio",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Imperio acadio",
-			"url": "https://es.wikipedia.org/wiki/Imperio_acadio",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
+	"lat": 32.55,
+	"lng": 44.42,
 	"poligono": [
 		[
 			37.0,
@@ -48,5 +38,15 @@
 			36.2,
 			40.2
 		]
+	],
+	"descripcion": "Primer imperio de la historia: Sargón de Acad (c. 2340 a. C.) unifica Mesopotamia desde su capital Agadé, cerca de Kish. Su nieto Naram-Sin (2260-2223 a. C.) lo lleva a su máxima extensión y se proclama dios.",
+	"wiki": "Imperio acadio",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio acadio",
+			"url": "https://es.wikipedia.org/wiki/Imperio_acadio",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
 	]
 }

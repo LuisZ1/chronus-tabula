@@ -4,28 +4,10 @@
 	"nombres": [
 		"Puerto Rico"
 	],
-	"wikidata": "Q1183",
 	"wiki": "es:Puerto Rico",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q1183",
-			"url": "https://www.wikidata.org/wiki/Q1183",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Puerto Rico",
-			"url": "https://es.wikipedia.org/wiki/Puerto_Rico",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q1183",
 	"owid": "PRI",
+	"resena": "Puerto Rico, oficialmente el Estado Libre Asociado de Puerto Rico, es uno de los catorce territorios no incorporados y uno de los dos estados libres asociados con estatus de autogobierno de los Estados Unidos de América. Con aproximadamente 3.",
 	"poblacion": [
 		{
 			"anio": -3000,
@@ -180,6 +162,25 @@
 			"valor": 3242022
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q1183",
+			"url": "https://www.wikidata.org/wiki/Q1183",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Puerto Rico",
+			"url": "https://es.wikipedia.org/wiki/Puerto_Rico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -189,6 +190,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Puerto Rico, oficialmente el Estado Libre Asociado de Puerto Rico, es uno de los catorce territorios no incorporados y uno de los dos estados libres asociados con estatus de autogobierno de los Estados Unidos de América. Con aproximadamente 3."
+	}
 }

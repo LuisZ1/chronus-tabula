@@ -9,18 +9,6 @@
 	"bajas": "miles",
 	"descripcion": "Gran revuelta popular del norte de Inglaterra contra la ruptura de Enrique VIII con Roma y la disolución de los monasterios, encabezada por Robert Aske. Reprimida con dureza tras el engaño de una amnistía real.",
 	"wiki": "Peregrinación de Gracia",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Peregrinación de Gracia",
-			"url": "https://es.wikipedia.org/wiki/Peregrinaci%C3%B3n_de_Gracia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de Inglaterra",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Norte de Inglaterra (Yorkshire, Lincolnshire)",
@@ -53,6 +41,18 @@
 			"anio": 1536,
 			"lat": 53.96,
 			"lng": -1.08
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Peregrinación de Gracia",
+			"url": "https://es.wikipedia.org/wiki/Peregrinaci%C3%B3n_de_Gracia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
 		}
 	]
 }

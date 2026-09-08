@@ -5,41 +5,6 @@
 		"Gabon",
 		"República Gabonesa"
 	],
-	"wiki": "es:Gabón",
-	"fuentes": [
-		{
-			"id": "wikipedia_es",
-			"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_heads",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Gabon",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_demographics",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Gabon",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1000",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Gabón",
-			"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q1000",
-			"url": "https://www.wikidata.org/wiki/Q1000",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Gabón (colonia francesa / África Ecuatorial Francesa)",
@@ -51,31 +16,33 @@
 			"desde": 1960
 		}
 	],
+	"wiki": "es:Gabón",
 	"wikidata": "Q1000",
+	"resena": "Gabón, oficialmente la República Gabonesa, es un país situado en la costa oeste de África central. Limita con Guinea Ecuatorial y Camerún al norte, la República del Congo al este y sur y con el océano Atlántico al oeste.",
 	"gobernantes": [
 		{
 			"nombre": "Léon M'ba",
+			"cargo": "Presidente",
 			"desde": 1961,
-			"hasta": 1967,
-			"cargo": "Presidente"
+			"hasta": 1967
 		},
 		{
 			"nombre": "Omar Bongo Ondimba",
+			"cargo": "Presidente",
 			"desde": 1967,
-			"hasta": 2009,
-			"cargo": "Presidente"
+			"hasta": 2009
 		},
 		{
 			"nombre": "Ali Bongo Ondimba",
+			"cargo": "Presidente",
 			"desde": 2009,
-			"hasta": 2023,
-			"cargo": "Presidente"
+			"hasta": 2023
 		},
 		{
 			"nombre": "Brice Oligui Nguema",
+			"cargo": "Presidente (jefe de la transición desde 2023; electo 2025)",
 			"desde": 2023,
-			"hasta": 2026,
-			"cargo": "Presidente (jefe de la transición desde 2023; electo 2025)"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -110,6 +77,45 @@
 			"fuente": "Wikipedia (Demographics of Gabon), estimación"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Gabon.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_heads",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Gabon",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Gabon",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1000",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Gabón",
+			"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1000",
+			"url": "https://www.wikidata.org/wiki/Q1000",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -123,11 +129,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Gabón, oficialmente la República Gabonesa, es un país situado en la costa oeste de África central. Limita con Guinea Ecuatorial y Camerún al norte, la República del Congo al este y sur y con el océano Atlántico al oeste.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Gabon.svg"
-		}
-	]
+	}
 }

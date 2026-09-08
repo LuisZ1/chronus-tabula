@@ -4,24 +4,28 @@
 	"nombres": [
 		"Song Empire"
 	],
+	"relacionados": [
+		"China",
+		"China Jin y Song"
+	],
 	"gobernantes": [
 		{
-			"desde": 960,
-			"hasta": 976,
 			"nombre": "Taizu (fundador)",
-			"titulo": "Emperador Song"
-		},
-		{
+			"titulo": "Emperador Song",
 			"desde": 960,
-			"hasta": 976,
-			"nombre": "Zhao Kuangyin (emperador Taizu)",
-			"titulo": "Emperador Taizu, fundador de la dinastía Song"
+			"hasta": 976
 		},
 		{
-			"desde": 1100,
-			"hasta": 1126,
+			"nombre": "Zhao Kuangyin (emperador Taizu)",
+			"titulo": "Emperador Taizu, fundador de la dinastía Song",
+			"desde": 960,
+			"hasta": 976
+		},
+		{
 			"nombre": "Huizong",
-			"titulo": "Emperador Song"
+			"titulo": "Emperador Song",
+			"desde": 1100,
+			"hasta": 1126
 		}
 	],
 	"poblacion": [
@@ -29,10 +33,6 @@
 			"anio": 1100,
 			"valor": 100000000
 		}
-	],
-	"relacionados": [
-		"China",
-		"China Jin y Song"
 	],
 	"fuentes": [
 		{

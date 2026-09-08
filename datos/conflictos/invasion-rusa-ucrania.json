@@ -10,26 +10,6 @@
 	"bajas": "cientos de miles de bajas militares y decenas de miles de civiles (en curso)",
 	"descripcion": "El 24 de febrero de 2022 Rusia lanza la mayor guerra en Europa desde 1945. Fracasada la ofensiva sobre Kiev, el frente se estanca en el este y el sur; la guerra sigue en curso en 2026, con las negociaciones de paz encalladas.",
 	"wiki": "Invasión rusa de Ucrania",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Invasión rusa de Ucrania",
-			"url": "https://es.wikipedia.org/wiki/Invasión_rusa_de_Ucrania",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-en:Russian invasion of Ukraine",
-			"url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q111012552",
-			"url": "https://www.wikidata.org/wiki/Q111012552",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Ofensiva sobre Kiev",
@@ -162,12 +142,10 @@
 			"wiki": "Batalla de Kiev (2022)"
 		},
 		{
-			"nombre": "Sitio de Mariúpol",
+			"nombre": "Batalla de la isla de las Serpientes",
 			"anio": 2022,
-			"lat": 47.1,
-			"lng": 37.55,
-			"descripcion": "Tres meses de asedio y resistencia en la acería de Azovstal.",
-			"wiki": "Sitio de Mariúpol"
+			"lat": 45.26,
+			"lng": 30.2
 		},
 		{
 			"nombre": "Liberación de Jersón",
@@ -177,19 +155,21 @@
 			"descripcion": "Única capital regional ocupada, recuperada por Ucrania en noviembre."
 		},
 		{
+			"nombre": "Sitio de Mariúpol",
+			"anio": 2022,
+			"lat": 47.1,
+			"lng": 37.55,
+			"descripcion": "Tres meses de asedio y resistencia en la acería de Azovstal.",
+			"wiki": "Sitio de Mariúpol"
+		},
+		{
 			"nombre": "Batalla de Bajmut",
 			"anio": 2022,
+			"hasta": 2023,
 			"lat": 48.59,
 			"lng": 38.0,
 			"descripcion": "La batalla más larga y sangrienta de la guerra; cae en mayo de 2023.",
-			"wiki": "Batalla de Bajmut",
-			"hasta": 2023
-		},
-		{
-			"nombre": "Batalla de la isla de las Serpientes",
-			"anio": 2022,
-			"lat": 45.26,
-			"lng": 30.2
+			"wiki": "Batalla de Bajmut"
 		},
 		{
 			"nombre": "Batalla de Avdíivka",
@@ -204,6 +184,26 @@
 			"lat": 51.19,
 			"lng": 35.27,
 			"descripcion": "Primera ofensiva ucraniana en territorio ruso, repelida en 2025."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Invasión rusa de Ucrania",
+			"url": "https://es.wikipedia.org/wiki/Invasión_rusa_de_Ucrania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Russian invasion of Ukraine",
+			"url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q111012552",
+			"url": "https://www.wikidata.org/wiki/Q111012552",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

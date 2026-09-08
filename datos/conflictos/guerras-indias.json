@@ -18,9 +18,9 @@
 		{
 			"nombre": "Territorio de las naciones indias",
 			"tipo": "ocupado",
-			"color": "#8a6d3b",
 			"desde": 1811,
 			"hasta": 1853,
+			"color": "#8a6d3b",
 			"poligono": [
 				[
 					49,
@@ -55,9 +55,9 @@
 		{
 			"nombre": "Territorio nativo (tras los primeros tratados)",
 			"tipo": "ocupado",
-			"color": "#8a6d3b",
 			"desde": 1854,
 			"hasta": 1876,
+			"color": "#8a6d3b",
 			"poligono": [
 				[
 					48.5,
@@ -88,9 +88,9 @@
 		{
 			"nombre": "Reservas",
 			"tipo": "ocupado",
-			"color": "#8a6d3b",
 			"desde": 1877,
 			"hasta": 1890,
+			"color": "#8a6d3b",
 			"poligono": [
 				[
 					45.8,
@@ -278,6 +278,18 @@
 			"lng": -85.01
 		},
 		{
+			"nombre": "Batalla de Apple River Fort",
+			"anio": 1832,
+			"lat": 42.32,
+			"lng": -90.22
+		},
+		{
+			"nombre": "Batalla de Bad Axe",
+			"anio": 1832,
+			"lat": 43.46,
+			"lng": -91.22
+		},
+		{
 			"nombre": "Batalla de Horseshoe Bend",
 			"anio": 1832,
 			"lat": 42.66,
@@ -308,18 +320,6 @@
 			"lng": -89.74
 		},
 		{
-			"nombre": "Batalla de Bad Axe",
-			"anio": 1832,
-			"lat": 43.46,
-			"lng": -91.22
-		},
-		{
-			"nombre": "Batalla de Apple River Fort",
-			"anio": 1832,
-			"lat": 42.32,
-			"lng": -90.22
-		},
-		{
 			"nombre": "Batalla de Ouithlacoochie",
 			"anio": 1835,
 			"lat": 28.99,
@@ -332,16 +332,16 @@
 			"lng": -97.14
 		},
 		{
-			"nombre": "Batalla de Wahoo Swamp",
-			"anio": 1836,
-			"lat": 28.69,
-			"lng": -82.22
-		},
-		{
 			"nombre": "Batalla de San Felasco Hammock",
 			"anio": 1836,
 			"lat": 29.74,
 			"lng": -82.44
+		},
+		{
+			"nombre": "Batalla de Wahoo Swamp",
+			"anio": 1836,
+			"lat": 28.69,
+			"lng": -82.22
 		},
 		{
 			"nombre": "Batalla de Lake Okeechobee",
@@ -362,16 +362,10 @@
 			"lng": -118.33
 		},
 		{
-			"nombre": "Sitio de Fort Texas",
+			"nombre": "Batalla de Chino",
 			"anio": 1846,
-			"lat": 25.9,
-			"lng": -97.49
-		},
-		{
-			"nombre": "Batalla de Monterrey",
-			"anio": 1846,
-			"lat": 25.68,
-			"lng": -100.31
+			"lat": 33.99,
+			"lng": -117.72
 		},
 		{
 			"nombre": "Batalla de Monterey",
@@ -380,16 +374,16 @@
 			"lng": -121.9
 		},
 		{
-			"nombre": "Batalla del Rancho Domínguez",
+			"nombre": "Batalla de Monterrey",
 			"anio": 1846,
-			"lat": 33.77,
-			"lng": -118.32
+			"lat": 25.68,
+			"lng": -100.31
 		},
 		{
-			"nombre": "Batalla de Chino",
+			"nombre": "Batalla de Natividad",
 			"anio": 1846,
-			"lat": 33.99,
-			"lng": -117.72
+			"lat": 36.77,
+			"lng": -121.6
 		},
 		{
 			"nombre": "Batalla de Palo Alto",
@@ -404,12 +398,6 @@
 			"lng": -97.49
 		},
 		{
-			"nombre": "Batalla de Natividad",
-			"anio": 1846,
-			"lat": 36.77,
-			"lng": -121.6
-		},
-		{
 			"nombre": "Batalla de San Pascual",
 			"anio": 1846,
 			"lat": 33.09,
@@ -422,34 +410,22 @@
 			"lng": -105.96
 		},
 		{
+			"nombre": "Batalla del Rancho Domínguez",
+			"anio": 1846,
+			"lat": 33.77,
+			"lng": -118.32
+		},
+		{
 			"nombre": "Incidente de Thornton",
 			"anio": 1846,
 			"lat": 26.06,
 			"lng": -97.78
 		},
 		{
-			"nombre": "Batalla del Río San Gabriel",
-			"anio": 1847,
-			"lat": 33.99,
-			"lng": -118.11
-		},
-		{
-			"nombre": "Batalla del Paso de Embudo",
-			"anio": 1847,
-			"lat": 36.2,
-			"lng": -105.9
-		},
-		{
-			"nombre": "Batalla de la Cañada",
-			"anio": 1847,
-			"lat": 35.99,
-			"lng": -106.04
-		},
-		{
-			"nombre": "Batalla de la Angostura",
-			"anio": 1847,
-			"lat": 25.34,
-			"lng": -101.05
+			"nombre": "Sitio de Fort Texas",
+			"anio": 1846,
+			"lat": 25.9,
+			"lng": -97.49
 		},
 		{
 			"nombre": "Batalla de La Mesa",
@@ -458,10 +434,10 @@
 			"lng": -118.2
 		},
 		{
-			"nombre": "Batalla de Santa Clara",
+			"nombre": "Batalla de Mora",
 			"anio": 1847,
-			"lat": 37.35,
-			"lng": -121.95
+			"lat": 35.97,
+			"lng": -105.33
 		},
 		{
 			"nombre": "Batalla de Sacramento",
@@ -470,28 +446,52 @@
 			"lng": -106.19
 		},
 		{
+			"nombre": "Batalla de Santa Clara",
+			"anio": 1847,
+			"lat": 37.35,
+			"lng": -121.95
+		},
+		{
+			"nombre": "Batalla de la Angostura",
+			"anio": 1847,
+			"lat": 25.34,
+			"lng": -101.05
+		},
+		{
+			"nombre": "Batalla de la Cañada",
+			"anio": 1847,
+			"lat": 35.99,
+			"lng": -106.04
+		},
+		{
+			"nombre": "Batalla del Paso de Embudo",
+			"anio": 1847,
+			"lat": 36.2,
+			"lng": -105.9
+		},
+		{
+			"nombre": "Batalla del Río San Gabriel",
+			"anio": 1847,
+			"lat": 33.99,
+			"lng": -118.11
+		},
+		{
 			"nombre": "Segunda batalla de Mora",
 			"anio": 1847,
 			"lat": 35.97,
 			"lng": -105.33
 		},
 		{
-			"nombre": "Batalla de Mora",
-			"anio": 1847,
-			"lat": 35.97,
-			"lng": -105.33
+			"nombre": "Battle of the Diablo Mountains",
+			"anio": 1854,
+			"lat": 31.4,
+			"lng": -104.9
 		},
 		{
 			"nombre": "Masacre de Grattan",
 			"anio": 1854,
 			"lat": 42.13,
 			"lng": -104.41
-		},
-		{
-			"nombre": "Battle of the Diablo Mountains",
-			"anio": 1854,
-			"lat": 31.4,
-			"lng": -104.9
 		},
 		{
 			"nombre": "Batalla de Ash Hollow",
@@ -554,12 +554,6 @@
 			"lng": -89.25
 		},
 		{
-			"nombre": "Batalla de Stones River",
-			"anio": 1862,
-			"lat": 35.87,
-			"lng": -86.43
-		},
-		{
 			"nombre": "Batalla de Apache Pass",
 			"anio": 1862,
 			"lat": 32.16,
@@ -578,10 +572,10 @@
 			"lng": -90.16
 		},
 		{
-			"nombre": "Primera batalla de Dragoon Springs",
+			"nombre": "Batalla de Stones River",
 			"anio": 1862,
-			"lat": 32.0,
-			"lng": -110.02
+			"lat": 35.87,
+			"lng": -86.43
 		},
 		{
 			"nombre": "Battle of St. Charles",
@@ -590,58 +584,10 @@
 			"lng": -91.13
 		},
 		{
-			"nombre": "Batalla de Devil's Backbone",
-			"anio": 1863,
-			"lat": 35.18,
-			"lng": -94.31
-		},
-		{
-			"nombre": "Batalla de Whitestone Hill",
-			"anio": 1863,
-			"lat": 46.17,
-			"lng": -98.86
-		},
-		{
-			"nombre": "Batalla de Dead Buffalo Lake",
-			"anio": 1863,
-			"lat": 46.9,
-			"lng": -99.78
-		},
-		{
-			"nombre": "Batalla de Salem Church",
-			"anio": 1863,
-			"lat": 38.29,
-			"lng": -77.53
-		},
-		{
-			"nombre": "batalla de jackson",
-			"anio": 1863,
-			"lat": 32.29,
-			"lng": -90.2
-		},
-		{
-			"nombre": "Batalla de Helena",
-			"anio": 1863,
-			"lat": 34.53,
-			"lng": -90.6
-		},
-		{
-			"nombre": "Segunda batalla de Collierville",
-			"anio": 1863,
-			"lat": 35.04,
-			"lng": -89.66
-		},
-		{
-			"nombre": "Batalla de Stony Lake",
-			"anio": 1863,
-			"lat": 46.85,
-			"lng": -100.18
-		},
-		{
-			"nombre": "Primera batalla de Collierville",
-			"anio": 1863,
-			"lat": 35.04,
-			"lng": -89.66
+			"nombre": "Primera batalla de Dragoon Springs",
+			"anio": 1862,
+			"lat": 32.0,
+			"lng": -110.02
 		},
 		{
 			"nombre": "Action off Galveston Light",
@@ -656,10 +602,16 @@
 			"lng": -99.63
 		},
 		{
-			"nombre": "Skirmish at Ashley's Mills",
+			"nombre": "Batalla de Dead Buffalo Lake",
 			"anio": 1863,
-			"lat": 34.7,
-			"lng": -92.1
+			"lat": 46.9,
+			"lng": -99.78
+		},
+		{
+			"nombre": "Batalla de Devil's Backbone",
+			"anio": 1863,
+			"lat": 35.18,
+			"lng": -94.31
 		},
 		{
 			"nombre": "Batalla de Fayetteville",
@@ -668,48 +620,70 @@
 			"lng": -94.16
 		},
 		{
-			"nombre": "Masacre de Sand Creek",
-			"anio": 1864,
-			"lat": 38.55,
-			"lng": -102.51,
-			"bajas": "~200 cheyenes y arapajós muertos, dos tercios mujeres y niños",
-			"descripcion": "La milicia de Colorado ataca un campamento pacífico."
+			"nombre": "Batalla de Helena",
+			"anio": 1863,
+			"lat": 34.53,
+			"lng": -90.6
 		},
 		{
-			"nombre": "Batalla de Pleasant Hill",
-			"anio": 1864,
-			"lat": 31.85,
-			"lng": -93.51
+			"nombre": "Batalla de Salem Church",
+			"anio": 1863,
+			"lat": 38.29,
+			"lng": -77.53
 		},
 		{
-			"nombre": "Batalla de Killdeer Mountain",
-			"anio": 1864,
-			"lat": 47.42,
-			"lng": -102.92
+			"nombre": "Batalla de Stony Lake",
+			"anio": 1863,
+			"lat": 46.85,
+			"lng": -100.18
 		},
 		{
-			"nombre": "Batalla de Mansfield",
-			"anio": 1864,
-			"lat": 32.01,
-			"lng": -93.67
+			"nombre": "Batalla de Whitestone Hill",
+			"anio": 1863,
+			"lat": 46.17,
+			"lng": -98.86
 		},
 		{
-			"nombre": "Batalla de la espesura",
-			"anio": 1864,
-			"lat": 38.32,
-			"lng": -77.76
+			"nombre": "Primera batalla de Collierville",
+			"anio": 1863,
+			"lat": 35.04,
+			"lng": -89.66
 		},
 		{
-			"nombre": "Batalla de Spotsylvania",
-			"anio": 1864,
-			"lat": 38.22,
-			"lng": -77.6
+			"nombre": "Segunda batalla de Collierville",
+			"anio": 1863,
+			"lat": 35.04,
+			"lng": -89.66
 		},
 		{
-			"nombre": "Batalla de Mount Gray",
+			"nombre": "Skirmish at Ashley's Mills",
+			"anio": 1863,
+			"lat": 34.7,
+			"lng": -92.1
+		},
+		{
+			"nombre": "batalla de jackson",
+			"anio": 1863,
+			"lat": 32.29,
+			"lng": -90.2
+		},
+		{
+			"nombre": "Ambush of the steamboat J. R. Williams",
 			"anio": 1864,
-			"lat": 35.75,
-			"lng": -111.47
+			"lat": 35.44,
+			"lng": -95.03
+		},
+		{
+			"nombre": "Batalla de Altamaha Bridge",
+			"anio": 1864,
+			"lat": 31.66,
+			"lng": -81.83
+		},
+		{
+			"nombre": "Batalla de Brice's Cross Roads",
+			"anio": 1864,
+			"lat": 34.51,
+			"lng": -88.73
 		},
 		{
 			"nombre": "Batalla de Elkin's Ferry",
@@ -724,22 +698,48 @@
 			"lng": -81.19
 		},
 		{
-			"nombre": "Batalla de Brice's Cross Roads",
+			"nombre": "Batalla de Killdeer Mountain",
 			"anio": 1864,
-			"lat": 34.51,
-			"lng": -88.73
+			"lat": 47.42,
+			"lng": -102.92
 		},
 		{
-			"nombre": "Batalla de Altamaha Bridge",
+			"nombre": "Batalla de Mansfield",
 			"anio": 1864,
-			"lat": 31.66,
-			"lng": -81.83
+			"lat": 32.01,
+			"lng": -93.67
 		},
 		{
-			"nombre": "Ambush of the steamboat J. R. Williams",
+			"nombre": "Batalla de Mount Gray",
 			"anio": 1864,
-			"lat": 35.44,
-			"lng": -95.03
+			"lat": 35.75,
+			"lng": -111.47
+		},
+		{
+			"nombre": "Batalla de Pleasant Hill",
+			"anio": 1864,
+			"lat": 31.85,
+			"lng": -93.51
+		},
+		{
+			"nombre": "Batalla de Spotsylvania",
+			"anio": 1864,
+			"lat": 38.22,
+			"lng": -77.6
+		},
+		{
+			"nombre": "Batalla de la espesura",
+			"anio": 1864,
+			"lat": 38.32,
+			"lng": -77.76
+		},
+		{
+			"nombre": "Masacre de Sand Creek",
+			"anio": 1864,
+			"lat": 38.55,
+			"lng": -102.51,
+			"descripcion": "La milicia de Colorado ataca un campamento pacífico.",
+			"bajas": "~200 cheyenes y arapajós muertos, dos tercios mujeres y niños"
 		},
 		{
 			"nombre": "Batalla de Bentonville",
@@ -778,10 +778,10 @@
 			"lng": -101.18
 		},
 		{
-			"nombre": "Battle of the North Fork of the Red River",
+			"nombre": "Batalla de Lost River",
 			"anio": 1872,
-			"lat": 35.41,
-			"lng": -100.67
+			"lat": 42.0,
+			"lng": -121.52
 		},
 		{
 			"nombre": "Batalla de Salt River Canyon",
@@ -790,10 +790,10 @@
 			"lng": -111.37
 		},
 		{
-			"nombre": "Batalla de Lost River",
+			"nombre": "Battle of the North Fork of the Red River",
 			"anio": 1872,
-			"lat": 42.0,
-			"lng": -121.52
+			"lat": 35.41,
+			"lng": -100.67
 		},
 		{
 			"nombre": "Batalla de Dry Lake",
@@ -808,16 +808,16 @@
 			"lng": -105.92
 		},
 		{
-			"nombre": "Batalla de Turret Peak",
-			"anio": 1873,
-			"lat": 34.25,
-			"lng": -111.86
-		},
-		{
 			"nombre": "Batalla de Sand Butte",
 			"anio": 1873,
 			"lat": 41.76,
 			"lng": -121.52
+		},
+		{
+			"nombre": "Batalla de Turret Peak",
+			"anio": 1873,
+			"lat": 34.25,
+			"lng": -111.86
 		},
 		{
 			"nombre": "Batalla de Palo Duro Canyon",
@@ -832,42 +832,18 @@
 			"lng": -101.16
 		},
 		{
-			"nombre": "Batalla de Little Bighorn",
-			"anio": 1876,
-			"lat": 45.57,
-			"lng": -107.43,
-			"bajas": "268 soldados muertos, incluido Custer",
-			"descripcion": "Caballo Loco y Toro Sentado aniquilan al 7.º de Caballería."
-		},
-		{
-			"nombre": "Batalla de Slim Buttes",
-			"anio": 1876,
-			"lat": 45.54,
-			"lng": -103.12
-		},
-		{
-			"nombre": "Battle of the Rosebud",
-			"anio": 1876,
-			"lat": 45.22,
-			"lng": -107.0
-		},
-		{
 			"nombre": "Batalla de Cedar Creek",
 			"anio": 1876,
 			"lat": 47.52,
 			"lng": -106.28
 		},
 		{
-			"nombre": "Dull Knife Fight",
+			"nombre": "Batalla de Little Bighorn",
 			"anio": 1876,
-			"lat": 43.54,
-			"lng": -107.54
-		},
-		{
-			"nombre": "Batalla de Warbonnet Creek",
-			"anio": 1876,
-			"lat": 42.93,
-			"lng": -103.73
+			"lat": 45.57,
+			"lng": -107.43,
+			"descripcion": "Caballo Loco y Toro Sentado aniquilan al 7.º de Caballería.",
+			"bajas": "268 soldados muertos, incluido Custer"
 		},
 		{
 			"nombre": "Batalla de Powder River",
@@ -882,6 +858,42 @@
 			"lng": -106.62
 		},
 		{
+			"nombre": "Batalla de Slim Buttes",
+			"anio": 1876,
+			"lat": 45.54,
+			"lng": -103.12
+		},
+		{
+			"nombre": "Batalla de Warbonnet Creek",
+			"anio": 1876,
+			"lat": 42.93,
+			"lng": -103.73
+		},
+		{
+			"nombre": "Battle of the Rosebud",
+			"anio": 1876,
+			"lat": 45.22,
+			"lng": -107.0
+		},
+		{
+			"nombre": "Dull Knife Fight",
+			"anio": 1876,
+			"lat": 43.54,
+			"lng": -107.54
+		},
+		{
+			"nombre": "Batalla de Bear Paw",
+			"anio": 1877,
+			"lat": 48.38,
+			"lng": -109.21
+		},
+		{
+			"nombre": "Batalla de Camas Creek",
+			"anio": 1877,
+			"lat": 44.35,
+			"lng": -111.89
+		},
+		{
 			"nombre": "Batalla de Canyon Creek",
 			"anio": 1877,
 			"lat": 45.77,
@@ -892,12 +904,6 @@
 			"anio": 1877,
 			"lat": 46.03,
 			"lng": -116.33
-		},
-		{
-			"nombre": "Batalla de Camas Creek",
-			"anio": 1877,
-			"lat": 44.35,
-			"lng": -111.89
 		},
 		{
 			"nombre": "Batalla de White Bird Canyon",
@@ -912,22 +918,16 @@
 			"lng": -106.58
 		},
 		{
-			"nombre": "Battle of the Clearwater",
-			"anio": 1877,
-			"lat": 46.08,
-			"lng": -115.97
-		},
-		{
 			"nombre": "Battle of the Big Hole",
 			"anio": 1877,
 			"lat": 45.65,
 			"lng": -113.65
 		},
 		{
-			"nombre": "Batalla de Bear Paw",
+			"nombre": "Battle of the Clearwater",
 			"anio": 1877,
-			"lat": 48.38,
-			"lng": -109.21
+			"lat": 46.08,
+			"lng": -115.97
 		},
 		{
 			"nombre": "Batalla de Milk Creek",
@@ -965,8 +965,8 @@
 			"anio": 1890,
 			"lat": 43.14,
 			"lng": -102.36,
-			"bajas": "~250-300 lakotas muertos, en su mayoría ancianos, mujeres y niños",
-			"descripcion": "El ejército aplasta la Danza de los Espíritus; fin de las guerras indias."
+			"descripcion": "El ejército aplasta la Danza de los Espíritus; fin de las guerras indias.",
+			"bajas": "~250-300 lakotas muertos, en su mayoría ancianos, mujeres y niños"
 		}
 	],
 	"fuentes": [

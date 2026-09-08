@@ -5,204 +5,211 @@
 		"Rome",
 		"Roman Empire"
 	],
+	"relacionados": [
+		"Imperio romano de Occidente",
+		"Imperio romano de Oriente",
+		"Samnitas",
+		"Latinos"
+	],
+	"resena": "Roma es una ciudad, capital de la región del Lacio y de Italia. Con una población de 2 857 321 habitantes, es el municipio más poblado de Italia y la tercera ciudad más poblada de la Unión Europea.",
 	"gobernantes": [
 		{
-			"desde": -509,
-			"hasta": -28,
 			"nombre": "República romana (Senado y cónsules)",
-			"titulo": "República"
+			"titulo": "República",
+			"desde": -509,
+			"hasta": -28
 		},
 		{
-			"desde": -27,
-			"hasta": 14,
 			"nombre": "Augusto",
-			"titulo": "Emperador romano"
+			"titulo": "Emperador romano",
+			"desde": -27,
+			"hasta": 14
 		},
 		{
-			"desde": 14,
-			"hasta": 37,
 			"nombre": "Tiberio",
-			"titulo": "Emperador; sucesor de Augusto"
+			"titulo": "Emperador; sucesor de Augusto",
+			"desde": 14,
+			"hasta": 37
 		},
 		{
-			"desde": 37,
-			"hasta": 41,
 			"nombre": "Calígula",
-			"titulo": "Emperador; asesinado por la guardia pretoriana"
+			"titulo": "Emperador; asesinado por la guardia pretoriana",
+			"desde": 37,
+			"hasta": 41
 		},
 		{
-			"desde": 41,
-			"hasta": 54,
 			"nombre": "Claudio",
-			"titulo": "Emperador; conquista de Britania"
+			"titulo": "Emperador; conquista de Britania",
+			"desde": 41,
+			"hasta": 54
 		},
 		{
-			"desde": 54,
-			"hasta": 68,
 			"nombre": "Nerón",
-			"titulo": "Emperador; último de la dinastía Julio-Claudia"
+			"titulo": "Emperador; último de la dinastía Julio-Claudia",
+			"desde": 54,
+			"hasta": 68
 		},
 		{
-			"desde": 68,
-			"hasta": 69,
 			"nombre": "Galba",
-			"titulo": "Emperador durante el año de los cuatro emperadores"
+			"titulo": "Emperador durante el año de los cuatro emperadores",
+			"desde": 68,
+			"hasta": 69
 		},
 		{
-			"desde": 69,
-			"hasta": 79,
-			"nombre": "Vespasiano",
-			"titulo": "Emperador; funda la dinastía Flavia"
-		},
-		{
-			"desde": 69,
-			"hasta": 69,
 			"nombre": "Otón",
-			"titulo": "Emperador durante el año de los cuatro emperadores"
-		},
-		{
+			"titulo": "Emperador durante el año de los cuatro emperadores",
 			"desde": 69,
-			"hasta": 69,
+			"hasta": 69
+		},
+		{
 			"nombre": "Vitelio",
-			"titulo": "Emperador durante el año de los cuatro emperadores"
+			"titulo": "Emperador durante el año de los cuatro emperadores",
+			"desde": 69,
+			"hasta": 69
 		},
 		{
-			"desde": 79,
-			"hasta": 81,
+			"nombre": "Vespasiano",
+			"titulo": "Emperador; funda la dinastía Flavia",
+			"desde": 69,
+			"hasta": 79
+		},
+		{
 			"nombre": "Tito",
-			"titulo": "Emperador flavio"
+			"titulo": "Emperador flavio",
+			"desde": 79,
+			"hasta": 81
 		},
 		{
-			"desde": 81,
-			"hasta": 96,
 			"nombre": "Domiciano",
-			"titulo": "Emperador flavio; asesinado"
+			"titulo": "Emperador flavio; asesinado",
+			"desde": 81,
+			"hasta": 96
 		},
 		{
-			"desde": 96,
-			"hasta": 98,
 			"nombre": "Nerva",
-			"titulo": "Emperador; primero de los Antoninos"
+			"titulo": "Emperador; primero de los Antoninos",
+			"desde": 96,
+			"hasta": 98
 		},
 		{
-			"desde": 98,
-			"hasta": 117,
 			"nombre": "Trajano",
-			"titulo": "Emperador romano"
+			"titulo": "Emperador romano",
+			"desde": 98,
+			"hasta": 117
 		},
 		{
-			"desde": 117,
-			"hasta": 138,
 			"nombre": "Adriano",
-			"titulo": "Emperador romano"
+			"titulo": "Emperador romano",
+			"desde": 117,
+			"hasta": 138
 		},
 		{
-			"desde": 138,
-			"hasta": 161,
 			"nombre": "Antonino Pío",
-			"titulo": "Emperador; apogeo de la Pax Romana"
+			"titulo": "Emperador; apogeo de la Pax Romana",
+			"desde": 138,
+			"hasta": 161
 		},
 		{
-			"desde": 161,
-			"hasta": 180,
-			"nombre": "Marco Aurelio",
-			"titulo": "Emperador romano"
-		},
-		{
-			"desde": 161,
-			"hasta": 169,
 			"nombre": "Lucio Vero",
-			"titulo": "Co-emperador junto a Marco Aurelio"
+			"titulo": "Co-emperador junto a Marco Aurelio",
+			"desde": 161,
+			"hasta": 169
 		},
 		{
-			"desde": 180,
-			"hasta": 192,
+			"nombre": "Marco Aurelio",
+			"titulo": "Emperador romano",
+			"desde": 161,
+			"hasta": 180
+		},
+		{
 			"nombre": "Cómodo",
-			"titulo": "Emperador; fin de los Antoninos; asesinado"
+			"titulo": "Emperador; fin de los Antoninos; asesinado",
+			"desde": 180,
+			"hasta": 192
 		},
 		{
-			"desde": 193,
-			"hasta": 211,
-			"nombre": "Septimio Severo",
-			"titulo": "Emperador; funda la dinastía Severa"
-		},
-		{
-			"desde": 193,
-			"hasta": 193,
-			"nombre": "Pértinax",
-			"titulo": "Emperador; asesinado por los pretorianos"
-		},
-		{
-			"desde": 193,
-			"hasta": 193,
 			"nombre": "Didio Juliano",
-			"titulo": "Emperador; compró el trono en subasta"
+			"titulo": "Emperador; compró el trono en subasta",
+			"desde": 193,
+			"hasta": 193
 		},
 		{
-			"desde": 211,
-			"hasta": 217,
-			"nombre": "Caracalla",
-			"titulo": "Emperador severo; Constitutio Antoniniana"
+			"nombre": "Pértinax",
+			"titulo": "Emperador; asesinado por los pretorianos",
+			"desde": 193,
+			"hasta": 193
 		},
 		{
-			"desde": 211,
-			"hasta": 212,
+			"nombre": "Septimio Severo",
+			"titulo": "Emperador; funda la dinastía Severa",
+			"desde": 193,
+			"hasta": 211
+		},
+		{
 			"nombre": "Geta",
-			"titulo": "Co-emperador; asesinado por su hermano Caracalla"
+			"titulo": "Co-emperador; asesinado por su hermano Caracalla",
+			"desde": 211,
+			"hasta": 212
 		},
 		{
-			"desde": 217,
-			"hasta": 218,
+			"nombre": "Caracalla",
+			"titulo": "Emperador severo; Constitutio Antoniniana",
+			"desde": 211,
+			"hasta": 217
+		},
+		{
 			"nombre": "Macrino",
-			"titulo": "Emperador; primer princeps de rango ecuestre"
+			"titulo": "Emperador; primer princeps de rango ecuestre",
+			"desde": 217,
+			"hasta": 218
 		},
 		{
-			"desde": 218,
-			"hasta": 222,
 			"nombre": "Elagábal",
-			"titulo": "Emperador severo (Heliogábalo); asesinado"
+			"titulo": "Emperador severo (Heliogábalo); asesinado",
+			"desde": 218,
+			"hasta": 222
 		},
 		{
-			"desde": 222,
-			"hasta": 235,
 			"nombre": "Severo Alejandro",
-			"titulo": "Último emperador severo; asesinado"
+			"titulo": "Último emperador severo; asesinado",
+			"desde": 222,
+			"hasta": 235
 		},
 		{
-			"desde": 235,
-			"hasta": 238,
 			"nombre": "Maximino el Tracio",
-			"titulo": "Primer emperador-soldado; inicia la crisis del s. III"
+			"titulo": "Primer emperador-soldado; inicia la crisis del s. III",
+			"desde": 235,
+			"hasta": 238
 		},
 		{
-			"desde": 238,
-			"hasta": 244,
-			"nombre": "Gordiano III",
-			"titulo": "Emperador proclamado tras el año de los seis emperadores"
-		},
-		{
-			"desde": 238,
-			"hasta": 238,
 			"nombre": "Gordiano I y Gordiano II",
-			"titulo": "Emperadores efímeros proclamados en África"
-		},
-		{
+			"titulo": "Emperadores efímeros proclamados en África",
 			"desde": 238,
-			"hasta": 238,
+			"hasta": 238
+		},
+		{
 			"nombre": "Pupieno y Balbino",
-			"titulo": "Emperadores elegidos por el Senado"
+			"titulo": "Emperadores elegidos por el Senado",
+			"desde": 238,
+			"hasta": 238
 		},
 		{
-			"desde": 306,
-			"hasta": 337,
+			"nombre": "Gordiano III",
+			"titulo": "Emperador proclamado tras el año de los seis emperadores",
+			"desde": 238,
+			"hasta": 244
+		},
+		{
 			"nombre": "Constantino I el Grande",
-			"titulo": "Emperador romano"
+			"titulo": "Emperador romano",
+			"desde": 306,
+			"hasta": 337
 		},
 		{
-			"desde": 379,
-			"hasta": 395,
 			"nombre": "Teodosio I (último emperador de un imperio unido)",
-			"titulo": "Emperador romano"
+			"titulo": "Emperador romano",
+			"desde": 379,
+			"hasta": 395
 		}
 	],
 	"poblacion": [
@@ -219,12 +226,6 @@
 			"valor": 60000000
 		}
 	],
-	"relacionados": [
-		"Imperio romano de Occidente",
-		"Imperio romano de Oriente",
-		"Samnitas",
-		"Latinos"
-	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Roma",
@@ -238,12 +239,11 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Roma es una ciudad, capital de la región del Lacio y de Italia. Con una población de 2 857 321 habitantes, es el municipio más poblado de Italia y la tercera ciudad más poblada de la Unión Europea.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "b637523df09f",
+		"hash": "ef39b2b841cf",
 		"secciones": [
 			"resena"
 		]

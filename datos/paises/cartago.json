@@ -4,18 +4,22 @@
 	"nombres": [
 		"Carthage"
 	],
+	"relacionados": [
+		"Cartago"
+	],
+	"resena": "Cartago fue una antigua ciudad del norte de África, capital del Estado púnico, en el actual Túnez, fundada por emigrantes fenicios de Tiro a finales del siglo IX a. C., según la datación moderna más aceptada.",
 	"gobernantes": [
 		{
-			"desde": -247,
-			"hasta": -228,
 			"nombre": "Amílcar Barca",
-			"titulo": "General"
+			"titulo": "General",
+			"desde": -247,
+			"hasta": -228
 		},
 		{
-			"desde": -221,
-			"hasta": -202,
 			"nombre": "Aníbal Barca",
-			"titulo": "General"
+			"titulo": "General",
+			"desde": -221,
+			"hasta": -202
 		}
 	],
 	"poblacion": [
@@ -23,9 +27,6 @@
 			"anio": -200,
 			"valor": 3500000
 		}
-	],
-	"relacionados": [
-		"Cartago"
 	],
 	"fuentes": [
 		{
@@ -40,7 +41,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Cartago fue una antigua ciudad del norte de África, capital del Estado púnico, en el actual Túnez, fundada por emigrantes fenicios de Tiro a finales del siglo IX a. C., según la datación moderna más aceptada.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

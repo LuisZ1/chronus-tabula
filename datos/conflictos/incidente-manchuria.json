@@ -10,14 +10,6 @@
 	"bajas": "miles",
 	"descripcion": "El Ejército de Kwantung fabrica el sabotaje de Mukden y ocupa toda Manchuria, creando el estado títere de Manchukuo y precipitando la salida de Japón de la Sociedad de Naciones.",
 	"wiki": "Incidente de Mukden",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Incidente de Mukden",
-			"url": "https://es.wikipedia.org/wiki/Incidente_de_Mukden",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Manchuria ocupada",
@@ -51,6 +43,14 @@
 			"lat": 41.8,
 			"lng": 123.43,
 			"descripcion": "Explosión provocada en el ferrocarril que sirve de pretexto a la invasión."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Incidente de Mukden",
+			"url": "https://es.wikipedia.org/wiki/Incidente_de_Mukden",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

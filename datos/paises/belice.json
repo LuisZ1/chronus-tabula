@@ -5,28 +5,10 @@
 		"Belize",
 		"Belice"
 	],
-	"wikidata": "Q242",
 	"wiki": "es:Belice",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q242",
-			"url": "https://www.wikidata.org/wiki/Q242",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Belice",
-			"url": "https://es.wikipedia.org/wiki/Belice",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q242",
 	"owid": "BLZ",
+	"resena": "Belice es un país soberano de América ubicado en el extremo noreste de América Central y en la región del Caribe. Limita al norte con México y al sur y oeste con Guatemala.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 411112
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q242",
+			"url": "https://www.wikidata.org/wiki/Q242",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Belice",
+			"url": "https://es.wikipedia.org/wiki/Belice",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Belice es un país soberano de América ubicado en el extremo noreste de América Central y en la región del Caribe. Limita al norte con México y al sur y oeste con Guatemala."
+	}
 }

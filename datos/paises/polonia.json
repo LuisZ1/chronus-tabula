@@ -6,24 +6,29 @@
 		"Poland-Lithuania",
 		"Poland-Llituania"
 	],
+	"owid": "Poland",
+	"relacionados": [
+		"Polonia"
+	],
+	"resena": "Polonia, oficialmente la República de Polonia, es un país de Europa Central, uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido en Estado democrático de derecho y cuya forma de gobierno es la república parlamentaria. Es un Estado unitario con 16 subdivisiones o regiones administrativas denominadas voivodatos.",
 	"gobernantes": [
 		{
-			"desde": 1333,
-			"hasta": 1370,
 			"nombre": "Casimiro III el Grande",
-			"titulo": "Rey de Polonia"
+			"titulo": "Rey de Polonia",
+			"desde": 1333,
+			"hasta": 1370
 		},
 		{
-			"desde": 1548,
-			"hasta": 1572,
 			"nombre": "Segismundo II Augusto",
-			"titulo": "Rey de Polonia y Gran Duque de Lituania"
+			"titulo": "Rey de Polonia y Gran Duque de Lituania",
+			"desde": 1548,
+			"hasta": 1572
 		},
 		{
-			"desde": 1674,
-			"hasta": 1696,
 			"nombre": "Juan III Sobieski (vencedor de Viena)",
-			"titulo": "Rey de Polonia"
+			"titulo": "Rey de Polonia",
+			"desde": 1674,
+			"hasta": 1696
 		}
 	],
 	"poblacion": [
@@ -208,9 +213,6 @@
 			"valor": 38762847
 		}
 	],
-	"relacionados": [
-		"Polonia"
-	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Polonia / República de las Dos Naciones",
@@ -230,7 +232,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Poland",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -240,6 +241,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Polonia, oficialmente la República de Polonia, es un país de Europa Central, uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido en Estado democrático de derecho y cuya forma de gobierno es la república parlamentaria. Es un Estado unitario con 16 subdivisiones o regiones administrativas denominadas voivodatos."
+	}
 }

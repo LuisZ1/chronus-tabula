@@ -1,14 +1,14 @@
 {
 	"nombre": "Imprenta de tipos móviles (Bi Sheng)",
 	"anio": 1045,
+	"categoria": "invento",
 	"lat": 34.79,
 	"lng": 114.35,
-	"categoria": "invento",
-	"descripcion": "Bi Sheng inventa los tipos móviles de cerámica (pin en la capital Song, Kaifeng).",
-	"wiki": "Bi Sheng",
 	"paises": [
 		"China"
 	],
+	"descripcion": "Bi Sheng inventa los tipos móviles de cerámica (pin en la capital Song, Kaifeng).",
+	"wiki": "Bi Sheng",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Bi Sheng",
