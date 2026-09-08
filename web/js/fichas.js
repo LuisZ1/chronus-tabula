@@ -1,6 +1,6 @@
 /* Chronus Tabula — fichas.js
    Popups (territorio, conflicto, batalla, evento, territorio menor), fuentes y extractos de Wikipedia.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* pie de fuentes de una ficha: plegado, se despliega solo si el lector lo pide */
 function fuentesHtml(reg) {

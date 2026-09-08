@@ -1,6 +1,6 @@
 /* Chronus Tabula — tiempo.js
    Barra de tiempo: escala no lineal, épocas del modo móvil, marcas, petición de año, reproducción y controles.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* ---------- escala no lineal de la barra de tiempo ----------
    La barra reparte su ancho por densidad histórica:

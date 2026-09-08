@@ -1,6 +1,6 @@
 /* Chronus Tabula — capas.js
    Marcadores del año: batallas, eventos y territorios menores.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* ---------- territorios menores (Ceuta, Canarias, Azores, Gibraltar…) ---------- */
 

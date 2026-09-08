@@ -1,0 +1,402 @@
+/* Chronus Tabula — portada.css
+   Estilos de la landing (index.html) y de la página de colaboración (colaborar.html).
+   Sin dependencias externas: tipografías del sistema. Paleta heredada de la app
+   (azul #2d6f9e, tinta #2c3e50) y la tira de épocas de la barra de tiempo. */
+
+:root {
+	--fondo: #f6f2ea;
+	--papel: #fffdf8;
+	--tinta: #2c3e50;
+	--tinta-suave: #5b6b7a;
+	--linea: #e2dbcd;
+	--acento: #2d6f9e;
+	--acento-oscuro: #245a80;
+	--antigua: #cbb78f;
+	--media: #a8c0a0;
+	--moderna: #9db6cf;
+	--contemp: #c9a3b4;
+	--actual: #e0b98a;
+}
+
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	background: var(--fondo);
+	color: var(--tinta);
+	font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+	line-height: 1.55;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	color: var(--acento);
+}
+
+/* ---- cabecera ---- */
+.cab {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 18px 24px;
+}
+.marca {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	color: var(--tinta);
+	font-weight: 700;
+	font-size: 17px;
+}
+.marca .globo {
+	font-size: 22px;
+}
+.nav {
+	display: flex;
+	gap: 18px;
+	font-size: 14px;
+}
+.nav a {
+	color: var(--tinta-suave);
+	text-decoration: none;
+}
+.nav a:hover {
+	color: var(--acento);
+}
+
+/* ---- contenedor ---- */
+.cont {
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+/* ---- portada (hero) ---- */
+.hero {
+	padding: 48px 0 24px;
+	text-align: center;
+}
+.hero h1 {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: 600;
+	font-size: clamp(38px, 6vw, 64px);
+	letter-spacing: 0.5px;
+	margin: 0 0 10px;
+	text-wrap: balance;
+}
+.hero .lema {
+	font-size: clamp(17px, 2.2vw, 21px);
+	color: var(--tinta-suave);
+	max-width: 46ch;
+	margin: 0 auto 26px;
+	text-wrap: balance;
+}
+.acciones {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 8px;
+}
+.btn {
+	display: inline-block;
+	padding: 14px 26px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	text-decoration: none;
+	transition: transform 0.08s ease, filter 0.15s ease;
+}
+.btn:active {
+	transform: translateY(1px);
+}
+.btn.principal {
+	background: var(--acento);
+	color: #fff;
+	box-shadow: 0 3px 10px rgba(45, 111, 158, 0.35);
+}
+.btn.principal:hover {
+	background: var(--acento-oscuro);
+}
+.btn.secundario {
+	background: transparent;
+	color: var(--acento);
+	border: 1.5px solid var(--acento);
+}
+.btn.secundario:hover {
+	background: rgba(45, 111, 158, 0.08);
+}
+.btn.grande {
+	padding: 18px 34px;
+	font-size: 18px;
+}
+
+/* tira de épocas: la misma que el navegador de la barra de tiempo */
+.tira {
+	position: relative;
+	height: 56px;
+	margin: 30px auto 0;
+	max-width: 880px;
+	border-radius: 10px;
+	overflow: hidden;
+	border: 1px solid var(--linea);
+	background: linear-gradient(
+		90deg,
+		var(--antigua) 0 20%,
+		var(--media) 20% 40%,
+		var(--moderna) 40% 78%,
+		var(--contemp) 78% 93%,
+		var(--actual) 93% 100%
+	);
+}
+.tira .anio {
+	position: absolute;
+	top: 6px;
+	transform: translateX(-50%);
+	font-size: 11px;
+	color: rgba(44, 62, 80, 0.75);
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+.tira .epoca {
+	position: absolute;
+	bottom: 6px;
+	transform: translateX(-50%);
+	font-size: 12px;
+	font-weight: 700;
+	color: rgba(44, 62, 80, 0.85);
+	white-space: nowrap;
+}
+.tira .cursor {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2px;
+	background: var(--acento);
+}
+.tira .anio.ini {
+	left: 8px;
+	transform: none;
+}
+.tira .anio.fin {
+	left: auto;
+	right: 8px;
+	transform: none;
+}
+.tira .cursor::after {
+	content: '1492';
+	position: absolute;
+	top: 50%;
+	right: 6px; /* a la izquierda de la línea, para no tapar la marca «1500» */
+	transform: translateY(-50%);
+	background: #2b2e33;
+	color: #fff;
+	font: 700 12px/1 system-ui, sans-serif;
+	padding: 5px 8px;
+	border-radius: 6px;
+}
+
+/* ---- secciones ---- */
+section.bloque {
+	padding: 40px 0;
+	border-top: 1px solid var(--linea);
+}
+section.bloque h2 {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: 600;
+	font-size: clamp(26px, 3.4vw, 34px);
+	margin: 0 0 8px;
+	text-wrap: balance;
+}
+section.bloque .intro {
+	color: var(--tinta-suave);
+	max-width: 64ch;
+	margin: 0 0 24px;
+}
+
+.rejilla {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	gap: 16px;
+}
+.tarjeta {
+	background: var(--papel);
+	border: 1px solid var(--linea);
+	border-radius: 12px;
+	padding: 18px 18px 16px;
+}
+.tarjeta .ico {
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+.tarjeta h3 {
+	margin: 0 0 6px;
+	font-size: 16px;
+}
+.tarjeta p {
+	margin: 0;
+	font-size: 14.5px;
+	color: var(--tinta-suave);
+}
+.tarjeta .tecla {
+	display: inline-block;
+	font: 600 12px system-ui, sans-serif;
+	color: var(--tinta);
+	background: #fff;
+	border: 1px solid #cfd6dc;
+	border-bottom-width: 2px;
+	border-radius: 5px;
+	padding: 1px 7px;
+	margin-right: 4px;
+}
+.solo-movil,
+.solo-escritorio {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	padding: 2px 7px;
+	border-radius: 999px;
+	margin-left: 6px;
+	vertical-align: middle;
+}
+.solo-movil {
+	background: #e6efe3;
+	color: #3d6b3a;
+}
+.solo-escritorio {
+	background: #e3ecf5;
+	color: #2d5a82;
+}
+
+/* pasos numerados (colaborar) */
+.pasos {
+	counter-reset: paso;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	gap: 14px;
+}
+.pasos li {
+	position: relative;
+	background: var(--papel);
+	border: 1px solid var(--linea);
+	border-radius: 12px;
+	padding: 16px 18px 16px 62px;
+}
+.pasos li::before {
+	counter-increment: paso;
+	content: counter(paso);
+	position: absolute;
+	left: 18px;
+	top: 16px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: var(--acento);
+	color: #fff;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pasos li h3 {
+	margin: 0 0 4px;
+	font-size: 16px;
+}
+.pasos li p {
+	margin: 0;
+	color: var(--tinta-suave);
+	font-size: 14.5px;
+}
+code {
+	font-family: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+	font-size: 0.92em;
+	background: #efeae0;
+	padding: 1px 5px;
+	border-radius: 4px;
+}
+pre {
+	background: #2b2e33;
+	color: #e8e6e1;
+	padding: 14px 16px;
+	border-radius: 10px;
+	overflow-x: auto;
+	font-size: 13px;
+}
+pre code {
+	background: none;
+	padding: 0;
+	color: inherit;
+}
+
+/* llamada final */
+.cierre {
+	text-align: center;
+	padding: 44px 0 20px;
+	border-top: 1px solid var(--linea);
+}
+.cierre h2 {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-weight: 600;
+	font-size: clamp(24px, 3vw, 30px);
+	margin: 0 0 16px;
+}
+
+/* ---- pie ---- */
+.pie {
+	max-width: 1040px;
+	margin: 0 auto;
+	padding: 22px 24px 40px;
+	font-size: 13px;
+	color: var(--tinta-suave);
+	border-top: 1px solid var(--linea);
+	display: flex;
+	justify-content: space-between;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+.pie a {
+	color: var(--tinta-suave);
+}
+
+.nav a {
+	white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+	.cab {
+		padding: 14px 16px;
+	}
+	.nav {
+		gap: 12px;
+		font-size: 13px;
+	}
+	.nav .oculta-movil {
+		display: none; /* los anclajes internos sobran en móvil: la página se recorre entera */
+	}
+	.cont {
+		padding: 0 16px;
+	}
+	.hero {
+		padding: 30px 0 16px;
+	}
+	/* en móvil la tira queda como franja decorativa: sin rótulos apretados */
+	.tira {
+		height: 22px;
+		margin-top: 22px;
+	}
+	.tira .anio,
+	.tira .epoca,
+	.tira .cursor::after {
+		display: none;
+	}
+}

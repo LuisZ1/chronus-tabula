@@ -40,7 +40,9 @@ La web se publica automáticamente en **GitHub Pages**: cada push a `main` dispa
 
 ```
 web/                        LA APLICACIÓN (estática, desplegable en cualquier hosting)
-  index.html                página única: mapa, paneles y barra de tiempo
+  index.html                portada (landing): qué es la app y cómo se usa
+  colaborar.html            cómo colaborar (enlaza a GitHub y CONTRIBUTING)
+  mapa.html                 la aplicación: mapa, paneles y barra de tiempo
   admin.html                panel de administración (necesita la API en marcha)
   css/, i18n/, lib/         estilos, traducciones y librerías locales
   js/                       lógica por secciones: nucleo, datos, fichas, zonas,

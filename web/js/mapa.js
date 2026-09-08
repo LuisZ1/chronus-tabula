@@ -1,6 +1,6 @@
 /* Chronus Tabula — mapa.js
    Mapa: estilo de territorios, etiquetas y escudos, análisis del año, carga y dibujo, capas base.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* ---------- estilo de los territorios ---------- */
 

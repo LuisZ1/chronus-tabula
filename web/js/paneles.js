@@ -1,6 +1,6 @@
 /* Chronus Tabula — paneles.js
    Paneles laterales: leyenda de entidades, panel «Este año» y panel de capas.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* ---------- leyenda del año ---------- */
 
