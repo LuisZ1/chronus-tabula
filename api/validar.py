@@ -160,6 +160,19 @@ def main():
                 err(donde, "'revision' debe ser un objeto")
             elif rev.get("estado") not in ("validado", "borrador"):
                 err(donde, "revision.estado debe ser 'validado' o 'borrador'")
+        # escudos por época: el mapa elige el vigente en el año consultado
+        esc = p.get("escudos")
+        if esc is not None:
+            if not isinstance(esc, list):
+                err(donde, "'escudos' debe ser una lista")
+            else:
+                for e in esc:
+                    if not isinstance(e, dict) or not e.get("archivo"):
+                        err(donde, f"escudo sin 'archivo': {e!r}")
+                    elif e.get("desde") is not None and not es_anio(e.get("desde")):
+                        err(donde, f"escudo '{e.get('archivo')}': 'desde' debe ser año entero o ausente")
+                    elif e.get("hasta") is not None and not es_anio(e.get("hasta")):
+                        err(donde, f"escudo '{e.get('archivo')}': 'hasta' debe ser año entero o ausente")
         valida_fuentes(donde, p)
 
     # 4) conflictos

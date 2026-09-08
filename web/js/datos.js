@@ -58,6 +58,29 @@ function nombreVisible(name, y, permitirHistorico) {
 	return name;
 }
 
+/* ---------- escudo del periodo consultado ----------
+   Si la ficha define 'escudos' [{archivo, desde, hasta}], se elige el vigente en
+   el año mostrado; si no, el mapa usa el escudo actual en vivo (P94 por nombre). */
+function escudoUrlDe(archivo) {
+	if (!archivo) return null;
+	if (/^https?:/.test(archivo)) return archivo;
+	return (
+		'https://commons.wikimedia.org/wiki/Special:FilePath/' +
+		encodeURIComponent(archivo) +
+		'?width=48'
+	);
+}
+
+function escudoParaAnio(pais, y) {
+	if (!pais || !Array.isArray(pais.escudos)) return null;
+	for (const e of pais.escudos) {
+		const desde = e.desde ?? -1e9;
+		const hasta = e.hasta ?? 1e9;
+		if (y >= desde && y <= hasta) return escudoUrlDe(e.archivo);
+	}
+	return null;
+}
+
 function gobernanteEn(pais, y) {
 	if (!pais || !pais.gobernantes) return [];
 	return pais.gobernantes.filter(g => g.desde <= y && y <= g.hasta);

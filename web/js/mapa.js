@@ -73,9 +73,11 @@ function analyzeYear(gj) {
 		const info = featureLabelInfo(f);
 		if (!info) continue;
 		if (name) {
+			const paisF = paisFor(props);
 			state.labelData.push({
 				name, // nombre del GeoJSON: clave de escudo/superficie (no traducir)
 				display: nombreVisible(name, state.shownYear, false), // texto visible (español/época)
+				escudoUrl: paisF ? escudoParaAnio(paisF, state.shownYear) : null, // escudo del periodo
 				wiki: props.wikipedia,
 				lat: info.lat,
 				lng: info.lng,
@@ -111,15 +113,20 @@ function coaClass(name) {
 
 function makeLabelMarker(d) {
 	const esc = escHtml;
-	const cached = coaCache.get(d.name);
-	const hasUrl = typeof cached === 'string' && cached !== 'none' && cached !== 'pending';
-	const img = `<img class="coa-img ${coaClass(d.name)}" alt=""${hasUrl ? ` src="${esc(cached)}"` : ' hidden'}>`;
+	// escudo del periodo (guardado en la ficha) tiene prioridad; si no, el actual
+	// que se descarga en vivo (P94 por nombre) y queda en coaCache.
+	let src = d.escudoUrl || null;
+	if (!src) {
+		const cached = coaCache.get(d.name);
+		if (typeof cached === 'string' && cached !== 'none' && cached !== 'pending') src = cached;
+	}
+	const img = `<img class="coa-img ${coaClass(d.name)}" alt=""${src ? ` src="${esc(src)}"` : ' hidden'}>`;
 	const icon = L.divIcon({
 		html: `<span class="map-label">${img}<span>${esc(d.display || d.name)}</span></span>`,
 		className: 'map-label-wrap',
 		iconSize: null
 	});
-	if (!coaCache.has(d.name)) requestCoA(d);
+	if (!d.escudoUrl && !coaCache.has(d.name)) requestCoA(d);
 	return L.marker([d.lat, d.lng], { icon, interactive: false, keyboard: false });
 }
 
