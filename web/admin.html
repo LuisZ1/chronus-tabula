@@ -96,6 +96,13 @@ tr.abierta + tr.payload { display:table-row; }
 
   <h2>Fuentes externas</h2>
   <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>historia.json</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
+  <div id="colaBox" style="margin:8px 0 14px; padding:10px 12px; border:1px solid var(--line,#ddd); border-radius:8px;">
+    <button id="btnCola">▶ Ejecutar todo en cola</button>
+    <label class="mini" style="margin-left:10px"><input type="checkbox" id="colaDemo"> demo</label>
+    <span class="mini" id="colaEstado" style="margin-left:10px"></span>
+    <div class="mini" style="margin-top:4px">Lanza todos los conectores en serie, sin parar entre uno y otro. Ideal para dejarlo corriendo desatendido: cada uno reanuda su pila si se corta, y solo crea propuestas (no exporta nada).</div>
+    <pre class="log" id="colaLog" style="display:none;margin-top:8px"></pre>
+  </div>
   <div id="fuentes"></div>
 
   <h2>Mapeo país ↔ fuente</h2>
@@ -307,10 +314,51 @@ async function vigilarIngesta(fid) {
 async function reengancharIngesta() {
   try {
     const est = await api('/api/ingestas/estado');
-    if (est && est.fid && !est.terminada) { await vigilarIngesta(est.fid); return true; }
+    if (est && est.fid && !est.terminada) {
+      if (est.fid === '_cola') await vigilarCola(); else await vigilarIngesta(est.fid);
+      return true;
+    }
   } catch (e) { /* sin API: el aviso general ya lo cubre */ }
   return false;
 }
+
+// seguimiento de la cola «ejecutar todo»
+async function vigilarCola() {
+  const btn = $('#btnCola'), log = $('#colaLog'), info = $('#colaEstado');
+  document.querySelectorAll('#fuentes .lanzar, #fuentes .reiniciar').forEach(b => b.disabled = true);
+  btn.disabled = true; log.style.display = 'block';
+  let inicio = Date.now();
+  while (true) {
+    let est;
+    try { est = await api('/api/ingestas/estado'); }
+    catch (e) { log.textContent += '\nERROR consultando el progreso: ' + e.message; break; }
+    if (est.inicio) { const t = new Date(est.inicio).getTime(); if (!isNaN(t)) inicio = t; }
+    const seg = Math.max(0, Math.round((Date.now() - inicio) / 1000));
+    const c = est.cola || {};
+    btn.textContent = est.terminada ? '▶ Ejecutar todo en cola' : `⏳ Ejecutando cola… ${c.indice || 0}/${c.total || ''}`;
+    info.textContent = est.terminada ? '' : `${fmtCrono(seg)}${c.actual ? ' · ' + c.actual : ''}`;
+    const texto = (est.lineas || []).join('\n');
+    if (log.textContent !== texto) { log.textContent = texto || 'arrancando…'; log.scrollTop = log.scrollHeight; }
+    if (est.terminada) { log.scrollTop = log.scrollHeight; break; }
+    await new Promise(r => setTimeout(r, 1500));
+  }
+  btn.disabled = false;
+  await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes()]);
+}
+
+$('#btnCola').addEventListener('click', async () => {
+  const btn = $('#btnCola'), log = $('#colaLog');
+  btn.disabled = true; log.style.display = 'block'; log.textContent = 'lanzando la cola…';
+  try {
+    await api('/api/ingestas/_cola', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ demo: $('#colaDemo').checked })
+    });
+    await vigilarCola();
+  } catch (e) {
+    if (!(await reengancharIngesta())) { log.textContent = 'ERROR: ' + e.message; btn.disabled = false; }
+  }
+});
 
 async function cargarMapeo() {
   const m = await api('/api/mapeo');
