@@ -64,6 +64,10 @@ def main():
             pais["gobernantes"].sort(key=lambda g: g.get("desde", 0))
             fusionar_fuente(pais, datos["fuente"])
             tocados.setdefault(pais_id, set()).add("gobernantes")
+        elif tipo == "resena":
+            pais["resena"] = datos["resena"]
+            fusionar_fuente(pais, datos["fuente"])
+            tocados.setdefault(pais_id, set()).add("resena")
         elif tipo == "batalla":
             conflicto = conflictos.get(datos["conflicto"])
             if not conflicto:

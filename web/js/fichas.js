@@ -49,12 +49,22 @@ function popupHtml(props) {
 		rows += `<tr><td>${i18n.t('popup.wikipedia')}</td><td><a href="${esc(url)}" target="_blank" rel="noopener">↗</a></td></tr>`;
 	}
 
+	// reseña curada guardada en la ficha: si existe, se muestra y NO se descarga el
+	// extracto en vivo (evita texto duplicado); si no, se deja el extracto en vivo.
+	const resena = pais && pais.resena;
+
 	// título para el extracto de Wikipedia: preferimos el nombre curado en español
 	let wikiRef = '';
-	if (pais) wikiRef = 'es:' + (pais.wiki || pais.nombre);
-	else if (props.wikipedia && !/^https?:/.test(props.wikipedia)) wikiRef = 'en:' + props.wikipedia;
+	if (!resena) {
+		if (pais) wikiRef = 'es:' + (pais.wiki || pais.nombre);
+		else if (props.wikipedia && !/^https?:/.test(props.wikipedia)) wikiRef = 'en:' + props.wikipedia;
+	}
 
-	return `<div class="territory-popup" data-wiki="${esc(wikiRef)}"><h3>${esc(name)}</h3><table>${rows}</table>${fuentesHtml(pais)}</div>`;
+	const resenaHtml = resena
+		? `<div class="wiki-extract"><p>${esc(resena)}</p><div class="wiki-src">${i18n.t('wiki.source')}</div></div>`
+		: '';
+
+	return `<div class="territory-popup" data-wiki="${esc(wikiRef)}"><h3>${esc(name)}</h3><table>${rows}</table>${resenaHtml}${fuentesHtml(pais)}</div>`;
 }
 
 /* ---------- extracto de Wikipedia en los popups ---------- */
