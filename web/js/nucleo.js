@@ -1,6 +1,6 @@
 /* Chronus Tabula — nucleo.js
    Estado global, constantes, preferencias y utilidades básicas.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* Mapa Mundi Anual — visor de fronteras históricas.
    Datos de fronteras: aourednik/historical-basemaps (GeoJSON por año, en data/geojson).

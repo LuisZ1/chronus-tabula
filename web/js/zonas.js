@@ -1,6 +1,6 @@
 /* Chronus Tabula — zonas.js
    Zonas de guerra: franjas diagonales, recorte contra la costa y pintado por fases.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* ---------- zonas de conflicto (franjas rojas diagonales) ---------- */
 

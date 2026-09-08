@@ -3,123 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chronus Tabula</title>
+  <title>Chronus Tabula — el mundo, año a año</title>
+  <meta name="description" content="Elige un año, de 3000 a. C. a hoy, y consulta cómo era el mundo: fronteras, reinos, gobernantes, batallas y acontecimientos en un solo mapa.">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
-  <link rel="stylesheet" href="lib/leaflet/leaflet.css">
-  <!-- ?v=N rompe la caché del navegador cuando cambian estilos o lógica: súbelo al tocar css/js -->
-  <link rel="stylesheet" href="css/styles.css?v=14">
+  <!-- enlaces antiguos al mapa (#año/lat/lng/zoom[/reino]): reenviar al mapa conservando el estado -->
+  <script>
+    (function () {
+      var h = location.hash.replace(/^#/, '');
+      if (h && /^-?\d+(\/|$)/.test(h)) location.replace('mapa.html#' + h);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/portada.css">
 </head>
 <body>
-  <div id="map"></div>
 
-  <div id="topbar">
-    <h1 data-i18n="app.title">Chronus Tabula</h1>
-    <span class="follow-box">
-      <input id="followInput" list="entidadesList" data-i18n-placeholder="follow.placeholder" placeholder="Seguir un reino…" autocomplete="off">
-      <datalist id="entidadesList"></datalist>
-      <button id="followClear" class="mini-btn" data-i18n-title="follow.clear" title="Dejar de seguir" hidden>✕</button>
-    </span>
-    <select id="langSelect" title="Idioma">
-      <option value="es">Español</option>
-      <option value="en">English</option>
-    </select>
-  </div>
+  <header class="cab">
+    <a class="marca" href="index.html"><span class="globo">🌍</span> Chronus Tabula</a>
+    <nav class="nav">
+      <a href="#que-ves" class="oculta-movil">Qué verás</a>
+      <a href="#controles" class="oculta-movil">Controles</a>
+      <a href="colaborar.html">Colaborar</a>
+      <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
 
-  <div id="layersPanel">
-    <div class="panel-title" data-i18n="layers.title">Capas</div>
-    <label><input type="checkbox" id="lyBatallas" checked> <span data-i18n="layers.battles">Batallas</span></label>
-    <label><input type="checkbox" id="lyZonas" checked> <span data-i18n="layers.zones">Zonas de guerra</span></label>
-    <label><input type="checkbox" id="lyEventos" checked> <span data-i18n="layers.events">Eventos</span></label>
-    <label><input type="checkbox" id="lyTerritorios" checked> <span data-i18n="layers.territories">Territorios menores</span></label>
-    <label><input type="checkbox" id="lyNombres" checked> <span data-i18n="layers.names">Nombres</span></label>
-    <label><input type="checkbox" id="lyEscudos" checked> <span data-i18n="layers.coa">Escudos</span></label>
-    <label><input type="checkbox" id="lyRelleno" checked> <span data-i18n="layers.fill">Colores</span></label>
-    <label class="margen-row" data-i18n-title="layers.marginTitle" title="Mostrar también batallas y eventos de años cercanos al elegido">
-      <span data-i18n="layers.margin">Margen de años</span>
-      <select id="margenSelect">
-        <option value="0">±0</option>
-        <option value="1">±1</option>
-        <option value="2">±2</option>
-        <option value="5">±5</option>
-        <option value="10">±10</option>
-      </select>
-    </label>
-  </div>
+  <main class="cont">
 
-  <div id="rightPanels">
-    <div id="yearPanel">
-      <div class="panel-title legend-head">
-        <span><span data-i18n="panel.thisYear">Este año</span>: <span id="ypYear"></span></span>
-        <button id="yearPanelToggle" class="mini-btn" title="Plegar/desplegar">▾</button>
+    <section class="hero">
+      <h1>Chronus Tabula</h1>
+      <p class="lema">Elige un año —de 3000 a. C. a hoy— y mira el mundo tal como era: qué reinos existían, hasta dónde llegaban, quién gobernaba, qué batallas se libraban y qué estaba ocurriendo.</p>
+      <div class="acciones">
+        <a class="btn principal grande" href="mapa.html">Abrir el mapa →</a>
+        <a class="btn secundario" href="#controles">Cómo se usa</a>
       </div>
-      <div id="yearPanelBody">
-        <div class="yp-sec" data-i18n="panel.wars">Conflictos activos</div>
-        <div id="ypWars"></div>
-        <div class="yp-sec" data-i18n="panel.facts">Datos de interés</div>
-        <div id="ypFacts"></div>
+      <div class="tira" aria-hidden="true">
+        <span class="anio ini">3000 a. C.</span>
+        <span class="anio" style="left:20%">500</span>
+        <span class="anio" style="left:40%">1500</span>
+        <span class="anio" style="left:78%">1800</span>
+        <span class="anio" style="left:93%">1950</span>
+        <span class="anio fin">hoy</span>
+        <span class="epoca" style="left:10%">Antigüedad</span>
+        <span class="epoca" style="left:30%">Edad Media</span>
+        <span class="epoca" style="left:59%">Edad Moderna</span>
+        <span class="epoca" style="left:85.5%">Contemporánea</span>
+        <span class="cursor" style="left:39.8%"></span>
       </div>
-    </div>
-    <div id="legendPanel">
-      <div class="panel-title legend-head">
-        <span data-i18n="legend.title">Entidades del año</span>
-        <button id="legendToggle" class="mini-btn" title="Plegar/desplegar">▾</button>
+    </section>
+
+    <section class="bloque" id="que-ves">
+      <h2>Qué puedes consultar</h2>
+      <p class="intro">Todo gira en torno a una pregunta: <em>¿qué estaba pasando en el mundo en este año?</em> El mapa responde con varias capas que puedes activar o apagar.</p>
+      <div class="rejilla">
+        <div class="tarjeta"><div class="ico">🗺️</div><h3>Fronteras y nombres de la época</h3><p>La extensión de cada reino, imperio o país en el año elegido, rotulado con el nombre que tenía entonces (Congo Belga, Zaire o RD del Congo según la fecha).</p></div>
+        <div class="tarjeta"><div class="ico">👑</div><h3>Gobernantes y población</h3><p>Pulsa un territorio y verás quién gobernaba ese año, su población aproximada y su superficie, con una breve reseña y las fuentes.</p></div>
+        <div class="tarjeta"><div class="ico">⚔️</div><h3>Batallas y zonas de guerra</h3><p>Las batallas del año exacto, situadas en el mapa, y las zonas de conflicto activas (frentes y territorios ocupados).</p></div>
+        <div class="tarjeta"><div class="ico">⭐</div><h3>Acontecimientos e inventos</h3><p>Hitos históricos ⭐ e inventos 💡 del año, con su ficha y su enlace a Wikipedia.</p></div>
+        <div class="tarjeta"><div class="ico">📍</div><h3>Territorios menores</h3><p>Ceuta, Melilla, Canarias, Gibraltar, Azores… demasiado pequeños para verse a escala mundial, marcados con el color del país al que pertenecían.</p></div>
+        <div class="tarjeta"><div class="ico">🛡️</div><h3>Escudos por época</h3><p>Junto a cada nombre, el escudo de armas vigente en ese periodo.</p></div>
       </div>
-      <div id="legendList"></div>
-    </div>
-  </div>
+    </section>
 
-  <div id="loading" class="hidden">
-    <div class="spinner"></div>
-    <span data-i18n="ui.loading">Cargando…</span>
-  </div>
-
-  <div id="timebar">
-    <div id="eraChips" class="era-chips" role="tablist" aria-label="Época"></div>
-    <div class="timebar-row">
-      <button id="playBtn" class="step-btn" data-i18n-title="play.title" title="Reproducir la historia">▶</button>
-      <select id="speedSelect" data-i18n-title="play.speed" title="Velocidad">
-        <option value="2500">1×</option>
-        <option value="1200" selected>2×</option>
-        <option value="600">4×</option>
-      </select>
-      <button id="prevYear" class="step-btn" title="Retroceder">◀</button>
-      <div class="slider-wrap">
-        <div id="sliderBubble" class="slider-bubble" hidden>1492</div>
-        <input type="range" id="yearSlider" min="0" max="1000" step="1" value="497">
-        <div id="timeMarks"></div>
+    <section class="bloque" id="controles">
+      <h2>Los controles</h2>
+      <p class="intro">La barra inferior es el corazón de la aplicación: con ella eliges el año. Todo lo demás son capas y paneles para afinar lo que ves.</p>
+      <div class="rejilla">
+        <div class="tarjeta"><div class="ico">🎚️</div><h3>La barra de tiempo</h3><p>Arrastra el deslizador para elegir el año. Debajo, «Mostrando» indica el año que ves en el mapa y los extremos muestran el tramo que abarca la barra.</p></div>
+        <div class="tarjeta"><div class="ico">⏪</div><h3>Flechas <span class="tecla">◀</span><span class="tecla">▶</span></h3><p>Avanzan o retroceden un salto fijo y predecible (1, 5, 10, 50 años…) proporcional al tramo visible: fino cuando acercas la vista, amplio cuando ves toda la historia. El salto se muestra al pasar el ratón (o en pantalla, en el móvil).</p></div>
+        <div class="tarjeta"><div class="ico">🔍</div><h3>Navegador de zoom <span class="solo-escritorio">escritorio</span></h3><p>La tira de colores bajo la barra representa toda la historia. Arrastra sus tiradores para acercar la vista a un periodo (cada píxel vale menos años y ganas precisión), arrastra el centro para desplazarte y haz doble clic para volver a ver todo.</p></div>
+        <div class="tarjeta"><div class="ico">📱</div><h3>Chips de época <span class="solo-movil">móvil</span></h3><p>En pantallas pequeñas, elige una época (Antigüedad, Edad Media, Moderna, Contemporánea, Actual) para que el deslizador se ciña a ella y sea manejable con el dedo. Mientras arrastras, una burbuja te muestra el año en grande.</p></div>
+        <div class="tarjeta"><div class="ico">🔖</div><h3>Marcas bajo la barra</h3><p>Los conflictos ⚔️ y los acontecimientos ⭐💡 aparecen como marcas en su año. Pulsa una para saltar a ella. Cuando se agrupan, verás una pastilla con el número; al tocarla se despliega la lista.</p></div>
+        <div class="tarjeta"><div class="ico">⌨️</div><h3>Escribir un año</h3><p>En la casilla numérica escribe el año directamente. Los negativos son a. C.: <code>-480</code> te lleva a las Termópilas.</p></div>
+        <div class="tarjeta"><div class="ico">▶️</div><h3>Reproducir</h3><p>Pulsa <span class="tecla">▶</span> y la historia avanza sola de mapa en mapa; puedes elegir la velocidad (1×, 2×, 4×) y pausar cuando quieras.</p></div>
+        <div class="tarjeta"><div class="ico">🧭</div><h3>Panel de capas</h3><p>Activa o apaga batallas, zonas de guerra, acontecimientos, territorios menores, nombres, escudos y colores. El «margen de años» (±1…±10) muestra también lo ocurrido en años cercanos al elegido.</p></div>
+        <div class="tarjeta"><div class="ico">🎯</div><h3>Seguir un reino</h3><p>Escribe un país o imperio en «Seguir un reino…» y el mapa lo resalta a lo largo del tiempo; las marcas de la barra se filtran a lo que afectó a su historia.</p></div>
+        <div class="tarjeta"><div class="ico">📋</div><h3>Paneles laterales</h3><p>A la derecha, «Este año» resume los conflictos activos y datos de interés, y la leyenda lista las entidades del mapa ordenadas por superficie: pulsa una para centrarla.</p></div>
+        <div class="tarjeta"><div class="ico">🔗</div><h3>Compartir un momento</h3><p>La dirección del navegador guarda el año, la posición y el zoom. Copia el enlace y quien lo abra verá exactamente lo mismo que tú.</p></div>
+        <div class="tarjeta"><div class="ico">🌐</div><h3>Idioma</h3><p>La interfaz está en español y en inglés; cámbialo en el selector de arriba a la derecha.</p></div>
       </div>
-      <button id="nextYear" class="step-btn" title="Avanzar">▶</button>
-      <input type="number" id="yearInput" min="-123000" max="2026" step="1" value="1492" data-i18n-title="ui.typeYear" title="Escribe un año (negativo = a. C.)">
-    </div>
-    <!-- marcas en móvil: franja a todo el ancho (el hueco bajo el deslizador es
-         demasiado estrecho); son un índice de pastillas que se tocan para ver la lista -->
-    <div id="timeMarksM"></div>
-    <!-- salto de las flechas visible (solo móvil; en escritorio basta el tooltip) -->
-    <div id="pasoInfo" class="paso-info"></div>
-    <!-- navegador de zoom (escritorio): tiradores para acercar/alejar la ventana visible -->
-    <div id="navBar" data-i18n-title="nav.title" title="Arrastra los tiradores para acercar la vista; el centro para desplazarte (doble clic: ver todo)">
-      <div class="nav-eras"></div>
-      <div class="nav-win" id="navWin"><span class="nav-h l"></span><span class="nav-h r"></span></div>
-    </div>
-    <div class="timebar-row labels">
-      <span class="range-edge" id="edgeLo">3000 a. C.</span>
-      <span id="showingLabel"><span data-i18n="ui.showing">Mostrando</span>: <strong id="shownYear">1492</strong></span>
-      <span class="range-edge" id="edgeHi">2026</span>
-    </div>
-  </div>
+    </section>
 
-  <script src="lib/leaflet/leaflet.js"></script>
-  <script src="lib/polygon-clipping/polygon-clipping.umd.min.js"></script>
-  <!-- lógica de la app, por secciones (ámbito global compartido; el orden importa) -->
-  <script src="js/i18n.js?v=14"></script>
-  <script src="js/nucleo.js?v=14"></script>
-  <script src="js/datos.js?v=14"></script>
-  <script src="js/fichas.js?v=14"></script>
-  <script src="js/zonas.js?v=14"></script>
-  <script src="js/capas.js?v=14"></script>
-  <script src="js/mapa.js?v=14"></script>
-  <script src="js/paneles.js?v=14"></script>
-  <script src="js/tiempo.js?v=14"></script>
-  <script src="js/arranque.js?v=14"></script>
+    <section class="cierre">
+      <h2>Empieza por un año que te interese</h2>
+      <div class="acciones">
+        <a class="btn principal grande" href="mapa.html#1492/35.00/10.00/3">Abrir el mapa en 1492 →</a>
+        <a class="btn secundario" href="colaborar.html">Quiero colaborar</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <span>Datos con fuentes citadas: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) y <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> para las fronteras.</span>
+    <span><a href="colaborar.html">Colaborar</a> · <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Código en GitHub</a></span>
+  </footer>
+
 </body>
 </html>

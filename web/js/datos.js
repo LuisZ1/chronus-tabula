@@ -1,6 +1,6 @@
 /* Chronus Tabula — datos.js
    historia.json: carga, países, seguimiento de una entidad y relevancia histórica.
-   Los ficheros de js/ comparten ámbito global y se cargan en el orden de index.html. */
+   Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* ---------- historia.json: gobernantes, población, conflictos, eventos ---------- */
 
