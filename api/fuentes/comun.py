@@ -126,9 +126,11 @@ def descargar(url, timeout=60):
         return r.read().decode("utf-8-sig", errors="replace")
 
 
-def descargar_reintentos(url, timeout=180, intentos=4):
+def descargar_reintentos(url, timeout=180, intentos=6):
     """Como descargar(), pero si el servidor limita (HTTP 429/503) espera lo que
-    pida su cabecera Retry-After (o 65 s) y reintenta."""
+    pida su cabecera Retry-After (o 65 s, con un pequeño margen) y reintenta, con
+    varios intentos. Pensado para aguantar un WDQS lento o con incidencia —que
+    puede llegar a limitar a 1 petición/minuto— sin tumbar toda la ejecución."""
     import urllib.error
     for i in range(1, intentos + 1):
         try:
@@ -136,10 +138,10 @@ def descargar_reintentos(url, timeout=180, intentos=4):
         except urllib.error.HTTPError as e:
             if e.code in (429, 503) and i < intentos:
                 try:
-                    espera = int(e.headers.get("Retry-After") or 65)
+                    espera = int(e.headers.get("Retry-After") or 65) + 5  # margen sobre lo pedido
                 except (TypeError, ValueError):
                     espera = 65
-                espera = min(max(espera, 30), 180)
+                espera = min(max(espera, 30), 300)
                 print(f"  ⏳ el servidor limita las peticiones (HTTP {e.code}); esperando {espera}s (intento {i}/{intentos - 1})…", flush=True)
                 time.sleep(espera)
                 continue
