@@ -1,0 +1,38 @@
+{
+	"id": "leon",
+	"nombre": "Reino de León",
+	"nombres": [
+		"León"
+	],
+	"gobernantes": [
+		{
+			"desde": 1188,
+			"hasta": 1230,
+			"nombre": "Alfonso IX (primeras Cortes de León)",
+			"titulo": "Rey de León"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de León",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_León",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Reino de León",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Le%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El reino de León fue un reino medieval independiente situado en la región noroeste de la península ibérica. Fue fundado en el año 910, cuando los príncipes cristianos del reino de Asturias, en la costa norte de la península, trasladaron su capital de Oviedo a la ciudad de León.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5519ccc227be",
+		"secciones": [
+			"resena"
+		]
+	}
+}

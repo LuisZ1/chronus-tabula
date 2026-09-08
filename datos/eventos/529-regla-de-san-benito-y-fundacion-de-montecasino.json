@@ -1,0 +1,19 @@
+{
+	"nombre": "Regla de San Benito y fundación de Montecasino",
+	"anio": 529,
+	"lat": 41.49,
+	"lng": 13.81,
+	"paises": [
+		"Reino ostrogodo"
+	],
+	"descripcion": "San Benito funda Montecasino y redacta su regla, base del monacato occidental.",
+	"wiki": "Regla de San Benito",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Regla de San Benito",
+			"url": "https://es.wikipedia.org/wiki/Regla_de_San_Benito",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

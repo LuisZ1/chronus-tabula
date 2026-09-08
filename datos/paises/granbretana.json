@@ -1,0 +1,634 @@
+{
+	"id": "granbretana",
+	"nombre": "Reino Unido / Gran Bretaña",
+	"nombres": [
+		"Great Britain",
+		"United Kingdom of Great Britain and Ireland",
+		"United Kingdom"
+	],
+	"gobernantes": [
+		{
+			"desde": 1707,
+			"hasta": 1714,
+			"nombre": "Ana Estuardo",
+			"titulo": "Reina de Gran Bretaña"
+		},
+		{
+			"desde": 1714,
+			"hasta": 1727,
+			"nombre": "Jorge I",
+			"titulo": "Rey de Gran Bretaña (Hannover)"
+		},
+		{
+			"desde": 1727,
+			"hasta": 1760,
+			"nombre": "Jorge II",
+			"titulo": "Rey de Gran Bretaña (Hannover)"
+		},
+		{
+			"desde": 1760,
+			"hasta": 1820,
+			"nombre": "Jorge III",
+			"titulo": "Rey de Gran Bretaña"
+		},
+		{
+			"desde": 1820,
+			"hasta": 1830,
+			"nombre": "Jorge IV",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 1830,
+			"hasta": 1837,
+			"nombre": "Guillermo IV",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 1837,
+			"hasta": 1901,
+			"nombre": "Victoria",
+			"titulo": "Reina del Reino Unido y Emperatriz de la India"
+		},
+		{
+			"desde": 1901,
+			"hasta": 1910,
+			"nombre": "Eduardo VII",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 1910,
+			"hasta": 1936,
+			"nombre": "Jorge V",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 1936,
+			"hasta": 1952,
+			"nombre": "Jorge VI",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 1936,
+			"hasta": 1936,
+			"nombre": "Eduardo VIII",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 1936,
+			"hasta": 1940,
+			"nombre": "Neville Chamberlain",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1936,
+			"hasta": 1936,
+			"nombre": "Eduardo VIII del Reino Unido",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 1936,
+			"hasta": 1952,
+			"nombre": "Jorge VI del Reino Unido",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 1940,
+			"hasta": 1945,
+			"nombre": "Winston Churchill",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1945,
+			"hasta": 1951,
+			"nombre": "Clement Attlee",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1951,
+			"hasta": 1955,
+			"nombre": "Winston Churchill",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1952,
+			"hasta": 2022,
+			"nombre": "Isabel II",
+			"titulo": "Reina del Reino Unido"
+		},
+		{
+			"desde": 1952,
+			"hasta": 2022,
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 1955,
+			"hasta": 1957,
+			"nombre": "Anthony Eden",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1957,
+			"hasta": 1963,
+			"nombre": "Harold Macmillan",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1963,
+			"hasta": 1964,
+			"nombre": "Alec Douglas-Home",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1964,
+			"hasta": 1970,
+			"nombre": "Harold Wilson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1970,
+			"hasta": 1974,
+			"nombre": "Edward Heath",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1974,
+			"hasta": 1976,
+			"nombre": "Harold Wilson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1976,
+			"hasta": 1979,
+			"nombre": "James Callaghan",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1979,
+			"hasta": 1990,
+			"nombre": "Q7416",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1990,
+			"hasta": 1997,
+			"nombre": "John Major",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1997,
+			"hasta": 2007,
+			"nombre": "Tony Blair",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2007,
+			"hasta": 2010,
+			"nombre": "Q10648",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2010,
+			"hasta": 2016,
+			"nombre": "Q192",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2016,
+			"hasta": 2019,
+			"nombre": "Theresa May",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2022,
+			"nombre": "Boris Johnson",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2022,
+			"hasta": 2026,
+			"nombre": "Carlos III",
+			"titulo": "Rey del Reino Unido"
+		},
+		{
+			"desde": 2022,
+			"hasta": 2022,
+			"nombre": "Q272201",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2022,
+			"hasta": 2022,
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2022,
+			"hasta": 2024,
+			"nombre": "Q20055561",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2024,
+			"hasta": 2026,
+			"nombre": "Keir Starmer",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2026,
+			"hasta": 2026,
+			"nombre": "Andy Burnham",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 2189
+		},
+		{
+			"anio": -9000,
+			"valor": 3065
+		},
+		{
+			"anio": -8000,
+			"valor": 4291
+		},
+		{
+			"anio": -7000,
+			"valor": 6008
+		},
+		{
+			"anio": -6000,
+			"valor": 6008
+		},
+		{
+			"anio": -5000,
+			"valor": 6008
+		},
+		{
+			"anio": -4000,
+			"valor": 6008
+		},
+		{
+			"anio": -3000,
+			"valor": 27036
+		},
+		{
+			"anio": -2000,
+			"valor": 81108
+		},
+		{
+			"anio": -1000,
+			"valor": 212283
+		},
+		{
+			"anio": 0,
+			"valor": 781041
+		},
+		{
+			"anio": 100,
+			"valor": 846786
+		},
+		{
+			"anio": 200,
+			"valor": 895452
+		},
+		{
+			"anio": 300,
+			"valor": 946915
+		},
+		{
+			"anio": 400,
+			"valor": 1001335
+		},
+		{
+			"anio": 500,
+			"valor": 751001
+		},
+		{
+			"anio": 600,
+			"valor": 500667
+		},
+		{
+			"anio": 700,
+			"valor": 500667
+		},
+		{
+			"anio": 800,
+			"valor": 730974
+		},
+		{
+			"anio": 900,
+			"valor": 1216622
+		},
+		{
+			"anio": 1000,
+			"valor": 1702270
+		},
+		{
+			"anio": 1100,
+			"valor": 2562418
+		},
+		{
+			"anio": 1200,
+			"valor": 4533102
+		},
+		{
+			"anio": 1300,
+			"valor": 6328029
+		},
+		{
+			"anio": 1400,
+			"valor": 2903873
+		},
+		{
+			"anio": 1500,
+			"valor": 4205609
+		},
+		{
+			"anio": 1600,
+			"valor": 5006677
+		},
+		{
+			"anio": 1700,
+			"valor": 6762353
+		},
+		{
+			"anio": 1750,
+			"valor": 9288177
+		},
+		{
+			"anio": 1800,
+			"valor": 10750000
+		},
+		{
+			"anio": 1850,
+			"valor": 27254502
+		},
+		{
+			"anio": 1900,
+			"valor": 41089602
+		},
+		{
+			"anio": 1910,
+			"valor": 44723743
+		},
+		{
+			"anio": 1920,
+			"valor": 46564792
+		},
+		{
+			"anio": 1930,
+			"valor": 45980369
+		},
+		{
+			"anio": 1940,
+			"valor": 48108804
+		},
+		{
+			"anio": 1950,
+			"valor": 50121020
+		},
+		{
+			"anio": 1960,
+			"valor": 52538548
+		},
+		{
+			"anio": 1970,
+			"valor": 55663801
+		},
+		{
+			"anio": 1980,
+			"valor": 56282102
+		},
+		{
+			"anio": 1990,
+			"valor": 57367867
+		},
+		{
+			"anio": 2000,
+			"valor": 59057333
+		},
+		{
+			"anio": 2010,
+			"valor": 63006482
+		},
+		{
+			"anio": 2020,
+			"valor": 67351860
+		},
+		{
+			"anio": 2023,
+			"valor": 68682965
+		}
+	],
+	"relacionados": [
+		"Inglaterra",
+		"Trece Colonias"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino Unido / Gran Bretaña",
+			"url": "https://es.wikipedia.org/wiki/Reino_Unido_/_Gran_Bretaña",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Reino Unido",
+			"url": "https://es.wikipedia.org/wiki/Reino_Unido",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q10664",
+			"url": "http://www.wikidata.org/entity/Q10664",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q590227",
+			"url": "http://www.wikidata.org/entity/Q590227",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q280856",
+			"url": "http://www.wikidata.org/entity/Q280856",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q8016",
+			"url": "http://www.wikidata.org/entity/Q8016",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q129006",
+			"url": "http://www.wikidata.org/entity/Q129006",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q128995",
+			"url": "http://www.wikidata.org/entity/Q128995",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q128985",
+			"url": "http://www.wikidata.org/entity/Q128985",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q128976",
+			"url": "http://www.wikidata.org/entity/Q128976",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q128956",
+			"url": "http://www.wikidata.org/entity/Q128956",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q128967",
+			"url": "http://www.wikidata.org/entity/Q128967",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9576",
+			"url": "http://www.wikidata.org/entity/Q9576",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q7416",
+			"url": "http://www.wikidata.org/entity/Q7416",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9559",
+			"url": "http://www.wikidata.org/entity/Q9559",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9545",
+			"url": "http://www.wikidata.org/entity/Q9545",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q10648",
+			"url": "http://www.wikidata.org/entity/Q10648",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q192",
+			"url": "http://www.wikidata.org/entity/Q192",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q264766",
+			"url": "http://www.wikidata.org/entity/Q264766",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q180589",
+			"url": "http://www.wikidata.org/entity/Q180589",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q272201",
+			"url": "http://www.wikidata.org/entity/Q272201",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q20055561",
+			"url": "http://www.wikidata.org/entity/Q20055561",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q6383803",
+			"url": "http://www.wikidata.org/entity/Q6383803",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q269909",
+			"url": "http://www.wikidata.org/entity/Q269909",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q145",
+			"url": "https://www.wikidata.org/wiki/Q145",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q145",
+			"url": "https://www.wikidata.org/wiki/Q145",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "United Kingdom",
+	"wikidata": "Q145",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "64e5ea7756d2",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "El Reino Unido, oficialmente el Reino Unido de Gran Bretaña e Irlanda del Norte, es un país soberano e insular ubicado al noroeste de la Europa continental. Su territorio está formado geográficamente por la isla de Gran Bretaña, el noreste de la isla de Irlanda y pequeñas islas adyacentes.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the United Kingdom (2022, variant 2).svg",
+			"desde": 2022
+		},
+		{
+			"archivo": "Coat of Arms of the United Kingdom in Scotland (1837-1952).svg",
+			"hasta": 1952
+		},
+		{
+			"archivo": "Coat of arms of the United Kingdom in Scotland.svg"
+		}
+	]
+}

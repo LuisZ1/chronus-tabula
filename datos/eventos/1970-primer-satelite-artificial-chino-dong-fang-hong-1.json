@@ -1,0 +1,19 @@
+{
+	"nombre": "Primer satélite artificial chino (Dong Fang Hong 1)",
+	"anio": 1970,
+	"lat": 40.96,
+	"lng": 100.29,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El 24 de abril de 1970 China lanza desde Jiuquan su primer satélite, el Dong Fang Hong 1, entrando en la carrera espacial.",
+	"wiki": "Dong Fang Hong I",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dong Fang Hong I",
+			"url": "https://es.wikipedia.org/wiki/Dong_Fang_Hong_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

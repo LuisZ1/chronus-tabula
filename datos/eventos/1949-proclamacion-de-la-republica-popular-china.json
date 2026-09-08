@@ -1,0 +1,19 @@
+{
+	"nombre": "Proclamación de la República Popular China",
+	"anio": 1949,
+	"lat": 39.9,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El 1 de octubre de 1949 Mao Zedong proclama la República Popular China desde la puerta de Tiananmen, tras la victoria comunista en la guerra civil.",
+	"wiki": "República Popular China",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:República Popular China",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Popular_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

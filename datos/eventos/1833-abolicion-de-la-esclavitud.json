@@ -1,0 +1,28 @@
+{
+	"nombre": "Abolición de la esclavitud",
+	"anio": 1833,
+	"hasta": 1888,
+	"lat": 51.5,
+	"lng": -0.12,
+	"paises": [
+		"Gran Bretaña",
+		"Estados Unidos",
+		"Brasil"
+	],
+	"descripcion": "Del Imperio británico (1833) a Estados Unidos (1865) y Brasil (1888, el último de América): medio siglo para desmantelar la esclavitud legal atlántica.",
+	"wiki": "Abolicionismo",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Abolicionismo",
+			"url": "https://es.wikipedia.org/wiki/Abolicionismo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

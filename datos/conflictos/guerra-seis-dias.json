@@ -1,0 +1,121 @@
+{
+	"id": "guerra-seis-dias",
+	"nombre": "Guerra de los Seis Días",
+	"inicio": 1967,
+	"fin": 1967,
+	"paises": [
+		"Israel",
+		"Egipto",
+		"Jordania",
+		"Siria"
+	],
+	"bajas": "más de 20.000 muertos (mayoría árabes)",
+	"descripcion": "Del 5 al 10 de junio de 1967 Israel lanza un ataque preventivo que destruye en tierra a la aviación egipcia y en seis días conquista la península del Sinaí y Gaza a Egipto, Cisjordania y Jerusalén Este a Jordania, y los Altos del Golán a Siria, triplicando su territorio.",
+	"wiki": "Guerra de los Seis Días",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de los Seis Días",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Seis_Días",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Península del Sinaí ocupada",
+			"tipo": "ocupado",
+			"desde": 1967,
+			"hasta": 1967,
+			"poligono": [
+				[
+					31.3,
+					32.3
+				],
+				[
+					31.2,
+					34.3
+				],
+				[
+					29.5,
+					34.9
+				],
+				[
+					27.7,
+					34.2
+				],
+				[
+					29.5,
+					32.5
+				]
+			]
+		},
+		{
+			"nombre": "Cisjordania y Jerusalén Este",
+			"tipo": "ocupado",
+			"desde": 1967,
+			"hasta": 1967,
+			"poligono": [
+				[
+					32.55,
+					35.0
+				],
+				[
+					32.3,
+					35.57
+				],
+				[
+					31.35,
+					35.4
+				],
+				[
+					31.7,
+					35.0
+				]
+			]
+		},
+		{
+			"nombre": "Altos del Golán",
+			"tipo": "ocupado",
+			"desde": 1967,
+			"hasta": 1967,
+			"poligono": [
+				[
+					33.3,
+					35.7
+				],
+				[
+					33.25,
+					35.9
+				],
+				[
+					32.7,
+					35.85
+				],
+				[
+					32.75,
+					35.65
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Jerusalén Este",
+			"anio": 1967,
+			"lat": 31.78,
+			"lng": 35.23
+		},
+		{
+			"nombre": "Paso de Mitla (Sinaí)",
+			"anio": 1967,
+			"lat": 30.02,
+			"lng": 32.9
+		},
+		{
+			"nombre": "Combates del Golán",
+			"anio": 1967,
+			"lat": 33.1,
+			"lng": 35.78
+		}
+	]
+}

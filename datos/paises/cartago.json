@@ -1,0 +1,53 @@
+{
+	"id": "cartago",
+	"nombre": "Cartago",
+	"nombres": [
+		"Carthage"
+	],
+	"gobernantes": [
+		{
+			"desde": -247,
+			"hasta": -228,
+			"nombre": "Amílcar Barca",
+			"titulo": "General"
+		},
+		{
+			"desde": -221,
+			"hasta": -202,
+			"nombre": "Aníbal Barca",
+			"titulo": "General"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -200,
+			"valor": 3500000
+		}
+	],
+	"relacionados": [
+		"Cartago"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cartago",
+			"url": "https://es.wikipedia.org/wiki/Cartago",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Cartago",
+			"url": "https://es.wikipedia.org/wiki/Cartago",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Cartago fue una antigua ciudad del norte de África, capital del Estado púnico, en el actual Túnez, fundada por emigrantes fenicios de Tiro a finales del siglo IX a. C., según la datación moderna más aceptada.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "641d61252043",
+		"secciones": [
+			"resena"
+		]
+	}
+}

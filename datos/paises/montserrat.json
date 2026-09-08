@@ -1,0 +1,158 @@
+{
+	"id": "montserrat",
+	"nombre": "Montserrat",
+	"nombres": [
+		"Montserrat"
+	],
+	"wikidata": "Q13353",
+	"wiki": "es:Montserrat",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q13353",
+			"url": "https://www.wikidata.org/wiki/Q13353",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Montserrat",
+			"url": "https://es.wikipedia.org/wiki/Montserrat",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "MSR",
+	"poblacion": [
+		{
+			"anio": 600,
+			"valor": 1
+		},
+		{
+			"anio": 700,
+			"valor": 3
+		},
+		{
+			"anio": 800,
+			"valor": 7
+		},
+		{
+			"anio": 900,
+			"valor": 15
+		},
+		{
+			"anio": 1000,
+			"valor": 31
+		},
+		{
+			"anio": 1100,
+			"valor": 63
+		},
+		{
+			"anio": 1200,
+			"valor": 126
+		},
+		{
+			"anio": 1300,
+			"valor": 252
+		},
+		{
+			"anio": 1400,
+			"valor": 504
+		},
+		{
+			"anio": 1500,
+			"valor": 1009
+		},
+		{
+			"anio": 1600,
+			"valor": 2019
+		},
+		{
+			"anio": 1700,
+			"valor": 4039
+		},
+		{
+			"anio": 1750,
+			"valor": 5990
+		},
+		{
+			"anio": 1800,
+			"valor": 8881
+		},
+		{
+			"anio": 1850,
+			"valor": 10956
+		},
+		{
+			"anio": 1900,
+			"valor": 12966
+		},
+		{
+			"anio": 1910,
+			"valor": 13413
+		},
+		{
+			"anio": 1920,
+			"valor": 13440
+		},
+		{
+			"anio": 1930,
+			"valor": 13466
+		},
+		{
+			"anio": 1940,
+			"valor": 13493
+		},
+		{
+			"anio": 1950,
+			"valor": 12964
+		},
+		{
+			"anio": 1960,
+			"valor": 12057
+		},
+		{
+			"anio": 1970,
+			"valor": 11358
+		},
+		{
+			"anio": 1980,
+			"valor": 11364
+		},
+		{
+			"anio": 1990,
+			"valor": 10700
+		},
+		{
+			"anio": 2000,
+			"valor": 5053
+		},
+		{
+			"anio": 2010,
+			"valor": 4819
+		},
+		{
+			"anio": 2020,
+			"valor": 4532
+		},
+		{
+			"anio": 2023,
+			"valor": 4440
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4b57e33a6052",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "La isla de Montserrat es un territorio británico de ultramar ubicado al sureste de la isla de Puerto Rico, y al noroeste de Venezuela en aguas del mar Caribe."
+}

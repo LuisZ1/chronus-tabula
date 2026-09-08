@@ -17,3 +17,4 @@ Thumbs.db
 # libros de texto de referencia (material con licencia/copyright: NO se sube)
 /libros/
 Claude outputs/
+web/data/historia.json

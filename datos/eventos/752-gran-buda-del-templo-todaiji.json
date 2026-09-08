@@ -1,0 +1,19 @@
+{
+	"nombre": "Gran Buda del templo Tōdaiji",
+	"anio": 752,
+	"lat": 34.69,
+	"lng": 135.84,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Se consagra en Nara la colosal estatua de bronce de Buda, símbolo del budismo de Estado.",
+	"wiki": "Tōdai-ji",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tōdai-ji",
+			"url": "https://es.wikipedia.org/wiki/T%C5%8Ddai-ji",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,463 @@
+{
+	"id": "egipto",
+	"nombre": "Egipto",
+	"nombres": [
+		"Egypt",
+		"Antiguo Egipto",
+		"República Árabe de Egipto",
+		"Misr"
+	],
+	"wiki": "es:Egipto",
+	"relacionados": [
+		"Antiguo Egipto",
+		"Imperio Nuevo de Egipto",
+		"Egipto ptolemaico",
+		"Marco Antonio y Cleopatra (Egipto)"
+	],
+	"wikidata": "Q79",
+	"wikidata_hist": [
+		"Q11768"
+	],
+	"owid": "Egypt",
+	"gobernantes": [
+		{
+			"nombre": "Narmer (Menes)",
+			"desde": -3100,
+			"hasta": -3070,
+			"cargo": "Faraón (Dinastía I, unificador)"
+		},
+		{
+			"nombre": "Keops (Jufu)",
+			"desde": -2589,
+			"hasta": -2566,
+			"cargo": "Faraón (Dinastía IV)"
+		},
+		{
+			"nombre": "Hatshepsut",
+			"desde": -1479,
+			"hasta": -1458,
+			"cargo": "Faraona (Dinastía XVIII)"
+		},
+		{
+			"nombre": "Tutmosis III",
+			"desde": -1479,
+			"hasta": -1425,
+			"cargo": "Faraón (Dinastía XVIII)"
+		},
+		{
+			"nombre": "Akenatón",
+			"desde": -1353,
+			"hasta": -1336,
+			"cargo": "Faraón (Dinastía XVIII)"
+		},
+		{
+			"nombre": "Tutankamón",
+			"desde": -1332,
+			"hasta": -1323,
+			"cargo": "Faraón (Dinastía XVIII)"
+		},
+		{
+			"nombre": "Ramsés II",
+			"desde": -1279,
+			"hasta": -1213,
+			"cargo": "Faraón (Dinastía XIX)"
+		},
+		{
+			"nombre": "Cleopatra VII",
+			"desde": -51,
+			"hasta": -30,
+			"cargo": "Reina (Dinastía Ptolemaica)"
+		},
+		{
+			"nombre": "Mehmet Alí (Muhammad Ali)",
+			"desde": 1805,
+			"hasta": 1848,
+			"cargo": "Valí (gobernador otomano)"
+		},
+		{
+			"nombre": "Ismail Pachá",
+			"desde": 1863,
+			"hasta": 1879,
+			"cargo": "Jedive"
+		},
+		{
+			"nombre": "Fuad I",
+			"desde": 1922,
+			"hasta": 1936,
+			"cargo": "Rey"
+		},
+		{
+			"nombre": "Faruq I",
+			"desde": 1936,
+			"hasta": 1952,
+			"cargo": "Rey"
+		},
+		{
+			"nombre": "Muhammad Naguib",
+			"desde": 1953,
+			"hasta": 1954,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Gamal Abdel Nasser",
+			"desde": 1954,
+			"hasta": 1970,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Anwar el-Sadat",
+			"desde": 1970,
+			"hasta": 1981,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Hosni Mubarak",
+			"desde": 1981,
+			"hasta": 2011,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mohamed Hussein Tantawi",
+			"desde": 2011,
+			"hasta": 2012,
+			"cargo": "Presidente del Consejo Supremo de las Fuerzas Armadas (jefe de Estado de facto)"
+		},
+		{
+			"nombre": "Mohamed Morsi",
+			"desde": 2012,
+			"hasta": 2013,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Adly Mansur",
+			"desde": 2013,
+			"hasta": 2014,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Abdelfatah Al-Sisi",
+			"desde": 2014,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		},
+		{
+			"desde": 2014,
+			"hasta": 2014,
+			"nombre": "Abdul Fatah Khalil Al-Sisi",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2018,
+			"hasta": 2018,
+			"nombre": "Mostafá Madbuli",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 13668
+		},
+		{
+			"anio": -9000,
+			"valor": 20274
+		},
+		{
+			"anio": -8000,
+			"valor": 30172
+		},
+		{
+			"anio": -7000,
+			"valor": 45006
+		},
+		{
+			"anio": -6000,
+			"valor": 67243
+		},
+		{
+			"anio": -5000,
+			"valor": 100585
+		},
+		{
+			"anio": -4000,
+			"valor": 250510
+		},
+		{
+			"anio": -3000,
+			"valor": 1000000
+		},
+		{
+			"anio": -2000,
+			"valor": 1500000
+		},
+		{
+			"anio": -1000,
+			"valor": 2000000
+		},
+		{
+			"anio": 0,
+			"valor": 4000000
+		},
+		{
+			"anio": 100,
+			"valor": 4300000
+		},
+		{
+			"anio": 200,
+			"valor": 4600000
+		},
+		{
+			"anio": 300,
+			"valor": 4300000
+		},
+		{
+			"anio": 400,
+			"valor": 4000000
+		},
+		{
+			"anio": 500,
+			"valor": 3500000
+		},
+		{
+			"anio": 600,
+			"valor": 3000000
+		},
+		{
+			"anio": 700,
+			"valor": 3400000
+		},
+		{
+			"anio": 800,
+			"valor": 3800000
+		},
+		{
+			"anio": 900,
+			"valor": 4400000
+		},
+		{
+			"anio": 1000,
+			"valor": 5000000
+		},
+		{
+			"anio": 1100,
+			"valor": 4350000
+		},
+		{
+			"anio": 1200,
+			"valor": 4000000
+		},
+		{
+			"anio": 1300,
+			"valor": 4700000
+		},
+		{
+			"anio": 1400,
+			"valor": 4050000
+		},
+		{
+			"anio": 1500,
+			"valor": 4000000
+		},
+		{
+			"anio": 1600,
+			"valor": 5000000
+		},
+		{
+			"anio": 1700,
+			"valor": 4500000
+		},
+		{
+			"anio": 1750,
+			"valor": 4000000
+		},
+		{
+			"anio": 1800,
+			"valor": 3500000
+		},
+		{
+			"anio": 1850,
+			"valor": 5638537
+		},
+		{
+			"anio": 1900,
+			"valor": 9940289
+		},
+		{
+			"anio": 1910,
+			"valor": 11361079
+		},
+		{
+			"anio": 1920,
+			"valor": 12731391
+		},
+		{
+			"anio": 1930,
+			"valor": 14249967
+		},
+		{
+			"anio": 1940,
+			"valor": 16423191
+		},
+		{
+			"anio": 1950,
+			"valor": 21148168
+		},
+		{
+			"anio": 1960,
+			"valor": 26896480
+		},
+		{
+			"anio": 1970,
+			"valor": 34623990
+		},
+		{
+			"anio": 1980,
+			"valor": 43950413
+		},
+		{
+			"anio": 1990,
+			"valor": 58396625
+		},
+		{
+			"anio": 2000,
+			"valor": 73083287
+		},
+		{
+			"anio": 2010,
+			"valor": 89196073
+		},
+		{
+			"anio": 2020,
+			"valor": 109315118
+		},
+		{
+			"anio": 2023,
+			"valor": 114535772
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Egipto",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-es-antiguo",
+			"url": "https://es.wikipedia.org/wiki/Antiguo_Egipto",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q79",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Egipto",
+			"url": "https://es.wikipedia.org/wiki/Egipto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q307871",
+			"url": "http://www.wikidata.org/entity/Q307871",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q54901515",
+			"url": "http://www.wikidata.org/entity/Q54901515",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q79",
+			"url": "https://www.wikidata.org/wiki/Q79",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q79",
+			"url": "https://www.wikidata.org/wiki/Q79",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Antiguo Egipto",
+			"desde": -3100,
+			"hasta": -30
+		},
+		{
+			"nombre": "Egipto romano y bizantino",
+			"desde": -30,
+			"hasta": 641
+		},
+		{
+			"nombre": "Egipto islámico",
+			"desde": 641,
+			"hasta": 1517
+		},
+		{
+			"nombre": "Egipto otomano",
+			"desde": 1517,
+			"hasta": 1867
+		},
+		{
+			"nombre": "Jedivato de Egipto",
+			"desde": 1867,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Sultanato de Egipto",
+			"desde": 1914,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Reino de Egipto",
+			"desde": 1922,
+			"hasta": 1953
+		},
+		{
+			"nombre": "República de Egipto",
+			"desde": 1953,
+			"hasta": 1958
+		},
+		{
+			"nombre": "República Árabe Unida",
+			"desde": 1958,
+			"hasta": 1971
+		},
+		{
+			"nombre": "República Árabe de Egipto",
+			"desde": 1971,
+			"hasta": 2026
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "a23eb64cc461",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Egipto, oficialmente la República Árabe de Egipto, es un país soberano transcontinental. Está ubicado mayoritariamente en el extremo nororiental de África, mientras que en Asia se encuentra la península del Sinaí.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Egypt (Official).svg"
+		}
+	]
+}

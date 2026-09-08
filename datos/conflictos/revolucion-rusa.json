@@ -1,0 +1,104 @@
+{
+	"id": "revolucion-rusa",
+	"nombre": "Revolución rusa y guerra civil",
+	"inicio": 1917,
+	"fin": 1922,
+	"paises": [
+		"Rusia"
+	],
+	"bajas": "~7-12 millones de muertos (guerra, terror y hambruna)",
+	"descripcion": "Febrero derriba al zar, Octubre da el poder a los bolcheviques, y la guerra civil entre rojos y blancos acaba con la fundación de la URSS (1922).",
+	"wiki": "Revolución rusa",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Revolución rusa",
+			"url": "https://es.wikipedia.org/wiki/Revolución_rusa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra civil rusa",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_rusa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Rusia europea en guerra civil",
+			"tipo": "frente",
+			"desde": 1918,
+			"hasta": 1921,
+			"poligono": [
+				[
+					58.5,
+					30.0
+				],
+				[
+					56.5,
+					50.5
+				],
+				[
+					48.0,
+					45.0
+				],
+				[
+					47.0,
+					38.5
+				],
+				[
+					52.5,
+					31.0
+				]
+			]
+		},
+		{
+			"nombre": "Frente de Siberia (Kolchak)",
+			"tipo": "frente",
+			"desde": 1918,
+			"hasta": 1920,
+			"poligono": [
+				[
+					57.5,
+					60.0
+				],
+				[
+					56.5,
+					84.0
+				],
+				[
+					53.0,
+					82.0
+				],
+				[
+					54.0,
+					60.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asalto al Palacio de Invierno",
+			"anio": 1917,
+			"lat": 59.94,
+			"lng": 30.31,
+			"descripcion": "La Revolución de Octubre toma Petrogrado casi sin sangre.",
+			"wiki": "Revolución de Octubre"
+		},
+		{
+			"nombre": "Defensa de Tsaritsyn",
+			"anio": 1918,
+			"hasta": 1919,
+			"lat": 48.71,
+			"lng": 44.51,
+			"descripcion": "La futura Stalingrado, disputada entre rojos y blancos."
+		}
+	]
+}

@@ -1,0 +1,190 @@
+{
+	"id": "barbados",
+	"nombre": "Barbados",
+	"nombres": [
+		"Barbados"
+	],
+	"wikidata": "Q244",
+	"wiki": "es:Barbados",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q244",
+			"url": "https://www.wikidata.org/wiki/Q244",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Barbados",
+			"url": "https://es.wikipedia.org/wiki/Barbados",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "BRB",
+	"poblacion": [
+		{
+			"anio": -2000,
+			"valor": 1
+		},
+		{
+			"anio": -1000,
+			"valor": 3
+		},
+		{
+			"anio": 0,
+			"valor": 7
+		},
+		{
+			"anio": 100,
+			"valor": 8
+		},
+		{
+			"anio": 200,
+			"valor": 8
+		},
+		{
+			"anio": 300,
+			"valor": 9
+		},
+		{
+			"anio": 400,
+			"valor": 10
+		},
+		{
+			"anio": 500,
+			"valor": 11
+		},
+		{
+			"anio": 600,
+			"valor": 12
+		},
+		{
+			"anio": 700,
+			"valor": 13
+		},
+		{
+			"anio": 800,
+			"valor": 15
+		},
+		{
+			"anio": 900,
+			"valor": 16
+		},
+		{
+			"anio": 1000,
+			"valor": 17
+		},
+		{
+			"anio": 1100,
+			"valor": 19
+		},
+		{
+			"anio": 1200,
+			"valor": 78
+		},
+		{
+			"anio": 1300,
+			"valor": 312
+		},
+		{
+			"anio": 1400,
+			"valor": 1250
+		},
+		{
+			"anio": 1500,
+			"valor": 5000
+		},
+		{
+			"anio": 1600,
+			"valor": 20000
+		},
+		{
+			"anio": 1700,
+			"valor": 80000
+		},
+		{
+			"anio": 1750,
+			"valor": 80000
+		},
+		{
+			"anio": 1800,
+			"valor": 81729
+		},
+		{
+			"anio": 1850,
+			"valor": 135605
+		},
+		{
+			"anio": 1900,
+			"valor": 193451
+		},
+		{
+			"anio": 1910,
+			"valor": 172186
+		},
+		{
+			"anio": 1920,
+			"valor": 158593
+		},
+		{
+			"anio": 1930,
+			"valor": 173809
+		},
+		{
+			"anio": 1940,
+			"valor": 193407
+		},
+		{
+			"anio": 1950,
+			"valor": 209928
+		},
+		{
+			"anio": 1960,
+			"valor": 230901
+		},
+		{
+			"anio": 1970,
+			"valor": 249398
+		},
+		{
+			"anio": 1980,
+			"valor": 251533
+		},
+		{
+			"anio": 1990,
+			"valor": 258583
+		},
+		{
+			"anio": 2000,
+			"valor": 262071
+		},
+		{
+			"anio": 2010,
+			"valor": 275251
+		},
+		{
+			"anio": 2020,
+			"valor": 281706
+		},
+		{
+			"anio": 2023,
+			"valor": 282347
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "7475d13b6dad",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Barbados es un país insular de las Antillas cuya forma de gobierno es una república parlamentaria compuesta por once parroquias. Está ubicado en las Antillas Menores, al noreste del territorio continental de Venezuela, justo al este de Santa Lucía y San Vicente y las Granadinas."
+}

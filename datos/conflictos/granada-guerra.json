@@ -1,0 +1,132 @@
+{
+	"id": "granada-guerra",
+	"nombre": "Guerra de Granada",
+	"inicio": 1482,
+	"fin": 1492,
+	"paises": [
+		"Corona de Castilla",
+		"Corona de Aragón",
+		"Reino nazarí de Granada"
+	],
+	"bajas": "~100.000 muertos",
+	"descripcion": "Los Reyes Católicos conquistan el último reino musulmán de la península.",
+	"batallas": [
+		{
+			"nombre": "Toma de Granada",
+			"anio": 1492,
+			"lat": 37.18,
+			"lng": -3.6,
+			"descripcion": "Boabdil entrega las llaves de la ciudad el 2 de enero de 1492."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frente occidental (Ronda y Málaga)",
+			"tipo": "frente",
+			"desde": 1482,
+			"hasta": 1487,
+			"poligono": [
+				[
+					37.3,
+					-5.4
+				],
+				[
+					37.2,
+					-4
+				],
+				[
+					36.6,
+					-4.2
+				],
+				[
+					36.4,
+					-5.4
+				]
+			]
+		},
+		{
+			"nombre": "Frente oriental (Baza y Almería)",
+			"tipo": "frente",
+			"desde": 1488,
+			"hasta": 1490,
+			"poligono": [
+				[
+					37.8,
+					-3
+				],
+				[
+					37.5,
+					-1.9
+				],
+				[
+					36.8,
+					-2.2
+				],
+				[
+					37.1,
+					-3.2
+				]
+			]
+		},
+		{
+			"nombre": "Vega y sitio de Granada",
+			"tipo": "frente",
+			"desde": 1490,
+			"hasta": 1492,
+			"poligono": [
+				[
+					37.5,
+					-4.2
+				],
+				[
+					37.4,
+					-3.2
+				],
+				[
+					36.9,
+					-3.4
+				],
+				[
+					37,
+					-4.2
+				]
+			]
+		},
+		{
+			"nombre": "Emirato nazarí",
+			"tipo": "ocupado",
+			"desde": 1482,
+			"hasta": 1492,
+			"poligono": [
+				[
+					38,
+					-5
+				],
+				[
+					37.8,
+					-2.2
+				],
+				[
+					36.7,
+					-2.1
+				],
+				[
+					36.3,
+					-5.3
+				]
+			]
+		}
+	],
+	"wiki": "Guerra de Granada",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Granada",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Granada",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

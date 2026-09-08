@@ -1,0 +1,222 @@
+{
+	"id": "chile",
+	"nombre": "Chile",
+	"nombres": [
+		"Chile"
+	],
+	"wikidata": "Q298",
+	"wiki": "es:Chile",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q298",
+			"url": "https://www.wikidata.org/wiki/Q298",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Chile",
+			"url": "https://es.wikipedia.org/wiki/Chile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "CHL",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 34799
+		},
+		{
+			"anio": -9000,
+			"valor": 35725
+		},
+		{
+			"anio": -8000,
+			"valor": 36879
+		},
+		{
+			"anio": -7000,
+			"valor": 38283
+		},
+		{
+			"anio": -6000,
+			"valor": 39958
+		},
+		{
+			"anio": -5000,
+			"valor": 41929
+		},
+		{
+			"anio": -4000,
+			"valor": 44224
+		},
+		{
+			"anio": -3000,
+			"valor": 46875
+		},
+		{
+			"anio": -2000,
+			"valor": 49997
+		},
+		{
+			"anio": -1000,
+			"valor": 99994
+		},
+		{
+			"anio": 0,
+			"valor": 199989
+		},
+		{
+			"anio": 100,
+			"valor": 214481
+		},
+		{
+			"anio": 200,
+			"valor": 230023
+		},
+		{
+			"anio": 300,
+			"valor": 246691
+		},
+		{
+			"anio": 400,
+			"valor": 264568
+		},
+		{
+			"anio": 500,
+			"valor": 283739
+		},
+		{
+			"anio": 600,
+			"valor": 304300
+		},
+		{
+			"anio": 700,
+			"valor": 326351
+		},
+		{
+			"anio": 800,
+			"valor": 350000
+		},
+		{
+			"anio": 900,
+			"valor": 375000
+		},
+		{
+			"anio": 1000,
+			"valor": 400000
+		},
+		{
+			"anio": 1100,
+			"valor": 440000
+		},
+		{
+			"anio": 1200,
+			"valor": 480000
+		},
+		{
+			"anio": 1300,
+			"valor": 520000
+		},
+		{
+			"anio": 1400,
+			"valor": 560000
+		},
+		{
+			"anio": 1500,
+			"valor": 600000
+		},
+		{
+			"anio": 1600,
+			"valor": 600000
+		},
+		{
+			"anio": 1700,
+			"valor": 602012
+		},
+		{
+			"anio": 1750,
+			"valor": 685504
+		},
+		{
+			"anio": 1800,
+			"valor": 771447
+		},
+		{
+			"anio": 1850,
+			"valor": 1409141
+		},
+		{
+			"anio": 1900,
+			"valor": 3144546
+		},
+		{
+			"anio": 1910,
+			"valor": 3569943
+		},
+		{
+			"anio": 1920,
+			"valor": 4044201
+		},
+		{
+			"anio": 1930,
+			"valor": 4638243
+		},
+		{
+			"anio": 1940,
+			"valor": 5492530
+		},
+		{
+			"anio": 1950,
+			"valor": 6628577
+		},
+		{
+			"anio": 1960,
+			"valor": 8153356
+		},
+		{
+			"anio": 1970,
+			"valor": 9845347
+		},
+		{
+			"anio": 1980,
+			"valor": 11508553
+		},
+		{
+			"anio": 1990,
+			"valor": 13437181
+		},
+		{
+			"anio": 2000,
+			"valor": 15503638
+		},
+		{
+			"anio": 2010,
+			"valor": 17181463
+		},
+		{
+			"anio": 2020,
+			"valor": 19370621
+		},
+		{
+			"anio": 2023,
+			"valor": 19658833
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4684c241fe11",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Chile, oficialmente República de Chile, es un Estado soberano ubicado en el extremo sudoeste de América del Sur. Adopta la forma de gobierno republicana, democrática, presidencialista y unitaria."
+}

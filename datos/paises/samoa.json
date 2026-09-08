@@ -1,0 +1,182 @@
+{
+	"id": "samoa",
+	"nombre": "Samoa",
+	"nombres": [
+		"Samoa"
+	],
+	"wikidata": "Q683",
+	"wiki": "es:Samoa",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q683",
+			"url": "https://www.wikidata.org/wiki/Q683",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Samoa",
+			"url": "https://es.wikipedia.org/wiki/Samoa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "WSM",
+	"poblacion": [
+		{
+			"anio": 0,
+			"valor": 8
+		},
+		{
+			"anio": 100,
+			"valor": 12
+		},
+		{
+			"anio": 200,
+			"valor": 19
+		},
+		{
+			"anio": 300,
+			"valor": 28
+		},
+		{
+			"anio": 400,
+			"valor": 43
+		},
+		{
+			"anio": 500,
+			"valor": 64
+		},
+		{
+			"anio": 600,
+			"valor": 97
+		},
+		{
+			"anio": 700,
+			"valor": 145
+		},
+		{
+			"anio": 800,
+			"valor": 218
+		},
+		{
+			"anio": 900,
+			"valor": 328
+		},
+		{
+			"anio": 1000,
+			"valor": 492
+		},
+		{
+			"anio": 1100,
+			"valor": 738
+		},
+		{
+			"anio": 1200,
+			"valor": 1107
+		},
+		{
+			"anio": 1300,
+			"valor": 1660
+		},
+		{
+			"anio": 1400,
+			"valor": 2490
+		},
+		{
+			"anio": 1500,
+			"valor": 3736
+		},
+		{
+			"anio": 1600,
+			"valor": 5604
+		},
+		{
+			"anio": 1700,
+			"valor": 8406
+		},
+		{
+			"anio": 1750,
+			"valor": 10864
+		},
+		{
+			"anio": 1800,
+			"valor": 47300
+		},
+		{
+			"anio": 1850,
+			"valor": 46707
+		},
+		{
+			"anio": 1900,
+			"valor": 35087
+		},
+		{
+			"anio": 1910,
+			"valor": 39803
+		},
+		{
+			"anio": 1920,
+			"valor": 39583
+		},
+		{
+			"anio": 1930,
+			"valor": 58916
+		},
+		{
+			"anio": 1940,
+			"valor": 72525
+		},
+		{
+			"anio": 1950,
+			"valor": 88299
+		},
+		{
+			"anio": 1960,
+			"valor": 112508
+		},
+		{
+			"anio": 1970,
+			"valor": 140420
+		},
+		{
+			"anio": 1980,
+			"valor": 164335
+		},
+		{
+			"anio": 1990,
+			"valor": 169061
+		},
+		{
+			"anio": 2000,
+			"valor": 181695
+		},
+		{
+			"anio": 2010,
+			"valor": 193035
+		},
+		{
+			"anio": 2020,
+			"valor": 211957
+		},
+		{
+			"anio": 2023,
+			"valor": 216673
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "c1e9ae99903b",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Samoa, oficialmente Estado Independiente de Samoa, es un país soberano insular de Oceanía integrado dentro de la Polinesia. Su capital y ciudad más poblada es Apia, en la isla de Upolu."
+}

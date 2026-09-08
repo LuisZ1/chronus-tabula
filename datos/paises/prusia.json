@@ -1,0 +1,64 @@
+{
+	"id": "prusia",
+	"nombre": "Prusia",
+	"nombres": [
+		"Prussia"
+	],
+	"gobernantes": [
+		{
+			"desde": 1640,
+			"hasta": 1688,
+			"nombre": "Federico Guillermo, el Gran Elector",
+			"titulo": "Elector de Brandeburgo"
+		},
+		{
+			"desde": 1740,
+			"hasta": 1786,
+			"nombre": "Federico II el Grande",
+			"titulo": "Rey de Prusia"
+		},
+		{
+			"desde": 1861,
+			"hasta": 1888,
+			"nombre": "Guillermo I (con Bismarck de canciller)",
+			"titulo": "Rey de Prusia"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1786,
+			"valor": 5400000
+		},
+		{
+			"anio": 1871,
+			"valor": 24700000
+		}
+	],
+	"relacionados": [
+		"Alemania",
+		"Sacro Imperio"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Prusia",
+			"url": "https://es.wikipedia.org/wiki/Prusia",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Prusia",
+			"url": "https://es.wikipedia.org/wiki/Prusia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Prusia fue un Estado del mar Báltico, situado en la llanura nordeuropea entre Pomerania, Polonia y Lituania que existió desde finales de la Edad Media, a partir de la secularización en 1525 de la parte prusiana del Estado de la Orden Teutónica.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "464a93a1bfa4",
+		"secciones": [
+			"resena"
+		]
+	}
+}

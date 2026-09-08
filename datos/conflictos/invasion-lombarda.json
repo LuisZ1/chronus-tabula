@@ -1,0 +1,69 @@
+{
+	"id": "invasion-lombarda",
+	"nombre": "Invasión lombarda de Italia",
+	"inicio": 568,
+	"fin": 572,
+	"paises": [
+		"Reino lombardo",
+		"Imperio bizantino"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Alboino conduce a los lombardos a Italia el 2 de abril de 568 y en pocos años somete el norte de la península, quebrando la reunificación bizantina y fundando un reino con capital en Pavía.",
+	"wiki": "Invasión lombarda de Italia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino lombardo",
+			"url": "https://es.wikipedia.org/wiki/Reino_lombardo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Alboino",
+			"url": "https://es.wikipedia.org/wiki/Alboino",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Conquista lombarda del norte de Italia",
+			"tipo": "ocupado",
+			"desde": 568,
+			"hasta": 572,
+			"poligono": [
+				[
+					46.5,
+					7.5
+				],
+				[
+					46.2,
+					13.8
+				],
+				[
+					44.0,
+					12.5
+				],
+				[
+					44.3,
+					9.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Entrada de los lombardos en Italia",
+			"anio": 568,
+			"lat": 46.09,
+			"lng": 13.43,
+			"descripcion": "Alboino cruza los Alpes Julianos hacia Friuli."
+		},
+		{
+			"nombre": "Toma de Pavía",
+			"anio": 572,
+			"lat": 45.19,
+			"lng": 9.15,
+			"descripcion": "Cae la futura capital del reino lombardo."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"nombre": "Revolución Cultural china",
+	"anio": 1966,
+	"hasta": 1976,
+	"lat": 39.9,
+	"lng": 116.4,
+	"paises": [
+		"China"
+	],
+	"descripcion": "Mao lanza a los guardias rojos contra «los cuatro viejos»: una década de purgas y caos con entre medio millón y dos millones de muertos.",
+	"wiki": "Revolución Cultural",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Revolución Cultural",
+			"url": "https://es.wikipedia.org/wiki/Revolución_Cultural",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

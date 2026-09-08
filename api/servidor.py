@@ -35,7 +35,7 @@ ENV_UTF8 = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8", "PYTHO
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB = os.path.join(RAIZ, "web")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
-from comun import cargar_historia, conectar, progreso_borrar, progreso_hechas  # noqa: E402
+from comun import cargar_historia, compilar_web, conectar, progreso_borrar, progreso_hechas  # noqa: E402
 
 FUENTES = {
     "owid_poblacion": {
@@ -458,6 +458,15 @@ class Manejador(SimpleHTTPRequestHandler):
 
 def main():
     puerto = int(sys.argv[1]) if len(sys.argv) > 1 else 9000
+    # la web descarga un único historia.json: se genera aquí a partir del árbol
+    # datos/ (un fichero por entidad), igual que hace el despliegue en CI
+    try:
+        compilar_web()
+        print("✔ web/data/historia.json compilado desde datos/")
+    except Exception as e:  # noqa: BLE001 — sin datos válidos no tiene sentido servir la web
+        print(f"✘ No se pudo compilar historia.json: {e}")
+        print("  Corrige el fichero indicado (python api/validar.py te ayuda) y vuelve a arrancar.")
+        return 1
     srv = ThreadingHTTPServer(("127.0.0.1", puerto), Manejador)
     print(f"Chronus Tabula en marcha:")
     print(f"  · Aplicación:  http://localhost:{puerto}/")

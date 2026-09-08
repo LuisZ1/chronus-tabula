@@ -1,0 +1,136 @@
+{
+	"id": "guerra-secesion-eeuu",
+	"nombre": "Guerra de Secesión de Estados Unidos",
+	"inicio": 1861,
+	"fin": 1865,
+	"paises": [
+		"Estados Unidos"
+	],
+	"bajas": "~750.000 muertos, la guerra más letal de la historia de EE. UU.",
+	"descripcion": "La Unión contra la Confederación esclavista: de Fort Sumter a Appomattox, con la Proclamación de Emancipación (1863) aboliendo la esclavitud.",
+	"wiki": "Guerra de Secesión",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra de Secesión",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Secesión",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frente oriental (Virginia)",
+			"tipo": "frente",
+			"desde": 1861,
+			"hasta": 1865,
+			"poligono": [
+				[
+					39.7,
+					-78.5
+				],
+				[
+					39.5,
+					-75.8
+				],
+				[
+					36.8,
+					-76.2
+				],
+				[
+					36.9,
+					-79.5
+				]
+			]
+		},
+		{
+			"nombre": "Frente occidental (Misisipi–Tennessee)",
+			"tipo": "frente",
+			"desde": 1862,
+			"hasta": 1864,
+			"poligono": [
+				[
+					37.0,
+					-90.5
+				],
+				[
+					36.5,
+					-85.0
+				],
+				[
+					32.0,
+					-88.5
+				],
+				[
+					32.3,
+					-91.2
+				]
+			]
+		},
+		{
+			"nombre": "Marcha de Sherman a Georgia",
+			"tipo": "frente",
+			"desde": 1864,
+			"hasta": 1865,
+			"poligono": [
+				[
+					34.0,
+					-85.5
+				],
+				[
+					33.7,
+					-81.0
+				],
+				[
+					32.0,
+					-81.0
+				],
+				[
+					32.5,
+					-85.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Antietam",
+			"anio": 1862,
+			"lat": 39.47,
+			"lng": -77.74,
+			"bajas": "~23.000 bajas en un día",
+			"descripcion": "El día más sangriento de la historia militar estadounidense.",
+			"wiki": "Batalla de Antietam"
+		},
+		{
+			"nombre": "Batalla de Gettysburg",
+			"anio": 1863,
+			"lat": 39.81,
+			"lng": -77.23,
+			"bajas": "~50.000 bajas",
+			"descripcion": "El punto de inflexión: Lee nunca volverá a invadir el norte.",
+			"wiki": "Batalla de Gettysburg"
+		},
+		{
+			"nombre": "Sitio de Vicksburg",
+			"anio": 1863,
+			"lat": 32.35,
+			"lng": -90.88,
+			"descripcion": "Grant parte en dos la Confederación al controlar el Misisipi.",
+			"wiki": "Sitio de Vicksburg"
+		},
+		{
+			"nombre": "Rendición de Appomattox",
+			"anio": 1865,
+			"lat": 37.38,
+			"lng": -78.8,
+			"descripcion": "Lee se rinde a Grant; fin de la guerra.",
+			"wiki": "Batalla de Appomattox Court House"
+		}
+	]
+}

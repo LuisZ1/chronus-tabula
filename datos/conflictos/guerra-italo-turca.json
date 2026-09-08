@@ -1,0 +1,59 @@
+{
+	"id": "guerra-italo-turca",
+	"nombre": "Guerra ítalo-turca",
+	"inicio": 1911,
+	"fin": 1912,
+	"paises": [
+		"Otomano",
+		"Italia"
+	],
+	"bajas": "miles",
+	"descripcion": "Italia invade la Tripolitania y la Cirenaica otomanas (actual Libia). La derrota, junto con las Guerras Balcánicas simultáneas, acelera la pérdida de las últimas posesiones africanas del imperio.",
+	"wiki": "Guerra ítalo-turca",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra ítalo-turca",
+			"url": "https://es.wikipedia.org/wiki/Guerra_%C3%ADtalo-turca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Tripolitania y Cirenaica",
+			"tipo": "frente",
+			"desde": 1911,
+			"hasta": 1912,
+			"poligono": [
+				[
+					33.0,
+					10.0
+				],
+				[
+					32.8,
+					20.5
+				],
+				[
+					30.5,
+					19.5
+				],
+				[
+					30.8,
+					10.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Desembarco italiano en Tripolitania",
+			"anio": 1911,
+			"lat": 32.9,
+			"lng": 13.2
+		}
+	]
+}

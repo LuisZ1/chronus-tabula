@@ -1,0 +1,171 @@
+{
+	"id": "san-vicente-y-las-granadinas",
+	"nombre": "San Vicente y las Granadinas",
+	"nombres": [
+		"Saint Vincent and the Grenadines",
+		"San Vicente y las Granadinas"
+	],
+	"wikidata": "Q757",
+	"wiki": "es:San Vicente y las Granadinas",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q757",
+			"url": "https://www.wikidata.org/wiki/Q757",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): San Vicente y las Granadinas",
+			"url": "https://es.wikipedia.org/wiki/San_Vicente_y_las_Granadinas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "VCT",
+	"poblacion": [
+		{
+			"anio": 300,
+			"valor": 1
+		},
+		{
+			"anio": 400,
+			"valor": 2
+		},
+		{
+			"anio": 500,
+			"valor": 4
+		},
+		{
+			"anio": 600,
+			"valor": 9
+		},
+		{
+			"anio": 700,
+			"valor": 18
+		},
+		{
+			"anio": 800,
+			"valor": 36
+		},
+		{
+			"anio": 900,
+			"valor": 72
+		},
+		{
+			"anio": 1000,
+			"valor": 144
+		},
+		{
+			"anio": 1100,
+			"valor": 288
+		},
+		{
+			"anio": 1200,
+			"valor": 577
+		},
+		{
+			"anio": 1300,
+			"valor": 1155
+		},
+		{
+			"anio": 1400,
+			"valor": 2311
+		},
+		{
+			"anio": 1500,
+			"valor": 4622
+		},
+		{
+			"anio": 1600,
+			"valor": 9244
+		},
+		{
+			"anio": 1700,
+			"valor": 18488
+		},
+		{
+			"anio": 1750,
+			"valor": 27414
+		},
+		{
+			"anio": 1800,
+			"valor": 25781
+		},
+		{
+			"anio": 1850,
+			"valor": 30026
+		},
+		{
+			"anio": 1900,
+			"valor": 44311
+		},
+		{
+			"anio": 1910,
+			"valor": 39368
+		},
+		{
+			"anio": 1920,
+			"valor": 40525
+		},
+		{
+			"anio": 1930,
+			"valor": 44563
+		},
+		{
+			"anio": 1940,
+			"valor": 56344
+		},
+		{
+			"anio": 1950,
+			"valor": 61686
+		},
+		{
+			"anio": 1960,
+			"valor": 84409
+		},
+		{
+			"anio": 1970,
+			"valor": 95977
+		},
+		{
+			"anio": 1980,
+			"valor": 104229
+		},
+		{
+			"anio": 1990,
+			"valor": 111825
+		},
+		{
+			"anio": 2000,
+			"valor": 113561
+		},
+		{
+			"anio": 2010,
+			"valor": 109974
+		},
+		{
+			"anio": 2020,
+			"valor": 103540
+		},
+		{
+			"anio": 2023,
+			"valor": 101331
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5f9960036d52",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "San Vicente y las Granadinas es un país insular de América, situado en la cadena de las Antillas Menores al este del mar Caribe y limitando al norte con Santa Lucía, al este con Barbados, al sur y oeste con Venezuela y al sur con Granada."
+}

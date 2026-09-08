@@ -1,0 +1,63 @@
+{
+	"id": "guerras-marcomanas",
+	"nombre": "Guerras marcomanas",
+	"inicio": 166,
+	"fin": 180,
+	"paises": [
+		"Roma",
+		"Marcómanos",
+		"Cuados",
+		"Sármatas"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Marco Aurelio combate durante años a marcómanos, cuados y sármatas que cruzan el Danubio medio y llegan a asediar Aquileya. Las campañas romanas frenan la presión germánica sobre Panonia y Nórico hasta la muerte del emperador en 180.",
+	"wiki": "Guerras marcomanas",
+	"zonas": [
+		{
+			"nombre": "Frente del Danubio medio (Panonia y Nórico)",
+			"tipo": "frente",
+			"desde": 166,
+			"hasta": 180,
+			"poligono": [
+				[
+					49.0,
+					14.8
+				],
+				[
+					49.0,
+					19.6
+				],
+				[
+					46.9,
+					19.6
+				],
+				[
+					46.9,
+					14.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del Danubio helado (contra los yáziges)",
+			"anio": 173,
+			"lat": 47.5,
+			"lng": 18.0,
+			"descripcion": "Legiones romanas derrotan a los sármatas yáziges sobre el Danubio congelado.",
+			"wiki": "Guerras marcomanas"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras marcomanas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_marcomanas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

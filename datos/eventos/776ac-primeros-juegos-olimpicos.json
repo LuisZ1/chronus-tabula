@@ -1,0 +1,19 @@
+{
+	"nombre": "Primeros Juegos Olímpicos",
+	"anio": -776,
+	"lat": 37.64,
+	"lng": 21.63,
+	"paises": [
+		"Grecia"
+	],
+	"descripcion": "En el santuario de Zeus en Olimpia se celebran los primeros Juegos Olímpicos registrados. Su periodicidad de cuatro años (la Olimpiada) se convirtió en el sistema panhelénico de cómputo del tiempo.",
+	"wiki": "Juegos Olímpicos en la Antigüedad",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Juegos Olímpicos en la Antigüedad",
+			"url": "https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_en_la_Antig%C3%BCedad",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

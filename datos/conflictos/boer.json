@@ -1,0 +1,66 @@
+{
+	"id": "boer",
+	"nombre": "Segunda guerra bóer",
+	"inicio": 1899,
+	"fin": 1902,
+	"paises": [
+		"Gran Bretaña",
+		"Transvaal",
+		"Estado Libre de Orange"
+	],
+	"bajas": "~75.000 muertos, incluidos ~28.000 civiles bóeres en campos de concentración",
+	"descripcion": "El oro del Transvaal enfrenta al imperio con las repúblicas bóeres: guerra de guerrillas, tierra quemada y los primeros campos de concentración modernos.",
+	"wiki": "Segunda guerra bóer",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra bóer",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_bóer",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Transvaal y Orange",
+			"tipo": "frente",
+			"poligono": [
+				[
+					-24.5,
+					26
+				],
+				[
+					-25,
+					31
+				],
+				[
+					-30,
+					27.5
+				],
+				[
+					-29,
+					24.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Spion Kop",
+			"anio": 1900,
+			"lat": -28.65,
+			"lng": 29.52,
+			"bajas": "~1.700 bajas británicas",
+			"descripcion": "Sangrienta derrota británica en Natal."
+		},
+		{
+			"nombre": "Liberación de Mafeking",
+			"anio": 1900,
+			"lat": -25.86,
+			"lng": 25.64,
+			"descripcion": "Fin de los 217 días de asedio defendidos por Baden-Powell."
+		}
+	]
+}

@@ -1,0 +1,167 @@
+{
+	"id": "san-cristobal-y-nieves",
+	"nombre": "San Cristóbal y Nieves",
+	"nombres": [
+		"Saint Kitts and Nevis",
+		"San Cristóbal y Nieves"
+	],
+	"wikidata": "Q763",
+	"wiki": "es:San Cristóbal y Nieves",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q763",
+			"url": "https://www.wikidata.org/wiki/Q763",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): San Cristóbal y Nieves",
+			"url": "https://es.wikipedia.org/wiki/San_Crist%C3%B3bal_y_Nieves",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "KNA",
+	"poblacion": [
+		{
+			"anio": 400,
+			"valor": 1
+		},
+		{
+			"anio": 500,
+			"valor": 2
+		},
+		{
+			"anio": 600,
+			"valor": 4
+		},
+		{
+			"anio": 700,
+			"valor": 8
+		},
+		{
+			"anio": 800,
+			"valor": 16
+		},
+		{
+			"anio": 900,
+			"valor": 33
+		},
+		{
+			"anio": 1000,
+			"valor": 67
+		},
+		{
+			"anio": 1100,
+			"valor": 134
+		},
+		{
+			"anio": 1200,
+			"valor": 268
+		},
+		{
+			"anio": 1300,
+			"valor": 536
+		},
+		{
+			"anio": 1400,
+			"valor": 1072
+		},
+		{
+			"anio": 1500,
+			"valor": 2145
+		},
+		{
+			"anio": 1600,
+			"valor": 4290
+		},
+		{
+			"anio": 1700,
+			"valor": 8581
+		},
+		{
+			"anio": 1750,
+			"valor": 12725
+		},
+		{
+			"anio": 1800,
+			"valor": 17202
+		},
+		{
+			"anio": 1850,
+			"valor": 28683
+		},
+		{
+			"anio": 1900,
+			"valor": 48203
+		},
+		{
+			"anio": 1910,
+			"valor": 45331
+		},
+		{
+			"anio": 1920,
+			"valor": 39746
+		},
+		{
+			"anio": 1930,
+			"valor": 38573
+		},
+		{
+			"anio": 1940,
+			"valor": 40766
+		},
+		{
+			"anio": 1950,
+			"valor": 47254
+		},
+		{
+			"anio": 1960,
+			"valor": 55834
+		},
+		{
+			"anio": 1970,
+			"valor": 44632
+		},
+		{
+			"anio": 1980,
+			"valor": 42866
+		},
+		{
+			"anio": 1990,
+			"valor": 40456
+		},
+		{
+			"anio": 2000,
+			"valor": 45272
+		},
+		{
+			"anio": 2010,
+			"valor": 46871
+		},
+		{
+			"anio": 2020,
+			"valor": 46896
+		},
+		{
+			"anio": 2023,
+			"valor": 46783
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f7b4ed8b77fd",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "San Cristóbal y Nieves, oficialmente Federación de San Cristóbal y Nieves, es un país insular del norte antillano, en concreto de las Islas de Barlovento, debiendo su nombre precisamente a este par de islas."
+}

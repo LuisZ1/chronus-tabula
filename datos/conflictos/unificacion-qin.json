@@ -1,0 +1,77 @@
+{
+	"id": "unificacion-qin",
+	"nombre": "Unificación de China por Qin",
+	"inicio": -230,
+	"fin": -221,
+	"paises": [
+		"Qin",
+		"Han",
+		"Zhao",
+		"Wei",
+		"Chu",
+		"Yan",
+		"Qi"
+	],
+	"bajas": "cientos de miles (las guerras de los Reinos Combatientes fueron de las más sangrientas de la Antigüedad)",
+	"descripcion": "Ying Zheng conquista los seis reinos rivales en nueve años y se proclama Qin Shi Huang, primer emperador de China (221 a. C.).",
+	"wiki": "Dinastía Qin",
+	"zonas": [
+		{
+			"nombre": "Reinos Combatientes orientales",
+			"tipo": "frente",
+			"poligono": [
+				[
+					39,
+					110
+				],
+				[
+					38.5,
+					119
+				],
+				[
+					34,
+					120
+				],
+				[
+					30,
+					117
+				],
+				[
+					30,
+					112
+				],
+				[
+					34,
+					109
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Caída de Handan (Zhao)",
+			"anio": -228,
+			"lat": 36.6,
+			"lng": 114.5,
+			"descripcion": "Qin toma la capital de Zhao."
+		},
+		{
+			"nombre": "Conquista de Qi",
+			"anio": -221,
+			"lat": 36.8,
+			"lng": 118.0,
+			"descripcion": "El último reino se rinde; nace el imperio chino."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Qin",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Qin",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

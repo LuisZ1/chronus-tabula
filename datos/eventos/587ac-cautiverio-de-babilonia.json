@@ -1,0 +1,20 @@
+{
+	"nombre": "Cautiverio de Babilonia",
+	"anio": -587,
+	"lat": 32.54,
+	"lng": 44.42,
+	"paises": [
+		"Babilonia",
+		"Israel"
+	],
+	"descripcion": "Nabucodonosor II destruye Jerusalén y su Templo y deporta a Babilonia a buena parte del pueblo judío. El destierro, que dura hasta la conquista persa de 539 a.C., marca profundamente la religión y la identidad judías.",
+	"wiki": "Cautiverio de Babilonia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cautiverio de Babilonia",
+			"url": "https://es.wikipedia.org/wiki/Cautiverio_de_Babilonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

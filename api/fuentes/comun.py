@@ -28,7 +28,15 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 # (útil si el repositorio vive en una carpeta sincronizada/de red donde SQLite
 # no puede bloquear ficheros).
 DB = os.environ.get("CHRONUS_DB") or os.path.join(RAIZ, "api", "editorial.db")
+# FUENTE de los datos: un fichero por entidad en datos/ (paises/<id>.json,
+# conflictos/<id>.json, eventos/<año>-<nombre>.json, territorios/<nombre>.json)
+# más datos/_meta.json con las claves de primer nivel que no son colecciones.
+DATOS = os.environ.get("CHRONUS_DATOS") or os.path.join(RAIZ, "datos")
+# ARTEFACTO para la web: un único JSON que se genera a partir de datos/ (no se
+# edita a mano ni se versiona; lo compilan servidor.py al arrancar, exportar.py
+# al aplicar propuestas, api/compilar.py y el despliegue en CI).
 HISTORIA = os.path.join(RAIZ, "web", "data", "historia.json")
+COLECCIONES = ("paises", "conflictos", "eventos", "territorios")
 
 HOY = date.today().isoformat()
 
@@ -58,14 +66,121 @@ def conectar():
     return con
 
 
+def _slug(texto):
+    """'Batalla de las Termópilas' -> 'batalla-de-las-termopilas' (para nombres de fichero)."""
+    import re
+    import unicodedata
+    t = unicodedata.normalize("NFKD", str(texto or ""))
+    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    t = re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+    return t or "sin-nombre"
+
+
+def _nombre_fichero(coleccion, reg):
+    """Nombre de fichero de una entidad. Países y conflictos usan su 'id'; eventos y
+    territorios no tienen id, así que se deriva del año y el nombre."""
+    if coleccion in ("paises", "conflictos"):
+        return (reg.get("id") or _slug(reg.get("nombre"))) + ".json"
+    if coleccion == "eventos":
+        a = reg.get("anio")
+        pref = (f"{abs(a)}ac" if isinstance(a, int) and a < 0 else str(a)) if a is not None else "sin-anio"
+        return f"{pref}-{_slug(reg.get('nombre'))}.json"
+    return _slug(reg.get("nombre")) + ".json"  # territorios
+
+
+def _orden(coleccion):
+    """Clave de orden DETERMINISTA de cada colección al compilar: así el JSON de la
+    web es siempre igual para los mismos datos, independientemente del orden en
+    disco (el color de cada país se calcula por hash del nombre, no por posición)."""
+    def entero(v):
+        return v if isinstance(v, int) else 0
+    if coleccion in ("paises", "conflictos"):
+        return lambda r: r.get("id") or ""
+    if coleccion == "eventos":
+        return lambda r: (entero(r.get("anio")), r.get("nombre") or "")
+    return lambda r: (entero(r.get("desde")), r.get("nombre") or "")
+
+
+def _leer_json(ruta):
+    try:
+        with open(ruta, encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError as e:
+        rel = os.path.relpath(ruta, RAIZ)
+        raise ValueError(f"{rel}: línea {e.lineno}, columna {e.colno}: {e.msg}") from e
+
+
+def _escribir_json(ruta, obj):
+    """Escribe el JSON con tabs y LF; devuelve True solo si el contenido cambió
+    (así no se tocan ficheros —ni sus diffs— que no varían)."""
+    txt = json.dumps(obj, ensure_ascii=False, indent="\t") + "\n"
+    if os.path.exists(ruta):
+        with open(ruta, encoding="utf-8", newline="") as f:
+            if f.read() == txt:
+                return False
+    with open(ruta, "w", encoding="utf-8", newline="\n") as f:
+        f.write(txt)
+    return True
+
+
 def cargar_historia():
-    with open(HISTORIA, encoding="utf-8") as f:
-        return json.load(f)
+    """Lee el árbol datos/ y devuelve el dict completo ({_meta…, paises, conflictos,
+    eventos, territorios}). Si aún no existe datos/ (copia antigua del repositorio),
+    cae al historia.json monolítico. Un fichero corrupto se señala por su ruta."""
+    if not os.path.isdir(DATOS):
+        return _leer_json(HISTORIA)
+    d = {}
+    meta = os.path.join(DATOS, "_meta.json")
+    if os.path.exists(meta):
+        d.update(_leer_json(meta))
+    for col in COLECCIONES:
+        carpeta = os.path.join(DATOS, col)
+        regs = []
+        if os.path.isdir(carpeta):
+            for fn in sorted(os.listdir(carpeta)):
+                if fn.endswith(".json") and not fn.startswith("_"):
+                    regs.append(_leer_json(os.path.join(carpeta, fn)))
+        regs.sort(key=_orden(col))
+        d[col] = regs
+    return d
 
 
 def guardar_historia(d):
-    with open(HISTORIA, "w", encoding="utf-8") as f:
-        json.dump(d, f, ensure_ascii=False, indent="\t")
+    """Escribe cada entidad en su fichero de datos/ (solo los que cambian), retira
+    los ficheros de entidades que ya no están, y recompila web/data/historia.json."""
+    os.makedirs(DATOS, exist_ok=True)
+    meta = {k: v for k, v in d.items() if k not in COLECCIONES}
+    _escribir_json(os.path.join(DATOS, "_meta.json"), meta)
+    for col in COLECCIONES:
+        carpeta = os.path.join(DATOS, col)
+        os.makedirs(carpeta, exist_ok=True)
+        esperados = set()
+        for reg in d.get(col, []):
+            fn = _nombre_fichero(col, reg)
+            base, i = fn[:-5], 2
+            while fn in esperados:  # dos entidades con el mismo nombre: sufijo
+                fn, i = f"{base}-{i}.json", i + 1
+            esperados.add(fn)
+            _escribir_json(os.path.join(carpeta, fn), reg)
+        for fn in os.listdir(carpeta):
+            if fn.endswith(".json") and not fn.startswith("_") and fn not in esperados:
+                os.remove(os.path.join(carpeta, fn))
+    compilar_web(d)
+
+
+def compilar_web(d=None):
+    """Genera web/data/historia.json (el artefacto que descarga la web) a partir del
+    árbol datos/, con las colecciones en orden canónico. Devuelve la ruta."""
+    if d is None:
+        d = cargar_historia()
+    os.makedirs(os.path.dirname(HISTORIA), exist_ok=True)
+    salida = {k: v for k, v in d.items() if k not in COLECCIONES}
+    for col in COLECCIONES:
+        salida[col] = sorted(d.get(col, []), key=_orden(col))
+    with open(HISTORIA, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(salida, f, ensure_ascii=False, indent="\t")
+        f.write("\n")
+    return HISTORIA
 
 
 def proponer(con, tipo, pais, resumen, payload, fuente):

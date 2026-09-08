@@ -1,0 +1,88 @@
+{
+	"id": "guerras-alto-karabaj",
+	"nombre": "Guerras del Alto Karabaj",
+	"inicio": 2020,
+	"fin": 2023,
+	"paises": [
+		"Armenia",
+		"Azerbaiyán"
+	],
+	"bajas": "~7.000 muertos (2020) y éxodo de ~100.000 armenios (2023)",
+	"descripcion": "Azerbaiyán recupera en 44 días (2020) gran parte del enclave armenio y lo toma por completo en la ofensiva relámpago de septiembre de 2023: casi toda la población armenia huye.",
+	"wiki": "Segunda guerra del Alto Karabaj",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra del Alto Karabaj",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_del_Alto_Karabaj",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Guerra de los 44 días",
+			"tipo": "frente",
+			"desde": 2020,
+			"hasta": 2020,
+			"poligono": [
+				[
+					40.2,
+					46.0
+				],
+				[
+					40.2,
+					47.2
+				],
+				[
+					39.3,
+					47.1
+				],
+				[
+					39.3,
+					46.0
+				]
+			]
+		},
+		{
+			"nombre": "Ofensiva de 2023",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2023,
+			"poligono": [
+				[
+					40.1,
+					46.3
+				],
+				[
+					40.1,
+					47.0
+				],
+				[
+					39.5,
+					46.9
+				],
+				[
+					39.5,
+					46.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Shusha",
+			"anio": 2020,
+			"lat": 39.76,
+			"lng": 46.75,
+			"descripcion": "La toma de la ciudad-fortaleza decide la guerra de 2020.",
+			"wiki": "Batalla de Shusha (2020)"
+		},
+		{
+			"nombre": "Caída de Stepanakert",
+			"anio": 2023,
+			"lat": 39.82,
+			"lng": 46.75,
+			"descripcion": "La capital del enclave se rinde; disolución de la república de Artsaj."
+		}
+	]
+}

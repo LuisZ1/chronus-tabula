@@ -1,0 +1,23 @@
+{
+	"nombre": "Ejecución de Carlos I",
+	"anio": 1649,
+	"lat": 51.5,
+	"lng": -0.13,
+	"paises": [
+		"Inglaterra"
+	],
+	"descripcion": "Carlos I es decapitado ante Whitehall tras ser juzgado por el Parlamento; se abole la monarquía y se proclama la Mancomunidad de Inglaterra.",
+	"wiki": "Carlos I de Inglaterra",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Carlos I de Inglaterra",
+			"url": "https://es.wikipedia.org/wiki/Carlos_I_de_Inglaterra",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

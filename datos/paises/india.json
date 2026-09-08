@@ -1,0 +1,222 @@
+{
+	"id": "india",
+	"nombre": "India",
+	"nombres": [
+		"India"
+	],
+	"wikidata": "Q668",
+	"wiki": "es:India",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q668",
+			"url": "https://www.wikidata.org/wiki/Q668",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): India",
+			"url": "https://es.wikipedia.org/wiki/India",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "IND",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 84810
+		},
+		{
+			"anio": -9000,
+			"valor": 167151
+		},
+		{
+			"anio": -8000,
+			"valor": 329433
+		},
+		{
+			"anio": -7000,
+			"valor": 649272
+		},
+		{
+			"anio": -6000,
+			"valor": 1279633
+		},
+		{
+			"anio": -5000,
+			"valor": 2521995
+		},
+		{
+			"anio": -4000,
+			"valor": 4970535
+		},
+		{
+			"anio": -3000,
+			"valor": 9796297
+		},
+		{
+			"anio": -2000,
+			"valor": 19307266
+		},
+		{
+			"anio": -1000,
+			"valor": 38052184
+		},
+		{
+			"anio": 0,
+			"valor": 74996048
+		},
+		{
+			"anio": 100,
+			"valor": 78745856
+		},
+		{
+			"anio": 200,
+			"valor": 82495656
+		},
+		{
+			"anio": 300,
+			"valor": 86245456
+		},
+		{
+			"anio": 400,
+			"valor": 89995264
+		},
+		{
+			"anio": 500,
+			"valor": 93745064
+		},
+		{
+			"anio": 600,
+			"valor": 97494864
+		},
+		{
+			"anio": 700,
+			"valor": 101244672
+		},
+		{
+			"anio": 800,
+			"valor": 104994472
+		},
+		{
+			"anio": 900,
+			"valor": 108744272
+		},
+		{
+			"anio": 1000,
+			"valor": 112494080
+		},
+		{
+			"anio": 1100,
+			"valor": 116243880
+		},
+		{
+			"anio": 1200,
+			"valor": 119993680
+		},
+		{
+			"anio": 1300,
+			"valor": 123743488
+		},
+		{
+			"anio": 1400,
+			"valor": 127493288
+		},
+		{
+			"anio": 1500,
+			"valor": 131243088
+		},
+		{
+			"anio": 1600,
+			"valor": 134992896
+		},
+		{
+			"anio": 1700,
+			"valor": 164991312
+		},
+		{
+			"anio": 1750,
+			"valor": 183323680
+		},
+		{
+			"anio": 1800,
+			"valor": 200733034
+		},
+		{
+			"anio": 1850,
+			"valor": 235732435
+		},
+		{
+			"anio": 1900,
+			"valor": 280714154
+		},
+		{
+			"anio": 1910,
+			"valor": 295496971
+		},
+		{
+			"anio": 1920,
+			"valor": 300639878
+		},
+		{
+			"anio": 1930,
+			"valor": 330163509
+		},
+		{
+			"anio": 1940,
+			"valor": 373766276
+		},
+		{
+			"anio": 1950,
+			"valor": 346278818
+		},
+		{
+			"anio": 1960,
+			"valor": 435990342
+		},
+		{
+			"anio": 1970,
+			"valor": 545864271
+		},
+		{
+			"anio": 1980,
+			"valor": 687354029
+		},
+		{
+			"anio": 1990,
+			"valor": 864972221
+		},
+		{
+			"anio": 2000,
+			"valor": 1057922731
+		},
+		{
+			"anio": 2010,
+			"valor": 1243481565
+		},
+		{
+			"anio": 2020,
+			"valor": 1402617694
+		},
+		{
+			"anio": 2023,
+			"valor": 1438069597
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "8b8fbdfdcf51",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "La India, oficialmente República de la India, es un país soberano ubicado en Asia del Sur. Con un estimado de más de 1 476 millones de habitantes, es el país más poblado del mundo desde el año 2023."
+}

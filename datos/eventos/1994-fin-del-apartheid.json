@@ -1,0 +1,31 @@
+{
+	"nombre": "Fin del apartheid",
+	"anio": 1994,
+	"lat": -25.75,
+	"lng": 28.19,
+	"paises": [
+		"Sudáfrica"
+	],
+	"descripcion": "Nelson Mandela, 27 años preso, gana las primeras elecciones libres de Sudáfrica y entierra el apartheid.",
+	"wiki": "Apartheid",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Apartheid",
+			"url": "https://es.wikipedia.org/wiki/Apartheid",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Nelson Mandela",
+			"url": "https://es.wikipedia.org/wiki/Nelson_Mandela",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

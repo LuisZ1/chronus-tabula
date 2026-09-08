@@ -1,0 +1,78 @@
+{
+	"id": "niue",
+	"nombre": "Niue",
+	"nombres": [
+		"Niue"
+	],
+	"wikidata": "Q34020",
+	"wiki": "es:Niue",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q34020",
+			"url": "https://www.wikidata.org/wiki/Q34020",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Niue",
+			"url": "https://es.wikipedia.org/wiki/Niue",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "NIU",
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 4519
+		},
+		{
+			"anio": 1960,
+			"valor": 4847
+		},
+		{
+			"anio": 1970,
+			"valor": 5133
+		},
+		{
+			"anio": 1980,
+			"valor": 3550
+		},
+		{
+			"anio": 1990,
+			"valor": 2506
+		},
+		{
+			"anio": 2000,
+			"valor": 2068
+		},
+		{
+			"anio": 2010,
+			"valor": 1786
+		},
+		{
+			"anio": 2020,
+			"valor": 1822
+		},
+		{
+			"anio": 2023,
+			"valor": 1841
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "782addc1e203",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Niue es un territorio insular en el océano Pacífico sur, conocido como la Roca de Polinesia. A pesar de poseer un autogobierno, mantiene un estatus de libre asociación con Nueva Zelanda."
+}

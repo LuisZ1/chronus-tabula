@@ -1,0 +1,18 @@
+{
+	"nombre": "Llegada del hombre a la Luna",
+	"anio": 1969,
+	"lat": 28.57,
+	"lng": -80.65,
+	"descripcion": "El Apolo 11 despega de Cabo Cañaveral; Armstrong pisa la Luna el 20 de julio.",
+	"wiki": "Apolo 11",
+	"paises": [
+		"Estados Unidos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Apolo 11",
+			"url": "https://es.wikipedia.org/wiki/Apolo_11",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

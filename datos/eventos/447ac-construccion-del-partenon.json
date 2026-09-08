@@ -1,0 +1,19 @@
+{
+	"nombre": "Construcción del Partenón",
+	"anio": -447,
+	"lat": 37.97,
+	"lng": 23.73,
+	"paises": [
+		"Atenas"
+	],
+	"descripcion": "En la Acrópolis de Atenas se erige el Partenón, templo dórico dedicado a Atenea Partenos, símbolo del apogeo político y artístico de la ciudad en tiempos de Pericles.",
+	"wiki": "Partenón",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Partenón",
+			"url": "https://es.wikipedia.org/wiki/Parten%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

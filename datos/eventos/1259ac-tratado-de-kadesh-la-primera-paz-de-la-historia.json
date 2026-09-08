@@ -1,0 +1,19 @@
+{
+	"nombre": "Tratado de Kadesh, la primera paz de la historia",
+	"anio": -1259,
+	"lat": 34.56,
+	"lng": 36.52,
+	"paises": [
+		"Egipto"
+	],
+	"descripcion": "Ramsés II y Hattusili III sellan el primer tratado de paz conservado; una copia preside la sede de la ONU.",
+	"wiki": "Tratado de paz egipcio-hitita",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de paz egipcio-hitita",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_paz_egipcio-hitita",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

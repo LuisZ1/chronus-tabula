@@ -1,0 +1,216 @@
+{
+	"id": "treintaanos",
+	"nombre": "Guerra de los Treinta Años",
+	"inicio": 1618,
+	"fin": 1648,
+	"paises": [
+		"Sacro Imperio",
+		"España",
+		"Suecia",
+		"Francia",
+		"Dinamarca",
+		"Países Bajos"
+	],
+	"bajas": "~4.500.000-8.000.000 de muertos",
+	"descripcion": "Guerra religiosa y política que devasta Centroeuropa; acaba con la Paz de Westfalia.",
+	"batallas": [
+		{
+			"nombre": "Naval Batalla de Saint-Martin-de-Ré",
+			"anio": 1622,
+			"lat": 46.22,
+			"lng": -1.37
+		},
+		{
+			"nombre": "Batalla de Breitenfeld",
+			"anio": 1631,
+			"lat": 51.41,
+			"lng": 12.36,
+			"bajas": "~13.000 imperiales muertos",
+			"descripcion": "Primera gran victoria protestante, de Gustavo II Adolfo."
+		},
+		{
+			"nombre": "Batalla de Rocroi",
+			"anio": 1643,
+			"lat": 49.93,
+			"lng": 4.52,
+			"bajas": "~7.000 muertos",
+			"descripcion": "Francia derrota a los tercios españoles; ocaso de su leyenda."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Bohemia y Palatinado",
+			"tipo": "frente",
+			"desde": 1618,
+			"hasta": 1623,
+			"poligono": [
+				[
+					50.8,
+					12
+				],
+				[
+					50.5,
+					15.5
+				],
+				[
+					49,
+					15
+				],
+				[
+					48.7,
+					12
+				],
+				[
+					49.4,
+					8
+				],
+				[
+					50.2,
+					8
+				]
+			]
+		},
+		{
+			"nombre": "Fase danesa (norte de Alemania)",
+			"tipo": "frente",
+			"desde": 1625,
+			"hasta": 1629,
+			"poligono": [
+				[
+					54.8,
+					8.5
+				],
+				[
+					54.5,
+					13.5
+				],
+				[
+					52.5,
+					13
+				],
+				[
+					52.5,
+					9
+				]
+			]
+		},
+		{
+			"nombre": "Fase sueca",
+			"tipo": "frente",
+			"desde": 1630,
+			"hasta": 1635,
+			"poligono": [
+				[
+					54.3,
+					11
+				],
+				[
+					53.5,
+					14.5
+				],
+				[
+					51,
+					14.5
+				],
+				[
+					48.5,
+					12
+				],
+				[
+					48.8,
+					9.5
+				],
+				[
+					51.5,
+					9.5
+				],
+				[
+					53,
+					10
+				]
+			]
+		},
+		{
+			"nombre": "Fase francesa",
+			"tipo": "frente",
+			"desde": 1635,
+			"hasta": 1648,
+			"poligono": [
+				[
+					51,
+					6
+				],
+				[
+					50.5,
+					14
+				],
+				[
+					48,
+					14
+				],
+				[
+					47.5,
+					7
+				],
+				[
+					48.5,
+					5.5
+				]
+			]
+		},
+		{
+			"nombre": "Alemania devastada",
+			"tipo": "ocupado",
+			"desde": 1630,
+			"hasta": 1648,
+			"poligono": [
+				[
+					54.5,
+					7
+				],
+				[
+					54.5,
+					15
+				],
+				[
+					51.5,
+					17
+				],
+				[
+					48,
+					17
+				],
+				[
+					47.2,
+					10.5
+				],
+				[
+					48.5,
+					6.5
+				],
+				[
+					52,
+					6
+				]
+			]
+		}
+	],
+	"wiki": "Guerra de los Treinta Años",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de los Treinta Años",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Treinta_Años",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2890947",
+			"url": "https://www.wikidata.org/wiki/Q2890947",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Gran Canal de China (dinastía Sui)",
+	"anio": 609,
+	"lat": 34.62,
+	"lng": 112.45,
+	"paises": [
+		"Dinastía Sui"
+	],
+	"descripcion": "La dinastía Sui construye el mayor canal del mundo antiguo, uniendo el norte y el sur de China y vertebrando su economía durante siglos.",
+	"wiki": "Gran Canal de China",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Gran Canal de China",
+			"url": "https://es.wikipedia.org/wiki/Gran_Canal_de_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

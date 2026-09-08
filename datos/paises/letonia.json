@@ -1,0 +1,223 @@
+{
+	"id": "letonia",
+	"nombre": "Letonia",
+	"nombres": [
+		"Latvia",
+		"Letonia"
+	],
+	"wikidata": "Q211",
+	"wiki": "es:Letonia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q211",
+			"url": "https://www.wikidata.org/wiki/Q211",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Letonia",
+			"url": "https://es.wikipedia.org/wiki/Letonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LVA",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 38
+		},
+		{
+			"anio": -9000,
+			"valor": 77
+		},
+		{
+			"anio": -8000,
+			"valor": 155
+		},
+		{
+			"anio": -7000,
+			"valor": 311
+		},
+		{
+			"anio": -6000,
+			"valor": 622
+		},
+		{
+			"anio": -5000,
+			"valor": 1245
+		},
+		{
+			"anio": -4000,
+			"valor": 2490
+		},
+		{
+			"anio": -3000,
+			"valor": 4980
+		},
+		{
+			"anio": -2000,
+			"valor": 9960
+		},
+		{
+			"anio": -1000,
+			"valor": 19920
+		},
+		{
+			"anio": 0,
+			"valor": 39841
+		},
+		{
+			"anio": 100,
+			"valor": 41938
+		},
+		{
+			"anio": 200,
+			"valor": 44146
+		},
+		{
+			"anio": 300,
+			"valor": 46469
+		},
+		{
+			"anio": 400,
+			"valor": 48915
+		},
+		{
+			"anio": 500,
+			"valor": 51489
+		},
+		{
+			"anio": 600,
+			"valor": 54199
+		},
+		{
+			"anio": 700,
+			"valor": 57052
+		},
+		{
+			"anio": 800,
+			"valor": 60055
+		},
+		{
+			"anio": 900,
+			"valor": 63216
+		},
+		{
+			"anio": 1000,
+			"valor": 66543
+		},
+		{
+			"anio": 1100,
+			"valor": 70045
+		},
+		{
+			"anio": 1200,
+			"valor": 73732
+		},
+		{
+			"anio": 1300,
+			"valor": 77612
+		},
+		{
+			"anio": 1400,
+			"valor": 81697
+		},
+		{
+			"anio": 1500,
+			"valor": 85997
+		},
+		{
+			"anio": 1600,
+			"valor": 90523
+		},
+		{
+			"anio": 1700,
+			"valor": 95288
+		},
+		{
+			"anio": 1750,
+			"valor": 205955
+		},
+		{
+			"anio": 1800,
+			"valor": 590588
+		},
+		{
+			"anio": 1850,
+			"valor": 962199
+		},
+		{
+			"anio": 1900,
+			"valor": 2148646
+		},
+		{
+			"anio": 1910,
+			"valor": 2450389
+		},
+		{
+			"anio": 1920,
+			"valor": 1860798
+		},
+		{
+			"anio": 1930,
+			"valor": 1875135
+		},
+		{
+			"anio": 1940,
+			"valor": 1921871
+		},
+		{
+			"anio": 1950,
+			"valor": 1918725
+		},
+		{
+			"anio": 1960,
+			"valor": 2131169
+		},
+		{
+			"anio": 1970,
+			"valor": 2357559
+		},
+		{
+			"anio": 1980,
+			"valor": 2511756
+		},
+		{
+			"anio": 1990,
+			"valor": 2660131
+		},
+		{
+			"anio": 2000,
+			"valor": 2368320
+		},
+		{
+			"anio": 2010,
+			"valor": 2097834
+		},
+		{
+			"anio": 2020,
+			"valor": 1901119
+		},
+		{
+			"anio": 2023,
+			"valor": 1882399
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "41a788ab52d1",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Letonia, oficialmente República de Letonia, es un país soberano de Europa Septentrional, constituido en estado social y democrático de derecho y cuya forma de gobierno es la república parlamentaria. Es uno de los veintisiete Estados soberanos que forman la Unión Europea."
+}

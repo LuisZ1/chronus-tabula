@@ -1,0 +1,213 @@
+{
+	"id": "invasiones-vikingas",
+	"nombre": "Invasiones vikingas",
+	"inicio": 793,
+	"fin": 1066,
+	"paises": [
+		"Vikingos (Escandinavia)",
+		"Inglaterra",
+		"Francia",
+		"Irlanda"
+	],
+	"bajas": "decenas de miles a lo largo de tres siglos (sin registros fiables)",
+	"descripcion": "Del saqueo de Lindisfarne (793) a Stamford Bridge (1066): los escandinavos asaltan y luego colonizan las islas británicas, Irlanda y el Sena, imponen el Danelaw en el noreste de Inglaterra y fundan desde Dublín hasta Normandía.",
+	"wiki": "Era vikinga",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Era vikinga",
+			"url": "https://es.wikipedia.org/wiki/Era_vikinga",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Danelaw",
+			"url": "https://es.wikipedia.org/wiki/Danelaw",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Incursiones costeras en las islas británicas",
+			"tipo": "frente",
+			"desde": 793,
+			"hasta": 865,
+			"poligono": [
+				[
+					59.0,
+					-7.5
+				],
+				[
+					58.5,
+					-1.0
+				],
+				[
+					51.0,
+					1.5
+				],
+				[
+					50.5,
+					-5.5
+				],
+				[
+					53.5,
+					-11.0
+				]
+			]
+		},
+		{
+			"nombre": "El Danelaw (Northumbria, Anglia Oriental y las Cinco Ciudades)",
+			"tipo": "ocupado",
+			"desde": 865,
+			"hasta": 954,
+			"poligono": [
+				[
+					55.0,
+					-2.6
+				],
+				[
+					54.5,
+					-0.2
+				],
+				[
+					52.0,
+					1.6
+				],
+				[
+					51.9,
+					-1.0
+				],
+				[
+					53.6,
+					-2.9
+				]
+			]
+		},
+		{
+			"nombre": "Reino vikingo de Dublín",
+			"tipo": "ocupado",
+			"desde": 841,
+			"hasta": 1014,
+			"poligono": [
+				[
+					53.7,
+					-6.9
+				],
+				[
+					53.7,
+					-5.9
+				],
+				[
+					53.0,
+					-5.9
+				],
+				[
+					53.0,
+					-6.9
+				]
+			]
+		},
+		{
+			"nombre": "Incursiones por el Sena (hasta el tratado de 911)",
+			"tipo": "frente",
+			"desde": 834,
+			"hasta": 911,
+			"poligono": [
+				[
+					49.8,
+					-0.6
+				],
+				[
+					49.4,
+					1.6
+				],
+				[
+					48.7,
+					2.7
+				],
+				[
+					48.6,
+					0.9
+				],
+				[
+					49.3,
+					-0.4
+				]
+			]
+		},
+		{
+			"nombre": "Invasión noruega de Harald Hardrada",
+			"tipo": "frente",
+			"desde": 1066,
+			"hasta": 1066,
+			"poligono": [
+				[
+					54.3,
+					-1.8
+				],
+				[
+					54.2,
+					-0.3
+				],
+				[
+					53.7,
+					-0.6
+				],
+				[
+					53.8,
+					-1.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Saqueo de Lindisfarne",
+			"anio": 793,
+			"lat": 55.68,
+			"lng": -1.8,
+			"descripcion": "El asalto al monasterio de la isla sagrada, el 8 de junio de 793, marca el inicio de la era vikinga.",
+			"wiki": "Saqueo de Lindisfarne"
+		},
+		{
+			"nombre": "Toma de York (Jórvik)",
+			"anio": 866,
+			"lat": 53.96,
+			"lng": -1.08,
+			"descripcion": "El Gran Ejército Pagano de Ivar y Halfdan captura York, capital del futuro Danelaw."
+		},
+		{
+			"nombre": "Batalla de Edington",
+			"anio": 878,
+			"lat": 51.29,
+			"lng": -2.11,
+			"descripcion": "Alfredo el Grande derrota a Guthrum y salva Wessex; el tratado posterior fija las fronteras del Danelaw.",
+			"wiki": "Batalla de Edington"
+		},
+		{
+			"nombre": "Asedio de París",
+			"anio": 885,
+			"hasta": 886,
+			"lat": 48.85,
+			"lng": 2.35,
+			"descripcion": "Cientos de barcos vikingos sitian París durante un año; el conde Odón resiste.",
+			"wiki": "Sitio de París (885-886)"
+		},
+		{
+			"nombre": "Batalla de Brunanburh",
+			"anio": 937,
+			"lat": 53.35,
+			"lng": -3.02,
+			"descripcion": "Athelstan vence a la alianza de vikingos de Dublín y escoceses: nace la idea de Inglaterra unida.",
+			"wiki": "Batalla de Brunanburh"
+		},
+		{
+			"nombre": "Batalla de Clontarf",
+			"anio": 1014,
+			"lat": 53.36,
+			"lng": -6.2,
+			"descripcion": "Brian Boru quiebra el poder vikingo en Irlanda, muriendo en la victoria.",
+			"wiki": "Batalla de Clontarf"
+		}
+	]
+}

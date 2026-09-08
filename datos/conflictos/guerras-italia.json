@@ -1,0 +1,146 @@
+{
+	"id": "guerras-italia",
+	"nombre": "Guerras de Italia",
+	"inicio": 1494,
+	"fin": 1559,
+	"paises": [
+		"España",
+		"Francia",
+		"Sacro Imperio",
+		"Venecia",
+		"Estados Pontificios",
+		"Suiza"
+	],
+	"bajas": "~300.000-400.000 muertos",
+	"descripcion": "Sesenta años de lucha franco-española por Italia: el Gran Capitán inventa los tercios, Carlos V captura a Francisco I en Pavía y la Paz de Cateau-Cambrésis consagra la hegemonía española.",
+	"wiki": "Guerras italianas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras italianas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_italianas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2297059",
+			"url": "https://www.wikidata.org/wiki/Q2297059",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Nápoles (el Gran Capitán)",
+			"tipo": "frente",
+			"desde": 1494,
+			"hasta": 1504,
+			"poligono": [
+				[
+					41.5,
+					13.5
+				],
+				[
+					41.3,
+					16.5
+				],
+				[
+					40,
+					16.3
+				],
+				[
+					40,
+					13.8
+				]
+			]
+		},
+		{
+			"nombre": "Lombardía",
+			"tipo": "frente",
+			"desde": 1515,
+			"hasta": 1559,
+			"poligono": [
+				[
+					45.7,
+					8
+				],
+				[
+					45.6,
+					11
+				],
+				[
+					44.8,
+					10.8
+				],
+				[
+					44.9,
+					8.2
+				]
+			]
+		},
+		{
+			"nombre": "Italia española",
+			"tipo": "ocupado",
+			"desde": 1504,
+			"hasta": 1559,
+			"poligono": [
+				[
+					41.3,
+					12.8
+				],
+				[
+					41,
+					17
+				],
+				[
+					38,
+					16.5
+				],
+				[
+					37,
+					15.5
+				],
+				[
+					38.2,
+					13
+				],
+				[
+					40.2,
+					14
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Ceriñola",
+			"anio": 1503,
+			"lat": 41.27,
+			"lng": 15.9,
+			"descripcion": "El Gran Capitán gana la primera batalla decidida por la pólvora de infantería."
+		},
+		{
+			"nombre": "Batalla de Pavía",
+			"anio": 1525,
+			"lat": 45.19,
+			"lng": 9.16,
+			"bajas": "~8.000 franceses muertos",
+			"descripcion": "Los arcabuceros españoles capturan al rey Francisco I de Francia."
+		},
+		{
+			"nombre": "Battle of the Solent",
+			"anio": 1545,
+			"lat": 50.78,
+			"lng": -1.23
+		},
+		{
+			"nombre": "Batalla de San Quintín",
+			"anio": 1557,
+			"lat": 49.85,
+			"lng": 3.29,
+			"descripcion": "La victoria de Felipe II que conmemora El Escorial."
+		}
+	]
+}

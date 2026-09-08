@@ -1,0 +1,20 @@
+{
+	"nombre": "Descubrimiento del bosón de Higgs",
+	"anio": 2012,
+	"lat": 46.23,
+	"lng": 6.05,
+	"categoria": "invento",
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "El LHC del CERN confirma la partícula que da masa a las demás, medio siglo después de predecirse.",
+	"wiki": "Bosón de Higgs",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Bosón de Higgs",
+			"url": "https://es.wikipedia.org/wiki/Bosón_de_Higgs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

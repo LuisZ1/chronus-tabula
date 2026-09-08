@@ -1,0 +1,19 @@
+{
+	"nombre": "Gran Salto Adelante",
+	"anio": 1958,
+	"lat": 39.9,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "Campaña de colectivización e industrialización acelerada impulsada por Mao (1958-1960) que provocó una hambruna masiva.",
+	"wiki": "Gran Salto Adelante",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Gran Salto Adelante",
+			"url": "https://es.wikipedia.org/wiki/Gran_Salto_Adelante",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

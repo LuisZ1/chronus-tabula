@@ -1,0 +1,52 @@
+{
+	"id": "bulgaria-primer",
+	"nombre": "Primer Imperio búlgaro",
+	"nombres": [
+		"Bulgaria"
+	],
+	"wiki": "Primer Imperio búlgaro",
+	"gobernantes": [
+		{
+			"desde": 852,
+			"hasta": 889,
+			"nombre": "Boris I",
+			"titulo": "Kan y luego zar, cristianiza a los búlgaros"
+		},
+		{
+			"desde": 893,
+			"hasta": 927,
+			"nombre": "Simeón I",
+			"titulo": "Zar de los búlgaros, máxima expansión"
+		},
+		{
+			"desde": 997,
+			"hasta": 1014,
+			"nombre": "Samuel",
+			"titulo": "Zar, derrotado por Basilio II"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primer Imperio búlgaro",
+			"url": "https://es.wikipedia.org/wiki/Primer_Imperio_búlgaro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Primer Imperio búlgaro",
+			"url": "https://es.wikipedia.org/wiki/Primer_Imperio_b%C3%BAlgaro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Primer Imperio búlgaro fue un Estado de Europa Oriental existente entre 681 d. C.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "fbae2dc74239",
+		"secciones": [
+			"resena"
+		]
+	}
+}

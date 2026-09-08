@@ -1,0 +1,251 @@
+{
+	"id": "alejandro",
+	"nombre": "Conquistas de Alejandro Magno",
+	"inicio": -334,
+	"fin": -323,
+	"paises": [
+		"Macedonia y Liga Helénica",
+		"Imperio aqueménida (Persia)"
+	],
+	"bajas": "~150.000-300.000 muertos",
+	"descripcion": "En once años Alejandro conquista el Imperio persa y llega hasta el Indo.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Issos",
+			"anio": -333,
+			"lat": 36.84,
+			"lng": 36.2,
+			"descripcion": "Primera derrota de Darío III en persona."
+		},
+		{
+			"nombre": "Batalla de Gaugamela",
+			"anio": -331,
+			"lat": 36.56,
+			"lng": 43.44,
+			"bajas": "~50.000 persas muertos",
+			"descripcion": "Victoria decisiva que abre a Alejandro el corazón de Persia."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Asia Menor",
+			"tipo": "frente",
+			"desde": -334,
+			"hasta": -333,
+			"poligono": [
+				[
+					40.5,
+					26
+				],
+				[
+					41,
+					35
+				],
+				[
+					38,
+					36.5
+				],
+				[
+					36.5,
+					30
+				],
+				[
+					38.5,
+					26.5
+				]
+			]
+		},
+		{
+			"nombre": "Levante y Egipto",
+			"tipo": "frente",
+			"desde": -333,
+			"hasta": -331,
+			"poligono": [
+				[
+					36.8,
+					35.5
+				],
+				[
+					36.5,
+					38
+				],
+				[
+					33,
+					36
+				],
+				[
+					31,
+					34.5
+				],
+				[
+					30.5,
+					32
+				],
+				[
+					29.5,
+					31
+				],
+				[
+					31.2,
+					29.8
+				],
+				[
+					33.5,
+					35
+				]
+			]
+		},
+		{
+			"nombre": "Mesopotamia y Persia",
+			"tipo": "frente",
+			"desde": -331,
+			"hasta": -329,
+			"poligono": [
+				[
+					37,
+					42
+				],
+				[
+					36,
+					46
+				],
+				[
+					34,
+					48
+				],
+				[
+					32,
+					52
+				],
+				[
+					29,
+					53
+				],
+				[
+					30,
+					48
+				],
+				[
+					33,
+					43
+				]
+			]
+		},
+		{
+			"nombre": "Bactria y Sogdiana",
+			"tipo": "frente",
+			"desde": -329,
+			"hasta": -327,
+			"poligono": [
+				[
+					40,
+					62
+				],
+				[
+					40,
+					69
+				],
+				[
+					36,
+					70
+				],
+				[
+					34,
+					66
+				],
+				[
+					36,
+					62
+				]
+			]
+		},
+		{
+			"nombre": "India (valle del Indo)",
+			"tipo": "frente",
+			"desde": -327,
+			"hasta": -325,
+			"poligono": [
+				[
+					34,
+					71
+				],
+				[
+					33,
+					75
+				],
+				[
+					30,
+					74
+				],
+				[
+					27,
+					68.5
+				],
+				[
+					29,
+					67
+				],
+				[
+					32,
+					70
+				]
+			]
+		},
+		{
+			"nombre": "Imperio conquistado",
+			"tipo": "ocupado",
+			"desde": -330,
+			"hasta": -323,
+			"poligono": [
+				[
+					40.5,
+					27
+				],
+				[
+					39,
+					44
+				],
+				[
+					38,
+					58
+				],
+				[
+					36,
+					66
+				],
+				[
+					31,
+					62
+				],
+				[
+					28,
+					55
+				],
+				[
+					30,
+					48
+				],
+				[
+					31,
+					34
+				],
+				[
+					36,
+					29
+				]
+			]
+		}
+	],
+	"wiki": "Alejandro Magno",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Alejandro Magno",
+			"url": "https://es.wikipedia.org/wiki/Alejandro_Magno",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

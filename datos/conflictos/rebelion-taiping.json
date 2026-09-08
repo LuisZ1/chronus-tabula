@@ -1,0 +1,94 @@
+{
+	"id": "rebelion-taiping",
+	"nombre": "Rebelión Taiping",
+	"inicio": 1850,
+	"fin": 1864,
+	"paises": [
+		"China",
+		"Gran Bretaña",
+		"Francia"
+	],
+	"bajas": "~20-30 millones de muertos: la guerra civil más letal de la historia",
+	"descripcion": "Hong Xiuquan, autoproclamado hermano de Jesucristo, funda el «Reino Celestial de la Gran Paz» y arrastra al valle del Yangtsé a una guerra que desangra a la China Qing.",
+	"wiki": "Rebelión Taiping",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Rebelión Taiping",
+			"url": "https://es.wikipedia.org/wiki/Rebelión_Taiping",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Reino Celestial (valle del Yangtsé)",
+			"tipo": "ocupado",
+			"desde": 1853,
+			"hasta": 1864,
+			"poligono": [
+				[
+					32.5,
+					115.0
+				],
+				[
+					32.3,
+					121.0
+				],
+				[
+					29.5,
+					120.5
+				],
+				[
+					29.0,
+					114.5
+				]
+			]
+		},
+		{
+			"nombre": "Campañas Qing de reconquista",
+			"tipo": "frente",
+			"desde": 1860,
+			"hasta": 1864,
+			"poligono": [
+				[
+					32.6,
+					117.5
+				],
+				[
+					32.4,
+					119.8
+				],
+				[
+					31.5,
+					119.6
+				],
+				[
+					31.6,
+					117.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Nankín",
+			"anio": 1853,
+			"lat": 32.06,
+			"lng": 118.8,
+			"descripcion": "Los taiping hacen de Nankín su «capital celestial» durante once años."
+		},
+		{
+			"nombre": "Caída de Nankín",
+			"anio": 1864,
+			"lat": 32.05,
+			"lng": 118.78,
+			"descripcion": "El ejército de Zeng Guofan aplasta el reino; matanza de cientos de miles."
+		}
+	]
+}

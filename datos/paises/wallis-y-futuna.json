@@ -1,0 +1,33 @@
+{
+	"id": "wallis-y-futuna",
+	"nombre": "Wallis y Futuna",
+	"nombres": [
+		"Wallis and Futuna Islands",
+		"Wallis y Futuna"
+	],
+	"wikidata": "Q35555",
+	"wiki": "es:Wallis y Futuna",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q35555",
+			"url": "https://www.wikidata.org/wiki/Q35555",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Wallis y Futuna",
+			"url": "https://es.wikipedia.org/wiki/Wallis_y_Futuna",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Wallis y Futuna es un grupo de tres islas tropicales de origen volcánico situadas en el océano Pacífico Sur, entre Fiyi y Samoa, constituidas como colectividad de ultramar francesa. Entre 1961 y 2003 tuvo estatus de territorio de ultramar.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2d23933fc6e9",
+		"secciones": [
+			"resena"
+		]
+	}
+}

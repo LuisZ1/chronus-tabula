@@ -1,0 +1,222 @@
+{
+	"id": "uruguay",
+	"nombre": "Uruguay",
+	"nombres": [
+		"Uruguay"
+	],
+	"wikidata": "Q77",
+	"wiki": "es:Uruguay",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q77",
+			"url": "https://www.wikidata.org/wiki/Q77",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Uruguay",
+			"url": "https://es.wikipedia.org/wiki/Uruguay",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "URY",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1705
+		},
+		{
+			"anio": -9000,
+			"valor": 1894
+		},
+		{
+			"anio": -8000,
+			"valor": 2105
+		},
+		{
+			"anio": -7000,
+			"valor": 2339
+		},
+		{
+			"anio": -6000,
+			"valor": 2598
+		},
+		{
+			"anio": -5000,
+			"valor": 2887
+		},
+		{
+			"anio": -4000,
+			"valor": 3208
+		},
+		{
+			"anio": -3000,
+			"valor": 3565
+		},
+		{
+			"anio": -2000,
+			"valor": 3961
+		},
+		{
+			"anio": -1000,
+			"valor": 4401
+		},
+		{
+			"anio": 0,
+			"valor": 4890
+		},
+		{
+			"anio": 100,
+			"valor": 5435
+		},
+		{
+			"anio": 200,
+			"valor": 6040
+		},
+		{
+			"anio": 300,
+			"valor": 6714
+		},
+		{
+			"anio": 400,
+			"valor": 7463
+		},
+		{
+			"anio": 500,
+			"valor": 8295
+		},
+		{
+			"anio": 600,
+			"valor": 9221
+		},
+		{
+			"anio": 700,
+			"valor": 10252
+		},
+		{
+			"anio": 800,
+			"valor": 11397
+		},
+		{
+			"anio": 900,
+			"valor": 12672
+		},
+		{
+			"anio": 1000,
+			"valor": 14091
+		},
+		{
+			"anio": 1100,
+			"valor": 15670
+		},
+		{
+			"anio": 1200,
+			"valor": 17428
+		},
+		{
+			"anio": 1300,
+			"valor": 19386
+		},
+		{
+			"anio": 1400,
+			"valor": 21566
+		},
+		{
+			"anio": 1500,
+			"valor": 23995
+		},
+		{
+			"anio": 1600,
+			"valor": 26701
+		},
+		{
+			"anio": 1700,
+			"valor": 29719
+		},
+		{
+			"anio": 1750,
+			"valor": 38408
+		},
+		{
+			"anio": 1800,
+			"valor": 55000
+		},
+		{
+			"anio": 1850,
+			"valor": 134084
+		},
+		{
+			"anio": 1900,
+			"valor": 919712
+		},
+		{
+			"anio": 1910,
+			"valor": 1101649
+		},
+		{
+			"anio": 1920,
+			"valor": 1392464
+		},
+		{
+			"anio": 1930,
+			"valor": 1732125
+		},
+		{
+			"anio": 1940,
+			"valor": 1993585
+		},
+		{
+			"anio": 1950,
+			"valor": 2234414
+		},
+		{
+			"anio": 1960,
+			"valor": 2529964
+		},
+		{
+			"anio": 1970,
+			"valor": 2790811
+		},
+		{
+			"anio": 1980,
+			"valor": 2951956
+		},
+		{
+			"anio": 1990,
+			"valor": 3104404
+		},
+		{
+			"anio": 2000,
+			"valor": 3266212
+		},
+		{
+			"anio": 2010,
+			"valor": 3318581
+		},
+		{
+			"anio": 2020,
+			"valor": 3398966
+		},
+		{
+			"anio": 2023,
+			"valor": 3388083
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "7365b1f8896f",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Uruguay, oficialmente República Oriental del Uruguay, es un país soberano de América del Sur, situado en la parte oriental del Cono Sur. Su capital y ciudad más poblada es Montevideo."
+}

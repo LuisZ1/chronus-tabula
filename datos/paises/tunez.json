@@ -1,0 +1,142 @@
+{
+	"id": "tunez",
+	"nombre": "Tunez",
+	"nombres": [
+		"Tunisia",
+		"Tunis",
+		"Republica Tunecina",
+		"Reino de Tunez"
+	],
+	"wiki": "es:Túnez",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-en-presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Tunisia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q948",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Túnez",
+			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Protectorado frances de Tunez",
+			"desde": 1881,
+			"hasta": 1956
+		},
+		{
+			"nombre": "Reino de Tunez",
+			"desde": 1956,
+			"hasta": 1957
+		},
+		{
+			"nombre": "Republica Tunecina",
+			"desde": 1957,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q948",
+	"gobernantes": [
+		{
+			"nombre": "Habib Bourguiba",
+			"desde": 1957,
+			"hasta": 1987,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Zine El Abidine Ben Ali",
+			"desde": 1987,
+			"hasta": 2011,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Fouad Mebazaa",
+			"desde": 2011,
+			"hasta": 2011,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Moncef Marzouki",
+			"desde": 2011,
+			"hasta": 2014,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Beji Caid Essebsi",
+			"desde": 2014,
+			"hasta": 2019,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mohamed Ennaceur",
+			"desde": 2019,
+			"hasta": 2019,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Kais Saied",
+			"desde": 2019,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1956,
+			"valor": 3783000,
+			"fuente": "Censo 1956 (Wikipedia)"
+		},
+		{
+			"anio": 1966,
+			"valor": 4533351,
+			"fuente": "Censo 1966 (Wikipedia)"
+		},
+		{
+			"anio": 1984,
+			"valor": 6966173,
+			"fuente": "Censo 1984 (Wikipedia)"
+		},
+		{
+			"anio": 2004,
+			"valor": 9910872,
+			"fuente": "Censo 2004 (Wikipedia)"
+		},
+		{
+			"anio": 2014,
+			"valor": 10982754,
+			"fuente": "Censo 2014 (Wikipedia)"
+		},
+		{
+			"anio": 2023,
+			"valor": 12458200,
+			"fuente": "Wikipedia (es), estimacion"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "dc31e404736b",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Túnez, oficialmente República de Túnez o República Tunecina, es un país soberano situado en el norte de África, más concretamente en la costa mediterránea. Su territorio está organizado en 24 gobernaciones o wilayat."
+}

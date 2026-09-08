@@ -1,0 +1,222 @@
+{
+	"id": "australia",
+	"nombre": "Australia",
+	"nombres": [
+		"Australia"
+	],
+	"wikidata": "Q408",
+	"wiki": "es:Australia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q408",
+			"url": "https://www.wikidata.org/wiki/Q408",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Australia",
+			"url": "https://es.wikipedia.org/wiki/Australia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "AUS",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 314500
+		},
+		{
+			"anio": -9000,
+			"valor": 314500
+		},
+		{
+			"anio": -8000,
+			"valor": 314501
+		},
+		{
+			"anio": -7000,
+			"valor": 314501
+		},
+		{
+			"anio": -6000,
+			"valor": 314501
+		},
+		{
+			"anio": -5000,
+			"valor": 314502
+		},
+		{
+			"anio": -4000,
+			"valor": 314502
+		},
+		{
+			"anio": -3000,
+			"valor": 314503
+		},
+		{
+			"anio": -2000,
+			"valor": 314503
+		},
+		{
+			"anio": -1000,
+			"valor": 314504
+		},
+		{
+			"anio": 0,
+			"valor": 314506
+		},
+		{
+			"anio": 100,
+			"valor": 314509
+		},
+		{
+			"anio": 200,
+			"valor": 314513
+		},
+		{
+			"anio": 300,
+			"valor": 314520
+		},
+		{
+			"anio": 400,
+			"valor": 314530
+		},
+		{
+			"anio": 500,
+			"valor": 314546
+		},
+		{
+			"anio": 600,
+			"valor": 314569
+		},
+		{
+			"anio": 700,
+			"valor": 314604
+		},
+		{
+			"anio": 800,
+			"valor": 314656
+		},
+		{
+			"anio": 900,
+			"valor": 314734
+		},
+		{
+			"anio": 1000,
+			"valor": 314851
+		},
+		{
+			"anio": 1100,
+			"valor": 315026
+		},
+		{
+			"anio": 1200,
+			"valor": 315290
+		},
+		{
+			"anio": 1300,
+			"valor": 315685
+		},
+		{
+			"anio": 1400,
+			"valor": 316277
+		},
+		{
+			"anio": 1500,
+			"valor": 317166
+		},
+		{
+			"anio": 1600,
+			"valor": 318500
+		},
+		{
+			"anio": 1700,
+			"valor": 314500
+		},
+		{
+			"anio": 1750,
+			"valor": 314500
+		},
+		{
+			"anio": 1800,
+			"valor": 200000
+		},
+		{
+			"anio": 1850,
+			"valor": 622584
+		},
+		{
+			"anio": 1900,
+			"valor": 3693331
+		},
+		{
+			"anio": 1910,
+			"valor": 4329018
+		},
+		{
+			"anio": 1920,
+			"valor": 5274343
+		},
+		{
+			"anio": 1930,
+			"valor": 6332771
+		},
+		{
+			"anio": 1940,
+			"valor": 6967916
+		},
+		{
+			"anio": 1950,
+			"valor": 8176751
+		},
+		{
+			"anio": 1960,
+			"valor": 10280815
+		},
+		{
+			"anio": 1970,
+			"valor": 12599414
+		},
+		{
+			"anio": 1980,
+			"valor": 14721345
+		},
+		{
+			"anio": 1990,
+			"valor": 17126304
+		},
+		{
+			"anio": 2000,
+			"valor": 19132472
+		},
+		{
+			"anio": 2010,
+			"valor": 22141583
+		},
+		{
+			"anio": 2020,
+			"valor": 25743787
+		},
+		{
+			"anio": 2023,
+			"valor": 26451126
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "3d0ef449c3ca",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Australia, oficialmente, la Mancomunidad de Australia, es un país soberano que abarca la Australia continental, la isla de Tasmania y numerosas islas menores. Con una superficie de 7 741 220 km², Australia es el país más grande de Oceanía y el sexto más grande del mundo."
+}

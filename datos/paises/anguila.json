@@ -1,0 +1,211 @@
+{
+	"id": "anguila",
+	"nombre": "Anguila",
+	"nombres": [
+		"Anguilla",
+		"Anguila"
+	],
+	"wikidata": "Q25228",
+	"wiki": "es:Anguila",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q25228",
+			"url": "https://www.wikidata.org/wiki/Q25228",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Anguila",
+			"url": "https://es.wikipedia.org/wiki/Anguila",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "AIA",
+	"poblacion": [
+		{
+			"anio": -7000,
+			"valor": 1
+		},
+		{
+			"anio": -6000,
+			"valor": 3
+		},
+		{
+			"anio": -5000,
+			"valor": 7
+		},
+		{
+			"anio": -4000,
+			"valor": 14
+		},
+		{
+			"anio": -3000,
+			"valor": 29
+		},
+		{
+			"anio": -2000,
+			"valor": 58
+		},
+		{
+			"anio": -1000,
+			"valor": 116
+		},
+		{
+			"anio": 0,
+			"valor": 233
+		},
+		{
+			"anio": 100,
+			"valor": 254
+		},
+		{
+			"anio": 200,
+			"valor": 278
+		},
+		{
+			"anio": 300,
+			"valor": 303
+		},
+		{
+			"anio": 400,
+			"valor": 330
+		},
+		{
+			"anio": 500,
+			"valor": 361
+		},
+		{
+			"anio": 600,
+			"valor": 393
+		},
+		{
+			"anio": 700,
+			"valor": 429
+		},
+		{
+			"anio": 800,
+			"valor": 468
+		},
+		{
+			"anio": 900,
+			"valor": 511
+		},
+		{
+			"anio": 1000,
+			"valor": 557
+		},
+		{
+			"anio": 1100,
+			"valor": 608
+		},
+		{
+			"anio": 1200,
+			"valor": 663
+		},
+		{
+			"anio": 1300,
+			"valor": 724
+		},
+		{
+			"anio": 1400,
+			"valor": 790
+		},
+		{
+			"anio": 1500,
+			"valor": 861
+		},
+		{
+			"anio": 1600,
+			"valor": 940
+		},
+		{
+			"anio": 1700,
+			"valor": 1025
+		},
+		{
+			"anio": 1750,
+			"valor": 1763
+		},
+		{
+			"anio": 1800,
+			"valor": 2654
+		},
+		{
+			"anio": 1850,
+			"valor": 3071
+		},
+		{
+			"anio": 1900,
+			"valor": 3980
+		},
+		{
+			"anio": 1910,
+			"valor": 4160
+		},
+		{
+			"anio": 1920,
+			"valor": 4187
+		},
+		{
+			"anio": 1930,
+			"valor": 4994
+		},
+		{
+			"anio": 1940,
+			"valor": 5533
+		},
+		{
+			"anio": 1950,
+			"valor": 5022
+		},
+		{
+			"anio": 1960,
+			"valor": 5801
+		},
+		{
+			"anio": 1970,
+			"valor": 6324
+		},
+		{
+			"anio": 1980,
+			"valor": 6612
+		},
+		{
+			"anio": 1990,
+			"valor": 8422
+		},
+		{
+			"anio": 2000,
+			"valor": 11196
+		},
+		{
+			"anio": 2010,
+			"valor": 13372
+		},
+		{
+			"anio": 2020,
+			"valor": 14864
+		},
+		{
+			"anio": 2023,
+			"valor": 14435
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "552a27542c09",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "El término anguila puede referirse a:las anguilas (Anguillidae), familia de peces teleósteos del orden Anguilliformes; la anguila americana ; la anguila europea ; la anguila eléctrica, pez de la familia Gymnotidae; Anguila, territorio británico de ultramar (archipiélago) localizado en el mar Caribe; Anguila, isla del archipiélago anterior; Anguilla, pueblo d…"
+}

@@ -1,0 +1,25 @@
+{
+	"nombre": "Restauración Meiji",
+	"anio": 1868,
+	"lat": 35.68,
+	"lng": 139.69,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Japón desmonta el sogunato y se industrializa en una generación: de país cerrado a potencia mundial.",
+	"wiki": "Restauración Meiji",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Restauración Meiji",
+			"url": "https://es.wikipedia.org/wiki/Restauración_Meiji",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

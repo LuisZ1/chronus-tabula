@@ -1,0 +1,224 @@
+{
+	"id": "banglades",
+	"nombre": "Bangladés",
+	"nombres": [
+		"Bangladesh",
+		"Bangladés",
+		"Republica Popular de Banglades"
+	],
+	"wikidata": "Q902",
+	"wiki": "es:Bangladés",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q902",
+			"url": "https://www.wikidata.org/wiki/Q902",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Bangladés",
+			"url": "https://es.wikipedia.org/wiki/Banglad%C3%A9s",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "BGD",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 9600
+		},
+		{
+			"anio": -9000,
+			"valor": 32893
+		},
+		{
+			"anio": -8000,
+			"valor": 54822
+		},
+		{
+			"anio": -7000,
+			"valor": 91371
+		},
+		{
+			"anio": -6000,
+			"valor": 152285
+		},
+		{
+			"anio": -5000,
+			"valor": 253808
+		},
+		{
+			"anio": -4000,
+			"valor": 423014
+		},
+		{
+			"anio": -3000,
+			"valor": 705024
+		},
+		{
+			"anio": -2000,
+			"valor": 1175040
+		},
+		{
+			"anio": -1000,
+			"valor": 1958400
+		},
+		{
+			"anio": 0,
+			"valor": 3264000
+		},
+		{
+			"anio": 100,
+			"valor": 3504000
+		},
+		{
+			"anio": 200,
+			"valor": 3744000
+		},
+		{
+			"anio": 300,
+			"valor": 4032000
+		},
+		{
+			"anio": 400,
+			"valor": 4320000
+		},
+		{
+			"anio": 500,
+			"valor": 4608000
+		},
+		{
+			"anio": 600,
+			"valor": 4896000
+		},
+		{
+			"anio": 700,
+			"valor": 5424000
+		},
+		{
+			"anio": 800,
+			"valor": 5952000
+		},
+		{
+			"anio": 900,
+			"valor": 6672000
+		},
+		{
+			"anio": 1000,
+			"valor": 7392000
+		},
+		{
+			"anio": 1100,
+			"valor": 7680000
+		},
+		{
+			"anio": 1200,
+			"valor": 7968000
+		},
+		{
+			"anio": 1300,
+			"valor": 7968000
+		},
+		{
+			"anio": 1400,
+			"valor": 9024000
+		},
+		{
+			"anio": 1500,
+			"valor": 9600000
+		},
+		{
+			"anio": 1600,
+			"valor": 12480000
+		},
+		{
+			"anio": 1700,
+			"valor": 15360000
+		},
+		{
+			"anio": 1750,
+			"valor": 17095576
+		},
+		{
+			"anio": 1800,
+			"valor": 19191243
+		},
+		{
+			"anio": 1850,
+			"valor": 22712211
+		},
+		{
+			"anio": 1900,
+			"valor": 26849595
+		},
+		{
+			"anio": 1910,
+			"valor": 27913022
+		},
+		{
+			"anio": 1920,
+			"valor": 28623503
+		},
+		{
+			"anio": 1930,
+			"valor": 30077163
+		},
+		{
+			"anio": 1940,
+			"valor": 36071677
+		},
+		{
+			"anio": 1950,
+			"valor": 41206857
+		},
+		{
+			"anio": 1960,
+			"valor": 51828663
+		},
+		{
+			"anio": 1970,
+			"valor": 69058898
+		},
+		{
+			"anio": 1980,
+			"valor": 88016435
+		},
+		{
+			"anio": 1990,
+			"valor": 111633722
+		},
+		{
+			"anio": 2000,
+			"valor": 134544303
+		},
+		{
+			"anio": 2010,
+			"valor": 152201978
+		},
+		{
+			"anio": 2020,
+			"valor": 166298024
+		},
+		{
+			"anio": 2023,
+			"valor": 171466986
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "bdee4254e045",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Bangladés o Bangladesh, oficialmente República Popular de Bangladés es un país soberano ubicado en Asia del Sur. Su territorio se encuentra rodeado casi por completo por la India, a excepción de una pequeña franja al sureste donde limita con Birmania."
+}

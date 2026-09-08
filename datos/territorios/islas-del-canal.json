@@ -1,0 +1,17 @@
+{
+	"nombre": "Islas del Canal",
+	"pais": "Inglaterra",
+	"lat": 49.3,
+	"lng": -2.3,
+	"desde": 1204,
+	"descripcion": "Restos del ducado de Normandía: al perder la Corona inglesa la Normandía continental (1204) quedaron como dependencias de la Corona, nunca integradas en el reino.",
+	"wiki": "Islas del Canal",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Islas del Canal",
+			"url": "https://es.wikipedia.org/wiki/Islas_del_Canal",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

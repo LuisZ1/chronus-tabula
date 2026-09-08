@@ -1,0 +1,129 @@
+{
+	"id": "senegal",
+	"nombre": "Senegal",
+	"nombres": [
+		"Senegal",
+		"Republique du Senegal",
+		"Republica del Senegal"
+	],
+	"wiki": "es:Senegal",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Senegal",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-es-presidentes",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Senegal",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1041",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Senegal",
+			"url": "https://es.wikipedia.org/wiki/Senegal",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Africa Occidental Francesa (Senegal)",
+			"desde": 1895,
+			"hasta": 1959
+		},
+		{
+			"nombre": "Federacion de Mali",
+			"desde": 1959,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Republica del Senegal",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1041",
+	"gobernantes": [
+		{
+			"nombre": "Leopold Sedar Senghor",
+			"desde": 1960,
+			"hasta": 1980,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Abdou Diouf",
+			"desde": 1980,
+			"hasta": 2000,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Abdoulaye Wade",
+			"desde": 2000,
+			"hasta": 2012,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Macky Sall",
+			"desde": 2012,
+			"hasta": 2024,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Bassirou Diomaye Faye",
+			"desde": 2024,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 2416000,
+			"fuente": "Wikipedia (es), estimacion"
+		},
+		{
+			"anio": 1960,
+			"valor": 3048000,
+			"fuente": "Wikipedia (es), estimacion"
+		},
+		{
+			"anio": 2002,
+			"valor": 9858482,
+			"fuente": "Censo 2002 (Wikipedia)"
+		},
+		{
+			"anio": 2008,
+			"valor": 12000000,
+			"fuente": "Wikipedia (es), estimacion"
+		},
+		{
+			"anio": 2013,
+			"valor": 13508715,
+			"fuente": "Censo 2013 (Wikipedia)"
+		},
+		{
+			"anio": 2023,
+			"valor": 18126390,
+			"fuente": "Censo 2023 (Wikipedia)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "632c6e8a6609",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Senegal, cuyo nombre oficial es República del Senegal, es un estado soberano de África Occidental cuya forma de gobierno es la república semipresidencialista. Su territorio está organizado en catorce regiones."
+}

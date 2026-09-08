@@ -1,0 +1,222 @@
+{
+	"id": "sri-lanka",
+	"nombre": "Sri Lanka",
+	"nombres": [
+		"Sri Lanka"
+	],
+	"wikidata": "Q854",
+	"wiki": "es:Sri Lanka",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q854",
+			"url": "https://www.wikidata.org/wiki/Q854",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Sri Lanka",
+			"url": "https://es.wikipedia.org/wiki/Sri_Lanka",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LKA",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 32212
+		},
+		{
+			"anio": -9000,
+			"valor": 40265
+		},
+		{
+			"anio": -8000,
+			"valor": 50331
+		},
+		{
+			"anio": -7000,
+			"valor": 62914
+		},
+		{
+			"anio": -6000,
+			"valor": 78643
+		},
+		{
+			"anio": -5000,
+			"valor": 98304
+		},
+		{
+			"anio": -4000,
+			"valor": 122880
+		},
+		{
+			"anio": -3000,
+			"valor": 153600
+		},
+		{
+			"anio": -2000,
+			"valor": 192000
+		},
+		{
+			"anio": -1000,
+			"valor": 240000
+		},
+		{
+			"anio": 0,
+			"valor": 300000
+		},
+		{
+			"anio": 100,
+			"valor": 350000
+		},
+		{
+			"anio": 200,
+			"valor": 400000
+		},
+		{
+			"anio": 300,
+			"valor": 450000
+		},
+		{
+			"anio": 400,
+			"valor": 500000
+		},
+		{
+			"anio": 500,
+			"valor": 550000
+		},
+		{
+			"anio": 600,
+			"valor": 600000
+		},
+		{
+			"anio": 700,
+			"valor": 650000
+		},
+		{
+			"anio": 800,
+			"valor": 700000
+		},
+		{
+			"anio": 900,
+			"valor": 750000
+		},
+		{
+			"anio": 1000,
+			"valor": 800000
+		},
+		{
+			"anio": 1100,
+			"valor": 900000
+		},
+		{
+			"anio": 1200,
+			"valor": 1000000
+		},
+		{
+			"anio": 1300,
+			"valor": 970000
+		},
+		{
+			"anio": 1400,
+			"valor": 930000
+		},
+		{
+			"anio": 1500,
+			"valor": 1000000
+		},
+		{
+			"anio": 1600,
+			"valor": 1250000
+		},
+		{
+			"anio": 1700,
+			"valor": 1500000
+		},
+		{
+			"anio": 1750,
+			"valor": 1393355
+		},
+		{
+			"anio": 1800,
+			"valor": 1750000
+		},
+		{
+			"anio": 1850,
+			"valor": 2169961
+		},
+		{
+			"anio": 1900,
+			"valor": 4063376
+		},
+		{
+			"anio": 1910,
+			"valor": 4860106
+		},
+		{
+			"anio": 1920,
+			"valor": 5500957
+		},
+		{
+			"anio": 1930,
+			"valor": 5987713
+		},
+		{
+			"anio": 1940,
+			"valor": 6492745
+		},
+		{
+			"anio": 1950,
+			"valor": 7811051
+		},
+		{
+			"anio": 1960,
+			"valor": 9661384
+		},
+		{
+			"anio": 1970,
+			"valor": 12287113
+		},
+		{
+			"anio": 1980,
+			"valor": 14847972
+		},
+		{
+			"anio": 1990,
+			"valor": 16352460
+		},
+		{
+			"anio": 2000,
+			"valor": 19293056
+		},
+		{
+			"anio": 2010,
+			"valor": 20879092
+		},
+		{
+			"anio": 2020,
+			"valor": 22561808
+		},
+		{
+			"anio": 2023,
+			"valor": 22971615
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "060962ab9c33",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Sri Lanka, oficialmente la República Socialista Democrática de Sri Lanka, es un país soberano insular de Asia del Sur, cuya forma de gobierno es la república semipresidencialista. Su territorio está organizado en nueve provincias y veinticuatro distritos."
+}

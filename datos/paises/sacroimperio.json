@@ -1,0 +1,94 @@
+{
+	"id": "sacroimperio",
+	"nombre": "Sacro Imperio Romano Germánico",
+	"nombres": [
+		"Holy Roman Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 962,
+			"hasta": 973,
+			"nombre": "Otón I el Grande",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1155,
+			"hasta": 1190,
+			"nombre": "Federico I Barbarroja",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1220,
+			"hasta": 1250,
+			"nombre": "Federico II Hohenstaufen",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1493,
+			"hasta": 1519,
+			"nombre": "Maximiliano I de Habsburgo",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1519,
+			"hasta": 1556,
+			"nombre": "Carlos V (Carlos I de España)",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1619,
+			"hasta": 1637,
+			"nombre": "Fernando II",
+			"titulo": "Emperador"
+		},
+		{
+			"desde": 1740,
+			"hasta": 1780,
+			"nombre": "María Teresa (con Francisco I)",
+			"titulo": "Archiduquesa de Austria"
+		},
+		{
+			"desde": 1792,
+			"hasta": 1806,
+			"nombre": "Francisco II (último emperador)",
+			"titulo": "Emperador"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1500,
+			"valor": 16000000
+		},
+		{
+			"anio": 1618,
+			"valor": 21000000
+		},
+		{
+			"anio": 1648,
+			"valor": 16000000
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sacro Imperio Romano Germánico",
+			"url": "https://es.wikipedia.org/wiki/Sacro_Imperio_Romano_Germánico",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Sacro Imperio Romano Germánico",
+			"url": "https://es.wikipedia.org/wiki/Sacro_Imperio_Romano_Germ%C3%A1nico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Sacro Imperio Romano Germánico, a veces llamado Imperio antiguo para distinguirlo del Imperio alemán de 1871-1918, fue una agrupación política situada en la Europa Occidental y Central, cuyo ámbito de poder recayó en el emperador romano germánico desde la Edad Media hasta inicios de la Edad Contemporánea.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "a405fa461f18",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"id": "opio",
+	"nombre": "Guerras del Opio",
+	"inicio": 1839,
+	"fin": 1860,
+	"paises": [
+		"Gran Bretaña",
+		"Francia",
+		"China Qing"
+	],
+	"bajas": "~50.000-70.000 muertos",
+	"descripcion": "Gran Bretaña impone a cañonazos el comercio del opio: China cede Hong Kong y abre sus puertos; en 1860 las tropas anglo-francesas saquean el Palacio de Verano de Pekín.",
+	"wiki": "Guerras del Opio",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras del Opio",
+			"url": "https://es.wikipedia.org/wiki/Guerras_del_Opio",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2663279",
+			"url": "https://www.wikidata.org/wiki/Q2663279",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Costa de Cantón y el Yangtsé",
+			"tipo": "frente",
+			"desde": 1839,
+			"hasta": 1842,
+			"poligono": [
+				[
+					32.2,
+					118.5
+				],
+				[
+					31.5,
+					122
+				],
+				[
+					22.5,
+					114.5
+				],
+				[
+					22.8,
+					112.8
+				],
+				[
+					28,
+					118
+				]
+			]
+		},
+		{
+			"nombre": "Norte de China (Pekín)",
+			"tipo": "frente",
+			"desde": 1856,
+			"hasta": 1860,
+			"poligono": [
+				[
+					40.3,
+					115.8
+				],
+				[
+					40,
+					118
+				],
+				[
+					38.8,
+					118.2
+				],
+				[
+					38.9,
+					116
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Cantón",
+			"anio": 1841,
+			"lat": 23.13,
+			"lng": 113.26,
+			"descripcion": "Los cañones británicos abren el sur de China."
+		},
+		{
+			"nombre": "Saqueo del Palacio de Verano",
+			"anio": 1860,
+			"lat": 40.01,
+			"lng": 116.27,
+			"descripcion": "Las tropas anglo-francesas incendian la maravilla imperial."
+		},
+		{
+			"nombre": "Batalla de Palikao",
+			"anio": 1860,
+			"lat": 39.91,
+			"lng": 116.61
+		}
+	]
+}

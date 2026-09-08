@@ -1,0 +1,152 @@
+{
+	"id": "angola",
+	"nombre": "Angola",
+	"nombres": [
+		"Angola",
+		"Angola (Portugal)",
+		"República de Angola"
+	],
+	"wiki": "es:Angola",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Angola",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q916",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Angola",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "demografia",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Angola",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Angola",
+			"url": "https://es.wikipedia.org/wiki/Angola",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q916",
+			"url": "https://www.wikidata.org/wiki/Q916",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Angola portuguesa",
+			"desde": 1575,
+			"hasta": 1975
+		},
+		{
+			"nombre": "República Popular de Angola",
+			"desde": 1975,
+			"hasta": 1992
+		},
+		{
+			"nombre": "República de Angola",
+			"desde": 1992,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q916",
+	"gobernantes": [
+		{
+			"nombre": "Afonso I de Kongo (Mvemba a Nzinga)",
+			"desde": 1509,
+			"hasta": 1543,
+			"cargo": "Manikongo (rey del Reino del Kongo)"
+		},
+		{
+			"nombre": "Nzinga Mbande (Reina Nzinga)",
+			"desde": 1624,
+			"hasta": 1663,
+			"cargo": "Reina de Ndongo y Matamba"
+		},
+		{
+			"nombre": "Administración colonial portuguesa",
+			"desde": 1575,
+			"hasta": 1975,
+			"cargo": "Colonia de Portugal"
+		},
+		{
+			"nombre": "Agostinho Neto",
+			"desde": 1975,
+			"hasta": 1979,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "José Eduardo dos Santos",
+			"desde": 1979,
+			"hasta": 2017,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "João Lourenço",
+			"desde": 2017,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 4148000,
+			"fuente": "ONU (World Population Prospects)"
+		},
+		{
+			"anio": 1970,
+			"valor": 5926000,
+			"fuente": "ONU (World Population Prospects)"
+		},
+		{
+			"anio": 1990,
+			"valor": 10335000,
+			"fuente": "ONU (World Population Prospects)"
+		},
+		{
+			"anio": 2000,
+			"valor": 13926000,
+			"fuente": "ONU (World Population Prospects)"
+		},
+		{
+			"anio": 2014,
+			"valor": 25789024,
+			"fuente": "Censo de Angola 2014"
+		},
+		{
+			"anio": 2023,
+			"valor": 36750000,
+			"fuente": "ONU (World Population Prospects)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "c91e64fc8bf2",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Angola, cuyo nombre oficial es República de Angola, es un país ubicado al sur de África que tiene fronteras con Namibia por el sur, con Zambia por el sureste, con la República Democrática del Congo por el norte y el noreste y con la República del Congo por el noroeste, mientras que hacia el oeste tiene costa en el océano Atlántico.",
+	"escudos": [
+		{
+			"archivo": "Emblem of Angola.svg"
+		}
+	]
+}

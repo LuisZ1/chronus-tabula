@@ -1,0 +1,19 @@
+{
+	"nombre": "Quema de libros y entierro de letrados (Qin)",
+	"anio": -213,
+	"lat": 34.33,
+	"lng": 108.7,
+	"paises": [
+		"Imperio Qin"
+	],
+	"descripcion": "El canciller Li Si impulsa la destrucción de textos y la persecución de eruditos para imponer la ortodoxia legista del Imperio Qin.",
+	"wiki": "Quema de libros y entierro de intelectuales",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Quema de libros y entierro de intelectuales",
+			"url": "https://es.wikipedia.org/wiki/Quema_de_libros_y_entierro_de_intelectuales",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

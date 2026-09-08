@@ -1,0 +1,59 @@
+{
+	"id": "anglo-espanola-1625",
+	"nombre": "Guerra anglo-española (1625-1630)",
+	"inicio": 1625,
+	"fin": 1630,
+	"paises": [
+		"España",
+		"Inglaterra"
+	],
+	"bajas": "~15.000 muertos, la mayoría por enfermedad",
+	"descripcion": "Carlos I de Inglaterra ataca Cádiz con una gran expedición que fracasa estrepitosamente; la guerra acaba en tablas con la Paz de Madrid.",
+	"wiki": "Guerra anglo-española (1625-1630)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra anglo-española (1625-1630)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1625-1630)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Golfo de Cádiz",
+			"tipo": "frente",
+			"mar": true,
+			"poligono": [
+				[
+					37,
+					-7.2
+				],
+				[
+					36.9,
+					-5.9
+				],
+				[
+					36.2,
+					-6
+				],
+				[
+					36.3,
+					-7.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Defensa de Cádiz",
+			"anio": 1625,
+			"lat": 36.53,
+			"lng": -6.29,
+			"bajas": "~7.000 bajas inglesas",
+			"descripcion": "La expedición de Cecil reembarca derrotada; la ciudad resiste."
+		}
+	]
+}

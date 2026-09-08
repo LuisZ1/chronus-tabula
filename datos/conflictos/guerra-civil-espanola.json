@@ -1,0 +1,202 @@
+{
+	"id": "guerra-civil-espanola",
+	"nombre": "Guerra Civil Española",
+	"inicio": 1936,
+	"fin": 1939,
+	"paises": [
+		"España (República)",
+		"España (bando sublevado)",
+		"Alemania",
+		"Italia",
+		"URSS (apoyo)"
+	],
+	"bajas": "~500.000 muertos",
+	"descripcion": "Guerra entre la República y los sublevados de Franco; antesala de la Segunda Guerra Mundial.",
+	"batallas": [
+		{
+			"nombre": "Defensa de Madrid",
+			"anio": 1936,
+			"lat": 40.42,
+			"lng": -3.7,
+			"descripcion": "«No pasarán»: la capital resiste el asalto inicial."
+		},
+		{
+			"nombre": "Bombardeo de Guernica",
+			"anio": 1937,
+			"lat": 43.32,
+			"lng": -2.68,
+			"bajas": "~150-300 civiles muertos",
+			"descripcion": "La Legión Cóndor arrasa la villa; inspira el cuadro de Picasso."
+		},
+		{
+			"nombre": "Batalla del Ebro",
+			"anio": 1938,
+			"lat": 41.08,
+			"lng": 0.44,
+			"bajas": "~100.000 bajas",
+			"descripcion": "La batalla más larga y dura de la guerra; agota a la República."
+		},
+		{
+			"nombre": "Batalla del Jarama",
+			"anio": 1937,
+			"lat": 40.27,
+			"lng": -3.53,
+			"bajas": "~20.000 bajas",
+			"descripcion": "Sangriento intento de cortar la carretera de Valencia."
+		},
+		{
+			"nombre": "Batalla de Teruel",
+			"anio": 1938,
+			"lat": 40.34,
+			"lng": -1.11,
+			"bajas": "~40.000 bajas entre la nieve",
+			"descripcion": "La única capital tomada por la República, reconquistada en semanas."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Avance sobre Madrid",
+			"tipo": "frente",
+			"desde": 1936,
+			"hasta": 1937,
+			"poligono": [
+				[
+					41,
+					-6.5
+				],
+				[
+					40.8,
+					-3
+				],
+				[
+					39.5,
+					-3.3
+				],
+				[
+					39.5,
+					-6.5
+				]
+			]
+		},
+		{
+			"nombre": "Frente del Norte",
+			"tipo": "frente",
+			"desde": 1936,
+			"hasta": 1937,
+			"poligono": [
+				[
+					43.7,
+					-8.5
+				],
+				[
+					43.6,
+					-1.8
+				],
+				[
+					42.8,
+					-2
+				],
+				[
+					42.9,
+					-8.2
+				]
+			]
+		},
+		{
+			"nombre": "Aragón y el Ebro",
+			"tipo": "frente",
+			"desde": 1937,
+			"hasta": 1938,
+			"poligono": [
+				[
+					42.5,
+					-1
+				],
+				[
+					42,
+					1.5
+				],
+				[
+					40.5,
+					0.8
+				],
+				[
+					40.8,
+					-1.5
+				]
+			]
+		},
+		{
+			"nombre": "Cataluña (ofensiva final)",
+			"tipo": "frente",
+			"desde": 1939,
+			"hasta": 1939,
+			"poligono": [
+				[
+					42.5,
+					0.7
+				],
+				[
+					42.4,
+					3.2
+				],
+				[
+					41.2,
+					2.2
+				],
+				[
+					41.3,
+					0.5
+				]
+			]
+		},
+		{
+			"nombre": "España en guerra",
+			"tipo": "ocupado",
+			"desde": 1936,
+			"hasta": 1939,
+			"poligono": [
+				[
+					43.7,
+					-8.7
+				],
+				[
+					43.4,
+					-1.5
+				],
+				[
+					41.9,
+					3.3
+				],
+				[
+					38.7,
+					0.2
+				],
+				[
+					36.1,
+					-5.6
+				],
+				[
+					37,
+					-7.4
+				],
+				[
+					41.8,
+					-9.2
+				]
+			]
+		}
+	],
+	"wiki": "Guerra civil española",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra civil española",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_española",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

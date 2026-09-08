@@ -1,0 +1,142 @@
+{
+	"id": "costa-marfil",
+	"nombre": "Costa de Marfil",
+	"nombres": [
+		"Ivory Coast",
+		"Costa de Marfil",
+		"Côte d'Ivoire",
+		"República de Costa de Marfil"
+	],
+	"wiki": "es:Costa de Marfil",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ivory_Coast",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Ivory_Coast",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1008",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Costa de Marfil",
+			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1008",
+			"url": "https://www.wikidata.org/wiki/Q1008",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "República de Costa de Marfil",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1008",
+	"gobernantes": [
+		{
+			"nombre": "Félix Houphouët-Boigny",
+			"desde": 1960,
+			"hasta": 1993,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Henri Konan Bédié",
+			"desde": 1993,
+			"hasta": 1999,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Robert Guéï",
+			"desde": 1999,
+			"hasta": 2000,
+			"cargo": "Presidente (junta militar)"
+		},
+		{
+			"nombre": "Laurent Gbagbo",
+			"desde": 2000,
+			"hasta": 2011,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Alassane Ouattara",
+			"desde": 2010,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 2630000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 1960,
+			"valor": 3504000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 1980,
+			"valor": 8034000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2000,
+			"valor": 16455000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2010,
+			"valor": 21530000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2020,
+			"valor": 26812000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2021,
+			"valor": 27478249,
+			"fuente": "ONU - WPP 2022"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4e79c9e788ce",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Costa de Marfil, oficialmente República de Costa de Marfil, es un país ubicado en África occidental. Limita con Liberia y Guinea al oeste, con Malí al noroeste, con Burkina Faso al noreste, con Ghana al este y posee costa en el golfo de Guinea por el sur.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Ivory Coast (2).svg"
+		}
+	]
+}

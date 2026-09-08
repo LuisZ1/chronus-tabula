@@ -1,0 +1,28 @@
+{
+	"nombre": "Crisis de Suez",
+	"anio": 1956,
+	"lat": 30.59,
+	"lng": 32.27,
+	"paises": [
+		"Egipto",
+		"Gran Bretaña",
+		"Francia",
+		"Israel"
+	],
+	"descripcion": "Nasser nacionaliza el canal; la expedición anglo-francesa fracasa por la presión de EE. UU. y la URSS: fin simbólico de los imperios europeos.",
+	"wiki": "Crisis de Suez",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Crisis de Suez",
+			"url": "https://es.wikipedia.org/wiki/Crisis_de_Suez",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

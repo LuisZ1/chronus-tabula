@@ -1,0 +1,223 @@
+{
+	"id": "luxemburgo",
+	"nombre": "Luxemburgo",
+	"nombres": [
+		"Luxembourg",
+		"Luxemburgo"
+	],
+	"wikidata": "Q32",
+	"wiki": "es:Luxemburgo",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q32",
+			"url": "https://www.wikidata.org/wiki/Q32",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Luxemburgo",
+			"url": "https://es.wikipedia.org/wiki/Luxemburgo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "LUX",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 791
+		},
+		{
+			"anio": -9000,
+			"valor": 1187
+		},
+		{
+			"anio": -8000,
+			"valor": 1781
+		},
+		{
+			"anio": -7000,
+			"valor": 2672
+		},
+		{
+			"anio": -6000,
+			"valor": 4009
+		},
+		{
+			"anio": -5000,
+			"valor": 6013
+		},
+		{
+			"anio": -4000,
+			"valor": 9020
+		},
+		{
+			"anio": -3000,
+			"valor": 13531
+		},
+		{
+			"anio": -2000,
+			"valor": 20296
+		},
+		{
+			"anio": -1000,
+			"valor": 30445
+		},
+		{
+			"anio": 0,
+			"valor": 45668
+		},
+		{
+			"anio": 100,
+			"valor": 46600
+		},
+		{
+			"anio": 200,
+			"valor": 47551
+		},
+		{
+			"anio": 300,
+			"valor": 48521
+		},
+		{
+			"anio": 400,
+			"valor": 49511
+		},
+		{
+			"anio": 500,
+			"valor": 50522
+		},
+		{
+			"anio": 600,
+			"valor": 51553
+		},
+		{
+			"anio": 700,
+			"valor": 52605
+		},
+		{
+			"anio": 800,
+			"valor": 53679
+		},
+		{
+			"anio": 900,
+			"valor": 54774
+		},
+		{
+			"anio": 1000,
+			"valor": 55892
+		},
+		{
+			"anio": 1100,
+			"valor": 57033
+		},
+		{
+			"anio": 1200,
+			"valor": 58197
+		},
+		{
+			"anio": 1300,
+			"valor": 59384
+		},
+		{
+			"anio": 1400,
+			"valor": 60596
+		},
+		{
+			"anio": 1500,
+			"valor": 61833
+		},
+		{
+			"anio": 1600,
+			"valor": 63095
+		},
+		{
+			"anio": 1700,
+			"valor": 64382
+		},
+		{
+			"anio": 1750,
+			"valor": 85003
+		},
+		{
+			"anio": 1800,
+			"valor": 127030
+		},
+		{
+			"anio": 1850,
+			"valor": 192785
+		},
+		{
+			"anio": 1900,
+			"valor": 235574
+		},
+		{
+			"anio": 1910,
+			"valor": 258721
+		},
+		{
+			"anio": 1920,
+			"valor": 269864
+		},
+		{
+			"anio": 1930,
+			"valor": 297712
+		},
+		{
+			"anio": 1940,
+			"valor": 300207
+		},
+		{
+			"anio": 1950,
+			"valor": 296580
+		},
+		{
+			"anio": 1960,
+			"valor": 313888
+		},
+		{
+			"anio": 1970,
+			"valor": 339337
+		},
+		{
+			"anio": 1980,
+			"valor": 363711
+		},
+		{
+			"anio": 1990,
+			"valor": 381707
+		},
+		{
+			"anio": 2000,
+			"valor": 436142
+		},
+		{
+			"anio": 2010,
+			"valor": 507418
+		},
+		{
+			"anio": 2020,
+			"valor": 630597
+		},
+		{
+			"anio": 2023,
+			"valor": 665101
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "0745d00de607",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Luxemburgo, denominado oficialmente Gran Ducado de Luxemburgo, es uno de los veintisiete estados soberanos que forman la Unión Europea. Se trata de un estado sin litoral, rodeado por Alemania, Bélgica y Francia."
+}

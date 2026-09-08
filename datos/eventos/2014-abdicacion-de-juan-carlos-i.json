@@ -1,0 +1,19 @@
+{
+	"nombre": "Abdicación de Juan Carlos I",
+	"anio": 2014,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Tras 39 años de reinado, abdica en su hijo, proclamado Felipe VI el 19 de junio.",
+	"wiki": "Abdicación de Juan Carlos I",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Abdicación de Juan Carlos I",
+			"url": "https://es.wikipedia.org/wiki/Abdicación_de_Juan_Carlos_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Inicio de la Reforma y Apertura (III Pleno del PCCh)",
+	"anio": 1978,
+	"lat": 39.9,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El III Pleno del XI Comité Central, liderado por Deng Xiaoping, lanza la política de Reforma y Apertura que transforma la economía china.",
+	"wiki": "Reforma económica china",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reforma económica china",
+			"url": "https://es.wikipedia.org/wiki/Reforma_econ%C3%B3mica_china",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

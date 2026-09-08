@@ -1,0 +1,86 @@
+{
+	"id": "dinastias-norte-sur",
+	"nombre": "Dinastías del Norte y del Sur",
+	"inicio": 383,
+	"fin": 589,
+	"paises": [
+		"Dinastías del Norte",
+		"Dinastías del Sur",
+		"Jin Oriental",
+		"Qin Anterior"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Tras la caída de los Jin, China queda dividida entre dinastías del Norte (de origen a menudo esteparia) y del Sur (herederas Han con capital en Jiankang/Nankín). En la batalla del río Fei (383) el Jin Oriental frena la invasión del Qin Anterior, consolidando la división hasta la reunificación Sui.",
+	"wiki": "Dinastías Meridionales y Septentrionales",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastías Meridionales y Septentrionales",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADas_Meridionales_y_Septentrionales",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la China milenaria",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Dinastías del Norte",
+			"tipo": "ocupado",
+			"desde": 420,
+			"hasta": 589,
+			"poligono": [
+				[
+					41.0,
+					106.0
+				],
+				[
+					41.0,
+					119.5
+				],
+				[
+					33.5,
+					120.0
+				],
+				[
+					33.5,
+					106.0
+				]
+			]
+		},
+		{
+			"nombre": "Dinastías del Sur",
+			"tipo": "ocupado",
+			"desde": 420,
+			"hasta": 589,
+			"poligono": [
+				[
+					33.5,
+					106.0
+				],
+				[
+					33.5,
+					121.5
+				],
+				[
+					24.0,
+					120.0
+				],
+				[
+					24.0,
+					108.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del río Fei (Feishui)",
+			"anio": 383,
+			"lat": 32.6,
+			"lng": 116.9,
+			"descripcion": "Jin Oriental frena a Qin Anterior; se consolida la división Norte-Sur."
+		}
+	]
+}

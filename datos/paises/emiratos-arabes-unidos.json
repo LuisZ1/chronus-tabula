@@ -1,0 +1,223 @@
+{
+	"id": "emiratos-arabes-unidos",
+	"nombre": "Emiratos Árabes Unidos",
+	"nombres": [
+		"United Arab Emirates",
+		"Emiratos Árabes Unidos"
+	],
+	"wikidata": "Q878",
+	"wiki": "es:Emiratos Árabes Unidos",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q878",
+			"url": "https://www.wikidata.org/wiki/Q878",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Emiratos Árabes Unidos",
+			"url": "https://es.wikipedia.org/wiki/Emiratos_%C3%81rabes_Unidos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "ARE",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 409
+		},
+		{
+			"anio": -9000,
+			"valor": 614
+		},
+		{
+			"anio": -8000,
+			"valor": 922
+		},
+		{
+			"anio": -7000,
+			"valor": 1383
+		},
+		{
+			"anio": -6000,
+			"valor": 2075
+		},
+		{
+			"anio": -5000,
+			"valor": 3112
+		},
+		{
+			"anio": -4000,
+			"valor": 4668
+		},
+		{
+			"anio": -3000,
+			"valor": 7003
+		},
+		{
+			"anio": -2000,
+			"valor": 10504
+		},
+		{
+			"anio": -1000,
+			"valor": 15757
+		},
+		{
+			"anio": 0,
+			"valor": 23636
+		},
+		{
+			"anio": 100,
+			"valor": 24451
+		},
+		{
+			"anio": 200,
+			"valor": 25294
+		},
+		{
+			"anio": 300,
+			"valor": 26166
+		},
+		{
+			"anio": 400,
+			"valor": 27068
+		},
+		{
+			"anio": 500,
+			"valor": 28002
+		},
+		{
+			"anio": 600,
+			"valor": 28967
+		},
+		{
+			"anio": 700,
+			"valor": 29966
+		},
+		{
+			"anio": 800,
+			"valor": 31000
+		},
+		{
+			"anio": 900,
+			"valor": 31000
+		},
+		{
+			"anio": 1000,
+			"valor": 31000
+		},
+		{
+			"anio": 1100,
+			"valor": 31000
+		},
+		{
+			"anio": 1200,
+			"valor": 31000
+		},
+		{
+			"anio": 1300,
+			"valor": 31000
+		},
+		{
+			"anio": 1400,
+			"valor": 31000
+		},
+		{
+			"anio": 1500,
+			"valor": 31000
+		},
+		{
+			"anio": 1600,
+			"valor": 42000
+		},
+		{
+			"anio": 1700,
+			"valor": 53000
+		},
+		{
+			"anio": 1750,
+			"valor": 43358
+		},
+		{
+			"anio": 1800,
+			"valor": 40153
+		},
+		{
+			"anio": 1850,
+			"valor": 40153
+		},
+		{
+			"anio": 1900,
+			"valor": 48933
+		},
+		{
+			"anio": 1910,
+			"valor": 52215
+		},
+		{
+			"anio": 1920,
+			"valor": 56883
+		},
+		{
+			"anio": 1930,
+			"valor": 61903
+		},
+		{
+			"anio": 1940,
+			"valor": 67365
+		},
+		{
+			"anio": 1950,
+			"valor": 74532
+		},
+		{
+			"anio": 1960,
+			"valor": 131348
+		},
+		{
+			"anio": 1970,
+			"valor": 286553
+		},
+		{
+			"anio": 1980,
+			"valor": 1015711
+		},
+		{
+			"anio": 1990,
+			"valor": 1898220
+		},
+		{
+			"anio": 2000,
+			"valor": 3493583
+		},
+		{
+			"anio": 2010,
+			"valor": 6938372
+		},
+		{
+			"anio": 2020,
+			"valor": 9448529
+		},
+		{
+			"anio": 2023,
+			"valor": 10642089
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d2891ff01c3e",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Emiratos Árabes Unidos (EAU) es un país soberano constituido en monarquía federal de Oriente Próximo, situado en la península de Arabia. Está compuesto por siete emiratos: Abu Dabi, Ajman, Dubái, Fuyaira, Ras al Jaima, Sarja y Umm al-Qaywayn."
+}

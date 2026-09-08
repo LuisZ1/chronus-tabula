@@ -1,0 +1,223 @@
+{
+	"id": "turquia",
+	"nombre": "Turquía",
+	"nombres": [
+		"Turkey",
+		"Turquía"
+	],
+	"wikidata": "Q43",
+	"wiki": "es:Turquía",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q43",
+			"url": "https://www.wikidata.org/wiki/Q43",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Turquía",
+			"url": "https://es.wikipedia.org/wiki/Turqu%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "TUR",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 39506
+		},
+		{
+			"anio": -9000,
+			"valor": 59259
+		},
+		{
+			"anio": -8000,
+			"valor": 88888
+		},
+		{
+			"anio": -7000,
+			"valor": 133333
+		},
+		{
+			"anio": -6000,
+			"valor": 200000
+		},
+		{
+			"anio": -5000,
+			"valor": 633333
+		},
+		{
+			"anio": -4000,
+			"valor": 1066666
+		},
+		{
+			"anio": -3000,
+			"valor": 1500000
+		},
+		{
+			"anio": -2000,
+			"valor": 3000000
+		},
+		{
+			"anio": -1000,
+			"valor": 4500000
+		},
+		{
+			"anio": 0,
+			"valor": 6000000
+		},
+		{
+			"anio": 100,
+			"valor": 6500000
+		},
+		{
+			"anio": 200,
+			"valor": 7000000
+		},
+		{
+			"anio": 300,
+			"valor": 6500000
+		},
+		{
+			"anio": 400,
+			"valor": 6000000
+		},
+		{
+			"anio": 500,
+			"valor": 5500000
+		},
+		{
+			"anio": 600,
+			"valor": 5000000
+		},
+		{
+			"anio": 700,
+			"valor": 5500000
+		},
+		{
+			"anio": 800,
+			"valor": 6000000
+		},
+		{
+			"anio": 900,
+			"valor": 6625000
+		},
+		{
+			"anio": 1000,
+			"valor": 7250000
+		},
+		{
+			"anio": 1100,
+			"valor": 5300000
+		},
+		{
+			"anio": 1200,
+			"valor": 6250000
+		},
+		{
+			"anio": 1300,
+			"valor": 7200000
+		},
+		{
+			"anio": 1400,
+			"valor": 5800000
+		},
+		{
+			"anio": 1500,
+			"valor": 6250000
+		},
+		{
+			"anio": 1600,
+			"valor": 8000000
+		},
+		{
+			"anio": 1700,
+			"valor": 8500000
+		},
+		{
+			"anio": 1750,
+			"valor": 9108761
+		},
+		{
+			"anio": 1800,
+			"valor": 9761393
+		},
+		{
+			"anio": 1850,
+			"valor": 11072856
+		},
+		{
+			"anio": 1900,
+			"valor": 13972684
+		},
+		{
+			"anio": 1910,
+			"valor": 14683987
+		},
+		{
+			"anio": 1920,
+			"valor": 13800950
+		},
+		{
+			"anio": 1930,
+			"valor": 14806857
+		},
+		{
+			"anio": 1940,
+			"valor": 17561075
+		},
+		{
+			"anio": 1950,
+			"valor": 21021142
+		},
+		{
+			"anio": 1960,
+			"valor": 28329895
+		},
+		{
+			"anio": 1970,
+			"valor": 36638458
+		},
+		{
+			"anio": 1980,
+			"valor": 45408818
+		},
+		{
+			"anio": 1990,
+			"valor": 56015627
+		},
+		{
+			"anio": 2000,
+			"valor": 65425957
+		},
+		{
+			"anio": 2010,
+			"valor": 73346766
+		},
+		{
+			"anio": 2020,
+			"valor": 86091691
+		},
+		{
+			"anio": 2023,
+			"valor": 87270502
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "9e4fbb841af6",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Turquía, formalmente República de Turquía, es un país transcontinental, con la mayor parte de su territorio situado en Asia Occidental y una menor en Europa Oriental, extendiéndose por toda la península de Anatolia, el centro del altiplano armenio y en Tracia Oriental por la zona de los Balcanes."
+}

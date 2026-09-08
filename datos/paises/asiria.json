@@ -1,0 +1,52 @@
+{
+	"id": "asiria",
+	"nombre": "Asiria",
+	"nombres": [
+		"Assyria"
+	],
+	"wiki": "Asiria",
+	"gobernantes": [
+		{
+			"desde": -745,
+			"hasta": -727,
+			"nombre": "Tiglat-Pileser III",
+			"titulo": "Rey de Asiria, reorganizador del imperio"
+		},
+		{
+			"desde": -722,
+			"hasta": -705,
+			"nombre": "Sargón II",
+			"titulo": "Rey de Asiria"
+		},
+		{
+			"desde": -668,
+			"hasta": -627,
+			"nombre": "Asurbanipal",
+			"titulo": "Rey de Asiria, biblioteca de Nínive"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Asiria",
+			"url": "https://es.wikipedia.org/wiki/Asiria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Asiria",
+			"url": "https://es.wikipedia.org/wiki/Asiria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Asiria hace referencia a una antigua región de la Alta Mesopotamia que toma su nombre de la ciudad de Aššur —del mismo nombre que Assur, su deidad tutelar—, y es también el nombre del Estado —y posterior imperio— que formó entre el milenio iii y i a. C.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "bb63b08e58a5",
+		"secciones": [
+			"resena"
+		]
+	}
+}

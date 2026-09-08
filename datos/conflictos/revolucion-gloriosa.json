@@ -1,0 +1,63 @@
+{
+	"id": "revolucion-gloriosa",
+	"nombre": "Revolución Gloriosa",
+	"inicio": 1688,
+	"fin": 1689,
+	"paises": [
+		"Inglaterra",
+		"Provincias Unidas"
+	],
+	"bajas": "escasas en Inglaterra (mayores en Irlanda y Escocia)",
+	"descripcion": "Guillermo III de Orange desembarca en Torbay (5 de noviembre de 1688) invitado por la élite protestante; Jacobo II huye sin apenas resistencia. El Parlamento ofrece la corona a Guillermo y María II y aprueba el Bill of Rights (1689), instaurando la monarquía parlamentaria.",
+	"wiki": "Revolución Gloriosa",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revolución Gloriosa",
+			"url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_Gloriosa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Desembarco en Torbay y marcha a Londres",
+			"tipo": "frente",
+			"desde": 1688,
+			"hasta": 1688,
+			"poligono": [
+				[
+					51.6,
+					-0.4
+				],
+				[
+					51.2,
+					-1.5
+				],
+				[
+					50.4,
+					-3.6
+				],
+				[
+					50.8,
+					-3.6
+				],
+				[
+					51.5,
+					-1.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Desembarco de Guillermo de Orange en Torbay",
+			"anio": 1688,
+			"lat": 50.43,
+			"lng": -3.51
+		}
+	]
+}

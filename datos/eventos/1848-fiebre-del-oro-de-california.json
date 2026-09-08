@@ -1,0 +1,19 @@
+{
+	"nombre": "Fiebre del oro de California",
+	"anio": 1848,
+	"hasta": 1855,
+	"lat": 38.8,
+	"lng": -120.89,
+	"descripcion": "El oro de Sutter's Mill acelera la colonización del Oeste y el despojo de tierras nativas.",
+	"wiki": "Fiebre del oro de California",
+	"paises": [
+		"Estados Unidos"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Fiebre del oro de California",
+			"url": "https://es.wikipedia.org/wiki/Fiebre_del_oro_de_California",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

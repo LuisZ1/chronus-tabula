@@ -1,0 +1,69 @@
+{
+	"id": "guerra-judia",
+	"nombre": "Primera guerra judeo-romana",
+	"inicio": 66,
+	"fin": 73,
+	"paises": [
+		"Roma",
+		"Judea"
+	],
+	"bajas": "cientos de miles de muertos (Josefo habla de más de un millón)",
+	"descripcion": "La gran revuelta judía: Vespasiano y Tito someten Galilea y Judea; Jerusalén y su Templo son destruidos en el 70; Masada resiste hasta el 73.",
+	"wiki": "Primera guerra judeo-romana",
+	"zonas": [
+		{
+			"nombre": "Galilea y Judea",
+			"tipo": "frente",
+			"poligono": [
+				[
+					33.2,
+					35
+				],
+				[
+					32.5,
+					35.8
+				],
+				[
+					31.2,
+					35.5
+				],
+				[
+					31,
+					34.5
+				],
+				[
+					32.5,
+					34.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Sitio de Jerusalén",
+			"anio": 70,
+			"lat": 31.78,
+			"lng": 35.22,
+			"bajas": "cientos de miles de muertos",
+			"descripcion": "Tito toma la ciudad y destruye el Segundo Templo."
+		},
+		{
+			"nombre": "Sitio de Masada",
+			"anio": 73,
+			"lat": 31.31,
+			"lng": 35.35,
+			"descripcion": "Los últimos rebeldes se suicidan antes de la caída de la fortaleza."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera guerra judeo-romana",
+			"url": "https://es.wikipedia.org/wiki/Primera_guerra_judeo-romana",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

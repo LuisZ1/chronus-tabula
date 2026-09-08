@@ -1,0 +1,25 @@
+{
+	"nombre": "Tratado de Utrecht",
+	"anio": 1713,
+	"lat": 52.09,
+	"lng": 5.12,
+	"descripcion": "Fin de la guerra de Sucesión: España pierde Gibraltar, Menorca, Flandes e Italia; Gran Bretaña obtiene el asiento de esclavos y el navío de permiso.",
+	"paises": [
+		"España",
+		"Gran Bretaña",
+		"Francia",
+		"Austria"
+	],
+	"wiki": "Tratado de Utrecht",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Utrecht",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Utrecht",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

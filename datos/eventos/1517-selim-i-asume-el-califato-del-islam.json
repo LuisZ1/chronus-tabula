@@ -1,0 +1,24 @@
+{
+	"nombre": "Selim I asume el califato del islam",
+	"anio": 1517,
+	"lat": 30.05,
+	"lng": 31.25,
+	"paises": [
+		"Otomano",
+		"Egipto"
+	],
+	"descripcion": "Tras conquistar Egipto y el sultanato mameluco, Selim I asume la custodia de La Meca y Medina y el título de califa, convirtiendo a los sultanes otomanos en líderes del mundo suní.",
+	"wiki": "Califato otomano",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Califato otomano",
+			"url": "https://es.wikipedia.org/wiki/Califato_otomano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

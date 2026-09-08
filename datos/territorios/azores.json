@@ -1,0 +1,17 @@
+{
+	"nombre": "Azores",
+	"pais": "Portugal",
+	"lat": 37.8,
+	"lng": -25.5,
+	"desde": 1439,
+	"descripcion": "Deshabitadas hasta su poblamiento portugués, iniciado en 1439 (descubiertas hacia 1427). Portuguesas desde entonces, hoy región autónoma.",
+	"wiki": "Azores",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Azores",
+			"url": "https://es.wikipedia.org/wiki/Azores",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

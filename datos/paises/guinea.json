@@ -1,0 +1,148 @@
+{
+	"id": "guinea",
+	"nombre": "Guinea",
+	"nombres": [
+		"Guinea",
+		"Guinea-Conakri",
+		"Guinea Francesa",
+		"República de Guinea"
+	],
+	"wiki": "es:Guinea",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Guinea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1006",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Guinea",
+			"url": "https://es.wikipedia.org/wiki/Guinea",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1006",
+			"url": "https://www.wikidata.org/wiki/Q1006",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imamato de Futa Yallon",
+			"desde": 1727,
+			"hasta": 1896
+		},
+		{
+			"nombre": "Guinea Francesa",
+			"desde": 1891,
+			"hasta": 1958
+		},
+		{
+			"nombre": "República de Guinea",
+			"desde": 1958,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1006",
+	"gobernantes": [
+		{
+			"nombre": "Ahmed Sékou Touré",
+			"desde": 1958,
+			"hasta": 1984,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Lansana Conté",
+			"desde": 1984,
+			"hasta": 2008,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Moussa Dadis Camara",
+			"desde": 2008,
+			"hasta": 2009,
+			"cargo": "Presidente (junta militar)"
+		},
+		{
+			"nombre": "Sékouba Konaté",
+			"desde": 2009,
+			"hasta": 2010,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Alpha Condé",
+			"desde": 2010,
+			"hasta": 2021,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mamadi Doumbouya",
+			"desde": 2021,
+			"hasta": 2026,
+			"cargo": "Presidente de transición"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1901,
+			"valor": 1500000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 1926,
+			"valor": 2100000,
+			"fuente": "Wikipedia (es), censo"
+		},
+		{
+			"anio": 1950,
+			"valor": 2700000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 1983,
+			"valor": 4500000,
+			"fuente": "Wikipedia (es), censo"
+		},
+		{
+			"anio": 2000,
+			"valor": 7500000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2010,
+			"valor": 10100000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2023,
+			"valor": 13900000,
+			"fuente": "Our World in Data (est.)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "5149775c13ed",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Guinea, oficialmente la República de Guinea, frecuentemente llamada Guinea-Conakri para diferenciarla de otros dos países africanos, su vecino Guinea-Bisáu y Guinea Ecuatorial, es un país de África occidental, antiguamente conocido como Guinea Francesa.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Guinea.svg"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "ptolemaico",
+	"nombre": "Egipto ptolemaico",
+	"nombres": [
+		"Ptolemaic Kingdom"
+	],
+	"wiki": "Dinastía ptolemaica",
+	"gobernantes": [
+		{
+			"desde": -305,
+			"hasta": -282,
+			"nombre": "Ptolomeo I Sóter",
+			"titulo": "Fundador de la dinastía lágida"
+		},
+		{
+			"desde": -51,
+			"hasta": -30,
+			"nombre": "Cleopatra VII",
+			"titulo": "Última reina ptolemaica"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía ptolemaica",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_ptolemaica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Dinastía ptolemaica",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_ptolemaica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La dinastía ptolemaica fue fundada por Ptolomeo I Sóter, general de Alejandro Magno. Esta dinastía gobernó en el Antiguo Egipto durante el período helenístico desde 323 a.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "d0222d0f1f19",
+		"secciones": [
+			"resena"
+		]
+	}
+}

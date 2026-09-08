@@ -1,0 +1,119 @@
+{
+	"id": "arabe-israeli-1948",
+	"nombre": "Guerra árabe-israelí de 1948",
+	"inicio": 1948,
+	"fin": 1949,
+	"paises": [
+		"Israel",
+		"Egipto",
+		"Transjordania",
+		"Siria",
+		"Líbano",
+		"Irak"
+	],
+	"bajas": "unos 20.000 muertos (~6.000 israelíes y ~15.000 árabes)",
+	"descripcion": "Al proclamarse el Estado de Israel el 14 de mayo de 1948, los ejércitos de Egipto, Transjordania, Siria, Líbano e Irak invaden el antiguo Mandato británico de Palestina. Tras sucesivas treguas, Israel amplía las fronteras del plan de partición de la ONU y firma armisticios en Rodas en 1949; el éxodo palestino (la Nakba) desplaza a unos 700.000 árabes.",
+	"wiki": "Guerra árabe-israelí de 1948",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra árabe-israelí de 1948",
+			"url": "https://es.wikipedia.org/wiki/Guerra_árabe-israelí_de_1948",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Frente sur: avance egipcio y bolsa de Faluya",
+			"tipo": "frente",
+			"desde": 1948,
+			"hasta": 1949,
+			"poligono": [
+				[
+					31.6,
+					34.3
+				],
+				[
+					31.6,
+					34.9
+				],
+				[
+					31.3,
+					34.8
+				],
+				[
+					31.2,
+					34.3
+				]
+			]
+		},
+		{
+			"nombre": "Corredor de Jerusalén y frente de Latrún",
+			"tipo": "frente",
+			"desde": 1948,
+			"hasta": 1949,
+			"poligono": [
+				[
+					31.9,
+					34.9
+				],
+				[
+					31.9,
+					35.25
+				],
+				[
+					31.7,
+					35.25
+				],
+				[
+					31.7,
+					34.95
+				]
+			]
+		},
+		{
+			"nombre": "Galilea (frente norte)",
+			"tipo": "frente",
+			"desde": 1948,
+			"hasta": 1949,
+			"poligono": [
+				[
+					33.1,
+					35.1
+				],
+				[
+					33.1,
+					35.6
+				],
+				[
+					32.7,
+					35.6
+				],
+				[
+					32.7,
+					35.1
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batallas de Latrún",
+			"anio": 1948,
+			"lat": 31.83,
+			"lng": 34.98
+		},
+		{
+			"nombre": "Bolsa de Faluya",
+			"anio": 1948,
+			"lat": 31.52,
+			"lng": 34.75
+		},
+		{
+			"nombre": "Operación Yoav (Néguev)",
+			"anio": 1948,
+			"lat": 31.25,
+			"lng": 34.6
+		}
+	]
+}

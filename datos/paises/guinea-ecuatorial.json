@@ -1,0 +1,128 @@
+{
+	"id": "guinea-ecuatorial",
+	"nombre": "Guinea Ecuatorial",
+	"nombres": [
+		"Equatorial Guinea",
+		"Guinea Ecuatorial",
+		"Guinea Española"
+	],
+	"wiki": "es:Guinea Ecuatorial",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Equatorial_Guinea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-demo",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Equatorial_Guinea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q983",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Guinea Ecuatorial",
+			"url": "https://es.wikipedia.org/wiki/Guinea_Ecuatorial",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q983",
+			"url": "https://www.wikidata.org/wiki/Q983",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Guinea Española",
+			"desde": 1926,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Guinea Ecuatorial",
+			"desde": 1968,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q983",
+	"gobernantes": [
+		{
+			"nombre": "Francisco Macías Nguema",
+			"desde": 1968,
+			"hasta": 1979,
+			"cargo": "Presidente de la República"
+		},
+		{
+			"nombre": "Teodoro Obiang Nguema Mbasogo",
+			"desde": 1979,
+			"hasta": 2026,
+			"cargo": "Presidente de la República"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 226000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 1970,
+			"valor": 291000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 1990,
+			"valor": 374000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2000,
+			"valor": 520000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2010,
+			"valor": 700000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 2021,
+			"valor": 1634466,
+			"fuente": "ONU - WPP 2022"
+		},
+		{
+			"anio": 2022,
+			"valor": 1679172,
+			"fuente": "CIA World Factbook (est.)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "1e6169beb82a",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Guinea Ecuatorial, oficialmente República de Guinea Ecuatorial, es un país africano bañado por las aguas del golfo de Guinea que se define en su constitución como Estado independiente, republicano, unitario, social y democrático, y cuya forma de gobierno es la república presidencialista. Su territorio está formado por ocho provincias.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Equatorial Guinea.svg"
+		}
+	]
+}

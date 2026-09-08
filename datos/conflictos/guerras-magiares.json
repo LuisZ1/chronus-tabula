@@ -1,0 +1,77 @@
+{
+	"id": "guerras-magiares",
+	"nombre": "Guerras germano-magiares",
+	"inicio": 899,
+	"fin": 955,
+	"paises": [
+		"Reino de Hungría (magiares)",
+		"Reino de Germania",
+		"Sacro Imperio"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Durante medio siglo los jinetes magiares saquean Europa central y occidental, hasta que Otón I los aplasta a orillas del Lech, junto a Augsburgo (955), poniendo fin a las incursiones y empujando a Hungría al sedentarismo cristiano.",
+	"wiki": "Batalla de Lechfeld (955)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Lechfeld (955)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lechfeld_(955)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Invasiones magiares en Europa",
+			"url": "https://es.wikipedia.org/wiki/Invasiones_magiares_en_Europa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Incursiones magiares en Europa central",
+			"tipo": "frente",
+			"desde": 899,
+			"hasta": 955,
+			"poligono": [
+				[
+					49.5,
+					8.0
+				],
+				[
+					48.5,
+					20.0
+				],
+				[
+					45.0,
+					18.0
+				],
+				[
+					45.5,
+					10.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Presburgo",
+			"anio": 907,
+			"lat": 48.14,
+			"lng": 17.11,
+			"descripcion": "Los magiares destruyen al ejército bávaro."
+		},
+		{
+			"nombre": "Batalla de Riade",
+			"anio": 933,
+			"lat": 51.3,
+			"lng": 11.6,
+			"descripcion": "Enrique I el Pajarero derrota a los magiares."
+		},
+		{
+			"nombre": "Batalla de Lechfeld",
+			"anio": 955,
+			"lat": 48.25,
+			"lng": 10.9,
+			"descripcion": "Otón I aniquila a los magiares junto a Augsburgo."
+		}
+	]
+}

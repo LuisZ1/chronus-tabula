@@ -1,0 +1,24 @@
+{
+	"nombre": "Tratado de Küçük Kaynarca",
+	"anio": 1774,
+	"lat": 44.0,
+	"lng": 27.3,
+	"paises": [
+		"Otomano",
+		"Rusia"
+	],
+	"descripcion": "Cierra la guerra ruso-turca de 1768-1774: Crimea se hace independiente (paso previo a su anexión rusa) y Rusia obtiene derechos de protección sobre los cristianos ortodoxos del imperio.",
+	"wiki": "Tratado de Küçük Kaynarca",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Küçük Kaynarca",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_K%C3%BC%C3%A7%C3%BCk_Kaynarca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

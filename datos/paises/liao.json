@@ -1,0 +1,41 @@
+{
+	"id": "liao",
+	"nombre": "Dinastía Liao",
+	"nombres": [
+		"Liao",
+		"Khitans"
+	],
+	"wiki": "Dinastía Liao",
+	"gobernantes": [
+		{
+			"desde": 916,
+			"hasta": 926,
+			"nombre": "Yelü Abaoji",
+			"titulo": "Taizu; funda el imperio kitán (Liao)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Liao",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Liao",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Dinastía Liao",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Liao",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La dinastía Liao, 907-1125, también conocida como Imperio kitán fue una dinastía china, de origen extranjero, que gobernó gran parte del nordeste del territorio chino actual. Los kitán, uno de los grupos étnicos tunguses que habitaban hace siglos en la actual Manchuria, fundaron en el año 907 un estado que recibió inicialmente el nombre de Estado Kitán.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e69d495b8b80",
+		"secciones": [
+			"resena"
+		]
+	}
+}

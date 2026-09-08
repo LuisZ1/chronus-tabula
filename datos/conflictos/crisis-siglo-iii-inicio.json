@@ -1,0 +1,60 @@
+{
+	"id": "crisis-siglo-iii-inicio",
+	"nombre": "Crisis del siglo III (inicio: anarquía militar)",
+	"inicio": 235,
+	"fin": 238,
+	"paises": [
+		"Roma"
+	],
+	"bajas": "miles",
+	"descripcion": "La muerte de Severo Alejandro y la proclamación de Maximino el Tracio abren la anarquía militar: los ejércitos hacen y deshacen emperadores. Culmina en el año de los seis emperadores (238), con el asedio y muerte de Maximino en Aquileya.",
+	"wiki": "Crisis del siglo III",
+	"zonas": [
+		{
+			"nombre": "Guerra entre Maximino y el Senado (norte de Italia)",
+			"tipo": "frente",
+			"desde": 238,
+			"hasta": 238,
+			"poligono": [
+				[
+					46.4,
+					11.8
+				],
+				[
+					46.4,
+					16.8
+				],
+				[
+					44.6,
+					16.8
+				],
+				[
+					44.6,
+					11.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asedio de Aquileya",
+			"anio": 238,
+			"lat": 45.77,
+			"lng": 13.37,
+			"descripcion": "Maximino el Tracio muere ante los muros de Aquileya a manos de sus propias tropas.",
+			"wiki": "Maximino el Tracio"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Crisis del siglo III",
+			"url": "https://es.wikipedia.org/wiki/Crisis_del_siglo_III",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Herodiano - Historia del Imperio Romano",
+			"licencia": "referencia"
+		}
+	]
+}

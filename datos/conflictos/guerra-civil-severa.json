@@ -1,0 +1,92 @@
+{
+	"id": "guerra-civil-severa",
+	"nombre": "Guerra civil de los Severos",
+	"inicio": 193,
+	"fin": 197,
+	"paises": [
+		"Roma"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Tras el año 193 Septimio Severo se impone a los otros pretendientes: derrota a Pescenio Níger en Oriente (Isos, 194) y a Clodio Albino en las Galias (Lugdunum, 197), consolidando la dinastía Severa.",
+	"wiki": "Septimio Severo",
+	"zonas": [
+		{
+			"nombre": "Campaña contra Pescenio Níger (Oriente)",
+			"tipo": "frente",
+			"desde": 193,
+			"hasta": 194,
+			"poligono": [
+				[
+					38.5,
+					34.5
+				],
+				[
+					38.5,
+					38.5
+				],
+				[
+					35.5,
+					38.5
+				],
+				[
+					35.5,
+					34.5
+				]
+			]
+		},
+		{
+			"nombre": "Campaña contra Clodio Albino (Galias)",
+			"tipo": "frente",
+			"desde": 196,
+			"hasta": 197,
+			"poligono": [
+				[
+					46.5,
+					3.5
+				],
+				[
+					46.5,
+					6.2
+				],
+				[
+					44.9,
+					6.2
+				],
+				[
+					44.9,
+					3.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Isos",
+			"anio": 194,
+			"lat": 36.9,
+			"lng": 36.2,
+			"descripcion": "Septimio Severo derrota a Pescenio Níger en Cilicia.",
+			"wiki": "Batalla de Isos (194)"
+		},
+		{
+			"nombre": "Batalla de Lugdunum",
+			"anio": 197,
+			"lat": 45.76,
+			"lng": 4.83,
+			"descripcion": "Septimio Severo vence a Clodio Albino cerca de Lyon.",
+			"wiki": "Batalla de Lugdunum"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Septimio Severo",
+			"url": "https://es.wikipedia.org/wiki/Septimio_Severo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

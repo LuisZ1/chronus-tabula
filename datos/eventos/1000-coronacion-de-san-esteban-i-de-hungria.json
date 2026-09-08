@@ -1,0 +1,19 @@
+{
+	"nombre": "Coronación de San Esteban I de Hungría",
+	"anio": 1000,
+	"lat": 47.79,
+	"lng": 18.74,
+	"paises": [
+		"Reino de Hungría (magiares)"
+	],
+	"descripcion": "Esteban I es coronado con corona enviada por el papa, fundando el reino cristiano de Hungría.",
+	"wiki": "Esteban I de Hungría",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Esteban I de Hungría",
+			"url": "https://es.wikipedia.org/wiki/Esteban_I_de_Hungría",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,168 @@
+{
+	"id": "britania",
+	"nombre": "Conquista romana de Britania",
+	"inicio": 43,
+	"fin": 84,
+	"paises": [
+		"Roma",
+		"Britanos",
+		"Caledonios"
+	],
+	"bajas": "~100.000-250.000 muertos",
+	"descripcion": "Claudio invade en el 43; la revuelta de Boudica arrasa Londinium (60-61); Gales cae hacia el 77 y Agrícola vence en el monte Graupio (84).",
+	"wiki": "Conquista romana de Britania",
+	"zonas": [
+		{
+			"nombre": "Sureste (invasión de Claudio)",
+			"tipo": "frente",
+			"desde": 43,
+			"hasta": 47,
+			"poligono": [
+				[
+					52.3,
+					-2
+				],
+				[
+					52,
+					1.4
+				],
+				[
+					50.7,
+					1
+				],
+				[
+					50.6,
+					-2.5
+				]
+			]
+		},
+		{
+			"nombre": "Gales",
+			"tipo": "frente",
+			"desde": 48,
+			"hasta": 77,
+			"poligono": [
+				[
+					53.3,
+					-4.8
+				],
+				[
+					53,
+					-2.8
+				],
+				[
+					51.5,
+					-3
+				],
+				[
+					51.5,
+					-5.2
+				]
+			]
+		},
+		{
+			"nombre": "Revuelta de Boudica",
+			"tipo": "frente",
+			"desde": 60,
+			"hasta": 61,
+			"poligono": [
+				[
+					52.7,
+					-1.5
+				],
+				[
+					52.5,
+					1
+				],
+				[
+					51.3,
+					0.5
+				],
+				[
+					51.4,
+					-1.3
+				]
+			]
+		},
+		{
+			"nombre": "Caledonia (campañas de Agrícola)",
+			"tipo": "frente",
+			"desde": 78,
+			"hasta": 84,
+			"poligono": [
+				[
+					57.5,
+					-5
+				],
+				[
+					57.5,
+					-2
+				],
+				[
+					55.5,
+					-2.5
+				],
+				[
+					55.5,
+					-4.5
+				]
+			]
+		},
+		{
+			"nombre": "Britania romana",
+			"tipo": "ocupado",
+			"desde": 61,
+			"hasta": 84,
+			"poligono": [
+				[
+					54,
+					-3
+				],
+				[
+					53.5,
+					1
+				],
+				[
+					50.7,
+					1
+				],
+				[
+					50.5,
+					-4.5
+				],
+				[
+					52.5,
+					-4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Watling Street",
+			"anio": 61,
+			"lat": 52.2,
+			"lng": -1.4,
+			"bajas": "~80.000 britanos según Tácito",
+			"descripcion": "Suetonio Paulino aplasta la revuelta de Boudica."
+		},
+		{
+			"nombre": "Batalla del monte Graupio",
+			"anio": 84,
+			"lat": 57.3,
+			"lng": -2.8,
+			"descripcion": "Agrícola derrota a los caledonios de Calgaco."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Conquista romana de Britania",
+			"url": "https://es.wikipedia.org/wiki/Conquista_romana_de_Britania",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

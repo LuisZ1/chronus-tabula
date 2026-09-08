@@ -1,0 +1,19 @@
+{
+	"nombre": "Cierre del país (sakoku)",
+	"anio": 1639,
+	"lat": 32.75,
+	"lng": 129.87,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Los Tokugawa clausuran Japón al exterior y erradican el cristianismo; solo Dejima (Nagasaki) queda abierta a los neerlandeses.",
+	"wiki": "Sakoku",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sakoku",
+			"url": "https://es.wikipedia.org/wiki/Sakoku",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

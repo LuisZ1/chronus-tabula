@@ -1,0 +1,81 @@
+{
+	"id": "guerras-ruso-turcas",
+	"nombre": "Guerras ruso-turcas",
+	"inicio": 1711,
+	"fin": 1829,
+	"paises": [
+		"Otomano",
+		"Rusia"
+	],
+	"bajas": "cientos de miles",
+	"descripcion": "Ciclo de guerras con Rusia por el mar Negro, el Danubio, Crimea y el Cáucaso. Tras la victoria otomana del Prut (1711), la tendencia se invierte: las guerras de 1768-1774 (Küçük Kaynarca), 1787-1792 (Jassy) y 1828-1829 marcan el retroceso otomano ante la expansión rusa.",
+	"wiki": "Guerras ruso-turcas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras ruso-turcas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_ruso-turcas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Mar Negro, Danubio y Cáucaso en disputa",
+			"tipo": "frente",
+			"desde": 1711,
+			"hasta": 1829,
+			"poligono": [
+				[
+					48.0,
+					28.0
+				],
+				[
+					47.0,
+					42.0
+				],
+				[
+					41.0,
+					42.0
+				],
+				[
+					41.0,
+					28.0
+				],
+				[
+					45.0,
+					29.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del Prut",
+			"anio": 1711,
+			"lat": 46.6,
+			"lng": 28.0
+		},
+		{
+			"nombre": "Guerra ruso-turca de 1768-1774 (Küçük Kaynarca)",
+			"anio": 1774,
+			"lat": 45.0,
+			"lng": 29.5
+		},
+		{
+			"nombre": "Guerra ruso-turca de 1787-1792 (Jassy)",
+			"anio": 1792,
+			"lat": 47.16,
+			"lng": 27.58
+		},
+		{
+			"nombre": "Guerra ruso-turca de 1828-1829",
+			"anio": 1829,
+			"lat": 42.0,
+			"lng": 26.0
+		}
+	]
+}

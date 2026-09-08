@@ -1,0 +1,48 @@
+{
+	"id": "hungria",
+	"nombre": "Reino de Hungría",
+	"nombres": [
+		"Kingdom of Hungary",
+		"Hungary",
+		"Magyars"
+	],
+	"wiki": "Reino de Hungría",
+	"gobernantes": [
+		{
+			"desde": 895,
+			"hasta": 907,
+			"nombre": "Árpád",
+			"titulo": "Gran príncipe de los magiares"
+		},
+		{
+			"desde": 1000,
+			"hasta": 1038,
+			"nombre": "Esteban I",
+			"titulo": "Primer rey cristiano de Hungría"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Hungría",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Hungría",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Reino de Hungría",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Hungr%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Reino de Hungría fue un reino que existió en Europa Central desde el año 1000 hasta 1919, con una interrupción de cinco meses entre ese año y 1920 durante la cual existió la República Soviética Húngara. Tras el derrocamiento del régimen comunista se restauró el reino.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4c37bdfbc574",
+		"secciones": [
+			"resena"
+		]
+	}
+}

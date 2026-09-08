@@ -1,0 +1,19 @@
+{
+	"nombre": "Primera bomba atómica china",
+	"anio": 1964,
+	"lat": 40.8,
+	"lng": 90.0,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El 16 de octubre de 1964 China detona su primera bomba atómica en Lop Nur, convirtiéndose en la quinta potencia nuclear.",
+	"wiki": "Proyecto 596",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Proyecto 596",
+			"url": "https://es.wikipedia.org/wiki/Proyecto_596",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

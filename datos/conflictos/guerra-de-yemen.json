@@ -1,0 +1,109 @@
+{
+	"id": "guerra-de-yemen",
+	"nombre": "Guerra de Yemen",
+	"inicio": 2014,
+	"fin": 2026,
+	"paises": [
+		"Yemen",
+		"Arabia Saudí",
+		"Irán",
+		"Estados Unidos"
+	],
+	"bajas": "~377.000 muertos (hasta 2021, ONU), la mayoría por hambre y enfermedad",
+	"descripcion": "Los hutíes toman Saná en 2014 y una coalición saudí interviene desde 2015; tregua desde 2022 y, desde 2023, ataques hutíes al tráfico del mar Rojo respondidos por EE. UU.",
+	"wiki": "Guerra civil yemení (2014-actualidad)",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Yemeni civil war (2014–present)",
+			"url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014–present)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q28716912",
+			"url": "https://www.wikidata.org/wiki/Q28716912",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Noroeste hutí (Saná)",
+			"tipo": "frente",
+			"desde": 2014,
+			"hasta": 2022,
+			"poligono": [
+				[
+					17.5,
+					42.9
+				],
+				[
+					17.3,
+					45.4
+				],
+				[
+					14.5,
+					45.3
+				],
+				[
+					13.8,
+					43.2
+				]
+			]
+		},
+		{
+			"nombre": "Frente del mar Rojo",
+			"tipo": "frente",
+			"desde": 2023,
+			"hasta": 2026,
+			"mar": true,
+			"poligono": [
+				[
+					16.5,
+					41.0
+				],
+				[
+					16.5,
+					43.0
+				],
+				[
+					12.5,
+					44.5
+				],
+				[
+					12.0,
+					42.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Saná",
+			"anio": 2014,
+			"lat": 15.35,
+			"lng": 44.21,
+			"descripcion": "Los hutíes ocupan la capital y disuelven el gobierno."
+		},
+		{
+			"nombre": "Batalla de Adén",
+			"anio": 2015,
+			"lat": 12.79,
+			"lng": 45.03,
+			"descripcion": "El gobierno reconocido resiste en el sur con apoyo de la coalición."
+		},
+		{
+			"nombre": "Incursión de Yakla",
+			"anio": 2017,
+			"lat": 14.6,
+			"lng": 45.06
+		},
+		{
+			"nombre": "Batalla de Hodeida",
+			"anio": 2018,
+			"lat": 14.8,
+			"lng": 42.95,
+			"descripcion": "Lucha por el puerto que alimenta al país; acuerdo de Estocolmo."
+		}
+	]
+}

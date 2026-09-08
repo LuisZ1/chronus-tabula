@@ -1,0 +1,19 @@
+{
+	"nombre": "La penicilina (Fleming)",
+	"anio": 1928,
+	"lat": 51.52,
+	"lng": -0.17,
+	"categoria": "invento",
+	"descripcion": "Fleming descubre la penicilina en su laboratorio de Londres.",
+	"wiki": "Penicilina",
+	"paises": [
+		"Gran Bretaña"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Penicilina",
+			"url": "https://es.wikipedia.org/wiki/Penicilina",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

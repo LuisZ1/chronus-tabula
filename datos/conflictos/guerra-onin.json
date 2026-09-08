@@ -1,0 +1,56 @@
+{
+	"id": "guerra-onin",
+	"nombre": "Guerra Ōnin",
+	"inicio": 1467,
+	"fin": 1477,
+	"paises": [
+		"Clan Hosokawa (Ejército del Este)",
+		"Clan Yamana (Ejército del Oeste)"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Una disputa sucesoria en el shogunato Ashikaga incendia Kioto y desata la desintegración del poder central, inicio del periodo Sengoku de los 'estados en guerra'.",
+	"wiki": "Guerra Ōnin",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra Ōnin",
+			"url": "https://es.wikipedia.org/wiki/Guerra_%C5%8Cnin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Kioto devastada",
+			"tipo": "frente",
+			"desde": 1467,
+			"hasta": 1477,
+			"poligono": [
+				[
+					35.1,
+					135.7
+				],
+				[
+					35.08,
+					135.82
+				],
+				[
+					34.95,
+					135.8
+				],
+				[
+					34.97,
+					135.68
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Incendio de Kioto",
+			"anio": 1467,
+			"lat": 35.01,
+			"lng": 135.77,
+			"descripcion": "Los combates entre Este y Oeste arrasan la capital durante una década."
+		}
+	]
+}

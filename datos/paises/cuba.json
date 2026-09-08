@@ -1,0 +1,222 @@
+{
+	"id": "cuba",
+	"nombre": "Cuba",
+	"nombres": [
+		"Cuba"
+	],
+	"wikidata": "Q241",
+	"wiki": "es:Cuba",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q241",
+			"url": "https://www.wikidata.org/wiki/Q241",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Cuba",
+			"url": "https://es.wikipedia.org/wiki/Cuba",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "CUB",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 241
+		},
+		{
+			"anio": -9000,
+			"valor": 301
+		},
+		{
+			"anio": -8000,
+			"valor": 376
+		},
+		{
+			"anio": -7000,
+			"valor": 471
+		},
+		{
+			"anio": -6000,
+			"valor": 588
+		},
+		{
+			"anio": -5000,
+			"valor": 736
+		},
+		{
+			"anio": -4000,
+			"valor": 920
+		},
+		{
+			"anio": -3000,
+			"valor": 1150
+		},
+		{
+			"anio": -2000,
+			"valor": 1437
+		},
+		{
+			"anio": -1000,
+			"valor": 1797
+		},
+		{
+			"anio": 0,
+			"valor": 2246
+		},
+		{
+			"anio": 100,
+			"valor": 2807
+		},
+		{
+			"anio": 200,
+			"valor": 3509
+		},
+		{
+			"anio": 300,
+			"valor": 4387
+		},
+		{
+			"anio": 400,
+			"valor": 5484
+		},
+		{
+			"anio": 500,
+			"valor": 6855
+		},
+		{
+			"anio": 600,
+			"valor": 8569
+		},
+		{
+			"anio": 700,
+			"valor": 10711
+		},
+		{
+			"anio": 800,
+			"valor": 13389
+		},
+		{
+			"anio": 900,
+			"valor": 16736
+		},
+		{
+			"anio": 1000,
+			"valor": 20920
+		},
+		{
+			"anio": 1100,
+			"valor": 26150
+		},
+		{
+			"anio": 1200,
+			"valor": 32688
+		},
+		{
+			"anio": 1300,
+			"valor": 40860
+		},
+		{
+			"anio": 1400,
+			"valor": 51076
+		},
+		{
+			"anio": 1500,
+			"valor": 63845
+		},
+		{
+			"anio": 1600,
+			"valor": 79806
+		},
+		{
+			"anio": 1700,
+			"valor": 99757
+		},
+		{
+			"anio": 1750,
+			"valor": 211406
+		},
+		{
+			"anio": 1800,
+			"valor": 272000
+		},
+		{
+			"anio": 1850,
+			"valor": 1186396
+		},
+		{
+			"anio": 1900,
+			"valor": 1719649
+		},
+		{
+			"anio": 1910,
+			"valor": 2275154
+		},
+		{
+			"anio": 1920,
+			"valor": 3069258
+		},
+		{
+			"anio": 1930,
+			"valor": 3923683
+		},
+		{
+			"anio": 1940,
+			"valor": 4707248
+		},
+		{
+			"anio": 1950,
+			"valor": 5924519
+		},
+		{
+			"anio": 1960,
+			"valor": 7238083
+		},
+		{
+			"anio": 1970,
+			"valor": 8824389
+		},
+		{
+			"anio": 1980,
+			"valor": 9804798
+		},
+		{
+			"anio": 1990,
+			"valor": 10631796
+		},
+		{
+			"anio": 2000,
+			"valor": 11109112
+		},
+		{
+			"anio": 2010,
+			"valor": 11297414
+		},
+		{
+			"anio": 2020,
+			"valor": 11176349
+		},
+		{
+			"anio": 2023,
+			"valor": 11019932
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "c6ebbddd0024",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Cuba, oficialmente República de Cuba, es un Estado soberano e insular ubicado en las Antillas del mar Caribe en la región de norteamérica. El territorio está organizado en quince provincias y un municipio especial con La Habana como capital y ciudad más poblada."
+}

@@ -1,0 +1,95 @@
+{
+	"id": "primera-punica",
+	"nombre": "Primera guerra púnica",
+	"inicio": -264,
+	"fin": -241,
+	"paises": [
+		"Roma",
+		"Cartago"
+	],
+	"bajas": "~250.000-400.000 muertos (enormes pérdidas navales)",
+	"descripcion": "Roma y Cartago se disputan Sicilia durante 23 años; Roma se convierte en potencia naval y gana su primera provincia.",
+	"wiki": "Primera guerra púnica",
+	"zonas": [
+		{
+			"nombre": "Sicilia",
+			"tipo": "frente",
+			"poligono": [
+				[
+					38.3,
+					12.4
+				],
+				[
+					38.3,
+					15.6
+				],
+				[
+					36.6,
+					15.2
+				],
+				[
+					37.5,
+					12.3
+				]
+			]
+		},
+		{
+			"nombre": "Mediterráneo occidental (guerra naval)",
+			"tipo": "frente",
+			"mar": true,
+			"poligono": [
+				[
+					39,
+					10
+				],
+				[
+					38.8,
+					13.5
+				],
+				[
+					36.8,
+					13
+				],
+				[
+					36.5,
+					10.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Milas",
+			"anio": -260,
+			"lat": 38.22,
+			"lng": 15.24,
+			"descripcion": "Primera gran victoria naval romana, gracias al corvus."
+		},
+		{
+			"nombre": "Batalla del cabo Ecnomo",
+			"anio": -256,
+			"lat": 37.1,
+			"lng": 13.9,
+			"bajas": "~30.000-40.000 bajas",
+			"descripcion": "Una de las mayores batallas navales de la Antigüedad."
+		},
+		{
+			"nombre": "Batalla de las islas Egadas",
+			"anio": -241,
+			"lat": 37.97,
+			"lng": 12.32,
+			"descripcion": "Victoria naval que decide la guerra; Cartago pide la paz."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera guerra púnica",
+			"url": "https://es.wikipedia.org/wiki/Primera_guerra_púnica",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

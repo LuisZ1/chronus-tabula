@@ -1,0 +1,129 @@
+{
+	"id": "sahara-occidental",
+	"nombre": "Sáhara Occidental",
+	"nombres": [
+		"Western Sahara",
+		"Sáhara Occidental",
+		"Sahara Español",
+		"República Árabe Saharaui Democrática",
+		"RASD"
+	],
+	"wiki": "es:Sáhara Occidental",
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/S%C3%A1hara_Occidental",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki_en_hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Sahrawi_Arab_Democratic_Republic",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q6250",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata_rasd",
+			"url": "https://www.wikidata.org/wiki/Q40362",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Sáhara Occidental",
+			"url": "https://es.wikipedia.org/wiki/Sahara_Occidental",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Sahara Español (colonia)",
+			"desde": 1884,
+			"hasta": 1976
+		},
+		{
+			"nombre": "República Árabe Saharaui Democrática (proclamada)",
+			"desde": 1976
+		},
+		{
+			"nombre": "Administración marroquí (de facto, mayor parte del territorio)",
+			"desde": 1975
+		}
+	],
+	"wikidata": "Q6250",
+	"gobernantes": [
+		{
+			"nombre": "El-Ouali Mustapha Sayed",
+			"desde": 1976,
+			"hasta": 1976,
+			"cargo": "Secretario General del Frente Polisario / jefe del Consejo Revolucionario (RASD)"
+		},
+		{
+			"nombre": "Mahfoud Ali Beiba",
+			"desde": 1976,
+			"hasta": 1976,
+			"cargo": "Presidente interino (Consejo Revolucionario, RASD)"
+		},
+		{
+			"nombre": "Mohamed Abdelaziz",
+			"desde": 1976,
+			"hasta": 2016,
+			"cargo": "Presidente de la RASD"
+		},
+		{
+			"nombre": "Khatri Aduh",
+			"desde": 2016,
+			"hasta": 2016,
+			"cargo": "Presidente interino (RASD)"
+		},
+		{
+			"nombre": "Brahim Ghali",
+			"desde": 2016,
+			"hasta": 2026,
+			"cargo": "Presidente de la RASD"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1974,
+			"valor": 74902,
+			"fuente": "Censo español 1974"
+		},
+		{
+			"anio": 2004,
+			"valor": 267405,
+			"fuente": "Estimación (Wikipedia es)"
+		},
+		{
+			"anio": 2013,
+			"valor": 567000,
+			"fuente": "Estimación"
+		},
+		{
+			"anio": 2018,
+			"valor": 582000,
+			"fuente": "Estimación ONU"
+		},
+		{
+			"anio": 2023,
+			"valor": 587000,
+			"fuente": "Estimación"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "93cc2511d980",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "El Sahara Occidental o Sáhara Occidental es una región del norte de África situada en el extremo occidental del desierto del Sahara, a orillas del océano Atlántico. Es uno de los diecisiete territorios no autónomos bajo supervisión del Comité Especial de Descolonización de la Organización de las Naciones Unidas, con el fin de terminar el colonialismo."
+}

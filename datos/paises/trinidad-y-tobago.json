@@ -1,0 +1,147 @@
+{
+	"id": "trinidad-y-tobago",
+	"nombre": "Trinidad y Tobago",
+	"nombres": [
+		"Trinidad",
+		"Trinidad y Tobago"
+	],
+	"wikidata": "Q754",
+	"wiki": "es:Trinidad y Tobago",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q754",
+			"url": "https://www.wikidata.org/wiki/Q754",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Trinidad y Tobago",
+			"url": "https://es.wikipedia.org/wiki/Trinidad_y_Tobago",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "TTO",
+	"poblacion": [
+		{
+			"anio": 900,
+			"valor": 1
+		},
+		{
+			"anio": 1000,
+			"valor": 3
+		},
+		{
+			"anio": 1100,
+			"valor": 7
+		},
+		{
+			"anio": 1200,
+			"valor": 14
+		},
+		{
+			"anio": 1300,
+			"valor": 28
+		},
+		{
+			"anio": 1400,
+			"valor": 57
+		},
+		{
+			"anio": 1500,
+			"valor": 115
+		},
+		{
+			"anio": 1600,
+			"valor": 231
+		},
+		{
+			"anio": 1700,
+			"valor": 462
+		},
+		{
+			"anio": 1750,
+			"valor": 3511
+		},
+		{
+			"anio": 1800,
+			"valor": 20000
+		},
+		{
+			"anio": 1850,
+			"valor": 80585
+		},
+		{
+			"anio": 1900,
+			"valor": 273257
+		},
+		{
+			"anio": 1910,
+			"valor": 337613
+		},
+		{
+			"anio": 1920,
+			"valor": 396002
+		},
+		{
+			"anio": 1930,
+			"valor": 418330
+		},
+		{
+			"anio": 1940,
+			"valor": 491882
+		},
+		{
+			"anio": 1950,
+			"valor": 648778
+		},
+		{
+			"anio": 1960,
+			"valor": 844952
+		},
+		{
+			"anio": 1970,
+			"valor": 991480
+		},
+		{
+			"anio": 1980,
+			"valor": 1121750
+		},
+		{
+			"anio": 1990,
+			"valor": 1252215
+		},
+		{
+			"anio": 2000,
+			"valor": 1319781
+		},
+		{
+			"anio": 2010,
+			"valor": 1386657
+		},
+		{
+			"anio": 2020,
+			"valor": 1481026
+		},
+		{
+			"anio": 2023,
+			"valor": 1502938
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "b4c972cff80e",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Trinidad y Tobago, oficialmente la República de Trinidad y Tobago, es un país soberano insular ubicado en el mar Caribe, en la región septentrional de América del Sur."
+}

@@ -1,0 +1,223 @@
+{
+	"id": "irak",
+	"nombre": "Irak",
+	"nombres": [
+		"Iraq",
+		"Irak"
+	],
+	"wikidata": "Q796",
+	"wiki": "es:Irak",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q796",
+			"url": "https://www.wikidata.org/wiki/Q796",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Irak",
+			"url": "https://es.wikipedia.org/wiki/Irak",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "IRQ",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 35992
+		},
+		{
+			"anio": -9000,
+			"valor": 39990
+		},
+		{
+			"anio": -8000,
+			"valor": 44452
+		},
+		{
+			"anio": -7000,
+			"valor": 49435
+		},
+		{
+			"anio": -6000,
+			"valor": 55000
+		},
+		{
+			"anio": -5000,
+			"valor": 100000
+		},
+		{
+			"anio": -4000,
+			"valor": 300000
+		},
+		{
+			"anio": -3000,
+			"valor": 500000
+		},
+		{
+			"anio": -2000,
+			"valor": 875000
+		},
+		{
+			"anio": -1000,
+			"valor": 1250000
+		},
+		{
+			"anio": 0,
+			"valor": 1000000
+		},
+		{
+			"anio": 100,
+			"valor": 1050000
+		},
+		{
+			"anio": 200,
+			"valor": 1100000
+		},
+		{
+			"anio": 300,
+			"valor": 1100000
+		},
+		{
+			"anio": 400,
+			"valor": 1100000
+		},
+		{
+			"anio": 500,
+			"valor": 1050000
+		},
+		{
+			"anio": 600,
+			"valor": 1000000
+		},
+		{
+			"anio": 700,
+			"valor": 1750000
+		},
+		{
+			"anio": 800,
+			"valor": 2500000
+		},
+		{
+			"anio": 900,
+			"valor": 2250000
+		},
+		{
+			"anio": 1000,
+			"valor": 2000000
+		},
+		{
+			"anio": 1100,
+			"valor": 1750000
+		},
+		{
+			"anio": 1200,
+			"valor": 1375000
+		},
+		{
+			"anio": 1300,
+			"valor": 1000000
+		},
+		{
+			"anio": 1400,
+			"valor": 1000000
+		},
+		{
+			"anio": 1500,
+			"valor": 1000000
+		},
+		{
+			"anio": 1600,
+			"valor": 1250000
+		},
+		{
+			"anio": 1700,
+			"valor": 1000000
+		},
+		{
+			"anio": 1750,
+			"valor": 1000846
+		},
+		{
+			"anio": 1800,
+			"valor": 1000000
+		},
+		{
+			"anio": 1850,
+			"valor": 1249026
+		},
+		{
+			"anio": 1900,
+			"valor": 2399016
+		},
+		{
+			"anio": 1910,
+			"valor": 2850254
+		},
+		{
+			"anio": 1920,
+			"valor": 3459608
+		},
+		{
+			"anio": 1930,
+			"valor": 3933814
+		},
+		{
+			"anio": 1940,
+			"valor": 4140032
+		},
+		{
+			"anio": 1950,
+			"valor": 5653357
+		},
+		{
+			"anio": 1960,
+			"valor": 7022057
+		},
+		{
+			"anio": 1970,
+			"valor": 9735611
+		},
+		{
+			"anio": 1980,
+			"valor": 13591996
+		},
+		{
+			"anio": 1990,
+			"valor": 17581208
+		},
+		{
+			"anio": 2000,
+			"valor": 24424060
+		},
+		{
+			"anio": 2010,
+			"valor": 31045367
+		},
+		{
+			"anio": 2020,
+			"valor": 42116602
+		},
+		{
+			"anio": 2023,
+			"valor": 45074055
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "4902299e0bca",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Irak o Iraq, oficialmente la República de Iraq, también conocida históricamente en Occidente como Mesopotamia, es un país asiático de Oriente Próximo que abarca la mayor parte del noroeste de la cadena montañosa de Zagros, la parte oriental del desierto de Siria y la septentrional del desierto de Arabia."
+}

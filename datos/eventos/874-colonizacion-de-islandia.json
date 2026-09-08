@@ -1,0 +1,19 @@
+{
+	"nombre": "Colonización de Islandia",
+	"anio": 874,
+	"lat": 64.15,
+	"lng": -21.94,
+	"paises": [
+		"Vikingos (Escandinavia)"
+	],
+	"descripcion": "Ingólfur Arnarson funda Reikiavik; en 930 los colonos crean el Althing, el parlamento más antiguo aún activo.",
+	"wiki": "Colonización de Islandia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Colonización de Islandia",
+			"url": "https://es.wikipedia.org/wiki/Colonización_de_Islandia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

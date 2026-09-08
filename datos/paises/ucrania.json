@@ -1,0 +1,311 @@
+{
+	"id": "ucrania",
+	"nombre": "Ucrania",
+	"nombres": [
+		"Ukraine"
+	],
+	"wiki": "Ucrania",
+	"wikidata": "Q212",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Ucrania",
+			"url": "https://es.wikipedia.org/wiki/Ucrania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Ucrania",
+			"url": "https://es.wikipedia.org/wiki/Ucrania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q189732",
+			"url": "http://www.wikidata.org/entity/Q189732",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q629702",
+			"url": "http://www.wikidata.org/entity/Q629702",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q559607",
+			"url": "http://www.wikidata.org/entity/Q559607",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1459699",
+			"url": "http://www.wikidata.org/entity/Q1459699",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q311116",
+			"url": "http://www.wikidata.org/entity/Q311116",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1459658",
+			"url": "http://www.wikidata.org/entity/Q1459658",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q48283",
+			"url": "http://www.wikidata.org/entity/Q48283",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57590",
+			"url": "http://www.wikidata.org/entity/Q57590",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1711587",
+			"url": "http://www.wikidata.org/entity/Q1711587",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q15850",
+			"url": "http://www.wikidata.org/entity/Q15850",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q471730",
+			"url": "http://www.wikidata.org/entity/Q471730",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q58077",
+			"url": "http://www.wikidata.org/entity/Q58077",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q4150130",
+			"url": "http://www.wikidata.org/entity/Q4150130",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q3874799",
+			"url": "http://www.wikidata.org/entity/Q3874799",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q64486491",
+			"url": "http://www.wikidata.org/entity/Q64486491",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q66094865",
+			"url": "http://www.wikidata.org/entity/Q66094865",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q61112536",
+			"url": "http://www.wikidata.org/entity/Q61112536",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q124101558",
+			"url": "http://www.wikidata.org/entity/Q124101558",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q212",
+			"url": "https://www.wikidata.org/wiki/Q212",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q212",
+			"url": "https://www.wikidata.org/wiki/Q212",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Ucrania es un Estado soberano ubicado en Europa Oriental. Su forma de Estado es la república que se rige por un sistema de gobierno semipresidencial, con la separación de los poderes ejecutivo, legislativo y judicial.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2c23e3a3812c",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	},
+	"gobernantes": [
+		{
+			"desde": 1991,
+			"hasta": 1994,
+			"nombre": "Leonid Kravchuk",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 1994,
+			"hasta": 2005,
+			"nombre": "Leonid Kuchma",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 1996,
+			"hasta": 1997,
+			"nombre": "Pavlo Lazarenko",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2005,
+			"hasta": 2010,
+			"nombre": "Víktor Yúshchenko",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2005,
+			"hasta": 2006,
+			"nombre": "Yuri Yejanúrov",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2006,
+			"hasta": 2006,
+			"nombre": "Yuri Yejanúrov",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2006,
+			"hasta": 2007,
+			"nombre": "Víktor Yanukóvich",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2007,
+			"hasta": 2007,
+			"nombre": "Víktor Yanukóvich",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2007,
+			"hasta": 2010,
+			"nombre": "Yulia Timoshenko",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2010,
+			"hasta": 2014,
+			"nombre": "Víktor Yanukóvich",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2010,
+			"hasta": 2010,
+			"nombre": "Yulia Timoshenko",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2010,
+			"hasta": 2014,
+			"nombre": "Mikola Azárov",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2014,
+			"hasta": 2014,
+			"nombre": "Serhiy Arbuzov",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2014,
+			"hasta": 2014,
+			"nombre": "Oleksandr Turchínov",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2014,
+			"hasta": 2016,
+			"nombre": "Arseniy Yatsenyuk",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2014,
+			"hasta": 2019,
+			"nombre": "Petro Poroshenko",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2016,
+			"hasta": 2019,
+			"nombre": "Volodímir Groisman",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2019,
+			"nombre": "Volodímir Zelenski",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 2019,
+			"hasta": 2020,
+			"nombre": "Oleksiy Hontcharouk",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2020,
+			"hasta": 2025,
+			"nombre": "Denís Shmihal",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2025,
+			"hasta": 2026,
+			"nombre": "Yulia Svyrydenko",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 2026,
+			"hasta": 2026,
+			"nombre": "Sergii Koretskyi",
+			"cargo": "jefe de gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2020,
+			"valor": 41902416,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2022,
+			"valor": 41167335,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of Arms of Ukraine (Pantone).svg",
+			"desde": 1992
+		},
+		{
+			"archivo": "Emblem of the Ukrainian Soviet Socialist Republic (1949–1991), Emblem of Ukraine (1991–1992).svg"
+		}
+	]
+}

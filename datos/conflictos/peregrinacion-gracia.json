@@ -1,0 +1,58 @@
+{
+	"id": "peregrinacion-gracia",
+	"nombre": "Peregrinación de Gracia",
+	"inicio": 1536,
+	"fin": 1537,
+	"paises": [
+		"Inglaterra"
+	],
+	"bajas": "miles",
+	"descripcion": "Gran revuelta popular del norte de Inglaterra contra la ruptura de Enrique VIII con Roma y la disolución de los monasterios, encabezada por Robert Aske. Reprimida con dureza tras el engaño de una amnistía real.",
+	"wiki": "Peregrinación de Gracia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Peregrinación de Gracia",
+			"url": "https://es.wikipedia.org/wiki/Peregrinaci%C3%B3n_de_Gracia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Norte de Inglaterra (Yorkshire, Lincolnshire)",
+			"tipo": "frente",
+			"desde": 1536,
+			"hasta": 1537,
+			"poligono": [
+				[
+					54.6,
+					-2.5
+				],
+				[
+					54.6,
+					-0.2
+				],
+				[
+					53.2,
+					-0.0
+				],
+				[
+					53.2,
+					-2.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Concentración rebelde de York",
+			"anio": 1536,
+			"lat": 53.96,
+			"lng": -1.08
+		}
+	]
+}

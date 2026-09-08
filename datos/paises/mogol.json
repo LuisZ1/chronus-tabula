@@ -1,0 +1,50 @@
+{
+	"id": "mogol",
+	"nombre": "Imperio mogol (India)",
+	"nombres": [
+		"Mughal Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 1526,
+			"hasta": 1530,
+			"nombre": "Babur (fundador)",
+			"titulo": "Emperador mogol"
+		},
+		{
+			"desde": 1556,
+			"hasta": 1605,
+			"nombre": "Akbar el Grande",
+			"titulo": "Emperador mogol"
+		},
+		{
+			"desde": 1628,
+			"hasta": 1658,
+			"nombre": "Sha Jahan (constructor del Taj Mahal)",
+			"titulo": "Emperador mogol"
+		},
+		{
+			"desde": 1658,
+			"hasta": 1707,
+			"nombre": "Aurangzeb",
+			"titulo": "Emperador mogol"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1600,
+			"valor": 115000000
+		},
+		{
+			"anio": 1700,
+			"valor": 158000000
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio mogol (India)",
+			"url": "https://es.wikipedia.org/wiki/Imperio_mogol_(India)",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

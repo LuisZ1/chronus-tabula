@@ -1,0 +1,186 @@
+{
+	"id": "ochenta-anos",
+	"nombre": "Guerra de los Ochenta Años (Flandes)",
+	"inicio": 1568,
+	"fin": 1648,
+	"paises": [
+		"España",
+		"Provincias Unidas (Países Bajos)",
+		"Inglaterra",
+		"Francia"
+	],
+	"bajas": "~600.000-700.000 muertos",
+	"descripcion": "La rebelión de los Países Bajos contra Felipe II se convierte en una guerra de ochenta años que desangra a la monarquía hispánica; la Paz de Westfalia reconoce la independencia holandesa.",
+	"wiki": "Guerra de los Ochenta Años",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de los Ochenta Años",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Ochenta_Años",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q976820",
+			"url": "https://www.wikidata.org/wiki/Q976820",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1411470",
+			"url": "https://www.wikidata.org/wiki/Q1411470",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q14855684",
+			"url": "https://www.wikidata.org/wiki/Q14855684",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q744588",
+			"url": "https://www.wikidata.org/wiki/Q744588",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Flandes y Brabante",
+			"tipo": "frente",
+			"desde": 1568,
+			"hasta": 1609,
+			"poligono": [
+				[
+					53.5,
+					4.5
+				],
+				[
+					53,
+					7
+				],
+				[
+					50.7,
+					6.5
+				],
+				[
+					50.4,
+					2.6
+				],
+				[
+					51.5,
+					2.5
+				]
+			]
+		},
+		{
+			"nombre": "Reanudación (tras la Tregua de los Doce Años)",
+			"tipo": "frente",
+			"desde": 1621,
+			"hasta": 1648,
+			"poligono": [
+				[
+					52.5,
+					4.2
+				],
+				[
+					52.3,
+					6.5
+				],
+				[
+					50.7,
+					6.2
+				],
+				[
+					50.5,
+					3
+				],
+				[
+					51.5,
+					3
+				]
+			]
+		},
+		{
+			"nombre": "Países Bajos españoles",
+			"tipo": "ocupado",
+			"desde": 1568,
+			"hasta": 1648,
+			"poligono": [
+				[
+					51.6,
+					2.6
+				],
+				[
+					51.4,
+					6
+				],
+				[
+					49.8,
+					6.2
+				],
+				[
+					49.9,
+					2.6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Reimerswaal",
+			"anio": 1574,
+			"lat": 51.47,
+			"lng": 4.13
+		},
+		{
+			"nombre": "batalla de Borgerhout",
+			"anio": 1579,
+			"lat": 51.21,
+			"lng": 4.43
+		},
+		{
+			"nombre": "Sitio de Amberes",
+			"anio": 1585,
+			"lat": 51.22,
+			"lng": 4.4,
+			"descripcion": "Alejandro Farnesio recupera la gran ciudad para España."
+		},
+		{
+			"nombre": "Sitio de Breda",
+			"anio": 1625,
+			"lat": 51.59,
+			"lng": 4.78,
+			"descripcion": "La rendición que pintó Velázquez en «Las lanzas»."
+		},
+		{
+			"nombre": "Batalla de Vlotho",
+			"anio": 1638,
+			"lat": 52.17,
+			"lng": 8.85
+		},
+		{
+			"nombre": "Batalla de Vlotho",
+			"anio": 1638,
+			"lat": 52.17,
+			"lng": 8.85
+		},
+		{
+			"nombre": "Batalla de las Dunas",
+			"anio": 1639,
+			"lat": 51.15,
+			"lng": 1.55,
+			"bajas": "~7.000 bajas españolas",
+			"descripcion": "Los holandeses destruyen la última gran armada española."
+		},
+		{
+			"nombre": "batalla de Newburn",
+			"anio": 1640,
+			"lat": 54.98,
+			"lng": -1.75
+		}
+	]
+}

@@ -1,0 +1,96 @@
+{
+	"id": "guerra-ruso-japonesa",
+	"nombre": "Guerra ruso-japonesa",
+	"inicio": 1904,
+	"fin": 1905,
+	"paises": [
+		"Japón",
+		"Rusia"
+	],
+	"bajas": "~130.000-170.000 muertos",
+	"descripcion": "Japón aplasta al Imperio ruso por Manchuria y Corea: la primera victoria de una potencia asiática sobre una europea en la era moderna, preludio de la revolución de 1905.",
+	"wiki": "Guerra ruso-japonesa",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra ruso-japonesa",
+			"url": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Manchuria meridional",
+			"tipo": "frente",
+			"desde": 1904,
+			"hasta": 1905,
+			"poligono": [
+				[
+					42.5,
+					122.0
+				],
+				[
+					42.0,
+					126.5
+				],
+				[
+					38.7,
+					122.5
+				],
+				[
+					39.5,
+					121.0
+				]
+			]
+		},
+		{
+			"nombre": "Estrecho de Tsushima",
+			"tipo": "frente",
+			"desde": 1905,
+			"hasta": 1905,
+			"mar": true,
+			"poligono": [
+				[
+					35.5,
+					128.5
+				],
+				[
+					35.0,
+					130.5
+				],
+				[
+					33.5,
+					130.0
+				],
+				[
+					33.8,
+					128.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Sitio de Port Arthur",
+			"anio": 1904,
+			"hasta": 1905,
+			"lat": 38.82,
+			"lng": 121.24,
+			"descripcion": "Cinco meses de asedio a la base naval rusa.",
+			"wiki": "Sitio de Port Arthur"
+		},
+		{
+			"nombre": "Batalla de Mukden",
+			"anio": 1905,
+			"lat": 41.8,
+			"lng": 123.43,
+			"descripcion": "La mayor batalla terrestre hasta entonces: más de 600.000 combatientes."
+		}
+	]
+}

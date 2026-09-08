@@ -1,0 +1,19 @@
+{
+	"nombre": "Gran terremoto de Kantō",
+	"anio": 1923,
+	"lat": 35.3,
+	"lng": 139.5,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Un seísmo devastador arrasa Tokio y Yokohama causando más de 100.000 muertos.",
+	"wiki": "Terremoto de Kantō de 1923",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Terremoto de Kantō de 1923",
+			"url": "https://es.wikipedia.org/wiki/Terremoto_de_Kant%C5%8D_de_1923",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"nombre": "Acuerdo Sykes-Picot",
+	"anio": 1916,
+	"lat": 33.5,
+	"lng": 38.0,
+	"paises": [
+		"Otomano",
+		"Reino Unido",
+		"Francia"
+	],
+	"descripcion": "Reino Unido y Francia se reparten en secreto las provincias árabes del imperio otomano en zonas de influencia, sentando las bases del mapa de Oriente Medio tras la Primera Guerra Mundial.",
+	"wiki": "Acuerdo Sykes-Picot",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Acuerdo Sykes-Picot",
+			"url": "https://es.wikipedia.org/wiki/Acuerdo_Sykes-Picot",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

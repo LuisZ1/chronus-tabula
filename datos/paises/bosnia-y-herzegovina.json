@@ -1,0 +1,224 @@
+{
+	"id": "bosnia-y-herzegovina",
+	"nombre": "Bosnia y Herzegovina",
+	"nombres": [
+		"Bosnia and Herzegovina",
+		"Bosnia y Herzegovina",
+		"Bosnia-Herzegovina"
+	],
+	"wikidata": "Q225",
+	"wiki": "es:Bosnia y Herzegovina",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q225",
+			"url": "https://www.wikidata.org/wiki/Q225",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Bosnia y Herzegovina",
+			"url": "https://es.wikipedia.org/wiki/Bosnia_y_Herzegovina",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "BIH",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 2349
+		},
+		{
+			"anio": -9000,
+			"valor": 3732
+		},
+		{
+			"anio": -8000,
+			"valor": 5927
+		},
+		{
+			"anio": -7000,
+			"valor": 9414
+		},
+		{
+			"anio": -6000,
+			"valor": 14952
+		},
+		{
+			"anio": -5000,
+			"valor": 23748
+		},
+		{
+			"anio": -4000,
+			"valor": 37718
+		},
+		{
+			"anio": -3000,
+			"valor": 59905
+		},
+		{
+			"anio": -2000,
+			"valor": 95144
+		},
+		{
+			"anio": -1000,
+			"valor": 151111
+		},
+		{
+			"anio": 0,
+			"valor": 240000
+		},
+		{
+			"anio": 100,
+			"valor": 243532
+		},
+		{
+			"anio": 200,
+			"valor": 247338
+		},
+		{
+			"anio": 300,
+			"valor": 251202
+		},
+		{
+			"anio": 400,
+			"valor": 255127
+		},
+		{
+			"anio": 500,
+			"valor": 259114
+		},
+		{
+			"anio": 600,
+			"valor": 263162
+		},
+		{
+			"anio": 700,
+			"valor": 267274
+		},
+		{
+			"anio": 800,
+			"valor": 271450
+		},
+		{
+			"anio": 900,
+			"valor": 275692
+		},
+		{
+			"anio": 1000,
+			"valor": 280000
+		},
+		{
+			"anio": 1100,
+			"valor": 296000
+		},
+		{
+			"anio": 1200,
+			"valor": 312000
+		},
+		{
+			"anio": 1300,
+			"valor": 328000
+		},
+		{
+			"anio": 1400,
+			"valor": 344000
+		},
+		{
+			"anio": 1500,
+			"valor": 360000
+		},
+		{
+			"anio": 1600,
+			"valor": 440000
+		},
+		{
+			"anio": 1700,
+			"valor": 440000
+		},
+		{
+			"anio": 1750,
+			"valor": 547267
+		},
+		{
+			"anio": 1800,
+			"valor": 851806
+		},
+		{
+			"anio": 1850,
+			"valor": 1024184
+		},
+		{
+			"anio": 1900,
+			"valor": 1764005
+		},
+		{
+			"anio": 1910,
+			"valor": 1974663
+		},
+		{
+			"anio": 1920,
+			"valor": 2134369
+		},
+		{
+			"anio": 1930,
+			"valor": 2300619
+		},
+		{
+			"anio": 1940,
+			"valor": 2479819
+		},
+		{
+			"anio": 1950,
+			"valor": 2690407
+		},
+		{
+			"anio": 1960,
+			"valor": 3281387
+		},
+		{
+			"anio": 1970,
+			"valor": 3773248
+		},
+		{
+			"anio": 1980,
+			"valor": 4148427
+		},
+		{
+			"anio": 1990,
+			"valor": 4448658
+		},
+		{
+			"anio": 2000,
+			"valor": 4159785
+		},
+		{
+			"anio": 2010,
+			"valor": 3811480
+		},
+		{
+			"anio": 2020,
+			"valor": 3299352
+		},
+		{
+			"anio": 2023,
+			"valor": 3185072
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e5569660b7ef",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Bosnia y Herzegovina, comúnmente llamada Bosnia-Herzegovina, o simplemente Bosnia, es un país soberano europeo, con capital en Sarajevo, situado en la confluencia de Europa Central y del sudeste europeo, y que limita con Croacia, al norte, oeste y sur; con Serbia al este; con Montenegro al este y al sur, y con el mar Adriático al suroeste a lo largo de 21,2…"
+}

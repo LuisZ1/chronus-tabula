@@ -1,0 +1,18 @@
+{
+	"nombre": "Peste Negra",
+	"anio": 1347,
+	"hasta": 1353,
+	"lat": 37.06,
+	"lng": 15.29,
+	"descripcion": "La pandemia entra en Europa por Sicilia y mata a un tercio de la población.",
+	"paises": [
+		"Europa"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Peste Negra",
+			"url": "https://es.wikipedia.org/wiki/Peste_Negra",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

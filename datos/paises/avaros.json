@@ -1,0 +1,24 @@
+{
+	"id": "avaros",
+	"nombre": "Kanato ávaro de Panonia",
+	"nombres": [
+		"Avars"
+	],
+	"wiki": "Canato ávaro",
+	"gobernantes": [
+		{
+			"desde": 562,
+			"hasta": 602,
+			"nombre": "Bayán I",
+			"titulo": "Kagán de los ávaros"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Canato ávaro",
+			"url": "https://es.wikipedia.org/wiki/Canato_ávaro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

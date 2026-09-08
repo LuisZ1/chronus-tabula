@@ -1,0 +1,19 @@
+{
+	"nombre": "Bombardeo atómico de Hiroshima",
+	"anio": 1945,
+	"lat": 34.3955,
+	"lng": 132.4536,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "La primera bomba atómica usada en guerra destruye Hiroshima el 6 de agosto de 1945.",
+	"wiki": "Bombardeos atómicos de Hiroshima y Nagasaki",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Bombardeos atómicos de Hiroshima y Nagasaki",
+			"url": "https://es.wikipedia.org/wiki/Bombardeos_at%C3%B3micos_de_Hiroshima_y_Nagasaki",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

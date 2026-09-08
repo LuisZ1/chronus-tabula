@@ -1,0 +1,19 @@
+{
+	"nombre": "La Gran Muralla China",
+	"anio": -220,
+	"lat": 40.43,
+	"lng": 116.57,
+	"paises": [
+		"China"
+	],
+	"descripcion": "Tras unificar China, el primer emperador Qin Shi Huang manda enlazar y ampliar las murallas fronterizas del norte para frenar a los pueblos esteparios. Sucesivas dinastías la reconstruirán; la fábrica de piedra visible hoy es en su mayoría de época Ming.",
+	"wiki": "Gran Muralla China",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Gran Muralla China",
+			"url": "https://es.wikipedia.org/wiki/Gran_Muralla_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"nombre": "Tratado de Karlowitz",
+	"anio": 1699,
+	"lat": 45.2,
+	"lng": 19.93,
+	"paises": [
+		"Otomano",
+		"Austria",
+		"Polonia",
+		"República de Venecia"
+	],
+	"descripcion": "Primera gran cesión territorial otomana: tras la derrota en la Gran Guerra Turca, el imperio entrega Hungría a los Habsburgo y Podolia a Polonia. Marca el inicio del retroceso otomano en Europa.",
+	"wiki": "Tratado de Karlowitz",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Karlowitz",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Karlowitz",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

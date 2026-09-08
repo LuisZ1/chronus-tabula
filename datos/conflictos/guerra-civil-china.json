@@ -1,0 +1,97 @@
+{
+	"id": "guerra-civil-china",
+	"nombre": "Guerra civil china",
+	"inicio": 1927,
+	"fin": 1949,
+	"paises": [
+		"China"
+	],
+	"bajas": "~6-8 millones de muertos (sin contar la guerra contra Japón)",
+	"descripcion": "Nacionalistas del Kuomintang contra comunistas de Mao, con la tregua forzada por la invasión japonesa (1937-1945): acaba con la República Popular en Pekín y el KMT refugiado en Taiwán.",
+	"wiki": "Guerra civil china",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra civil china",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_china",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Sóviets del sur y Larga Marcha",
+			"tipo": "frente",
+			"desde": 1927,
+			"hasta": 1936,
+			"poligono": [
+				[
+					29.5,
+					113.5
+				],
+				[
+					28.5,
+					117.0
+				],
+				[
+					24.5,
+					115.5
+				],
+				[
+					25.5,
+					111.5
+				]
+			]
+		},
+		{
+			"nombre": "Ofensivas finales (Manchuria y llanura central)",
+			"tipo": "frente",
+			"desde": 1946,
+			"hasta": 1949,
+			"poligono": [
+				[
+					44.0,
+					122.0
+				],
+				[
+					42.0,
+					126.0
+				],
+				[
+					33.5,
+					118.5
+				],
+				[
+					34.5,
+					113.0
+				],
+				[
+					40.0,
+					115.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Campaña de Huaihai",
+			"anio": 1948,
+			"hasta": 1949,
+			"lat": 34.26,
+			"lng": 117.19,
+			"descripcion": "Medio millón de soldados del KMT aniquilados o capturados: la batalla decisiva."
+		},
+		{
+			"nombre": "Toma de Pekín",
+			"anio": 1949,
+			"lat": 39.9,
+			"lng": 116.4,
+			"descripcion": "Mao proclama la República Popular el 1 de octubre de 1949."
+		}
+	]
+}

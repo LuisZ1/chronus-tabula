@@ -1,0 +1,224 @@
+{
+	"id": "corea-del-norte",
+	"nombre": "Corea del Norte",
+	"nombres": [
+		"Korea, Democratic People's Republic of",
+		"Corea del Norte",
+		"República Popular Democrática de Corea"
+	],
+	"wikidata": "Q423",
+	"wiki": "es:Corea del Norte",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q423",
+			"url": "https://www.wikidata.org/wiki/Q423",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Corea del Norte",
+			"url": "https://es.wikipedia.org/wiki/Corea_del_Norte",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "PRK",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 10773
+		},
+		{
+			"anio": -9000,
+			"valor": 13467
+		},
+		{
+			"anio": -8000,
+			"valor": 16834
+		},
+		{
+			"anio": -7000,
+			"valor": 21042
+		},
+		{
+			"anio": -6000,
+			"valor": 26303
+		},
+		{
+			"anio": -5000,
+			"valor": 32879
+		},
+		{
+			"anio": -4000,
+			"valor": 41099
+		},
+		{
+			"anio": -3000,
+			"valor": 51373
+		},
+		{
+			"anio": -2000,
+			"valor": 64217
+		},
+		{
+			"anio": -1000,
+			"valor": 80271
+		},
+		{
+			"anio": 0,
+			"valor": 100339
+		},
+		{
+			"anio": 100,
+			"valor": 128367
+		},
+		{
+			"anio": 200,
+			"valor": 164224
+		},
+		{
+			"anio": 300,
+			"valor": 210097
+		},
+		{
+			"anio": 400,
+			"valor": 268783
+		},
+		{
+			"anio": 500,
+			"valor": 343862
+		},
+		{
+			"anio": 600,
+			"valor": 439913
+		},
+		{
+			"anio": 700,
+			"valor": 562794
+		},
+		{
+			"anio": 800,
+			"valor": 720000
+		},
+		{
+			"anio": 900,
+			"valor": 810000
+		},
+		{
+			"anio": 1000,
+			"valor": 900000
+		},
+		{
+			"anio": 1100,
+			"valor": 1080000
+		},
+		{
+			"anio": 1200,
+			"valor": 1440000
+		},
+		{
+			"anio": 1300,
+			"valor": 1080000
+		},
+		{
+			"anio": 1400,
+			"valor": 1260000
+		},
+		{
+			"anio": 1500,
+			"valor": 1440000
+		},
+		{
+			"anio": 1600,
+			"valor": 1800000
+		},
+		{
+			"anio": 1700,
+			"valor": 2250000
+		},
+		{
+			"anio": 1750,
+			"valor": 3034275
+		},
+		{
+			"anio": 1800,
+			"valor": 4345000
+		},
+		{
+			"anio": 1850,
+			"valor": 4443855
+		},
+		{
+			"anio": 1900,
+			"valor": 5432032
+		},
+		{
+			"anio": 1910,
+			"valor": 5724136
+		},
+		{
+			"anio": 1920,
+			"valor": 6800254
+		},
+		{
+			"anio": 1930,
+			"valor": 8019424
+		},
+		{
+			"anio": 1940,
+			"valor": 9457170
+		},
+		{
+			"anio": 1950,
+			"valor": 11116734
+		},
+		{
+			"anio": 1960,
+			"valor": 11722950
+		},
+		{
+			"anio": 1970,
+			"valor": 15172777
+		},
+		{
+			"anio": 1980,
+			"valor": 18236783
+		},
+		{
+			"anio": 1990,
+			"valor": 21112134
+		},
+		{
+			"anio": 2000,
+			"valor": 23665909
+		},
+		{
+			"anio": 2010,
+			"valor": 24987257
+		},
+		{
+			"anio": 2020,
+			"valor": 26136312
+		},
+		{
+			"anio": 2023,
+			"valor": 26418196
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f8b3e28cbaab",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "La República Popular Democrática de Corea, comúnmente Corea del Norte, es un país soberano de Asia Oriental, situado en la parte norte de la península de Corea. Limita al norte con China, al noreste con Rusia y al sur con Corea del Sur, con la que formó un solo país hasta el año 1945."
+}

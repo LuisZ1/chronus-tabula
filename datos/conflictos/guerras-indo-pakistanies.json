@@ -1,0 +1,115 @@
+{
+	"id": "guerras-indo-pakistanies",
+	"nombre": "Guerras indo-pakistaníes",
+	"inicio": 1947,
+	"fin": 1971,
+	"paises": [
+		"India",
+		"Pakistán"
+	],
+	"bajas": "más de 30.000 muertos en el conjunto de las guerras",
+	"descripcion": "Tras la partición de 1947, India y Pakistán libran tres guerras: en 1947-48 y 1965 por Cachemira, sin cambios de fronteras decisivos, y en 1971, cuando la intervención india en la guerra de independencia de Bangladés provoca la rendición de más de 90.000 soldados pakistaníes en Daca y el nacimiento de Bangladés.",
+	"wiki": "Guerras indo-pakistaníes",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras indo-pakistaníes",
+			"url": "https://es.wikipedia.org/wiki/Guerras_indo-pakistaníes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Cachemira (línea de control)",
+			"tipo": "frente",
+			"desde": 1947,
+			"hasta": 1971,
+			"poligono": [
+				[
+					34.7,
+					73.8
+				],
+				[
+					34.6,
+					75.5
+				],
+				[
+					33.2,
+					75.4
+				],
+				[
+					33.4,
+					73.9
+				]
+			]
+		},
+		{
+			"nombre": "Frente de Punyab y Rajastán",
+			"tipo": "frente",
+			"desde": 1965,
+			"hasta": 1971,
+			"poligono": [
+				[
+					32.5,
+					74.0
+				],
+				[
+					32.4,
+					75.0
+				],
+				[
+					27.5,
+					71.0
+				],
+				[
+					28.0,
+					70.0
+				]
+			]
+		},
+		{
+			"nombre": "Frente oriental (Bengala / Bangladés)",
+			"tipo": "frente",
+			"desde": 1971,
+			"hasta": 1971,
+			"poligono": [
+				[
+					26.5,
+					88.5
+				],
+				[
+					26.3,
+					92.3
+				],
+				[
+					21.5,
+					92.0
+				],
+				[
+					22.0,
+					88.7
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Asal Uttar (1965)",
+			"anio": 1965,
+			"lat": 30.9,
+			"lng": 74.6
+		},
+		{
+			"nombre": "Batalla de Longewala (1971)",
+			"anio": 1971,
+			"lat": 27.85,
+			"lng": 70.55
+		},
+		{
+			"nombre": "Caída de Daca (1971)",
+			"anio": 1971,
+			"lat": 23.81,
+			"lng": 90.41
+		}
+	]
+}

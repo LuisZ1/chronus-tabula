@@ -1,0 +1,40 @@
+{
+	"id": "ostrogodos",
+	"nombre": "Reino ostrogodo",
+	"nombres": [
+		"Ostrogoths"
+	],
+	"wiki": "Reino ostrogodo",
+	"gobernantes": [
+		{
+			"desde": 493,
+			"hasta": 526,
+			"nombre": "Teodorico el Grande",
+			"titulo": "Rey de los ostrogodos e Italia"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino ostrogodo",
+			"url": "https://es.wikipedia.org/wiki/Reino_ostrogodo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Reino ostrogodo",
+			"url": "https://es.wikipedia.org/wiki/Reino_ostrogodo_de_Italia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El reino ostrogodo de Italia fue una entidad política, un reino bárbaro nominalmente parte del Imperio romano, fundado por ostrogodos germánicos y que controló los territorios de la prefectura del pretorio de Italia entre 493 y 553. Sus límites aproximados iban desde la Provenza hasta Iliria.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "b4d006ff4257",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,223 @@
+{
+	"id": "oman",
+	"nombre": "Omán",
+	"nombres": [
+		"Oman",
+		"Omán"
+	],
+	"wikidata": "Q842",
+	"wiki": "es:Omán",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q842",
+			"url": "https://www.wikidata.org/wiki/Q842",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Omán",
+			"url": "https://es.wikipedia.org/wiki/Om%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "OMN",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 2644
+		},
+		{
+			"anio": -9000,
+			"valor": 3966
+		},
+		{
+			"anio": -8000,
+			"valor": 5949
+		},
+		{
+			"anio": -7000,
+			"valor": 8924
+		},
+		{
+			"anio": -6000,
+			"valor": 13387
+		},
+		{
+			"anio": -5000,
+			"valor": 20081
+		},
+		{
+			"anio": -4000,
+			"valor": 30121
+		},
+		{
+			"anio": -3000,
+			"valor": 45182
+		},
+		{
+			"anio": -2000,
+			"valor": 67773
+		},
+		{
+			"anio": -1000,
+			"valor": 101660
+		},
+		{
+			"anio": 0,
+			"valor": 152490
+		},
+		{
+			"anio": 100,
+			"valor": 157749
+		},
+		{
+			"anio": 200,
+			"valor": 163188
+		},
+		{
+			"anio": 300,
+			"valor": 168816
+		},
+		{
+			"anio": 400,
+			"valor": 174637
+		},
+		{
+			"anio": 500,
+			"valor": 180659
+		},
+		{
+			"anio": 600,
+			"valor": 186888
+		},
+		{
+			"anio": 700,
+			"valor": 193333
+		},
+		{
+			"anio": 800,
+			"valor": 200000
+		},
+		{
+			"anio": 900,
+			"valor": 200000
+		},
+		{
+			"anio": 1000,
+			"valor": 200000
+		},
+		{
+			"anio": 1100,
+			"valor": 200000
+		},
+		{
+			"anio": 1200,
+			"valor": 200000
+		},
+		{
+			"anio": 1300,
+			"valor": 200000
+		},
+		{
+			"anio": 1400,
+			"valor": 200000
+		},
+		{
+			"anio": 1500,
+			"valor": 200000
+		},
+		{
+			"anio": 1600,
+			"valor": 235000
+		},
+		{
+			"anio": 1700,
+			"valor": 270000
+		},
+		{
+			"anio": 1750,
+			"valor": 290000
+		},
+		{
+			"anio": 1800,
+			"valor": 300000
+		},
+		{
+			"anio": 1850,
+			"valor": 346557
+		},
+		{
+			"anio": 1900,
+			"valor": 379583
+		},
+		{
+			"anio": 1910,
+			"valor": 412514
+		},
+		{
+			"anio": 1920,
+			"valor": 421003
+		},
+		{
+			"anio": 1930,
+			"valor": 431196
+		},
+		{
+			"anio": 1940,
+			"valor": 441636
+		},
+		{
+			"anio": 1950,
+			"valor": 456997
+		},
+		{
+			"anio": 1960,
+			"valor": 530489
+		},
+		{
+			"anio": 1970,
+			"valor": 662691
+		},
+		{
+			"anio": 1980,
+			"valor": 1001248
+		},
+		{
+			"anio": 1990,
+			"valor": 1763957
+		},
+		{
+			"anio": 2000,
+			"valor": 2282139
+		},
+		{
+			"anio": 2010,
+			"valor": 2757450
+		},
+		{
+			"anio": 2020,
+			"valor": 4522502
+		},
+		{
+			"anio": 2023,
+			"valor": 5049267
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "a074c85d19d5",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Omán, oficialmente el Sultanato de Omán, es un país localizado al occidente de Asia, en la costa oriental de la península arábiga. Limita con los Emiratos Árabes Unidos (EAU) al noroeste, con Arabia Saudita al oeste y con Yemen al suroeste."
+}

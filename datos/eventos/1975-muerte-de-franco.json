@@ -1,0 +1,19 @@
+{
+	"nombre": "Muerte de Franco",
+	"anio": 1975,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "El 20 de noviembre de 1975 muere Francisco Franco, dando paso a la Transición democrática.",
+	"wiki": "Francisco Franco",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Francisco Franco",
+			"url": "https://es.wikipedia.org/wiki/Francisco_Franco",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"nombre": "Fundación de Normandía",
+	"anio": 911,
+	"lat": 49.44,
+	"lng": 1.09,
+	"paises": [
+		"Vikingos (Escandinavia)",
+		"Francia"
+	],
+	"descripcion": "Por el tratado de Saint-Clair-sur-Epte, el rey franco cede al vikingo Rollón la tierra de los «hombres del norte»: Normandía, cuna de los conquistadores de 1066.",
+	"wiki": "Tratado de Saint-Clair-sur-Epte",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Saint-Clair-sur-Epte",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Saint-Clair-sur-Epte",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

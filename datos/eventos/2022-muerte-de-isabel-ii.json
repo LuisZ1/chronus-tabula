@@ -1,0 +1,19 @@
+{
+	"nombre": "Muerte de Isabel II",
+	"anio": 2022,
+	"lat": 51.5,
+	"lng": -0.14,
+	"paises": [
+		"Gran Bretaña"
+	],
+	"descripcion": "Fallece tras 70 años de reinado, el más largo de la historia británica; le sucede Carlos III.",
+	"wiki": "Isabel II del Reino Unido",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Isabel II del Reino Unido",
+			"url": "https://es.wikipedia.org/wiki/Isabel_II_del_Reino_Unido",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

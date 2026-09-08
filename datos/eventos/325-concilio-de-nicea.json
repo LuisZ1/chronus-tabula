@@ -1,0 +1,17 @@
+{
+	"nombre": "Concilio de Nicea",
+	"anio": 325,
+	"lat": 40.43,
+	"lng": 29.72,
+	"descripcion": "Primer concilio ecuménico de la cristiandad.",
+	"paises": [
+		"Roma"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Concilio de Nicea",
+			"url": "https://es.wikipedia.org/wiki/Concilio_de_Nicea",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Iniciativa de la Franja y la Ruta",
+	"anio": 2013,
+	"lat": 39.9,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "Xi Jinping lanza la Iniciativa de la Franja y la Ruta, un vasto programa de infraestructuras y conectividad a escala euroasiática y mundial.",
+	"wiki": "Iniciativa de la Franja y la Ruta",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Iniciativa de la Franja y la Ruta",
+			"url": "https://es.wikipedia.org/wiki/Iniciativa_de_la_Franja_y_la_Ruta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

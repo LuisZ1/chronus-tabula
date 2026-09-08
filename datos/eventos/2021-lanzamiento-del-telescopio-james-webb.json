@@ -1,0 +1,21 @@
+{
+	"nombre": "Lanzamiento del telescopio James Webb",
+	"anio": 2021,
+	"lat": 5.24,
+	"lng": -52.77,
+	"categoria": "invento",
+	"paises": [
+		"Estados Unidos",
+		"Francia"
+	],
+	"descripcion": "El mayor telescopio espacial de la historia parte de Kourou el 25 de diciembre.",
+	"wiki": "Telescopio espacial James Webb",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Telescopio espacial James Webb",
+			"url": "https://es.wikipedia.org/wiki/Telescopio_espacial_James_Webb",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

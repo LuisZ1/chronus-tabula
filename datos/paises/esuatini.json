@@ -1,0 +1,159 @@
+{
+	"id": "esuatini",
+	"nombre": "Esuatini",
+	"nombres": [
+		"Swaziland",
+		"Suazilandia",
+		"Esuatini",
+		"Eswatini"
+	],
+	"wiki": "es:Esuatini",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Esuatini",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1050",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en",
+			"url": "https://en.wikipedia.org/wiki/List_of_kings_of_Eswatini",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~SWZ",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Esuatini",
+			"url": "https://es.wikipedia.org/wiki/Suazilandia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Suazilandia (protectorado británico)",
+			"desde": 1903,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Reino de Suazilandia",
+			"desde": 1968,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Reino de Esuatini",
+			"desde": 2018,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1050",
+	"gobernantes": [
+		{
+			"nombre": "Ngwane III (dinastía Dlamini)",
+			"desde": 1745,
+			"hasta": 1780,
+			"cargo": "rey (ngwenyama)"
+		},
+		{
+			"nombre": "Sobhuza I",
+			"desde": 1815,
+			"hasta": 1836,
+			"cargo": "rey (ngwenyama)"
+		},
+		{
+			"nombre": "Mswati II",
+			"desde": 1840,
+			"hasta": 1868,
+			"cargo": "rey (ngwenyama)"
+		},
+		{
+			"nombre": "Mbandzeni",
+			"desde": 1875,
+			"hasta": 1889,
+			"cargo": "rey (ngwenyama)"
+		},
+		{
+			"nombre": "Ngwane V (Bhunu)",
+			"desde": 1889,
+			"hasta": 1899,
+			"cargo": "rey (ngwenyama)"
+		},
+		{
+			"nombre": "Sobhuza II",
+			"desde": 1899,
+			"hasta": 1982,
+			"cargo": "rey (ngwenyama); jefe de Estado desde la independencia de 1968"
+		},
+		{
+			"nombre": "Dzeliwe Shongwe",
+			"desde": 1982,
+			"hasta": 1983,
+			"cargo": "reina regente (indlovukati)"
+		},
+		{
+			"nombre": "Ntfombi Tfwala",
+			"desde": 1983,
+			"hasta": 1986,
+			"cargo": "reina regente (indlovukati)"
+		},
+		{
+			"nombre": "Mswati III",
+			"desde": 1986,
+			"hasta": 2026,
+			"cargo": "rey (ngwenyama)"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 273000,
+			"fuente": "OWID"
+		},
+		{
+			"anio": 1966,
+			"valor": 375000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 1986,
+			"valor": 681000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 1997,
+			"valor": 980000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2007,
+			"valor": 1018000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2024,
+			"valor": 1230000,
+			"fuente": "UN/OWID (estimación)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "80e0aa379cf2",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Suazilandia o Esuatini, llamado oficialmente Reino de Esuatini y antes Reino de Suazilandia, es un pequeño Estado soberano sin salida al mar situado en África Austral o del Sur, en las estribaciones orientales de los montes Drakensberg, entre Sudáfrica y Mozambique. Su territorio está organizado en cuatro distritos."
+}

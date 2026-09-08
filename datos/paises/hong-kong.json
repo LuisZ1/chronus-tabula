@@ -1,0 +1,222 @@
+{
+	"id": "hong-kong",
+	"nombre": "Hong Kong",
+	"nombres": [
+		"Hong Kong"
+	],
+	"wikidata": "Q8646",
+	"wiki": "es:Hong Kong",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q8646",
+			"url": "https://www.wikidata.org/wiki/Q8646",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Hong Kong",
+			"url": "https://es.wikipedia.org/wiki/Hong_Kong",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "HKG",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1558
+		},
+		{
+			"anio": -9000,
+			"valor": 2596
+		},
+		{
+			"anio": -8000,
+			"valor": 4327
+		},
+		{
+			"anio": -7000,
+			"valor": 7212
+		},
+		{
+			"anio": -6000,
+			"valor": 12021
+		},
+		{
+			"anio": -5000,
+			"valor": 20036
+		},
+		{
+			"anio": -4000,
+			"valor": 33393
+		},
+		{
+			"anio": -3000,
+			"valor": 55655
+		},
+		{
+			"anio": -2000,
+			"valor": 92759
+		},
+		{
+			"anio": -1000,
+			"valor": 154599
+		},
+		{
+			"anio": 0,
+			"valor": 257665
+		},
+		{
+			"anio": 100,
+			"valor": 251673
+		},
+		{
+			"anio": 200,
+			"valor": 211270
+		},
+		{
+			"anio": 300,
+			"valor": 107174
+		},
+		{
+			"anio": 400,
+			"valor": 207269
+		},
+		{
+			"anio": 500,
+			"valor": 202448
+		},
+		{
+			"anio": 600,
+			"valor": 197740
+		},
+		{
+			"anio": 700,
+			"valor": 193142
+		},
+		{
+			"anio": 800,
+			"valor": 188650
+		},
+		{
+			"anio": 900,
+			"valor": 184263
+		},
+		{
+			"anio": 1000,
+			"valor": 179978
+		},
+		{
+			"anio": 1100,
+			"valor": 443565
+		},
+		{
+			"anio": 1200,
+			"valor": 506955
+		},
+		{
+			"anio": 1300,
+			"valor": 13463
+		},
+		{
+			"anio": 1400,
+			"valor": 13150
+		},
+		{
+			"anio": 1500,
+			"valor": 12844
+		},
+		{
+			"anio": 1600,
+			"valor": 12545
+		},
+		{
+			"anio": 1700,
+			"valor": 12254
+		},
+		{
+			"anio": 1750,
+			"valor": 15028
+		},
+		{
+			"anio": 1800,
+			"valor": 20000
+		},
+		{
+			"anio": 1850,
+			"valor": 38893
+		},
+		{
+			"anio": 1900,
+			"valor": 310869
+		},
+		{
+			"anio": 1910,
+			"valor": 445944
+		},
+		{
+			"anio": 1920,
+			"valor": 639683
+		},
+		{
+			"anio": 1930,
+			"valor": 825680
+		},
+		{
+			"anio": 1940,
+			"valor": 1746891
+		},
+		{
+			"anio": 1950,
+			"valor": 1978347
+		},
+		{
+			"anio": 1960,
+			"valor": 3094853
+		},
+		{
+			"anio": 1970,
+			"valor": 3739916
+		},
+		{
+			"anio": 1980,
+			"valor": 4962488
+		},
+		{
+			"anio": 1990,
+			"valor": 5560599
+		},
+		{
+			"anio": 2000,
+			"valor": 6704665
+		},
+		{
+			"anio": 2010,
+			"valor": 7101614
+		},
+		{
+			"anio": 2020,
+			"valor": 7490240
+		},
+		{
+			"anio": 2023,
+			"valor": 7442738
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "599e67772c41",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Hong Kong, oficialmente Región Administrativa Especial de Hong Kong de la República Popular China, es una de las dos regiones administrativas especiales que existen en la República Popular China, junto con Macao."
+}

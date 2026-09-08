@@ -1,0 +1,19 @@
+{
+	"nombre": "Liberación pacífica del Tíbet (Acuerdo de 17 Puntos)",
+	"anio": 1951,
+	"lat": 29.65,
+	"lng": 91.13,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El Acuerdo de los 17 Puntos incorpora el Tíbet a la República Popular China tras la campaña militar de Qamdo.",
+	"wiki": "Acuerdo de los Diecisiete Puntos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Acuerdo de los Diecisiete Puntos",
+			"url": "https://es.wikipedia.org/wiki/Acuerdo_de_los_Diecisiete_Puntos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

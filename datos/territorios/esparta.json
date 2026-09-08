@@ -1,0 +1,40 @@
+{
+	"nombre": "Esparta",
+	"pais": "Esparta",
+	"lat": 37.08,
+	"lng": 22.42,
+	"desde": -700,
+	"hasta": -371,
+	"descripcion": "Polis militar de Laconia, regida por la constitución de Licurgo. Leónidas cae en las Termópilas (480 a. C.); tras vencer a Atenas (404 a. C.) ejerce la hegemonía griega hasta su derrota en Leuctra (371 a. C.).",
+	"wiki": "Esparta",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Esparta",
+			"url": "https://es.wikipedia.org/wiki/Esparta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"poligono": [
+		[
+			37.5,
+			21.85
+		],
+		[
+			37.45,
+			22.75
+		],
+		[
+			36.75,
+			22.9
+		],
+		[
+			36.4,
+			22.35
+		],
+		[
+			36.75,
+			21.6
+		]
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "mamelucos",
+	"nombre": "Sultanato mameluco",
+	"nombres": [
+		"Mamluke Sultanate"
+	],
+	"gobernantes": [
+		{
+			"desde": 1260,
+			"hasta": 1277,
+			"nombre": "Baibars (vencedor de los mongoles en Ain Yalut)",
+			"titulo": "Sultán"
+		},
+		{
+			"desde": 1501,
+			"hasta": 1516,
+			"nombre": "Qansuh al-Ghawri",
+			"titulo": "Sultán"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sultanato mameluco",
+			"url": "https://es.wikipedia.org/wiki/Sultanato_mameluco",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Sultanato mameluco",
+			"url": "https://es.wikipedia.org/wiki/Sultanato_mameluco_de_Egipto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El sultanato mameluco de Egipto, también conocido como Egipto mameluco o Imperio mameluco, fue un reino medieval que se extendía por Egipto, el Levante mediterráneo y el Heyaz. Duró desde la caída de la dinastía ayubí en 1250 hasta la conquista otomana de Egipto en 1517.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "bffe154a4263",
+		"secciones": [
+			"resena"
+		]
+	}
+}

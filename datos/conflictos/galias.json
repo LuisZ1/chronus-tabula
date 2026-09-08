@@ -1,0 +1,120 @@
+{
+	"id": "galias",
+	"nombre": "Guerra de las Galias",
+	"inicio": -58,
+	"fin": -50,
+	"paises": [
+		"Roma",
+		"Pueblos galos"
+	],
+	"bajas": "~1.000.000 de muertos según fuentes antiguas",
+	"descripcion": "Julio César somete la Galia; su crónica es 'De bello Gallico'.",
+	"batallas": [
+		{
+			"nombre": "Sitio de Alesia",
+			"anio": -52,
+			"lat": 47.54,
+			"lng": 4.5,
+			"bajas": "decenas de miles",
+			"descripcion": "Vercingétorix se rinde a César tras el doble cerco."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Galia central y belga",
+			"tipo": "frente",
+			"desde": -58,
+			"hasta": -53,
+			"poligono": [
+				[
+					51,
+					2.5
+				],
+				[
+					50.5,
+					6.5
+				],
+				[
+					47.5,
+					7
+				],
+				[
+					46,
+					4
+				],
+				[
+					46.5,
+					1
+				],
+				[
+					48.5,
+					-1
+				]
+			]
+		},
+		{
+			"nombre": "Britania (expediciones)",
+			"tipo": "frente",
+			"desde": -55,
+			"hasta": -54,
+			"poligono": [
+				[
+					51.5,
+					-1.5
+				],
+				[
+					51.5,
+					1.4
+				],
+				[
+					50.8,
+					1.4
+				],
+				[
+					50.7,
+					-1.8
+				]
+			]
+		},
+		{
+			"nombre": "Revuelta de Vercingétorix (Alesia)",
+			"tipo": "frente",
+			"desde": -52,
+			"hasta": -51,
+			"poligono": [
+				[
+					47.8,
+					1.5
+				],
+				[
+					47.8,
+					5
+				],
+				[
+					45,
+					4.5
+				],
+				[
+					44.5,
+					1.8
+				],
+				[
+					46,
+					1
+				]
+			]
+		}
+	],
+	"wiki": "Guerra de las Galias",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de las Galias",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Galias",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

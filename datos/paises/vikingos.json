@@ -1,0 +1,87 @@
+{
+	"id": "vikingos",
+	"nombre": "Vikingos (Escandinavia)",
+	"nombres": [
+		"Danes",
+		"Kingdom of Norway",
+		"Denmark-Norway",
+		"Denmark",
+		"Norway"
+	],
+	"wiki": "Era vikinga",
+	"relacionados": [
+		"Dinamarca",
+		"Noruega",
+		"Danelaw",
+		"Normandos",
+		"Ducado de Normandía"
+	],
+	"gobernantes": [
+		{
+			"desde": 872,
+			"hasta": 930,
+			"nombre": "Harald I Cabellera Hermosa",
+			"titulo": "Primer rey de la Noruega unificada"
+		},
+		{
+			"desde": 936,
+			"hasta": 958,
+			"nombre": "Gorm el Viejo",
+			"titulo": "Rey de Dinamarca"
+		},
+		{
+			"desde": 958,
+			"hasta": 986,
+			"nombre": "Harald Blåtand «Dientazul»",
+			"titulo": "Rey de Dinamarca, cristianizador (da nombre al Bluetooth)"
+		},
+		{
+			"desde": 986,
+			"hasta": 1014,
+			"nombre": "Sven I Barbapartida",
+			"titulo": "Rey de Dinamarca y conquistador de Inglaterra (1013)"
+		},
+		{
+			"desde": 1016,
+			"hasta": 1035,
+			"nombre": "Canuto el Grande",
+			"titulo": "Rey de Inglaterra, Dinamarca y Noruega (imperio del mar del Norte)"
+		},
+		{
+			"desde": 1046,
+			"hasta": 1066,
+			"nombre": "Harald III Hardrada",
+			"titulo": "Rey de Noruega, «el último vikingo»"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Era vikinga",
+			"url": "https://es.wikipedia.org/wiki/Era_vikinga",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Canuto II de Dinamarca",
+			"url": "https://es.wikipedia.org/wiki/Canuto_II_de_Dinamarca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Era vikinga",
+			"url": "https://es.wikipedia.org/wiki/%C3%89poca_vikinga",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La época vikinga es el nombre dado al periodo histórico en Escandinavia y su área de influencia en Europa, tras la edad de hierro germánica, entre los años 793 y 1066, durante el cual los vikingos —guerreros y comerciantes escandinavos— atacaron y exploraron la mayor parte de Europa, del suroeste de Asia, de África y de Norteamérica nororiental.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6141d2b7afbf",
+		"secciones": [
+			"resena"
+		]
+	}
+}

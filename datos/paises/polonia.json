@@ -1,0 +1,245 @@
+{
+	"id": "polonia",
+	"nombre": "Polonia / República de las Dos Naciones",
+	"nombres": [
+		"Poland",
+		"Poland-Lithuania",
+		"Poland-Llituania"
+	],
+	"gobernantes": [
+		{
+			"desde": 1333,
+			"hasta": 1370,
+			"nombre": "Casimiro III el Grande",
+			"titulo": "Rey de Polonia"
+		},
+		{
+			"desde": 1548,
+			"hasta": 1572,
+			"nombre": "Segismundo II Augusto",
+			"titulo": "Rey de Polonia y Gran Duque de Lituania"
+		},
+		{
+			"desde": 1674,
+			"hasta": 1696,
+			"nombre": "Juan III Sobieski (vencedor de Viena)",
+			"titulo": "Rey de Polonia"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 699
+		},
+		{
+			"anio": -9000,
+			"valor": 1166
+		},
+		{
+			"anio": -8000,
+			"valor": 1944
+		},
+		{
+			"anio": -7000,
+			"valor": 3240
+		},
+		{
+			"anio": -6000,
+			"valor": 5400
+		},
+		{
+			"anio": -5000,
+			"valor": 9000
+		},
+		{
+			"anio": -4000,
+			"valor": 15000
+		},
+		{
+			"anio": -3000,
+			"valor": 25000
+		},
+		{
+			"anio": -2000,
+			"valor": 62500
+		},
+		{
+			"anio": -1000,
+			"valor": 100000
+		},
+		{
+			"anio": 0,
+			"valor": 500000
+		},
+		{
+			"anio": 100,
+			"valor": 550000
+		},
+		{
+			"anio": 200,
+			"valor": 600000
+		},
+		{
+			"anio": 300,
+			"valor": 700000
+		},
+		{
+			"anio": 400,
+			"valor": 800000
+		},
+		{
+			"anio": 500,
+			"valor": 700000
+		},
+		{
+			"anio": 600,
+			"valor": 600000
+		},
+		{
+			"anio": 700,
+			"valor": 800000
+		},
+		{
+			"anio": 800,
+			"valor": 1000000
+		},
+		{
+			"anio": 900,
+			"valor": 1125000
+		},
+		{
+			"anio": 1000,
+			"valor": 1250000
+		},
+		{
+			"anio": 1100,
+			"valor": 1500000
+		},
+		{
+			"anio": 1200,
+			"valor": 2250000
+		},
+		{
+			"anio": 1300,
+			"valor": 3500000
+		},
+		{
+			"anio": 1400,
+			"valor": 3500000
+		},
+		{
+			"anio": 1500,
+			"valor": 4000000
+		},
+		{
+			"anio": 1600,
+			"valor": 5000000
+		},
+		{
+			"anio": 1700,
+			"valor": 6000000
+		},
+		{
+			"anio": 1750,
+			"valor": 7529694
+		},
+		{
+			"anio": 1800,
+			"valor": 9000000
+		},
+		{
+			"anio": 1850,
+			"valor": 13045605
+		},
+		{
+			"anio": 1900,
+			"valor": 24312686
+		},
+		{
+			"anio": 1910,
+			"valor": 25809505
+		},
+		{
+			"anio": 1920,
+			"valor": 23791651
+		},
+		{
+			"anio": 1930,
+			"valor": 27385667
+		},
+		{
+			"anio": 1940,
+			"valor": 28883551
+		},
+		{
+			"anio": 1950,
+			"valor": 24780169
+		},
+		{
+			"anio": 1960,
+			"valor": 29575967
+		},
+		{
+			"anio": 1970,
+			"valor": 32542639
+		},
+		{
+			"anio": 1980,
+			"valor": 35576518
+		},
+		{
+			"anio": 1990,
+			"valor": 38055448
+		},
+		{
+			"anio": 2000,
+			"valor": 38258077
+		},
+		{
+			"anio": 2010,
+			"valor": 38095356
+		},
+		{
+			"anio": 2020,
+			"valor": 38171005
+		},
+		{
+			"anio": 2023,
+			"valor": 38762847
+		}
+	],
+	"relacionados": [
+		"Polonia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Polonia / República de las Dos Naciones",
+			"url": "https://es.wikipedia.org/wiki/Polonia_/_República_de_las_Dos_Naciones",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): Polonia",
+			"url": "https://es.wikipedia.org/wiki/Polonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Poland",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f4144616556a",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Polonia, oficialmente la República de Polonia, es un país de Europa Central, uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido en Estado democrático de derecho y cuya forma de gobierno es la república parlamentaria. Es un Estado unitario con 16 subdivisiones o regiones administrativas denominadas voivodatos."
+}

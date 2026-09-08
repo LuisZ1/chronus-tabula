@@ -1,0 +1,41 @@
+{
+	"id": "buyi",
+	"nombre": "Emirato buyí",
+	"nombres": [
+		"Buyid Emirate",
+		"Buwayhid Emirates"
+	],
+	"wiki": "Buyíes",
+	"gobernantes": [
+		{
+			"desde": 949,
+			"hasta": 983,
+			"nombre": "Adud al-Dawla",
+			"titulo": "Emir buyí, apogeo del poder sobre Bagdad"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Buyíes",
+			"url": "https://es.wikipedia.org/wiki/Buyíes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Buyíes",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_b%C3%BAyida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Los Búyidas, también conocidos como Buyíes o en inglés como Buwaihids o Buyyids, fueron una dinastía irania chiita que era originaria de Daylam. Fundaron una confederación que controló la mayor parte de lo que hoy es Irán e Irak en los siglos X y XI.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e589a1fd73d9",
+		"secciones": [
+			"resena"
+		]
+	}
+}

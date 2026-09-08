@@ -1,0 +1,24 @@
+{
+	"nombre": "Acta de Unión: nace el Reino de Gran Bretaña",
+	"anio": 1707,
+	"lat": 55.95,
+	"lng": -3.19,
+	"paises": [
+		"Inglaterra",
+		"Escocia"
+	],
+	"descripcion": "Los parlamentos de Inglaterra y Escocia se fusionan por las Actas de Unión de 1707, creando el Reino de Gran Bretaña bajo la reina Ana.",
+	"wiki": "Acta de Unión (1707)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Actas de Unión de 1707",
+			"url": "https://es.wikipedia.org/wiki/Actas_de_Uni%C3%B3n_de_1707",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

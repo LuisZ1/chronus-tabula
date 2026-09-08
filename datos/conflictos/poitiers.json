@@ -1,0 +1,88 @@
+{
+	"id": "poitiers",
+	"nombre": "Incursiones omeyas en la Galia",
+	"inicio": 719,
+	"fin": 759,
+	"paises": [
+		"Califato omeya",
+		"Reino franco"
+	],
+	"bajas": "~20.000 muertos",
+	"descripcion": "Expediciones omeyas al norte de los Pirineos, frenadas por los francos.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Poitiers (Tours)",
+			"anio": 732,
+			"lat": 46.58,
+			"lng": 0.34,
+			"bajas": "~12.000 muertos",
+			"descripcion": "Carlos Martel detiene el avance omeya en Europa occidental."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Aquitania",
+			"tipo": "frente",
+			"desde": 719,
+			"hasta": 742,
+			"poligono": [
+				[
+					46.8,
+					-1.5
+				],
+				[
+					47.2,
+					2.5
+				],
+				[
+					44,
+					3
+				],
+				[
+					43.3,
+					-1.5
+				],
+				[
+					45,
+					-1.3
+				]
+			]
+		},
+		{
+			"nombre": "Septimania (reconquista franca)",
+			"tipo": "frente",
+			"desde": 736,
+			"hasta": 759,
+			"poligono": [
+				[
+					44.2,
+					1.5
+				],
+				[
+					44,
+					5
+				],
+				[
+					42.7,
+					5
+				],
+				[
+					42.4,
+					1.8
+				]
+			]
+		}
+	],
+	"wiki": "Batalla de Poitiers (732)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Poitiers (732)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Poitiers_(732)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

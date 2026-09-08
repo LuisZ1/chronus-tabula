@@ -1,0 +1,33 @@
+{
+	"id": "guayana-francesa",
+	"nombre": "Guayana Francesa",
+	"nombres": [
+		"French Guiana",
+		"Guayana Francesa"
+	],
+	"wikidata": "Q3769",
+	"wiki": "es:Guayana Francesa",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q3769",
+			"url": "https://www.wikidata.org/wiki/Q3769",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Guayana Francesa",
+			"url": "https://es.wikipedia.org/wiki/Guayana_Francesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "La Guayana Francesa, o simplemente como Departamento de Guayana, es una región y departamento de ultramar de Francia, que forma parte de la Unión Europea como región ultraperiférica. En tanto colectividad territorial única, tan solo consta de una asamblea que reagrupa las competencias del Consejo regional y departamental.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2d23933fc6e9",
+		"secciones": [
+			"resena"
+		]
+	}
+}

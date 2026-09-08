@@ -1,0 +1,222 @@
+{
+	"id": "nepal",
+	"nombre": "Nepal",
+	"nombres": [
+		"Nepal"
+	],
+	"wikidata": "Q837",
+	"wiki": "es:Nepal",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q837",
+			"url": "https://www.wikidata.org/wiki/Q837",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Nepal",
+			"url": "https://es.wikipedia.org/wiki/Nepal",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "NPL",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 107405
+		},
+		{
+			"anio": -9000,
+			"valor": 134256
+		},
+		{
+			"anio": -8000,
+			"valor": 167820
+		},
+		{
+			"anio": -7000,
+			"valor": 209775
+		},
+		{
+			"anio": -6000,
+			"valor": 262219
+		},
+		{
+			"anio": -5000,
+			"valor": 327774
+		},
+		{
+			"anio": -4000,
+			"valor": 409718
+		},
+		{
+			"anio": -3000,
+			"valor": 512147
+		},
+		{
+			"anio": -2000,
+			"valor": 640184
+		},
+		{
+			"anio": -1000,
+			"valor": 800230
+		},
+		{
+			"anio": 0,
+			"valor": 1000288
+		},
+		{
+			"anio": 100,
+			"valor": 1043219
+		},
+		{
+			"anio": 200,
+			"valor": 1087992
+		},
+		{
+			"anio": 300,
+			"valor": 1134687
+		},
+		{
+			"anio": 400,
+			"valor": 1183386
+		},
+		{
+			"anio": 500,
+			"valor": 1234175
+		},
+		{
+			"anio": 600,
+			"valor": 1287144
+		},
+		{
+			"anio": 700,
+			"valor": 1342386
+		},
+		{
+			"anio": 800,
+			"valor": 1400000
+		},
+		{
+			"anio": 900,
+			"valor": 1450000
+		},
+		{
+			"anio": 1000,
+			"valor": 1500000
+		},
+		{
+			"anio": 1100,
+			"valor": 1600000
+		},
+		{
+			"anio": 1200,
+			"valor": 1700000
+		},
+		{
+			"anio": 1300,
+			"valor": 1800000
+		},
+		{
+			"anio": 1400,
+			"valor": 1900000
+		},
+		{
+			"anio": 1500,
+			"valor": 2000000
+		},
+		{
+			"anio": 1600,
+			"valor": 2500000
+		},
+		{
+			"anio": 1700,
+			"valor": 3000000
+		},
+		{
+			"anio": 1750,
+			"valor": 3367083
+		},
+		{
+			"anio": 1800,
+			"valor": 4000000
+		},
+		{
+			"anio": 1850,
+			"valor": 4352082
+		},
+		{
+			"anio": 1900,
+			"valor": 5116267
+		},
+		{
+			"anio": 1910,
+			"valor": 5384368
+		},
+		{
+			"anio": 1920,
+			"valor": 5360778
+		},
+		{
+			"anio": 1930,
+			"valor": 5343320
+		},
+		{
+			"anio": 1940,
+			"valor": 5500086
+		},
+		{
+			"anio": 1950,
+			"valor": 8396610
+		},
+		{
+			"anio": 1960,
+			"valor": 10123664
+		},
+		{
+			"anio": 1970,
+			"valor": 12436191
+		},
+		{
+			"anio": 1980,
+			"valor": 15553106
+		},
+		{
+			"anio": 1990,
+			"valor": 19524579
+		},
+		{
+			"anio": 2000,
+			"valor": 24546509
+		},
+		{
+			"anio": 2010,
+			"valor": 27341955
+		},
+		{
+			"anio": 2020,
+			"valor": 28966580
+		},
+		{
+			"anio": 2023,
+			"valor": 29694614
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "3999dc03dbee",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Nepal, cuyo nombre oficial es República Democrática Federal de Nepal, es un país sin salida al mar ubicado en Asia del Sur. Geográficamente se encuentra ubicado en el Himalaya, rodeado en el norte por la República Popular China y en el sur por la India."
+}

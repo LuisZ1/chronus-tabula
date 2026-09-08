@@ -1,0 +1,27 @@
+{
+	"nombre": "Tratado de Sèvres",
+	"anio": 1920,
+	"lat": 48.83,
+	"lng": 2.21,
+	"paises": [
+		"Otomano",
+		"Reino Unido",
+		"Francia",
+		"Grecia",
+		"Italia"
+	],
+	"descripcion": "El tratado impone el desmembramiento del Imperio otomano: mandatos francés y británico sobre las provincias árabes, cesiones a Grecia e Italia y una Turquía reducida. El rechazo nacionalista turco lo dejaría en papel mojado.",
+	"wiki": "Tratado de Sèvres",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Sèvres",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_S%C3%A8vres",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

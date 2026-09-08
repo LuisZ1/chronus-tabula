@@ -1,0 +1,19 @@
+{
+	"nombre": "Adhesión de China a la OMC",
+	"anio": 2001,
+	"lat": 39.9,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "El 11 de diciembre de 2001 China ingresa en la Organización Mundial del Comercio, acelerando su integración en la economía global.",
+	"wiki": "Organización Mundial del Comercio",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Organización Mundial del Comercio",
+			"url": "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Mundial_del_Comercio",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

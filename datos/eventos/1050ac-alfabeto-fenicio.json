@@ -1,0 +1,19 @@
+{
+	"nombre": "Alfabeto fenicio",
+	"anio": -1050,
+	"lat": 34.12,
+	"lng": 35.65,
+	"categoria": "invento",
+	"descripcion": "En Biblos se consolida el alfabeto del que descienden el griego y el latino.",
+	"wiki": "Alfabeto fenicio",
+	"paises": [
+		"Fenicia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Alfabeto fenicio",
+			"url": "https://es.wikipedia.org/wiki/Alfabeto_fenicio",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

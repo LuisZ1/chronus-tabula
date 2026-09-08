@@ -1,0 +1,18 @@
+{
+	"nombre": "Edicto de Milán",
+	"anio": 313,
+	"lat": 45.46,
+	"lng": 9.19,
+	"descripcion": "Constantino y Licinio conceden libertad de culto a los cristianos.",
+	"wiki": "Edicto de Milán",
+	"paises": [
+		"Roma"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Edicto de Milán",
+			"url": "https://es.wikipedia.org/wiki/Edicto_de_Milán",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

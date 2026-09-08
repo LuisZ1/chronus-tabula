@@ -1,11 +1,11 @@
 # Guía de contribución a Chronus Tabula
 
-¡Gracias por querer ampliar la historia! El 95 % de las contribuciones no tocan código: consisten en **editar `web/data/historia.json`**, un único fichero JSON pensado para leerse y ampliarse a mano. Esta guía te enseña cada formato con ejemplos copiables, cómo probar tus cambios y qué debe llevar tu merge request.
+¡Gracias por querer ampliar la historia! El 95 % de las contribuciones no tocan código: consisten en **editar un fichero JSON pequeño en `datos/`**: uno por país (`datos/paises/<id>.json`), conflicto, evento o territorio, pensados para leerse y ampliarse a mano. El `web/data/historia.json` que descarga la web se **genera** a partir de ellos (no lo edites). Esta guía te enseña cada formato con ejemplos copiables, cómo probar tus cambios y qué debe llevar tu merge request.
 
 ## Índice
 
 1. [El flujo en 5 pasos](#el-flujo-en-5-pasos)
-2. [Cómo está organizado historia.json](#cómo-está-organizado-historiajson)
+2. [Cómo están organizados los datos](#cómo-están-organizados-los-datos)
 3. [Añadir o modificar un país](#añadir-o-modificar-un-país)
 4. [Añadir un conflicto con sus zonas y batallas](#añadir-un-conflicto)
 5. [Añadir un evento o invento](#añadir-un-evento-o-invento)
@@ -25,7 +25,7 @@ git clone <tu-fork> && cd "mapa mundi anual"
 # 2. Arranca la app en local
 python api/servidor.py         # → http://localhost:9000 (mapa) y /admin.html (panel)
 
-# 3. Edita web/data/historia.json (cualquier editor de texto vale)
+# 3. Edita el fichero de la entidad en datos/ (p. ej. datos/paises/espana.json)
 
 # 4. Valida el fichero
 python api/validar.py
@@ -33,9 +33,11 @@ python api/validar.py
 # 5. Prueba en el navegador, haz commit y abre tu merge request
 ```
 
-## Cómo está organizado historia.json
+## Cómo están organizados los datos
 
-El fichero tiene cuatro bloques. Los años **negativos significan a. C.** (−480 = 480 a. C.) en todo el fichero, y las coordenadas son siempre `[latitud, longitud]` en grados decimales.
+Cada entidad vive en su propio fichero dentro de `datos/`: `paises/<id>.json`, `conflictos/<id>.json`, `eventos/<año>-<nombre>.json` y `territorios/<nombre>.json` (más `_meta.json` con la ayuda interna). Para añadir un país, crea `datos/paises/<id>.json`; para corregir uno, edita el suyo. Así cada cambio toca solo su fichero, el diff se lee de un vistazo y dos personas no chocan aunque trabajen a la vez. `python api/compilar.py` (o arrancar `servidor.py`) junta todo en `web/data/historia.json`, que es lo que descarga la web.
+
+Vistos en conjunto, los datos tienen cuatro bloques. Los años **negativos significan a. C.** (−480 = 480 a. C.) en todo el fichero, y las coordenadas son siempre `[latitud, longitud]` en grados decimales.
 
 ```jsonc
 {
@@ -167,7 +169,7 @@ python -c "import json; d=json.load(open('web/data/geojson/world_1700.geojson'))
 
 **Sacar coordenadas.** Clic derecho en Google Maps u OpenStreetMap → copia `lat, lng`. Dos decimales bastan.
 
-**Dibujar un polígono de zona.** Con 4-12 vértices sobra: piensa en el rectángulo/trapecio que envuelve el teatro de operaciones, apunta sus esquinas en sentido horario y no te preocupes por el mar (se recorta solo). Puedes ayudarte de [geojson.io](https://geojson.io) — ojo: allí verás `[lng, lat]`, y en `historia.json` va **`[lat, lng]`** (invertido).
+**Dibujar un polígono de zona.** Con 4-12 vértices sobra: piensa en el rectángulo/trapecio que envuelve el teatro de operaciones, apunta sus esquinas en sentido horario y no te preocupes por el mar (se recorta solo). Puedes ayudarte de [geojson.io](https://geojson.io) — ojo: allí verás `[lng, lat]`, y en nuestros ficheros va **`[lat, lng]`** (invertido).
 
 **Cifras de bajas y población.** Son campos de texto libre y estimaciones divulgativas: usa `~`, rangos («~4-8 millones») y, si las fuentes discrepan, dilo («según Josefo…»). Cita tu fuente en el merge request.
 
@@ -186,7 +188,7 @@ Formatos de `id`: `wikipedia-es:<artículo>`, `wikidata:Q…`, `owid:<dataset>`,
 
 ## Añadir datos con el pipeline (opcional)
 
-Para volúmenes grandes no hace falta teclear: `api/fuentes/` ingiere de APIs abiertas y deja **propuestas** en una base local que tú revisas y apruebas antes de exportar a `historia.json` — o, más cómodo, desde el panel de administración en `http://localhost:9000/admin.html` (ver README). Las propuestas ya llegan con su fuente puesta.
+Para volúmenes grandes no hace falta teclear: `api/fuentes/` ingiere de APIs abiertas y deja **propuestas** en una base local que tú revisas y apruebas antes de exportar a `datos/` — o, más cómodo, desde el panel de administración en `http://localhost:9000/admin.html` (ver README). Las propuestas ya llegan con su fuente puesta.
 
 ## Validar y probar
 
@@ -196,7 +198,7 @@ Antes de abrir el merge request:
 python api/validar.py
 ```
 
-El validador comprueba: JSON bien formado, ids únicos, campos obligatorios, coherencia de años (`desde ≤ hasta`, batallas y zonas dentro de su conflicto), coordenadas en rango, tipos de zona válidos y que los `nombres` de países existan en algún GeoJSON. Si todo va bien termina con `✔ historia.json válido`.
+El validador comprueba: JSON bien formado, ids únicos, campos obligatorios, coherencia de años (`desde ≤ hasta`, batallas y zonas dentro de su conflicto), coordenadas en rango, tipos de zona válidos y que los `nombres` de países existan en algún GeoJSON. Si todo va bien termina con `✔ datos válidos`.
 
 Después, prueba visual: arranca el servidor, ve a los años que tocan tus datos y comprueba que las zonas caen donde deben, que la ficha se abre y que el filtro «Seguir un reino» encuentra tu entidad (si tocaste `paises`).
 

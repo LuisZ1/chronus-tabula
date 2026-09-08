@@ -1,0 +1,169 @@
+{
+	"id": "zambia",
+	"nombre": "Zambia",
+	"nombres": [
+		"Zambia",
+		"República de Zambia"
+	],
+	"wiki": "es:Zambia",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Zambia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q953",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Zambia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~ZMB",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Zambia",
+			"url": "https://es.wikipedia.org/wiki/Zambia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Rodesia del Norte (protectorado británico)",
+			"desde": 1911,
+			"hasta": 1964
+		},
+		{
+			"nombre": "República de Zambia",
+			"desde": 1964,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q953",
+	"gobernantes": [
+		{
+			"nombre": "Reino Lunda de Kazembe",
+			"desde": 1740,
+			"hasta": 1899,
+			"cargo": "reino precolonial (Mwata Kazembe)"
+		},
+		{
+			"nombre": "Reino Lozi de Barotselandia",
+			"desde": 1600,
+			"hasta": 1969,
+			"cargo": "reino (litunga)"
+		},
+		{
+			"nombre": "Lewanika (Lubosi Lewanika)",
+			"desde": 1878,
+			"hasta": 1916,
+			"cargo": "litunga (rey) de Barotselandia"
+		},
+		{
+			"nombre": "Kenneth Kaunda",
+			"desde": 1964,
+			"hasta": 1991,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Frederick Chiluba",
+			"desde": 1991,
+			"hasta": 2002,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Levy Mwanawasa",
+			"desde": 2002,
+			"hasta": 2008,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Rupiah Banda",
+			"desde": 2008,
+			"hasta": 2011,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Michael Sata",
+			"desde": 2011,
+			"hasta": 2014,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Guy Scott",
+			"desde": 2014,
+			"hasta": 2015,
+			"cargo": "presidente interino"
+		},
+		{
+			"nombre": "Edgar Lungu",
+			"desde": 2015,
+			"hasta": 2021,
+			"cargo": "presidente"
+		},
+		{
+			"nombre": "Hakainde Hichilema",
+			"desde": 2021,
+			"hasta": 2026,
+			"cargo": "presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 2340000,
+			"fuente": "OWID"
+		},
+		{
+			"anio": 1963,
+			"valor": 3410000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 1980,
+			"valor": 5662000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 1990,
+			"valor": 7383000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2000,
+			"valor": 9886000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2010,
+			"valor": 13092000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2022,
+			"valor": 19610000,
+			"fuente": "censo"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f53e92e5f30e",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Zambia, oficialmente la República de Zambia, es un país sin salida al mar ubicado en el centro-sur del continente africano. Limita con la República Democrática del Congo al norte, Tanzania al noreste, Malaui y Mozambique al este, Zimbabue y Botsuana al sur, Namibia al suroeste y con Angola al oeste."
+}

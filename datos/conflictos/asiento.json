@@ -1,0 +1,104 @@
+{
+	"id": "asiento",
+	"nombre": "Guerra del Asiento (de la Oreja de Jenkins)",
+	"inicio": 1739,
+	"fin": 1748,
+	"paises": [
+		"España",
+		"Gran Bretaña"
+	],
+	"bajas": "~25.000-30.000 muertos, la mayoría británicos por enfermedad",
+	"descripcion": "Gran Bretaña lanza contra la América española la mayor flota vista hasta entonces; el desastre ante Cartagena de Indias (1741) frente a Blas de Lezo mantiene el imperio español intacto medio siglo más.",
+	"wiki": "Guerra del Asiento",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Asiento",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Asiento",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Caribe español",
+			"tipo": "frente",
+			"poligono": [
+				[
+					23.5,
+					-85.5
+				],
+				[
+					21,
+					-73.5
+				],
+				[
+					10,
+					-64
+				],
+				[
+					8.5,
+					-77
+				],
+				[
+					9.5,
+					-82
+				],
+				[
+					18,
+					-84
+				]
+			]
+		},
+		{
+			"nombre": "Florida y Georgia",
+			"tipo": "frente",
+			"desde": 1740,
+			"hasta": 1743,
+			"poligono": [
+				[
+					32.2,
+					-81.5
+				],
+				[
+					32,
+					-80.5
+				],
+				[
+					29.5,
+					-81
+				],
+				[
+					29.7,
+					-82.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Portobelo",
+			"anio": 1739,
+			"lat": 9.55,
+			"lng": -79.65,
+			"descripcion": "Vernon destruye el puerto del oro panameño; euforia en Londres."
+		},
+		{
+			"nombre": "Sitio de Cartagena de Indias",
+			"anio": 1741,
+			"lat": 10.42,
+			"lng": -75.53,
+			"bajas": "~9.500-11.500 muertos británicos (mayoría por enfermedad) frente a ~800 españoles",
+			"descripcion": "Blas de Lezo, con ~3.500 hombres y 6 navíos, derrota a los ~27.000 hombres y 124 barcos de Vernon: una de las mayores victorias navales de España."
+		},
+		{
+			"nombre": "Sitio de San Agustín",
+			"anio": 1740,
+			"lat": 29.9,
+			"lng": -81.31,
+			"descripcion": "Oglethorpe fracasa ante la Florida española."
+		}
+	]
+}

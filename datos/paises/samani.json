@@ -1,0 +1,30 @@
+{
+	"id": "samani",
+	"nombre": "Imperio samánida",
+	"nombres": [
+		"Samanid Empire"
+	],
+	"wiki": "Imperio samánida",
+	"gobernantes": [
+		{
+			"desde": 892,
+			"hasta": 907,
+			"nombre": "Ismail I",
+			"titulo": "Emir samánida, funda la potencia de Bujará"
+		},
+		{
+			"desde": 914,
+			"hasta": 943,
+			"nombre": "Nasr II",
+			"titulo": "Emir samánida, apogeo cultural"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio samánida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_samánida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

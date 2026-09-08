@@ -1,0 +1,24 @@
+{
+	"id": "jazaros",
+	"nombre": "Kanato jázaro",
+	"nombres": [
+		"Khazars"
+	],
+	"wiki": "Kanato jázaro",
+	"gobernantes": [
+		{
+			"desde": 618,
+			"hasta": 630,
+			"nombre": "Tong Yabghu / Ziebel",
+			"titulo": "Kagán jázaro-turco aliado de Heraclio"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Kanato jázaro",
+			"url": "https://es.wikipedia.org/wiki/Kanato_jázaro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

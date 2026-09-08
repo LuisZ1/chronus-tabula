@@ -1,0 +1,30 @@
+{
+	"id": "maurya",
+	"nombre": "Imperio maurya",
+	"nombres": [
+		"Mauryan Empire"
+	],
+	"wiki": "Imperio mauryano",
+	"gobernantes": [
+		{
+			"desde": -322,
+			"hasta": -297,
+			"nombre": "Chandragupta Maurya",
+			"titulo": "Fundador del Imperio maurya"
+		},
+		{
+			"desde": -268,
+			"hasta": -232,
+			"nombre": "Asóka",
+			"titulo": "Emperador maurya, difusor del budismo"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio mauryano",
+			"url": "https://es.wikipedia.org/wiki/Imperio_mauryano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

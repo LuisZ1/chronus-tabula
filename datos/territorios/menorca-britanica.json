@@ -1,0 +1,18 @@
+{
+	"nombre": "Menorca (británica)",
+	"pais": "Gran Bretaña",
+	"lat": 39.95,
+	"lng": 4.05,
+	"desde": 1708,
+	"hasta": 1802,
+	"descripcion": "Tomada por los británicos en 1708 y cedida en Utrecht (1713). Francia la ocupó en 1756-1763 y España en 1782-1798; el Tratado de Amiens (1802) la devolvió definitivamente a España.",
+	"wiki": "Menorca",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Menorca",
+			"url": "https://es.wikipedia.org/wiki/Menorca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

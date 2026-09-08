@@ -1,0 +1,216 @@
+{
+	"id": "mali",
+	"nombre": "Imperio de Malí",
+	"nombres": [
+		"Mali",
+		"Malí",
+		"Imperio de Malí",
+		"Imperio mandinga",
+		"República de Malí"
+	],
+	"wiki": "es:Imperio de Malí",
+	"relacionados": [
+		"Malí"
+	],
+	"wikidata": "Q463705",
+	"gobernantes": [
+		{
+			"nombre": "Sundiata Keita (Mari Djata I)",
+			"desde": 1235,
+			"hasta": 1255,
+			"cargo": "Mansa (fundador del Imperio de Malí)"
+		},
+		{
+			"nombre": "Uli Keita (Mansa Uli)",
+			"desde": 1255,
+			"hasta": 1270,
+			"cargo": "Mansa"
+		},
+		{
+			"nombre": "Sakura",
+			"desde": 1285,
+			"hasta": 1300,
+			"cargo": "Mansa"
+		},
+		{
+			"nombre": "Abubakari II (Muhammad ibn Qu)",
+			"desde": 1310,
+			"hasta": 1312,
+			"cargo": "Mansa"
+		},
+		{
+			"nombre": "Musa I (Mansa Musa)",
+			"desde": 1312,
+			"hasta": 1337,
+			"cargo": "Mansa"
+		},
+		{
+			"nombre": "Maghan I",
+			"desde": 1337,
+			"hasta": 1341,
+			"cargo": "Mansa"
+		},
+		{
+			"nombre": "Suleyman",
+			"desde": 1341,
+			"hasta": 1360,
+			"cargo": "Mansa"
+		},
+		{
+			"nombre": "Mahmud IV",
+			"desde": 1590,
+			"hasta": 1610,
+			"cargo": "Mansa (último gobernante importante)"
+		},
+		{
+			"nombre": "Modibo Keïta",
+			"desde": 1960,
+			"hasta": 1968,
+			"cargo": "Presidente (Malí moderno)"
+		},
+		{
+			"nombre": "Moussa Traoré",
+			"desde": 1968,
+			"hasta": 1991,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Amadou Toumani Touré",
+			"desde": 1991,
+			"hasta": 1992,
+			"cargo": "Presidente (transición militar)"
+		},
+		{
+			"nombre": "Alpha Oumar Konaré",
+			"desde": 1992,
+			"hasta": 2002,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Amadou Toumani Touré",
+			"desde": 2002,
+			"hasta": 2012,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Dioncounda Traoré",
+			"desde": 2012,
+			"hasta": 2013,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Ibrahim Boubacar Keïta",
+			"desde": 2013,
+			"hasta": 2020,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Bah Ndaw",
+			"desde": 2020,
+			"hasta": 2021,
+			"cargo": "Presidente de la transición"
+		},
+		{
+			"nombre": "Assimi Goïta",
+			"desde": 2021,
+			"hasta": 2026,
+			"cargo": "Presidente de la transición"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1976,
+			"valor": 6394918,
+			"fuente": "Censo de Malí 1976"
+		},
+		{
+			"anio": 1987,
+			"valor": 7696348,
+			"fuente": "Censo de Malí 1987"
+		},
+		{
+			"anio": 1998,
+			"valor": 9790492,
+			"fuente": "Censo de Malí 1998"
+		},
+		{
+			"anio": 2009,
+			"valor": 14528662,
+			"fuente": "Censo de Malí 2009"
+		},
+		{
+			"anio": 2018,
+			"valor": 19329841,
+			"fuente": "Estimación ONU"
+		},
+		{
+			"anio": 2022,
+			"valor": 22621000,
+			"fuente": "Estimación (Wikipedia es)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki_es_imperio",
+			"url": "https://es.wikipedia.org/wiki/Imperio_de_Mal%C3%AD",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki_es_mali",
+			"url": "https://es.wikipedia.org/wiki/Mali",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki_en_hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Mali",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata_imperio",
+			"url": "https://www.wikidata.org/wiki/Q463705",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata_mali",
+			"url": "https://www.wikidata.org/wiki/Q912",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Imperio de Malí",
+			"url": "https://es.wikipedia.org/wiki/Imperio_de_Mali",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio de Malí",
+			"desde": 1235,
+			"hasta": 1610
+		},
+		{
+			"nombre": "Sudán Francés (colonia)",
+			"desde": 1892,
+			"hasta": 1960
+		},
+		{
+			"nombre": "República de Malí",
+			"desde": 1960,
+			"hasta": 2026
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "50f6c24b4110",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "El Imperio de Mali fue un Estado medieval de los mandenká entre 1235–1546, un pueblo cuyo núcleo fue la región de Mandén, entre las actuales ciudades de Bamako (Mali) y Siguiri (Guinea), en el África Occidental. El imperio fue fundado por Sundiata Keïta."
+}

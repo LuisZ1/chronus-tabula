@@ -1,0 +1,158 @@
+{
+	"id": "rd-congo",
+	"nombre": "RD del Congo",
+	"nombres": [
+		"Zaire",
+		"Belgian Congo",
+		"Zaire (Belgium)",
+		"República Democrática del Congo",
+		"Congo (Léopoldville)"
+	],
+	"wiki": "es:República Democrática del Congo",
+	"nombres_periodo": [
+		{
+			"nombre": "Congo Belga",
+			"desde": 1908,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Congo (Léopoldville)",
+			"desde": 1960,
+			"hasta": 1971
+		},
+		{
+			"nombre": "Zaire",
+			"desde": 1971,
+			"hasta": 1997
+		},
+		{
+			"nombre": "RD del Congo",
+			"desde": 1997
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Democratic_Republic_of_the_Congo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_kongo",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q974",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): República Democrática del Congo",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"wikidata": "Q974",
+	"gobernantes": [
+		{
+			"nombre": "Reino Luba",
+			"desde": 1585,
+			"hasta": 1889,
+			"cargo": "Reino histórico (meseta de Katanga)"
+		},
+		{
+			"nombre": "Reino del Congo",
+			"desde": 1390,
+			"hasta": 1914,
+			"cargo": "Reino histórico (bajo Congo)"
+		},
+		{
+			"nombre": "Imperio Lunda",
+			"desde": 1665,
+			"hasta": 1887,
+			"cargo": "Reino histórico (sur)"
+		},
+		{
+			"nombre": "Joseph Kasa-Vubu",
+			"desde": 1960,
+			"hasta": 1965,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Mobutu Sese Seko",
+			"desde": 1965,
+			"hasta": 1997,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Laurent-Désiré Kabila",
+			"desde": 1997,
+			"hasta": 2001,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Joseph Kabila",
+			"desde": 2001,
+			"hasta": 2019,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Félix Tshisekedi",
+			"desde": 2019,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 12174000,
+			"fuente": "Wikipedia (Demographics of DR Congo), estimación ONU"
+		},
+		{
+			"anio": 1960,
+			"valor": 15069000,
+			"fuente": "Wikipedia (Demographics of DR Congo), estimación ONU"
+		},
+		{
+			"anio": 1984,
+			"valor": 30631000,
+			"fuente": "Wikipedia (Demographics of DR Congo), censo"
+		},
+		{
+			"anio": 2000,
+			"valor": 52099000,
+			"fuente": "Wikipedia (Demographics of DR Congo), estimación"
+		},
+		{
+			"anio": 2020,
+			"valor": 101780263,
+			"fuente": "Wikipedia (Demographics of DR Congo), estimación"
+		},
+		{
+			"anio": 2023,
+			"valor": 102262808,
+			"fuente": "Wikipedia (República Democrática del Congo), estimación"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "812d71493a4d",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "La República Democrática del Congo es un país de África Central, uno de los cincuenta y cuatro países que forman el continente africano. Es el segundo país más grande de África, después de Argelia, así como el undécimo más grande del mundo."
+}

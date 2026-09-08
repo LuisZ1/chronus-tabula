@@ -1,0 +1,19 @@
+{
+	"nombre": "Llegada de los portugueses a Tanegashima",
+	"anio": 1543,
+	"lat": 30.6,
+	"lng": 130.98,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Náufragos portugueses introducen las armas de fuego en Japón, transformando la guerra Sengoku.",
+	"wiki": "Tanegashima",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tanegashima",
+			"url": "https://es.wikipedia.org/wiki/Tanegashima",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

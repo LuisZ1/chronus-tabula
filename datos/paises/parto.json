@@ -1,0 +1,47 @@
+{
+	"id": "parto",
+	"nombre": "Imperio parto",
+	"nombres": [
+		"Parthian Empire",
+		"Parthia"
+	],
+	"wiki": "Imperio parto",
+	"gobernantes": [
+		{
+			"desde": -247,
+			"hasta": -211,
+			"nombre": "Arsaces I",
+			"titulo": "Fundador de la dinastía arsácida"
+		},
+		{
+			"desde": -123,
+			"hasta": -88,
+			"nombre": "Mitrídates II",
+			"titulo": "Rey de reyes parto"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio parto",
+			"url": "https://es.wikipedia.org/wiki/Imperio_parto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Imperio parto",
+			"url": "https://es.wikipedia.org/wiki/Imperio_parto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Imperio parto, también conocido como Imperio arsácida, fue una de las principales potencias políticas y culturales iranias del antiguo Irán.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e6df9ab3254f",
+		"secciones": [
+			"resena"
+		]
+	}
+}

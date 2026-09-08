@@ -1,0 +1,54 @@
+{
+	"id": "sasanida",
+	"nombre": "Imperio sasánida",
+	"nombres": [
+		"Sasanian Empire",
+		"Sasanian dependencies"
+	],
+	"gobernantes": [
+		{
+			"desde": 224,
+			"hasta": 242,
+			"nombre": "Ardashir I (fundador)",
+			"titulo": "Sah de Persia"
+		},
+		{
+			"desde": 531,
+			"hasta": 579,
+			"nombre": "Cosroes I",
+			"titulo": "Sah de Persia"
+		},
+		{
+			"desde": 590,
+			"hasta": 628,
+			"nombre": "Cosroes II",
+			"titulo": "Sah de Persia"
+		}
+	],
+	"relacionados": [
+		"Persia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio sasánida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_sasánida",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Imperio sasánida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_sas%C3%A1nida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Imperio sasánida, o Imperio de los iranios, también conocido como Segundo Imperio persa o Imperio neopersa, fue el segundo imperio persa y el cuarto y último estado iranio previo a la Conquista musulmana de los siglos VII y VIII.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "029d68805ecf",
+		"secciones": [
+			"resena"
+		]
+	}
+}

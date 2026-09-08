@@ -1,0 +1,23 @@
+{
+	"nombre": "Constitutio Antoniniana",
+	"anio": 212,
+	"lat": 41.9,
+	"lng": 12.5,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "El edicto de Caracalla (212) concede la ciudadanía romana a casi todos los hombres libres del Imperio, unificando su estatus jurídico.",
+	"wiki": "Constitutio Antoniniana",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Constitutio Antoniniana",
+			"url": "https://es.wikipedia.org/wiki/Constitutio_Antoniniana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

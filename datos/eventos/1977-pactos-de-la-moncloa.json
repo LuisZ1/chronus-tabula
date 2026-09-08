@@ -1,0 +1,19 @@
+{
+	"nombre": "Pactos de la Moncloa",
+	"anio": 1977,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Acuerdos entre Gobierno, oposición y agentes sociales para afrontar la crisis económica y consolidar la democracia.",
+	"wiki": "Pactos de la Moncloa",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pactos de la Moncloa",
+			"url": "https://es.wikipedia.org/wiki/Pactos_de_la_Moncloa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

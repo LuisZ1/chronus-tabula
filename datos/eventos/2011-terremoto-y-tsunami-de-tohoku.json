@@ -1,0 +1,19 @@
+{
+	"nombre": "Terremoto y tsunami de Tōhoku",
+	"anio": 2011,
+	"lat": 38.3,
+	"lng": 142.4,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Un megaterremoto y tsunami devastan el noreste de Japón y desencadenan el desastre de Fukushima.",
+	"wiki": "Terremoto y tsunami de Japón de 2011",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Terremoto y tsunami de Japón de 2011",
+			"url": "https://es.wikipedia.org/wiki/Terremoto_y_tsunami_de_Jap%C3%B3n_de_2011",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

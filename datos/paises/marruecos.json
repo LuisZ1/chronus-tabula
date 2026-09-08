@@ -1,0 +1,161 @@
+{
+	"id": "marruecos",
+	"nombre": "Marruecos",
+	"nombres": [
+		"Morocco",
+		"Morocco (France)",
+		"Marruecos",
+		"Reino de Marruecos",
+		"Al-Magrib"
+	],
+	"wiki": "es:Marruecos",
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Marruecos",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-rulers",
+			"url": "https://en.wikipedia.org/wiki/List_of_rulers_of_Morocco",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1028",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Marruecos",
+			"url": "https://es.wikipedia.org/wiki/Marruecos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Protectorado francés y español de Marruecos",
+			"desde": 1912,
+			"hasta": 1956
+		},
+		{
+			"nombre": "Reino de Marruecos",
+			"desde": 1957,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1028",
+	"gobernantes": [
+		{
+			"nombre": "Dinastía idrisí (Idrisíes)",
+			"desde": 788,
+			"hasta": 974,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Dinastía almorávide (Almorávides)",
+			"desde": 1040,
+			"hasta": 1147,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Dinastía almohade (Almohades)",
+			"desde": 1121,
+			"hasta": 1269,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Dinastía meriní (Meriníes)",
+			"desde": 1244,
+			"hasta": 1465,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Dinastía wattásida (Wattásidas)",
+			"desde": 1472,
+			"hasta": 1554,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Dinastía saadí (Saadíes)",
+			"desde": 1549,
+			"hasta": 1659,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Dinastía alauí (Alauíes)",
+			"desde": 1631,
+			"hasta": 2026,
+			"cargo": "Dinastía gobernante"
+		},
+		{
+			"nombre": "Mohammed V",
+			"desde": 1957,
+			"hasta": 1961,
+			"cargo": "Rey (sultán desde 1927)"
+		},
+		{
+			"nombre": "Hassan II",
+			"desde": 1961,
+			"hasta": 1999,
+			"cargo": "Rey"
+		},
+		{
+			"nombre": "Mohammed VI",
+			"desde": 1999,
+			"hasta": 2026,
+			"cargo": "Rey"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 8953000,
+			"fuente": "ONU - World Population Prospects"
+		},
+		{
+			"anio": 1960,
+			"valor": 11626000,
+			"fuente": "Censo / ONU"
+		},
+		{
+			"anio": 1982,
+			"valor": 20419000,
+			"fuente": "Censo 1982"
+		},
+		{
+			"anio": 1994,
+			"valor": 26074000,
+			"fuente": "Censo 1994"
+		},
+		{
+			"anio": 2004,
+			"valor": 29892000,
+			"fuente": "Censo 2004"
+		},
+		{
+			"anio": 2014,
+			"valor": 33848000,
+			"fuente": "Censo 2014"
+		},
+		{
+			"anio": 2024,
+			"valor": 36828000,
+			"fuente": "Censo 2024 (est.)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "32a476810450",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Marruecos, oficialmente el Reino de Marruecos, antiguamente llamado Imperio jerifiano, es un país soberano situado en el Magreb."
+}

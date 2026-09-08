@@ -1,0 +1,69 @@
+{
+	"id": "francos",
+	"nombre": "Reino franco / Imperio carolingio",
+	"nombres": [
+		"Franks",
+		"Frankish Kingdom"
+	],
+	"gobernantes": [
+		{
+			"desde": 481,
+			"hasta": 511,
+			"nombre": "Clodoveo I",
+			"titulo": "Rey de los francos"
+		},
+		{
+			"desde": 718,
+			"hasta": 741,
+			"nombre": "Carlos Martel (vencedor de Poitiers)",
+			"titulo": "Mayordomo de palacio"
+		},
+		{
+			"desde": 751,
+			"hasta": 768,
+			"nombre": "Pipino el Breve",
+			"titulo": "Rey de los francos"
+		},
+		{
+			"desde": 768,
+			"hasta": 814,
+			"nombre": "Carlomagno (emperador desde 800)",
+			"titulo": "Rey de los francos y Emperador"
+		},
+		{
+			"desde": 814,
+			"hasta": 840,
+			"nombre": "Luis el Piadoso",
+			"titulo": "Emperador"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 800,
+			"valor": 15000000
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino franco / Imperio carolingio",
+			"url": "https://es.wikipedia.org/wiki/Reino_franco_/_Imperio_carolingio",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Reino franco",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_los_francos_en_la_%C3%A9poca_merovingia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El reino de los francos, en latín también era conocido como Francia, o simplemente reino franco, son las denominaciones historiográficas que identifican el reino de los francos establecido a finales del siglo V aprovechando la decadencia de la autoridad imperial romana en las Galias, durante la época de las denominadas \"invasiones bárbaras\".",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "bb9487b3c436",
+		"secciones": [
+			"resena"
+		]
+	}
+}

@@ -1,0 +1,169 @@
+{
+	"id": "ming-qing",
+	"nombre": "Conquista manchú de China (Ming → Qing)",
+	"inicio": 1618,
+	"fin": 1683,
+	"paises": [
+		"China Ming",
+		"Manchúes (Qing)",
+		"Rebeldes de Li Zicheng"
+	],
+	"bajas": "~25.000.000 de muertos",
+	"descripcion": "De las Siete Quejas de Nurhaci (1618) a la caída de Pekín y Shanhaiguan (1644), la resistencia de los Ming del Sur y la toma de Taiwán (1683): los manchúes fundan la última dinastía imperial.",
+	"wiki": "Transición de Ming a Qing",
+	"zonas": [
+		{
+			"nombre": "Manchuria y la frontera norte",
+			"tipo": "frente",
+			"desde": 1618,
+			"hasta": 1644,
+			"poligono": [
+				[
+					43,
+					120
+				],
+				[
+					42.5,
+					127
+				],
+				[
+					40,
+					126
+				],
+				[
+					39.5,
+					119
+				],
+				[
+					41,
+					118
+				]
+			]
+		},
+		{
+			"nombre": "China del norte (caída de Pekín)",
+			"tipo": "frente",
+			"desde": 1644,
+			"hasta": 1645,
+			"poligono": [
+				[
+					41,
+					114
+				],
+				[
+					40.5,
+					119.5
+				],
+				[
+					38,
+					119
+				],
+				[
+					37.5,
+					114
+				]
+			]
+		},
+		{
+			"nombre": "China del sur (resistencia Ming)",
+			"tipo": "frente",
+			"desde": 1645,
+			"hasta": 1662,
+			"poligono": [
+				[
+					32,
+					110
+				],
+				[
+					31,
+					121
+				],
+				[
+					26,
+					120
+				],
+				[
+					23,
+					113
+				],
+				[
+					25,
+					108
+				]
+			]
+		},
+		{
+			"nombre": "Taiwán (Koxinga)",
+			"tipo": "frente",
+			"desde": 1661,
+			"hasta": 1683,
+			"poligono": [
+				[
+					25.3,
+					120
+				],
+				[
+					25.2,
+					122
+				],
+				[
+					22,
+					121.3
+				],
+				[
+					22.3,
+					120
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Ningyuan",
+			"anio": 1626,
+			"lat": 40.72,
+			"lng": 120.83,
+			"descripcion": "Los cañones Ming hieren de muerte a Nurhaci."
+		},
+		{
+			"nombre": "Caída de Pekín",
+			"anio": 1644,
+			"lat": 39.9,
+			"lng": 116.4,
+			"descripcion": "Li Zicheng toma la capital; el último emperador Ming se ahorca."
+		},
+		{
+			"nombre": "Batalla de Shanhaiguan",
+			"anio": 1644,
+			"lat": 40.01,
+			"lng": 119.75,
+			"descripcion": "Wu Sangui abre la Gran Muralla a los manchúes."
+		},
+		{
+			"nombre": "Sitio de Yangzhou",
+			"anio": 1645,
+			"lat": 32.39,
+			"lng": 119.44,
+			"bajas": "masacre de la población durante diez días",
+			"descripcion": "La resistencia Ming del sur es aplastada."
+		},
+		{
+			"nombre": "Batalla de Penghu",
+			"anio": 1683,
+			"lat": 23.57,
+			"lng": 119.58,
+			"descripcion": "La rendición de Taiwán completa la conquista Qing."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Transición de Ming a Qing",
+			"url": "https://es.wikipedia.org/wiki/Transición_de_Ming_a_Qing",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

@@ -1,0 +1,222 @@
+{
+	"id": "caida-occidente",
+	"nombre": "Invasiones germánicas y caída de Occidente",
+	"inicio": 376,
+	"fin": 476,
+	"paises": [
+		"Imperio romano de Occidente",
+		"Godos",
+		"Vándalos",
+		"Suevos",
+		"Alanos",
+		"Visigodos",
+		"Hérulos"
+	],
+	"bajas": "desconocidas (cientos de miles a lo largo de un siglo)",
+	"descripcion": "De Adrianópolis (378) a la deposición de Rómulo Augústulo (476): los pueblos germánicos cruzan las fronteras, saquean Roma dos veces y se reparten Occidente.",
+	"wiki": "Caída del Imperio romano de Occidente",
+	"zonas": [
+		{
+			"nombre": "Balcanes (guerra gótica)",
+			"tipo": "frente",
+			"desde": 376,
+			"hasta": 382,
+			"poligono": [
+				[
+					45,
+					22
+				],
+				[
+					44,
+					27
+				],
+				[
+					41.5,
+					26.5
+				],
+				[
+					42,
+					22.5
+				]
+			]
+		},
+		{
+			"nombre": "Cruce del Rin (vándalos, suevos y alanos)",
+			"tipo": "frente",
+			"desde": 406,
+			"hasta": 409,
+			"poligono": [
+				[
+					51,
+					4
+				],
+				[
+					50.5,
+					9
+				],
+				[
+					47,
+					8
+				],
+				[
+					46,
+					2
+				],
+				[
+					48.5,
+					1.5
+				]
+			]
+		},
+		{
+			"nombre": "Italia (Alarico)",
+			"tipo": "frente",
+			"desde": 408,
+			"hasta": 410,
+			"poligono": [
+				[
+					45.5,
+					8
+				],
+				[
+					45,
+					13
+				],
+				[
+					41.5,
+					14.5
+				],
+				[
+					41.5,
+					12
+				],
+				[
+					43.5,
+					10
+				]
+			]
+		},
+		{
+			"nombre": "África vándala",
+			"tipo": "frente",
+			"desde": 429,
+			"hasta": 439,
+			"poligono": [
+				[
+					36.9,
+					3
+				],
+				[
+					37.3,
+					10.5
+				],
+				[
+					35,
+					10
+				],
+				[
+					35.5,
+					2.5
+				]
+			]
+		},
+		{
+			"nombre": "Hispania y Galia (suevos y visigodos)",
+			"tipo": "frente",
+			"desde": 409,
+			"hasta": 476,
+			"poligono": [
+				[
+					44,
+					-1
+				],
+				[
+					43.5,
+					3
+				],
+				[
+					41,
+					2
+				],
+				[
+					38,
+					-4
+				],
+				[
+					40,
+					-8
+				],
+				[
+					43,
+					-8
+				]
+			]
+		},
+		{
+			"nombre": "Caída de Rávena y Roma",
+			"tipo": "frente",
+			"desde": 474,
+			"hasta": 476,
+			"poligono": [
+				[
+					44.6,
+					11.5
+				],
+				[
+					44.4,
+					12.5
+				],
+				[
+					41.5,
+					13
+				],
+				[
+					41.6,
+					12
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Adrianópolis",
+			"anio": 378,
+			"lat": 41.67,
+			"lng": 26.57,
+			"bajas": "~20.000 romanos muertos, incluido el emperador Valente",
+			"descripcion": "Los godos aniquilan al ejército de Oriente."
+		},
+		{
+			"nombre": "Saqueo de Roma (Alarico)",
+			"anio": 410,
+			"lat": 41.89,
+			"lng": 12.49,
+			"descripcion": "Primer saqueo de Roma en 800 años; conmoción en todo el imperio."
+		},
+		{
+			"nombre": "Saqueo de Roma (Genserico)",
+			"anio": 455,
+			"lat": 41.9,
+			"lng": 12.5,
+			"descripcion": "Los vándalos saquean la ciudad durante dos semanas."
+		},
+		{
+			"nombre": "Deposición de Rómulo Augústulo",
+			"anio": 476,
+			"lat": 44.42,
+			"lng": 12.2,
+			"descripcion": "Odoacro depone en Rávena al último emperador de Occidente."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Caída del Imperio romano de Occidente",
+			"url": "https://es.wikipedia.org/wiki/Caída_del_Imperio_romano_de_Occidente",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

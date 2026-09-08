@@ -2,7 +2,7 @@
 
 **Chronus Tabula** es una aplicación web para viajar por la historia sobre un mapa: eliges un año (de 3000 a. C. a 2026) y el mundo se pinta con las fronteras de esa época — reinos, imperios, califatos, virreinatos — junto a sus gobernantes, población, guerras en curso con sus frentes, batallas, eventos e inventos. Los años posteriores a 2010 (Ucrania, Gaza, Sudán…) reutilizan el último mapa de fronteras disponible (2010).
 
-Es 100 % estática (HTML + JavaScript + [Leaflet](https://leafletjs.com/)), sin backend ni claves de API, y todo su conocimiento histórico vive en **un único fichero editable**: [`data/historia.json`](data/historia.json). ¿Quieres añadir un reino, una guerra o un invento? Lee la [guía de contribución](CONTRIBUTING.md).
+Es 100 % estática (HTML + JavaScript + [Leaflet](https://leafletjs.com/)), sin backend ni claves de API, y todo su conocimiento histórico vive en ficheros JSON legibles, **uno por país, conflicto, evento o territorio**, en [`datos/`](datos/) (la web descarga un único `historia.json` que se genera a partir de ellos). ¿Quieres añadir un reino, una guerra o un invento? Lee la [guía de contribución](CONTRIBUTING.md).
 
 ## Cómo ejecutarla
 
@@ -18,7 +18,7 @@ Si solo quieres el mapa (sin panel ni ingestas), la web sigue siendo estática p
 
 ## Despliegue
 
-La web se publica automáticamente en **GitHub Pages**: cada push a `main` dispara la pipeline de [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), que primero valida `historia.json` (`python api/validar.py` — si falla, no se despliega) y después publica la carpeta `web/` tal cual, sin build. El panel de administración y las ingestas (`api/`) son herramientas locales del editor y no se despliegan: en la web publicada, `admin.html` simplemente muestra su aviso de «arranca el servidor».
+La web se publica automáticamente en **GitHub Pages**: cada push a `main` dispara la pipeline de [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), que valida los datos de `datos/` (`python api/validar.py` — si falla, no se despliega), compila `web/data/historia.json` a partir de ellos (`python api/compilar.py`, el único «build») y publica la carpeta `web/`. El panel de administración y las ingestas (`api/`) son herramientas locales del editor y no se despliegan: en la web publicada, `admin.html` simplemente muestra su aviso de «arranca el servidor».
 
 ## Qué puedes hacer
 
@@ -47,16 +47,26 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
   css/, i18n/, lib/         estilos, traducciones y librerías locales
   js/                       lógica por secciones: nucleo, datos, fichas, zonas,
                               capas, mapa, paneles, tiempo, arranque
-  data/historia.json        ★ TODO el conocimiento curado: países, gobernantes,
-                              población, conflictos, zonas, batallas y eventos
+  data/historia.json        GENERADO desde datos/ (no se edita ni se versiona):
+                              el único JSON que descarga la web
   data/geojson/             53 mapas de fronteras world_*.geojson (historical-basemaps)
   data/years.json           índice de años con mapa
   data/land.geojson         contorno de continentes (Natural Earth), recorte costero
 
+datos/                      ★ TODO el conocimiento curado, UN FICHERO POR ENTIDAD
+  paises/<id>.json          ficha de cada país o imperio (nombres, gobernantes, población…)
+  conflictos/<id>.json      cada guerra con sus zonas y batallas
+  eventos/<año>-<nombre>.json  acontecimientos e inventos
+  territorios/<nombre>.json enclaves e islas
+  _meta.json                claves de primer nivel (la ayuda interna)
+
 api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependencias)
-  servidor.py               sirve web/ + API REST (fuentes, ingestas, propuestas, export)
+  servidor.py               sirve web/ + API REST (fuentes, ingestas, propuestas, export);
+                              al arrancar compila datos/ → web/data/historia.json
+  compilar.py               genera web/data/historia.json a partir de datos/
+  dividir.py                importa un historia.json monolítico al árbol datos/
   fuentes/                  conectores de ingesta (owid_poblacion, wikidata_gobernantes…)
-  validar.py                validador de historia.json (ejecútalo antes de un MR)
+  validar.py                validador de los datos de datos/ (ejecútalo antes de un MR)
   revisar.py, exportar.py   revisión y export por terminal (alternativa al panel)
   editorial.db              base editorial local con las propuestas (NO se sube al repo)
 ```
@@ -72,7 +82,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
 - Fronteras históricas: [aourednik/historical-basemaps](https://github.com/aourednik/historical-basemaps) (precisión orientativa, especialmente en épocas antiguas).
 - Contorno de continentes: [Natural Earth](https://www.naturalearthdata.com/) 1:50M.
 - Escudos y extractos: APIs públicas de Wikidata / Wikipedia / Wikimedia Commons.
-- Gobernantes, población, conflictos, zonas, batallas y eventos: datos curados a mano en `data/historia.json` — estimaciones divulgativas, no investigación académica. Las correcciones son bienvenidas.
+- Gobernantes, población, conflictos, zonas, batallas y eventos: datos curados a mano en `datos/` — estimaciones divulgativas, no investigación académica. Las correcciones son bienvenidas.
 
 ## Referencias de los datos
 
@@ -84,7 +94,7 @@ Además de la edición manual, el proyecto puede ingerir datos de fuentes abiert
 
 El panel está **protegido con usuario y contraseña**: la primera vez que lo abras te pedirá crear el administrador (la contraseña se guarda como hash PBKDF2 con sal en la base editorial local, nunca en claro ni en el repositorio) y después el login devuelve un token de sesión de 7 días renovables; toda la API lo exige y hay límite de intentos fallidos. Como capas adicionales, el servidor solo escucha en `127.0.0.1` y `editorial.db` está en `.gitignore`.
 
-La forma cómoda es el **panel de administración** (`http://localhost:9000/admin.html` con `python api/servidor.py` en marcha): muestra las fuentes configuradas con su última ejecución, el mapeo país ↔ fuente (campos `owid` y QID de `wikidata` en `historia.json`), lanza actualizaciones con un botón (con «modo demo» sin red), enseña cada propuesta con el dato ya mapeado a nuestro formato, y permite aprobar, rechazar y exportar con el validador integrado.
+La forma cómoda es el **panel de administración** (`http://localhost:9000/admin.html` con `python api/servidor.py` en marcha): muestra las fuentes configuradas con su última ejecución, el mapeo país ↔ fuente (campos `owid` y QID de `wikidata` en la ficha de cada país, `datos/paises/`), lanza actualizaciones con un botón (con «modo demo» sin red), enseña cada propuesta con el dato ya mapeado a nuestro formato, y permite aprobar, rechazar y exportar con el validador integrado.
 
 Las ingestas **guardan cada propuesta al momento** y recuerdan por qué país iban: si una se corta a medias (red, límite de peticiones, cierre del servidor), nada se pierde y la siguiente ejecución **continúa donde se quedó** sin repetir los países ya consultados — el panel lo indica con «a medias: X/Y países». Al completarse la pila, la próxima ejecución vuelve a empezar desde el principio; el botón «↺ Empezar de cero» fuerza ese reinicio en cualquier momento.
 
@@ -96,16 +106,16 @@ python api/fuentes/wikidata_gobernantes.py  # jefes de Estado (Wikidata, CC0)
 python api/fuentes/wikidata_batallas.py     # batallas con coordenadas y fecha (Wikidata, CC0)
 python api/revisar.py list                  # ver propuestas pendientes
 python api/revisar.py aprobar 1-10          # aprobar / rechazar / aprobar-todas
-python api/exportar.py                      # aplicar a web/data/historia.json + validar
+python api/exportar.py                      # aplicar a datos/ + validar + recompilar historia.json
 ```
 
 Las ingestas reales requieren internet abierto (ejecútalas en tu máquina); `--demo` prueba el circuito sin red.
 
 ## Contribuir
 
-Todo lo que se ve en el mapa sale de `web/data/historia.json`, pensado para editarse sin tocar código. La guía completa, con ejemplos copiables de cada tipo de dato y la checklist de merge request, está en **[CONTRIBUTING.md](CONTRIBUTING.md)**. En resumen:
+Todo lo que se ve en el mapa sale de los ficheros de `datos/` (uno por país, conflicto, evento o territorio), pensados para editarse sin tocar código; `web/data/historia.json` se genera a partir de ellos y no se edita a mano. La guía completa, con ejemplos copiables de cada tipo de dato y la checklist de merge request, está en **[CONTRIBUTING.md](CONTRIBUTING.md)**. En resumen:
 
-1. Haz un fork y edita `web/data/historia.json` (o `web/i18n/*.json` para traducciones).
+1. Haz un fork y edita el fichero de la entidad en `datos/` (p. ej. `datos/paises/espana.json`; o `web/i18n/*.json` para traducciones).
 2. Valida: `python api/validar.py`
 3. Prueba en local moviendo el deslizador por los años que tocan tus datos.
 4. Abre el merge request explicando la fuente de tus datos.

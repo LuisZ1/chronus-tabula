@@ -1,0 +1,1527 @@
+{
+	"id": "wwii",
+	"nombre": "Segunda Guerra Mundial",
+	"inicio": 1939,
+	"fin": 1945,
+	"paises": [
+		"Alemania",
+		"Japón",
+		"Italia",
+		"Reino Unido",
+		"URSS",
+		"Estados Unidos",
+		"Francia",
+		"China"
+	],
+	"bajas": "~70.000.000-85.000.000 de muertos",
+	"descripcion": "El conflicto más mortífero de la historia.",
+	"batallas": [
+		{
+			"nombre": "ataque a Pearl Harbor",
+			"anio": 1941,
+			"lat": 21.36,
+			"lng": -157.95
+		},
+		{
+			"nombre": "Batalla de Stalingrado",
+			"anio": 1942,
+			"lat": 48.71,
+			"lng": 44.51,
+			"bajas": "~2.000.000 de bajas",
+			"descripcion": "Punto de inflexión en el frente oriental; el 6.º Ejército alemán capitula."
+		},
+		{
+			"nombre": "Batalla de Midway",
+			"anio": 1942,
+			"lat": 28.2,
+			"lng": -177.35,
+			"bajas": "4 portaaviones japoneses hundidos",
+			"descripcion": "EE. UU. cambia el curso de la guerra del Pacífico."
+		},
+		{
+			"nombre": "El Alamein",
+			"anio": 1942,
+			"lat": 30.83,
+			"lng": 28.95,
+			"bajas": "~60.000 bajas",
+			"descripcion": "Montgomery derrota a Rommel en Egipto."
+		},
+		{
+			"nombre": "Battle of Tjiater Pass",
+			"anio": 1942,
+			"lat": -6.77,
+			"lng": 107.63
+		},
+		{
+			"nombre": "Batalla de Balikpapan",
+			"anio": 1942,
+			"lat": -1.25,
+			"lng": 116.82
+		},
+		{
+			"nombre": "Batalla de Dutch Harbor",
+			"anio": 1942,
+			"lat": 53.89,
+			"lng": -166.54
+		},
+		{
+			"nombre": "Batalla de la Bahía de Milne",
+			"anio": 1942,
+			"lat": -10.32,
+			"lng": 150.48
+		},
+		{
+			"nombre": "Batalla de Buna-Gona",
+			"anio": 1942,
+			"lat": -8.65,
+			"lng": 148.35
+		},
+		{
+			"nombre": "Batalla de Port Moresby",
+			"anio": 1942,
+			"lat": -9.48,
+			"lng": 147.19
+		},
+		{
+			"nombre": "batalla del Mar de Java",
+			"anio": 1942,
+			"lat": -5.0,
+			"lng": 111.0
+		},
+		{
+			"nombre": "Batalla del Estrecho Badung",
+			"anio": 1942,
+			"lat": -8.63,
+			"lng": 115.39
+		},
+		{
+			"nombre": "Batalla del Estrecho de Makassar",
+			"anio": 1942,
+			"lat": -7.5,
+			"lng": 115.5
+		},
+		{
+			"nombre": "Batalla de Wau",
+			"anio": 1943,
+			"lat": -7.34,
+			"lng": 146.72
+		},
+		{
+			"nombre": "Invasión aliada de Italia",
+			"anio": 1943,
+			"lat": 40.68,
+			"lng": 14.76
+		},
+		{
+			"nombre": "Batalla del paso de Kasserine",
+			"anio": 1943,
+			"lat": 35.26,
+			"lng": 8.74
+		},
+		{
+			"nombre": "Campaña de Bougainville",
+			"anio": 1943,
+			"lat": -6.02,
+			"lng": 155.1
+		},
+		{
+			"nombre": "Batalla de Hill 609",
+			"anio": 1943,
+			"lat": 36.9,
+			"lng": 9.49
+		},
+		{
+			"nombre": "Batalla de Kaiapit",
+			"anio": 1943,
+			"lat": -6.27,
+			"lng": 146.25
+		},
+		{
+			"nombre": "Operación Cartwheel",
+			"anio": 1943,
+			"lat": -4.2,
+			"lng": 152.17
+		},
+		{
+			"nombre": "New Georgia Campaign",
+			"anio": 1943,
+			"lat": -8.5,
+			"lng": 157.33
+		},
+		{
+			"nombre": "Batalla de El Guettar",
+			"anio": 1943,
+			"lat": 34.34,
+			"lng": 8.95
+		},
+		{
+			"nombre": "Batalla del Cabo Gloucester",
+			"anio": 1943,
+			"lat": -5.45,
+			"lng": 148.42
+		},
+		{
+			"nombre": "Batalla de Sidi Bou Zid",
+			"anio": 1943,
+			"lat": 34.87,
+			"lng": 9.48
+		},
+		{
+			"nombre": "Batalla de Arawe",
+			"anio": 1943,
+			"lat": -6.15,
+			"lng": 149.04
+		},
+		{
+			"nombre": "Batalla de Scarlet Beach",
+			"anio": 1943,
+			"lat": -6.48,
+			"lng": 147.85
+		},
+		{
+			"nombre": "Batalla de Sattelberg",
+			"anio": 1943,
+			"lat": -6.49,
+			"lng": 147.77
+		},
+		{
+			"nombre": "Batalla de Troina",
+			"anio": 1943,
+			"lat": 37.78,
+			"lng": 14.6
+		},
+		{
+			"nombre": "Batalla de Sio",
+			"anio": 1943,
+			"lat": -5.96,
+			"lng": 147.37
+		},
+		{
+			"nombre": "Batalla naval de Vella Lavella",
+			"anio": 1943,
+			"lat": -7.5,
+			"lng": 156.23
+		},
+		{
+			"nombre": "Batalla de Kolombangara",
+			"anio": 1943,
+			"lat": -7.83,
+			"lng": 157.35
+		},
+		{
+			"nombre": "Batalla del Golfo de Kula",
+			"anio": 1943,
+			"lat": -7.97,
+			"lng": 157.07
+		},
+		{
+			"nombre": "Batalla del Estrecho de Blackett",
+			"anio": 1943,
+			"lat": -5.07,
+			"lng": 152.3
+		},
+		{
+			"nombre": "Batalla de Horaniu",
+			"anio": 1943,
+			"lat": -7.7,
+			"lng": 156.72
+		},
+		{
+			"nombre": "Batalla de Bairoko",
+			"anio": 1943,
+			"lat": -8.19,
+			"lng": 157.28
+		},
+		{
+			"nombre": "Desembarco de Normandía",
+			"anio": 1944,
+			"lat": 49.34,
+			"lng": -0.85,
+			"bajas": "~10.000 bajas aliadas el Día D",
+			"descripcion": "La mayor operación anfibia de la historia abre el frente occidental."
+		},
+		{
+			"nombre": "batalla de Montecassino",
+			"anio": 1944,
+			"lat": 41.49,
+			"lng": 13.81
+		},
+		{
+			"nombre": "Batalla de St. Vith",
+			"anio": 1944,
+			"lat": 50.28,
+			"lng": 6.13
+		},
+		{
+			"nombre": "Bolsa de Falaise",
+			"anio": 1944,
+			"lat": 48.89,
+			"lng": -0.19
+		},
+		{
+			"nombre": "Batalla de Biak",
+			"anio": 1944,
+			"lat": -1.0,
+			"lng": 136.0
+		},
+		{
+			"nombre": "batalla de Brest",
+			"anio": 1944,
+			"lat": 48.39,
+			"lng": -4.49
+		},
+		{
+			"nombre": "Batalla del Bosque de Hürtgen",
+			"anio": 1944,
+			"lat": 50.71,
+			"lng": 6.36
+		},
+		{
+			"nombre": "Batalla de Peleliu",
+			"anio": 1944,
+			"lat": 7.02,
+			"lng": 134.25
+		},
+		{
+			"nombre": "Batalla de Saipán",
+			"anio": 1944,
+			"lat": 15.18,
+			"lng": 145.75
+		},
+		{
+			"nombre": "Batalla de Leyte",
+			"anio": 1944,
+			"lat": 11.17,
+			"lng": 125.01
+		},
+		{
+			"nombre": "Batalla de Ormoc Bay",
+			"anio": 1944,
+			"lat": 10.98,
+			"lng": 124.58
+		},
+		{
+			"nombre": "Batalla de Tinian",
+			"anio": 1944,
+			"lat": 15.0,
+			"lng": 145.63
+		},
+		{
+			"nombre": "Batalla de Guam",
+			"anio": 1944,
+			"lat": 13.4,
+			"lng": 144.66
+		},
+		{
+			"nombre": "Batalla de Carentan",
+			"anio": 1944,
+			"lat": 49.3,
+			"lng": -1.25
+		},
+		{
+			"nombre": "Batalla de Aquisgrán",
+			"anio": 1944,
+			"lat": 50.78,
+			"lng": 6.08
+		},
+		{
+			"nombre": "Batalla de Anzio",
+			"anio": 1944,
+			"lat": 41.44,
+			"lng": 12.62
+		},
+		{
+			"nombre": "batalla de Cherburgo",
+			"anio": 1944,
+			"lat": 49.64,
+			"lng": -1.62
+		},
+		{
+			"nombre": "Batalla de Angaur",
+			"anio": 1944,
+			"lat": 6.9,
+			"lng": 134.13
+		},
+		{
+			"nombre": "Batalla de Metz",
+			"anio": 1944,
+			"lat": 49.12,
+			"lng": 6.18
+		},
+		{
+			"nombre": "Batalla de Lanzerath Ridge",
+			"anio": 1944,
+			"lat": 50.36,
+			"lng": 6.33
+		},
+		{
+			"nombre": "Batalla de Chambois",
+			"anio": 1944,
+			"lat": 48.81,
+			"lng": 0.11
+		},
+		{
+			"nombre": "Batalla de Crucifix Hill",
+			"anio": 1944,
+			"lat": 50.8,
+			"lng": 6.14
+		},
+		{
+			"nombre": "Elsenborn Ridge",
+			"anio": 1944,
+			"lat": 50.45,
+			"lng": 6.26
+		},
+		{
+			"nombre": "Batalla de Noemfoor",
+			"anio": 1944,
+			"lat": -0.98,
+			"lng": 134.89
+		},
+		{
+			"nombre": "Batalla de Cisterna",
+			"anio": 1944,
+			"lat": 41.4,
+			"lng": 13.98
+		},
+		{
+			"nombre": "Batalla de Morotai",
+			"anio": 1944,
+			"lat": 2.03,
+			"lng": 128.29
+		},
+		{
+			"nombre": "Batalla de Arracourt",
+			"anio": 1944,
+			"lat": 48.74,
+			"lng": 6.61
+		},
+		{
+			"nombre": "Batalla del mar de Filipinas",
+			"anio": 1944,
+			"lat": 20.0,
+			"lng": 130.0
+		},
+		{
+			"nombre": "Batalla del Golfo de Leyte",
+			"anio": 1944,
+			"lat": 10.37,
+			"lng": 125.36
+		},
+		{
+			"nombre": "Batalla de Kesternich",
+			"anio": 1944,
+			"lat": 50.61,
+			"lng": 6.33
+		},
+		{
+			"nombre": "Batalla de Hollandia",
+			"anio": 1944,
+			"lat": -2.53,
+			"lng": 140.72
+		},
+		{
+			"nombre": "Battle of the Green Islands",
+			"anio": 1944,
+			"lat": -4.5,
+			"lng": 154.17
+		},
+		{
+			"nombre": "Batalla de Talasea",
+			"anio": 1944,
+			"lat": -5.26,
+			"lng": 149.99
+		},
+		{
+			"nombre": "Batalla del Mar de Sibuyan",
+			"anio": 1944,
+			"lat": 12.75,
+			"lng": 122.5
+		},
+		{
+			"nombre": "Batalla de Berlín",
+			"anio": 1945,
+			"lat": 52.52,
+			"lng": 13.4,
+			"bajas": "~300.000 muertos",
+			"descripcion": "El Ejército Rojo toma la capital alemana; fin de la guerra en Europa."
+		},
+		{
+			"nombre": "Batalla de Authion",
+			"anio": 1945,
+			"lat": 44.0,
+			"lng": 7.43
+		},
+		{
+			"nombre": "Batalla de Slivice",
+			"anio": 1945,
+			"lat": 49.64,
+			"lng": 14.05
+		},
+		{
+			"nombre": "Batalla de Manila",
+			"anio": 1945,
+			"lat": 14.58,
+			"lng": 120.97
+		},
+		{
+			"nombre": "Batalla de Okinawa",
+			"anio": 1945,
+			"lat": 26.5,
+			"lng": 128.0
+		},
+		{
+			"nombre": "Batalla de Mindanao",
+			"anio": 1945,
+			"lat": 8.0,
+			"lng": 125.0
+		},
+		{
+			"nombre": "Batalla de Núremberg",
+			"anio": 1945,
+			"lat": 49.46,
+			"lng": 11.08
+		},
+		{
+			"nombre": "Batalla de Luzón",
+			"anio": 1945,
+			"lat": 16.0,
+			"lng": 121.0
+		},
+		{
+			"nombre": "Batalla de Iwo Jima",
+			"anio": 1945,
+			"lat": 24.78,
+			"lng": 141.32
+		},
+		{
+			"nombre": "Batalla de Kassel",
+			"anio": 1945,
+			"lat": 51.29,
+			"lng": 9.43
+		},
+		{
+			"nombre": "Batalla de Bologna",
+			"anio": 1945,
+			"lat": 44.49,
+			"lng": 11.34
+		},
+		{
+			"nombre": "Batalla de Remagen",
+			"anio": 1945,
+			"lat": 50.58,
+			"lng": 7.24
+		},
+		{
+			"nombre": "Operación Ten-Gō",
+			"anio": 1945,
+			"lat": 30.37,
+			"lng": 128.07
+		},
+		{
+			"nombre": "Batalla de Authion",
+			"anio": 1945,
+			"lat": 44.0,
+			"lng": 7.43
+		},
+		{
+			"nombre": "Batalla de Labuan",
+			"anio": 1945,
+			"lat": 5.32,
+			"lng": 115.21
+		},
+		{
+			"nombre": "Operación cowboy",
+			"anio": 1945,
+			"lat": 49.58,
+			"lng": 12.77
+		},
+		{
+			"nombre": "Batalla por el Castillo Itter",
+			"anio": 1945,
+			"lat": 47.47,
+			"lng": 12.14
+		},
+		{
+			"nombre": "Battle of Riva Ridge",
+			"anio": 1945,
+			"lat": 44.19,
+			"lng": 10.83
+		},
+		{
+			"nombre": "Batalla de Collecchio",
+			"anio": 1945,
+			"lat": 44.75,
+			"lng": 10.22
+		},
+		{
+			"nombre": "Batalla de Buchhof and Stein am Kocher",
+			"anio": 1945,
+			"lat": 49.27,
+			"lng": 9.27
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Invasión de Polonia",
+			"tipo": "frente",
+			"desde": 1939,
+			"hasta": 1939,
+			"poligono": [
+				[
+					54.8,
+					14.5
+				],
+				[
+					54.5,
+					23.5
+				],
+				[
+					49.5,
+					24
+				],
+				[
+					49,
+					19
+				],
+				[
+					50.5,
+					14.8
+				]
+			]
+		},
+		{
+			"nombre": "Frente occidental (Francia y Benelux)",
+			"tipo": "frente",
+			"desde": 1940,
+			"hasta": 1940,
+			"poligono": [
+				[
+					51.5,
+					2.5
+				],
+				[
+					51,
+					7
+				],
+				[
+					47.5,
+					7.5
+				],
+				[
+					47,
+					0
+				],
+				[
+					49.5,
+					-1.5
+				]
+			]
+		},
+		{
+			"nombre": "Noruega",
+			"tipo": "frente",
+			"desde": 1940,
+			"hasta": 1940,
+			"poligono": [
+				[
+					62.5,
+					4.8
+				],
+				[
+					62,
+					11
+				],
+				[
+					58,
+					11
+				],
+				[
+					57.9,
+					5.5
+				]
+			]
+		},
+		{
+			"nombre": "Batalla de Inglaterra",
+			"tipo": "frente",
+			"desde": 1940,
+			"hasta": 1941,
+			"poligono": [
+				[
+					52.5,
+					-1
+				],
+				[
+					52,
+					1.8
+				],
+				[
+					50.5,
+					1.2
+				],
+				[
+					50.3,
+					-2
+				]
+			],
+			"mar": true
+		},
+		{
+			"nombre": "Frente oriental (avance alemán)",
+			"tipo": "frente",
+			"desde": 1941,
+			"hasta": 1942,
+			"poligono": [
+				[
+					59.8,
+					24
+				],
+				[
+					60,
+					31
+				],
+				[
+					57,
+					45
+				],
+				[
+					48.5,
+					46
+				],
+				[
+					43.5,
+					44
+				],
+				[
+					44,
+					34
+				],
+				[
+					47,
+					30
+				],
+				[
+					52,
+					23.5
+				]
+			]
+		},
+		{
+			"nombre": "Norte de África",
+			"tipo": "frente",
+			"desde": 1940,
+			"hasta": 1943,
+			"poligono": [
+				[
+					33.5,
+					10
+				],
+				[
+					32.5,
+					25
+				],
+				[
+					31.2,
+					30.5
+				],
+				[
+					29.5,
+					29.5
+				],
+				[
+					30,
+					15
+				],
+				[
+					31.5,
+					9.8
+				]
+			]
+		},
+		{
+			"nombre": "Pacífico (expansión japonesa)",
+			"tipo": "frente",
+			"desde": 1941,
+			"hasta": 1942,
+			"poligono": [
+				[
+					23,
+					110
+				],
+				[
+					25,
+					125
+				],
+				[
+					20,
+					135
+				],
+				[
+					8,
+					152
+				],
+				[
+					-8,
+					150
+				],
+				[
+					-9,
+					125
+				],
+				[
+					0,
+					110
+				],
+				[
+					10,
+					105
+				]
+			],
+			"mar": true
+		},
+		{
+			"nombre": "Pacífico (contraofensiva aliada)",
+			"tipo": "frente",
+			"desde": 1943,
+			"hasta": 1945,
+			"poligono": [
+				[
+					35,
+					128
+				],
+				[
+					35,
+					148
+				],
+				[
+					20,
+					152
+				],
+				[
+					-2,
+					152
+				],
+				[
+					-8,
+					142
+				],
+				[
+					5,
+					130
+				],
+				[
+					20,
+					125
+				]
+			],
+			"mar": true
+		},
+		{
+			"nombre": "Frente oriental (contraofensiva soviética)",
+			"tipo": "frente",
+			"desde": 1943,
+			"hasta": 1944,
+			"poligono": [
+				[
+					57,
+					28
+				],
+				[
+					56,
+					40
+				],
+				[
+					50,
+					42
+				],
+				[
+					46,
+					35
+				],
+				[
+					47,
+					28
+				],
+				[
+					52,
+					25
+				]
+			]
+		},
+		{
+			"nombre": "Italia",
+			"tipo": "frente",
+			"desde": 1943,
+			"hasta": 1945,
+			"poligono": [
+				[
+					45.8,
+					7.5
+				],
+				[
+					45.5,
+					13
+				],
+				[
+					43,
+					14.5
+				],
+				[
+					40.5,
+					16.5
+				],
+				[
+					38,
+					15.5
+				],
+				[
+					38,
+					13
+				],
+				[
+					41,
+					13.5
+				],
+				[
+					44,
+					8
+				]
+			]
+		},
+		{
+			"nombre": "Normandía y Frente occidental",
+			"tipo": "frente",
+			"desde": 1944,
+			"hasta": 1945,
+			"poligono": [
+				[
+					51.5,
+					3
+				],
+				[
+					51,
+					7
+				],
+				[
+					48.5,
+					8
+				],
+				[
+					47.5,
+					4
+				],
+				[
+					48.8,
+					-1.5
+				],
+				[
+					49.8,
+					-1
+				]
+			]
+		},
+		{
+			"nombre": "Asalto final a Alemania",
+			"tipo": "frente",
+			"desde": 1945,
+			"hasta": 1945,
+			"poligono": [
+				[
+					54.5,
+					7
+				],
+				[
+					54,
+					15
+				],
+				[
+					51,
+					17
+				],
+				[
+					48.5,
+					14
+				],
+				[
+					48.5,
+					9
+				],
+				[
+					51,
+					6.5
+				]
+			]
+		},
+		{
+			"nombre": "Europa ocupada por el Eje",
+			"tipo": "ocupado",
+			"desde": 1940,
+			"hasta": 1944,
+			"poligono": [
+				[
+					58,
+					5
+				],
+				[
+					55,
+					15
+				],
+				[
+					52,
+					24
+				],
+				[
+					49,
+					24
+				],
+				[
+					45,
+					18
+				],
+				[
+					41,
+					20
+				],
+				[
+					38,
+					22
+				],
+				[
+					36,
+					14
+				],
+				[
+					38,
+					10
+				],
+				[
+					43,
+					7
+				],
+				[
+					45,
+					0
+				],
+				[
+					48,
+					-2
+				],
+				[
+					51,
+					2
+				]
+			]
+		}
+	],
+	"wiki": "Segunda Guerra Mundial",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda Guerra Mundial",
+			"url": "https://es.wikipedia.org/wiki/Segunda_Guerra_Mundial",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q22082154",
+			"url": "https://www.wikidata.org/wiki/Q22082154",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q83834887",
+			"url": "https://www.wikidata.org/wiki/Q83834887",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q335288",
+			"url": "https://www.wikidata.org/wiki/Q335288",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q714298",
+			"url": "https://www.wikidata.org/wiki/Q714298",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q602744",
+			"url": "https://www.wikidata.org/wiki/Q602744",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q712181",
+			"url": "https://www.wikidata.org/wiki/Q712181",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q714223",
+			"url": "https://www.wikidata.org/wiki/Q714223",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q743889",
+			"url": "https://www.wikidata.org/wiki/Q743889",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q162287",
+			"url": "https://www.wikidata.org/wiki/Q162287",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q609030",
+			"url": "https://www.wikidata.org/wiki/Q609030",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q700705",
+			"url": "https://www.wikidata.org/wiki/Q700705",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q276852",
+			"url": "https://www.wikidata.org/wiki/Q276852",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q696931",
+			"url": "https://www.wikidata.org/wiki/Q696931",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q610048",
+			"url": "https://www.wikidata.org/wiki/Q610048",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q717004",
+			"url": "https://www.wikidata.org/wiki/Q717004",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q192660",
+			"url": "https://www.wikidata.org/wiki/Q192660",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q714777",
+			"url": "https://www.wikidata.org/wiki/Q714777",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q710912",
+			"url": "https://www.wikidata.org/wiki/Q710912",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q246553",
+			"url": "https://www.wikidata.org/wiki/Q246553",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q718805",
+			"url": "https://www.wikidata.org/wiki/Q718805",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q327099",
+			"url": "https://www.wikidata.org/wiki/Q327099",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q543075",
+			"url": "https://www.wikidata.org/wiki/Q543075",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q176915",
+			"url": "https://www.wikidata.org/wiki/Q176915",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q703962",
+			"url": "https://www.wikidata.org/wiki/Q703962",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q696900",
+			"url": "https://www.wikidata.org/wiki/Q696900",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q52418",
+			"url": "https://www.wikidata.org/wiki/Q52418",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q180182",
+			"url": "https://www.wikidata.org/wiki/Q180182",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q113621",
+			"url": "https://www.wikidata.org/wiki/Q113621",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q576774",
+			"url": "https://www.wikidata.org/wiki/Q576774",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q245743",
+			"url": "https://www.wikidata.org/wiki/Q245743",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q327052",
+			"url": "https://www.wikidata.org/wiki/Q327052",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q704785",
+			"url": "https://www.wikidata.org/wiki/Q704785",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q696844",
+			"url": "https://www.wikidata.org/wiki/Q696844",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q516202",
+			"url": "https://www.wikidata.org/wiki/Q516202",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1538855",
+			"url": "https://www.wikidata.org/wiki/Q1538855",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1723307",
+			"url": "https://www.wikidata.org/wiki/Q1723307",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871535",
+			"url": "https://www.wikidata.org/wiki/Q4871535",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870705",
+			"url": "https://www.wikidata.org/wiki/Q4870705",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871224",
+			"url": "https://www.wikidata.org/wiki/Q4871224",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871367",
+			"url": "https://www.wikidata.org/wiki/Q4871367",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870811",
+			"url": "https://www.wikidata.org/wiki/Q4870811",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2917077",
+			"url": "https://www.wikidata.org/wiki/Q2917077",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2026016",
+			"url": "https://www.wikidata.org/wiki/Q2026016",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3535104",
+			"url": "https://www.wikidata.org/wiki/Q3535104",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1970470",
+			"url": "https://www.wikidata.org/wiki/Q1970470",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2363492",
+			"url": "https://www.wikidata.org/wiki/Q2363492",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3293566",
+			"url": "https://www.wikidata.org/wiki/Q3293566",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871905",
+			"url": "https://www.wikidata.org/wiki/Q4871905",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3403811",
+			"url": "https://www.wikidata.org/wiki/Q3403811",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3636398",
+			"url": "https://www.wikidata.org/wiki/Q3636398",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1983926",
+			"url": "https://www.wikidata.org/wiki/Q1983926",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2091385",
+			"url": "https://www.wikidata.org/wiki/Q2091385",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2889417",
+			"url": "https://www.wikidata.org/wiki/Q2889417",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2694984",
+			"url": "https://www.wikidata.org/wiki/Q2694984",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2887891",
+			"url": "https://www.wikidata.org/wiki/Q2887891",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872331",
+			"url": "https://www.wikidata.org/wiki/Q4872331",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872324",
+			"url": "https://www.wikidata.org/wiki/Q4872324",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872596",
+			"url": "https://www.wikidata.org/wiki/Q4872596",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872083",
+			"url": "https://www.wikidata.org/wiki/Q4872083",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872384",
+			"url": "https://www.wikidata.org/wiki/Q4872384",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q701908",
+			"url": "https://www.wikidata.org/wiki/Q701908",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1668495",
+			"url": "https://www.wikidata.org/wiki/Q1668495",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q504347",
+			"url": "https://www.wikidata.org/wiki/Q504347",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q308999",
+			"url": "https://www.wikidata.org/wiki/Q308999",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q263142",
+			"url": "https://www.wikidata.org/wiki/Q263142",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q379433",
+			"url": "https://www.wikidata.org/wiki/Q379433",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q702096",
+			"url": "https://www.wikidata.org/wiki/Q702096",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2117492",
+			"url": "https://www.wikidata.org/wiki/Q2117492",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q80264",
+			"url": "https://www.wikidata.org/wiki/Q80264",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2597051",
+			"url": "https://www.wikidata.org/wiki/Q2597051",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q515168",
+			"url": "https://www.wikidata.org/wiki/Q515168",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870389",
+			"url": "https://www.wikidata.org/wiki/Q4870389",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q15197283",
+			"url": "https://www.wikidata.org/wiki/Q15197283",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16844223",
+			"url": "https://www.wikidata.org/wiki/Q16844223",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q18920234",
+			"url": "https://www.wikidata.org/wiki/Q18920234",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q110517047",
+			"url": "https://www.wikidata.org/wiki/Q110517047",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q14303815",
+			"url": "https://www.wikidata.org/wiki/Q14303815",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3883998",
+			"url": "https://www.wikidata.org/wiki/Q3883998",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4391729",
+			"url": "https://www.wikidata.org/wiki/Q4391729",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3944397",
+			"url": "https://www.wikidata.org/wiki/Q3944397",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q23751276",
+			"url": "https://www.wikidata.org/wiki/Q23751276",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q24943339",
+			"url": "https://www.wikidata.org/wiki/Q24943339",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q19839898",
+			"url": "https://www.wikidata.org/wiki/Q19839898",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

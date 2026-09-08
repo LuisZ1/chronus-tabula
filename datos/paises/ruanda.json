@@ -1,0 +1,154 @@
+{
+	"id": "ruanda",
+	"nombre": "Ruanda",
+	"nombres": [
+		"Rwanda",
+		"Rwanda (Belgium)",
+		"Ruanda-Urundi",
+		"República de Ruanda"
+	],
+	"wiki": "es:Ruanda",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Ruanda",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1037",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Ruanda",
+			"url": "https://es.wikipedia.org/wiki/Ruanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Ruanda",
+			"desde": 1600,
+			"hasta": 1961
+		},
+		{
+			"nombre": "Ruanda-Urundi (mandato belga)",
+			"desde": 1922,
+			"hasta": 1962
+		},
+		{
+			"nombre": "República de Ruanda",
+			"desde": 1962,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q1037",
+	"gobernantes": [
+		{
+			"nombre": "Kigeli IV Rwabugiri",
+			"desde": 1853,
+			"hasta": 1895,
+			"cargo": "Mwami (rey)"
+		},
+		{
+			"nombre": "Yuhi V Musinga",
+			"desde": 1896,
+			"hasta": 1931,
+			"cargo": "Mwami (rey)"
+		},
+		{
+			"nombre": "Mutara III Rudahigwa",
+			"desde": 1931,
+			"hasta": 1959,
+			"cargo": "Mwami (rey)"
+		},
+		{
+			"nombre": "Kigeli V Ndahindurwa",
+			"desde": 1959,
+			"hasta": 1961,
+			"cargo": "Mwami (rey)"
+		},
+		{
+			"nombre": "Grégoire Kayibanda",
+			"desde": 1962,
+			"hasta": 1973,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Juvénal Habyarimana",
+			"desde": 1973,
+			"hasta": 1994,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Théodore Sindikubwabo",
+			"desde": 1994,
+			"hasta": 1994,
+			"cargo": "Presidente interino"
+		},
+		{
+			"nombre": "Pasteur Bizimungu",
+			"desde": 1994,
+			"hasta": 2000,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Paul Kagame",
+			"desde": 2000,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 2900000,
+			"fuente": "Our World in Data (est.)"
+		},
+		{
+			"anio": 1978,
+			"valor": 4831527,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 1991,
+			"valor": 7157551,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2002,
+			"valor": 8128553,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2012,
+			"valor": 10515973,
+			"fuente": "censo (Wikipedia es)"
+		},
+		{
+			"anio": 2018,
+			"valor": 12301393,
+			"fuente": "Wikipedia (es), Banco Mundial"
+		},
+		{
+			"anio": 2022,
+			"valor": 13246394,
+			"fuente": "censo (Wikipedia es)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "71eef4911180",
+		"secciones": [
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Ruanda, cuyo nombre oficial es República de Rwanda, es un país en África Oriental, África Central o África centro-este sin salida al mar. Limita al norte con Uganda, al este con Tanzania, al sur con Burundi y al oeste con la República Democrática del Congo."
+}

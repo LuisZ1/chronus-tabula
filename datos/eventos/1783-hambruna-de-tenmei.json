@@ -1,0 +1,19 @@
+{
+	"nombre": "Hambruna de Tenmei",
+	"anio": 1783,
+	"lat": 39.7,
+	"lng": 141.1,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Malas cosechas y la erupción del monte Asama provocan una de las peores hambrunas del periodo Edo.",
+	"wiki": "Hambruna de Tenmei",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Hambruna de Tenmei",
+			"url": "https://es.wikipedia.org/wiki/Hambruna_de_Tenmei",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Misión Iwakura",
+	"anio": 1871,
+	"lat": 35.68,
+	"lng": 139.75,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Gran embajada de dirigentes Meiji a EE. UU. y Europa para estudiar sus instituciones y tecnología.",
+	"wiki": "Misión Iwakura",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Misión Iwakura",
+			"url": "https://es.wikipedia.org/wiki/Misi%C3%B3n_Iwakura",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

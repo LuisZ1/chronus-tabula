@@ -1,0 +1,223 @@
+{
+	"id": "suiza",
+	"nombre": "Suiza",
+	"nombres": [
+		"Switzerland",
+		"Suiza"
+	],
+	"wikidata": "Q39",
+	"wiki": "es:Suiza",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q39",
+			"url": "https://www.wikidata.org/wiki/Q39",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Suiza",
+			"url": "https://es.wikipedia.org/wiki/Suiza",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "CHE",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 507
+		},
+		{
+			"anio": -9000,
+			"valor": 634
+		},
+		{
+			"anio": -8000,
+			"valor": 793
+		},
+		{
+			"anio": -7000,
+			"valor": 992
+		},
+		{
+			"anio": -6000,
+			"valor": 1488
+		},
+		{
+			"anio": -5000,
+			"valor": 1984
+		},
+		{
+			"anio": -4000,
+			"valor": 4960
+		},
+		{
+			"anio": -3000,
+			"valor": 9920
+		},
+		{
+			"anio": -2000,
+			"valor": 19840
+		},
+		{
+			"anio": -1000,
+			"valor": 59521
+		},
+		{
+			"anio": 0,
+			"valor": 297608
+		},
+		{
+			"anio": 100,
+			"valor": 297906
+		},
+		{
+			"anio": 200,
+			"valor": 298204
+		},
+		{
+			"anio": 300,
+			"valor": 298503
+		},
+		{
+			"anio": 400,
+			"valor": 298801
+		},
+		{
+			"anio": 500,
+			"valor": 299100
+		},
+		{
+			"anio": 600,
+			"valor": 299400
+		},
+		{
+			"anio": 700,
+			"valor": 299700
+		},
+		{
+			"anio": 800,
+			"valor": 300000
+		},
+		{
+			"anio": 900,
+			"valor": 300000
+		},
+		{
+			"anio": 1000,
+			"valor": 300000
+		},
+		{
+			"anio": 1100,
+			"valor": 400000
+		},
+		{
+			"anio": 1200,
+			"valor": 500000
+		},
+		{
+			"anio": 1300,
+			"valor": 800000
+		},
+		{
+			"anio": 1400,
+			"valor": 600000
+		},
+		{
+			"anio": 1500,
+			"valor": 800000
+		},
+		{
+			"anio": 1600,
+			"valor": 1000000
+		},
+		{
+			"anio": 1700,
+			"valor": 1250253
+		},
+		{
+			"anio": 1750,
+			"valor": 1438793
+		},
+		{
+			"anio": 1800,
+			"valor": 1750000
+		},
+		{
+			"anio": 1850,
+			"valor": 2376868
+		},
+		{
+			"anio": 1900,
+			"valor": 3297641
+		},
+		{
+			"anio": 1910,
+			"valor": 3708897
+		},
+		{
+			"anio": 1920,
+			"valor": 3870407
+		},
+		{
+			"anio": 1930,
+			"valor": 4042131
+		},
+		{
+			"anio": 1940,
+			"valor": 4233223
+		},
+		{
+			"anio": 1950,
+			"valor": 4692642
+		},
+		{
+			"anio": 1960,
+			"valor": 5327777
+		},
+		{
+			"anio": 1970,
+			"valor": 6180922
+		},
+		{
+			"anio": 1980,
+			"valor": 6319848
+		},
+		{
+			"anio": 1990,
+			"valor": 6713168
+		},
+		{
+			"anio": 2000,
+			"valor": 7184003
+		},
+		{
+			"anio": 2010,
+			"valor": 7825750
+		},
+		{
+			"anio": 2020,
+			"valor": 8640582
+		},
+		{
+			"anio": 2023,
+			"valor": 8870564
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "c5a3e95598a7",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Suiza, oficialmente la Confederación Suiza, es un país sin salida al mar ubicado en Europa central y que cuenta con una población de 9 048 905 habitantes (2024). Suiza es un Estado federal con 26 cantones y cuenta con cuatro idiomas oficiales: alemán, francés, italiano y romanche."
+}

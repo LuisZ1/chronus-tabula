@@ -1,0 +1,90 @@
+{
+	"id": "revolucion-mexicana",
+	"nombre": "Revolución mexicana",
+	"inicio": 1910,
+	"fin": 1917,
+	"paises": [
+		"México"
+	],
+	"bajas": "entre 1 y 2 millones de muertos (combate, hambre y epidemias)",
+	"descripcion": "El levantamiento de Francisco I. Madero contra la larga dictadura de Porfirio Díaz en 1910 desata una década de guerra civil. Facciones de Pancho Villa, Emiliano Zapata (\"Tierra y Libertad\"), Venustiano Carranza y Álvaro Obregón luchan por el poder y la reforma agraria. El proceso culmina en la Constitución de 1917, una de las más avanzadas de su tiempo.",
+	"wiki": "Revolución mexicana",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revolución mexicana",
+			"url": "https://es.wikipedia.org/wiki/Revolución_mexicana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Norte: campañas de Villa (Chihuahua-Coahuila)",
+			"tipo": "frente",
+			"desde": 1910,
+			"hasta": 1917,
+			"poligono": [
+				[
+					31.8,
+					-107.0
+				],
+				[
+					31.5,
+					-103.5
+				],
+				[
+					25.5,
+					-101.0
+				],
+				[
+					26.5,
+					-106.5
+				]
+			]
+		},
+		{
+			"nombre": "Sur: zapatismo en Morelos",
+			"tipo": "frente",
+			"desde": 1911,
+			"hasta": 1917,
+			"poligono": [
+				[
+					19.1,
+					-99.4
+				],
+				[
+					19.1,
+					-98.6
+				],
+				[
+					18.3,
+					-98.7
+				],
+				[
+					18.4,
+					-99.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Toma de Ciudad Juárez",
+			"anio": 1911,
+			"lat": 31.74,
+			"lng": -106.49
+		},
+		{
+			"nombre": "Toma de Zacatecas",
+			"anio": 1914,
+			"lat": 22.77,
+			"lng": -102.58
+		},
+		{
+			"nombre": "Batallas de Celaya",
+			"anio": 1915,
+			"lat": 20.52,
+			"lng": -100.81
+		}
+	]
+}

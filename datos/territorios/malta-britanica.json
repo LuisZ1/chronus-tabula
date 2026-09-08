@@ -1,0 +1,18 @@
+{
+	"nombre": "Malta (británica)",
+	"pais": "Gran Bretaña",
+	"lat": 35.9,
+	"lng": 14.4,
+	"desde": 1800,
+	"hasta": 1964,
+	"descripcion": "En manos de la Orden de San Juan desde 1530 (cesión de Carlos I de España) y ocupada por Napoleón en 1798, pasó a control británico en 1800; el Tratado de París (1814) la hizo colonia. Independiente desde 1964.",
+	"wiki": "Malta",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Malta",
+			"url": "https://es.wikipedia.org/wiki/Malta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

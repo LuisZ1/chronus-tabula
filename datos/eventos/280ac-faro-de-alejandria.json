@@ -1,0 +1,20 @@
+{
+	"nombre": "Faro de Alejandría",
+	"anio": -280,
+	"lat": 31.21,
+	"lng": 29.89,
+	"categoria": "invento",
+	"paises": [
+		"Egipto"
+	],
+	"descripcion": "Los Ptolomeos levantan en la isla de Faros la torre que dio nombre a todos los faros: otra maravilla del mundo antiguo.",
+	"wiki": "Faro de Alejandría",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Faro de Alejandría",
+			"url": "https://es.wikipedia.org/wiki/Faro_de_Alejandría",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

@@ -1,0 +1,158 @@
+{
+	"id": "conquista-hispania",
+	"nombre": "Conquista musulmana de Hispania",
+	"inicio": 711,
+	"fin": 726,
+	"paises": [
+		"Califato omeya",
+		"Reino visigodo"
+	],
+	"bajas": "desconocidas (decenas de miles)",
+	"descripcion": "Tariq y Musa conquistan el reino visigodo en pocos años; nace al-Ándalus.",
+	"batallas": [
+		{
+			"nombre": "Batalla de Guadalete",
+			"anio": 711,
+			"lat": 36.63,
+			"lng": -5.75,
+			"descripcion": "Derrota y muerte del rey visigodo don Rodrigo."
+		},
+		{
+			"nombre": "Batalla de Covadonga",
+			"anio": 722,
+			"lat": 43.31,
+			"lng": -5.06,
+			"descripcion": "Victoria de Pelayo, inicio simbólico de la Reconquista."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Andalucía y marcha a Toledo",
+			"tipo": "frente",
+			"desde": 711,
+			"hasta": 713,
+			"poligono": [
+				[
+					40.3,
+					-4.5
+				],
+				[
+					39.5,
+					-2
+				],
+				[
+					37,
+					-1.8
+				],
+				[
+					36,
+					-5.9
+				],
+				[
+					37,
+					-7
+				],
+				[
+					39,
+					-6.5
+				]
+			]
+		},
+		{
+			"nombre": "Valle del Ebro y noreste",
+			"tipo": "frente",
+			"desde": 713,
+			"hasta": 718,
+			"poligono": [
+				[
+					43,
+					-2
+				],
+				[
+					42.5,
+					1.5
+				],
+				[
+					41,
+					1.5
+				],
+				[
+					40.5,
+					-1.5
+				],
+				[
+					41.8,
+					-3.5
+				]
+			]
+		},
+		{
+			"nombre": "Septimania",
+			"tipo": "frente",
+			"desde": 719,
+			"hasta": 726,
+			"poligono": [
+				[
+					44,
+					1.5
+				],
+				[
+					43.8,
+					4.5
+				],
+				[
+					42.8,
+					4.5
+				],
+				[
+					42.4,
+					1.8
+				]
+			]
+		},
+		{
+			"nombre": "Al-Ándalus",
+			"tipo": "ocupado",
+			"desde": 713,
+			"hasta": 726,
+			"poligono": [
+				[
+					42,
+					-6
+				],
+				[
+					41.5,
+					0
+				],
+				[
+					38.5,
+					0
+				],
+				[
+					36.2,
+					-5.7
+				],
+				[
+					37.3,
+					-8.5
+				],
+				[
+					40.5,
+					-7.5
+				]
+			]
+		}
+	],
+	"wiki": "Conquista omeya de Hispania",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Conquista omeya de Hispania",
+			"url": "https://es.wikipedia.org/wiki/Conquista_omeya_de_Hispania",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

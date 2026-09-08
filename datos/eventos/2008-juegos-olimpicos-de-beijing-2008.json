@@ -1,0 +1,19 @@
+{
+	"nombre": "Juegos Olímpicos de Beijing 2008",
+	"anio": 2008,
+	"lat": 39.99,
+	"lng": 116.39,
+	"paises": [
+		"República Popular China"
+	],
+	"descripcion": "Beijing acoge los Juegos Olímpicos de Verano de 2008, exhibición del ascenso de China como potencia global.",
+	"wiki": "Juegos Olímpicos de Pekín 2008",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Juegos Olímpicos de Pekín 2008",
+			"url": "https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Pek%C3%ADn_2008",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"id": "tercera-punica",
+	"nombre": "Tercera guerra púnica",
+	"inicio": -149,
+	"fin": -146,
+	"paises": [
+		"Roma",
+		"Cartago"
+	],
+	"bajas": "~150.000 muertos; los supervivientes, esclavizados",
+	"descripcion": "«Delenda est Carthago»: tras tres años de asedio, Escipión Emiliano arrasa Cartago y su territorio se convierte en la provincia de África.",
+	"wiki": "Tercera guerra púnica",
+	"zonas": [
+		{
+			"nombre": "Cartago y su territorio",
+			"tipo": "frente",
+			"poligono": [
+				[
+					37.35,
+					9.7
+				],
+				[
+					37.3,
+					10.7
+				],
+				[
+					36.5,
+					10.6
+				],
+				[
+					36.5,
+					9.7
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Destrucción de Cartago",
+			"anio": -146,
+			"lat": 36.85,
+			"lng": 10.32,
+			"bajas": "~150.000 muertos",
+			"descripcion": "La ciudad es arrasada tras el asalto final."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tercera guerra púnica",
+			"url": "https://es.wikipedia.org/wiki/Tercera_guerra_púnica",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

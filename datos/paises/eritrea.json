@@ -1,0 +1,122 @@
+{
+	"id": "eritrea",
+	"nombre": "Eritrea",
+	"nombres": [
+		"Eritrea",
+		"Eritrea (Italy)",
+		"Eritrea italiana",
+		"Estado de Eritrea"
+	],
+	"wiki": "es:Eritrea",
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/Eritrea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki_en_hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Eritrea",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q986",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Eritrea",
+			"url": "https://es.wikipedia.org/wiki/Eritrea",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q986",
+			"url": "https://www.wikidata.org/wiki/Q986",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Eritrea italiana (colonia)",
+			"desde": 1890,
+			"hasta": 1941
+		},
+		{
+			"nombre": "Administración militar británica",
+			"desde": 1941,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Federación con Etiopía / provincia etíope",
+			"desde": 1952,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Estado de Eritrea",
+			"desde": 1993
+		}
+	],
+	"wikidata": "Q986",
+	"gobernantes": [
+		{
+			"nombre": "Isaías Afwerki",
+			"desde": 1993,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1928,
+			"valor": 510000,
+			"fuente": "Censo colonial italiano (Wikipedia es)"
+		},
+		{
+			"anio": 1984,
+			"valor": 2700000,
+			"fuente": "Estimación"
+		},
+		{
+			"anio": 1993,
+			"valor": 3200000,
+			"fuente": "Estimación (independencia)"
+		},
+		{
+			"anio": 2000,
+			"valor": 3800000,
+			"fuente": "Estimación ONU"
+		},
+		{
+			"anio": 2010,
+			"valor": 5700000,
+			"fuente": "Estimación ONU"
+		},
+		{
+			"anio": 2023,
+			"valor": 6147398,
+			"fuente": "Estimación (Wikipedia es)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "9b444bea270c",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Eritrea, oficialmente el Estado de Eritrea, es un país situado al noreste de África. Limita al norte y al oeste con Sudán; al sur con Etiopía y Yibuti, y el este es bañado por el mar Rojo.",
+	"escudos": [
+		{
+			"archivo": "Emblem of Eritrea (or argent azur).svg"
+		}
+	]
+}

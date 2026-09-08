@@ -1,0 +1,17 @@
+{
+	"nombre": "Islas Chafarinas",
+	"pais": "España",
+	"lat": 35.18,
+	"lng": -2.43,
+	"desde": 1848,
+	"descripcion": "Ocupadas el 6 de enero de 1848 por la expedición del general Serrano, adelantándose a Francia.",
+	"wiki": "Islas Chafarinas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Islas Chafarinas",
+			"url": "https://es.wikipedia.org/wiki/Islas_Chafarinas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

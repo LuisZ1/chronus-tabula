@@ -1,0 +1,19 @@
+{
+	"nombre": "Erik el Rojo coloniza Groenlandia",
+	"anio": 985,
+	"lat": 61.15,
+	"lng": -45.42,
+	"paises": [
+		"Vikingos (Escandinavia)"
+	],
+	"descripcion": "Desterrado de Islandia, Erik funda los asentamientos nórdicos de Groenlandia, habitados durante casi cinco siglos.",
+	"wiki": "Erik el Rojo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Erik el Rojo",
+			"url": "https://es.wikipedia.org/wiki/Erik_el_Rojo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

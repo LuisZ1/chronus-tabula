@@ -1,0 +1,23 @@
+{
+	"nombre": "Cisma anglicano: ruptura de Enrique VIII con Roma",
+	"anio": 1534,
+	"lat": 51.5,
+	"lng": -0.13,
+	"paises": [
+		"Inglaterra"
+	],
+	"descripcion": "El Acta de Supremacía declara a Enrique VIII cabeza suprema de la Iglesia de Inglaterra, rompiendo con el papado tras la negativa a anular su matrimonio con Catalina de Aragón.",
+	"wiki": "Acta de Supremacía",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Acta de Supremacía",
+			"url": "https://es.wikipedia.org/wiki/Acta_de_Supremac%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

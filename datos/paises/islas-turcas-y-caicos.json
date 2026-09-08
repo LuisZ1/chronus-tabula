@@ -1,0 +1,139 @@
+{
+	"id": "islas-turcas-y-caicos",
+	"nombre": "Islas Turcas y Caicos",
+	"nombres": [
+		"Turks and Caicos Islands",
+		"Islas Turcas y Caicos"
+	],
+	"wikidata": "Q18221",
+	"wiki": "es:Islas Turcas y Caicos",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q18221",
+			"url": "https://www.wikidata.org/wiki/Q18221",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Islas Turcas y Caicos",
+			"url": "https://es.wikipedia.org/wiki/Islas_Turcas_y_Caicos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "TCA",
+	"poblacion": [
+		{
+			"anio": 1100,
+			"valor": 1
+		},
+		{
+			"anio": 1200,
+			"valor": 2
+		},
+		{
+			"anio": 1300,
+			"valor": 4
+		},
+		{
+			"anio": 1400,
+			"valor": 9
+		},
+		{
+			"anio": 1500,
+			"valor": 19
+		},
+		{
+			"anio": 1600,
+			"valor": 39
+		},
+		{
+			"anio": 1700,
+			"valor": 79
+		},
+		{
+			"anio": 1750,
+			"valor": 117
+		},
+		{
+			"anio": 1800,
+			"valor": 174
+		},
+		{
+			"anio": 1850,
+			"valor": 215
+		},
+		{
+			"anio": 1900,
+			"valor": 254
+		},
+		{
+			"anio": 1910,
+			"valor": 263
+		},
+		{
+			"anio": 1920,
+			"valor": 329
+		},
+		{
+			"anio": 1930,
+			"valor": 411
+		},
+		{
+			"anio": 1940,
+			"valor": 514
+		},
+		{
+			"anio": 1950,
+			"valor": 5059
+		},
+		{
+			"anio": 1960,
+			"valor": 5620
+		},
+		{
+			"anio": 1970,
+			"valor": 5686
+		},
+		{
+			"anio": 1980,
+			"valor": 7584
+		},
+		{
+			"anio": 1990,
+			"valor": 11708
+		},
+		{
+			"anio": 2000,
+			"valor": 18754
+		},
+		{
+			"anio": 2010,
+			"valor": 29763
+		},
+		{
+			"anio": 2020,
+			"valor": 44405
+		},
+		{
+			"anio": 2023,
+			"valor": 46221
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "84ff01fb970e",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Las Islas Turcas y Caicos son un territorio británico de ultramar dependiente del Reino Unido. Fueron administradas por Jamaica hasta el año 1962, pasando entonces la administración de las islas a Bahamas hasta 1973."
+}

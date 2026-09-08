@@ -1,0 +1,71 @@
+{
+	"id": "guerra-gotica",
+	"nombre": "Guerra gótica: reconquista bizantina de Italia",
+	"inicio": 535,
+	"fin": 554,
+	"paises": [
+		"Imperio bizantino",
+		"Reino ostrogodo"
+	],
+	"bajas": "cientos de miles; Italia queda devastada",
+	"descripcion": "Justiniano envía a Belisario y luego a Narsés a recuperar Italia para el Imperio. Tras casi veinte años de asedios y despoblación, el reino ostrogodo es destruido en Tádinae (552), pero Italia queda exhausta ante la inminente llegada lombarda.",
+	"wiki": "Guerra gótica (535-554)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra gótica (535-554)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_gótica_(535-554)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Campañas bizantinas en Italia",
+			"tipo": "frente",
+			"desde": 535,
+			"hasta": 554,
+			"poligono": [
+				[
+					46.0,
+					8.5
+				],
+				[
+					45.5,
+					13.5
+				],
+				[
+					40.0,
+					18.0
+				],
+				[
+					38.0,
+					15.5
+				],
+				[
+					41.5,
+					12.0
+				],
+				[
+					44.0,
+					9.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asedio de Roma",
+			"anio": 537,
+			"lat": 41.9,
+			"lng": 12.5,
+			"descripcion": "Belisario resiste el asedio ostrogodo de Vitiges."
+		},
+		{
+			"nombre": "Batalla de Tádinae (Busta Gallorum)",
+			"anio": 552,
+			"lat": 43.2,
+			"lng": 12.8,
+			"descripcion": "Narsés derrota y mata al rey Totila; fin del poder ostrogodo."
+		}
+	]
+}

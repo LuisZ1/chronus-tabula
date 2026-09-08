@@ -1,0 +1,136 @@
+{
+	"id": "atila",
+	"nombre": "Campañas de Atila",
+	"inicio": 441,
+	"fin": 453,
+	"paises": [
+		"Imperio huno",
+		"Imperio romano de Occidente",
+		"Imperio romano de Oriente",
+		"Visigodos"
+	],
+	"bajas": "~165.000-300.000 muertos",
+	"descripcion": "Atila devasta los Balcanes, la Galia e Italia; su imperio se desmorona a su muerte en 453.",
+	"batallas": [
+		{
+			"nombre": "Saqueo de Naissus",
+			"anio": 443,
+			"lat": 43.32,
+			"lng": 21.9,
+			"descripcion": "Los hunos arrasan la ciudad balcánica con torres de asedio."
+		},
+		{
+			"nombre": "Batalla de los Campos Cataláunicos",
+			"anio": 451,
+			"lat": 48.53,
+			"lng": 4.15,
+			"bajas": "~100.000 muertos según las crónicas",
+			"descripcion": "Aecio y los visigodos de Teodorico I frenan a Atila en la Galia."
+		},
+		{
+			"nombre": "Saqueo de Aquileya",
+			"anio": 452,
+			"lat": 45.77,
+			"lng": 13.37,
+			"descripcion": "Atila destruye Aquileya; sus refugiados fundarán Venecia."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Balcanes",
+			"tipo": "frente",
+			"desde": 441,
+			"hasta": 447,
+			"poligono": [
+				[
+					47,
+					18
+				],
+				[
+					46,
+					26
+				],
+				[
+					42,
+					28.5
+				],
+				[
+					41,
+					22
+				],
+				[
+					44,
+					18.5
+				]
+			]
+		},
+		{
+			"nombre": "Galia (Campos Cataláunicos)",
+			"tipo": "frente",
+			"desde": 450,
+			"hasta": 451,
+			"poligono": [
+				[
+					49.8,
+					1
+				],
+				[
+					49.5,
+					6
+				],
+				[
+					47.5,
+					6
+				],
+				[
+					47,
+					2
+				],
+				[
+					48.3,
+					0.5
+				]
+			]
+		},
+		{
+			"nombre": "Italia del norte",
+			"tipo": "frente",
+			"desde": 452,
+			"hasta": 453,
+			"poligono": [
+				[
+					45.8,
+					7.5
+				],
+				[
+					45.6,
+					13
+				],
+				[
+					44,
+					13
+				],
+				[
+					43.8,
+					10
+				],
+				[
+					44.8,
+					7.8
+				]
+			]
+		}
+	],
+	"wiki": "Atila",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Atila",
+			"url": "https://es.wikipedia.org/wiki/Atila",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Accidente nuclear de Fukushima",
+	"anio": 2011,
+	"lat": 37.42,
+	"lng": 141.03,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Un terremoto y tsunami (~19.000 muertos) provocan el peor accidente nuclear desde Chernóbil.",
+	"wiki": "Accidente nuclear de Fukushima I",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Accidente nuclear de Fukushima I",
+			"url": "https://es.wikipedia.org/wiki/Accidente_nuclear_de_Fukushima_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		}
+	]
+}

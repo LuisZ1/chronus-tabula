@@ -1,0 +1,224 @@
+{
+	"id": "birmania",
+	"nombre": "Birmania",
+	"nombres": [
+		"Burma",
+		"Birmania",
+		"Myanmar"
+	],
+	"wikidata": "Q836",
+	"wiki": "es:Birmania",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q836",
+			"url": "https://www.wikidata.org/wiki/Q836",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Birmania",
+			"url": "https://es.wikipedia.org/wiki/Birmania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "MMR",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 19798
+		},
+		{
+			"anio": -9000,
+			"valor": 21998
+		},
+		{
+			"anio": -8000,
+			"valor": 24443
+		},
+		{
+			"anio": -7000,
+			"valor": 27158
+		},
+		{
+			"anio": -6000,
+			"valor": 30176
+		},
+		{
+			"anio": -5000,
+			"valor": 33529
+		},
+		{
+			"anio": -4000,
+			"valor": 37255
+		},
+		{
+			"anio": -3000,
+			"valor": 41394
+		},
+		{
+			"anio": -2000,
+			"valor": 45993
+		},
+		{
+			"anio": -1000,
+			"valor": 515000
+		},
+		{
+			"anio": 0,
+			"valor": 1000000
+		},
+		{
+			"anio": 100,
+			"valor": 1100000
+		},
+		{
+			"anio": 200,
+			"valor": 1200000
+		},
+		{
+			"anio": 300,
+			"valor": 1300000
+		},
+		{
+			"anio": 400,
+			"valor": 1400000
+		},
+		{
+			"anio": 500,
+			"valor": 1500000
+		},
+		{
+			"anio": 600,
+			"valor": 1600000
+		},
+		{
+			"anio": 700,
+			"valor": 1700000
+		},
+		{
+			"anio": 800,
+			"valor": 1800000
+		},
+		{
+			"anio": 900,
+			"valor": 1900000
+		},
+		{
+			"anio": 1000,
+			"valor": 2000000
+		},
+		{
+			"anio": 1100,
+			"valor": 2500000
+		},
+		{
+			"anio": 1200,
+			"valor": 3000000
+		},
+		{
+			"anio": 1300,
+			"valor": 2900000
+		},
+		{
+			"anio": 1400,
+			"valor": 3450000
+		},
+		{
+			"anio": 1500,
+			"valor": 4000000
+		},
+		{
+			"anio": 1600,
+			"valor": 4500000
+		},
+		{
+			"anio": 1700,
+			"valor": 5000000
+		},
+		{
+			"anio": 1750,
+			"valor": 5500000
+		},
+		{
+			"anio": 1800,
+			"valor": 6000000
+		},
+		{
+			"anio": 1850,
+			"valor": 3932075
+		},
+		{
+			"anio": 1900,
+			"valor": 9411380
+		},
+		{
+			"anio": 1910,
+			"valor": 10934246
+		},
+		{
+			"anio": 1920,
+			"valor": 11923214
+		},
+		{
+			"anio": 1930,
+			"valor": 13231889
+		},
+		{
+			"anio": 1940,
+			"valor": 15124546
+		},
+		{
+			"anio": 1950,
+			"valor": 17737123
+		},
+		{
+			"anio": 1960,
+			"valor": 21730255
+		},
+		{
+			"anio": 1970,
+			"valor": 27193015
+		},
+		{
+			"anio": 1980,
+			"valor": 33227204
+		},
+		{
+			"anio": 1990,
+			"valor": 39817253
+		},
+		{
+			"anio": 2000,
+			"valor": 45290850
+		},
+		{
+			"anio": 2010,
+			"valor": 49024376
+		},
+		{
+			"anio": 2020,
+			"valor": 53016525
+		},
+		{
+			"anio": 2023,
+			"valor": 54133800
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "22305f34d377",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Birmania o Myanmar, cuya denominación oficial es República de la Unión de Myanmar, es un Estado soberano del Sudeste Asiático. Limita con India y Bangladés al oeste, Tailandia y Laos al este, China al norte y noreste, y con la bahía de Bengala y el mar de Andamán al sur."
+}

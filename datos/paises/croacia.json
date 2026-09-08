@@ -1,0 +1,223 @@
+{
+	"id": "croacia",
+	"nombre": "Croacia",
+	"nombres": [
+		"Croatia",
+		"Croacia"
+	],
+	"wikidata": "Q224",
+	"wiki": "es:Croacia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q224",
+			"url": "https://www.wikidata.org/wiki/Q224",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Croacia",
+			"url": "https://es.wikipedia.org/wiki/Croacia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "HRV",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 1198
+		},
+		{
+			"anio": -9000,
+			"valor": 2119
+		},
+		{
+			"anio": -8000,
+			"valor": 3749
+		},
+		{
+			"anio": -7000,
+			"valor": 6634
+		},
+		{
+			"anio": -6000,
+			"valor": 11738
+		},
+		{
+			"anio": -5000,
+			"valor": 20767
+		},
+		{
+			"anio": -4000,
+			"valor": 36742
+		},
+		{
+			"anio": -3000,
+			"valor": 65005
+		},
+		{
+			"anio": -2000,
+			"valor": 115009
+		},
+		{
+			"anio": -1000,
+			"valor": 203478
+		},
+		{
+			"anio": 0,
+			"valor": 360000
+		},
+		{
+			"anio": 100,
+			"valor": 365299
+		},
+		{
+			"anio": 200,
+			"valor": 371007
+		},
+		{
+			"anio": 300,
+			"valor": 376804
+		},
+		{
+			"anio": 400,
+			"valor": 382691
+		},
+		{
+			"anio": 500,
+			"valor": 388671
+		},
+		{
+			"anio": 600,
+			"valor": 394744
+		},
+		{
+			"anio": 700,
+			"valor": 400912
+		},
+		{
+			"anio": 800,
+			"valor": 407176
+		},
+		{
+			"anio": 900,
+			"valor": 413538
+		},
+		{
+			"anio": 1000,
+			"valor": 420000
+		},
+		{
+			"anio": 1100,
+			"valor": 444000
+		},
+		{
+			"anio": 1200,
+			"valor": 468000
+		},
+		{
+			"anio": 1300,
+			"valor": 492000
+		},
+		{
+			"anio": 1400,
+			"valor": 516000
+		},
+		{
+			"anio": 1500,
+			"valor": 540000
+		},
+		{
+			"anio": 1600,
+			"valor": 660000
+		},
+		{
+			"anio": 1700,
+			"valor": 660000
+		},
+		{
+			"anio": 1750,
+			"valor": 791773
+		},
+		{
+			"anio": 1800,
+			"valor": 1227886
+		},
+		{
+			"anio": 1850,
+			"valor": 1597319
+		},
+		{
+			"anio": 1900,
+			"valor": 2493105
+		},
+		{
+			"anio": 1910,
+			"valor": 2725259
+		},
+		{
+			"anio": 1920,
+			"valor": 2977792
+		},
+		{
+			"anio": 1930,
+			"valor": 3250582
+		},
+		{
+			"anio": 1940,
+			"valor": 3548361
+		},
+		{
+			"anio": 1950,
+			"valor": 3864992
+		},
+		{
+			"anio": 1960,
+			"valor": 4200272
+		},
+		{
+			"anio": 1970,
+			"valor": 4462673
+		},
+		{
+			"anio": 1980,
+			"valor": 4643900
+		},
+		{
+			"anio": 1990,
+			"valor": 4835067
+		},
+		{
+			"anio": 2000,
+			"valor": 4326105
+		},
+		{
+			"anio": 2010,
+			"valor": 4301150
+		},
+		{
+			"anio": 2020,
+			"valor": 3953956
+		},
+		{
+			"anio": 2023,
+			"valor": 3896023
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "c1305aab4dea",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Croacia, oficialmente República de Croacia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, ubicado entre la Europa Central, la Europa meridional y el mar Adriático; limita al noreste con Hungría, al este con Serbia, al sureste con Bosnia-Herzegovina y Montenegro, al noroeste con Eslovenia y al suroeste con el mar Adriático, donde co…"
+}

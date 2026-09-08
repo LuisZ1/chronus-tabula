@@ -1,0 +1,223 @@
+{
+	"id": "tayikistan",
+	"nombre": "Tayikistán",
+	"nombres": [
+		"Tajikistan",
+		"Tayikistán"
+	],
+	"wikidata": "Q863",
+	"wiki": "es:Tayikistán",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q863",
+			"url": "https://www.wikidata.org/wiki/Q863",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Tayikistán",
+			"url": "https://es.wikipedia.org/wiki/Tayikist%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "TJK",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 24652
+		},
+		{
+			"anio": -9000,
+			"valor": 28760
+		},
+		{
+			"anio": -8000,
+			"valor": 33554
+		},
+		{
+			"anio": -7000,
+			"valor": 39146
+		},
+		{
+			"anio": -6000,
+			"valor": 45671
+		},
+		{
+			"anio": -5000,
+			"valor": 53283
+		},
+		{
+			"anio": -4000,
+			"valor": 62163
+		},
+		{
+			"anio": -3000,
+			"valor": 72524
+		},
+		{
+			"anio": -2000,
+			"valor": 84611
+		},
+		{
+			"anio": -1000,
+			"valor": 98713
+		},
+		{
+			"anio": 0,
+			"valor": 115165
+		},
+		{
+			"anio": 100,
+			"valor": 123392
+		},
+		{
+			"anio": 200,
+			"valor": 132205
+		},
+		{
+			"anio": 300,
+			"valor": 141649
+		},
+		{
+			"anio": 400,
+			"valor": 151766
+		},
+		{
+			"anio": 500,
+			"valor": 162607
+		},
+		{
+			"anio": 600,
+			"valor": 174222
+		},
+		{
+			"anio": 700,
+			"valor": 186666
+		},
+		{
+			"anio": 800,
+			"valor": 200000
+		},
+		{
+			"anio": 900,
+			"valor": 210000
+		},
+		{
+			"anio": 1000,
+			"valor": 220000
+		},
+		{
+			"anio": 1100,
+			"valor": 230000
+		},
+		{
+			"anio": 1200,
+			"valor": 250000
+		},
+		{
+			"anio": 1300,
+			"valor": 270000
+		},
+		{
+			"anio": 1400,
+			"valor": 290000
+		},
+		{
+			"anio": 1500,
+			"valor": 310000
+		},
+		{
+			"anio": 1600,
+			"valor": 350000
+		},
+		{
+			"anio": 1700,
+			"valor": 390000
+		},
+		{
+			"anio": 1750,
+			"valor": 519392
+		},
+		{
+			"anio": 1800,
+			"valor": 466629
+		},
+		{
+			"anio": 1850,
+			"valor": 613795
+		},
+		{
+			"anio": 1900,
+			"valor": 957687
+		},
+		{
+			"anio": 1910,
+			"valor": 1046782
+		},
+		{
+			"anio": 1920,
+			"valor": 1144984
+		},
+		{
+			"anio": 1930,
+			"valor": 1254501
+		},
+		{
+			"anio": 1940,
+			"valor": 1374494
+		},
+		{
+			"anio": 1950,
+			"valor": 1528311
+		},
+		{
+			"anio": 1960,
+			"valor": 2112136
+		},
+		{
+			"anio": 1970,
+			"valor": 2936784
+		},
+		{
+			"anio": 1980,
+			"valor": 3995258
+		},
+		{
+			"anio": 1990,
+			"valor": 5398773
+		},
+		{
+			"anio": 2000,
+			"valor": 6284737
+		},
+		{
+			"anio": 2010,
+			"valor": 7652144
+		},
+		{
+			"anio": 2020,
+			"valor": 9749312
+		},
+		{
+			"anio": 2023,
+			"valor": 10389807
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6b23854dce4f",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Tayikistán, oficialmente la República de Tayikistán , [1] es un país soberano sin litoral ubicado en Asia Central. Cuenta con una población estimada de 10 millones de habitantes y una superficie de 144 100 km²."
+}

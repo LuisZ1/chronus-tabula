@@ -1,0 +1,155 @@
+{
+	"id": "rep-congo",
+	"nombre": "Rep. del Congo",
+	"nombres": [
+		"Congo",
+		"Congo (France)",
+		"República del Congo",
+		"Congo-Brazzaville",
+		"República Popular del Congo"
+	],
+	"wiki": "es:República del Congo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/República_del_Congo",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q971",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): República del Congo",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Congo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q971",
+			"url": "https://www.wikidata.org/wiki/Q971",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Congo Francés",
+			"desde": 1882,
+			"hasta": 1958
+		},
+		{
+			"nombre": "República del Congo",
+			"desde": 1960,
+			"hasta": 1969
+		},
+		{
+			"nombre": "República Popular del Congo",
+			"desde": 1969,
+			"hasta": 1992
+		},
+		{
+			"nombre": "República del Congo",
+			"desde": 1992,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q971",
+	"gobernantes": [
+		{
+			"nombre": "Fulbert Youlou",
+			"desde": 1960,
+			"hasta": 1963,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Alphonse Massamba-Débat",
+			"desde": 1963,
+			"hasta": 1968,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Marien Ngouabi",
+			"desde": 1968,
+			"hasta": 1977,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Joachim Yhombi-Opango",
+			"desde": 1977,
+			"hasta": 1979,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Denis Sassou-Nguesso",
+			"desde": 1979,
+			"hasta": 1992,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Pascal Lissouba",
+			"desde": 1992,
+			"hasta": 1997,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Denis Sassou-Nguesso",
+			"desde": 1997,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 1010000,
+			"fuente": "Our World in Data (est.)"
+		},
+		{
+			"anio": 1980,
+			"valor": 1800000,
+			"fuente": "Our World in Data (est.)"
+		},
+		{
+			"anio": 2000,
+			"valor": 3100000,
+			"fuente": "Our World in Data (est.)"
+		},
+		{
+			"anio": 2014,
+			"valor": 4662446,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2018,
+			"valor": 5000000,
+			"fuente": "Wikipedia (es), estimación"
+		},
+		{
+			"anio": 2023,
+			"valor": 6100000,
+			"fuente": "Our World in Data (est.)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e414475bfe6f",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "El Congo, oficialmente la República del Congo, también conocida con los nombres de Congo-Brazzaville o simplemente Congo del Oeste, es un país de África Central.",
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Republic of the Congo.svg"
+		}
+	]
+}

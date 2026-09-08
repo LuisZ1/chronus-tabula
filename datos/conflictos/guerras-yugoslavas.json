@@ -1,0 +1,124 @@
+{
+	"id": "guerras-yugoslavas",
+	"nombre": "Guerras yugoslavas",
+	"inicio": 1991,
+	"fin": 2001,
+	"paises": [
+		"Yugoslavia",
+		"Croacia",
+		"Bosnia",
+		"Serbia",
+		"Kosovo"
+	],
+	"bajas": "~130.000-140.000 muertos y millones de desplazados",
+	"descripcion": "La desintegración de Yugoslavia en guerras de limpieza étnica: Eslovenia, Croacia, Bosnia (con el sitio de Sarajevo) y Kosovo, hasta la intervención de la OTAN.",
+	"wiki": "Guerras yugoslavas",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerras yugoslavas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_yugoslavas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Guerra de Croacia",
+			"tipo": "frente",
+			"desde": 1991,
+			"hasta": 1995,
+			"poligono": [
+				[
+					45.9,
+					15.6
+				],
+				[
+					45.5,
+					19.0
+				],
+				[
+					44.3,
+					17.0
+				],
+				[
+					44.0,
+					15.2
+				]
+			]
+		},
+		{
+			"nombre": "Guerra de Bosnia",
+			"tipo": "frente",
+			"desde": 1992,
+			"hasta": 1995,
+			"poligono": [
+				[
+					45.2,
+					16.2
+				],
+				[
+					44.8,
+					19.4
+				],
+				[
+					42.9,
+					18.5
+				],
+				[
+					43.3,
+					16.5
+				]
+			]
+		},
+		{
+			"nombre": "Guerra de Kosovo",
+			"tipo": "frente",
+			"desde": 1998,
+			"hasta": 1999,
+			"poligono": [
+				[
+					43.2,
+					20.0
+				],
+				[
+					43.1,
+					21.7
+				],
+				[
+					42.0,
+					21.3
+				],
+				[
+					42.1,
+					20.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Vukovar",
+			"anio": 1991,
+			"lat": 45.35,
+			"lng": 19.0,
+			"descripcion": "87 días de asedio; la primera ciudad europea arrasada desde 1945.",
+			"wiki": "Batalla de Vukovar"
+		},
+		{
+			"nombre": "Sitio de Sarajevo",
+			"anio": 1992,
+			"hasta": 1996,
+			"lat": 43.86,
+			"lng": 18.41,
+			"bajas": "~14.000 muertos",
+			"descripcion": "El asedio más largo a una capital en la historia moderna: 1.425 días.",
+			"wiki": "Sitio de Sarajevo"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nombre": "Tratado de Ganghwa",
+	"anio": 1876,
+	"lat": 37.7,
+	"lng": 126.5,
+	"paises": [
+		"Japón"
+	],
+	"descripcion": "Japón impone a Corea un tratado desigual, primer paso de su expansión continental.",
+	"wiki": "Tratado de Ganghwa",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Ganghwa",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Ganghwa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

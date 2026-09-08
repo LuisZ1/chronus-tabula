@@ -1,0 +1,550 @@
+{
+	"id": "conquista-america",
+	"nombre": "Conquista española de América",
+	"inicio": 1492,
+	"fin": 1580,
+	"paises": [
+		"España",
+		"Imperio mexica",
+		"Imperio inca",
+		"Pueblos indígenas de América"
+	],
+	"bajas": "cientos de miles en combate; millones contando las epidemias (viruela, sarampión, tifus)",
+	"descripcion": "En menos de un siglo, desde las Antillas, España somete los imperios mexica e inca y funda los virreinatos de Nueva España y Perú. El avance fue por oleadas: Caribe (1492-1519), México (1519-1521), Centroamérica y Yucatán (1524-1547), Perú (1532-1536), Nueva Granada y Venezuela (1525-1546), Chile y Río de la Plata (1536-1580).",
+	"wiki": "Colonización española de América",
+	"zonas": [
+		{
+			"nombre": "Antillas (La Española, Cuba, Puerto Rico)",
+			"tipo": "frente",
+			"desde": 1493,
+			"hasta": 1519,
+			"poligono": [
+				[
+					23.5,
+					-85.5
+				],
+				[
+					21,
+					-73.5
+				],
+				[
+					17.6,
+					-64.5
+				],
+				[
+					17.3,
+					-68
+				],
+				[
+					17.8,
+					-78.5
+				],
+				[
+					21.5,
+					-85.8
+				]
+			]
+		},
+		{
+			"nombre": "Antillas españolas",
+			"tipo": "ocupado",
+			"desde": 1519,
+			"hasta": 1580,
+			"poligono": [
+				[
+					23.5,
+					-85.5
+				],
+				[
+					21,
+					-73.5
+				],
+				[
+					17.6,
+					-64.5
+				],
+				[
+					17.3,
+					-68
+				],
+				[
+					17.8,
+					-78.5
+				],
+				[
+					21.5,
+					-85.8
+				]
+			]
+		},
+		{
+			"nombre": "México (Imperio mexica)",
+			"tipo": "frente",
+			"desde": 1519,
+			"hasta": 1521,
+			"poligono": [
+				[
+					21.2,
+					-100.8
+				],
+				[
+					20.5,
+					-96.2
+				],
+				[
+					18,
+					-96
+				],
+				[
+					17.8,
+					-100.2
+				],
+				[
+					19.5,
+					-101.5
+				]
+			]
+		},
+		{
+			"nombre": "Expansión por Nueva España (occidente y norte)",
+			"tipo": "frente",
+			"desde": 1522,
+			"hasta": 1550,
+			"poligono": [
+				[
+					25.5,
+					-109
+				],
+				[
+					24,
+					-99
+				],
+				[
+					20,
+					-97
+				],
+				[
+					18,
+					-101
+				],
+				[
+					21,
+					-106.5
+				],
+				[
+					24,
+					-108.5
+				]
+			]
+		},
+		{
+			"nombre": "Guatemala y Centroamérica",
+			"tipo": "frente",
+			"desde": 1524,
+			"hasta": 1541,
+			"poligono": [
+				[
+					17,
+					-93.5
+				],
+				[
+					15.5,
+					-88
+				],
+				[
+					12,
+					-85
+				],
+				[
+					10.8,
+					-86.5
+				],
+				[
+					14,
+					-92.5
+				],
+				[
+					16,
+					-94
+				]
+			]
+		},
+		{
+			"nombre": "Yucatán (mayas)",
+			"tipo": "frente",
+			"desde": 1527,
+			"hasta": 1547,
+			"poligono": [
+				[
+					21.6,
+					-90.5
+				],
+				[
+					21.5,
+					-86.8
+				],
+				[
+					19.5,
+					-87.5
+				],
+				[
+					18.4,
+					-90.5
+				],
+				[
+					20.5,
+					-91
+				]
+			]
+		},
+		{
+			"nombre": "Nueva España",
+			"tipo": "ocupado",
+			"desde": 1521,
+			"hasta": 1580,
+			"poligono": [
+				[
+					24,
+					-106
+				],
+				[
+					22,
+					-97.5
+				],
+				[
+					18.5,
+					-94.5
+				],
+				[
+					15,
+					-92.5
+				],
+				[
+					14,
+					-93.5
+				],
+				[
+					17.5,
+					-101.5
+				],
+				[
+					21,
+					-106
+				]
+			]
+		},
+		{
+			"nombre": "Perú (Imperio inca)",
+			"tipo": "frente",
+			"desde": 1532,
+			"hasta": 1536,
+			"poligono": [
+				[
+					-2,
+					-81
+				],
+				[
+					-6,
+					-78
+				],
+				[
+					-12,
+					-73.5
+				],
+				[
+					-13.8,
+					-71.3
+				],
+				[
+					-15.2,
+					-73
+				],
+				[
+					-9,
+					-80.2
+				],
+				[
+					-4,
+					-81.5
+				]
+			]
+		},
+		{
+			"nombre": "Resistencia inca de Vilcabamba",
+			"tipo": "frente",
+			"desde": 1537,
+			"hasta": 1572,
+			"poligono": [
+				[
+					-12.4,
+					-74
+				],
+				[
+					-12.7,
+					-72.2
+				],
+				[
+					-13.6,
+					-72.5
+				],
+				[
+					-13.4,
+					-74
+				]
+			]
+		},
+		{
+			"nombre": "Nueva Granada (muiscas)",
+			"tipo": "frente",
+			"desde": 1525,
+			"hasta": 1539,
+			"poligono": [
+				[
+					11.2,
+					-75.5
+				],
+				[
+					10,
+					-72.5
+				],
+				[
+					4.5,
+					-73.3
+				],
+				[
+					3.8,
+					-75.5
+				],
+				[
+					7,
+					-77.2
+				],
+				[
+					10,
+					-76
+				]
+			]
+		},
+		{
+			"nombre": "Venezuela (los Welser)",
+			"tipo": "frente",
+			"desde": 1528,
+			"hasta": 1546,
+			"poligono": [
+				[
+					11.2,
+					-72
+				],
+				[
+					10.5,
+					-63.5
+				],
+				[
+					8,
+					-63.5
+				],
+				[
+					7.5,
+					-70
+				],
+				[
+					9.5,
+					-72.5
+				]
+			]
+		},
+		{
+			"nombre": "Chile (guerra de Arauco)",
+			"tipo": "frente",
+			"desde": 1540,
+			"hasta": 1553,
+			"poligono": [
+				[
+					-29,
+					-71.8
+				],
+				[
+					-30,
+					-70
+				],
+				[
+					-38.5,
+					-71.3
+				],
+				[
+					-38.7,
+					-73.8
+				],
+				[
+					-33,
+					-72.2
+				]
+			]
+		},
+		{
+			"nombre": "Río de la Plata y Paraguay",
+			"tipo": "frente",
+			"desde": 1536,
+			"hasta": 1580,
+			"poligono": [
+				[
+					-24,
+					-58.5
+				],
+				[
+					-25.5,
+					-54.3
+				],
+				[
+					-28,
+					-56
+				],
+				[
+					-35,
+					-57
+				],
+				[
+					-35.2,
+					-59.5
+				],
+				[
+					-32,
+					-61.5
+				],
+				[
+					-26,
+					-59
+				]
+			]
+		},
+		{
+			"nombre": "Florida",
+			"tipo": "frente",
+			"desde": 1513,
+			"hasta": 1565,
+			"poligono": [
+				[
+					30.6,
+					-85
+				],
+				[
+					30.5,
+					-81
+				],
+				[
+					25,
+					-80.2
+				],
+				[
+					25,
+					-82
+				],
+				[
+					28.5,
+					-83.5
+				]
+			]
+		},
+		{
+			"nombre": "Virreinato del Perú (consolidación)",
+			"tipo": "ocupado",
+			"desde": 1540,
+			"hasta": 1580,
+			"poligono": [
+				[
+					0,
+					-80.5
+				],
+				[
+					-5,
+					-75
+				],
+				[
+					-13,
+					-69.5
+				],
+				[
+					-20,
+					-67.5
+				],
+				[
+					-20.5,
+					-71
+				],
+				[
+					-12,
+					-78
+				],
+				[
+					-4,
+					-81.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Centla",
+			"anio": 1519,
+			"lat": 18.28,
+			"lng": -92.65,
+			"descripcion": "Primera batalla de Cortés en tierras mexicas; recibe a la Malinche."
+		},
+		{
+			"nombre": "La Noche Triste",
+			"anio": 1520,
+			"lat": 19.44,
+			"lng": -99.19,
+			"bajas": "~600 españoles y miles de aliados",
+			"descripcion": "Los españoles huyen de Tenochtitlan con grandes pérdidas."
+		},
+		{
+			"nombre": "Batalla de Otumba",
+			"anio": 1520,
+			"lat": 19.7,
+			"lng": -98.76,
+			"descripcion": "Cortés derrota al ejército mexica en campo abierto tras la Noche Triste."
+		},
+		{
+			"nombre": "Caída de Tenochtitlan",
+			"anio": 1521,
+			"lat": 19.43,
+			"lng": -99.13,
+			"bajas": "~100.000-240.000 muertos",
+			"descripcion": "Tras meses de asedio cae la capital mexica; Cuauhtémoc es capturado."
+		},
+		{
+			"nombre": "Emboscada de Cajamarca",
+			"anio": 1532,
+			"lat": -7.16,
+			"lng": -78.51,
+			"bajas": "~6.000-7.000 incas muertos",
+			"descripcion": "Captura de Atahualpa sin bajas españolas."
+		},
+		{
+			"nombre": "Toma de Cuzco",
+			"anio": 1533,
+			"lat": -13.52,
+			"lng": -71.97,
+			"descripcion": "Pizarro entra en la capital inca."
+		},
+		{
+			"nombre": "Sitio de Cuzco (Manco Inca)",
+			"anio": 1536,
+			"lat": -13.53,
+			"lng": -71.95,
+			"descripcion": "La gran rebelión inca está a punto de recuperar la ciudad."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Colonización española de América",
+			"url": "https://es.wikipedia.org/wiki/Colonización_española_de_América",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	]
+}

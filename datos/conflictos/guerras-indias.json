@@ -1,0 +1,1649 @@
+{
+	"id": "guerras-indias",
+	"nombre": "Guerras indias y conquista del Oeste",
+	"inicio": 1811,
+	"fin": 1890,
+	"paises": [
+		"Estados Unidos",
+		"Sioux",
+		"Cheyenes",
+		"Apaches",
+		"Comanches",
+		"Cheroquis y naciones del Sureste"
+	],
+	"bajas": "~50.000 muertos en combate; el desplazamiento y las epidemias costaron muchas más vidas nativas",
+	"descripcion": "Un siglo de guerras y tratados incumplidos: de Tippecanoe (1811) y la Ley de Traslado Forzoso (1830) con el Sendero de Lágrimas, a las guerras de las Llanuras, Little Bighorn (1876), la rendición de Gerónimo (1886) y la masacre de Wounded Knee (1890). Las tribus perdieron casi todo su territorio, reducido a reservas.",
+	"wiki": "Guerras Indias",
+	"zonas": [
+		{
+			"nombre": "Territorio de las naciones indias",
+			"tipo": "ocupado",
+			"color": "#8a6d3b",
+			"desde": 1811,
+			"hasta": 1853,
+			"poligono": [
+				[
+					49,
+					-115
+				],
+				[
+					48,
+					-96
+				],
+				[
+					43,
+					-90
+				],
+				[
+					36,
+					-90
+				],
+				[
+					31,
+					-100
+				],
+				[
+					32,
+					-112
+				],
+				[
+					41,
+					-117
+				]
+			]
+		},
+		{
+			"nombre": "Territorio nativo (tras los primeros tratados)",
+			"tipo": "ocupado",
+			"color": "#8a6d3b",
+			"desde": 1854,
+			"hasta": 1876,
+			"poligono": [
+				[
+					48.5,
+					-112
+				],
+				[
+					47.5,
+					-98
+				],
+				[
+					41,
+					-98
+				],
+				[
+					36,
+					-100
+				],
+				[
+					34,
+					-108
+				],
+				[
+					41,
+					-113
+				]
+			]
+		},
+		{
+			"nombre": "Reservas",
+			"tipo": "ocupado",
+			"color": "#8a6d3b",
+			"desde": 1877,
+			"hasta": 1890,
+			"poligono": [
+				[
+					45.8,
+					-103.5
+				],
+				[
+					45.5,
+					-100
+				],
+				[
+					43,
+					-100
+				],
+				[
+					43,
+					-103.5
+				]
+			]
+		},
+		{
+			"nombre": "Guerra de Tecumseh",
+			"tipo": "frente",
+			"desde": 1811,
+			"hasta": 1813,
+			"poligono": [
+				[
+					42,
+					-87.5
+				],
+				[
+					41.5,
+					-84.5
+				],
+				[
+					39.5,
+					-85
+				],
+				[
+					39.8,
+					-87.5
+				]
+			]
+		},
+		{
+			"nombre": "Deportaciones del Sureste (Sendero de Lágrimas)",
+			"tipo": "frente",
+			"desde": 1830,
+			"hasta": 1839,
+			"poligono": [
+				[
+					36,
+					-90
+				],
+				[
+					35.8,
+					-83.5
+				],
+				[
+					33.5,
+					-84
+				],
+				[
+					32.5,
+					-88
+				],
+				[
+					34.5,
+					-90.5
+				]
+			]
+		},
+		{
+			"nombre": "Guerras de las Llanuras",
+			"tipo": "frente",
+			"desde": 1854,
+			"hasta": 1877,
+			"poligono": [
+				[
+					47,
+					-108
+				],
+				[
+					46,
+					-98
+				],
+				[
+					38,
+					-98
+				],
+				[
+					37,
+					-105
+				],
+				[
+					42,
+					-110
+				]
+			]
+		},
+		{
+			"nombre": "Guerra de los sioux (Black Hills)",
+			"tipo": "frente",
+			"desde": 1876,
+			"hasta": 1877,
+			"poligono": [
+				[
+					46.5,
+					-108
+				],
+				[
+					46,
+					-102
+				],
+				[
+					43.5,
+					-102.5
+				],
+				[
+					43.8,
+					-107.5
+				]
+			]
+		},
+		{
+			"nombre": "Guerras apaches",
+			"tipo": "frente",
+			"desde": 1861,
+			"hasta": 1886,
+			"poligono": [
+				[
+					34.5,
+					-112
+				],
+				[
+					34,
+					-105.5
+				],
+				[
+					31.5,
+					-106
+				],
+				[
+					31.3,
+					-111.5
+				]
+			]
+		},
+		{
+			"nombre": "Wounded Knee",
+			"tipo": "frente",
+			"desde": 1890,
+			"hasta": 1890,
+			"poligono": [
+				[
+					43.4,
+					-102.8
+				],
+				[
+					43.4,
+					-102
+				],
+				[
+					43,
+					-102
+				],
+				[
+					43,
+					-102.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Tippecanoe",
+			"anio": 1811,
+			"lat": 40.51,
+			"lng": -86.84,
+			"descripcion": "Harrison derrota a la confederación de Tecumseh."
+		},
+		{
+			"nombre": "Negro Fort",
+			"anio": 1816,
+			"lat": 29.94,
+			"lng": -85.01
+		},
+		{
+			"nombre": "Batalla de Horseshoe Bend",
+			"anio": 1832,
+			"lat": 42.66,
+			"lng": -89.88
+		},
+		{
+			"nombre": "Batalla de Kellogg's Grove",
+			"anio": 1832,
+			"lat": 42.3,
+			"lng": -89.88
+		},
+		{
+			"nombre": "Batalla de Stillman's Run",
+			"anio": 1832,
+			"lat": 42.11,
+			"lng": -89.18
+		},
+		{
+			"nombre": "Batalla de Waddams Grove",
+			"anio": 1832,
+			"lat": 42.43,
+			"lng": -89.86
+		},
+		{
+			"nombre": "Batalla de Wisconsin Heights",
+			"anio": 1832,
+			"lat": 43.23,
+			"lng": -89.74
+		},
+		{
+			"nombre": "Batalla de Bad Axe",
+			"anio": 1832,
+			"lat": 43.46,
+			"lng": -91.22
+		},
+		{
+			"nombre": "Batalla de Apple River Fort",
+			"anio": 1832,
+			"lat": 42.32,
+			"lng": -90.22
+		},
+		{
+			"nombre": "Batalla de Ouithlacoochie",
+			"anio": 1835,
+			"lat": 28.99,
+			"lng": -82.76
+		},
+		{
+			"nombre": "Ingham incident",
+			"anio": 1835,
+			"lat": 26.04,
+			"lng": -97.14
+		},
+		{
+			"nombre": "Batalla de Wahoo Swamp",
+			"anio": 1836,
+			"lat": 28.69,
+			"lng": -82.22
+		},
+		{
+			"nombre": "Batalla de San Felasco Hammock",
+			"anio": 1836,
+			"lat": 29.74,
+			"lng": -82.44
+		},
+		{
+			"nombre": "Batalla de Lake Okeechobee",
+			"anio": 1837,
+			"lat": 27.21,
+			"lng": -80.79
+		},
+		{
+			"nombre": "Batalla de Pine Island Ridge",
+			"anio": 1838,
+			"lat": 26.1,
+			"lng": -80.27
+		},
+		{
+			"nombre": "Batalla de Providencia",
+			"anio": 1845,
+			"lat": 34.18,
+			"lng": -118.33
+		},
+		{
+			"nombre": "Sitio de Fort Texas",
+			"anio": 1846,
+			"lat": 25.9,
+			"lng": -97.49
+		},
+		{
+			"nombre": "Batalla de Monterrey",
+			"anio": 1846,
+			"lat": 25.68,
+			"lng": -100.31
+		},
+		{
+			"nombre": "Batalla de Monterey",
+			"anio": 1846,
+			"lat": 36.61,
+			"lng": -121.9
+		},
+		{
+			"nombre": "Batalla del Rancho Domínguez",
+			"anio": 1846,
+			"lat": 33.77,
+			"lng": -118.32
+		},
+		{
+			"nombre": "Batalla de Chino",
+			"anio": 1846,
+			"lat": 33.99,
+			"lng": -117.72
+		},
+		{
+			"nombre": "Batalla de Palo Alto",
+			"anio": 1846,
+			"lat": 26.02,
+			"lng": -97.47
+		},
+		{
+			"nombre": "Batalla de Resaca de la Palma",
+			"anio": 1846,
+			"lat": 25.94,
+			"lng": -97.49
+		},
+		{
+			"nombre": "Batalla de Natividad",
+			"anio": 1846,
+			"lat": 36.77,
+			"lng": -121.6
+		},
+		{
+			"nombre": "Batalla de San Pascual",
+			"anio": 1846,
+			"lat": 33.09,
+			"lng": -116.99
+		},
+		{
+			"nombre": "Batalla de Santa Fe",
+			"anio": 1846,
+			"lat": 35.67,
+			"lng": -105.96
+		},
+		{
+			"nombre": "Incidente de Thornton",
+			"anio": 1846,
+			"lat": 26.06,
+			"lng": -97.78
+		},
+		{
+			"nombre": "Batalla del Río San Gabriel",
+			"anio": 1847,
+			"lat": 33.99,
+			"lng": -118.11
+		},
+		{
+			"nombre": "Batalla del Paso de Embudo",
+			"anio": 1847,
+			"lat": 36.2,
+			"lng": -105.9
+		},
+		{
+			"nombre": "Batalla de la Cañada",
+			"anio": 1847,
+			"lat": 35.99,
+			"lng": -106.04
+		},
+		{
+			"nombre": "Batalla de la Angostura",
+			"anio": 1847,
+			"lat": 25.34,
+			"lng": -101.05
+		},
+		{
+			"nombre": "Batalla de La Mesa",
+			"anio": 1847,
+			"lat": 34.0,
+			"lng": -118.2
+		},
+		{
+			"nombre": "Batalla de Santa Clara",
+			"anio": 1847,
+			"lat": 37.35,
+			"lng": -121.95
+		},
+		{
+			"nombre": "Batalla de Sacramento",
+			"anio": 1847,
+			"lat": 28.87,
+			"lng": -106.19
+		},
+		{
+			"nombre": "Segunda batalla de Mora",
+			"anio": 1847,
+			"lat": 35.97,
+			"lng": -105.33
+		},
+		{
+			"nombre": "Batalla de Mora",
+			"anio": 1847,
+			"lat": 35.97,
+			"lng": -105.33
+		},
+		{
+			"nombre": "Masacre de Grattan",
+			"anio": 1854,
+			"lat": 42.13,
+			"lng": -104.41
+		},
+		{
+			"nombre": "Battle of the Diablo Mountains",
+			"anio": 1854,
+			"lat": 31.4,
+			"lng": -104.9
+		},
+		{
+			"nombre": "Batalla de Ash Hollow",
+			"anio": 1855,
+			"lat": 41.3,
+			"lng": -102.12
+		},
+		{
+			"nombre": "Batalla de Cooke's Spring",
+			"anio": 1857,
+			"lat": 32.46,
+			"lng": -107.65
+		},
+		{
+			"nombre": "Batalla de Devil's River",
+			"anio": 1857,
+			"lat": 30.18,
+			"lng": -101.09
+		},
+		{
+			"nombre": "Batalla de Pine Creek",
+			"anio": 1858,
+			"lat": 47.23,
+			"lng": -117.37
+		},
+		{
+			"nombre": "Batalla de Rio Grande City",
+			"anio": 1859,
+			"lat": 26.38,
+			"lng": -98.82
+		},
+		{
+			"nombre": "Batalla de Pease River",
+			"anio": 1860,
+			"lat": 34.07,
+			"lng": -99.6
+		},
+		{
+			"nombre": "Batalla de Cookes Canyon",
+			"anio": 1861,
+			"lat": 32.46,
+			"lng": -107.67
+		},
+		{
+			"nombre": "Batalla de Corrick's Ford",
+			"anio": 1861,
+			"lat": 39.09,
+			"lng": -79.69
+		},
+		{
+			"nombre": "Batalla de the Florida Mountains",
+			"anio": 1861,
+			"lat": 32.12,
+			"lng": -107.62
+		},
+		{
+			"nombre": "Batalla de the Head of Passes",
+			"anio": 1861,
+			"lat": 29.16,
+			"lng": -89.25
+		},
+		{
+			"nombre": "Batalla de Stones River",
+			"anio": 1862,
+			"lat": 35.87,
+			"lng": -86.43
+		},
+		{
+			"nombre": "Batalla de Apache Pass",
+			"anio": 1862,
+			"lat": 32.16,
+			"lng": -109.45
+		},
+		{
+			"nombre": "Batalla de Galveston Harbor",
+			"anio": 1862,
+			"lat": 29.34,
+			"lng": -94.77
+		},
+		{
+			"nombre": "Batalla de Memphis",
+			"anio": 1862,
+			"lat": 35.13,
+			"lng": -90.16
+		},
+		{
+			"nombre": "Primera batalla de Dragoon Springs",
+			"anio": 1862,
+			"lat": 32.0,
+			"lng": -110.02
+		},
+		{
+			"nombre": "Battle of St. Charles",
+			"anio": 1862,
+			"lat": 34.38,
+			"lng": -91.13
+		},
+		{
+			"nombre": "Batalla de Devil's Backbone",
+			"anio": 1863,
+			"lat": 35.18,
+			"lng": -94.31
+		},
+		{
+			"nombre": "Batalla de Whitestone Hill",
+			"anio": 1863,
+			"lat": 46.17,
+			"lng": -98.86
+		},
+		{
+			"nombre": "Batalla de Dead Buffalo Lake",
+			"anio": 1863,
+			"lat": 46.9,
+			"lng": -99.78
+		},
+		{
+			"nombre": "Batalla de Salem Church",
+			"anio": 1863,
+			"lat": 38.29,
+			"lng": -77.53
+		},
+		{
+			"nombre": "batalla de jackson",
+			"anio": 1863,
+			"lat": 32.29,
+			"lng": -90.2
+		},
+		{
+			"nombre": "Batalla de Helena",
+			"anio": 1863,
+			"lat": 34.53,
+			"lng": -90.6
+		},
+		{
+			"nombre": "Segunda batalla de Collierville",
+			"anio": 1863,
+			"lat": 35.04,
+			"lng": -89.66
+		},
+		{
+			"nombre": "Batalla de Stony Lake",
+			"anio": 1863,
+			"lat": 46.85,
+			"lng": -100.18
+		},
+		{
+			"nombre": "Primera batalla de Collierville",
+			"anio": 1863,
+			"lat": 35.04,
+			"lng": -89.66
+		},
+		{
+			"nombre": "Action off Galveston Light",
+			"anio": 1863,
+			"lat": 29.32,
+			"lng": -94.66
+		},
+		{
+			"nombre": "Batalla de Big Mound",
+			"anio": 1863,
+			"lat": 47.02,
+			"lng": -99.63
+		},
+		{
+			"nombre": "Skirmish at Ashley's Mills",
+			"anio": 1863,
+			"lat": 34.7,
+			"lng": -92.1
+		},
+		{
+			"nombre": "Batalla de Fayetteville",
+			"anio": 1863,
+			"lat": 36.07,
+			"lng": -94.16
+		},
+		{
+			"nombre": "Masacre de Sand Creek",
+			"anio": 1864,
+			"lat": 38.55,
+			"lng": -102.51,
+			"bajas": "~200 cheyenes y arapajós muertos, dos tercios mujeres y niños",
+			"descripcion": "La milicia de Colorado ataca un campamento pacífico."
+		},
+		{
+			"nombre": "Batalla de Pleasant Hill",
+			"anio": 1864,
+			"lat": 31.85,
+			"lng": -93.51
+		},
+		{
+			"nombre": "Batalla de Killdeer Mountain",
+			"anio": 1864,
+			"lat": 47.42,
+			"lng": -102.92
+		},
+		{
+			"nombre": "Batalla de Mansfield",
+			"anio": 1864,
+			"lat": 32.01,
+			"lng": -93.67
+		},
+		{
+			"nombre": "Batalla de la espesura",
+			"anio": 1864,
+			"lat": 38.32,
+			"lng": -77.76
+		},
+		{
+			"nombre": "Batalla de Spotsylvania",
+			"anio": 1864,
+			"lat": 38.22,
+			"lng": -77.6
+		},
+		{
+			"nombre": "Batalla de Mount Gray",
+			"anio": 1864,
+			"lat": 35.75,
+			"lng": -111.47
+		},
+		{
+			"nombre": "Batalla de Elkin's Ferry",
+			"anio": 1864,
+			"lat": 33.93,
+			"lng": -93.36
+		},
+		{
+			"nombre": "Batalla de Fort McAllister",
+			"anio": 1864,
+			"lat": 31.89,
+			"lng": -81.19
+		},
+		{
+			"nombre": "Batalla de Brice's Cross Roads",
+			"anio": 1864,
+			"lat": 34.51,
+			"lng": -88.73
+		},
+		{
+			"nombre": "Batalla de Altamaha Bridge",
+			"anio": 1864,
+			"lat": 31.66,
+			"lng": -81.83
+		},
+		{
+			"nombre": "Ambush of the steamboat J. R. Williams",
+			"anio": 1864,
+			"lat": 35.44,
+			"lng": -95.03
+		},
+		{
+			"nombre": "Batalla de Bentonville",
+			"anio": 1865,
+			"lat": 35.31,
+			"lng": -78.32
+		},
+		{
+			"nombre": "Batalla de Fort Buchanan",
+			"anio": 1865,
+			"lat": 31.66,
+			"lng": -110.71
+		},
+		{
+			"nombre": "Battle of the Tongue River",
+			"anio": 1865,
+			"lat": 44.91,
+			"lng": -107.16
+		},
+		{
+			"nombre": "Batalla de Beecher Island",
+			"anio": 1868,
+			"lat": 39.87,
+			"lng": -102.19
+		},
+		{
+			"nombre": "Batalla de Summit Springs",
+			"anio": 1869,
+			"lat": 40.43,
+			"lng": -103.14
+		},
+		{
+			"nombre": "Batalla de Blanco Canyon",
+			"anio": 1871,
+			"lat": 33.66,
+			"lng": -101.18
+		},
+		{
+			"nombre": "Battle of the North Fork of the Red River",
+			"anio": 1872,
+			"lat": 35.41,
+			"lng": -100.67
+		},
+		{
+			"nombre": "Batalla de Salt River Canyon",
+			"anio": 1872,
+			"lat": 33.58,
+			"lng": -111.37
+		},
+		{
+			"nombre": "Batalla de Lost River",
+			"anio": 1872,
+			"lat": 42.0,
+			"lng": -121.52
+		},
+		{
+			"nombre": "Batalla de Dry Lake",
+			"anio": 1873,
+			"lat": 41.7,
+			"lng": -121.3
+		},
+		{
+			"nombre": "Batalla de Honsinger Bluff",
+			"anio": 1873,
+			"lat": 46.49,
+			"lng": -105.92
+		},
+		{
+			"nombre": "Batalla de Turret Peak",
+			"anio": 1873,
+			"lat": 34.25,
+			"lng": -111.86
+		},
+		{
+			"nombre": "Batalla de Sand Butte",
+			"anio": 1873,
+			"lat": 41.76,
+			"lng": -121.52
+		},
+		{
+			"nombre": "Batalla de Palo Duro Canyon",
+			"anio": 1874,
+			"lat": 34.88,
+			"lng": -101.61
+		},
+		{
+			"nombre": "Segunda batalla de Adobe Walls",
+			"anio": 1874,
+			"lat": 35.89,
+			"lng": -101.16
+		},
+		{
+			"nombre": "Batalla de Little Bighorn",
+			"anio": 1876,
+			"lat": 45.57,
+			"lng": -107.43,
+			"bajas": "268 soldados muertos, incluido Custer",
+			"descripcion": "Caballo Loco y Toro Sentado aniquilan al 7.º de Caballería."
+		},
+		{
+			"nombre": "Batalla de Slim Buttes",
+			"anio": 1876,
+			"lat": 45.54,
+			"lng": -103.12
+		},
+		{
+			"nombre": "Battle of the Rosebud",
+			"anio": 1876,
+			"lat": 45.22,
+			"lng": -107.0
+		},
+		{
+			"nombre": "Batalla de Cedar Creek",
+			"anio": 1876,
+			"lat": 47.52,
+			"lng": -106.28
+		},
+		{
+			"nombre": "Dull Knife Fight",
+			"anio": 1876,
+			"lat": 43.54,
+			"lng": -107.54
+		},
+		{
+			"nombre": "Batalla de Warbonnet Creek",
+			"anio": 1876,
+			"lat": 42.93,
+			"lng": -103.73
+		},
+		{
+			"nombre": "Batalla de Powder River",
+			"anio": 1876,
+			"lat": 45.44,
+			"lng": -105.41
+		},
+		{
+			"nombre": "Batalla de Prairie Dog Creek",
+			"anio": 1876,
+			"lat": 45.27,
+			"lng": -106.62
+		},
+		{
+			"nombre": "Batalla de Canyon Creek",
+			"anio": 1877,
+			"lat": 45.77,
+			"lng": -108.81
+		},
+		{
+			"nombre": "Batalla de Cottonwood",
+			"anio": 1877,
+			"lat": 46.03,
+			"lng": -116.33
+		},
+		{
+			"nombre": "Batalla de Camas Creek",
+			"anio": 1877,
+			"lat": 44.35,
+			"lng": -111.89
+		},
+		{
+			"nombre": "Batalla de White Bird Canyon",
+			"anio": 1877,
+			"lat": 45.79,
+			"lng": -116.28
+		},
+		{
+			"nombre": "Batalla de Wolf Mountain",
+			"anio": 1877,
+			"lat": 45.29,
+			"lng": -106.58
+		},
+		{
+			"nombre": "Battle of the Clearwater",
+			"anio": 1877,
+			"lat": 46.08,
+			"lng": -115.97
+		},
+		{
+			"nombre": "Battle of the Big Hole",
+			"anio": 1877,
+			"lat": 45.65,
+			"lng": -113.65
+		},
+		{
+			"nombre": "Batalla de Bear Paw",
+			"anio": 1877,
+			"lat": 48.38,
+			"lng": -109.21
+		},
+		{
+			"nombre": "Batalla de Milk Creek",
+			"anio": 1879,
+			"lat": 40.2,
+			"lng": -107.69
+		},
+		{
+			"nombre": "Batalla de Hembrillo Basin",
+			"anio": 1880,
+			"lat": 32.92,
+			"lng": -106.64
+		},
+		{
+			"nombre": "Batalla de Cibecue Creek",
+			"anio": 1881,
+			"lat": 34.03,
+			"lng": -110.5
+		},
+		{
+			"nombre": "Batalla de Fort Apache",
+			"anio": 1881,
+			"lat": 33.79,
+			"lng": -109.99
+		},
+		{
+			"nombre": "Rendición de Gerónimo",
+			"anio": 1886,
+			"lat": 31.48,
+			"lng": -109.06,
+			"descripcion": "En el cañón Skeleton acaba la resistencia apache."
+		},
+		{
+			"nombre": "Masacre de Wounded Knee",
+			"anio": 1890,
+			"lat": 43.14,
+			"lng": -102.36,
+			"bajas": "~250-300 lakotas muertos, en su mayoría ancianos, mujeres y niños",
+			"descripcion": "El ejército aplasta la Danza de los Espíritus; fin de las guerras indias."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Indias",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Indias",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q572095",
+			"url": "https://www.wikidata.org/wiki/Q572095",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q815139",
+			"url": "https://www.wikidata.org/wiki/Q815139",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q742287",
+			"url": "https://www.wikidata.org/wiki/Q742287",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2457962",
+			"url": "https://www.wikidata.org/wiki/Q2457962",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q620244",
+			"url": "https://www.wikidata.org/wiki/Q620244",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q786821",
+			"url": "https://www.wikidata.org/wiki/Q786821",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q523451",
+			"url": "https://www.wikidata.org/wiki/Q523451",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2574400",
+			"url": "https://www.wikidata.org/wiki/Q2574400",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q676148",
+			"url": "https://www.wikidata.org/wiki/Q676148",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1425882",
+			"url": "https://www.wikidata.org/wiki/Q1425882",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1543656",
+			"url": "https://www.wikidata.org/wiki/Q1543656",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1628057",
+			"url": "https://www.wikidata.org/wiki/Q1628057",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1167754",
+			"url": "https://www.wikidata.org/wiki/Q1167754",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1772061",
+			"url": "https://www.wikidata.org/wiki/Q1772061",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1538874",
+			"url": "https://www.wikidata.org/wiki/Q1538874",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1272132",
+			"url": "https://www.wikidata.org/wiki/Q1272132",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870930",
+			"url": "https://www.wikidata.org/wiki/Q4870930",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870636",
+			"url": "https://www.wikidata.org/wiki/Q4870636",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871245",
+			"url": "https://www.wikidata.org/wiki/Q4871245",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870795",
+			"url": "https://www.wikidata.org/wiki/Q4870795",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871409",
+			"url": "https://www.wikidata.org/wiki/Q4871409",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870747",
+			"url": "https://www.wikidata.org/wiki/Q4870747",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870785",
+			"url": "https://www.wikidata.org/wiki/Q4870785",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870867",
+			"url": "https://www.wikidata.org/wiki/Q4870867",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870893",
+			"url": "https://www.wikidata.org/wiki/Q4870893",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870731",
+			"url": "https://www.wikidata.org/wiki/Q4870731",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870684",
+			"url": "https://www.wikidata.org/wiki/Q4870684",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871208",
+			"url": "https://www.wikidata.org/wiki/Q4871208",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871527",
+			"url": "https://www.wikidata.org/wiki/Q4871527",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870786",
+			"url": "https://www.wikidata.org/wiki/Q4870786",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870968",
+			"url": "https://www.wikidata.org/wiki/Q4870968",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871037",
+			"url": "https://www.wikidata.org/wiki/Q4871037",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870683",
+			"url": "https://www.wikidata.org/wiki/Q4870683",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871244",
+			"url": "https://www.wikidata.org/wiki/Q4871244",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870853",
+			"url": "https://www.wikidata.org/wiki/Q4870853",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870619",
+			"url": "https://www.wikidata.org/wiki/Q4870619",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871038",
+			"url": "https://www.wikidata.org/wiki/Q4871038",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871874",
+			"url": "https://www.wikidata.org/wiki/Q4871874",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2772670",
+			"url": "https://www.wikidata.org/wiki/Q2772670",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2043320",
+			"url": "https://www.wikidata.org/wiki/Q2043320",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2736004",
+			"url": "https://www.wikidata.org/wiki/Q2736004",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871799",
+			"url": "https://www.wikidata.org/wiki/Q4871799",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1808450",
+			"url": "https://www.wikidata.org/wiki/Q1808450",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872043",
+			"url": "https://www.wikidata.org/wiki/Q4872043",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872042",
+			"url": "https://www.wikidata.org/wiki/Q4872042",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2887870",
+			"url": "https://www.wikidata.org/wiki/Q2887870",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2890384",
+			"url": "https://www.wikidata.org/wiki/Q2890384",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1958052",
+			"url": "https://www.wikidata.org/wiki/Q1958052",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2885397",
+			"url": "https://www.wikidata.org/wiki/Q2885397",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871974",
+			"url": "https://www.wikidata.org/wiki/Q4871974",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2890818",
+			"url": "https://www.wikidata.org/wiki/Q2890818",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2840763",
+			"url": "https://www.wikidata.org/wiki/Q2840763",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871959",
+			"url": "https://www.wikidata.org/wiki/Q4871959",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871733",
+			"url": "https://www.wikidata.org/wiki/Q4871733",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3477165",
+			"url": "https://www.wikidata.org/wiki/Q3477165",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888457",
+			"url": "https://www.wikidata.org/wiki/Q2888457",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2282207",
+			"url": "https://www.wikidata.org/wiki/Q2282207",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2748737",
+			"url": "https://www.wikidata.org/wiki/Q2748737",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871871",
+			"url": "https://www.wikidata.org/wiki/Q4871871",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2237324",
+			"url": "https://www.wikidata.org/wiki/Q2237324",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872300",
+			"url": "https://www.wikidata.org/wiki/Q4872300",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872288",
+			"url": "https://www.wikidata.org/wiki/Q4872288",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872440",
+			"url": "https://www.wikidata.org/wiki/Q4872440",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872975",
+			"url": "https://www.wikidata.org/wiki/Q4872975",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872611",
+			"url": "https://www.wikidata.org/wiki/Q4872611",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872702",
+			"url": "https://www.wikidata.org/wiki/Q4872702",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872445",
+			"url": "https://www.wikidata.org/wiki/Q4872445",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872915",
+			"url": "https://www.wikidata.org/wiki/Q4872915",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4873005",
+			"url": "https://www.wikidata.org/wiki/Q4873005",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872290",
+			"url": "https://www.wikidata.org/wiki/Q4872290",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4873028",
+			"url": "https://www.wikidata.org/wiki/Q4873028",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q5037059",
+			"url": "https://www.wikidata.org/wiki/Q5037059",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872705",
+			"url": "https://www.wikidata.org/wiki/Q4872705",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872709",
+			"url": "https://www.wikidata.org/wiki/Q4872709",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872185",
+			"url": "https://www.wikidata.org/wiki/Q4872185",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872751",
+			"url": "https://www.wikidata.org/wiki/Q4872751",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q5452506",
+			"url": "https://www.wikidata.org/wiki/Q5452506",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872248",
+			"url": "https://www.wikidata.org/wiki/Q4872248",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872907",
+			"url": "https://www.wikidata.org/wiki/Q4872907",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872889",
+			"url": "https://www.wikidata.org/wiki/Q4872889",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872744",
+			"url": "https://www.wikidata.org/wiki/Q4872744",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2087443",
+			"url": "https://www.wikidata.org/wiki/Q2087443",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1387983",
+			"url": "https://www.wikidata.org/wiki/Q1387983",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3514809",
+			"url": "https://www.wikidata.org/wiki/Q3514809",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4090339",
+			"url": "https://www.wikidata.org/wiki/Q4090339",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16933103",
+			"url": "https://www.wikidata.org/wiki/Q16933103",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16898752",
+			"url": "https://www.wikidata.org/wiki/Q16898752",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q7796515",
+			"url": "https://www.wikidata.org/wiki/Q7796515",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870485",
+			"url": "https://www.wikidata.org/wiki/Q4870485",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4438386",
+			"url": "https://www.wikidata.org/wiki/Q4438386",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q21187985",
+			"url": "https://www.wikidata.org/wiki/Q21187985",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4438364",
+			"url": "https://www.wikidata.org/wiki/Q4438364",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q8244390",
+			"url": "https://www.wikidata.org/wiki/Q8244390",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q5452511",
+			"url": "https://www.wikidata.org/wiki/Q5452511",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870436",
+			"url": "https://www.wikidata.org/wiki/Q4870436",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870552",
+			"url": "https://www.wikidata.org/wiki/Q4870552",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q7443100",
+			"url": "https://www.wikidata.org/wiki/Q7443100",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870495",
+			"url": "https://www.wikidata.org/wiki/Q4870495",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870278",
+			"url": "https://www.wikidata.org/wiki/Q4870278",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870377",
+			"url": "https://www.wikidata.org/wiki/Q4870377",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q13581505",
+			"url": "https://www.wikidata.org/wiki/Q13581505",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q104726548",
+			"url": "https://www.wikidata.org/wiki/Q104726548",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4087340",
+			"url": "https://www.wikidata.org/wiki/Q4087340",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q18207868",
+			"url": "https://www.wikidata.org/wiki/Q18207868",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q5452525",
+			"url": "https://www.wikidata.org/wiki/Q5452525",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4127869",
+			"url": "https://www.wikidata.org/wiki/Q4127869",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q17184066",
+			"url": "https://www.wikidata.org/wiki/Q17184066",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16201191",
+			"url": "https://www.wikidata.org/wiki/Q16201191",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4677179",
+			"url": "https://www.wikidata.org/wiki/Q4677179",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4087333",
+			"url": "https://www.wikidata.org/wiki/Q4087333",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870319",
+			"url": "https://www.wikidata.org/wiki/Q4870319",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

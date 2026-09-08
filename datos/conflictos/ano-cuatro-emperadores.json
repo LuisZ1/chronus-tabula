@@ -1,0 +1,68 @@
+{
+	"id": "ano-cuatro-emperadores",
+	"nombre": "Año de los cuatro emperadores",
+	"inicio": 68,
+	"fin": 69,
+	"paises": [
+		"Roma"
+	],
+	"bajas": "decenas de miles (dos batallas de Bedriacum y saqueos)",
+	"descripcion": "Guerra civil tras la caída de Nerón: Galba, Otón, Vitelio y Vespasiano se disputan el trono en poco más de un año. Se decide en el valle del Po, donde Vespasiano vence a Vitelio y funda la dinastía Flavia.",
+	"wiki": "Año de los cuatro emperadores",
+	"zonas": [
+		{
+			"nombre": "Guerra civil en el valle del Po",
+			"tipo": "frente",
+			"desde": 68,
+			"hasta": 69,
+			"poligono": [
+				[
+					45.7,
+					7.5
+				],
+				[
+					45.7,
+					12.6
+				],
+				[
+					44.4,
+					12.6
+				],
+				[
+					44.4,
+					7.6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Primera batalla de Bedriacum",
+			"anio": 69,
+			"lat": 45.15,
+			"lng": 10.55,
+			"descripcion": "Los vitelianos derrotan a Otón, que se suicida.",
+			"wiki": "Primera batalla de Bedriacum"
+		},
+		{
+			"nombre": "Segunda batalla de Bedriacum",
+			"anio": 69,
+			"lat": 45.13,
+			"lng": 10.02,
+			"descripcion": "Los flavianos de Vespasiano derrotan a Vitelio cerca de Cremona.",
+			"wiki": "Segunda batalla de Bedriacum"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Año de los cuatro emperadores",
+			"url": "https://es.wikipedia.org/wiki/Año_de_los_cuatro_emperadores",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
+			"licencia": "referencia"
+		}
+	]
+}

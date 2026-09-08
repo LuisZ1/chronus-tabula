@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Aplica las propuestas APROBADAS de api/editorial.db sobre data/historia.json
+"""Aplica las propuestas APROBADAS de api/editorial.db sobre los ficheros de datos/
 y ejecuta el validador. Las propuestas aplicadas pasan a estado 'exportada'.
 
     python api/exportar.py
@@ -98,7 +98,7 @@ def main():
         return 1
     con.executemany("UPDATE propuestas SET estado='exportada' WHERE id=?", [(i,) for i in aplicadas])
     con.commit(); con.close()
-    print(f"✔ {len(aplicadas)} propuesta(s) exportadas a web/data/historia.json")
+    print(f"✔ {len(aplicadas)} propuesta(s) exportadas a datos/ (y recompilado web/data/historia.json)")
     return 0
 
 

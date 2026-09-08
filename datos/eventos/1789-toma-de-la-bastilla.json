@@ -1,0 +1,18 @@
+{
+	"nombre": "Toma de la Bastilla",
+	"anio": 1789,
+	"lat": 48.85,
+	"lng": 2.37,
+	"descripcion": "Estalla la Revolución Francesa el 14 de julio de 1789.",
+	"wiki": "Toma de la Bastilla",
+	"paises": [
+		"Francia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Toma de la Bastilla",
+			"url": "https://es.wikipedia.org/wiki/Toma_de_la_Bastilla",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

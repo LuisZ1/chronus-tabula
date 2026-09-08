@@ -1,0 +1,19 @@
+{
+	"nombre": "Confucio y el confucianismo",
+	"anio": -500,
+	"lat": 35.6,
+	"lng": 116.99,
+	"paises": [
+		"China"
+	],
+	"descripcion": "El maestro Kong Fuzi (Confucio, 551-479 a.C.) predica en la China de los Reinos Combatientes una ética del deber, el respeto y la armonía social. Su pensamiento moldeará durante más de dos milenios la política, la familia y la administración en el este de Asia.",
+	"wiki": "Confucio",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Confucio",
+			"url": "https://es.wikipedia.org/wiki/Confucio",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

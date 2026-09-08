@@ -1,0 +1,19 @@
+{
+	"nombre": "Biblioteca y Museo de Alejandría",
+	"anio": -283,
+	"lat": 31.2,
+	"lng": 29.9,
+	"paises": [
+		"Egipto"
+	],
+	"descripcion": "Bajo los primeros Ptolomeos, Alejandría alberga el Museo y la Biblioteca, mayor centro de saber del mundo antiguo, que aspiraba a reunir todos los libros conocidos y donde trabajaron Euclides, Eratóstenes y Arquímedes.",
+	"wiki": "Biblioteca de Alejandría",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Biblioteca de Alejandría",
+			"url": "https://es.wikipedia.org/wiki/Biblioteca_de_Alejandría",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"nombre": "Conferencia de Berlín: el reparto de África",
+	"anio": 1884,
+	"hasta": 1885,
+	"lat": 52.52,
+	"lng": 13.4,
+	"paises": [
+		"Alemania",
+		"Francia",
+		"Gran Bretaña",
+		"Portugal",
+		"España"
+	],
+	"descripcion": "Las potencias europeas se reparten África con regla y escuadra, sin un solo africano en la mesa.",
+	"wiki": "Conferencia de Berlín",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Conferencia de Berlín",
+			"url": "https://es.wikipedia.org/wiki/Conferencia_de_Berlín",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

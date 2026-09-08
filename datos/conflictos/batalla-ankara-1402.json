@@ -1,0 +1,59 @@
+{
+	"id": "batalla-ankara-1402",
+	"nombre": "Batalla de Ankara y colapso otomano",
+	"inicio": 1402,
+	"fin": 1402,
+	"paises": [
+		"Otomano",
+		"Imperio timúrida"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Tamerlán invade Anatolia y captura al sultán Bayaceto I en Çubuk, cerca de Ankara. La derrota abre el 'interregno otomano' (1402-1413), una guerra civil entre los hijos de Bayaceto que casi destruye el joven imperio.",
+	"wiki": "Batalla de Ankara",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Ankara",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Ankara",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Anatolia central invadida por Tamerlán",
+			"tipo": "frente",
+			"desde": 1402,
+			"hasta": 1402,
+			"poligono": [
+				[
+					40.5,
+					32.0
+				],
+				[
+					40.3,
+					34.0
+				],
+				[
+					39.5,
+					34.0
+				],
+				[
+					39.6,
+					32.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Ankara",
+			"anio": 1402,
+			"lat": 40.0,
+			"lng": 33.0
+		}
+	]
+}

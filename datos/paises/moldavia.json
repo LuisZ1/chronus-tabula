@@ -1,0 +1,223 @@
+{
+	"id": "moldavia",
+	"nombre": "Moldavia",
+	"nombres": [
+		"Moldova",
+		"Moldavia"
+	],
+	"wikidata": "Q217",
+	"wiki": "es:Moldavia",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q217",
+			"url": "https://www.wikidata.org/wiki/Q217",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Moldavia",
+			"url": "https://es.wikipedia.org/wiki/Moldavia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "MDA",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 11216
+		},
+		{
+			"anio": -9000,
+			"valor": 13086
+		},
+		{
+			"anio": -8000,
+			"valor": 15267
+		},
+		{
+			"anio": -7000,
+			"valor": 17811
+		},
+		{
+			"anio": -6000,
+			"valor": 20780
+		},
+		{
+			"anio": -5000,
+			"valor": 24243
+		},
+		{
+			"anio": -4000,
+			"valor": 28284
+		},
+		{
+			"anio": -3000,
+			"valor": 32998
+		},
+		{
+			"anio": -2000,
+			"valor": 38498
+		},
+		{
+			"anio": -1000,
+			"valor": 44914
+		},
+		{
+			"anio": 0,
+			"valor": 52400
+		},
+		{
+			"anio": 100,
+			"valor": 56143
+		},
+		{
+			"anio": 200,
+			"valor": 60153
+		},
+		{
+			"anio": 300,
+			"valor": 64450
+		},
+		{
+			"anio": 400,
+			"valor": 69053
+		},
+		{
+			"anio": 500,
+			"valor": 73986
+		},
+		{
+			"anio": 600,
+			"valor": 79271
+		},
+		{
+			"anio": 700,
+			"valor": 84933
+		},
+		{
+			"anio": 800,
+			"valor": 91000
+		},
+		{
+			"anio": 900,
+			"valor": 97500
+		},
+		{
+			"anio": 1000,
+			"valor": 104000
+		},
+		{
+			"anio": 1100,
+			"valor": 156000
+		},
+		{
+			"anio": 1200,
+			"valor": 234000
+		},
+		{
+			"anio": 1300,
+			"valor": 234000
+		},
+		{
+			"anio": 1400,
+			"valor": 234000
+		},
+		{
+			"anio": 1500,
+			"valor": 312000
+		},
+		{
+			"anio": 1600,
+			"valor": 390000
+		},
+		{
+			"anio": 1700,
+			"valor": 520000
+		},
+		{
+			"anio": 1750,
+			"valor": 472235
+		},
+		{
+			"anio": 1800,
+			"valor": 712558
+		},
+		{
+			"anio": 1850,
+			"valor": 937285
+		},
+		{
+			"anio": 1900,
+			"valor": 1484973
+		},
+		{
+			"anio": 1910,
+			"valor": 1628124
+		},
+		{
+			"anio": 1920,
+			"valor": 1784707
+		},
+		{
+			"anio": 1930,
+			"valor": 1955414
+		},
+		{
+			"anio": 1940,
+			"valor": 2142449
+		},
+		{
+			"anio": 1950,
+			"valor": 2528365
+		},
+		{
+			"anio": 1960,
+			"valor": 3076172
+		},
+		{
+			"anio": 1970,
+			"valor": 3643522
+		},
+		{
+			"anio": 1980,
+			"valor": 4048713
+		},
+		{
+			"anio": 1990,
+			"valor": 4451150
+		},
+		{
+			"anio": 2000,
+			"valor": 4234969
+		},
+		{
+			"anio": 2010,
+			"valor": 3631990
+		},
+		{
+			"anio": 2020,
+			"valor": 3069135
+		},
+		{
+			"anio": 2023,
+			"valor": 3067072
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "f4dfc3942679",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Moldavia, oficialmente la República de Moldavia, es un país ubicado en Europa Oriental, situado entre Rumania y Ucrania. Tiene una superficie de 33 851 km² y su capital es Chisináu, situada en el centro del país."
+}

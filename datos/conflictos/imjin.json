@@ -1,0 +1,97 @@
+{
+	"id": "imjin",
+	"nombre": "Guerra Imjin (invasión japonesa de Corea)",
+	"inicio": 1592,
+	"fin": 1598,
+	"paises": [
+		"Japón (Hideyoshi)",
+		"Corea (Joseon)",
+		"China Ming"
+	],
+	"bajas": "~1.000.000 de muertos, en su mayoría civiles coreanos",
+	"descripcion": "Hideyoshi invade Corea como paso hacia China; el almirante Yi Sun-sin y sus barcos tortuga cortan el mar, y la muerte de Hideyoshi acaba la guerra.",
+	"wiki": "Invasiones japonesas de Corea (1592-1598)",
+	"zonas": [
+		{
+			"nombre": "Península de Corea",
+			"tipo": "frente",
+			"poligono": [
+				[
+					39,
+					125
+				],
+				[
+					39.5,
+					128.5
+				],
+				[
+					36,
+					129.5
+				],
+				[
+					34.8,
+					128
+				],
+				[
+					35,
+					126
+				],
+				[
+					37.5,
+					124.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Hansando",
+			"anio": 1592,
+			"lat": 34.72,
+			"lng": 128.5,
+			"descripcion": "Yi Sun-sin destruye la flota japonesa con la táctica del ala de grulla."
+		},
+		{
+			"nombre": "Batalla de Sacheon",
+			"anio": 1592,
+			"lat": 35.0,
+			"lng": 128.06
+		},
+		{
+			"nombre": "Batalla de Myeongnyang",
+			"anio": 1597,
+			"lat": 34.57,
+			"lng": 126.31
+		},
+		{
+			"nombre": "Batalla de Noryang",
+			"anio": 1598,
+			"lat": 34.94,
+			"lng": 127.88,
+			"descripcion": "Última batalla: victoria aliada y muerte de Yi Sun-sin."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Invasiones japonesas de Corea (1592-1598)",
+			"url": "https://es.wikipedia.org/wiki/Invasiones_japonesas_de_Corea_(1592-1598)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q385677",
+			"url": "https://www.wikidata.org/wiki/Q385677",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q482970",
+			"url": "https://www.wikidata.org/wiki/Q482970",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

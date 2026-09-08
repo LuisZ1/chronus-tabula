@@ -1,0 +1,56 @@
+{
+	"id": "franco-visigoda",
+	"nombre": "Guerra franco-visigoda por la Galia",
+	"inicio": 507,
+	"fin": 507,
+	"paises": [
+		"Francos",
+		"Reino visigodo"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Clodoveo, ya converso al catolicismo, ataca a los visigodos arrianos de Alarico II. En Vouillé (507) mata a Alarico y expulsa a los visigodos de casi toda la Galia, empujándolos hacia Hispania.",
+	"wiki": "Batalla de Vouillé",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Vouillé",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Vouillé",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Avance franco sobre Aquitania",
+			"tipo": "frente",
+			"desde": 507,
+			"hasta": 507,
+			"poligono": [
+				[
+					47.5,
+					-1.0
+				],
+				[
+					47.0,
+					2.5
+				],
+				[
+					43.5,
+					1.5
+				],
+				[
+					44.0,
+					-1.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Vouillé",
+			"anio": 507,
+			"lat": 46.64,
+			"lng": 0.17,
+			"descripcion": "Clodoveo mata a Alarico II; los visigodos pierden la Galia."
+		}
+	]
+}

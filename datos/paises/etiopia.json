@@ -1,0 +1,279 @@
+{
+	"id": "etiopia",
+	"nombre": "Etiopia",
+	"nombres": [
+		"Ethiopia",
+		"Axum",
+		"Ethiopia (Italy)",
+		"Abyssinia",
+		"Abisinia",
+		"Imperio de Etiopia"
+	],
+	"wiki": "es:Etiopía",
+	"wikidata": "Q115",
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Etiop%C3%ADa",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-en-jefes",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ethiopia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q115",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Etiopía",
+			"url": "https://es.wikipedia.org/wiki/Etiop%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q381071",
+			"url": "http://www.wikidata.org/entity/Q381071",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q50365049",
+			"url": "http://www.wikidata.org/entity/Q50365049",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q124831090",
+			"url": "http://www.wikidata.org/entity/Q124831090",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q115",
+			"url": "https://www.wikidata.org/wiki/Q115",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q115",
+			"url": "https://www.wikidata.org/wiki/Q115",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"relacionados": [
+		"Aksum",
+		"Axum",
+		"Reino de Aksum"
+	],
+	"gobernantes": [
+		{
+			"nombre": "Tewodros II",
+			"desde": 1855,
+			"hasta": 1868,
+			"cargo": "Emperador (dinastia salomonica restaurada)"
+		},
+		{
+			"nombre": "Yohannes IV",
+			"desde": 1872,
+			"hasta": 1889,
+			"cargo": "Emperador"
+		},
+		{
+			"nombre": "Menelik II",
+			"desde": 1889,
+			"hasta": 1913,
+			"cargo": "Emperador"
+		},
+		{
+			"nombre": "Iyasu V (Lij Iyasu)",
+			"desde": 1913,
+			"hasta": 1916,
+			"cargo": "Emperador designado (depuesto)"
+		},
+		{
+			"nombre": "Zewditu",
+			"desde": 1916,
+			"hasta": 1930,
+			"cargo": "Emperatriz"
+		},
+		{
+			"nombre": "Haile Selassie I",
+			"desde": 1930,
+			"hasta": 1974,
+			"cargo": "Emperador (regente desde 1916)"
+		},
+		{
+			"nombre": "Aman Andom",
+			"desde": 1974,
+			"hasta": 1974,
+			"cargo": "Jefe de Estado (Derg)"
+		},
+		{
+			"nombre": "Tafari Benti",
+			"desde": 1974,
+			"hasta": 1977,
+			"cargo": "Jefe de Estado (Derg)"
+		},
+		{
+			"nombre": "Mengistu Haile Mariam",
+			"desde": 1977,
+			"hasta": 1991,
+			"cargo": "Jefe de Estado (Derg / presidente)"
+		},
+		{
+			"nombre": "Meles Zenawi",
+			"desde": 1991,
+			"hasta": 1995,
+			"cargo": "Presidente del Gobierno de Transicion"
+		},
+		{
+			"nombre": "Negasso Gidada",
+			"desde": 1995,
+			"hasta": 2001,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Meles Zenawi",
+			"desde": 1995,
+			"hasta": 2012,
+			"cargo": "Primer ministro (jefe de gobierno)"
+		},
+		{
+			"nombre": "Girma Wolde-Giorgis",
+			"desde": 2001,
+			"hasta": 2013,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Hailemariam Desalegn",
+			"desde": 2012,
+			"hasta": 2018,
+			"cargo": "Primer ministro"
+		},
+		{
+			"desde": 2012,
+			"hasta": 2018,
+			"nombre": "Haile Mariam Desalegne",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"nombre": "Mulatu Teshome",
+			"desde": 2013,
+			"hasta": 2018,
+			"cargo": "Presidente"
+		},
+		{
+			"nombre": "Sahle-Work Zewde",
+			"desde": 2018,
+			"hasta": 2024,
+			"cargo": "Presidenta"
+		},
+		{
+			"nombre": "Abiy Ahmed",
+			"desde": 2018,
+			"hasta": 2026,
+			"cargo": "Primer ministro"
+		},
+		{
+			"desde": 2018,
+			"hasta": 2018,
+			"nombre": "Abiy Ahmed Ali",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"nombre": "Taye Atske Selassie",
+			"desde": 2024,
+			"hasta": 2026,
+			"cargo": "Presidente"
+		},
+		{
+			"desde": 2024,
+			"hasta": 2024,
+			"nombre": "Taye Atskeselassie",
+			"cargo": "jefe de Estado"
+		}
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Aksum",
+			"desde": -100,
+			"hasta": 940
+		},
+		{
+			"nombre": "Imperio de Etiopia (Abisinia)",
+			"desde": 1270,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Republica Democratica Popular de Etiopia (Derg)",
+			"desde": 1974,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Republica Democratica Federal de Etiopia",
+			"desde": 1991,
+			"hasta": 2026
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 22151218,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 28414999,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 35241209,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 48042755,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 66024199,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 87095281,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2023,
+			"valor": 128691692,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "e04ca6ba3eff",
+		"secciones": [
+			"escudos",
+			"fuentes",
+			"gobernantes",
+			"nombres_periodo",
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Etiopía, oficialmente la República Democrática Federal de Etiopía, antiguamente conocida como Abisinia, es un país sin litoral situado en el Cuerno de África. Las estimaciones demográficas a 2021 lo sitúan como el segundo país más poblado de África, solo por detrás de Nigeria y el duodécimo a nivel mundial, así como el país sin litoral más poblado del mundo.",
+	"escudos": [
+		{
+			"archivo": "Emblem of Ethiopia.svg"
+		}
+	]
+}

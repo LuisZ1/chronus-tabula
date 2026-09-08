@@ -1,0 +1,47 @@
+{
+	"id": "safavida",
+	"nombre": "Imperio safávida",
+	"nombres": [
+		"Safavid Empire"
+	],
+	"gobernantes": [
+		{
+			"desde": 1501,
+			"hasta": 1524,
+			"nombre": "Ismail I (fundador)",
+			"titulo": "Sah"
+		},
+		{
+			"desde": 1588,
+			"hasta": 1629,
+			"nombre": "Abás I el Grande",
+			"titulo": "Sah"
+		}
+	],
+	"relacionados": [
+		"Persia"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio safávida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_safávida",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "Wikipedia (es): Imperio safávida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_saf%C3%A1vida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "El Imperio safávida o Imperio safawí es considerado como el más grande Imperio iraní desde la conquista musulmana de Persia. Los safávidas son originarios de Ardebil, una ciudad del Azerbaiyán iraní, al norte de Irán.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "376ac6b3a4d8",
+		"secciones": [
+			"resena"
+		]
+	}
+}

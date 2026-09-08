@@ -1,0 +1,27 @@
+{
+	"nombre": "Congreso de Berlín",
+	"anio": 1878,
+	"lat": 52.52,
+	"lng": 13.4,
+	"paises": [
+		"Otomano",
+		"Rusia",
+		"Reino Unido",
+		"Austria-Hungría",
+		"Alemania"
+	],
+	"descripcion": "Las potencias reordenan los Balcanes tras la guerra ruso-turca de 1877-1878: Serbia, Rumania y Montenegro se independizan, Bulgaria se hace autónoma y el imperio pierde influencia en Europa suroriental.",
+	"wiki": "Congreso de Berlín",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Congreso de Berlín",
+			"url": "https://es.wikipedia.org/wiki/Congreso_de_Berl%C3%ADn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		}
+	]
+}

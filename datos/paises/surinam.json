@@ -1,0 +1,223 @@
+{
+	"id": "surinam",
+	"nombre": "Surinam",
+	"nombres": [
+		"Suriname",
+		"Surinam"
+	],
+	"wikidata": "Q730",
+	"wiki": "es:Surinam",
+	"fuentes": [
+		{
+			"id": "Wikidata:Q730",
+			"url": "https://www.wikidata.org/wiki/Q730",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Surinam",
+			"url": "https://es.wikipedia.org/wiki/Surinam",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "SUR",
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 3
+		},
+		{
+			"anio": -9000,
+			"valor": 7
+		},
+		{
+			"anio": -8000,
+			"valor": 15
+		},
+		{
+			"anio": -7000,
+			"valor": 30
+		},
+		{
+			"anio": -6000,
+			"valor": 61
+		},
+		{
+			"anio": -5000,
+			"valor": 123
+		},
+		{
+			"anio": -4000,
+			"valor": 247
+		},
+		{
+			"anio": -3000,
+			"valor": 494
+		},
+		{
+			"anio": -2000,
+			"valor": 988
+		},
+		{
+			"anio": -1000,
+			"valor": 1977
+		},
+		{
+			"anio": 0,
+			"valor": 3955
+		},
+		{
+			"anio": 100,
+			"valor": 4314
+		},
+		{
+			"anio": 200,
+			"valor": 4707
+		},
+		{
+			"anio": 300,
+			"valor": 5135
+		},
+		{
+			"anio": 400,
+			"valor": 5601
+		},
+		{
+			"anio": 500,
+			"valor": 6111
+		},
+		{
+			"anio": 600,
+			"valor": 6666
+		},
+		{
+			"anio": 700,
+			"valor": 7272
+		},
+		{
+			"anio": 800,
+			"valor": 7934
+		},
+		{
+			"anio": 900,
+			"valor": 8655
+		},
+		{
+			"anio": 1000,
+			"valor": 9442
+		},
+		{
+			"anio": 1100,
+			"valor": 10300
+		},
+		{
+			"anio": 1200,
+			"valor": 11236
+		},
+		{
+			"anio": 1300,
+			"valor": 12258
+		},
+		{
+			"anio": 1400,
+			"valor": 13372
+		},
+		{
+			"anio": 1500,
+			"valor": 14588
+		},
+		{
+			"anio": 1600,
+			"valor": 15914
+		},
+		{
+			"anio": 1700,
+			"valor": 17361
+		},
+		{
+			"anio": 1750,
+			"valor": 26824
+		},
+		{
+			"anio": 1800,
+			"valor": 80721
+		},
+		{
+			"anio": 1850,
+			"valor": 85225
+		},
+		{
+			"anio": 1900,
+			"valor": 88412
+		},
+		{
+			"anio": 1910,
+			"valor": 90910
+		},
+		{
+			"anio": 1920,
+			"valor": 124719
+		},
+		{
+			"anio": 1930,
+			"valor": 142870
+		},
+		{
+			"anio": 1940,
+			"valor": 170501
+		},
+		{
+			"anio": 1950,
+			"valor": 195575
+		},
+		{
+			"anio": 1960,
+			"valor": 263935
+		},
+		{
+			"anio": 1970,
+			"valor": 379451
+		},
+		{
+			"anio": 1980,
+			"valor": 375393
+		},
+		{
+			"anio": 1990,
+			"valor": 412500
+		},
+		{
+			"anio": 2000,
+			"valor": 476647
+		},
+		{
+			"anio": 2010,
+			"valor": 549931
+		},
+		{
+			"anio": 2020,
+			"valor": 612320
+		},
+		{
+			"anio": 2023,
+			"valor": 628892
+		}
+	],
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "6e22dd5f11f8",
+		"secciones": [
+			"poblacion",
+			"resena"
+		]
+	},
+	"resena": "Surinam o Suriname, oficialmente República de Surinam o República de Suriname, antiguamente conocida como Guayana Neerlandesa; es un país ubicado en el norte de América del Sur y el Caribe, que colinda con el océano Atlántico al norte, con el departamento de ultramar francés de Guayana Francesa al este, con Guyana al oeste y con Brasil al sur."
+}

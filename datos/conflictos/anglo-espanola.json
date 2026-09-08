@@ -1,0 +1,298 @@
+{
+	"id": "anglo-espanola",
+	"nombre": "Guerra anglo-española",
+	"inicio": 1585,
+	"fin": 1604,
+	"paises": [
+		"España",
+		"Inglaterra"
+	],
+	"bajas": "~50.000-100.000 muertos (mayoría por enfermedad)",
+	"descripcion": "Conflicto naval entre Felipe II e Isabel I.",
+	"batallas": [
+		{
+			"nombre": "La Armada Invencible",
+			"anio": 1588,
+			"lat": 50.1,
+			"lng": -1.0,
+			"bajas": "~15.000 muertos españoles, casi todos por naufragios",
+			"descripcion": "La gran flota de Felipe II fracasa en su intento de invadir Inglaterra."
+		},
+		{
+			"nombre": "batalla de Arques (1589)",
+			"anio": 1589,
+			"lat": 49.88,
+			"lng": 1.13
+		},
+		{
+			"nombre": "batalla de las Islas Cíes",
+			"anio": 1590,
+			"lat": 42.23,
+			"lng": -8.9
+		},
+		{
+			"nombre": "batalla del golfo de Almería",
+			"anio": 1591,
+			"lat": 36.84,
+			"lng": -2.47
+		},
+		{
+			"nombre": "batalla de las islas Berlengas",
+			"anio": 1591,
+			"lat": 39.43,
+			"lng": -9.52
+		},
+		{
+			"nombre": "batalla de Craon",
+			"anio": 1592,
+			"lat": 47.85,
+			"lng": -0.95
+		},
+		{
+			"nombre": "batalla de Belleek (1593)",
+			"anio": 1593,
+			"lat": 54.48,
+			"lng": -8.1
+		},
+		{
+			"nombre": "batalla de Blaye",
+			"anio": 1593,
+			"lat": 45.13,
+			"lng": -0.67
+		},
+		{
+			"nombre": "Batalla de Yellow Ford",
+			"anio": 1598,
+			"lat": 54.38,
+			"lng": -6.95
+		},
+		{
+			"nombre": "batalla de Nieuwpoort",
+			"anio": 1600,
+			"lat": 51.16,
+			"lng": 2.74
+		},
+		{
+			"nombre": "batalla de Castlehaven",
+			"anio": 1601,
+			"lat": 51.51,
+			"lng": -9.18
+		},
+		{
+			"nombre": "batalla de los Mares Estrechos",
+			"anio": 1602,
+			"lat": 51.0,
+			"lng": 1.45
+		},
+		{
+			"nombre": "batalla de la bahía de Sesimbra",
+			"anio": 1602,
+			"lat": 38.4,
+			"lng": -9.1
+		},
+		{
+			"nombre": "batalla naval del Golfo de Cádiz",
+			"anio": 1604,
+			"lat": 37.03,
+			"lng": -7.54
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Flandes",
+			"tipo": "frente",
+			"desde": 1585,
+			"hasta": 1604,
+			"poligono": [
+				[
+					51.7,
+					2.8
+				],
+				[
+					51.6,
+					5.5
+				],
+				[
+					50.5,
+					5.5
+				],
+				[
+					50.4,
+					2.5
+				]
+			]
+		},
+		{
+			"nombre": "La Armada y el Canal",
+			"tipo": "frente",
+			"desde": 1588,
+			"hasta": 1588,
+			"poligono": [
+				[
+					50.9,
+					-5
+				],
+				[
+					51.3,
+					1.8
+				],
+				[
+					50.2,
+					1.5
+				],
+				[
+					49.5,
+					-5.5
+				]
+			],
+			"mar": true
+		},
+		{
+			"nombre": "Costas atlánticas (Cádiz, Coruña, Azores)",
+			"tipo": "frente",
+			"desde": 1587,
+			"hasta": 1597,
+			"poligono": [
+				[
+					43.8,
+					-9.5
+				],
+				[
+					43.5,
+					-8
+				],
+				[
+					38,
+					-6
+				],
+				[
+					36.3,
+					-6.5
+				],
+				[
+					36.5,
+					-9
+				],
+				[
+					41,
+					-9.8
+				]
+			],
+			"mar": true
+		},
+		{
+			"nombre": "Irlanda (Kinsale)",
+			"tipo": "frente",
+			"desde": 1601,
+			"hasta": 1602,
+			"poligono": [
+				[
+					52.2,
+					-9.5
+				],
+				[
+					52.2,
+					-7.8
+				],
+				[
+					51.5,
+					-7.9
+				],
+				[
+					51.5,
+					-9.6
+				]
+			]
+		}
+	],
+	"wiki": "Guerra anglo-española (1585-1604)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra anglo-española (1585-1604)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1585-1604)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2888359",
+			"url": "https://www.wikidata.org/wiki/Q2888359",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1973800",
+			"url": "https://www.wikidata.org/wiki/Q1973800",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2408921",
+			"url": "https://www.wikidata.org/wiki/Q2408921",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1392",
+			"url": "https://www.wikidata.org/wiki/Q1392",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q65082997",
+			"url": "https://www.wikidata.org/wiki/Q65082997",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888157",
+			"url": "https://www.wikidata.org/wiki/Q2888157",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q15531357",
+			"url": "https://www.wikidata.org/wiki/Q15531357",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q15197539",
+			"url": "https://www.wikidata.org/wiki/Q15197539",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870677",
+			"url": "https://www.wikidata.org/wiki/Q4870677",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4870470",
+			"url": "https://www.wikidata.org/wiki/Q4870470",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q19901912",
+			"url": "https://www.wikidata.org/wiki/Q19901912",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16822746",
+			"url": "https://www.wikidata.org/wiki/Q16822746",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q16822708",
+			"url": "https://www.wikidata.org/wiki/Q16822708",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

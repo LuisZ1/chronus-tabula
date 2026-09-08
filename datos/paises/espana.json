@@ -1,0 +1,505 @@
+{
+	"id": "espana",
+	"nombre": "España",
+	"nombres": [
+		"Spain",
+		"Spanish Habsburg"
+	],
+	"gobernantes": [
+		{
+			"desde": 1474,
+			"hasta": 1504,
+			"nombre": "Isabel I de Castilla",
+			"titulo": "Reina Católica de Castilla"
+		},
+		{
+			"desde": 1479,
+			"hasta": 1516,
+			"nombre": "Fernando II de Aragón",
+			"titulo": "Rey Católico de Aragón y regente de Castilla"
+		},
+		{
+			"desde": 1516,
+			"hasta": 1556,
+			"nombre": "Carlos I (Carlos V del Sacro Imperio)",
+			"titulo": "Rey de España y emperador del Sacro Imperio (Carlos V)"
+		},
+		{
+			"desde": 1556,
+			"hasta": 1598,
+			"nombre": "Felipe II",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1598,
+			"hasta": 1621,
+			"nombre": "Felipe III",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1621,
+			"hasta": 1665,
+			"nombre": "Felipe IV",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1665,
+			"hasta": 1700,
+			"nombre": "Carlos II",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1700,
+			"hasta": 1746,
+			"nombre": "Felipe V",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1724,
+			"hasta": 1724,
+			"nombre": "Luis I",
+			"titulo": "Rey de España (reinó unos meses)"
+		},
+		{
+			"desde": 1746,
+			"hasta": 1759,
+			"nombre": "Fernando VI",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1759,
+			"hasta": 1788,
+			"nombre": "Carlos III",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1788,
+			"hasta": 1808,
+			"nombre": "Carlos IV",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1808,
+			"hasta": 1813,
+			"nombre": "José I Bonaparte (impuesto por Napoleón)",
+			"titulo": "Rey de España impuesto por Napoleón"
+		},
+		{
+			"desde": 1814,
+			"hasta": 1833,
+			"nombre": "Fernando VII",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1833,
+			"hasta": 1868,
+			"nombre": "Isabel II",
+			"titulo": "Reina de España"
+		},
+		{
+			"desde": 1833,
+			"hasta": 1840,
+			"nombre": "María Cristina de Borbón",
+			"titulo": "Regente durante la minoría de Isabel II"
+		},
+		{
+			"desde": 1840,
+			"hasta": 1843,
+			"nombre": "Baldomero Espartero",
+			"titulo": "Regente del Reino"
+		},
+		{
+			"desde": 1870,
+			"hasta": 1873,
+			"nombre": "Amadeo I",
+			"titulo": "Rey de España, de la casa de Saboya"
+		},
+		{
+			"desde": 1874,
+			"hasta": 1885,
+			"nombre": "Alfonso XII",
+			"titulo": "Rey de España (Restauración borbónica)"
+		},
+		{
+			"desde": 1885,
+			"hasta": 1902,
+			"nombre": "María Cristina de Habsburgo-Lorena",
+			"titulo": "Regente durante la minoría de Alfonso XIII"
+		},
+		{
+			"desde": 1886,
+			"hasta": 1931,
+			"nombre": "Alfonso XIII",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1923,
+			"hasta": 1930,
+			"nombre": "Miguel Primo de Rivera",
+			"titulo": "Dictador (Directorio Militar)"
+		},
+		{
+			"desde": 1931,
+			"hasta": 1939,
+			"nombre": "Segunda República (Alcalá-Zamora, Azaña)",
+			"titulo": "Presidentes de la República"
+		},
+		{
+			"desde": 1936,
+			"hasta": 1975,
+			"nombre": "Francisco Franco Bahamonde",
+			"cargo": "jefe de Estado"
+		},
+		{
+			"desde": 1939,
+			"hasta": 1975,
+			"nombre": "Francisco Franco",
+			"titulo": "Jefe del Estado"
+		},
+		{
+			"desde": 1975,
+			"hasta": 2014,
+			"nombre": "Juan Carlos I",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 1976,
+			"hasta": 1981,
+			"nombre": "Adolfo Suárez",
+			"titulo": "Presidente del Gobierno (Transición)"
+		},
+		{
+			"desde": 1976,
+			"hasta": 1981,
+			"nombre": "Q214367",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1981,
+			"hasta": 1982,
+			"nombre": "Leopoldo Calvo-Sotelo",
+			"titulo": "Presidente del Gobierno"
+		},
+		{
+			"desde": 1981,
+			"hasta": 1982,
+			"nombre": "Leopoldo Calvo-Sotelo Bustelo",
+			"cargo": "jefe de gobierno"
+		},
+		{
+			"desde": 1982,
+			"hasta": 1996,
+			"nombre": "Felipe González",
+			"titulo": "Presidente del Gobierno"
+		},
+		{
+			"desde": 1996,
+			"hasta": 2004,
+			"nombre": "José María Aznar",
+			"titulo": "Presidente del Gobierno"
+		},
+		{
+			"desde": 2004,
+			"hasta": 2011,
+			"nombre": "José Luis Rodríguez Zapatero",
+			"titulo": "Presidente del Gobierno"
+		},
+		{
+			"desde": 2011,
+			"hasta": 2018,
+			"nombre": "Mariano Rajoy",
+			"titulo": "Presidente del Gobierno"
+		},
+		{
+			"desde": 2014,
+			"hasta": 2100,
+			"nombre": "Felipe VI",
+			"titulo": "Rey de España"
+		},
+		{
+			"desde": 2018,
+			"hasta": 2026,
+			"nombre": "Pedro Sánchez",
+			"titulo": "Presidente del Gobierno"
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -10000,
+			"valor": 18221
+		},
+		{
+			"anio": -9000,
+			"valor": 25510
+		},
+		{
+			"anio": -8000,
+			"valor": 35714
+		},
+		{
+			"anio": -7000,
+			"valor": 50000
+		},
+		{
+			"anio": -6000,
+			"valor": 50000
+		},
+		{
+			"anio": -5000,
+			"valor": 100000
+		},
+		{
+			"anio": -4000,
+			"valor": 200000
+		},
+		{
+			"anio": -3000,
+			"valor": 400000
+		},
+		{
+			"anio": -2000,
+			"valor": 1000000
+		},
+		{
+			"anio": -1000,
+			"valor": 2000000
+		},
+		{
+			"anio": 0,
+			"valor": 4600000
+		},
+		{
+			"anio": 100,
+			"valor": 4800000
+		},
+		{
+			"anio": 200,
+			"valor": 5000000
+		},
+		{
+			"anio": 300,
+			"valor": 4750000
+		},
+		{
+			"anio": 400,
+			"valor": 4500000
+		},
+		{
+			"anio": 500,
+			"valor": 4000000
+		},
+		{
+			"anio": 600,
+			"valor": 3500000
+		},
+		{
+			"anio": 700,
+			"valor": 3625000
+		},
+		{
+			"anio": 800,
+			"valor": 3750000
+		},
+		{
+			"anio": 900,
+			"valor": 3875000
+		},
+		{
+			"anio": 1000,
+			"valor": 4000000
+		},
+		{
+			"anio": 1100,
+			"valor": 4500000
+		},
+		{
+			"anio": 1200,
+			"valor": 5500000
+		},
+		{
+			"anio": 1300,
+			"valor": 7500000
+		},
+		{
+			"anio": 1400,
+			"valor": 5500000
+		},
+		{
+			"anio": 1500,
+			"valor": 6500000
+		},
+		{
+			"anio": 1600,
+			"valor": 8500000
+		},
+		{
+			"anio": 1700,
+			"valor": 8000000
+		},
+		{
+			"anio": 1750,
+			"valor": 10073306
+		},
+		{
+			"anio": 1800,
+			"valor": 11500000
+		},
+		{
+			"anio": 1850,
+			"valor": 14878948
+		},
+		{
+			"anio": 1900,
+			"valor": 18592411
+		},
+		{
+			"anio": 1910,
+			"valor": 19859082
+		},
+		{
+			"anio": 1920,
+			"valor": 21275357
+		},
+		{
+			"anio": 1930,
+			"valor": 23440849
+		},
+		{
+			"anio": 1940,
+			"valor": 25747164
+		},
+		{
+			"anio": 1950,
+			"valor": 28077048
+		},
+		{
+			"anio": 1960,
+			"valor": 30404938
+		},
+		{
+			"anio": 1970,
+			"valor": 33812720
+		},
+		{
+			"anio": 1980,
+			"valor": 37537560
+		},
+		{
+			"anio": 1990,
+			"valor": 39084975
+		},
+		{
+			"anio": 2000,
+			"valor": 41019772
+		},
+		{
+			"anio": 2010,
+			"valor": 46840469
+		},
+		{
+			"anio": 2020,
+			"valor": 47679482
+		},
+		{
+			"anio": 2023,
+			"valor": 47911583
+		}
+	],
+	"relacionados": [
+		"Corona de Castilla",
+		"Corona de Aragón",
+		"Reino nazarí de Granada",
+		"Reino de León",
+		"Reino de Navarra",
+		"Califato de Córdoba",
+		"Emirato de Córdoba",
+		"Califato omeya",
+		"Califato almohade",
+		"Reino visigodo",
+		"Celtíberos",
+		"Lusitanos",
+		"Cántabros y astures",
+		"Nueva España",
+		"Perú",
+		"Nueva Granada"
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:España",
+			"url": "https://es.wikipedia.org/wiki/España",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "Wikipedia (es): España",
+			"url": "https://es.wikipedia.org/wiki/Espa%C3%B1a",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q29179",
+			"url": "http://www.wikidata.org/entity/Q29179",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q214367",
+			"url": "http://www.wikidata.org/entity/Q214367",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q273129",
+			"url": "http://www.wikidata.org/entity/Q273129",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q29",
+			"url": "https://www.wikidata.org/wiki/Q29",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q29",
+			"url": "https://www.wikidata.org/wiki/Q29",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
+	"owid": "Spain",
+	"wikidata": "Q29",
+	"wikidata_hist": [
+		"Q179293",
+		"Q190168",
+		"Q160077"
+	],
+	"resena": "España, formalmente Reino de España, es un país soberano transcontinental situado principalmente en el suroeste de Europa y, en menor medida, en el norte de África. Constituido en un Estado social y Estado de Derecho, su forma de gobierno es la monarquía parlamentaria.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "fde8d847ab7b",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
+	},
+	"escudos": [
+		{
+			"archivo": "Escudo de España (1977-1981).svg",
+			"desde": 1977,
+			"hasta": 1981
+		},
+		{
+			"archivo": "Escudo de España (mazonado).svg"
+		}
+	]
+}

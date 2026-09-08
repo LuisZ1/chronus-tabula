@@ -1,0 +1,39 @@
+{
+	"id": "zimbabue",
+	"nombre": "Gran Zimbabue",
+	"nombres": [
+		"Great Zimbabwe"
+	],
+	"wiki": "Gran Zimbabue",
+	"wikidata": "Q209217",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Gran Zimbabue",
+			"url": "https://es.wikipedia.org/wiki/Gran_Zimbabue",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "Wikipedia (es): Gran Zimbabue",
+			"url": "https://es.wikipedia.org/wiki/Gran_Zimbabue",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
+	"resena": "Se denomina Gran Zimbabue a los restos de una antigua ciudad del reino de Zimbabue situada sobre la meseta que domina el curso alto del río Sabi, en la actual Zimbabue. Se componía de una ciudad en la parte alta y un vasto recinto de piedra en la parte baja.",
+	"revision": {
+		"estado": "validado",
+		"fecha": "2026-09-08",
+		"por": "panel-admin",
+		"hash": "2d23933fc6e9",
+		"secciones": [
+			"resena"
+		]
+	}
+}

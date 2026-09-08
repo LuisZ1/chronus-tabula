@@ -1,0 +1,19 @@
+{
+	"nombre": "Constitución republicana de 1931",
+	"anio": 1931,
+	"lat": 40.42,
+	"lng": -3.7,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Constitución que establece el sufragio femenino, el Estado laico y amplias libertades.",
+	"wiki": "Constitución española de 1931",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Constitución española de 1931",
+			"url": "https://es.wikipedia.org/wiki/Constitución_española_de_1931",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

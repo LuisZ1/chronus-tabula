@@ -1,0 +1,590 @@
+{
+	"id": "napoleonicas",
+	"nombre": "Guerras napoleónicas",
+	"inicio": 1803,
+	"fin": 1815,
+	"paises": [
+		"Francia",
+		"Gran Bretaña",
+		"España",
+		"Austria",
+		"Prusia",
+		"Rusia",
+		"Portugal"
+	],
+	"bajas": "~3.500.000-6.000.000 de muertos",
+	"descripcion": "Napoleón domina Europa hasta su derrota final en Waterloo. Incluye la Guerra de la Independencia Española (1808-1814).",
+	"batallas": [
+		{
+			"nombre": "Raid on Boulogne",
+			"anio": 1804,
+			"lat": 50.73,
+			"lng": 1.61
+		},
+		{
+			"nombre": "Batalla de Trafalgar",
+			"anio": 1805,
+			"lat": 36.18,
+			"lng": -6.03,
+			"bajas": "~4.500 muertos francoespañoles",
+			"descripcion": "Nelson destruye la flota francoespañola; muere en combate."
+		},
+		{
+			"nombre": "Batalla de Austerlitz",
+			"anio": 1805,
+			"lat": 49.13,
+			"lng": 16.76,
+			"bajas": "~25.000 bajas aliadas",
+			"descripcion": "La 'batalla de los tres emperadores', obra maestra de Napoleón."
+		},
+		{
+			"nombre": "Batalla del Cabo Ortegal",
+			"anio": 1805,
+			"lat": 43.82,
+			"lng": -7.86
+		},
+		{
+			"nombre": "Batalla de Dürenstein",
+			"anio": 1805,
+			"lat": 48.39,
+			"lng": 15.52
+		},
+		{
+			"nombre": "Batalla de Golymin",
+			"anio": 1806,
+			"lat": 52.82,
+			"lng": 20.87
+		},
+		{
+			"nombre": "Batalla de Pułtusk",
+			"anio": 1806,
+			"lat": 52.71,
+			"lng": 21.07
+		},
+		{
+			"nombre": "batalla de Heilsberg",
+			"anio": 1807,
+			"lat": 54.12,
+			"lng": 20.58
+		},
+		{
+			"nombre": "Batalla de Athos",
+			"anio": 1807,
+			"lat": 40.07,
+			"lng": 24.93
+		},
+		{
+			"nombre": "Batalla de Bailén",
+			"anio": 1808,
+			"lat": 38.1,
+			"lng": -3.78,
+			"bajas": "~2.500 franceses muertos y 17.000 prisioneros",
+			"descripcion": "Primera derrota en campo abierto de un ejército napoleónico, ante el general Castaños."
+		},
+		{
+			"nombre": "Levantamiento del 2 de mayo",
+			"anio": 1808,
+			"lat": 40.42,
+			"lng": -3.71,
+			"descripcion": "Madrid se alza contra las tropas de Murat; los fusilamientos del 3 de mayo los pintó Goya."
+		},
+		{
+			"nombre": "Sitios de Zaragoza",
+			"anio": 1808,
+			"lat": 41.65,
+			"lng": -0.88,
+			"bajas": "~50.000 muertos, la mayoría civiles",
+			"descripcion": "«Guerra a cuchillo»: la resistencia de Palafox asombra a Europa."
+		},
+		{
+			"nombre": "Acción del 10 de noviembre de 1808",
+			"anio": 1808,
+			"lat": 45.14,
+			"lng": -1.5
+		},
+		{
+			"nombre": "Batalla de Sandöström",
+			"anio": 1808,
+			"lat": 60.21,
+			"lng": 22.51
+		},
+		{
+			"nombre": "Batalla de Grönvikssund",
+			"anio": 1808,
+			"lat": 60.5,
+			"lng": 21.42
+		},
+		{
+			"nombre": "Battle of the Procida Canal",
+			"anio": 1809,
+			"lat": 40.77,
+			"lng": 14.03
+		},
+		{
+			"nombre": "Acción del 15 Noviembre 1810",
+			"anio": 1810,
+			"lat": 49.59,
+			"lng": -1.26
+		},
+		{
+			"nombre": "Batalla de Lissa",
+			"anio": 1811,
+			"lat": 43.09,
+			"lng": 16.17
+		},
+		{
+			"nombre": "Acción del 24 Marzo 1811",
+			"anio": 1811,
+			"lat": 49.69,
+			"lng": -1.28
+		},
+		{
+			"nombre": "Batalla de Borodinó",
+			"anio": 1812,
+			"lat": 55.52,
+			"lng": 35.82,
+			"bajas": "~70.000 muertos y heridos en un día",
+			"descripcion": "Sangrienta batalla a las puertas de Moscú durante la invasión de Rusia."
+		},
+		{
+			"nombre": "Batalla de Grado",
+			"anio": 1812,
+			"lat": 45.6,
+			"lng": 13.5
+		},
+		{
+			"nombre": "Batalla de Wolkowisk",
+			"anio": 1812,
+			"lat": 53.17,
+			"lng": 24.47
+		},
+		{
+			"nombre": "batalla de Smolensk",
+			"anio": 1812,
+			"lat": 54.78,
+			"lng": 32.05
+		},
+		{
+			"nombre": "batalla de Vilna (1812)",
+			"anio": 1812,
+			"lat": 54.68,
+			"lng": 25.28
+		},
+		{
+			"nombre": "Batalla de Krasnoi",
+			"anio": 1812,
+			"lat": 54.56,
+			"lng": 31.43
+		},
+		{
+			"nombre": "Batalla de Vitoria",
+			"anio": 1813,
+			"lat": 42.85,
+			"lng": -2.67,
+			"descripcion": "Wellington expulsa a José I; el botín francés queda esparcido por el campo."
+		},
+		{
+			"nombre": "Acción del 5 Noviembre 1813",
+			"anio": 1813,
+			"lat": 43.05,
+			"lng": 5.98
+		},
+		{
+			"nombre": "Batalla de Leipzig",
+			"anio": 1813,
+			"lat": 51.31,
+			"lng": 12.41
+		},
+		{
+			"nombre": "Batalla de Craonne",
+			"anio": 1814,
+			"lat": 49.44,
+			"lng": 3.72
+		},
+		{
+			"nombre": "Batalla de Craonne",
+			"anio": 1814,
+			"lat": 49.44,
+			"lng": 3.72
+		},
+		{
+			"nombre": "Batalla de Waterloo",
+			"anio": 1815,
+			"lat": 50.68,
+			"lng": 4.41,
+			"bajas": "~47.000 muertos y heridos",
+			"descripcion": "Wellington y Blücher derrotan definitivamente a Napoleón."
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Centroeuropa (Austerlitz, Jena)",
+			"tipo": "frente",
+			"desde": 1805,
+			"hasta": 1807,
+			"poligono": [
+				[
+					52.5,
+					10
+				],
+				[
+					52,
+					17
+				],
+				[
+					49,
+					17.5
+				],
+				[
+					48,
+					14.5
+				],
+				[
+					49.5,
+					10.5
+				],
+				[
+					51,
+					10
+				]
+			]
+		},
+		{
+			"nombre": "Trafalgar y bloqueo naval",
+			"tipo": "frente",
+			"desde": 1805,
+			"hasta": 1806,
+			"poligono": [
+				[
+					36.8,
+					-7.5
+				],
+				[
+					36.8,
+					-5.5
+				],
+				[
+					35.8,
+					-5.7
+				],
+				[
+					35.9,
+					-7.5
+				]
+			],
+			"mar": true
+		},
+		{
+			"nombre": "Guerra de la Independencia Española",
+			"tipo": "frente",
+			"desde": 1808,
+			"hasta": 1814,
+			"poligono": [
+				[
+					43.5,
+					-8.5
+				],
+				[
+					43.3,
+					-1.6
+				],
+				[
+					41.8,
+					3
+				],
+				[
+					38.7,
+					0
+				],
+				[
+					36.2,
+					-5.6
+				],
+				[
+					37,
+					-7.4
+				],
+				[
+					39.5,
+					-9
+				],
+				[
+					42.5,
+					-9
+				]
+			]
+		},
+		{
+			"nombre": "Campaña de Rusia",
+			"tipo": "frente",
+			"desde": 1812,
+			"hasta": 1812,
+			"poligono": [
+				[
+					56.5,
+					23
+				],
+				[
+					56.5,
+					38.5
+				],
+				[
+					54,
+					38.5
+				],
+				[
+					53.5,
+					30
+				],
+				[
+					54.5,
+					23.5
+				]
+			]
+		},
+		{
+			"nombre": "Alemania (Leipzig)",
+			"tipo": "frente",
+			"desde": 1813,
+			"hasta": 1813,
+			"poligono": [
+				[
+					53,
+					10
+				],
+				[
+					52.5,
+					15
+				],
+				[
+					50.5,
+					15
+				],
+				[
+					50,
+					10.5
+				],
+				[
+					51.5,
+					9.5
+				]
+			]
+		},
+		{
+			"nombre": "Francia y Waterloo",
+			"tipo": "frente",
+			"desde": 1814,
+			"hasta": 1815,
+			"poligono": [
+				[
+					50.9,
+					2.3
+				],
+				[
+					50.7,
+					5.5
+				],
+				[
+					48.3,
+					6
+				],
+				[
+					48,
+					2.5
+				],
+				[
+					49.3,
+					1.8
+				]
+			]
+		},
+		{
+			"nombre": "Europa napoleónica",
+			"tipo": "ocupado",
+			"desde": 1807,
+			"hasta": 1813,
+			"poligono": [
+				[
+					52,
+					2
+				],
+				[
+					53,
+					12
+				],
+				[
+					51,
+					18
+				],
+				[
+					46,
+					17
+				],
+				[
+					43,
+					14
+				],
+				[
+					41,
+					13
+				],
+				[
+					44,
+					7
+				],
+				[
+					47,
+					2
+				],
+				[
+					49.5,
+					1
+				]
+			]
+		}
+	],
+	"wiki": "Guerras napoleónicas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras napoleónicas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_napoleónicas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q902181",
+			"url": "https://www.wikidata.org/wiki/Q902181",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2473448",
+			"url": "https://www.wikidata.org/wiki/Q2473448",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4677228",
+			"url": "https://www.wikidata.org/wiki/Q4677228",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q19871523",
+			"url": "https://www.wikidata.org/wiki/Q19871523",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q19871518",
+			"url": "https://www.wikidata.org/wiki/Q19871518",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q926489",
+			"url": "https://www.wikidata.org/wiki/Q926489",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q13414922",
+			"url": "https://www.wikidata.org/wiki/Q13414922",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4677372",
+			"url": "https://www.wikidata.org/wiki/Q4677372",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q945596",
+			"url": "https://www.wikidata.org/wiki/Q945596",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q85859766",
+			"url": "https://www.wikidata.org/wiki/Q85859766",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q747386",
+			"url": "https://www.wikidata.org/wiki/Q747386",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4872056",
+			"url": "https://www.wikidata.org/wiki/Q4872056",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1192867",
+			"url": "https://www.wikidata.org/wiki/Q1192867",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2659098",
+			"url": "https://www.wikidata.org/wiki/Q2659098",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3378627",
+			"url": "https://www.wikidata.org/wiki/Q3378627",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q151005",
+			"url": "https://www.wikidata.org/wiki/Q151005",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q106616328",
+			"url": "https://www.wikidata.org/wiki/Q106616328",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q1071578",
+			"url": "https://www.wikidata.org/wiki/Q1071578",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q3379096",
+			"url": "https://www.wikidata.org/wiki/Q3379096",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q126088555",
+			"url": "https://www.wikidata.org/wiki/Q126088555",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q699665",
+			"url": "https://www.wikidata.org/wiki/Q699665",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q25809",
+			"url": "https://www.wikidata.org/wiki/Q25809",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		}
+	]
+}

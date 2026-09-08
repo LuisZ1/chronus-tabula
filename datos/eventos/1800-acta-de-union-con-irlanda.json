@@ -1,0 +1,24 @@
+{
+	"nombre": "Acta de Unión con Irlanda",
+	"anio": 1800,
+	"lat": 53.35,
+	"lng": -6.26,
+	"paises": [
+		"Gran Bretaña",
+		"Irlanda"
+	],
+	"descripcion": "El Acta de Unión de 1800 fusiona Gran Bretaña e Irlanda en el Reino Unido de Gran Bretaña e Irlanda, vigente desde 1801.",
+	"wiki": "Acta de Unión (1800)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Actas de Unión de 1800",
+			"url": "https://es.wikipedia.org/wiki/Actas_de_Uni%C3%B3n_de_1800",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
+		}
+	]
+}

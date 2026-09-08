@@ -1,0 +1,83 @@
+{
+	"id": "guerra-del-pacifico",
+	"nombre": "Guerra del Pacífico",
+	"inicio": 1941,
+	"fin": 1945,
+	"paises": [
+		"Imperio del Japón",
+		"Estados Unidos",
+		"Reino Unido",
+		"Aliados"
+	],
+	"bajas": "varios millones",
+	"descripcion": "Teatro japonés de la Segunda Guerra Mundial: del ataque a Pearl Harbor (1941) a la contraofensiva estadounidense (Midway, Iwo Jima, Okinawa) y las bombas atómicas de 1945. Se registra como conflicto propio por su valor cartográfico centrado en Japón, complementando 'wwii'.",
+	"wiki": "Guerra del Pacífico",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Pacífico (1937-1945)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico_(1937-1945)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Teatro del Pacífico",
+			"tipo": "frente",
+			"desde": 1941,
+			"hasta": 1945,
+			"poligono": [
+				[
+					21.3,
+					-157.9
+				],
+				[
+					35.7,
+					139.7
+				],
+				[
+					14.6,
+					120.98
+				],
+				[
+					-9.4,
+					147.2
+				],
+				[
+					13.4,
+					144.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Ataque a Pearl Harbor",
+			"anio": 1941,
+			"lat": 21.36,
+			"lng": -157.95,
+			"descripcion": "Ataque sorpresa que arrastra a EE. UU. a la guerra."
+		},
+		{
+			"nombre": "Batalla de Midway",
+			"anio": 1942,
+			"lat": 28.2,
+			"lng": -177.37,
+			"descripcion": "Derrota naval japonesa que marca el punto de inflexión del Pacífico."
+		},
+		{
+			"nombre": "Batalla de Iwo Jima",
+			"anio": 1945,
+			"lat": 24.78,
+			"lng": 141.32,
+			"descripcion": "Sangrienta toma estadounidense de la isla."
+		},
+		{
+			"nombre": "Batalla de Okinawa",
+			"anio": 1945,
+			"lat": 26.33,
+			"lng": 127.8,
+			"descripcion": "Última gran batalla terrestre antes de la rendición."
+		}
+	]
+}

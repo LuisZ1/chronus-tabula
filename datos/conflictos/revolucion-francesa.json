@@ -1,0 +1,102 @@
+{
+	"id": "revolucion-francesa",
+	"nombre": "Revolución francesa y guerras revolucionarias",
+	"inicio": 1789,
+	"fin": 1799,
+	"paises": [
+		"Francia",
+		"Austria",
+		"Prusia",
+		"Gran Bretaña",
+		"España"
+	],
+	"bajas": "~1 millón de muertos (Terror, Vendée y guerras)",
+	"descripcion": "De la toma de la Bastilla al 18 de brumario de Napoleón: cae la monarquía, la república sobrevive al Terror y a la coalición europea, y nace el mundo político moderno.",
+	"wiki": "Revolución francesa",
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Revolución francesa",
+			"url": "https://es.wikipedia.org/wiki/Revolución_francesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Francia revolucionaria",
+			"tipo": "frente",
+			"desde": 1792,
+			"hasta": 1799,
+			"poligono": [
+				[
+					50.8,
+					2.0
+				],
+				[
+					49.5,
+					7.8
+				],
+				[
+					43.5,
+					6.8
+				],
+				[
+					43.3,
+					-1.5
+				],
+				[
+					48.5,
+					-4.5
+				]
+			]
+		},
+		{
+			"nombre": "Guerra de la Vendée",
+			"tipo": "frente",
+			"desde": 1793,
+			"hasta": 1796,
+			"poligono": [
+				[
+					47.5,
+					-2.3
+				],
+				[
+					47.4,
+					-0.4
+				],
+				[
+					46.3,
+					-0.7
+				],
+				[
+					46.4,
+					-2.2
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Valmy",
+			"anio": 1792,
+			"lat": 49.08,
+			"lng": 4.77,
+			"descripcion": "El cañoneo que salvó la Revolución: la república se proclama dos días después.",
+			"wiki": "Batalla de Valmy"
+		},
+		{
+			"nombre": "Batalla de Fleurus",
+			"anio": 1794,
+			"lat": 50.48,
+			"lng": 4.55,
+			"descripcion": "Victoria decisiva sobre la coalición; primer uso militar de un globo de observación.",
+			"wiki": "Batalla de Fleurus (1794)"
+		}
+	]
+}

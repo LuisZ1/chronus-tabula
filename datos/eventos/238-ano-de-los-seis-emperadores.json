@@ -1,0 +1,23 @@
+{
+	"nombre": "Año de los seis emperadores",
+	"anio": 238,
+	"lat": 41.9,
+	"lng": 12.5,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "En el año 238 se suceden seis emperadores (Maximino, Gordiano I y II, Pupieno, Balbino y Gordiano III), síntoma de la anarquía militar que inaugura la crisis del siglo III.",
+	"wiki": "Año de los seis emperadores",
+	"fuentes": [
+		{
+			"id": "libro:Herodiano - Historia del Imperio Romano",
+			"licencia": "referencia"
+		},
+		{
+			"id": "wikipedia-es:Año de los seis emperadores",
+			"url": "https://es.wikipedia.org/wiki/Año_de_los_seis_emperadores",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}

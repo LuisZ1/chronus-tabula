@@ -1,0 +1,81 @@
+{
+	"id": "guerras-balcanes",
+	"nombre": "Guerras de los Balcanes",
+	"inicio": 1912,
+	"fin": 1913,
+	"paises": [
+		"Imperio otomano",
+		"Serbia",
+		"Bulgaria",
+		"Grecia",
+		"Montenegro",
+		"Rumanía"
+	],
+	"bajas": "unos 200.000-300.000 muertos (combate y enfermedad)",
+	"descripcion": "En la Primera Guerra Balcánica (1912-13) la Liga Balcánica —Serbia, Bulgaria, Grecia y Montenegro— expulsa al Imperio otomano de casi toda Europa. En la Segunda (1913), Bulgaria ataca a sus antiguos aliados por el reparto de Macedonia y es derrotada. Las guerras dejan la región inestable, antesala de la Primera Guerra Mundial.",
+	"wiki": "Guerras Balcánicas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Balcánicas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Balcánicas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Macedonia y Tracia disputadas",
+			"tipo": "frente",
+			"desde": 1912,
+			"hasta": 1913,
+			"poligono": [
+				[
+					42.3,
+					21.0
+				],
+				[
+					42.0,
+					27.5
+				],
+				[
+					40.6,
+					26.4
+				],
+				[
+					40.6,
+					22.5
+				],
+				[
+					41.1,
+					20.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Kumanovo",
+			"anio": 1912,
+			"lat": 42.13,
+			"lng": 21.71
+		},
+		{
+			"nombre": "Batalla de Lule Burgas",
+			"anio": 1912,
+			"lat": 41.4,
+			"lng": 27.36
+		},
+		{
+			"nombre": "Asedio de Adrianópolis",
+			"anio": 1913,
+			"lat": 41.68,
+			"lng": 26.56
+		},
+		{
+			"nombre": "Batalla de Bizani (Janina)",
+			"anio": 1913,
+			"lat": 39.6,
+			"lng": 20.83
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+	"id": "guerras-diadocos",
+	"nombre": "Guerras de los Diádocos",
+	"inicio": -323,
+	"fin": -301,
+	"paises": [
+		"Macedonia",
+		"Reino seléucida",
+		"Egipto ptolemaico",
+		"Reino antigónida"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "A la muerte de Alejandro Magno sus generales (los diádocos) se disputaron el imperio. Tras los repartos de Babilonia (323) y Triparadiso (321) y las revueltas griegas de la Guerra Lamíaca, la batalla de Ipso (301) selló la fragmentación en los grandes reinos helenísticos: Lágida en Egipto, Seléucida en Asia y Antigónida en Macedonia.",
+	"wiki": "Guerras de los Diádocos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras de los Diádocos",
+			"url": "https://es.wikipedia.org/wiki/Guerras_de_los_Di%C3%A1docos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "Grecia y Macedonia (Guerra Lamíaca)",
+			"tipo": "frente",
+			"desde": -323,
+			"hasta": -322,
+			"poligono": [
+				[
+					40.6,
+					22.0
+				],
+				[
+					39.6,
+					23.0
+				],
+				[
+					38.5,
+					22.6
+				],
+				[
+					38.9,
+					22.0
+				],
+				[
+					40.0,
+					21.5
+				]
+			]
+		},
+		{
+			"nombre": "Anatolia y Siria (repartos y campañas)",
+			"tipo": "frente",
+			"desde": -323,
+			"hasta": -301,
+			"poligono": [
+				[
+					40.5,
+					27.0
+				],
+				[
+					39.0,
+					33.0
+				],
+				[
+					36.0,
+					37.0
+				],
+				[
+					35.5,
+					35.5
+				],
+				[
+					37.5,
+					27.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Guerra Lamíaca (Lamia)",
+			"anio": -322,
+			"lat": 38.9,
+			"lng": 22.43
+		},
+		{
+			"nombre": "Batalla de Ipso",
+			"anio": -301,
+			"lat": 38.9,
+			"lng": 31.1
+		}
+	]
+}

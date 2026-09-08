@@ -1,0 +1,121 @@
+{
+	"id": "carlistas",
+	"nombre": "Guerras carlistas",
+	"inicio": 1833,
+	"fin": 1876,
+	"paises": [
+		"España (isabelinos/alfonsinos)",
+		"Carlistas"
+	],
+	"bajas": "~200.000 muertos entre las tres guerras",
+	"descripcion": "Tres guerras civiles entre liberales y carlistas por la sucesión y el modelo de país, con el norte foral como bastión carlista.",
+	"wiki": "Guerras carlistas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras carlistas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_carlistas",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		}
+	],
+	"zonas": [
+		{
+			"nombre": "País Vasco y Navarra",
+			"tipo": "frente",
+			"desde": 1833,
+			"hasta": 1840,
+			"poligono": [
+				[
+					43.4,
+					-3.3
+				],
+				[
+					43.3,
+					-1.3
+				],
+				[
+					42.4,
+					-1.5
+				],
+				[
+					42.5,
+					-3.4
+				]
+			]
+		},
+		{
+			"nombre": "El Maestrazgo (Cabrera)",
+			"tipo": "frente",
+			"desde": 1835,
+			"hasta": 1840,
+			"poligono": [
+				[
+					40.9,
+					-0.9
+				],
+				[
+					40.7,
+					0.4
+				],
+				[
+					40,
+					0.2
+				],
+				[
+					40.1,
+					-0.9
+				]
+			]
+		},
+		{
+			"nombre": "Tercera guerra carlista",
+			"tipo": "frente",
+			"desde": 1872,
+			"hasta": 1876,
+			"poligono": [
+				[
+					43.3,
+					-3.2
+				],
+				[
+					43.2,
+					-1.4
+				],
+				[
+					42.4,
+					-1.6
+				],
+				[
+					42.5,
+					-3.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Luchana",
+			"anio": 1836,
+			"lat": 43.32,
+			"lng": -2.97,
+			"descripcion": "Espartero rompe el sitio carlista de Bilbao en Nochebuena."
+		},
+		{
+			"nombre": "Abrazo de Vergara",
+			"anio": 1839,
+			"lat": 43.12,
+			"lng": -2.41,
+			"descripcion": "Espartero y Maroto sellan la paz de la primera guerra."
+		},
+		{
+			"nombre": "Batalla de Montejurra",
+			"anio": 1873,
+			"lat": 42.63,
+			"lng": -2.06,
+			"descripcion": "Victoria carlista en la tercera guerra."
+		}
+	]
+}

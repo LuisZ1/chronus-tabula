@@ -1,0 +1,21 @@
+{
+	"nombre": "Reparto de Verdún",
+	"anio": 843,
+	"lat": 49.16,
+	"lng": 5.38,
+	"paises": [
+		"Francos",
+		"Francia",
+		"Sacro Imperio Romano Germánico"
+	],
+	"descripcion": "El Imperio carolingio se divide entre los tres nietos de Carlomagno, germen de Francia y Alemania.",
+	"wiki": "Tratado de Verdún",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Verdún",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Verdún",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
+	]
+}
