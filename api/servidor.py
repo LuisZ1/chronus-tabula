@@ -66,6 +66,13 @@ FUENTES = {
         "url": "https://query.wikidata.org/",
         "script": os.path.join(RAIZ, "api", "fuentes", "wikidata_poblacion.py"),
     },
+    "wikipedia_resenas": {
+        "nombre": "Wikipedia — reseñas",
+        "descripcion": "Breve reseña (≈2 frases) de cada país con campo 'wiki', tomada del resumen de Wikipedia en español (CC BY-SA, atribuida).",
+        "licencia": "CC BY-SA",
+        "url": "https://es.wikipedia.org/",
+        "script": os.path.join(RAIZ, "api", "fuentes", "wikipedia_resenas.py"),
+    },
 }
 
 ingesta_en_curso = threading.Lock()
