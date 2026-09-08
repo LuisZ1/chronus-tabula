@@ -9,24 +9,7 @@
 	],
 	"bajas": "~300.000 muertos",
 	"descripcion": "Aníbal cruza los Alpes e invade Italia; Roma acaba venciendo y se convierte en la potencia del Mediterráneo occidental.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Cannas",
-			"anio": -216,
-			"lat": 41.3,
-			"lng": 16.13,
-			"bajas": "~55.000 romanos muertos en un día",
-			"descripcion": "La mayor victoria de Aníbal, obra maestra del envolvimiento táctico."
-		},
-		{
-			"nombre": "Batalla de Zama",
-			"anio": -202,
-			"lat": 36.3,
-			"lng": 9.45,
-			"bajas": "~20.000 cartagineses muertos",
-			"descripcion": "Escipión el Africano derrota a Aníbal y decide la guerra."
-		}
-	],
+	"wiki": "Segunda guerra púnica",
 	"zonas": [
 		{
 			"nombre": "Hispania",
@@ -133,7 +116,24 @@
 			]
 		}
 	],
-	"wiki": "Segunda guerra púnica",
+	"batallas": [
+		{
+			"nombre": "Batalla de Cannas",
+			"anio": -216,
+			"lat": 41.3,
+			"lng": 16.13,
+			"descripcion": "La mayor victoria de Aníbal, obra maestra del envolvimiento táctico.",
+			"bajas": "~55.000 romanos muertos en un día"
+		},
+		{
+			"nombre": "Batalla de Zama",
+			"anio": -202,
+			"lat": 36.3,
+			"lng": 9.45,
+			"descripcion": "Escipión el Africano derrota a Aníbal y decide la guerra.",
+			"bajas": "~20.000 cartagineses muertos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Segunda guerra púnica",

@@ -5,41 +5,6 @@
 		"Central African Republic",
 		"República Centroafricana"
 	],
-	"wiki": "es:República Centroafricana",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q929",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Central_African_Republic",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~CAF",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): República Centroafricana",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "wikidata:P94:Q929",
-			"url": "https://www.wikidata.org/wiki/Q929",
-			"licencia": "CC0",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Ubangui-Chari (colonia francesa)",
@@ -57,79 +22,81 @@
 			"hasta": 1979
 		}
 	],
+	"wiki": "es:República Centroafricana",
 	"wikidata": "Q929",
+	"resena": "La República Centroafricana, o simplemente Centroáfrica, es un país sin litoral ubicado en África Central. Limita con Chad al norte, Sudán al noreste, Sudán del Sur al este, la República Democrática del Congo y la República del Congo al sur y Camerún al oeste.",
 	"gobernantes": [
 		{
 			"nombre": "Sultanato de Bangassou (pueblo zande)",
+			"cargo": "sultanato precolonial",
 			"desde": 1878,
-			"hasta": 1917,
-			"cargo": "sultanato precolonial"
+			"hasta": 1917
 		},
 		{
 			"nombre": "Sultanato de Dar al-Kuti (Muhammad al-Sanusi)",
+			"cargo": "sultanato precolonial",
 			"desde": 1890,
-			"hasta": 1911,
-			"cargo": "sultanato precolonial"
+			"hasta": 1911
 		},
 		{
 			"nombre": "David Dacko",
+			"cargo": "presidente",
 			"desde": 1960,
-			"hasta": 1966,
-			"cargo": "presidente"
+			"hasta": 1966
 		},
 		{
 			"nombre": "Jean-Bédel Bokassa",
+			"cargo": "presidente",
 			"desde": 1966,
-			"hasta": 1976,
-			"cargo": "presidente"
+			"hasta": 1976
 		},
 		{
 			"nombre": "Bokassa I",
+			"cargo": "emperador (Imperio Centroafricano)",
 			"desde": 1976,
-			"hasta": 1979,
-			"cargo": "emperador (Imperio Centroafricano)"
+			"hasta": 1979
 		},
 		{
 			"nombre": "David Dacko",
+			"cargo": "presidente",
 			"desde": 1979,
-			"hasta": 1981,
-			"cargo": "presidente"
+			"hasta": 1981
 		},
 		{
 			"nombre": "André Kolingba",
+			"cargo": "presidente",
 			"desde": 1981,
-			"hasta": 1993,
-			"cargo": "presidente"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Ange-Félix Patassé",
+			"cargo": "presidente",
 			"desde": 1993,
-			"hasta": 2003,
-			"cargo": "presidente"
+			"hasta": 2003
 		},
 		{
 			"nombre": "François Bozizé",
+			"cargo": "presidente",
 			"desde": 2003,
-			"hasta": 2013,
-			"cargo": "presidente"
+			"hasta": 2013
 		},
 		{
 			"nombre": "Michel Djotodia",
+			"cargo": "presidente (jefe de Estado de transición)",
 			"desde": 2013,
-			"hasta": 2014,
-			"cargo": "presidente (jefe de Estado de transición)"
+			"hasta": 2014
 		},
 		{
 			"nombre": "Catherine Samba-Panza",
+			"cargo": "jefa de Estado de transición",
 			"desde": 2014,
-			"hasta": 2016,
-			"cargo": "jefa de Estado de transición"
+			"hasta": 2016
 		},
 		{
 			"nombre": "Faustin-Archange Touadéra",
+			"cargo": "presidente",
 			"desde": 2016,
-			"hasta": 2026,
-			"cargo": "presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -164,6 +131,45 @@
 			"fuente": "UN/OWID (estimación)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Central African Republic.svg"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q929",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Central_African_Republic",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~CAF",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): República Centroafricana",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q929",
+			"url": "https://www.wikidata.org/wiki/Q929",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -177,11 +183,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La República Centroafricana, o simplemente Centroáfrica, es un país sin litoral ubicado en África Central. Limita con Chad al norte, Sudán al noreste, Sudán del Sur al este, la República Democrática del Congo y la República del Congo al sur y Camerún al oeste.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Central African Republic.svg"
-		}
-	]
+	}
 }

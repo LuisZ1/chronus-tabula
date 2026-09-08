@@ -9,18 +9,6 @@
 	"bajas": "miles",
 	"descripcion": "Rebelión de los barones encabezada por Simón de Montfort contra Enrique III en defensa de las Provisiones de Oxford. Montfort vence en Lewes (1264) y convoca un parlamento representativo, pero cae derrotado y muerto en Evesham (1265).",
 	"wiki": "Segunda Guerra de los Barones",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Segunda Guerra de los Barones",
-			"url": "https://es.wikipedia.org/wiki/Segunda_Guerra_de_los_Barones",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de Inglaterra",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Sur y centro de Inglaterra",
@@ -63,6 +51,18 @@
 			"anio": 1265,
 			"lat": 52.09,
 			"lng": -1.95
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda Guerra de los Barones",
+			"url": "https://es.wikipedia.org/wiki/Segunda_Guerra_de_los_Barones",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
 		}
 	]
 }

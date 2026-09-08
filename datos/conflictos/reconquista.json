@@ -18,59 +18,6 @@
 	"bajas": "desconocidas: siete siglos de guerra de frontera",
 	"descripcion": "Siete siglos y medio de avance cristiano de norte a sur de la península, de Covadonga (722) a Granada (1492), con largos periodos de convivencia y frontera entre medias.",
 	"wiki": "Reconquista",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Reconquista",
-			"url": "https://es.wikipedia.org/wiki/Reconquista",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		},
-		{
-			"id": "wikidata:Q1243260",
-			"url": "https://www.wikidata.org/wiki/Q1243260",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q130251286",
-			"url": "https://www.wikidata.org/wiki/Q130251286",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q131686617",
-			"url": "https://www.wikidata.org/wiki/Q131686617",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q4871780",
-			"url": "https://www.wikidata.org/wiki/Q4871780",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q2888093",
-			"url": "https://www.wikidata.org/wiki/Q2888093",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q131542395",
-			"url": "https://www.wikidata.org/wiki/Q131542395",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q20616054",
-			"url": "https://www.wikidata.org/wiki/Q20616054",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frontera del Duero",
@@ -155,11 +102,27 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Clavijo",
+			"anio": 844,
+			"lat": 42.25,
+			"lng": -2.36,
+			"descripcion": "Victoria legendaria de Ramiro I de Asturias, origen del mito de Santiago Matamoros (historicidad discutida).",
+			"wiki": "Batalla de Clavijo"
+		},
+		{
 			"nombre": "Batalla de Simancas",
 			"anio": 939,
 			"lat": 41.59,
 			"lng": -4.83,
 			"descripcion": "Ramiro II de León derrota a Abderramán III."
+		},
+		{
+			"nombre": "Batalla de Calatañazor",
+			"anio": 1002,
+			"lat": 41.6,
+			"lng": -2.83,
+			"descripcion": "Según la tradición, primera gran derrota de Almanzor poco antes de su muerte («En Calatañazor perdió Almanzor el tambor»).",
+			"wiki": "Batalla de Calatañazor"
 		},
 		{
 			"nombre": "batalla de Golpejera",
@@ -188,17 +151,17 @@
 			"lng": -5.02
 		},
 		{
+			"nombre": "Conquista de Lisboa (1094)",
+			"anio": 1094,
+			"lat": 38.73,
+			"lng": -9.15
+		},
+		{
 			"nombre": "Conquista de Valencia (el Cid)",
 			"anio": 1094,
 			"lat": 39.47,
 			"lng": -0.38,
 			"descripcion": "Rodrigo Díaz de Vivar toma la ciudad, que perderá su viuda en 1102."
-		},
-		{
-			"nombre": "Conquista de Lisboa (1094)",
-			"anio": 1094,
-			"lat": 38.73,
-			"lng": -9.15
 		},
 		{
 			"nombre": "batalla de Bairén",
@@ -236,8 +199,8 @@
 			"anio": 1195,
 			"lat": 38.95,
 			"lng": -4.01,
-			"bajas": "~20.000 bajas castellanas según las crónicas",
-			"descripcion": "La gran victoria almohade que precede a Las Navas."
+			"descripcion": "La gran victoria almohade que precede a Las Navas.",
+			"bajas": "~20.000 bajas castellanas según las crónicas"
 		},
 		{
 			"nombre": "Conquista de Sevilla",
@@ -252,22 +215,59 @@
 			"lat": 36.18,
 			"lng": -5.71,
 			"descripcion": "Castilla y Portugal derrotan al último gran ejército invasor norteafricano."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reconquista",
+			"url": "https://es.wikipedia.org/wiki/Reconquista",
+			"licencia": "CC BY-SA"
 		},
 		{
-			"nombre": "Batalla de Clavijo",
-			"anio": 844,
-			"lat": 42.25,
-			"lng": -2.36,
-			"descripcion": "Victoria legendaria de Ramiro I de Asturias, origen del mito de Santiago Matamoros (historicidad discutida).",
-			"wiki": "Batalla de Clavijo"
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		},
 		{
-			"nombre": "Batalla de Calatañazor",
-			"anio": 1002,
-			"lat": 41.6,
-			"lng": -2.83,
-			"descripcion": "Según la tradición, primera gran derrota de Almanzor poco antes de su muerte («En Calatañazor perdió Almanzor el tambor»).",
-			"wiki": "Batalla de Calatañazor"
+			"id": "wikidata:Q1243260",
+			"url": "https://www.wikidata.org/wiki/Q1243260",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q130251286",
+			"url": "https://www.wikidata.org/wiki/Q130251286",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q131686617",
+			"url": "https://www.wikidata.org/wiki/Q131686617",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q4871780",
+			"url": "https://www.wikidata.org/wiki/Q4871780",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q2888093",
+			"url": "https://www.wikidata.org/wiki/Q2888093",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q131542395",
+			"url": "https://www.wikidata.org/wiki/Q131542395",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q20616054",
+			"url": "https://www.wikidata.org/wiki/Q20616054",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

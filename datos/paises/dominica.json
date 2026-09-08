@@ -4,28 +4,10 @@
 	"nombres": [
 		"Dominica"
 	],
-	"wikidata": "Q784",
 	"wiki": "es:Dominica",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q784",
-			"url": "https://www.wikidata.org/wiki/Q784",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Dominica",
-			"url": "https://es.wikipedia.org/wiki/Dominica",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q784",
 	"owid": "DMA",
+	"resena": "Dominica, oficialmente la Mancomunidad de Dominica, es una isla y una república de América considerada un micro-Estado que forma parte de las Antillas Menores, en el mar Caribe. Se localiza, específicamente, entre los territorios franceses de ultramar de Guadalupe al norte y Martinica al sur y al este de la isla de Aves (Venezuela).",
 	"poblacion": [
 		{
 			"anio": -5000,
@@ -188,6 +170,25 @@
 			"valor": 66531
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q784",
+			"url": "https://www.wikidata.org/wiki/Q784",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Dominica",
+			"url": "https://es.wikipedia.org/wiki/Dominica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -197,6 +198,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Dominica, oficialmente la Mancomunidad de Dominica, es una isla y una república de América considerada un micro-Estado que forma parte de las Antillas Menores, en el mar Caribe. Se localiza, específicamente, entre los territorios franceses de ultramar de Guadalupe al norte y Martinica al sur y al este de la isla de Aves (Venezuela)."
+	}
 }

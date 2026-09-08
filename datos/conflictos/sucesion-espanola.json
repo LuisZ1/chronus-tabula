@@ -14,97 +14,7 @@
 	],
 	"bajas": "~700.000-1.250.000 de muertos",
 	"descripcion": "Europa se disputa la corona de España entre Borbones y Austrias.",
-	"batallas": [
-		{
-			"nombre": "batalla de Rande",
-			"anio": 1702,
-			"lat": 42.25,
-			"lng": -8.74
-		},
-		{
-			"nombre": "Batalla del cabo de la Roca",
-			"anio": 1703,
-			"lat": 38.78,
-			"lng": -9.53
-		},
-		{
-			"nombre": "batalla de Speyerbach",
-			"anio": 1703,
-			"lat": 49.32,
-			"lng": 8.43
-		},
-		{
-			"nombre": "Batalla de Blenheim (Höchstädt)",
-			"anio": 1704,
-			"lat": 48.63,
-			"lng": 10.63,
-			"bajas": "~30.000 bajas francobávaras",
-			"descripcion": "Marlborough y Eugenio de Saboya derrotan a Francia."
-		},
-		{
-			"nombre": "batalla de Málaga (1704)",
-			"anio": 1704,
-			"lat": 36.7,
-			"lng": -4.37
-		},
-		{
-			"nombre": "Battle of Orford Ness",
-			"anio": 1704,
-			"lat": 52.05,
-			"lng": 1.74
-		},
-		{
-			"nombre": "Batalla de Elixheim",
-			"anio": 1705,
-			"lat": 50.78,
-			"lng": 5.01
-		},
-		{
-			"nombre": "Batalla del Huerto de las Bombas",
-			"anio": 1706,
-			"lat": 37.98,
-			"lng": -1.13
-		},
-		{
-			"nombre": "batalla de Ramillies",
-			"anio": 1706,
-			"lat": 50.64,
-			"lng": 4.92
-		},
-		{
-			"nombre": "Batalla de Almansa",
-			"anio": 1707,
-			"lat": 38.87,
-			"lng": -1.1,
-			"bajas": "~10.000 bajas aliadas",
-			"descripcion": "Victoria borbónica decisiva en suelo español."
-		},
-		{
-			"nombre": "Acción del 2 de mayo de 1707",
-			"anio": 1707,
-			"lat": 50.74,
-			"lng": 0.24
-		},
-		{
-			"nombre": "Batalla del cabo Lizard",
-			"anio": 1707,
-			"lat": 49.95,
-			"lng": -5.21
-		},
-		{
-			"nombre": "Batalla de Siracusa",
-			"anio": 1710,
-			"lat": 37.07,
-			"lng": 15.28
-		},
-		{
-			"nombre": "Sitio de Barcelona",
-			"anio": 1714,
-			"lat": 41.39,
-			"lng": 2.18,
-			"descripcion": "La ciudad cae el 11 de septiembre de 1714 ante Felipe V."
-		}
-	],
+	"wiki": "Guerra de sucesión española",
 	"zonas": [
 		{
 			"nombre": "Flandes y el Rin",
@@ -243,7 +153,97 @@
 			]
 		}
 	],
-	"wiki": "Guerra de sucesión española",
+	"batallas": [
+		{
+			"nombre": "batalla de Rande",
+			"anio": 1702,
+			"lat": 42.25,
+			"lng": -8.74
+		},
+		{
+			"nombre": "Batalla del cabo de la Roca",
+			"anio": 1703,
+			"lat": 38.78,
+			"lng": -9.53
+		},
+		{
+			"nombre": "batalla de Speyerbach",
+			"anio": 1703,
+			"lat": 49.32,
+			"lng": 8.43
+		},
+		{
+			"nombre": "Batalla de Blenheim (Höchstädt)",
+			"anio": 1704,
+			"lat": 48.63,
+			"lng": 10.63,
+			"descripcion": "Marlborough y Eugenio de Saboya derrotan a Francia.",
+			"bajas": "~30.000 bajas francobávaras"
+		},
+		{
+			"nombre": "Battle of Orford Ness",
+			"anio": 1704,
+			"lat": 52.05,
+			"lng": 1.74
+		},
+		{
+			"nombre": "batalla de Málaga (1704)",
+			"anio": 1704,
+			"lat": 36.7,
+			"lng": -4.37
+		},
+		{
+			"nombre": "Batalla de Elixheim",
+			"anio": 1705,
+			"lat": 50.78,
+			"lng": 5.01
+		},
+		{
+			"nombre": "Batalla del Huerto de las Bombas",
+			"anio": 1706,
+			"lat": 37.98,
+			"lng": -1.13
+		},
+		{
+			"nombre": "batalla de Ramillies",
+			"anio": 1706,
+			"lat": 50.64,
+			"lng": 4.92
+		},
+		{
+			"nombre": "Acción del 2 de mayo de 1707",
+			"anio": 1707,
+			"lat": 50.74,
+			"lng": 0.24
+		},
+		{
+			"nombre": "Batalla de Almansa",
+			"anio": 1707,
+			"lat": 38.87,
+			"lng": -1.1,
+			"descripcion": "Victoria borbónica decisiva en suelo español.",
+			"bajas": "~10.000 bajas aliadas"
+		},
+		{
+			"nombre": "Batalla del cabo Lizard",
+			"anio": 1707,
+			"lat": 49.95,
+			"lng": -5.21
+		},
+		{
+			"nombre": "Batalla de Siracusa",
+			"anio": 1710,
+			"lat": 37.07,
+			"lng": 15.28
+		},
+		{
+			"nombre": "Sitio de Barcelona",
+			"anio": 1714,
+			"lat": 41.39,
+			"lng": 2.18,
+			"descripcion": "La ciudad cae el 11 de septiembre de 1714 ante Felipe V."
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de sucesión española",

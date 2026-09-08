@@ -11,20 +11,6 @@
 	"bajas": "desconocidas",
 	"descripcion": "Durante medio siglo los jinetes magiares saquean Europa central y occidental, hasta que Otón I los aplasta a orillas del Lech, junto a Augsburgo (955), poniendo fin a las incursiones y empujando a Hungría al sedentarismo cristiano.",
 	"wiki": "Batalla de Lechfeld (955)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Batalla de Lechfeld (955)",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lechfeld_(955)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Invasiones magiares en Europa",
-			"url": "https://es.wikipedia.org/wiki/Invasiones_magiares_en_Europa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Incursiones magiares en Europa central",
@@ -72,6 +58,20 @@
 			"lat": 48.25,
 			"lng": 10.9,
 			"descripcion": "Otón I aniquila a los magiares junto a Augsburgo."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Lechfeld (955)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lechfeld_(955)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Invasiones magiares en Europa",
+			"url": "https://es.wikipedia.org/wiki/Invasiones_magiares_en_Europa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

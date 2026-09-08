@@ -10,18 +10,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "El emperador Wu abandona la política de apaciguamiento (heqin) y lanza grandes campañas contra los nómadas Xiongnu de la estepa. Generales como Wei Qing y Huo Qubing empujan la frontera hacia el norte y el corredor de Hexi, abriendo la ruta hacia Asia central. Antes, en Pincheng (200 a. C.), el fundador Gaozu había sido cercado por los Xiongnu.",
 	"wiki": "Guerras Han-Xiongnu",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras Han-Xiongnu",
-			"url": "https://es.wikipedia.org/wiki/Guerras_Han-Xiongnu",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de la China milenaria",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frontera norte y estepa de Mongolia",
@@ -55,6 +43,18 @@
 			"lat": 40.09,
 			"lng": 113.3,
 			"descripcion": "Los Xiongnu cercan a Gaozu; tregua y tributo."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Han-Xiongnu",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Han-Xiongnu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la China milenaria",
+			"licencia": "referencia"
 		}
 	]
 }

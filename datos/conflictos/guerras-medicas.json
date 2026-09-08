@@ -75,15 +75,8 @@
 			"anio": -490,
 			"lat": 38.15,
 			"lng": 23.97,
-			"bajas": "~6.400 persas y 192 atenienses muertos",
-			"descripcion": "Milcíades rechaza la primera invasión persa."
-		},
-		{
-			"nombre": "Batalla de las Termópilas",
-			"anio": -480,
-			"lat": 38.8,
-			"lng": 22.53,
-			"descripcion": "Leónidas y sus 300 espartanos resisten hasta el final."
+			"descripcion": "Milcíades rechaza la primera invasión persa.",
+			"bajas": "~6.400 persas y 192 atenienses muertos"
 		},
 		{
 			"nombre": "Batalla de Salamina",
@@ -91,6 +84,13 @@
 			"lat": 37.95,
 			"lng": 23.5,
 			"descripcion": "Temístocles destruye la flota persa en el estrecho."
+		},
+		{
+			"nombre": "Batalla de las Termópilas",
+			"anio": -480,
+			"lat": 38.8,
+			"lng": 22.53,
+			"descripcion": "Leónidas y sus 300 espartanos resisten hasta el final."
 		},
 		{
 			"nombre": "Batalla de Platea",

@@ -7,7 +7,198 @@
 		"Algeria (FR)",
 		"Argelia"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Argelia francesa",
+			"desde": 1830,
+			"hasta": 1962
+		},
+		{
+			"nombre": "República Argelina Democrática y Popular",
+			"desde": 1962,
+			"hasta": 2026
+		}
+	],
 	"wiki": "es:Argelia",
+	"wikidata": "Q262",
+	"resena": "Argelia, oficialmente República Argelina Democrática y Popular, es uno de los cincuenta y cuatro países que forman el continente africano. Constitucionalmente se define como país árabe, amazig y musulmán.Su capital y ciudad más poblada es Argel.",
+	"gobernantes": [
+		{
+			"nombre": "Masinisa",
+			"cargo": "rey de Numidia",
+			"desde": -202,
+			"hasta": -148
+		},
+		{
+			"nombre": "Jugurta",
+			"cargo": "rey de Numidia",
+			"desde": -118,
+			"hasta": -105
+		},
+		{
+			"nombre": "Reino zayyánida de Tremecén",
+			"cargo": "dinastía (Abdalwadíes)",
+			"desde": 1235,
+			"hasta": 1554
+		},
+		{
+			"nombre": "Hayreddin Barbarroja",
+			"cargo": "beylerbey (Regencia otomana de Argel)",
+			"desde": 1518,
+			"hasta": 1533
+		},
+		{
+			"nombre": "Regencia de Argel (deys otomanos)",
+			"cargo": "dey",
+			"desde": 1671,
+			"hasta": 1830
+		},
+		{
+			"nombre": "Abd al-Qadir al-Yazairi (Abdelkader)",
+			"cargo": "emir (resistencia a la conquista francesa)",
+			"desde": 1832,
+			"hasta": 1847
+		},
+		{
+			"nombre": "Ferhat Abbas",
+			"cargo": "presidente de la Asamblea Constituyente (jefe de Estado)",
+			"desde": 1962,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Ahmed Ben Bella",
+			"cargo": "presidente",
+			"desde": 1963,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Houari Boumédiène",
+			"cargo": "presidente (Consejo de la Revolución y presidente de la República)",
+			"desde": 1965,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Rabah Bitat",
+			"cargo": "presidente interino",
+			"desde": 1978,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Chadli Bendjedid",
+			"cargo": "presidente",
+			"desde": 1979,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Mohamed Boudiaf",
+			"cargo": "presidente (Alto Comité de Estado)",
+			"desde": 1992,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Ali Kafi",
+			"cargo": "presidente (Alto Comité de Estado)",
+			"desde": 1992,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Liamine Zéroual",
+			"cargo": "presidente",
+			"desde": 1994,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Abdelaziz Bouteflika",
+			"cargo": "presidente",
+			"desde": 1999,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Ahmed Ouyahia",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Abdelkader Bensalah",
+			"cargo": "presidente interino",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Nuredin Bedui",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Abdelaziz Djerrad",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Abdelmadjid Tebboune",
+			"cargo": "presidente",
+			"desde": 2019,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Aiman Benabderrahmane",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Nadir Larbaoui",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Sifi Ghrieb",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1900,
+			"valor": 4700000,
+			"fuente": "estimación (OWID)"
+		},
+		{
+			"anio": 1950,
+			"valor": 8872000,
+			"fuente": "OWID"
+		},
+		{
+			"anio": 1966,
+			"valor": 12096000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 1987,
+			"valor": 23038000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2008,
+			"valor": 34080000,
+			"fuente": "censo"
+		},
+		{
+			"anio": 2024,
+			"valor": 46700000,
+			"fuente": "UN/OWID (estimación)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "National Emblem of Algeria (bronze effect).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -78,196 +269,11 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"nombres_periodo": [
-		{
-			"nombre": "Argelia francesa",
-			"desde": 1830,
-			"hasta": 1962
-		},
-		{
-			"nombre": "República Argelina Democrática y Popular",
-			"desde": 1962,
-			"hasta": 2026
-		}
-	],
-	"wikidata": "Q262",
-	"gobernantes": [
-		{
-			"nombre": "Masinisa",
-			"desde": -202,
-			"hasta": -148,
-			"cargo": "rey de Numidia"
-		},
-		{
-			"nombre": "Jugurta",
-			"desde": -118,
-			"hasta": -105,
-			"cargo": "rey de Numidia"
-		},
-		{
-			"nombre": "Reino zayyánida de Tremecén",
-			"desde": 1235,
-			"hasta": 1554,
-			"cargo": "dinastía (Abdalwadíes)"
-		},
-		{
-			"nombre": "Hayreddin Barbarroja",
-			"desde": 1518,
-			"hasta": 1533,
-			"cargo": "beylerbey (Regencia otomana de Argel)"
-		},
-		{
-			"nombre": "Regencia de Argel (deys otomanos)",
-			"desde": 1671,
-			"hasta": 1830,
-			"cargo": "dey"
-		},
-		{
-			"nombre": "Abd al-Qadir al-Yazairi (Abdelkader)",
-			"desde": 1832,
-			"hasta": 1847,
-			"cargo": "emir (resistencia a la conquista francesa)"
-		},
-		{
-			"nombre": "Ferhat Abbas",
-			"desde": 1962,
-			"hasta": 1963,
-			"cargo": "presidente de la Asamblea Constituyente (jefe de Estado)"
-		},
-		{
-			"nombre": "Ahmed Ben Bella",
-			"desde": 1963,
-			"hasta": 1965,
-			"cargo": "presidente"
-		},
-		{
-			"nombre": "Houari Boumédiène",
-			"desde": 1965,
-			"hasta": 1978,
-			"cargo": "presidente (Consejo de la Revolución y presidente de la República)"
-		},
-		{
-			"nombre": "Rabah Bitat",
-			"desde": 1978,
-			"hasta": 1979,
-			"cargo": "presidente interino"
-		},
-		{
-			"nombre": "Chadli Bendjedid",
-			"desde": 1979,
-			"hasta": 1992,
-			"cargo": "presidente"
-		},
-		{
-			"nombre": "Mohamed Boudiaf",
-			"desde": 1992,
-			"hasta": 1992,
-			"cargo": "presidente (Alto Comité de Estado)"
-		},
-		{
-			"nombre": "Ali Kafi",
-			"desde": 1992,
-			"hasta": 1994,
-			"cargo": "presidente (Alto Comité de Estado)"
-		},
-		{
-			"nombre": "Liamine Zéroual",
-			"desde": 1994,
-			"hasta": 1999,
-			"cargo": "presidente"
-		},
-		{
-			"nombre": "Abdelaziz Bouteflika",
-			"desde": 1999,
-			"hasta": 2019,
-			"cargo": "presidente"
-		},
-		{
-			"desde": 2017,
-			"hasta": 2019,
-			"nombre": "Ahmed Ouyahia",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"nombre": "Abdelkader Bensalah",
-			"desde": 2019,
-			"hasta": 2019,
-			"cargo": "presidente interino"
-		},
-		{
-			"nombre": "Abdelmadjid Tebboune",
-			"desde": 2019,
-			"hasta": 2026,
-			"cargo": "presidente"
-		},
-		{
-			"desde": 2019,
-			"hasta": 2019,
-			"nombre": "Nuredin Bedui",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2019,
-			"hasta": 2021,
-			"nombre": "Abdelaziz Djerrad",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2023,
-			"nombre": "Aiman Benabderrahmane",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2023,
-			"hasta": 2025,
-			"nombre": "Nadir Larbaoui",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2025,
-			"hasta": 2025,
-			"nombre": "Sifi Ghrieb",
-			"cargo": "jefe de gobierno"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1900,
-			"valor": 4700000,
-			"fuente": "estimación (OWID)"
-		},
-		{
-			"anio": 1950,
-			"valor": 8872000,
-			"fuente": "OWID"
-		},
-		{
-			"anio": 1966,
-			"valor": 12096000,
-			"fuente": "censo"
-		},
-		{
-			"anio": 1987,
-			"valor": 23038000,
-			"fuente": "censo"
-		},
-		{
-			"anio": 2008,
-			"valor": 34080000,
-			"fuente": "censo"
-		},
-		{
-			"anio": 2024,
-			"valor": 46700000,
-			"fuente": "UN/OWID (estimación)"
-		}
-	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "be0016978bf3",
+		"hash": "56f90bcc5062",
 		"secciones": [
 			"escudos",
 			"fuentes",
@@ -276,11 +282,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Argelia, oficialmente República Argelina Democrática y Popular, es uno de los cincuenta y cuatro países que forman el continente africano. Constitucionalmente se define como país árabe, amazig y musulmán.Su capital y ciudad más poblada es Argel.",
-	"escudos": [
-		{
-			"archivo": "National Emblem of Algeria (bronze effect).svg"
-		}
-	]
+	}
 }

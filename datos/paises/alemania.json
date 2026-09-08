@@ -7,36 +7,46 @@
 		"West Germany",
 		"East Germany"
 	],
+	"owid": "Germany",
+	"relacionados": [
+		"Prusia",
+		"Sacro Imperio",
+		"Prusia y estados alemanes",
+		"Godos",
+		"Vándalos",
+		"Suevos"
+	],
+	"resena": "Alemania, oficialmente la República Federal de Alemania, es un país de Europa central y el Estado de la Unión Europea con mayor población y PIB. Constituido en Estado social y democrático de derecho, su forma de gobierno es la república parlamentaria y federal.",
 	"gobernantes": [
 		{
-			"desde": 1871,
-			"hasta": 1888,
 			"nombre": "Guillermo I (canciller: Bismarck)",
-			"titulo": "Emperador alemán"
+			"titulo": "Emperador alemán",
+			"desde": 1871,
+			"hasta": 1888
 		},
 		{
-			"desde": 1888,
-			"hasta": 1918,
 			"nombre": "Guillermo II",
-			"titulo": "Emperador alemán"
+			"titulo": "Emperador alemán",
+			"desde": 1888,
+			"hasta": 1918
 		},
 		{
-			"desde": 1933,
-			"hasta": 1945,
 			"nombre": "Adolf Hitler",
-			"titulo": "Canciller y Führer"
+			"titulo": "Canciller y Führer",
+			"desde": 1933,
+			"hasta": 1945
 		},
 		{
-			"desde": 1949,
-			"hasta": 1963,
 			"nombre": "Konrad Adenauer (RFA)",
-			"titulo": "Canciller federal"
+			"titulo": "Canciller federal",
+			"desde": 1949,
+			"hasta": 1963
 		},
 		{
-			"desde": 2005,
-			"hasta": 2021,
 			"nombre": "Angela Merkel",
-			"titulo": "Canciller federal"
+			"titulo": "Canciller federal",
+			"desde": 2005,
+			"hasta": 2021
 		}
 	],
 	"poblacion": [
@@ -221,14 +231,6 @@
 			"valor": 84548233
 		}
 	],
-	"relacionados": [
-		"Prusia",
-		"Sacro Imperio",
-		"Prusia y estados alemanes",
-		"Godos",
-		"Vándalos",
-		"Suevos"
-	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Alemania",
@@ -248,7 +250,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Germany",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -258,6 +259,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Alemania, oficialmente la República Federal de Alemania, es un país de Europa central y el Estado de la Unión Europea con mayor población y PIB. Constituido en Estado social y democrático de derecho, su forma de gobierno es la república parlamentaria y federal."
+	}
 }

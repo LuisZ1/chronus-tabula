@@ -7,30 +7,6 @@
 		"Republica Tunecina",
 		"Reino de Tunez"
 	],
-	"wiki": "es:Túnez",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia-en-presidentes",
-			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Tunisia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q948",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Túnez",
-			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Protectorado frances de Tunez",
@@ -48,49 +24,51 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Túnez",
 	"wikidata": "Q948",
+	"resena": "Túnez, oficialmente República de Túnez o República Tunecina, es un país soberano situado en el norte de África, más concretamente en la costa mediterránea. Su territorio está organizado en 24 gobernaciones o wilayat.",
 	"gobernantes": [
 		{
 			"nombre": "Habib Bourguiba",
+			"cargo": "Presidente",
 			"desde": 1957,
-			"hasta": 1987,
-			"cargo": "Presidente"
+			"hasta": 1987
 		},
 		{
 			"nombre": "Zine El Abidine Ben Ali",
+			"cargo": "Presidente",
 			"desde": 1987,
-			"hasta": 2011,
-			"cargo": "Presidente"
+			"hasta": 2011
 		},
 		{
 			"nombre": "Fouad Mebazaa",
+			"cargo": "Presidente interino",
 			"desde": 2011,
-			"hasta": 2011,
-			"cargo": "Presidente interino"
+			"hasta": 2011
 		},
 		{
 			"nombre": "Moncef Marzouki",
+			"cargo": "Presidente",
 			"desde": 2011,
-			"hasta": 2014,
-			"cargo": "Presidente"
+			"hasta": 2014
 		},
 		{
 			"nombre": "Beji Caid Essebsi",
+			"cargo": "Presidente",
 			"desde": 2014,
-			"hasta": 2019,
-			"cargo": "Presidente"
+			"hasta": 2019
 		},
 		{
 			"nombre": "Mohamed Ennaceur",
+			"cargo": "Presidente interino",
 			"desde": 2019,
-			"hasta": 2019,
-			"cargo": "Presidente interino"
+			"hasta": 2019
 		},
 		{
 			"nombre": "Kais Saied",
+			"cargo": "Presidente",
 			"desde": 2019,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -125,6 +103,29 @@
 			"fuente": "Wikipedia (es), estimacion"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia-en-presidentes",
+			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Tunisia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q948",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Túnez",
+			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -137,6 +138,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Túnez, oficialmente República de Túnez o República Tunecina, es un país soberano situado en el norte de África, más concretamente en la costa mediterránea. Su territorio está organizado en 24 gobernaciones o wilayat."
+	}
 }

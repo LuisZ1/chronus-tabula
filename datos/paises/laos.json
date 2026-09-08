@@ -4,28 +4,10 @@
 	"nombres": [
 		"Laos"
 	],
-	"wikidata": "Q819",
 	"wiki": "es:Laos",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q819",
-			"url": "https://www.wikidata.org/wiki/Q819",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Laos",
-			"url": "https://es.wikipedia.org/wiki/Laos",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q819",
 	"owid": "LAO",
+	"resena": "Laos, oficialmente República Democrática Popular Lao, es un Estado soberano situado en la península de Indochina. Limita con Myanmar y China al noroeste, Vietnam al este, Camboya al sureste, y Tailandia al oeste y suroeste, y es el único país sin salida al mar en el Sudeste Asiático.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 7665001
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q819",
+			"url": "https://www.wikidata.org/wiki/Q819",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Laos",
+			"url": "https://es.wikipedia.org/wiki/Laos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Laos, oficialmente República Democrática Popular Lao, es un Estado soberano situado en la península de Indochina. Limita con Myanmar y China al noroeste, Vietnam al este, Camboya al sureste, y Tailandia al oeste y suroeste, y es el único país sin salida al mar en el Sudeste Asiático."
+	}
 }

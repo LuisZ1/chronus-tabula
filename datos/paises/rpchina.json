@@ -5,24 +5,25 @@
 		"China"
 	],
 	"wiki": "República Popular China",
+	"resena": "La República Popular China, mayormente conocida como China, es un país soberano de Asia Oriental con capital en Pekín. Es el segundo país más poblado del mundo.",
 	"gobernantes": [
 		{
-			"desde": 1949,
-			"hasta": 1976,
 			"nombre": "Mao Zedong",
-			"titulo": "Presidente del PCCh, fundador de la RPC"
+			"titulo": "Presidente del PCCh, fundador de la RPC",
+			"desde": 1949,
+			"hasta": 1976
 		},
 		{
-			"desde": 1978,
-			"hasta": 1992,
 			"nombre": "Deng Xiaoping",
-			"titulo": "Líder supremo, artífice de la Reforma y Apertura"
+			"titulo": "Líder supremo, artífice de la Reforma y Apertura",
+			"desde": 1978,
+			"hasta": 1992
 		},
 		{
-			"desde": 2012,
-			"hasta": 2026,
 			"nombre": "Xi Jinping",
-			"titulo": "Secretario general del PCCh y presidente de la RPC"
+			"titulo": "Secretario general del PCCh y presidente de la RPC",
+			"desde": 2012,
+			"hasta": 2026
 		}
 	],
 	"fuentes": [
@@ -39,7 +40,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La República Popular China, mayormente conocida como China, es un país soberano de Asia Oriental con capital en Pekín. Es el segundo país más poblado del mundo.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

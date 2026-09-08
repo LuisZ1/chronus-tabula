@@ -9,23 +9,7 @@
 	],
 	"bajas": "~150.000-300.000 muertos",
 	"descripcion": "En once años Alejandro conquista el Imperio persa y llega hasta el Indo.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Issos",
-			"anio": -333,
-			"lat": 36.84,
-			"lng": 36.2,
-			"descripcion": "Primera derrota de Darío III en persona."
-		},
-		{
-			"nombre": "Batalla de Gaugamela",
-			"anio": -331,
-			"lat": 36.56,
-			"lng": 43.44,
-			"bajas": "~50.000 persas muertos",
-			"descripcion": "Victoria decisiva que abre a Alejandro el corazón de Persia."
-		}
-	],
+	"wiki": "Alejandro Magno",
 	"zonas": [
 		{
 			"nombre": "Asia Menor",
@@ -236,7 +220,23 @@
 			]
 		}
 	],
-	"wiki": "Alejandro Magno",
+	"batallas": [
+		{
+			"nombre": "Batalla de Issos",
+			"anio": -333,
+			"lat": 36.84,
+			"lng": 36.2,
+			"descripcion": "Primera derrota de Darío III en persona."
+		},
+		{
+			"nombre": "Batalla de Gaugamela",
+			"anio": -331,
+			"lat": 36.56,
+			"lng": 43.44,
+			"descripcion": "Victoria decisiva que abre a Alejandro el corazón de Persia.",
+			"bajas": "~50.000 persas muertos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Alejandro Magno",

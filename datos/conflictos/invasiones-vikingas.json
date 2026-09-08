@@ -12,20 +12,6 @@
 	"bajas": "decenas de miles a lo largo de tres siglos (sin registros fiables)",
 	"descripcion": "Del saqueo de Lindisfarne (793) a Stamford Bridge (1066): los escandinavos asaltan y luego colonizan las islas británicas, Irlanda y el Sena, imponen el Danelaw en el noreste de Inglaterra y fundan desde Dublín hasta Normandía.",
 	"wiki": "Era vikinga",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Era vikinga",
-			"url": "https://es.wikipedia.org/wiki/Era_vikinga",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-es:Danelaw",
-			"url": "https://es.wikipedia.org/wiki/Danelaw",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Incursiones costeras en las islas británicas",
@@ -208,6 +194,20 @@
 			"lng": -6.2,
 			"descripcion": "Brian Boru quiebra el poder vikingo en Irlanda, muriendo en la victoria.",
 			"wiki": "Batalla de Clontarf"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Era vikinga",
+			"url": "https://es.wikipedia.org/wiki/Era_vikinga",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Danelaw",
+			"url": "https://es.wikipedia.org/wiki/Danelaw",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

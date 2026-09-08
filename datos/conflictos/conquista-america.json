@@ -491,14 +491,6 @@
 			"descripcion": "Primera batalla de Cortés en tierras mexicas; recibe a la Malinche."
 		},
 		{
-			"nombre": "La Noche Triste",
-			"anio": 1520,
-			"lat": 19.44,
-			"lng": -99.19,
-			"bajas": "~600 españoles y miles de aliados",
-			"descripcion": "Los españoles huyen de Tenochtitlan con grandes pérdidas."
-		},
-		{
 			"nombre": "Batalla de Otumba",
 			"anio": 1520,
 			"lat": 19.7,
@@ -506,20 +498,28 @@
 			"descripcion": "Cortés derrota al ejército mexica en campo abierto tras la Noche Triste."
 		},
 		{
+			"nombre": "La Noche Triste",
+			"anio": 1520,
+			"lat": 19.44,
+			"lng": -99.19,
+			"descripcion": "Los españoles huyen de Tenochtitlan con grandes pérdidas.",
+			"bajas": "~600 españoles y miles de aliados"
+		},
+		{
 			"nombre": "Caída de Tenochtitlan",
 			"anio": 1521,
 			"lat": 19.43,
 			"lng": -99.13,
-			"bajas": "~100.000-240.000 muertos",
-			"descripcion": "Tras meses de asedio cae la capital mexica; Cuauhtémoc es capturado."
+			"descripcion": "Tras meses de asedio cae la capital mexica; Cuauhtémoc es capturado.",
+			"bajas": "~100.000-240.000 muertos"
 		},
 		{
 			"nombre": "Emboscada de Cajamarca",
 			"anio": 1532,
 			"lat": -7.16,
 			"lng": -78.51,
-			"bajas": "~6.000-7.000 incas muertos",
-			"descripcion": "Captura de Atahualpa sin bajas españolas."
+			"descripcion": "Captura de Atahualpa sin bajas españolas.",
+			"bajas": "~6.000-7.000 incas muertos"
 		},
 		{
 			"nombre": "Toma de Cuzco",

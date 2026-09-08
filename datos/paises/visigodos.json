@@ -6,30 +6,31 @@
 		"Visigoths"
 	],
 	"wiki": "Reino visigodo",
+	"resena": "El reino visigodo fue una entidad política establecida por el pueblo visigodo tras su asentamiento en una parte de la actual Francia y la península ibérica, en la época de las invasiones germánicas, que perduró durante buena parte de la Alta Edad Media, ocupando territorios en las Galias e Hispania en sus diversas etapas.",
 	"gobernantes": [
 		{
-			"desde": 568,
-			"hasta": 586,
 			"nombre": "Leovigildo",
-			"titulo": "Rey visigodo, unificador de Hispania"
+			"titulo": "Rey visigodo, unificador de Hispania",
+			"desde": 568,
+			"hasta": 586
 		},
 		{
-			"desde": 586,
-			"hasta": 601,
 			"nombre": "Recaredo I",
-			"titulo": "Rey visigodo, convertido al catolicismo (589)"
+			"titulo": "Rey visigodo, convertido al catolicismo (589)",
+			"desde": 586,
+			"hasta": 601
 		},
 		{
-			"desde": 672,
-			"hasta": 680,
 			"nombre": "Wamba",
-			"titulo": "Rey visigodo; sofocó la rebelión de la Septimania"
+			"titulo": "Rey visigodo; sofocó la rebelión de la Septimania",
+			"desde": 672,
+			"hasta": 680
 		},
 		{
-			"desde": 710,
-			"hasta": 711,
 			"nombre": "Don Rodrigo",
-			"titulo": "Último rey visigodo; derrotado en Guadalete (711)"
+			"titulo": "Último rey visigodo; derrotado en Guadalete (711)",
+			"desde": 710,
+			"hasta": 711
 		}
 	],
 	"fuentes": [
@@ -46,7 +47,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El reino visigodo fue una entidad política establecida por el pueblo visigodo tras su asentamiento en una parte de la actual Francia y la península ibérica, en la época de las invasiones germánicas, que perduró durante buena parte de la Alta Edad Media, ocupando territorios en las Galias e Hispania en sus diversas etapas.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

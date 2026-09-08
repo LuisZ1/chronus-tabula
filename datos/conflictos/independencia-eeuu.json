@@ -12,685 +12,7 @@
 	],
 	"bajas": "~70.000 muertos",
 	"descripcion": "Las colonias americanas se independizan de Gran Bretaña con ayuda de Francia y España. El control del territorio evolucionó: los británicos dominaron Boston (1775-76), Nueva York (1776-83), Filadelfia (1777-78) y el Sur (1779-82), mientras los patriotas controlaban Nueva Inglaterra y el interior; tras Yorktown (1781) el control británico quedó reducido a Nueva York.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Bunker Hill",
-			"anio": 1775,
-			"lat": 42.38,
-			"lng": -71.06
-		},
-		{
-			"nombre": "Batalla de Bunker Hill",
-			"anio": 1775,
-			"lat": 42.38,
-			"lng": -71.06
-		},
-		{
-			"nombre": "Captura del Fuerte Ticonderoga",
-			"anio": 1775,
-			"lat": 43.84,
-			"lng": -73.39
-		},
-		{
-			"nombre": "Batalla de Great Bridge",
-			"anio": 1775,
-			"lat": 36.72,
-			"lng": -76.24
-		},
-		{
-			"nombre": "Batalla de Kemp's Landing",
-			"anio": 1775,
-			"lat": 36.83,
-			"lng": -76.16
-		},
-		{
-			"nombre": "Batalla de Quebec",
-			"anio": 1775,
-			"lat": 46.81,
-			"lng": -71.2
-		},
-		{
-			"nombre": "Batalla de Longue-Pointe",
-			"anio": 1775,
-			"lat": 45.56,
-			"lng": -73.53
-		},
-		{
-			"nombre": "Batalla de Chelsea Creek",
-			"anio": 1775,
-			"lat": 42.38,
-			"lng": -71.03
-		},
-		{
-			"nombre": "Batalla de Long Island",
-			"anio": 1776,
-			"lat": 40.66,
-			"lng": -73.98
-		},
-		{
-			"nombre": "Landing at Kip's Bay",
-			"anio": 1776,
-			"lat": 40.74,
-			"lng": -73.97
-		},
-		{
-			"nombre": "Batalla de Pell's Point",
-			"anio": 1776,
-			"lat": 40.87,
-			"lng": -73.81
-		},
-		{
-			"nombre": "Batalla de Long Island",
-			"anio": 1776,
-			"lat": 40.66,
-			"lng": -73.98
-		},
-		{
-			"nombre": "Batalla de Harlem Heights",
-			"anio": 1776,
-			"lat": 40.81,
-			"lng": -73.96
-		},
-		{
-			"nombre": "Batalla de Fort Washington",
-			"anio": 1776,
-			"lat": 40.85,
-			"lng": -73.94
-		},
-		{
-			"nombre": "Batalla de White Plains",
-			"anio": 1776,
-			"lat": 41.03,
-			"lng": -73.78
-		},
-		{
-			"nombre": "Batalla de Iron Works Hill",
-			"anio": 1776,
-			"lat": 39.99,
-			"lng": -74.79
-		},
-		{
-			"nombre": "Batalla de Lindley's Fort",
-			"anio": 1776,
-			"lat": 34.46,
-			"lng": -82.12
-		},
-		{
-			"nombre": "Batalla de Saint-Pierre",
-			"anio": 1776,
-			"lat": 46.92,
-			"lng": -70.63
-		},
-		{
-			"nombre": "Batalla de Fort Cumberland",
-			"anio": 1776,
-			"lat": 45.87,
-			"lng": -64.29
-		},
-		{
-			"nombre": "Batalla de Sullivan's Island",
-			"anio": 1776,
-			"lat": 32.76,
-			"lng": -79.86
-		},
-		{
-			"nombre": "Batalla de Saratoga",
-			"anio": 1777,
-			"lat": 42.99,
-			"lng": -73.64,
-			"descripcion": "Victoria que convence a Francia de entrar en la guerra."
-		},
-		{
-			"nombre": "Batalla de Brandywine",
-			"anio": 1777,
-			"lat": 39.87,
-			"lng": -75.59
-		},
-		{
-			"nombre": "Batalla de Gloucester",
-			"anio": 1777,
-			"lat": 39.87,
-			"lng": -75.19
-		},
-		{
-			"nombre": "Battle of the Assunpink Creek",
-			"anio": 1777,
-			"lat": 40.22,
-			"lng": -74.76
-		},
-		{
-			"nombre": "Batalla de Germantown",
-			"anio": 1777,
-			"lat": 40.02,
-			"lng": -75.16
-		},
-		{
-			"nombre": "Batalla de Brandywine",
-			"anio": 1777,
-			"lat": 39.87,
-			"lng": -75.59
-		},
-		{
-			"nombre": "Asedio de Fort Ticonderoga",
-			"anio": 1777,
-			"lat": 43.84,
-			"lng": -73.39
-		},
-		{
-			"nombre": "Batalla de Oriskany",
-			"anio": 1777,
-			"lat": 43.18,
-			"lng": -75.37
-		},
-		{
-			"nombre": "batalla de Princeton",
-			"anio": 1777,
-			"lat": 40.33,
-			"lng": -74.67
-		},
-		{
-			"nombre": "Batalla de Fort Anne",
-			"anio": 1777,
-			"lat": 43.43,
-			"lng": -73.48
-		},
-		{
-			"nombre": "Batalla de Hubbardton",
-			"anio": 1777,
-			"lat": 43.7,
-			"lng": -73.14
-		},
-		{
-			"nombre": "Batalla de Bennington",
-			"anio": 1777,
-			"lat": 42.94,
-			"lng": -73.3
-		},
-		{
-			"nombre": "Batalla de Cooch's Bridge",
-			"anio": 1777,
-			"lat": 39.64,
-			"lng": -75.73
-		},
-		{
-			"nombre": "Batalla de Paoli",
-			"anio": 1777,
-			"lat": 40.03,
-			"lng": -75.52
-		},
-		{
-			"nombre": "Batalla de Millstone",
-			"anio": 1777,
-			"lat": 40.54,
-			"lng": -74.59
-		},
-		{
-			"nombre": "Batalla de Matson's Ford",
-			"anio": 1777,
-			"lat": 40.07,
-			"lng": -75.31
-		},
-		{
-			"nombre": "Batalla de Forts Clinton and Montgomery",
-			"anio": 1777,
-			"lat": 41.32,
-			"lng": -73.99
-		},
-		{
-			"nombre": "Batalla de Short Hills",
-			"anio": 1777,
-			"lat": 40.75,
-			"lng": -74.33
-		},
-		{
-			"nombre": "Batalla de White Marsh",
-			"anio": 1777,
-			"lat": 40.12,
-			"lng": -75.23
-		},
-		{
-			"nombre": "Batalla de Red Bank",
-			"anio": 1777,
-			"lat": 39.87,
-			"lng": -75.19
-		},
-		{
-			"nombre": "Batalla de Bound Brook",
-			"anio": 1777,
-			"lat": 40.56,
-			"lng": -74.53
-		},
-		{
-			"nombre": "Batalla de Machias (1777)",
-			"anio": 1777,
-			"lat": 44.71,
-			"lng": -67.46
-		},
-		{
-			"nombre": "Batalla de Ridgefield",
-			"anio": 1777,
-			"lat": 41.31,
-			"lng": -73.5
-		},
-		{
-			"nombre": "Batalla de Setauket",
-			"anio": 1777,
-			"lat": 40.95,
-			"lng": -73.11
-		},
-		{
-			"nombre": "Battle of the Clouds",
-			"anio": 1777,
-			"lat": 40.05,
-			"lng": -75.57
-		},
-		{
-			"nombre": "Batalla de Punk Hill",
-			"anio": 1777,
-			"lat": 40.52,
-			"lng": -74.36
-		},
-		{
-			"nombre": "Batalla de Thomas Creek",
-			"anio": 1777,
-			"lat": 30.51,
-			"lng": -81.79
-		},
-		{
-			"nombre": "batalla del cabo Finisterre (1778)",
-			"anio": 1778,
-			"lat": 42.88,
-			"lng": -9.29
-		},
-		{
-			"nombre": "Batalla de Rhode Island",
-			"anio": 1778,
-			"lat": 41.6,
-			"lng": -71.26
-		},
-		{
-			"nombre": "Batalla de Monmouth",
-			"anio": 1778,
-			"lat": 40.26,
-			"lng": -74.28
-		},
-		{
-			"nombre": "Batalla de Chestnut Neck",
-			"anio": 1778,
-			"lat": 39.54,
-			"lng": -74.46
-		},
-		{
-			"nombre": "Batalla de Cobleskill",
-			"anio": 1778,
-			"lat": 42.68,
-			"lng": -74.49
-		},
-		{
-			"nombre": "Batalla de Alligator Bridge",
-			"anio": 1778,
-			"lat": 30.57,
-			"lng": -81.83
-		},
-		{
-			"nombre": "Batalla de Barren Hill",
-			"anio": 1778,
-			"lat": 40.08,
-			"lng": -75.25
-		},
-		{
-			"nombre": "Baylor Massacre",
-			"anio": 1778,
-			"lat": 41.01,
-			"lng": -74.01
-		},
-		{
-			"nombre": "Batalla de Quinton's Bridge",
-			"anio": 1778,
-			"lat": 39.55,
-			"lng": -75.41
-		},
-		{
-			"nombre": "Cherry Valley massacre",
-			"anio": 1778,
-			"lat": 42.79,
-			"lng": -74.76
-		},
-		{
-			"nombre": "Mount Hope Bay raids",
-			"anio": 1778,
-			"lat": 41.69,
-			"lng": -71.22
-		},
-		{
-			"nombre": "Batalla de Crooked Billet",
-			"anio": 1778,
-			"lat": 40.17,
-			"lng": -75.11
-		},
-		{
-			"nombre": "Gran Asedio de Gibraltar",
-			"anio": 1779,
-			"lat": 36.14,
-			"lng": -5.35,
-			"descripcion": "España y Francia asedian el Peñón durante casi cuatro años sin éxito."
-		},
-		{
-			"nombre": "Batalla de Newtown",
-			"anio": 1779,
-			"lat": 42.05,
-			"lng": -76.73
-		},
-		{
-			"nombre": "Batalla de Stony Point",
-			"anio": 1779,
-			"lat": 41.24,
-			"lng": -73.97
-		},
-		{
-			"nombre": "Batalla de Chillicothe",
-			"anio": 1779,
-			"lat": 39.73,
-			"lng": -83.94
-		},
-		{
-			"nombre": "Batalla de Norwalk",
-			"anio": 1779,
-			"lat": 41.12,
-			"lng": -73.41
-		},
-		{
-			"nombre": "Batalla de Beaufort",
-			"anio": 1779,
-			"lat": 32.5,
-			"lng": -80.74
-		},
-		{
-			"nombre": "Batalla de Paulus Hook",
-			"anio": 1779,
-			"lat": 40.71,
-			"lng": -74.04
-		},
-		{
-			"nombre": "Batalla de Minisink",
-			"anio": 1779,
-			"lat": 41.49,
-			"lng": -74.97
-		},
-		{
-			"nombre": "Batalla de Stono Ferry",
-			"anio": 1779,
-			"lat": 32.76,
-			"lng": -80.13
-		},
-		{
-			"nombre": "batalla del Lago Pontchartrain",
-			"anio": 1779,
-			"lat": 30.19,
-			"lng": -90.1
-		},
-		{
-			"nombre": "Batalla de Kettle Creek",
-			"anio": 1779,
-			"lat": 33.69,
-			"lng": -82.89
-		},
-		{
-			"nombre": "Batalla de Camden",
-			"anio": 1780,
-			"lat": 34.36,
-			"lng": -80.61
-		},
-		{
-			"nombre": "Batalla de Colson's Mill",
-			"anio": 1780,
-			"lat": 35.15,
-			"lng": -80.08
-		},
-		{
-			"nombre": "Batalla de Connecticut Farms",
-			"anio": 1780,
-			"lat": 40.7,
-			"lng": -74.27
-		},
-		{
-			"nombre": "Batalla de Hanging Rock",
-			"anio": 1780,
-			"lat": 34.57,
-			"lng": -80.66
-		},
-		{
-			"nombre": "Batalla de Lenud's Ferry",
-			"anio": 1780,
-			"lat": 33.3,
-			"lng": -79.68
-		},
-		{
-			"nombre": "Batalla de Charlotte",
-			"anio": 1780,
-			"lat": 35.23,
-			"lng": -80.84
-		},
-		{
-			"nombre": "Batalla de Klock's Field",
-			"anio": 1780,
-			"lat": 43.0,
-			"lng": -74.71
-		},
-		{
-			"nombre": "Batalla de Fort St. George",
-			"anio": 1780,
-			"lat": 40.96,
-			"lng": -73.04
-		},
-		{
-			"nombre": "Batalla de Fishdam Ford",
-			"anio": 1780,
-			"lat": 34.6,
-			"lng": -81.42
-		},
-		{
-			"nombre": "Batalla de Monck's Corner",
-			"anio": 1780,
-			"lat": 33.2,
-			"lng": -80.01
-		},
-		{
-			"nombre": "Batalla de San Luis",
-			"anio": 1780,
-			"lat": 38.62,
-			"lng": -90.19
-		},
-		{
-			"nombre": "Batalla de Mobley's Meeting House",
-			"anio": 1780,
-			"lat": 34.45,
-			"lng": -81.27
-		},
-		{
-			"nombre": "Batalla de Musgrove Mill",
-			"anio": 1780,
-			"lat": 34.59,
-			"lng": -81.85
-		},
-		{
-			"nombre": "Batalla de Waxhaws",
-			"anio": 1780,
-			"lat": 34.74,
-			"lng": -80.63
-		},
-		{
-			"nombre": "Batalla de Piqua",
-			"anio": 1780,
-			"lat": 39.91,
-			"lng": -83.91
-		},
-		{
-			"nombre": "Batalla de Springfield",
-			"anio": 1780,
-			"lat": 40.71,
-			"lng": -74.31
-		},
-		{
-			"nombre": "Batalla de Rocky Mount",
-			"anio": 1780,
-			"lat": 34.54,
-			"lng": -80.88
-		},
-		{
-			"nombre": "Batalla de Ramsour's Mill",
-			"anio": 1780,
-			"lat": 35.48,
-			"lng": -81.26
-		},
-		{
-			"nombre": "Batalla de Shallow Ford",
-			"anio": 1780,
-			"lat": 36.08,
-			"lng": -80.53
-		},
-		{
-			"nombre": "Batalla de Young's House",
-			"anio": 1780,
-			"lat": 41.12,
-			"lng": -73.78
-		},
-		{
-			"nombre": "Batalla de Blackstock's Farm",
-			"anio": 1780,
-			"lat": 34.68,
-			"lng": -81.81
-		},
-		{
-			"nombre": "Batalla de Bull's Ferry",
-			"anio": 1780,
-			"lat": 40.79,
-			"lng": -74.0
-		},
-		{
-			"nombre": "Sitio de Yorktown",
-			"anio": 1781,
-			"lat": 37.24,
-			"lng": -76.51,
-			"descripcion": "Rendición de Cornwallis; victoria decisiva franco-americana."
-		},
-		{
-			"nombre": "Toma de Pensacola (Bernardo de Gálvez)",
-			"anio": 1781,
-			"lat": 30.42,
-			"lng": -87.22,
-			"descripcion": "Gálvez expulsa a los británicos de la Florida occidental."
-		},
-		{
-			"nombre": "Batalla de la Bahía de Chesapeake",
-			"anio": 1781,
-			"lat": 36.97,
-			"lng": -75.54
-		},
-		{
-			"nombre": "Batalla del cabo Henry",
-			"anio": 1781,
-			"lat": 37.15,
-			"lng": -75.15
-		},
-		{
-			"nombre": "Acción del 21 Julio 1781",
-			"anio": 1781,
-			"lat": 45.91,
-			"lng": -59.97
-		},
-		{
-			"nombre": "Batalla de Guilford Court House",
-			"anio": 1781,
-			"lat": 36.13,
-			"lng": -79.84
-		},
-		{
-			"nombre": "Batalla de Johnstown",
-			"anio": 1781,
-			"lat": 43.01,
-			"lng": -74.37
-		},
-		{
-			"nombre": "Batalla de Fort Slongo",
-			"anio": 1781,
-			"lat": 40.91,
-			"lng": -73.3
-		},
-		{
-			"nombre": "Batalla de Groton Heights",
-			"anio": 1781,
-			"lat": 41.35,
-			"lng": -72.08
-		},
-		{
-			"nombre": "Batalla de Eutaw Springs",
-			"anio": 1781,
-			"lat": 33.41,
-			"lng": -80.3
-		},
-		{
-			"nombre": "Batalla de Lindley's Mill",
-			"anio": 1781,
-			"lat": 35.89,
-			"lng": -79.35
-		},
-		{
-			"nombre": "Batalla de Wetzell's Mill",
-			"anio": 1781,
-			"lat": 36.08,
-			"lng": -79.79
-		},
-		{
-			"nombre": "Batalla de Blandford",
-			"anio": 1781,
-			"lat": 37.23,
-			"lng": -77.39
-		},
-		{
-			"nombre": "Reconquista de Menorca",
-			"anio": 1782,
-			"lat": 39.89,
-			"lng": 4.27,
-			"descripcion": "España recupera la isla perdida en Utrecht."
-		},
-		{
-			"nombre": "Batalla de Blue Licks",
-			"anio": 1782,
-			"lat": 38.43,
-			"lng": -83.99
-		},
-		{
-			"nombre": "acción del 12 de diciembre de 1782",
-			"anio": 1782,
-			"lat": 43.47,
-			"lng": -8.25
-		},
-		{
-			"nombre": "Batalla de Delaware Bay",
-			"anio": 1782,
-			"lat": 39.08,
-			"lng": -74.97
-		},
-		{
-			"nombre": "Naval battle off Halifax",
-			"anio": 1782,
-			"lat": 44.3,
-			"lng": -63.4
-		},
-		{
-			"nombre": "Battle of the Delaware Capes",
-			"anio": 1782,
-			"lat": 38.97,
-			"lng": -74.97
-		},
-		{
-			"nombre": "Acción del 22 Enero 1783",
-			"anio": 1783,
-			"lat": 37.09,
-			"lng": -76.16
-		}
-	],
+	"wiki": "Guerra de Independencia de los Estados Unidos",
 	"zonas": [
 		{
 			"nombre": "Control británico: Boston",
@@ -815,9 +137,9 @@
 		{
 			"nombre": "Control patriota: Nueva Inglaterra",
 			"tipo": "ocupado",
-			"color": "#2f5fa8",
 			"desde": 1776,
 			"hasta": 1783,
+			"color": "#2f5fa8",
 			"poligono": [
 				[
 					45.2,
@@ -840,9 +162,9 @@
 		{
 			"nombre": "Control patriota: interior y Virginia",
 			"tipo": "ocupado",
-			"color": "#2f5fa8",
 			"desde": 1776,
 			"hasta": 1783,
+			"color": "#2f5fa8",
 			"poligono": [
 				[
 					42,
@@ -869,9 +191,9 @@
 		{
 			"nombre": "Control patriota: el Sur interior",
 			"tipo": "ocupado",
-			"color": "#2f5fa8",
 			"desde": 1781,
 			"hasta": 1783,
+			"color": "#2f5fa8",
 			"poligono": [
 				[
 					36,
@@ -1000,7 +322,685 @@
 			]
 		}
 	],
-	"wiki": "Guerra de Independencia de los Estados Unidos",
+	"batallas": [
+		{
+			"nombre": "Batalla de Bunker Hill",
+			"anio": 1775,
+			"lat": 42.38,
+			"lng": -71.06
+		},
+		{
+			"nombre": "Batalla de Bunker Hill",
+			"anio": 1775,
+			"lat": 42.38,
+			"lng": -71.06
+		},
+		{
+			"nombre": "Batalla de Chelsea Creek",
+			"anio": 1775,
+			"lat": 42.38,
+			"lng": -71.03
+		},
+		{
+			"nombre": "Batalla de Great Bridge",
+			"anio": 1775,
+			"lat": 36.72,
+			"lng": -76.24
+		},
+		{
+			"nombre": "Batalla de Kemp's Landing",
+			"anio": 1775,
+			"lat": 36.83,
+			"lng": -76.16
+		},
+		{
+			"nombre": "Batalla de Longue-Pointe",
+			"anio": 1775,
+			"lat": 45.56,
+			"lng": -73.53
+		},
+		{
+			"nombre": "Batalla de Quebec",
+			"anio": 1775,
+			"lat": 46.81,
+			"lng": -71.2
+		},
+		{
+			"nombre": "Captura del Fuerte Ticonderoga",
+			"anio": 1775,
+			"lat": 43.84,
+			"lng": -73.39
+		},
+		{
+			"nombre": "Batalla de Fort Cumberland",
+			"anio": 1776,
+			"lat": 45.87,
+			"lng": -64.29
+		},
+		{
+			"nombre": "Batalla de Fort Washington",
+			"anio": 1776,
+			"lat": 40.85,
+			"lng": -73.94
+		},
+		{
+			"nombre": "Batalla de Harlem Heights",
+			"anio": 1776,
+			"lat": 40.81,
+			"lng": -73.96
+		},
+		{
+			"nombre": "Batalla de Iron Works Hill",
+			"anio": 1776,
+			"lat": 39.99,
+			"lng": -74.79
+		},
+		{
+			"nombre": "Batalla de Lindley's Fort",
+			"anio": 1776,
+			"lat": 34.46,
+			"lng": -82.12
+		},
+		{
+			"nombre": "Batalla de Long Island",
+			"anio": 1776,
+			"lat": 40.66,
+			"lng": -73.98
+		},
+		{
+			"nombre": "Batalla de Long Island",
+			"anio": 1776,
+			"lat": 40.66,
+			"lng": -73.98
+		},
+		{
+			"nombre": "Batalla de Pell's Point",
+			"anio": 1776,
+			"lat": 40.87,
+			"lng": -73.81
+		},
+		{
+			"nombre": "Batalla de Saint-Pierre",
+			"anio": 1776,
+			"lat": 46.92,
+			"lng": -70.63
+		},
+		{
+			"nombre": "Batalla de Sullivan's Island",
+			"anio": 1776,
+			"lat": 32.76,
+			"lng": -79.86
+		},
+		{
+			"nombre": "Batalla de White Plains",
+			"anio": 1776,
+			"lat": 41.03,
+			"lng": -73.78
+		},
+		{
+			"nombre": "Landing at Kip's Bay",
+			"anio": 1776,
+			"lat": 40.74,
+			"lng": -73.97
+		},
+		{
+			"nombre": "Asedio de Fort Ticonderoga",
+			"anio": 1777,
+			"lat": 43.84,
+			"lng": -73.39
+		},
+		{
+			"nombre": "Batalla de Bennington",
+			"anio": 1777,
+			"lat": 42.94,
+			"lng": -73.3
+		},
+		{
+			"nombre": "Batalla de Bound Brook",
+			"anio": 1777,
+			"lat": 40.56,
+			"lng": -74.53
+		},
+		{
+			"nombre": "Batalla de Brandywine",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.59
+		},
+		{
+			"nombre": "Batalla de Brandywine",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.59
+		},
+		{
+			"nombre": "Batalla de Cooch's Bridge",
+			"anio": 1777,
+			"lat": 39.64,
+			"lng": -75.73
+		},
+		{
+			"nombre": "Batalla de Fort Anne",
+			"anio": 1777,
+			"lat": 43.43,
+			"lng": -73.48
+		},
+		{
+			"nombre": "Batalla de Forts Clinton and Montgomery",
+			"anio": 1777,
+			"lat": 41.32,
+			"lng": -73.99
+		},
+		{
+			"nombre": "Batalla de Germantown",
+			"anio": 1777,
+			"lat": 40.02,
+			"lng": -75.16
+		},
+		{
+			"nombre": "Batalla de Gloucester",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.19
+		},
+		{
+			"nombre": "Batalla de Hubbardton",
+			"anio": 1777,
+			"lat": 43.7,
+			"lng": -73.14
+		},
+		{
+			"nombre": "Batalla de Machias (1777)",
+			"anio": 1777,
+			"lat": 44.71,
+			"lng": -67.46
+		},
+		{
+			"nombre": "Batalla de Matson's Ford",
+			"anio": 1777,
+			"lat": 40.07,
+			"lng": -75.31
+		},
+		{
+			"nombre": "Batalla de Millstone",
+			"anio": 1777,
+			"lat": 40.54,
+			"lng": -74.59
+		},
+		{
+			"nombre": "Batalla de Oriskany",
+			"anio": 1777,
+			"lat": 43.18,
+			"lng": -75.37
+		},
+		{
+			"nombre": "Batalla de Paoli",
+			"anio": 1777,
+			"lat": 40.03,
+			"lng": -75.52
+		},
+		{
+			"nombre": "Batalla de Punk Hill",
+			"anio": 1777,
+			"lat": 40.52,
+			"lng": -74.36
+		},
+		{
+			"nombre": "Batalla de Red Bank",
+			"anio": 1777,
+			"lat": 39.87,
+			"lng": -75.19
+		},
+		{
+			"nombre": "Batalla de Ridgefield",
+			"anio": 1777,
+			"lat": 41.31,
+			"lng": -73.5
+		},
+		{
+			"nombre": "Batalla de Saratoga",
+			"anio": 1777,
+			"lat": 42.99,
+			"lng": -73.64,
+			"descripcion": "Victoria que convence a Francia de entrar en la guerra."
+		},
+		{
+			"nombre": "Batalla de Setauket",
+			"anio": 1777,
+			"lat": 40.95,
+			"lng": -73.11
+		},
+		{
+			"nombre": "Batalla de Short Hills",
+			"anio": 1777,
+			"lat": 40.75,
+			"lng": -74.33
+		},
+		{
+			"nombre": "Batalla de Thomas Creek",
+			"anio": 1777,
+			"lat": 30.51,
+			"lng": -81.79
+		},
+		{
+			"nombre": "Batalla de White Marsh",
+			"anio": 1777,
+			"lat": 40.12,
+			"lng": -75.23
+		},
+		{
+			"nombre": "Battle of the Assunpink Creek",
+			"anio": 1777,
+			"lat": 40.22,
+			"lng": -74.76
+		},
+		{
+			"nombre": "Battle of the Clouds",
+			"anio": 1777,
+			"lat": 40.05,
+			"lng": -75.57
+		},
+		{
+			"nombre": "batalla de Princeton",
+			"anio": 1777,
+			"lat": 40.33,
+			"lng": -74.67
+		},
+		{
+			"nombre": "Batalla de Alligator Bridge",
+			"anio": 1778,
+			"lat": 30.57,
+			"lng": -81.83
+		},
+		{
+			"nombre": "Batalla de Barren Hill",
+			"anio": 1778,
+			"lat": 40.08,
+			"lng": -75.25
+		},
+		{
+			"nombre": "Batalla de Chestnut Neck",
+			"anio": 1778,
+			"lat": 39.54,
+			"lng": -74.46
+		},
+		{
+			"nombre": "Batalla de Cobleskill",
+			"anio": 1778,
+			"lat": 42.68,
+			"lng": -74.49
+		},
+		{
+			"nombre": "Batalla de Crooked Billet",
+			"anio": 1778,
+			"lat": 40.17,
+			"lng": -75.11
+		},
+		{
+			"nombre": "Batalla de Monmouth",
+			"anio": 1778,
+			"lat": 40.26,
+			"lng": -74.28
+		},
+		{
+			"nombre": "Batalla de Quinton's Bridge",
+			"anio": 1778,
+			"lat": 39.55,
+			"lng": -75.41
+		},
+		{
+			"nombre": "Batalla de Rhode Island",
+			"anio": 1778,
+			"lat": 41.6,
+			"lng": -71.26
+		},
+		{
+			"nombre": "Baylor Massacre",
+			"anio": 1778,
+			"lat": 41.01,
+			"lng": -74.01
+		},
+		{
+			"nombre": "Cherry Valley massacre",
+			"anio": 1778,
+			"lat": 42.79,
+			"lng": -74.76
+		},
+		{
+			"nombre": "Mount Hope Bay raids",
+			"anio": 1778,
+			"lat": 41.69,
+			"lng": -71.22
+		},
+		{
+			"nombre": "batalla del cabo Finisterre (1778)",
+			"anio": 1778,
+			"lat": 42.88,
+			"lng": -9.29
+		},
+		{
+			"nombre": "Batalla de Beaufort",
+			"anio": 1779,
+			"lat": 32.5,
+			"lng": -80.74
+		},
+		{
+			"nombre": "Batalla de Chillicothe",
+			"anio": 1779,
+			"lat": 39.73,
+			"lng": -83.94
+		},
+		{
+			"nombre": "Batalla de Kettle Creek",
+			"anio": 1779,
+			"lat": 33.69,
+			"lng": -82.89
+		},
+		{
+			"nombre": "Batalla de Minisink",
+			"anio": 1779,
+			"lat": 41.49,
+			"lng": -74.97
+		},
+		{
+			"nombre": "Batalla de Newtown",
+			"anio": 1779,
+			"lat": 42.05,
+			"lng": -76.73
+		},
+		{
+			"nombre": "Batalla de Norwalk",
+			"anio": 1779,
+			"lat": 41.12,
+			"lng": -73.41
+		},
+		{
+			"nombre": "Batalla de Paulus Hook",
+			"anio": 1779,
+			"lat": 40.71,
+			"lng": -74.04
+		},
+		{
+			"nombre": "Batalla de Stono Ferry",
+			"anio": 1779,
+			"lat": 32.76,
+			"lng": -80.13
+		},
+		{
+			"nombre": "Batalla de Stony Point",
+			"anio": 1779,
+			"lat": 41.24,
+			"lng": -73.97
+		},
+		{
+			"nombre": "Gran Asedio de Gibraltar",
+			"anio": 1779,
+			"lat": 36.14,
+			"lng": -5.35,
+			"descripcion": "España y Francia asedian el Peñón durante casi cuatro años sin éxito."
+		},
+		{
+			"nombre": "batalla del Lago Pontchartrain",
+			"anio": 1779,
+			"lat": 30.19,
+			"lng": -90.1
+		},
+		{
+			"nombre": "Batalla de Blackstock's Farm",
+			"anio": 1780,
+			"lat": 34.68,
+			"lng": -81.81
+		},
+		{
+			"nombre": "Batalla de Bull's Ferry",
+			"anio": 1780,
+			"lat": 40.79,
+			"lng": -74.0
+		},
+		{
+			"nombre": "Batalla de Camden",
+			"anio": 1780,
+			"lat": 34.36,
+			"lng": -80.61
+		},
+		{
+			"nombre": "Batalla de Charlotte",
+			"anio": 1780,
+			"lat": 35.23,
+			"lng": -80.84
+		},
+		{
+			"nombre": "Batalla de Colson's Mill",
+			"anio": 1780,
+			"lat": 35.15,
+			"lng": -80.08
+		},
+		{
+			"nombre": "Batalla de Connecticut Farms",
+			"anio": 1780,
+			"lat": 40.7,
+			"lng": -74.27
+		},
+		{
+			"nombre": "Batalla de Fishdam Ford",
+			"anio": 1780,
+			"lat": 34.6,
+			"lng": -81.42
+		},
+		{
+			"nombre": "Batalla de Fort St. George",
+			"anio": 1780,
+			"lat": 40.96,
+			"lng": -73.04
+		},
+		{
+			"nombre": "Batalla de Hanging Rock",
+			"anio": 1780,
+			"lat": 34.57,
+			"lng": -80.66
+		},
+		{
+			"nombre": "Batalla de Klock's Field",
+			"anio": 1780,
+			"lat": 43.0,
+			"lng": -74.71
+		},
+		{
+			"nombre": "Batalla de Lenud's Ferry",
+			"anio": 1780,
+			"lat": 33.3,
+			"lng": -79.68
+		},
+		{
+			"nombre": "Batalla de Mobley's Meeting House",
+			"anio": 1780,
+			"lat": 34.45,
+			"lng": -81.27
+		},
+		{
+			"nombre": "Batalla de Monck's Corner",
+			"anio": 1780,
+			"lat": 33.2,
+			"lng": -80.01
+		},
+		{
+			"nombre": "Batalla de Musgrove Mill",
+			"anio": 1780,
+			"lat": 34.59,
+			"lng": -81.85
+		},
+		{
+			"nombre": "Batalla de Piqua",
+			"anio": 1780,
+			"lat": 39.91,
+			"lng": -83.91
+		},
+		{
+			"nombre": "Batalla de Ramsour's Mill",
+			"anio": 1780,
+			"lat": 35.48,
+			"lng": -81.26
+		},
+		{
+			"nombre": "Batalla de Rocky Mount",
+			"anio": 1780,
+			"lat": 34.54,
+			"lng": -80.88
+		},
+		{
+			"nombre": "Batalla de San Luis",
+			"anio": 1780,
+			"lat": 38.62,
+			"lng": -90.19
+		},
+		{
+			"nombre": "Batalla de Shallow Ford",
+			"anio": 1780,
+			"lat": 36.08,
+			"lng": -80.53
+		},
+		{
+			"nombre": "Batalla de Springfield",
+			"anio": 1780,
+			"lat": 40.71,
+			"lng": -74.31
+		},
+		{
+			"nombre": "Batalla de Waxhaws",
+			"anio": 1780,
+			"lat": 34.74,
+			"lng": -80.63
+		},
+		{
+			"nombre": "Batalla de Young's House",
+			"anio": 1780,
+			"lat": 41.12,
+			"lng": -73.78
+		},
+		{
+			"nombre": "Acción del 21 Julio 1781",
+			"anio": 1781,
+			"lat": 45.91,
+			"lng": -59.97
+		},
+		{
+			"nombre": "Batalla de Blandford",
+			"anio": 1781,
+			"lat": 37.23,
+			"lng": -77.39
+		},
+		{
+			"nombre": "Batalla de Eutaw Springs",
+			"anio": 1781,
+			"lat": 33.41,
+			"lng": -80.3
+		},
+		{
+			"nombre": "Batalla de Fort Slongo",
+			"anio": 1781,
+			"lat": 40.91,
+			"lng": -73.3
+		},
+		{
+			"nombre": "Batalla de Groton Heights",
+			"anio": 1781,
+			"lat": 41.35,
+			"lng": -72.08
+		},
+		{
+			"nombre": "Batalla de Guilford Court House",
+			"anio": 1781,
+			"lat": 36.13,
+			"lng": -79.84
+		},
+		{
+			"nombre": "Batalla de Johnstown",
+			"anio": 1781,
+			"lat": 43.01,
+			"lng": -74.37
+		},
+		{
+			"nombre": "Batalla de Lindley's Mill",
+			"anio": 1781,
+			"lat": 35.89,
+			"lng": -79.35
+		},
+		{
+			"nombre": "Batalla de Wetzell's Mill",
+			"anio": 1781,
+			"lat": 36.08,
+			"lng": -79.79
+		},
+		{
+			"nombre": "Batalla de la Bahía de Chesapeake",
+			"anio": 1781,
+			"lat": 36.97,
+			"lng": -75.54
+		},
+		{
+			"nombre": "Batalla del cabo Henry",
+			"anio": 1781,
+			"lat": 37.15,
+			"lng": -75.15
+		},
+		{
+			"nombre": "Sitio de Yorktown",
+			"anio": 1781,
+			"lat": 37.24,
+			"lng": -76.51,
+			"descripcion": "Rendición de Cornwallis; victoria decisiva franco-americana."
+		},
+		{
+			"nombre": "Toma de Pensacola (Bernardo de Gálvez)",
+			"anio": 1781,
+			"lat": 30.42,
+			"lng": -87.22,
+			"descripcion": "Gálvez expulsa a los británicos de la Florida occidental."
+		},
+		{
+			"nombre": "Batalla de Blue Licks",
+			"anio": 1782,
+			"lat": 38.43,
+			"lng": -83.99
+		},
+		{
+			"nombre": "Batalla de Delaware Bay",
+			"anio": 1782,
+			"lat": 39.08,
+			"lng": -74.97
+		},
+		{
+			"nombre": "Battle of the Delaware Capes",
+			"anio": 1782,
+			"lat": 38.97,
+			"lng": -74.97
+		},
+		{
+			"nombre": "Naval battle off Halifax",
+			"anio": 1782,
+			"lat": 44.3,
+			"lng": -63.4
+		},
+		{
+			"nombre": "Reconquista de Menorca",
+			"anio": 1782,
+			"lat": 39.89,
+			"lng": 4.27,
+			"descripcion": "España recupera la isla perdida en Utrecht."
+		},
+		{
+			"nombre": "acción del 12 de diciembre de 1782",
+			"anio": 1782,
+			"lat": 43.47,
+			"lng": -8.25
+		},
+		{
+			"nombre": "Acción del 22 Enero 1783",
+			"anio": 1783,
+			"lat": 37.09,
+			"lng": -76.16
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de Independencia de los Estados Unidos",

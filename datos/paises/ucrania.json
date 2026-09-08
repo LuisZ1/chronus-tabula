@@ -6,6 +6,162 @@
 	],
 	"wiki": "Ucrania",
 	"wikidata": "Q212",
+	"resena": "Ucrania es un Estado soberano ubicado en Europa Oriental. Su forma de Estado es la república que se rige por un sistema de gobierno semipresidencial, con la separación de los poderes ejecutivo, legislativo y judicial.",
+	"gobernantes": [
+		{
+			"nombre": "Leonid Kravchuk",
+			"cargo": "jefe de Estado",
+			"desde": 1991,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Leonid Kuchma",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Pavlo Lazarenko",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Yuri Yejanúrov",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Víktor Yúshchenko",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Yuri Yejanúrov",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Víktor Yanukóvich",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Víktor Yanukóvich",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Yulia Timoshenko",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Yulia Timoshenko",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Mikola Azárov",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Víktor Yanukóvich",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Oleksandr Turchínov",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Serhiy Arbuzov",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Arseniy Yatsenyuk",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Petro Poroshenko",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Volodímir Groisman",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Volodímir Zelenski",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Oleksiy Hontcharouk",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Denís Shmihal",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Yulia Svyrydenko",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Sergii Koretskyi",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2020,
+			"valor": 41902416,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2022,
+			"valor": 41167335,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Emblem of the Ukrainian Soviet Socialist Republic (1949–1991), Emblem of Ukraine (1991–1992).svg"
+		},
+		{
+			"archivo": "Coat of Arms of Ukraine (Pantone).svg",
+			"desde": 1992
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Ucrania",
@@ -140,172 +296,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Ucrania es un Estado soberano ubicado en Europa Oriental. Su forma de Estado es la república que se rige por un sistema de gobierno semipresidencial, con la separación de los poderes ejecutivo, legislativo y judicial.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "2c23e3a3812c",
+		"hash": "e0330ef7fc63",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 1991,
-			"hasta": 1994,
-			"nombre": "Leonid Kravchuk",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1994,
-			"hasta": 2005,
-			"nombre": "Leonid Kuchma",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1996,
-			"hasta": 1997,
-			"nombre": "Pavlo Lazarenko",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2005,
-			"hasta": 2010,
-			"nombre": "Víktor Yúshchenko",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2005,
-			"hasta": 2006,
-			"nombre": "Yuri Yejanúrov",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2006,
-			"hasta": 2006,
-			"nombre": "Yuri Yejanúrov",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2006,
-			"hasta": 2007,
-			"nombre": "Víktor Yanukóvich",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2007,
-			"hasta": 2007,
-			"nombre": "Víktor Yanukóvich",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2007,
-			"hasta": 2010,
-			"nombre": "Yulia Timoshenko",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2010,
-			"hasta": 2014,
-			"nombre": "Víktor Yanukóvich",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2010,
-			"hasta": 2010,
-			"nombre": "Yulia Timoshenko",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2010,
-			"hasta": 2014,
-			"nombre": "Mikola Azárov",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2014,
-			"nombre": "Serhiy Arbuzov",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2014,
-			"nombre": "Oleksandr Turchínov",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2016,
-			"nombre": "Arseniy Yatsenyuk",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2014,
-			"hasta": 2019,
-			"nombre": "Petro Poroshenko",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2016,
-			"hasta": 2019,
-			"nombre": "Volodímir Groisman",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2019,
-			"hasta": 2019,
-			"nombre": "Volodímir Zelenski",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2019,
-			"hasta": 2020,
-			"nombre": "Oleksiy Hontcharouk",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2020,
-			"hasta": 2025,
-			"nombre": "Denís Shmihal",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2025,
-			"hasta": 2026,
-			"nombre": "Yulia Svyrydenko",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2026,
-			"hasta": 2026,
-			"nombre": "Sergii Koretskyi",
-			"cargo": "jefe de gobierno"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 2020,
-			"valor": 41902416,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2022,
-			"valor": 41167335,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Coat of Arms of Ukraine (Pantone).svg",
-			"desde": 1992
-		},
-		{
-			"archivo": "Emblem of the Ukrainian Soviet Socialist Republic (1949–1991), Emblem of Ukraine (1991–1992).svg"
-		}
-	]
+	}
 }

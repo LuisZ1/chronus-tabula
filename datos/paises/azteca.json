@@ -5,23 +5,24 @@
 		"Aztec Empire"
 	],
 	"wiki": "Imperio azteca",
+	"wikidata": "Q12542",
 	"relacionados": [
 		"Aztecas",
 		"México"
 	],
-	"wikidata": "Q12542",
+	"resena": "El Imperio mexica o Triple Alianza, llamado también Imperio azteca y —con más precisión— Imperio tenochca, fue un imperio organizado en una confederación compleja, multiétnica y flexible de ciudades estado con situaciones políticas diversas, que existió en el área central de Mesoamérica durante el Posclásico Tardío hasta la Conquista española.",
 	"gobernantes": [
 		{
-			"desde": 1428,
-			"hasta": 1440,
 			"nombre": "Itzcóatl",
-			"titulo": "Tlatoani; funda la Triple Alianza"
+			"titulo": "Tlatoani; funda la Triple Alianza",
+			"desde": 1428,
+			"hasta": 1440
 		},
 		{
-			"desde": 1502,
-			"hasta": 1520,
 			"nombre": "Moctezuma II",
-			"titulo": "Tlatoani a la llegada de Cortés"
+			"titulo": "Tlatoani a la llegada de Cortés",
+			"desde": 1502,
+			"hasta": 1520
 		}
 	],
 	"poblacion": [
@@ -50,7 +51,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Imperio mexica o Triple Alianza, llamado también Imperio azteca y —con más precisión— Imperio tenochca, fue un imperio organizado en una confederación compleja, multiétnica y flexible de ciudades estado con situaciones políticas diversas, que existió en el área central de Mesoamérica durante el Posclásico Tardío hasta la Conquista española.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

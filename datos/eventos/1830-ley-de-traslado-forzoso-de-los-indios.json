@@ -3,11 +3,11 @@
 	"anio": 1830,
 	"lat": 38.9,
 	"lng": -77.03,
-	"descripcion": "El Congreso de EE. UU. autoriza deportar a las naciones del Sureste al oeste del Misisipi.",
-	"wiki": "Ley de Traslado Forzoso de los Indios",
 	"paises": [
 		"Estados Unidos"
 	],
+	"descripcion": "El Congreso de EE. UU. autoriza deportar a las naciones del Sureste al oeste del Misisipi.",
+	"wiki": "Ley de Traslado Forzoso de los Indios",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Ley de Traslado Forzoso de los Indios",

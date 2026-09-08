@@ -60,15 +60,26 @@ datos/                      ★ TODO el conocimiento curado, UN FICHERO POR ENTI
   territorios/<nombre>.json enclaves e islas
   _meta.json                claves de primer nivel (la ayuda interna)
 
+schema/                     EL CONTRATO DE CADA COLECCIÓN (JSON Schema): campos, tipos,
+  pais.json, conflicto.json,  obligatorios y descripción; lo aplica validar.py y da
+  evento.json, territorio.json  autocompletado en el editor (.vscode/settings.json)
+
 api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependencias)
   servidor.py               sirve web/ + API REST (fuentes, ingestas, propuestas, export);
                               al arrancar compila datos/ → web/data/historia.json
   compilar.py               genera web/data/historia.json a partir de datos/
   dividir.py                importa un historia.json monolítico al árbol datos/
+  formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
+                              --check lo comprueba sin tocar nada (lo usa el CI)
+  validar.py                validador: esquema (schema/), años, coordenadas, nombres en los
+                              GeoJSON, referencias, fuentes y marcas de revisión
   fuentes/                  conectores de ingesta (owid_poblacion, wikidata_gobernantes…)
-  validar.py                validador de los datos de datos/ (ejecútalo antes de un MR)
+                              y comun.py (carga/escritura de datos/, canonizar, hash_revision)
   revisar.py, exportar.py   revisión y export por terminal (alternativa al panel)
   editorial.db              base editorial local con las propuestas (NO se sube al repo)
+
+.github/                    CI (deploy.yml: formatear --check → validar → compilar → Pages),
+                              CODEOWNERS y plantillas de pull request e issue
 ```
 
 ### Cómo fluyen los datos
@@ -88,9 +99,19 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
 
 Cada país, conflicto y evento lleva un campo `fuentes` con sus referencias (`wikipedia-es:…`, `wikidata:Q…`, `owid:…` o `curado`), que la app muestra al pie de cada ficha. El contenido extraído de APIs externas cita siempre su origen y licencia.
 
+## Calidad de los datos
+
+Tres piezas mantienen `datos/` sano aunque lo edite mucha gente:
+
+- **Formato canónico** (`python api/formatear.py`): cada ficha se escribe siempre igual (orden de claves fijo, listas cronológicas ordenadas por año, tabuladores, LF), así los diffs solo muestran cambios reales. `--check` solo comprueba.
+- **Esquemas** (`schema/*.json`): el contrato de cada colección en JSON Schema, con la descripción de cada campo; `validar.py` lo aplica (sin dependencias) y el editor lo usa para autocompletar.
+- **Marca de revisión** (`revision` en cada país): estado, fecha, autor y una huella de gobernantes/población/nombres por época. Si los datos cambian después de validarse, la huella deja de cuadrar y el validador avisa.
+
+El despliegue (`.github/workflows/deploy.yml`) ejecuta `formatear.py --check` y `validar.py` en cada push a `main` y no publica si algo falla; después compila `historia.json` y sube `web/` a GitHub Pages. Todo está explicado para colaboradores en `web/colaborar.html` y en [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Pipeline de fuentes externas
 
-Además de la edición manual, el proyecto puede ingerir datos de fuentes abiertas con un flujo curado: los scripts de `scripts/fuentes/` consultan las APIs y generan **propuestas** en una base SQLite local; nada se publica sin revisión humana.
+Además de la edición manual, el proyecto puede ingerir datos de fuentes abiertas con un flujo curado: los conectores de `api/fuentes/` consultan las APIs y generan **propuestas** en una base SQLite local; nada se publica sin revisión humana.
 
 El panel está **protegido con usuario y contraseña**: la primera vez que lo abras te pedirá crear el administrador (la contraseña se guarda como hash PBKDF2 con sal en la base editorial local, nunca en claro ni en el repositorio) y después el login devuelve un token de sesión de 7 días renovables; toda la API lo exige y hay límite de intentos fallidos. Como capas adicionales, el servidor solo escucha en `127.0.0.1` y `editorial.db` está en `.gitignore`.
 
@@ -116,7 +137,7 @@ Las ingestas reales requieren internet abierto (ejecútalas en tu máquina); `--
 Todo lo que se ve en el mapa sale de los ficheros de `datos/` (uno por país, conflicto, evento o territorio), pensados para editarse sin tocar código; `web/data/historia.json` se genera a partir de ellos y no se edita a mano. La guía completa, con ejemplos copiables de cada tipo de dato y la checklist de merge request, está en **[CONTRIBUTING.md](CONTRIBUTING.md)**. En resumen:
 
 1. Haz un fork y edita el fichero de la entidad en `datos/` (p. ej. `datos/paises/espana.json`; o `web/i18n/*.json` para traducciones).
-2. Valida: `python api/validar.py`
+2. Formatea y valida: `python api/formatear.py` y `python api/validar.py`
 3. Prueba en local moviendo el deslizador por los años que tocan tus datos.
 4. Abre el merge request explicando la fuente de tus datos.
 

@@ -9,132 +9,143 @@
 		"Shogun Japan (Kamakura)",
 		"Japan (Warring States)"
 	],
+	"wikidata": "Q17",
+	"owid": "Japan",
+	"relacionados": [
+		"Clan Minamoto",
+		"Clan Taira",
+		"Clan Oda",
+		"Clan Toyotomi",
+		"Clan Tokugawa",
+		"Daimios rivales"
+	],
+	"resena": "Japón es un país insular en Asia Oriental ubicado en el noroeste del océano Pacífico. Limita con el mar del Japón al oeste y se extiende desde el mar de Ojotsk en el norte hasta el mar de la China Oriental y Taiwán en el sur.",
 	"gobernantes": [
 		{
-			"desde": 189,
-			"hasta": 248,
 			"nombre": "Reina Himiko (reino de Yamatai/Wa)",
-			"titulo": "Reina chamán del Wa (fechas de reinado inciertas, valor estándar)"
+			"titulo": "Reina chamán del Wa (fechas de reinado inciertas, valor estándar)",
+			"desde": 189,
+			"hasta": 248
 		},
 		{
-			"desde": 673,
-			"hasta": 686,
 			"nombre": "Emperador Tenmu",
-			"titulo": "Emperador, consolidó el Estado Yamato"
+			"titulo": "Emperador, consolidó el Estado Yamato",
+			"desde": 673,
+			"hasta": 686
 		},
 		{
-			"desde": 724,
-			"hasta": 749,
 			"nombre": "Emperador Shōmu",
-			"titulo": "Emperador, impulsor del Gran Buda del Tōdaiji"
+			"titulo": "Emperador, impulsor del Gran Buda del Tōdaiji",
+			"desde": 724,
+			"hasta": 749
 		},
 		{
-			"desde": 781,
-			"hasta": 806,
 			"nombre": "Emperador Kanmu (traslado de la capital a Kioto)",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 781,
+			"hasta": 806
 		},
 		{
-			"desde": 1192,
-			"hasta": 1199,
 			"nombre": "Minamoto no Yoritomo (primer shogunato)",
-			"titulo": "Shogun"
+			"titulo": "Shogun",
+			"desde": 1192,
+			"hasta": 1199
 		},
 		{
-			"desde": 1203,
-			"hasta": 1333,
 			"nombre": "Regencia Hōjō (shikken del bakufu de Kamakura)",
-			"titulo": "Regentes shikken de facto del shogunato de Kamakura"
+			"titulo": "Regentes shikken de facto del shogunato de Kamakura",
+			"desde": 1203,
+			"hasta": 1333
 		},
 		{
-			"desde": 1318,
-			"hasta": 1339,
 			"nombre": "Emperador Go-Daigo",
-			"titulo": "Emperador, líder de la Restauración Kenmu"
+			"titulo": "Emperador, líder de la Restauración Kenmu",
+			"desde": 1318,
+			"hasta": 1339
 		},
 		{
-			"desde": 1338,
-			"hasta": 1358,
 			"nombre": "Ashikaga Takauji",
-			"titulo": "Primer shogun del shogunato Ashikaga (Muromachi)"
+			"titulo": "Primer shogun del shogunato Ashikaga (Muromachi)",
+			"desde": 1338,
+			"hasta": 1358
 		},
 		{
-			"desde": 1368,
-			"hasta": 1394,
 			"nombre": "Ashikaga Yoshimitsu",
-			"titulo": "Tercer shogun Ashikaga, apogeo del bakufu Muromachi"
+			"titulo": "Tercer shogun Ashikaga, apogeo del bakufu Muromachi",
+			"desde": 1368,
+			"hasta": 1394
 		},
 		{
-			"desde": 1568,
-			"hasta": 1582,
 			"nombre": "Oda Nobunaga (unificador)",
-			"titulo": "Daimio"
+			"titulo": "Daimio",
+			"desde": 1568,
+			"hasta": 1582
 		},
 		{
-			"desde": 1585,
-			"hasta": 1598,
 			"nombre": "Toyotomi Hideyoshi",
-			"titulo": "Kampaku, segundo unificador de Japón"
+			"titulo": "Kampaku, segundo unificador de Japón",
+			"desde": 1585,
+			"hasta": 1598
 		},
 		{
-			"desde": 1603,
-			"hasta": 1616,
 			"nombre": "Tokugawa Ieyasu (shogunato Tokugawa)",
-			"titulo": "Shogun"
+			"titulo": "Shogun",
+			"desde": 1603,
+			"hasta": 1616
 		},
 		{
-			"desde": 1867,
-			"hasta": 1912,
 			"nombre": "Emperador Meiji (Restauración Meiji)",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1867,
+			"hasta": 1912
 		},
 		{
-			"desde": 1926,
-			"hasta": 1989,
 			"nombre": "Hirohito (Showa)",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1926,
+			"hasta": 1989
 		},
 		{
-			"desde": 1989,
-			"hasta": 2019,
 			"nombre": "Akihito",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 2019
 		},
 		{
-			"desde": 2012,
-			"hasta": 2020,
 			"nombre": "Shinzō Abe",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2020
 		},
 		{
-			"desde": 2019,
-			"hasta": 2019,
 			"nombre": "Naruhito",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2019
 		},
 		{
-			"desde": 2020,
-			"hasta": 2021,
 			"nombre": "Yoshihide Suga",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
 		},
 		{
-			"desde": 2021,
-			"hasta": 2024,
 			"nombre": "Fumio Kishida",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2024
 		},
 		{
-			"desde": 2024,
-			"hasta": 2025,
 			"nombre": "Shigeru Ishiba",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2025
 		},
 		{
-			"desde": 2025,
-			"hasta": 2025,
 			"nombre": "Sanae Takaichi",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
 		}
 	],
 	"poblacion": [
@@ -319,13 +330,10 @@
 			"valor": 124370947
 		}
 	],
-	"relacionados": [
-		"Clan Minamoto",
-		"Clan Taira",
-		"Clan Oda",
-		"Clan Toyotomi",
-		"Clan Tokugawa",
-		"Daimios rivales"
+	"escudos": [
+		{
+			"archivo": "Kamon of the Imperial House of Japan.svg"
+		}
 	],
 	"fuentes": [
 		{
@@ -400,8 +408,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Japan",
-	"wikidata": "Q17",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -413,11 +419,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Japón es un país insular en Asia Oriental ubicado en el noroeste del océano Pacífico. Limita con el mar del Japón al oeste y se extiende desde el mar de Ojotsk en el norte hasta el mar de la China Oriental y Taiwán en el sur.",
-	"escudos": [
-		{
-			"archivo": "Kamon of the Imperial House of Japan.svg"
-		}
-	]
+	}
 }

@@ -3,11 +3,11 @@
 	"anio": 1494,
 	"lat": 41.5,
 	"lng": -5.0,
-	"descripcion": "Castilla y Portugal se reparten las zonas de navegación y conquista.",
 	"paises": [
 		"España",
 		"Portugal"
 	],
+	"descripcion": "Castilla y Portugal se reparten las zonas de navegación y conquista.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Tratado de Tordesillas",

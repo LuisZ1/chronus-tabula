@@ -13,18 +13,6 @@
 	"bajas": "más de 200.000",
 	"descripcion": "La Liga Balcánica expulsa a los otomanos de casi toda Europa en la Primera Guerra Balcánica (1912-1913); en la Segunda, los antiguos aliados se enfrentan por el reparto. El imperio pierde Macedonia, Albania y Tracia salvo el entorno de Estambul.",
 	"wiki": "Guerras Balcánicas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras Balcánicas",
-			"url": "https://es.wikipedia.org/wiki/Guerras_Balc%C3%A1nicas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Balcanes otomanos perdidos",
@@ -61,6 +49,18 @@
 			"anio": 1912,
 			"lat": 41.73,
 			"lng": 27.22
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Balcánicas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Balc%C3%A1nicas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

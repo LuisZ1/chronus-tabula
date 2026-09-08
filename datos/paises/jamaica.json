@@ -4,28 +4,10 @@
 	"nombres": [
 		"Jamaica"
 	],
-	"wikidata": "Q766",
 	"wiki": "es:Jamaica",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q766",
-			"url": "https://www.wikidata.org/wiki/Q766",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Jamaica",
-			"url": "https://es.wikipedia.org/wiki/Jamaica",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q766",
 	"owid": "JAM",
+	"resena": "Jamaica es uno de los trece países que forman la América insular, Antillas o islas del mar Caribe. Es uno de los treinta y cinco países del continente americano.",
 	"poblacion": [
 		{
 			"anio": -2000,
@@ -176,6 +158,25 @@
 			"valor": 2839785
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q766",
+			"url": "https://www.wikidata.org/wiki/Q766",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Jamaica",
+			"url": "https://es.wikipedia.org/wiki/Jamaica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -185,6 +186,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Jamaica es uno de los trece países que forman la América insular, Antillas o islas del mar Caribe. Es uno de los treinta y cinco países del continente americano."
+	}
 }

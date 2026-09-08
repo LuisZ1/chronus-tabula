@@ -1,9 +1,9 @@
 {
 	"nombre": "Faro de Alejandría",
 	"anio": -280,
+	"categoria": "invento",
 	"lat": 31.21,
 	"lng": 29.89,
-	"categoria": "invento",
 	"paises": [
 		"Egipto"
 	],

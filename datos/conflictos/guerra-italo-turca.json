@@ -10,18 +10,6 @@
 	"bajas": "miles",
 	"descripcion": "Italia invade la Tripolitania y la Cirenaica otomanas (actual Libia). La derrota, junto con las Guerras Balcánicas simultáneas, acelera la pérdida de las últimas posesiones africanas del imperio.",
 	"wiki": "Guerra ítalo-turca",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra ítalo-turca",
-			"url": "https://es.wikipedia.org/wiki/Guerra_%C3%ADtalo-turca",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Tripolitania y Cirenaica",
@@ -54,6 +42,18 @@
 			"anio": 1911,
 			"lat": 32.9,
 			"lng": 13.2
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra ítalo-turca",
+			"url": "https://es.wikipedia.org/wiki/Guerra_%C3%ADtalo-turca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

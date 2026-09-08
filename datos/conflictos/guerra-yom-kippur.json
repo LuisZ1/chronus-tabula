@@ -11,14 +11,6 @@
 	"bajas": "unos 15.000-20.000 muertos",
 	"descripcion": "El 6 de octubre de 1973, en la fiesta judía del Yom Kipur, Egipto cruza el canal de Suez y Siria ataca el Golán por sorpresa. Tras las pérdidas iniciales, Israel contraataca, cruza el canal y cerca al III Ejército egipcio; el alto el fuego llega con la mediación de las superpotencias. La guerra desata el embargo petrolero de la OPEP.",
 	"wiki": "Guerra de Yom Kipur",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de Yom Kipur",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_Yom_Kipur",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frente del canal de Suez",
@@ -75,22 +67,30 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Cruce del canal de Suez (Operación Badr)",
-			"anio": 1973,
-			"lat": 30.58,
-			"lng": 32.35
-		},
-		{
 			"nombre": "Batalla de la Granja China",
 			"anio": 1973,
 			"lat": 30.9,
 			"lng": 32.5
 		},
 		{
+			"nombre": "Cruce del canal de Suez (Operación Badr)",
+			"anio": 1973,
+			"lat": 30.58,
+			"lng": 32.35
+		},
+		{
 			"nombre": "Valle de las Lágrimas (Golán)",
 			"anio": 1973,
 			"lat": 33.12,
 			"lng": 35.77
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Yom Kipur",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Yom_Kipur",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

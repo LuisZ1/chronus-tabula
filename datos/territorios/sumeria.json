@@ -1,20 +1,10 @@
 {
 	"nombre": "Sumeria",
 	"pais": "Sumeria",
-	"lat": 31.32,
-	"lng": 45.64,
 	"desde": -4000,
 	"hasta": -2003,
-	"descripcion": "Primera civilización urbana, en la Baja Mesopotamia. Docena de ciudades-estado (Uruk, Ur, Lagash, Kish); cuna de la escritura cuneiforme y la rueda. Reyes: Enmebaragesi de Kish (el más antiguo documentado), Ur-Nammu (III dinastía de Ur, c. 2111 a. C.), Gudea de Lagash.",
-	"wiki": "Sumeria",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Sumeria",
-			"url": "https://es.wikipedia.org/wiki/Sumeria",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
+	"lat": 31.32,
+	"lng": 45.64,
 	"poligono": [
 		[
 			33.4,
@@ -40,5 +30,15 @@
 			31.6,
 			44.2
 		]
+	],
+	"descripcion": "Primera civilización urbana, en la Baja Mesopotamia. Docena de ciudades-estado (Uruk, Ur, Lagash, Kish); cuna de la escritura cuneiforme y la rueda. Reyes: Enmebaragesi de Kish (el más antiguo documentado), Ur-Nammu (III dinastía de Ur, c. 2111 a. C.), Gudea de Lagash.",
+	"wiki": "Sumeria",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sumeria",
+			"url": "https://es.wikipedia.org/wiki/Sumeria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
 	]
 }

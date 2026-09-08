@@ -4,30 +4,31 @@
 	"nombres": [
 		"Umayyad Caliphate"
 	],
+	"resena": "El Califato omeya o califato de los omeyas fue el segundo de los cuatro grandes califatos establecidos tras la muerte de Mahoma. El califato fue gobernado por la dinastía omeya, un linaje árabe que ejerció el poder de califa, primero en Oriente, con capital en Damasco, y luego en al-Ándalus, con capital en Córdoba.",
 	"gobernantes": [
 		{
-			"desde": 661,
-			"hasta": 680,
 			"nombre": "Muawiya I",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 661,
+			"hasta": 680
 		},
 		{
-			"desde": 685,
-			"hasta": 705,
 			"nombre": "Abd al-Malik",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 685,
+			"hasta": 705
 		},
 		{
-			"desde": 705,
-			"hasta": 715,
 			"nombre": "Al-Walid I (conquista de Hispania)",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 705,
+			"hasta": 715
 		},
 		{
-			"desde": 724,
-			"hasta": 743,
 			"nombre": "Hisham",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 724,
+			"hasta": 743
 		}
 	],
 	"poblacion": [
@@ -49,7 +50,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Califato omeya o califato de los omeyas fue el segundo de los cuatro grandes califatos establecidos tras la muerte de Mahoma. El califato fue gobernado por la dinastía omeya, un linaje árabe que ejerció el poder de califa, primero en Oriente, con capital en Damasco, y luego en al-Ándalus, con capital en Córdoba.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

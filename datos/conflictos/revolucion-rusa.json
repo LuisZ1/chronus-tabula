@@ -9,26 +9,6 @@
 	"bajas": "~7-12 millones de muertos (guerra, terror y hambruna)",
 	"descripcion": "Febrero derriba al zar, Octubre da el poder a los bolcheviques, y la guerra civil entre rojos y blancos acaba con la fundación de la URSS (1922).",
 	"wiki": "Revolución rusa",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Revolución rusa",
-			"url": "https://es.wikipedia.org/wiki/Revolución_rusa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra civil rusa",
-			"url": "https://es.wikipedia.org/wiki/Guerra_civil_rusa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Rusia europea en guerra civil",
@@ -99,6 +79,26 @@
 			"lat": 48.71,
 			"lng": 44.51,
 			"descripcion": "La futura Stalingrado, disputada entre rojos y blancos."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Revolución rusa",
+			"url": "https://es.wikipedia.org/wiki/Revolución_rusa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra civil rusa",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_rusa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

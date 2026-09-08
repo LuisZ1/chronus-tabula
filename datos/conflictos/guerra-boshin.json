@@ -10,14 +10,6 @@
 	"bajas": "unos 8.000 muertos",
 	"descripcion": "Guerra civil que derriba el shogunato Tokugawa y restaura al emperador Meiji. De la batalla de Toba-Fushimi (1868) a la caída de la efímera república de Ezo en Hakodate (1869).",
 	"wiki": "Guerra Boshin",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra Boshin",
-			"url": "https://es.wikipedia.org/wiki/Guerra_Boshin",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Avance imperial por Honshu hacia el norte",
@@ -58,6 +50,14 @@
 			"lat": 41.8,
 			"lng": 140.76,
 			"descripcion": "Rendición de la república de Ezo, último reducto pro-Tokugawa."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra Boshin",
+			"url": "https://es.wikipedia.org/wiki/Guerra_Boshin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

@@ -3,12 +3,12 @@
 	"anio": 395,
 	"lat": 41.02,
 	"lng": 28.97,
-	"descripcion": "A la muerte de Teodosio I, el imperio se reparte entre Honorio (Occidente) y Arcadio (Oriente).",
-	"wiki": "Teodosio I el Grande",
 	"paises": [
 		"Roma",
 		"Imperio bizantino"
 	],
+	"descripcion": "A la muerte de Teodosio I, el imperio se reparte entre Honorio (Occidente) y Arcadio (Oriente).",
+	"wiki": "Teodosio I el Grande",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Teodosio I el Grande",

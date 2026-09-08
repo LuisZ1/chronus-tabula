@@ -10,182 +10,7 @@
 	],
 	"bajas": "~2.000.000-3.000.000 de muertos",
 	"descripcion": "Larga pugna dinástica por la corona de Francia.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Arnemuiden",
-			"anio": 1338,
-			"lat": 51.65,
-			"lng": 3.37
-		},
-		{
-			"nombre": "Batalla de Crécy",
-			"anio": 1346,
-			"lat": 50.25,
-			"lng": 1.88,
-			"bajas": "~4.000 franceses muertos",
-			"descripcion": "Los arqueros ingleses aplastan a la caballería francesa."
-		},
-		{
-			"nombre": "Batalla de Lunalonge",
-			"anio": 1349,
-			"lat": 46.13,
-			"lng": 0.17
-		},
-		{
-			"nombre": "batalla de Winchelsea",
-			"anio": 1350,
-			"lat": 50.88,
-			"lng": 0.81
-		},
-		{
-			"nombre": "Batalla de Vlaardingen",
-			"anio": 1351,
-			"lat": 51.91,
-			"lng": 4.34
-		},
-		{
-			"nombre": "Batalla de Ardres",
-			"anio": 1351,
-			"lat": 50.86,
-			"lng": 1.98
-		},
-		{
-			"nombre": "Batalla de Poitiers",
-			"anio": 1356,
-			"lat": 46.52,
-			"lng": 0.4
-		},
-		{
-			"nombre": "batalla de Nájera",
-			"anio": 1367,
-			"lat": 42.43,
-			"lng": -2.7
-		},
-		{
-			"nombre": "batalla de La Rochelle",
-			"anio": 1372,
-			"lat": 46.17,
-			"lng": -1.15
-		},
-		{
-			"nombre": "Batalla de Radcot Bridge",
-			"anio": 1387,
-			"lat": 51.69,
-			"lng": -1.59
-		},
-		{
-			"nombre": "batalla de Tuthill (1401)",
-			"anio": 1401,
-			"lat": 53.14,
-			"lng": -4.27
-		},
-		{
-			"nombre": "batalla de Mynydd Hyddgen",
-			"anio": 1401,
-			"lat": 52.51,
-			"lng": -3.8
-		},
-		{
-			"nombre": "batalla de Bryn Glas",
-			"anio": 1402,
-			"lat": 52.31,
-			"lng": -3.1
-		},
-		{
-			"nombre": "batalla de Stalling Down",
-			"anio": 1403,
-			"lat": 51.46,
-			"lng": -3.42
-		},
-		{
-			"nombre": "batalla de Shrewsbury",
-			"anio": 1403,
-			"lat": 52.75,
-			"lng": -2.72
-		},
-		{
-			"nombre": "batalla de Campston Hill",
-			"anio": 1404,
-			"lat": 51.91,
-			"lng": -2.87
-		},
-		{
-			"nombre": "batalla de Pwll Melyn",
-			"anio": 1405,
-			"lat": 51.72,
-			"lng": -2.95
-		},
-		{
-			"nombre": "batalla de Grosmont",
-			"anio": 1405,
-			"lat": 51.91,
-			"lng": -2.87
-		},
-		{
-			"nombre": "Batalla de Azincourt",
-			"anio": 1415,
-			"lat": 50.46,
-			"lng": 2.14,
-			"bajas": "~6.000 franceses muertos",
-			"descripcion": "Enrique V vence pese a la enorme inferioridad numérica."
-		},
-		{
-			"nombre": "batalla de Chef-de-Caux",
-			"anio": 1416,
-			"lat": 49.51,
-			"lng": 0.08
-		},
-		{
-			"nombre": "batalla de Chef-de-Caux",
-			"anio": 1416,
-			"lat": 49.51,
-			"lng": 0.08
-		},
-		{
-			"nombre": "Siege of Bayeux (1417)",
-			"anio": 1417,
-			"lat": 49.28,
-			"lng": -0.7
-		},
-		{
-			"nombre": "batalla de La Rochelle (1419)",
-			"anio": 1420,
-			"lat": 47.27,
-			"lng": -1.38
-		},
-		{
-			"nombre": "batalla de Baugé",
-			"anio": 1421,
-			"lat": 47.54,
-			"lng": -0.1
-		},
-		{
-			"nombre": "Batalla de La Brossinière",
-			"anio": 1423,
-			"lat": 47.77,
-			"lng": -0.74
-		},
-		{
-			"nombre": "Batalla de Verneuil",
-			"anio": 1424,
-			"lat": 48.76,
-			"lng": 0.94
-		},
-		{
-			"nombre": "Liberación de Orleans",
-			"anio": 1429,
-			"lat": 47.9,
-			"lng": 1.9,
-			"descripcion": "Juana de Arco levanta el sitio y cambia el curso de la guerra."
-		},
-		{
-			"nombre": "Batalla de Castillon",
-			"anio": 1453,
-			"lat": 44.85,
-			"lng": -0.04,
-			"descripcion": "Última batalla: la artillería francesa expulsa a Inglaterra del continente."
-		}
-	],
+	"wiki": "Guerra de los Cien Años",
 	"zonas": [
 		{
 			"nombre": "Guyena y suroeste",
@@ -340,7 +165,182 @@
 			]
 		}
 	],
-	"wiki": "Guerra de los Cien Años",
+	"batallas": [
+		{
+			"nombre": "Batalla de Arnemuiden",
+			"anio": 1338,
+			"lat": 51.65,
+			"lng": 3.37
+		},
+		{
+			"nombre": "Batalla de Crécy",
+			"anio": 1346,
+			"lat": 50.25,
+			"lng": 1.88,
+			"descripcion": "Los arqueros ingleses aplastan a la caballería francesa.",
+			"bajas": "~4.000 franceses muertos"
+		},
+		{
+			"nombre": "Batalla de Lunalonge",
+			"anio": 1349,
+			"lat": 46.13,
+			"lng": 0.17
+		},
+		{
+			"nombre": "batalla de Winchelsea",
+			"anio": 1350,
+			"lat": 50.88,
+			"lng": 0.81
+		},
+		{
+			"nombre": "Batalla de Ardres",
+			"anio": 1351,
+			"lat": 50.86,
+			"lng": 1.98
+		},
+		{
+			"nombre": "Batalla de Vlaardingen",
+			"anio": 1351,
+			"lat": 51.91,
+			"lng": 4.34
+		},
+		{
+			"nombre": "Batalla de Poitiers",
+			"anio": 1356,
+			"lat": 46.52,
+			"lng": 0.4
+		},
+		{
+			"nombre": "batalla de Nájera",
+			"anio": 1367,
+			"lat": 42.43,
+			"lng": -2.7
+		},
+		{
+			"nombre": "batalla de La Rochelle",
+			"anio": 1372,
+			"lat": 46.17,
+			"lng": -1.15
+		},
+		{
+			"nombre": "Batalla de Radcot Bridge",
+			"anio": 1387,
+			"lat": 51.69,
+			"lng": -1.59
+		},
+		{
+			"nombre": "batalla de Mynydd Hyddgen",
+			"anio": 1401,
+			"lat": 52.51,
+			"lng": -3.8
+		},
+		{
+			"nombre": "batalla de Tuthill (1401)",
+			"anio": 1401,
+			"lat": 53.14,
+			"lng": -4.27
+		},
+		{
+			"nombre": "batalla de Bryn Glas",
+			"anio": 1402,
+			"lat": 52.31,
+			"lng": -3.1
+		},
+		{
+			"nombre": "batalla de Shrewsbury",
+			"anio": 1403,
+			"lat": 52.75,
+			"lng": -2.72
+		},
+		{
+			"nombre": "batalla de Stalling Down",
+			"anio": 1403,
+			"lat": 51.46,
+			"lng": -3.42
+		},
+		{
+			"nombre": "batalla de Campston Hill",
+			"anio": 1404,
+			"lat": 51.91,
+			"lng": -2.87
+		},
+		{
+			"nombre": "batalla de Grosmont",
+			"anio": 1405,
+			"lat": 51.91,
+			"lng": -2.87
+		},
+		{
+			"nombre": "batalla de Pwll Melyn",
+			"anio": 1405,
+			"lat": 51.72,
+			"lng": -2.95
+		},
+		{
+			"nombre": "Batalla de Azincourt",
+			"anio": 1415,
+			"lat": 50.46,
+			"lng": 2.14,
+			"descripcion": "Enrique V vence pese a la enorme inferioridad numérica.",
+			"bajas": "~6.000 franceses muertos"
+		},
+		{
+			"nombre": "batalla de Chef-de-Caux",
+			"anio": 1416,
+			"lat": 49.51,
+			"lng": 0.08
+		},
+		{
+			"nombre": "batalla de Chef-de-Caux",
+			"anio": 1416,
+			"lat": 49.51,
+			"lng": 0.08
+		},
+		{
+			"nombre": "Siege of Bayeux (1417)",
+			"anio": 1417,
+			"lat": 49.28,
+			"lng": -0.7
+		},
+		{
+			"nombre": "batalla de La Rochelle (1419)",
+			"anio": 1420,
+			"lat": 47.27,
+			"lng": -1.38
+		},
+		{
+			"nombre": "batalla de Baugé",
+			"anio": 1421,
+			"lat": 47.54,
+			"lng": -0.1
+		},
+		{
+			"nombre": "Batalla de La Brossinière",
+			"anio": 1423,
+			"lat": 47.77,
+			"lng": -0.74
+		},
+		{
+			"nombre": "Batalla de Verneuil",
+			"anio": 1424,
+			"lat": 48.76,
+			"lng": 0.94
+		},
+		{
+			"nombre": "Liberación de Orleans",
+			"anio": 1429,
+			"lat": 47.9,
+			"lng": 1.9,
+			"descripcion": "Juana de Arco levanta el sitio y cambia el curso de la guerra."
+		},
+		{
+			"nombre": "Batalla de Castillon",
+			"anio": 1453,
+			"lat": 44.85,
+			"lng": -0.04,
+			"descripcion": "Última batalla: la artillería francesa expulsa a Inglaterra del continente."
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de los Cien Años",

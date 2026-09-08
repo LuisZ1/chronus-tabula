@@ -1,14 +1,14 @@
 {
 	"nombre": "El teléfono (Bell)",
 	"anio": 1876,
+	"categoria": "invento",
 	"lat": 42.36,
 	"lng": -71.06,
-	"categoria": "invento",
-	"descripcion": "Bell patenta el teléfono en Boston.",
-	"wiki": "Teléfono",
 	"paises": [
 		"Estados Unidos"
 	],
+	"descripcion": "Bell patenta el teléfono en Boston.",
+	"wiki": "Teléfono",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Teléfono",

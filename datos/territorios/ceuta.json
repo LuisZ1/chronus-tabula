@@ -1,9 +1,9 @@
 {
 	"nombre": "Ceuta",
 	"pais": "España",
+	"desde": 1580,
 	"lat": 35.889,
 	"lng": -5.307,
-	"desde": 1580,
 	"descripcion": "Bajo soberanía española desde la unión de coronas de 1580. En 1640 la ciudad optó por seguir con Felipe IV en lugar de la Restauración portuguesa, y el Tratado de Lisboa (1668) la reconoció española.",
 	"wiki": "Ceuta",
 	"fuentes": [

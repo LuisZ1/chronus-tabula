@@ -15,18 +15,6 @@
 	"bajas": "cientos de miles (cifras antiguas poco fiables)",
 	"descripcion": "Tras la fragmentación de los Zhou Orientales, siete grandes estados se disputan la hegemonía de China. Qi derrota a Wei en Guilin (Guiling) y Maling gracias a las estrategias de Sun Bin; finalmente Qin, reforzado por las reformas legistas de Shang Yang, absorbe a sus rivales y unifica China en 221 a. C.",
 	"wiki": "Período de los Reinos Combatientes",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Período de los Reinos Combatientes",
-			"url": "https://es.wikipedia.org/wiki/Per%C3%ADodo_de_los_Reinos_Combatientes",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de la China milenaria",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Estados en guerra de la llanura central china",
@@ -71,6 +59,18 @@
 			"lat": 36.2,
 			"lng": 115.6,
 			"descripcion": "Qi vuelve a derrotar a Wei; muerte de Pang Juan."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Período de los Reinos Combatientes",
+			"url": "https://es.wikipedia.org/wiki/Per%C3%ADodo_de_los_Reinos_Combatientes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la China milenaria",
+			"licencia": "referencia"
 		}
 	]
 }

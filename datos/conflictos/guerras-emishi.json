@@ -10,14 +10,6 @@
 	"bajas": "miles",
 	"descripcion": "La corte de Nara y Heian somete a los emishi del norte de Honshu; Sakanoue no Tamuramaro, primer sei-i taishōgun, culmina la conquista del Tōhoku.",
 	"wiki": "Emishi",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Emishi",
-			"url": "https://es.wikipedia.org/wiki/Emishi",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frontera del Tōhoku",
@@ -55,6 +47,14 @@
 			"lat": 39.15,
 			"lng": 141.13,
 			"descripcion": "Sakanoue no Tamuramaro derrota a Aterui y erige el fuerte de Isawa."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Emishi",
+			"url": "https://es.wikipedia.org/wiki/Emishi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

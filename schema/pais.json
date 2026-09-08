@@ -1,0 +1,255 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://luisz1.github.io/chronus-tabula/schema/pais.json",
+	"title": "País o entidad histórica (datos/paises/<id>.json)",
+	"description": "Ficha de un país actual o de una entidad histórica (imperio, reino, dinastía…). El fichero se llama como su 'id'. Solo id, nombre y nombres son obligatorios: si falta un campo, la ficha del mapa simplemente no lo muestra.",
+	"type": "object",
+	"required": [
+		"id",
+		"nombre",
+		"nombres"
+	],
+	"properties": {
+		"id": {
+			"type": "string",
+			"pattern": "^[a-z0-9-]+$",
+			"description": "Identificador único, minúsculas sin acentos ni espacios; da nombre al fichero"
+		},
+		"nombre": {
+			"type": "string",
+			"minLength": 1,
+			"description": "Nombre en español que se muestra en el mapa y en la ficha"
+		},
+		"nombres": {
+			"type": "array",
+			"minItems": 1,
+			"items": {
+				"type": "string"
+			},
+			"description": "Nombres EXACTOS con que la entidad aparece en los GeoJSON (NAME o SUBJECTO); varios porque cambian entre años"
+		},
+		"nombres_periodo": {
+			"type": "array",
+			"description": "Nombre que se etiqueta en el mapa según el año consultado (p. ej. 'Zaire' entre 1971 y 1997)",
+			"items": {
+				"type": "object",
+				"required": [
+					"nombre",
+					"desde"
+				],
+				"properties": {
+					"nombre": {
+						"type": "string",
+						"minLength": 1
+					},
+					"desde": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					},
+					"hasta": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año (negativo = a. C.) o null/ausente"
+					},
+					"wikidata": {
+						"type": "string",
+						"pattern": "^Q[0-9]+$",
+						"description": "Qid de la entidad histórica (para su escudo)"
+					}
+				}
+			}
+		},
+		"wiki": {
+			"type": "string",
+			"minLength": 1,
+			"description": "Título del artículo en Wikipedia en español (p. ej. 'Reino de Aragón'); admite prefijo de idioma ('es:…', 'en:…')"
+		},
+		"wikidata": {
+			"type": "string",
+			"pattern": "^Q[0-9]+$",
+			"description": "Qid de Wikidata del país actual"
+		},
+		"wikidata_hist": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"pattern": "^Q[0-9]+$"
+			},
+			"description": "Qid de entidades históricas predecesoras"
+		},
+		"owid": {
+			"type": "string",
+			"description": "Entidad de Our World in Data (nombre en inglés o código ISO3)"
+		},
+		"relacionados": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"description": "Nombres de otras fichas de 'paises' relacionadas (predecesores, colonias…)"
+		},
+		"resena": {
+			"type": "string",
+			"description": "Resumen breve (≤ 2 frases); si procede de Wikipedia, cita la fuente CC BY-SA"
+		},
+		"gobernantes": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"nombre",
+					"desde",
+					"hasta"
+				],
+				"properties": {
+					"nombre": {
+						"type": "string",
+						"minLength": 1
+					},
+					"cargo": {
+						"type": "string"
+					},
+					"titulo": {
+						"type": "string"
+					},
+					"desde": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					},
+					"hasta": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					}
+				}
+			}
+		},
+		"poblacion": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"anio",
+					"valor"
+				],
+				"properties": {
+					"anio": {
+						"type": "integer",
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año; negativo = a. C."
+					},
+					"valor": {
+						"type": "number",
+						"minimum": 0
+					},
+					"fuente": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"escudos": {
+			"type": "array",
+			"description": "Escudo vigente por época; sin 'desde'/'hasta' = escudo por defecto",
+			"items": {
+				"type": "object",
+				"required": [
+					"archivo"
+				],
+				"properties": {
+					"archivo": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Nombre de fichero en Wikimedia Commons"
+					},
+					"desde": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año (negativo = a. C.) o null/ausente"
+					},
+					"hasta": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año (negativo = a. C.) o null/ausente"
+					}
+				}
+			}
+		},
+		"fuentes": {
+			"type": "array",
+			"description": "Toda contribución cita su fuente. 'id' es un nombre corto (p. ej. 'Wikidata:Q29'); 'consultado' es la fecha AAAA-MM o AAAA-MM-DD.",
+			"items": {
+				"type": "object",
+				"required": [
+					"id"
+				],
+				"properties": {
+					"id": {
+						"type": "string",
+						"minLength": 1
+					},
+					"url": {
+						"type": "string"
+					},
+					"licencia": {
+						"type": "string"
+					},
+					"consultado": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"revision": {
+			"type": "object",
+			"description": "Marca de validación: la ponen exportar.py / el panel al aplicar propuestas revisadas. 'hash' es la huella de gobernantes+poblacion+nombres_periodo; si deja de cuadrar, los datos cambiaron tras validar.",
+			"required": [
+				"estado",
+				"fecha"
+			],
+			"properties": {
+				"estado": {
+					"enum": [
+						"validado",
+						"borrador"
+					]
+				},
+				"fecha": {
+					"type": "string",
+					"pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+				},
+				"por": {
+					"type": "string"
+				},
+				"hash": {
+					"type": "string",
+					"pattern": "^[0-9a-f]{12}$"
+				},
+				"secciones": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}

@@ -5,18 +5,19 @@
 		"Seleucid Kingdom"
 	],
 	"wiki": "Imperio seléucida",
+	"resena": "El Imperio seléucida (312-63 a. C.), denominado también como Imperio helenístico de Asia y en sus últimas décadas por los romanos como Reino seleúcida de Siria, fue un imperio helenístico en Asia occidental.",
 	"gobernantes": [
 		{
-			"desde": -305,
-			"hasta": -281,
 			"nombre": "Seleuco I Nicátor",
-			"titulo": "Fundador de la dinastía seléucida"
+			"titulo": "Fundador de la dinastía seléucida",
+			"desde": -305,
+			"hasta": -281
 		},
 		{
-			"desde": -223,
-			"hasta": -187,
 			"nombre": "Antíoco III el Grande",
-			"titulo": "Rey seléucida, máxima extensión antes de Roma"
+			"titulo": "Rey seléucida, máxima extensión antes de Roma",
+			"desde": -223,
+			"hasta": -187
 		}
 	],
 	"fuentes": [
@@ -33,7 +34,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Imperio seléucida (312-63 a. C.), denominado también como Imperio helenístico de Asia y en sus últimas décadas por los romanos como Reino seleúcida de Siria, fue un imperio helenístico en Asia occidental.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

@@ -5,35 +5,6 @@
 		"Niger",
 		"Níger"
 	],
-	"wiki": "es:Níger",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/N%C3%ADger",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1032",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Niger",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~NER",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Níger",
-			"url": "https://es.wikipedia.org/wiki/N%C3%ADger",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Níger francés (África Occidental Francesa)",
@@ -46,97 +17,99 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Níger",
 	"wikidata": "Q1032",
+	"resena": "Níger, oficialmente República del Níger o República de Níger, es un país sin litoral situado en África Occidental. Limita al sur con Nigeria y Benín, al oeste con Burkina Faso y Malí, al norte con Argelia y Libia, y al este con Chad.",
 	"gobernantes": [
 		{
 			"nombre": "Imperio de Kanem-Bornu (dominio en el este)",
+			"cargo": "imperio precolonial",
 			"desde": 1380,
-			"hasta": 1893,
-			"cargo": "imperio precolonial"
-		},
-		{
-			"nombre": "Imperio songhai (dominio en el oeste)",
-			"desde": 1464,
-			"hasta": 1591,
-			"cargo": "imperio precolonial"
+			"hasta": 1893
 		},
 		{
 			"nombre": "Sultanato del Aïr (Agadez, tuareg)",
+			"cargo": "sultanato precolonial",
 			"desde": 1449,
-			"hasta": 1900,
-			"cargo": "sultanato precolonial"
+			"hasta": 1900
+		},
+		{
+			"nombre": "Imperio songhai (dominio en el oeste)",
+			"cargo": "imperio precolonial",
+			"desde": 1464,
+			"hasta": 1591
 		},
 		{
 			"nombre": "Sultanato de Damagaram (Zinder)",
+			"cargo": "sultanato precolonial",
 			"desde": 1731,
-			"hasta": 1899,
-			"cargo": "sultanato precolonial"
+			"hasta": 1899
 		},
 		{
 			"nombre": "Hamani Diori",
+			"cargo": "presidente",
 			"desde": 1960,
-			"hasta": 1974,
-			"cargo": "presidente"
+			"hasta": 1974
 		},
 		{
 			"nombre": "Seyni Kountché",
+			"cargo": "presidente (Consejo Militar Supremo)",
 			"desde": 1974,
-			"hasta": 1987,
-			"cargo": "presidente (Consejo Militar Supremo)"
+			"hasta": 1987
 		},
 		{
 			"nombre": "Ali Saibou",
+			"cargo": "presidente",
 			"desde": 1987,
-			"hasta": 1993,
-			"cargo": "presidente"
+			"hasta": 1993
 		},
 		{
 			"nombre": "Mahamane Ousmane",
+			"cargo": "presidente",
 			"desde": 1993,
-			"hasta": 1996,
-			"cargo": "presidente"
+			"hasta": 1996
 		},
 		{
 			"nombre": "Ibrahim Baré Maïnassara",
+			"cargo": "presidente",
 			"desde": 1996,
-			"hasta": 1999,
-			"cargo": "presidente"
+			"hasta": 1999
 		},
 		{
 			"nombre": "Daouda Malam Wanké",
+			"cargo": "presidente (Consejo de Reconciliación Nacional)",
 			"desde": 1999,
-			"hasta": 1999,
-			"cargo": "presidente (Consejo de Reconciliación Nacional)"
+			"hasta": 1999
 		},
 		{
 			"nombre": "Mamadou Tandja",
+			"cargo": "presidente",
 			"desde": 1999,
-			"hasta": 2010,
-			"cargo": "presidente"
+			"hasta": 2010
 		},
 		{
 			"nombre": "Salou Djibo",
+			"cargo": "presidente (junta militar)",
 			"desde": 2010,
-			"hasta": 2011,
-			"cargo": "presidente (junta militar)"
+			"hasta": 2011
 		},
 		{
 			"nombre": "Mahamadou Issoufou",
+			"cargo": "presidente",
 			"desde": 2011,
-			"hasta": 2021,
-			"cargo": "presidente"
+			"hasta": 2021
 		},
 		{
 			"nombre": "Mohamed Bazoum",
+			"cargo": "presidente",
 			"desde": 2021,
-			"hasta": 2023,
-			"cargo": "presidente"
+			"hasta": 2023
 		},
 		{
 			"nombre": "Abdourahamane Tchiani (Tiani)",
+			"cargo": "presidente (junta militar, CNSP)",
 			"desde": 2023,
-			"hasta": 2026,
-			"cargo": "presidente (junta militar, CNSP)"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -171,11 +144,39 @@
 			"fuente": "UN/OWID (estimación)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/N%C3%ADger",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1032",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Niger",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~NER",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Níger",
+			"url": "https://es.wikipedia.org/wiki/N%C3%ADger",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "689bb0fe2351",
+		"hash": "3c2b51a0eebd",
 		"secciones": [
 			"fuentes",
 			"gobernantes",
@@ -183,6 +184,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Níger, oficialmente República del Níger o República de Níger, es un país sin litoral situado en África Occidental. Limita al sur con Nigeria y Benín, al oeste con Burkina Faso y Malí, al norte con Argelia y Libia, y al este con Chad."
+	}
 }

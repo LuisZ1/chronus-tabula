@@ -11,14 +11,6 @@
 	"bajas": "miles",
 	"descripcion": "Revuelta de las póleis griegas de Jonia (Asia Menor) contra el dominio persa, apoyada por Atenas y Eretria. El incendio de Sardes provocó la represalia de Darío I; la derrota naval de Lade y la caída de Mileto (494) sofocaron la rebelión y desencadenaron las Guerras Médicas.",
 	"wiki": "Rebelión jónica",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Rebelión jónica",
-			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_j%C3%B3nica",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Jonia (costa de Asia Menor)",
@@ -57,6 +49,14 @@
 			"anio": -494,
 			"lat": 37.53,
 			"lng": 27.28
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rebelión jónica",
+			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_j%C3%B3nica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

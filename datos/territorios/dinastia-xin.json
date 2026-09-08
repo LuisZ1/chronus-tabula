@@ -1,20 +1,10 @@
 {
 	"nombre": "Dinastía Xin",
 	"pais": "Dinastía Xin",
-	"lat": 34.27,
-	"lng": 108.95,
 	"desde": 9,
 	"hasta": 23,
-	"descripcion": "Breve dinastía del usurpador Wang Mang, que interrumpe la dinastía Han entre el Han Occidental y el Oriental con un ambicioso programa de reformas.",
-	"wiki": "Dinastía Xin",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Dinastía Xin",
-			"url": "https://es.wikipedia.org/wiki/Dinastía_Xin",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
+	"lat": 34.27,
+	"lng": 108.95,
 	"poligono": [
 		[
 			36.0,
@@ -32,5 +22,15 @@
 			33.6,
 			107.8
 		]
+	],
+	"descripcion": "Breve dinastía del usurpador Wang Mang, que interrumpe la dinastía Han entre el Han Occidental y el Oriental con un ambicioso programa de reformas.",
+	"wiki": "Dinastía Xin",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Xin",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Xin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		}
 	]
 }

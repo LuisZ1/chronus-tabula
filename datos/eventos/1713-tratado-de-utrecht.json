@@ -3,13 +3,13 @@
 	"anio": 1713,
 	"lat": 52.09,
 	"lng": 5.12,
-	"descripcion": "Fin de la guerra de Sucesión: España pierde Gibraltar, Menorca, Flandes e Italia; Gran Bretaña obtiene el asiento de esclavos y el navío de permiso.",
 	"paises": [
 		"España",
 		"Gran Bretaña",
 		"Francia",
 		"Austria"
 	],
+	"descripcion": "Fin de la guerra de Sucesión: España pierde Gibraltar, Menorca, Flandes e Italia; Gran Bretaña obtiene el asiento de esclavos y el navío de permiso.",
 	"wiki": "Tratado de Utrecht",
 	"fuentes": [
 		{

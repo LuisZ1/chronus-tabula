@@ -7,7 +7,207 @@
 		"República de Dahomey",
 		"República Popular de Benín"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Dahomey",
+			"desde": 1600,
+			"hasta": 1904
+		},
+		{
+			"nombre": "Dahomey (colonia francesa)",
+			"desde": 1904,
+			"hasta": 1960
+		},
+		{
+			"nombre": "República de Dahomey",
+			"desde": 1960,
+			"hasta": 1975
+		},
+		{
+			"nombre": "República Popular de Benín",
+			"desde": 1975,
+			"hasta": 1990
+		},
+		{
+			"nombre": "República de Benín",
+			"desde": 1990,
+			"hasta": 2026
+		}
+	],
 	"wiki": "es:Benín",
+	"wikidata": "Q962",
+	"resena": "Benín, hasta 1975 Dahomey, oficialmente la República de Benín, es un país ubicado en el oeste de África. Está limitado por Togo al oeste, por Nigeria al este y por Burkina Faso y Níger al norte.",
+	"gobernantes": [
+		{
+			"nombre": "Agaja",
+			"cargo": "Rey de Dahomey",
+			"desde": 1718,
+			"hasta": 1740
+		},
+		{
+			"nombre": "Ghezo",
+			"cargo": "Rey de Dahomey",
+			"desde": 1818,
+			"hasta": 1858
+		},
+		{
+			"nombre": "Glele",
+			"cargo": "Rey de Dahomey",
+			"desde": 1858,
+			"hasta": 1889
+		},
+		{
+			"nombre": "Béhanzin",
+			"cargo": "Rey de Dahomey",
+			"desde": 1889,
+			"hasta": 1894
+		},
+		{
+			"nombre": "Agoli-Agbo",
+			"cargo": "Rey de Dahomey",
+			"desde": 1894,
+			"hasta": 1900
+		},
+		{
+			"nombre": "Hubert Maga",
+			"cargo": "Presidente",
+			"desde": 1960,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Christophe Soglo",
+			"cargo": "Jefe de Estado (provisional)",
+			"desde": 1963,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Sourou-Migan Apithy",
+			"cargo": "Presidente",
+			"desde": 1964,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Christophe Soglo",
+			"cargo": "Presidente (junta militar)",
+			"desde": 1965,
+			"hasta": 1967
+		},
+		{
+			"nombre": "Alphonse Alley",
+			"cargo": "Presidente (junta militar)",
+			"desde": 1967,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Émile Derlin Zinsou",
+			"cargo": "Presidente",
+			"desde": 1968,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Hubert Maga",
+			"cargo": "Presidente (Consejo Presidencial)",
+			"desde": 1970,
+			"hasta": 1972
+		},
+		{
+			"nombre": "Mathieu Kérékou",
+			"cargo": "Presidente",
+			"desde": 1972,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Mathieu Kérékou",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Nicéphore Soglo",
+			"cargo": "Presidente",
+			"desde": 1991,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Mathieu Kérékou",
+			"cargo": "Presidente",
+			"desde": 1996,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Thomas Boni Yayi",
+			"cargo": "Presidente",
+			"desde": 2006,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Yayi Boni",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Pascal Koupaki",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Lionel Zinsou",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Patrice Talon",
+			"cargo": "Presidente",
+			"desde": 2016,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Romuald Wadagni",
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1910,
+			"valor": 643000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 1950,
+			"valor": 2046000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 1960,
+			"valor": 2237000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2010,
+			"valor": 8086000,
+			"fuente": "Wikipedia (es)"
+		},
+		{
+			"anio": 2020,
+			"valor": 9882000,
+			"fuente": "Wikipedia (es), proyección"
+		},
+		{
+			"anio": 2023,
+			"valor": 13400000,
+			"fuente": "Wikipedia (es)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Benin.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -62,200 +262,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"nombres_periodo": [
-		{
-			"nombre": "Reino de Dahomey",
-			"desde": 1600,
-			"hasta": 1904
-		},
-		{
-			"nombre": "Dahomey (colonia francesa)",
-			"desde": 1904,
-			"hasta": 1960
-		},
-		{
-			"nombre": "República de Dahomey",
-			"desde": 1960,
-			"hasta": 1975
-		},
-		{
-			"nombre": "República Popular de Benín",
-			"desde": 1975,
-			"hasta": 1990
-		},
-		{
-			"nombre": "República de Benín",
-			"desde": 1990,
-			"hasta": 2026
-		}
-	],
-	"wikidata": "Q962",
-	"gobernantes": [
-		{
-			"nombre": "Agaja",
-			"desde": 1718,
-			"hasta": 1740,
-			"cargo": "Rey de Dahomey"
-		},
-		{
-			"nombre": "Ghezo",
-			"desde": 1818,
-			"hasta": 1858,
-			"cargo": "Rey de Dahomey"
-		},
-		{
-			"nombre": "Glele",
-			"desde": 1858,
-			"hasta": 1889,
-			"cargo": "Rey de Dahomey"
-		},
-		{
-			"nombre": "Béhanzin",
-			"desde": 1889,
-			"hasta": 1894,
-			"cargo": "Rey de Dahomey"
-		},
-		{
-			"nombre": "Agoli-Agbo",
-			"desde": 1894,
-			"hasta": 1900,
-			"cargo": "Rey de Dahomey"
-		},
-		{
-			"nombre": "Hubert Maga",
-			"desde": 1960,
-			"hasta": 1963,
-			"cargo": "Presidente"
-		},
-		{
-			"nombre": "Christophe Soglo",
-			"desde": 1963,
-			"hasta": 1964,
-			"cargo": "Jefe de Estado (provisional)"
-		},
-		{
-			"nombre": "Sourou-Migan Apithy",
-			"desde": 1964,
-			"hasta": 1965,
-			"cargo": "Presidente"
-		},
-		{
-			"nombre": "Christophe Soglo",
-			"desde": 1965,
-			"hasta": 1967,
-			"cargo": "Presidente (junta militar)"
-		},
-		{
-			"nombre": "Alphonse Alley",
-			"desde": 1967,
-			"hasta": 1968,
-			"cargo": "Presidente (junta militar)"
-		},
-		{
-			"nombre": "Émile Derlin Zinsou",
-			"desde": 1968,
-			"hasta": 1969,
-			"cargo": "Presidente"
-		},
-		{
-			"nombre": "Hubert Maga",
-			"desde": 1970,
-			"hasta": 1972,
-			"cargo": "Presidente (Consejo Presidencial)"
-		},
-		{
-			"nombre": "Mathieu Kérékou",
-			"desde": 1972,
-			"hasta": 1991,
-			"cargo": "Presidente"
-		},
-		{
-			"desde": 1990,
-			"hasta": 1991,
-			"nombre": "Mathieu Kérékou",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"nombre": "Nicéphore Soglo",
-			"desde": 1991,
-			"hasta": 1996,
-			"cargo": "Presidente"
-		},
-		{
-			"nombre": "Mathieu Kérékou",
-			"desde": 1996,
-			"hasta": 2006,
-			"cargo": "Presidente"
-		},
-		{
-			"nombre": "Thomas Boni Yayi",
-			"desde": 2006,
-			"hasta": 2016,
-			"cargo": "Presidente"
-		},
-		{
-			"desde": 2006,
-			"hasta": 2016,
-			"nombre": "Yayi Boni",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2011,
-			"hasta": 2013,
-			"nombre": "Pascal Koupaki",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2015,
-			"hasta": 2016,
-			"nombre": "Lionel Zinsou",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"nombre": "Patrice Talon",
-			"desde": 2016,
-			"hasta": 2026,
-			"cargo": "Presidente"
-		},
-		{
-			"desde": 2026,
-			"hasta": 2026,
-			"nombre": "Romuald Wadagni",
-			"cargo": "jefe de Estado"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1910,
-			"valor": 643000,
-			"fuente": "Wikipedia (es)"
-		},
-		{
-			"anio": 1950,
-			"valor": 2046000,
-			"fuente": "Wikipedia (es)"
-		},
-		{
-			"anio": 1960,
-			"valor": 2237000,
-			"fuente": "Wikipedia (es)"
-		},
-		{
-			"anio": 2010,
-			"valor": 8086000,
-			"fuente": "Wikipedia (es)"
-		},
-		{
-			"anio": 2020,
-			"valor": 9882000,
-			"fuente": "Wikipedia (es), proyección"
-		},
-		{
-			"anio": 2023,
-			"valor": 13400000,
-			"fuente": "Wikipedia (es)"
-		}
-	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -269,11 +275,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Benín, hasta 1975 Dahomey, oficialmente la República de Benín, es un país ubicado en el oeste de África. Está limitado por Togo al oeste, por Nigeria al este y por Burkina Faso y Níger al norte.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Benin.svg"
-		}
-	]
+	}
 }

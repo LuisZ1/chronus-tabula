@@ -10,14 +10,6 @@
 	"bajas": "~7.000 muertos (2020) y éxodo de ~100.000 armenios (2023)",
 	"descripcion": "Azerbaiyán recupera en 44 días (2020) gran parte del enclave armenio y lo toma por completo en la ofensiva relámpago de septiembre de 2023: casi toda la población armenia huye.",
 	"wiki": "Segunda guerra del Alto Karabaj",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Segunda guerra del Alto Karabaj",
-			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_del_Alto_Karabaj",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Guerra de los 44 días",
@@ -83,6 +75,14 @@
 			"lat": 39.82,
 			"lng": 46.75,
 			"descripcion": "La capital del enclave se rinde; disolución de la república de Artsaj."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra del Alto Karabaj",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_del_Alto_Karabaj",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

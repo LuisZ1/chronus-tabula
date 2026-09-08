@@ -15,232 +15,7 @@
 	],
 	"bajas": "~17.000.000 de muertos",
 	"descripcion": "La Gran Guerra: trincheras, nuevas armas y el fin de cuatro imperios.",
-	"batallas": [
-		{
-			"nombre": "Primera batalla del Marne",
-			"anio": 1914,
-			"lat": 48.95,
-			"lng": 3.4,
-			"bajas": "~500.000 bajas",
-			"descripcion": "Los aliados frenan el avance alemán sobre París."
-		},
-		{
-			"nombre": "Batalla de Antivari",
-			"anio": 1914,
-			"lat": 42.1,
-			"lng": 19.05
-		},
-		{
-			"nombre": "Battle of the Meuse",
-			"anio": 1914,
-			"lat": 49.7,
-			"lng": 4.94
-		},
-		{
-			"nombre": "Batalla de Donon",
-			"anio": 1914,
-			"lat": 48.51,
-			"lng": 7.17
-		},
-		{
-			"nombre": "Battle of Monchy-au-Bois",
-			"anio": 1914,
-			"lat": 50.18,
-			"lng": 2.66
-		},
-		{
-			"nombre": "batalla de Odesa",
-			"anio": 1914,
-			"lat": 46.47,
-			"lng": 30.73
-		},
-		{
-			"nombre": "batalla de Odesa",
-			"anio": 1914,
-			"lat": 46.47,
-			"lng": 30.73
-		},
-		{
-			"nombre": "second battle of Krakow",
-			"anio": 1914,
-			"lat": 50.06,
-			"lng": 19.94
-		},
-		{
-			"nombre": "Galípoli",
-			"anio": 1915,
-			"lat": 40.24,
-			"lng": 26.28,
-			"bajas": "~500.000 bajas",
-			"descripcion": "Fracaso aliado ante los Dardanelos frente al Imperio otomano."
-		},
-		{
-			"nombre": "Battle of Durazzo",
-			"anio": 1915,
-			"lat": 41.28,
-			"lng": 19.33
-		},
-		{
-			"nombre": "batalla del golfo de Riga",
-			"anio": 1915,
-			"lat": 57.75,
-			"lng": 23.5
-		},
-		{
-			"nombre": "Battles of Przasnysz",
-			"anio": 1915,
-			"lat": 52.13,
-			"lng": 20.05
-		},
-		{
-			"nombre": "Batalla de Verdún",
-			"anio": 1916,
-			"lat": 49.2,
-			"lng": 5.43,
-			"bajas": "~700.000 bajas",
-			"descripcion": "La batalla más larga de la guerra: diez meses de desgaste."
-		},
-		{
-			"nombre": "Batalla del Somme",
-			"anio": 1916,
-			"lat": 50.02,
-			"lng": 2.65,
-			"bajas": "~1.000.000 de bajas",
-			"descripcion": "57.000 bajas británicas solo en el primer día."
-		},
-		{
-			"nombre": "Monastir Offensive",
-			"anio": 1916,
-			"lat": 41.03,
-			"lng": 21.42
-		},
-		{
-			"nombre": "Second Battle of the Aisne",
-			"anio": 1917,
-			"lat": 49.4,
-			"lng": 3.6
-		},
-		{
-			"nombre": "Batalla de Cambrai",
-			"anio": 1917,
-			"lat": 50.12,
-			"lng": 3.12
-		},
-		{
-			"nombre": "Batalla de Imbros",
-			"anio": 1918,
-			"lat": 40.23,
-			"lng": 25.97
-		},
-		{
-			"nombre": "Marcha sobre hielo de la Flota del Báltico",
-			"anio": 1918,
-			"lat": 58.62,
-			"lng": 20.42
-		},
-		{
-			"nombre": "Third Battle of the Aisne",
-			"anio": 1918,
-			"lat": 49.38,
-			"lng": 3.73
-		},
-		{
-			"nombre": "Operación Michael",
-			"anio": 1918,
-			"lat": 49.85,
-			"lng": 3.28
-		},
-		{
-			"nombre": "Batalla de Vittorio Veneto",
-			"anio": 1918,
-			"lat": 45.96,
-			"lng": 12.35
-		},
-		{
-			"nombre": "Batalla de St. Quentin Canal",
-			"anio": 1918,
-			"lat": 49.98,
-			"lng": 3.23
-		},
-		{
-			"nombre": "Segunda batalla del Marne",
-			"anio": 1918,
-			"lat": 49.08,
-			"lng": 3.67
-		},
-		{
-			"nombre": "Batalla de Amiens",
-			"anio": 1918,
-			"lat": 49.89,
-			"lng": 2.29
-		},
-		{
-			"nombre": "Battle of the Sambre",
-			"anio": 1918,
-			"lat": 50.47,
-			"lng": 4.87
-		},
-		{
-			"nombre": "Batalla de Belleau Wood",
-			"anio": 1918,
-			"lat": 49.07,
-			"lng": 3.29
-		},
-		{
-			"nombre": "Batalla de Château-Thierry",
-			"anio": 1918,
-			"lat": 49.04,
-			"lng": 3.37
-		},
-		{
-			"nombre": "Batalla de Saint-Mihiel",
-			"anio": 1918,
-			"lat": 48.89,
-			"lng": 5.54
-		},
-		{
-			"nombre": "Second Battle of the Somme",
-			"anio": 1918,
-			"lat": 50.02,
-			"lng": 2.8
-		},
-		{
-			"nombre": "Batalla de La Lys",
-			"anio": 1918,
-			"lat": 50.71,
-			"lng": 2.9
-		},
-		{
-			"nombre": "Batalla de Hamel",
-			"anio": 1918,
-			"lat": 49.9,
-			"lng": 2.58
-		},
-		{
-			"nombre": "Batalla de Blanc Mont Ridge",
-			"anio": 1918,
-			"lat": 48.79,
-			"lng": 4.44
-		},
-		{
-			"nombre": "Batalla de Cantigny",
-			"anio": 1918,
-			"lat": 49.66,
-			"lng": 2.49
-		},
-		{
-			"nombre": "Batalla de Soissons",
-			"anio": 1918,
-			"lat": 49.38,
-			"lng": 3.32
-		},
-		{
-			"nombre": "Batalla de Durazzo",
-			"anio": 1918,
-			"lat": 41.25,
-			"lng": 19.33
-		}
-	],
+	"wiki": "Primera Guerra Mundial",
 	"zonas": [
 		{
 			"nombre": "Frente occidental",
@@ -387,7 +162,232 @@
 			]
 		}
 	],
-	"wiki": "Primera Guerra Mundial",
+	"batallas": [
+		{
+			"nombre": "Batalla de Antivari",
+			"anio": 1914,
+			"lat": 42.1,
+			"lng": 19.05
+		},
+		{
+			"nombre": "Batalla de Donon",
+			"anio": 1914,
+			"lat": 48.51,
+			"lng": 7.17
+		},
+		{
+			"nombre": "Battle of Monchy-au-Bois",
+			"anio": 1914,
+			"lat": 50.18,
+			"lng": 2.66
+		},
+		{
+			"nombre": "Battle of the Meuse",
+			"anio": 1914,
+			"lat": 49.7,
+			"lng": 4.94
+		},
+		{
+			"nombre": "Primera batalla del Marne",
+			"anio": 1914,
+			"lat": 48.95,
+			"lng": 3.4,
+			"descripcion": "Los aliados frenan el avance alemán sobre París.",
+			"bajas": "~500.000 bajas"
+		},
+		{
+			"nombre": "batalla de Odesa",
+			"anio": 1914,
+			"lat": 46.47,
+			"lng": 30.73
+		},
+		{
+			"nombre": "batalla de Odesa",
+			"anio": 1914,
+			"lat": 46.47,
+			"lng": 30.73
+		},
+		{
+			"nombre": "second battle of Krakow",
+			"anio": 1914,
+			"lat": 50.06,
+			"lng": 19.94
+		},
+		{
+			"nombre": "Battle of Durazzo",
+			"anio": 1915,
+			"lat": 41.28,
+			"lng": 19.33
+		},
+		{
+			"nombre": "Battles of Przasnysz",
+			"anio": 1915,
+			"lat": 52.13,
+			"lng": 20.05
+		},
+		{
+			"nombre": "Galípoli",
+			"anio": 1915,
+			"lat": 40.24,
+			"lng": 26.28,
+			"descripcion": "Fracaso aliado ante los Dardanelos frente al Imperio otomano.",
+			"bajas": "~500.000 bajas"
+		},
+		{
+			"nombre": "batalla del golfo de Riga",
+			"anio": 1915,
+			"lat": 57.75,
+			"lng": 23.5
+		},
+		{
+			"nombre": "Batalla de Verdún",
+			"anio": 1916,
+			"lat": 49.2,
+			"lng": 5.43,
+			"descripcion": "La batalla más larga de la guerra: diez meses de desgaste.",
+			"bajas": "~700.000 bajas"
+		},
+		{
+			"nombre": "Batalla del Somme",
+			"anio": 1916,
+			"lat": 50.02,
+			"lng": 2.65,
+			"descripcion": "57.000 bajas británicas solo en el primer día.",
+			"bajas": "~1.000.000 de bajas"
+		},
+		{
+			"nombre": "Monastir Offensive",
+			"anio": 1916,
+			"lat": 41.03,
+			"lng": 21.42
+		},
+		{
+			"nombre": "Batalla de Cambrai",
+			"anio": 1917,
+			"lat": 50.12,
+			"lng": 3.12
+		},
+		{
+			"nombre": "Second Battle of the Aisne",
+			"anio": 1917,
+			"lat": 49.4,
+			"lng": 3.6
+		},
+		{
+			"nombre": "Batalla de Amiens",
+			"anio": 1918,
+			"lat": 49.89,
+			"lng": 2.29
+		},
+		{
+			"nombre": "Batalla de Belleau Wood",
+			"anio": 1918,
+			"lat": 49.07,
+			"lng": 3.29
+		},
+		{
+			"nombre": "Batalla de Blanc Mont Ridge",
+			"anio": 1918,
+			"lat": 48.79,
+			"lng": 4.44
+		},
+		{
+			"nombre": "Batalla de Cantigny",
+			"anio": 1918,
+			"lat": 49.66,
+			"lng": 2.49
+		},
+		{
+			"nombre": "Batalla de Château-Thierry",
+			"anio": 1918,
+			"lat": 49.04,
+			"lng": 3.37
+		},
+		{
+			"nombre": "Batalla de Durazzo",
+			"anio": 1918,
+			"lat": 41.25,
+			"lng": 19.33
+		},
+		{
+			"nombre": "Batalla de Hamel",
+			"anio": 1918,
+			"lat": 49.9,
+			"lng": 2.58
+		},
+		{
+			"nombre": "Batalla de Imbros",
+			"anio": 1918,
+			"lat": 40.23,
+			"lng": 25.97
+		},
+		{
+			"nombre": "Batalla de La Lys",
+			"anio": 1918,
+			"lat": 50.71,
+			"lng": 2.9
+		},
+		{
+			"nombre": "Batalla de Saint-Mihiel",
+			"anio": 1918,
+			"lat": 48.89,
+			"lng": 5.54
+		},
+		{
+			"nombre": "Batalla de Soissons",
+			"anio": 1918,
+			"lat": 49.38,
+			"lng": 3.32
+		},
+		{
+			"nombre": "Batalla de St. Quentin Canal",
+			"anio": 1918,
+			"lat": 49.98,
+			"lng": 3.23
+		},
+		{
+			"nombre": "Batalla de Vittorio Veneto",
+			"anio": 1918,
+			"lat": 45.96,
+			"lng": 12.35
+		},
+		{
+			"nombre": "Battle of the Sambre",
+			"anio": 1918,
+			"lat": 50.47,
+			"lng": 4.87
+		},
+		{
+			"nombre": "Marcha sobre hielo de la Flota del Báltico",
+			"anio": 1918,
+			"lat": 58.62,
+			"lng": 20.42
+		},
+		{
+			"nombre": "Operación Michael",
+			"anio": 1918,
+			"lat": 49.85,
+			"lng": 3.28
+		},
+		{
+			"nombre": "Second Battle of the Somme",
+			"anio": 1918,
+			"lat": 50.02,
+			"lng": 2.8
+		},
+		{
+			"nombre": "Segunda batalla del Marne",
+			"anio": 1918,
+			"lat": 49.08,
+			"lng": 3.67
+		},
+		{
+			"nombre": "Third Battle of the Aisne",
+			"anio": 1918,
+			"lat": 49.38,
+			"lng": 3.73
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Primera Guerra Mundial",

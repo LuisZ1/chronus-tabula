@@ -4,36 +4,40 @@
 	"nombres": [
 		"Han Empire"
 	],
+	"relacionados": [
+		"China",
+		"Qin"
+	],
 	"gobernantes": [
 		{
-			"desde": -221,
-			"hasta": -210,
 			"nombre": "Qin Shi Huang",
-			"titulo": "Primer emperador de China (dinastía Qin)"
+			"titulo": "Primer emperador de China (dinastía Qin)",
+			"desde": -221,
+			"hasta": -210
 		},
 		{
-			"desde": -202,
-			"hasta": -195,
 			"nombre": "Gaozu (Liu Bang, fundador)",
-			"titulo": "Emperador Han"
-		},
-		{
+			"titulo": "Emperador Han",
 			"desde": -202,
-			"hasta": -195,
+			"hasta": -195
+		},
+		{
 			"nombre": "Liu Bang (emperador Gaozu)",
-			"titulo": "Emperador Gaozu, fundador de la dinastía Han"
+			"titulo": "Emperador Gaozu, fundador de la dinastía Han",
+			"desde": -202,
+			"hasta": -195
 		},
 		{
-			"desde": -141,
-			"hasta": -87,
-			"nombre": "Wu (apogeo de la Ruta de la Seda)",
-			"titulo": "Emperador Han"
-		},
-		{
-			"desde": -141,
-			"hasta": -87,
 			"nombre": "Emperador Wu (Liu Che)",
-			"titulo": "Emperador Wu de Han, máxima expansión del imperio"
+			"titulo": "Emperador Wu de Han, máxima expansión del imperio",
+			"desde": -141,
+			"hasta": -87
+		},
+		{
+			"nombre": "Wu (apogeo de la Ruta de la Seda)",
+			"titulo": "Emperador Han",
+			"desde": -141,
+			"hasta": -87
 		}
 	],
 	"poblacion": [
@@ -41,10 +45,6 @@
 			"anio": 2,
 			"valor": 57700000
 		}
-	],
-	"relacionados": [
-		"China",
-		"Qin"
 	],
 	"fuentes": [
 		{

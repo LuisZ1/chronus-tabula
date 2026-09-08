@@ -4,28 +4,10 @@
 	"nombres": [
 		"India"
 	],
-	"wikidata": "Q668",
 	"wiki": "es:India",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q668",
-			"url": "https://www.wikidata.org/wiki/Q668",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): India",
-			"url": "https://es.wikipedia.org/wiki/India",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q668",
 	"owid": "IND",
+	"resena": "La India, oficialmente República de la India, es un país soberano ubicado en Asia del Sur. Con un estimado de más de 1 476 millones de habitantes, es el país más poblado del mundo desde el año 2023.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 1438069597
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q668",
+			"url": "https://www.wikidata.org/wiki/Q668",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): India",
+			"url": "https://es.wikipedia.org/wiki/India",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La India, oficialmente República de la India, es un país soberano ubicado en Asia del Sur. Con un estimado de más de 1 476 millones de habitantes, es el país más poblado del mundo desde el año 2023."
+	}
 }

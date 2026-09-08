@@ -5,42 +5,47 @@
 		"Eastern Roman Empire",
 		"Byzantine Empire"
 	],
+	"relacionados": [
+		"Imperio romano de Oriente",
+		"Roma",
+		"Imperio bizantino"
+	],
 	"gobernantes": [
 		{
-			"desde": 395,
-			"hasta": 408,
 			"nombre": "Arcadio",
-			"titulo": "Emperador de Oriente"
+			"titulo": "Emperador de Oriente",
+			"desde": 395,
+			"hasta": 408
 		},
 		{
-			"desde": 527,
-			"hasta": 565,
 			"nombre": "Justiniano I el Grande",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 527,
+			"hasta": 565
 		},
 		{
-			"desde": 610,
-			"hasta": 641,
 			"nombre": "Heraclio",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 610,
+			"hasta": 641
 		},
 		{
-			"desde": 976,
-			"hasta": 1025,
 			"nombre": "Basilio II el Matador de Búlgaros",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 976,
+			"hasta": 1025
 		},
 		{
-			"desde": 1081,
-			"hasta": 1118,
 			"nombre": "Alejo I Comneno",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1081,
+			"hasta": 1118
 		},
 		{
-			"desde": 1449,
-			"hasta": 1453,
 			"nombre": "Constantino XI (muerto en la caída de Constantinopla)",
-			"titulo": "Emperador"
+			"titulo": "Emperador",
+			"desde": 1449,
+			"hasta": 1453
 		}
 	],
 	"poblacion": [
@@ -56,11 +61,6 @@
 			"anio": 1400,
 			"valor": 2000000
 		}
-	],
-	"relacionados": [
-		"Imperio romano de Oriente",
-		"Roma",
-		"Imperio bizantino"
 	],
 	"fuentes": [
 		{

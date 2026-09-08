@@ -1,14 +1,14 @@
 {
 	"nombre": "El transistor",
 	"anio": 1947,
+	"categoria": "invento",
 	"lat": 40.68,
 	"lng": -74.4,
-	"categoria": "invento",
-	"descripcion": "Bell Labs crea el transistor, base de toda la electrónica moderna.",
-	"wiki": "Transistor",
 	"paises": [
 		"Estados Unidos"
 	],
+	"descripcion": "Bell Labs crea el transistor, base de toda la electrónica moderna.",
+	"wiki": "Transistor",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Transistor",

@@ -12,20 +12,6 @@
 	"bajas": "~350.000 muertos",
 	"descripcion": "La mayor rebelión de esclavos de la historia: Toussaint Louverture y Dessalines derrotan a Francia y fundan la primera república negra del mundo.",
 	"wiki": "Revolución haitiana",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Revolución haitiana",
-			"url": "https://es.wikipedia.org/wiki/Revolución_haitiana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Saint-Domingue en armas",
@@ -64,6 +50,20 @@
 			"lng": -72.22,
 			"descripcion": "La victoria final de Dessalines sobre el ejército napoleónico; la independencia se proclama en enero de 1804.",
 			"wiki": "Batalla de Vertières"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Revolución haitiana",
+			"url": "https://es.wikipedia.org/wiki/Revolución_haitiana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

@@ -3,11 +3,11 @@
 	"anio": 1989,
 	"lat": 52.52,
 	"lng": 13.38,
-	"descripcion": "El 9 de noviembre de 1989 cae el Muro; fin simbólico de la Guerra Fría.",
-	"wiki": "Caída del Muro de Berlín",
 	"paises": [
 		"Alemania"
 	],
+	"descripcion": "El 9 de noviembre de 1989 cae el Muro; fin simbólico de la Guerra Fría.",
+	"wiki": "Caída del Muro de Berlín",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Caída del Muro de Berlín",

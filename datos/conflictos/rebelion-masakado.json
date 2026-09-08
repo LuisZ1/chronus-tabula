@@ -10,14 +10,6 @@
 	"bajas": "cientos",
 	"descripcion": "El caudillo Taira no Masakado se subleva en Kantō y se proclama 'nuevo emperador'; es derrotado y muerto en 940, un temprano signo del poder militar de los bushi.",
 	"wiki": "Taira no Masakado",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Taira no Masakado",
-			"url": "https://es.wikipedia.org/wiki/Taira_no_Masakado",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Kantō sublevado",
@@ -51,6 +43,14 @@
 			"lat": 36.2,
 			"lng": 139.9,
 			"descripcion": "Fujiwara no Hidesato y Taira no Sadamori vencen y matan a Masakado."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Taira no Masakado",
+			"url": "https://es.wikipedia.org/wiki/Taira_no_Masakado",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

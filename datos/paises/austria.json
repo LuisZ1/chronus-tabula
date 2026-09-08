@@ -7,18 +7,24 @@
 		"Austria Hungary",
 		"Austro-Hungarian Empire"
 	],
+	"owid": "Austria",
+	"relacionados": [
+		"Sacro Imperio",
+		"Austria-Hungría"
+	],
+	"resena": "Austria, oficialmente República de Austria, es un país de Europa central y Estado de la Unión Europea. Limita con la República Checa y Alemania al norte, Eslovaquia y Hungría al este, Eslovenia e Italia al sur y Suiza y Liechtenstein al oeste.",
 	"gobernantes": [
 		{
-			"desde": 1740,
-			"hasta": 1780,
 			"nombre": "María Teresa I",
-			"titulo": "Archiduquesa de Austria"
+			"titulo": "Archiduquesa de Austria",
+			"desde": 1740,
+			"hasta": 1780
 		},
 		{
-			"desde": 1848,
-			"hasta": 1916,
 			"nombre": "Francisco José I",
-			"titulo": "Emperador de Austria y Rey de Hungría"
+			"titulo": "Emperador de Austria y Rey de Hungría",
+			"desde": 1848,
+			"hasta": 1916
 		}
 	],
 	"poblacion": [
@@ -203,10 +209,6 @@
 			"valor": 9130434
 		}
 	],
-	"relacionados": [
-		"Sacro Imperio",
-		"Austria-Hungría"
-	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Austria / Imperio austrohúngaro",
@@ -226,7 +228,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Austria",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -236,6 +237,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Austria, oficialmente República de Austria, es un país de Europa central y Estado de la Unión Europea. Limita con la República Checa y Alemania al norte, Eslovaquia y Hungría al este, Eslovenia e Italia al sur y Suiza y Liechtenstein al oeste."
+	}
 }

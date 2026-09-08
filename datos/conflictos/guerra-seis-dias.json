@@ -12,14 +12,6 @@
 	"bajas": "más de 20.000 muertos (mayoría árabes)",
 	"descripcion": "Del 5 al 10 de junio de 1967 Israel lanza un ataque preventivo que destruye en tierra a la aviación egipcia y en seis días conquista la península del Sinaí y Gaza a Egipto, Cisjordania y Jerusalén Este a Jordania, y los Altos del Golán a Siria, triplicando su territorio.",
 	"wiki": "Guerra de los Seis Días",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de los Seis Días",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Seis_Días",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Península del Sinaí ocupada",
@@ -100,10 +92,10 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Toma de Jerusalén Este",
+			"nombre": "Combates del Golán",
 			"anio": 1967,
-			"lat": 31.78,
-			"lng": 35.23
+			"lat": 33.1,
+			"lng": 35.78
 		},
 		{
 			"nombre": "Paso de Mitla (Sinaí)",
@@ -112,10 +104,18 @@
 			"lng": 32.9
 		},
 		{
-			"nombre": "Combates del Golán",
+			"nombre": "Toma de Jerusalén Este",
 			"anio": 1967,
-			"lat": 33.1,
-			"lng": 35.78
+			"lat": 31.78,
+			"lng": 35.23
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de los Seis Días",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Seis_Días",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

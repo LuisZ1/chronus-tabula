@@ -12,20 +12,6 @@
 	"bajas": "~377.000 muertos (hasta 2021, ONU), la mayoría por hambre y enfermedad",
 	"descripcion": "Los hutíes toman Saná en 2014 y una coalición saudí interviene desde 2015; tregua desde 2022 y, desde 2023, ataques hutíes al tráfico del mar Rojo respondidos por EE. UU.",
 	"wiki": "Guerra civil yemení (2014-actualidad)",
-	"fuentes": [
-		{
-			"id": "wikipedia-en:Yemeni civil war (2014–present)",
-			"url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014–present)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q28716912",
-			"url": "https://www.wikidata.org/wiki/Q28716912",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Noroeste hutí (Saná)",
@@ -54,9 +40,9 @@
 		{
 			"nombre": "Frente del mar Rojo",
 			"tipo": "frente",
+			"mar": true,
 			"desde": 2023,
 			"hasta": 2026,
-			"mar": true,
 			"poligono": [
 				[
 					16.5,
@@ -104,6 +90,20 @@
 			"lat": 14.8,
 			"lng": 42.95,
 			"descripcion": "Lucha por el puerto que alimenta al país; acuerdo de Estocolmo."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Yemeni civil war (2014–present)",
+			"url": "https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014–present)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q28716912",
+			"url": "https://www.wikidata.org/wiki/Q28716912",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

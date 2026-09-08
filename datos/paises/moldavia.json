@@ -5,28 +5,10 @@
 		"Moldova",
 		"Moldavia"
 	],
-	"wikidata": "Q217",
 	"wiki": "es:Moldavia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q217",
-			"url": "https://www.wikidata.org/wiki/Q217",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Moldavia",
-			"url": "https://es.wikipedia.org/wiki/Moldavia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q217",
 	"owid": "MDA",
+	"resena": "Moldavia, oficialmente la República de Moldavia, es un país ubicado en Europa Oriental, situado entre Rumania y Ucrania. Tiene una superficie de 33 851 km² y su capital es Chisináu, situada en el centro del país.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 3067072
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q217",
+			"url": "https://www.wikidata.org/wiki/Q217",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Moldavia",
+			"url": "https://es.wikipedia.org/wiki/Moldavia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Moldavia, oficialmente la República de Moldavia, es un país ubicado en Europa Oriental, situado entre Rumania y Ucrania. Tiene una superficie de 33 851 km² y su capital es Chisináu, situada en el centro del país."
+	}
 }

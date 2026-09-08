@@ -9,15 +9,7 @@
 	],
 	"bajas": "~9.000 defensores y miles de habitantes",
 	"descripcion": "Fin del Imperio bizantino y del mundo medieval para muchos historiadores.",
-	"batallas": [
-		{
-			"nombre": "Caída de Constantinopla",
-			"anio": 1453,
-			"lat": 41.01,
-			"lng": 28.98,
-			"descripcion": "Mehmed II toma la ciudad tras 53 días de asedio; muere Constantino XI."
-		}
-	],
+	"wiki": "Caída de Constantinopla",
 	"zonas": [
 		{
 			"nombre": "Sitio de Constantinopla",
@@ -42,7 +34,15 @@
 			]
 		}
 	],
-	"wiki": "Caída de Constantinopla",
+	"batallas": [
+		{
+			"nombre": "Caída de Constantinopla",
+			"anio": 1453,
+			"lat": 41.01,
+			"lng": 28.98,
+			"descripcion": "Mehmed II toma la ciudad tras 53 días de asedio; muere Constantino XI."
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Caída de Constantinopla",

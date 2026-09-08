@@ -5,28 +5,10 @@
 		"Bhutan",
 		"Bután"
 	],
-	"wikidata": "Q917",
 	"wiki": "es:Bután",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q917",
-			"url": "https://www.wikidata.org/wiki/Q917",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Bután",
-			"url": "https://es.wikipedia.org/wiki/But%C3%A1n",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q917",
 	"owid": "BTN",
+	"resena": "Bután oficialmente Reino de Bután, es un país del sur de Asia ubicado en la cordillera del Himalaya y sin salida al mar. Limita al norte y noroeste con la República Popular China y al sur y sudeste con la India.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 786386
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q917",
+			"url": "https://www.wikidata.org/wiki/Q917",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Bután",
+			"url": "https://es.wikipedia.org/wiki/But%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Bután oficialmente Reino de Bután, es un país del sur de Asia ubicado en la cordillera del Himalaya y sin salida al mar. Limita al norte y noroeste con la República Popular China y al sur y sudeste con la India."
+	}
 }

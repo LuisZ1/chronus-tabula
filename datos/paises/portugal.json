@@ -4,120 +4,123 @@
 	"nombres": [
 		"Portugal"
 	],
+	"wikidata": "Q45",
+	"owid": "Portugal",
+	"resena": "Portugal, oficialmente República Portuguesa, es un país soberano del suroeste de Europa, ubicado en la península ibérica. Es uno de los veintisiete Estados miembros de la Unión Europea.",
 	"gobernantes": [
 		{
-			"desde": 1139,
-			"hasta": 1185,
 			"nombre": "Alfonso I Enríquez",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1139,
+			"hasta": 1185
 		},
 		{
-			"desde": 1279,
-			"hasta": 1325,
 			"nombre": "Dionisio I",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1279,
+			"hasta": 1325
 		},
 		{
-			"desde": 1385,
-			"hasta": 1433,
 			"nombre": "Juan I de Avís",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1385,
+			"hasta": 1433
 		},
 		{
-			"desde": 1481,
-			"hasta": 1495,
 			"nombre": "Juan II el Príncipe Perfecto",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1481,
+			"hasta": 1495
 		},
 		{
-			"desde": 1495,
-			"hasta": 1521,
 			"nombre": "Manuel I el Afortunado",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1495,
+			"hasta": 1521
 		},
 		{
-			"desde": 1521,
-			"hasta": 1557,
 			"nombre": "Juan III",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1521,
+			"hasta": 1557
 		},
 		{
-			"desde": 1580,
-			"hasta": 1598,
 			"nombre": "Felipe I (Felipe II de España, unión ibérica)",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1580,
+			"hasta": 1598
 		},
 		{
-			"desde": 1640,
-			"hasta": 1656,
 			"nombre": "Juan IV de Braganza",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1640,
+			"hasta": 1656
 		},
 		{
-			"desde": 1750,
-			"hasta": 1777,
 			"nombre": "José I (con el marqués de Pombal)",
-			"titulo": "Rey de Portugal"
+			"titulo": "Rey de Portugal",
+			"desde": 1750,
+			"hasta": 1777
 		},
 		{
-			"desde": 1816,
-			"hasta": 1826,
 			"nombre": "Juan VI",
-			"titulo": "Rey de Portugal y Brasil"
+			"titulo": "Rey de Portugal y Brasil",
+			"desde": 1816,
+			"hasta": 1826
 		},
 		{
-			"desde": 1932,
-			"hasta": 1968,
 			"nombre": "António de Oliveira Salazar",
-			"titulo": "Presidente del Consejo"
+			"titulo": "Presidente del Consejo",
+			"desde": 1932,
+			"hasta": 1968
 		},
 		{
-			"desde": 1986,
-			"hasta": 1996,
 			"nombre": "Mário Soares",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1986,
+			"hasta": 1996
 		},
 		{
-			"desde": 1996,
-			"hasta": 2006,
 			"nombre": "Jorge Sampaio",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 2006
 		},
 		{
-			"desde": 2006,
-			"hasta": 2016,
 			"nombre": "Aníbal Cavaco Silva",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2016
 		},
 		{
-			"desde": 2011,
-			"hasta": 2015,
 			"nombre": "Pedro Passos Coelho",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2015
 		},
 		{
-			"desde": 2015,
-			"hasta": 2024,
 			"nombre": "António Costa",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2024
 		},
 		{
-			"desde": 2016,
-			"hasta": 2026,
 			"nombre": "Marcelo Rebelo de Sousa",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2026
 		},
 		{
-			"desde": 2024,
-			"hasta": 2024,
 			"nombre": "Luís Montenegro",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
 		},
 		{
-			"desde": 2026,
-			"hasta": 2026,
 			"nombre": "António José Seguro",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -302,6 +305,11 @@
 			"valor": 10430735
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Portugal (lesser).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Portugal",
@@ -381,9 +389,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Portugal",
-	"wikidata": "Q45",
-	"resena": "Portugal, oficialmente República Portuguesa, es un país soberano del suroeste de Europa, ubicado en la península ibérica. Es uno de los veintisiete Estados miembros de la Unión Europea.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -395,10 +400,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Portugal (lesser).svg"
-		}
-	]
+	}
 }

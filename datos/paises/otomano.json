@@ -4,240 +4,245 @@
 	"nombres": [
 		"Ottoman Empire"
 	],
+	"wikidata": "Q12560",
+	"relacionados": [
+		"Imperio bizantino"
+	],
+	"resena": "El Imperio otomano, oficialmente el Sublime Estado Otomano, fue un Estado multiétnico gobernado por la dinastía osmanlí. Era conocido como el Imperio turco por sus contemporáneos, aunque los gobernantes osmanlíes jamás utilizaron ese nombre para referirse a su Estado.",
 	"gobernantes": [
 		{
-			"desde": 1299,
-			"hasta": 1326,
 			"nombre": "Osmán I (fundador)",
-			"titulo": "Sultán fundador de la dinastía osmanlí"
+			"titulo": "Sultán fundador de la dinastía osmanlí",
+			"desde": 1299,
+			"hasta": 1326
 		},
 		{
-			"desde": 1324,
-			"hasta": 1362,
 			"nombre": "Orhan I",
-			"titulo": "Sultán, conquistador de Bursa y los Dardanelos"
+			"titulo": "Sultán, conquistador de Bursa y los Dardanelos",
+			"desde": 1324,
+			"hasta": 1362
 		},
 		{
-			"desde": 1362,
-			"hasta": 1389,
 			"nombre": "Murad I",
-			"titulo": "Sultán, vencedor en Kosovo"
+			"titulo": "Sultán, vencedor en Kosovo",
+			"desde": 1362,
+			"hasta": 1389
 		},
 		{
-			"desde": 1389,
-			"hasta": 1402,
 			"nombre": "Bayaceto I",
-			"titulo": "Sultán 'el Rayo' (Yıldırım), capturado en Ankara"
+			"titulo": "Sultán 'el Rayo' (Yıldırım), capturado en Ankara",
+			"desde": 1389,
+			"hasta": 1402
 		},
 		{
-			"desde": 1403,
-			"hasta": 1411,
 			"nombre": "Solimán Çelebi",
-			"titulo": "Emir durante el interregno otomano"
+			"titulo": "Emir durante el interregno otomano",
+			"desde": 1403,
+			"hasta": 1411
 		},
 		{
-			"desde": 1413,
-			"hasta": 1421,
 			"nombre": "Mehmed I",
-			"titulo": "Sultán 'Çelebi', reunificador tras el interregno"
+			"titulo": "Sultán 'Çelebi', reunificador tras el interregno",
+			"desde": 1413,
+			"hasta": 1421
 		},
 		{
-			"desde": 1421,
-			"hasta": 1444,
 			"nombre": "Murad II",
-			"titulo": "Sultán (primer reinado), vencedor en Varna"
+			"titulo": "Sultán (primer reinado), vencedor en Varna",
+			"desde": 1421,
+			"hasta": 1444
 		},
 		{
-			"desde": 1444,
-			"hasta": 1446,
 			"nombre": "Mehmed II",
-			"titulo": "Sultán (primer reinado)"
+			"titulo": "Sultán (primer reinado)",
+			"desde": 1444,
+			"hasta": 1446
 		},
 		{
-			"desde": 1451,
-			"hasta": 1481,
 			"nombre": "Mehmed II el Conquistador",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1451,
+			"hasta": 1481
 		},
 		{
-			"desde": 1481,
-			"hasta": 1512,
 			"nombre": "Bayaceto II",
-			"titulo": "Sultán 'el Santo' (Veli)"
+			"titulo": "Sultán 'el Santo' (Veli)",
+			"desde": 1481,
+			"hasta": 1512
 		},
 		{
-			"desde": 1512,
-			"hasta": 1520,
 			"nombre": "Selim I",
-			"titulo": "Sultán 'el Terrible' (Yavuz), conquistador de Egipto y Siria"
+			"titulo": "Sultán 'el Terrible' (Yavuz), conquistador de Egipto y Siria",
+			"desde": 1512,
+			"hasta": 1520
 		},
 		{
-			"desde": 1520,
-			"hasta": 1566,
 			"nombre": "Solimán el Magnífico",
-			"titulo": "Sultán 'el Magnífico' (Kanuni, 'el Legislador')"
+			"titulo": "Sultán 'el Magnífico' (Kanuni, 'el Legislador')",
+			"desde": 1520,
+			"hasta": 1566
 		},
 		{
-			"desde": 1566,
-			"hasta": 1574,
 			"nombre": "Selim II",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1566,
+			"hasta": 1574
 		},
 		{
-			"desde": 1574,
-			"hasta": 1595,
 			"nombre": "Murad III",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1574,
+			"hasta": 1595
 		},
 		{
-			"desde": 1595,
-			"hasta": 1603,
 			"nombre": "Mehmed III",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1595,
+			"hasta": 1603
 		},
 		{
-			"desde": 1603,
-			"hasta": 1617,
 			"nombre": "Ahmed I",
-			"titulo": "Sultán, constructor de la Mezquita Azul"
+			"titulo": "Sultán, constructor de la Mezquita Azul",
+			"desde": 1603,
+			"hasta": 1617
 		},
 		{
-			"desde": 1617,
-			"hasta": 1618,
 			"nombre": "Mustafá I",
-			"titulo": "Sultán (primer reinado)"
+			"titulo": "Sultán (primer reinado)",
+			"desde": 1617,
+			"hasta": 1618
 		},
 		{
-			"desde": 1618,
-			"hasta": 1622,
 			"nombre": "Osmán II",
-			"titulo": "Sultán 'el Joven' (Genç)"
+			"titulo": "Sultán 'el Joven' (Genç)",
+			"desde": 1618,
+			"hasta": 1622
 		},
 		{
-			"desde": 1623,
-			"hasta": 1640,
 			"nombre": "Murad IV",
-			"titulo": "Sultán, reconquistador de Bagdad"
+			"titulo": "Sultán, reconquistador de Bagdad",
+			"desde": 1623,
+			"hasta": 1640
 		},
 		{
-			"desde": 1640,
-			"hasta": 1648,
 			"nombre": "Ibrahim I",
-			"titulo": "Sultán 'el Loco'"
+			"titulo": "Sultán 'el Loco'",
+			"desde": 1640,
+			"hasta": 1648
 		},
 		{
-			"desde": 1648,
-			"hasta": 1687,
 			"nombre": "Mehmed IV",
-			"titulo": "Sultán 'el Cazador' (Avcı)"
+			"titulo": "Sultán 'el Cazador' (Avcı)",
+			"desde": 1648,
+			"hasta": 1687
 		},
 		{
-			"desde": 1687,
-			"hasta": 1691,
 			"nombre": "Solimán II",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1687,
+			"hasta": 1691
 		},
 		{
-			"desde": 1691,
-			"hasta": 1695,
 			"nombre": "Ahmed II",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1691,
+			"hasta": 1695
 		},
 		{
-			"desde": 1695,
-			"hasta": 1703,
 			"nombre": "Mustafá II",
-			"titulo": "Sultán, derrotado en Zenta"
+			"titulo": "Sultán, derrotado en Zenta",
+			"desde": 1695,
+			"hasta": 1703
 		},
 		{
-			"desde": 1703,
-			"hasta": 1730,
 			"nombre": "Ahmed III",
-			"titulo": "Sultán del período de los Tulipanes"
+			"titulo": "Sultán del período de los Tulipanes",
+			"desde": 1703,
+			"hasta": 1730
 		},
 		{
-			"desde": 1730,
-			"hasta": 1754,
 			"nombre": "Mahmud I",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1730,
+			"hasta": 1754
 		},
 		{
-			"desde": 1754,
-			"hasta": 1757,
 			"nombre": "Osmán III",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1754,
+			"hasta": 1757
 		},
 		{
-			"desde": 1757,
-			"hasta": 1774,
 			"nombre": "Mustafá III",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1757,
+			"hasta": 1774
 		},
 		{
-			"desde": 1774,
-			"hasta": 1789,
 			"nombre": "Abdul Hamid I",
-			"titulo": "Sultán, firmante de Küçük Kaynarca"
+			"titulo": "Sultán, firmante de Küçük Kaynarca",
+			"desde": 1774,
+			"hasta": 1789
 		},
 		{
-			"desde": 1789,
-			"hasta": 1807,
 			"nombre": "Selim III",
-			"titulo": "Sultán reformador (Nizam-ı Cedid)"
+			"titulo": "Sultán reformador (Nizam-ı Cedid)",
+			"desde": 1789,
+			"hasta": 1807
 		},
 		{
-			"desde": 1807,
-			"hasta": 1808,
 			"nombre": "Mustafá IV",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1807,
+			"hasta": 1808
 		},
 		{
-			"desde": 1808,
-			"hasta": 1839,
 			"nombre": "Mahmud II",
-			"titulo": "Sultán, abolió el cuerpo de los jenízaros"
+			"titulo": "Sultán, abolió el cuerpo de los jenízaros",
+			"desde": 1808,
+			"hasta": 1839
 		},
 		{
-			"desde": 1839,
-			"hasta": 1861,
 			"nombre": "Abdülmecid I",
-			"titulo": "Sultán del Tanzimat"
+			"titulo": "Sultán del Tanzimat",
+			"desde": 1839,
+			"hasta": 1861
 		},
 		{
-			"desde": 1861,
-			"hasta": 1876,
 			"nombre": "Abdülaziz",
-			"titulo": "Sultán"
+			"titulo": "Sultán",
+			"desde": 1861,
+			"hasta": 1876
 		},
 		{
-			"desde": 1876,
-			"hasta": 1909,
-			"nombre": "Abdul Hamid II",
-			"titulo": "Sultán"
-		},
-		{
-			"desde": 1876,
-			"hasta": 1876,
 			"nombre": "Murad V",
-			"titulo": "Sultán (breve reinado)"
+			"titulo": "Sultán (breve reinado)",
+			"desde": 1876,
+			"hasta": 1876
 		},
 		{
-			"desde": 1909,
-			"hasta": 1918,
+			"nombre": "Abdul Hamid II",
+			"titulo": "Sultán",
+			"desde": 1876,
+			"hasta": 1909
+		},
+		{
 			"nombre": "Mehmed V",
-			"titulo": "Sultán constitucional"
+			"titulo": "Sultán constitucional",
+			"desde": 1909,
+			"hasta": 1918
 		},
 		{
-			"desde": 1918,
-			"hasta": 1922,
 			"nombre": "Mehmed VI (último sultán)",
-			"titulo": "Último sultán (Vahideddin)"
+			"titulo": "Último sultán (Vahideddin)",
+			"desde": 1918,
+			"hasta": 1922
 		},
 		{
-			"desde": 1922,
-			"hasta": 1924,
 			"nombre": "Abdülmecid II",
-			"titulo": "Último califa otomano (sin poder político)"
+			"titulo": "Último califa otomano (sin poder político)",
+			"desde": 1922,
+			"hasta": 1924
 		}
 	],
 	"poblacion": [
@@ -247,8 +252,12 @@
 			"fuente": "Wikidata (P1082)"
 		}
 	],
-	"relacionados": [
-		"Imperio bizantino"
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Ottoman Empire (1882–1922).svg",
+			"desde": 1882,
+			"hasta": 1922
+		}
 	],
 	"fuentes": [
 		{
@@ -275,24 +284,15 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"wikidata": "Q12560",
-	"resena": "El Imperio otomano, oficialmente el Sublime Estado Otomano, fue un Estado multiétnico gobernado por la dinastía osmanlí. Era conocido como el Imperio turco por sus contemporáneos, aunque los gobernantes osmanlíes jamás utilizaron ese nombre para referirse a su Estado.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "3d7b172ec631",
+		"hash": "e8917c6281bf",
 		"secciones": [
 			"escudos",
 			"poblacion",
 			"resena"
 		]
-	},
-	"escudos": [
-		{
-			"archivo": "Coat of arms of the Ottoman Empire (1882–1922).svg",
-			"desde": 1882,
-			"hasta": 1922
-		}
-	]
+	}
 }

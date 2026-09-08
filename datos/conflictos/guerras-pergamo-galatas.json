@@ -10,14 +10,6 @@
 	"bajas": "miles",
 	"descripcion": "Campañas de Átalo I de Pérgamo contra los gálatas, tribus celtas asentadas en Anatolia central. Su victoria en el río Caico legitimó a los Atálidas, que adoptaron el título real y conmemoraron el triunfo con el célebre Gálata moribundo.",
 	"wiki": "Átalo I",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Átalo I",
-			"url": "https://es.wikipedia.org/wiki/%C3%81talo_I",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Noroeste de Anatolia (dominio de Pérgamo)",
@@ -50,6 +42,14 @@
 			"anio": -241,
 			"lat": 39.1,
 			"lng": 27.0
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Átalo I",
+			"url": "https://es.wikipedia.org/wiki/%C3%81talo_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

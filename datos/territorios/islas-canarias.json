@@ -1,9 +1,9 @@
 {
 	"nombre": "Islas Canarias",
 	"pais": "España",
+	"desde": 1402,
 	"lat": 28.5,
 	"lng": -15.8,
-	"desde": 1402,
 	"descripcion": "Conquistadas para la Corona de Castilla entre 1402 (desembarco de Jean de Béthencourt en Lanzarote) y 1496 (rendición de Tenerife). Desde entonces, parte de Castilla y de España.",
 	"wiki": "Islas Canarias",
 	"fuentes": [

@@ -5,18 +5,19 @@
 		"Aghlabid Emirate"
 	],
 	"wiki": "Aglabíes",
+	"resena": "Los aglabíes o Banu al-Aglab fueron una dinastía de emires árabes musulmanes suníes del norte de África, cuyo poder se centraba en Ifriqiya (Túnez), donde el fundador Ibrahim I ibn Aglab estableció en el año 800 un emirato nominalmente dependiente del califato abasí que llegó a ser una potencia militar en el Mediterráneo central, extendiéndose al norte de Ar…",
 	"gobernantes": [
 		{
-			"desde": 800,
-			"hasta": 812,
 			"nombre": "Ibrahim I ibn al-Aglab",
-			"titulo": "Fundador del emirato aglabí"
+			"titulo": "Fundador del emirato aglabí",
+			"desde": 800,
+			"hasta": 812
 		},
 		{
-			"desde": 817,
-			"hasta": 838,
 			"nombre": "Ziyadat Allah I",
-			"titulo": "Emir aglabí, inicia la conquista de Sicilia"
+			"titulo": "Emir aglabí, inicia la conquista de Sicilia",
+			"desde": 817,
+			"hasta": 838
 		}
 	],
 	"fuentes": [
@@ -33,7 +34,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Los aglabíes o Banu al-Aglab fueron una dinastía de emires árabes musulmanes suníes del norte de África, cuyo poder se centraba en Ifriqiya (Túnez), donde el fundador Ibrahim I ibn Aglab estableció en el año 800 un emirato nominalmente dependiente del califato abasí que llegó a ser una potencia militar en el Mediterráneo central, extendiéndose al norte de Ar…",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

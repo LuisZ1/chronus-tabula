@@ -10,18 +10,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Selim I aplasta al sultanato mameluco: vence en Marj Dabiq (1516) tomando Siria y en Ridaniyya (1517) conquistando El Cairo. Egipto, Siria y el Hiyaz pasan al imperio, que asume la custodia de los Lugares Santos del islam.",
 	"wiki": "Guerra otomano-mameluca (1516-1517)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra otomano-mameluca (1516-1517)",
-			"url": "https://es.wikipedia.org/wiki/Guerra_otomano-mameluca_(1516-1517)",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Siria y Egipto conquistados",
@@ -68,6 +56,18 @@
 			"anio": 1517,
 			"lat": 30.05,
 			"lng": 31.25
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra otomano-mameluca (1516-1517)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_otomano-mameluca_(1516-1517)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

@@ -12,18 +12,6 @@
 	"bajas": "desconocidas",
 	"descripcion": "Tras la caída de los Jin, China queda dividida entre dinastías del Norte (de origen a menudo esteparia) y del Sur (herederas Han con capital en Jiankang/Nankín). En la batalla del río Fei (383) el Jin Oriental frena la invasión del Qin Anterior, consolidando la división hasta la reunificación Sui.",
 	"wiki": "Dinastías Meridionales y Septentrionales",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Dinastías Meridionales y Septentrionales",
-			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADas_Meridionales_y_Septentrionales",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de la China milenaria",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Dinastías del Norte",
@@ -81,6 +69,18 @@
 			"lat": 32.6,
 			"lng": 116.9,
 			"descripcion": "Jin Oriental frena a Qin Anterior; se consolida la división Norte-Sur."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastías Meridionales y Septentrionales",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADas_Meridionales_y_Septentrionales",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la China milenaria",
+			"licencia": "referencia"
 		}
 	]
 }

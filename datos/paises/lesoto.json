@@ -6,30 +6,6 @@
 		"Basutolandia",
 		"Basutoland"
 	],
-	"wiki": "es:Lesoto",
-	"fuentes": [
-		{
-			"id": "wikipedia_es",
-			"url": "https://es.wikipedia.org/wiki/Lesoto",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikipedia_en_demographics",
-			"url": "https://en.wikipedia.org/wiki/Demographics_of_Lesotho",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1013",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Lesoto",
-			"url": "https://es.wikipedia.org/wiki/Lesoto",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Moshoeshoe I (Basutolandia)",
@@ -46,91 +22,93 @@
 			"desde": 1966
 		}
 	],
+	"wiki": "es:Lesoto",
 	"wikidata": "Q1013",
+	"resena": "Lesoto o Lesotho oficialmente denominado Reino de Lesoto o Reino de Lesotho, es un país sin salida al mar, del sur de África, geográfica y políticamente enclavado dentro de Sudáfrica.",
 	"gobernantes": [
 		{
 			"nombre": "Moshoeshoe I",
+			"cargo": "Rey (fundador de la nación basoto)",
 			"desde": 1824,
-			"hasta": 1870,
-			"cargo": "Rey (fundador de la nación basoto)"
-		},
-		{
-			"nombre": "Moshoeshoe II",
-			"desde": 1966,
-			"hasta": 1990,
-			"cargo": "Rey"
-		},
-		{
-			"nombre": "Letsie III",
-			"desde": 1990,
-			"hasta": 1995,
-			"cargo": "Rey"
-		},
-		{
-			"nombre": "Moshoeshoe II",
-			"desde": 1995,
-			"hasta": 1996,
-			"cargo": "Rey (restaurado)"
-		},
-		{
-			"nombre": "Letsie III",
-			"desde": 1996,
-			"hasta": 2026,
-			"cargo": "Rey"
+			"hasta": 1870
 		},
 		{
 			"nombre": "Leabua Jonathan",
+			"cargo": "Primer ministro",
 			"desde": 1966,
-			"hasta": 1986,
-			"cargo": "Primer ministro"
+			"hasta": 1986
+		},
+		{
+			"nombre": "Moshoeshoe II",
+			"cargo": "Rey",
+			"desde": 1966,
+			"hasta": 1990
 		},
 		{
 			"nombre": "Justin Metsing Lekhanya",
+			"cargo": "Jefe de la junta militar",
 			"desde": 1986,
-			"hasta": 1991,
-			"cargo": "Jefe de la junta militar"
+			"hasta": 1991
+		},
+		{
+			"nombre": "Letsie III",
+			"cargo": "Rey",
+			"desde": 1990,
+			"hasta": 1995
 		},
 		{
 			"nombre": "Ntsu Mokhehle",
+			"cargo": "Primer ministro",
 			"desde": 1993,
-			"hasta": 1997,
-			"cargo": "Primer ministro"
+			"hasta": 1997
+		},
+		{
+			"nombre": "Moshoeshoe II",
+			"cargo": "Rey (restaurado)",
+			"desde": 1995,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Letsie III",
+			"cargo": "Rey",
+			"desde": 1996,
+			"hasta": 2026
 		},
 		{
 			"nombre": "Pakalitha Mosisili",
+			"cargo": "Primer ministro",
 			"desde": 1998,
-			"hasta": 2012,
-			"cargo": "Primer ministro"
+			"hasta": 2012
 		},
 		{
 			"nombre": "Thomas Thabane",
+			"cargo": "Primer ministro",
 			"desde": 2012,
-			"hasta": 2015,
-			"cargo": "Primer ministro"
+			"hasta": 2015
 		},
 		{
 			"nombre": "Pakalitha Mosisili",
+			"cargo": "Primer ministro",
 			"desde": 2015,
-			"hasta": 2017,
-			"cargo": "Primer ministro"
+			"hasta": 2017
 		},
 		{
 			"nombre": "Thomas Thabane",
+			"cargo": "Primer ministro",
 			"desde": 2017,
-			"hasta": 2020,
-			"cargo": "Primer ministro"
+			"hasta": 2020
 		},
 		{
 			"nombre": "Moeketsi Majoro",
+			"cargo": "Primer ministro",
 			"desde": 2020,
-			"hasta": 2022,
-			"cargo": "Primer ministro"
+			"hasta": 2022
 		},
 		{
 			"nombre": "Sam Matekane",
+			"cargo": "Primer ministro",
 			"desde": 2022,
-			"hasta": 2026,
-			"cargo": "Primer ministro"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -170,11 +148,34 @@
 			"fuente": "Wikipedia (Demographics of Lesotho), estimación"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia_es",
+			"url": "https://es.wikipedia.org/wiki/Lesoto",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikipedia_en_demographics",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_Lesotho",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1013",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Lesoto",
+			"url": "https://es.wikipedia.org/wiki/Lesoto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "85fbfbe59032",
+		"hash": "6f9511768b57",
 		"secciones": [
 			"fuentes",
 			"gobernantes",
@@ -182,6 +183,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Lesoto o Lesotho oficialmente denominado Reino de Lesoto o Reino de Lesotho, es un país sin salida al mar, del sur de África, geográfica y políticamente enclavado dentro de Sudáfrica."
+	}
 }

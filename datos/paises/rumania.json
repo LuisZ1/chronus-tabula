@@ -6,28 +6,10 @@
 		"Rumanía",
 		"Rumania"
 	],
-	"wikidata": "Q218",
 	"wiki": "es:Rumanía",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q218",
-			"url": "https://www.wikidata.org/wiki/Q218",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Rumanía",
-			"url": "https://es.wikipedia.org/wiki/Rumania",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q218",
 	"owid": "ROU",
+	"resena": "Rumania o Rumanía es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está ubicado en la intersección de Europa Oriental y del Sureste, y cuenta con costa en el Mar Negro por el sudeste.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 19118482
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q218",
+			"url": "https://www.wikidata.org/wiki/Q218",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Rumanía",
+			"url": "https://es.wikipedia.org/wiki/Rumania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Rumania o Rumanía es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está ubicado en la intersección de Europa Oriental y del Sureste, y cuenta con costa en el Mar Negro por el sudeste."
+	}
 }

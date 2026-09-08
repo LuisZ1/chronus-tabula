@@ -14,14 +14,6 @@
 	"bajas": "unos 20.000 muertos (~6.000 israelíes y ~15.000 árabes)",
 	"descripcion": "Al proclamarse el Estado de Israel el 14 de mayo de 1948, los ejércitos de Egipto, Transjordania, Siria, Líbano e Irak invaden el antiguo Mandato británico de Palestina. Tras sucesivas treguas, Israel amplía las fronteras del plan de partición de la ONU y firma armisticios en Rodas en 1949; el éxodo palestino (la Nakba) desplaza a unos 700.000 árabes.",
 	"wiki": "Guerra árabe-israelí de 1948",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra árabe-israelí de 1948",
-			"url": "https://es.wikipedia.org/wiki/Guerra_árabe-israelí_de_1948",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frente sur: avance egipcio y bolsa de Faluya",
@@ -114,6 +106,14 @@
 			"anio": 1948,
 			"lat": 31.25,
 			"lng": 34.6
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra árabe-israelí de 1948",
+			"url": "https://es.wikipedia.org/wiki/Guerra_árabe-israelí_de_1948",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

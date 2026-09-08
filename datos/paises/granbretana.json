@@ -6,240 +6,247 @@
 		"United Kingdom of Great Britain and Ireland",
 		"United Kingdom"
 	],
+	"wikidata": "Q145",
+	"owid": "United Kingdom",
+	"relacionados": [
+		"Inglaterra",
+		"Trece Colonias"
+	],
+	"resena": "El Reino Unido, oficialmente el Reino Unido de Gran Bretaña e Irlanda del Norte, es un país soberano e insular ubicado al noroeste de la Europa continental. Su territorio está formado geográficamente por la isla de Gran Bretaña, el noreste de la isla de Irlanda y pequeñas islas adyacentes.",
 	"gobernantes": [
 		{
-			"desde": 1707,
-			"hasta": 1714,
 			"nombre": "Ana Estuardo",
-			"titulo": "Reina de Gran Bretaña"
+			"titulo": "Reina de Gran Bretaña",
+			"desde": 1707,
+			"hasta": 1714
 		},
 		{
-			"desde": 1714,
-			"hasta": 1727,
 			"nombre": "Jorge I",
-			"titulo": "Rey de Gran Bretaña (Hannover)"
+			"titulo": "Rey de Gran Bretaña (Hannover)",
+			"desde": 1714,
+			"hasta": 1727
 		},
 		{
-			"desde": 1727,
-			"hasta": 1760,
 			"nombre": "Jorge II",
-			"titulo": "Rey de Gran Bretaña (Hannover)"
+			"titulo": "Rey de Gran Bretaña (Hannover)",
+			"desde": 1727,
+			"hasta": 1760
 		},
 		{
-			"desde": 1760,
-			"hasta": 1820,
 			"nombre": "Jorge III",
-			"titulo": "Rey de Gran Bretaña"
+			"titulo": "Rey de Gran Bretaña",
+			"desde": 1760,
+			"hasta": 1820
 		},
 		{
-			"desde": 1820,
-			"hasta": 1830,
 			"nombre": "Jorge IV",
-			"titulo": "Rey del Reino Unido"
+			"titulo": "Rey del Reino Unido",
+			"desde": 1820,
+			"hasta": 1830
 		},
 		{
-			"desde": 1830,
-			"hasta": 1837,
 			"nombre": "Guillermo IV",
-			"titulo": "Rey del Reino Unido"
+			"titulo": "Rey del Reino Unido",
+			"desde": 1830,
+			"hasta": 1837
 		},
 		{
-			"desde": 1837,
-			"hasta": 1901,
 			"nombre": "Victoria",
-			"titulo": "Reina del Reino Unido y Emperatriz de la India"
+			"titulo": "Reina del Reino Unido y Emperatriz de la India",
+			"desde": 1837,
+			"hasta": 1901
 		},
 		{
-			"desde": 1901,
-			"hasta": 1910,
 			"nombre": "Eduardo VII",
-			"titulo": "Rey del Reino Unido"
+			"titulo": "Rey del Reino Unido",
+			"desde": 1901,
+			"hasta": 1910
 		},
 		{
-			"desde": 1910,
-			"hasta": 1936,
 			"nombre": "Jorge V",
-			"titulo": "Rey del Reino Unido"
+			"titulo": "Rey del Reino Unido",
+			"desde": 1910,
+			"hasta": 1936
 		},
 		{
-			"desde": 1936,
-			"hasta": 1952,
-			"nombre": "Jorge VI",
-			"titulo": "Rey del Reino Unido"
-		},
-		{
-			"desde": 1936,
-			"hasta": 1936,
 			"nombre": "Eduardo VIII",
-			"titulo": "Rey del Reino Unido"
+			"titulo": "Rey del Reino Unido",
+			"desde": 1936,
+			"hasta": 1936
 		},
 		{
-			"desde": 1936,
-			"hasta": 1940,
-			"nombre": "Neville Chamberlain",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1936,
-			"hasta": 1936,
 			"nombre": "Eduardo VIII del Reino Unido",
-			"cargo": "jefe de Estado"
-		},
-		{
+			"cargo": "jefe de Estado",
 			"desde": 1936,
-			"hasta": 1952,
+			"hasta": 1936
+		},
+		{
+			"nombre": "Neville Chamberlain",
+			"cargo": "jefe de gobierno",
+			"desde": 1936,
+			"hasta": 1940
+		},
+		{
+			"nombre": "Jorge VI",
+			"titulo": "Rey del Reino Unido",
+			"desde": 1936,
+			"hasta": 1952
+		},
+		{
 			"nombre": "Jorge VI del Reino Unido",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1936,
+			"hasta": 1952
 		},
 		{
+			"nombre": "Winston Churchill",
+			"cargo": "jefe de gobierno",
 			"desde": 1940,
-			"hasta": 1945,
-			"nombre": "Winston Churchill",
-			"cargo": "jefe de gobierno"
+			"hasta": 1945
 		},
 		{
-			"desde": 1945,
-			"hasta": 1951,
 			"nombre": "Clement Attlee",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1945,
+			"hasta": 1951
 		},
 		{
-			"desde": 1951,
-			"hasta": 1955,
 			"nombre": "Winston Churchill",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1951,
+			"hasta": 1955
 		},
 		{
-			"desde": 1952,
-			"hasta": 2022,
 			"nombre": "Isabel II",
-			"titulo": "Reina del Reino Unido"
-		},
-		{
+			"titulo": "Reina del Reino Unido",
 			"desde": 1952,
-			"hasta": 2022,
+			"hasta": 2022
+		},
+		{
 			"nombre": "Isabel II del Reino Unido",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 2022
 		},
 		{
-			"desde": 1955,
-			"hasta": 1957,
 			"nombre": "Anthony Eden",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1955,
+			"hasta": 1957
 		},
 		{
-			"desde": 1957,
-			"hasta": 1963,
 			"nombre": "Harold Macmillan",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1957,
+			"hasta": 1963
 		},
 		{
-			"desde": 1963,
-			"hasta": 1964,
 			"nombre": "Alec Douglas-Home",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1964
 		},
 		{
+			"nombre": "Harold Wilson",
+			"cargo": "jefe de gobierno",
 			"desde": 1964,
-			"hasta": 1970,
-			"nombre": "Harold Wilson",
-			"cargo": "jefe de gobierno"
+			"hasta": 1970
 		},
 		{
-			"desde": 1970,
-			"hasta": 1974,
 			"nombre": "Edward Heath",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1970,
+			"hasta": 1974
 		},
 		{
-			"desde": 1974,
-			"hasta": 1976,
 			"nombre": "Harold Wilson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1976
 		},
 		{
-			"desde": 1976,
-			"hasta": 1979,
 			"nombre": "James Callaghan",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1976,
+			"hasta": 1979
 		},
 		{
-			"desde": 1979,
-			"hasta": 1990,
 			"nombre": "Q7416",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1990
 		},
 		{
-			"desde": 1990,
-			"hasta": 1997,
 			"nombre": "John Major",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1990,
+			"hasta": 1997
 		},
 		{
-			"desde": 1997,
-			"hasta": 2007,
 			"nombre": "Tony Blair",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 2007
 		},
 		{
-			"desde": 2007,
-			"hasta": 2010,
 			"nombre": "Q10648",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2010
 		},
 		{
-			"desde": 2010,
-			"hasta": 2016,
 			"nombre": "Q192",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2016
 		},
 		{
-			"desde": 2016,
-			"hasta": 2019,
 			"nombre": "Theresa May",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2019
 		},
 		{
-			"desde": 2019,
-			"hasta": 2022,
 			"nombre": "Boris Johnson",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2022
 		},
 		{
-			"desde": 2022,
-			"hasta": 2026,
-			"nombre": "Carlos III",
-			"titulo": "Rey del Reino Unido"
-		},
-		{
-			"desde": 2022,
-			"hasta": 2022,
-			"nombre": "Q272201",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2022,
-			"hasta": 2022,
 			"nombre": "Carlos III del Reino Unido",
-			"cargo": "jefe de Estado"
-		},
-		{
+			"cargo": "jefe de Estado",
 			"desde": 2022,
-			"hasta": 2024,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Q272201",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
 			"nombre": "Q20055561",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2024
 		},
 		{
-			"desde": 2024,
-			"hasta": 2026,
+			"nombre": "Carlos III",
+			"titulo": "Rey del Reino Unido",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
 			"nombre": "Keir Starmer",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2026
 		},
 		{
-			"desde": 2026,
-			"hasta": 2026,
 			"nombre": "Andy Burnham",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -424,9 +431,18 @@
 			"valor": 68682965
 		}
 	],
-	"relacionados": [
-		"Inglaterra",
-		"Trece Colonias"
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the United Kingdom in Scotland.svg"
+		},
+		{
+			"archivo": "Coat of Arms of the United Kingdom in Scotland (1837-1952).svg",
+			"hasta": 1952
+		},
+		{
+			"archivo": "Coat of arms of the United Kingdom (2022, variant 2).svg",
+			"desde": 2022
+		}
 	],
 	"fuentes": [
 		{
@@ -603,32 +619,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "United Kingdom",
-	"wikidata": "Q145",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "64e5ea7756d2",
+		"hash": "c77b131bfa3c",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "El Reino Unido, oficialmente el Reino Unido de Gran Bretaña e Irlanda del Norte, es un país soberano e insular ubicado al noroeste de la Europa continental. Su territorio está formado geográficamente por la isla de Gran Bretaña, el noreste de la isla de Irlanda y pequeñas islas adyacentes.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of the United Kingdom (2022, variant 2).svg",
-			"desde": 2022
-		},
-		{
-			"archivo": "Coat of Arms of the United Kingdom in Scotland (1837-1952).svg",
-			"hasta": 1952
-		},
-		{
-			"archivo": "Coat of arms of the United Kingdom in Scotland.svg"
-		}
-	]
+	}
 }

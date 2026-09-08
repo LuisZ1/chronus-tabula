@@ -10,6 +10,132 @@
 		"Persia",
 		"Imperio persa"
 	],
+	"resena": "Irán, oficialmente la República Islámica de Irán ; también conocida históricamente en Occidente como Persia, es un país soberano de Oriente Próximo y Asia Occidental. Es una república islámica teocrática basada en los principios religiosos del islam chií.",
+	"gobernantes": [
+		{
+			"nombre": "Ruhollah Jomeini",
+			"cargo": "jefe de Estado",
+			"desde": 1979,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Abolhasán Banisadr",
+			"cargo": "jefe de gobierno",
+			"desde": 1980,
+			"hasta": 1981
+		},
+		{
+			"nombre": "Mohammad Alí Rayaí",
+			"cargo": "jefe de gobierno",
+			"desde": 1981,
+			"hasta": 1981
+		},
+		{
+			"nombre": "Alí Jameneí",
+			"cargo": "jefe de gobierno",
+			"desde": 1981,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Akbar Hashemí Rafsanyaní",
+			"cargo": "jefe de gobierno",
+			"desde": 1989,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Alí Jameneí",
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Muhammad Jatami",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Mahmud Ahmadineyad",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Hasán Rouhaní",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Ebrahim Raisi",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Masoud Pezeshkian",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Mochtabá Jameneí",
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1960,
+			"valor": 21958460,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 28606584,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 38889520,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 56361868,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 65911052,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 74462314,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2020,
+			"valor": 84923314,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2025,
+			"valor": 92417700,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Lion and Sun.svg"
+		},
+		{
+			"archivo": "Emblem of Iran.svg",
+			"desde": 1980
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Irán",
@@ -102,142 +228,16 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Irán, oficialmente la República Islámica de Irán ; también conocida históricamente en Occidente como Persia, es un país soberano de Oriente Próximo y Asia Occidental. Es una república islámica teocrática basada en los principios religiosos del islam chií.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "1eb72d628cac",
+		"hash": "0c8e0a9db9cd",
 		"secciones": [
 			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"
 		]
-	},
-	"gobernantes": [
-		{
-			"desde": 1979,
-			"hasta": 1989,
-			"nombre": "Ruhollah Jomeini",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1980,
-			"hasta": 1981,
-			"nombre": "Abolhasán Banisadr",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1981,
-			"hasta": 1981,
-			"nombre": "Mohammad Alí Rayaí",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1981,
-			"hasta": 1989,
-			"nombre": "Alí Jameneí",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1989,
-			"hasta": 2026,
-			"nombre": "Alí Jameneí",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1989,
-			"hasta": 1997,
-			"nombre": "Akbar Hashemí Rafsanyaní",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1997,
-			"hasta": 2005,
-			"nombre": "Muhammad Jatami",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2005,
-			"hasta": 2013,
-			"nombre": "Mahmud Ahmadineyad",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2013,
-			"hasta": 2021,
-			"nombre": "Hasán Rouhaní",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2021,
-			"hasta": 2024,
-			"nombre": "Ebrahim Raisi",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2024,
-			"hasta": 2024,
-			"nombre": "Masoud Pezeshkian",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 2026,
-			"hasta": 2026,
-			"nombre": "Mochtabá Jameneí",
-			"cargo": "jefe de Estado"
-		}
-	],
-	"poblacion": [
-		{
-			"anio": 1960,
-			"valor": 21958460,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1970,
-			"valor": 28606584,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1980,
-			"valor": 38889520,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 1990,
-			"valor": 56361868,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2000,
-			"valor": 65911052,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2010,
-			"valor": 74462314,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2020,
-			"valor": 84923314,
-			"fuente": "Wikidata (P1082)"
-		},
-		{
-			"anio": 2025,
-			"valor": 92417700,
-			"fuente": "Wikidata (P1082)"
-		}
-	],
-	"escudos": [
-		{
-			"archivo": "Emblem of Iran.svg",
-			"desde": 1980
-		},
-		{
-			"archivo": "Lion and Sun.svg"
-		}
-	]
+	}
 }

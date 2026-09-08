@@ -4,28 +4,10 @@
 	"nombres": [
 		"Montserrat"
 	],
-	"wikidata": "Q13353",
 	"wiki": "es:Montserrat",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q13353",
-			"url": "https://www.wikidata.org/wiki/Q13353",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Montserrat",
-			"url": "https://es.wikipedia.org/wiki/Montserrat",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q13353",
 	"owid": "MSR",
+	"resena": "La isla de Montserrat es un territorio británico de ultramar ubicado al sureste de la isla de Puerto Rico, y al noroeste de Venezuela en aguas del mar Caribe.",
 	"poblacion": [
 		{
 			"anio": 600,
@@ -144,6 +126,25 @@
 			"valor": 4440
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q13353",
+			"url": "https://www.wikidata.org/wiki/Q13353",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Montserrat",
+			"url": "https://es.wikipedia.org/wiki/Montserrat",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -153,6 +154,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La isla de Montserrat es un territorio británico de ultramar ubicado al sureste de la isla de Puerto Rico, y al noroeste de Venezuela en aguas del mar Caribe."
+	}
 }

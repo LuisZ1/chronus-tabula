@@ -8,35 +8,6 @@
 		"República Árabe Saharaui Democrática",
 		"RASD"
 	],
-	"wiki": "es:Sáhara Occidental",
-	"fuentes": [
-		{
-			"id": "wiki_es",
-			"url": "https://es.wikipedia.org/wiki/S%C3%A1hara_Occidental",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki_en_hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Sahrawi_Arab_Democratic_Republic",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q6250",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata_rasd",
-			"url": "https://www.wikidata.org/wiki/Q40362",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Sáhara Occidental",
-			"url": "https://es.wikipedia.org/wiki/Sahara_Occidental",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Sahara Español (colonia)",
@@ -44,45 +15,47 @@
 			"hasta": 1976
 		},
 		{
-			"nombre": "República Árabe Saharaui Democrática (proclamada)",
-			"desde": 1976
-		},
-		{
 			"nombre": "Administración marroquí (de facto, mayor parte del territorio)",
 			"desde": 1975
+		},
+		{
+			"nombre": "República Árabe Saharaui Democrática (proclamada)",
+			"desde": 1976
 		}
 	],
+	"wiki": "es:Sáhara Occidental",
 	"wikidata": "Q6250",
+	"resena": "El Sahara Occidental o Sáhara Occidental es una región del norte de África situada en el extremo occidental del desierto del Sahara, a orillas del océano Atlántico. Es uno de los diecisiete territorios no autónomos bajo supervisión del Comité Especial de Descolonización de la Organización de las Naciones Unidas, con el fin de terminar el colonialismo.",
 	"gobernantes": [
 		{
 			"nombre": "El-Ouali Mustapha Sayed",
+			"cargo": "Secretario General del Frente Polisario / jefe del Consejo Revolucionario (RASD)",
 			"desde": 1976,
-			"hasta": 1976,
-			"cargo": "Secretario General del Frente Polisario / jefe del Consejo Revolucionario (RASD)"
+			"hasta": 1976
 		},
 		{
 			"nombre": "Mahfoud Ali Beiba",
+			"cargo": "Presidente interino (Consejo Revolucionario, RASD)",
 			"desde": 1976,
-			"hasta": 1976,
-			"cargo": "Presidente interino (Consejo Revolucionario, RASD)"
+			"hasta": 1976
 		},
 		{
 			"nombre": "Mohamed Abdelaziz",
+			"cargo": "Presidente de la RASD",
 			"desde": 1976,
-			"hasta": 2016,
-			"cargo": "Presidente de la RASD"
+			"hasta": 2016
 		},
 		{
 			"nombre": "Khatri Aduh",
+			"cargo": "Presidente interino (RASD)",
 			"desde": 2016,
-			"hasta": 2016,
-			"cargo": "Presidente interino (RASD)"
+			"hasta": 2016
 		},
 		{
 			"nombre": "Brahim Ghali",
+			"cargo": "Presidente de la RASD",
 			"desde": 2016,
-			"hasta": 2026,
-			"cargo": "Presidente de la RASD"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -112,11 +85,39 @@
 			"fuente": "Estimación"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki_es",
+			"url": "https://es.wikipedia.org/wiki/S%C3%A1hara_Occidental",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki_en_hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Sahrawi_Arab_Democratic_Republic",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q6250",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata_rasd",
+			"url": "https://www.wikidata.org/wiki/Q40362",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Sáhara Occidental",
+			"url": "https://es.wikipedia.org/wiki/Sahara_Occidental",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "93cc2511d980",
+		"hash": "63b83f6f2f63",
 		"secciones": [
 			"fuentes",
 			"gobernantes",
@@ -124,6 +125,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "El Sahara Occidental o Sáhara Occidental es una región del norte de África situada en el extremo occidental del desierto del Sahara, a orillas del océano Atlántico. Es uno de los diecisiete territorios no autónomos bajo supervisión del Comité Especial de Descolonización de la Organización de las Naciones Unidas, con el fin de terminar el colonialismo."
+	}
 }

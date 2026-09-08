@@ -4,30 +4,34 @@
 	"nombres": [
 		"Mongol Empire"
 	],
+	"relacionados": [
+		"Corasmia"
+	],
+	"resena": "El Imperio mongol fue el segundo imperio más extenso de la historia y el más grande de los imperios constituidos por territorios continuos. Fue fundado por Gengis Kan en el año 1206 y tuvo su punto álgido cuando alcanzó aproximadamente 23 000 000 km² de extensión.",
 	"gobernantes": [
 		{
-			"desde": 1206,
-			"hasta": 1227,
 			"nombre": "Gengis Kan",
-			"titulo": "Gran Kan"
+			"titulo": "Gran Kan",
+			"desde": 1206,
+			"hasta": 1227
 		},
 		{
-			"desde": 1229,
-			"hasta": 1241,
 			"nombre": "Ogodei",
-			"titulo": "Gran Kan"
+			"titulo": "Gran Kan",
+			"desde": 1229,
+			"hasta": 1241
 		},
 		{
-			"desde": 1251,
-			"hasta": 1259,
 			"nombre": "Möngke",
-			"titulo": "Gran Kan"
+			"titulo": "Gran Kan",
+			"desde": 1251,
+			"hasta": 1259
 		},
 		{
-			"desde": 1260,
-			"hasta": 1294,
 			"nombre": "Kublai Kan (fundador de la dinastía Yuan)",
-			"titulo": "Gran Kan"
+			"titulo": "Gran Kan",
+			"desde": 1260,
+			"hasta": 1294
 		}
 	],
 	"poblacion": [
@@ -35,9 +39,6 @@
 			"anio": 1279,
 			"valor": 110000000
 		}
-	],
-	"relacionados": [
-		"Corasmia"
 	],
 	"fuentes": [
 		{
@@ -52,7 +53,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Imperio mongol fue el segundo imperio más extenso de la historia y el más grande de los imperios constituidos por territorios continuos. Fue fundado por Gengis Kan en el año 1206 y tuvo su punto álgido cuando alcanzó aproximadamente 23 000 000 km² de extensión.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

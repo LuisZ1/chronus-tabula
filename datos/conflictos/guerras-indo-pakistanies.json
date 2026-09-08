@@ -10,14 +10,6 @@
 	"bajas": "más de 30.000 muertos en el conjunto de las guerras",
 	"descripcion": "Tras la partición de 1947, India y Pakistán libran tres guerras: en 1947-48 y 1965 por Cachemira, sin cambios de fronteras decisivos, y en 1971, cuando la intervención india en la guerra de independencia de Bangladés provoca la rendición de más de 90.000 soldados pakistaníes en Daca y el nacimiento de Bangladés.",
 	"wiki": "Guerras indo-pakistaníes",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras indo-pakistaníes",
-			"url": "https://es.wikipedia.org/wiki/Guerras_indo-pakistaníes",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Cachemira (línea de control)",
@@ -110,6 +102,14 @@
 			"anio": 1971,
 			"lat": 23.81,
 			"lng": 90.41
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras indo-pakistaníes",
+			"url": "https://es.wikipedia.org/wiki/Guerras_indo-pakistaníes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

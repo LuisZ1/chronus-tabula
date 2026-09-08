@@ -9,16 +9,7 @@
 	],
 	"bajas": "~20.000 muertos",
 	"descripcion": "Expediciones omeyas al norte de los Pirineos, frenadas por los francos.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Poitiers (Tours)",
-			"anio": 732,
-			"lat": 46.58,
-			"lng": 0.34,
-			"bajas": "~12.000 muertos",
-			"descripcion": "Carlos Martel detiene el avance omeya en Europa occidental."
-		}
-	],
+	"wiki": "Batalla de Poitiers (732)",
 	"zonas": [
 		{
 			"nombre": "Aquitania",
@@ -73,7 +64,16 @@
 			]
 		}
 	],
-	"wiki": "Batalla de Poitiers (732)",
+	"batallas": [
+		{
+			"nombre": "Batalla de Poitiers (Tours)",
+			"anio": 732,
+			"lat": 46.58,
+			"lng": 0.34,
+			"descripcion": "Carlos Martel detiene el avance omeya en Europa occidental.",
+			"bajas": "~12.000 muertos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Batalla de Poitiers (732)",

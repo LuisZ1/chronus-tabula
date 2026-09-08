@@ -5,35 +5,6 @@
 		"Liberia",
 		"República de Liberia"
 	],
-	"wiki": "es:Liberia",
-	"fuentes": [
-		{
-			"id": "wiki-es",
-			"url": "https://es.wikipedia.org/wiki/Liberia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1014",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wiki-en-hos",
-			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Liberia",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~LBR",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Liberia",
-			"url": "https://es.wikipedia.org/wiki/Liberia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Colonia de la Sociedad Americana de Colonización (Mancomunidad de Liberia)",
@@ -46,175 +17,177 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Liberia",
 	"wikidata": "Q1014",
+	"resena": "Liberia, oficialmente la República de Liberia, es un país ubicado en la costa oeste de África y que limita con Sierra Leona al noroeste, Costa de Marfil al este y Guinea al norte. Por el sur y el oeste limita con el golfo de Guinea, parte del océano Atlántico, en el punto más cercano del continente africano con Sudamérica, de la cual dista unos 2 840 km.",
 	"gobernantes": [
 		{
 			"nombre": "Joseph Jenkins Roberts",
+			"cargo": "presidente (primer presidente)",
 			"desde": 1848,
-			"hasta": 1856,
-			"cargo": "presidente (primer presidente)"
+			"hasta": 1856
 		},
 		{
 			"nombre": "Stephen Allen Benson",
+			"cargo": "presidente",
 			"desde": 1856,
-			"hasta": 1864,
-			"cargo": "presidente"
+			"hasta": 1864
 		},
 		{
 			"nombre": "Daniel Bashiel Warner",
+			"cargo": "presidente",
 			"desde": 1864,
-			"hasta": 1868,
-			"cargo": "presidente"
+			"hasta": 1868
 		},
 		{
 			"nombre": "James Spriggs Payne",
+			"cargo": "presidente",
 			"desde": 1868,
-			"hasta": 1870,
-			"cargo": "presidente"
+			"hasta": 1870
 		},
 		{
 			"nombre": "Edward James Roye",
+			"cargo": "presidente",
 			"desde": 1870,
-			"hasta": 1871,
-			"cargo": "presidente"
+			"hasta": 1871
 		},
 		{
 			"nombre": "James Skivring Smith",
+			"cargo": "presidente interino",
 			"desde": 1871,
-			"hasta": 1872,
-			"cargo": "presidente interino"
+			"hasta": 1872
 		},
 		{
 			"nombre": "Joseph Jenkins Roberts",
+			"cargo": "presidente",
 			"desde": 1872,
-			"hasta": 1876,
-			"cargo": "presidente"
+			"hasta": 1876
 		},
 		{
 			"nombre": "James Spriggs Payne",
+			"cargo": "presidente",
 			"desde": 1876,
-			"hasta": 1878,
-			"cargo": "presidente"
+			"hasta": 1878
 		},
 		{
 			"nombre": "Anthony W. Gardiner",
+			"cargo": "presidente",
 			"desde": 1878,
-			"hasta": 1883,
-			"cargo": "presidente"
+			"hasta": 1883
 		},
 		{
 			"nombre": "Alfred Francis Russell",
+			"cargo": "presidente",
 			"desde": 1883,
-			"hasta": 1884,
-			"cargo": "presidente"
+			"hasta": 1884
 		},
 		{
 			"nombre": "Hilary R. W. Johnson",
+			"cargo": "presidente",
 			"desde": 1884,
-			"hasta": 1892,
-			"cargo": "presidente"
+			"hasta": 1892
 		},
 		{
 			"nombre": "Joseph James Cheeseman",
+			"cargo": "presidente",
 			"desde": 1892,
-			"hasta": 1896,
-			"cargo": "presidente"
+			"hasta": 1896
 		},
 		{
 			"nombre": "William D. Coleman",
+			"cargo": "presidente",
 			"desde": 1896,
-			"hasta": 1900,
-			"cargo": "presidente"
+			"hasta": 1900
 		},
 		{
 			"nombre": "Garretson W. Gibson",
+			"cargo": "presidente",
 			"desde": 1900,
-			"hasta": 1904,
-			"cargo": "presidente"
+			"hasta": 1904
 		},
 		{
 			"nombre": "Arthur Barclay",
+			"cargo": "presidente",
 			"desde": 1904,
-			"hasta": 1912,
-			"cargo": "presidente"
+			"hasta": 1912
 		},
 		{
 			"nombre": "Daniel Edward Howard",
+			"cargo": "presidente",
 			"desde": 1912,
-			"hasta": 1920,
-			"cargo": "presidente"
+			"hasta": 1920
 		},
 		{
 			"nombre": "Charles D. B. King",
+			"cargo": "presidente",
 			"desde": 1920,
-			"hasta": 1930,
-			"cargo": "presidente"
+			"hasta": 1930
 		},
 		{
 			"nombre": "Edwin Barclay",
+			"cargo": "presidente",
 			"desde": 1930,
-			"hasta": 1944,
-			"cargo": "presidente"
+			"hasta": 1944
 		},
 		{
 			"nombre": "William Tubman",
+			"cargo": "presidente",
 			"desde": 1944,
-			"hasta": 1971,
-			"cargo": "presidente"
+			"hasta": 1971
 		},
 		{
 			"nombre": "William Tolbert",
+			"cargo": "presidente",
 			"desde": 1971,
-			"hasta": 1980,
-			"cargo": "presidente"
+			"hasta": 1980
 		},
 		{
 			"nombre": "Samuel Doe",
+			"cargo": "jefe de Estado (Consejo de Redención del Pueblo) y presidente",
 			"desde": 1980,
-			"hasta": 1990,
-			"cargo": "jefe de Estado (Consejo de Redención del Pueblo) y presidente"
+			"hasta": 1990
 		},
 		{
 			"nombre": "Amos Sawyer",
+			"cargo": "presidente del Gobierno interino de Unidad Nacional",
 			"desde": 1990,
-			"hasta": 1994,
-			"cargo": "presidente del Gobierno interino de Unidad Nacional"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Charles Taylor",
+			"cargo": "presidente",
 			"desde": 1997,
-			"hasta": 2003,
-			"cargo": "presidente"
+			"hasta": 2003
 		},
 		{
 			"nombre": "Moses Blah",
+			"cargo": "presidente",
 			"desde": 2003,
-			"hasta": 2003,
-			"cargo": "presidente"
+			"hasta": 2003
 		},
 		{
 			"nombre": "Gyude Bryant",
+			"cargo": "presidente del Gobierno nacional de transición",
 			"desde": 2003,
-			"hasta": 2006,
-			"cargo": "presidente del Gobierno nacional de transición"
+			"hasta": 2006
 		},
 		{
 			"nombre": "Ellen Johnson Sirleaf",
+			"cargo": "presidenta",
 			"desde": 2006,
-			"hasta": 2018,
-			"cargo": "presidenta"
+			"hasta": 2018
 		},
 		{
 			"nombre": "George Weah",
+			"cargo": "presidente",
 			"desde": 2018,
-			"hasta": 2024,
-			"cargo": "presidente"
+			"hasta": 2024
 		},
 		{
 			"nombre": "Joseph Boakai",
+			"cargo": "presidente",
 			"desde": 2024,
-			"hasta": 2026,
-			"cargo": "presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -249,6 +222,34 @@
 			"fuente": "UN/OWID (estimación)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wiki-es",
+			"url": "https://es.wikipedia.org/wiki/Liberia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1014",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wiki-en-hos",
+			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Liberia",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid",
+			"url": "https://ourworldindata.org/grapher/population?country=~LBR",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Liberia",
+			"url": "https://es.wikipedia.org/wiki/Liberia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -261,6 +262,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Liberia, oficialmente la República de Liberia, es un país ubicado en la costa oeste de África y que limita con Sierra Leona al noroeste, Costa de Marfil al este y Guinea al norte. Por el sur y el oeste limita con el golfo de Guinea, parte del océano Atlántico, en el punto más cercano del continente africano con Sudamérica, de la cual dista unos 2 840 km."
+	}
 }

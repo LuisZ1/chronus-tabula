@@ -4,10 +4,10 @@
 	"hasta": 1353,
 	"lat": 37.06,
 	"lng": 15.29,
-	"descripcion": "La pandemia entra en Europa por Sicilia y mata a un tercio de la población.",
 	"paises": [
 		"Europa"
 	],
+	"descripcion": "La pandemia entra en Europa por Sicilia y mata a un tercio de la población.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Peste Negra",

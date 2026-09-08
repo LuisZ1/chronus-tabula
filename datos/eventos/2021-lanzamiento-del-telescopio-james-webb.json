@@ -1,9 +1,9 @@
 {
 	"nombre": "Lanzamiento del telescopio James Webb",
 	"anio": 2021,
+	"categoria": "invento",
 	"lat": 5.24,
 	"lng": -52.77,
-	"categoria": "invento",
 	"paises": [
 		"Estados Unidos",
 		"Francia"

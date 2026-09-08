@@ -12,26 +12,6 @@
 	"bajas": "cientos de miles",
 	"descripcion": "Fase final del Sengoku: Nobunaga, Hideyoshi e Ieyasu unifican sucesivamente el país. Del ascenso de Nobunaga en Okehazama (1560) y el uso masivo de arcabuces en Nagashino (1575) a la victoria decisiva de Ieyasu en Sekigahara (1600), que abre el shogunato Tokugawa (1603).",
 	"wiki": "Período Sengoku",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Batalla de Sekigahara",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Sekigahara",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Batalla de Nagashino",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nagashino",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Batalla de Okehazama",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Okehazama",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Honshu central bajo los unificadores",
@@ -79,6 +59,26 @@
 			"lat": 35.37,
 			"lng": 136.46,
 			"descripcion": "Victoria de Tokugawa Ieyasu que consolida su hegemonía y precede al shogunato Edo."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Batalla de Sekigahara",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Sekigahara",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Nagashino",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Nagashino",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Okehazama",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Okehazama",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

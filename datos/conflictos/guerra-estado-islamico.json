@@ -13,32 +13,6 @@
 	"bajas": "~100.000+ muertos",
 	"descripcion": "El EI proclama un «califato» sobre un tercio de Irak y Siria; una coalición internacional y fuerzas kurdas e iraquíes lo reducen hasta su último enclave en Baguz (2019).",
 	"wiki": "Estado Islámico",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Estado Islámico",
-			"url": "https://es.wikipedia.org/wiki/Estado_Islámico",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-en:Islamic State",
-			"url": "https://en.wikipedia.org/wiki/Islamic_State",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q22894201",
-			"url": "https://www.wikidata.org/wiki/Q22894201",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q23701422",
-			"url": "https://www.wikidata.org/wiki/Q23701422",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Territorio del «califato»",
@@ -136,13 +110,10 @@
 			"wiki": "Sitio de Kobane"
 		},
 		{
-			"nombre": "Batalla de Mosul",
+			"nombre": "Batalla de al-Qaryatayn",
 			"anio": 2016,
-			"lat": 36.34,
-			"lng": 43.13,
-			"descripcion": "Nueve meses de combate urbano; la mayor batalla desde 2003.",
-			"wiki": "Batalla de Mosul (2016-2017)",
-			"hasta": 2017
+			"lat": 34.23,
+			"lng": 37.23
 		},
 		{
 			"nombre": "Ofensiva de Al-Shadaddah",
@@ -151,10 +122,13 @@
 			"lng": 40.73
 		},
 		{
-			"nombre": "Batalla de al-Qaryatayn",
+			"nombre": "Batalla de Mosul",
 			"anio": 2016,
-			"lat": 34.23,
-			"lng": 37.23
+			"hasta": 2017,
+			"lat": 36.34,
+			"lng": 43.13,
+			"descripcion": "Nueve meses de combate urbano; la mayor batalla desde 2003.",
+			"wiki": "Batalla de Mosul (2016-2017)"
 		},
 		{
 			"nombre": "Batalla de Raqqa",
@@ -170,6 +144,32 @@
 			"lat": 34.44,
 			"lng": 40.95,
 			"descripcion": "Último reducto territorial del EI, marzo de 2019."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Estado Islámico",
+			"url": "https://es.wikipedia.org/wiki/Estado_Islámico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Islamic State",
+			"url": "https://en.wikipedia.org/wiki/Islamic_State",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q22894201",
+			"url": "https://www.wikidata.org/wiki/Q22894201",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q23701422",
+			"url": "https://www.wikidata.org/wiki/Q23701422",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

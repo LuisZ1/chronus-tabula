@@ -11,18 +11,6 @@
 	"bajas": "cientos de miles (incluidas hambruna y enfermedad)",
 	"descripcion": "Enfrentamiento entre los partidarios del rey Carlos I (realistas) y el Parlamento. El Nuevo Ejército Modelo de Cromwell vence en Marston Moor (1644) y Naseby (1645); Carlos I es ejecutado en 1649 y se proclama la Mancomunidad. La derrota final de los realistas escoceses en Worcester (1651) cierra la guerra.",
 	"wiki": "Guerra Civil inglesa",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra Civil inglesa",
-			"url": "https://es.wikipedia.org/wiki/Guerra_Civil_inglesa",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de Inglaterra",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Islas Británicas",
@@ -77,6 +65,18 @@
 			"anio": 1651,
 			"lat": 52.19,
 			"lng": -2.22
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra Civil inglesa",
+			"url": "https://es.wikipedia.org/wiki/Guerra_Civil_inglesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
 		}
 	]
 }

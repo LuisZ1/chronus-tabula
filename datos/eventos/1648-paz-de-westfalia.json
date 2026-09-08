@@ -3,7 +3,6 @@
 	"anio": 1648,
 	"lat": 51.96,
 	"lng": 7.63,
-	"descripcion": "Fin de la Guerra de los Treinta Años; nace el orden de estados soberanos.",
 	"paises": [
 		"Sacro Imperio",
 		"Francia",
@@ -11,6 +10,7 @@
 		"España",
 		"Países Bajos"
 	],
+	"descripcion": "Fin de la Guerra de los Treinta Años; nace el orden de estados soberanos.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Paz de Westfalia",

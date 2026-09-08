@@ -5,28 +5,10 @@
 		"Finland",
 		"Finlandia"
 	],
-	"wikidata": "Q33",
 	"wiki": "es:Finlandia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q33",
-			"url": "https://www.wikidata.org/wiki/Q33",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Finlandia",
-			"url": "https://es.wikipedia.org/wiki/Finlandia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q33",
 	"owid": "FIN",
+	"resena": "Finlandia, oficialmente la República de Finlandia, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está situado en el noreste de Europa.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 5601185
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q33",
+			"url": "https://www.wikidata.org/wiki/Q33",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Finlandia",
+			"url": "https://es.wikipedia.org/wiki/Finlandia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Finlandia, oficialmente la República de Finlandia, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está situado en el noreste de Europa."
+	}
 }

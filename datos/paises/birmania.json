@@ -6,28 +6,10 @@
 		"Birmania",
 		"Myanmar"
 	],
-	"wikidata": "Q836",
 	"wiki": "es:Birmania",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q836",
-			"url": "https://www.wikidata.org/wiki/Q836",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Birmania",
-			"url": "https://es.wikipedia.org/wiki/Birmania",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q836",
 	"owid": "MMR",
+	"resena": "Birmania o Myanmar, cuya denominación oficial es República de la Unión de Myanmar, es un Estado soberano del Sudeste Asiático. Limita con India y Bangladés al oeste, Tailandia y Laos al este, China al norte y noreste, y con la bahía de Bengala y el mar de Andamán al sur.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 54133800
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q836",
+			"url": "https://www.wikidata.org/wiki/Q836",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Birmania",
+			"url": "https://es.wikipedia.org/wiki/Birmania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Birmania o Myanmar, cuya denominación oficial es República de la Unión de Myanmar, es un Estado soberano del Sudeste Asiático. Limita con India y Bangladés al oeste, Tailandia y Laos al este, China al norte y noreste, y con la bahía de Bengala y el mar de Andamán al sur."
+	}
 }

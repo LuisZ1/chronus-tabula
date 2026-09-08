@@ -5,28 +5,10 @@
 		"Dominican Republic",
 		"República Dominicana"
 	],
-	"wikidata": "Q786",
 	"wiki": "es:República Dominicana",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q786",
-			"url": "https://www.wikidata.org/wiki/Q786",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): República Dominicana",
-			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Dominicana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q786",
 	"owid": "DOM",
+	"resena": "La República Dominicana es un país de América situado en el Caribe, ubicado en la zona central de las Antillas; ocupa la parte central y oriental de la isla La Española. Su capital y ciudad más poblada es Santo Domingo.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -209,6 +191,25 @@
 			"valor": 11331269
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q786",
+			"url": "https://www.wikidata.org/wiki/Q786",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): República Dominicana",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Dominicana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -218,6 +219,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La República Dominicana es un país de América situado en el Caribe, ubicado en la zona central de las Antillas; ocupa la parte central y oriental de la isla La Española. Su capital y ciudad más poblada es Santo Domingo."
+	}
 }

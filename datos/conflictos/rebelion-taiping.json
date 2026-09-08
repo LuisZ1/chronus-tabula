@@ -11,20 +11,6 @@
 	"bajas": "~20-30 millones de muertos: la guerra civil más letal de la historia",
 	"descripcion": "Hong Xiuquan, autoproclamado hermano de Jesucristo, funda el «Reino Celestial de la Gran Paz» y arrastra al valle del Yangtsé a una guerra que desangra a la China Qing.",
 	"wiki": "Rebelión Taiping",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Rebelión Taiping",
-			"url": "https://es.wikipedia.org/wiki/Rebelión_Taiping",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Reino Celestial (valle del Yangtsé)",
@@ -89,6 +75,20 @@
 			"lat": 32.05,
 			"lng": 118.78,
 			"descripcion": "El ejército de Zeng Guofan aplasta el reino; matanza de cientos de miles."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Rebelión Taiping",
+			"url": "https://es.wikipedia.org/wiki/Rebelión_Taiping",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

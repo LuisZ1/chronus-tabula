@@ -6,28 +6,10 @@
 		"Corea del Sur",
 		"Republica de Corea"
 	],
-	"wikidata": "Q884",
 	"wiki": "es:Corea del Sur",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q884",
-			"url": "https://www.wikidata.org/wiki/Q884",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Corea del Sur",
-			"url": "https://es.wikipedia.org/wiki/Corea_del_Sur",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q884",
 	"owid": "KOR",
+	"resena": "La República de Corea, comúnmente Corea del Sur, es un país soberano de Asia Oriental, ubicado en la parte sur de la península de Corea. Limita al norte con Corea del Norte, con la cual integró un solo país hasta 1945.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 51748744
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q884",
+			"url": "https://www.wikidata.org/wiki/Q884",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Corea del Sur",
+			"url": "https://es.wikipedia.org/wiki/Corea_del_Sur",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "La República de Corea, comúnmente Corea del Sur, es un país soberano de Asia Oriental, ubicado en la parte sur de la península de Corea. Limita al norte con Corea del Norte, con la cual integró un solo país hasta 1945."
+	}
 }

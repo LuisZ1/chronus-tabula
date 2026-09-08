@@ -10,18 +10,6 @@
 	"bajas": "miles",
 	"descripcion": "Tras la crisis sucesoria escocesa arbitrada por Eduardo I en Norham (1291), Escocia se resiste al dominio inglés: William Wallace vence en Stirling Bridge (1297) y Robert the Bruce en Bannockburn (1314). El Tratado de Edimburgo-Northampton (1328) reconoce la independencia escocesa.",
 	"wiki": "Guerras de independencia de Escocia",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras de independencia de Escocia",
-			"url": "https://es.wikipedia.org/wiki/Guerras_de_independencia_de_Escocia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de Inglaterra",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frontera anglo-escocesa y Tierras Bajas",
@@ -70,6 +58,18 @@
 			"anio": 1314,
 			"lat": 56.09,
 			"lng": -3.92
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras de independencia de Escocia",
+			"url": "https://es.wikipedia.org/wiki/Guerras_de_independencia_de_Escocia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
 		}
 	]
 }

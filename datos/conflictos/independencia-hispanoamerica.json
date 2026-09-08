@@ -14,23 +14,7 @@
 	],
 	"bajas": "~600.000 muertos",
 	"descripcion": "Los virreinatos americanos se independizan de España tras la crisis de 1808.",
-	"batallas": [
-		{
-			"nombre": "Batalla de Boyacá",
-			"anio": 1819,
-			"lat": 5.45,
-			"lng": -73.42,
-			"descripcion": "Bolívar asegura la independencia de Nueva Granada."
-		},
-		{
-			"nombre": "Batalla de Ayacucho",
-			"anio": 1824,
-			"lat": -13.65,
-			"lng": -74.22,
-			"bajas": "~2.100 muertos",
-			"descripcion": "Sucre derrota al último ejército realista; fin del dominio español continental."
-		}
-	],
+	"wiki": "Guerras de independencia hispanoamericanas",
 	"zonas": [
 		{
 			"nombre": "Nueva España (México)",
@@ -149,7 +133,23 @@
 			]
 		}
 	],
-	"wiki": "Guerras de independencia hispanoamericanas",
+	"batallas": [
+		{
+			"nombre": "Batalla de Boyacá",
+			"anio": 1819,
+			"lat": 5.45,
+			"lng": -73.42,
+			"descripcion": "Bolívar asegura la independencia de Nueva Granada."
+		},
+		{
+			"nombre": "Batalla de Ayacucho",
+			"anio": 1824,
+			"lat": -13.65,
+			"lng": -74.22,
+			"descripcion": "Sucre derrota al último ejército realista; fin del dominio español continental.",
+			"bajas": "~2.100 muertos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerras de independencia hispanoamericanas",

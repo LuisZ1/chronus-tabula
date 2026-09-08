@@ -1,14 +1,14 @@
 {
 	"nombre": "Escritura cuneiforme",
 	"anio": -3200,
+	"categoria": "invento",
 	"lat": 31.32,
 	"lng": 45.64,
-	"categoria": "invento",
-	"descripcion": "En Uruk nace la primera escritura conocida, sobre tablillas de arcilla.",
-	"wiki": "Escritura cuneiforme",
 	"paises": [
 		"Mesopotamia"
 	],
+	"descripcion": "En Uruk nace la primera escritura conocida, sobre tablillas de arcilla.",
+	"wiki": "Escritura cuneiforme",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Escritura cuneiforme",

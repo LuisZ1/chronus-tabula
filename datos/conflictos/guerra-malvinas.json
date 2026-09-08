@@ -10,14 +10,6 @@
 	"bajas": "907 muertos (649 argentinos, 255 británicos, 3 isleños)",
 	"descripcion": "El 2 de abril de 1982 la dictadura militar argentina desembarca en las islas Malvinas, bajo administración británica. El Reino Unido envía una fuerza expedicionaria al Atlántico Sur; tras el hundimiento del crucero General Belgrano y una campaña terrestre de diez semanas, las tropas argentinas se rinden en Puerto Argentino (Stanley) el 14 de junio. La derrota precipita la caída de la Junta militar.",
 	"wiki": "Guerra de las Malvinas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de las Malvinas",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Islas Malvinas (ocupación y reconquista)",
@@ -70,12 +62,6 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Hundimiento del ARA General Belgrano",
-			"anio": 1982,
-			"lat": -55.4,
-			"lng": -61.5
-		},
-		{
 			"nombre": "Batalla de Pradera del Ganso (Goose Green)",
 			"anio": 1982,
 			"lat": -51.82,
@@ -88,10 +74,24 @@
 			"lng": -58.0
 		},
 		{
+			"nombre": "Hundimiento del ARA General Belgrano",
+			"anio": 1982,
+			"lat": -55.4,
+			"lng": -61.5
+		},
+		{
 			"nombre": "Rendición en Puerto Argentino (Stanley)",
 			"anio": 1982,
 			"lat": -51.69,
 			"lng": -57.85
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de las Malvinas",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

@@ -6,28 +6,10 @@
 		"Arabia Saudita",
 		"Arabia Saudí"
 	],
-	"wikidata": "Q851",
 	"wiki": "es:Arabia Saudita",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q851",
-			"url": "https://www.wikidata.org/wiki/Q851",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Arabia Saudita",
-			"url": "https://es.wikipedia.org/wiki/Arabia_Saudita",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q851",
 	"owid": "SAU",
+	"resena": "Arabia Saudita o Arabia Saudí, oficialmente Reino de Arabia Saudita o Reino de Arabia Saudí, es un país de Asia Occidental, ubicado en la península arábiga —Oriente Próximo—, cuya forma de gobierno es la monarquía absoluta. Su capital y ciudad más poblada es Riad.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -210,6 +192,25 @@
 			"valor": 33264289
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q851",
+			"url": "https://www.wikidata.org/wiki/Q851",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Arabia Saudita",
+			"url": "https://es.wikipedia.org/wiki/Arabia_Saudita",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -219,6 +220,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Arabia Saudita o Arabia Saudí, oficialmente Reino de Arabia Saudita o Reino de Arabia Saudí, es un país de Asia Occidental, ubicado en la península arábiga —Oriente Próximo—, cuya forma de gobierno es la monarquía absoluta. Su capital y ciudad más poblada es Riad."
+	}
 }

@@ -6,28 +6,28 @@
 	],
 	"gobernantes": [
 		{
-			"desde": -359,
-			"hasta": -336,
 			"nombre": "Filipo II",
-			"titulo": "Rey de Macedonia"
+			"titulo": "Rey de Macedonia",
+			"desde": -359,
+			"hasta": -336
 		},
 		{
-			"desde": -336,
-			"hasta": -323,
 			"nombre": "Alejandro Magno",
-			"titulo": "Rey de Macedonia y de Asia"
+			"titulo": "Rey de Macedonia y de Asia",
+			"desde": -336,
+			"hasta": -323
 		},
 		{
-			"desde": -277,
-			"hasta": -239,
 			"nombre": "Antígono II Gónatas",
-			"titulo": "Rey de Macedonia, consolidó la dinastía antigónida"
+			"titulo": "Rey de Macedonia, consolidó la dinastía antigónida",
+			"desde": -277,
+			"hasta": -239
 		},
 		{
-			"desde": -179,
-			"hasta": -168,
 			"nombre": "Perseo",
-			"titulo": "Último rey de Macedonia, derrotado por Roma en Pidna"
+			"titulo": "Último rey de Macedonia, derrotado por Roma en Pidna",
+			"desde": -179,
+			"hasta": -168
 		}
 	],
 	"fuentes": [

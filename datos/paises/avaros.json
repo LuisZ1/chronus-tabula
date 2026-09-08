@@ -7,10 +7,10 @@
 	"wiki": "Canato ávaro",
 	"gobernantes": [
 		{
-			"desde": 562,
-			"hasta": 602,
 			"nombre": "Bayán I",
-			"titulo": "Kagán de los ávaros"
+			"titulo": "Kagán de los ávaros",
+			"desde": 562,
+			"hasta": 602
 		}
 	],
 	"fuentes": [

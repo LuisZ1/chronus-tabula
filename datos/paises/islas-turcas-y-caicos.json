@@ -5,28 +5,10 @@
 		"Turks and Caicos Islands",
 		"Islas Turcas y Caicos"
 	],
-	"wikidata": "Q18221",
 	"wiki": "es:Islas Turcas y Caicos",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q18221",
-			"url": "https://www.wikidata.org/wiki/Q18221",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Islas Turcas y Caicos",
-			"url": "https://es.wikipedia.org/wiki/Islas_Turcas_y_Caicos",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q18221",
 	"owid": "TCA",
+	"resena": "Las Islas Turcas y Caicos son un territorio británico de ultramar dependiente del Reino Unido. Fueron administradas por Jamaica hasta el año 1962, pasando entonces la administración de las islas a Bahamas hasta 1973.",
 	"poblacion": [
 		{
 			"anio": 1100,
@@ -125,6 +107,25 @@
 			"valor": 46221
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q18221",
+			"url": "https://www.wikidata.org/wiki/Q18221",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Islas Turcas y Caicos",
+			"url": "https://es.wikipedia.org/wiki/Islas_Turcas_y_Caicos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -134,6 +135,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Las Islas Turcas y Caicos son un territorio británico de ultramar dependiente del Reino Unido. Fueron administradas por Jamaica hasta el año 1962, pasando entonces la administración de las islas a Bahamas hasta 1973."
+	}
 }

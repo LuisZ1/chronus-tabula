@@ -4,42 +4,46 @@
 	"nombres": [
 		"Aragón"
 	],
+	"relacionados": [
+		"España"
+	],
+	"resena": "La Corona de Aragón, conocida también por otros nombres alternativos, fue una entidad política conformada por un conjunto de territorios que, mediante conquistas y matrimonios, estuvieron bajo la jurisdicción del rey de Aragón y conde de Barcelona entre 1137 y 1707-1716.",
 	"gobernantes": [
 		{
-			"desde": 1035,
-			"hasta": 1063,
 			"nombre": "Ramiro I",
-			"titulo": "Rey de Aragón"
+			"titulo": "Rey de Aragón",
+			"desde": 1035,
+			"hasta": 1063
 		},
 		{
-			"desde": 1104,
-			"hasta": 1134,
 			"nombre": "Alfonso I el Batallador",
-			"titulo": "Rey de Aragón y Pamplona"
+			"titulo": "Rey de Aragón y Pamplona",
+			"desde": 1104,
+			"hasta": 1134
 		},
 		{
-			"desde": 1213,
-			"hasta": 1276,
 			"nombre": "Jaime I el Conquistador",
-			"titulo": "Rey de Aragón"
+			"titulo": "Rey de Aragón",
+			"desde": 1213,
+			"hasta": 1276
 		},
 		{
-			"desde": 1336,
-			"hasta": 1387,
 			"nombre": "Pedro IV el Ceremonioso",
-			"titulo": "Rey de Aragón"
+			"titulo": "Rey de Aragón",
+			"desde": 1336,
+			"hasta": 1387
 		},
 		{
-			"desde": 1416,
-			"hasta": 1458,
 			"nombre": "Alfonso V el Magnánimo",
-			"titulo": "Rey de Aragón"
+			"titulo": "Rey de Aragón",
+			"desde": 1416,
+			"hasta": 1458
 		},
 		{
-			"desde": 1479,
-			"hasta": 1516,
 			"nombre": "Fernando II el Católico",
-			"titulo": "Rey de Aragón"
+			"titulo": "Rey de Aragón",
+			"desde": 1479,
+			"hasta": 1516
 		}
 	],
 	"poblacion": [
@@ -51,9 +55,6 @@
 			"anio": 1490,
 			"valor": 1000000
 		}
-	],
-	"relacionados": [
-		"España"
 	],
 	"fuentes": [
 		{
@@ -68,7 +69,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La Corona de Aragón, conocida también por otros nombres alternativos, fue una entidad política conformada por un conjunto de territorios que, mediante conquistas y matrimonios, estuvieron bajo la jurisdicción del rey de Aragón y conde de Barcelona entre 1137 y 1707-1716.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

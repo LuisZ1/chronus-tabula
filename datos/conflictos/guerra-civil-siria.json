@@ -13,26 +13,6 @@
 	"bajas": "~500.000–650.000 muertos y 13 millones de desplazados",
 	"descripcion": "Las protestas de 2011 derivan en una guerra de múltiples bandos con intervención extranjera; en diciembre de 2024 una ofensiva relámpago derriba a Bashar al-Ásad tras 53 años de régimen.",
 	"wiki": "Guerra civil siria",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra civil siria",
-			"url": "https://es.wikipedia.org/wiki/Guerra_civil_siria",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-en:Syrian civil war",
-			"url": "https://en.wikipedia.org/wiki/Syrian_civil_war",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikidata:Q24205448",
-			"url": "https://www.wikidata.org/wiki/Q24205448",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Alzamiento y guerra en el oeste",
@@ -147,11 +127,11 @@
 		{
 			"nombre": "Batalla de Alepo",
 			"anio": 2012,
+			"hasta": 2016,
 			"lat": 36.2,
 			"lng": 37.16,
 			"descripcion": "Cuatro años de asedio; su recaptura por el régimen marcó un punto de inflexión.",
-			"wiki": "Batalla de Alepo",
-			"hasta": 2016
+			"wiki": "Batalla de Alepo"
 		},
 		{
 			"nombre": "Toma de Palmira por el EI",
@@ -180,6 +160,26 @@
 			"lng": 36.29,
 			"descripcion": "Los rebeldes de HTS entran en la capital el 8 de diciembre; Al-Ásad huye a Moscú.",
 			"wiki": "Caída de Damasco"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra civil siria",
+			"url": "https://es.wikipedia.org/wiki/Guerra_civil_siria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Syrian civil war",
+			"url": "https://en.wikipedia.org/wiki/Syrian_civil_war",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q24205448",
+			"url": "https://www.wikidata.org/wiki/Q24205448",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

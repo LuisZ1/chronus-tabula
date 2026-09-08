@@ -60,8 +60,8 @@
 			"anio": 1600,
 			"lat": 35.37,
 			"lng": 136.46,
-			"bajas": "~30.000 muertos",
-			"descripcion": "Ieyasu gana la batalla que decide el destino de Japón."
+			"descripcion": "Ieyasu gana la batalla que decide el destino de Japón.",
+			"bajas": "~30.000 muertos"
 		},
 		{
 			"nombre": "Sitio de Osaka",

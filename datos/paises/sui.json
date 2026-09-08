@@ -5,18 +5,19 @@
 		"Sui Empire"
 	],
 	"wiki": "Dinastía Sui",
+	"resena": "La dinastía Sui siguió a las Dinastías Meridionales y Septentrionales y precedió a la dinastía Tang en China. Duró 37 años y acabó con alrededor de cuatro siglos de gobierno compartido entre dinastías autoproclamadas tanto en el norte, como en el sur.",
 	"gobernantes": [
 		{
-			"desde": 581,
-			"hasta": 604,
 			"nombre": "Yang Jian (emperador Wen)",
-			"titulo": "Emperador Wen, reunificador de China y fundador de Sui"
+			"titulo": "Emperador Wen, reunificador de China y fundador de Sui",
+			"desde": 581,
+			"hasta": 604
 		},
 		{
-			"desde": 604,
-			"hasta": 618,
 			"nombre": "Yang Guang (emperador Yang)",
-			"titulo": "Emperador Sui, Gran Canal"
+			"titulo": "Emperador Sui, Gran Canal",
+			"desde": 604,
+			"hasta": 618
 		}
 	],
 	"fuentes": [
@@ -33,7 +34,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La dinastía Sui siguió a las Dinastías Meridionales y Septentrionales y precedió a la dinastía Tang en China. Duró 37 años y acabó con alrededor de cuatro siglos de gobierno compartido entre dinastías autoproclamadas tanto en el norte, como en el sur.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

@@ -6,21 +6,8 @@
 		"Islas Vírgenes de EE. UU.",
 		"Islas Vírgenes de los Estados Unidos"
 	],
-	"wikidata": "Q11703",
 	"wiki": "es:Islas Vírgenes de EE. UU.",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q11703",
-			"url": "https://www.wikidata.org/wiki/Q11703",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q11703",
 	"owid": "VIR",
 	"poblacion": [
 		{
@@ -142,6 +129,19 @@
 		{
 			"anio": 2023,
 			"valor": 85712
+		}
+	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q11703",
+			"url": "https://www.wikidata.org/wiki/Q11703",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
 		}
 	],
 	"revision": {

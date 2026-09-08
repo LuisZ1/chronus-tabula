@@ -9,14 +9,6 @@
 	"bajas": "entre 1 y 2 millones de muertos (combate, hambre y epidemias)",
 	"descripcion": "El levantamiento de Francisco I. Madero contra la larga dictadura de Porfirio Díaz en 1910 desata una década de guerra civil. Facciones de Pancho Villa, Emiliano Zapata (\"Tierra y Libertad\"), Venustiano Carranza y Álvaro Obregón luchan por el poder y la reforma agraria. El proceso culmina en la Constitución de 1917, una de las más avanzadas de su tiempo.",
 	"wiki": "Revolución mexicana",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Revolución mexicana",
-			"url": "https://es.wikipedia.org/wiki/Revolución_mexicana",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Norte: campañas de Villa (Chihuahua-Coahuila)",
@@ -85,6 +77,14 @@
 			"anio": 1915,
 			"lat": 20.52,
 			"lng": -100.81
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revolución mexicana",
+			"url": "https://es.wikipedia.org/wiki/Revolución_mexicana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

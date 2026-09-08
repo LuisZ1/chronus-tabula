@@ -5,42 +5,48 @@
 		"Persia",
 		"Achaemenid Empire"
 	],
+	"relacionados": [
+		"Persia aqueménida",
+		"Imperio aqueménida",
+		"Media"
+	],
+	"resena": "Irán, oficialmente la República Islámica de Irán ; también conocida históricamente en Occidente como Persia, es un país soberano de Oriente Próximo y Asia Occidental. Es una república islámica teocrática basada en los principios religiosos del islam chií.",
 	"gobernantes": [
 		{
-			"desde": -559,
-			"hasta": -530,
 			"nombre": "Ciro II el Grande",
-			"titulo": "Rey de reyes aqueménida"
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -559,
+			"hasta": -530
 		},
 		{
-			"desde": -522,
-			"hasta": -486,
 			"nombre": "Darío I",
-			"titulo": "Rey de reyes aqueménida"
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -522,
+			"hasta": -486
 		},
 		{
-			"desde": -486,
-			"hasta": -465,
 			"nombre": "Jerjes I",
-			"titulo": "Rey de reyes aqueménida"
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -486,
+			"hasta": -465
 		},
 		{
-			"desde": 1797,
-			"hasta": 1834,
 			"nombre": "Fath-Alí Sah (dinastía Kayar)",
-			"titulo": "Sah de Persia"
+			"titulo": "Sah de Persia",
+			"desde": 1797,
+			"hasta": 1834
 		},
 		{
-			"desde": 1848,
-			"hasta": 1896,
 			"nombre": "Naser al-Din Sah",
-			"titulo": "Sah de Persia"
+			"titulo": "Sah de Persia",
+			"desde": 1848,
+			"hasta": 1896
 		},
 		{
-			"desde": 1941,
-			"hasta": 1979,
 			"nombre": "Mohammad Reza Pahlaví",
-			"titulo": "Sah de Irán"
+			"titulo": "Sah de Irán",
+			"desde": 1941,
+			"hasta": 1979
 		}
 	],
 	"poblacion": [
@@ -52,11 +58,6 @@
 			"anio": 1900,
 			"valor": 10000000
 		}
-	],
-	"relacionados": [
-		"Persia aqueménida",
-		"Imperio aqueménida",
-		"Media"
 	],
 	"fuentes": [
 		{
@@ -71,7 +72,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "Irán, oficialmente la República Islámica de Irán ; también conocida históricamente en Occidente como Persia, es un país soberano de Oriente Próximo y Asia Occidental. Es una república islámica teocrática basada en los principios religiosos del islam chií.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

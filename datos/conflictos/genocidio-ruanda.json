@@ -9,20 +9,6 @@
 	"bajas": "~800.000 tutsis y hutus moderados asesinados en cien días",
 	"descripcion": "Tras el derribo del avión presidencial, el poder hutu organiza el exterminio de los tutsis; el Frente Patriótico Ruandés de Kagame toma el país y detiene la matanza.",
 	"wiki": "Genocidio de Ruanda",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Genocidio de Ruanda",
-			"url": "https://es.wikipedia.org/wiki/Genocidio_de_Ruanda",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Ruanda",
@@ -56,6 +42,20 @@
 			"lat": -1.95,
 			"lng": 30.06,
 			"descripcion": "El FPR entra en la capital el 4 de julio y pone fin al genocidio."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Genocidio de Ruanda",
+			"url": "https://es.wikipedia.org/wiki/Genocidio_de_Ruanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

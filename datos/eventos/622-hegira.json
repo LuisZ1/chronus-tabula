@@ -3,10 +3,10 @@
 	"anio": 622,
 	"lat": 24.47,
 	"lng": 39.61,
-	"descripcion": "Mahoma emigra de La Meca a Medina; inicio del calendario musulmán.",
 	"paises": [
 		"Arabia"
 	],
+	"descripcion": "Mahoma emigra de La Meca a Medina; inicio del calendario musulmán.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Hégira",

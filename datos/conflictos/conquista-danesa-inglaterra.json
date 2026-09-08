@@ -10,14 +10,6 @@
 	"bajas": "miles de muertos (crónicas anglosajonas)",
 	"descripcion": "Sven Barbapartida toma Inglaterra en 1013; su hijo Canuto la reconquista en 1016 (Assandun) y la integra en el imperio del mar del Norte junto a Dinamarca y Noruega. El dominio danés dura hasta la muerte de Canuto Hardeknut (1042).",
 	"wiki": "Canuto II de Dinamarca",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Canuto II de Dinamarca",
-			"url": "https://es.wikipedia.org/wiki/Canuto_II_de_Dinamarca",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Inglaterra bajo la corona danesa",
@@ -56,6 +48,14 @@
 			"lng": 0.55,
 			"descripcion": "Canuto derrota a Edmundo Ironside en Essex y se corona rey de Inglaterra.",
 			"wiki": "Batalla de Assandun"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Canuto II de Dinamarca",
+			"url": "https://es.wikipedia.org/wiki/Canuto_II_de_Dinamarca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

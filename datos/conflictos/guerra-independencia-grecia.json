@@ -13,18 +13,6 @@
 	"bajas": "más de 100.000",
 	"descripcion": "Los griegos se sublevan contra el dominio otomano. Tras años de guerra brutal, la intervención de las potencias europeas y la destrucción de la flota otomano-egipcia en Navarino (1827) aseguran el nacimiento del Estado griego independiente.",
 	"wiki": "Guerra de Independencia de Grecia",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de Independencia de Grecia",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_Independencia_de_Grecia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Grecia y el Peloponeso en rebelión",
@@ -57,6 +45,18 @@
 			"anio": 1827,
 			"lat": 36.92,
 			"lng": 21.7
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Independencia de Grecia",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Independencia_de_Grecia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

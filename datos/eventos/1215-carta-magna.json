@@ -3,11 +3,11 @@
 	"anio": 1215,
 	"lat": 51.44,
 	"lng": -0.56,
-	"descripcion": "Juan sin Tierra acepta limitar el poder real en Runnymede.",
-	"wiki": "Carta Magna",
 	"paises": [
 		"Inglaterra"
 	],
+	"descripcion": "Juan sin Tierra acepta limitar el poder real en Runnymede.",
+	"wiki": "Carta Magna",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Carta Magna",

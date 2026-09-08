@@ -10,14 +10,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Serie de guerras entre lágidas y seléucidas por el control de Celesiria, Fenicia y el Egeo oriental. La victoria ptolemaica en Rafia (217) y, sobre todo, la seléucida en Panion (200) desplazaron el dominio de la región hacia Antioquía, hasta que Roma frenó a Antíoco IV en el 168.",
 	"wiki": "Guerras Sirias",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras Sirias",
-			"url": "https://es.wikipedia.org/wiki/Guerras_Sirias",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Celesiria y Fenicia (frente terrestre)",
@@ -84,6 +76,14 @@
 			"anio": -200,
 			"lat": 33.25,
 			"lng": 35.69
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras Sirias",
+			"url": "https://es.wikipedia.org/wiki/Guerras_Sirias",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

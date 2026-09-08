@@ -1,15 +1,15 @@
 {
 	"nombre": "La vacuna (Jenner)",
 	"anio": 1796,
+	"categoria": "invento",
 	"lat": 51.69,
 	"lng": -2.46,
-	"categoria": "invento",
-	"descripcion": "Edward Jenner vacuna contra la viruela en Berkeley (Inglaterra).",
-	"wiki": "Vacuna",
 	"paises": [
 		"Gran Bretaña",
 		"Inglaterra"
 	],
+	"descripcion": "Edward Jenner vacuna contra la viruela en Berkeley (Inglaterra).",
+	"wiki": "Vacuna",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Vacuna",

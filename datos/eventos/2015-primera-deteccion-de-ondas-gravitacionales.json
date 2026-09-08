@@ -1,9 +1,9 @@
 {
 	"nombre": "Primera detección de ondas gravitacionales",
 	"anio": 2015,
+	"categoria": "invento",
 	"lat": 30.56,
 	"lng": -90.77,
-	"categoria": "invento",
 	"paises": [
 		"Estados Unidos"
 	],

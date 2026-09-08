@@ -3,10 +3,10 @@
 	"anio": 325,
 	"lat": 40.43,
 	"lng": 29.72,
-	"descripcion": "Primer concilio ecuménico de la cristiandad.",
 	"paises": [
 		"Roma"
 	],
+	"descripcion": "Primer concilio ecuménico de la cristiandad.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Concilio de Nicea",

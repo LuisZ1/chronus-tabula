@@ -1,9 +1,9 @@
 {
 	"nombre": "Primera imagen de un agujero negro",
 	"anio": 2019,
+	"categoria": "invento",
 	"lat": 48.26,
 	"lng": 11.67,
-	"categoria": "invento",
 	"descripcion": "El Event Horizon Telescope fotografía el agujero negro de la galaxia M87 (presentación en Bruselas, Múnich y otras sedes).",
 	"wiki": "Event Horizon Telescope",
 	"fuentes": [

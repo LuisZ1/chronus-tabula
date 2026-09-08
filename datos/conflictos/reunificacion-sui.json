@@ -10,18 +10,6 @@
 	"bajas": "desconocidas",
 	"descripcion": "El emperador Wen (Yang Jian) de Sui lanza una gran ofensiva sobre el último de los estados del Sur, la dinastía Chen, tomando su capital Jiankang (Nankín) en 589 y reunificando China tras casi cuatro siglos de división.",
 	"wiki": "Conquista Sui de Chen",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Dinastía Sui",
-			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Sui",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de la China milenaria",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Ofensiva Sui sobre el bajo Yangtsé",
@@ -55,6 +43,18 @@
 			"lat": 32.06,
 			"lng": 118.8,
 			"descripcion": "Sui reunifica China tras casi cuatro siglos de división."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dinastía Sui",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Sui",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de la China milenaria",
+			"licencia": "referencia"
 		}
 	]
 }

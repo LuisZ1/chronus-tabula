@@ -4,24 +4,25 @@
 	"nombres": [
 		"Granada"
 	],
+	"resena": "El Reino nazarí de Granada, también conocido como Emirato de Granada o Sultanato de Granada, fue un Estado musulmán situado en el sur de la península ibérica, con capital en la ciudad de Granada, que existió durante la Edad Media.",
 	"gobernantes": [
 		{
-			"desde": 1238,
-			"hasta": 1273,
 			"nombre": "Muhammad I ibn Nasr (fundador)",
-			"titulo": "Sultán de Granada"
+			"titulo": "Sultán de Granada",
+			"desde": 1238,
+			"hasta": 1273
 		},
 		{
-			"desde": 1354,
-			"hasta": 1391,
 			"nombre": "Muhammad V (esplendor de la Alhambra)",
-			"titulo": "Sultán de Granada"
+			"titulo": "Sultán de Granada",
+			"desde": 1354,
+			"hasta": 1391
 		},
 		{
-			"desde": 1487,
-			"hasta": 1492,
 			"nombre": "Boabdil (Muhammad XII, último sultán)",
-			"titulo": "Sultán de Granada"
+			"titulo": "Sultán de Granada",
+			"desde": 1487,
+			"hasta": 1492
 		}
 	],
 	"poblacion": [
@@ -43,7 +44,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Reino nazarí de Granada, también conocido como Emirato de Granada o Sultanato de Granada, fue un Estado musulmán situado en el sur de la península ibérica, con capital en la ciudad de Granada, que existió durante la Edad Media.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

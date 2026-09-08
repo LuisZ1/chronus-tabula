@@ -3,12 +3,12 @@
 	"anio": 1054,
 	"lat": 41.01,
 	"lng": 28.98,
-	"descripcion": "Ruptura entre las iglesias de Roma y Constantinopla.",
-	"wiki": "Cisma de Oriente y Occidente",
 	"paises": [
 		"Roma",
 		"Imperio bizantino"
 	],
+	"descripcion": "Ruptura entre las iglesias de Roma y Constantinopla.",
+	"wiki": "Cisma de Oriente y Occidente",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Cisma de Oriente y Occidente",

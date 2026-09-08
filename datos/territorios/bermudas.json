@@ -1,9 +1,9 @@
 {
 	"nombre": "Bermudas",
 	"pais": "Gran Bretaña",
+	"desde": 1609,
 	"lat": 32.32,
 	"lng": -64.75,
-	"desde": 1609,
 	"descripcion": "Colonizadas por Inglaterra tras el naufragio del Sea Venture (1609); San Jorge, poblada en 1612, fue su primera capital. Hoy territorio británico de ultramar.",
 	"wiki": "Bermudas",
 	"fuentes": [

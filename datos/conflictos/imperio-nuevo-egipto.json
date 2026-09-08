@@ -12,20 +12,6 @@
 	"bajas": "decenas de miles (las cifras antiguas son propagandísticas)",
 	"descripcion": "Tras expulsar a los hicsos, Egipto construye su mayor imperio: de la 4ª catarata del Nilo (Kush) al Éufrates. Tutmosis III libra en Meguido la primera batalla documentada de la historia; Ramsés II frena a los hititas en Kadesh y firma con ellos la primera paz conservada; Ramsés III repele a los Pueblos del Mar.",
 	"wiki": "Imperio Nuevo de Egipto",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Imperio Nuevo de Egipto",
-			"url": "https://es.wikipedia.org/wiki/Imperio_Nuevo_de_Egipto",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-es:Batalla de Kadesh",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kadesh",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Nubia (Kush) sometida",
@@ -142,8 +128,8 @@
 			"anio": -1274,
 			"lat": 34.56,
 			"lng": 36.52,
-			"bajas": "~2.000 muertos por bando (estimación)",
 			"descripcion": "Ramsés II contra Muwatalli II a orillas del Orontes: el mayor choque de carros de guerra conocido, acabado en tablas.",
+			"bajas": "~2.000 muertos por bando (estimación)",
 			"wiki": "Batalla de Kadesh"
 		},
 		{
@@ -153,6 +139,20 @@
 			"lng": 31.6,
 			"descripcion": "Ramsés III aniquila la flota de los Pueblos del Mar en las bocas del Nilo: Egipto es el único Estado que resiste el colapso de la Edad del Bronce.",
 			"wiki": "Batalla del Delta"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Nuevo de Egipto",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Nuevo_de_Egipto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Kadesh",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kadesh",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

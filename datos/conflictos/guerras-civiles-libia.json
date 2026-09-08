@@ -12,20 +12,6 @@
 	"bajas": "~30.000–50.000 muertos",
 	"descripcion": "La Primavera Árabe y la intervención de la OTAN derrocan a Gadafi (2011); el país se fractura después entre gobiernos rivales hasta el alto el fuego de 2020.",
 	"wiki": "Guerra de Libia de 2011",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de Libia de 2011",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_Libia_de_2011",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		},
-		{
-			"id": "wikipedia-es:Segunda guerra civil libia",
-			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_civil_libia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Alzamiento contra Gadafi (costa)",
@@ -94,13 +80,6 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Batalla de Trípoli",
-			"anio": 2011,
-			"lat": 32.89,
-			"lng": 13.19,
-			"descripcion": "Los rebeldes toman la capital en agosto de 2011."
-		},
-		{
 			"nombre": "Batalla de Sirte (muerte de Gadafi)",
 			"anio": 2011,
 			"lat": 31.21,
@@ -109,11 +88,32 @@
 			"wiki": "Batalla de Sirte (2011)"
 		},
 		{
+			"nombre": "Batalla de Trípoli",
+			"anio": 2011,
+			"lat": 32.89,
+			"lng": 13.19,
+			"descripcion": "Los rebeldes toman la capital en agosto de 2011."
+		},
+		{
 			"nombre": "Batalla de Sirte contra el Estado Islámico",
 			"anio": 2016,
 			"lat": 31.18,
 			"lng": 16.65,
 			"descripcion": "Las fuerzas de Misrata expulsan al EI de su principal enclave libio."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Libia de 2011",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Libia_de_2011",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Segunda guerra civil libia",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_civil_libia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

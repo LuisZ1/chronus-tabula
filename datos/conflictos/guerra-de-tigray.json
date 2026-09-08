@@ -9,14 +9,6 @@
 	"bajas": "~300.000–600.000 muertos (combate, hambre y bloqueo)",
 	"descripcion": "El gobierno etíope y Eritrea contra el frente de liberación de Tigray: una de las guerras más letales del siglo, cerrada con el acuerdo de Pretoria (noviembre de 2022).",
 	"wiki": "Guerra de Tigray",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de Tigray",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_Tigray",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Tigray",
@@ -50,6 +42,14 @@
 			"lat": 13.49,
 			"lng": 39.47,
 			"descripcion": "El ejército federal ocupa la capital regional al inicio de la guerra."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Tigray",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Tigray",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
 		}
 	]
 }

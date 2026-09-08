@@ -10,18 +10,6 @@
 	"bajas": "cientos de miles",
 	"descripcion": "Ciclo de guerras con Rusia por el mar Negro, el Danubio, Crimea y el Cáucaso. Tras la victoria otomana del Prut (1711), la tendencia se invierte: las guerras de 1768-1774 (Küçük Kaynarca), 1787-1792 (Jassy) y 1828-1829 marcan el retroceso otomano ante la expansión rusa.",
 	"wiki": "Guerras ruso-turcas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras ruso-turcas",
-			"url": "https://es.wikipedia.org/wiki/Guerras_ruso-turcas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia del Imperio otomano",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Mar Negro, Danubio y Cáucaso en disputa",
@@ -76,6 +64,18 @@
 			"anio": 1829,
 			"lat": 42.0,
 			"lng": 26.0
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras ruso-turcas",
+			"url": "https://es.wikipedia.org/wiki/Guerras_ruso-turcas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

@@ -11,14 +11,6 @@
 	"bajas": "miles",
 	"descripcion": "Guerra por el control del santuario de Delfos: los focenses ocuparon el oráculo y saquearon su tesoro para financiar mercenarios. La intervención de Filipo II de Macedonia en favor de la Anfictionía le dio pie a introducirse en la política griega, anticipando su hegemonía.",
 	"wiki": "Tercera Guerra Sagrada",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Tercera Guerra Sagrada",
-			"url": "https://es.wikipedia.org/wiki/Tercera_Guerra_Sagrada",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Fócide y santuario de Delfos",
@@ -57,6 +49,14 @@
 			"anio": -346,
 			"lat": 38.48,
 			"lng": 22.5
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tercera Guerra Sagrada",
+			"url": "https://es.wikipedia.org/wiki/Tercera_Guerra_Sagrada",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

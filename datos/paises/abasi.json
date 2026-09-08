@@ -4,24 +4,25 @@
 	"nombres": [
 		"Abbasid Caliphate"
 	],
+	"resena": "El Califato abasí (750-1258), llamado también Califato abásida, fue una dinastía califal fundada en 750 por Abu l-Abbás, descendiente de Abbás, tío de Mahoma, que se hizo con el poder tras eliminar a la dinastía omeya y trasladó la capital de Damasco a Bagdad.",
 	"gobernantes": [
 		{
-			"desde": 754,
-			"hasta": 775,
 			"nombre": "Al-Mansur (fundador de Bagdad)",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 754,
+			"hasta": 775
 		},
 		{
-			"desde": 786,
-			"hasta": 809,
 			"nombre": "Harún al-Rashid",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 786,
+			"hasta": 809
 		},
 		{
-			"desde": 813,
-			"hasta": 833,
 			"nombre": "Al-Mamún",
-			"titulo": "Califa"
+			"titulo": "Califa",
+			"desde": 813,
+			"hasta": 833
 		}
 	],
 	"poblacion": [
@@ -43,7 +44,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Califato abasí (750-1258), llamado también Califato abásida, fue una dinastía califal fundada en 750 por Abu l-Abbás, descendiente de Abbás, tío de Mahoma, que se hizo con el poder tras eliminar a la dinastía omeya y trasladó la capital de Damasco a Bagdad.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

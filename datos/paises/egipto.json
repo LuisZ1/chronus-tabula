@@ -7,150 +7,203 @@
 		"República Árabe de Egipto",
 		"Misr"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Antiguo Egipto",
+			"desde": -3100,
+			"hasta": -30
+		},
+		{
+			"nombre": "Egipto romano y bizantino",
+			"desde": -30,
+			"hasta": 641
+		},
+		{
+			"nombre": "Egipto islámico",
+			"desde": 641,
+			"hasta": 1517
+		},
+		{
+			"nombre": "Egipto otomano",
+			"desde": 1517,
+			"hasta": 1867
+		},
+		{
+			"nombre": "Jedivato de Egipto",
+			"desde": 1867,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Sultanato de Egipto",
+			"desde": 1914,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Reino de Egipto",
+			"desde": 1922,
+			"hasta": 1953
+		},
+		{
+			"nombre": "República de Egipto",
+			"desde": 1953,
+			"hasta": 1958
+		},
+		{
+			"nombre": "República Árabe Unida",
+			"desde": 1958,
+			"hasta": 1971
+		},
+		{
+			"nombre": "República Árabe de Egipto",
+			"desde": 1971,
+			"hasta": 2026
+		}
+	],
 	"wiki": "es:Egipto",
+	"wikidata": "Q79",
+	"wikidata_hist": [
+		"Q11768"
+	],
+	"owid": "Egypt",
 	"relacionados": [
 		"Antiguo Egipto",
 		"Imperio Nuevo de Egipto",
 		"Egipto ptolemaico",
 		"Marco Antonio y Cleopatra (Egipto)"
 	],
-	"wikidata": "Q79",
-	"wikidata_hist": [
-		"Q11768"
-	],
-	"owid": "Egypt",
+	"resena": "Egipto, oficialmente la República Árabe de Egipto, es un país soberano transcontinental. Está ubicado mayoritariamente en el extremo nororiental de África, mientras que en Asia se encuentra la península del Sinaí.",
 	"gobernantes": [
 		{
 			"nombre": "Narmer (Menes)",
+			"cargo": "Faraón (Dinastía I, unificador)",
 			"desde": -3100,
-			"hasta": -3070,
-			"cargo": "Faraón (Dinastía I, unificador)"
+			"hasta": -3070
 		},
 		{
 			"nombre": "Keops (Jufu)",
+			"cargo": "Faraón (Dinastía IV)",
 			"desde": -2589,
-			"hasta": -2566,
-			"cargo": "Faraón (Dinastía IV)"
+			"hasta": -2566
 		},
 		{
 			"nombre": "Hatshepsut",
+			"cargo": "Faraona (Dinastía XVIII)",
 			"desde": -1479,
-			"hasta": -1458,
-			"cargo": "Faraona (Dinastía XVIII)"
+			"hasta": -1458
 		},
 		{
 			"nombre": "Tutmosis III",
+			"cargo": "Faraón (Dinastía XVIII)",
 			"desde": -1479,
-			"hasta": -1425,
-			"cargo": "Faraón (Dinastía XVIII)"
+			"hasta": -1425
 		},
 		{
 			"nombre": "Akenatón",
+			"cargo": "Faraón (Dinastía XVIII)",
 			"desde": -1353,
-			"hasta": -1336,
-			"cargo": "Faraón (Dinastía XVIII)"
+			"hasta": -1336
 		},
 		{
 			"nombre": "Tutankamón",
+			"cargo": "Faraón (Dinastía XVIII)",
 			"desde": -1332,
-			"hasta": -1323,
-			"cargo": "Faraón (Dinastía XVIII)"
+			"hasta": -1323
 		},
 		{
 			"nombre": "Ramsés II",
+			"cargo": "Faraón (Dinastía XIX)",
 			"desde": -1279,
-			"hasta": -1213,
-			"cargo": "Faraón (Dinastía XIX)"
+			"hasta": -1213
 		},
 		{
 			"nombre": "Cleopatra VII",
+			"cargo": "Reina (Dinastía Ptolemaica)",
 			"desde": -51,
-			"hasta": -30,
-			"cargo": "Reina (Dinastía Ptolemaica)"
+			"hasta": -30
 		},
 		{
 			"nombre": "Mehmet Alí (Muhammad Ali)",
+			"cargo": "Valí (gobernador otomano)",
 			"desde": 1805,
-			"hasta": 1848,
-			"cargo": "Valí (gobernador otomano)"
+			"hasta": 1848
 		},
 		{
 			"nombre": "Ismail Pachá",
+			"cargo": "Jedive",
 			"desde": 1863,
-			"hasta": 1879,
-			"cargo": "Jedive"
+			"hasta": 1879
 		},
 		{
 			"nombre": "Fuad I",
+			"cargo": "Rey",
 			"desde": 1922,
-			"hasta": 1936,
-			"cargo": "Rey"
+			"hasta": 1936
 		},
 		{
 			"nombre": "Faruq I",
+			"cargo": "Rey",
 			"desde": 1936,
-			"hasta": 1952,
-			"cargo": "Rey"
+			"hasta": 1952
 		},
 		{
 			"nombre": "Muhammad Naguib",
+			"cargo": "Presidente",
 			"desde": 1953,
-			"hasta": 1954,
-			"cargo": "Presidente"
+			"hasta": 1954
 		},
 		{
 			"nombre": "Gamal Abdel Nasser",
+			"cargo": "Presidente",
 			"desde": 1954,
-			"hasta": 1970,
-			"cargo": "Presidente"
+			"hasta": 1970
 		},
 		{
 			"nombre": "Anwar el-Sadat",
+			"cargo": "Presidente",
 			"desde": 1970,
-			"hasta": 1981,
-			"cargo": "Presidente"
+			"hasta": 1981
 		},
 		{
 			"nombre": "Hosni Mubarak",
+			"cargo": "Presidente",
 			"desde": 1981,
-			"hasta": 2011,
-			"cargo": "Presidente"
+			"hasta": 2011
 		},
 		{
 			"nombre": "Mohamed Hussein Tantawi",
+			"cargo": "Presidente del Consejo Supremo de las Fuerzas Armadas (jefe de Estado de facto)",
 			"desde": 2011,
-			"hasta": 2012,
-			"cargo": "Presidente del Consejo Supremo de las Fuerzas Armadas (jefe de Estado de facto)"
+			"hasta": 2012
 		},
 		{
 			"nombre": "Mohamed Morsi",
+			"cargo": "Presidente",
 			"desde": 2012,
-			"hasta": 2013,
-			"cargo": "Presidente"
+			"hasta": 2013
 		},
 		{
 			"nombre": "Adly Mansur",
+			"cargo": "Presidente interino",
 			"desde": 2013,
-			"hasta": 2014,
-			"cargo": "Presidente interino"
+			"hasta": 2014
+		},
+		{
+			"nombre": "Abdul Fatah Khalil Al-Sisi",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2014
 		},
 		{
 			"nombre": "Abdelfatah Al-Sisi",
+			"cargo": "Presidente",
 			"desde": 2014,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		},
 		{
-			"desde": 2014,
-			"hasta": 2014,
-			"nombre": "Abdul Fatah Khalil Al-Sisi",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 2018,
-			"hasta": 2018,
 			"nombre": "Mostafá Madbuli",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2018
 		}
 	],
 	"poblacion": [
@@ -335,6 +388,11 @@
 			"valor": 114535772
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Egypt (Official).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -388,63 +446,11 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"nombres_periodo": [
-		{
-			"nombre": "Antiguo Egipto",
-			"desde": -3100,
-			"hasta": -30
-		},
-		{
-			"nombre": "Egipto romano y bizantino",
-			"desde": -30,
-			"hasta": 641
-		},
-		{
-			"nombre": "Egipto islámico",
-			"desde": 641,
-			"hasta": 1517
-		},
-		{
-			"nombre": "Egipto otomano",
-			"desde": 1517,
-			"hasta": 1867
-		},
-		{
-			"nombre": "Jedivato de Egipto",
-			"desde": 1867,
-			"hasta": 1914
-		},
-		{
-			"nombre": "Sultanato de Egipto",
-			"desde": 1914,
-			"hasta": 1922
-		},
-		{
-			"nombre": "Reino de Egipto",
-			"desde": 1922,
-			"hasta": 1953
-		},
-		{
-			"nombre": "República de Egipto",
-			"desde": 1953,
-			"hasta": 1958
-		},
-		{
-			"nombre": "República Árabe Unida",
-			"desde": 1958,
-			"hasta": 1971
-		},
-		{
-			"nombre": "República Árabe de Egipto",
-			"desde": 1971,
-			"hasta": 2026
-		}
-	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "a23eb64cc461",
+		"hash": "5f1f1d49d6e8",
 		"secciones": [
 			"escudos",
 			"fuentes",
@@ -453,11 +459,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Egipto, oficialmente la República Árabe de Egipto, es un país soberano transcontinental. Está ubicado mayoritariamente en el extremo nororiental de África, mientras que en Asia se encuentra la península del Sinaí.",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of Egypt (Official).svg"
-		}
-	]
+	}
 }

@@ -5,24 +5,26 @@
 		"Dutch Republic",
 		"Netherlands"
 	],
+	"owid": "Netherlands",
+	"resena": "Países Bajos es una de las cuatro naciones constituyentes del Reino de los Países Bajos y un Estado miembro de la Unión Europea. Su capital y ciudad más poblada oficial es Ámsterdam,no obstante, la sede del gobierno, del parlamento, de la monarquía y de los órganos judiciales se encuentra en La Haya.",
 	"gobernantes": [
 		{
-			"desde": 1572,
-			"hasta": 1584,
 			"nombre": "Guillermo de Orange",
-			"titulo": "Estatúder"
+			"titulo": "Estatúder",
+			"desde": 1572,
+			"hasta": 1584
 		},
 		{
-			"desde": 1672,
-			"hasta": 1702,
 			"nombre": "Guillermo III de Orange",
-			"titulo": "Estatúder (y Rey de Inglaterra)"
+			"titulo": "Estatúder (y Rey de Inglaterra)",
+			"desde": 1672,
+			"hasta": 1702
 		},
 		{
-			"desde": 1980,
-			"hasta": 2013,
 			"nombre": "Beatriz I",
-			"titulo": "Reina de los Países Bajos"
+			"titulo": "Reina de los Países Bajos",
+			"desde": 1980,
+			"hasta": 2013
 		}
 	],
 	"poblacion": [
@@ -226,7 +228,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"owid": "Netherlands",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -236,6 +237,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Países Bajos es una de las cuatro naciones constituyentes del Reino de los Países Bajos y un Estado miembro de la Unión Europea. Su capital y ciudad más poblada oficial es Ámsterdam,no obstante, la sede del gobierno, del parlamento, de la monarquía y de los órganos judiciales se encuentra en La Haya."
+	}
 }

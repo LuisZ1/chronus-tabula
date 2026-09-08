@@ -6,60 +6,64 @@
 		"Castile",
 		"Castille"
 	],
+	"relacionados": [
+		"España"
+	],
+	"resena": "La Corona de Castilla, como entidad histórica, se suele considerar que comienza con la última y definitiva unión dinástica de los reinos de Castilla y de León, con sus respectivos territorios, en 1230, o bien con la reunión de sus Cortes, unas décadas después.",
 	"gobernantes": [
 		{
-			"desde": 1035,
-			"hasta": 1065,
 			"nombre": "Fernando I el Magno",
-			"titulo": "Rey de Castilla y León"
+			"titulo": "Rey de Castilla y León",
+			"desde": 1035,
+			"hasta": 1065
 		},
 		{
-			"desde": 1072,
-			"hasta": 1109,
 			"nombre": "Alfonso VI",
-			"titulo": "Rey de León y Castilla"
+			"titulo": "Rey de León y Castilla",
+			"desde": 1072,
+			"hasta": 1109
 		},
 		{
-			"desde": 1158,
-			"hasta": 1214,
 			"nombre": "Alfonso VIII",
-			"titulo": "Rey de Castilla"
+			"titulo": "Rey de Castilla",
+			"desde": 1158,
+			"hasta": 1214
 		},
 		{
-			"desde": 1217,
-			"hasta": 1252,
 			"nombre": "Fernando III el Santo",
-			"titulo": "Rey de Castilla y León"
+			"titulo": "Rey de Castilla y León",
+			"desde": 1217,
+			"hasta": 1252
 		},
 		{
-			"desde": 1252,
-			"hasta": 1284,
 			"nombre": "Alfonso X el Sabio",
-			"titulo": "Rey de Castilla"
+			"titulo": "Rey de Castilla",
+			"desde": 1252,
+			"hasta": 1284
 		},
 		{
-			"desde": 1369,
-			"hasta": 1379,
 			"nombre": "Enrique II",
-			"titulo": "Rey de Castilla"
+			"titulo": "Rey de Castilla",
+			"desde": 1369,
+			"hasta": 1379
 		},
 		{
-			"desde": 1406,
-			"hasta": 1454,
 			"nombre": "Juan II",
-			"titulo": "Rey de Castilla"
+			"titulo": "Rey de Castilla",
+			"desde": 1406,
+			"hasta": 1454
 		},
 		{
-			"desde": 1474,
-			"hasta": 1504,
 			"nombre": "Isabel I la Católica",
-			"titulo": "Reina de Castilla"
+			"titulo": "Reina de Castilla",
+			"desde": 1474,
+			"hasta": 1504
 		},
 		{
-			"desde": 1504,
-			"hasta": 1516,
 			"nombre": "Juana I (con regencias de Fernando el Católico y Cisneros)",
-			"titulo": "Reina de Castilla"
+			"titulo": "Reina de Castilla",
+			"desde": 1504,
+			"hasta": 1516
 		}
 	],
 	"poblacion": [
@@ -76,9 +80,6 @@
 			"valor": 6000000
 		}
 	],
-	"relacionados": [
-		"España"
-	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Corona de Castilla",
@@ -92,7 +93,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "La Corona de Castilla, como entidad histórica, se suele considerar que comienza con la última y definitiva unión dinástica de los reinos de Castilla y de León, con sus respectivos territorios, en 1230, o bien con la reunión de sus Cortes, unas décadas después.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

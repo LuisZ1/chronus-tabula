@@ -12,6 +12,363 @@
 	"bajas": "~35.000 muertos",
 	"descripcion": "EE. UU. invade Canadá sin éxito; los británicos queman Washington (1814); la última batalla, Nueva Orleans, se libra ya firmada la paz.",
 	"wiki": "Guerra anglo-estadounidense de 1812",
+	"zonas": [
+		{
+			"nombre": "Frontera de Canadá y los Grandes Lagos",
+			"tipo": "frente",
+			"poligono": [
+				[
+					45.5,
+					-79.5
+				],
+				[
+					45,
+					-73
+				],
+				[
+					42.5,
+					-78.5
+				],
+				[
+					41.8,
+					-83.5
+				],
+				[
+					43.5,
+					-84
+				]
+			]
+		},
+		{
+			"nombre": "Bahía de Chesapeake",
+			"tipo": "frente",
+			"desde": 1813,
+			"hasta": 1814,
+			"poligono": [
+				[
+					39.5,
+					-77.5
+				],
+				[
+					39.3,
+					-75.8
+				],
+				[
+					36.9,
+					-76
+				],
+				[
+					37,
+					-77.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Brownstown",
+			"anio": 1812,
+			"lat": 42.09,
+			"lng": -83.2
+		},
+		{
+			"nombre": "Batalla de Fort Dearborn",
+			"anio": 1812,
+			"lat": 41.86,
+			"lng": -87.62
+		},
+		{
+			"nombre": "Batalla de Frenchman's Creek",
+			"anio": 1812,
+			"lat": 42.94,
+			"lng": -78.93
+		},
+		{
+			"nombre": "Batalla de Lacolle Mills",
+			"anio": 1812,
+			"lat": 45.08,
+			"lng": -73.37
+		},
+		{
+			"nombre": "Batalla de Maguaga",
+			"anio": 1812,
+			"lat": 42.14,
+			"lng": -83.18
+		},
+		{
+			"nombre": "Batalla de Queenston Heights",
+			"anio": 1812,
+			"lat": 43.16,
+			"lng": -79.05
+		},
+		{
+			"nombre": "Batalla de River Canard",
+			"anio": 1812,
+			"lat": 42.19,
+			"lng": -83.09
+		},
+		{
+			"nombre": "Batalla de Beaver Dams",
+			"anio": 1813,
+			"lat": 43.12,
+			"lng": -79.19
+		},
+		{
+			"nombre": "Batalla de Buffalo",
+			"anio": 1813,
+			"lat": 42.94,
+			"lng": -78.9
+		},
+		{
+			"nombre": "Batalla de Burnt Corn",
+			"anio": 1813,
+			"lat": 31.19,
+			"lng": -87.13
+		},
+		{
+			"nombre": "Batalla de Châteauguay",
+			"anio": 1813,
+			"lat": 45.16,
+			"lng": -73.93
+		},
+		{
+			"nombre": "Batalla de Craney Island",
+			"anio": 1813,
+			"lat": 36.95,
+			"lng": -76.35
+		},
+		{
+			"nombre": "Batalla de Crysler's Farm",
+			"anio": 1813,
+			"lat": 44.94,
+			"lng": -75.07
+		},
+		{
+			"nombre": "Batalla de Fort George",
+			"anio": 1813,
+			"lat": 43.25,
+			"lng": -79.06
+		},
+		{
+			"nombre": "Batalla de Fort Stephenson",
+			"anio": 1813,
+			"lat": 41.35,
+			"lng": -83.12
+		},
+		{
+			"nombre": "Batalla de Frenchtown",
+			"anio": 1813,
+			"lat": 41.91,
+			"lng": -83.38
+		},
+		{
+			"nombre": "Batalla de Ogdensburg",
+			"anio": 1813,
+			"lat": 44.69,
+			"lng": -75.5
+		},
+		{
+			"nombre": "Batalla de St. Michaels",
+			"anio": 1813,
+			"lat": 38.79,
+			"lng": -76.22
+		},
+		{
+			"nombre": "Batalla de Stoney Creek",
+			"anio": 1813,
+			"lat": 43.22,
+			"lng": -79.76
+		},
+		{
+			"nombre": "Batalla de Talladega",
+			"anio": 1813,
+			"lat": 33.45,
+			"lng": -86.17
+		},
+		{
+			"nombre": "Batalla de Tallushatchee",
+			"anio": 1813,
+			"lat": 33.81,
+			"lng": -85.91
+		},
+		{
+			"nombre": "Batalla de York",
+			"anio": 1813,
+			"lat": 43.64,
+			"lng": -79.4
+		},
+		{
+			"nombre": "Batalla del Támesis",
+			"anio": 1813,
+			"lat": 42.56,
+			"lng": -81.93
+		},
+		{
+			"nombre": "Combate de la Shannon y de la Chesapeake",
+			"anio": 1813,
+			"lat": 42.65,
+			"lng": -70.57
+		},
+		{
+			"nombre": "Masacre del Fuerte Mims",
+			"anio": 1813,
+			"lat": 31.18,
+			"lng": -87.84
+		},
+		{
+			"nombre": "Raid on Black Rock",
+			"anio": 1813,
+			"lat": 42.93,
+			"lng": -78.9
+		},
+		{
+			"nombre": "Raid on Havre de Grace",
+			"anio": 1813,
+			"lat": 39.54,
+			"lng": -76.08
+		},
+		{
+			"nombre": "Segunda batalla de Sacket's Harbor",
+			"anio": 1813,
+			"lat": 43.95,
+			"lng": -76.13
+		},
+		{
+			"nombre": "Batalla de Baltimore",
+			"anio": 1814,
+			"lat": 39.26,
+			"lng": -76.58
+		},
+		{
+			"nombre": "Batalla de Big Sandy Creek",
+			"anio": 1814,
+			"lat": 43.71,
+			"lng": -76.18
+		},
+		{
+			"nombre": "Batalla de Calebee Creek",
+			"anio": 1814,
+			"lat": 32.41,
+			"lng": -85.7
+		},
+		{
+			"nombre": "Batalla de Caulk's Field",
+			"anio": 1814,
+			"lat": 39.21,
+			"lng": -76.2
+		},
+		{
+			"nombre": "Batalla de Chippawa",
+			"anio": 1814,
+			"lat": 43.05,
+			"lng": -79.02
+		},
+		{
+			"nombre": "Batalla de Cook's Mills",
+			"anio": 1814,
+			"lat": 43.0,
+			"lng": -79.17
+		},
+		{
+			"nombre": "Batalla de Fort Oswego",
+			"anio": 1814,
+			"lat": 43.47,
+			"lng": -76.51
+		},
+		{
+			"nombre": "Batalla de Hampden",
+			"anio": 1814,
+			"lat": 44.74,
+			"lng": -68.84
+		},
+		{
+			"nombre": "Batalla de Horseshoe Bend",
+			"anio": 1814,
+			"lat": 32.98,
+			"lng": -85.74
+		},
+		{
+			"nombre": "Batalla de Lacolle Mills",
+			"anio": 1814,
+			"lat": 45.07,
+			"lng": -73.34
+		},
+		{
+			"nombre": "Batalla de Longwoods",
+			"anio": 1814,
+			"lat": 42.69,
+			"lng": -81.7
+		},
+		{
+			"nombre": "Batalla de Lundy's Lane",
+			"anio": 1814,
+			"lat": 43.09,
+			"lng": -79.1
+		},
+		{
+			"nombre": "Batalla de Mackinac Island",
+			"anio": 1814,
+			"lat": 45.85,
+			"lng": -84.62
+		},
+		{
+			"nombre": "Batalla de Malcolm's Mills",
+			"anio": 1814,
+			"lat": 43.03,
+			"lng": -80.33
+		},
+		{
+			"nombre": "Batalla de North Point",
+			"anio": 1814,
+			"lat": 39.28,
+			"lng": -76.49
+		},
+		{
+			"nombre": "Batalla de Plattsburgh",
+			"anio": 1814,
+			"lat": 44.68,
+			"lng": -73.38
+		},
+		{
+			"nombre": "Battle of Credit Island",
+			"anio": 1814,
+			"lat": 41.5,
+			"lng": -90.62
+		},
+		{
+			"nombre": "Battles of Emuckfaw and Enotachopo Creek",
+			"anio": 1814,
+			"lat": 32.97,
+			"lng": -85.74
+		},
+		{
+			"nombre": "Quema de Washington",
+			"anio": 1814,
+			"lat": 38.9,
+			"lng": -77.04,
+			"descripcion": "Los británicos incendian el Capitolio y la Casa Blanca."
+		},
+		{
+			"nombre": "Batalla de Fort Peter",
+			"anio": 1815,
+			"lat": 30.76,
+			"lng": -81.52
+		},
+		{
+			"nombre": "Batalla de Nueva Orleans",
+			"anio": 1815,
+			"lat": 29.94,
+			"lng": -89.99,
+			"descripcion": "Jackson aplasta el asalto británico dos semanas después de firmada la paz.",
+			"bajas": "~2.000 bajas británicas"
+		},
+		{
+			"nombre": "Battle of the Sink Hole",
+			"anio": 1815,
+			"lat": 38.93,
+			"lng": -90.69
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra anglo-estadounidense de 1812",
@@ -309,363 +666,6 @@
 			"url": "https://www.wikidata.org/wiki/Q4870585",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
-		}
-	],
-	"zonas": [
-		{
-			"nombre": "Frontera de Canadá y los Grandes Lagos",
-			"tipo": "frente",
-			"poligono": [
-				[
-					45.5,
-					-79.5
-				],
-				[
-					45,
-					-73
-				],
-				[
-					42.5,
-					-78.5
-				],
-				[
-					41.8,
-					-83.5
-				],
-				[
-					43.5,
-					-84
-				]
-			]
-		},
-		{
-			"nombre": "Bahía de Chesapeake",
-			"tipo": "frente",
-			"desde": 1813,
-			"hasta": 1814,
-			"poligono": [
-				[
-					39.5,
-					-77.5
-				],
-				[
-					39.3,
-					-75.8
-				],
-				[
-					36.9,
-					-76
-				],
-				[
-					37,
-					-77.5
-				]
-			]
-		}
-	],
-	"batallas": [
-		{
-			"nombre": "Batalla de Queenston Heights",
-			"anio": 1812,
-			"lat": 43.16,
-			"lng": -79.05
-		},
-		{
-			"nombre": "Batalla de Frenchman's Creek",
-			"anio": 1812,
-			"lat": 42.94,
-			"lng": -78.93
-		},
-		{
-			"nombre": "Batalla de Lacolle Mills",
-			"anio": 1812,
-			"lat": 45.08,
-			"lng": -73.37
-		},
-		{
-			"nombre": "Batalla de Maguaga",
-			"anio": 1812,
-			"lat": 42.14,
-			"lng": -83.18
-		},
-		{
-			"nombre": "Batalla de Fort Dearborn",
-			"anio": 1812,
-			"lat": 41.86,
-			"lng": -87.62
-		},
-		{
-			"nombre": "Batalla de River Canard",
-			"anio": 1812,
-			"lat": 42.19,
-			"lng": -83.09
-		},
-		{
-			"nombre": "Batalla de Brownstown",
-			"anio": 1812,
-			"lat": 42.09,
-			"lng": -83.2
-		},
-		{
-			"nombre": "Batalla del Támesis",
-			"anio": 1813,
-			"lat": 42.56,
-			"lng": -81.93
-		},
-		{
-			"nombre": "Batalla de Frenchtown",
-			"anio": 1813,
-			"lat": 41.91,
-			"lng": -83.38
-		},
-		{
-			"nombre": "Batalla de Stoney Creek",
-			"anio": 1813,
-			"lat": 43.22,
-			"lng": -79.76
-		},
-		{
-			"nombre": "Batalla de Beaver Dams",
-			"anio": 1813,
-			"lat": 43.12,
-			"lng": -79.19
-		},
-		{
-			"nombre": "Batalla de York",
-			"anio": 1813,
-			"lat": 43.64,
-			"lng": -79.4
-		},
-		{
-			"nombre": "Batalla de Châteauguay",
-			"anio": 1813,
-			"lat": 45.16,
-			"lng": -73.93
-		},
-		{
-			"nombre": "Batalla de Crysler's Farm",
-			"anio": 1813,
-			"lat": 44.94,
-			"lng": -75.07
-		},
-		{
-			"nombre": "Batalla de Burnt Corn",
-			"anio": 1813,
-			"lat": 31.19,
-			"lng": -87.13
-		},
-		{
-			"nombre": "Batalla de Fort Stephenson",
-			"anio": 1813,
-			"lat": 41.35,
-			"lng": -83.12
-		},
-		{
-			"nombre": "Batalla de Craney Island",
-			"anio": 1813,
-			"lat": 36.95,
-			"lng": -76.35
-		},
-		{
-			"nombre": "Batalla de Fort George",
-			"anio": 1813,
-			"lat": 43.25,
-			"lng": -79.06
-		},
-		{
-			"nombre": "Batalla de Ogdensburg",
-			"anio": 1813,
-			"lat": 44.69,
-			"lng": -75.5
-		},
-		{
-			"nombre": "Masacre del Fuerte Mims",
-			"anio": 1813,
-			"lat": 31.18,
-			"lng": -87.84
-		},
-		{
-			"nombre": "Batalla de Tallushatchee",
-			"anio": 1813,
-			"lat": 33.81,
-			"lng": -85.91
-		},
-		{
-			"nombre": "Batalla de Talladega",
-			"anio": 1813,
-			"lat": 33.45,
-			"lng": -86.17
-		},
-		{
-			"nombre": "Batalla de St. Michaels",
-			"anio": 1813,
-			"lat": 38.79,
-			"lng": -76.22
-		},
-		{
-			"nombre": "Combate de la Shannon y de la Chesapeake",
-			"anio": 1813,
-			"lat": 42.65,
-			"lng": -70.57
-		},
-		{
-			"nombre": "Raid on Havre de Grace",
-			"anio": 1813,
-			"lat": 39.54,
-			"lng": -76.08
-		},
-		{
-			"nombre": "Segunda batalla de Sacket's Harbor",
-			"anio": 1813,
-			"lat": 43.95,
-			"lng": -76.13
-		},
-		{
-			"nombre": "Raid on Black Rock",
-			"anio": 1813,
-			"lat": 42.93,
-			"lng": -78.9
-		},
-		{
-			"nombre": "Batalla de Buffalo",
-			"anio": 1813,
-			"lat": 42.94,
-			"lng": -78.9
-		},
-		{
-			"nombre": "Quema de Washington",
-			"anio": 1814,
-			"lat": 38.9,
-			"lng": -77.04,
-			"descripcion": "Los británicos incendian el Capitolio y la Casa Blanca."
-		},
-		{
-			"nombre": "Batalla de Lacolle Mills",
-			"anio": 1814,
-			"lat": 45.07,
-			"lng": -73.34
-		},
-		{
-			"nombre": "Batalla de Lundy's Lane",
-			"anio": 1814,
-			"lat": 43.09,
-			"lng": -79.1
-		},
-		{
-			"nombre": "Batalla de Horseshoe Bend",
-			"anio": 1814,
-			"lat": 32.98,
-			"lng": -85.74
-		},
-		{
-			"nombre": "Batalla de Calebee Creek",
-			"anio": 1814,
-			"lat": 32.41,
-			"lng": -85.7
-		},
-		{
-			"nombre": "Batalla de Hampden",
-			"anio": 1814,
-			"lat": 44.74,
-			"lng": -68.84
-		},
-		{
-			"nombre": "Batalla de Caulk's Field",
-			"anio": 1814,
-			"lat": 39.21,
-			"lng": -76.2
-		},
-		{
-			"nombre": "Batalla de Fort Oswego",
-			"anio": 1814,
-			"lat": 43.47,
-			"lng": -76.51
-		},
-		{
-			"nombre": "Batalla de Baltimore",
-			"anio": 1814,
-			"lat": 39.26,
-			"lng": -76.58
-		},
-		{
-			"nombre": "Batalla de Chippawa",
-			"anio": 1814,
-			"lat": 43.05,
-			"lng": -79.02
-		},
-		{
-			"nombre": "Batalla de Malcolm's Mills",
-			"anio": 1814,
-			"lat": 43.03,
-			"lng": -80.33
-		},
-		{
-			"nombre": "Batalla de Mackinac Island",
-			"anio": 1814,
-			"lat": 45.85,
-			"lng": -84.62
-		},
-		{
-			"nombre": "Batalla de Longwoods",
-			"anio": 1814,
-			"lat": 42.69,
-			"lng": -81.7
-		},
-		{
-			"nombre": "Batalla de North Point",
-			"anio": 1814,
-			"lat": 39.28,
-			"lng": -76.49
-		},
-		{
-			"nombre": "Batalla de Cook's Mills",
-			"anio": 1814,
-			"lat": 43.0,
-			"lng": -79.17
-		},
-		{
-			"nombre": "Battles of Emuckfaw and Enotachopo Creek",
-			"anio": 1814,
-			"lat": 32.97,
-			"lng": -85.74
-		},
-		{
-			"nombre": "Batalla de Plattsburgh",
-			"anio": 1814,
-			"lat": 44.68,
-			"lng": -73.38
-		},
-		{
-			"nombre": "Battle of Credit Island",
-			"anio": 1814,
-			"lat": 41.5,
-			"lng": -90.62
-		},
-		{
-			"nombre": "Batalla de Big Sandy Creek",
-			"anio": 1814,
-			"lat": 43.71,
-			"lng": -76.18
-		},
-		{
-			"nombre": "Batalla de Nueva Orleans",
-			"anio": 1815,
-			"lat": 29.94,
-			"lng": -89.99,
-			"bajas": "~2.000 bajas británicas",
-			"descripcion": "Jackson aplasta el asalto británico dos semanas después de firmada la paz."
-		},
-		{
-			"nombre": "Batalla de Fort Peter",
-			"anio": 1815,
-			"lat": 30.76,
-			"lng": -81.52
-		},
-		{
-			"nombre": "Battle of the Sink Hole",
-			"anio": 1815,
-			"lat": 38.93,
-			"lng": -90.69
 		}
 	]
 }

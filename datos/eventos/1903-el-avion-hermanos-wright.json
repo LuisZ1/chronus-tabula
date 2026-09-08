@@ -1,14 +1,14 @@
 {
 	"nombre": "El avión (hermanos Wright)",
 	"anio": 1903,
+	"categoria": "invento",
 	"lat": 36.02,
 	"lng": -75.67,
-	"categoria": "invento",
-	"descripcion": "Primer vuelo controlado con motor, en Kitty Hawk.",
-	"wiki": "Hermanos Wright",
 	"paises": [
 		"Estados Unidos"
 	],
+	"descripcion": "Primer vuelo controlado con motor, en Kitty Hawk.",
+	"wiki": "Hermanos Wright",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Hermanos Wright",

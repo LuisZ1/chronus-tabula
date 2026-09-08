@@ -4,24 +4,28 @@
 	"nombres": [
 		"Inca Empire"
 	],
+	"relacionados": [
+		"Imperio inca (Tahuantinsuyo)",
+		"Perú"
+	],
 	"gobernantes": [
 		{
-			"desde": 1438,
-			"hasta": 1471,
 			"nombre": "Pachacútec",
-			"titulo": "Sapa Inca"
+			"titulo": "Sapa Inca",
+			"desde": 1438,
+			"hasta": 1471
 		},
 		{
-			"desde": 1493,
-			"hasta": 1527,
 			"nombre": "Huayna Cápac",
-			"titulo": "Sapa Inca"
+			"titulo": "Sapa Inca",
+			"desde": 1493,
+			"hasta": 1527
 		},
 		{
-			"desde": 1532,
-			"hasta": 1533,
 			"nombre": "Atahualpa (capturado en Cajamarca)",
-			"titulo": "Sapa Inca"
+			"titulo": "Sapa Inca",
+			"desde": 1532,
+			"hasta": 1533
 		}
 	],
 	"poblacion": [
@@ -29,10 +33,6 @@
 			"anio": 1520,
 			"valor": 10000000
 		}
-	],
-	"relacionados": [
-		"Imperio inca (Tahuantinsuyo)",
-		"Perú"
 	],
 	"fuentes": [
 		{

@@ -11,23 +11,6 @@
 	"bajas": "~50.000-70.000 muertos",
 	"descripcion": "Gran Bretaña impone a cañonazos el comercio del opio: China cede Hong Kong y abre sus puertos; en 1860 las tropas anglo-francesas saquean el Palacio de Verano de Pekín.",
 	"wiki": "Guerras del Opio",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerras del Opio",
-			"url": "https://es.wikipedia.org/wiki/Guerras_del_Opio",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		},
-		{
-			"id": "wikidata:Q2663279",
-			"url": "https://www.wikidata.org/wiki/Q2663279",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Costa de Cantón y el Yangtsé",
@@ -91,17 +74,34 @@
 			"descripcion": "Los cañones británicos abren el sur de China."
 		},
 		{
+			"nombre": "Batalla de Palikao",
+			"anio": 1860,
+			"lat": 39.91,
+			"lng": 116.61
+		},
+		{
 			"nombre": "Saqueo del Palacio de Verano",
 			"anio": 1860,
 			"lat": 40.01,
 			"lng": 116.27,
 			"descripcion": "Las tropas anglo-francesas incendian la maravilla imperial."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerras del Opio",
+			"url": "https://es.wikipedia.org/wiki/Guerras_del_Opio",
+			"licencia": "CC BY-SA"
 		},
 		{
-			"nombre": "Batalla de Palikao",
-			"anio": 1860,
-			"lat": 39.91,
-			"lng": 116.61
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q2663279",
+			"url": "https://www.wikidata.org/wiki/Q2663279",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

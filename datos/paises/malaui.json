@@ -7,25 +7,6 @@
 		"Nyasaland",
 		"República de Malaui"
 	],
-	"wiki": "es:Malaui",
-	"fuentes": [
-		{
-			"id": "wikipedia-es",
-			"url": "https://es.wikipedia.org/wiki/Malaui",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "wikidata",
-			"url": "https://www.wikidata.org/wiki/Q1020",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "Wikipedia (es): Malaui",
-			"url": "https://es.wikipedia.org/wiki/Malaui",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio Maravi",
@@ -43,49 +24,51 @@
 			"hasta": 2026
 		}
 	],
+	"wiki": "es:Malaui",
 	"wikidata": "Q1020",
+	"resena": "Malaui o Malawi, oficialmente la República de Malaui o República de Malawi es un país sin salida al mar ubicado en el sureste de África, antiguamente conocido como Nyasalandia, que tiene como su capital a la ciudad de Lilongüe. Limita con Zambia al noroeste, con Tanzania al noreste y con Mozambique al sureste, sur y suroeste.",
 	"gobernantes": [
 		{
 			"nombre": "Hastings Kamuzu Banda",
+			"cargo": "Primer ministro y luego Presidente",
 			"desde": 1964,
-			"hasta": 1994,
-			"cargo": "Primer ministro y luego Presidente"
+			"hasta": 1994
 		},
 		{
 			"nombre": "Bakili Muluzi",
+			"cargo": "Presidente",
 			"desde": 1994,
-			"hasta": 2004,
-			"cargo": "Presidente"
+			"hasta": 2004
 		},
 		{
 			"nombre": "Bingu wa Mutharika",
+			"cargo": "Presidente",
 			"desde": 2004,
-			"hasta": 2012,
-			"cargo": "Presidente"
+			"hasta": 2012
 		},
 		{
 			"nombre": "Joyce Banda",
+			"cargo": "Presidenta",
 			"desde": 2012,
-			"hasta": 2014,
-			"cargo": "Presidenta"
+			"hasta": 2014
 		},
 		{
 			"nombre": "Peter Mutharika",
+			"cargo": "Presidente",
 			"desde": 2014,
-			"hasta": 2020,
-			"cargo": "Presidente"
+			"hasta": 2020
 		},
 		{
 			"nombre": "Lazarus Chakwera",
+			"cargo": "Presidente",
 			"desde": 2020,
-			"hasta": 2025,
-			"cargo": "Presidente"
+			"hasta": 2025
 		},
 		{
 			"nombre": "Peter Mutharika",
+			"cargo": "Presidente",
 			"desde": 2025,
-			"hasta": 2026,
-			"cargo": "Presidente"
+			"hasta": 2026
 		}
 	],
 	"poblacion": [
@@ -125,6 +108,24 @@
 			"fuente": "Our World in Data (est.)"
 		}
 	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es",
+			"url": "https://es.wikipedia.org/wiki/Malaui",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "wikidata",
+			"url": "https://www.wikidata.org/wiki/Q1020",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "Wikipedia (es): Malaui",
+			"url": "https://es.wikipedia.org/wiki/Malaui",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -137,6 +138,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Malaui o Malawi, oficialmente la República de Malaui o República de Malawi es un país sin salida al mar ubicado en el sureste de África, antiguamente conocido como Nyasalandia, que tiene como su capital a la ciudad de Lilongüe. Limita con Zambia al noroeste, con Tanzania al noreste y con Mozambique al sureste, sur y suroeste."
+	}
 }

@@ -6,9 +6,13 @@ Ejecútalo desde la raíz del repositorio antes de abrir un merge request:
 
     python api/validar.py
 
-Lee datos/ (un fichero por país, conflicto, evento y territorio) y comprueba
-estructura, campos obligatorios, coherencia de años, coordenadas y que los
-nombres de países existan en los mapas GeoJSON. Cada aviso o error indica la
+Lee datos/ (un fichero por país, conflicto, evento y territorio) y comprueba:
+  · la estructura de cada ficha contra su esquema de schema/ (tipos, campos
+    obligatorios, patrones), avisando de claves desconocidas;
+  · coherencia de años, coordenadas y polígonos;
+  · que los nombres de países existan en los mapas GeoJSON;
+  · que las referencias entre fichas (territorio → país, relacionados) resuelvan;
+  · que la marca de revisión (revision.hash) siga cuadrando con los datos. Cada aviso o error indica la
 entidad afectada («paises/angola» ↔ datos/paises/angola.json). Termina con
 código 0 si todo es válido y 1 si hay errores.
 """
@@ -26,8 +30,13 @@ for _flujo in (sys.stdout, sys.stderr):
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOJSON_DIR = os.path.join(RAIZ, "web", "data", "geojson")
+SCHEMA_DIR = os.path.join(RAIZ, "schema")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
-from comun import cargar_historia, DATOS  # noqa: E402
+from comun import cargar_historia, hash_revision, DATOS  # noqa: E402
+
+# colección → fichero de esquema en schema/
+ESQUEMAS = {"paises": "pais.json", "conflictos": "conflicto.json",
+            "eventos": "evento.json", "territorios": "territorio.json"}
 
 errores = []
 avisos = []
@@ -80,6 +89,78 @@ def valida_poligono(donde, poly):
         aviso(donde, "hay latitudes > 85°; comprueba que no hayas invertido [lat, lng]")
 
 
+# --- comprobación estructural contra schema/*.json ---------------------------
+# Implementación mínima de JSON Schema (sin dependencias externas) con lo que
+# usan nuestros esquemas: type, enum, required, properties, items, prefixItems,
+# minItems, maxItems, minimum, maximum, minLength, pattern. Las claves que no
+# estén en 'properties' se señalan como aviso (probable errata), no como error.
+_TIPOS = {
+    "string": lambda v: isinstance(v, str),
+    "integer": lambda v: isinstance(v, int) and not isinstance(v, bool),
+    "number": lambda v: isinstance(v, (int, float)) and not isinstance(v, bool),
+    "boolean": lambda v: isinstance(v, bool),
+    "array": lambda v: isinstance(v, list),
+    "object": lambda v: isinstance(v, dict),
+    "null": lambda v: v is None,
+}
+
+
+def cargar_esquemas():
+    out = {}
+    for col, fn in ESQUEMAS.items():
+        ruta = os.path.join(SCHEMA_DIR, fn)
+        try:
+            with open(ruta, encoding="utf-8") as f:
+                out[col] = json.load(f)
+        except FileNotFoundError:
+            aviso("schema", f"no encuentro schema/{fn}: se omite la comprobación estructural de '{col}'")
+        except json.JSONDecodeError as e:
+            err("schema", f"schema/{fn} no es JSON válido: {e}")
+    return out
+
+
+def comprueba_esquema(donde, v, sch, ruta=""):
+    aqui = f"{donde}{(' ' + ruta) if ruta else ''}"
+    tipo = sch.get("type")
+    if tipo:
+        tipos = tipo if isinstance(tipo, list) else [tipo]
+        if not any(_TIPOS[t](v) for t in tipos):
+            err(aqui, f"debe ser de tipo {'/'.join(tipos)}, no {type(v).__name__}: {v!r}"[:200])
+            return
+    if "enum" in sch and v not in sch["enum"]:
+        err(aqui, f"valor {v!r} no permitido; usa uno de {sch['enum']}")
+    if isinstance(v, (int, float)) and not isinstance(v, bool):
+        if "minimum" in sch and v < sch["minimum"]:
+            err(aqui, f"{v} es menor que el mínimo {sch['minimum']}")
+        if "maximum" in sch and v > sch["maximum"]:
+            err(aqui, f"{v} es mayor que el máximo {sch['maximum']}")
+    if isinstance(v, str):
+        if "minLength" in sch and len(v) < sch["minLength"]:
+            err(aqui, "cadena vacía o demasiado corta")
+        if "pattern" in sch and not re.search(sch["pattern"], v):
+            err(aqui, f"{v!r} no sigue el formato esperado ({sch['pattern']})")
+    if isinstance(v, list):
+        if "minItems" in sch and len(v) < sch["minItems"]:
+            err(aqui, f"necesita al menos {sch['minItems']} elemento(s)")
+        if "maxItems" in sch and len(v) > sch["maxItems"]:
+            err(aqui, f"admite como máximo {sch['maxItems']} elemento(s)")
+        for i, x in enumerate(v):
+            sub = sch["prefixItems"][i] if i < len(sch.get("prefixItems", [])) else sch.get("items")
+            if sub:
+                etiqueta = x.get("nombre") or x.get("id") or x.get("archivo") or x.get("anio") if isinstance(x, dict) else None
+                comprueba_esquema(donde, x, sub, f"{ruta}[{etiqueta if etiqueta is not None else i}]")
+    if isinstance(v, dict):
+        for k in sch.get("required", []):
+            if k not in v:
+                err(aqui, f"falta el campo obligatorio '{k}'")
+        props = sch.get("properties", {})
+        for k, x in v.items():
+            if k in props:
+                comprueba_esquema(donde, x, props[k], f"{ruta}.{k}" if ruta else k)
+            elif props and not k.startswith("_"):
+                aviso(aqui, f"clave desconocida '{k}' (¿errata? consulta schema/)")
+
+
 def main():
     # 1) JSON bien formado (cada fichero de datos/; un fallo indica su ruta)
     try:
@@ -94,6 +175,13 @@ def main():
     if not os.path.isdir(DATOS):
         aviso("datos", "no existe la carpeta datos/: se ha validado el historia.json monolítico "
                        "(ejecuta python api/dividir.py para migrar)")
+
+    # 1b) estructura de cada ficha contra su esquema (schema/*.json)
+    esquemas = cargar_esquemas()
+    for col, sch in esquemas.items():
+        for reg in d.get(col, []):
+            etiqueta = reg.get("id") or reg.get("nombre") or "?" if isinstance(reg, dict) else "?"
+            comprueba_esquema(f"{col}/{etiqueta}", reg, sch)
 
     # 2) nombres reales presentes en los GeoJSON (NAME y SUBJECTO)
     nombres_geo = set()
@@ -165,6 +253,9 @@ def main():
                 err(donde, "'revision' debe ser un objeto")
             elif rev.get("estado") not in ("validado", "borrador"):
                 err(donde, "revision.estado debe ser 'validado' o 'borrador'")
+            elif rev.get("estado") == "validado" and rev.get("hash") and rev["hash"] != hash_revision(p):
+                aviso(donde, "revision.hash no cuadra: gobernantes/población/nombres_periodo han cambiado "
+                             "después de validarse; revísalos y vuelve a exportar (o quita la marca)")
         # escudos por época: el mapa elige el vigente en el año consultado
         esc = p.get("escudos")
         if esc is not None:
@@ -247,6 +338,10 @@ def main():
                 nombres_pais.add(parte.strip().lower())
         for n in p.get("nombres", []) + p.get("relacionados", []):
             nombres_pais.add(str(n).lower())
+    for p in d.get("paises", []):
+        for n in p.get("relacionados", []):
+            if str(n).lower() not in nombres_pais:
+                aviso(f"paises/{p.get('id')}", f"'relacionados' cita {n!r}, que no es el nombre de ninguna ficha de 'paises'")
     for t in d.get("territorios", []):
         donde = f"territorios/'{t.get('nombre', '?')}'"
         for campo in ("nombre", "pais", "desde"):

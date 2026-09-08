@@ -4,28 +4,10 @@
 	"nombres": [
 		"Mongolia"
 	],
-	"wikidata": "Q711",
 	"wiki": "es:Mongolia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q711",
-			"url": "https://www.wikidata.org/wiki/Q711",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Mongolia",
-			"url": "https://es.wikipedia.org/wiki/Mongolia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q711",
 	"owid": "MNG",
+	"resena": "Mongolia es un Estado soberano sin acceso al mar, situado en Asia Oriental. Limita al norte con Rusia y al sur con China.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 3431938
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q711",
+			"url": "https://www.wikidata.org/wiki/Q711",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Mongolia",
+			"url": "https://es.wikipedia.org/wiki/Mongolia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Mongolia es un Estado soberano sin acceso al mar, situado en Asia Oriental. Limita al norte con Rusia y al sur con China."
+	}
 }

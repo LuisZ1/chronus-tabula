@@ -14,20 +14,6 @@
 	"bajas": "~25.000-50.000 muertos iraquíes; 292 de la coalición",
 	"descripcion": "Sadam invade Kuwait; una coalición de 35 países lo expulsa en la operación Tormenta del Desierto: cien horas de guerra terrestre tras seis semanas de bombardeo.",
 	"wiki": "Guerra del Golfo",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra del Golfo",
-			"url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Kuwait ocupado",
@@ -85,6 +71,20 @@
 			"lat": 29.38,
 			"lng": 47.99,
 			"descripcion": "La coalición entra en la capital el 27 de febrero; los pozos de petróleo arden."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra del Golfo",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

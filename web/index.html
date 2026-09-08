@@ -13,7 +13,7 @@
       if (h && /^-?\d+(\/|$)/.test(h)) location.replace('mapa.html#' + h);
     })();
   </script>
-  <link rel="stylesheet" href="css/portada.css">
+  <link rel="stylesheet" href="css/portada.css?v=2">
 </head>
 <body>
 
@@ -80,6 +80,16 @@
         <div class="tarjeta"><div class="ico">📋</div><h3>Paneles laterales</h3><p>A la derecha, «Este año» resume los conflictos activos y datos de interés, y la leyenda lista las entidades del mapa ordenadas por superficie: pulsa una para centrarla.</p></div>
         <div class="tarjeta"><div class="ico">🔗</div><h3>Compartir un momento</h3><p>La dirección del navegador guarda el año, la posición y el zoom. Copia el enlace y quien lo abra verá exactamente lo mismo que tú.</p></div>
         <div class="tarjeta"><div class="ico">🌐</div><h3>Idioma</h3><p>La interfaz está en español y en inglés; cámbialo en el selector de arriba a la derecha.</p></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="datos">
+      <h2>De dónde salen los datos</h2>
+      <p class="intro">Las fronteras vienen de mapas históricos abiertos (<a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>, precisión orientativa). Todo lo demás —gobernantes, población, nombres por época, batallas, acontecimientos, territorios— es conocimiento curado que vive en el repositorio como texto legible, una ficha por entidad, y que cualquiera puede corregir.</p>
+      <div class="rejilla">
+        <div class="tarjeta"><div class="ico">📚</div><h3>Cada dato, con su fuente</h3><p>Al pie de cada ficha del mapa verás de dónde sale la información (Wikipedia, Wikidata, Our World in Data, bibliografía). Sin fuente, un dato no entra.</p></div>
+        <div class="tarjeta"><div class="ico">✅</div><h3>Revisado y comprobado</h3><p>Los países revisados llevan una marca con fecha y huella del contenido, y antes de publicarse cada cambio pasa una validación automática de estructura, fechas, coordenadas y referencias.</p></div>
+        <div class="tarjeta"><div class="ico">🤝</div><h3>Abierto a mejoras</h3><p>¿Ves un error o quieres ampliar una época? En <a href="colaborar.html">la página de colaboración</a> se explica cómo están organizados los datos y el camino, paso a paso, para proponer un cambio.</p></div>
       </div>
     </section>
 

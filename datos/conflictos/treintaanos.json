@@ -13,30 +13,7 @@
 	],
 	"bajas": "~4.500.000-8.000.000 de muertos",
 	"descripcion": "Guerra religiosa y política que devasta Centroeuropa; acaba con la Paz de Westfalia.",
-	"batallas": [
-		{
-			"nombre": "Naval Batalla de Saint-Martin-de-Ré",
-			"anio": 1622,
-			"lat": 46.22,
-			"lng": -1.37
-		},
-		{
-			"nombre": "Batalla de Breitenfeld",
-			"anio": 1631,
-			"lat": 51.41,
-			"lng": 12.36,
-			"bajas": "~13.000 imperiales muertos",
-			"descripcion": "Primera gran victoria protestante, de Gustavo II Adolfo."
-		},
-		{
-			"nombre": "Batalla de Rocroi",
-			"anio": 1643,
-			"lat": 49.93,
-			"lng": 4.52,
-			"bajas": "~7.000 muertos",
-			"descripcion": "Francia derrota a los tercios españoles; ocaso de su leyenda."
-		}
-	],
+	"wiki": "Guerra de los Treinta Años",
 	"zonas": [
 		{
 			"nombre": "Bohemia y Palatinado",
@@ -195,7 +172,30 @@
 			]
 		}
 	],
-	"wiki": "Guerra de los Treinta Años",
+	"batallas": [
+		{
+			"nombre": "Naval Batalla de Saint-Martin-de-Ré",
+			"anio": 1622,
+			"lat": 46.22,
+			"lng": -1.37
+		},
+		{
+			"nombre": "Batalla de Breitenfeld",
+			"anio": 1631,
+			"lat": 51.41,
+			"lng": 12.36,
+			"descripcion": "Primera gran victoria protestante, de Gustavo II Adolfo.",
+			"bajas": "~13.000 imperiales muertos"
+		},
+		{
+			"nombre": "Batalla de Rocroi",
+			"anio": 1643,
+			"lat": 49.93,
+			"lng": 4.52,
+			"descripcion": "Francia derrota a los tercios españoles; ocaso de su leyenda.",
+			"bajas": "~7.000 muertos"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Guerra de los Treinta Años",

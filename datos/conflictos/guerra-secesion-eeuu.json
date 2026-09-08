@@ -9,20 +9,6 @@
 	"bajas": "~750.000 muertos, la guerra más letal de la historia de EE. UU.",
 	"descripcion": "La Unión contra la Confederación esclavista: de Fort Sumter a Appomattox, con la Proclamación de Emancipación (1863) aboliendo la esclavitud.",
 	"wiki": "Guerra de Secesión",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra de Secesión",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_Secesión",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Frente oriental (Virginia)",
@@ -103,8 +89,8 @@
 			"anio": 1862,
 			"lat": 39.47,
 			"lng": -77.74,
-			"bajas": "~23.000 bajas en un día",
 			"descripcion": "El día más sangriento de la historia militar estadounidense.",
+			"bajas": "~23.000 bajas en un día",
 			"wiki": "Batalla de Antietam"
 		},
 		{
@@ -112,8 +98,8 @@
 			"anio": 1863,
 			"lat": 39.81,
 			"lng": -77.23,
-			"bajas": "~50.000 bajas",
 			"descripcion": "El punto de inflexión: Lee nunca volverá a invadir el norte.",
+			"bajas": "~50.000 bajas",
 			"wiki": "Batalla de Gettysburg"
 		},
 		{
@@ -131,6 +117,20 @@
 			"lng": -78.8,
 			"descripcion": "Lee se rinde a Grant; fin de la guerra.",
 			"wiki": "Batalla de Appomattox Court House"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra de Secesión",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Secesión",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

@@ -12,20 +12,6 @@
 	"bajas": "~2-3,5 millones de muertos",
 	"descripcion": "El Norte comunista y el Vietcong contra el Sur y Estados Unidos: la guerra que EE. UU. no pudo ganar acaba con la caída de Saigón y la reunificación (1976).",
 	"wiki": "Guerra de Vietnam",
-	"fuentes": [
-		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "wikipedia-es:Guerra de Vietnam",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_Vietnam",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Vietnam del Sur (guerrilla y ofensivas)",
@@ -96,6 +82,20 @@
 			"lng": 106.7,
 			"descripcion": "Los tanques norvietnamitas entran en el palacio presidencial; evacuación en helicóptero de la embajada.",
 			"wiki": "Caída de Saigón"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "openstax:world-history",
+			"url": "https://openstax.org/details/books/world-history-volume-1",
+			"licencia": "CC BY-NC-SA 4.0",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra de Vietnam",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Vietnam",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }

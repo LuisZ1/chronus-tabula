@@ -11,23 +11,6 @@
 	"bajas": "~20.000 muertos",
 	"descripcion": "España, aliada de la Francia revolucionaria, se enfrenta a la Royal Navy: derrota en San Vicente, victoria en Tenerife (Nelson pierde el brazo) y bloqueo de Cádiz.",
 	"wiki": "Guerra anglo-española (1796-1802)",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra anglo-española (1796-1802)",
-			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1796-1802)",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		},
-		{
-			"id": "wikidata:Q4677289",
-			"url": "https://www.wikidata.org/wiki/Q4677289",
-			"licencia": "CC0",
-			"consultado": "2026-09-02"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Atlántico ibérico y Canarias",
@@ -77,6 +60,23 @@
 			"anio": 1801,
 			"lat": 35.92,
 			"lng": -5.31
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra anglo-española (1796-1802)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-española_(1796-1802)",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q4677289",
+			"url": "https://www.wikidata.org/wiki/Q4677289",
+			"licencia": "CC0",
+			"consultado": "2026-09-02"
 		}
 	]
 }

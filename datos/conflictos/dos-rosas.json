@@ -9,18 +9,6 @@
 	"bajas": "decenas de miles",
 	"descripcion": "Guerra civil dinástica entre las casas de Lancaster (rosa roja) y York (rosa blanca) por el trono inglés. Concluye cuando Enrique Tudor derrota y mata a Ricardo III en Bosworth (1485), funda la dinastía Tudor y sofoca la última resistencia yorkista en Stoke Field (1487).",
 	"wiki": "Guerra de las Dos Rosas",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra de las Dos Rosas",
-			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Dos_Rosas",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-07"
-		},
-		{
-			"id": "libro:Breve historia de Inglaterra",
-			"licencia": "referencia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Inglaterra (campañas dinásticas)",
@@ -69,6 +57,18 @@
 			"anio": 1487,
 			"lat": 53.01,
 			"lng": -0.88
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de las Dos Rosas",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Dos_Rosas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia de Inglaterra",
+			"licencia": "referencia"
 		}
 	]
 }

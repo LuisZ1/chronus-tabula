@@ -10,17 +10,6 @@
 	"bajas": "~10.000 muertos",
 	"descripcion": "El imperio invade Zululandia: la lanza zulú aplasta a los casacas rojas en Isandlwana, pero el reino de Cetshwayo cae en seis meses.",
 	"wiki": "Guerra anglo-zulú",
-	"fuentes": [
-		{
-			"id": "wikipedia-es:Guerra anglo-zulú",
-			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-zulú",
-			"licencia": "CC BY-SA"
-		},
-		{
-			"id": "curado",
-			"licencia": "elaboración propia contrastada con Wikipedia"
-		}
-	],
 	"zonas": [
 		{
 			"nombre": "Zululandia",
@@ -51,8 +40,8 @@
 			"anio": 1879,
 			"lat": -28.36,
 			"lng": 30.65,
-			"bajas": "~1.300 británicos muertos",
-			"descripcion": "La peor derrota británica ante un ejército indígena."
+			"descripcion": "La peor derrota británica ante un ejército indígena.",
+			"bajas": "~1.300 británicos muertos"
 		},
 		{
 			"nombre": "Defensa de Rorke's Drift",
@@ -60,6 +49,17 @@
 			"lat": -28.35,
 			"lng": 30.54,
 			"descripcion": "150 soldados resisten a 4.000 zulúes; once cruces Victoria."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra anglo-zulú",
+			"url": "https://es.wikipedia.org/wiki/Guerra_anglo-zulú",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "curado",
+			"licencia": "elaboración propia contrastada con Wikipedia"
 		}
 	]
 }

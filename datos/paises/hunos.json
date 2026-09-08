@@ -5,24 +5,25 @@
 		"Hunnic Empire",
 		"Huns"
 	],
+	"resena": "El Imperio huno fue fundado por los hunos, un pueblo asiático que tuvo gran relevancia en el siglo IV. Realizaron profundas incursiones en Europa y en Asia.",
 	"gobernantes": [
 		{
-			"desde": 430,
-			"hasta": 434,
 			"nombre": "Rugila",
-			"titulo": "Rey de los hunos"
+			"titulo": "Rey de los hunos",
+			"desde": 430,
+			"hasta": 434
 		},
 		{
-			"desde": 434,
-			"hasta": 445,
 			"nombre": "Bleda y Atila (corregentes)",
-			"titulo": "Reyes de los hunos"
+			"titulo": "Reyes de los hunos",
+			"desde": 434,
+			"hasta": 445
 		},
 		{
-			"desde": 445,
-			"hasta": 453,
 			"nombre": "Atila, «el azote de Dios»",
-			"titulo": "Rey de los hunos"
+			"titulo": "Rey de los hunos",
+			"desde": 445,
+			"hasta": 453
 		}
 	],
 	"fuentes": [
@@ -38,7 +39,6 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"resena": "El Imperio huno fue fundado por los hunos, un pueblo asiático que tuvo gran relevancia en el siglo IV. Realizaron profundas incursiones en Europa y en Asia.",
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",

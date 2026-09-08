@@ -4,192 +4,196 @@
 	"nombres": [
 		"USSR"
 	],
+	"wikidata": "Q15180",
+	"relacionados": [
+		"Rusia"
+	],
 	"gobernantes": [
 		{
+			"nombre": "Lenin",
+			"titulo": "Presidente del Sovnarkom",
 			"desde": 1917,
-			"hasta": 1924,
-			"nombre": "Lenin",
-			"titulo": "Presidente del Sovnarkom"
+			"hasta": 1924
 		},
 		{
-			"desde": 1922,
-			"hasta": 1946,
 			"nombre": "Mijaíl Kalinin",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1922,
+			"hasta": 1946
 		},
 		{
-			"desde": 1923,
-			"hasta": 1924,
 			"nombre": "Lenin",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1923,
+			"hasta": 1924
 		},
 		{
-			"desde": 1924,
-			"hasta": 1953,
-			"nombre": "Iósif Stalin",
-			"titulo": "Secretario general del PCUS"
-		},
-		{
-			"desde": 1924,
-			"hasta": 1930,
 			"nombre": "Alekséi Rýkov",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1924,
+			"hasta": 1930
 		},
 		{
-			"desde": 1930,
-			"hasta": 1941,
-			"nombre": "Viacheslav Mólotov",
-			"cargo": "jefe de gobierno"
-		},
-		{
-			"desde": 1941,
-			"hasta": 1953,
 			"nombre": "Iósif Stalin",
-			"cargo": "jefe de gobierno"
+			"titulo": "Secretario general del PCUS",
+			"desde": 1924,
+			"hasta": 1953
 		},
 		{
-			"desde": 1946,
-			"hasta": 1953,
+			"nombre": "Viacheslav Mólotov",
+			"cargo": "jefe de gobierno",
+			"desde": 1930,
+			"hasta": 1941
+		},
+		{
+			"nombre": "Iósif Stalin",
+			"cargo": "jefe de gobierno",
+			"desde": 1941,
+			"hasta": 1953
+		},
+		{
 			"nombre": "Nikolái Shvérnik",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1946,
+			"hasta": 1953
 		},
 		{
-			"desde": 1953,
-			"hasta": 1964,
-			"nombre": "Nikita Jruschov",
-			"titulo": "Secretario general del PCUS"
-		},
-		{
-			"desde": 1953,
-			"hasta": 1955,
 			"nombre": "Georgi Malenkov",
-			"cargo": "jefe de gobierno"
-		},
-		{
+			"cargo": "jefe de gobierno",
 			"desde": 1953,
-			"hasta": 1960,
+			"hasta": 1955
+		},
+		{
 			"nombre": "Kliment Voroshílov",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1953,
+			"hasta": 1960
 		},
 		{
-			"desde": 1955,
-			"hasta": 1958,
+			"nombre": "Nikita Jruschov",
+			"titulo": "Secretario general del PCUS",
+			"desde": 1953,
+			"hasta": 1964
+		},
+		{
 			"nombre": "Nikolái Bulganin",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1955,
+			"hasta": 1958
 		},
 		{
-			"desde": 1958,
-			"hasta": 1964,
 			"nombre": "Nikita Jrushchov",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1958,
+			"hasta": 1964
 		},
 		{
+			"nombre": "Leonid Brézhnev",
+			"cargo": "jefe de Estado",
 			"desde": 1960,
-			"hasta": 1964,
-			"nombre": "Leonid Brézhnev",
-			"cargo": "jefe de Estado"
+			"hasta": 1964
 		},
 		{
-			"desde": 1964,
-			"hasta": 1982,
-			"nombre": "Leonid Brézhnev",
-			"titulo": "Secretario general del PCUS"
-		},
-		{
-			"desde": 1964,
-			"hasta": 1965,
 			"nombre": "Anastás Mikoyán",
-			"cargo": "jefe de Estado"
-		},
-		{
+			"cargo": "jefe de Estado",
 			"desde": 1964,
-			"hasta": 1980,
+			"hasta": 1965
+		},
+		{
 			"nombre": "Alekséi Kosygin",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1964,
+			"hasta": 1980
 		},
 		{
-			"desde": 1965,
-			"hasta": 1977,
-			"nombre": "Nikolái Podgorni",
-			"cargo": "jefe de Estado"
-		},
-		{
-			"desde": 1977,
-			"hasta": 1982,
 			"nombre": "Leonid Brézhnev",
-			"cargo": "jefe de Estado"
+			"titulo": "Secretario general del PCUS",
+			"desde": 1964,
+			"hasta": 1982
 		},
 		{
-			"desde": 1980,
-			"hasta": 1985,
+			"nombre": "Nikolái Podgorni",
+			"cargo": "jefe de Estado",
+			"desde": 1965,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Leonid Brézhnev",
+			"cargo": "jefe de Estado",
+			"desde": 1977,
+			"hasta": 1982
+		},
+		{
 			"nombre": "Nikolái Aleksándrovich Tíjonov",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1980,
+			"hasta": 1985
 		},
 		{
+			"nombre": "Vasili Kuznetsov",
+			"cargo": "jefe de Estado",
 			"desde": 1982,
-			"hasta": 1983,
-			"nombre": "Vasili Kuznetsov",
-			"cargo": "jefe de Estado"
+			"hasta": 1983
 		},
 		{
-			"desde": 1983,
-			"hasta": 1984,
 			"nombre": "Yuri Andrópov",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1983,
+			"hasta": 1984
 		},
 		{
-			"desde": 1984,
-			"hasta": 1984,
 			"nombre": "Vasili Kuznetsov",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1984,
+			"hasta": 1984
 		},
 		{
-			"desde": 1984,
-			"hasta": 1985,
 			"nombre": "Konstantín Chernenko",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1984,
+			"hasta": 1985
 		},
 		{
-			"desde": 1985,
-			"hasta": 1991,
-			"nombre": "Mijaíl Gorbachov",
-			"titulo": "Secretario general del PCUS"
-		},
-		{
-			"desde": 1985,
-			"hasta": 1985,
 			"nombre": "Vasili Kuznetsov",
-			"cargo": "jefe de Estado"
+			"cargo": "jefe de Estado",
+			"desde": 1985,
+			"hasta": 1985
 		},
 		{
-			"desde": 1985,
-			"hasta": 1988,
 			"nombre": "Andréi Gromiko",
-			"cargo": "jefe de Estado"
-		},
-		{
+			"cargo": "jefe de Estado",
 			"desde": 1985,
-			"hasta": 1991,
-			"nombre": "Nikolái Rizhkov",
-			"cargo": "jefe de gobierno"
+			"hasta": 1988
 		},
 		{
-			"desde": 1988,
-			"hasta": 1991,
 			"nombre": "Mijaíl Gorbachov",
-			"cargo": "jefe de Estado"
+			"titulo": "Secretario general del PCUS",
+			"desde": 1985,
+			"hasta": 1991
 		},
 		{
-			"desde": 1991,
-			"hasta": 1991,
-			"nombre": "Valentín Pávlov",
-			"cargo": "jefe de gobierno"
+			"nombre": "Nikolái Rizhkov",
+			"cargo": "jefe de gobierno",
+			"desde": 1985,
+			"hasta": 1991
 		},
 		{
-			"desde": 1991,
-			"hasta": 1991,
+			"nombre": "Mijaíl Gorbachov",
+			"cargo": "jefe de Estado",
+			"desde": 1988,
+			"hasta": 1991
+		},
+		{
 			"nombre": "Iván Siláyev",
-			"cargo": "jefe de gobierno"
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Valentín Pávlov",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1991
 		}
 	],
 	"poblacion": [
@@ -199,8 +203,32 @@
 			"fuente": "Wikidata (P1082)"
 		}
 	],
-	"relacionados": [
-		"Rusia"
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Soviet Union (1923–1936).svg",
+			"desde": 1923,
+			"hasta": 1929
+		},
+		{
+			"archivo": "Coat of arms of the Soviet Union (1931–1936).svg",
+			"desde": 1931,
+			"hasta": 1936
+		},
+		{
+			"archivo": "Coat of arms of the Soviet Union (1936–1946).svg",
+			"desde": 1936,
+			"hasta": 1946
+		},
+		{
+			"archivo": "Coat of arms of the Soviet Union (1946–1956).svg",
+			"desde": 1946,
+			"hasta": 1956
+		},
+		{
+			"archivo": "Coat of arms of the Soviet Union (1956–1991).svg",
+			"desde": 1956,
+			"hasta": 1991
+		}
 	],
 	"fuentes": [
 		{
@@ -359,39 +387,11 @@
 			"consultado": "2026-09-08"
 		}
 	],
-	"wikidata": "Q15180",
-	"escudos": [
-		{
-			"archivo": "Coat of arms of the Soviet Union (1923–1936).svg",
-			"desde": 1923,
-			"hasta": 1929
-		},
-		{
-			"archivo": "Coat of arms of the Soviet Union (1931–1936).svg",
-			"desde": 1931,
-			"hasta": 1936
-		},
-		{
-			"archivo": "Coat of arms of the Soviet Union (1936–1946).svg",
-			"desde": 1936,
-			"hasta": 1946
-		},
-		{
-			"archivo": "Coat of arms of the Soviet Union (1946–1956).svg",
-			"desde": 1946,
-			"hasta": 1956
-		},
-		{
-			"archivo": "Coat of arms of the Soviet Union (1956–1991).svg",
-			"desde": 1956,
-			"hasta": 1991
-		}
-	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
-		"hash": "3741951dfd66",
+		"hash": "38a9adc98289",
 		"secciones": [
 			"escudos",
 			"gobernantes",

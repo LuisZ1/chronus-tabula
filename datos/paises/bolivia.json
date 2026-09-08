@@ -4,28 +4,10 @@
 	"nombres": [
 		"Bolivia"
 	],
-	"wikidata": "Q750",
 	"wiki": "es:Bolivia",
-	"fuentes": [
-		{
-			"id": "Wikidata:Q750",
-			"url": "https://www.wikidata.org/wiki/Q750",
-			"consultado": "2026-09"
-		},
-		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
-			"consultado": "2026-09-08"
-		},
-		{
-			"id": "Wikipedia (es): Bolivia",
-			"url": "https://es.wikipedia.org/wiki/Bolivia",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-08"
-		}
-	],
+	"wikidata": "Q750",
 	"owid": "BOL",
+	"resena": "Bolivia, oficialmente el Estado Plurinacional de Bolivia, es un país soberano ubicado en el oeste de América del Sur, miembro de la Comunidad Andina,constituido políticamente como un Estado social plurinacional, unitario, descentralizado y con autonomías. El país está organizado en nueve departamentos, ciento doce provincias.",
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,6 +190,25 @@
 			"valor": 12244161
 		}
 	],
+	"fuentes": [
+		{
+			"id": "Wikidata:Q750",
+			"url": "https://www.wikidata.org/wiki/Q750",
+			"consultado": "2026-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "Wikipedia (es): Bolivia",
+			"url": "https://es.wikipedia.org/wiki/Bolivia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-08"
+		}
+	],
 	"revision": {
 		"estado": "validado",
 		"fecha": "2026-09-08",
@@ -217,6 +218,5 @@
 			"poblacion",
 			"resena"
 		]
-	},
-	"resena": "Bolivia, oficialmente el Estado Plurinacional de Bolivia, es un país soberano ubicado en el oeste de América del Sur, miembro de la Comunidad Andina,constituido políticamente como un Estado social plurinacional, unitario, descentralizado y con autonomías. El país está organizado en nueve departamentos, ciento doce provincias."
+	}
 }
