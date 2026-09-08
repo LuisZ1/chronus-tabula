@@ -93,8 +93,10 @@ estado_lock = threading.Lock()
 ingesta_viva = {"fid": None, "demo": False, "inicio": None, "lineas": [], "terminada": True, "ok": None}
 
 
-def ejecutar_ingesta(fid, cfg, demo):
-    """Corre en un hilo: lanza el conector y va acumulando su salida línea a línea."""
+def _correr_conector(fid, cfg, demo, limite=1800):
+    """Lanza UN conector como subproceso y vuelca su salida a ingesta_viva.
+    Registra el resultado en la tabla 'ingestas' y devuelve ok. NO toca el lock ni
+    marca 'terminada' (de eso se encarga quien llama: ingesta suelta o cola)."""
     args = [sys.executable, cfg["script"]] + (["--demo"] if demo else [])
     try:
         proc = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
@@ -102,11 +104,11 @@ def ejecutar_ingesta(fid, cfg, demo):
                                 bufsize=1, env=ENV_UTF8)
         cancelada = threading.Event()
 
-        def cortafuegos():  # 30 min como máximo
+        def cortafuegos():
             cancelada.set()
             proc.kill()
 
-        matar = threading.Timer(1800, cortafuegos)
+        matar = threading.Timer(limite, cortafuegos)
         matar.start()
         for linea in proc.stdout:
             with estado_lock:
@@ -117,19 +119,58 @@ def ejecutar_ingesta(fid, cfg, demo):
         ok = proc.returncode == 0 and not cancelada.is_set()
         if cancelada.is_set():
             with estado_lock:
-                ingesta_viva["lineas"].append("✘ la ingesta superó los 30 minutos y se canceló")
+                ingesta_viva["lineas"].append(f"✘ «{fid}» superó el tiempo máximo ({limite // 60} min) y se canceló")
     except Exception as e:  # noqa: BLE001
         ok = False
         with estado_lock:
-            ingesta_viva["lineas"].append(f"✘ error lanzando la ingesta: {e}")
+            ingesta_viva["lineas"].append(f"✘ error lanzando «{fid}»: {e}")
     with estado_lock:
-        ingesta_viva["terminada"] = True
-        ingesta_viva["ok"] = ok
         salida = "\n".join(ingesta_viva["lineas"])
     con = conectar(); init_ingestas(con)
     con.execute("INSERT OR REPLACE INTO ingestas (fuente, fecha, ok, salida) VALUES (?,?,?,?)",
                 (fid, datetime.now().isoformat(timespec="seconds"), int(ok), salida[-4000:]))
     con.commit(); con.close()
+    return ok
+
+
+def ejecutar_ingesta(fid, cfg, demo):
+    """Corre en un hilo un solo conector y libera el lock al terminar."""
+    ok = _correr_conector(fid, cfg, demo)
+    with estado_lock:
+        ingesta_viva["terminada"] = True
+        ingesta_viva["ok"] = ok
+    ingesta_en_curso.release()
+
+
+# orden de la cola «ejecutar todo»: primero lo ligero; las batallas al final (lo más pesado)
+ORDEN_COLA = ["wikidata_gobernantes", "wikidata_poblacion", "owid_poblacion",
+              "wikipedia_resenas", "wikidata_escudos", "wikidata_batallas"]
+
+
+def ejecutar_cola(demo):
+    """Corre en un hilo TODOS los conectores en serie (sin soltar el lock entre
+    uno y otro), pensado para dejarlo desatendido toda la noche. Cada conector
+    reanuda su propia pila, así que si se corta, relanzar la cola continúa donde
+    se quedó. Tope de 3 h por conector. NO exporta: solo deja propuestas."""
+    orden = [f for f in ORDEN_COLA if f in FUENTES] + [f for f in FUENTES if f not in ORDEN_COLA]
+    resultados = {}
+    for i, fid in enumerate(orden, 1):
+        with estado_lock:
+            ingesta_viva["cola"] = {"actual": fid, "indice": i, "total": len(orden),
+                                    "hechas": dict(resultados)}
+            ingesta_viva["lineas"].append("")
+            ingesta_viva["lineas"].append(f"════════ ({i}/{len(orden)}) {FUENTES[fid]['nombre']} ════════")
+            del ingesta_viva["lineas"][:-500]
+        resultados[fid] = _correr_conector(fid, FUENTES[fid], demo, limite=10800)
+    ok_n = sum(1 for v in resultados.values() if v)
+    with estado_lock:
+        ingesta_viva["cola"] = {"actual": None, "indice": len(orden), "total": len(orden),
+                                "hechas": dict(resultados)}
+        ingesta_viva["lineas"].append("")
+        ingesta_viva["lineas"].append(f"✔ Cola terminada: {ok_n}/{len(orden)} conectores OK")
+        del ingesta_viva["lineas"][:-500]
+        ingesta_viva["terminada"] = True
+        ingesta_viva["ok"] = ok_n == len(orden)
     ingesta_en_curso.release()
 
 
@@ -331,6 +372,8 @@ class Manejador(SimpleHTTPRequestHandler):
                         "estado": f[5], "creado": f[6], "payload": json.loads(f[7])} for f in filas])
 
     def api_ingesta(self, fid):
+        if fid == "_cola":
+            return self.api_ingesta_cola()
         cfg = FUENTES.get(fid)
         if not cfg:
             return self.json_out({"error": f"fuente desconocida: {fid}"}, 404)
@@ -339,9 +382,21 @@ class Manejador(SimpleHTTPRequestHandler):
         demo = bool(self.json_in().get("demo"))
         with estado_lock:
             ingesta_viva.update({"fid": fid, "demo": demo, "inicio": datetime.now().isoformat(timespec="seconds"),
-                                 "lineas": [], "terminada": False, "ok": None})
+                                 "lineas": [], "terminada": False, "ok": None, "cola": None})
         threading.Thread(target=ejecutar_ingesta, args=(fid, cfg, demo), daemon=True).start()
         self.json_out({"iniciada": True, "fid": fid, "demo": demo})
+
+    def api_ingesta_cola(self):
+        """Lanza TODOS los conectores en serie (para dejarlo corriendo desatendido)."""
+        if not ingesta_en_curso.acquire(blocking=False):
+            return self.json_out({"error": "ya hay una ingesta en curso"}, 409)
+        demo = bool(self.json_in().get("demo"))
+        with estado_lock:
+            ingesta_viva.update({"fid": "_cola", "demo": demo, "inicio": datetime.now().isoformat(timespec="seconds"),
+                                 "lineas": [], "terminada": False, "ok": None,
+                                 "cola": {"actual": None, "indice": 0, "total": len(FUENTES), "hechas": {}}})
+        threading.Thread(target=ejecutar_cola, args=(demo,), daemon=True).start()
+        self.json_out({"iniciada": True, "fid": "_cola", "demo": demo})
 
     def api_reiniciar(self, fid):
         """Olvida el progreso guardado de la pila de llamadas de una fuente:
