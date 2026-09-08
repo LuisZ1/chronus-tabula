@@ -415,8 +415,9 @@ body {
 }
 .map-label {
 	display: inline-flex;
+	flex-direction: column; /* escudo arriba, nombre debajo, centrados en dos filas */
 	align-items: center;
-	gap: 4px;
+	gap: 2px;
 	transform: translate(-50%, -50%);
 	font-size: 12px;
 	font-weight: 600;
@@ -424,6 +425,7 @@ body {
 	white-space: nowrap;
 	pointer-events: none;
 	line-height: 1;
+	text-align: center;
 	text-shadow:
 		0 0 3px #fff,
 		0 0 3px #fff,
@@ -431,9 +433,9 @@ body {
 		0 1px 2px rgba(255, 255, 255, 0.9);
 }
 .map-label .coa-img {
-	height: 13px; /* misma altura que el texto */
+	height: 20px; /* un poco más grande, sobre el nombre */
 	width: auto;
-	max-width: 22px;
+	max-width: 34px;
 	filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.9));
 }
 
