@@ -54,10 +54,17 @@ FUENTES = {
     },
     "wikidata_gobernantes": {
         "nombre": "Wikidata — gobernantes",
-        "descripcion": "Jefes de Estado históricos (P35) para los países con campo 'wikidata' (QID).",
+        "descripcion": "Jefes de Estado (P35) y de gobierno (P6) históricos para los países con campo 'wikidata' (QID).",
         "licencia": "CC0",
         "url": "https://query.wikidata.org/",
         "script": os.path.join(RAIZ, "api", "fuentes", "wikidata_gobernantes.py"),
+    },
+    "wikidata_poblacion": {
+        "nombre": "Wikidata — población",
+        "descripcion": "Serie de población (P1082 con fecha) para los países con campo 'wikidata' (QID). Alternativa/complemento a OWID, útil para territorios sin campo 'owid'.",
+        "licencia": "CC0",
+        "url": "https://query.wikidata.org/",
+        "script": os.path.join(RAIZ, "api", "fuentes", "wikidata_poblacion.py"),
     },
 }
 
