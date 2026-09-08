@@ -97,8 +97,24 @@
 					"id": "wikipedia-es:Corona de Castilla",
 					"url": "https://es.wikipedia.org/wiki/Corona_de_Castilla",
 					"licencia": "CC BY-SA"
+				},
+				{
+					"id": "Wikipedia (es): Corona de Castilla",
+					"url": "https://es.wikipedia.org/wiki/Corona_de_Castilla",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-08"
 				}
-			]
+			],
+			"resena": "La Corona de Castilla, como entidad histórica, se suele considerar que comienza con la última y definitiva unión dinástica de los reinos de Castilla y de León, con sus respectivos territorios, en 1230, o bien con la reunión de sus Cortes, unas décadas después.",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "2d287f3ab648",
+				"secciones": [
+					"resena"
+				]
+			}
 		},
 		{
 			"id": "aragon",
@@ -162,8 +178,24 @@
 					"id": "wikipedia-es:Corona de Aragón",
 					"url": "https://es.wikipedia.org/wiki/Corona_de_Aragón",
 					"licencia": "CC BY-SA"
+				},
+				{
+					"id": "Wikipedia (es): Corona de Aragón",
+					"url": "https://es.wikipedia.org/wiki/Corona_de_Arag%C3%B3n",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-08"
 				}
-			]
+			],
+			"resena": "La Corona de Aragón, conocida también por otros nombres alternativos, fue una entidad política conformada por un conjunto de territorios que, mediante conquistas y matrimonios, estuvieron bajo la jurisdicción del rey de Aragón y conde de Barcelona entre 1137 y 1707-1716.",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "9986ebb9eb35",
+				"secciones": [
+					"resena"
+				]
+			}
 		},
 		{
 			"id": "espana",
@@ -583,6 +615,12 @@
 					"url": "https://ourworldindata.org/grapher/population",
 					"licencia": "CC BY (HYDE, Gapminder, ONU)",
 					"consultado": "2026-09-02"
+				},
+				{
+					"id": "Wikipedia (es): España",
+					"url": "https://es.wikipedia.org/wiki/Espa%C3%B1a",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-08"
 				}
 			],
 			"owid": "Spain",
@@ -591,7 +629,18 @@
 				"Q179293",
 				"Q190168",
 				"Q160077"
-			]
+			],
+			"resena": "España, formalmente Reino de España, es un país soberano transcontinental situado principalmente en el suroeste de Europa y, en menor medida, en el norte de África. Constituido en un Estado social y Estado de Derecho, su forma de gobierno es la monarquía parlamentaria.",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "51e7710c2bcb",
+				"secciones": [
+					"poblacion",
+					"resena"
+				]
+			}
 		},
 		{
 			"id": "portugal",
@@ -860,10 +909,27 @@
 					"url": "https://ourworldindata.org/grapher/population",
 					"licencia": "CC BY (HYDE, Gapminder, ONU)",
 					"consultado": "2026-09-02"
+				},
+				{
+					"id": "Wikipedia (es): Portugal",
+					"url": "https://es.wikipedia.org/wiki/Portugal",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-08"
 				}
 			],
 			"owid": "Portugal",
-			"wikidata": "Q45"
+			"wikidata": "Q45",
+			"resena": "Portugal, oficialmente República Portuguesa, es un país soberano del suroeste de Europa, ubicado en la península ibérica. Es uno de los veintisiete Estados miembros de la Unión Europea.",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "135373979317",
+				"secciones": [
+					"poblacion",
+					"resena"
+				]
+			}
 		},
 		{
 			"id": "francia",
@@ -1151,10 +1217,27 @@
 					"url": "https://ourworldindata.org/grapher/population",
 					"licencia": "CC BY (HYDE, Gapminder, ONU)",
 					"consultado": "2026-09-02"
+				},
+				{
+					"id": "Wikipedia (es): Francia",
+					"url": "https://es.wikipedia.org/wiki/Francia",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-08"
 				}
 			],
 			"owid": "France",
-			"wikidata": "Q142"
+			"wikidata": "Q142",
+			"resena": "Francia, oficialmente República Francesa, es un país soberano transcontinental que se extiende por Europa Occidental y por regiones y territorios de ultramar en América y los océanos Atlántico, Pacífico e Índico. Es uno de los veintisiete Estados soberanos que integran la Unión Europea.",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "bf4db9bed118",
+				"secciones": [
+					"poblacion",
+					"resena"
+				]
+			}
 		},
 		{
 			"id": "inglaterra",
@@ -1422,9 +1505,25 @@
 					"id": "wikipedia-es:Inglaterra",
 					"url": "https://es.wikipedia.org/wiki/Inglaterra",
 					"licencia": "CC BY-SA"
+				},
+				{
+					"id": "Wikipedia (es): Inglaterra",
+					"url": "https://es.wikipedia.org/wiki/Inglaterra",
+					"licencia": "CC BY-SA",
+					"consultado": "2026-09-08"
 				}
 			],
-			"wikidata": "Q179876"
+			"wikidata": "Q179876",
+			"resena": "Inglaterra es una de las cuatro naciones constituyentes del Reino Unido. Su territorio está formado por la parte sur y central de Gran Bretaña, isla que comparte junto a Escocia y Gales, y cerca de cien islas más pequeñas como las islas Sorlingas y la isla de Wight.",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "76f4b7d3ca8d",
+				"secciones": [
+					"resena"
+				]
+			}
 		},
 		{
 			"id": "granbretana",
@@ -1714,7 +1813,16 @@
 				}
 			],
 			"owid": "United Kingdom",
-			"wikidata": "Q145"
+			"wikidata": "Q145",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "19d8081b6ac7",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "sacroimperio",
@@ -3394,7 +3502,16 @@
 				}
 			],
 			"owid": "Japan",
-			"wikidata": "Q17"
+			"wikidata": "Q17",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "f0c0131f725a",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "persia",
@@ -3908,7 +4025,16 @@
 				}
 			],
 			"owid": "Russia",
-			"wikidata": "Q34266"
+			"wikidata": "Q34266",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "45644f04e136",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "urss",
@@ -4218,7 +4344,16 @@
 				}
 			],
 			"owid": "United States",
-			"wikidata": "Q30"
+			"wikidata": "Q30",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "02b83b53c838",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "prusia",
@@ -4512,7 +4647,16 @@
 					"consultado": "2026-09-02"
 				}
 			],
-			"owid": "Germany"
+			"owid": "Germany",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "de9eb58a0871",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "austria",
@@ -4736,7 +4880,16 @@
 					"consultado": "2026-09-02"
 				}
 			],
-			"owid": "Austria"
+			"owid": "Austria",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "6dce1bcc2101",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "venecia",
@@ -4992,7 +5145,16 @@
 					"consultado": "2026-09-02"
 				}
 			],
-			"owid": "Poland"
+			"owid": "Poland",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "f4144616556a",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "suecia",
@@ -5210,7 +5372,16 @@
 					"anio": 2023,
 					"valor": 10551493
 				}
-			]
+			],
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "93d121ad122c",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "mamelucos",
@@ -5583,7 +5754,16 @@
 					"consultado": "2026-09-02"
 				}
 			],
-			"owid": "Netherlands"
+			"owid": "Netherlands",
+			"revision": {
+				"estado": "validado",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "ea88b6f643bf",
+				"secciones": [
+					"poblacion"
+				]
+			}
 		},
 		{
 			"id": "ucrania",
@@ -6448,49 +6628,184 @@
 			],
 			"poblacion": [
 				{
-					"anio": -1250,
-					"valor": 3500000,
-					"fuente": "estimación historiadores"
+					"anio": -10000,
+					"valor": 13668
+				},
+				{
+					"anio": -9000,
+					"valor": 20274
+				},
+				{
+					"anio": -8000,
+					"valor": 30172
+				},
+				{
+					"anio": -7000,
+					"valor": 45006
+				},
+				{
+					"anio": -6000,
+					"valor": 67243
+				},
+				{
+					"anio": -5000,
+					"valor": 100585
+				},
+				{
+					"anio": -4000,
+					"valor": 250510
+				},
+				{
+					"anio": -3000,
+					"valor": 1000000
+				},
+				{
+					"anio": -2000,
+					"valor": 1500000
+				},
+				{
+					"anio": -1000,
+					"valor": 2000000
+				},
+				{
+					"anio": 0,
+					"valor": 4000000
+				},
+				{
+					"anio": 100,
+					"valor": 4300000
+				},
+				{
+					"anio": 200,
+					"valor": 4600000
+				},
+				{
+					"anio": 300,
+					"valor": 4300000
+				},
+				{
+					"anio": 400,
+					"valor": 4000000
+				},
+				{
+					"anio": 500,
+					"valor": 3500000
+				},
+				{
+					"anio": 600,
+					"valor": 3000000
+				},
+				{
+					"anio": 700,
+					"valor": 3400000
+				},
+				{
+					"anio": 800,
+					"valor": 3800000
+				},
+				{
+					"anio": 900,
+					"valor": 4400000
+				},
+				{
+					"anio": 1000,
+					"valor": 5000000
+				},
+				{
+					"anio": 1100,
+					"valor": 4350000
+				},
+				{
+					"anio": 1200,
+					"valor": 4000000
+				},
+				{
+					"anio": 1300,
+					"valor": 4700000
+				},
+				{
+					"anio": 1400,
+					"valor": 4050000
+				},
+				{
+					"anio": 1500,
+					"valor": 4000000
+				},
+				{
+					"anio": 1600,
+					"valor": 5000000
+				},
+				{
+					"anio": 1700,
+					"valor": 4500000
+				},
+				{
+					"anio": 1750,
+					"valor": 4000000
 				},
 				{
 					"anio": 1800,
-					"valor": 4500000,
-					"fuente": "estimación historiadores"
+					"valor": 3500000
 				},
 				{
-					"anio": 1882,
-					"valor": 6712000,
-					"fuente": "censo (Wikipedia es)"
+					"anio": 1850,
+					"valor": 5638537
 				},
 				{
-					"anio": 1897,
-					"valor": 9715000,
-					"fuente": "censo (Wikipedia es)"
+					"anio": 1900,
+					"valor": 9940289
 				},
 				{
-					"anio": 1927,
-					"valor": 14218000,
-					"fuente": "censo (Wikipedia es)"
+					"anio": 1910,
+					"valor": 11361079
+				},
+				{
+					"anio": 1920,
+					"valor": 12731391
+				},
+				{
+					"anio": 1930,
+					"valor": 14249967
+				},
+				{
+					"anio": 1940,
+					"valor": 16423191
+				},
+				{
+					"anio": 1950,
+					"valor": 21148168
 				},
 				{
 					"anio": 1960,
-					"valor": 26085000,
-					"fuente": "censo (Wikipedia es)"
+					"valor": 26896480
 				},
 				{
-					"anio": 1986,
-					"valor": 48254000,
-					"fuente": "censo (Wikipedia es)"
+					"anio": 1970,
+					"valor": 34623990
 				},
 				{
-					"anio": 2006,
-					"valor": 72798000,
-					"fuente": "censo (Wikipedia es)"
+					"anio": 1980,
+					"valor": 43950413
+				},
+				{
+					"anio": 1990,
+					"valor": 58396625
+				},
+				{
+					"anio": 2000,
+					"valor": 73083287
+				},
+				{
+					"anio": 2010,
+					"valor": 89196073
+				},
+				{
+					"anio": 2020,
+					"valor": 109315118
 				},
 				{
 					"anio": 2023,
-					"valor": 112716600,
-					"fuente": "Wikipedia (es)"
+					"valor": 114535772
 				}
 			],
 			"fuentes": [
@@ -6508,6 +6823,12 @@
 					"id": "wikidata",
 					"url": "https://www.wikidata.org/wiki/Q79",
 					"consultado": "2026-09"
+				},
+				{
+					"id": "owid:population",
+					"url": "https://ourworldindata.org/grapher/population",
+					"licencia": "CC BY (HYDE, Gapminder, ONU)",
+					"consultado": "2026-09-08"
 				}
 			],
 			"nombres_periodo": [
@@ -6564,14 +6885,14 @@
 			],
 			"revision": {
 				"estado": "validado",
-				"fecha": "2026-09-07",
-				"por": "verificador",
-				"hash": "4a2e6acd506c",
+				"fecha": "2026-09-08",
+				"por": "panel-admin",
+				"hash": "efc14dbfc3bb",
 				"secciones": [
+					"fuentes",
 					"gobernantes",
-					"poblacion",
 					"nombres_periodo",
-					"fuentes"
+					"poblacion"
 				]
 			}
 		},
@@ -15764,7 +16085,6 @@
 			"nombre": "Vietnam",
 			"nombres": [
 				"Vietnam",
-				"Vietnam",
 				"Republica Socialista de Vietnam"
 			],
 			"wikidata": "Q881",
@@ -15889,8 +16209,7 @@
 			"id": "granada-2",
 			"nombre": "Granada",
 			"nombres": [
-				"Grenada",
-				"Granada"
+				"Grenada"
 			],
 			"wikidata": "Q769",
 			"wiki": "es:Granada",
@@ -15978,8 +16297,7 @@
 			"nombre": "Moldavia",
 			"nombres": [
 				"Moldova",
-				"Moldavia",
-				"Moldova"
+				"Moldavia"
 			],
 			"wikidata": "Q217",
 			"wiki": "es:Moldavia",
