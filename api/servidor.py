@@ -73,6 +73,13 @@ FUENTES = {
         "url": "https://es.wikipedia.org/",
         "script": os.path.join(RAIZ, "api", "fuentes", "wikipedia_resenas.py"),
     },
+    "wikidata_escudos": {
+        "nombre": "Wikidata — escudos por época",
+        "descripcion": "Escudo de armas (P94) con su vigencia para los países con 'wikidata'; usa las fechas de Wikidata y, si nombres_periodo enlaza entidades históricas (Qid), también sus escudos. El mapa muestra el del año consultado.",
+        "licencia": "CC0",
+        "url": "https://query.wikidata.org/",
+        "script": os.path.join(RAIZ, "api", "fuentes", "wikidata_escudos.py"),
+    },
 }
 
 ingesta_en_curso = threading.Lock()
