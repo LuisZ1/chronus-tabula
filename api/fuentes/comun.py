@@ -126,23 +126,57 @@ def descargar(url, timeout=60):
         return r.read().decode("utf-8-sig", errors="replace")
 
 
+def _segundos_espera(e, intento):
+    """Cuánto esperar tras un 429/503, tomando el MENOR tiempo razonable que
+    indique el servidor (mejor probar pronto que esperar de más):
+      - la cabecera Retry-After (segundos o fecha HTTP), y
+      - el ritmo declarado en el propio mensaje de error («N req / min|sec|hour»),
+    y se queda con el mínimo. Sin pistas, 60 s. Se añade 1 s de margen (así, con
+    «1 req/min», reintenta a los 61 s) y un backoff suave si el intento se repite."""
+    import re
+    import datetime
+    from email.utils import parsedate_to_datetime
+    cand = []
+    ra = e.headers.get("Retry-After") if getattr(e, "headers", None) else None
+    if ra:
+        try:
+            cand.append(float(int(ra)))                       # Retry-After en segundos
+        except (TypeError, ValueError):
+            try:                                              # …o como fecha HTTP
+                dt = parsedate_to_datetime(ra)
+                cand.append(max(0.0, (dt - datetime.datetime.now(dt.tzinfo)).total_seconds()))
+            except Exception:
+                pass
+    try:
+        cuerpo = e.read().decode("utf-8", "replace")
+    except Exception:
+        cuerpo = str(e)
+    m = re.search(r"(\d+)\s*req\w*\s*/?\s*(sec|second|segundo|min|minute|minuto|hour|hora)", cuerpo, re.I)
+    if m:
+        n = max(1, int(m.group(1)))
+        u = m.group(2).lower()
+        base = 1 if u.startswith(("sec", "seg")) else 3600 if u.startswith(("hour", "hora")) else 60
+        cand.append(base / n)                                 # intervalo entre llamadas permitidas
+    espera = min(cand) if cand else 60.0
+    espera = (espera + 1) * (1 + 0.4 * (intento - 1))         # +1 s de margen + backoff suave
+    return max(5.0, min(espera, 900.0))
+
+
 def descargar_reintentos(url, timeout=180, intentos=6):
-    """Como descargar(), pero si el servidor limita (HTTP 429/503) espera lo que
-    pida su cabecera Retry-After (o 65 s, con un pequeño margen) y reintenta, con
-    varios intentos. Pensado para aguantar un WDQS lento o con incidencia —que
-    puede llegar a limitar a 1 petición/minuto— sin tumbar toda la ejecución."""
+    """Como descargar(), pero si el servidor limita (HTTP 429/503) espera el
+    tiempo REAL que indica —cabecera Retry-After o el ritmo del propio mensaje
+    (p. ej. «1 req/min» → 61 s), lo que sea menor— y reintenta, con varios
+    intentos y backoff suave. Así aguanta un WDQS lento o con incidencia sin
+    esperar de más ni tumbar la ejecución."""
     import urllib.error
     for i in range(1, intentos + 1):
         try:
             return descargar(url, timeout=timeout)
         except urllib.error.HTTPError as e:
             if e.code in (429, 503) and i < intentos:
-                try:
-                    espera = int(e.headers.get("Retry-After") or 65) + 5  # margen sobre lo pedido
-                except (TypeError, ValueError):
-                    espera = 65
-                espera = min(max(espera, 30), 300)
-                print(f"  ⏳ el servidor limita las peticiones (HTTP {e.code}); esperando {espera}s (intento {i}/{intentos - 1})…", flush=True)
+                espera = _segundos_espera(e, i)
+                print(f"  ⏳ límite del servidor (HTTP {e.code}); esperando {espera:.0f}s "
+                      f"(intento {i}/{intentos - 1})…", flush=True)
                 time.sleep(espera)
                 continue
             raise
