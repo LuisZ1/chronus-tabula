@@ -4,6 +4,7 @@
 
     python api/fuentes/wikidata_batallas.py           # consulta real (SPARQL)
     python api/fuentes/wikidata_batallas.py --demo    # datos de muestra, sin red
+    python api/fuentes/wikidata_batallas.py --todos   # consultar todos los países, no solo los nuevos
 
 Para cada país con campo "wikidata" (más su linaje opcional "wikidata_hist":
 lista de QIDs de entidades predecesoras, p. ej. la Corona de Castilla para
@@ -22,7 +23,8 @@ import urllib.parse
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, es_error_de_pais,  # noqa: E402
-                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY)
+                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY,
+                   filtrar_pendientes, detener_si_procede, CODIGO_DETENIDO)
 
 FID = "wikidata_batallas"
 ENDPOINT = "https://query.wikidata.org/sparql"
@@ -161,9 +163,12 @@ def main():
         print(f"↻ Reanudando la ejecución anterior: se saltan {len(hechas)} país(es) ya consultados "
               f"({', '.join(sorted(hechas)[:8])}{'…' if len(hechas) > 8 else ''})", flush=True)
     nuevas = huerfanas = 0
+    paises = filtrar_pendientes(con, FID, paises, demo)
     for idx, p in enumerate(paises, 1):
         if not demo and p["id"] in hechas:
             continue
+        if detener_si_procede(con, FID, idx - 1):
+            return CODIGO_DETENIDO
         qids = [q for q in [p.get("wikidata"), *(p.get("wikidata_hist") or [])] if q]
         print(f"→ ({idx}/{len(paises)}) consultando {p['id']}…", flush=True)
         if demo:

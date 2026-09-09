@@ -10,6 +10,13 @@ que usa el panel de administración:
     GET  /api/estado                     resumen general
     GET  /api/fuentes                    fuentes configuradas y su última ejecución
     POST /api/ingestas/<fuente>          lanza una ingesta  (body: {"demo": true|false})
+    POST /api/ingestas/_cola             lanza todos los conectores en serie; reanuda una cola
+                                         detenida (body: {"desde_cero": true} para empezar de nuevo)
+    POST /api/ingestas/_detener          para la ingesta en curso entre país y país (guarda progreso)
+    POST /api/ingestas/<fuente>/reiniciar olvida la pila a medias de ese conector
+    GET  /api/ingestas/estado            salida en vivo de la ingesta en curso
+    GET  /api/ajustes                    interruptor «solo países nuevos», cola pendiente, consultados
+    POST /api/ajustes                    {"solo_nuevos": bool} | {"olvidar_cola": true}
     GET  /api/mapeo                      mapeo país ↔ OWID / Wikidata
     GET  /api/propuestas?estado=pendiente
     POST /api/propuestas/accion          {"ids": [1,2], "accion": "aprobar"|"rechazar"}
@@ -35,7 +42,8 @@ ENV_UTF8 = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8", "PYTHO
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB = os.path.join(RAIZ, "web")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
-from comun import cargar_historia, compilar_web, conectar, progreso_borrar, progreso_hechas  # noqa: E402
+from comun import (cargar_historia, compilar_web, conectar, progreso_borrar, progreso_hechas,  # noqa: E402
+                   consultas_hechas, pedir_parada, limpiar_parada, CODIGO_DETENIDO)
 
 FUENTES = {
     "owid_poblacion": {
@@ -90,14 +98,48 @@ login_fallos = {"n": 0, "hasta": 0.0}
 
 # estado en vivo de la ingesta actual (protegido por estado_lock)
 estado_lock = threading.Lock()
-ingesta_viva = {"fid": None, "demo": False, "inicio": None, "lineas": [], "terminada": True, "ok": None}
+ingesta_viva = {"fid": None, "demo": False, "inicio": None, "lineas": [], "terminada": True, "ok": None,
+                "deteniendo": False}
+
+# Tope de seguridad por conector: deliberadamente enorme (7 días). La cola está
+# pensada para correr desatendida durante horas o días; si algo se queda colgado,
+# el botón «⏹ Detener» del panel para el conector limpiamente (entre país y país,
+# guardando el progreso) y la cola puede reanudarse desde ese conector.
+LIMITE_CONECTOR = 7 * 24 * 3600
 
 
-def _correr_conector(fid, cfg, demo, limite=1800):
+def _ajustes(con):
+    con.execute("CREATE TABLE IF NOT EXISTS ajustes (clave TEXT PRIMARY KEY, valor TEXT)")
+
+
+def ajuste_leer(clave, defecto=None):
+    con = conectar(); _ajustes(con)
+    fila = con.execute("SELECT valor FROM ajustes WHERE clave=?", (clave,)).fetchone()
+    con.close()
+    return json.loads(fila[0]) if fila else defecto
+
+
+def ajuste_guardar(clave, valor):
+    con = conectar(); _ajustes(con)
+    if valor is None:
+        con.execute("DELETE FROM ajustes WHERE clave=?", (clave,))
+    else:
+        con.execute("INSERT OR REPLACE INTO ajustes (clave, valor) VALUES (?,?)", (clave, json.dumps(valor)))
+    con.commit(); con.close()
+
+
+def solo_nuevos():
+    """Interruptor del panel: True (por defecto) = cada conector consulta solo los
+    países que nunca consultó o que no tienen esa sección validada."""
+    return bool(ajuste_leer("solo_nuevos", True))
+
+
+def _correr_conector(fid, cfg, demo, limite=LIMITE_CONECTOR, todos=False):
     """Lanza UN conector como subproceso y vuelca su salida a ingesta_viva.
-    Registra el resultado en la tabla 'ingestas' y devuelve ok. NO toca el lock ni
-    marca 'terminada' (de eso se encarga quien llama: ingesta suelta o cola)."""
-    args = [sys.executable, cfg["script"]] + (["--demo"] if demo else [])
+    Registra el resultado en la tabla 'ingestas' y devuelve el estado:
+    'ok' | 'detenido' (el usuario pulsó Detener) | 'tiempo' (tope) | 'error'.
+    NO toca el lock ni marca 'terminada' (de eso se encarga quien llama)."""
+    args = [sys.executable, cfg["script"]] + (["--demo"] if demo else []) + (["--todos"] if todos else [])
     try:
         proc = subprocess.Popen(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                                 cwd=RAIZ, encoding="utf-8", errors="replace",
@@ -116,29 +158,42 @@ def _correr_conector(fid, cfg, demo, limite=1800):
                 del ingesta_viva["lineas"][:-500]  # conservar las últimas 500
         proc.wait()
         matar.cancel()
-        ok = proc.returncode == 0 and not cancelada.is_set()
         if cancelada.is_set():
+            estado = "tiempo"
             with estado_lock:
-                ingesta_viva["lineas"].append(f"✘ «{fid}» superó el tiempo máximo ({limite // 60} min) y se canceló")
+                ingesta_viva["lineas"].append(
+                    f"✘ «{fid}» superó el tope de seguridad ({limite // 86400} días) y se canceló. "
+                    "Si un conector no avanza, usa «⏹ Detener» en el panel: para entre país y país, "
+                    "guarda el progreso y permite reanudar.")
+        elif proc.returncode == CODIGO_DETENIDO:
+            estado = "detenido"
+        elif proc.returncode == 0:
+            estado = "ok"
+        else:
+            estado = "error"
     except Exception as e:  # noqa: BLE001
-        ok = False
+        estado = "error"
         with estado_lock:
             ingesta_viva["lineas"].append(f"✘ error lanzando «{fid}»: {e}")
     with estado_lock:
         salida = "\n".join(ingesta_viva["lineas"])
     con = conectar(); init_ingestas(con)
     con.execute("INSERT OR REPLACE INTO ingestas (fuente, fecha, ok, salida) VALUES (?,?,?,?)",
-                (fid, datetime.now().isoformat(timespec="seconds"), int(ok), salida[-4000:]))
+                (fid, datetime.now().isoformat(timespec="seconds"), int(estado == "ok"), salida[-4000:]))
     con.commit(); con.close()
-    return ok
+    return estado
 
 
 def ejecutar_ingesta(fid, cfg, demo):
     """Corre en un hilo un solo conector y libera el lock al terminar."""
-    ok = _correr_conector(fid, cfg, demo)
+    limpiar_parada()
+    estado = _correr_conector(fid, cfg, demo, todos=not solo_nuevos())
+    limpiar_parada()
     with estado_lock:
         ingesta_viva["terminada"] = True
-        ingesta_viva["ok"] = ok
+        ingesta_viva["ok"] = estado == "ok"
+        ingesta_viva["estado"] = estado
+        ingesta_viva["deteniendo"] = False
     ingesta_en_curso.release()
 
 
@@ -147,30 +202,66 @@ ORDEN_COLA = ["wikidata_gobernantes", "wikidata_poblacion", "owid_poblacion",
               "wikipedia_resenas", "wikidata_escudos", "wikidata_batallas"]
 
 
-def ejecutar_cola(demo):
+def orden_cola_completo():
+    return [f for f in ORDEN_COLA if f in FUENTES] + [f for f in FUENTES if f not in ORDEN_COLA]
+
+
+def cola_pendiente():
+    """Conectores que quedaron por ejecutar de una cola detenida/interrumpida
+    (el primero es el que se detuvo a medias), o None si no hay cola a medias."""
+    pend = ajuste_leer("cola_pendiente")
+    pend = [f for f in (pend or []) if f in FUENTES]
+    return pend or None
+
+
+def ejecutar_cola(demo, desde_cero=False):
     """Corre en un hilo TODOS los conectores en serie (sin soltar el lock entre
-    uno y otro), pensado para dejarlo desatendido toda la noche. Cada conector
-    reanuda su propia pila, así que si se corta, relanzar la cola continúa donde
-    se quedó. Tope de 3 h por conector. NO exporta: solo deja propuestas."""
-    orden = [f for f in ORDEN_COLA if f in FUENTES] + [f for f in FUENTES if f not in ORDEN_COLA]
+    uno y otro), pensado para dejarlo desatendido durante horas o días. Cada
+    conector reanuda su propia pila, y la cola guarda en la base editorial qué
+    conectores le quedan: si se detiene (botón Detener) o se corta (cierre del
+    servidor), «Reanudar cola» sigue por el conector en que se quedó, no por el
+    primero. NO exporta: solo deja propuestas."""
+    limpiar_parada()
+    completo = orden_cola_completo()
+    orden = (None if desde_cero else cola_pendiente()) or completo
+    total = len(completo)
+    ya_hechos = total - len(orden)
+    todos = not solo_nuevos()
     resultados = {}
-    for i, fid in enumerate(orden, 1):
+    detenida = False
+    for n, fid in enumerate(orden):
+        i = ya_hechos + n + 1
+        ajuste_guardar("cola_pendiente", orden[n:])
         with estado_lock:
-            ingesta_viva["cola"] = {"actual": fid, "indice": i, "total": len(orden),
-                                    "hechas": dict(resultados)}
+            ingesta_viva["cola"] = {"actual": fid, "indice": i, "total": total, "hechas": dict(resultados)}
             ingesta_viva["lineas"].append("")
-            ingesta_viva["lineas"].append(f"════════ ({i}/{len(orden)}) {FUENTES[fid]['nombre']} ════════")
+            ingesta_viva["lineas"].append(f"════════ ({i}/{total}) {FUENTES[fid]['nombre']} ════════")
             del ingesta_viva["lineas"][:-500]
-        resultados[fid] = _correr_conector(fid, FUENTES[fid], demo, limite=10800)
-    ok_n = sum(1 for v in resultados.values() if v)
+        resultados[fid] = _correr_conector(fid, FUENTES[fid], demo, todos=todos)
+        if resultados[fid] == "detenido":
+            detenida = True
+            break
+    limpiar_parada()
+    if detenida:
+        # el conector detenido sigue pendiente: la próxima cola empieza por él
+        idx = orden.index(fid)
+        ajuste_guardar("cola_pendiente", orden[idx:])
+        mensaje = (f"⏹ Cola detenida en «{FUENTES[fid]['nombre']}» ({i}/{total}). Su progreso está guardado: "
+                   "«Reanudar cola» continuará por este conector, país a país, sin repetir nada.")
+    else:
+        ajuste_guardar("cola_pendiente", None)
+        ok_n = sum(1 for v in resultados.values() if v == "ok")
+        mensaje = f"✔ Cola terminada: {ok_n}/{len(orden)} conectores OK"
     with estado_lock:
-        ingesta_viva["cola"] = {"actual": None, "indice": len(orden), "total": len(orden),
-                                "hechas": dict(resultados)}
+        ingesta_viva["cola"] = {"actual": None, "indice": i if orden else 0, "total": total,
+                                "hechas": dict(resultados), "detenida": detenida}
         ingesta_viva["lineas"].append("")
-        ingesta_viva["lineas"].append(f"✔ Cola terminada: {ok_n}/{len(orden)} conectores OK")
+        ingesta_viva["lineas"].append(mensaje)
         del ingesta_viva["lineas"][:-500]
         ingesta_viva["terminada"] = True
-        ingesta_viva["ok"] = ok_n == len(orden)
+        ingesta_viva["ok"] = (not detenida) and all(v == "ok" for v in resultados.values())
+        ingesta_viva["estado"] = "detenido" if detenida else ("ok" if ingesta_viva["ok"] else "error")
+        ingesta_viva["deteniendo"] = False
     ingesta_en_curso.release()
 
 
@@ -246,6 +337,8 @@ class Manejador(SimpleHTTPRequestHandler):
             with estado_lock:
                 foto = dict(ingesta_viva, lineas=list(ingesta_viva["lineas"]))
             return self.json_out(foto)
+        if ruta == "/api/ajustes":
+            return self.api_ajustes()
         if ruta == "/api/propuestas":
             params = dict(p.split("=", 1) for p in query.split("&") if "=" in p)
             return self.api_propuestas(params.get("estado", "pendiente"))
@@ -264,10 +357,14 @@ class Manejador(SimpleHTTPRequestHandler):
         if ruta == "/api/auth/salir":
             con = conectar(); cerrar_sesion(con, self.token_de()); con.close()
             return self.json_out({"cerrada": True})
+        if ruta == "/api/ajustes":
+            return self.api_ajustes_guardar()
         if ruta.startswith("/api/ingestas/"):
             resto = ruta[len("/api/ingestas/"):].strip("/").split("/")
             if len(resto) == 2 and resto[1] == "reiniciar":
                 return self.api_reiniciar(resto[0])
+            if resto[0] == "_detener":
+                return self.api_detener()
             return self.api_ingesta(resto[0])
         if ruta == "/api/propuestas/accion":
             return self.api_accion()
@@ -371,6 +468,38 @@ class Manejador(SimpleHTTPRequestHandler):
         self.json_out([{"id": f[0], "tipo": f[1], "pais": f[2], "resumen": f[3], "fuente": f[4],
                         "estado": f[5], "creado": f[6], "payload": json.loads(f[7])} for f in filas])
 
+    def api_ajustes(self):
+        """Interruptor «solo países nuevos / todos», cola a medias y cuántos países
+        ha consultado ya cada conector (registro permanente)."""
+        con = conectar()
+        consultados = {fid: len(consultas_hechas(con, fid)) for fid in FUENTES}
+        con.close()
+        pend = cola_pendiente()
+        self.json_out({"solo_nuevos": solo_nuevos(), "consultados": consultados,
+                       "limite_dias": LIMITE_CONECTOR // 86400,
+                       "cola_pendiente": pend,
+                       "cola_pendiente_nombres": [FUENTES[f]["nombre"] for f in (pend or [])],
+                       "cola_total": len(orden_cola_completo())})
+
+    def api_ajustes_guardar(self):
+        datos = self.json_in()
+        if "solo_nuevos" in datos:
+            ajuste_guardar("solo_nuevos", bool(datos["solo_nuevos"]))
+        if datos.get("olvidar_cola"):
+            ajuste_guardar("cola_pendiente", None)
+        return self.api_ajustes()
+
+    def api_detener(self):
+        """Pide parar la ingesta en curso: el conector termina el país que tiene a
+        medias, guarda y sale; la cola no pasa al siguiente conector."""
+        with estado_lock:
+            if ingesta_viva["terminada"]:
+                return self.json_out({"error": "no hay ninguna ingesta en curso"}, 409)
+            ingesta_viva["deteniendo"] = True
+            ingesta_viva["lineas"].append("⏹ Parada solicitada: se termina el país en curso y se guarda…")
+        pedir_parada()
+        self.json_out({"deteniendo": True})
+
     def api_ingesta(self, fid):
         if fid == "_cola":
             return self.api_ingesta_cola()
@@ -382,21 +511,28 @@ class Manejador(SimpleHTTPRequestHandler):
         demo = bool(self.json_in().get("demo"))
         with estado_lock:
             ingesta_viva.update({"fid": fid, "demo": demo, "inicio": datetime.now().isoformat(timespec="seconds"),
-                                 "lineas": [], "terminada": False, "ok": None, "cola": None})
+                                 "lineas": [], "terminada": False, "ok": None, "estado": None,
+                                 "cola": None, "deteniendo": False})
         threading.Thread(target=ejecutar_ingesta, args=(fid, cfg, demo), daemon=True).start()
         self.json_out({"iniciada": True, "fid": fid, "demo": demo})
 
     def api_ingesta_cola(self):
-        """Lanza TODOS los conectores en serie (para dejarlo corriendo desatendido)."""
+        """Lanza TODOS los conectores en serie (para dejarlo corriendo desatendido).
+        Si hay una cola a medias, la reanuda por el conector pendiente; con
+        {"desde_cero": true} la olvida y empieza por el primero."""
         if not ingesta_en_curso.acquire(blocking=False):
             return self.json_out({"error": "ya hay una ingesta en curso"}, 409)
-        demo = bool(self.json_in().get("demo"))
+        datos = self.json_in()
+        demo = bool(datos.get("demo"))
+        desde_cero = bool(datos.get("desde_cero"))
+        total = len(orden_cola_completo())
         with estado_lock:
             ingesta_viva.update({"fid": "_cola", "demo": demo, "inicio": datetime.now().isoformat(timespec="seconds"),
-                                 "lineas": [], "terminada": False, "ok": None,
-                                 "cola": {"actual": None, "indice": 0, "total": len(FUENTES), "hechas": {}}})
-        threading.Thread(target=ejecutar_cola, args=(demo,), daemon=True).start()
-        self.json_out({"iniciada": True, "fid": "_cola", "demo": demo})
+                                 "lineas": [], "terminada": False, "ok": None, "estado": None,
+                                 "deteniendo": False,
+                                 "cola": {"actual": None, "indice": 0, "total": total, "hechas": {}}})
+        threading.Thread(target=ejecutar_cola, args=(demo, desde_cero), daemon=True).start()
+        self.json_out({"iniciada": True, "fid": "_cola", "demo": demo, "reanudada": not desde_cero and bool(cola_pendiente())})
 
     def api_reiniciar(self, fid):
         """Olvida el progreso guardado de la pila de llamadas de una fuente:
@@ -467,6 +603,7 @@ def main():
         print(f"✘ No se pudo compilar historia.json: {e}")
         print("  Corrige el fichero indicado (python api/validar.py te ayuda) y vuelve a arrancar.")
         return 1
+    limpiar_parada()  # una señal de parada antigua no debe frenar la primera ingesta
     srv = ThreadingHTTPServer(("127.0.0.1", puerto), Manejador)
     print(f"Chronus Tabula en marcha:")
     print(f"  · Aplicación:  http://localhost:{puerto}/")
