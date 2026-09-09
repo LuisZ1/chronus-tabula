@@ -84,7 +84,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
 
 ### Cómo fluyen los datos
 
-1. Al elegir un año, la app carga el `world_<año>.geojson` más cercano y pinta los territorios (color estable por entidad: el mismo reino conserva su color en todos los años).
+1. Al elegir un año, la app carga el último `world_<año>.geojson` no posterior a ese año (un mapa retrata la situación de su fecha, que se mantiene hasta la siguiente instantánea: en 1942 se ve el mapa de 1938, no la Alemania dividida de 1945) y pinta los territorios (color estable por entidad: el mismo reino conserva su color en todos los años).
 2. `historia.json` enriquece ese mapa: los popups buscan la entidad por su `NAME`/`SUBJECTO` y muestran gobernante y población del año; los conflictos activos pintan sus zonas (recortadas contra la costa real) y batallas; los eventos ponen sus pines.
 3. Los escudos de armas y los extractos de las fichas se piden en vivo a las APIs gratuitas de Wikidata y Wikipedia, con caché en el navegador. Sin red, la app funciona igual pero sin escudos ni extractos.
 
