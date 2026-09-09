@@ -525,6 +525,25 @@ function setupControls() {
 		});
 	});
 
+	// Búsqueda por PRIORIDAD, no por orden de la lista: primero el nombre propio de
+	// una ficha, luego su id y sus nombres en los mapas, y solo al final los
+	// 'relacionados' (alias y linaje). Si no, «España» caía en la Corona de Aragón,
+	// que la cita como relacionada y va antes en la lista. Sin tildes ni mayúsculas.
+	const buscarPais = texto => {
+		const v = normTxt(texto).trim();
+		const ps = historia.paises || [];
+		const igual = n => normTxt(n || '').trim() === v;
+		return (
+			ps.find(p => igual(p.nombre)) ||
+			ps.find(p => (p.nombre || '').split('/').some(igual)) ||
+			ps.find(p => p.id === v) ||
+			ps.find(p => (p.nombres || []).some(igual)) ||
+			ps.find(p => (p.nombres_periodo || []).some(per => igual(per.nombre))) ||
+			ps.find(p => (p.relacionados || []).some(igual)) ||
+			null
+		);
+	};
+
 	const followInput = document.getElementById('followInput');
 	followInput.addEventListener('change', () => {
 		const v = followInput.value.trim().toLowerCase();
@@ -532,13 +551,7 @@ function setupControls() {
 			setFollow(null);
 			return;
 		}
-		const pais = (historia.paises || []).find(
-			p =>
-				(p.nombre || '').toLowerCase() === v ||
-				p.id === v ||
-				(p.nombres || []).some(n => n.toLowerCase() === v) ||
-				(p.relacionados || []).some(n => n.toLowerCase() === v)
-		);
+		const pais = buscarPais(v);
 		if (pais) setFollow(pais);
 	});
 	document.getElementById('followClear').addEventListener('click', () => setFollow(null));
