@@ -36,6 +36,15 @@ button:disabled { opacity:.5; cursor:wait; }
 button.sec { background:transparent; color:var(--accent); border:1px solid var(--accent); }
 button.peligro { background:transparent; color:var(--bad); border:1px solid var(--bad); }
 label.demo { font-size:12.5px; color:var(--muted); margin-left:8px; }
+.switch { position:relative; display:inline-block; width:38px; height:22px; vertical-align:middle; flex:0 0 38px; }
+.switch input { opacity:0; width:0; height:0; }
+.switch .slider { position:absolute; inset:0; background:#c9c4b8; border-radius:999px; transition:background .15s; cursor:pointer; }
+.switch .slider::before { content:''; position:absolute; width:16px; height:16px; left:3px; top:3px; background:#fff; border-radius:50%; transition:transform .15s; box-shadow:0 1px 2px rgba(0,0,0,.25); }
+.switch input:checked + .slider { background:var(--ok); }
+.switch input:checked + .slider::before { transform:translateX(16px); }
+.switch input:focus-visible + .slider { outline:2px solid var(--accent); outline-offset:2px; }
+.ajuste { display:flex; align-items:center; gap:10px; margin:10px 0 6px; font-size:13px; }
+.ajuste b { font-weight:600; }
 .acciones { display:flex; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap; }
 pre.log { background:var(--code); border:1px solid var(--line); border-radius:8px; padding:10px 12px; font:12px/1.5 ui-monospace,Consolas,monospace; white-space:pre-wrap; max-height:220px; overflow-y:auto; margin:10px 0 0; }
 table { border-collapse:collapse; width:100%; font-size:13.5px; background:var(--panel); }
@@ -95,12 +104,20 @@ tr.abierta + tr.payload { display:table-row; }
   <div class="grid" id="estado"></div>
 
   <h2>Fuentes externas</h2>
-  <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>historia.json</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
+  <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>datos/</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
   <div id="colaBox" style="margin:8px 0 14px; padding:10px 12px; border:1px solid var(--line,#ddd); border-radius:8px;">
-    <button id="btnCola">▶ Ejecutar todo en cola</button>
-    <label class="mini" style="margin-left:10px"><input type="checkbox" id="colaDemo"> demo</label>
-    <span class="mini" id="colaEstado" style="margin-left:10px"></span>
-    <div class="mini" style="margin-top:4px">Lanza todos los conectores en serie, sin parar entre uno y otro. Ideal para dejarlo corriendo desatendido: cada uno reanuda su pila si se corta, y solo crea propuestas (no exporta nada).</div>
+    <div class="acciones" style="margin-top:0">
+      <button id="btnCola">▶ Ejecutar todo en cola</button>
+      <button id="btnColaCero" class="sec" hidden title="Olvidar la cola a medias y empezar por el primer conector">↺ Empezar por el primero</button>
+      <button id="btnDetener" class="peligro" hidden title="Para la ingesta en curso en cuanto termine el país que está consultando; el progreso queda guardado y se puede reanudar">⏹ Detener</button>
+      <label class="mini"><input type="checkbox" id="colaDemo"> demo</label>
+      <span class="mini" id="colaEstado"></span>
+    </div>
+    <div class="ajuste" id="ajusteAlcance">
+      <label class="switch" title="Qué países consulta cada conector (afecta a la cola y a los botones «Actualizar»)"><input type="checkbox" id="soloNuevos" checked><span class="slider"></span></label>
+      <span id="soloNuevosTxt"><b>Solo países nuevos desde la última ejecución</b></span>
+    </div>
+    <div class="mini" id="colaAyuda">Lanza todos los conectores en serie, sin parar entre uno y otro. Pensado para dejarlo corriendo desatendido durante horas o días: no hay límite práctico de tiempo (tope de seguridad de 7 días por conector). Si algo se queda colgado, <strong>⏹ Detener</strong> para entre país y país guardando el progreso, y la cola se reanuda por el conector en que se quedó, no por el primero. Solo crea propuestas (no exporta nada).</div>
     <pre class="log" id="colaLog" style="display:none;margin-top:8px"></pre>
   </div>
   <div id="fuentes"></div>
@@ -227,6 +244,7 @@ async function cargarFuentes() {
         <span class="pill p-warn">${esc(f.licencia)}</span>
         ${f.ultima ? `<span class="pill ${f.ultima.ok ? 'p-ok' : 'p-bad'}">última: ${esc(f.ultima.fecha)} ${f.ultima.ok ? '✔' : '✘'}</span>` : '<span class="pill">nunca ejecutada</span>'}
         ${f.progreso ? `<span class="pill p-warn" title="La ejecución anterior se quedó a medias: la próxima continuará donde lo dejó, sin repetir los países ya consultados.">⏸ a medias: ${f.progreso.hechas}${f.progreso.total ? '/' + f.progreso.total : ''} países — continuará donde se quedó</span>` : ''}
+        ${(ajustes.consultados || {})[f.id] ? `<span class="pill" title="Países que este conector ya ha consultado alguna vez (registro permanente). Con «solo países nuevos» activado se saltan; con «todos» se vuelven a consultar.">${ajustes.consultados[f.id]} países consultados</span>` : ''}
       </div>
       <div class="f-desc">${esc(f.descripcion)} · <a href="${esc(f.url)}" target="_blank" rel="noopener">fuente ↗</a></div>
       <div class="acciones">
@@ -286,7 +304,7 @@ async function vigilarIngesta(fid) {
   const log = card.querySelector('.log');
   const btn = card.querySelector('.lanzar');
   document.querySelectorAll('#fuentes .lanzar').forEach(b => b.disabled = true);
-  log.style.display = 'block';
+  $('#btnCola').disabled = true; log.style.display = 'block'; mostrarDetener(true);
   let inicio = Date.now();
   while (true) {
     let est;
@@ -304,14 +322,15 @@ async function vigilarIngesta(fid) {
       log.scrollTop = log.scrollHeight;
     }
     if (est.terminada) {
-      if (est.ok === false) log.textContent += '\n✘ la ingesta terminó con errores';
+      if (est.ok === false && est.estado !== 'detenido') log.textContent += '\n✘ la ingesta terminó con errores';
       log.scrollTop = log.scrollHeight;
       btn.textContent = 'Actualizar ahora';
       break;
     }
     await new Promise(r => setTimeout(r, 1500));
   }
-  await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes()]);
+  $('#btnCola').disabled = false; mostrarDetener(false);
+  await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes(), cargarAjustes()]);
 }
 
 // al abrir el panel (o tras un fallo por «ya hay una ingesta en curso»),
@@ -327,11 +346,61 @@ async function reengancharIngesta() {
   return false;
 }
 
+// --- ajustes: interruptor «solo nuevos / todos», cola a medias, botón Detener ---
+let ajustes = { solo_nuevos: true, consultados: {}, cola_pendiente: null };
+
+function pintarAjustes() {
+  const sw = $('#soloNuevos');
+  sw.checked = !!ajustes.solo_nuevos;
+  const total = Object.values(ajustes.consultados || {}).reduce((a, b) => a + b, 0);
+  $('#soloNuevosTxt').innerHTML = ajustes.solo_nuevos
+    ? `<b>Solo países nuevos desde la última ejecución</b> <span class="mini">— cada conector salta los países que ya consultó alguna vez y los que tienen esa sección validada por una persona (${total} consultas registradas en total). Cambia a «todos» para refrescar lo ya extraído.</span>`
+    : `<b>Todos los países</b> <span class="mini">— cada conector vuelve a consultar todos sus países, también los ya extraídos o validados. Vuelve a «solo nuevos» para que las próximas ejecuciones solo traigan lo que falte.</span>`;
+  const pend = ajustes.cola_pendiente;
+  const btn = $('#btnCola'), cero = $('#btnColaCero');
+  if (pend && pend.length && !btn.disabled) {
+    const hechos = (ajustes.cola_total || 0) - pend.length + 1;
+    btn.textContent = `▶ Reanudar cola (${hechos}/${ajustes.cola_total}: ${ajustes.cola_pendiente_nombres[0]})`;
+    btn.title = 'Hay una cola a medias: continúa por el conector en que se detuvo, que a su vez sigue por el país en que se quedó';
+    cero.hidden = false;
+  } else if (!btn.disabled) {
+    btn.textContent = '▶ Ejecutar todo en cola'; btn.title = ''; cero.hidden = true;
+  }
+}
+
+async function cargarAjustes() {
+  try { ajustes = await api('/api/ajustes'); } catch (e) { return; }
+  pintarAjustes();
+}
+
+$('#soloNuevos').addEventListener('change', async ev => {
+  ev.target.disabled = true;
+  try {
+    ajustes = await api('/api/ajustes', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+                                          body: JSON.stringify({ solo_nuevos: ev.target.checked }) });
+  } catch (e) { alert('No se pudo guardar el ajuste: ' + e.message); }
+  ev.target.disabled = false;
+  pintarAjustes(); cargarFuentes();
+});
+
+function mostrarDetener(visible) {
+  const b = $('#btnDetener');
+  b.hidden = !visible;
+  if (visible && b.textContent !== '⏳ Deteniendo…') { b.disabled = false; b.textContent = '⏹ Detener'; }
+  if (!visible) { b.disabled = false; b.textContent = '⏹ Detener'; }
+}
+
+$('#btnDetener').addEventListener('click', async ev => {
+  ev.target.disabled = true; ev.target.textContent = '⏳ Deteniendo…';
+  try { await api('/api/ingestas/_detener', { method: 'POST' }); }
+  catch (e) { alert('No se pudo pedir la parada: ' + e.message); ev.target.disabled = false; ev.target.textContent = '⏹ Detener'; }
+});
+
 // seguimiento de la cola «ejecutar todo»
 async function vigilarCola() {
   const btn = $('#btnCola'), log = $('#colaLog'), info = $('#colaEstado');
   document.querySelectorAll('#fuentes .lanzar, #fuentes .reiniciar').forEach(b => b.disabled = true);
-  btn.disabled = true; log.style.display = 'block';
+  btn.disabled = true; $('#btnColaCero').hidden = true; log.style.display = 'block'; mostrarDetener(true);
   let inicio = Date.now();
   while (true) {
     let est;
@@ -340,30 +409,33 @@ async function vigilarCola() {
     if (est.inicio) { const t = new Date(est.inicio).getTime(); if (!isNaN(t)) inicio = t; }
     const seg = Math.max(0, Math.round((Date.now() - inicio) / 1000));
     const c = est.cola || {};
-    btn.textContent = est.terminada ? '▶ Ejecutar todo en cola' : `⏳ Ejecutando cola… ${c.indice || 0}/${c.total || ''}`;
+    btn.textContent = est.terminada ? '▶ Ejecutar todo en cola'
+      : est.deteniendo ? `⏳ Deteniendo… ${c.indice || 0}/${c.total || ''}` : `⏳ Ejecutando cola… ${c.indice || 0}/${c.total || ''}`;
     info.textContent = est.terminada ? '' : `${fmtCrono(seg)}${c.actual ? ' · ' + c.actual : ''}`;
     const texto = (est.lineas || []).join('\n');
     if (log.textContent !== texto) { log.textContent = texto || 'arrancando…'; log.scrollTop = log.scrollHeight; }
     if (est.terminada) { log.scrollTop = log.scrollHeight; break; }
     await new Promise(r => setTimeout(r, 1500));
   }
-  btn.disabled = false;
-  await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes()]);
+  btn.disabled = false; mostrarDetener(false);
+  await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes(), cargarAjustes()]);
 }
 
-$('#btnCola').addEventListener('click', async () => {
+async function lanzarCola(desdeCero) {
   const btn = $('#btnCola'), log = $('#colaLog');
-  btn.disabled = true; log.style.display = 'block'; log.textContent = 'lanzando la cola…';
+  btn.disabled = true; $('#btnColaCero').hidden = true; log.style.display = 'block'; log.textContent = 'lanzando la cola…';
   try {
     await api('/api/ingestas/_cola', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ demo: $('#colaDemo').checked })
+      body: JSON.stringify({ demo: $('#colaDemo').checked, desde_cero: !!desdeCero })
     });
     await vigilarCola();
   } catch (e) {
-    if (!(await reengancharIngesta())) { log.textContent = 'ERROR: ' + e.message; btn.disabled = false; }
+    if (!(await reengancharIngesta())) { log.textContent = 'ERROR: ' + e.message; btn.disabled = false; pintarAjustes(); }
   }
-});
+}
+$('#btnCola').addEventListener('click', () => lanzarCola(false));
+$('#btnColaCero').addEventListener('click', () => lanzarCola(true));
 
 // mapeo con buscador y «cargar más» (la lista completa es larga: ~260 países)
 let mapeoData = [];
@@ -458,6 +530,7 @@ $('#btnExportar').addEventListener('click', async ev => {
 });
 
 async function cargarTodo() {
+  await cargarAjustes();  // antes que las fuentes: sus tarjetas muestran los países consultados
   await Promise.all([cargarEstado(), cargarFuentes(), cargarMapeo(), cargarPropuestas()]);
   reengancharIngesta();  // si hay una ingesta en marcha, mostrar su progreso
 }

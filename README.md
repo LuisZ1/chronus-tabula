@@ -117,7 +117,14 @@ El panel está **protegido con usuario y contraseña**: la primera vez que lo ab
 
 La forma cómoda es el **panel de administración** (`http://localhost:9000/admin.html` con `python api/servidor.py` en marcha): muestra las fuentes configuradas con su última ejecución, el mapeo país ↔ fuente (campos `owid` y QID de `wikidata` en la ficha de cada país, `datos/paises/`), lanza actualizaciones con un botón (con «modo demo» sin red), enseña cada propuesta con el dato ya mapeado a nuestro formato, y permite aprobar, rechazar y exportar con el validador integrado.
 
-Las ingestas **guardan cada propuesta al momento** y recuerdan por qué país iban: si una se corta a medias (red, límite de peticiones, cierre del servidor), nada se pierde y la siguiente ejecución **continúa donde se quedó** sin repetir los países ya consultados — el panel lo indica con «a medias: X/Y países». Al completarse la pila, la próxima ejecución vuelve a empezar desde el principio; el botón «↺ Empezar de cero» fuerza ese reinicio en cualquier momento.
+Las ingestas **guardan cada propuesta al momento** y recuerdan por qué país iban: si una se corta a medias (red, límite de peticiones, cierre del servidor), nada se pierde y la siguiente ejecución **continúa donde se quedó** sin repetir los países ya consultados — el panel lo indica con «a medias: X/Y países». El botón «↺ Empezar de cero» olvida esa pila.
+
+Además, cada conector lleva un **registro permanente de qué países ha consultado**. El interruptor del panel decide qué hace con él:
+
+- **Solo países nuevos desde la última ejecución** (por defecto): el conector se salta los países que ya consultó alguna vez y los que tienen esa sección (población, gobernantes, reseña, escudos) marcada como validada en `revision`. Así, si añades 5 países a `datos/`, la siguiente ejecución consulta solo esos 5.
+- **Todos los países**: vuelve a consultar todo, para refrescar datos ya extraídos. Por terminal: `--todos`.
+
+**«▶ Ejecutar todo en cola»** lanza los seis conectores en serie para dejarlos corriendo desatendidos durante horas o días: no hay límite práctico de tiempo (solo un tope de seguridad de 7 días por conector). Si algo se queda colgado o quieres parar, **«⏹ Detener»** para en cuanto termina el país en curso, guardando el progreso; la cola recuerda en qué conector estaba y el botón pasa a **«▶ Reanudar cola (3/6: …)»**, que continúa por ese conector y ese país, no por el primero. También si se cierra el servidor a medias.
 
 Todo existe también por terminal:
 
@@ -125,6 +132,7 @@ Todo existe también por terminal:
 python api/fuentes/owid_poblacion.py        # series de población (Our World in Data, CC BY)
 python api/fuentes/wikidata_gobernantes.py  # jefes de Estado (Wikidata, CC0)
 python api/fuentes/wikidata_batallas.py     # batallas con coordenadas y fecha (Wikidata, CC0)
+python api/fuentes/wikidata_poblacion.py --todos   # cualquier conector: todos los países, no solo los nuevos
 python api/revisar.py list                  # ver propuestas pendientes
 python api/revisar.py aprobar 1-10          # aprobar / rechazar / aprobar-todas
 python api/exportar.py                      # aplicar a datos/ + validar + recompilar historia.json

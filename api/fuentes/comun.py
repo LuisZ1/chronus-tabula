@@ -305,9 +305,14 @@ def progreso_hechas(con, fuente):
 
 
 def progreso_marcar(con, fuente, clave):
-    """Apunta (y persiste al momento) que esta clave ya se consultó."""
+    """Apunta (y persiste al momento) que esta clave ya se consultó: en la pila
+    en curso (progreso, se borra al completarla) y en el registro permanente de
+    consultas (no se borra: alimenta el modo «solo países nuevos»)."""
     init_progreso(con)
+    init_consultas(con)
     con.execute("INSERT OR REPLACE INTO progreso (fuente, clave, fecha) VALUES (?,?,?)",
+                (fuente, clave, HOY))
+    con.execute("INSERT OR REPLACE INTO consultas (fuente, clave, fecha) VALUES (?,?,?)",
                 (fuente, clave, HOY))
     con.commit()
 
@@ -317,6 +322,111 @@ def progreso_borrar(con, fuente):
     init_progreso(con)
     con.execute("DELETE FROM progreso WHERE fuente=?", (fuente,))
     con.commit()
+
+
+# ---------------------------------------------------------------------------
+# Registro permanente de consultas y modo «solo países nuevos»
+#
+# Cada conector apunta en 'consultas' qué países ya consultó (para siempre, a
+# diferencia de 'progreso', que solo dura una pila). Por defecto un conector
+# solo consulta lo que NO tiene apuntado: países nuevos en datos/ o que nunca
+# consultó. Con --todos (o el interruptor «Todos los países» del panel) vuelve a
+# consultar todo. Además, en modo «solo nuevos» se salta un país cuya sección
+# (poblacion, gobernantes…) ya esté marcada como validada por una persona en
+# revision.secciones: la marca de revisión existe justo para eso.
+# ---------------------------------------------------------------------------
+# qué sección de la ficha de país llena cada conector (None: no aplica a países)
+SECCION_DE = {
+    "wikidata_gobernantes": "gobernantes",
+    "wikidata_poblacion": "poblacion",
+    "owid_poblacion": "poblacion",
+    "wikipedia_resenas": "resena",
+    "wikidata_escudos": "escudos",
+    "wikidata_batallas": None,
+}
+
+
+def init_consultas(con):
+    con.execute("""CREATE TABLE IF NOT EXISTS consultas (
+        fuente TEXT NOT NULL,
+        clave  TEXT NOT NULL,
+        fecha  TEXT NOT NULL,
+        PRIMARY KEY (fuente, clave))""")
+
+
+def consultas_hechas(con, fuente):
+    """Claves (ids de país) que este conector ha consultado alguna vez."""
+    init_consultas(con)
+    return {r[0]: r[1] for r in con.execute("SELECT clave, fecha FROM consultas WHERE fuente=?", (fuente,))}
+
+
+def modo_todos(argv=None):
+    """True si se pidió consultar TODOS los países (--todos o CHRONUS_TODOS=1)."""
+    argv = sys.argv if argv is None else argv
+    return "--todos" in argv or os.environ.get("CHRONUS_TODOS") == "1"
+
+
+def filtrar_pendientes(con, fuente, paises, demo=False, todos=None):
+    """Aplica el modo «solo países nuevos»: devuelve los países que toca consultar
+    e imprime un resumen. En modo demo o con --todos devuelve la lista intacta."""
+    if todos is None:
+        todos = modo_todos()
+    if demo or todos:
+        print(f"Modo: TODOS los países ({len(paises)}).", flush=True)
+        return list(paises)
+    ya = consultas_hechas(con, fuente)
+    seccion = SECCION_DE.get(fuente)
+    pend, n_consultados, n_validados = [], 0, 0
+    for p in paises:
+        pid = p["id"] if isinstance(p, dict) else p
+        if pid in ya:
+            n_consultados += 1
+            continue
+        rev = p.get("revision") if isinstance(p, dict) else None
+        if seccion and rev and rev.get("estado") == "validado" and seccion in (rev.get("secciones") or []):
+            n_validados += 1
+            continue
+        pend.append(p)
+    print(f"Modo: solo países nuevos → {len(pend)} de {len(paises)} pendientes "
+          f"(se saltan {n_consultados} ya consultados por este conector y {n_validados} con la sección "
+          f"'{seccion}' validada). Para consultar todos: --todos o el interruptor del panel.", flush=True)
+    return pend
+
+
+# ---------------------------------------------------------------------------
+# Parada suave: el panel (o `touch api/.detener`) crea un fichero-señal; cada
+# conector lo comprueba entre país y país, termina el que tiene a medias, guarda
+# y sale con código 3. Nada se repite al reanudar: el progreso ya está apuntado.
+# ---------------------------------------------------------------------------
+SENAL_PARADA = os.path.join(os.path.dirname(DB), ".detener")
+CODIGO_DETENIDO = 3
+
+
+def parada_solicitada():
+    return os.path.exists(SENAL_PARADA)
+
+
+def pedir_parada():
+    with open(SENAL_PARADA, "w", encoding="utf-8") as f:
+        f.write(HOY)
+
+
+def limpiar_parada():
+    try:
+        os.remove(SENAL_PARADA)
+    except FileNotFoundError:
+        pass
+
+
+def detener_si_procede(con, fuente, hechos):
+    """Llamar al principio de cada iteración. Si hay señal de parada, cierra la
+    conexión, informa y devuelve True (el conector debe `return CODIGO_DETENIDO`)."""
+    if not parada_solicitada():
+        return False
+    con.commit(); con.close()
+    print(f"⏹ Detenido por el usuario tras {hechos} país(es) en esta ejecución. Lo consultado queda "
+          "guardado; al volver a ejecutar, el conector continúa por el siguiente país.", flush=True)
+    return True
 
 
 def descargar(url, timeout=60):
@@ -382,9 +492,18 @@ def descargar_reintentos(url, timeout=180, intentos=6):
                 espera = _segundos_espera(e, i)
                 print(f"  ⏳ límite del servidor (HTTP {e.code}); esperando {espera:.0f}s "
                       f"(intento {i}/{intentos - 1})…", flush=True)
-                time.sleep(espera)
+                # la espera se hace a trozos para poder atender la señal de parada
+                fin = time.time() + espera
+                while time.time() < fin:
+                    if parada_solicitada():
+                        raise ParadaSolicitada()
+                    time.sleep(min(5, max(0.1, fin - time.time())))
                 continue
             raise
+
+
+class ParadaSolicitada(Exception):
+    """El usuario pidió detener mientras se esperaba a un servidor limitado."""
 
 
 def es_error_de_pais(e):
@@ -396,6 +515,10 @@ def es_error_de_pais(e):
 
 
 def aviso_red(nombre, e):
+    if isinstance(e, ParadaSolicitada):
+        print("⏹ Detenido por el usuario durante una espera del servidor. Lo consultado queda "
+              "guardado; al volver a ejecutar, el conector continúa por este país.", flush=True)
+        sys.exit(CODIGO_DETENIDO)
     print(f"✘ No se pudo contactar con {nombre}: {e}")
     print("  Este script necesita internet abierto: ejecútalo en tu máquina.")
     print("  Para probar el circuito sin red usa:  --demo")

@@ -6,6 +6,7 @@ Uso (desde la raíz del repositorio):
 
     python api/fuentes/wikidata_escudos.py           # consulta real (SPARQL)
     python api/fuentes/wikidata_escudos.py --demo    # datos de muestra, sin red
+    python api/fuentes/wikidata_escudos.py --todos   # consultar todos los países, no solo los nuevos
 
 Para cada país con "wikidata" (QID):
  - consulta P94 (escudo de armas) con sus cualificadores de fecha (P580/P582)
@@ -26,7 +27,8 @@ import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, es_error_de_pais,  # noqa: E402
-                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY)
+                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY,
+                   filtrar_pendientes, detener_si_procede, CODIGO_DETENIDO)
 
 FID = "wikidata_escudos"
 ENDPOINT = "https://query.wikidata.org/sparql"
@@ -138,9 +140,12 @@ def main():
     if hechas:
         print(f"↻ Reanudando: se saltan {len(hechas)} país(es).", flush=True)
     nuevas = 0
+    paises = filtrar_pendientes(con, FID, paises, demo)
     for idx, p in enumerate(paises, 1):
         if not demo and p["id"] in hechas:
             continue
+        if detener_si_procede(con, FID, idx - 1):
+            return CODIGO_DETENIDO
         print(f"→ ({idx}/{len(paises)}) {p['id']}…", flush=True)
         if demo:
             escudos = DEMO.get(p["id"], [])

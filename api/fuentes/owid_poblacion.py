@@ -6,6 +6,7 @@ Uso (desde la raíz del repositorio):
 
     python api/fuentes/owid_poblacion.py           # descarga real
     python api/fuentes/owid_poblacion.py --demo    # datos de muestra, sin red
+    python api/fuentes/owid_poblacion.py --todos   # consultar todos los países, no solo los nuevos
 
 Genera una propuesta 'poblacion' por cada país de historia.json que tenga el
 campo "owid" (nombre de la entidad en OWID). Cada propuesta sustituye la serie
@@ -20,7 +21,10 @@ import sys
 
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from comun import aviso_red, cargar_historia, conectar, descargar, proponer, HOY  # noqa: E402
+from comun import (aviso_red, cargar_historia, conectar, descargar, proponer, HOY,  # noqa: E402
+                   filtrar_pendientes, progreso_marcar, detener_si_procede, CODIGO_DETENIDO)
+
+FID = "owid_poblacion"
 
 URLS = [
     # CSV del grapher de OWID (Entity,Code,Year,population)
@@ -73,7 +77,6 @@ def main():
             aviso_red("Our World in Data", ultimo_error)
 
     historia = cargar_historia()
-    con_owid = {p["id"]: p["owid"] for p in historia["paises"] if p.get("owid")}
     por_entidad = {}
     por_codigo = {}  # también indexamos por código ISO3 (columna 'Code' del CSV)
     lector = csv.DictReader(io.StringIO(texto))
@@ -106,7 +109,15 @@ def main():
 
     con = conectar()
     nuevas = 0
-    for pais_id, entidad in con_owid.items():
+    # modo «solo países nuevos»: se saltan los ya consultados por este conector y
+    # los que tienen la población validada (misma lógica que el resto de conectores)
+    pendientes = filtrar_pendientes(con, FID, [p for p in historia["paises"] if p.get("owid")], demo)
+    for idx, p in enumerate(pendientes, 1):
+        pais_id, entidad = p["id"], p["owid"]
+        if detener_si_procede(con, FID, idx - 1):
+            return CODIGO_DETENIDO
+        if not demo:
+            progreso_marcar(con, FID, pais_id)  # el CSV ya está en memoria: consultado
         # el campo 'owid' de la ficha puede ser el nombre de la entidad (Spain) o
         # su código ISO3 (ESP): probamos ambos
         serie = (por_entidad.get(entidad) or por_codigo.get(entidad)

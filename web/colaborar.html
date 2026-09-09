@@ -95,7 +95,7 @@ schema/                          el "contrato" de cada tipo de ficha (JSON Schem
       <h2>El panel de administración</h2>
       <p class="intro">Para incorporar datos a mayor escala hay un panel local (solo funciona en tu equipo, no en la web publicada) que se conecta a fuentes abiertas y propone cambios que tú revisas antes de aplicar.</p>
       <div class="rejilla">
-        <div class="tarjeta"><div class="ico">🔌</div><h3>Conectores</h3><p>Wikidata (gobernantes, población, escudos por época, batallas), Wikipedia (reseñas) y Our World in Data (población). Se lanzan uno a uno o todos en cola, respetan los límites de peticiones de cada API y reanudan donde se quedaron si se cortan.</p></div>
+        <div class="tarjeta"><div class="ico">🔌</div><h3>Conectores</h3><p>Wikidata (gobernantes, población, escudos por época, batallas), Wikipedia (reseñas) y Our World in Data (población). Se lanzan uno a uno o todos en cola durante horas o días, respetan los límites de peticiones de cada API, se pueden detener y reanudan por el país en que se quedaron. Por defecto consultan solo los países nuevos (los que nunca consultaron o sin esa sección validada); un interruptor permite volver a consultar todos.</p></div>
         <div class="tarjeta"><div class="ico">📥</div><h3>Propuestas</h3><p>Nada toca <code>datos/</code> directamente: cada dato llega como propuesta, con su fuente ya puesta, que apruebas o rechazas.</p></div>
         <div class="tarjeta"><div class="ico">✅</div><h3>Exportar y validar</h3><p>Lo aprobado se escribe en el fichero de cada país (ya en formato canónico), pasa por el validador, recompila la web local y estampa la marca <code>revision</code> con la fecha y la huella del contenido.</p></div>
       </div>

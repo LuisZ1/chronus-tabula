@@ -6,6 +6,7 @@ Uso (desde la raíz del repositorio):
 
     python api/fuentes/wikipedia_resenas.py           # descarga real
     python api/fuentes/wikipedia_resenas.py --demo    # datos de muestra, sin red
+    python api/fuentes/wikipedia_resenas.py --todos   # consultar todos los países, no solo los nuevos
 
 Para cada país de historia.json con campo "wiki" (o, en su defecto, "nombre"),
 descarga el resumen de Wikipedia (API REST page/summary), lo recorta a ~2 frases
@@ -21,7 +22,8 @@ import urllib.error
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from comun import (aviso_red, cargar_historia, conectar, descargar_reintentos, es_error_de_pais,  # noqa: E402
-                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY)
+                   proponer, progreso_borrar, progreso_hechas, progreso_marcar, HOY,
+                   filtrar_pendientes, detener_si_procede, CODIGO_DETENIDO)
 
 FID = "wikipedia_resenas"
 LIMITE = 360  # longitud máxima de la reseña (caracteres)
@@ -87,9 +89,12 @@ def main():
     if hechas:
         print(f"↻ Reanudando: se saltan {len(hechas)} país(es) ya consultados.", flush=True)
     nuevas = 0
+    paises = filtrar_pendientes(con, FID, paises, demo)
     for idx, p in enumerate(paises, 1):
         if not demo and p["id"] in hechas:
             continue
+        if detener_si_procede(con, FID, idx - 1):
+            return CODIGO_DETENIDO
         print(f"→ ({idx}/{len(paises)}) {p['id']}…", flush=True)
         if demo:
             data = DEMO.get(p["id"])

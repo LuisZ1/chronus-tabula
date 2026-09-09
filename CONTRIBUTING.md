@@ -208,7 +208,7 @@ Formatos de `id`: `wikipedia-es:<artículo>`, `wikidata:Q…`, `owid:<dataset>`,
 
 ## Añadir datos con el pipeline (opcional)
 
-Para volúmenes grandes no hace falta teclear: `api/fuentes/` ingiere de APIs abiertas y deja **propuestas** en una base local que tú revisas y apruebas antes de exportar a `datos/` — o, más cómodo, desde el panel de administración en `http://localhost:9000/admin.html` (ver README). Las propuestas ya llegan con su fuente puesta.
+Para volúmenes grandes no hace falta teclear: `api/fuentes/` ingiere de APIs abiertas y deja **propuestas** en una base local que tú revisas y apruebas antes de exportar a `datos/` — o, más cómodo, desde el panel de administración en `http://localhost:9000/admin.html` (ver README). Las propuestas ya llegan con su fuente puesta. Por defecto cada conector consulta **solo los países nuevos** (los que nunca consultó y no tienen esa sección validada), así que si añades una ficha a `datos/paises/` con su `wikidata`/`owid`, la siguiente ejecución la rellena sin repasar el resto; «Todos los países» (o `--todos`) refresca todo. «Ejecutar todo en cola» encadena los conectores sin límite práctico de tiempo y se puede detener y reanudar por donde iba.
 
 ## Formato canónico, esquemas y marca de revisión
 
