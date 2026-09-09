@@ -1,0 +1,81 @@
+{
+	"nombre": "Cisjordania",
+	"pais": "Jordania",
+	"estatus": "Ocupada por Transjordania en 1948 y anexionada por Jordania en 1950 (anexión reconocida por muy pocos países)",
+	"desde": 1948,
+	"hasta": 1966,
+	"lat": 32.0,
+	"lng": 35.3,
+	"poligono": [
+		[
+			32.55,
+			35.56
+		],
+		[
+			32.55,
+			35.22
+		],
+		[
+			32.42,
+			35.0
+		],
+		[
+			32.15,
+			34.96
+		],
+		[
+			31.95,
+			34.98
+		],
+		[
+			31.84,
+			34.97
+		],
+		[
+			31.8,
+			35.06
+		],
+		[
+			31.79,
+			35.17
+		],
+		[
+			31.71,
+			35.16
+		],
+		[
+			31.62,
+			34.98
+		],
+		[
+			31.42,
+			34.97
+		],
+		[
+			31.36,
+			35.12
+		],
+		[
+			31.38,
+			35.46
+		],
+		[
+			31.75,
+			35.53
+		],
+		[
+			32.2,
+			35.56
+		]
+	],
+	"descripcion": "Tras la guerra de 1948 la orilla occidental del Jordán, incluida Jerusalén Este, quedó bajo control jordano; Jordania la anexionó formalmente en 1950. Los mapas base la pintan como parte de Israel: este polígono señala su extensión aproximada según las líneas de armisticio de 1949.",
+	"wiki": "Cisjordania",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cisjordania",
+			"url": "https://es.wikipedia.org/wiki/Cisjordania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		}
+	]
+}

@@ -1,0 +1,87 @@
+{
+	"nombre": "Cisjordania",
+	"pais": "Palestina",
+	"estatus": "Ocupación militar israelí desde 1967; para Naciones Unidas, Territorio palestino ocupado. Jerusalén Este, anexionada de hecho por Israel (1967; ley de 1980), sin reconocimiento internacional",
+	"desde": 1967,
+	"hasta": 1993,
+	"lat": 32.0,
+	"lng": 35.3,
+	"poligono": [
+		[
+			32.55,
+			35.56
+		],
+		[
+			32.55,
+			35.22
+		],
+		[
+			32.42,
+			35.0
+		],
+		[
+			32.15,
+			34.96
+		],
+		[
+			31.95,
+			34.98
+		],
+		[
+			31.84,
+			34.97
+		],
+		[
+			31.8,
+			35.06
+		],
+		[
+			31.79,
+			35.17
+		],
+		[
+			31.71,
+			35.16
+		],
+		[
+			31.62,
+			34.98
+		],
+		[
+			31.42,
+			34.97
+		],
+		[
+			31.36,
+			35.12
+		],
+		[
+			31.38,
+			35.46
+		],
+		[
+			31.75,
+			35.53
+		],
+		[
+			32.2,
+			35.56
+		]
+	],
+	"descripcion": "Israel ocupó Cisjordania en la guerra de los Seis Días (1967). Desde entonces se establecieron asentamientos israelíes, considerados ilegales por la mayoría de la comunidad internacional. En 1988 la OLP proclamó el Estado de Palestina. Extensión aproximada según las líneas de 1949.",
+	"wiki": "Cisjordania",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cisjordania",
+			"url": "https://es.wikipedia.org/wiki/Cisjordania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Territorios palestinos ocupados",
+			"url": "https://es.wikipedia.org/wiki/Territorios_palestinos_ocupados",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		}
+	]
+}

@@ -179,6 +179,8 @@ Los `territorios` son enclaves e islas demasiado pequeños para apreciarse en el
 
 Si un lugar **cambió de dueño**, se crean varias entradas con las mismas coordenadas y periodos consecutivos (Gibraltar castellano 1462-1704 y británico desde 1704; Ceuta portuguesa 1415-1580 y española desde 1580): el mapa muestra en cada año la que corresponde, con el color del dueño de entonces.
 
+Cuando la situación de un territorio es **disputada o no se resume en «parte de X»** (los territorios palestinos, por ejemplo), añade `estatus`: un texto descriptivo de su situación jurídica o administrativa («Administración militar egipcia (1948–1967)», «Autoridad Nacional Palestina en las áreas A y B…»). La ficha lo muestra en lugar de «Parte de», y `pais` pasa a aportar solo el color. Mantén el tono descriptivo y con fuentes (la terminología de la ONU es una buena referencia) y, si el territorio tiene extensión, dibújalo con `poligono` aunque los mapas base no lo distingan.
+
 ## Trucos
 
 **Averiguar el nombre exacto de una entidad en el mapa.** Abre la app, ve al año que te interesa y haz clic en el territorio: la ficha muestra «Nombre en el dato original» y «Soberanía» — esos son los valores que van en `nombres`. Alternativa por terminal:
