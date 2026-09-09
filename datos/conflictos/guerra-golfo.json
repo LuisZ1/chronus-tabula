@@ -66,6 +66,12 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Failaka",
+			"anio": 1990,
+			"lat": 29.39,
+			"lng": 48.0
+		},
+		{
 			"nombre": "Liberación de la ciudad de Kuwait",
 			"anio": 1991,
 			"lat": 29.38,
@@ -85,6 +91,12 @@
 			"url": "https://es.wikipedia.org/wiki/Guerra_del_Golfo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikidata:Q4870995",
+			"url": "https://www.wikidata.org/wiki/Q4870995",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	]
 }

@@ -2,9 +2,7 @@
 	"id": "yibuti",
 	"nombre": "Yibuti",
 	"nombres": [
-		"Djibouti",
-		"Somalilandia Francesa",
-		"Territorio Frances de los Afars y los Issas"
+		"Djibouti"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +23,10 @@
 	],
 	"wiki": "es:Yibuti",
 	"wikidata": "Q977",
+	"relacionados": [
+		"Somalilandia Francesa",
+		"Territorio Frances de los Afars y los Issas"
+	],
 	"resena": "Yibuti, oficialmente denominado República de Yibuti, es un país ubicado en el Cuerno de África. Tiene 23.200 km² y comparte fronteras con Eritrea por el norte, con Etiopía por el oeste y el sur, y con Somalia por el sureste.",
 	"gobernantes": [
 		{

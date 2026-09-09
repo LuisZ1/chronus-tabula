@@ -161,6 +161,38 @@ def comprueba_esquema(donde, v, sch, ruta=""):
                 aviso(aqui, f"clave desconocida '{k}' (¿errata? consulta schema/)")
 
 
+def _caja(geom):
+    """Caja (minx, miny, maxx, maxy) y nº de vértices de un (Multi)Polygon."""
+    coords = geom.get("coordinates") or []
+    polys = coords if geom.get("type") == "MultiPolygon" else [coords]
+    pts = [c for poly in polys for ring in poly for c in ring]
+    if not pts:
+        return None, 0
+    xs = [c[0] for c in pts]
+    ys = [c[1] for c in pts]
+    return (min(xs), min(ys), max(xs), max(ys)), len(pts)
+
+
+def geometrias_repetidas(feats):
+    """Pares de entidades de un mapa con la misma caja (±0,05°) y un número de
+    vértices parecido, y tamaño apreciable (> 0,5°²): casi seguro el mismo polígono
+    dos veces con atribuciones distintas (defecto conocido de los mapas base)."""
+    resumen = []
+    for ft in feats:
+        caja, n = _caja(ft.get("geometry") or {})
+        if caja and (caja[2] - caja[0]) * (caja[3] - caja[1]) > 0.5:
+            p = ft.get("properties", {})
+            resumen.append((caja, n, f"{p.get('NAME')} / {p.get('SUBJECTO')}"))
+    pares = []
+    for i in range(len(resumen)):
+        c1, n1, e1 = resumen[i]
+        for j in range(i + 1, len(resumen)):
+            c2, n2, e2 = resumen[j]
+            if all(abs(c1[k] - c2[k]) < 0.05 for k in range(4)) and abs(n1 - n2) <= max(6, 0.15 * max(n1, n2)):
+                pares.append((e1, e2))
+    return pares
+
+
 def main():
     # 1) JSON bien formado (cada fichero de datos/; un fallo indica su ruta)
     try:
@@ -183,11 +215,13 @@ def main():
             etiqueta = reg.get("id") or reg.get("nombre") or "?" if isinstance(reg, dict) else "?"
             comprueba_esquema(f"{col}/{etiqueta}", reg, sch)
 
-    # 2) nombres reales presentes en los GeoJSON (NAME y SUBJECTO)
+    # 2) nombres reales presentes en los GeoJSON (NAME y SUBJECTO), y entidades
+    #    duplicadas dentro de un mismo mapa (misma caja y vértices parecidos: el
+    #    territorio se pintaría dos veces con dos rótulos; api/limpiar_geojson.py)
     nombres_geo = set()
     n_mapas = 0
     if os.path.isdir(GEOJSON_DIR):
-        for fn in os.listdir(GEOJSON_DIR):
+        for fn in sorted(os.listdir(GEOJSON_DIR)):
             if not re.match(r"world_(bc)?\d+\.geojson$", fn):
                 continue
             try:
@@ -199,6 +233,9 @@ def main():
                     for k in ("NAME", "SUBJECTO"):
                         if p.get(k):
                             nombres_geo.add(p[k])
+                for a, b in geometrias_repetidas(gj.get("features", [])):
+                    aviso(fn, f"«{a}» y «{b}» tienen (casi) la misma geometría: se pintarían dos veces; "
+                              "añade el caso a PARCHES en api/limpiar_geojson.py y ejecútalo")
             except Exception as e:  # noqa: BLE001 — un mapa corrupto no debe parar la validación
                 aviso(fn, f"no se pudo leer: {e}")
     else:
@@ -221,7 +258,9 @@ def main():
             if desconocidos and len(desconocidos) == len(p["nombres"]) and n_mapas >= 40:
                 err(donde, f"ninguno de sus 'nombres' existe en los GeoJSON: {desconocidos}")
             elif desconocidos and n_mapas >= 40:
-                aviso(donde, f"nombres no encontrados en ningún GeoJSON: {desconocidos}")
+                aviso(donde, f"'nombres' solo debe llevar los nombres EXACTOS de los GeoJSON; estos no aparecen en "
+                             f"ninguno: {desconocidos}. Si son alias en español, muévelos a 'relacionados' "
+                             "(los usa el filtro «Seguir un reino»)")
         for g in p.get("gobernantes", []):
             gd = f"{donde} gobernante '{g.get('nombre', '?')}'"
             if not (es_anio(g.get("desde")) and es_anio(g.get("hasta"))):
@@ -354,7 +393,8 @@ def main():
                 err(donde, f"'hasta' incoherente: {t.get('hasta')!r}")
         valida_coord(donde, t.get("lat"), t.get("lng"))
         b = str(t.get("pais", "")).lower()
-        if b and nombres_pais and b not in nombres_pais:
+        # pais == nombre: entidad con color propio a propósito (póleis, Sumeria…)
+        if b and nombres_pais and b not in nombres_pais and b != str(t.get("nombre", "")).lower():
             aviso(donde, f"su 'pais' ({t['pais']!r}) no coincide con ningún país de 'paises'; "
                          "el punto no heredará el color del país en el mapa")
         if "poligono" in t:

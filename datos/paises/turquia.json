@@ -2,13 +2,176 @@
 	"id": "turquia",
 	"nombre": "Turquía",
 	"nombres": [
-		"Turkey",
-		"Turquía"
+		"Turkey"
 	],
 	"wiki": "es:Turquía",
 	"wikidata": "Q43",
 	"owid": "TUR",
 	"resena": "Turquía, formalmente República de Turquía, es un país transcontinental, con la mayor parte de su territorio situado en Asia Occidental y una menor en Europa Oriental, extendiéndose por toda la península de Anatolia, el centro del altiplano armenio y en Tracia Oriental por la zona de los Balcanes.",
+	"gobernantes": [
+		{
+			"nombre": "Mustafa Kemal Atatürk",
+			"cargo": "jefe de Estado",
+			"desde": 1923,
+			"hasta": 1938
+		},
+		{
+			"nombre": "Abdülhalik Renda",
+			"cargo": "jefe de Estado",
+			"desde": 1938,
+			"hasta": 1938
+		},
+		{
+			"nombre": "İsmet İnönü",
+			"cargo": "jefe de Estado",
+			"desde": 1938,
+			"hasta": 1950
+		},
+		{
+			"nombre": "Celal Bayar",
+			"cargo": "jefe de Estado",
+			"desde": 1950,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Cemal Gürsel",
+			"cargo": "jefe de Estado",
+			"desde": 1960,
+			"hasta": 1966
+		},
+		{
+			"nombre": "İbrahim Şevki Atasagun",
+			"cargo": "jefe de Estado",
+			"desde": 1966,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Cevdet Sunay",
+			"cargo": "jefe de Estado",
+			"desde": 1966,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Tekin Arıburun",
+			"cargo": "jefe de Estado",
+			"desde": 1973,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Fahri Korutürk",
+			"cargo": "jefe de Estado",
+			"desde": 1973,
+			"hasta": 1980
+		},
+		{
+			"nombre": "İhsan Sabri Çağlayangil",
+			"cargo": "jefe de Estado",
+			"desde": 1980,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Kenan Evren",
+			"cargo": "jefe de Estado",
+			"desde": 1980,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Kenan Evren",
+			"cargo": "jefe de Estado",
+			"desde": 1982,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Turgut Özal",
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Hüsamettin Cindoruk",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Tansu Çiller",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Süleyman Demirel",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Necmettin Erbakan",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Mesut Yılmaz",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Bülent Ecevit",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Ahmet Necdet Sezer",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Abdullah Gül",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Recep Tayyip Erdoğan",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Abdullah Gül",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Recep Tayyip Erdoğan",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Ahmet Davutoğlu",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Binali Yıldırım",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Recep Tayyip Erdoğan",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2018
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,14 +371,153 @@
 			"url": "https://es.wikipedia.org/wiki/Turqu%C3%ADa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q5152",
+			"url": "http://www.wikidata.org/entity/Q5152",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1076524",
+			"url": "http://www.wikidata.org/entity/Q1076524",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q183297",
+			"url": "http://www.wikidata.org/entity/Q183297",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q151735",
+			"url": "http://www.wikidata.org/entity/Q151735",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q159161",
+			"url": "http://www.wikidata.org/entity/Q159161",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12812897",
+			"url": "http://www.wikidata.org/entity/Q12812897",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q158500",
+			"url": "http://www.wikidata.org/entity/Q158500",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4544707",
+			"url": "http://www.wikidata.org/entity/Q4544707",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q313357",
+			"url": "http://www.wikidata.org/entity/Q313357",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q343514",
+			"url": "http://www.wikidata.org/entity/Q343514",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q216983",
+			"url": "http://www.wikidata.org/entity/Q216983",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q180280",
+			"url": "http://www.wikidata.org/entity/Q180280",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q462737",
+			"url": "http://www.wikidata.org/entity/Q462737",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q151729",
+			"url": "http://www.wikidata.org/entity/Q151729",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q208377",
+			"url": "http://www.wikidata.org/entity/Q208377",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q243550",
+			"url": "http://www.wikidata.org/entity/Q243550",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q366692",
+			"url": "http://www.wikidata.org/entity/Q366692",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q192634",
+			"url": "http://www.wikidata.org/entity/Q192634",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q165487",
+			"url": "http://www.wikidata.org/entity/Q165487",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q42852",
+			"url": "http://www.wikidata.org/entity/Q42852",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q39259",
+			"url": "http://www.wikidata.org/entity/Q39259",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q58198",
+			"url": "http://www.wikidata.org/entity/Q58198",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q863496",
+			"url": "http://www.wikidata.org/entity/Q863496",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "9e4fbb841af6",
+		"hash": "ca1953872944",
 		"secciones": [
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

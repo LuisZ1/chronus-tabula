@@ -3,8 +3,7 @@
 	"nombre": "Gambia",
 	"nombres": [
 		"Gambia, The",
-		"Gambia",
-		"The Gambia"
+		"Gambia"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +24,9 @@
 	],
 	"wiki": "es:Gambia",
 	"wikidata": "Q1005",
+	"relacionados": [
+		"The Gambia"
+	],
 	"resena": "Gambia, oficialmente la República de Gambia, es una nación de África occidental. Se encuentra rodeada en su totalidad por Senegal, excepto en la desembocadura del río Gambia en el océano Atlántico.",
 	"gobernantes": [
 		{

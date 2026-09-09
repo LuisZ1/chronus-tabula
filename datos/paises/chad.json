@@ -2,8 +2,7 @@
 	"id": "chad",
 	"nombre": "Chad",
 	"nombres": [
-		"Chad",
-		"República del Chad"
+		"Chad"
 	],
 	"nombres_periodo": [
 		{
@@ -19,6 +18,9 @@
 	],
 	"wiki": "es:Chad",
 	"wikidata": "Q657",
+	"relacionados": [
+		"República del Chad"
+	],
 	"resena": "Chad, cuyo nombre oficial es República del Chad, es un país sin litoral ubicado en África Central. Limita con Libia al norte, con Sudán al este, con la República Centroafricana al sur, Camerún y Nigeria al suroeste y con Níger al oeste.",
 	"gobernantes": [
 		{

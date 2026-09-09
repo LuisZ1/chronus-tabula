@@ -2,12 +2,63 @@
 	"id": "guayana-francesa",
 	"nombre": "Guayana Francesa",
 	"nombres": [
-		"French Guiana",
-		"Guayana Francesa"
+		"French Guiana"
 	],
 	"wiki": "es:Guayana Francesa",
 	"wikidata": "Q3769",
 	"resena": "La Guayana Francesa, o simplemente como Departamento de Guayana, es una región y departamento de ultramar de Francia, que forma parte de la Unión Europea como región ultraperiférica. En tanto colectividad territorial única, tan solo consta de una asamblea que reagrupa las competencias del Consejo regional y departamental.",
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 25472,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1960,
+			"valor": 32032,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1970,
+			"valor": 47930,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1980,
+			"valor": 66977,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 115784,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 163165,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 234181,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2020,
+			"valor": 285133,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2023,
+			"valor": 293996,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of French Guiana, according to the original displayed at the Museum Franconie, at Cayenne.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q3769",
@@ -19,14 +70,28 @@
 			"url": "https://es.wikipedia.org/wiki/Guayana_Francesa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q3769",
+			"url": "https://www.wikidata.org/wiki/Q3769",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q3769",
+			"url": "https://www.wikidata.org/wiki/Q3769",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2d23933fc6e9",
+		"hash": "c042309ba038",
 		"secciones": [
+			"escudos",
+			"poblacion",
 			"resena"
 		]
 	}

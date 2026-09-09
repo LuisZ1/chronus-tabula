@@ -2,9 +2,7 @@
 	"id": "senegal",
 	"nombre": "Senegal",
 	"nombres": [
-		"Senegal",
-		"Republique du Senegal",
-		"Republica del Senegal"
+		"Senegal"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +23,10 @@
 	],
 	"wiki": "es:Senegal",
 	"wikidata": "Q1041",
+	"relacionados": [
+		"Republique du Senegal",
+		"Republica del Senegal"
+	],
 	"resena": "Senegal, cuyo nombre oficial es República del Senegal, es un estado soberano de África Occidental cuya forma de gobierno es la república semipresidencialista. Su territorio está organizado en catorce regiones.",
 	"gobernantes": [
 		{
@@ -90,6 +92,11 @@
 			"fuente": "Censo 2023 (Wikipedia)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Senegal.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -111,14 +118,21 @@
 			"url": "https://es.wikipedia.org/wiki/Senegal",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1041",
+			"url": "https://www.wikidata.org/wiki/Q1041",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "632c6e8a6609",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

@@ -1,9 +1,9 @@
 {
 	"nombre": "Franja de Gaza",
-	"pais": "Egipto",
-	"estatus": "Administración militar egipcia (1948–1967)",
-	"desde": 1948,
-	"hasta": 1966,
+	"pais": "Palestina",
+	"estatus": "Mandato británico de Palestina (hasta mayo de 1948)",
+	"desde": 1945,
+	"hasta": 1947,
 	"lat": 31.42,
 	"lng": 34.38,
 	"poligono": [
@@ -36,12 +36,18 @@
 			34.14
 		]
 	],
-	"descripcion": "Tras la guerra árabe-israelí de 1948 y los armisticios de 1949, la Franja de Gaza quedó bajo administración militar egipcia, sin ser anexionada. Acogió a gran parte de la población palestina desplazada. Los mapas base no distinguen la franja de Israel: este polígono señala su extensión aproximada.",
+	"descripcion": "Hasta la retirada británica y la proclamación de Israel (mayo de 1948) todo el territorio era el Mandato británico de Palestina; el mapa base de 1945 ya rotula «Israel». Este polígono señala la extensión aproximada de la franja según las líneas de armisticio de 1949, para dar continuidad a los periodos siguientes.",
 	"wiki": "Franja de Gaza",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Franja de Gaza",
 			"url": "https://es.wikipedia.org/wiki/Franja_de_Gaza",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Mandato británico de Palestina",
+			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
 		}

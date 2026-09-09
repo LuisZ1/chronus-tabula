@@ -2,13 +2,38 @@
 	"id": "santa-lucia",
 	"nombre": "Santa Lucía",
 	"nombres": [
-		"Saint Lucia",
-		"Santa Lucía"
+		"Saint Lucia"
 	],
 	"wiki": "es:Santa Lucía",
 	"wikidata": "Q760",
 	"owid": "LCA",
 	"resena": "Santa Lucía es un país insular de América, ubicado en el mar Caribe, al norte de San Vicente y las Granadinas y al sur de la isla de la Martinica. Cubre una superficie terrestre de 617 km² con una población estimada de 183 629 habitantes en el año 2020.",
+	"gobernantes": [
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1979,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Allen Chastanet",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Philip J. Pierre",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +216,11 @@
 			"valor": 179291
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Saint Lucia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q760",
@@ -208,14 +238,46 @@
 			"url": "https://es.wikipedia.org/wiki/Santa_Luc%C3%ADa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16203640",
+			"url": "http://www.wikidata.org/entity/Q16203640",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7184214",
+			"url": "http://www.wikidata.org/entity/Q7184214",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q760",
+			"url": "https://www.wikidata.org/wiki/Q760",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "79dba77520c1",
+		"hash": "36cbc5667392",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

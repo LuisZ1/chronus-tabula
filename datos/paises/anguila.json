@@ -2,13 +2,26 @@
 	"id": "anguila",
 	"nombre": "Anguila",
 	"nombres": [
-		"Anguilla",
-		"Anguila"
+		"Anguilla"
 	],
 	"wiki": "es:Anguila",
 	"wikidata": "Q25228",
 	"owid": "AIA",
 	"resena": "El término anguila puede referirse a:las anguilas (Anguillidae), familia de peces teleósteos del orden Anguilliformes; la anguila americana ; la anguila europea ; la anguila eléctrica, pez de la familia Gymnotidae; Anguila, territorio británico de ultramar (archipiélago) localizado en el mar Caribe; Anguila, isla del archipiélago anterior; Anguilla, pueblo d…",
+	"gobernantes": [
+		{
+			"nombre": "Victor Banks",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Ellis Webster",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -7000,
@@ -179,6 +192,11 @@
 			"valor": 14435
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Anguilla.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q25228",
@@ -196,14 +214,34 @@
 			"url": "https://es.wikipedia.org/wiki/Anguila",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q25228",
+			"url": "https://www.wikidata.org/wiki/Q25228",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q19831099",
+			"url": "http://www.wikidata.org/entity/Q19831099",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q98079363",
+			"url": "http://www.wikidata.org/entity/Q98079363",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "552a27542c09",
+		"hash": "96c5c6424ff4",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

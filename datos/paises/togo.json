@@ -2,9 +2,7 @@
 	"id": "togo",
 	"nombre": "Togo",
 	"nombres": [
-		"Togo",
-		"Togolandia",
-		"República Togolesa"
+		"Togo"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +23,10 @@
 	],
 	"wiki": "es:Togo",
 	"wikidata": "Q945",
+	"relacionados": [
+		"Togolandia",
+		"República Togolesa"
+	],
 	"resena": "Togo es un país de África occidental. Limita con Ghana al oeste, Benín al este y Burkina Faso al norte.",
 	"gobernantes": [
 		{
@@ -90,6 +92,11 @@
 			"fuente": "Our World in Data (est.)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Armoiries du Togo.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -106,14 +113,21 @@
 			"url": "https://es.wikipedia.org/wiki/Togo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q945",
+			"url": "https://www.wikidata.org/wiki/Q945",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "77d2888d82df",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

@@ -2,14 +2,101 @@
 	"id": "kirguistan",
 	"nombre": "Kirguistán",
 	"nombres": [
-		"Kyrgyzstan",
-		"Kirguistán",
-		"Kirguizistán"
+		"Kyrgyzstan"
 	],
 	"wiki": "es:Kirguistán",
 	"wikidata": "Q813",
 	"owid": "KGZ",
+	"relacionados": [
+		"Kirguizistán"
+	],
 	"resena": "Kirguistán o Kirguizistán, oficialmente República Kirguisa ,es un país montañoso, sin litoral, ubicado en Asia Central. Comparte fronteras con Kazajistán al norte, con China al este, con Tayikistán al sur y Uzbekistán al oeste.",
+	"gobernantes": [
+		{
+			"nombre": "Kurmanbek Bakíev",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Rosa Otunbáeva",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Almazbek Atambayev",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Sooronbay Jeenbekov",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Sapar Isakov",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Sooronbay Jeenbekov",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Muhammetkaliy Abulgaziyev",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Kubatbek Boronov",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Sadyr Zhaparov",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Artjom Nowikow",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Sadyr Zhaparov",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Ulukbek Maripov",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Akylbek Japarov",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Adylbek Kasymaliev",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +279,11 @@
 			"valor": 7073523
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Kyrgyzstan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q813",
@@ -209,14 +301,94 @@
 			"url": "https://es.wikipedia.org/wiki/Kirguist%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q813",
+			"url": "https://www.wikidata.org/wiki/Q813",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q484816",
+			"url": "http://www.wikidata.org/entity/Q484816",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q485136",
+			"url": "http://www.wikidata.org/entity/Q485136",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24692",
+			"url": "http://www.wikidata.org/entity/Q24692",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23810819",
+			"url": "http://www.wikidata.org/entity/Q23810819",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29865128",
+			"url": "http://www.wikidata.org/entity/Q29865128",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q37777535",
+			"url": "http://www.wikidata.org/entity/Q37777535",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q96338578",
+			"url": "http://www.wikidata.org/entity/Q96338578",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q25597826",
+			"url": "http://www.wikidata.org/entity/Q25597826",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q101751482",
+			"url": "http://www.wikidata.org/entity/Q101751482",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q105277058",
+			"url": "http://www.wikidata.org/entity/Q105277058",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4060344",
+			"url": "http://www.wikidata.org/entity/Q4060344",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q112703041",
+			"url": "http://www.wikidata.org/entity/Q112703041",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "863b13e0beb5",
+		"hash": "a1d83678c52d",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

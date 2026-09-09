@@ -2,10 +2,7 @@
 	"id": "burkina-faso",
 	"nombre": "Burkina Faso",
 	"nombres": [
-		"Burkina Faso",
-		"Alto Volta",
-		"Upper Volta",
-		"República del Alto Volta"
+		"Burkina Faso"
 	],
 	"nombres_periodo": [
 		{
@@ -21,6 +18,11 @@
 	],
 	"wiki": "es:Burkina Faso",
 	"wikidata": "Q965",
+	"relacionados": [
+		"Alto Volta",
+		"Upper Volta",
+		"República del Alto Volta"
+	],
 	"resena": "Burkina Faso es un país sin litoral de África Occidental que limita al noroeste con Malí, al este con Níger, al sureste con Benín y al sur con Costa de Marfil, Ghana y Togo. En 2025 la ONU estimó su población en 24 074 580 habitantes.",
 	"gobernantes": [
 		{

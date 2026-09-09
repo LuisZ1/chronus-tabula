@@ -2,13 +2,32 @@
 	"id": "butan",
 	"nombre": "Bután",
 	"nombres": [
-		"Bhutan",
-		"Bután"
+		"Bhutan"
 	],
 	"wiki": "es:Bután",
 	"wikidata": "Q917",
 	"owid": "BTN",
 	"resena": "Bután oficialmente Reino de Bután, es un país del sur de Asia ubicado en la cordillera del Himalaya y sin salida al mar. Limita al norte y noroeste con la República Popular China y al sur y sudeste con la India.",
+	"gobernantes": [
+		{
+			"nombre": "Jigme Singye Wangchuck",
+			"cargo": "jefe de Estado",
+			"desde": 1972,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Jigme Khesar Namgyal Wangchuck",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Tshering Tobgay",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +210,11 @@
 			"valor": 786386
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Bhutan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q917",
@@ -208,14 +232,40 @@
 			"url": "https://es.wikipedia.org/wiki/But%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q917",
+			"url": "https://www.wikidata.org/wiki/Q917",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q200273",
+			"url": "http://www.wikidata.org/entity/Q200273",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57376",
+			"url": "http://www.wikidata.org/entity/Q57376",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7849613",
+			"url": "http://www.wikidata.org/entity/Q7849613",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "b7d4b5112b0d",
+		"hash": "3790e9637970",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

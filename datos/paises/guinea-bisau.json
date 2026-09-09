@@ -3,8 +3,7 @@
 	"nombre": "Guinea-Bisau",
 	"nombres": [
 		"Guinea-Bissau",
-		"Guinea-Bissau (Portugal)",
-		"Guinea Portuguesa"
+		"Guinea-Bissau (Portugal)"
 	],
 	"nombres_periodo": [
 		{
@@ -20,6 +19,9 @@
 	],
 	"wiki": "es:Guinea-Bisáu",
 	"wikidata": "Q1007",
+	"relacionados": [
+		"Guinea Portuguesa"
+	],
 	"resena": "Guinea-Bisáu o Guinea-Bissau, oficialmente la República de Guinea-Bisáu, es un país del oeste de África que cubre 36 125 km² con una población estimada de 1 644 000 habitantes (2022). Limita con Senegal al norte, Guinea al sur y al este, y con el océano Atlántico al oeste.",
 	"gobernantes": [
 		{

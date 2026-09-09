@@ -1,9 +1,9 @@
 {
 	"nombre": "Cisjordania",
-	"pais": "Jordania",
-	"estatus": "Ocupada por Transjordania en 1948 y anexionada por Jordania en 1950 (anexión reconocida por muy pocos países)",
-	"desde": 1948,
-	"hasta": 1966,
+	"pais": "Palestina",
+	"estatus": "Mandato británico de Palestina (hasta mayo de 1948)",
+	"desde": 1945,
+	"hasta": 1947,
 	"lat": 32.0,
 	"lng": 35.3,
 	"poligono": [
@@ -68,12 +68,18 @@
 			35.56
 		]
 	],
-	"descripcion": "Tras la guerra de 1948 la orilla occidental del Jordán, incluida Jerusalén Este, quedó bajo control jordano; Jordania la anexionó formalmente en 1950. Los mapas base la pintan como parte de Israel: este polígono señala su extensión aproximada según las líneas de armisticio de 1949.",
+	"descripcion": "Hasta la retirada británica y la proclamación de Israel (mayo de 1948) todo el territorio era el Mandato británico de Palestina; el mapa base de 1945 ya rotula «Israel». Este polígono señala la extensión aproximada de Cisjordania según las líneas de armisticio de 1949, para dar continuidad a los periodos siguientes.",
 	"wiki": "Cisjordania",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Cisjordania",
 			"url": "https://es.wikipedia.org/wiki/Cisjordania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Mandato británico de Palestina",
+			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
 		}

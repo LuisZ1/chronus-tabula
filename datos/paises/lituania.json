@@ -2,14 +2,71 @@
 	"id": "lituania",
 	"nombre": "Lituania",
 	"nombres": [
-		"Lithuania",
-		"Lituania",
-		"Republica de Lituania"
+		"Lithuania"
 	],
 	"wiki": "es:Lituania",
 	"wikidata": "Q37",
 	"owid": "LTU",
+	"relacionados": [
+		"Republica de Lituania"
+	],
 	"resena": "Lituania, oficialmente la República de Lituania, es uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido como un Estado social y democrático de derecho, cuya forma de gobierno es la república semipresidencialista unitaria. Su territorio está organizado en diez condados.",
+	"gobernantes": [
+		{
+			"nombre": "Algirdas Brazauskas",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Valdas Adamkus",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Valdas Adamkus",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Dalia Grybauskaitė",
+			"cargo": "jefe de Estado",
+			"desde": 2009,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Gitanas Nausėda",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Ingrida Šimonytė",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Gintautas Paluckas",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Inga Ruginienė",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Mindaugas Sinkevičius",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +249,11 @@
 			"valor": 2854104
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Lithuania.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q37",
@@ -209,14 +271,70 @@
 			"url": "https://es.wikipedia.org/wiki/Lituania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q37",
+			"url": "https://www.wikidata.org/wiki/Q37",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q212751",
+			"url": "http://www.wikidata.org/entity/Q212751",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q153167",
+			"url": "http://www.wikidata.org/entity/Q153167",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57379",
+			"url": "http://www.wikidata.org/entity/Q57379",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9268379",
+			"url": "http://www.wikidata.org/entity/Q9268379",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q437096",
+			"url": "http://www.wikidata.org/entity/Q437096",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12655545",
+			"url": "http://www.wikidata.org/entity/Q12655545",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q124516173",
+			"url": "http://www.wikidata.org/entity/Q124516173",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1936326",
+			"url": "http://www.wikidata.org/entity/Q1936326",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "fe968acd80b0",
+		"hash": "841e72f85482",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

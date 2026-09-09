@@ -8,6 +8,56 @@
 	"wikidata": "Q711",
 	"owid": "MNG",
 	"resena": "Mongolia es un Estado soberano sin acceso al mar, situado en Asia Oriental. Limita al norte con Rusia y al sur con China.",
+	"gobernantes": [
+		{
+			"nombre": "Tsakhiagiin Elbegdorj",
+			"cargo": "jefe de Estado",
+			"desde": 2009,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Jargaltulgyn Erdenebat",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Khaltmaagiin Battulga",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Ukhnaagiin Khürelsükh",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Ukhnaagiin Khürelsükh",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Oyunerdene Luvsannamsrai",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Zandanshatar Gombojav",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Uchral Nyam-Osor",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +240,11 @@
 			"valor": 3431938
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "State emblem of Mongolia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q711",
@@ -207,14 +262,64 @@
 			"url": "https://es.wikipedia.org/wiki/Mongolia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q711",
+			"url": "https://www.wikidata.org/wiki/Q711",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57421",
+			"url": "http://www.wikidata.org/entity/Q57421",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q25848773",
+			"url": "http://www.wikidata.org/entity/Q25848773",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9122260",
+			"url": "http://www.wikidata.org/entity/Q9122260",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q27058418",
+			"url": "http://www.wikidata.org/entity/Q27058418",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24248226",
+			"url": "http://www.wikidata.org/entity/Q24248226",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4142905",
+			"url": "http://www.wikidata.org/entity/Q4142905",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q110962738",
+			"url": "http://www.wikidata.org/entity/Q110962738",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "8cf8b3ebb3f6",
+		"hash": "d5b9a138518f",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

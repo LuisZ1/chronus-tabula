@@ -8,6 +8,26 @@
 	"wikidata": "Q817",
 	"owid": "KWT",
 	"resena": "Kuwait, cuyo nombre oficial es Estado de Kuwait, es un país árabe situado en Asia Occidental, en el extremo noreste de la península arábiga y en la punta norte del golfo Pérsico, donde comparte fronteras con Irak por el norte y con Arabia Saudita por el sur. Su nombre es un diminutivo en árabe de la palabra كوت (kūt), que significa «fortaleza».",
+	"gobernantes": [
+		{
+			"nombre": "Sabah Al-Ahmad Al-Jaber Al-Sabah",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Nawaf Al-Áhmad Al-Yáber Al-Sabah",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +210,11 @@
 			"valor": 4838781
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of the State of Kuwait.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q817",
@@ -207,14 +232,40 @@
 			"url": "https://es.wikipedia.org/wiki/Kuwait",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q817",
+			"url": "https://www.wikidata.org/wiki/Q817",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57555",
+			"url": "http://www.wikidata.org/entity/Q57555",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q641805",
+			"url": "http://www.wikidata.org/entity/Q641805",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12243161",
+			"url": "http://www.wikidata.org/entity/Q12243161",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "3cdb8d7e0e34",
+		"hash": "1426b6f9a883",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

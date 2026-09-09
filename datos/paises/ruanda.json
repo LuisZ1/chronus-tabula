@@ -3,9 +3,7 @@
 	"nombre": "Ruanda",
 	"nombres": [
 		"Rwanda",
-		"Rwanda (Belgium)",
-		"Ruanda-Urundi",
-		"República de Ruanda"
+		"Rwanda (Belgium)"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +24,10 @@
 	],
 	"wiki": "es:Ruanda",
 	"wikidata": "Q1037",
+	"relacionados": [
+		"Ruanda-Urundi",
+		"República de Ruanda"
+	],
 	"resena": "Ruanda, cuyo nombre oficial es República de Rwanda, es un país en África Oriental, África Central o África centro-este sin salida al mar. Limita al norte con Uganda, al este con Tanzania, al sur con Burundi y al oeste con la República Democrática del Congo.",
 	"gobernantes": [
 		{
@@ -120,6 +122,11 @@
 			"fuente": "censo (Wikipedia es)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Rwanda.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -136,14 +143,21 @@
 			"url": "https://es.wikipedia.org/wiki/Ruanda",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1037",
+			"url": "https://www.wikidata.org/wiki/Q1037",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "71eef4911180",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

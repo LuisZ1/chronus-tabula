@@ -2,14 +2,59 @@
 	"id": "birmania",
 	"nombre": "Birmania",
 	"nombres": [
-		"Burma",
-		"Birmania",
-		"Myanmar"
+		"Burma"
 	],
 	"wiki": "es:Birmania",
 	"wikidata": "Q836",
 	"owid": "MMR",
+	"relacionados": [
+		"Myanmar"
+	],
 	"resena": "Birmania o Myanmar, cuya denominación oficial es República de la Unión de Myanmar, es un Estado soberano del Sudeste Asiático. Limita con India y Bangladés al oeste, Tailandia y Laos al este, China al norte y noreste, y con la bahía de Bengala y el mar de Andamán al sur.",
+	"gobernantes": [
+		{
+			"nombre": "Thein Sein",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Thein Sein",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Htin Kyaw",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Aung San Suu Kyi",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Win Myint",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Min Aung Hlaing",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Myint Swe",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +237,11 @@
 			"valor": 54133800
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "State Seal of the Republic of the Union of Myanmar.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q836",
@@ -209,14 +259,58 @@
 			"url": "https://es.wikipedia.org/wiki/Birmania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q836",
+			"url": "https://www.wikidata.org/wiki/Q836",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q12149",
+			"url": "http://www.wikidata.org/entity/Q12149",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23020990",
+			"url": "http://www.wikidata.org/entity/Q23020990",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q36740",
+			"url": "http://www.wikidata.org/entity/Q36740",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q8023642",
+			"url": "http://www.wikidata.org/entity/Q8023642",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3331362",
+			"url": "http://www.wikidata.org/entity/Q3331362",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3462649",
+			"url": "http://www.wikidata.org/entity/Q3462649",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "22305f34d377",
+		"hash": "2ffeb561e7ed",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

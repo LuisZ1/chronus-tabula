@@ -2,13 +2,80 @@
 	"id": "republica-dominicana",
 	"nombre": "República Dominicana",
 	"nombres": [
-		"Dominican Republic",
-		"República Dominicana"
+		"Dominican Republic"
 	],
 	"wiki": "es:República Dominicana",
 	"wikidata": "Q786",
 	"owid": "DOM",
 	"resena": "La República Dominicana es un país de América situado en el Caribe, ubicado en la zona central de las Antillas; ocupa la parte central y oriental de la isla La Española. Su capital y ciudad más poblada es Santo Domingo.",
+	"gobernantes": [
+		{
+			"nombre": "Héctor García-Godoy",
+			"cargo": "jefe de gobierno",
+			"desde": 1965,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Joaquín Balaguer",
+			"cargo": "jefe de Estado",
+			"desde": 1966,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Antonio Guzmán",
+			"cargo": "jefe de gobierno",
+			"desde": 1978,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Jacobo Majluta",
+			"cargo": "jefe de Estado",
+			"desde": 1982,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Salvador Jorge Blanco",
+			"cargo": "jefe de gobierno",
+			"desde": 1982,
+			"hasta": 1986
+		},
+		{
+			"nombre": "Joaquín Balaguer",
+			"cargo": "jefe de Estado",
+			"desde": 1986,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Leonel Fernández",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Hipólito Mejía",
+			"cargo": "jefe de gobierno",
+			"desde": 2000,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Leonel Fernández",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Danilo Medina",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Luis Abinader",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2020
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +258,11 @@
 			"valor": 11331269
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Dominican Republic.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q786",
@@ -208,14 +280,76 @@
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Dominicana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q786",
+			"url": "https://www.wikidata.org/wiki/Q786",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q880065",
+			"url": "http://www.wikidata.org/entity/Q880065",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q147989",
+			"url": "http://www.wikidata.org/entity/Q147989",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q602428",
+			"url": "http://www.wikidata.org/entity/Q602428",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5972763",
+			"url": "http://www.wikidata.org/entity/Q5972763",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q562002",
+			"url": "http://www.wikidata.org/entity/Q562002",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q151944",
+			"url": "http://www.wikidata.org/entity/Q151944",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q653611",
+			"url": "http://www.wikidata.org/entity/Q653611",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57429",
+			"url": "http://www.wikidata.org/entity/Q57429",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16594097",
+			"url": "http://www.wikidata.org/entity/Q16594097",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "e4de6db639b3",
+		"hash": "10912ba9f621",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

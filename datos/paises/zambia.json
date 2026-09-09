@@ -2,8 +2,7 @@
 	"id": "zambia",
 	"nombre": "Zambia",
 	"nombres": [
-		"Zambia",
-		"República de Zambia"
+		"Zambia"
 	],
 	"nombres_periodo": [
 		{
@@ -19,6 +18,9 @@
 	],
 	"wiki": "es:Zambia",
 	"wikidata": "Q953",
+	"relacionados": [
+		"República de Zambia"
+	],
 	"resena": "Zambia, oficialmente la República de Zambia, es un país sin salida al mar ubicado en el centro-sur del continente africano. Limita con la República Democrática del Congo al norte, Tanzania al noreste, Malaui y Mozambique al este, Zimbabue y Botsuana al sur, Namibia al suroeste y con Angola al oeste.",
 	"gobernantes": [
 		{

@@ -2,13 +2,62 @@
 	"id": "belice",
 	"nombre": "Belice",
 	"nombres": [
-		"Belize",
-		"Belice"
+		"Belize"
 	],
 	"wiki": "es:Belice",
 	"wikidata": "Q242",
 	"owid": "BLZ",
 	"resena": "Belice es un país soberano de América ubicado en el extremo noreste de América Central y en la región del Caribe. Limita al norte con México y al sur y oeste con Guatemala.",
+	"gobernantes": [
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Manuel Esquivel",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1989
+		},
+		{
+			"nombre": "George Cadle Price",
+			"cargo": "jefe de gobierno",
+			"desde": 1989,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Manuel Esquivel",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Said Musa",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Dean Barrow",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Johnny Briceño",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +240,11 @@
 			"valor": 411112
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Belize.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q242",
@@ -208,14 +262,64 @@
 			"url": "https://es.wikipedia.org/wiki/Belice",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q242",
+			"url": "https://www.wikidata.org/wiki/Q242",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q951969",
+			"url": "http://www.wikidata.org/entity/Q951969",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q542559",
+			"url": "http://www.wikidata.org/entity/Q542559",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335215",
+			"url": "http://www.wikidata.org/entity/Q335215",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57701",
+			"url": "http://www.wikidata.org/entity/Q57701",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6266369",
+			"url": "http://www.wikidata.org/entity/Q6266369",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "5a9418e8842b",
+		"hash": "835decba03d8",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

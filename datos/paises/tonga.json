@@ -8,6 +8,26 @@
 	"wikidata": "Q678",
 	"owid": "TON",
 	"resena": "Tonga, oficialmente Reino de Tonga, es un país soberano insular ubicado en Oceanía integrado dentro de la Polinesia y constituido como una monarquía parlamentaria.",
+	"gobernantes": [
+		{
+			"nombre": "Tupou VI",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Fatafehi Kinikinilau Lolomana‘ia Fakafanua",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "ʻAisake Eke",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -1000,
@@ -154,6 +174,11 @@
 			"valor": 104613
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Tonga.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q678",
@@ -171,14 +196,40 @@
 			"url": "https://es.wikipedia.org/wiki/Tonga",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q208497",
+			"url": "http://www.wikidata.org/entity/Q208497",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q8083950",
+			"url": "http://www.wikidata.org/entity/Q8083950",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5437258",
+			"url": "http://www.wikidata.org/entity/Q5437258",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q678",
+			"url": "https://www.wikidata.org/wiki/Q678",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "89037c7bf7d1",
+		"hash": "3ca9117f3777",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

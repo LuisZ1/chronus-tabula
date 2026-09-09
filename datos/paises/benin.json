@@ -3,9 +3,7 @@
 	"nombre": "Benín",
 	"nombres": [
 		"Benin",
-		"Dahomey",
-		"República de Dahomey",
-		"República Popular de Benín"
+		"Dahomey"
 	],
 	"nombres_periodo": [
 		{
@@ -36,6 +34,10 @@
 	],
 	"wiki": "es:Benín",
 	"wikidata": "Q962",
+	"relacionados": [
+		"República de Dahomey",
+		"República Popular de Benín"
+	],
 	"resena": "Benín, hasta 1975 Dahomey, oficialmente la República de Benín, es un país ubicado en el oeste de África. Está limitado por Togo al oeste, por Nigeria al este y por Burkina Faso y Níger al norte.",
 	"gobernantes": [
 		{

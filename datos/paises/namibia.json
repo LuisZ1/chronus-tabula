@@ -2,10 +2,7 @@
 	"id": "namibia",
 	"nombre": "Namibia",
 	"nombres": [
-		"Namibia",
-		"África del Sudoeste",
-		"South-West Africa",
-		"Deutsch-Südwestafrika"
+		"Namibia"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +23,11 @@
 	],
 	"wiki": "es:Namibia",
 	"wikidata": "Q1030",
+	"relacionados": [
+		"África del Sudoeste",
+		"South-West Africa",
+		"Deutsch-Südwestafrika"
+	],
 	"resena": "Namibia, oficialmente República de Namibia, es un país del suroeste de África. Comparte fronteras terrestres con Angola al norte, con Zambia al noreste, con Botsuana al este, con Sudáfrica al sureste y sur y con el océano Atlántico al oeste.",
 	"gobernantes": [
 		{
@@ -91,6 +93,11 @@
 			"fuente": "Wikipedia (Demographics of Namibia), censo"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Namibia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -112,14 +119,21 @@
 			"url": "https://es.wikipedia.org/wiki/Namibia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1030",
+			"url": "https://www.wikidata.org/wiki/Q1030",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "a76a07a8a0a2",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

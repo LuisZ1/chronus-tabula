@@ -2,14 +2,113 @@
 	"id": "banglades",
 	"nombre": "Bangladés",
 	"nombres": [
-		"Bangladesh",
-		"Bangladés",
-		"Republica Popular de Banglades"
+		"Bangladesh"
 	],
 	"wiki": "es:Bangladés",
 	"wikidata": "Q902",
 	"owid": "BGD",
+	"relacionados": [
+		"Republica Popular de Banglades"
+	],
 	"resena": "Bangladés o Bangladesh, oficialmente República Popular de Bangladés es un país soberano ubicado en Asia del Sur. Su territorio se encuentra rodeado casi por completo por la India, a excepción de una pequeña franja al sureste donde limita con Birmania.",
+	"gobernantes": [
+		{
+			"nombre": "Sheikh Mujibur Rahman",
+			"cargo": "jefe de Estado",
+			"desde": 1971,
+			"hasta": 1972
+		},
+		{
+			"nombre": "Syed Nazrul Islam",
+			"cargo": "jefe de Estado",
+			"desde": 1971,
+			"hasta": 1972
+		},
+		{
+			"nombre": "Jaleda Zia",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Muhammad Habibur Rahman",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Sheikh Hasina",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Latifur Rahman",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Jaleda Zia",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Iajuddin Ahmed",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Fazlul Haque",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Fakhruddin Ahmed",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Zillur Rahman",
+			"cargo": "jefe de Estado",
+			"desde": 2009,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Sheikh Hasina",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Abdul Hamid",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Mohammad Shahabuddin",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Muhammad Yunus",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Tarique Rahman",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +291,11 @@
 			"valor": 171466986
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "National emblem of Bangladesh.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q902",
@@ -209,14 +313,106 @@
 			"url": "https://es.wikipedia.org/wiki/Banglad%C3%A9s",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q902",
+			"url": "https://www.wikidata.org/wiki/Q902",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q191375",
+			"url": "http://www.wikidata.org/entity/Q191375",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3346340",
+			"url": "http://www.wikidata.org/entity/Q3346340",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q234814",
+			"url": "http://www.wikidata.org/entity/Q234814",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2093175",
+			"url": "http://www.wikidata.org/entity/Q2093175",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q52183",
+			"url": "http://www.wikidata.org/entity/Q52183",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2093148",
+			"url": "http://www.wikidata.org/entity/Q2093148",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q165672",
+			"url": "http://www.wikidata.org/entity/Q165672",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5439229",
+			"url": "http://www.wikidata.org/entity/Q5439229",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q560060",
+			"url": "http://www.wikidata.org/entity/Q560060",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57485",
+			"url": "http://www.wikidata.org/entity/Q57485",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3246667",
+			"url": "http://www.wikidata.org/entity/Q3246667",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q116763154",
+			"url": "http://www.wikidata.org/entity/Q116763154",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43969",
+			"url": "http://www.wikidata.org/entity/Q43969",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7686199",
+			"url": "http://www.wikidata.org/entity/Q7686199",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "bdee4254e045",
+		"hash": "cf2c6e347ee4",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -2,13 +2,14 @@
 	"id": "brunei",
 	"nombre": "Brunéi",
 	"nombres": [
-		"Brunei",
-		"Brunéi",
-		"Brunéi Darusalam"
+		"Brunei"
 	],
 	"wiki": "es:Brunéi",
 	"wikidata": "Q921",
 	"owid": "BRN",
+	"relacionados": [
+		"Brunéi Darusalam"
+	],
 	"resena": "Brunéi es uno de los países que componen el continente asiático. Su capital y ciudad más poblada es Bandar Seri Begawan.",
 	"poblacion": [
 		{
@@ -192,6 +193,11 @@
 			"valor": 458959
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Brunei.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q921",
@@ -209,14 +215,21 @@
 			"url": "https://es.wikipedia.org/wiki/Brun%C3%A9i",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q921",
+			"url": "https://www.wikidata.org/wiki/Q921",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "853c488e64c7",
 		"secciones": [
+			"escudos",
 			"poblacion",
 			"resena"
 		]

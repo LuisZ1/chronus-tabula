@@ -2,13 +2,65 @@
 	"id": "honduras",
 	"nombre": "Honduras",
 	"nombres": [
-		"Honduras",
-		"Republica de Honduras"
+		"Honduras"
 	],
 	"wiki": "es:Honduras",
 	"wikidata": "Q783",
 	"owid": "HND",
+	"relacionados": [
+		"Republica de Honduras"
+	],
 	"resena": "Honduras, oficialmente República de Honduras, es un país ubicado en América Central con costas en el océano Atlántico y en el océano Pacífico. Está constituido como un Estado unitario, libre, soberano e independiente.",
+	"gobernantes": [
+		{
+			"nombre": "Carlos Flores Facussé",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Ricardo Maduro",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Manuel Zelaya",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Roberto Micheletti",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Porfirio Lobo Sosa",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Juan Orlando Hernández",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Xiomara Castro",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Nasry Asfura",
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +243,11 @@
 			"valor": 10644853
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Honduras.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q783",
@@ -208,14 +265,70 @@
 			"url": "https://es.wikipedia.org/wiki/Honduras",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q783",
+			"url": "https://www.wikidata.org/wiki/Q783",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q654177",
+			"url": "http://www.wikidata.org/entity/Q654177",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q441393",
+			"url": "http://www.wikidata.org/entity/Q441393",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q191060",
+			"url": "http://www.wikidata.org/entity/Q191060",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q299442",
+			"url": "http://www.wikidata.org/entity/Q299442",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4737",
+			"url": "http://www.wikidata.org/entity/Q4737",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5951723",
+			"url": "http://www.wikidata.org/entity/Q5951723",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q8044708",
+			"url": "http://www.wikidata.org/entity/Q8044708",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16146159",
+			"url": "http://www.wikidata.org/entity/Q16146159",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c38d0c974e2c",
+		"hash": "d167c4f866b4",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

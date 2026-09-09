@@ -2,13 +2,20 @@
 	"id": "camboya",
 	"nombre": "Camboya",
 	"nombres": [
-		"Cambodia",
-		"Camboya"
+		"Cambodia"
 	],
 	"wiki": "es:Camboya",
 	"wikidata": "Q424",
 	"owid": "KHM",
 	"resena": "Camboya, oficialmente Reino de Camboya, es un estado soberano ubicado al sur de la península de Indochina, en el Sudeste Asiático. Su capital y ciudad más poblada es Nom Pen.",
+	"gobernantes": [
+		{
+			"nombre": "Norodom Sihamoní",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2004
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +198,11 @@
 			"valor": 17423884
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Royal arms of Cambodia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q424",
@@ -208,14 +220,28 @@
 			"url": "https://es.wikipedia.org/wiki/Camboya",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q424",
+			"url": "https://www.wikidata.org/wiki/Q424",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57319",
+			"url": "http://www.wikidata.org/entity/Q57319",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "906b4fcc9b41",
+		"hash": "24770060e7ab",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

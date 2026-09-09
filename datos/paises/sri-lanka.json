@@ -8,6 +8,50 @@
 	"wikidata": "Q854",
 	"owid": "LKA",
 	"resena": "Sri Lanka, oficialmente la República Socialista Democrática de Sri Lanka, es un país soberano insular de Asia del Sur, cuya forma de gobierno es la república semipresidencialista. Su territorio está organizado en nueve provincias y veinticuatro distritos.",
+	"gobernantes": [
+		{
+			"nombre": "Mahinda Rajapaksa",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Maithripala Sirisena",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Ranil Wickremasinghe",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Dinesh Gunawardena",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Ranil Wickremasinghe",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Anura Kumara Dissanayake",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Harini Amarasuriya",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +234,11 @@
 			"valor": 22971615
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Sri Lanka.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q854",
@@ -207,14 +256,58 @@
 			"url": "https://es.wikipedia.org/wiki/Sri_Lanka",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57338",
+			"url": "http://www.wikidata.org/entity/Q57338",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6737124",
+			"url": "http://www.wikidata.org/entity/Q6737124",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q983402",
+			"url": "http://www.wikidata.org/entity/Q983402",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5278077",
+			"url": "http://www.wikidata.org/entity/Q5278077",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4777855",
+			"url": "http://www.wikidata.org/entity/Q4777855",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q98298397",
+			"url": "http://www.wikidata.org/entity/Q98298397",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q854",
+			"url": "https://www.wikidata.org/wiki/Q854",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "060962ab9c33",
+		"hash": "5f80d240517c",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

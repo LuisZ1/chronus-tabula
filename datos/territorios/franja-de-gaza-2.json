@@ -1,9 +1,9 @@
 {
 	"nombre": "Franja de Gaza",
-	"pais": "Palestina",
-	"estatus": "Ocupación militar israelí desde la guerra de los Seis Días (1967); para Naciones Unidas, Territorio palestino ocupado",
-	"desde": 1967,
-	"hasta": 1993,
+	"pais": "Egipto",
+	"estatus": "Administración militar egipcia (1948–1967)",
+	"desde": 1948,
+	"hasta": 1966,
 	"lat": 31.42,
 	"lng": 34.38,
 	"poligono": [
@@ -36,18 +36,12 @@
 			34.14
 		]
 	],
-	"descripcion": "Israel ocupó la franja en junio de 1967 y la administró militarmente. En 1988 la OLP proclamó el Estado de Palestina sobre Gaza y Cisjordania. Los mapas base no distinguen la franja de Israel: este polígono señala su extensión aproximada.",
+	"descripcion": "Tras la guerra árabe-israelí de 1948 y los armisticios de 1949, la Franja de Gaza quedó bajo administración militar egipcia, sin ser anexionada. Acogió a gran parte de la población palestina desplazada. Los mapas base no distinguen la franja de Israel: este polígono señala su extensión aproximada.",
 	"wiki": "Franja de Gaza",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Franja de Gaza",
 			"url": "https://es.wikipedia.org/wiki/Franja_de_Gaza",
-			"licencia": "CC BY-SA",
-			"consultado": "2026-09-09"
-		},
-		{
-			"id": "wikipedia-es:Territorios palestinos ocupados",
-			"url": "https://es.wikipedia.org/wiki/Territorios_palestinos_ocupados",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
 		}

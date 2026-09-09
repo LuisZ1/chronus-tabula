@@ -2,11 +2,7 @@
 	"id": "mali",
 	"nombre": "Imperio de Malí",
 	"nombres": [
-		"Mali",
-		"Malí",
-		"Imperio de Malí",
-		"Imperio mandinga",
-		"República de Malí"
+		"Mali"
 	],
 	"nombres_periodo": [
 		{
@@ -28,7 +24,9 @@
 	"wiki": "es:Imperio de Malí",
 	"wikidata": "Q463705",
 	"relacionados": [
-		"Malí"
+		"Malí",
+		"Imperio mandinga",
+		"República de Malí"
 	],
 	"resena": "El Imperio de Mali fue un Estado medieval de los mandenká entre 1235–1546, un pueblo cuyo núcleo fue la región de Mandén, entre las actuales ciudades de Bamako (Mali) y Siguiri (Guinea), en el África Occidental. El imperio fue fundado por Sundiata Keïta.",
 	"gobernantes": [

@@ -2,13 +2,122 @@
 	"id": "eslovaquia",
 	"nombre": "Eslovaquia",
 	"nombres": [
-		"Slovakia",
-		"Eslovaquia"
+		"Slovakia"
 	],
 	"wiki": "es:Eslovaquia",
 	"wikidata": "Q214",
 	"owid": "SVK",
 	"resena": "Eslovaquia, oficialmente República Eslovaca, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Situado en Europa Central, es un Estado sin salida al mar.",
+	"gobernantes": [
+		{
+			"nombre": "Vladimír Mečiar",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Michal Kováč",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Jozef Moravčík",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Vladimír Mečiar",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Mikuláš Dzurinda",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Rudolf Schuster",
+			"cargo": "jefe de Estado",
+			"desde": 1999,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Ivan Gašparovič",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Robert Fico",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Iveta Radičová",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Robert Fico",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Andrej Kiska",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Peter Pellegrini",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Zuzana Caputova",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Igor Matovič",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Eduard Heger",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Robert Fico",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Ľudovít Ódor",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Peter Pellegrini",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +300,11 @@
 			"valor": 5518057
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Slovakia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q214",
@@ -208,14 +322,106 @@
 			"url": "https://es.wikipedia.org/wiki/Eslovaquia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q214",
+			"url": "https://www.wikidata.org/wiki/Q214",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q316526",
+			"url": "http://www.wikidata.org/entity/Q316526",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356990",
+			"url": "http://www.wikidata.org/entity/Q356990",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q705654",
+			"url": "http://www.wikidata.org/entity/Q705654",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q212765",
+			"url": "http://www.wikidata.org/entity/Q212765",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q163813",
+			"url": "http://www.wikidata.org/entity/Q163813",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57295",
+			"url": "http://www.wikidata.org/entity/Q57295",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57606",
+			"url": "http://www.wikidata.org/entity/Q57606",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q211771",
+			"url": "http://www.wikidata.org/entity/Q211771",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12762303",
+			"url": "http://www.wikidata.org/entity/Q12762303",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q17330556",
+			"url": "http://www.wikidata.org/entity/Q17330556",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q26273268",
+			"url": "http://www.wikidata.org/entity/Q26273268",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q552706",
+			"url": "http://www.wikidata.org/entity/Q552706",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q46227987",
+			"url": "http://www.wikidata.org/entity/Q46227987",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q96747230",
+			"url": "http://www.wikidata.org/entity/Q96747230",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "40c08f0810f6",
+		"hash": "1c604a71e701",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

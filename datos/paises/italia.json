@@ -2,13 +2,494 @@
 	"id": "italia",
 	"nombre": "Italia",
 	"nombres": [
-		"Italy",
-		"Italia"
+		"Italy"
 	],
 	"wiki": "es:Italia",
 	"wikidata": "Q38",
 	"owid": "ITA",
 	"resena": "Italia, oficialmente la República Italiana, es un país soberano ubicado en Europa meridional, y uno de los veintisiete Estados miembros de la Unión Europea. Está constituido en una república parlamentaria compuesta por veinte regiones, integradas a su vez por ciento diez provincias.",
+	"gobernantes": [
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de Estado",
+			"desde": 1946,
+			"hasta": 1946
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1946,
+			"hasta": 1947
+		},
+		{
+			"nombre": "Enrico de Nicola",
+			"cargo": "jefe de Estado",
+			"desde": 1946,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1947,
+			"hasta": 1947
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1947,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1948,
+			"hasta": 1950
+		},
+		{
+			"nombre": "Luigi Einaudi",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1955
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1950,
+			"hasta": 1951
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1951,
+			"hasta": 1953
+		},
+		{
+			"nombre": "Alcide De Gasperi",
+			"cargo": "jefe de gobierno",
+			"desde": 1953,
+			"hasta": 1953
+		},
+		{
+			"nombre": "Giuseppe Pella",
+			"cargo": "jefe de gobierno",
+			"desde": 1953,
+			"hasta": 1954
+		},
+		{
+			"nombre": "Amintore Fanfani",
+			"cargo": "jefe de gobierno",
+			"desde": 1954,
+			"hasta": 1954
+		},
+		{
+			"nombre": "Mario Scelba",
+			"cargo": "jefe de gobierno",
+			"desde": 1954,
+			"hasta": 1955
+		},
+		{
+			"nombre": "Antonio Segni",
+			"cargo": "jefe de gobierno",
+			"desde": 1955,
+			"hasta": 1957
+		},
+		{
+			"nombre": "Giovanni Gronchi",
+			"cargo": "jefe de Estado",
+			"desde": 1955,
+			"hasta": 1962
+		},
+		{
+			"nombre": "Adone Zoli",
+			"cargo": "jefe de gobierno",
+			"desde": 1957,
+			"hasta": 1958
+		},
+		{
+			"nombre": "Amintore Fanfani",
+			"cargo": "jefe de gobierno",
+			"desde": 1958,
+			"hasta": 1959
+		},
+		{
+			"nombre": "Antonio Segni",
+			"cargo": "jefe de gobierno",
+			"desde": 1959,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Fernando Tambroni-Armaroli",
+			"cargo": "jefe de gobierno",
+			"desde": 1960,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Amintore Fanfani",
+			"cargo": "jefe de gobierno",
+			"desde": 1960,
+			"hasta": 1962
+		},
+		{
+			"nombre": "Amintore Fanfani",
+			"cargo": "jefe de gobierno",
+			"desde": 1962,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Antonio Segni",
+			"cargo": "jefe de Estado",
+			"desde": 1962,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Giovanni Leone",
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Aldo Moro",
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Aldo Moro",
+			"cargo": "jefe de gobierno",
+			"desde": 1964,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Giuseppe Saragat",
+			"cargo": "jefe de Estado",
+			"desde": 1964,
+			"hasta": 1971
+		},
+		{
+			"nombre": "Aldo Moro",
+			"cargo": "jefe de gobierno",
+			"desde": 1966,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Giovanni Leone",
+			"cargo": "jefe de gobierno",
+			"desde": 1968,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Mariano Rumor",
+			"cargo": "jefe de gobierno",
+			"desde": 1968,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Mariano Rumor",
+			"cargo": "jefe de gobierno",
+			"desde": 1969,
+			"hasta": 1970
+		},
+		{
+			"nombre": "Mariano Rumor",
+			"cargo": "jefe de gobierno",
+			"desde": 1970,
+			"hasta": 1970
+		},
+		{
+			"nombre": "Emilio Colombo",
+			"cargo": "jefe de gobierno",
+			"desde": 1970,
+			"hasta": 1972
+		},
+		{
+			"nombre": "Giovanni Leone",
+			"cargo": "jefe de Estado",
+			"desde": 1971,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1972,
+			"hasta": 1972
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1972,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Mariano Rumor",
+			"cargo": "jefe de gobierno",
+			"desde": 1973,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Mariano Rumor",
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Aldo Moro",
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1976
+		},
+		{
+			"nombre": "Aldo Moro",
+			"cargo": "jefe de gobierno",
+			"desde": 1976,
+			"hasta": 1976
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1976,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1978,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Sandro Pertini",
+			"cargo": "jefe de Estado",
+			"desde": 1978,
+			"hasta": 1985
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Francesco Cossiga",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Francesco Cossiga",
+			"cargo": "jefe de gobierno",
+			"desde": 1980,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Arnaldo Forlani",
+			"cargo": "jefe de gobierno",
+			"desde": 1980,
+			"hasta": 1981
+		},
+		{
+			"nombre": "Giovanni Spadolini",
+			"cargo": "jefe de gobierno",
+			"desde": 1981,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Giovanni Spadolini",
+			"cargo": "jefe de gobierno",
+			"desde": 1982,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Amintore Fanfani",
+			"cargo": "jefe de gobierno",
+			"desde": 1982,
+			"hasta": 1983
+		},
+		{
+			"nombre": "Bettino Craxi",
+			"cargo": "jefe de gobierno",
+			"desde": 1983,
+			"hasta": 1986
+		},
+		{
+			"nombre": "Francesco Cossiga",
+			"cargo": "jefe de Estado",
+			"desde": 1985,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Bettino Craxi",
+			"cargo": "jefe de gobierno",
+			"desde": 1986,
+			"hasta": 1987
+		},
+		{
+			"nombre": "Amintore Fanfani",
+			"cargo": "jefe de gobierno",
+			"desde": 1987,
+			"hasta": 1987
+		},
+		{
+			"nombre": "Giovanni Goria",
+			"cargo": "jefe de gobierno",
+			"desde": 1987,
+			"hasta": 1988
+		},
+		{
+			"nombre": "Ciriaco De Mita",
+			"cargo": "jefe de gobierno",
+			"desde": 1988,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1989,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Giulio Andreotti",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Giuliano Amato",
+			"cargo": "jefe de gobierno",
+			"desde": 1992,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Oscar Luigi Scalfaro",
+			"cargo": "jefe de Estado",
+			"desde": 1992,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Carlo Azeglio Ciampi",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Silvio Berlusconi",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 1995
+		},
+		{
+			"nombre": "Lamberto Dini",
+			"cargo": "jefe de gobierno",
+			"desde": 1995,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Romano Prodi",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Massimo D'Alema",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Massimo D'Alema",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Carlo Azeglio Ciampi",
+			"cargo": "jefe de Estado",
+			"desde": 1999,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Giuliano Amato",
+			"cargo": "jefe de gobierno",
+			"desde": 2000,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Silvio Berlusconi",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Silvio Berlusconi",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Romano Prodi",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Giorgio Napolitano",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Silvio Berlusconi",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Mario Monti",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Enrico Letta",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Matteo Renzi",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Sergio Mattarella",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Paolo Gentiloni",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Giuseppe Conte",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Mario Draghi",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Giorgia Meloni",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +672,12 @@
 			"valor": 59499452
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Italy.svg",
+			"desde": 1948
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q38",
@@ -208,14 +695,256 @@
 			"url": "https://es.wikipedia.org/wiki/Italia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q38",
+			"url": "https://www.wikidata.org/wiki/Q38",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q153832",
+			"url": "http://www.wikidata.org/entity/Q153832",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1245",
+			"url": "http://www.wikidata.org/entity/Q1245",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1242",
+			"url": "http://www.wikidata.org/entity/Q1242",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q320963",
+			"url": "http://www.wikidata.org/entity/Q320963",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q273228",
+			"url": "http://www.wikidata.org/entity/Q273228",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q367342",
+			"url": "http://www.wikidata.org/entity/Q367342",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1241",
+			"url": "http://www.wikidata.org/entity/Q1241",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1240",
+			"url": "http://www.wikidata.org/entity/Q1240",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q366104",
+			"url": "http://www.wikidata.org/entity/Q366104",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q314004",
+			"url": "http://www.wikidata.org/entity/Q314004",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1235",
+			"url": "http://www.wikidata.org/entity/Q1235",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q171834",
+			"url": "http://www.wikidata.org/entity/Q171834",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1238",
+			"url": "http://www.wikidata.org/entity/Q1238",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q316288",
+			"url": "http://www.wikidata.org/entity/Q316288",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q312058",
+			"url": "http://www.wikidata.org/entity/Q312058",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q50005",
+			"url": "http://www.wikidata.org/entity/Q50005",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1233",
+			"url": "http://www.wikidata.org/entity/Q1233",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1230",
+			"url": "http://www.wikidata.org/entity/Q1230",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q434786",
+			"url": "http://www.wikidata.org/entity/Q434786",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q332709",
+			"url": "http://www.wikidata.org/entity/Q332709",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q192818",
+			"url": "http://www.wikidata.org/entity/Q192818",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q336259",
+			"url": "http://www.wikidata.org/entity/Q336259",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q316226",
+			"url": "http://www.wikidata.org/entity/Q316226",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1228",
+			"url": "http://www.wikidata.org/entity/Q1228",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q202209",
+			"url": "http://www.wikidata.org/entity/Q202209",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1224",
+			"url": "http://www.wikidata.org/entity/Q1224",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q11860",
+			"url": "http://www.wikidata.org/entity/Q11860",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q208100",
+			"url": "http://www.wikidata.org/entity/Q208100",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q38484",
+			"url": "http://www.wikidata.org/entity/Q38484",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47602",
+			"url": "http://www.wikidata.org/entity/Q47602",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1220",
+			"url": "http://www.wikidata.org/entity/Q1220",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47904",
+			"url": "http://www.wikidata.org/entity/Q47904",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q674957",
+			"url": "http://www.wikidata.org/entity/Q674957",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47563",
+			"url": "http://www.wikidata.org/entity/Q47563",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3956186",
+			"url": "http://www.wikidata.org/entity/Q3956186",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1071031",
+			"url": "http://www.wikidata.org/entity/Q1071031",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q53844829",
+			"url": "http://www.wikidata.org/entity/Q53844829",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q294460",
+			"url": "http://www.wikidata.org/entity/Q294460",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q451791",
+			"url": "http://www.wikidata.org/entity/Q451791",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "850d0c1cafd2",
+		"hash": "97360df240ed",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

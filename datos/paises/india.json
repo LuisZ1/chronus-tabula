@@ -8,6 +8,224 @@
 	"wikidata": "Q668",
 	"owid": "IND",
 	"resena": "La India, oficialmente República de la India, es un país soberano ubicado en Asia del Sur. Con un estimado de más de 1 476 millones de habitantes, es el país más poblado del mundo desde el año 2023.",
+	"gobernantes": [
+		{
+			"nombre": "Jawaharlal Nehru",
+			"cargo": "jefe de gobierno",
+			"desde": 1947,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Rajendra Prasad",
+			"cargo": "jefe de Estado",
+			"desde": 1950,
+			"hasta": 1962
+		},
+		{
+			"nombre": "Sarvepalli Radhakrishnan",
+			"cargo": "jefe de Estado",
+			"desde": 1962,
+			"hasta": 1967
+		},
+		{
+			"nombre": "Gulzarilal Nanda",
+			"cargo": "jefe de gobierno",
+			"desde": 1964,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Lal Bahadur Shastri",
+			"cargo": "jefe de gobierno",
+			"desde": 1964,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Gulzarilal Nanda",
+			"cargo": "jefe de gobierno",
+			"desde": 1966,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Indira Gandhi",
+			"cargo": "jefe de gobierno",
+			"desde": 1966,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Zakir Husain",
+			"cargo": "jefe de Estado",
+			"desde": 1967,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Mohammad Hidayatullah",
+			"cargo": "jefe de Estado",
+			"desde": 1969,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Varahagiri Venkata Giri",
+			"cargo": "jefe de Estado",
+			"desde": 1969,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Varahagiri Venkata Giri",
+			"cargo": "jefe de Estado",
+			"desde": 1969,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Fakhruddin Alí Ahmed",
+			"cargo": "jefe de Estado",
+			"desde": 1974,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Basappa Danappa Jatti",
+			"cargo": "jefe de Estado",
+			"desde": 1977,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Morarji Desai",
+			"cargo": "jefe de gobierno",
+			"desde": 1977,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Neelam Sanjiva Reddy",
+			"cargo": "jefe de Estado",
+			"desde": 1977,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Charan Singh",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Indira Gandhi",
+			"cargo": "jefe de gobierno",
+			"desde": 1980,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Zail Singh",
+			"cargo": "jefe de Estado",
+			"desde": 1982,
+			"hasta": 1987
+		},
+		{
+			"nombre": "Rajiv Gandhi",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1989
+		},
+		{
+			"nombre": "R. Venkataraman",
+			"cargo": "jefe de Estado",
+			"desde": 1987,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Vishwanath Pratap Singh",
+			"cargo": "jefe de gobierno",
+			"desde": 1989,
+			"hasta": 1990
+		},
+		{
+			"nombre": "Chandra Shekhar",
+			"cargo": "jefe de gobierno",
+			"desde": 1990,
+			"hasta": 1991
+		},
+		{
+			"nombre": "P. V. Narasimha Rao",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Shankar Dayal Sharma",
+			"cargo": "jefe de Estado",
+			"desde": 1992,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Atal Behari Vajpayee",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1996
+		},
+		{
+			"nombre": "H. D. Deve Gowda",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1997
+		},
+		{
+			"nombre": "I. K. Gujral",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 1998
+		},
+		{
+			"nombre": "K. R. Narayanan",
+			"cargo": "jefe de Estado",
+			"desde": 1997,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Atal Behari Vajpayee",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Abdul Kalam",
+			"cargo": "jefe de Estado",
+			"desde": 2002,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Manmohan Singh",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Pratibha Patil",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Pranab Mukherjee",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Q1058",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Ram Nath Kovind",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Draupadi Murmu",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +408,11 @@
 			"valor": 1438069597
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of India.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q668",
@@ -207,14 +430,214 @@
 			"url": "https://es.wikipedia.org/wiki/India",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q668",
+			"url": "https://www.wikidata.org/wiki/Q668",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1047",
+			"url": "http://www.wikidata.org/entity/Q1047",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q197736",
+			"url": "http://www.wikidata.org/entity/Q197736",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q156349",
+			"url": "http://www.wikidata.org/entity/Q156349",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q317769",
+			"url": "http://www.wikidata.org/entity/Q317769",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q244689",
+			"url": "http://www.wikidata.org/entity/Q244689",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1149",
+			"url": "http://www.wikidata.org/entity/Q1149",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q144732",
+			"url": "http://www.wikidata.org/entity/Q144732",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q312557",
+			"url": "http://www.wikidata.org/entity/Q312557",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q557749",
+			"url": "http://www.wikidata.org/entity/Q557749",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q317778",
+			"url": "http://www.wikidata.org/entity/Q317778",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q555247",
+			"url": "http://www.wikidata.org/entity/Q555247",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q218661",
+			"url": "http://www.wikidata.org/entity/Q218661",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q336913",
+			"url": "http://www.wikidata.org/entity/Q336913",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q319824",
+			"url": "http://www.wikidata.org/entity/Q319824",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q334851",
+			"url": "http://www.wikidata.org/entity/Q334851",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4593",
+			"url": "http://www.wikidata.org/entity/Q4593",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q297950",
+			"url": "http://www.wikidata.org/entity/Q297950",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315338",
+			"url": "http://www.wikidata.org/entity/Q315338",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q334279",
+			"url": "http://www.wikidata.org/entity/Q334279",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q275146",
+			"url": "http://www.wikidata.org/entity/Q275146",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q332157",
+			"url": "http://www.wikidata.org/entity/Q332157",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q233289",
+			"url": "http://www.wikidata.org/entity/Q233289",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q377870",
+			"url": "http://www.wikidata.org/entity/Q377870",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q248484",
+			"url": "http://www.wikidata.org/entity/Q248484",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q235454",
+			"url": "http://www.wikidata.org/entity/Q235454",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9513",
+			"url": "http://www.wikidata.org/entity/Q9513",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q41914",
+			"url": "http://www.wikidata.org/entity/Q41914",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47854",
+			"url": "http://www.wikidata.org/entity/Q47854",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57446",
+			"url": "http://www.wikidata.org/entity/Q57446",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1058",
+			"url": "http://www.wikidata.org/entity/Q1058",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16845347",
+			"url": "http://www.wikidata.org/entity/Q16845347",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19901232",
+			"url": "http://www.wikidata.org/entity/Q19901232",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "8b8fbdfdcf51",
+		"hash": "177d6f38b238",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

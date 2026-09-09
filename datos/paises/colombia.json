@@ -8,6 +8,44 @@
 	"wikidata": "Q739",
 	"owid": "COL",
 	"resena": "Colombia, oficialmente la República de Colombia, es un país soberano situado en la región noroccidental de América del Sur. Se constituye en un Estado unitario, democrático y social de derecho, organizado en 32 departamentos y el distrito Capital de Bogotá.",
+	"gobernantes": [
+		{
+			"nombre": "Andrés Pastrana",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Álvaro Uribe Vélez",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Juan Manuel Santos",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Iván Duque",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Gustavo Petro",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Abelardo de la Espriella",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +228,11 @@
 			"valor": 52321152
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Colombia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q739",
@@ -207,14 +250,58 @@
 			"url": "https://es.wikipedia.org/wiki/Colombia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q739",
+			"url": "https://www.wikidata.org/wiki/Q739",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q315975",
+			"url": "http://www.wikidata.org/entity/Q315975",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q187413",
+			"url": "http://www.wikidata.org/entity/Q187413",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57311",
+			"url": "http://www.wikidata.org/entity/Q57311",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q17478000",
+			"url": "http://www.wikidata.org/entity/Q17478000",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q704022",
+			"url": "http://www.wikidata.org/entity/Q704022",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q137204778",
+			"url": "http://www.wikidata.org/entity/Q137204778",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "5ee025a597c5",
+		"hash": "fc7ddeac975a",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

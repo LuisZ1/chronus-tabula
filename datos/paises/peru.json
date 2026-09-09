@@ -2,13 +2,308 @@
 	"id": "peru",
 	"nombre": "Perú",
 	"nombres": [
-		"Peru",
-		"Perú"
+		"Peru"
 	],
 	"wiki": "es:Perú",
 	"wikidata": "Q419",
 	"owid": "PER",
 	"resena": "El Perú, oficialmente República del Perú, es un Estado soberano, ubicado en el oeste de América del Sur. Limita al norte, con Ecuador y Colombia; al este, con Brasil y Bolivia; al sur, con Chile; y al oeste, con el océano Pacífico, que bordea sus 2250 km de costa.",
+	"gobernantes": [
+		{
+			"nombre": "Mariano Herencia Zevallos",
+			"cargo": "jefe de Estado",
+			"desde": 1872,
+			"hasta": 1872
+		},
+		{
+			"nombre": "Manuel Pardo",
+			"cargo": "jefe de Estado",
+			"desde": 1872,
+			"hasta": 1876
+		},
+		{
+			"nombre": "Mariano Ignacio Prado",
+			"cargo": "jefe de Estado",
+			"desde": 1876,
+			"hasta": 1879
+		},
+		{
+			"nombre": "Luis La Puerta",
+			"cargo": "jefe de Estado",
+			"desde": 1879,
+			"hasta": 1879
+		},
+		{
+			"nombre": "Nicolás de Piérola",
+			"cargo": "jefe de Estado",
+			"desde": 1879,
+			"hasta": 1881
+		},
+		{
+			"nombre": "Francisco García-Calderón",
+			"cargo": "jefe de Estado",
+			"desde": 1881,
+			"hasta": 1881
+		},
+		{
+			"nombre": "Lizardo Montero Flores",
+			"cargo": "jefe de Estado",
+			"desde": 1881,
+			"hasta": 1883
+		},
+		{
+			"nombre": "Miguel Iglesias",
+			"cargo": "jefe de Estado",
+			"desde": 1882,
+			"hasta": 1885
+		},
+		{
+			"nombre": "Andrés Avelino Cáceres",
+			"cargo": "jefe de Estado",
+			"desde": 1886,
+			"hasta": 1890
+		},
+		{
+			"nombre": "Remigio Morales Bermúdez",
+			"cargo": "jefe de Estado",
+			"desde": 1890,
+			"hasta": 1894
+		},
+		{
+			"nombre": "Justiniano Borgoño",
+			"cargo": "jefe de Estado",
+			"desde": 1894,
+			"hasta": 1894
+		},
+		{
+			"nombre": "Andrés Avelino Cáceres",
+			"cargo": "jefe de Estado",
+			"desde": 1894,
+			"hasta": 1895
+		},
+		{
+			"nombre": "Nicolás de Piérola",
+			"cargo": "jefe de Estado",
+			"desde": 1895,
+			"hasta": 1899
+		},
+		{
+			"nombre": "Eduardo López de Romaña",
+			"cargo": "jefe de Estado",
+			"desde": 1899,
+			"hasta": 1903
+		},
+		{
+			"nombre": "Manuel Candamo Iriarte",
+			"cargo": "jefe de Estado",
+			"desde": 1903,
+			"hasta": 1904
+		},
+		{
+			"nombre": "Serapio Calderón",
+			"cargo": "jefe de Estado",
+			"desde": 1904,
+			"hasta": 1904
+		},
+		{
+			"nombre": "José Pardo y Barreda",
+			"cargo": "jefe de Estado",
+			"desde": 1904,
+			"hasta": 1908
+		},
+		{
+			"nombre": "Augusto Leguía",
+			"cargo": "jefe de Estado",
+			"desde": 1908,
+			"hasta": 1912
+		},
+		{
+			"nombre": "Guillermo Billinghurst",
+			"cargo": "jefe de Estado",
+			"desde": 1912,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Óscar R. Benavides",
+			"cargo": "jefe de Estado",
+			"desde": 1914,
+			"hasta": 1915
+		},
+		{
+			"nombre": "José Pardo y Barreda",
+			"cargo": "jefe de Estado",
+			"desde": 1915,
+			"hasta": 1919
+		},
+		{
+			"nombre": "Augusto Leguía",
+			"cargo": "jefe de Estado",
+			"desde": 1919,
+			"hasta": 1930
+		},
+		{
+			"nombre": "Luis Miguel Sánchez Cerro",
+			"cargo": "jefe de Estado",
+			"desde": 1930,
+			"hasta": 1933
+		},
+		{
+			"nombre": "Óscar R. Benavides",
+			"cargo": "jefe de Estado",
+			"desde": 1933,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Manuel Prado Ugarteche",
+			"cargo": "jefe de Estado",
+			"desde": 1939,
+			"hasta": 1945
+		},
+		{
+			"nombre": "José Luis Bustamante y Rivero",
+			"cargo": "jefe de Estado",
+			"desde": 1945,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Manuel Odría",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1956
+		},
+		{
+			"nombre": "Manuel Prado Ugarteche",
+			"cargo": "jefe de Estado",
+			"desde": 1956,
+			"hasta": 1962
+		},
+		{
+			"nombre": "Ricardo Pérez Godoy",
+			"cargo": "jefe de Estado",
+			"desde": 1962,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Nicolás Lindley",
+			"cargo": "jefe de Estado",
+			"desde": 1963,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Fernando Belaúnde Terry",
+			"cargo": "jefe de Estado",
+			"desde": 1963,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Juan Velasco Alvarado",
+			"cargo": "jefe de Estado",
+			"desde": 1968,
+			"hasta": 1975
+		},
+		{
+			"nombre": "Francisco Morales Bermúdez",
+			"cargo": "jefe de Estado",
+			"desde": 1975,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Fernando Belaúnde Terry",
+			"cargo": "jefe de Estado",
+			"desde": 1980,
+			"hasta": 1985
+		},
+		{
+			"nombre": "Alan García",
+			"cargo": "jefe de Estado",
+			"desde": 1985,
+			"hasta": 1990
+		},
+		{
+			"nombre": "Alberto Fujimori",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Valentín Paniagua",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Alejandro Toledo",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Alan García",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Ollanta Humala",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Pedro Pablo Kuczynski",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Martín Vizcarra",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Manuel Merino",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Francisco Sagasti",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Pedro Castillo",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Dina Boluarte",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2025
+		},
+		{
+			"nombre": "José Jerí",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2026
+		},
+		{
+			"nombre": "José María Balcázar",
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Keiko Fujimori",
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +486,11 @@
 			"valor": 33845616
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Escudo nacional del Perú.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q419",
@@ -208,14 +508,268 @@
 			"url": "https://es.wikipedia.org/wiki/Per%C3%BA",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q419",
+			"url": "https://www.wikidata.org/wiki/Q419",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q541768",
+			"url": "http://www.wikidata.org/entity/Q541768",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q679788",
+			"url": "http://www.wikidata.org/entity/Q679788",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q529231",
+			"url": "http://www.wikidata.org/entity/Q529231",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2994421",
+			"url": "http://www.wikidata.org/entity/Q2994421",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q170057",
+			"url": "http://www.wikidata.org/entity/Q170057",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2361219",
+			"url": "http://www.wikidata.org/entity/Q2361219",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q886487",
+			"url": "http://www.wikidata.org/entity/Q886487",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q645188",
+			"url": "http://www.wikidata.org/entity/Q645188",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q334715",
+			"url": "http://www.wikidata.org/entity/Q334715",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q736554",
+			"url": "http://www.wikidata.org/entity/Q736554",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q734679",
+			"url": "http://www.wikidata.org/entity/Q734679",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q136596",
+			"url": "http://www.wikidata.org/entity/Q136596",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q170059",
+			"url": "http://www.wikidata.org/entity/Q170059",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q136589",
+			"url": "http://www.wikidata.org/entity/Q136589",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q136632",
+			"url": "http://www.wikidata.org/entity/Q136632",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q131010",
+			"url": "http://www.wikidata.org/entity/Q131010",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q136790",
+			"url": "http://www.wikidata.org/entity/Q136790",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q129005",
+			"url": "http://www.wikidata.org/entity/Q129005",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128998",
+			"url": "http://www.wikidata.org/entity/Q128998",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q116718",
+			"url": "http://www.wikidata.org/entity/Q116718",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128999",
+			"url": "http://www.wikidata.org/entity/Q128999",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q129008",
+			"url": "http://www.wikidata.org/entity/Q129008",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q117002",
+			"url": "http://www.wikidata.org/entity/Q117002",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q116620",
+			"url": "http://www.wikidata.org/entity/Q116620",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q116736",
+			"url": "http://www.wikidata.org/entity/Q116736",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q311431",
+			"url": "http://www.wikidata.org/entity/Q311431",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q116630",
+			"url": "http://www.wikidata.org/entity/Q116630",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q167211",
+			"url": "http://www.wikidata.org/entity/Q167211",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q133040",
+			"url": "http://www.wikidata.org/entity/Q133040",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q81638",
+			"url": "http://www.wikidata.org/entity/Q81638",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q207426",
+			"url": "http://www.wikidata.org/entity/Q207426",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57254",
+			"url": "http://www.wikidata.org/entity/Q57254",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q381027",
+			"url": "http://www.wikidata.org/entity/Q381027",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24030720",
+			"url": "http://www.wikidata.org/entity/Q24030720",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5993760",
+			"url": "http://www.wikidata.org/entity/Q5993760",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20015136",
+			"url": "http://www.wikidata.org/entity/Q20015136",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q103838608",
+			"url": "http://www.wikidata.org/entity/Q103838608",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q106474688",
+			"url": "http://www.wikidata.org/entity/Q106474688",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q107480088",
+			"url": "http://www.wikidata.org/entity/Q107480088",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q108414587",
+			"url": "http://www.wikidata.org/entity/Q108414587",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q235137",
+			"url": "http://www.wikidata.org/entity/Q235137",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "aca39c66bdee",
+		"hash": "497c9745d9be",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

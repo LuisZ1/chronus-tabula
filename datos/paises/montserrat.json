@@ -8,6 +8,26 @@
 	"wikidata": "Q13353",
 	"owid": "MSR",
 	"resena": "La isla de Montserrat es un territorio británico de ultramar ubicado al sureste de la isla de Puerto Rico, y al noroeste de Venezuela en aguas del mar Caribe.",
+	"gobernantes": [
+		{
+			"nombre": "Andrew Pearce",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Sarah Tucker",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Harriet Cross",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 600,
@@ -126,6 +146,11 @@
 			"valor": 4440
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Montserrat.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q13353",
@@ -143,14 +168,40 @@
 			"url": "https://es.wikipedia.org/wiki/Montserrat",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q13353",
+			"url": "https://www.wikidata.org/wiki/Q13353",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47087986",
+			"url": "http://www.wikidata.org/entity/Q47087986",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q111355657",
+			"url": "http://www.wikidata.org/entity/Q111355657",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q98425237",
+			"url": "http://www.wikidata.org/entity/Q98425237",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "4b57e33a6052",
+		"hash": "c0c13ac965ab",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

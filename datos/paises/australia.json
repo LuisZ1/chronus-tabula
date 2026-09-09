@@ -8,6 +8,332 @@
 	"wikidata": "Q408",
 	"owid": "AUS",
 	"resena": "Australia, oficialmente, la Mancomunidad de Australia, es un país soberano que abarca la Australia continental, la isla de Tasmania y numerosas islas menores. Con una superficie de 7 741 220 km², Australia es el país más grande de Oceanía y el sexto más grande del mundo.",
+	"gobernantes": [
+		{
+			"nombre": "Edmund Barton",
+			"cargo": "jefe de gobierno",
+			"desde": 1901,
+			"hasta": 1903
+		},
+		{
+			"nombre": "Alfred Deakin",
+			"cargo": "jefe de gobierno",
+			"desde": 1903,
+			"hasta": 1904
+		},
+		{
+			"nombre": "Chris Watson",
+			"cargo": "jefe de gobierno",
+			"desde": 1904,
+			"hasta": 1904
+		},
+		{
+			"nombre": "George Reid",
+			"cargo": "jefe de gobierno",
+			"desde": 1904,
+			"hasta": 1905
+		},
+		{
+			"nombre": "Alfred Deakin",
+			"cargo": "jefe de gobierno",
+			"desde": 1905,
+			"hasta": 1908
+		},
+		{
+			"nombre": "Andrew Fisher",
+			"cargo": "jefe de gobierno",
+			"desde": 1908,
+			"hasta": 1909
+		},
+		{
+			"nombre": "Alfred Deakin",
+			"cargo": "jefe de gobierno",
+			"desde": 1909,
+			"hasta": 1910
+		},
+		{
+			"nombre": "Andrew Fisher",
+			"cargo": "jefe de gobierno",
+			"desde": 1910,
+			"hasta": 1913
+		},
+		{
+			"nombre": "Joseph Cook",
+			"cargo": "jefe de gobierno",
+			"desde": 1913,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Andrew Fisher",
+			"cargo": "jefe de gobierno",
+			"desde": 1914,
+			"hasta": 1915
+		},
+		{
+			"nombre": "Billy Hughes",
+			"cargo": "jefe de gobierno",
+			"desde": 1915,
+			"hasta": 1923
+		},
+		{
+			"nombre": "Stanley Bruce",
+			"cargo": "jefe de gobierno",
+			"desde": 1923,
+			"hasta": 1929
+		},
+		{
+			"nombre": "James Scullin",
+			"cargo": "jefe de gobierno",
+			"desde": 1929,
+			"hasta": 1932
+		},
+		{
+			"nombre": "Joseph Lyons",
+			"cargo": "jefe de gobierno",
+			"desde": 1932,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Earle Page",
+			"cargo": "jefe de gobierno",
+			"desde": 1939,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Robert Menzies",
+			"cargo": "jefe de gobierno",
+			"desde": 1939,
+			"hasta": 1941
+		},
+		{
+			"nombre": "Arthur Fadden",
+			"cargo": "jefe de gobierno",
+			"desde": 1941,
+			"hasta": 1941
+		},
+		{
+			"nombre": "John Curtin",
+			"cargo": "jefe de gobierno",
+			"desde": 1941,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Frank Forde",
+			"cargo": "jefe de gobierno",
+			"desde": 1945,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Ben Chifley",
+			"cargo": "jefe de gobierno",
+			"desde": 1945,
+			"hasta": 1949
+		},
+		{
+			"nombre": "William McKell",
+			"cargo": "jefe de Estado",
+			"desde": 1947,
+			"hasta": 1953
+		},
+		{
+			"nombre": "Robert Menzies",
+			"cargo": "jefe de gobierno",
+			"desde": 1949,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 2022
+		},
+		{
+			"nombre": "William Slim, 1st Viscount Slim",
+			"cargo": "jefe de Estado",
+			"desde": 1953,
+			"hasta": 1960
+		},
+		{
+			"nombre": "William Morrison, 1st Viscount Dunrossil",
+			"cargo": "jefe de Estado",
+			"desde": 1960,
+			"hasta": 1961
+		},
+		{
+			"nombre": "William Sidney, 1st Viscount De L'Isle",
+			"cargo": "jefe de Estado",
+			"desde": 1961,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Richard Casey, Baron Casey",
+			"cargo": "jefe de Estado",
+			"desde": 1965,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Harold Holt",
+			"cargo": "jefe de gobierno",
+			"desde": 1966,
+			"hasta": 1967
+		},
+		{
+			"nombre": "John McEwen",
+			"cargo": "jefe de gobierno",
+			"desde": 1967,
+			"hasta": 1968
+		},
+		{
+			"nombre": "John Gorton",
+			"cargo": "jefe de gobierno",
+			"desde": 1968,
+			"hasta": 1971
+		},
+		{
+			"nombre": "Paul Hasluck",
+			"cargo": "jefe de Estado",
+			"desde": 1969,
+			"hasta": 1974
+		},
+		{
+			"nombre": "William McMahon",
+			"cargo": "jefe de gobierno",
+			"desde": 1971,
+			"hasta": 1972
+		},
+		{
+			"nombre": "Gough Whitlam",
+			"cargo": "jefe de gobierno",
+			"desde": 1972,
+			"hasta": 1975
+		},
+		{
+			"nombre": "John Kerr",
+			"cargo": "jefe de Estado",
+			"desde": 1974,
+			"hasta": 1977
+		},
+		{
+			"nombre": "Malcolm Fraser",
+			"cargo": "jefe de gobierno",
+			"desde": 1975,
+			"hasta": 1983
+		},
+		{
+			"nombre": "Zelman Cowen",
+			"cargo": "jefe de Estado",
+			"desde": 1977,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Ninian Stephen",
+			"cargo": "jefe de Estado",
+			"desde": 1982,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Bob Hawke",
+			"cargo": "jefe de gobierno",
+			"desde": 1983,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Bill Hayden",
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Paul Keating",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1996
+		},
+		{
+			"nombre": "William Deane",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 2001
+		},
+		{
+			"nombre": "John Howard",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Peter Hollingworth",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Michael Jeffery",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Kevin Rudd",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Quentin Bryce",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Julia Gillard",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Kevin Rudd",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Tony Abbott",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Peter Cosgrove",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Malcolm Turnbull",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Scott Morrison",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Anthony Albanese",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +516,11 @@
 			"valor": 26451126
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Commonwealth of Australia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q408",
@@ -207,14 +538,310 @@
 			"url": "https://es.wikipedia.org/wiki/Australia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q408",
+			"url": "https://www.wikidata.org/wiki/Q408",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q23342",
+			"url": "http://www.wikidata.org/entity/Q23342",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q313805",
+			"url": "http://www.wikidata.org/entity/Q313805",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23347",
+			"url": "http://www.wikidata.org/entity/Q23347",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23352",
+			"url": "http://www.wikidata.org/entity/Q23352",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q314016",
+			"url": "http://www.wikidata.org/entity/Q314016",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356230",
+			"url": "http://www.wikidata.org/entity/Q356230",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q152666",
+			"url": "http://www.wikidata.org/entity/Q152666",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23358",
+			"url": "http://www.wikidata.org/entity/Q23358",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23362",
+			"url": "http://www.wikidata.org/entity/Q23362",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q370966",
+			"url": "http://www.wikidata.org/entity/Q370966",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q370926",
+			"url": "http://www.wikidata.org/entity/Q370926",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q214438",
+			"url": "http://www.wikidata.org/entity/Q214438",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23369",
+			"url": "http://www.wikidata.org/entity/Q23369",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23375",
+			"url": "http://www.wikidata.org/entity/Q23375",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q459146",
+			"url": "http://www.wikidata.org/entity/Q459146",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23379",
+			"url": "http://www.wikidata.org/entity/Q23379",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q735387",
+			"url": "http://www.wikidata.org/entity/Q735387",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335033",
+			"url": "http://www.wikidata.org/entity/Q335033",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335323",
+			"url": "http://www.wikidata.org/entity/Q335323",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q333824",
+			"url": "http://www.wikidata.org/entity/Q333824",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335310",
+			"url": "http://www.wikidata.org/entity/Q335310",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q312722",
+			"url": "http://www.wikidata.org/entity/Q312722",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23386",
+			"url": "http://www.wikidata.org/entity/Q23386",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356411",
+			"url": "http://www.wikidata.org/entity/Q356411",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1382174",
+			"url": "http://www.wikidata.org/entity/Q1382174",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356261",
+			"url": "http://www.wikidata.org/entity/Q356261",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23333",
+			"url": "http://www.wikidata.org/entity/Q23333",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1354851",
+			"url": "http://www.wikidata.org/entity/Q1354851",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315979",
+			"url": "http://www.wikidata.org/entity/Q315979",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q189186",
+			"url": "http://www.wikidata.org/entity/Q189186",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1356927",
+			"url": "http://www.wikidata.org/entity/Q1356927",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q269372",
+			"url": "http://www.wikidata.org/entity/Q269372",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q250087",
+			"url": "http://www.wikidata.org/entity/Q250087",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q242654",
+			"url": "http://www.wikidata.org/entity/Q242654",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q267745",
+			"url": "http://www.wikidata.org/entity/Q267745",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q51330",
+			"url": "http://www.wikidata.org/entity/Q51330",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1354229",
+			"url": "http://www.wikidata.org/entity/Q1354229",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q355053",
+			"url": "http://www.wikidata.org/entity/Q355053",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43135",
+			"url": "http://www.wikidata.org/entity/Q43135",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q229300",
+			"url": "http://www.wikidata.org/entity/Q229300",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q41563",
+			"url": "http://www.wikidata.org/entity/Q41563",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q348577",
+			"url": "http://www.wikidata.org/entity/Q348577",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q976974",
+			"url": "http://www.wikidata.org/entity/Q976974",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q927550",
+			"url": "http://www.wikidata.org/entity/Q927550",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7436908",
+			"url": "http://www.wikidata.org/entity/Q7436908",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335697",
+			"url": "http://www.wikidata.org/entity/Q335697",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "3d0ef449c3ca",
+		"hash": "dac2082a291e",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

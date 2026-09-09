@@ -8,6 +8,38 @@
 	"wikidata": "Q241",
 	"owid": "CUB",
 	"resena": "Cuba, oficialmente República de Cuba, es un Estado soberano e insular ubicado en las Antillas del mar Caribe en la región de norteamérica. El territorio está organizado en quince provincias y un municipio especial con La Habana como capital y ciudad más poblada.",
+	"gobernantes": [
+		{
+			"nombre": "Fidel Castro",
+			"cargo": "jefe de Estado",
+			"desde": 1976,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Raúl Castro",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Miguel Díaz-Canel",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Miguel Díaz-Canel",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Manuel Marrero Cruz",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +222,11 @@
 			"valor": 11019932
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Cuba.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q241",
@@ -207,14 +244,46 @@
 			"url": "https://es.wikipedia.org/wiki/Cuba",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q241",
+			"url": "https://www.wikidata.org/wiki/Q241",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q11256",
+			"url": "http://www.wikidata.org/entity/Q11256",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q46809",
+			"url": "http://www.wikidata.org/entity/Q46809",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1932603",
+			"url": "http://www.wikidata.org/entity/Q1932603",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q79358625",
+			"url": "http://www.wikidata.org/entity/Q79358625",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c6ebbddd0024",
+		"hash": "5f07823c378d",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

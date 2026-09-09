@@ -3,13 +3,302 @@
 	"nombre": "Bosnia y Herzegovina",
 	"nombres": [
 		"Bosnia and Herzegovina",
-		"Bosnia y Herzegovina",
 		"Bosnia-Herzegovina"
 	],
 	"wiki": "es:Bosnia y Herzegovina",
 	"wikidata": "Q225",
 	"owid": "BIH",
 	"resena": "Bosnia y Herzegovina, comúnmente llamada Bosnia-Herzegovina, o simplemente Bosnia, es un país soberano europeo, con capital en Sarajevo, situado en la confluencia de Europa Central y del sudeste europeo, y que limita con Croacia, al norte, oeste y sur; con Serbia al este; con Montenegro al este y al sur, y con el mar Adriático al suroeste a lo largo de 21,2…",
+	"gobernantes": [
+		{
+			"nombre": "Jure Pelivan",
+			"cargo": "jefe de gobierno",
+			"desde": 1992,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Mile Akmadžić",
+			"cargo": "jefe de gobierno",
+			"desde": 1992,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Haris Silajdžić",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Hasan Muratovic",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Alija Izetbegović",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Krešimir Zubak",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Momčilo Krajišnik",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Boro Bosić",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Haris Silajdžić",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Alija Izetbegović",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Ante Jelavić",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Živko Radišić",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Haris Silajdžić",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Svetozar Mihajlović",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Spasoje Tuševljak",
+			"cargo": "jefe de gobierno",
+			"desde": 2000,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Halid Genjac",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Martin Raguž",
+			"cargo": "jefe de gobierno",
+			"desde": 2000,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Božidar Matić",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Beriz Belkić",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Jozo Križanović",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Zlatko Lagumdžija",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Dragan Mikerević",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Mirko Šarović",
+			"cargo": "jefe de Estado",
+			"desde": 2002,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Dragan Čović",
+			"cargo": "jefe de Estado",
+			"desde": 2002,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Sulejman Tihić",
+			"cargo": "jefe de Estado",
+			"desde": 2002,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Adnan Terzić",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Borislav Paravac",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Ivo Miro Jović",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Haris Silajdžić",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Nebojša Radmanović",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Željko Komšić",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Nikola Špirić",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Bakir Izetbegović",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Nebojša Radmanović",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Željko Komšić",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Vjekoslav Bevanda",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Bakir Izetbegović",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Dragan Čović",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Mladen Ivanić",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Denis Zvizdić",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Milorad Dodik",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Šefik Džaferović",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Željko Komšić",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Zoran Tegeltija",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Borjana Krišto",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Denis Bećirović",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Željka Cvijanović",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Željko Komšić",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +481,12 @@
 			"valor": 3185072
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Bosnia and Herzegovina.svg",
+			"desde": 1998
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q225",
@@ -209,14 +504,250 @@
 			"url": "https://es.wikipedia.org/wiki/Bosnia_y_Herzegovina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q225",
+			"url": "https://www.wikidata.org/wiki/Q225",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q16513879",
+			"url": "http://www.wikidata.org/entity/Q16513879",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23008485",
+			"url": "http://www.wikidata.org/entity/Q23008485",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57381",
+			"url": "http://www.wikidata.org/entity/Q57381",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4808284",
+			"url": "http://www.wikidata.org/entity/Q4808284",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3437194",
+			"url": "http://www.wikidata.org/entity/Q3437194",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q26776",
+			"url": "http://www.wikidata.org/entity/Q26776",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q183848",
+			"url": "http://www.wikidata.org/entity/Q183848",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23014904",
+			"url": "http://www.wikidata.org/entity/Q23014904",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4808727",
+			"url": "http://www.wikidata.org/entity/Q4808727",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q355737",
+			"url": "http://www.wikidata.org/entity/Q355737",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23682424",
+			"url": "http://www.wikidata.org/entity/Q23682424",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20640948",
+			"url": "http://www.wikidata.org/entity/Q20640948",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q27999462",
+			"url": "http://www.wikidata.org/entity/Q27999462",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12636401",
+			"url": "http://www.wikidata.org/entity/Q12636401",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4953066",
+			"url": "http://www.wikidata.org/entity/Q4953066",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4891938",
+			"url": "http://www.wikidata.org/entity/Q4891938",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2665070",
+			"url": "http://www.wikidata.org/entity/Q2665070",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q58124",
+			"url": "http://www.wikidata.org/entity/Q58124",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q705229",
+			"url": "http://www.wikidata.org/entity/Q705229",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q361173",
+			"url": "http://www.wikidata.org/entity/Q361173",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2444338",
+			"url": "http://www.wikidata.org/entity/Q2444338",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q559756",
+			"url": "http://www.wikidata.org/entity/Q559756",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q359826",
+			"url": "http://www.wikidata.org/entity/Q359826",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q470649",
+			"url": "http://www.wikidata.org/entity/Q470649",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q560051",
+			"url": "http://www.wikidata.org/entity/Q560051",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q310136",
+			"url": "http://www.wikidata.org/entity/Q310136",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q297825",
+			"url": "http://www.wikidata.org/entity/Q297825",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q311882",
+			"url": "http://www.wikidata.org/entity/Q311882",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q312355",
+			"url": "http://www.wikidata.org/entity/Q312355",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57844",
+			"url": "http://www.wikidata.org/entity/Q57844",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q944643",
+			"url": "http://www.wikidata.org/entity/Q944643",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19501831",
+			"url": "http://www.wikidata.org/entity/Q19501831",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335688",
+			"url": "http://www.wikidata.org/entity/Q335688",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20525169",
+			"url": "http://www.wikidata.org/entity/Q20525169",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12752078",
+			"url": "http://www.wikidata.org/entity/Q12752078",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q13081568",
+			"url": "http://www.wikidata.org/entity/Q13081568",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5528031",
+			"url": "http://www.wikidata.org/entity/Q5528031",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q387491",
+			"url": "http://www.wikidata.org/entity/Q387491",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "e5569660b7ef",
+		"hash": "f4b518396b22",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

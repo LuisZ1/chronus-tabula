@@ -3,8 +3,7 @@
 	"nombre": "Camerún",
 	"nombres": [
 		"Cameroon",
-		"Kamerun",
-		"Cameroun"
+		"Kamerun"
 	],
 	"nombres_periodo": [
 		{
@@ -40,6 +39,9 @@
 	],
 	"wiki": "es:Camerún",
 	"wikidata": "Q1009",
+	"relacionados": [
+		"Cameroun"
+	],
 	"resena": "Camerún, oficialmente la República de Camerún, es un Estado unitario organizado como república en el África central. Limita al sur con Guinea Ecuatorial, a continuación con Gabón (298 km), y con República del Congo (523 km).",
 	"gobernantes": [
 		{

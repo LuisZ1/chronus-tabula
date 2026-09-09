@@ -2,10 +2,7 @@
 	"id": "esuatini",
 	"nombre": "Esuatini",
 	"nombres": [
-		"Swaziland",
-		"Suazilandia",
-		"Esuatini",
-		"Eswatini"
+		"Swaziland"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +23,10 @@
 	],
 	"wiki": "es:Esuatini",
 	"wikidata": "Q1050",
+	"relacionados": [
+		"Suazilandia",
+		"Eswatini"
+	],
 	"resena": "Suazilandia o Esuatini, llamado oficialmente Reino de Esuatini y antes Reino de Suazilandia, es un pequeño Estado soberano sin salida al mar situado en África Austral o del Sur, en las estribaciones orientales de los montes Drakensberg, entre Sudáfrica y Mozambique. Su territorio está organizado en cuatro distritos.",
 	"gobernantes": [
 		{
@@ -115,6 +116,11 @@
 			"fuente": "UN/OWID (estimación)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Eswatini.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -141,14 +147,21 @@
 			"url": "https://es.wikipedia.org/wiki/Suazilandia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1050",
+			"url": "https://www.wikidata.org/wiki/Q1050",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "80e0aa379cf2",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

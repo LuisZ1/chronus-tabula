@@ -2,9 +2,7 @@
 	"id": "botsuana",
 	"nombre": "Botsuana",
 	"nombres": [
-		"Botswana",
-		"Bechuanalandia",
-		"Protectorado de Bechuanalandia"
+		"Botswana"
 	],
 	"nombres_periodo": [
 		{
@@ -20,6 +18,10 @@
 	],
 	"wiki": "es:Botsuana",
 	"wikidata": "Q963",
+	"relacionados": [
+		"Bechuanalandia",
+		"Protectorado de Bechuanalandia"
+	],
 	"resena": "Botsuana, oficialmente República de Botsuana, es un país soberano sin salida al mar del sur de África cuya forma de Gobierno es la república presidencialista y unitaria. Su territorio está dividido en quince distritos, nueve rurales y seis urbanos.",
 	"gobernantes": [
 		{

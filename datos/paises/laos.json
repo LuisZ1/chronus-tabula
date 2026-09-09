@@ -8,6 +8,26 @@
 	"wikidata": "Q819",
 	"owid": "LAO",
 	"resena": "Laos, oficialmente República Democrática Popular Lao, es un Estado soberano situado en la península de Indochina. Limita con Myanmar y China al noroeste, Vietnam al este, Camboya al sureste, y Tailandia al oeste y suroeste, y es el único país sin salida al mar en el Sudeste Asiático.",
+	"gobernantes": [
+		{
+			"nombre": "Thongloun Sisoulith",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Phankham Viphavan",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Sonexay Siphandone",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +210,11 @@
 			"valor": 7665001
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Laos (1991-2025).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q819",
@@ -207,14 +232,40 @@
 			"url": "https://es.wikipedia.org/wiki/Laos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q819",
+			"url": "https://www.wikidata.org/wiki/Q819",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q58323",
+			"url": "http://www.wikidata.org/entity/Q58323",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7180477",
+			"url": "http://www.wikidata.org/entity/Q7180477",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q104914585",
+			"url": "http://www.wikidata.org/entity/Q104914585",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "6830ef224749",
+		"hash": "bec1b9f04f88",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

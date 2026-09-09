@@ -2,12 +2,23 @@
 	"id": "martinica",
 	"nombre": "Martinica",
 	"nombres": [
-		"Martinique",
-		"Martinica"
+		"Martinique"
 	],
 	"wiki": "es:Martinica",
 	"wikidata": "Q17054",
 	"resena": "Martinica es una isla con estatus de región y departamento de ultramar de Francia, que forma parte integrante de la República Francesa y de la Unión Europea como región ultraperiférica. En tanto que colectividad territorial única, tan sólo consta de una asamblea que reagrupa las competencias del Consejo regional y departamental.",
+	"poblacion": [
+		{
+			"anio": 2020,
+			"valor": 361225,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2023,
+			"valor": 360630,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q17054",
@@ -19,14 +30,21 @@
 			"url": "https://es.wikipedia.org/wiki/Martinica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q17054",
+			"url": "https://www.wikidata.org/wiki/Q17054",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2d23933fc6e9",
+		"hash": "ed70949d9df5",
 		"secciones": [
+			"poblacion",
 			"resena"
 		]
 	}

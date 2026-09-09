@@ -2,13 +2,20 @@
 	"id": "antigua-y-barbuda",
 	"nombre": "Antigua y Barbuda",
 	"nombres": [
-		"Antigua and Barbuda",
-		"Antigua y Barbuda"
+		"Antigua and Barbuda"
 	],
 	"wiki": "es:Antigua y Barbuda",
 	"wikidata": "Q781",
 	"owid": "ATG",
 	"resena": "Antigua y Barbuda es uno de los trece países que forman la América Insular, Antillas o Islas del mar Caribe, uno de los treinta y cinco que forman el continente americano. Está ubicado al norte de las Antillas Menores, limitando al sur con Guadalupe, al suroeste con Montserrat, al oeste con San Cristóbal y Nieves y al noroeste con San Martín.",
+	"gobernantes": [
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +198,11 @@
 			"valor": 93331
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Antigua and Barbuda.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q781",
@@ -208,14 +220,28 @@
 			"url": "https://es.wikipedia.org/wiki/Antigua_y_Barbuda",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q781",
+			"url": "https://www.wikidata.org/wiki/Q781",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "3f6ee17d6f2a",
+		"hash": "1e56c7ad4bdf",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

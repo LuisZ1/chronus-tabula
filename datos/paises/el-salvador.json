@@ -8,6 +8,38 @@
 	"wikidata": "Q792",
 	"owid": "SLV",
 	"resena": "El Salvador, oficialmente República de El Salvador, es un país soberano de América Central con costas por el océano Pacífico. De acuerdo con la constitución vigente, es una república unitaria, representativa y presidencialista plena junto con la Asamblea Legislativa.",
+	"gobernantes": [
+		{
+			"nombre": "Francisco Flores",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Antonio Saca",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Mauricio Funes",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Salvador Sánchez Cerén",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Nayib Bukele",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +222,11 @@
 			"valor": 6309629
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of El Salvador.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q792",
@@ -207,14 +244,52 @@
 			"url": "https://es.wikipedia.org/wiki/El_Salvador",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q792",
+			"url": "https://www.wikidata.org/wiki/Q792",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q381002",
+			"url": "http://www.wikidata.org/entity/Q381002",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q211000",
+			"url": "http://www.wikidata.org/entity/Q211000",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57342",
+			"url": "http://www.wikidata.org/entity/Q57342",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q936831",
+			"url": "http://www.wikidata.org/entity/Q936831",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q17712353",
+			"url": "http://www.wikidata.org/entity/Q17712353",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "1fde2d8bf8d6",
+		"hash": "a428d4b647e8",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

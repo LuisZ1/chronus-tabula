@@ -8,6 +8,14 @@
 	"wikidata": "Q717",
 	"owid": "VEN",
 	"resena": "Venezuela, oficialmente República Bolivariana de Venezuela, es un país soberano de América, situado en el extremo norte de América del Sur y en la región del Caribe. Está constituido por un territorio continental y por numerosas islas, islotes, cayos y archipiélagos en el mar Caribe.",
+	"gobernantes": [
+		{
+			"nombre": "Delcy Rodríguez",
+			"cargo": "jefe de Estado",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -207,14 +215,21 @@
 			"url": "https://es.wikipedia.org/wiki/Venezuela",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q15081116",
+			"url": "http://www.wikidata.org/entity/Q15081116",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "b6c247d6ec73",
+		"hash": "18be0d556d29",
 		"secciones": [
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -2,13 +2,38 @@
 	"id": "trinidad-y-tobago",
 	"nombre": "Trinidad y Tobago",
 	"nombres": [
-		"Trinidad",
-		"Trinidad y Tobago"
+		"Trinidad"
 	],
 	"wiki": "es:Trinidad y Tobago",
 	"wikidata": "Q754",
 	"owid": "TTO",
 	"resena": "Trinidad y Tobago, oficialmente la República de Trinidad y Tobago, es un país soberano insular ubicado en el mar Caribe, en la región septentrional de América del Sur.",
+	"gobernantes": [
+		{
+			"nombre": "Kamla Persad-Bissessar",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Keith Rowley",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Christine Kangaloo",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Kamla Persad-Bissessar",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 900,
@@ -115,6 +140,11 @@
 			"valor": 1502938
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Trinidad and Tobago (2025).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q754",
@@ -132,14 +162,40 @@
 			"url": "https://es.wikipedia.org/wiki/Trinidad_y_Tobago",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57712",
+			"url": "http://www.wikidata.org/entity/Q57712",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6384971",
+			"url": "http://www.wikidata.org/entity/Q6384971",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q97400315",
+			"url": "http://www.wikidata.org/entity/Q97400315",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q754",
+			"url": "https://www.wikidata.org/wiki/Q754",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "b4c972cff80e",
+		"hash": "8bd4382c0431",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

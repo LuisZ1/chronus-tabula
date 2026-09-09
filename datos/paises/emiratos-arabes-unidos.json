@@ -2,13 +2,32 @@
 	"id": "emiratos-arabes-unidos",
 	"nombre": "Emiratos Árabes Unidos",
 	"nombres": [
-		"United Arab Emirates",
-		"Emiratos Árabes Unidos"
+		"United Arab Emirates"
 	],
 	"wiki": "es:Emiratos Árabes Unidos",
 	"wikidata": "Q878",
 	"owid": "ARE",
 	"resena": "Emiratos Árabes Unidos (EAU) es un país soberano constituido en monarquía federal de Oriente Próximo, situado en la península de Arabia. Está compuesto por siete emiratos: Abu Dabi, Ajman, Dubái, Fuyaira, Ras al Jaima, Sarja y Umm al-Qaywayn.",
+	"gobernantes": [
+		{
+			"nombre": "Zayed ibn Sultán Al Nahayan",
+			"cargo": "jefe de Estado",
+			"desde": 1971,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Jalifa bin Zayed Al Nahayan",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Mohammed bin Zayed Al Nahyan",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +210,11 @@
 			"valor": 10642089
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of the United Arab Emirates.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q878",
@@ -208,14 +232,40 @@
 			"url": "https://es.wikipedia.org/wiki/Emiratos_%C3%81rabes_Unidos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q878",
+			"url": "https://www.wikidata.org/wiki/Q878",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q167846",
+			"url": "http://www.wikidata.org/entity/Q167846",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1059948",
+			"url": "http://www.wikidata.org/entity/Q1059948",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1951896",
+			"url": "http://www.wikidata.org/entity/Q1951896",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "d2891ff01c3e",
+		"hash": "ddf59c1aae3a",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -8,6 +8,80 @@
 	"wikidata": "Q347",
 	"owid": "LIE",
 	"resena": "Liechtenstein, oficialmente Principado de Liechtenstein, es un micro-Estado centroeuropeo sin litoral cuya forma de gobierno es la monarquía constitucional, ubicado entre Suiza y Austria en la orilla oriental del Rin. El idioma oficial es el alemán, pero en la vida cotidiana se habla principalmente el dialecto alemánico, con variaciones claramente locales.",
+	"gobernantes": [
+		{
+			"nombre": "Carl von In der Maur",
+			"cargo": "jefe de gobierno",
+			"desde": 1884,
+			"hasta": 1892
+		},
+		{
+			"nombre": "Josef Ospelt",
+			"cargo": "jefe de gobierno",
+			"desde": 1921,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Gustav Schädler",
+			"cargo": "jefe de gobierno",
+			"desde": 1922,
+			"hasta": 1928
+		},
+		{
+			"nombre": "Hans Brunhart",
+			"cargo": "jefe de gobierno",
+			"desde": 1978,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Juan Adán II de Liechtenstein",
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Markus Büchel",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Mario Frick",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Otmar Hasler",
+			"cargo": "jefe de gobierno",
+			"desde": 2001,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Klaus Tschütscher",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Adrian Hasler",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Daniel Risch",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Brigitte Haas",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +264,11 @@
 			"valor": 39622
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Staatswappen-Liechtensteins.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q347",
@@ -207,14 +286,94 @@
 			"url": "https://es.wikipedia.org/wiki/Liechtenstein",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q347",
+			"url": "https://www.wikidata.org/wiki/Q347",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28791128",
+			"url": "http://www.wikidata.org/entity/Q28791128",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q345148",
+			"url": "http://www.wikidata.org/entity/Q345148",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q345161",
+			"url": "http://www.wikidata.org/entity/Q345161",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q696665",
+			"url": "http://www.wikidata.org/entity/Q696665",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57454",
+			"url": "http://www.wikidata.org/entity/Q57454",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1901454",
+			"url": "http://www.wikidata.org/entity/Q1901454",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q543453",
+			"url": "http://www.wikidata.org/entity/Q543453",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q238670",
+			"url": "http://www.wikidata.org/entity/Q238670",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57778",
+			"url": "http://www.wikidata.org/entity/Q57778",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q373092",
+			"url": "http://www.wikidata.org/entity/Q373092",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q30882650",
+			"url": "http://www.wikidata.org/entity/Q30882650",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q129676165",
+			"url": "http://www.wikidata.org/entity/Q129676165",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "d7545aa49a9d",
+		"hash": "bfcbe30b0976",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

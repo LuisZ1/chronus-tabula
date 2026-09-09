@@ -2,13 +2,242 @@
 	"id": "taiwan",
 	"nombre": "Taiwán",
 	"nombres": [
-		"Taiwan",
-		"Taiwán"
+		"Taiwan"
 	],
 	"wiki": "es:Taiwán",
 	"wikidata": "Q865",
 	"owid": "TWN",
 	"resena": "La República de China es un país soberano situado en Asia Oriental. Su nombre oficial está ligado a un reconocimiento limitado desde 1949 al estar ubicado principalmente en el archipiélago de Taiwán, este último es el nombre con el que es popularmente conocido.",
+	"gobernantes": [
+		{
+			"nombre": "Sun Yat-sen",
+			"cargo": "jefe de Estado",
+			"desde": 1912,
+			"hasta": 1912
+		},
+		{
+			"nombre": "Yuan Shikai",
+			"cargo": "jefe de Estado",
+			"desde": 1912,
+			"hasta": 1916
+		},
+		{
+			"nombre": "Li Yuanhong",
+			"cargo": "jefe de Estado",
+			"desde": 1916,
+			"hasta": 1917
+		},
+		{
+			"nombre": "Feng Guozhang",
+			"cargo": "jefe de Estado",
+			"desde": 1917,
+			"hasta": 1918
+		},
+		{
+			"nombre": "Xu Shichang",
+			"cargo": "jefe de Estado",
+			"desde": 1918,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Zhou Ziqi",
+			"cargo": "jefe de Estado",
+			"desde": 1922,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Li Yuanhong",
+			"cargo": "jefe de Estado",
+			"desde": 1922,
+			"hasta": 1923
+		},
+		{
+			"nombre": "Gao Lingwei",
+			"cargo": "jefe de Estado",
+			"desde": 1923,
+			"hasta": 1923
+		},
+		{
+			"nombre": "Cao Kun",
+			"cargo": "jefe de Estado",
+			"desde": 1923,
+			"hasta": 1924
+		},
+		{
+			"nombre": "Huang Fu",
+			"cargo": "jefe de Estado",
+			"desde": 1924,
+			"hasta": 1924
+		},
+		{
+			"nombre": "Duan Qirui",
+			"cargo": "jefe de Estado",
+			"desde": 1924,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Du Xigui",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Hu Weide",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Yan Huiqing",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Wellington Koo",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1927
+		},
+		{
+			"nombre": "Zhang Zuolin",
+			"cargo": "jefe de Estado",
+			"desde": 1927,
+			"hasta": 1928
+		},
+		{
+			"nombre": "Tan Yankai",
+			"cargo": "jefe de Estado",
+			"desde": 1928,
+			"hasta": 1928
+		},
+		{
+			"nombre": "Chiang Kai-shek",
+			"cargo": "jefe de Estado",
+			"desde": 1928,
+			"hasta": 1931
+		},
+		{
+			"nombre": "Lin Sen",
+			"cargo": "jefe de Estado",
+			"desde": 1931,
+			"hasta": 1943
+		},
+		{
+			"nombre": "Chiang Kai-shek",
+			"cargo": "jefe de Estado",
+			"desde": 1943,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Li Zongren",
+			"cargo": "jefe de Estado",
+			"desde": 1949,
+			"hasta": 1950
+		},
+		{
+			"nombre": "Yen Hsi-shan",
+			"cargo": "jefe de Estado",
+			"desde": 1949,
+			"hasta": 1950
+		},
+		{
+			"nombre": "Chiang Kai-shek",
+			"cargo": "jefe de Estado",
+			"desde": 1950,
+			"hasta": 1975
+		},
+		{
+			"nombre": "Yen Chia-kan",
+			"cargo": "jefe de Estado",
+			"desde": 1975,
+			"hasta": 1978
+		},
+		{
+			"nombre": "Chiang Ching-kuo",
+			"cargo": "jefe de Estado",
+			"desde": 1978,
+			"hasta": 1988
+		},
+		{
+			"nombre": "Lee Teng-hui",
+			"cargo": "jefe de Estado",
+			"desde": 1988,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Chen Shui-bian",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Ma Ying-jeou",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Jiang Yi-hua",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Mao Chi-kuo",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Chang San-cheng",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Lin Chuan",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Tsai Ing-wen",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Lai Ching‑te",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Hope Su",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Chien-Jen Chen",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Chuo Rung-tai",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Lai Ching‑te",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +420,16 @@
 			"valor": 23317145
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "National Emblem of the Republic of China.svg"
+		},
+		{
+			"archivo": "Twelve Symbols national emblem of China.svg",
+			"desde": 1913,
+			"hasta": 1928
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q865",
@@ -208,14 +447,226 @@
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_de_China",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q8573",
+			"url": "http://www.wikidata.org/entity/Q8573",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q210329",
+			"url": "http://www.wikidata.org/entity/Q210329",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q716136",
+			"url": "http://www.wikidata.org/entity/Q716136",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q700576",
+			"url": "http://www.wikidata.org/entity/Q700576",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q702428",
+			"url": "http://www.wikidata.org/entity/Q702428",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q712545",
+			"url": "http://www.wikidata.org/entity/Q712545",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q701418",
+			"url": "http://www.wikidata.org/entity/Q701418",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q699591",
+			"url": "http://www.wikidata.org/entity/Q699591",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q712780",
+			"url": "http://www.wikidata.org/entity/Q712780",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q706172",
+			"url": "http://www.wikidata.org/entity/Q706172",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q708933",
+			"url": "http://www.wikidata.org/entity/Q708933",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q708819",
+			"url": "http://www.wikidata.org/entity/Q708819",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q711191",
+			"url": "http://www.wikidata.org/entity/Q711191",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q317462",
+			"url": "http://www.wikidata.org/entity/Q317462",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q197358",
+			"url": "http://www.wikidata.org/entity/Q197358",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q708781",
+			"url": "http://www.wikidata.org/entity/Q708781",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16574",
+			"url": "http://www.wikidata.org/entity/Q16574",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q705872",
+			"url": "http://www.wikidata.org/entity/Q705872",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q699698",
+			"url": "http://www.wikidata.org/entity/Q699698",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20297",
+			"url": "http://www.wikidata.org/entity/Q20297",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335219",
+			"url": "http://www.wikidata.org/entity/Q335219",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q313598",
+			"url": "http://www.wikidata.org/entity/Q313598",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315528",
+			"url": "http://www.wikidata.org/entity/Q315528",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q22368",
+			"url": "http://www.wikidata.org/entity/Q22368",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19216",
+			"url": "http://www.wikidata.org/entity/Q19216",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4118817",
+			"url": "http://www.wikidata.org/entity/Q4118817",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6753581",
+			"url": "http://www.wikidata.org/entity/Q6753581",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10294207",
+			"url": "http://www.wikidata.org/entity/Q10294207",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q8997373",
+			"url": "http://www.wikidata.org/entity/Q8997373",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q233984",
+			"url": "http://www.wikidata.org/entity/Q233984",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3847080",
+			"url": "http://www.wikidata.org/entity/Q3847080",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q551904",
+			"url": "http://www.wikidata.org/entity/Q551904",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9182314",
+			"url": "http://www.wikidata.org/entity/Q9182314",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5116472",
+			"url": "http://www.wikidata.org/entity/Q5116472",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q865",
+			"url": "https://www.wikidata.org/wiki/Q865",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "fe5551bf3aa7",
+		"hash": "ab11dd06f2c8",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

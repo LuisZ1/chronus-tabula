@@ -3,14 +3,48 @@
 	"nombre": "Irlanda",
 	"nombres": [
 		"Ireland",
-		"Irlanda",
-		"Republica de Irlanda",
-		"Eire"
+		"Irlanda"
 	],
 	"wiki": "es:Irlanda",
 	"wikidata": "Q27",
 	"owid": "IRL",
+	"relacionados": [
+		"Republica de Irlanda",
+		"Eire"
+	],
 	"resena": "Irlanda, también conocido como República de Irlanda, es un país soberano e insular que ocupa la mayor parte de la isla de Irlanda. Es uno de los veintisiete Estados miembros de la Unión Europea.",
+	"gobernantes": [
+		{
+			"nombre": "Micheál Martin",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Leo Varadkar",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Simon Harris",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Catherine Connolly",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Micheál Martin",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 1950,
@@ -49,6 +83,12 @@
 			"valor": 5196629
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Ireland.svg",
+			"desde": 1945
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q27",
@@ -66,14 +106,46 @@
 			"url": "https://es.wikipedia.org/wiki/Irlanda",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q27",
+			"url": "https://www.wikidata.org/wiki/Q27",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q920403",
+			"url": "http://www.wikidata.org/entity/Q920403",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1728820",
+			"url": "http://www.wikidata.org/entity/Q1728820",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7518922",
+			"url": "http://www.wikidata.org/entity/Q7518922",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5052598",
+			"url": "http://www.wikidata.org/entity/Q5052598",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "04b9c5b954e1",
+		"hash": "bb1f14a9069c",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

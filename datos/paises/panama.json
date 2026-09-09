@@ -2,14 +2,53 @@
 	"id": "panama",
 	"nombre": "Panamá",
 	"nombres": [
-		"Panama",
-		"Panamá",
-		"Republica de Panama"
+		"Panama"
 	],
 	"wiki": "es:Panamá",
 	"wikidata": "Q804",
 	"owid": "PAN",
+	"relacionados": [
+		"Republica de Panama"
+	],
 	"resena": "Panamá, oficialmente denominada República de Panamá, es un país ubicado en América Central. Está dividida en diez provincias y seis comarcas indígenas.",
+	"gobernantes": [
+		{
+			"nombre": "Mireya Elisa Moscoso Rodríguez",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Martín Torrijos Espino",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Ricardo Martinelli",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Juan Carlos Varela",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Laurentino Cortizo",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2024
+		},
+		{
+			"nombre": "José Raúl Mulino",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +231,11 @@
 			"valor": 4458758
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Panama.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q804",
@@ -209,14 +253,58 @@
 			"url": "https://es.wikipedia.org/wiki/Panam%C3%A1",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q804",
+			"url": "https://www.wikidata.org/wiki/Q804",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q231946",
+			"url": "http://www.wikidata.org/entity/Q231946",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q276283",
+			"url": "http://www.wikidata.org/entity/Q276283",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57491",
+			"url": "http://www.wikidata.org/entity/Q57491",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1134096",
+			"url": "http://www.wikidata.org/entity/Q1134096",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28122455",
+			"url": "http://www.wikidata.org/entity/Q28122455",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q108454869",
+			"url": "http://www.wikidata.org/entity/Q108454869",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "f9480a0284a5",
+		"hash": "7daa24fb84db",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

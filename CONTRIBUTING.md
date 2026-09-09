@@ -183,6 +183,8 @@ Cuando la situación de un territorio es **disputada o no se resume en «parte d
 
 ## Trucos
 
+**`nombres` y `relacionados` no son lo mismo.** `nombres` solo admite los nombres EXACTOS con que la entidad aparece en los GeoJSON (`NAME` o `SUBJECTO`, normalmente en inglés): es lo que une la ficha con el polígono del mapa, y el validador avisa si pones uno que no existe en ningún mapa. Los alias en español, nombres oficiales o históricos («Myanmar», «Estados Unidos Mexicanos», «Alto Volta») van en `relacionados`: ahí los usa el filtro «Seguir un reino» y el buscador.
+
 **Averiguar el nombre exacto de una entidad en el mapa.** Abre la app, ve al año que te interesa y haz clic en el territorio: la ficha muestra «Nombre en el dato original» y «Soberanía» — esos son los valores que van en `nombres`. Alternativa por terminal:
 
 ```bash
@@ -283,4 +285,4 @@ La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta l
   | `arranque.js` | `init()` |
 
   Los estilos están en `web/css/styles.css`. La indentación del código es con **tabuladores** (hay un `.prettierrc` en la raíz: `prettier --write "web/js/*.js"` lo aplica solo). Para cambios grandes, abre antes un issue y lo hablamos.
-- **Mapas base o de fronteras**: los GeoJSON provienen de [historical-basemaps](https://github.com/aourednik/historical-basemaps); si hay versiones nuevas, se regenera también `data/years.json`.
+- **Mapas base o de fronteras**: los GeoJSON provienen de [historical-basemaps](https://github.com/aourednik/historical-basemaps); si hay versiones nuevas, se regenera también `data/years.json` y se vuelve a pasar `python api/limpiar_geojson.py`, que retira entidades duplicadas o anacrónicas conocidas (el mismo polígono dos veces con dos atribuciones, como «Yemen» y «Yemen (UK)» en 1938). El validador avisa de geometrías repetidas: si aparece una nueva, añádela a `PARCHES` en ese script con su motivo.

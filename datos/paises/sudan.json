@@ -3,9 +3,7 @@
 	"nombre": "Sudán",
 	"nombres": [
 		"Sudan",
-		"Anglo-Egyption Sudan",
-		"Sudán Anglo-Egipcio",
-		"República del Sudán"
+		"Anglo-Egyption Sudan"
 	],
 	"nombres_periodo": [
 		{
@@ -30,6 +28,10 @@
 	],
 	"wiki": "es:Sudán",
 	"wikidata": "Q1049",
+	"relacionados": [
+		"Sudán Anglo-Egipcio",
+		"República del Sudán"
+	],
 	"resena": "Sudán, oficialmente República del Sudán, es uno de los cincuenta y cinco países que forman el continente africano. Su capital es Jartum y la ciudad más poblada es Omdurmán.",
 	"gobernantes": [
 		{

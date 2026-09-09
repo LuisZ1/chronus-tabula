@@ -2,14 +2,15 @@
 	"id": "san-martin",
 	"nombre": "San Martín",
 	"nombres": [
-		"Saint Martin",
-		"San Martín",
-		"San Martin (parte francesa)",
-		"Saint-Martin"
+		"Saint Martin"
 	],
 	"wiki": "es:San Martín",
 	"wikidata": "Q126125",
 	"owid": "MAF",
+	"relacionados": [
+		"San Martin (parte francesa)",
+		"Saint-Martin"
+	],
 	"resena": "San Martín hace referencia a varios artículos:",
 	"poblacion": [
 		{
@@ -53,6 +54,11 @@
 			"valor": 27545
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "St Martin Coat.png"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q126125",
@@ -70,14 +76,21 @@
 			"url": "https://es.wikipedia.org/wiki/San_Mart%C3%ADn",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q126125",
+			"url": "https://www.wikidata.org/wiki/Q126125",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "5fed2cb5b576",
 		"secciones": [
+			"escudos",
 			"poblacion",
 			"resena"
 		]

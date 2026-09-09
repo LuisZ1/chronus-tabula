@@ -3,8 +3,7 @@
 	"nombre": "Madagascar",
 	"nombres": [
 		"Madagascar",
-		"Madagascar (France)",
-		"República de Madagascar"
+		"Madagascar (France)"
 	],
 	"nombres_periodo": [
 		{
@@ -35,6 +34,9 @@
 	],
 	"wiki": "es:Madagascar",
 	"wikidata": "Q1019",
+	"relacionados": [
+		"República de Madagascar"
+	],
 	"resena": "Madagascar, oficialmente República de Madagascar, es un país insular situado en el océano Índico, frente a la costa sureste del continente africano, al este de Mozambique. La nación está comprendida por la isla homónima, la más grande de África y la cuarta más grande del mundo, y por pequeñas y numerosas islas periféricas.",
 	"gobernantes": [
 		{
@@ -202,6 +204,11 @@
 			"fuente": "ONU (World Population Prospects 2022)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Seal of Madagascar.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -228,14 +235,21 @@
 			"url": "https://es.wikipedia.org/wiki/Madagascar",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1019",
+			"url": "https://www.wikidata.org/wiki/Q1019",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "d93762342f51",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

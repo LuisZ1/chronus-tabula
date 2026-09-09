@@ -2,14 +2,53 @@
 	"id": "kazajistan",
 	"nombre": "Kazajistán",
 	"nombres": [
-		"Kazakhstan",
-		"Kazajistán",
-		"Kazajstán"
+		"Kazakhstan"
 	],
 	"wiki": "es:Kazajistán",
 	"wikidata": "Q232",
 	"owid": "KAZ",
+	"relacionados": [
+		"Kazajstán"
+	],
 	"resena": "Kazajistán oficialmente República de Kazajstán, es un país transcontinental, con la mayor parte de su territorio situado en Asia Central y una menor parte su territorio, al oeste del río Ural, en Europa Oriental. Con una superficie de 2 724 900 km², es el noveno país más grande del mundo, así como el Estado sin litoral marítimo más extenso del mundo.",
+	"gobernantes": [
+		{
+			"nombre": "Nursultán Nazarbáyev",
+			"cargo": "jefe de Estado",
+			"desde": 1991,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Karim Masimov",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Bakhytzhan Sagintayev",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Kasim-Yomart Tokaev",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Askar Mamin",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Alihan Smaiylov",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +231,11 @@
 			"valor": 20330109
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Kazakhstan latin.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q232",
@@ -209,14 +253,58 @@
 			"url": "https://es.wikipedia.org/wiki/Kazajist%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q232",
+			"url": "https://www.wikidata.org/wiki/Q232",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57394",
+			"url": "http://www.wikidata.org/entity/Q57394",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q209639",
+			"url": "http://www.wikidata.org/entity/Q209639",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4404442",
+			"url": "http://www.wikidata.org/entity/Q4404442",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q200881",
+			"url": "http://www.wikidata.org/entity/Q200881",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q527063",
+			"url": "http://www.wikidata.org/entity/Q527063",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q56825894",
+			"url": "http://www.wikidata.org/entity/Q56825894",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "a8e5f6123c92",
+		"hash": "6dd7baa3e538",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -2,10 +2,7 @@
 	"id": "somalia",
 	"nombre": "Somalia",
 	"nombres": [
-		"Somalia",
-		"República Federal de Somalia",
-		"República Democrática Somalí",
-		"Somalia italiana"
+		"Somalia"
 	],
 	"nombres_periodo": [
 		{
@@ -30,6 +27,11 @@
 	],
 	"wiki": "es:Somalia",
 	"wikidata": "Q1045",
+	"relacionados": [
+		"República Federal de Somalia",
+		"República Democrática Somalí",
+		"Somalia italiana"
+	],
 	"resena": "Somalia, cuyo nombre oficial es República Federal de Somalia, es un país ubicado en el Cuerno de África, al este del continente africano. Limita al oeste y noroeste con Etiopía y Yibuti, al sur con Kenia, al norte con el golfo de Adén, y al este con el océano Índico.",
 	"gobernantes": [
 		{
@@ -125,6 +127,11 @@
 			"fuente": "Estimación (Wikipedia es)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Somalia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki_es",
@@ -141,14 +148,21 @@
 			"url": "https://es.wikipedia.org/wiki/Somalia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1045",
+			"url": "https://www.wikidata.org/wiki/Q1045",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "16f152aa9fdd",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

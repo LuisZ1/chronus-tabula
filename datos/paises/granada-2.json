@@ -8,6 +8,26 @@
 	"wikidata": "Q769",
 	"owid": "GRD",
 	"resena": "Granada es un municipio y ciudad española, capital de la provincia homónima, en la comunidad autónoma de Andalucía. Está situada en la parte central de la comarca de la Vega de Granada, a una altitud de 680 m s.",
+	"gobernantes": [
+		{
+			"nombre": "Keith Mitchell",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Dickon Mitchell",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +210,11 @@
 			"valor": 117094
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Grenada.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q769",
@@ -207,14 +232,40 @@
 			"url": "https://es.wikipedia.org/wiki/Granada",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q769",
+			"url": "https://www.wikidata.org/wiki/Q769",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q370110",
+			"url": "http://www.wikidata.org/entity/Q370110",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q112679881",
+			"url": "http://www.wikidata.org/entity/Q112679881",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "1fb3b4f985f4",
+		"hash": "c71bbb2cf8dc",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

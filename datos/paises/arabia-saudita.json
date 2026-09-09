@@ -2,14 +2,59 @@
 	"id": "arabia-saudita",
 	"nombre": "Arabia Saudita",
 	"nombres": [
-		"Saudi Arabia",
-		"Arabia Saudita",
-		"Arabia Saudí"
+		"Saudi Arabia"
 	],
 	"wiki": "es:Arabia Saudita",
 	"wikidata": "Q851",
 	"owid": "SAU",
+	"relacionados": [
+		"Arabia Saudí"
+	],
 	"resena": "Arabia Saudita o Arabia Saudí, oficialmente Reino de Arabia Saudita o Reino de Arabia Saudí, es un país de Asia Occidental, ubicado en la península arábiga —Oriente Próximo—, cuya forma de gobierno es la monarquía absoluta. Su capital y ciudad más poblada es Riad.",
+	"gobernantes": [
+		{
+			"nombre": "Abdelaziz bin Saud",
+			"cargo": "jefe de Estado",
+			"desde": 1932,
+			"hasta": 1953
+		},
+		{
+			"nombre": "Saud bin Abdelaziz",
+			"cargo": "jefe de Estado",
+			"desde": 1953,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Faisal bin Abdelaziz",
+			"cargo": "jefe de gobierno",
+			"desde": 1964,
+			"hasta": 1975
+		},
+		{
+			"nombre": "Jalid bin Abdelaziz",
+			"cargo": "jefe de Estado",
+			"desde": 1975,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Fahd bin Abdelaziz",
+			"cargo": "jefe de gobierno",
+			"desde": 1982,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Abdalá bin Abdelaziz",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Salman bin Abdul-Aziz Al Saud",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2015
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +237,11 @@
 			"valor": 33264289
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Saudi Arabia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q851",
@@ -209,14 +259,64 @@
 			"url": "https://es.wikipedia.org/wiki/Arabia_Saudita",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q851",
+			"url": "https://www.wikidata.org/wiki/Q851",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q151509",
+			"url": "http://www.wikidata.org/entity/Q151509",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q244206",
+			"url": "http://www.wikidata.org/entity/Q244206",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q217167",
+			"url": "http://www.wikidata.org/entity/Q217167",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q208301",
+			"url": "http://www.wikidata.org/entity/Q208301",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q183187",
+			"url": "http://www.wikidata.org/entity/Q183187",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57298",
+			"url": "http://www.wikidata.org/entity/Q57298",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q367825",
+			"url": "http://www.wikidata.org/entity/Q367825",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "75360a576561",
+		"hash": "92ba18880999",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

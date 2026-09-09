@@ -2,13 +2,77 @@
 	"id": "vietnam",
 	"nombre": "Vietnam",
 	"nombres": [
-		"Vietnam",
-		"Republica Socialista de Vietnam"
+		"Vietnam"
 	],
 	"wiki": "es:Vietnam",
 	"wikidata": "Q881",
 	"owid": "VNM",
+	"relacionados": [
+		"Republica Socialista de Vietnam"
+	],
 	"resena": "Vietnam, oficialmente República Socialista de Vietnam, es un país soberano del Sudeste Asiático y el más oriental de la península Indochina. Con una población estimada de algo más de cien millones, es el decimosexto país más poblado del mundo, el octavo de Asia y el más poblado de los cinco países que componen la Indochina.",
+	"gobernantes": [
+		{
+			"nombre": "Trần Đại Quang",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Nguyễn Xuân Phúc",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Đặng Thị Ngọc Thịnh",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Nguyen Phu Trong",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Phạm Minh Chính",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Nguyễn Xuân Phúc",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Võ Thị Ánh Xuân",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Võ Văn Thưởng",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Tô Lâm",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Võ Thị Ánh Xuân",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,14 +272,63 @@
 			"url": "https://es.wikipedia.org/wiki/Vietnam",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q7833292",
+			"url": "http://www.wikidata.org/entity/Q7833292",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10800073",
+			"url": "http://www.wikidata.org/entity/Q10800073",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10841571",
+			"url": "http://www.wikidata.org/entity/Q10841571",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q318458",
+			"url": "http://www.wikidata.org/entity/Q318458",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10806940",
+			"url": "http://www.wikidata.org/entity/Q10806940",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24957799",
+			"url": "http://www.wikidata.org/entity/Q24957799",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10833302",
+			"url": "http://www.wikidata.org/entity/Q10833302",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10831196",
+			"url": "http://www.wikidata.org/entity/Q10831196",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "614a733572cf",
+		"hash": "9af31b9a662f",
 		"secciones": [
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

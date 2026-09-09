@@ -2,13 +2,38 @@
 	"id": "irak",
 	"nombre": "Irak",
 	"nombres": [
-		"Iraq",
-		"Irak"
+		"Iraq"
 	],
 	"wiki": "es:Irak",
 	"wikidata": "Q796",
 	"owid": "IRQ",
 	"resena": "Irak o Iraq, oficialmente la República de Iraq, también conocida históricamente en Occidente como Mesopotamia, es un país asiático de Oriente Próximo que abarca la mayor parte del noroeste de la cadena montañosa de Zagros, la parte oriental del desierto de Siria y la septentrional del desierto de Arabia.",
+	"gobernantes": [
+		{
+			"nombre": "Barham Salih",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Mustafa Al-Kadhimi",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Mohammed Shia' Al Sudani",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Nizar Amidi",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +216,11 @@
 			"valor": 45074055
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Iraq.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q796",
@@ -208,14 +238,46 @@
 			"url": "https://es.wikipedia.org/wiki/Irak",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q796",
+			"url": "https://www.wikidata.org/wiki/Q796",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q808173",
+			"url": "http://www.wikidata.org/entity/Q808173",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q85317569",
+			"url": "http://www.wikidata.org/entity/Q85317569",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q115579547",
+			"url": "http://www.wikidata.org/entity/Q115579547",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3700793",
+			"url": "http://www.wikidata.org/entity/Q3700793",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "4902299e0bca",
+		"hash": "a8a1367e6a07",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -39,6 +39,8 @@ jobs:
           python-version: "3.12"
       - name: Comprobar el formato canónico de datos/
         run: python api/formatear.py --check
+      - name: Comprobar que los mapas base no traen entidades duplicadas
+        run: python api/limpiar_geojson.py --check
       - name: Validar los datos (datos/) contra schema/
         run: python api/validar.py
 

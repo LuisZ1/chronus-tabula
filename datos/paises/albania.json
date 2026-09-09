@@ -8,6 +8,20 @@
 	"wikidata": "Q222",
 	"owid": "ALB",
 	"resena": "Albania, oficialmente República de Albania, es un país situado en el sudeste de Europa. Se encuentra en el mar Adriático y Jónico dentro del mar Mediterráneo y comparte fronteras terrestres con Montenegro al noroeste, con Kosovo al noreste, Macedonia del Norte al este, Grecia al sur; y un límite marítimo con Grecia, Montenegro e Italia al oeste.",
+	"gobernantes": [
+		{
+			"nombre": "Ilir Meta",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Bajram Begaj",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +204,11 @@
 			"valor": 2811660
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Albania.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q222",
@@ -207,14 +226,34 @@
 			"url": "https://es.wikipedia.org/wiki/Albania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q222",
+			"url": "https://www.wikidata.org/wiki/Q222",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q727132",
+			"url": "http://www.wikidata.org/entity/Q727132",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q107422711",
+			"url": "http://www.wikidata.org/entity/Q107422711",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "6c3f4f2b0098",
+		"hash": "8f4665a38342",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

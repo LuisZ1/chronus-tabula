@@ -8,6 +8,20 @@
 	"wikidata": "Q750",
 	"owid": "BOL",
 	"resena": "Bolivia, oficialmente el Estado Plurinacional de Bolivia, es un país soberano ubicado en el oeste de América del Sur, miembro de la Comunidad Andina,constituido políticamente como un Estado social plurinacional, unitario, descentralizado y con autonomías. El país está organizado en nueve departamentos, ciento doce provincias.",
+	"gobernantes": [
+		{
+			"nombre": "Luis Arce",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Rodrigo Paz Pereira",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +204,11 @@
 			"valor": 12244161
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Escudo de Bolivia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q750",
@@ -207,14 +226,34 @@
 			"url": "https://es.wikipedia.org/wiki/Bolivia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q750",
+			"url": "https://www.wikidata.org/wiki/Q750",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q16149892",
+			"url": "http://www.wikidata.org/entity/Q16149892",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q110520817",
+			"url": "http://www.wikidata.org/entity/Q110520817",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c8baa25a70af",
+		"hash": "2fe5d943aa27",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

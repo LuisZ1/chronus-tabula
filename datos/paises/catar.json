@@ -2,14 +2,53 @@
 	"id": "catar",
 	"nombre": "Catar",
 	"nombres": [
-		"Qatar",
-		"Catar",
-		"Estado de Catar"
+		"Qatar"
 	],
 	"wiki": "es:Catar",
 	"wikidata": "Q846",
 	"owid": "QAT",
+	"relacionados": [
+		"Estado de Catar"
+	],
 	"resena": "Catar, cuyo nombre oficial es Estado de Catar, es un Estado soberano árabe ubicado en el oeste de Asia que ocupa la pequeña península homónima en el este de la península arábiga. Tiene una única frontera terrestre, por el sur con Arabia Saudita, mientras que el resto del territorio lo bañan las aguas del golfo Pérsico.",
+	"gobernantes": [
+		{
+			"nombre": "Ḥamad Ibn-Ḫalīfa Āl-Ṯāni",
+			"cargo": "jefe de Estado",
+			"desde": 1995,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Hamad bin Jassem bin Jabr Al Thani",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Tamim bin Hamad Al Thani",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Abdullah bin Nasser bin Khalifa Al Thani",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Khalid bin Khalifa bin Abdul Aziz Al Thani",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Mohammed bin Abdulrahman Al Thani",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +231,11 @@
 			"valor": 2979086
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Qatar-2022.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q846",
@@ -209,14 +253,58 @@
 			"url": "https://es.wikipedia.org/wiki/Catar",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q846",
+			"url": "https://www.wikidata.org/wiki/Q846",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57360",
+			"url": "http://www.wikidata.org/entity/Q57360",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57734",
+			"url": "http://www.wikidata.org/entity/Q57734",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1855372",
+			"url": "http://www.wikidata.org/entity/Q1855372",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4666105",
+			"url": "http://www.wikidata.org/entity/Q4666105",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q83849153",
+			"url": "http://www.wikidata.org/entity/Q83849153",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q23020336",
+			"url": "http://www.wikidata.org/entity/Q23020336",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "80edd798b14d",
+		"hash": "ca1546dfd46d",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

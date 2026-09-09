@@ -2,14 +2,83 @@
 	"id": "groenlandia",
 	"nombre": "Groenlandia",
 	"nombres": [
-		"Greenland",
-		"Groenlandia",
-		"Kalaallit Nunaat"
+		"Greenland"
 	],
 	"wiki": "es:Groenlandia",
 	"wikidata": "Q223",
 	"owid": "GRL",
+	"relacionados": [
+		"Kalaallit Nunaat"
+	],
 	"resena": "Groenlandia es una isla situada en el hemisferio Norte, entre los océanos Atlántico y Glacial Ártico, que políticamente es una nación constituyente del Reino de Dinamarca. Con un total de 2 166 086 km², se considera la isla más grande del mundo, tomando la definición de Australia como masa continental.",
+	"gobernantes": [
+		{
+			"nombre": "Margrethe II",
+			"cargo": "jefe de Estado",
+			"desde": 1972,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Jonathan Motzfeldt",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Lars Emil Johansen",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Jonathan Motzfeldt",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Hans Enoksen",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Kuupik Kleist",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Aleqa Hammond",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Kim Kielsen",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Múte Bourup Egede",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Federico X de Dinamarca",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Jens-Frederik Nielsen",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 1000,
@@ -112,6 +181,11 @@
 			"valor": 55951
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Greenland.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q223",
@@ -129,14 +203,82 @@
 			"url": "https://es.wikipedia.org/wiki/Groenlandia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q223",
+			"url": "https://www.wikidata.org/wiki/Q223",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q102139",
+			"url": "http://www.wikidata.org/entity/Q102139",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q381139",
+			"url": "http://www.wikidata.org/entity/Q381139",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q468034",
+			"url": "http://www.wikidata.org/entity/Q468034",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q310653",
+			"url": "http://www.wikidata.org/entity/Q310653",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q317400",
+			"url": "http://www.wikidata.org/entity/Q317400",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1796195",
+			"url": "http://www.wikidata.org/entity/Q1796195",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10566620",
+			"url": "http://www.wikidata.org/entity/Q10566620",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q51846080",
+			"url": "http://www.wikidata.org/entity/Q51846080",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1004037",
+			"url": "http://www.wikidata.org/entity/Q1004037",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16262782",
+			"url": "http://www.wikidata.org/entity/Q16262782",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "5d2517abadde",
+		"hash": "43ab3174f4da",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

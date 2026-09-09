@@ -8,6 +8,14 @@
 	"wikidata": "Q414",
 	"owid": "ARG",
 	"resena": "Argentina, oficialmente República Argentina, es un país soberano ubicado en el extremo sur y sudeste de América del Sur. Adopta la forma de gobierno democrática, federal, representativa y republicana.",
+	"gobernantes": [
+		{
+			"nombre": "Javier Milei",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +198,11 @@
 			"valor": 45538402
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Argentina.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q414",
@@ -207,14 +220,28 @@
 			"url": "https://es.wikipedia.org/wiki/Argentina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q414",
+			"url": "https://www.wikidata.org/wiki/Q414",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q52395487",
+			"url": "http://www.wikidata.org/entity/Q52395487",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "646061823e0b",
+		"hash": "396b83f77b4b",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

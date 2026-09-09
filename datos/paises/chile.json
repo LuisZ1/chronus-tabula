@@ -8,6 +8,62 @@
 	"wikidata": "Q298",
 	"owid": "CHL",
 	"resena": "Chile, oficialmente República de Chile, es un Estado soberano ubicado en el extremo sudoeste de América del Sur. Adopta la forma de gobierno republicana, democrática, presidencialista y unitaria.",
+	"gobernantes": [
+		{
+			"nombre": "Patricio Aylwin",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Eduardo Frei Ruiz-Tagle",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Ricardo Lagos",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Michelle Bachelet",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Sebastián Piñera",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Michelle Bachelet",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Sebastián Piñera",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Gabriel Boric",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
+			"nombre": "José Antonio Kast",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +246,11 @@
 			"valor": 19658833
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Chile (c).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q298",
@@ -207,14 +268,64 @@
 			"url": "https://es.wikipedia.org/wiki/Chile",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q298",
+			"url": "https://www.wikidata.org/wiki/Q298",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q335",
+			"url": "http://www.wikidata.org/entity/Q335",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q326",
+			"url": "http://www.wikidata.org/entity/Q326",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q331",
+			"url": "http://www.wikidata.org/entity/Q331",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q320",
+			"url": "http://www.wikidata.org/entity/Q320",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q306",
+			"url": "http://www.wikidata.org/entity/Q306",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16297876",
+			"url": "http://www.wikidata.org/entity/Q16297876",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5937916",
+			"url": "http://www.wikidata.org/entity/Q5937916",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "4684c241fe11",
+		"hash": "80dea4b72440",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

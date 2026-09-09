@@ -8,6 +8,14 @@
 	"wikidata": "Q733",
 	"owid": "PRY",
 	"resena": "Paraguay, oficialmente República del Paraguay, es un país soberano situado en el centro de Sudamérica con grandes extensiones de bosques, cataratas y humedales.Está organizado como un estado unitario, compuesto por una capital y diecisiete departamentos. Su capital es Asunción, una de las ciudades más antiguas de América.",
+	"gobernantes": [
+		{
+			"nombre": "Santiago Peña Palacios",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +198,11 @@
 			"valor": 6844150
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Paraguay.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q733",
@@ -207,14 +220,28 @@
 			"url": "https://es.wikipedia.org/wiki/Paraguay",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q733",
+			"url": "https://www.wikidata.org/wiki/Q733",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q22695687",
+			"url": "http://www.wikidata.org/entity/Q22695687",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "359ac60280fe",
+		"hash": "8a30daa8a960",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

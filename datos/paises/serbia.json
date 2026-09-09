@@ -8,6 +8,20 @@
 	"wikidata": "Q403",
 	"owid": "SRB",
 	"resena": "Serbia, oficialmente República de Serbia (), es un país soberano, constituido en Estado social y democrático de derecho y cuya forma de gobierno es la república parlamentaria.",
+	"gobernantes": [
+		{
+			"nombre": "Aleksandar Vučić",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Djuro Macut",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 1800,
@@ -74,6 +88,11 @@
 			"valor": 6773204
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Serbia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q403",
@@ -91,14 +110,34 @@
 			"url": "https://es.wikipedia.org/wiki/Serbia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q222031",
+			"url": "http://www.wikidata.org/entity/Q222031",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q42478807",
+			"url": "http://www.wikidata.org/entity/Q42478807",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q403",
+			"url": "https://www.wikidata.org/wiki/Q403",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "46ee10300620",
+		"hash": "ce7b2bcfbd7e",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

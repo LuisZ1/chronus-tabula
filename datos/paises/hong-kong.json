@@ -8,6 +8,38 @@
 	"wikidata": "Q8646",
 	"owid": "HKG",
 	"resena": "Hong Kong, oficialmente Región Administrativa Especial de Hong Kong de la República Popular China, es una de las dos regiones administrativas especiales que existen en la República Popular China, junto con Macao.",
+	"gobernantes": [
+		{
+			"nombre": "Tung Chee-hwa",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Donald Tsang",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Leung Chun-ying",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Carrie Lam",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2022
+		},
+		{
+			"nombre": "John Lee",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +222,11 @@
 			"valor": 7442738
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Regional Emblem of Hong Kong.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q8646",
@@ -207,14 +244,52 @@
 			"url": "https://es.wikipedia.org/wiki/Hong_Kong",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q8646",
+			"url": "https://www.wikidata.org/wiki/Q8646",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q15027",
+			"url": "http://www.wikidata.org/entity/Q15027",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15024",
+			"url": "http://www.wikidata.org/entity/Q15024",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15023",
+			"url": "http://www.wikidata.org/entity/Q15023",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19217",
+			"url": "http://www.wikidata.org/entity/Q19217",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9051824",
+			"url": "http://www.wikidata.org/entity/Q9051824",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "599e67772c41",
+		"hash": "d9a995cb9d6b",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

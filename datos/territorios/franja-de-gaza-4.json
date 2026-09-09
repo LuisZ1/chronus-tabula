@@ -1,9 +1,8 @@
 {
 	"nombre": "Franja de Gaza",
 	"pais": "Palestina",
-	"estatus": "Mandato británico de Palestina (hasta mayo de 1948)",
-	"desde": 1945,
-	"hasta": 1947,
+	"estatus": "Autoridad Nacional Palestina (Acuerdos de Oslo, 1994); retirada israelí en 2005; gobierno de Hamás desde 2007; Estado de Palestina, observador en la ONU desde 2012",
+	"desde": 1994,
 	"lat": 31.42,
 	"lng": 34.38,
 	"poligono": [
@@ -36,7 +35,7 @@
 			34.14
 		]
 	],
-	"descripcion": "Hasta la retirada británica y la proclamación de Israel (mayo de 1948) todo el territorio era el Mandato británico de Palestina; el mapa base de 1945 ya rotula «Israel». Este polígono señala la extensión aproximada de la franja según las líneas de armisticio de 1949, para dar continuidad a los periodos siguientes.",
+	"descripcion": "El Acuerdo de Gaza-Jericó (1994) traspasó la administración civil a la Autoridad Nacional Palestina. Israel retiró colonos y tropas en 2005 pero mantiene el control de fronteras, espacio aéreo y aguas; desde 2007 gobierna Hamás. Escenario de sucesivas guerras (2008-09, 2012, 2014, desde 2023). Los mapas base no distinguen la franja de Israel: este polígono señala su extensión aproximada.",
 	"wiki": "Franja de Gaza",
 	"fuentes": [
 		{
@@ -46,9 +45,9 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikipedia-es:Mandato británico de Palestina",
-			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
-			"licencia": "CC BY-SA",
+			"id": "ONU: resolución 67/19 de la Asamblea General (2012)",
+			"url": "https://digitallibrary.un.org/record/739660",
+			"licencia": "documento oficial",
 			"consultado": "2026-09-09"
 		}
 	]

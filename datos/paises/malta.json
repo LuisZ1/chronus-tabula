@@ -8,6 +8,74 @@
 	"wikidata": "Q233",
 	"owid": "MLT",
 	"resena": "Malta, oficialmente la República de Malta, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Es uno de los estados más densamente poblados, compuesto por un archipiélago y situado en el centro del mar Mediterráneo, al sur de Italia, al este de Túnez y al norte de Libia.",
+	"gobernantes": [
+		{
+			"nombre": "Dom Mintoff",
+			"cargo": "jefe de gobierno",
+			"desde": 1971,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Karmenu Mifsud Bonnici",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1987
+		},
+		{
+			"nombre": "Edward Fenech Adami",
+			"cargo": "jefe de gobierno",
+			"desde": 1987,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Alfred Sant",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Edward Fenech Adami",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Lawrence Gonzi",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Joseph Muscat",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Marie-Louise Coleiro Preca",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "George William Vella",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Robert Abela",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Myriam Spiteri Debono",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -7000,
@@ -178,6 +246,11 @@
 			"valor": 532964
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Malta.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q233",
@@ -195,14 +268,82 @@
 			"url": "https://es.wikipedia.org/wiki/Malta",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q233",
+			"url": "https://www.wikidata.org/wiki/Q233",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q167307",
+			"url": "http://www.wikidata.org/entity/Q167307",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1043593",
+			"url": "http://www.wikidata.org/entity/Q1043593",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q152511",
+			"url": "http://www.wikidata.org/entity/Q152511",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q559545",
+			"url": "http://www.wikidata.org/entity/Q559545",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57620",
+			"url": "http://www.wikidata.org/entity/Q57620",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q938224",
+			"url": "http://www.wikidata.org/entity/Q938224",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6762928",
+			"url": "http://www.wikidata.org/entity/Q6762928",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1508402",
+			"url": "http://www.wikidata.org/entity/Q1508402",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q37860840",
+			"url": "http://www.wikidata.org/entity/Q37860840",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1647394",
+			"url": "http://www.wikidata.org/entity/Q1647394",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "8b661fa0da3c",
+		"hash": "af0b67eb6919",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

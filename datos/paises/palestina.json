@@ -19,8 +19,14 @@
 		"Cisjordania",
 		"Territorios palestinos"
 	],
-	"resena": "Palestina, oficialmente Estado de Palestina, es un Estado con reconocimiento internacional limitado, observador no miembro de la ONU desde 2012, que reclama Cisjordania (incluida Jerusalén Este) y la Franja de Gaza, territorios ocupados por Israel desde 1967 y administrados en parte por la Autoridad Nacional Palestina desde 1994.",
+	"resena": "Palestina, oficialmente Estado de Palestina, es un país de Asia ubicado en la región de Oriente Próximo, más concretamente en el Levante mediterráneo, que consta de las regiones de Cisjordania y la Franja de Gaza, con Jerusalén Este como capital.",
 	"gobernantes": [
+		{
+			"nombre": "Yasir Arafat",
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 2004
+		},
 		{
 			"nombre": "Yasir Arafat",
 			"cargo": "presidente de la Autoridad Nacional Palestina",
@@ -28,10 +34,123 @@
 			"hasta": 2004
 		},
 		{
+			"nombre": "Mahmud Abbas",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Ahmed Qurei",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Mahmud Abbas",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2005
+		},
+		{
 			"nombre": "Mahmud Abás",
 			"cargo": "presidente de la Autoridad Nacional Palestina",
 			"desde": 2005,
 			"hasta": 2026
+		},
+		{
+			"nombre": "Ismail Haniya",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Salam Fayyad",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Rami hamdallah",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Mohammad Shtayyeh",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1800,
+			"valor": 165944
+		},
+		{
+			"anio": 1850,
+			"valor": 169606
+		},
+		{
+			"anio": 1900,
+			"valor": 291751
+		},
+		{
+			"anio": 1910,
+			"valor": 337256
+		},
+		{
+			"anio": 1920,
+			"valor": 353234
+		},
+		{
+			"anio": 1930,
+			"valor": 463247
+		},
+		{
+			"anio": 1940,
+			"valor": 719218
+		},
+		{
+			"anio": 1950,
+			"valor": 944632
+		},
+		{
+			"anio": 1960,
+			"valor": 1073080
+		},
+		{
+			"anio": 1970,
+			"valor": 1116285
+		},
+		{
+			"anio": 1980,
+			"valor": 1469058
+		},
+		{
+			"anio": 1990,
+			"valor": 2139065
+		},
+		{
+			"anio": 2000,
+			"valor": 3151800
+		},
+		{
+			"anio": 2010,
+			"valor": 4016918
+		},
+		{
+			"anio": 2020,
+			"valor": 5069692
+		},
+		{
+			"anio": 2023,
+			"valor": 5409201
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Palestine.svg"
 		}
 	],
 	"fuentes": [
@@ -52,12 +171,84 @@
 			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q34211",
+			"url": "http://www.wikidata.org/entity/Q34211",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q127998",
+			"url": "http://www.wikidata.org/entity/Q127998",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q378833",
+			"url": "http://www.wikidata.org/entity/Q378833",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q152378",
+			"url": "http://www.wikidata.org/entity/Q152378",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57741",
+			"url": "http://www.wikidata.org/entity/Q57741",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q13415154",
+			"url": "http://www.wikidata.org/entity/Q13415154",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16192933",
+			"url": "http://www.wikidata.org/entity/Q16192933",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P1082:Q219060",
+			"url": "https://www.wikidata.org/wiki/Q219060",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "Wikipedia (es): Estado de Palestina",
+			"url": "https://es.wikipedia.org/wiki/Palestina",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q219060",
+			"url": "https://www.wikidata.org/wiki/Q219060",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
-		"estado": "borrador",
+		"estado": "validado",
 		"fecha": "2026-09-09",
-		"por": "edición manual",
-		"secciones": []
+		"por": "panel-admin",
+		"hash": "90fef5e6635d",
+		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
+			"resena"
+		]
 	}
 }

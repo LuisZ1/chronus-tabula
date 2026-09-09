@@ -2,13 +2,59 @@
 	"id": "andorra",
 	"nombre": "Andorra",
 	"nombres": [
-		"Andorra",
-		"Principado de Andorra"
+		"Andorra"
 	],
 	"wiki": "es:Andorra",
 	"wikidata": "Q228",
 	"owid": "AND",
+	"relacionados": [
+		"Principado de Andorra"
+	],
 	"resena": "Andorra, oficialmente el Principado de Andorra, es un microestado soberano sin litoral ubicado en el suroeste de Europa, entre la comunidad autónoma de Cataluña (España) y la región de Occitania (Francia), en el límite de la península ibérica.",
+	"gobernantes": [
+		{
+			"nombre": "Joan Enric Vives",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Nicolas Sarkozy",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Antoni Martí",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2019
+		},
+		{
+			"nombre": "François Hollande",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Q3052772",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Xavier Espot Zamora",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Josep-Lluís Serrano Pentinat",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +237,11 @@
 			"valor": 80869
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of Arms of Andorra.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q228",
@@ -208,14 +259,64 @@
 			"url": "https://es.wikipedia.org/wiki/Andorra",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q228",
+			"url": "https://www.wikidata.org/wiki/Q228",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57473",
+			"url": "http://www.wikidata.org/entity/Q57473",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q329",
+			"url": "http://www.wikidata.org/entity/Q329",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24801",
+			"url": "http://www.wikidata.org/entity/Q24801",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q157",
+			"url": "http://www.wikidata.org/entity/Q157",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3052772",
+			"url": "http://www.wikidata.org/entity/Q3052772",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q21001195",
+			"url": "http://www.wikidata.org/entity/Q21001195",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q93244592",
+			"url": "http://www.wikidata.org/entity/Q93244592",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "4a883772fe25",
+		"hash": "dbb74a9e63bc",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

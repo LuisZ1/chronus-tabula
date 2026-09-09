@@ -8,6 +8,44 @@
 	"wikidata": "Q244",
 	"owid": "BRB",
 	"resena": "Barbados es un país insular de las Antillas cuya forma de gobierno es una república parlamentaria compuesta por once parroquias. Está ubicado en las Antillas Menores, al noreste del territorio continental de Venezuela, justo al este de Santa Lucía y San Vicente y las Granadinas.",
+	"gobernantes": [
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1966,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Owen Arthur",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 2008
+		},
+		{
+			"nombre": "David Thompson",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Freundel Stuart",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Mia Mottley",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Sandra Mason",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -2000,
@@ -158,6 +196,11 @@
 			"valor": 282347
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Barbados (2).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q244",
@@ -175,14 +218,58 @@
 			"url": "https://es.wikipedia.org/wiki/Barbados",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q244",
+			"url": "https://www.wikidata.org/wiki/Q244",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356389",
+			"url": "http://www.wikidata.org/entity/Q356389",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q310082",
+			"url": "http://www.wikidata.org/entity/Q310082",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57709",
+			"url": "http://www.wikidata.org/entity/Q57709",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6827147",
+			"url": "http://www.wikidata.org/entity/Q6827147",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9333540",
+			"url": "http://www.wikidata.org/entity/Q9333540",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "7475d13b6dad",
+		"hash": "cfa33ba21627",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

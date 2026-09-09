@@ -2,8 +2,7 @@
 	"id": "suiza",
 	"nombre": "Suiza",
 	"nombres": [
-		"Switzerland",
-		"Suiza"
+		"Switzerland"
 	],
 	"wiki": "es:Suiza",
 	"wikidata": "Q39",
@@ -191,6 +190,11 @@
 			"valor": 8870564
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of Arms of Switzerland (Pantone).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q39",
@@ -208,14 +212,21 @@
 			"url": "https://es.wikipedia.org/wiki/Suiza",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q39",
+			"url": "https://www.wikidata.org/wiki/Q39",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "c5a3e95598a7",
 		"secciones": [
+			"escudos",
 			"poblacion",
 			"resena"
 		]

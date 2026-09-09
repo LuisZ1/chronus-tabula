@@ -2,13 +2,110 @@
 	"id": "haiti",
 	"nombre": "Haití",
 	"nombres": [
-		"Haiti",
-		"Haití"
+		"Haiti"
 	],
 	"wiki": "es:Haití",
 	"wikidata": "Q790",
 	"owid": "HTI",
 	"resena": "Haití, oficialmente República de Haití, es un país de América ubicado en La Española; es uno de los trece Estados que forman la América Insular, Antillas o islas del mar Caribe. Su capital y ciudad más poblada es Puerto Príncipe.",
+	"gobernantes": [
+		{
+			"nombre": "René Préval",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Jean-Bertrand Aristide",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Boniface Alexandre",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2006
+		},
+		{
+			"nombre": "René Préval",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Michel Martelly",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Jocelerme Privert",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Jack Guy Lafontant",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Jovenel Moïse",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Jean-Henry Céant",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Jean-Michel Lapin",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Joseph Jouthe",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Claude Joseph",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Ariel Henry",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Alix Didier Fils-Aimé",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Consejo Presidencial de Transición",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Garry Conille",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -8000,
@@ -183,6 +280,11 @@
 			"valor": 11637402
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Haiti.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q790",
@@ -200,14 +302,112 @@
 			"url": "https://es.wikipedia.org/wiki/Hait%C3%AD",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q790",
+			"url": "https://www.wikidata.org/wiki/Q790",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q208834",
+			"url": "http://www.wikidata.org/entity/Q208834",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q209617",
+			"url": "http://www.wikidata.org/entity/Q209617",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q323218",
+			"url": "http://www.wikidata.org/entity/Q323218",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57512",
+			"url": "http://www.wikidata.org/entity/Q57512",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6207072",
+			"url": "http://www.wikidata.org/entity/Q6207072",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q21294765",
+			"url": "http://www.wikidata.org/entity/Q21294765",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28836953",
+			"url": "http://www.wikidata.org/entity/Q28836953",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3166124",
+			"url": "http://www.wikidata.org/entity/Q3166124",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q62596591",
+			"url": "http://www.wikidata.org/entity/Q62596591",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q87188650",
+			"url": "http://www.wikidata.org/entity/Q87188650",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q106496152",
+			"url": "http://www.wikidata.org/entity/Q106496152",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q107451258",
+			"url": "http://www.wikidata.org/entity/Q107451258",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q124846311",
+			"url": "http://www.wikidata.org/entity/Q124846311",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q260400",
+			"url": "http://www.wikidata.org/entity/Q260400",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q131140314",
+			"url": "http://www.wikidata.org/entity/Q131140314",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "6c19f473be1a",
+		"hash": "425f02cca74d",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

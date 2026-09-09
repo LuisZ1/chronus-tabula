@@ -536,7 +536,8 @@ function setupControls() {
 			p =>
 				(p.nombre || '').toLowerCase() === v ||
 				p.id === v ||
-				(p.nombres || []).some(n => n.toLowerCase() === v)
+				(p.nombres || []).some(n => n.toLowerCase() === v) ||
+				(p.relacionados || []).some(n => n.toLowerCase() === v)
 		);
 		if (pais) setFollow(pais);
 	});

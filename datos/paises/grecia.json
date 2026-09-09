@@ -2,13 +2,86 @@
 	"id": "grecia",
 	"nombre": "Grecia",
 	"nombres": [
-		"Greece",
-		"Grecia"
+		"Greece"
 	],
 	"wiki": "es:Grecia",
 	"wikidata": "Q41",
 	"owid": "GRC",
 	"resena": "Grecia, oficialmente llamada República Helénica, es uno de los veintisiete Estados soberanos que forman la Unión Europea. En este país viven alrededor de diez millones de habitantes, que conforman una sociedad muy homogénea donde principalmente se habla griego y se practica el cristianismo ortodoxo.",
+	"gobernantes": [
+		{
+			"nombre": "Pavlos Kunturiotis",
+			"cargo": "jefe de Estado",
+			"desde": 1924,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Theodoros Pangalos",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Pavlos Kunturiotis",
+			"cargo": "jefe de Estado",
+			"desde": 1926,
+			"hasta": 1929
+		},
+		{
+			"nombre": "Aléxandros Zaimis",
+			"cargo": "jefe de Estado",
+			"desde": 1929,
+			"hasta": 1935
+		},
+		{
+			"nombre": "Phaedon Gizikis",
+			"cargo": "jefe de Estado",
+			"desde": 1973,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Michail Stasinopulos",
+			"cargo": "jefe de Estado",
+			"desde": 1974,
+			"hasta": 1975
+		},
+		{
+			"nombre": "Konstantinos Tsatsos",
+			"cargo": "jefe de Estado",
+			"desde": 1975,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Konstantínos Karamanlís",
+			"cargo": "jefe de Estado",
+			"desde": 1980,
+			"hasta": 1985
+		},
+		{
+			"nombre": "Prokópis Pavlópoulos",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Kyriákos Mitsotákis",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Katerína Sakellaropoúlou",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Konstantínos Tasoúlas",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +264,12 @@
 			"valor": 10242910
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Greece.svg",
+			"desde": 1975
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q41",
@@ -208,14 +287,88 @@
 			"url": "https://es.wikipedia.org/wiki/Grecia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q41",
+			"url": "https://www.wikidata.org/wiki/Q41",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q374655",
+			"url": "http://www.wikidata.org/entity/Q374655",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q515693",
+			"url": "http://www.wikidata.org/entity/Q515693",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q332096",
+			"url": "http://www.wikidata.org/entity/Q332096",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q365196",
+			"url": "http://www.wikidata.org/entity/Q365196",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q373532",
+			"url": "http://www.wikidata.org/entity/Q373532",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q365209",
+			"url": "http://www.wikidata.org/entity/Q365209",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q156806",
+			"url": "http://www.wikidata.org/entity/Q156806",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3407316",
+			"url": "http://www.wikidata.org/entity/Q3407316",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q552751",
+			"url": "http://www.wikidata.org/entity/Q552751",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57415743",
+			"url": "http://www.wikidata.org/entity/Q57415743",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20995518",
+			"url": "http://www.wikidata.org/entity/Q20995518",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "77a9c0ab02a1",
+		"hash": "7d10a72726dc",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

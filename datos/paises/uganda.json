@@ -2,8 +2,7 @@
 	"id": "uganda",
 	"nombre": "Uganda",
 	"nombres": [
-		"Uganda",
-		"República de Uganda"
+		"Uganda"
 	],
 	"nombres_periodo": [
 		{
@@ -19,6 +18,9 @@
 	],
 	"wiki": "es:Uganda",
 	"wikidata": "Q1036",
+	"relacionados": [
+		"República de Uganda"
+	],
 	"resena": "Uganda, oficialmente República de Uganda es un país soberano sin salida al mar situado en África oriental. El país limita al este con Kenia, al norte con Sudán del Sur, al oeste con República Democrática del Congo y al sur con Ruanda y al suroeste con Tanzania.",
 	"gobernantes": [
 		{

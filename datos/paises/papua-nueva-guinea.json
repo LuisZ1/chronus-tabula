@@ -2,13 +2,32 @@
 	"id": "papua-nueva-guinea",
 	"nombre": "Papúa Nueva Guinea",
 	"nombres": [
-		"Papua New Guinea",
-		"Papúa Nueva Guinea"
+		"Papua New Guinea"
 	],
 	"wiki": "es:Papúa Nueva Guinea",
 	"wikidata": "Q691",
 	"owid": "PNG",
 	"resena": "Papúa Nueva Guinea, oficialmente denominado Estado Independiente de Papúa Nueva Guinea, es un país soberano de Oceanía que ocupa la mitad oriental de la isla de Nueva Guinea y una numerosa cantidad de islas situadas alrededor de esta. La otra mitad de la isla pertenece a Indonesia, y se compone de la región denominada Nueva Guinea Occidental.",
+	"gobernantes": [
+		{
+			"nombre": "Peter O'Neill",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2019
+		},
+		{
+			"nombre": "James Marape",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +210,11 @@
 			"valor": 10389638
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "National emblem of Papua New Guinea.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q691",
@@ -208,14 +232,40 @@
 			"url": "https://es.wikipedia.org/wiki/Pap%C3%BAa_Nueva_Guinea",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q691",
+			"url": "https://www.wikidata.org/wiki/Q691",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57892",
+			"url": "http://www.wikidata.org/entity/Q57892",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6138903",
+			"url": "http://www.wikidata.org/entity/Q6138903",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "a3b03ecd3165",
+		"hash": "805f259dc56d",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

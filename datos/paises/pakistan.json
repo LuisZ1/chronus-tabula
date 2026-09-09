@@ -2,13 +2,68 @@
 	"id": "pakistan",
 	"nombre": "Pakistán",
 	"nombres": [
-		"Pakistan",
-		"Pakistán"
+		"Pakistan"
 	],
 	"wiki": "es:Pakistán",
 	"wikidata": "Q843",
 	"owid": "PAK",
 	"resena": "Pakistán o Paquistán, oficialmente República Islámica de Pakistán, es un Estado soberano de Asia ubicado en Oriente Medio y el subcontinente indio que comparte fronteras con Afganistán al norte y noroeste, con Irán al oeste, con la India al este y con China al noreste, mientras que hacia el sur posee unos 1046 km de costa bañada por el mar Arábigo y el golfo…",
+	"gobernantes": [
+		{
+			"nombre": "Mir Hazar Khan Khoso",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Nawaz Sharif",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Mamnoon Hussain",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Shahid Khaqan Abbasi",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Nasir-ul-Mulk",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Q155164",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Arif Alvi",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Shahbaz Sharif",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Asif Ali Zardari",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +246,11 @@
 			"valor": 247504505
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "State emblem of Pakistan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q843",
@@ -208,14 +268,76 @@
 			"url": "https://es.wikipedia.org/wiki/Pakist%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q843",
+			"url": "https://www.wikidata.org/wiki/Q843",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q14257286",
+			"url": "http://www.wikidata.org/entity/Q14257286",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q8168180",
+			"url": "http://www.wikidata.org/entity/Q8168180",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q134068",
+			"url": "http://www.wikidata.org/entity/Q134068",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7461686",
+			"url": "http://www.wikidata.org/entity/Q7461686",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4790529",
+			"url": "http://www.wikidata.org/entity/Q4790529",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6967119",
+			"url": "http://www.wikidata.org/entity/Q6967119",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q155164",
+			"url": "http://www.wikidata.org/entity/Q155164",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2096387",
+			"url": "http://www.wikidata.org/entity/Q2096387",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57373",
+			"url": "http://www.wikidata.org/entity/Q57373",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "9b8f6f75d0f1",
+		"hash": "e5e9ca5fadcd",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -92,7 +92,7 @@
 			"items": {
 				"type": "string"
 			},
-			"description": "Nombres de otras fichas de 'paises' relacionadas (predecesores, colonias…)"
+			"description": "Alias en español y nombres de otras fichas relacionadas (predecesores, colonias, nombres oficiales antiguos). Los usa el filtro «Seguir un reino» y el buscador; NO van a 'nombres', que solo admite nombres exactos de los GeoJSON"
 		},
 		"resena": {
 			"type": "string",

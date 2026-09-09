@@ -2,10 +2,7 @@
 	"id": "guinea",
 	"nombre": "Guinea",
 	"nombres": [
-		"Guinea",
-		"Guinea-Conakri",
-		"Guinea Francesa",
-		"República de Guinea"
+		"Guinea"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +23,11 @@
 	],
 	"wiki": "es:Guinea",
 	"wikidata": "Q1006",
+	"relacionados": [
+		"Guinea-Conakri",
+		"Guinea Francesa",
+		"República de Guinea"
+	],
 	"resena": "Guinea, oficialmente la República de Guinea, frecuentemente llamada Guinea-Conakri para diferenciarla de otros dos países africanos, su vecino Guinea-Bisáu y Guinea Ecuatorial, es un país de África occidental, antiguamente conocido como Guinea Francesa.",
 	"gobernantes": [
 		{
