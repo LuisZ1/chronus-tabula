@@ -10,34 +10,199 @@
 		"Aliados"
 	],
 	"bajas": "varios millones",
-	"descripcion": "Teatro japonés de la Segunda Guerra Mundial: del ataque a Pearl Harbor (1941) a la contraofensiva estadounidense (Midway, Iwo Jima, Okinawa) y las bombas atómicas de 1945. Se registra como conflicto propio por su valor cartográfico centrado en Japón, complementando 'wwii'.",
+	"descripcion": "Teatro japonés de la Segunda Guerra Mundial: del ataque a Pearl Harbor (1941) a la contraofensiva estadounidense (Midway, Iwo Jima, Okinawa) y las bombas atómicas de 1945. Las zonas son aproximaciones de los teatros de operaciones (el Pacífico central, Hawái y Midway, se dibujan aparte para no cruzar el antimeridiano). Se registra como conflicto propio por su valor cartográfico centrado en Japón, complementando 'wwii'.",
 	"wiki": "Guerra del Pacífico",
 	"zonas": [
 		{
-			"nombre": "Teatro del Pacífico",
+			"nombre": "Expansión japonesa (Malasia, Indias Orientales, Filipinas)",
 			"tipo": "frente",
+			"mar": true,
 			"desde": 1941,
+			"hasta": 1942,
+			"poligono": [
+				[
+					25,
+					118
+				],
+				[
+					22,
+					128
+				],
+				[
+					8,
+					135
+				],
+				[
+					-9,
+					152
+				],
+				[
+					-11,
+					128
+				],
+				[
+					-9,
+					104
+				],
+				[
+					1,
+					98
+				],
+				[
+					8,
+					100
+				],
+				[
+					18,
+					108
+				]
+			]
+		},
+		{
+			"nombre": "Hawái (ataque a Pearl Harbor)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1941,
+			"hasta": 1941,
+			"poligono": [
+				[
+					23.5,
+					-161
+				],
+				[
+					23.5,
+					-154
+				],
+				[
+					18.5,
+					-154
+				],
+				[
+					18.5,
+					-161
+				]
+			]
+		},
+		{
+			"nombre": "Midway",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1942,
+			"hasta": 1942,
+			"poligono": [
+				[
+					30.5,
+					-180
+				],
+				[
+					30.5,
+					-174.5
+				],
+				[
+					26,
+					-174.5
+				],
+				[
+					26,
+					-180
+				]
+			]
+		},
+		{
+			"nombre": "Birmania",
+			"tipo": "frente",
+			"desde": 1942,
 			"hasta": 1945,
 			"poligono": [
 				[
-					21.3,
-					-157.9
+					27.5,
+					94
 				],
 				[
-					35.7,
-					139.7
+					27.5,
+					99
 				],
 				[
-					14.6,
-					120.98
+					20,
+					101
 				],
 				[
-					-9.4,
-					147.2
+					10,
+					99
 				],
 				[
-					13.4,
-					144.8
+					13,
+					97
+				],
+				[
+					19,
+					92.5
+				]
+			]
+		},
+		{
+			"nombre": "Contraofensiva aliada (Salomón, Nueva Guinea, Marianas, Filipinas)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1943,
+			"hasta": 1944,
+			"poligono": [
+				[
+					20,
+					120
+				],
+				[
+					16,
+					148
+				],
+				[
+					5,
+					160
+				],
+				[
+					-12,
+					163
+				],
+				[
+					-12,
+					140
+				],
+				[
+					5,
+					125
+				]
+			]
+		},
+		{
+			"nombre": "Asalto a Japón (Iwo Jima, Okinawa, bombardeos)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1945,
+			"hasta": 1945,
+			"poligono": [
+				[
+					42,
+					140
+				],
+				[
+					37,
+					146
+				],
+				[
+					23,
+					143
+				],
+				[
+					24,
+					126
+				],
+				[
+					31,
+					128
+				],
+				[
+					36,
+					133
 				]
 			]
 		}
@@ -51,11 +216,53 @@
 			"descripcion": "Ataque sorpresa que arrastra a EE. UU. a la guerra."
 		},
 		{
+			"nombre": "Batalla de Bataan",
+			"anio": 1942,
+			"lat": 14.6,
+			"lng": 120.5,
+			"descripcion": "Rendición de las fuerzas filipino-estadounidenses en Luzón (abril de 1942)."
+		},
+		{
+			"nombre": "Batalla de Guadalcanal",
+			"anio": 1942,
+			"lat": -9.43,
+			"lng": 160.05,
+			"descripcion": "Primera gran ofensiva aliada en el Pacífico (agosto de 1942 – febrero de 1943)."
+		},
+		{
 			"nombre": "Batalla de Midway",
 			"anio": 1942,
 			"lat": 28.2,
 			"lng": -177.37,
 			"descripcion": "Derrota naval japonesa que marca el punto de inflexión del Pacífico."
+		},
+		{
+			"nombre": "Batalla del Mar del Coral",
+			"anio": 1942,
+			"lat": -15.0,
+			"lng": 155.0,
+			"descripcion": "Primer combate naval librado solo entre portaaviones (mayo de 1942)."
+		},
+		{
+			"nombre": "Caída de Singapur",
+			"anio": 1942,
+			"lat": 1.35,
+			"lng": 103.82,
+			"descripcion": "Rendición de la guarnición británica ante el ejército japonés (15 de febrero de 1942)."
+		},
+		{
+			"nombre": "Batalla de Saipán",
+			"anio": 1944,
+			"lat": 15.19,
+			"lng": 145.75,
+			"descripcion": "Conquista de las Marianas, base de los bombardeos sobre Japón (junio–julio de 1944)."
+		},
+		{
+			"nombre": "Batalla del golfo de Leyte",
+			"anio": 1944,
+			"lat": 11.0,
+			"lng": 125.3,
+			"descripcion": "La mayor batalla naval de la guerra; inicio de la reconquista de Filipinas (octubre de 1944)."
 		},
 		{
 			"nombre": "Batalla de Iwo Jima",
@@ -70,6 +277,20 @@
 			"lat": 26.33,
 			"lng": 127.8,
 			"descripcion": "Última gran batalla terrestre antes de la rendición."
+		},
+		{
+			"nombre": "Bombardeo atómico de Hiroshima",
+			"anio": 1945,
+			"lat": 34.39,
+			"lng": 132.46,
+			"descripcion": "6 de agosto de 1945."
+		},
+		{
+			"nombre": "Bombardeo atómico de Nagasaki",
+			"anio": 1945,
+			"lat": 32.75,
+			"lng": 129.87,
+			"descripcion": "9 de agosto de 1945."
 		}
 	],
 	"fuentes": [
@@ -78,6 +299,12 @@
 			"url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico_(1937-1945)",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Guerra del Pacífico (1937-1945) — batallas enlazadas",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico_(1937-1945)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
 		}
 	]
 }
