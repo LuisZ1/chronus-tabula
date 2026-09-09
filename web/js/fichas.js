@@ -187,7 +187,10 @@ function eventPopupHtml(ev) {
 function territorioPopupHtml(t, color) {
 	const esc = escHtml;
 	const fin = t.hasta !== undefined && t.hasta !== null ? i18n.formatYear(t.hasta) : i18n.t('terr.present');
-	let rows = `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(t.pais)}</td></tr>`;
+	// 'estatus' describe la situación jurídica sin afirmar pertenencia (el país solo da el color)
+	let rows = t.estatus
+		? `<tr><td>${i18n.t('terr.status')}</td><td>${esc(t.estatus)}</td></tr>`
+		: `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(t.pais)}</td></tr>`;
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(t.desde)} – ${fin}</td></tr>`;
 	const wikiRef = refWiki(t.wiki || t.nombre);
 	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}</div>`;

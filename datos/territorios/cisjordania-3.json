@@ -1,0 +1,86 @@
+{
+	"nombre": "Cisjordania",
+	"pais": "Palestina",
+	"estatus": "Autoridad Nacional Palestina en las áreas A y B (Acuerdos de Oslo, 1993-1995); Israel conserva el control del área C y de la seguridad; Estado de Palestina, observador en la ONU desde 2012",
+	"desde": 1994,
+	"lat": 32.0,
+	"lng": 35.3,
+	"poligono": [
+		[
+			32.55,
+			35.56
+		],
+		[
+			32.55,
+			35.22
+		],
+		[
+			32.42,
+			35.0
+		],
+		[
+			32.15,
+			34.96
+		],
+		[
+			31.95,
+			34.98
+		],
+		[
+			31.84,
+			34.97
+		],
+		[
+			31.8,
+			35.06
+		],
+		[
+			31.79,
+			35.17
+		],
+		[
+			31.71,
+			35.16
+		],
+		[
+			31.62,
+			34.98
+		],
+		[
+			31.42,
+			34.97
+		],
+		[
+			31.36,
+			35.12
+		],
+		[
+			31.38,
+			35.46
+		],
+		[
+			31.75,
+			35.53
+		],
+		[
+			32.2,
+			35.56
+		]
+	],
+	"descripcion": "Los Acuerdos de Oslo dividieron Cisjordania en áreas A (administración palestina), B (civil palestina, seguridad israelí) y C (control israelí, ~60 % del territorio). La ONU admitió al Estado de Palestina como observador no miembro en 2012. Extensión aproximada según las líneas de 1949; no se dibujan las áreas ni los asentamientos.",
+	"wiki": "Cisjordania",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Cisjordania",
+			"url": "https://es.wikipedia.org/wiki/Cisjordania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "ONU: resolución 67/19 de la Asamblea General (2012)",
+			"url": "https://digitallibrary.un.org/record/739660",
+			"licencia": "documento oficial",
+			"consultado": "2026-09-09"
+		}
+	]
+}

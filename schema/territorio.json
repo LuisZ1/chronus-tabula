@@ -20,6 +20,10 @@
 			"type": "string",
 			"description": "Nombre del país del que hereda el color (debe coincidir con 'nombre', 'nombres' o 'relacionados' de una ficha de 'paises')"
 		},
+		"estatus": {
+			"type": "string",
+			"description": "Situación jurídica o administrativa, en términos descriptivos (p. ej. «Administración militar egipcia (1948–1967)»). Si existe, la ficha lo muestra en lugar de «Parte de»; el país solo da el color."
+		},
 		"desde": {
 			"type": "integer",
 			"minimum": -123000,

@@ -120,7 +120,7 @@ ORDEN_CLAVES = {
                    "zonas", "batallas", "fuentes"],
     "eventos": ["nombre", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
                 "wiki", "fuentes"],
-    "territorios": ["nombre", "pais", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
+    "territorios": ["nombre", "pais", "estatus", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
                     "wiki", "fuentes"],
 }
 ORDEN_SUBCLAVES = {

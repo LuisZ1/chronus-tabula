@@ -51,6 +51,7 @@
   "layers.margin": "Year margin",
   "layers.marginTitle": "Also show battles and events from years near the selected one",
   "layers.territories": "Minor territories",
+  "terr.status": "Status",
   "terr.present": "present",
   "war.theater": "Theater of operations",
   "war.phase": "Phase",

@@ -1,0 +1,49 @@
+{
+	"nombre": "Franja de Gaza",
+	"pais": "Egipto",
+	"estatus": "Administración militar egipcia (1948–1967)",
+	"desde": 1948,
+	"hasta": 1966,
+	"lat": 31.42,
+	"lng": 34.38,
+	"poligono": [
+		[
+			31.63,
+			34.4
+		],
+		[
+			31.6,
+			34.49
+		],
+		[
+			31.59,
+			34.57
+		],
+		[
+			31.42,
+			34.47
+		],
+		[
+			31.32,
+			34.4
+		],
+		[
+			31.22,
+			34.27
+		],
+		[
+			31.29,
+			34.14
+		]
+	],
+	"descripcion": "Tras la guerra árabe-israelí de 1948 y los armisticios de 1949, la Franja de Gaza quedó bajo administración militar egipcia, sin ser anexionada. Acogió a gran parte de la población palestina desplazada. Los mapas base no distinguen la franja de Israel: este polígono señala su extensión aproximada.",
+	"wiki": "Franja de Gaza",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Franja de Gaza",
+			"url": "https://es.wikipedia.org/wiki/Franja_de_Gaza",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		}
+	]
+}

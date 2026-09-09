@@ -1,0 +1,63 @@
+{
+	"id": "palestina",
+	"nombre": "Palestina",
+	"nombres": [
+		"Mandatory Palestine (GB)"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Palestina (Mandato británico)",
+			"desde": 1920,
+			"hasta": 1947
+		}
+	],
+	"wiki": "Estado de Palestina",
+	"wikidata": "Q219060",
+	"owid": "PSE",
+	"relacionados": [
+		"Franja de Gaza",
+		"Cisjordania",
+		"Territorios palestinos"
+	],
+	"resena": "Palestina, oficialmente Estado de Palestina, es un Estado con reconocimiento internacional limitado, observador no miembro de la ONU desde 2012, que reclama Cisjordania (incluida Jerusalén Este) y la Franja de Gaza, territorios ocupados por Israel desde 1967 y administrados en parte por la Autoridad Nacional Palestina desde 1994.",
+	"gobernantes": [
+		{
+			"nombre": "Yasir Arafat",
+			"cargo": "presidente de la Autoridad Nacional Palestina",
+			"desde": 1994,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Mahmud Abás",
+			"cargo": "presidente de la Autoridad Nacional Palestina",
+			"desde": 2005,
+			"hasta": 2026
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Estado de Palestina",
+			"url": "https://es.wikipedia.org/wiki/Estado_de_Palestina",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "ONU: resolución 67/19 de la Asamblea General (2012)",
+			"url": "https://digitallibrary.un.org/record/739660",
+			"licencia": "documento oficial",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Mandato británico de Palestina",
+			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-09"
+		}
+	],
+	"revision": {
+		"estado": "borrador",
+		"fecha": "2026-09-09",
+		"por": "edición manual",
+		"secciones": []
+	}
+}
