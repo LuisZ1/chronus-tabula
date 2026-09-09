@@ -198,6 +198,12 @@
 			"valor": 28300861
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Venezuela.svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q717",
@@ -221,6 +227,12 @@
 			"url": "http://www.wikidata.org/entity/Q15081116",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q717",
+			"url": "https://www.wikidata.org/wiki/Q717",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -229,6 +241,7 @@
 		"por": "panel-admin",
 		"hash": "18be0d556d29",
 		"secciones": [
+			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"

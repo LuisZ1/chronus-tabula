@@ -198,6 +198,11 @@
 			"valor": 3388083
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Uruguay.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q77",
@@ -221,6 +226,12 @@
 			"url": "http://www.wikidata.org/entity/Q19946921",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q77",
+			"url": "https://www.wikidata.org/wiki/Q77",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -229,6 +240,7 @@
 		"por": "panel-admin",
 		"hash": "34d623d761f5",
 		"secciones": [
+			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"

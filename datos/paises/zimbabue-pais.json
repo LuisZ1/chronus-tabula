@@ -145,6 +145,11 @@
 			"fuente": "Censo de Zimbabue 2022"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Zimbabwe.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -171,14 +176,21 @@
 			"url": "https://es.wikipedia.org/wiki/Zimbabue",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q954",
+			"url": "https://www.wikidata.org/wiki/Q954",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "9d52789e4fb2",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

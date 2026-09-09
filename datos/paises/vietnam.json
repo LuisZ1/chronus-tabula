@@ -255,6 +255,11 @@
 			"valor": 100352189
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Vietnam.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q881",
@@ -320,6 +325,12 @@
 			"url": "http://www.wikidata.org/entity/Q10831196",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q881",
+			"url": "https://www.wikidata.org/wiki/Q881",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -328,6 +339,7 @@
 		"por": "panel-admin",
 		"hash": "9af31b9a662f",
 		"secciones": [
+			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"

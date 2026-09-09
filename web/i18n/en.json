@@ -32,6 +32,8 @@
   "layers.events": "Events",
   "layers.names": "Names",
   "layers.coa": "Coats of arms",
+  "layers.flags": "Flags",
+  "layers.emblemTitle": "Next to each country name: its coat of arms or its flag for the selected year (one or the other)",
   "layers.fill": "Colors",
   "legend.title": "Entities of the year",
   "follow.placeholder": "Follow a kingdom…",

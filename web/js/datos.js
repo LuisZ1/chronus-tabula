@@ -71,14 +71,36 @@ function escudoUrlDe(archivo) {
 	);
 }
 
-function escudoParaAnio(pais, y) {
-	if (!pais || !Array.isArray(pais.escudos)) return null;
-	for (const e of pais.escudos) {
+/* escudo ('escudos') o bandera ('banderas') vigente en el año y, según campo */
+function emblemaParaAnio(pais, y, campo) {
+	if (!pais || !Array.isArray(pais[campo])) return null;
+	// primero los que tienen vigencia (desde/hasta); el que no la tiene es el
+	// respaldo «actual» y solo se usa si ningún periodo cubre el año (el orden en
+	// el fichero es canónico por fecha y el respaldo queda el primero, así que no
+	// vale con recorrer la lista sin más)
+	let respaldo = null;
+	for (const e of pais[campo]) {
+		if (e.desde == null && e.hasta == null) {
+			respaldo = respaldo || e;
+			continue;
+		}
 		const desde = e.desde ?? -1e9;
 		const hasta = e.hasta ?? 1e9;
 		if (y >= desde && y <= hasta) return escudoUrlDe(e.archivo);
 	}
-	return null;
+	return respaldo ? escudoUrlDe(respaldo.archivo) : null;
+}
+
+function escudoParaAnio(pais, y) {
+	return emblemaParaAnio(pais, y, 'escudos');
+}
+
+/* el emblema que el usuario ha elegido ver (prefs.emblema): campo de la ficha y
+   propiedad de Wikidata para el respaldo en vivo */
+function emblemaElegido() {
+	return prefs.emblema === 'bandera'
+		? { campo: 'banderas', prop: 'P41', clave: 'flag' }
+		: { campo: 'escudos', prop: 'P94', clave: 'coa' };
 }
 
 function gobernanteEn(pais, y) {

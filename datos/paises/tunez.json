@@ -105,6 +105,11 @@
 			"fuente": "Wikipedia (es), estimacion"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Tunisia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -126,14 +131,21 @@
 			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q948",
+			"url": "https://www.wikidata.org/wiki/Q948",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "dc31e404736b",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

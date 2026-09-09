@@ -198,6 +198,22 @@
 			"valor": 7364437
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Turkmenistan (1992–2000).svg",
+			"desde": 1992,
+			"hasta": 2000
+		},
+		{
+			"archivo": "Emblem of Turkmenistan (2000–2003).svg",
+			"desde": 2000,
+			"hasta": 2003
+		},
+		{
+			"archivo": "Emblem of Turkmenistan.svg",
+			"desde": 2003
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q874",
@@ -221,6 +237,12 @@
 			"url": "http://www.wikidata.org/entity/Q51874548",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q874",
+			"url": "https://www.wikidata.org/wiki/Q874",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -229,6 +251,7 @@
 		"por": "panel-admin",
 		"hash": "9f9b73aa82c4",
 		"secciones": [
+			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"

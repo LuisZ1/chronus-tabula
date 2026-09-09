@@ -210,6 +210,11 @@
 			"valor": 35652311
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Uzbekistan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q265",
@@ -245,6 +250,12 @@
 			"url": "http://www.wikidata.org/entity/Q28002959",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q265",
+			"url": "https://www.wikidata.org/wiki/Q265",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -253,6 +264,7 @@
 		"por": "panel-admin",
 		"hash": "fde77138361f",
 		"secciones": [
+			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"

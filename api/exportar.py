@@ -65,6 +65,10 @@ def main():
             pais["escudos"] = datos["escudos"]
             fusionar_fuente(pais, datos["fuente"])
             tocados.setdefault(pais_id, set()).add("escudos")
+        elif tipo == "banderas":
+            pais["banderas"] = datos["banderas"]
+            fusionar_fuente(pais, datos["fuente"])
+            tocados.setdefault(pais_id, set()).add("banderas")
         elif tipo == "batalla":
             conflicto = conflictos.get(datos["conflicto"])
             if not conflicto:

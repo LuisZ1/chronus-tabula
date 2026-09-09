@@ -127,6 +127,11 @@
 			"fuente": "censo"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Zambia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -153,14 +158,21 @@
 			"url": "https://es.wikipedia.org/wiki/Zambia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q953",
+			"url": "https://www.wikidata.org/wiki/Q953",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "1d614e3e7e56",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

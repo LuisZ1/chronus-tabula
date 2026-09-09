@@ -42,7 +42,8 @@ const prefs = {
 	eventos: true,
 	zonas: true,
 	nombres: true,
-	escudos: true,
+	escudos: true, // mostrar emblema junto al nombre
+	emblema: 'escudo', // cuál: 'escudo' (P94) o 'bandera' (P41), uno u otro
 	relleno: true,
 	territorios: true,
 	margen: 0
