@@ -61,7 +61,7 @@ Vistos en conjunto, los datos tienen cuatro colecciones. Los años **negativos s
 ```jsonc
 {
   "_ayuda":      { ... },   // datos/_meta.json: esta documentación, resumida
-  "paises":      [ ... ],   // entidades: nombres, gobernantes, población, escudos, reseña, revisión
+  "paises":      [ ... ],   // entidades: nombres, gobernantes, población, escudos y banderas, reseña, revisión
   "conflictos":  [ ... ],   // guerras: periodo, bandos, zonas por fases, batallas
   "eventos":     [ ... ],   // hechos puntuales: tratados, descubrimientos, inventos
   "territorios": [ ... ]    // enclaves e islas que no se ven a escala mundial
@@ -86,6 +86,13 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
   ],
   "poblacion": [                           // (opcional) estimaciones; se muestra la más cercana
     { "anio": 1600, "valor": 1300000 }
+  ],
+  "escudos": [                             // (opcional) emblemas por época: ficheros de Wikimedia Commons
+    { "archivo": "Great coat of arms of Sweden.svg" },              // sin fechas: el actual, de respaldo
+    { "archivo": "Coat of arms of Sweden (1650).svg", "desde": 1600, "hasta": 1720 }
+  ],
+  "banderas": [                            // (opcional) igual que 'escudos'; el usuario elige ver uno u otro
+    { "archivo": "Flag of Sweden.svg" }
   ]
 }
 ```
@@ -93,6 +100,7 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
 - `nombres` es el campo clave: debe copiar **letra por letra** cómo aparece la entidad en los ficheros `web/data/geojson/world_*.geojson` (campos `NAME` o `SUBJECTO`). El mismo reino cambia de nombre entre siglos («Castilla» → «Castile» → «Castille»), así que la lista puede tener varios. [Cómo averiguarlos](#trucos).
 - `relacionados` alimenta el filtro «Seguir un reino»: son los nombres de entidades predecesoras o aliadas cuya historia también pertenece a este país (España hereda «Corona de Castilla», «Califato de Córdoba»…). Se comparan con los `paises` de conflictos y eventos.
 - Si dos gobernantes se solapan en un año (corregencias, guerras civiles), la ficha muestra ambos.
+- `escudos` y `banderas` los rellenan los conectores de Wikidata (P94 y P41) con su vigencia; junto al nombre de cada país el mapa muestra el vigente en el año, y el usuario elige en el panel de capas si ver escudos o banderas (uno u otro). Si la ficha no trae el campo, el mapa consulta el actual en vivo.
 
 ## Añadir un conflicto
 
@@ -216,7 +224,7 @@ Para volúmenes grandes no hace falta teclear: `api/fuentes/` ingiere de APIs ab
 
 ## Formato canónico, esquemas y marca de revisión
 
-**Formato canónico.** Todo fichero de `datos/` se escribe igual: claves en un orden fijo (id, nombre, nombres… fuentes, revision), listas cronológicas (`gobernantes`, `poblacion`, `nombres_periodo`, `escudos`, `batallas`) ordenadas por año, sangría con **tabuladores**, saltos de línea LF y salto final. Así dos personas que editan la misma ficha producen el mismo texto y los diffs solo muestran cambios reales. No tienes que cuidarlo a mano:
+**Formato canónico.** Todo fichero de `datos/` se escribe igual: claves en un orden fijo (id, nombre, nombres… fuentes, revision), listas cronológicas (`gobernantes`, `poblacion`, `nombres_periodo`, `escudos`, `banderas`, `batallas`) ordenadas por año, sangría con **tabuladores**, saltos de línea LF y salto final. Así dos personas que editan la misma ficha producen el mismo texto y los diffs solo muestran cambios reales. No tienes que cuidarlo a mano:
 
 ```bash
 python api/formatear.py            # reescribe los ficheros que no estén en formato canónico
@@ -279,7 +287,7 @@ La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta l
   | `fichas.js` | popups, fuentes y extractos de Wikipedia |
   | `zonas.js` | zonas de guerra y recorte costero |
   | `capas.js` | marcadores: batallas, eventos y territorios menores |
-  | `mapa.js` | estilo, etiquetas y escudos, análisis del año, carga y capas base |
+  | `mapa.js` | estilo, etiquetas y emblemas (escudo o bandera), análisis del año, carga y capas base |
   | `paneles.js` | leyenda, panel «Este año» y panel de capas |
   | `tiempo.js` | barra de tiempo, épocas del modo móvil, marcas y reproducción |
   | `arranque.js` | `init()` |

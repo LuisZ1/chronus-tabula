@@ -354,6 +354,11 @@
 			"valor": 87270502
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Turkey.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q43",
@@ -509,6 +514,12 @@
 			"url": "http://www.wikidata.org/entity/Q863496",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q43",
+			"url": "https://www.wikidata.org/wiki/Q43",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -517,6 +528,7 @@
 		"por": "panel-admin",
 		"hash": "ca1953872944",
 		"secciones": [
+			"escudos",
 			"gobernantes",
 			"poblacion",
 			"resena"

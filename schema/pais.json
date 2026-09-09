@@ -193,6 +193,41 @@
 				}
 			}
 		},
+		"banderas": {
+			"type": "array",
+			"description": "Bandera vigente por época (Wikidata P41); sin 'desde'/'hasta' = bandera por defecto. El mapa muestra bandera o escudo, a elección del usuario",
+			"items": {
+				"type": "object",
+				"required": [
+					"archivo"
+				],
+				"properties": {
+					"archivo": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Nombre de fichero en Wikimedia Commons (p. ej. 'Flag of Spain.svg')"
+					},
+					"desde": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año (negativo = a. C.) o null/ausente"
+					},
+					"hasta": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año (negativo = a. C.) o null/ausente"
+					}
+				}
+			}
+		},
 		"fuentes": {
 			"type": "array",
 			"description": "Toda contribución cita su fuente. 'id' es un nombre corto (p. ej. 'Wikidata:Q29'); 'consultado' es la fecha AAAA-MM o AAAA-MM-DD.",

@@ -115,7 +115,7 @@ def _orden(coleccion):
 ORDEN_CLAVES = {
     "paises": ["id", "nombre", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
                "owid", "relacionados", "resena", "gobernantes", "poblacion", "escudos",
-               "fuentes", "revision"],
+               "banderas", "fuentes", "revision"],
     "conflictos": ["id", "nombre", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
                    "zonas", "batallas", "fuentes"],
     "eventos": ["nombre", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
@@ -128,6 +128,7 @@ ORDEN_SUBCLAVES = {
     "gobernantes": ["nombre", "cargo", "titulo", "desde", "hasta"],
     "poblacion": ["anio", "valor", "fuente"],
     "escudos": ["archivo", "desde", "hasta"],
+    "banderas": ["archivo", "desde", "hasta"],
     "fuentes": ["id", "url", "licencia", "consultado"],
     "revision": ["estado", "fecha", "por", "hash", "secciones"],
     "zonas": ["nombre", "tipo", "mar", "desde", "hasta", "color", "poligono"],
@@ -146,6 +147,7 @@ ORDEN_LISTAS = {
     "poblacion": lambda x: (_num(x.get("anio")), x.get("fuente") or ""),
     "nombres_periodo": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("nombre") or ""),
     "escudos": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("archivo") or ""),
+    "banderas": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("archivo") or ""),
     "batallas": lambda b: (_num(b.get("anio")), _num(b.get("hasta")), b.get("nombre") or ""),
 }
 
@@ -342,6 +344,7 @@ SECCION_DE = {
     "owid_poblacion": "poblacion",
     "wikipedia_resenas": "resena",
     "wikidata_escudos": "escudos",
+    "wikidata_banderas": "banderas",
     "wikidata_batallas": None,
 }
 

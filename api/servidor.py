@@ -88,6 +88,13 @@ FUENTES = {
         "url": "https://query.wikidata.org/",
         "script": os.path.join(RAIZ, "api", "fuentes", "wikidata_escudos.py"),
     },
+    "wikidata_banderas": {
+        "nombre": "Wikidata — banderas por época",
+        "descripcion": "Bandera (P41) con su vigencia para los países con 'wikidata'; usa las fechas de Wikidata y, si nombres_periodo enlaza entidades históricas (Qid), también sus banderas. El mapa muestra la del año consultado (a elección: bandera o escudo).",
+        "licencia": "CC0",
+        "url": "https://query.wikidata.org/",
+        "script": os.path.join(RAIZ, "api", "fuentes", "wikidata_banderas.py"),
+    },
 }
 
 ingesta_en_curso = threading.Lock()
@@ -199,7 +206,7 @@ def ejecutar_ingesta(fid, cfg, demo):
 
 # orden de la cola «ejecutar todo»: primero lo ligero; las batallas al final (lo más pesado)
 ORDEN_COLA = ["wikidata_gobernantes", "wikidata_poblacion", "owid_poblacion",
-              "wikipedia_resenas", "wikidata_escudos", "wikidata_batallas"]
+              "wikipedia_resenas", "wikidata_escudos", "wikidata_banderas", "wikidata_batallas"]
 
 
 def orden_cola_completo():

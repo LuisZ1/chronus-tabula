@@ -33,7 +33,7 @@ La web se publica automáticamente en **GitHub Pages**: cada push a `main` dispa
 | Ver territorios menores invisibles a escala mundial (Ceuta, Canarias, Azores, Gibraltar…) con el color de su país y desde cuándo le pertenecen | Puntos de color; etiqueta al acercar el zoom; clic para la ficha |
 | Consultar conflictos activos y datos de interés del año | Panel «Este año» (derecha) |
 | Ver las entidades del año por superficie y volar a ellas | Panel «Entidades del año» (derecha) |
-| Activar/desactivar capas (batallas, zonas, eventos, territorios menores, nombres, escudos, colores) | Panel «Capas» (izquierda) |
+| Activar/desactivar capas (batallas, zonas, eventos, territorios menores, nombres, escudos o banderas, colores) | Panel «Capas» (izquierda) |
 | Compartir una vista exacta | La URL guarda año, posición, zoom y país seguido (`#1492/40.00/-4.00/5/castilla`) |
 
 ## Arquitectura
@@ -134,6 +134,8 @@ Todo existe también por terminal:
 python api/fuentes/owid_poblacion.py        # series de población (Our World in Data, CC BY)
 python api/fuentes/wikidata_gobernantes.py  # jefes de Estado (Wikidata, CC0)
 python api/fuentes/wikidata_batallas.py     # batallas con coordenadas y fecha (Wikidata, CC0)
+python api/fuentes/wikidata_escudos.py      # escudos por época (Wikidata P94, CC0)
+python api/fuentes/wikidata_banderas.py     # banderas por época (Wikidata P41, CC0)
 python api/fuentes/wikidata_poblacion.py --todos   # cualquier conector: todos los países, no solo los nuevos
 python api/revisar.py list                  # ver propuestas pendientes
 python api/revisar.py aprobar 1-10          # aprobar / rechazar / aprobar-todas

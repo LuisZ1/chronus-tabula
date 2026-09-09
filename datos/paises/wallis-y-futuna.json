@@ -14,6 +14,11 @@
 			"fuente": "Wikidata (P1082)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "BlasonWallisetFutuna.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q35555",
@@ -31,6 +36,12 @@
 			"url": "https://www.wikidata.org/wiki/Q35555",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q35555",
+			"url": "https://www.wikidata.org/wiki/Q35555",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
@@ -39,6 +50,7 @@
 		"por": "panel-admin",
 		"hash": "3ea1ef05fdaf",
 		"secciones": [
+			"escudos",
 			"poblacion",
 			"resena"
 		]

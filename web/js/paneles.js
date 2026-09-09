@@ -196,6 +196,14 @@ function setupLayersPanel() {
 	bind('lyEventos', 'eventos');
 	bind('lyNombres', 'nombres');
 	bind('lyEscudos', 'escudos');
+	// escudo o bandera (uno u otro): al cambiar se redibujan las etiquetas
+	const emb = document.getElementById('emblemaSelect');
+	emb.value = prefs.emblema === 'bandera' ? 'bandera' : 'escudo';
+	emb.addEventListener('change', () => {
+		prefs.emblema = emb.value === 'bandera' ? 'bandera' : 'escudo';
+		savePrefs();
+		if (typeof updateLabels === 'function') updateLabels();
+	});
 	bind('lyRelleno', 'relleno');
 	bind('lyTerritorios', 'territorios');
 	// margen de años: cuántos años alrededor del elegido se muestran batallas y eventos

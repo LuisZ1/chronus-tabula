@@ -774,9 +774,22 @@ details.fuentes a {
 	margin-top: 4px;
 }
 
-/* ---- Escudos ocultables ---- */
+/* ---- Emblemas (escudo o bandera) ocultables ---- */
 #map.hide-coa .coa-img {
 	display: none !important;
+}
+.map-label .coa-img.flag {
+	height: 16px; /* las banderas son apaisadas: algo más bajas y anchas */
+	max-width: 30px;
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	border-radius: 2px;
+}
+.emblema-row select {
+	font-size: 12px;
+	padding: 1px 4px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
 }
 
 /* ---- Barra de tiempo: play y velocidad ---- */

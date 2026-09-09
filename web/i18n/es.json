@@ -32,6 +32,8 @@
   "layers.events": "Eventos",
   "layers.names": "Nombres",
   "layers.coa": "Escudos",
+  "layers.flags": "Banderas",
+  "layers.emblemTitle": "Junto al nombre de cada país: su escudo o su bandera del año consultado (uno u otro)",
   "layers.fill": "Colores",
   "legend.title": "Entidades del año",
   "follow.placeholder": "Seguir un reino…",

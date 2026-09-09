@@ -77,7 +77,7 @@ function analyzeYear(gj) {
 			state.labelData.push({
 				name, // nombre del GeoJSON: clave de escudo/superficie (no traducir)
 				display: nombreVisible(name, state.shownYear, false), // texto visible (español/época)
-				escudoUrl: paisF ? escudoParaAnio(paisF, state.shownYear) : null, // escudo del periodo
+				pais: paisF, // ficha (si la hay): de ella sale el escudo o la bandera del periodo
 				wiki: props.wikipedia,
 				lat: info.lat,
 				lng: info.lng,
@@ -113,21 +113,29 @@ function coaClass(name) {
 
 function makeLabelMarker(d) {
 	const esc = escHtml;
-	// escudo del periodo (guardado en la ficha) tiene prioridad; si no, el actual
-	// que se descarga en vivo (P94 por nombre) y queda en coaCache.
-	let src = d.escudoUrl || null;
+	// emblema elegido (escudo o bandera): el del periodo guardado en la ficha tiene
+	// prioridad; si no, el actual que se descarga en vivo por nombre (P94 o P41) y
+	// queda en coaCache, con clave distinta para cada propiedad.
+	const em = emblemaElegido();
+	const fijo = d.pais ? emblemaParaAnio(d.pais, state.shownYear, em.campo) : null;
+	let src = fijo;
 	if (!src) {
-		const cached = coaCache.get(d.name);
+		const cached = coaCache.get(coaKey(d.name));
 		if (typeof cached === 'string' && cached !== 'none' && cached !== 'pending') src = cached;
 	}
-	const img = `<img class="coa-img ${coaClass(d.name)}" alt=""${src ? ` src="${esc(src)}"` : ' hidden'}>`;
+	const img = `<img class="coa-img ${em.clave} ${coaClass(d.name)}" alt="" onerror="this.hidden=true"${src ? ` src="${esc(src)}"` : ' hidden'}>`;
 	const icon = L.divIcon({
 		html: `<span class="map-label">${img}<span>${esc(d.display || d.name)}</span></span>`,
 		className: 'map-label-wrap',
 		iconSize: null
 	});
-	if (!d.escudoUrl && !coaCache.has(d.name)) requestCoA(d);
+	if (!fijo && prefs.escudos && !coaCache.has(coaKey(d.name))) requestCoA(d);
 	return L.marker([d.lat, d.lng], { icon, interactive: false, keyboard: false });
+}
+
+/* clave de caché del emblema en vivo: propiedad + nombre del GeoJSON */
+function coaKey(name) {
+	return emblemaElegido().prop + '|' + name;
 }
 
 function updateLabels() {
@@ -152,40 +160,42 @@ const coaQueue = [];
 let coaActive = 0;
 
 function requestCoA(d) {
+	const em = emblemaElegido();
+	const key = em.prop + '|' + d.name;
 	let stored = null;
 	try {
-		stored = localStorage.getItem('mapamundi.coa.' + d.name);
+		stored = localStorage.getItem('mapamundi.' + em.clave + '.' + d.name);
 	} catch (e) {}
 	if (stored) {
-		coaCache.set(d.name, stored);
-		if (stored !== 'none') applyCoA(d.name, stored);
+		coaCache.set(key, stored);
+		if (stored !== 'none') applyCoA(d.name, stored, em.clave);
 		return;
 	}
-	coaCache.set(d.name, 'pending');
-	coaQueue.push(d);
+	coaCache.set(key, 'pending');
+	coaQueue.push({ d, em });
 	pumpCoA();
 }
 
 async function pumpCoA() {
 	if (coaActive >= 4 || coaQueue.length === 0) return;
 	coaActive++;
-	const d = coaQueue.shift();
+	const { d, em } = coaQueue.shift();
 	let url = null;
 	try {
-		url = await fetchCoAUrl(d);
+		url = await fetchCoAUrl(d, em.prop);
 	} catch (e) {
-		/* sin red o sin datos: sin escudo */
+		/* sin red o sin datos: sin emblema */
 	}
-	coaCache.set(d.name, url || 'none');
+	coaCache.set(em.prop + '|' + d.name, url || 'none');
 	try {
-		localStorage.setItem('mapamundi.coa.' + d.name, url || 'none');
+		localStorage.setItem('mapamundi.' + em.clave + '.' + d.name, url || 'none');
 	} catch (e) {}
-	if (url) applyCoA(d.name, url);
+	if (url) applyCoA(d.name, url, em.clave);
 	coaActive--;
 	pumpCoA();
 }
 
-async function fetchCoAUrl(d) {
+async function fetchCoAUrl(d, prop = 'P94') {
 	let qid = null;
 	if (d.wiki) {
 		const title = String(d.wiki).replace(/^[a-z]{2}:/, '');
@@ -215,17 +225,21 @@ async function fetchCoAUrl(d) {
 		await fetch(
 			'https://www.wikidata.org/w/api.php?action=wbgetclaims&entity=' +
 				qid +
-				'&property=P94&format=json&origin=*'
+				'&property=' +
+				prop +
+				'&format=json&origin=*'
 		)
 	).json();
-	const cl = c.claims && c.claims.P94;
+	const cl = c.claims && c.claims[prop];
 	const file = cl && cl[0] && cl[0].mainsnak && cl[0].mainsnak.datavalue && cl[0].mainsnak.datavalue.value;
 	if (!file) return null;
 	return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(file) + '?width=48';
 }
 
-function applyCoA(name, url) {
-	document.querySelectorAll('.coa-img.' + CSS.escape(coaClass(name))).forEach(img => {
+function applyCoA(name, url, clave = 'coa') {
+	// solo a las etiquetas del emblema que sigue elegido (si el usuario cambió de
+	// escudo a bandera mientras se descargaba, la respuesta no se aplica)
+	document.querySelectorAll('.coa-img.' + clave + '.' + CSS.escape(coaClass(name))).forEach(img => {
 		img.src = url;
 		img.hidden = false;
 	});
