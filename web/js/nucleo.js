@@ -65,15 +65,17 @@ function escHtml(s) {
 	return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 }
 
+/* Mapa que se muestra para un año pedido: el ÚLTIMO mapa disponible no
+   posterior a ese año (state.years está ordenado). Un mapa fechado en Y
+   retrata la situación de Y, que se mantiene hasta la siguiente instantánea;
+   elegir el «más cercano» anticipaba hechos aún no ocurridos (en 1942 salía
+   la Alemania dividida del mapa de 1945, en 1493 la América del de 1500). Para
+   años anteriores al primer mapa se usa el primero. */
 function nearestYear(y) {
-	let best = state.years[0],
-		d = Infinity;
+	let best = state.years[0];
 	for (const yr of state.years) {
-		const dd = Math.abs(yr - y);
-		if (dd < d) {
-			d = dd;
-			best = yr;
-		}
+		if (yr <= y) best = yr;
+		else break;
 	}
 	return best;
 }
