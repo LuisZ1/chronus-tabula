@@ -2,13 +2,26 @@
 	"id": "tayikistan",
 	"nombre": "Tayikistán",
 	"nombres": [
-		"Tajikistan",
-		"Tayikistán"
+		"Tajikistan"
 	],
 	"wiki": "es:Tayikistán",
 	"wikidata": "Q863",
 	"owid": "TJK",
 	"resena": "Tayikistán, oficialmente la República de Tayikistán , [1] es un país soberano sin litoral ubicado en Asia Central. Cuenta con una población estimada de 10 millones de habitantes y una superficie de 144 100 km².",
+	"gobernantes": [
+		{
+			"nombre": "Oqil Oqilov",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Kokhir Rasulzoda",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2013
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +204,11 @@
 			"valor": 10389807
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Tajikistan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q863",
@@ -208,14 +226,34 @@
 			"url": "https://es.wikipedia.org/wiki/Tayikist%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57754",
+			"url": "http://www.wikidata.org/entity/Q57754",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15222839",
+			"url": "http://www.wikidata.org/entity/Q15222839",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q863",
+			"url": "https://www.wikidata.org/wiki/Q863",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "6b23854dce4f",
+		"hash": "df4327d28b20",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

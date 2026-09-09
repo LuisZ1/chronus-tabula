@@ -2,13 +2,44 @@
 	"id": "jordania",
 	"nombre": "Jordania",
 	"nombres": [
-		"Jordan",
-		"Jordania"
+		"Jordan"
 	],
 	"wiki": "es:Jordania",
 	"wikidata": "Q810",
 	"owid": "JOR",
 	"resena": "Jordania, oficialmente Reino Hachemita de Jordania, llamado Transjordania hasta 1950, es un país en Asia ubicado en la región de Oriente Próximo. Limita al norte con Siria, al noreste con Irak, al este y sur con el reino de Arabia Saudita, al suroeste con el mar Rojo, y al oeste con el mar Muerto, Israel y Palestina.",
+	"gobernantes": [
+		{
+			"nombre": "Abdullah Ensour",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Hani al-Mulki",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Omar Razzaz",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Bisher Al-Khasawneh",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Jafar Hassan",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +222,11 @@
 			"valor": 11439220
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Jordan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q810",
@@ -208,14 +244,52 @@
 			"url": "https://es.wikipedia.org/wiki/Jordania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q810",
+			"url": "https://www.wikidata.org/wiki/Q810",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q34426",
+			"url": "http://www.wikidata.org/entity/Q34426",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5648173",
+			"url": "http://www.wikidata.org/entity/Q5648173",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29512679",
+			"url": "http://www.wikidata.org/entity/Q29512679",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q63441935",
+			"url": "http://www.wikidata.org/entity/Q63441935",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q97011032",
+			"url": "http://www.wikidata.org/entity/Q97011032",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "4e9547648ab3",
+		"hash": "17f439d34c5e",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -3,9 +3,7 @@
 	"nombre": "Malaui",
 	"nombres": [
 		"Malawi",
-		"Nyasalandia",
-		"Nyasaland",
-		"República de Malaui"
+		"Nyasaland"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +24,10 @@
 	],
 	"wiki": "es:Malaui",
 	"wikidata": "Q1020",
+	"relacionados": [
+		"Nyasalandia",
+		"República de Malaui"
+	],
 	"resena": "Malaui o Malawi, oficialmente la República de Malaui o República de Malawi es un país sin salida al mar ubicado en el sureste de África, antiguamente conocido como Nyasalandia, que tiene como su capital a la ciudad de Lilongüe. Limita con Zambia al noroeste, con Tanzania al noreste y con Mozambique al sureste, sur y suroeste.",
 	"gobernantes": [
 		{
@@ -108,6 +110,11 @@
 			"fuente": "Our World in Data (est.)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Malawi.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -124,14 +131,21 @@
 			"url": "https://es.wikipedia.org/wiki/Malaui",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1020",
+			"url": "https://www.wikidata.org/wiki/Q1020",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "63fb25364067",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

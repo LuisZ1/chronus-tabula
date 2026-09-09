@@ -2,13 +2,20 @@
 	"id": "oman",
 	"nombre": "Omán",
 	"nombres": [
-		"Oman",
-		"Omán"
+		"Oman"
 	],
 	"wiki": "es:Omán",
 	"wikidata": "Q842",
 	"owid": "OMN",
 	"resena": "Omán, oficialmente el Sultanato de Omán, es un país localizado al occidente de Asia, en la costa oriental de la península arábiga. Limita con los Emiratos Árabes Unidos (EAU) al noroeste, con Arabia Saudita al oeste y con Yemen al suroeste.",
+	"gobernantes": [
+		{
+			"nombre": "Haitham de Omán",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +198,11 @@
 			"valor": 5049267
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "National emblem of Oman.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q842",
@@ -208,14 +220,28 @@
 			"url": "https://es.wikipedia.org/wiki/Om%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q842",
+			"url": "https://www.wikidata.org/wiki/Q842",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12250314",
+			"url": "http://www.wikidata.org/entity/Q12250314",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "a074c85d19d5",
+		"hash": "6320f03cc341",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

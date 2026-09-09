@@ -2,12 +2,36 @@
 	"id": "guadalupe",
 	"nombre": "Guadalupe",
 	"nombres": [
-		"Guadeloupe",
-		"Guadalupe"
+		"Guadeloupe"
 	],
 	"wiki": "es:Guadalupe",
 	"wikidata": "Q17012",
 	"resena": "Guadalupe puede referirse a:",
+	"gobernantes": [
+		{
+			"nombre": "Ary Chalus",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2015
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 2020,
+			"valor": 383559,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2023,
+			"valor": 384160,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Guadeloupe.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q17012",
@@ -19,14 +43,35 @@
 			"url": "https://es.wikipedia.org/wiki/Guadalupe",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q17012",
+			"url": "https://www.wikidata.org/wiki/Q17012",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q17012",
+			"url": "https://www.wikidata.org/wiki/Q17012",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2866091",
+			"url": "http://www.wikidata.org/entity/Q2866091",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2d23933fc6e9",
+		"hash": "34e9b3d9bfb4",
 		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
 			"resena"
 		]
 	}

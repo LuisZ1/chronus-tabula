@@ -2,13 +2,33 @@
 	"id": "antillas-neerlandesas",
 	"nombre": "Antillas Neerlandesas",
 	"nombres": [
-		"Netherlands Antilles",
-		"Antillas Neerlandesas",
-		"Antillas Holandesas"
+		"Netherlands Antilles"
 	],
 	"wiki": "es:Antillas Neerlandesas",
 	"wikidata": "Q25227",
+	"relacionados": [
+		"Antillas Holandesas"
+	],
 	"resena": "Las Antillas Neerlandesas fueron, hasta el 10 de octubre de 2010, un territorio autónomo formado por cinco islas del mar Caribe, perteneciente al Reino de los Países Bajos, junto a los propios Países Bajos europeos.",
+	"poblacion": [
+		{
+			"anio": 2009,
+			"valor": 197041,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Netherlands Antilles (1964-1986).svg",
+			"desde": 1964,
+			"hasta": 1986
+		},
+		{
+			"archivo": "Coat of arms of the Netherlands Antilles (1986-2010).svg",
+			"desde": 1986,
+			"hasta": 2010
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q25227",
@@ -20,14 +40,28 @@
 			"url": "https://es.wikipedia.org/wiki/Antillas_Neerlandesas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q25227",
+			"url": "https://www.wikidata.org/wiki/Q25227",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q25227",
+			"url": "https://www.wikidata.org/wiki/Q25227",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2d23933fc6e9",
+		"hash": "600f0c65a5aa",
 		"secciones": [
+			"escudos",
+			"poblacion",
 			"resena"
 		]
 	}

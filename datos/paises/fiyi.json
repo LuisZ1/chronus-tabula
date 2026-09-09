@@ -2,13 +2,32 @@
 	"id": "fiyi",
 	"nombre": "Fiyi",
 	"nombres": [
-		"Fiji",
-		"Fiyi"
+		"Fiji"
 	],
 	"wiki": "es:Fiyi",
 	"wikidata": "Q712",
 	"owid": "FJI",
 	"resena": "Fiyi, oficialmente la República de Fiyi, es un país soberano insular ubicado en Oceanía, localizado en el océano Pacífico. Está constituido como una república parlamentaria.",
+	"gobernantes": [
+		{
+			"nombre": "Frank Bainimarama",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Wiliame Katonivere",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Sitiveni Rabuka",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -1000,
@@ -155,6 +174,11 @@
 			"valor": 924150
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Fiji.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q712",
@@ -172,14 +196,40 @@
 			"url": "https://es.wikipedia.org/wiki/Fiyi",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q712",
+			"url": "https://www.wikidata.org/wiki/Q712",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57830",
+			"url": "http://www.wikidata.org/entity/Q57830",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q109012733",
+			"url": "http://www.wikidata.org/entity/Q109012733",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q981549",
+			"url": "http://www.wikidata.org/entity/Q981549",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "e5df8784a58d",
+		"hash": "e9bccf58e2b4",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -8,6 +8,68 @@
 	"wikidata": "Q837",
 	"owid": "NPL",
 	"resena": "Nepal, cuyo nombre oficial es República Democrática Federal de Nepal, es un país sin salida al mar ubicado en Asia del Sur. Geográficamente se encuentra ubicado en el Himalaya, rodeado en el norte por la República Popular China y en el sur por la India.",
+	"gobernantes": [
+		{
+			"nombre": "Ram Baran Yadav",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Baburam Bhattarai",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Sushil Koirala",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Khadga Prasad Oli",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Bidhya Devi Bhandari",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Prachanda",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Sher Bahadur Deuba",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Khadga Prasad Oli",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Prachanda",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Ram Chandra Poudel",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +252,11 @@
 			"valor": 29694614
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Nepal.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q837",
@@ -207,14 +274,70 @@
 			"url": "https://es.wikipedia.org/wiki/Nepal",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q837",
+			"url": "https://www.wikidata.org/wiki/Q837",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57441",
+			"url": "http://www.wikidata.org/entity/Q57441",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57816",
+			"url": "http://www.wikidata.org/entity/Q57816",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q422969",
+			"url": "http://www.wikidata.org/entity/Q422969",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3195923",
+			"url": "http://www.wikidata.org/entity/Q3195923",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16193958",
+			"url": "http://www.wikidata.org/entity/Q16193958",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315500",
+			"url": "http://www.wikidata.org/entity/Q315500",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q470903",
+			"url": "http://www.wikidata.org/entity/Q470903",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3183124",
+			"url": "http://www.wikidata.org/entity/Q3183124",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "3999dc03dbee",
+		"hash": "d22035926064",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -2,13 +2,230 @@
 	"id": "canada",
 	"nombre": "Canadá",
 	"nombres": [
-		"Canada",
-		"Canadá"
+		"Canada"
 	],
 	"wiki": "es:Canadá",
 	"wikidata": "Q16",
 	"owid": "CAN",
 	"resena": "Canadá es un país soberano ubicado en América del Norte, cuya forma de gobierno es la monarquía parlamentaria federal. Su territorio está organizado en diez provincias y tres territorios.",
+	"gobernantes": [
+		{
+			"nombre": "John A. Macdonald",
+			"cargo": "jefe de gobierno",
+			"desde": 1867,
+			"hasta": 1873
+		},
+		{
+			"nombre": "Victoria del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1867,
+			"hasta": 1901
+		},
+		{
+			"nombre": "Alexander Mackenzie",
+			"cargo": "jefe de gobierno",
+			"desde": 1873,
+			"hasta": 1878
+		},
+		{
+			"nombre": "John A. Macdonald",
+			"cargo": "jefe de gobierno",
+			"desde": 1878,
+			"hasta": 1891
+		},
+		{
+			"nombre": "John Abbott",
+			"cargo": "jefe de gobierno",
+			"desde": 1891,
+			"hasta": 1892
+		},
+		{
+			"nombre": "John Sparrow David Thompson",
+			"cargo": "jefe de gobierno",
+			"desde": 1892,
+			"hasta": 1894
+		},
+		{
+			"nombre": "Mackenzie Bowell",
+			"cargo": "jefe de gobierno",
+			"desde": 1894,
+			"hasta": 1896
+		},
+		{
+			"nombre": "Charles Tupper",
+			"cargo": "jefe de gobierno",
+			"desde": 1896,
+			"hasta": 1896
+		},
+		{
+			"nombre": "Wilfrid Laurier",
+			"cargo": "jefe de gobierno",
+			"desde": 1896,
+			"hasta": 1911
+		},
+		{
+			"nombre": "Eduardo VII",
+			"cargo": "jefe de Estado",
+			"desde": 1901,
+			"hasta": 1910
+		},
+		{
+			"nombre": "Jorge V del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1910,
+			"hasta": 1936
+		},
+		{
+			"nombre": "Robert Borden",
+			"cargo": "jefe de gobierno",
+			"desde": 1911,
+			"hasta": 1920
+		},
+		{
+			"nombre": "Arthur Meighen",
+			"cargo": "jefe de gobierno",
+			"desde": 1920,
+			"hasta": 1921
+		},
+		{
+			"nombre": "William Lyon Mackenzie King",
+			"cargo": "jefe de gobierno",
+			"desde": 1921,
+			"hasta": 1926
+		},
+		{
+			"nombre": "Arthur Meighen",
+			"cargo": "jefe de gobierno",
+			"desde": 1926,
+			"hasta": 1926
+		},
+		{
+			"nombre": "William Lyon Mackenzie King",
+			"cargo": "jefe de gobierno",
+			"desde": 1926,
+			"hasta": 1930
+		},
+		{
+			"nombre": "Richard Bedford Bennett",
+			"cargo": "jefe de gobierno",
+			"desde": 1930,
+			"hasta": 1935
+		},
+		{
+			"nombre": "William Lyon Mackenzie King",
+			"cargo": "jefe de gobierno",
+			"desde": 1935,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Eduardo VIII del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1936,
+			"hasta": 1936
+		},
+		{
+			"nombre": "Jorge VI del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1936,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Louis St. Laurent",
+			"cargo": "jefe de gobierno",
+			"desde": 1948,
+			"hasta": 1957
+		},
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 2022
+		},
+		{
+			"nombre": "John Diefenbaker",
+			"cargo": "jefe de gobierno",
+			"desde": 1957,
+			"hasta": 1963
+		},
+		{
+			"nombre": "Lester Bowles Pearson",
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1968
+		},
+		{
+			"nombre": "Pierre Trudeau",
+			"cargo": "jefe de gobierno",
+			"desde": 1968,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Joe Clark",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Pierre Trudeau",
+			"cargo": "jefe de gobierno",
+			"desde": 1980,
+			"hasta": 1984
+		},
+		{
+			"nombre": "John Napier Turner",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Brian Mulroney",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Kim Campbell",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Jean Chrétien",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Paul Martin",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Stephen Harper",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Justin Trudeau",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Mark Carney",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +408,11 @@
 			"valor": 39299098
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Royal Coat of arms of Canada.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q16",
@@ -208,14 +430,208 @@
 			"url": "https://es.wikipedia.org/wiki/Canad%C3%A1",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q16",
+			"url": "https://www.wikidata.org/wiki/Q16",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q9439",
+			"url": "http://www.wikidata.org/entity/Q9439",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128702",
+			"url": "http://www.wikidata.org/entity/Q128702",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128708",
+			"url": "http://www.wikidata.org/entity/Q128708",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128696",
+			"url": "http://www.wikidata.org/entity/Q128696",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128686",
+			"url": "http://www.wikidata.org/entity/Q128686",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128677",
+			"url": "http://www.wikidata.org/entity/Q128677",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128672",
+			"url": "http://www.wikidata.org/entity/Q128672",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128664",
+			"url": "http://www.wikidata.org/entity/Q128664",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20875",
+			"url": "http://www.wikidata.org/entity/Q20875",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q269412",
+			"url": "http://www.wikidata.org/entity/Q269412",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128655",
+			"url": "http://www.wikidata.org/entity/Q128655",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128645",
+			"url": "http://www.wikidata.org/entity/Q128645",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128633",
+			"url": "http://www.wikidata.org/entity/Q128633",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128641",
+			"url": "http://www.wikidata.org/entity/Q128641",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q590227",
+			"url": "http://www.wikidata.org/entity/Q590227",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q280856",
+			"url": "http://www.wikidata.org/entity/Q280856",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128626",
+			"url": "http://www.wikidata.org/entity/Q128626",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128614",
+			"url": "http://www.wikidata.org/entity/Q128614",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128604",
+			"url": "http://www.wikidata.org/entity/Q128604",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q8619",
+			"url": "http://www.wikidata.org/entity/Q8619",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128574",
+			"url": "http://www.wikidata.org/entity/Q128574",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128568",
+			"url": "http://www.wikidata.org/entity/Q128568",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128563",
+			"url": "http://www.wikidata.org/entity/Q128563",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128553",
+			"url": "http://www.wikidata.org/entity/Q128553",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128543",
+			"url": "http://www.wikidata.org/entity/Q128543",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q128529",
+			"url": "http://www.wikidata.org/entity/Q128529",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q206",
+			"url": "http://www.wikidata.org/entity/Q206",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3099714",
+			"url": "http://www.wikidata.org/entity/Q3099714",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q192533",
+			"url": "http://www.wikidata.org/entity/Q192533",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "e590f0361e69",
+		"hash": "8557104b3cff",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

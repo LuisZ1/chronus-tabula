@@ -2,11 +2,7 @@
 	"id": "sahara-occidental",
 	"nombre": "Sáhara Occidental",
 	"nombres": [
-		"Western Sahara",
-		"Sáhara Occidental",
-		"Sahara Español",
-		"República Árabe Saharaui Democrática",
-		"RASD"
+		"Western Sahara"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +21,11 @@
 	],
 	"wiki": "es:Sáhara Occidental",
 	"wikidata": "Q6250",
+	"relacionados": [
+		"Sahara Español",
+		"República Árabe Saharaui Democrática",
+		"RASD"
+	],
 	"resena": "El Sahara Occidental o Sáhara Occidental es una región del norte de África situada en el extremo occidental del desierto del Sahara, a orillas del océano Atlántico. Es uno de los diecisiete territorios no autónomos bajo supervisión del Comité Especial de Descolonización de la Organización de las Naciones Unidas, con el fin de terminar el colonialismo.",
 	"gobernantes": [
 		{

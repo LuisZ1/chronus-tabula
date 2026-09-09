@@ -2,13 +2,104 @@
 	"id": "belgica",
 	"nombre": "Bélgica",
 	"nombres": [
-		"Belgium",
-		"Bélgica"
+		"Belgium"
 	],
 	"wiki": "es:Bélgica",
 	"wikidata": "Q31",
 	"owid": "BEL",
 	"resena": "Bélgica, oficialmente Reino de Bélgica, es uno de los veintisiete Estados soberanos que forman la Unión Europea, situado en Europa noroccidental. El país cubre una superficie de 30 528 km² y poseía en el año 2023 una población de 11 754 004habitantes.",
+	"gobernantes": [
+		{
+			"nombre": "Erasmo Luis Surlet de Chokier",
+			"cargo": "jefe de Estado",
+			"desde": 1831,
+			"hasta": 1831
+		},
+		{
+			"nombre": "Leopoldo I de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 1831,
+			"hasta": 1865
+		},
+		{
+			"nombre": "Leopoldo II de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 1865,
+			"hasta": 1909
+		},
+		{
+			"nombre": "Alberto I de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 1909,
+			"hasta": 1934
+		},
+		{
+			"nombre": "Leopoldo III",
+			"cargo": "jefe de Estado",
+			"desde": 1934,
+			"hasta": 1944
+		},
+		{
+			"nombre": "Carlos de Sajonia-Coburgo",
+			"cargo": "jefe de Estado",
+			"desde": 1944,
+			"hasta": 1950
+		},
+		{
+			"nombre": "Leopoldo III",
+			"cargo": "jefe de Estado",
+			"desde": 1950,
+			"hasta": 1950
+		},
+		{
+			"nombre": "Balduino de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 1950,
+			"hasta": 1951
+		},
+		{
+			"nombre": "Balduino de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 1951,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Alberto II de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Felipe I de Bélgica",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Charles Michel",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Sophie Wilmès",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Alexander De Croo",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Bart De Wever",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +282,11 @@
 			"valor": 11712891
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Arms of Belgium (with crown).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q31",
@@ -208,14 +304,100 @@
 			"url": "https://es.wikipedia.org/wiki/B%C3%A9lgica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q31",
+			"url": "https://www.wikidata.org/wiki/Q31",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q1079522",
+			"url": "http://www.wikidata.org/entity/Q1079522",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12971",
+			"url": "http://www.wikidata.org/entity/Q12971",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12967",
+			"url": "http://www.wikidata.org/entity/Q12967",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q55008046",
+			"url": "http://www.wikidata.org/entity/Q55008046",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12973",
+			"url": "http://www.wikidata.org/entity/Q12973",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q445553",
+			"url": "http://www.wikidata.org/entity/Q445553",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12976",
+			"url": "http://www.wikidata.org/entity/Q12976",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3911",
+			"url": "http://www.wikidata.org/entity/Q3911",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q155004",
+			"url": "http://www.wikidata.org/entity/Q155004",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q950958",
+			"url": "http://www.wikidata.org/entity/Q950958",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q18434995",
+			"url": "http://www.wikidata.org/entity/Q18434995",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q476596",
+			"url": "http://www.wikidata.org/entity/Q476596",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q336599",
+			"url": "http://www.wikidata.org/entity/Q336599",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "1f0a2b2c6315",
+		"hash": "9e13a0ba31fa",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

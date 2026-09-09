@@ -2,10 +2,7 @@
 	"id": "burundi",
 	"nombre": "Burundi",
 	"nombres": [
-		"Burundi",
-		"Reino de Burundi",
-		"República de Burundi",
-		"Urundi"
+		"Burundi"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +22,11 @@
 	],
 	"wiki": "es:Burundi",
 	"wikidata": "Q967",
+	"relacionados": [
+		"Reino de Burundi",
+		"República de Burundi",
+		"Urundi"
+	],
 	"resena": "Burundi, oficialmente República de Burundi, es un Estado soberano, ubicado en la región de los grandes lagos en África Oriental, que carece de salida al mar. Limita al norte con Ruanda, al sur y este con Tanzania, y al oeste con la República Democrática del Congo.",
 	"gobernantes": [
 		{

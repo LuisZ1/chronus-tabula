@@ -3,10 +3,7 @@
 	"nombre": "Rep. del Congo",
 	"nombres": [
 		"Congo",
-		"Congo (France)",
-		"República del Congo",
-		"Congo-Brazzaville",
-		"República Popular del Congo"
+		"Congo (France)"
 	],
 	"nombres_periodo": [
 		{
@@ -32,6 +29,11 @@
 	],
 	"wiki": "es:República del Congo",
 	"wikidata": "Q971",
+	"relacionados": [
+		"República del Congo",
+		"Congo-Brazzaville",
+		"República Popular del Congo"
+	],
 	"resena": "El Congo, oficialmente la República del Congo, también conocida con los nombres de Congo-Brazzaville o simplemente Congo del Oeste, es un país de África Central.",
 	"gobernantes": [
 		{

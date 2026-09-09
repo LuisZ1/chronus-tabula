@@ -2,8 +2,7 @@
 	"id": "nigeria",
 	"nombre": "Nigeria",
 	"nombres": [
-		"Nigeria",
-		"República Federal de Nigeria"
+		"Nigeria"
 	],
 	"nombres_periodo": [
 		{
@@ -19,6 +18,9 @@
 	],
 	"wiki": "es:Nigeria",
 	"wikidata": "Q1033",
+	"relacionados": [
+		"República Federal de Nigeria"
+	],
 	"resena": "Nigeria, oficialmente República Federal de Nigeria, es un país de África occidental, que limita con Níger al norte, con Chad en el nordeste, con Camerún en el este y con Benín en el oeste. Su costa sur está localizada en el golfo de Guinea en el océano Atlántico.",
 	"gobernantes": [
 		{
@@ -180,6 +182,11 @@
 			"fuente": "ONU (World Population Prospects 2024)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Nigeria.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -206,14 +213,21 @@
 			"url": "https://es.wikipedia.org/wiki/Nigeria",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1033",
+			"url": "https://www.wikidata.org/wiki/Q1033",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "8cceb7a800b7",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

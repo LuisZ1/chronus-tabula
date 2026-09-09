@@ -8,6 +8,38 @@
 	"wikidata": "Q734",
 	"owid": "GUY",
 	"resena": "Guyana, oficialmente la República Cooperativa de Guyana, es un país ubicado en la costa norte de América del Sur y el Caribe, miembro de la Unasur, CELAC y miembro asociado del Mercosur. Georgetown es la capital de Guyana y también es la ciudad más grande del país.",
+	"gobernantes": [
+		{
+			"nombre": "Donald Ramotar",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2015
+		},
+		{
+			"nombre": "David A. Granger",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Moses Nagamootoo",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Irfaan Ali",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Mark Phillips",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +222,11 @@
 			"valor": 826357
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Guyana.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q734",
@@ -207,14 +244,52 @@
 			"url": "https://es.wikipedia.org/wiki/Guyana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q734",
+			"url": "https://www.wikidata.org/wiki/Q734",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57422",
+			"url": "http://www.wikidata.org/entity/Q57422",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5230470",
+			"url": "http://www.wikidata.org/entity/Q5230470",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6915896",
+			"url": "http://www.wikidata.org/entity/Q6915896",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q64840184",
+			"url": "http://www.wikidata.org/entity/Q64840184",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q98053664",
+			"url": "http://www.wikidata.org/entity/Q98053664",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "086904cace7b",
+		"hash": "dc5b09e772a0",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

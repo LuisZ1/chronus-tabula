@@ -2,10 +2,7 @@
 	"id": "kenia",
 	"nombre": "Kenia",
 	"nombres": [
-		"Kenya",
-		"Kenia",
-		"República de Kenia",
-		"África Oriental Británica"
+		"Kenya"
 	],
 	"nombres_periodo": [
 		{
@@ -21,6 +18,10 @@
 	],
 	"wiki": "es:Kenia",
 	"wikidata": "Q114",
+	"relacionados": [
+		"República de Kenia",
+		"África Oriental Británica"
+	],
 	"resena": "Kenia o Kenya, oficialmente la República de Kenia o República de Kenya, es un país del este africano, que tiene fronteras con Etiopía al norte, Somalia al este, Tanzania al sur, Uganda al oeste y Sudán del Sur al noroeste, con el océano Índico bañando su costa sureste.",
 	"gobernantes": [
 		{

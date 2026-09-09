@@ -2,13 +2,197 @@
 	"id": "republica-turca-del-norte-de-chipre",
 	"nombre": "República Turca del Norte de Chipre",
 	"nombres": [
-		"Turkish Cypriot-administered area",
-		"República Turca del Norte de Chipre",
-		"Chipre del Norte"
+		"Turkish Cypriot-administered area"
 	],
 	"wiki": "es:República Turca del Norte de Chipre",
 	"wikidata": "Q23681",
+	"relacionados": [
+		"Chipre del Norte"
+	],
 	"resena": "Chipre del Norte, oficialmente República Turca del Norte de Chipre, es un Estado con reconocimiento limitado que controla el tercio norte de la isla de Chipre, en el Mediterráneo oriental. Su capital es Nicosia Norte (Lefkoşa).",
+	"gobernantes": [
+		{
+			"nombre": "Mustafa Çağatay",
+			"cargo": "jefe de gobierno",
+			"desde": 1983,
+			"hasta": 1983
+		},
+		{
+			"nombre": "Nejat Konuk",
+			"cargo": "jefe de gobierno",
+			"desde": 1983,
+			"hasta": 1985
+		},
+		{
+			"nombre": "Rauf Denktaş",
+			"cargo": "jefe de Estado",
+			"desde": 1983,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Derviş Eroğlu",
+			"cargo": "jefe de gobierno",
+			"desde": 1985,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Hakkı Atun",
+			"cargo": "jefe de gobierno",
+			"desde": 1994,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Derviş Eroğlu",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Mehmet Ali Talat",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Ferdi Sabit Soyer",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Mehmet Ali Talat",
+			"cargo": "jefe de Estado",
+			"desde": 2005,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Derviş Eroğlu",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2010
+		},
+		{
+			"nombre": "İrsen Küçük",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Derviş Eroğlu",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Sibel Siber",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Özkan Yorgancıoğlu",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Ömer Kalyoncu",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Mustafa Akıncı",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Hüseyin Özgürgün",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Tufan Erhürman",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Ersin Tatar",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Hamza Ersan Saner",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Faiz Sucuoğlu",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Ersin Tatar",
+			"cargo": "jefe de Estado",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Ünal Üstel",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Tufan Erhürman",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1980,
+			"valor": 150283,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 1990,
+			"valor": 171469,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2000,
+			"valor": 210047,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2010,
+			"valor": 287856,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2020,
+			"valor": 419810,
+			"fuente": "Wikidata (P1082)"
+		},
+		{
+			"anio": 2023,
+			"valor": 476214,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Turkish Republic of Northern Cyprus.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q23681",
@@ -20,14 +204,137 @@
 			"url": "https://es.wikipedia.org/wiki/Chipre_del_Norte",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q23681",
+			"url": "https://www.wikidata.org/wiki/Q23681",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q200436",
+			"url": "http://www.wikidata.org/entity/Q200436",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6943353",
+			"url": "http://www.wikidata.org/entity/Q6943353",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6989747",
+			"url": "http://www.wikidata.org/entity/Q6989747",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q332476",
+			"url": "http://www.wikidata.org/entity/Q332476",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4072300",
+			"url": "http://www.wikidata.org/entity/Q4072300",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q312245",
+			"url": "http://www.wikidata.org/entity/Q312245",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q730602",
+			"url": "http://www.wikidata.org/entity/Q730602",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57886",
+			"url": "http://www.wikidata.org/entity/Q57886",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q14330482",
+			"url": "http://www.wikidata.org/entity/Q14330482",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6065323",
+			"url": "http://www.wikidata.org/entity/Q6065323",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19402598",
+			"url": "http://www.wikidata.org/entity/Q19402598",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q20669153",
+			"url": "http://www.wikidata.org/entity/Q20669153",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q58174",
+			"url": "http://www.wikidata.org/entity/Q58174",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47188815",
+			"url": "http://www.wikidata.org/entity/Q47188815",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6057339",
+			"url": "http://www.wikidata.org/entity/Q6057339",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28600107",
+			"url": "http://www.wikidata.org/entity/Q28600107",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q47189019",
+			"url": "http://www.wikidata.org/entity/Q47189019",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12812869",
+			"url": "http://www.wikidata.org/entity/Q12812869",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P1082:Q23681",
+			"url": "https://www.wikidata.org/wiki/Q23681",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2d23933fc6e9",
+		"hash": "e13ebeeea5c7",
 		"secciones": [
+			"escudos",
+			"gobernantes",
+			"poblacion",
 			"resena"
 		]
 	}

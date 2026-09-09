@@ -2,8 +2,7 @@
 	"id": "republica-centroafricana",
 	"nombre": "Rep. Centroafricana",
 	"nombres": [
-		"Central African Republic",
-		"República Centroafricana"
+		"Central African Republic"
 	],
 	"nombres_periodo": [
 		{
@@ -24,6 +23,9 @@
 	],
 	"wiki": "es:República Centroafricana",
 	"wikidata": "Q929",
+	"relacionados": [
+		"República Centroafricana"
+	],
 	"resena": "La República Centroafricana, o simplemente Centroáfrica, es un país sin litoral ubicado en África Central. Limita con Chad al norte, Sudán al noreste, Sudán del Sur al este, la República Democrática del Congo y la República del Congo al sur y Camerún al oeste.",
 	"gobernantes": [
 		{

@@ -2,9 +2,7 @@
 	"id": "sierra-leona",
 	"nombre": "Sierra Leona",
 	"nombres": [
-		"Sierra Leone",
-		"Sierra Leona",
-		"República de Sierra Leona"
+		"Sierra Leone"
 	],
 	"nombres_periodo": [
 		{
@@ -20,6 +18,9 @@
 	],
 	"wiki": "es:Sierra Leona",
 	"wikidata": "Q1044",
+	"relacionados": [
+		"República de Sierra Leona"
+	],
 	"resena": "Sierra Leona o Sierra Leone, oficialmente la República de Sierra Leona, es un país de África occidental. Limita al norte con Guinea, al sureste con Liberia y al suroeste con el océano Atlántico, que lo separa de Brasil unos 2840 km.",
 	"gobernantes": [
 		{
@@ -138,6 +139,11 @@
 			"fuente": "ONU - World Population Prospects"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Sierra Leone.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -164,14 +170,21 @@
 			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1044",
+			"url": "https://www.wikidata.org/wiki/Q1044",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "f10a4d5f3fac",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

@@ -3,10 +3,7 @@
 	"nombre": "Marruecos",
 	"nombres": [
 		"Morocco",
-		"Morocco (France)",
-		"Marruecos",
-		"Reino de Marruecos",
-		"Al-Magrib"
+		"Morocco (France)"
 	],
 	"nombres_periodo": [
 		{
@@ -22,6 +19,10 @@
 	],
 	"wiki": "es:Marruecos",
 	"wikidata": "Q1028",
+	"relacionados": [
+		"Reino de Marruecos",
+		"Al-Magrib"
+	],
 	"resena": "Marruecos, oficialmente el Reino de Marruecos, antiguamente llamado Imperio jerifiano, es un país soberano situado en el Magreb.",
 	"gobernantes": [
 		{
@@ -122,6 +123,11 @@
 			"fuente": "Censo 2024 (est.)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Morocco.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -143,14 +149,21 @@
 			"url": "https://es.wikipedia.org/wiki/Marruecos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1028",
+			"url": "https://www.wikidata.org/wiki/Q1028",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "32a476810450",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

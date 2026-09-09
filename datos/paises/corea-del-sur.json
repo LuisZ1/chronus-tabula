@@ -2,14 +2,113 @@
 	"id": "corea-del-sur",
 	"nombre": "Corea del Sur",
 	"nombres": [
-		"Korea, Republic of",
-		"Corea del Sur",
-		"Republica de Corea"
+		"Korea, Republic of"
 	],
 	"wiki": "es:Corea del Sur",
 	"wikidata": "Q884",
 	"owid": "KOR",
+	"relacionados": [
+		"Republica de Corea"
+	],
 	"resena": "La República de Corea, comúnmente Corea del Sur, es un país soberano de Asia Oriental, ubicado en la parte sur de la península de Corea. Limita al norte con Corea del Norte, con la cual integró un solo país hasta 1945.",
+	"gobernantes": [
+		{
+			"nombre": "Syngman Rhee",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1960
+		},
+		{
+			"nombre": "Yun Bo-seon",
+			"cargo": "jefe de Estado",
+			"desde": 1960,
+			"hasta": 1962
+		},
+		{
+			"nombre": "Park Chung-hee",
+			"cargo": "jefe de Estado",
+			"desde": 1963,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Choi Kyu-hah",
+			"cargo": "jefe de Estado",
+			"desde": 1979,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Chun Doo-hwan",
+			"cargo": "jefe de Estado",
+			"desde": 1980,
+			"hasta": 1988
+		},
+		{
+			"nombre": "Roh Tae-woo",
+			"cargo": "jefe de Estado",
+			"desde": 1988,
+			"hasta": 1993
+		},
+		{
+			"nombre": "Kim Young Sam",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Kim Dae-Jung",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Roh Moo-Hyun",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Lee Myung-bak",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Park Geun-hye",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Moon Jae-in",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Yoon Suk-yeol",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Lee Jae-myung",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Lee Ju-ho",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Han Seong-sook",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +291,11 @@
 			"valor": 51748744
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of South Korea.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q884",
@@ -209,14 +313,118 @@
 			"url": "https://es.wikipedia.org/wiki/Corea_del_Sur",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q884",
+			"url": "https://www.wikidata.org/wiki/Q884",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q171684",
+			"url": "http://www.wikidata.org/entity/Q171684",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q192049",
+			"url": "http://www.wikidata.org/entity/Q192049",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q14356",
+			"url": "http://www.wikidata.org/entity/Q14356",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q313350",
+			"url": "http://www.wikidata.org/entity/Q313350",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q14362",
+			"url": "http://www.wikidata.org/entity/Q14362",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q242651",
+			"url": "http://www.wikidata.org/entity/Q242651",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q165210",
+			"url": "http://www.wikidata.org/entity/Q165210",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q45785",
+			"url": "http://www.wikidata.org/entity/Q45785",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q14345",
+			"url": "http://www.wikidata.org/entity/Q14345",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q14342",
+			"url": "http://www.wikidata.org/entity/Q14342",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q138048",
+			"url": "http://www.wikidata.org/entity/Q138048",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q21001",
+			"url": "http://www.wikidata.org/entity/Q21001",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16090635",
+			"url": "http://www.wikidata.org/entity/Q16090635",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16091128",
+			"url": "http://www.wikidata.org/entity/Q16091128",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12612463",
+			"url": "http://www.wikidata.org/entity/Q12612463",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q55082182",
+			"url": "http://www.wikidata.org/entity/Q55082182",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "f2886ac182cd",
+		"hash": "8c16a47023d9",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

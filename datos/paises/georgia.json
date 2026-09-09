@@ -8,6 +8,110 @@
 	"wikidata": "Q230",
 	"owid": "GEO",
 	"resena": "Georgia es un país soberano localizado en la región del Cáucaso, en la costa este del mar Negro, en el límite entre la Europa Oriental y el Asia Occidental.",
+	"gobernantes": [
+		{
+			"nombre": "Zviad Gamsajurdia",
+			"cargo": "jefe de Estado",
+			"desde": 1991,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Eduard Shevardnadze",
+			"cargo": "jefe de Estado",
+			"desde": 1992,
+			"hasta": 1995
+		},
+		{
+			"nombre": "Eduard Shevardnadze",
+			"cargo": "jefe de Estado",
+			"desde": 1995,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Nino Buryanadze",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Mijeíl Saakashvili",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Nino Buryanadze",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Mijeíl Saakashvili",
+			"cargo": "jefe de Estado",
+			"desde": 2008,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Bidzina Ivanishvili",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Irakli Garibashvili",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Giorgi Margvelashvili",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Giorgi Kvirikashvili",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Mamuka Bakhtadze",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Salome Zourabichvili",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Gueorgui Gajaria",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Irakli Garibashvili",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Irakli Kobakhidze",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Mikhail Kavelashvili",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +294,17 @@
 			"valor": 3807494
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Georgia (1990–2004).svg",
+			"desde": 1990,
+			"hasta": 2004
+		},
+		{
+			"archivo": "Greater coat of arms of Georgia.svg",
+			"desde": 2004
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q230",
@@ -207,14 +322,100 @@
 			"url": "https://es.wikipedia.org/wiki/Georgia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q230",
+			"url": "https://www.wikidata.org/wiki/Q230",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q218435",
+			"url": "http://www.wikidata.org/entity/Q218435",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q151929",
+			"url": "http://www.wikidata.org/entity/Q151929",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q229493",
+			"url": "http://www.wikidata.org/entity/Q229493",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43330",
+			"url": "http://www.wikidata.org/entity/Q43330",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57794",
+			"url": "http://www.wikidata.org/entity/Q57794",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q13107337",
+			"url": "http://www.wikidata.org/entity/Q13107337",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6066533",
+			"url": "http://www.wikidata.org/entity/Q6066533",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15277881",
+			"url": "http://www.wikidata.org/entity/Q15277881",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q54982996",
+			"url": "http://www.wikidata.org/entity/Q54982996",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q272416",
+			"url": "http://www.wikidata.org/entity/Q272416",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43287680",
+			"url": "http://www.wikidata.org/entity/Q43287680",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q27885302",
+			"url": "http://www.wikidata.org/entity/Q27885302",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q711893",
+			"url": "http://www.wikidata.org/entity/Q711893",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "483ab8106807",
+		"hash": "cdd8179039ef",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

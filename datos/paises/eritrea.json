@@ -3,9 +3,7 @@
 	"nombre": "Eritrea",
 	"nombres": [
 		"Eritrea",
-		"Eritrea (Italy)",
-		"Eritrea italiana",
-		"Estado de Eritrea"
+		"Eritrea (Italy)"
 	],
 	"nombres_periodo": [
 		{
@@ -30,6 +28,10 @@
 	],
 	"wiki": "es:Eritrea",
 	"wikidata": "Q986",
+	"relacionados": [
+		"Eritrea italiana",
+		"Estado de Eritrea"
+	],
 	"resena": "Eritrea, oficialmente el Estado de Eritrea, es un país situado al noreste de África. Limita al norte y al oeste con Sudán; al sur con Etiopía y Yibuti, y el este es bañado por el mar Rojo.",
 	"gobernantes": [
 		{

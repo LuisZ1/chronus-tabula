@@ -3,11 +3,7 @@
 	"nombre": "Libia",
 	"nombres": [
 		"Libya",
-		"Libya (IT)",
-		"Libia",
-		"Reino de Libia",
-		"Yamahiriya Árabe Libia",
-		"Estado de Libia"
+		"Libya (IT)"
 	],
 	"nombres_periodo": [
 		{
@@ -43,6 +39,11 @@
 	],
 	"wiki": "es:Libia",
 	"wikidata": "Q1016",
+	"relacionados": [
+		"Reino de Libia",
+		"Yamahiriya Árabe Libia",
+		"Estado de Libia"
+	],
 	"resena": "Libia, oficialmente el Estado de Libia, es un país soberano republicano del norte de África. Su capital es Trípoli.",
 	"gobernantes": [
 		{

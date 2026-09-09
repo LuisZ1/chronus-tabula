@@ -2,12 +2,23 @@
 	"id": "san-bartolome",
 	"nombre": "San Bartolomé",
 	"nombres": [
-		"Saint Barthelemy",
-		"San Bartolomé"
+		"Saint Barthelemy"
 	],
 	"wiki": "es:San Bartolomé",
 	"wikidata": "Q25362",
 	"resena": "San Bartolomé puede referirse a:",
+	"poblacion": [
+		{
+			"anio": 2018,
+			"valor": 10124,
+			"fuente": "Wikidata (P1082)"
+		}
+	],
+	"escudos": [
+		{
+			"archivo": "Blason St Barthélémy TOM entire.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q25362",
@@ -19,14 +30,28 @@
 			"url": "https://es.wikipedia.org/wiki/San_Bartolom%C3%A9",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P1082:Q25362",
+			"url": "https://www.wikidata.org/wiki/Q25362",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q25362",
+			"url": "https://www.wikidata.org/wiki/Q25362",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2d23933fc6e9",
+		"hash": "a578d4aa0db2",
 		"secciones": [
+			"escudos",
+			"poblacion",
 			"resena"
 		]
 	}

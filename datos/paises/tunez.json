@@ -3,9 +3,7 @@
 	"nombre": "Tunez",
 	"nombres": [
 		"Tunisia",
-		"Tunis",
-		"Republica Tunecina",
-		"Reino de Tunez"
+		"Tunis"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +24,10 @@
 	],
 	"wiki": "es:Túnez",
 	"wikidata": "Q948",
+	"relacionados": [
+		"Republica Tunecina",
+		"Reino de Tunez"
+	],
 	"resena": "Túnez, oficialmente República de Túnez o República Tunecina, es un país soberano situado en el norte de África, más concretamente en la costa mediterránea. Su territorio está organizado en 24 gobernaciones o wilayat.",
 	"gobernantes": [
 		{

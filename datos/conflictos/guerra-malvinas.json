@@ -68,6 +68,12 @@
 			"lng": -58.97
 		},
 		{
+			"nombre": "Batalla de San Carlos",
+			"anio": 1982,
+			"lat": -51.51,
+			"lng": -59.08
+		},
+		{
 			"nombre": "Batalla del Monte Longdon",
 			"anio": 1982,
 			"lat": -51.68,
@@ -80,10 +86,22 @@
 			"lng": -61.5
 		},
 		{
+			"nombre": "Hundimiento del HMS Sheffield",
+			"anio": 1982,
+			"lat": -53.07,
+			"lng": -56.93
+		},
+		{
 			"nombre": "Rendición en Puerto Argentino (Stanley)",
 			"anio": 1982,
 			"lat": -51.69,
 			"lng": -57.85
+		},
+		{
+			"nombre": "Sinking of HMS Sheffield",
+			"anio": 1982,
+			"lat": -53.07,
+			"lng": -56.93
 		}
 	],
 	"fuentes": [
@@ -92,6 +110,24 @@
 			"url": "https://es.wikipedia.org/wiki/Guerra_de_las_Malvinas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikidata:Q68972231",
+			"url": "https://www.wikidata.org/wiki/Q68972231",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4872265",
+			"url": "https://www.wikidata.org/wiki/Q4872265",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q59559767",
+			"url": "https://www.wikidata.org/wiki/Q59559767",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	]
 }

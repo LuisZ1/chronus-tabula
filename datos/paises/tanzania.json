@@ -2,9 +2,7 @@
 	"id": "tanzania",
 	"nombre": "Tanzania",
 	"nombres": [
-		"Tanzania, United Republic of",
-		"Tanzania",
-		"República Unida de Tanzania"
+		"Tanzania, United Republic of"
 	],
 	"nombres_periodo": [
 		{
@@ -30,6 +28,9 @@
 	],
 	"wiki": "es:Tanzania",
 	"wikidata": "Q924",
+	"relacionados": [
+		"República Unida de Tanzania"
+	],
 	"resena": "Tanzania, oficialmente la República Unida de Tanzania, es un país situado en la costa oriental del África Central.",
 	"gobernantes": [
 		{
@@ -131,6 +132,11 @@
 			"fuente": "Censo de Tanzania 2022"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Tanzania.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -157,14 +163,21 @@
 			"url": "https://es.wikipedia.org/wiki/Tanzania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q924",
+			"url": "https://www.wikidata.org/wiki/Q924",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "9104e92beb59",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

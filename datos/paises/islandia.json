@@ -2,13 +2,62 @@
 	"id": "islandia",
 	"nombre": "Islandia",
 	"nombres": [
-		"Iceland",
-		"Islandia"
+		"Iceland"
 	],
 	"wiki": "es:Islandia",
 	"wikidata": "Q189",
 	"owid": "ISL",
 	"resena": "Islandia es un país insular europeo, cuyo territorio abarca la isla homónima y algunas pequeñas islas e islotes adyacentes en el océano Atlántico. Su capital es Reikiavik.",
+	"gobernantes": [
+		{
+			"nombre": "Ólafur Ragnar Grímsson",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Sigmundur Davíð Gunnlaugsson",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Guðni Th. Jóhannesson",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Bjarni Benediktsson",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Katrin Jakobsdóttir",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Bjarni Benediktsson",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Halla Tómasdóttir",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Kristrún Frostadottir",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +240,11 @@
 			"valor": 387559
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Iceland.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q189",
@@ -208,14 +262,64 @@
 			"url": "https://es.wikipedia.org/wiki/Islandia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q189",
+			"url": "https://www.wikidata.org/wiki/Q189",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57284",
+			"url": "http://www.wikidata.org/entity/Q57284",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q463588",
+			"url": "http://www.wikidata.org/entity/Q463588",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24045706",
+			"url": "http://www.wikidata.org/entity/Q24045706",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q879376",
+			"url": "http://www.wikidata.org/entity/Q879376",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q467464",
+			"url": "http://www.wikidata.org/entity/Q467464",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24494577",
+			"url": "http://www.wikidata.org/entity/Q24494577",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q108856371",
+			"url": "http://www.wikidata.org/entity/Q108856371",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "9526c974ebfb",
+		"hash": "ab648f2b2368",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

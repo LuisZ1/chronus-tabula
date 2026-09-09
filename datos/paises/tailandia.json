@@ -2,14 +2,35 @@
 	"id": "tailandia",
 	"nombre": "Tailandia",
 	"nombres": [
-		"Thailand",
-		"Tailandia",
-		"Reino de Tailandia"
+		"Thailand"
 	],
 	"wiki": "es:Tailandia",
 	"wikidata": "Q869",
 	"owid": "THA",
+	"relacionados": [
+		"Reino de Tailandia"
+	],
 	"resena": "Tailandia, oficialmente denominado Reino de Tailandia, es un país ubicado en el Sudeste Asiático. Su capital y ciudad más poblada es Bangkok, centro de la actividad política, comercial e industrial.",
+	"gobernantes": [
+		{
+			"nombre": "Maha Vajiralongkorn",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Peatongtarn Shinawatra",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Phumtham Wechayachai",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +213,11 @@
 			"valor": 71702436
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Thailand.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q869",
@@ -209,14 +235,40 @@
 			"url": "https://es.wikipedia.org/wiki/Tailandia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q548733",
+			"url": "http://www.wikidata.org/entity/Q548733",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q13026319",
+			"url": "http://www.wikidata.org/entity/Q13026319",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q13018661",
+			"url": "http://www.wikidata.org/entity/Q13018661",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q869",
+			"url": "https://www.wikidata.org/wiki/Q869",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "7cd33b5c870a",
+		"hash": "1558e583d8cb",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

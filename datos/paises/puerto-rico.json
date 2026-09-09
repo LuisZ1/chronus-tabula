@@ -8,6 +8,38 @@
 	"wikidata": "Q1183",
 	"owid": "PRI",
 	"resena": "Puerto Rico, oficialmente el Estado Libre Asociado de Puerto Rico, es uno de los catorce territorios no incorporados y uno de los dos estados libres asociados con estatus de autogobierno de los Estados Unidos de América. Con aproximadamente 3.",
+	"gobernantes": [
+		{
+			"nombre": "Alejandro García Padilla",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Ricardo Rosselló",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Wanda Vázquez Garced",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Pedro Pierluisi",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Jenniffer González",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -3000,
@@ -162,6 +194,11 @@
 			"valor": 3242022
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Commonwealth of Puerto Rico.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q1183",
@@ -179,14 +216,52 @@
 			"url": "https://es.wikipedia.org/wiki/Puerto_Rico",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1183",
+			"url": "https://www.wikidata.org/wiki/Q1183",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2832449",
+			"url": "http://www.wikidata.org/entity/Q2832449",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7332181",
+			"url": "http://www.wikidata.org/entity/Q7332181",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q56600071",
+			"url": "http://www.wikidata.org/entity/Q56600071",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2277878",
+			"url": "http://www.wikidata.org/entity/Q2277878",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16215793",
+			"url": "http://www.wikidata.org/entity/Q16215793",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "09ae609c3721",
+		"hash": "99a350efefb2",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

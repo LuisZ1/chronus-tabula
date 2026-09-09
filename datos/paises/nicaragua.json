@@ -8,6 +8,38 @@
 	"wikidata": "Q811",
 	"owid": "NIC",
 	"resena": "Nicaragua, oficialmente República de Nicaragua, es un país ubicado en América Central. Su capital y ciudad más poblada es Managua, aunque anteriormente eran León y Granada.",
+	"gobernantes": [
+		{
+			"nombre": "Daniel Ortega (bachi)",
+			"cargo": "jefe de gobierno",
+			"desde": 1985,
+			"hasta": 1990
+		},
+		{
+			"nombre": "Violeta Chamorro",
+			"cargo": "jefe de gobierno",
+			"desde": 1990,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Arnoldo Alemán",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Enrique Bolaños Geyer",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Daniel Ortega (bachi)",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2007
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +222,11 @@
 			"valor": 6823619
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Nicaragua.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q811",
@@ -207,14 +244,46 @@
 			"url": "https://es.wikipedia.org/wiki/Nicaragua",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q811",
+			"url": "https://www.wikidata.org/wiki/Q811",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57402",
+			"url": "http://www.wikidata.org/entity/Q57402",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q114142",
+			"url": "http://www.wikidata.org/entity/Q114142",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356647",
+			"url": "http://www.wikidata.org/entity/Q356647",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q311355",
+			"url": "http://www.wikidata.org/entity/Q311355",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "b821ba8980dd",
+		"hash": "e77df33727bd",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

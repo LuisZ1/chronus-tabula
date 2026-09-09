@@ -2,13 +2,116 @@
 	"id": "filipinas",
 	"nombre": "Filipinas",
 	"nombres": [
-		"Philippines",
-		"Filipinas"
+		"Philippines"
 	],
 	"wiki": "es:Filipinas",
 	"wikidata": "Q928",
 	"owid": "PHL",
 	"resena": "Filipinas —oficialmente la República de Filipinas — es un país insular situado en el Sudeste Asiático, sobre el océano Pacífico. Su capital es Manila y su ciudad más poblada es la Ciudad Quezón.",
+	"gobernantes": [
+		{
+			"nombre": "Emilio Aguinaldo",
+			"cargo": "jefe de Estado",
+			"desde": 1899,
+			"hasta": 1901
+		},
+		{
+			"nombre": "Manuel L. Quezon",
+			"cargo": "jefe de Estado",
+			"desde": 1935,
+			"hasta": 1944
+		},
+		{
+			"nombre": "José Paciano Laurel",
+			"cargo": "jefe de Estado",
+			"desde": 1943,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Sergio Osmeña",
+			"cargo": "jefe de Estado",
+			"desde": 1944,
+			"hasta": 1946
+		},
+		{
+			"nombre": "Manuel Roxas",
+			"cargo": "jefe de Estado",
+			"desde": 1946,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Elpidio Quirino",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1953
+		},
+		{
+			"nombre": "Ramon Magsaysay",
+			"cargo": "jefe de Estado",
+			"desde": 1953,
+			"hasta": 1957
+		},
+		{
+			"nombre": "Carlos P. García",
+			"cargo": "jefe de Estado",
+			"desde": 1957,
+			"hasta": 1961
+		},
+		{
+			"nombre": "Diosdado Macapagal",
+			"cargo": "jefe de Estado",
+			"desde": 1961,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Ferdinand E. E. Marcos",
+			"cargo": "jefe de Estado",
+			"desde": 1965,
+			"hasta": 1986
+		},
+		{
+			"nombre": "Corazón Aquino",
+			"cargo": "jefe de Estado",
+			"desde": 1986,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Fidel V. Ramos",
+			"cargo": "jefe de Estado",
+			"desde": 1992,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Joseph Estrada",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Gloria Macapagal Arroyo",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Benigno Aquino III",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Rodrigo Duterte",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Ferdinand R. Marcos",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +294,11 @@
 			"valor": 114891199
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Philippines.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q928",
@@ -208,14 +316,124 @@
 			"url": "https://es.wikipedia.org/wiki/Filipinas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q928",
+			"url": "https://www.wikidata.org/wiki/Q928",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q188939",
+			"url": "http://www.wikidata.org/entity/Q188939",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1503",
+			"url": "http://www.wikidata.org/entity/Q1503",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q360113",
+			"url": "http://www.wikidata.org/entity/Q360113",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q319950",
+			"url": "http://www.wikidata.org/entity/Q319950",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q223419",
+			"url": "http://www.wikidata.org/entity/Q223419",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q319943",
+			"url": "http://www.wikidata.org/entity/Q319943",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q117096",
+			"url": "http://www.wikidata.org/entity/Q117096",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q319939",
+			"url": "http://www.wikidata.org/entity/Q319939",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q312539",
+			"url": "http://www.wikidata.org/entity/Q312539",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1463",
+			"url": "http://www.wikidata.org/entity/Q1463",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1480",
+			"url": "http://www.wikidata.org/entity/Q1480",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q215351",
+			"url": "http://www.wikidata.org/entity/Q215351",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q212733",
+			"url": "http://www.wikidata.org/entity/Q212733",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q123665",
+			"url": "http://www.wikidata.org/entity/Q123665",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1464",
+			"url": "http://www.wikidata.org/entity/Q1464",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q457786",
+			"url": "http://www.wikidata.org/entity/Q457786",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q983324",
+			"url": "http://www.wikidata.org/entity/Q983324",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "7d773a22be1b",
+		"hash": "63753f1de4b2",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

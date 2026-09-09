@@ -2,14 +2,41 @@
 	"id": "bielorrusia",
 	"nombre": "Bielorrusia",
 	"nombres": [
-		"Byelarus",
-		"Bielorrusia",
-		"Belarús"
+		"Byelarus"
 	],
 	"wiki": "es:Bielorrusia",
 	"wikidata": "Q184",
 	"owid": "BLR",
+	"relacionados": [
+		"Belarús"
+	],
 	"resena": "Bielorrusia, oficialmente la República de Belarús, es un país soberano sin litoral situado en Europa Oriental y que formó parte de la Unión Soviética hasta 1991. Limita al norte con Lituania y Letonia, al este con Rusia, al sur con Ucrania y al oeste con Polonia.",
+	"gobernantes": [
+		{
+			"nombre": "Alejandro Lukashenka",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Serguéi Rumas",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Roman Golovchenko",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Alexandre Tourchine",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +219,25 @@
 			"valor": 9115679
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Belarus (2012–2021).svg"
+		},
+		{
+			"archivo": "Coat of arms of Belarus (1991–1995).svg",
+			"desde": 1991,
+			"hasta": 1995
+		},
+		{
+			"archivo": "Coat of arms of Belarus.svg",
+			"desde": 1995,
+			"hasta": 2012
+		},
+		{
+			"archivo": "Coat of arms of Belarus (2020–present).svg",
+			"desde": 2021
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q184",
@@ -209,14 +255,46 @@
 			"url": "https://es.wikipedia.org/wiki/Bielorrusia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q184",
+			"url": "https://www.wikidata.org/wiki/Q184",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q2866",
+			"url": "http://www.wikidata.org/entity/Q2866",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3813861",
+			"url": "http://www.wikidata.org/entity/Q3813861",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q27043179",
+			"url": "http://www.wikidata.org/entity/Q27043179",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q56235580",
+			"url": "http://www.wikidata.org/entity/Q56235580",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "01ec92e82981",
+		"hash": "1854c155ce0b",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

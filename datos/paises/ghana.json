@@ -2,9 +2,7 @@
 	"id": "ghana",
 	"nombre": "Ghana",
 	"nombres": [
-		"Ghana",
-		"República de Ghana",
-		"Costa de Oro"
+		"Ghana"
 	],
 	"nombres_periodo": [
 		{
@@ -20,6 +18,10 @@
 	],
 	"wiki": "es:Ghana",
 	"wikidata": "Q117",
+	"relacionados": [
+		"República de Ghana",
+		"Costa de Oro"
+	],
 	"resena": "Ghana o Gana, oficialmente la República de Ghana, es un país de África Occidental constituido como una república presidencialista. Limita al norte con Burkina Faso, al este con Togo, al oeste con Costa de Marfil y al sur con el golfo de Guinea.",
 	"gobernantes": [
 		{

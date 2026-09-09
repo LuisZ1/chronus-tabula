@@ -3,9 +3,6 @@
 	"nombre": "Zimbabue",
 	"nombres": [
 		"Zimbabwe",
-		"Zimbabue",
-		"República de Zimbabue",
-		"Rhodesia del Sur",
 		"Rhodesia"
 	],
 	"nombres_periodo": [
@@ -32,6 +29,10 @@
 	],
 	"wiki": "es:Zimbabue",
 	"wikidata": "Q954",
+	"relacionados": [
+		"República de Zimbabue",
+		"Rhodesia del Sur"
+	],
 	"resena": "Zimbabue, oficialmente República de Zimbabue , es un país sin litoral situado en el sudeste de África, entre el río Zambeze, las cataratas Victoria y el río Limpopo. Limita al oeste con Botsuana, al norte con Zambia, al sur con Sudáfrica y al este con Mozambique.",
 	"gobernantes": [
 		{

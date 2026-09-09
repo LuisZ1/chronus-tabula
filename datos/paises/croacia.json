@@ -2,13 +2,68 @@
 	"id": "croacia",
 	"nombre": "Croacia",
 	"nombres": [
-		"Croatia",
-		"Croacia"
+		"Croatia"
 	],
 	"wiki": "es:Croacia",
 	"wikidata": "Q224",
 	"owid": "HRV",
 	"resena": "Croacia, oficialmente República de Croacia, es uno de los veintisiete Estados soberanos que forman la Unión Europea, ubicado entre la Europa Central, la Europa meridional y el mar Adriático; limita al noreste con Hungría, al este con Serbia, al sureste con Bosnia-Herzegovina y Montenegro, al noroeste con Eslovenia y al suroeste con el mar Adriático, donde co…",
+	"gobernantes": [
+		{
+			"nombre": "Stjepan Mesić",
+			"cargo": "jefe de gobierno",
+			"desde": 1990,
+			"hasta": 1990
+		},
+		{
+			"nombre": "Franjo Tuđman",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Stjepan Mesić",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Ivo Josipović",
+			"cargo": "jefe de Estado",
+			"desde": 2010,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Zoran Milanović",
+			"cargo": "jefe de gobierno",
+			"desde": 2011,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Kolinda Grabar-Kitarović",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Andrej Plenković",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Tihomir Orešković",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Zoran Milanović",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2020
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +246,11 @@
 			"valor": 3896023
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Croatia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q224",
@@ -208,14 +268,64 @@
 			"url": "https://es.wikipedia.org/wiki/Croacia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q224",
+			"url": "https://www.wikidata.org/wiki/Q224",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q183703",
+			"url": "http://www.wikidata.org/entity/Q183703",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q146496",
+			"url": "http://www.wikidata.org/entity/Q146496",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57258",
+			"url": "http://www.wikidata.org/entity/Q57258",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57687",
+			"url": "http://www.wikidata.org/entity/Q57687",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3176299",
+			"url": "http://www.wikidata.org/entity/Q3176299",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q21821359",
+			"url": "http://www.wikidata.org/entity/Q21821359",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q11685764",
+			"url": "http://www.wikidata.org/entity/Q11685764",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c1305aab4dea",
+		"hash": "90d810746fe0",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

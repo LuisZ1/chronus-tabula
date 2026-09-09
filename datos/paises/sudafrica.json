@@ -3,9 +3,7 @@
 	"nombre": "Sudáfrica",
 	"nombres": [
 		"South Africa",
-		"Unión Sudafricana",
-		"Union of South Africa",
-		"República de Sudáfrica"
+		"Union of South Africa"
 	],
 	"nombres_periodo": [
 		{
@@ -31,6 +29,10 @@
 	],
 	"wiki": "es:Sudáfrica",
 	"wikidata": "Q258",
+	"relacionados": [
+		"Unión Sudafricana",
+		"República de Sudáfrica"
+	],
 	"resena": "Sudáfrica o, en uso minoritario, Suráfrica, y oficialmente la República de Sudáfrica, es un país soberano, situado en África austral y cuya forma de gobierno es la república parlamentaria. Su territorio está organizado en nueve provincias.",
 	"gobernantes": [
 		{
@@ -222,6 +224,27 @@
 			"fuente": "Wikipedia (Demographics of South Africa), censo"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of South Africa (1910–1930).svg",
+			"desde": 1910,
+			"hasta": 1930
+		},
+		{
+			"archivo": "Coat of arms of South Africa (1930–1932).svg",
+			"desde": 1930,
+			"hasta": 1932
+		},
+		{
+			"archivo": "Coat of arms of South Africa (1932–2000).svg",
+			"desde": 1932,
+			"hasta": 2000
+		},
+		{
+			"archivo": "Coat of arms of South Africa (heraldic).svg",
+			"desde": 2000
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -253,14 +276,21 @@
 			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q258",
+			"url": "https://www.wikidata.org/wiki/Q258",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "c0d6dc4103f2",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

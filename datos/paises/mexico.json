@@ -2,14 +2,161 @@
 	"id": "mexico",
 	"nombre": "México",
 	"nombres": [
-		"Mexico",
-		"México",
-		"Estados Unidos Mexicanos"
+		"Mexico"
 	],
 	"wiki": "es:México",
 	"wikidata": "Q96",
 	"owid": "MEX",
+	"relacionados": [
+		"Estados Unidos Mexicanos"
+	],
 	"resena": "México, oficialmente Estados Unidos Mexicanos, es un país soberano ubicado en la parte meridional de América del Norte; su capital y ciudad más poblada es la Ciudad de México. De acuerdo con la constitución vigente, su forma de gobierno consiste en una república representativa, democrática, laica y federal, compuesta por 32 entidades federativas.",
+	"gobernantes": [
+		{
+			"nombre": "Francisco I. Madero",
+			"cargo": "jefe de Estado",
+			"desde": 1911,
+			"hasta": 1913
+		},
+		{
+			"nombre": "Francisco Carvajal",
+			"cargo": "jefe de Estado",
+			"desde": 1914,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Q313122",
+			"cargo": "jefe de Estado",
+			"desde": 1917,
+			"hasta": 1920
+		},
+		{
+			"nombre": "Adolfo de la Huerta",
+			"cargo": "jefe de Estado",
+			"desde": 1920,
+			"hasta": 1920
+		},
+		{
+			"nombre": "Álvaro Obregón",
+			"cargo": "jefe de Estado",
+			"desde": 1920,
+			"hasta": 1924
+		},
+		{
+			"nombre": "Plutarco Elías Calles",
+			"cargo": "jefe de Estado",
+			"desde": 1924,
+			"hasta": 1928
+		},
+		{
+			"nombre": "Emilio Portes Gil",
+			"cargo": "jefe de Estado",
+			"desde": 1928,
+			"hasta": 1930
+		},
+		{
+			"nombre": "Pascual Ortiz Rubio",
+			"cargo": "jefe de Estado",
+			"desde": 1930,
+			"hasta": 1932
+		},
+		{
+			"nombre": "Abelardo L. Rodríguez",
+			"cargo": "jefe de Estado",
+			"desde": 1932,
+			"hasta": 1934
+		},
+		{
+			"nombre": "Lázaro Cárdenas",
+			"cargo": "jefe de Estado",
+			"desde": 1934,
+			"hasta": 1940
+		},
+		{
+			"nombre": "Manuel Ávila Camacho",
+			"cargo": "jefe de Estado",
+			"desde": 1940,
+			"hasta": 1946
+		},
+		{
+			"nombre": "Miguel Alemán Valdés",
+			"cargo": "jefe de Estado",
+			"desde": 1946,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Adolfo Ruiz Cortines",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 1958
+		},
+		{
+			"nombre": "Adolfo López Mateos",
+			"cargo": "jefe de Estado",
+			"desde": 1958,
+			"hasta": 1964
+		},
+		{
+			"nombre": "Gustavo Díaz Ordaz",
+			"cargo": "jefe de Estado",
+			"desde": 1964,
+			"hasta": 1970
+		},
+		{
+			"nombre": "Luis Echeverría",
+			"cargo": "jefe de Estado",
+			"desde": 1970,
+			"hasta": 1976
+		},
+		{
+			"nombre": "José López Portillo",
+			"cargo": "jefe de Estado",
+			"desde": 1976,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Q296691",
+			"cargo": "jefe de Estado",
+			"desde": 1982,
+			"hasta": 1988
+		},
+		{
+			"nombre": "Q315633",
+			"cargo": "jefe de Estado",
+			"desde": 1988,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Q298149",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Vicente Fox",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Q296741",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Q318508",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Q5771800",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +339,11 @@
 			"valor": 129739761
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Mexico.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q96",
@@ -209,14 +361,166 @@
 			"url": "https://es.wikipedia.org/wiki/M%C3%A9xico",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q96",
+			"url": "https://www.wikidata.org/wiki/Q96",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q216766",
+			"url": "http://www.wikidata.org/entity/Q216766",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q372164",
+			"url": "http://www.wikidata.org/entity/Q372164",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q313122",
+			"url": "http://www.wikidata.org/entity/Q313122",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q217498",
+			"url": "http://www.wikidata.org/entity/Q217498",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q137865",
+			"url": "http://www.wikidata.org/entity/Q137865",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315066",
+			"url": "http://www.wikidata.org/entity/Q315066",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q380982",
+			"url": "http://www.wikidata.org/entity/Q380982",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q455683",
+			"url": "http://www.wikidata.org/entity/Q455683",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q115328",
+			"url": "http://www.wikidata.org/entity/Q115328",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q296718",
+			"url": "http://www.wikidata.org/entity/Q296718",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315626",
+			"url": "http://www.wikidata.org/entity/Q315626",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315615",
+			"url": "http://www.wikidata.org/entity/Q315615",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q327920",
+			"url": "http://www.wikidata.org/entity/Q327920",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q335533",
+			"url": "http://www.wikidata.org/entity/Q335533",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315637",
+			"url": "http://www.wikidata.org/entity/Q315637",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q317681",
+			"url": "http://www.wikidata.org/entity/Q317681",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315613",
+			"url": "http://www.wikidata.org/entity/Q315613",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q296691",
+			"url": "http://www.wikidata.org/entity/Q296691",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315633",
+			"url": "http://www.wikidata.org/entity/Q315633",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q298149",
+			"url": "http://www.wikidata.org/entity/Q298149",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q190572",
+			"url": "http://www.wikidata.org/entity/Q190572",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q296741",
+			"url": "http://www.wikidata.org/entity/Q296741",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q318508",
+			"url": "http://www.wikidata.org/entity/Q318508",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5771800",
+			"url": "http://www.wikidata.org/entity/Q5771800",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "bc3c727e7507",
+		"hash": "c8f9a3cba03f",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

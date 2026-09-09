@@ -2,14 +2,71 @@
 	"id": "corea-del-norte",
 	"nombre": "Corea del Norte",
 	"nombres": [
-		"Korea, Democratic People's Republic of",
-		"Corea del Norte",
-		"República Popular Democrática de Corea"
+		"Korea, Democratic People's Republic of"
 	],
 	"wiki": "es:Corea del Norte",
 	"wikidata": "Q423",
 	"owid": "PRK",
+	"relacionados": [
+		"República Popular Democrática de Corea"
+	],
 	"resena": "La República Popular Democrática de Corea, comúnmente Corea del Norte, es un país soberano de Asia Oriental, situado en la parte norte de la península de Corea. Limita al norte con China, al noreste con Rusia y al sur con Corea del Sur, con la que formó un solo país hasta el año 1945.",
+	"gobernantes": [
+		{
+			"nombre": "Kim Il-sung",
+			"cargo": "jefe de Estado",
+			"desde": 1948,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Kim Jong-il",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Pak Pong-ju",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Kim Yong-il",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Choe Yong-rim",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Kim Jong-un",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Pak Pong-ju",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Kim Jae-ryong",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Pak Thae-song",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +249,17 @@
 			"valor": 26418196
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of North Korea (1948–1993).svg",
+			"desde": 1948,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Emblem of North Korea.svg",
+			"desde": 1992
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q423",
@@ -209,14 +277,70 @@
 			"url": "https://es.wikipedia.org/wiki/Corea_del_Norte",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q423",
+			"url": "https://www.wikidata.org/wiki/Q423",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q41117",
+			"url": "http://www.wikidata.org/entity/Q41117",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10665",
+			"url": "http://www.wikidata.org/entity/Q10665",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q494800",
+			"url": "http://www.wikidata.org/entity/Q494800",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q310875",
+			"url": "http://www.wikidata.org/entity/Q310875",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q310889",
+			"url": "http://www.wikidata.org/entity/Q310889",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q56226",
+			"url": "http://www.wikidata.org/entity/Q56226",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q56818689",
+			"url": "http://www.wikidata.org/entity/Q56818689",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16905281",
+			"url": "http://www.wikidata.org/entity/Q16905281",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "f8b3e28cbaab",
+		"hash": "ed299dc00f25",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

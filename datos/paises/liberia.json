@@ -2,8 +2,7 @@
 	"id": "liberia",
 	"nombre": "Liberia",
 	"nombres": [
-		"Liberia",
-		"República de Liberia"
+		"Liberia"
 	],
 	"nombres_periodo": [
 		{
@@ -19,6 +18,9 @@
 	],
 	"wiki": "es:Liberia",
 	"wikidata": "Q1014",
+	"relacionados": [
+		"República de Liberia"
+	],
 	"resena": "Liberia, oficialmente la República de Liberia, es un país ubicado en la costa oeste de África y que limita con Sierra Leona al noroeste, Costa de Marfil al este y Guinea al norte. Por el sur y el oeste limita con el golfo de Guinea, parte del océano Atlántico, en el punto más cercano del continente africano con Sudamérica, de la cual dista unos 2 840 km.",
 	"gobernantes": [
 		{
@@ -222,6 +224,11 @@
 			"fuente": "UN/OWID (estimación)"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Liberia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -248,14 +255,21 @@
 			"url": "https://es.wikipedia.org/wiki/Liberia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1014",
+			"url": "https://www.wikidata.org/wiki/Q1014",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "7ff2f70a2b63",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

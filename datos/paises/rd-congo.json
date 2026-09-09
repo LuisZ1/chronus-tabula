@@ -4,9 +4,7 @@
 	"nombres": [
 		"Zaire",
 		"Belgian Congo",
-		"Zaire (Belgium)",
-		"República Democrática del Congo",
-		"Congo (Léopoldville)"
+		"Zaire (Belgium)"
 	],
 	"nombres_periodo": [
 		{
@@ -31,6 +29,10 @@
 	],
 	"wiki": "es:República Democrática del Congo",
 	"wikidata": "Q974",
+	"relacionados": [
+		"República Democrática del Congo",
+		"Congo (Léopoldville)"
+	],
 	"resena": "La República Democrática del Congo es un país de África Central, uno de los cincuenta y cuatro países que forman el continente africano. Es el segundo país más grande de África, después de Argelia, así como el undécimo más grande del mundo.",
 	"gobernantes": [
 		{
@@ -114,6 +116,11 @@
 			"fuente": "Wikipedia (República Democrática del Congo), estimación"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Democratic Republic of the Congo (black spear).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -140,14 +147,21 @@
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q974",
+			"url": "https://www.wikidata.org/wiki/Q974",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "fa1ccd64e80c",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

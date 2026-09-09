@@ -2,13 +2,92 @@
 	"id": "macedonia-del-norte",
 	"nombre": "Macedonia del Norte",
 	"nombres": [
-		"Macedonia",
-		"Macedonia del Norte"
+		"Macedonia"
 	],
 	"wiki": "es:Macedonia del Norte",
 	"wikidata": "Q221",
 	"owid": "MKD",
 	"resena": "Macedonia del Norte, denominada oficialmente como República de Macedonia del Norte, es un país sin litoral situado en el sureste de Europa, en la península de los Balcanes. Limita al norte con Serbia y Kosovo, al este con Bulgaria, al sur con Grecia y al oeste con Albania.",
+	"gobernantes": [
+		{
+			"nombre": "Kiro Gligorov",
+			"cargo": "jefe de Estado",
+			"desde": 1991,
+			"hasta": 1995
+		},
+		{
+			"nombre": "Stojan Andov",
+			"cargo": "jefe de Estado",
+			"desde": 1995,
+			"hasta": 1995
+		},
+		{
+			"nombre": "Kiro Gligorov",
+			"cargo": "jefe de Estado",
+			"desde": 1995,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Savo Klimovski",
+			"cargo": "jefe de Estado",
+			"desde": 1999,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Boris Trajkovski",
+			"cargo": "jefe de Estado",
+			"desde": 1999,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Ljupčo Jordanovski",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Branko Crvenkovski",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Gjorge Ivanov",
+			"cargo": "jefe de Estado",
+			"desde": 2009,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Stevo Pendarovski",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Dimitar Kovacevski",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Gordana Siljanovska-Davkova",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Hristijan Mickoski",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Talat Xhaferi",
+			"cargo": "jefe de gobierno",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +270,11 @@
 			"valor": 1831800
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of North Macedonia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q221",
@@ -208,14 +292,94 @@
 			"url": "https://es.wikipedia.org/wiki/Macedonia_del_Norte",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q221",
+			"url": "https://www.wikidata.org/wiki/Q221",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q153381",
+			"url": "http://www.wikidata.org/entity/Q153381",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1968223",
+			"url": "http://www.wikidata.org/entity/Q1968223",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q552598",
+			"url": "http://www.wikidata.org/entity/Q552598",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q237782",
+			"url": "http://www.wikidata.org/entity/Q237782",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1363047",
+			"url": "http://www.wikidata.org/entity/Q1363047",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q157111",
+			"url": "http://www.wikidata.org/entity/Q157111",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57436",
+			"url": "http://www.wikidata.org/entity/Q57436",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15967423",
+			"url": "http://www.wikidata.org/entity/Q15967423",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q110288715",
+			"url": "http://www.wikidata.org/entity/Q110288715",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5860953",
+			"url": "http://www.wikidata.org/entity/Q5860953",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12277168",
+			"url": "http://www.wikidata.org/entity/Q12277168",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q46675558",
+			"url": "http://www.wikidata.org/entity/Q46675558",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "1ed516cf4071",
+		"hash": "2c6a4286e464",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -2,13 +2,164 @@
 	"id": "malasia",
 	"nombre": "Malasia",
 	"nombres": [
-		"Malaysia",
-		"Malasia"
+		"Malaysia"
 	],
 	"wiki": "es:Malasia",
 	"wikidata": "Q833",
 	"owid": "MYS",
 	"resena": "Malasia es uno de los cuarenta y nueve países que componen el continente asiático. Kuala Lumpur es la capital oficial y legislativa y además la ciudad más poblada, mientras que Putrajaya es la capital administrativa y judicial.",
+	"gobernantes": [
+		{
+			"nombre": "Putra of Perlis",
+			"cargo": "jefe de Estado",
+			"desde": 1963,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Tunku Abdul Rahman",
+			"cargo": "jefe de gobierno",
+			"desde": 1963,
+			"hasta": 1970
+		},
+		{
+			"nombre": "Ismail Nasiruddin of Terengganu",
+			"cargo": "jefe de Estado",
+			"desde": 1965,
+			"hasta": 1970
+		},
+		{
+			"nombre": "Tuanku Abdul Halim",
+			"cargo": "jefe de Estado",
+			"desde": 1970,
+			"hasta": 1975
+		},
+		{
+			"nombre": "Abdul Razak Hussein",
+			"cargo": "jefe de gobierno",
+			"desde": 1970,
+			"hasta": 1976
+		},
+		{
+			"nombre": "Yahya Petra of Kelantan",
+			"cargo": "jefe de Estado",
+			"desde": 1975,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Hussein Onn",
+			"cargo": "jefe de gobierno",
+			"desde": 1976,
+			"hasta": 1981
+		},
+		{
+			"nombre": "Ahmad Shah of Pahang",
+			"cargo": "jefe de Estado",
+			"desde": 1979,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Mahathir Mohamad",
+			"cargo": "jefe de gobierno",
+			"desde": 1981,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Iskandar de Johor",
+			"cargo": "jefe de Estado",
+			"desde": 1984,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Azlan Shah I de Perak",
+			"cargo": "jefe de Estado",
+			"desde": 1989,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Ja’afar I of Negeri Sembilan",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Salahuddin of Selangor",
+			"cargo": "jefe de Estado",
+			"desde": 1999,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Sirajuddin de Perlis",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Abdullah Ahmad Badawi",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Mizan Zainal Abidin",
+			"cargo": "jefe de Estado",
+			"desde": 2006,
+			"hasta": 2011
+		},
+		{
+			"nombre": "Najib Tun Razak",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Tuanku Abdul Halim",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Muhammad V of Kelantan",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Mahathir Mohamad",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Abdullah de Pahang",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Muhyiddin Yassin",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Ismail Sabri Yaakob",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Anwar Ibrahim",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Ibrahim Ismail of Johor",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +342,11 @@
 			"valor": 35126295
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Malaysia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q833",
@@ -208,14 +364,160 @@
 			"url": "https://es.wikipedia.org/wiki/Malasia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q833",
+			"url": "https://www.wikidata.org/wiki/Q833",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4200614",
+			"url": "http://www.wikidata.org/entity/Q4200614",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q296317",
+			"url": "http://www.wikidata.org/entity/Q296317",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q508133",
+			"url": "http://www.wikidata.org/entity/Q508133",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57550",
+			"url": "http://www.wikidata.org/entity/Q57550",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q264516",
+			"url": "http://www.wikidata.org/entity/Q264516",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4200577",
+			"url": "http://www.wikidata.org/entity/Q4200577",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q529391",
+			"url": "http://www.wikidata.org/entity/Q529391",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4200571",
+			"url": "http://www.wikidata.org/entity/Q4200571",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q181383",
+			"url": "http://www.wikidata.org/entity/Q181383",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q375278",
+			"url": "http://www.wikidata.org/entity/Q375278",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q561319",
+			"url": "http://www.wikidata.org/entity/Q561319",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q694636",
+			"url": "http://www.wikidata.org/entity/Q694636",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q654886",
+			"url": "http://www.wikidata.org/entity/Q654886",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q460568",
+			"url": "http://www.wikidata.org/entity/Q460568",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q272588",
+			"url": "http://www.wikidata.org/entity/Q272588",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q299530",
+			"url": "http://www.wikidata.org/entity/Q299530",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57675",
+			"url": "http://www.wikidata.org/entity/Q57675",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5244614",
+			"url": "http://www.wikidata.org/entity/Q5244614",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15467111",
+			"url": "http://www.wikidata.org/entity/Q15467111",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1060949",
+			"url": "http://www.wikidata.org/entity/Q1060949",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6084858",
+			"url": "http://www.wikidata.org/entity/Q6084858",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q299574",
+			"url": "http://www.wikidata.org/entity/Q299574",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2657043",
+			"url": "http://www.wikidata.org/entity/Q2657043",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c6f3f75d5a7d",
+		"hash": "41231caa1fdc",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

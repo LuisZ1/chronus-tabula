@@ -2,13 +2,20 @@
 	"id": "samoa-americana",
 	"nombre": "Samoa Americana",
 	"nombres": [
-		"American Samoa",
-		"Samoa Americana"
+		"American Samoa"
 	],
 	"wiki": "es:Samoa Americana",
 	"wikidata": "Q16641",
 	"owid": "ASM",
 	"resena": "Samoa Americana o Samoa Estadounidense es uno de los catorce territorios no incorporados de Estados Unidos. Es uno de los 17 territorios no autónomos bajo supervisión del Comité de Descolonización de la Organización de las Naciones Unidas.",
+	"gobernantes": [
+		{
+			"nombre": "Pula Nikolao Pula",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 0,
@@ -151,6 +158,11 @@
 			"valor": 47544
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Seal of American Samoa.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q16641",
@@ -168,14 +180,28 @@
 			"url": "https://es.wikipedia.org/wiki/Samoa_Americana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q16641",
+			"url": "https://www.wikidata.org/wiki/Q16641",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q131299388",
+			"url": "http://www.wikidata.org/entity/Q131299388",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "4c3c9c7fadbd",
+		"hash": "418f36d9f8d5",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

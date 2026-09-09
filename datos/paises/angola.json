@@ -3,8 +3,7 @@
 	"nombre": "Angola",
 	"nombres": [
 		"Angola",
-		"Angola (Portugal)",
-		"República de Angola"
+		"Angola (Portugal)"
 	],
 	"nombres_periodo": [
 		{
@@ -25,6 +24,9 @@
 	],
 	"wiki": "es:Angola",
 	"wikidata": "Q916",
+	"relacionados": [
+		"República de Angola"
+	],
 	"resena": "Angola, cuyo nombre oficial es República de Angola, es un país ubicado al sur de África que tiene fronteras con Namibia por el sur, con Zambia por el sureste, con la República Democrática del Congo por el norte y el noreste y con la República del Congo por el noroeste, mientras que hacia el oeste tiene costa en el océano Atlántico.",
 	"gobernantes": [
 		{

@@ -2,13 +2,32 @@
 	"id": "san-cristobal-y-nieves",
 	"nombre": "San Cristóbal y Nieves",
 	"nombres": [
-		"Saint Kitts and Nevis",
-		"San Cristóbal y Nieves"
+		"Saint Kitts and Nevis"
 	],
 	"wiki": "es:San Cristóbal y Nieves",
 	"wikidata": "Q763",
 	"owid": "KNA",
 	"resena": "San Cristóbal y Nieves, oficialmente Federación de San Cristóbal y Nieves, es un país insular del norte antillano, en concreto de las Islas de Barlovento, debiendo su nombre precisamente a este par de islas.",
+	"gobernantes": [
+		{
+			"nombre": "Timothy Harris",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Terrance Drew",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 400,
@@ -135,6 +154,11 @@
 			"valor": 46783
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of Arms of Saint Kitts and Nevis.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q763",
@@ -152,14 +176,40 @@
 			"url": "https://es.wikipedia.org/wiki/San_Crist%C3%B3bal_y_Nieves",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q3529064",
+			"url": "http://www.wikidata.org/entity/Q3529064",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q113443525",
+			"url": "http://www.wikidata.org/entity/Q113443525",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q763",
+			"url": "https://www.wikidata.org/wiki/Q763",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "f7b4ed8b77fd",
+		"hash": "eff9bda0f0a9",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

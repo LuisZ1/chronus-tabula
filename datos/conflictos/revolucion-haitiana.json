@@ -44,6 +44,12 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Crête-à-Pierrot",
+			"anio": 1802,
+			"lat": 19.12,
+			"lng": -72.7
+		},
+		{
 			"nombre": "Batalla de Vertières",
 			"anio": 1803,
 			"lat": 19.73,
@@ -64,6 +70,12 @@
 			"url": "https://es.wikipedia.org/wiki/Revolución_haitiana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikidata:Q3486058",
+			"url": "https://www.wikidata.org/wiki/Q3486058",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	]
 }

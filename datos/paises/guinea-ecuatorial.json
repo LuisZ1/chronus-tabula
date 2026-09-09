@@ -2,9 +2,7 @@
 	"id": "guinea-ecuatorial",
 	"nombre": "Guinea Ecuatorial",
 	"nombres": [
-		"Equatorial Guinea",
-		"Guinea Ecuatorial",
-		"Guinea Española"
+		"Equatorial Guinea"
 	],
 	"nombres_periodo": [
 		{
@@ -20,6 +18,9 @@
 	],
 	"wiki": "es:Guinea Ecuatorial",
 	"wikidata": "Q983",
+	"relacionados": [
+		"Guinea Española"
+	],
 	"resena": "Guinea Ecuatorial, oficialmente República de Guinea Ecuatorial, es un país africano bañado por las aguas del golfo de Guinea que se define en su constitución como Estado independiente, republicano, unitario, social y democrático, y cuya forma de gobierno es la república presidencialista. Su territorio está formado por ocho provincias.",
 	"gobernantes": [
 		{

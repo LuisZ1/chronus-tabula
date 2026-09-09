@@ -2,14 +2,569 @@
 	"id": "rumania",
 	"nombre": "Rumanía",
 	"nombres": [
-		"Romania",
-		"Rumanía",
-		"Rumania"
+		"Romania"
 	],
 	"wiki": "es:Rumanía",
 	"wikidata": "Q218",
 	"owid": "ROU",
+	"relacionados": [
+		"Rumania"
+	],
 	"resena": "Rumania o Rumanía es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está ubicado en la intersección de Europa Oriental y del Sureste, y cuenta con costa en el Mar Negro por el sudeste.",
+	"gobernantes": [
+		{
+			"nombre": "Barbu Catargiu",
+			"cargo": "jefe de gobierno",
+			"desde": 1862,
+			"hasta": 1862
+		},
+		{
+			"nombre": "Nicolae Crețulescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1862,
+			"hasta": 1863
+		},
+		{
+			"nombre": "Alejandro Juan Cuza",
+			"cargo": "jefe de Estado",
+			"desde": 1862,
+			"hasta": 1866
+		},
+		{
+			"nombre": "Mihail Kogălniceanu",
+			"cargo": "jefe de gobierno",
+			"desde": 1863,
+			"hasta": 1865
+		},
+		{
+			"nombre": "Constantin Bosianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1865,
+			"hasta": 1865
+		},
+		{
+			"nombre": "Nicolae Crețulescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1865,
+			"hasta": 1866
+		},
+		{
+			"nombre": "Ion Ghica",
+			"cargo": "jefe de gobierno",
+			"desde": 1866,
+			"hasta": 1866
+		},
+		{
+			"nombre": "Lascăr Catargiu",
+			"cargo": "jefe de gobierno",
+			"desde": 1866,
+			"hasta": 1866
+		},
+		{
+			"nombre": "Ion Ghica",
+			"cargo": "jefe de gobierno",
+			"desde": 1866,
+			"hasta": 1867
+		},
+		{
+			"nombre": "Carlos I de Rumanía",
+			"cargo": "jefe de Estado",
+			"desde": 1866,
+			"hasta": 1881
+		},
+		{
+			"nombre": "Ștefan Golescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1867,
+			"hasta": 1868
+		},
+		{
+			"nombre": "Nicolae Golescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1868,
+			"hasta": 1868
+		},
+		{
+			"nombre": "Dimitrie Ghica",
+			"cargo": "jefe de gobierno",
+			"desde": 1868,
+			"hasta": 1870
+		},
+		{
+			"nombre": "Alexandru Golescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1870,
+			"hasta": 1870
+		},
+		{
+			"nombre": "Manolache Costache Epureanu",
+			"cargo": "jefe de gobierno",
+			"desde": 1870,
+			"hasta": 1870
+		},
+		{
+			"nombre": "Ion Ghica",
+			"cargo": "jefe de gobierno",
+			"desde": 1870,
+			"hasta": 1871
+		},
+		{
+			"nombre": "Lascăr Catargiu",
+			"cargo": "jefe de gobierno",
+			"desde": 1871,
+			"hasta": 1876
+		},
+		{
+			"nombre": "Ion Emanuel Florescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1876,
+			"hasta": 1876
+		},
+		{
+			"nombre": "Manolache Costache Epureanu",
+			"cargo": "jefe de gobierno",
+			"desde": 1876,
+			"hasta": 1876
+		},
+		{
+			"nombre": "Ion Bratianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1876,
+			"hasta": 1878
+		},
+		{
+			"nombre": "Ion Bratianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1878,
+			"hasta": 1879
+		},
+		{
+			"nombre": "Ion Bratianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1879,
+			"hasta": 1881
+		},
+		{
+			"nombre": "Dimitrie Brătianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1881,
+			"hasta": 1881
+		},
+		{
+			"nombre": "Ion Bratianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1881,
+			"hasta": 1881
+		},
+		{
+			"nombre": "Ion Bratianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1881,
+			"hasta": 1888
+		},
+		{
+			"nombre": "Carlos I de Rumanía",
+			"cargo": "jefe de Estado",
+			"desde": 1881,
+			"hasta": 1914
+		},
+		{
+			"nombre": "Theodor Rosetti",
+			"cargo": "jefe de gobierno",
+			"desde": 1888,
+			"hasta": 1889
+		},
+		{
+			"nombre": "Lascăr Catargiu",
+			"cargo": "jefe de gobierno",
+			"desde": 1889,
+			"hasta": 1889
+		},
+		{
+			"nombre": "Gheorghe Manu",
+			"cargo": "jefe de gobierno",
+			"desde": 1889,
+			"hasta": 1891
+		},
+		{
+			"nombre": "Ion Emanuel Florescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1891,
+			"hasta": 1891
+		},
+		{
+			"nombre": "Lascăr Catargiu",
+			"cargo": "jefe de gobierno",
+			"desde": 1891,
+			"hasta": 1895
+		},
+		{
+			"nombre": "Dimitrie Sturdza",
+			"cargo": "jefe de gobierno",
+			"desde": 1895,
+			"hasta": 1896
+		},
+		{
+			"nombre": "Petre S. Aurelian",
+			"cargo": "jefe de gobierno",
+			"desde": 1896,
+			"hasta": 1897
+		},
+		{
+			"nombre": "Dimitrie Sturdza",
+			"cargo": "jefe de gobierno",
+			"desde": 1897,
+			"hasta": 1899
+		},
+		{
+			"nombre": "Fernando I de Rumanía",
+			"cargo": "jefe de Estado",
+			"desde": 1914,
+			"hasta": 1927
+		},
+		{
+			"nombre": "Take Ionescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1921,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Miguel I de Rumania",
+			"cargo": "jefe de Estado",
+			"desde": 1927,
+			"hasta": 1930
+		},
+		{
+			"nombre": "Carol II de Rumania",
+			"cargo": "jefe de Estado",
+			"desde": 1930,
+			"hasta": 1940
+		},
+		{
+			"nombre": "Nicolae Iorga",
+			"cargo": "jefe de gobierno",
+			"desde": 1931,
+			"hasta": 1932
+		},
+		{
+			"nombre": "Ion G. Duca",
+			"cargo": "jefe de gobierno",
+			"desde": 1933,
+			"hasta": 1933
+		},
+		{
+			"nombre": "Gheorghe Tătărescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1934,
+			"hasta": 1937
+		},
+		{
+			"nombre": "Octavian Goga",
+			"cargo": "jefe de gobierno",
+			"desde": 1937,
+			"hasta": 1938
+		},
+		{
+			"nombre": "Miron Cristea",
+			"cargo": "jefe de gobierno",
+			"desde": 1938,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Armand Călinescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1939,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Constantin Argetoianu",
+			"cargo": "jefe de gobierno",
+			"desde": 1939,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Gheorghe Argeșanu",
+			"cargo": "jefe de gobierno",
+			"desde": 1939,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Gheorghe Tătărescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1939,
+			"hasta": 1940
+		},
+		{
+			"nombre": "Ion Gigurtu",
+			"cargo": "jefe de gobierno",
+			"desde": 1940,
+			"hasta": 1940
+		},
+		{
+			"nombre": "Miguel I de Rumania",
+			"cargo": "jefe de Estado",
+			"desde": 1940,
+			"hasta": 1947
+		},
+		{
+			"nombre": "Constantin Sănătescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1944,
+			"hasta": 1944
+		},
+		{
+			"nombre": "Nicolae Rădescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1944,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Petru Groza",
+			"cargo": "jefe de gobierno",
+			"desde": 1945,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Constantin Ion Parhon",
+			"cargo": "jefe de Estado",
+			"desde": 1947,
+			"hasta": 1952
+		},
+		{
+			"nombre": "Gheorghe Gheorghiu-Dej",
+			"cargo": "jefe de gobierno",
+			"desde": 1952,
+			"hasta": 1955
+		},
+		{
+			"nombre": "Petru Groza",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 1958
+		},
+		{
+			"nombre": "Chivu Stoica",
+			"cargo": "jefe de gobierno",
+			"desde": 1955,
+			"hasta": 1961
+		},
+		{
+			"nombre": "Ion Gheorghe Maurer",
+			"cargo": "jefe de Estado",
+			"desde": 1958,
+			"hasta": 1961
+		},
+		{
+			"nombre": "Gheorghe Gheorghiu-Dej",
+			"cargo": "jefe de Estado",
+			"desde": 1961,
+			"hasta": 1965
+		},
+		{
+			"nombre": "Ion Gheorghe Maurer",
+			"cargo": "jefe de gobierno",
+			"desde": 1961,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Chivu Stoica",
+			"cargo": "jefe de Estado",
+			"desde": 1965,
+			"hasta": 1967
+		},
+		{
+			"nombre": "Nicolae Ceaușescu",
+			"cargo": "jefe de Estado",
+			"desde": 1967,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Manea Mănescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Nicolae Ceaușescu",
+			"cargo": "jefe de Estado",
+			"desde": 1974,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Ilie Verdeț",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Constantin Dăscălescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1982,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Petre Roman",
+			"cargo": "jefe de gobierno",
+			"desde": 1989,
+			"hasta": 1991
+		},
+		{
+			"nombre": "Ion Iliescu",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Theodor Stolojan",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1992
+		},
+		{
+			"nombre": "Nicolae Văcăroiu",
+			"cargo": "jefe de gobierno",
+			"desde": 1992,
+			"hasta": 1996
+		},
+		{
+			"nombre": "Victor Ciorbea",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Emil Constantinescu",
+			"cargo": "jefe de Estado",
+			"desde": 1996,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Radu Vasile",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Mugur Isărescu",
+			"cargo": "jefe de gobierno",
+			"desde": 1999,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Adrian Năstase",
+			"cargo": "jefe de gobierno",
+			"desde": 2000,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Ion Iliescu",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Călin Popescu-Tăriceanu",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Traian Băsescu",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Emil Boc",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Mihai Răzvan Ungureanu",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Victor Ponta",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Klaus Iohannis",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Dacian Cioloș",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Sorin Grindeanu",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Mihai Tudose",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Viorica Dăncilă",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Ludovic Orban",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Florin Cîțu",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Nicolae Ciucă",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Marcel Ciolacu",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Cătălin Predoiu",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Ilie Bolojan",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Nicușor Dan",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +747,12 @@
 			"valor": 19118482
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Romania.svg",
+			"desde": 2016
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q218",
@@ -209,14 +770,442 @@
 			"url": "https://es.wikipedia.org/wiki/Rumania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q218",
+			"url": "https://www.wikidata.org/wiki/Q218",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q294832",
+			"url": "http://www.wikidata.org/entity/Q294832",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q554358",
+			"url": "http://www.wikidata.org/entity/Q554358",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2138565",
+			"url": "http://www.wikidata.org/entity/Q2138565",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q319759",
+			"url": "http://www.wikidata.org/entity/Q319759",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1127800",
+			"url": "http://www.wikidata.org/entity/Q1127800",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q444472",
+			"url": "http://www.wikidata.org/entity/Q444472",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q539251",
+			"url": "http://www.wikidata.org/entity/Q539251",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57146",
+			"url": "http://www.wikidata.org/entity/Q57146",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q397108",
+			"url": "http://www.wikidata.org/entity/Q397108",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q705500",
+			"url": "http://www.wikidata.org/entity/Q705500",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q133896",
+			"url": "http://www.wikidata.org/entity/Q133896",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q745963",
+			"url": "http://www.wikidata.org/entity/Q745963",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q956953",
+			"url": "http://www.wikidata.org/entity/Q956953",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q711113",
+			"url": "http://www.wikidata.org/entity/Q711113",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q153047",
+			"url": "http://www.wikidata.org/entity/Q153047",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1827000",
+			"url": "http://www.wikidata.org/entity/Q1827000",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q928939",
+			"url": "http://www.wikidata.org/entity/Q928939",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q538455",
+			"url": "http://www.wikidata.org/entity/Q538455",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q554730",
+			"url": "http://www.wikidata.org/entity/Q554730",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1119350",
+			"url": "http://www.wikidata.org/entity/Q1119350",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57165",
+			"url": "http://www.wikidata.org/entity/Q57165",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1243658",
+			"url": "http://www.wikidata.org/entity/Q1243658",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q930013",
+			"url": "http://www.wikidata.org/entity/Q930013",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q212897",
+			"url": "http://www.wikidata.org/entity/Q212897",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q313581",
+			"url": "http://www.wikidata.org/entity/Q313581",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1377596",
+			"url": "http://www.wikidata.org/entity/Q1377596",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1842040",
+			"url": "http://www.wikidata.org/entity/Q1842040",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q223414",
+			"url": "http://www.wikidata.org/entity/Q223414",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2268352",
+			"url": "http://www.wikidata.org/entity/Q2268352",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q439903",
+			"url": "http://www.wikidata.org/entity/Q439903",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2299760",
+			"url": "http://www.wikidata.org/entity/Q2299760",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1127788",
+			"url": "http://www.wikidata.org/entity/Q1127788",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q921959",
+			"url": "http://www.wikidata.org/entity/Q921959",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q368100",
+			"url": "http://www.wikidata.org/entity/Q368100",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q279653",
+			"url": "http://www.wikidata.org/entity/Q279653",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q317313",
+			"url": "http://www.wikidata.org/entity/Q317313",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q612177",
+			"url": "http://www.wikidata.org/entity/Q612177",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q294072",
+			"url": "http://www.wikidata.org/entity/Q294072",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q309993",
+			"url": "http://www.wikidata.org/entity/Q309993",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q362380",
+			"url": "http://www.wikidata.org/entity/Q362380",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q80504",
+			"url": "http://www.wikidata.org/entity/Q80504",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q380909",
+			"url": "http://www.wikidata.org/entity/Q380909",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q322985",
+			"url": "http://www.wikidata.org/entity/Q322985",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q513406",
+			"url": "http://www.wikidata.org/entity/Q513406",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q316823",
+			"url": "http://www.wikidata.org/entity/Q316823",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q189575",
+			"url": "http://www.wikidata.org/entity/Q189575",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q126660",
+			"url": "http://www.wikidata.org/entity/Q126660",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q126671",
+			"url": "http://www.wikidata.org/entity/Q126671",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q299152",
+			"url": "http://www.wikidata.org/entity/Q299152",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q370856",
+			"url": "http://www.wikidata.org/entity/Q370856",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q357004",
+			"url": "http://www.wikidata.org/entity/Q357004",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q255022",
+			"url": "http://www.wikidata.org/entity/Q255022",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q271966",
+			"url": "http://www.wikidata.org/entity/Q271966",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57279",
+			"url": "http://www.wikidata.org/entity/Q57279",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q207473",
+			"url": "http://www.wikidata.org/entity/Q207473",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q267857",
+			"url": "http://www.wikidata.org/entity/Q267857",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q152362",
+			"url": "http://www.wikidata.org/entity/Q152362",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57692",
+			"url": "http://www.wikidata.org/entity/Q57692",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q701484",
+			"url": "http://www.wikidata.org/entity/Q701484",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q929248",
+			"url": "http://www.wikidata.org/entity/Q929248",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19003460",
+			"url": "http://www.wikidata.org/entity/Q19003460",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12735517",
+			"url": "http://www.wikidata.org/entity/Q12735517",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9368300",
+			"url": "http://www.wikidata.org/entity/Q9368300",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q671955",
+			"url": "http://www.wikidata.org/entity/Q671955",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28035183",
+			"url": "http://www.wikidata.org/entity/Q28035183",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28950289",
+			"url": "http://www.wikidata.org/entity/Q28950289",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q21179176",
+			"url": "http://www.wikidata.org/entity/Q21179176",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q18538164",
+			"url": "http://www.wikidata.org/entity/Q18538164",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1151156",
+			"url": "http://www.wikidata.org/entity/Q1151156",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q11163124",
+			"url": "http://www.wikidata.org/entity/Q11163124",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "cbd4734c88c1",
+		"hash": "cd4bed4ae4a2",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

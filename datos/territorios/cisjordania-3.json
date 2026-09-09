@@ -1,8 +1,9 @@
 {
 	"nombre": "Cisjordania",
 	"pais": "Palestina",
-	"estatus": "Autoridad Nacional Palestina en las áreas A y B (Acuerdos de Oslo, 1993-1995); Israel conserva el control del área C y de la seguridad; Estado de Palestina, observador en la ONU desde 2012",
-	"desde": 1994,
+	"estatus": "Ocupación militar israelí desde 1967; para Naciones Unidas, Territorio palestino ocupado. Jerusalén Este, anexionada de hecho por Israel (1967; ley de 1980), sin reconocimiento internacional",
+	"desde": 1967,
+	"hasta": 1993,
 	"lat": 32.0,
 	"lng": 35.3,
 	"poligono": [
@@ -67,7 +68,7 @@
 			35.56
 		]
 	],
-	"descripcion": "Los Acuerdos de Oslo dividieron Cisjordania en áreas A (administración palestina), B (civil palestina, seguridad israelí) y C (control israelí, ~60 % del territorio). La ONU admitió al Estado de Palestina como observador no miembro en 2012. Extensión aproximada según las líneas de 1949; no se dibujan las áreas ni los asentamientos.",
+	"descripcion": "Israel ocupó Cisjordania en la guerra de los Seis Días (1967). Desde entonces se establecieron asentamientos israelíes, considerados ilegales por la mayoría de la comunidad internacional. En 1988 la OLP proclamó el Estado de Palestina. Extensión aproximada según las líneas de 1949.",
 	"wiki": "Cisjordania",
 	"fuentes": [
 		{
@@ -77,9 +78,9 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "ONU: resolución 67/19 de la Asamblea General (2012)",
-			"url": "https://digitallibrary.un.org/record/739660",
-			"licencia": "documento oficial",
+			"id": "wikipedia-es:Territorios palestinos ocupados",
+			"url": "https://es.wikipedia.org/wiki/Territorios_palestinos_ocupados",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
 		}
 	]

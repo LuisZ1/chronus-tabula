@@ -9,6 +9,14 @@
 	"wikidata": "Q730",
 	"owid": "SUR",
 	"resena": "Surinam o Suriname, oficialmente República de Surinam o República de Suriname, antiguamente conocida como Guayana Neerlandesa; es un país ubicado en el norte de América del Sur y el Caribe, que colinda con el océano Atlántico al norte, con el departamento de ultramar francés de Guayana Francesa al este, con Guyana al oeste y con Brasil al sur.",
+	"gobernantes": [
+		{
+			"nombre": "Jennifer Simons",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +199,11 @@
 			"valor": 628892
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Suriname.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q730",
@@ -208,14 +221,28 @@
 			"url": "https://es.wikipedia.org/wiki/Surinam",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q440403",
+			"url": "http://www.wikidata.org/entity/Q440403",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q730",
+			"url": "https://www.wikidata.org/wiki/Q730",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "6e22dd5f11f8",
+		"hash": "80f37fa03b63",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -3,9 +3,7 @@
 	"nombre": "Mozambique",
 	"nombres": [
 		"Mozambique",
-		"Mozambique (Portugal)",
-		"África Oriental Portuguesa",
-		"República de Mozambique"
+		"Mozambique (Portugal)"
 	],
 	"nombres_periodo": [
 		{
@@ -26,6 +24,10 @@
 	],
 	"wiki": "es:Mozambique",
 	"wikidata": "Q1029",
+	"relacionados": [
+		"África Oriental Portuguesa",
+		"República de Mozambique"
+	],
 	"resena": "Mozambique, oficialmente la República de Mozambique, es un país situado al sureste de África, a orillas del océano Índico.",
 	"gobernantes": [
 		{
@@ -96,6 +98,11 @@
 			"fuente": "Estimación ONU"
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Emblem of Mozambique.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki_es",
@@ -112,14 +119,21 @@
 			"url": "https://es.wikipedia.org/wiki/Mozambique",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q1029",
+			"url": "https://www.wikidata.org/wiki/Q1029",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
 		"hash": "45577b40ac8f",
 		"secciones": [
+			"escudos",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

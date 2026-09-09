@@ -2,14 +2,35 @@
 	"id": "nueva-zelanda",
 	"nombre": "Nueva Zelanda",
 	"nombres": [
-		"New Zealand",
-		"Nueva Zelanda",
-		"Nueva Zelandia"
+		"New Zealand"
 	],
 	"wiki": "es:Nueva Zelanda",
 	"wikidata": "Q664",
 	"owid": "NZL",
+	"relacionados": [
+		"Nueva Zelandia"
+	],
 	"resena": "Nueva Zelanda es un país soberano insular ubicado en Oceanía, localizado en el suroeste del océano Pacífico, cerca de Australia y constituido en una monarquía parlamentaria. Está formado por dos grandes islas: la isla Norte y la isla Sur, junto a un gran número de islas menores, destacándose entre ellas la isla Stewart y las islas Chatham.",
+	"gobernantes": [
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Christopher Luxon",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 1200,
@@ -104,6 +125,17 @@
 			"valor": 5172837
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of New Zealand (1911–1956).svg",
+			"desde": 1911,
+			"hasta": 1956
+		},
+		{
+			"archivo": "Coat of arms of New Zealand.svg",
+			"desde": 1956
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q664",
@@ -121,14 +153,40 @@
 			"url": "https://es.wikipedia.org/wiki/Nueva_Zelanda",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q664",
+			"url": "https://www.wikidata.org/wiki/Q664",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q74370310",
+			"url": "http://www.wikidata.org/entity/Q74370310",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "d6a551dd532c",
+		"hash": "2de3879f73e1",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -2,13 +2,20 @@
 	"id": "san-vicente-y-las-granadinas",
 	"nombre": "San Vicente y las Granadinas",
 	"nombres": [
-		"Saint Vincent and the Grenadines",
-		"San Vicente y las Granadinas"
+		"Saint Vincent and the Grenadines"
 	],
 	"wiki": "es:San Vicente y las Granadinas",
 	"wikidata": "Q757",
 	"owid": "VCT",
 	"resena": "San Vicente y las Granadinas es un país insular de América, situado en la cadena de las Antillas Menores al este del mar Caribe y limitando al norte con Santa Lucía, al este con Barbados, al sur y oeste con Venezuela y al sur con Granada.",
+	"gobernantes": [
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 300,
@@ -139,6 +146,11 @@
 			"valor": 101331
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Saint Vincent and the Grenadines.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q757",
@@ -156,14 +168,28 @@
 			"url": "https://es.wikipedia.org/wiki/San_Vicente_y_las_Granadinas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P94:Q757",
+			"url": "https://www.wikidata.org/wiki/Q757",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "5f9960036d52",
+		"hash": "4a7d97145bf2",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

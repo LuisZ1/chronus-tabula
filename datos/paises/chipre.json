@@ -2,14 +2,23 @@
 	"id": "chipre",
 	"nombre": "Chipre",
 	"nombres": [
-		"Cyprus",
-		"Chipre",
-		"Republica de Chipre"
+		"Cyprus"
 	],
 	"wiki": "es:Chipre",
 	"wikidata": "Q229",
 	"owid": "CYP",
+	"relacionados": [
+		"Republica de Chipre"
+	],
 	"resena": "Chipre, oficialmente la República de Chipre es un país insular en el Mediterráneo oriental y el único miembro asiático de los veintisiete Estados soberanos que conforman la Unión Europea. Está situado en la isla homónima y su forma de gobierno es la república presidencialista.",
+	"gobernantes": [
+		{
+			"nombre": "Níkos Christodoulídis",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +201,12 @@
 			"valor": 1344981
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Cyprus (2006).svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q229",
@@ -209,14 +224,28 @@
 			"url": "https://es.wikipedia.org/wiki/Chipre",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q229",
+			"url": "https://www.wikidata.org/wiki/Q229",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q48905549",
+			"url": "http://www.wikidata.org/entity/Q48905549",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "d8933124d1da",
+		"hash": "ba89b8a6e74c",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

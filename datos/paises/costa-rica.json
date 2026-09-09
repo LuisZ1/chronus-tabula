@@ -8,6 +8,56 @@
 	"wikidata": "Q800",
 	"owid": "CRI",
 	"resena": "Costa Rica, oficialmente República de Costa Rica, es un Estado soberano organizado como una república presidencialista unitaria compuesta por 7 provincias. Ubicado en América Central, posee un territorio con un área total de 51,179 km².",
+	"gobernantes": [
+		{
+			"nombre": "Miguel Ángel Rodríguez Echeverría",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Abel Pacheco de la Espriella",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Óscar Rafael de Jesús Arias Sánchez",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Laura Chinchilla Miranda",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Luis Guillermo Solís",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Carlos Alvarado Quesada",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Rodrigo Chaves",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Laura Fernández Delgado",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +240,11 @@
 			"valor": 5105526
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Costa Rica.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q800",
@@ -207,14 +262,70 @@
 			"url": "https://es.wikipedia.org/wiki/Costa_Rica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q800",
+			"url": "https://www.wikidata.org/wiki/Q800",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q562577",
+			"url": "http://www.wikidata.org/entity/Q562577",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q217794",
+			"url": "http://www.wikidata.org/entity/Q217794",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q49344",
+			"url": "http://www.wikidata.org/entity/Q49344",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57321",
+			"url": "http://www.wikidata.org/entity/Q57321",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5983599",
+			"url": "http://www.wikidata.org/entity/Q5983599",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q26996246",
+			"url": "http://www.wikidata.org/entity/Q26996246",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q98017689",
+			"url": "http://www.wikidata.org/entity/Q98017689",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q114705150",
+			"url": "http://www.wikidata.org/entity/Q114705150",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "2c6cbb0e715c",
+		"hash": "b6dfc0b56911",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

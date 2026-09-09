@@ -2,14 +2,83 @@
 	"id": "eslovenia",
 	"nombre": "Eslovenia",
 	"nombres": [
-		"Slovenia",
-		"Eslovenia",
-		"Republica de Eslovenia"
+		"Slovenia"
 	],
 	"wiki": "es:Eslovenia",
 	"wikidata": "Q215",
 	"owid": "SVN",
+	"relacionados": [
+		"Republica de Eslovenia"
+	],
 	"resena": "Eslovenia, cuyo nombre oficial es República de Eslovenia es un país ubicado en Europa Central, siendo uno de los veintisiete Estados soberanos que forman la Unión Europea. Limita con Italia al oeste; con el mar Adriático, al suroeste; con Croacia al sur y al este; con Hungría, al noreste; y con Austria, al norte.",
+	"gobernantes": [
+		{
+			"nombre": "Milan Kučan",
+			"cargo": "jefe de Estado",
+			"desde": 1992,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Janez Drnovšek",
+			"cargo": "jefe de Estado",
+			"desde": 2002,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Danilo Türk",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Borut Pahor",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Alenka Bratusek",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Miro Cerar",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Marjan Šarec",
+			"cargo": "jefe de gobierno",
+			"desde": 2018,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Janez Janša",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Nataša Pirc Musar",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Robert Golob",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Janez Janša",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +261,11 @@
 			"valor": 2118394
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Slovenia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q215",
@@ -209,14 +283,82 @@
 			"url": "https://es.wikipedia.org/wiki/Eslovenia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q215",
+			"url": "https://www.wikidata.org/wiki/Q215",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q194443",
+			"url": "http://www.wikidata.org/entity/Q194443",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q171228",
+			"url": "http://www.wikidata.org/entity/Q171228",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57329",
+			"url": "http://www.wikidata.org/entity/Q57329",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q206471",
+			"url": "http://www.wikidata.org/entity/Q206471",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3739767",
+			"url": "http://www.wikidata.org/entity/Q3739767",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q17117413",
+			"url": "http://www.wikidata.org/entity/Q17117413",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12795878",
+			"url": "http://www.wikidata.org/entity/Q12795878",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57627",
+			"url": "http://www.wikidata.org/entity/Q57627",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q18645045",
+			"url": "http://www.wikidata.org/entity/Q18645045",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12797332",
+			"url": "http://www.wikidata.org/entity/Q12797332",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "067a111885fc",
+		"hash": "f6c1217735a2",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

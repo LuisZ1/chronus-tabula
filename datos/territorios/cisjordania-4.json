@@ -1,9 +1,8 @@
 {
 	"nombre": "Cisjordania",
 	"pais": "Palestina",
-	"estatus": "Mandato británico de Palestina (hasta mayo de 1948)",
-	"desde": 1945,
-	"hasta": 1947,
+	"estatus": "Autoridad Nacional Palestina en las áreas A y B (Acuerdos de Oslo, 1993-1995); Israel conserva el control del área C y de la seguridad; Estado de Palestina, observador en la ONU desde 2012",
+	"desde": 1994,
 	"lat": 32.0,
 	"lng": 35.3,
 	"poligono": [
@@ -68,7 +67,7 @@
 			35.56
 		]
 	],
-	"descripcion": "Hasta la retirada británica y la proclamación de Israel (mayo de 1948) todo el territorio era el Mandato británico de Palestina; el mapa base de 1945 ya rotula «Israel». Este polígono señala la extensión aproximada de Cisjordania según las líneas de armisticio de 1949, para dar continuidad a los periodos siguientes.",
+	"descripcion": "Los Acuerdos de Oslo dividieron Cisjordania en áreas A (administración palestina), B (civil palestina, seguridad israelí) y C (control israelí, ~60 % del territorio). La ONU admitió al Estado de Palestina como observador no miembro en 2012. Extensión aproximada según las líneas de 1949; no se dibujan las áreas ni los asentamientos.",
 	"wiki": "Cisjordania",
 	"fuentes": [
 		{
@@ -78,9 +77,9 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikipedia-es:Mandato británico de Palestina",
-			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
-			"licencia": "CC BY-SA",
+			"id": "ONU: resolución 67/19 de la Asamblea General (2012)",
+			"url": "https://digitallibrary.un.org/record/739660",
+			"licencia": "documento oficial",
 			"consultado": "2026-09-09"
 		}
 	]

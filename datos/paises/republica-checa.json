@@ -2,14 +2,125 @@
 	"id": "republica-checa",
 	"nombre": "República Checa",
 	"nombres": [
-		"Czech Republic",
-		"República Checa",
-		"Chequia"
+		"Czech Republic"
 	],
 	"wiki": "es:República Checa",
 	"wikidata": "Q213",
 	"owid": "CZE",
+	"relacionados": [
+		"Chequia"
+	],
 	"resena": "La República Checa, también conocida como Chequia, es un país soberano de Europa Central sin litoral. Limita con Alemania al oeste, con Austria al sur, con Eslovaquia al este y con Polonia al norte.",
+	"gobernantes": [
+		{
+			"nombre": "Václav Klaus",
+			"cargo": "jefe de gobierno",
+			"desde": 1993,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Václav Havel",
+			"cargo": "jefe de Estado",
+			"desde": 1993,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Josef Tošovský",
+			"cargo": "jefe de gobierno",
+			"desde": 1997,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Miloš Zeman",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Q32777",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Václav Klaus",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Stanislav Gross",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2005
+		},
+		{
+			"nombre": "Jiří Paroubek",
+			"cargo": "jefe de gobierno",
+			"desde": 2005,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Mirek Topolánek",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Jan Fischer",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Petr Nečas",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Jiří Rusnok",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Miloš Zeman",
+			"cargo": "jefe de Estado",
+			"desde": 2013,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Bohuslav Sobotka",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Andrej Babiš",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Petr Fiala",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Petr Pavel",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Andrej Babiš",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -192,6 +303,12 @@
 			"valor": 10809722
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Czech Republic.svg",
+			"desde": 1992
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q213",
@@ -209,14 +326,112 @@
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Checa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q213",
+			"url": "https://www.wikidata.org/wiki/Q213",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57434",
+			"url": "http://www.wikidata.org/entity/Q57434",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q36233",
+			"url": "http://www.wikidata.org/entity/Q36233",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q548786",
+			"url": "http://www.wikidata.org/entity/Q548786",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29032",
+			"url": "http://www.wikidata.org/entity/Q29032",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q32777",
+			"url": "http://www.wikidata.org/entity/Q32777",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q348896",
+			"url": "http://www.wikidata.org/entity/Q348896",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q161671",
+			"url": "http://www.wikidata.org/entity/Q161671",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q155880",
+			"url": "http://www.wikidata.org/entity/Q155880",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q193675",
+			"url": "http://www.wikidata.org/entity/Q193675",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q35786",
+			"url": "http://www.wikidata.org/entity/Q35786",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q12025475",
+			"url": "http://www.wikidata.org/entity/Q12025475",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q890971",
+			"url": "http://www.wikidata.org/entity/Q890971",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q10819807",
+			"url": "http://www.wikidata.org/entity/Q10819807",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3377548",
+			"url": "http://www.wikidata.org/entity/Q3377548",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2080040",
+			"url": "http://www.wikidata.org/entity/Q2080040",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "ac71517dc879",
+		"hash": "7aaedbd9249b",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

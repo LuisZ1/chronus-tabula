@@ -2,8 +2,7 @@
 	"id": "gabon",
 	"nombre": "Gabón",
 	"nombres": [
-		"Gabon",
-		"República Gabonesa"
+		"Gabon"
 	],
 	"nombres_periodo": [
 		{
@@ -18,6 +17,9 @@
 	],
 	"wiki": "es:Gabón",
 	"wikidata": "Q1000",
+	"relacionados": [
+		"República Gabonesa"
+	],
 	"resena": "Gabón, oficialmente la República Gabonesa, es un país situado en la costa oeste de África central. Limita con Guinea Ecuatorial y Camerún al norte, la República del Congo al este y sur y con el océano Atlántico al oeste.",
 	"gobernantes": [
 		{

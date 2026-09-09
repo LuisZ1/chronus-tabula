@@ -2,13 +2,122 @@
 	"id": "finlandia",
 	"nombre": "Finlandia",
 	"nombres": [
-		"Finland",
-		"Finlandia"
+		"Finland"
 	],
 	"wiki": "es:Finlandia",
 	"wikidata": "Q33",
 	"owid": "FIN",
 	"resena": "Finlandia, oficialmente la República de Finlandia, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está situado en el noreste de Europa.",
+	"gobernantes": [
+		{
+			"nombre": "Kaarlo Juho Ståhlberg",
+			"cargo": "jefe de Estado",
+			"desde": 1919,
+			"hasta": 1925
+		},
+		{
+			"nombre": "Lauri Kristian Relander",
+			"cargo": "jefe de Estado",
+			"desde": 1925,
+			"hasta": 1931
+		},
+		{
+			"nombre": "Pehr Evind Svinhufvud",
+			"cargo": "jefe de Estado",
+			"desde": 1931,
+			"hasta": 1937
+		},
+		{
+			"nombre": "Kyösti Kallio",
+			"cargo": "jefe de Estado",
+			"desde": 1937,
+			"hasta": 1940
+		},
+		{
+			"nombre": "Risto Heikki Ryti",
+			"cargo": "jefe de Estado",
+			"desde": 1940,
+			"hasta": 1944
+		},
+		{
+			"nombre": "Carl Gustaf Emil Mannerheim",
+			"cargo": "jefe de Estado",
+			"desde": 1944,
+			"hasta": 1946
+		},
+		{
+			"nombre": "Juho Kusti Paasikivi",
+			"cargo": "jefe de Estado",
+			"desde": 1946,
+			"hasta": 1956
+		},
+		{
+			"nombre": "Urho Kekkonen",
+			"cargo": "jefe de Estado",
+			"desde": 1956,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Mauno Koivisto",
+			"cargo": "jefe de Estado",
+			"desde": 1982,
+			"hasta": 1994
+		},
+		{
+			"nombre": "Martti Ahtisaari",
+			"cargo": "jefe de Estado",
+			"desde": 1994,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Tarja Halonen",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Sauli Niinistö",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Alexander Stubb",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Juha Sipilä",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Antti Rinne",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Sanna Marin",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Petteri Orpo",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Alexander Stubb",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +300,11 @@
 			"valor": 5601185
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Finland.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q33",
@@ -208,14 +322,124 @@
 			"url": "https://es.wikipedia.org/wiki/Finlandia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q33",
+			"url": "https://www.wikidata.org/wiki/Q33",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q214029",
+			"url": "http://www.wikidata.org/entity/Q214029",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q214009",
+			"url": "http://www.wikidata.org/entity/Q214009",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q209439",
+			"url": "http://www.wikidata.org/entity/Q209439",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q209441",
+			"url": "http://www.wikidata.org/entity/Q209441",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q209435",
+			"url": "http://www.wikidata.org/entity/Q209435",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q152306",
+			"url": "http://www.wikidata.org/entity/Q152306",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q202171",
+			"url": "http://www.wikidata.org/entity/Q202171",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q179858",
+			"url": "http://www.wikidata.org/entity/Q179858",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29021",
+			"url": "http://www.wikidata.org/entity/Q29021",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29230",
+			"url": "http://www.wikidata.org/entity/Q29230",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29213",
+			"url": "http://www.wikidata.org/entity/Q29213",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q29207",
+			"url": "http://www.wikidata.org/entity/Q29207",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q503143",
+			"url": "http://www.wikidata.org/entity/Q503143",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q1711532",
+			"url": "http://www.wikidata.org/entity/Q1711532",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q11852228",
+			"url": "http://www.wikidata.org/entity/Q11852228",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16986436",
+			"url": "http://www.wikidata.org/entity/Q16986436",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6029546",
+			"url": "http://www.wikidata.org/entity/Q6029546",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "9ca998add769",
+		"hash": "24add5b1b442",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -8,6 +8,62 @@
 	"wikidata": "Q774",
 	"owid": "GTM",
 	"resena": "Guatemala, oficialmente República de Guatemala, es un país soberano situado en el extremo noroccidental de América Central. De acuerdo con su constitución, su forma de gobierno consiste en una república democrática, laica y representativa para su administración en 22 departamentos y 340 municipios, los cuales están organizados en 8 regiones administrativas.",
+	"gobernantes": [
+		{
+			"nombre": "Álvaro Arzú Irigoyen",
+			"cargo": "jefe de gobierno",
+			"desde": 1996,
+			"hasta": 2000
+		},
+		{
+			"nombre": "Alfonso Portillo",
+			"cargo": "jefe de gobierno",
+			"desde": 2000,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Óscar Berger",
+			"cargo": "jefe de gobierno",
+			"desde": 2004,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Álvaro Colom",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Otto Pérez Seorina",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Alejandro Maldonado Aguirre",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Jimmy Morales Cabrera",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Alejandro Giammattei",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Bernardo Arévalo de León",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +246,11 @@
 			"valor": 18124841
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Guatemala.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q774",
@@ -207,14 +268,76 @@
 			"url": "https://es.wikipedia.org/wiki/Guatemala",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q774",
+			"url": "https://www.wikidata.org/wiki/Q774",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q250834",
+			"url": "http://www.wikidata.org/entity/Q250834",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q182441",
+			"url": "http://www.wikidata.org/entity/Q182441",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q293194",
+			"url": "http://www.wikidata.org/entity/Q293194",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q250924",
+			"url": "http://www.wikidata.org/entity/Q250924",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57539",
+			"url": "http://www.wikidata.org/entity/Q57539",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19914009",
+			"url": "http://www.wikidata.org/entity/Q19914009",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q17995110",
+			"url": "http://www.wikidata.org/entity/Q17995110",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2134696",
+			"url": "http://www.wikidata.org/entity/Q2134696",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q107254030",
+			"url": "http://www.wikidata.org/entity/Q107254030",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "daee0a4d5632",
+		"hash": "ccd09c2da9f5",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

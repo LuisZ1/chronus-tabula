@@ -8,6 +8,26 @@
 	"wikidata": "Q34020",
 	"owid": "NIU",
 	"resena": "Niue es un territorio insular en el océano Pacífico sur, conocido como la Roca de Polinesia. A pesar de poseer un autogobierno, mantiene un estatus de libre asociación con Nueva Zelanda.",
+	"gobernantes": [
+		{
+			"nombre": "Toke Talagi",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Dalton Tagelagi",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 1950,
@@ -46,6 +66,11 @@
 			"valor": 1841
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Niue.jpg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q34020",
@@ -63,14 +88,40 @@
 			"url": "https://es.wikipedia.org/wiki/Niue",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q34020",
+			"url": "https://www.wikidata.org/wiki/Q34020",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q785548",
+			"url": "http://www.wikidata.org/entity/Q785548",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19876617",
+			"url": "http://www.wikidata.org/entity/Q19876617",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "782addc1e203",
+		"hash": "0a7e9ecbb076",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

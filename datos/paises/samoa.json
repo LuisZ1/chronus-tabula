@@ -8,6 +8,32 @@
 	"wikidata": "Q683",
 	"owid": "WSM",
 	"resena": "Samoa, oficialmente Estado Independiente de Samoa, es un país soberano insular de Oceanía integrado dentro de la Polinesia. Su capital y ciudad más poblada es Apia, en la isla de Upolu.",
+	"gobernantes": [
+		{
+			"nombre": "Sa'ilele Malielegaoi",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Tuiatua Tupua Tamasese Efi",
+			"cargo": "jefe de Estado",
+			"desde": 2007,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Vaaletoa Sualauvi II",
+			"cargo": "jefe de Estado",
+			"desde": 2017,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Naomi Mata'afa",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 0,
@@ -150,6 +176,11 @@
 			"valor": 216673
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Public Seal of Samoa.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q683",
@@ -167,14 +198,46 @@
 			"url": "https://es.wikipedia.org/wiki/Samoa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q683",
+			"url": "https://www.wikidata.org/wiki/Q683",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57723",
+			"url": "http://www.wikidata.org/entity/Q57723",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57523",
+			"url": "http://www.wikidata.org/entity/Q57523",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q32014514",
+			"url": "http://www.wikidata.org/entity/Q32014514",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q5446290",
+			"url": "http://www.wikidata.org/entity/Q5446290",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c1e9ae99903b",
+		"hash": "83620e6c4f9d",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

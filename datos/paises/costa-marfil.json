@@ -2,10 +2,7 @@
 	"id": "costa-marfil",
 	"nombre": "Costa de Marfil",
 	"nombres": [
-		"Ivory Coast",
-		"Costa de Marfil",
-		"Côte d'Ivoire",
-		"República de Costa de Marfil"
+		"Ivory Coast"
 	],
 	"nombres_periodo": [
 		{
@@ -16,6 +13,10 @@
 	],
 	"wiki": "es:Costa de Marfil",
 	"wikidata": "Q1008",
+	"relacionados": [
+		"Côte d'Ivoire",
+		"República de Costa de Marfil"
+	],
 	"resena": "Costa de Marfil, oficialmente República de Costa de Marfil, es un país ubicado en África occidental. Limita con Liberia y Guinea al oeste, con Malí al noroeste, con Burkina Faso al noreste, con Ghana al este y posee costa en el golfo de Guinea por el sur.",
 	"gobernantes": [
 		{

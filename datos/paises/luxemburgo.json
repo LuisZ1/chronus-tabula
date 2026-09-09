@@ -2,13 +2,68 @@
 	"id": "luxemburgo",
 	"nombre": "Luxemburgo",
 	"nombres": [
-		"Luxembourg",
-		"Luxemburgo"
+		"Luxembourg"
 	],
 	"wiki": "es:Luxemburgo",
 	"wikidata": "Q32",
 	"owid": "LUX",
 	"resena": "Luxemburgo, denominado oficialmente Gran Ducado de Luxemburgo, es uno de los veintisiete estados soberanos que forman la Unión Europea. Se trata de un estado sin litoral, rodeado por Alemania, Bélgica y Francia.",
+	"gobernantes": [
+		{
+			"nombre": "Pierre Werner",
+			"cargo": "jefe de gobierno",
+			"desde": 1959,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Gaston Thorn",
+			"cargo": "jefe de gobierno",
+			"desde": 1974,
+			"hasta": 1979
+		},
+		{
+			"nombre": "Pierre Werner",
+			"cargo": "jefe de gobierno",
+			"desde": 1979,
+			"hasta": 1984
+		},
+		{
+			"nombre": "Jacques Santer",
+			"cargo": "jefe de gobierno",
+			"desde": 1984,
+			"hasta": 1995
+		},
+		{
+			"nombre": "Jean-Claude Juncker",
+			"cargo": "jefe de gobierno",
+			"desde": 1995,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Henri Albert Gabriel Félix Marie Guillaume de Nassau",
+			"cargo": "jefe de Estado",
+			"desde": 2000,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Xavier Bettel",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Luc Frieden",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Guillermo V de Luxemburgo",
+			"cargo": "jefe de Estado",
+			"desde": 2025,
+			"hasta": 2025
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +246,11 @@
 			"valor": 665101
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Greater coat of arms of the grand-duchy of Luxembourg.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q32",
@@ -208,14 +268,70 @@
 			"url": "https://es.wikipedia.org/wiki/Luxemburgo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q32",
+			"url": "https://www.wikidata.org/wiki/Q32",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q315661",
+			"url": "http://www.wikidata.org/entity/Q315661",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q295128",
+			"url": "http://www.wikidata.org/entity/Q295128",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q39659",
+			"url": "http://www.wikidata.org/entity/Q39659",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57661",
+			"url": "http://www.wikidata.org/entity/Q57661",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16004",
+			"url": "http://www.wikidata.org/entity/Q16004",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q561213",
+			"url": "http://www.wikidata.org/entity/Q561213",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q592101",
+			"url": "http://www.wikidata.org/entity/Q592101",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q161319",
+			"url": "http://www.wikidata.org/entity/Q161319",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "0745d00de607",
+		"hash": "41631c8ac007",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

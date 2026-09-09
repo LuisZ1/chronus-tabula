@@ -8,6 +8,20 @@
 	"wikidata": "Q766",
 	"owid": "JAM",
 	"resena": "Jamaica es uno de los trece países que forman la América insular, Antillas o islas del mar Caribe. Es uno de los treinta y cinco países del continente americano.",
+	"gobernantes": [
+		{
+			"nombre": "Isabel II del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 1952,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -2000,
@@ -158,6 +172,11 @@
 			"valor": 2839785
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Jamaica.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q766",
@@ -175,14 +194,34 @@
 			"url": "https://es.wikipedia.org/wiki/Jamaica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q766",
+			"url": "https://www.wikidata.org/wiki/Q766",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q9682",
+			"url": "http://www.wikidata.org/entity/Q9682",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "d98b344b982a",
+		"hash": "304c545b0b2c",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

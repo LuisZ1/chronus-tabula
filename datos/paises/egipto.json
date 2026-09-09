@@ -2,10 +2,7 @@
 	"id": "egipto",
 	"nombre": "Egipto",
 	"nombres": [
-		"Egypt",
-		"Antiguo Egipto",
-		"República Árabe de Egipto",
-		"Misr"
+		"Egypt"
 	],
 	"nombres_periodo": [
 		{
@@ -69,7 +66,9 @@
 		"Antiguo Egipto",
 		"Imperio Nuevo de Egipto",
 		"Egipto ptolemaico",
-		"Marco Antonio y Cleopatra (Egipto)"
+		"Marco Antonio y Cleopatra (Egipto)",
+		"República Árabe de Egipto",
+		"Misr"
 	],
 	"resena": "Egipto, oficialmente la República Árabe de Egipto, es un país soberano transcontinental. Está ubicado mayoritariamente en el extremo nororiental de África, mientras que en Asia se encuentra la península del Sinaí.",
 	"gobernantes": [

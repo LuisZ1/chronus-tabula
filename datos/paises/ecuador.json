@@ -8,6 +8,14 @@
 	"wikidata": "Q736",
 	"owid": "ECU",
 	"resena": "Ecuador, oficialmente República del Ecuador, es un país soberano ubicado en la región noroccidental de América del Sur. Está constituido como un Estado social, democrático, de derecho y plurinacional, cuya forma de gobierno es la de una república presidencialista, unitaria y descentralizada.",
+	"gobernantes": [
+		{
+			"nombre": "Daniel Noboa",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +198,11 @@
 			"valor": 17980079
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Ecuador.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q736",
@@ -207,14 +220,28 @@
 			"url": "https://es.wikipedia.org/wiki/Ecuador",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q736",
+			"url": "https://www.wikidata.org/wiki/Q736",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q112075625",
+			"url": "http://www.wikidata.org/entity/Q112075625",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "8414e7629018",
+		"hash": "354eee9d4659",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

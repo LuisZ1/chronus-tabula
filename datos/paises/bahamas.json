@@ -8,6 +8,50 @@
 	"wikidata": "Q778",
 	"owid": "BHS",
 	"resena": "Bahamas, oficialmente la Mancomunidad de las Bahamas, es un país insular, y uno de los 13 países que forman la América Insular o Islas del Caribe, uno de los 35 del continente americano. Su capital y ciudad más poblada es Nasáu, situada en la isla de Nueva Providencia.",
+	"gobernantes": [
+		{
+			"nombre": "Hubert Ingraham",
+			"cargo": "jefe de gobierno",
+			"desde": 1992,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Perry Christie",
+			"cargo": "jefe de gobierno",
+			"desde": 2002,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Hubert Ingraham",
+			"cargo": "jefe de gobierno",
+			"desde": 2007,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Perry Christie",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2017
+		},
+		{
+			"nombre": "Hubert Minnis",
+			"cargo": "jefe de gobierno",
+			"desde": 2017,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Philip \"Brave\" Davis",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Carlos III del Reino Unido",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -9000,
@@ -186,6 +230,11 @@
 			"valor": 399452
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of the Bahamas.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q778",
@@ -203,14 +252,52 @@
 			"url": "https://es.wikipedia.org/wiki/Bahamas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q778",
+			"url": "https://www.wikidata.org/wiki/Q778",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q317664",
+			"url": "http://www.wikidata.org/entity/Q317664",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57705",
+			"url": "http://www.wikidata.org/entity/Q57705",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16732648",
+			"url": "http://www.wikidata.org/entity/Q16732648",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7183082",
+			"url": "http://www.wikidata.org/entity/Q7183082",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q43274",
+			"url": "http://www.wikidata.org/entity/Q43274",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "737810eb86aa",
+		"hash": "5f0bccccf57b",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

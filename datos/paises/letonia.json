@@ -2,13 +2,62 @@
 	"id": "letonia",
 	"nombre": "Letonia",
 	"nombres": [
-		"Latvia",
-		"Letonia"
+		"Latvia"
 	],
 	"wiki": "es:Letonia",
 	"wikidata": "Q211",
 	"owid": "LVA",
 	"resena": "Letonia, oficialmente República de Letonia, es un país soberano de Europa Septentrional, constituido en estado social y democrático de derecho y cuya forma de gobierno es la república parlamentaria. Es uno de los veintisiete Estados soberanos que forman la Unión Europea.",
+	"gobernantes": [
+		{
+			"nombre": "Andris Bērziņš",
+			"cargo": "jefe de Estado",
+			"desde": 2011,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Laimdota Straujuma",
+			"cargo": "jefe de gobierno",
+			"desde": 2014,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Raimonds Vējonis",
+			"cargo": "jefe de Estado",
+			"desde": 2015,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Māris Kučinskis",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Arturs Krišjānis Kariņš",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Egils Levits",
+			"cargo": "jefe de Estado",
+			"desde": 2019,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Edgars Rinkēvičs",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Evika Siliņa",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +240,11 @@
 			"valor": 1882399
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Latvia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q211",
@@ -208,14 +262,70 @@
 			"url": "https://es.wikipedia.org/wiki/Letonia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q211",
+			"url": "https://www.wikidata.org/wiki/Q211",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57506",
+			"url": "http://www.wikidata.org/entity/Q57506",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3089345",
+			"url": "http://www.wikidata.org/entity/Q3089345",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2416022",
+			"url": "http://www.wikidata.org/entity/Q2416022",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6112509",
+			"url": "http://www.wikidata.org/entity/Q6112509",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3736499",
+			"url": "http://www.wikidata.org/entity/Q3736499",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q348043",
+			"url": "http://www.wikidata.org/entity/Q348043",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3047551",
+			"url": "http://www.wikidata.org/entity/Q3047551",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q61121565",
+			"url": "http://www.wikidata.org/entity/Q61121565",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "41a788ab52d1",
+		"hash": "397eadb91143",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

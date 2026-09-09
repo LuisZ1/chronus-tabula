@@ -8,6 +8,56 @@
 	"wikidata": "Q252",
 	"owid": "IDN",
 	"resena": "Indonesia, oficialmente la República de Indonesia, es un país ubicado al sudeste de Asia y al norte de Oceanía, entre los océanos Índico y Pacífico. Se compone de más de 17 000 islas, incluidas Sumatra, Java, Célebes y partes de Borneo y Nueva Guinea.",
+	"gobernantes": [
+		{
+			"nombre": "Achmed Sukarno",
+			"cargo": "jefe de Estado",
+			"desde": 1945,
+			"hasta": 1967
+		},
+		{
+			"nombre": "Suharto",
+			"cargo": "jefe de Estado",
+			"desde": 1967,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Jusuf Habibie",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Abdurrahman Wahid",
+			"cargo": "jefe de Estado",
+			"desde": 1999,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Megawati Sukarnoputri",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2004
+		},
+		{
+			"nombre": "Susilo Bambang Yudhoyono",
+			"cargo": "jefe de Estado",
+			"desde": 2004,
+			"hasta": 2014
+		},
+		{
+			"nombre": "Joko Widodo",
+			"cargo": "jefe de Estado",
+			"desde": 2014,
+			"hasta": 2024
+		},
+		{
+			"nombre": "Prabowo Subianto",
+			"cargo": "jefe de Estado",
+			"desde": 2024,
+			"hasta": 2024
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -190,6 +240,11 @@
 			"valor": 281190068
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "National emblem of Indonesia Garuda Pancasila.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q252",
@@ -207,14 +262,70 @@
 			"url": "https://es.wikipedia.org/wiki/Indonesia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q252",
+			"url": "https://www.wikidata.org/wiki/Q252",
+			"licencia": "CC0",
+			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q76127",
+			"url": "http://www.wikidata.org/entity/Q76127",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q44819",
+			"url": "http://www.wikidata.org/entity/Q44819",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q76156",
+			"url": "http://www.wikidata.org/entity/Q76156",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q76167",
+			"url": "http://www.wikidata.org/entity/Q76167",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q76179",
+			"url": "http://www.wikidata.org/entity/Q76179",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57405",
+			"url": "http://www.wikidata.org/entity/Q57405",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q3318231",
+			"url": "http://www.wikidata.org/entity/Q3318231",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q2107268",
+			"url": "http://www.wikidata.org/entity/Q2107268",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "c0e87757de04",
+		"hash": "849668d41991",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

@@ -102,12 +102,30 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Ramadi",
+			"anio": 2014,
+			"lat": 33.42,
+			"lng": 43.3
+		},
+		{
 			"nombre": "Sitio de Kobane",
 			"anio": 2015,
 			"lat": 36.89,
 			"lng": 38.35,
 			"descripcion": "Las milicias kurdas, con apoyo aéreo aliado, frenan por primera vez al EI.",
 			"wiki": "Sitio de Kobane"
+		},
+		{
+			"nombre": "Batalla de Faluya",
+			"anio": 2016,
+			"lat": 33.37,
+			"lng": 43.77
+		},
+		{
+			"nombre": "Batalla de Ramadi",
+			"anio": 2016,
+			"lat": 33.42,
+			"lng": 43.3
 		},
 		{
 			"nombre": "Batalla de al-Qaryatayn",
@@ -170,6 +188,24 @@
 			"url": "https://www.wikidata.org/wiki/Q23701422",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q21685887",
+			"url": "https://www.wikidata.org/wiki/Q21685887",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q24205448",
+			"url": "https://www.wikidata.org/wiki/Q24205448",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q18639122",
+			"url": "https://www.wikidata.org/wiki/Q18639122",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	]
 }

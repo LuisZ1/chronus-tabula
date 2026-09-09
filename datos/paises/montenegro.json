@@ -8,6 +8,104 @@
 	"wikidata": "Q236",
 	"owid": "MNE",
 	"resena": "Montenegro es un país del sureste de Europa situado en la península balcánica, que cuenta con casi 300 km de costa a orillas del mar Adriático. Limita por el norte con Bosnia y Herzegovina y Serbia; Albania por el sur; Croacia por el oeste; y con Kosovo por el este.",
+	"gobernantes": [
+		{
+			"nombre": "Momir Bulatović",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Milo Đukanović",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Milo Đukanović",
+			"cargo": "jefe de Estado",
+			"desde": 1998,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Filip Vujanović",
+			"cargo": "jefe de gobierno",
+			"desde": 1998,
+			"hasta": 2003
+		},
+		{
+			"nombre": "Milo Đukanović",
+			"cargo": "jefe de gobierno",
+			"desde": 2003,
+			"hasta": 2006
+		},
+		{
+			"nombre": "Filip Vujanović",
+			"cargo": "jefe de Estado",
+			"desde": 2003,
+			"hasta": 2018
+		},
+		{
+			"nombre": "Željko Šturanović",
+			"cargo": "jefe de gobierno",
+			"desde": 2006,
+			"hasta": 2008
+		},
+		{
+			"nombre": "Milo Đukanović",
+			"cargo": "jefe de gobierno",
+			"desde": 2008,
+			"hasta": 2010
+		},
+		{
+			"nombre": "Igor Lukšić",
+			"cargo": "jefe de gobierno",
+			"desde": 2010,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Milo Đukanović",
+			"cargo": "jefe de gobierno",
+			"desde": 2012,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Duško Marković",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Milo Đukanović",
+			"cargo": "jefe de Estado",
+			"desde": 2018,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Zdravko Krivokapić",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2022
+		},
+		{
+			"nombre": "Dritan Abazovic",
+			"cargo": "jefe de gobierno",
+			"desde": 2022,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Jakov Milatović",
+			"cargo": "jefe de Estado",
+			"desde": 2023,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Milojko Spajić",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2023
+		}
+	],
 	"poblacion": [
 		{
 			"anio": 1800,
@@ -74,6 +172,11 @@
 			"valor": 633553
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Montenegro.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q236",
@@ -91,14 +194,82 @@
 			"url": "https://es.wikipedia.org/wiki/Montenegro",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q236",
+			"url": "https://www.wikidata.org/wiki/Q236",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q715893",
+			"url": "http://www.wikidata.org/entity/Q715893",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q200305",
+			"url": "http://www.wikidata.org/entity/Q200305",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57542",
+			"url": "http://www.wikidata.org/entity/Q57542",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q356556",
+			"url": "http://www.wikidata.org/entity/Q356556",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57746",
+			"url": "http://www.wikidata.org/entity/Q57746",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q27941657",
+			"url": "http://www.wikidata.org/entity/Q27941657",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q97999161",
+			"url": "http://www.wikidata.org/entity/Q97999161",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q16353146",
+			"url": "http://www.wikidata.org/entity/Q16353146",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q104417661",
+			"url": "http://www.wikidata.org/entity/Q104417661",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q101225458",
+			"url": "http://www.wikidata.org/entity/Q101225458",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "e16196f95f7e",
+		"hash": "4358e0c54374",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

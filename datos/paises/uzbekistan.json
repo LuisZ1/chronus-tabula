@@ -2,13 +2,32 @@
 	"id": "uzbekistan",
 	"nombre": "Uzbekistán",
 	"nombres": [
-		"Uzbekistan",
-		"Uzbekistán"
+		"Uzbekistan"
 	],
 	"wiki": "es:Uzbekistán",
 	"wikidata": "Q265",
 	"owid": "UZB",
 	"resena": "Uzbekistán, oficialmente República de Uzbekistán, es un país sin litoral situado en Asia Central. Limita al noroeste y al norte con Kazajistán, al sur con Afganistán, al noreste con Kirguistán, al sureste con Tayikistán y al suroeste con Turkmenistán.",
+	"gobernantes": [
+		{
+			"nombre": "Islom Karimov",
+			"cargo": "jefe de gobierno",
+			"desde": 1991,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Abdulla Aripov",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Shavkat Mirziyoyev",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2016
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,14 +227,33 @@
 			"url": "https://es.wikipedia.org/wiki/Uzbekist%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q57558",
+			"url": "http://www.wikidata.org/entity/Q57558",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57808",
+			"url": "http://www.wikidata.org/entity/Q57808",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q28002959",
+			"url": "http://www.wikidata.org/entity/Q28002959",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "d8b2a08e23d1",
+		"hash": "fde77138361f",
 		"secciones": [
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

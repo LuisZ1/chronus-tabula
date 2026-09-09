@@ -2,13 +2,134 @@
 	"id": "moldavia",
 	"nombre": "Moldavia",
 	"nombres": [
-		"Moldova",
-		"Moldavia"
+		"Moldova"
 	],
 	"wiki": "es:Moldavia",
 	"wikidata": "Q217",
 	"owid": "MDA",
 	"resena": "Moldavia, oficialmente la República de Moldavia, es un país ubicado en Europa Oriental, situado entre Rumania y Ucrania. Tiene una superficie de 33 851 km² y su capital es Chisináu, situada en el centro del país.",
+	"gobernantes": [
+		{
+			"nombre": "Mircea Snegur",
+			"cargo": "jefe de Estado",
+			"desde": 1990,
+			"hasta": 1997
+		},
+		{
+			"nombre": "Petru Lucinschi",
+			"cargo": "jefe de Estado",
+			"desde": 1997,
+			"hasta": 2001
+		},
+		{
+			"nombre": "Vladimir Voronin",
+			"cargo": "jefe de Estado",
+			"desde": 2001,
+			"hasta": 2009
+		},
+		{
+			"nombre": "Vlad Filat",
+			"cargo": "jefe de gobierno",
+			"desde": 2009,
+			"hasta": 2013
+		},
+		{
+			"nombre": "Nicolae Timofti",
+			"cargo": "jefe de Estado",
+			"desde": 2012,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Iurie Leancă",
+			"cargo": "jefe de gobierno",
+			"desde": 2013,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Chiril Gaburici",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Natalia Gherman",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Valeriu Streleț",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Gheorghe Brega",
+			"cargo": "jefe de gobierno",
+			"desde": 2015,
+			"hasta": 2016
+		},
+		{
+			"nombre": "Pavel Filip",
+			"cargo": "jefe de gobierno",
+			"desde": 2016,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Igor Dodon",
+			"cargo": "jefe de Estado",
+			"desde": 2016,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Maia Sandu",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Ion Chicu",
+			"cargo": "jefe de gobierno",
+			"desde": 2019,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Maia Sandu",
+			"cargo": "jefe de Estado",
+			"desde": 2020,
+			"hasta": 2020
+		},
+		{
+			"nombre": "Aureliu Ciocoi",
+			"cargo": "jefe de gobierno",
+			"desde": 2020,
+			"hasta": 2021
+		},
+		{
+			"nombre": "Natalia Gavrilița",
+			"cargo": "jefe de gobierno",
+			"desde": 2021,
+			"hasta": 2023
+		},
+		{
+			"nombre": "Dorin Recean",
+			"cargo": "jefe de gobierno",
+			"desde": 2023,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Alexandru Munteanu",
+			"cargo": "jefe de gobierno",
+			"desde": 2025,
+			"hasta": 2026
+		},
+		{
+			"nombre": "Vasile Tofan",
+			"cargo": "jefe de gobierno",
+			"desde": 2026,
+			"hasta": 2026
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -191,6 +312,11 @@
 			"valor": 3067072
 		}
 	],
+	"escudos": [
+		{
+			"archivo": "Coat of arms of Moldova.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q217",
@@ -208,14 +334,136 @@
 			"url": "https://es.wikipedia.org/wiki/Moldavia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P94:Q217",
+			"url": "https://www.wikidata.org/wiki/Q217",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q347679",
+			"url": "http://www.wikidata.org/entity/Q347679",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q355874",
+			"url": "http://www.wikidata.org/entity/Q355874",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q189435",
+			"url": "http://www.wikidata.org/entity/Q189435",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57685",
+			"url": "http://www.wikidata.org/entity/Q57685",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q57478",
+			"url": "http://www.wikidata.org/entity/Q57478",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q58087",
+			"url": "http://www.wikidata.org/entity/Q58087",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q19281444",
+			"url": "http://www.wikidata.org/entity/Q19281444",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q6968023",
+			"url": "http://www.wikidata.org/entity/Q6968023",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7911417",
+			"url": "http://www.wikidata.org/entity/Q7911417",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15715802",
+			"url": "http://www.wikidata.org/entity/Q15715802",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q7155601",
+			"url": "http://www.wikidata.org/entity/Q7155601",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4164146",
+			"url": "http://www.wikidata.org/entity/Q4164146",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q15071069",
+			"url": "http://www.wikidata.org/entity/Q15071069",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q75020865",
+			"url": "http://www.wikidata.org/entity/Q75020865",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q4822275",
+			"url": "http://www.wikidata.org/entity/Q4822275",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q105193792",
+			"url": "http://www.wikidata.org/entity/Q105193792",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q13407948",
+			"url": "http://www.wikidata.org/entity/Q13407948",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q136489383",
+			"url": "http://www.wikidata.org/entity/Q136489383",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:Q140480413",
+			"url": "http://www.wikidata.org/entity/Q140480413",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "f4dfc3942679",
+		"hash": "616aa15d003c",
 		"secciones": [
+			"escudos",
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]

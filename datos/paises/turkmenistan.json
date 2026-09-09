@@ -2,13 +2,20 @@
 	"id": "turkmenistan",
 	"nombre": "Turkmenistán",
 	"nombres": [
-		"Turkmenistan",
-		"Turkmenistán"
+		"Turkmenistan"
 	],
 	"wiki": "es:Turkmenistán",
 	"wikidata": "Q874",
 	"owid": "TKM",
 	"resena": "Turkmenistán, oficialmente República de Turkmenistán es un país situado en Asia Central que limita al noroeste con Kazajistán, al norte y noreste con Uzbekistán, al suroeste con Irán, al sureste con Afganistán y al oeste con el mar Caspio, aunque es considerado como un Estado sin salida al mar.",
+	"gobernantes": [
+		{
+			"nombre": "Serdar Berdimuhamedow",
+			"cargo": "jefe de Estado",
+			"desde": 2022,
+			"hasta": 2022
+		}
+	],
 	"poblacion": [
 		{
 			"anio": -10000,
@@ -208,14 +215,21 @@
 			"url": "https://es.wikipedia.org/wiki/Turkmenist%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:Q51874548",
+			"url": "http://www.wikidata.org/entity/Q51874548",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-09",
 		"por": "panel-admin",
-		"hash": "359a16e4311f",
+		"hash": "9f9b73aa82c4",
 		"secciones": [
+			"gobernantes",
 			"poblacion",
 			"resena"
 		]
