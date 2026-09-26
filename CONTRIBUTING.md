@@ -289,7 +289,7 @@ La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta l
   | `capas.js` | marcadores: batallas, eventos y territorios menores |
   | `mapa.js` | estilo, etiquetas y emblemas (escudo o bandera), análisis del año, carga y capas base |
   | `paneles.js` | leyenda, panel «Este año» y panel de capas |
-  | `tiempo.js` | barra de tiempo, épocas del modo móvil, marcas y reproducción |
+  | `tiempo.js` | barra de tiempo, escala del modo móvil, marcas y reproducción |
   | `arranque.js` | `init()` |
 
   Los estilos están en `web/css/styles.css`. La indentación del código es con **tabuladores** (hay un `.prettierrc` en la raíz: `prettier --write "web/js/*.js"` lo aplica solo). Para cambios grandes, abre antes un issue y lo hablamos.

@@ -51,19 +51,14 @@ async function init() {
 
 	await loadHistoria();
 	fillFollowDatalist();
-	// fijar la época ANTES de pintar las marcas: en móvil las marcas y las
-	// etiquetas de los extremos dependen de la época activa, así arrancan ya
-	// sincronizadas con el año inicial (evita el desajuste chip↔extremos↔marcas)
-	activeEra = eraFor(startYear);
 	buildTimeMarks();
 	if (h && h.follow && paisPorId.has(h.follow)) setFollow(paisPorId.get(h.follow));
 
-	// modo móvil: chips y reacción al cambiar de tamaño/orientación
-	updateEraChips();
+	// cambio móvil↔escritorio (tamaño u orientación): otra escala en la barra
+	updateEdgeLabels();
 	mqMobile.addEventListener('change', () => {
-		activeEra = eraFor(state.requestedYear);
-		updateEraChips();
-		navRender(); // el navegador (escritorio) y su ventana
+		navRender(); // el navegador (escritorio) y su ventana; también los extremos
+		actualizarPasoFlechas();
 		buildTimeMarks();
 		document.getElementById('yearSlider').value = curYearToPos(state.requestedYear);
 	});
