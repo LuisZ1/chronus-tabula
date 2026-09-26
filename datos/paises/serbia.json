@@ -93,6 +93,42 @@
 			"archivo": "Coat of arms of Serbia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Civil flag of Serbia.svg",
+			"desde": 1835,
+			"hasta": 1882
+		},
+		{
+			"archivo": "State Flag of Serbia (1882-1918).png",
+			"desde": 1882,
+			"hasta": 1918
+		},
+		{
+			"archivo": "Flag of the Government of National Salvation (occupied Yugoslavia).svg",
+			"desde": 1941,
+			"hasta": 1944
+		},
+		{
+			"archivo": "Flag of Montenegro (1946–1993), Flag of Serbia (1947–1992).svg",
+			"desde": 1946,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Flag of Serbia (1992–2004).svg",
+			"desde": 1992,
+			"hasta": 2004
+		},
+		{
+			"archivo": "Flag of Serbia (2004–2010).svg",
+			"desde": 2004,
+			"hasta": 2010
+		},
+		{
+			"archivo": "Flag of Serbia.svg",
+			"desde": 2010
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q403",
@@ -128,14 +164,21 @@
 			"url": "https://www.wikidata.org/wiki/Q403",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q403",
+			"url": "https://www.wikidata.org/wiki/Q403",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ce7b2bcfbd7e",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

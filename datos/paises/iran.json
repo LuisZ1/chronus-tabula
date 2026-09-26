@@ -136,6 +136,20 @@
 			"desde": 1980
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "State flag of Iran (1964–1980).svg"
+		},
+		{
+			"archivo": "First Flag of I.R.Iran.svg",
+			"desde": 1979,
+			"hasta": 1980
+		},
+		{
+			"archivo": "Flag of Iran.svg",
+			"desde": 1980
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Irán",
@@ -226,14 +240,21 @@
 			"url": "https://www.wikidata.org/wiki/Q794",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q794",
+			"url": "https://www.wikidata.org/wiki/Q794",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "0c8e0a9db9cd",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -177,6 +177,32 @@
 			"desde": 2021
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Libya.svg",
+			"desde": 1951,
+			"hasta": 1969
+		},
+		{
+			"archivo": "Flag of Libya (1969–1972).svg",
+			"desde": 1969,
+			"hasta": 1972
+		},
+		{
+			"archivo": "Flag of Libya (1972–1977).svg",
+			"desde": 1972,
+			"hasta": 1977
+		},
+		{
+			"archivo": "Flag of Libya (1977–2011).svg",
+			"desde": 1977,
+			"hasta": 2011
+		},
+		{
+			"archivo": "Flag of Libya.svg",
+			"desde": 2011
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -233,14 +259,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1016",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1016",
+			"url": "https://www.wikidata.org/wiki/Q1016",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "296a39eed6e0",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

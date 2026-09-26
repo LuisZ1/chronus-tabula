@@ -92,6 +92,11 @@
 			"archivo": "Coat of arms of Ivory Coast (2).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Côte d'Ivoire.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -124,14 +129,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1008",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1008",
+			"url": "https://www.wikidata.org/wiki/Q1008",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "4e79c9e788ce",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

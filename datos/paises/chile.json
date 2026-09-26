@@ -251,6 +251,11 @@
 			"archivo": "Coat of arms of Chile (c).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Chile.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q298",
@@ -316,14 +321,21 @@
 			"url": "http://www.wikidata.org/entity/Q5937916",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q298",
+			"url": "https://www.wikidata.org/wiki/Q298",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "80dea4b72440",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

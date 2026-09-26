@@ -245,6 +245,27 @@
 			"desde": 2000
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Red Ensign of South Africa (1910–1912).svg",
+			"desde": 1910,
+			"hasta": 1912
+		},
+		{
+			"archivo": "Red Ensign of South Africa (1912–1951).svg",
+			"desde": 1912,
+			"hasta": 1928
+		},
+		{
+			"archivo": "Flag of South Africa (1928–1994, dark colors).svg",
+			"desde": 1928,
+			"hasta": 1994
+		},
+		{
+			"archivo": "Flag of South Africa.svg",
+			"desde": 1994
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -282,14 +303,21 @@
 			"url": "https://www.wikidata.org/wiki/Q258",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q258",
+			"url": "https://www.wikidata.org/wiki/Q258",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c0d6dc4103f2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

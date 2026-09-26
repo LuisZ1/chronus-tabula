@@ -275,6 +275,17 @@
 			"archivo": "Coat of arms of North Macedonia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Macedonia (1992–1995).svg",
+			"desde": 1992,
+			"hasta": 1995
+		},
+		{
+			"archivo": "Flag of North Macedonia.svg",
+			"desde": 1995
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q221",
@@ -370,14 +381,21 @@
 			"url": "http://www.wikidata.org/entity/Q46675558",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q221",
+			"url": "https://www.wikidata.org/wiki/Q221",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "2c6a4286e464",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

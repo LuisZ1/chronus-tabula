@@ -287,6 +287,16 @@
 			"archivo": "Arms of Belgium (with crown).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Belgium (civil).svg",
+			"desde": 1831
+		},
+		{
+			"archivo": "Flag of Belgium.svg",
+			"desde": 1831
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q31",
@@ -388,14 +398,21 @@
 			"url": "http://www.wikidata.org/entity/Q336599",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q31",
+			"url": "https://www.wikidata.org/wiki/Q31",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "9e13a0ba31fa",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

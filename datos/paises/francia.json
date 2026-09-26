@@ -413,6 +413,57 @@
 			"archivo": "Arms of the French Republic.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of France (XII-XIII).svg",
+			"desde": 1101,
+			"hasta": 1300
+		},
+		{
+			"archivo": "Bannière de France style 1500.svg",
+			"desde": 1301,
+			"hasta": 1600
+		},
+		{
+			"archivo": "Royal Standard of the King of France.svg",
+			"desde": 1638,
+			"hasta": 1790
+		},
+		{
+			"archivo": "Flag of France (1790–1794).svg",
+			"desde": 1790,
+			"hasta": 1794
+		},
+		{
+			"archivo": "Flag of France.svg",
+			"desde": 1794,
+			"hasta": 1814
+		},
+		{
+			"archivo": "Flag of France (1814–1830).svg",
+			"desde": 1815,
+			"hasta": 1830
+		},
+		{
+			"archivo": "Flag of France.svg",
+			"desde": 1830,
+			"hasta": 1958
+		},
+		{
+			"archivo": "Flag of France (1958–1976).svg",
+			"desde": 1958,
+			"hasta": 1974
+		},
+		{
+			"archivo": "Flag of France (1976–2020).svg",
+			"desde": 1974,
+			"hasta": 2020
+		},
+		{
+			"archivo": "Flag of France.svg",
+			"desde": 2020
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Francia",
@@ -568,14 +619,21 @@
 			"url": "https://www.wikidata.org/wiki/Q142",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q142",
+			"url": "https://www.wikidata.org/wiki/Q142",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "69035ad13904",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

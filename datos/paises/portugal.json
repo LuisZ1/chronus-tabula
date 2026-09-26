@@ -310,6 +310,87 @@
 			"archivo": "Coat of arms of Portugal (lesser).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "PortugueseFlag1095.svg",
+			"desde": 1095,
+			"hasta": 1143
+		},
+		{
+			"archivo": "PortugueseFlag1143.svg",
+			"desde": 1143,
+			"hasta": 1185
+		},
+		{
+			"archivo": "PortugueseFlag1185.svg",
+			"desde": 1185,
+			"hasta": 1248
+		},
+		{
+			"archivo": "Flag of the Kingdom of Portugal (1248–1385).svg",
+			"desde": 1248,
+			"hasta": 1385
+		},
+		{
+			"archivo": "Flag of the Kingdom of Portugal (1385–1485).svg",
+			"desde": 1385,
+			"hasta": 1485
+		},
+		{
+			"archivo": "Flag of the Kingdom of Portugal (1485–mid-16th century).svg",
+			"desde": 1485,
+			"hasta": 1495
+		},
+		{
+			"archivo": "Flag of Portugal (1495).svg",
+			"desde": 1495,
+			"hasta": 1521
+		},
+		{
+			"archivo": "Flag of Portugal (1521).svg",
+			"desde": 1521,
+			"hasta": 1578
+		},
+		{
+			"archivo": "Flag of Portugal (1578).svg",
+			"desde": 1578,
+			"hasta": 1640
+		},
+		{
+			"archivo": "Flag of Portugal (1640).svg",
+			"desde": 1640,
+			"hasta": 1667
+		},
+		{
+			"archivo": "Flag of Portugal (1667).svg",
+			"desde": 1667,
+			"hasta": 1707
+		},
+		{
+			"archivo": "Flag of Portugal (1707).svg",
+			"desde": 1707,
+			"hasta": 1750
+		},
+		{
+			"archivo": "Flag of Portugal (1750) (variant).svg",
+			"desde": 1750,
+			"hasta": 1816
+		},
+		{
+			"archivo": "Flag of the United Kingdom of Portugal, Brazil, and the Algarves (1815-1825).svg",
+			"desde": 1816,
+			"hasta": 1830
+		},
+		{
+			"archivo": "Flag of Portugal (1830–1910).svg",
+			"desde": 1830,
+			"hasta": 1911
+		},
+		{
+			"archivo": "Flag of Portugal (official).svg",
+			"desde": 1911
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Portugal",
@@ -387,14 +468,21 @@
 			"url": "https://www.wikidata.org/wiki/Q45",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q45",
+			"url": "https://www.wikidata.org/wiki/Q45",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "b498aeb71016",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

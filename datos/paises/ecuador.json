@@ -203,6 +203,27 @@
 			"archivo": "Coat of arms of Ecuador.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Ecuador (1845–1860).svg",
+			"desde": 1845,
+			"hasta": 1860
+		},
+		{
+			"archivo": "Civil flag and ensign of Ecuador.svg",
+			"desde": 1860,
+			"hasta": 1900
+		},
+		{
+			"archivo": "Flag of Ecuador (1900–2009).svg",
+			"desde": 1900,
+			"hasta": 2009
+		},
+		{
+			"archivo": "Flag of Ecuador.svg",
+			"desde": 2009
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q736",
@@ -232,14 +253,21 @@
 			"url": "http://www.wikidata.org/entity/Q112075625",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q736",
+			"url": "https://www.wikidata.org/wiki/Q736",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "354eee9d4659",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

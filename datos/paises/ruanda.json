@@ -127,6 +127,22 @@
 			"archivo": "Coat of arms of Rwanda.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Rwanda (January – September 1961).svg",
+			"desde": 1961,
+			"hasta": 1961
+		},
+		{
+			"archivo": "Flag of Rwanda (1961–2001).svg",
+			"desde": 1961,
+			"hasta": 2001
+		},
+		{
+			"archivo": "Flag of Rwanda.svg",
+			"desde": 2001
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -149,14 +165,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1037",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1037",
+			"url": "https://www.wikidata.org/wiki/Q1037",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "71eef4911180",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

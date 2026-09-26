@@ -305,6 +305,17 @@
 			"desde": 2004
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Georgia (1990–2004).svg",
+			"desde": 1990,
+			"hasta": 2004
+		},
+		{
+			"archivo": "Flag of Georgia.svg",
+			"desde": 2004
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q230",
@@ -406,14 +417,21 @@
 			"url": "http://www.wikidata.org/entity/Q711893",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q230",
+			"url": "https://www.wikidata.org/wiki/Q230",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "cdd8179039ef",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

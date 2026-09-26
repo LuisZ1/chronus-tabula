@@ -92,6 +92,11 @@
 			"archivo": "Coat of arms of Lebanon.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Lebanon.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Líbano",
@@ -152,14 +157,21 @@
 			"url": "https://www.wikidata.org/wiki/Q822",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q822",
+			"url": "https://www.wikidata.org/wiki/Q822",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "9de6bbaca979",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

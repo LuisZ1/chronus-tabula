@@ -71,6 +71,11 @@
 			"archivo": "Coat of arms of Niue.jpg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Niue.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q34020",
@@ -112,14 +117,21 @@
 			"url": "http://www.wikidata.org/entity/Q43274",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q34020",
+			"url": "https://www.wikidata.org/wiki/Q34020",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "0a7e9ecbb076",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

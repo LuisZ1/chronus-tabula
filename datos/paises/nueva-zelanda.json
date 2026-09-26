@@ -136,6 +136,11 @@
 			"desde": 1956
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of New Zealand.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q664",
@@ -177,14 +182,21 @@
 			"url": "http://www.wikidata.org/entity/Q74370310",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q664",
+			"url": "https://www.wikidata.org/wiki/Q664",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "2de3879f73e1",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

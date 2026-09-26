@@ -242,6 +242,24 @@
 			"archivo": "Emblem of Saudi Arabia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Third Saudi State-01.svg",
+			"hasta": 1921
+		},
+		{
+			"archivo": "Flag of Nejd (1921).svg",
+			"hasta": 1932
+		},
+		{
+			"archivo": "Flag of Saudi Arabia (1938–1973).svg",
+			"hasta": 1973
+		},
+		{
+			"archivo": "Flag of Saudi Arabia.svg",
+			"desde": 1973
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q851",
@@ -307,14 +325,21 @@
 			"url": "http://www.wikidata.org/entity/Q367825",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q851",
+			"url": "https://www.wikidata.org/wiki/Q851",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "92ba18880999",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

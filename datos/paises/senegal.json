@@ -97,6 +97,11 @@
 			"archivo": "Coat of arms of Senegal.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Senegal.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -124,14 +129,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1041",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1041",
+			"url": "https://www.wikidata.org/wiki/Q1041",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "632c6e8a6609",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

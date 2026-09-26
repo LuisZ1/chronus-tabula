@@ -236,6 +236,11 @@
 			"archivo": "Emblem of Qatar-2022.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Qatar.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q846",
@@ -295,14 +300,21 @@
 			"url": "http://www.wikidata.org/entity/Q23020336",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q846",
+			"url": "https://www.wikidata.org/wiki/Q846",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ca1546dfd46d",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

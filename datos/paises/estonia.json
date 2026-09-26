@@ -290,6 +290,11 @@
 			"archivo": "Coat of arms of Estonia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Estonia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q191",
@@ -397,14 +402,21 @@
 			"url": "http://www.wikidata.org/entity/Q1789192",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q191",
+			"url": "https://www.wikidata.org/wiki/Q191",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "95e226747449",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -215,6 +215,11 @@
 			"archivo": "Emblem of Bhutan.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Bhutan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q917",
@@ -256,14 +261,21 @@
 			"url": "http://www.wikidata.org/entity/Q7849613",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q917",
+			"url": "https://www.wikidata.org/wiki/Q917",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "3790e9637970",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -299,6 +299,25 @@
 			"archivo": "Coat of arms of the Philippines.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Philippines (1985–1986).svg"
+		},
+		{
+			"archivo": "Flag of the Philippines (navy blue).svg",
+			"desde": 1936,
+			"hasta": 1985
+		},
+		{
+			"archivo": "Flag of the Philippines (navy blue).svg",
+			"desde": 1986,
+			"hasta": 1998
+		},
+		{
+			"archivo": "Flag of the Philippines.svg",
+			"desde": 1998
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q928",
@@ -424,14 +443,21 @@
 			"url": "http://www.wikidata.org/entity/Q983324",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q928",
+			"url": "https://www.wikidata.org/wiki/Q928",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "63753f1de4b2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

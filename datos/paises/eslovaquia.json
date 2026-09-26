@@ -305,6 +305,17 @@
 			"archivo": "Coat of arms of Slovakia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Slovakia (1939–1945).svg",
+			"desde": 1939,
+			"hasta": 1945
+		},
+		{
+			"archivo": "Flag of Slovakia.svg",
+			"desde": 1992
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q214",
@@ -412,14 +423,21 @@
 			"url": "http://www.wikidata.org/entity/Q96747230",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q214",
+			"url": "https://www.wikidata.org/wiki/Q214",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1c604a71e701",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

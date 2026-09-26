@@ -218,6 +218,11 @@
 			"archivo": "Emblem of Thailand.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Thailand.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q869",
@@ -259,14 +264,21 @@
 			"url": "https://www.wikidata.org/wiki/Q869",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q869",
+			"url": "https://www.wikidata.org/wiki/Q869",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1558e583d8cb",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

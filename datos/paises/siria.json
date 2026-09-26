@@ -76,6 +76,57 @@
 			"desde": 2025
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Kingdom of Syria (1920-03-08 to 1920-07-24).svg",
+			"desde": 1920,
+			"hasta": 1920
+		},
+		{
+			"archivo": "Flag of the French Mandate of Syria (1920).svg",
+			"desde": 1920,
+			"hasta": 1920
+		},
+		{
+			"archivo": "Flag of Syria French mandate.svg",
+			"desde": 1920,
+			"hasta": 1932
+		},
+		{
+			"archivo": "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024).svg",
+			"desde": 1958,
+			"hasta": 1961
+		},
+		{
+			"archivo": "Flag of Syria (1930–1958, 1961–1963).svg",
+			"desde": 1961,
+			"hasta": 1963
+		},
+		{
+			"archivo": "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024) (stars variant 1).svg",
+			"desde": 1963,
+			"hasta": 1972
+		},
+		{
+			"archivo": "Flag of Syria (1972–1980).svg",
+			"desde": 1972,
+			"hasta": 1980
+		},
+		{
+			"archivo": "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024).svg",
+			"desde": 1980,
+			"hasta": 2024
+		},
+		{
+			"archivo": "Flag of Syria (1930–1958, 1961–1963).svg",
+			"desde": 2011,
+			"hasta": 1963
+		},
+		{
+			"archivo": "Flag of Syria (2025-).svg",
+			"desde": 2024
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Siria",
@@ -106,14 +157,21 @@
 			"url": "https://www.wikidata.org/wiki/Q858",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q858",
+			"url": "https://www.wikidata.org/wiki/Q858",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "14c04cbb45bb",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

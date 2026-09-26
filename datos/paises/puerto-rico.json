@@ -199,6 +199,11 @@
 			"archivo": "Coat of arms of the Commonwealth of Puerto Rico.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Puerto Rico.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q1183",
@@ -252,14 +257,21 @@
 			"url": "http://www.wikidata.org/entity/Q16215793",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1183",
+			"url": "https://www.wikidata.org/wiki/Q1183",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "99a350efefb2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

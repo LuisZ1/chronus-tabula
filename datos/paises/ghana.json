@@ -182,6 +182,27 @@
 			"archivo": "Coat of arms of Ghana.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Union of African States (1958-1961).svg",
+			"desde": 1958,
+			"hasta": 1961
+		},
+		{
+			"archivo": "Flag of the Union of African States (1961–1962).svg",
+			"desde": 1961,
+			"hasta": 1962
+		},
+		{
+			"archivo": "Flag of Ghana (1964–1966).svg",
+			"desde": 1964,
+			"hasta": 1966
+		},
+		{
+			"archivo": "Flag of Ghana.svg",
+			"desde": 1966
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -214,14 +235,21 @@
 			"url": "https://www.wikidata.org/wiki/Q117",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q117",
+			"url": "https://www.wikidata.org/wiki/Q117",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d1f2788009f8",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

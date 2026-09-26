@@ -254,6 +254,22 @@
 			"archivo": "Coat of arms of Lithuania.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Lithuania (1918–1940).svg",
+			"desde": 1918,
+			"hasta": 1940
+		},
+		{
+			"archivo": "Flag of Lithuania (1988–2004).svg",
+			"desde": 1990,
+			"hasta": 2004
+		},
+		{
+			"archivo": "Flag of Lithuania.svg",
+			"desde": 2004
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q37",
@@ -325,14 +341,21 @@
 			"url": "http://www.wikidata.org/entity/Q1936326",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q37",
+			"url": "https://www.wikidata.org/wiki/Q37",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "841e72f85482",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

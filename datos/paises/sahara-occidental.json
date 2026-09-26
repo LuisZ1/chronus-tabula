@@ -86,6 +86,11 @@
 			"fuente": "Estimación"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Sahrawi Arab Democratic Republic.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki_es",
@@ -112,14 +117,21 @@
 			"url": "https://es.wikipedia.org/wiki/Sahara_Occidental",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q6250",
+			"url": "https://www.wikidata.org/wiki/Q6250",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "63b83f6f2f63",
 		"secciones": [
+			"banderas",
 			"fuentes",
 			"gobernantes",
 			"nombres_periodo",

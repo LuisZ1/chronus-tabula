@@ -59,6 +59,11 @@
 			"archivo": "St Martin Coat.png"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of France.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q126125",
@@ -82,14 +87,21 @@
 			"url": "https://www.wikidata.org/wiki/Q126125",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q126125",
+			"url": "https://www.wikidata.org/wiki/Q126125",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5fed2cb5b576",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

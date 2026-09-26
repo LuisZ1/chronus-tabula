@@ -296,6 +296,17 @@
 			"archivo": "National emblem of Bangladesh.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Bangladesh (1971).svg",
+			"desde": 1971,
+			"hasta": 1972
+		},
+		{
+			"archivo": "Flag of Bangladesh.svg",
+			"desde": 1972
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q902",
@@ -403,14 +414,21 @@
 			"url": "http://www.wikidata.org/entity/Q7686199",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q902",
+			"url": "https://www.wikidata.org/wiki/Q902",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "cf2c6e347ee4",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

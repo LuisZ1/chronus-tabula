@@ -227,6 +227,67 @@
 			"archivo": "Coat of arms of El Salvador.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of El Salvador (1822–1865).svg",
+			"desde": 1822,
+			"hasta": 1823
+		},
+		{
+			"archivo": "Flag of the United Provinces of Central America.svg",
+			"desde": 1823,
+			"hasta": 1824
+		},
+		{
+			"archivo": "Flag of the Federal Republic of Central America.svg",
+			"desde": 1824,
+			"hasta": 1841
+		},
+		{
+			"archivo": "Flag of El Salvador (1822–1865).svg",
+			"desde": 1841,
+			"hasta": 1865
+		},
+		{
+			"archivo": "Flag of El Salvador (April 1865).svg",
+			"desde": 1865,
+			"hasta": 1865
+		},
+		{
+			"archivo": "Flag of El Salvador (June 1865).svg",
+			"desde": 1865,
+			"hasta": 1869
+		},
+		{
+			"archivo": "Flag of El Salvador (1869–1873).svg",
+			"desde": 1869,
+			"hasta": 1873
+		},
+		{
+			"archivo": "Flag of El Salvador (1873–1875).svg",
+			"desde": 1873,
+			"hasta": 1875
+		},
+		{
+			"archivo": "Flag of El Salvador (1875–1912).svg",
+			"desde": 1875,
+			"hasta": 1912
+		},
+		{
+			"archivo": "Flag of El Salvador.svg",
+			"desde": 1912,
+			"hasta": 1921
+		},
+		{
+			"archivo": "Flag of the Federation of Central America (1921–1922).svg",
+			"desde": 1921,
+			"hasta": 1922
+		},
+		{
+			"archivo": "Flag of El Salvador.svg",
+			"desde": 1922
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q792",
@@ -280,14 +341,21 @@
 			"url": "http://www.wikidata.org/entity/Q17712353",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q792",
+			"url": "https://www.wikidata.org/wiki/Q792",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "a428d4b647e8",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -270,6 +270,22 @@
 			"desde": 1975
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Greek Independence 1821.svg",
+			"desde": 1821,
+			"hasta": 1830
+		},
+		{
+			"archivo": "Flag of Greece (1822-1978).svg",
+			"desde": 1822,
+			"hasta": 1978
+		},
+		{
+			"archivo": "Flag of Greece.svg",
+			"desde": 1978
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q41",
@@ -359,14 +375,21 @@
 			"url": "http://www.wikidata.org/entity/Q20995518",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q41",
+			"url": "https://www.wikidata.org/wiki/Q41",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "7d10a72726dc",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

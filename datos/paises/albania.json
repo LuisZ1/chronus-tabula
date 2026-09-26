@@ -209,6 +209,57 @@
 			"archivo": "Coat of arms of Albania.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Albanian Provisional Government (1912-1914).svg",
+			"desde": 1912,
+			"hasta": 1914
+		},
+		{
+			"archivo": "Flag of Albania (1914–1920).svg",
+			"desde": 1914,
+			"hasta": 1920
+		},
+		{
+			"archivo": "Flag of Albania (1920–1926).svg",
+			"desde": 1920,
+			"hasta": 1926
+		},
+		{
+			"archivo": "Flag of Albania (1926–1928).svg",
+			"desde": 1926,
+			"hasta": 1928
+		},
+		{
+			"archivo": "Flag of Albania (1934–1939).svg",
+			"desde": 1928,
+			"hasta": 1939
+		},
+		{
+			"archivo": "Flag of Albania (1939–1943).svg",
+			"desde": 1939,
+			"hasta": 1943
+		},
+		{
+			"archivo": "Flag of Albania (1943–1944).svg",
+			"desde": 1943,
+			"hasta": 1944
+		},
+		{
+			"archivo": "Flag of Albania (1944–1946).svg",
+			"desde": 1944,
+			"hasta": 1946
+		},
+		{
+			"archivo": "Flag of Albania (1946–1992).svg",
+			"desde": 1946,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Flag of Albania.svg",
+			"desde": 1992
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q222",
@@ -244,14 +295,21 @@
 			"url": "http://www.wikidata.org/entity/Q107422711",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q222",
+			"url": "https://www.wikidata.org/wiki/Q222",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "8f4665a38342",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

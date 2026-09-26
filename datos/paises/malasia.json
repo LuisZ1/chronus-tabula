@@ -347,6 +347,17 @@
 			"archivo": "Coat of arms of Malaysia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Malaya (1950–1963).svg",
+			"desde": 1950,
+			"hasta": 1963
+		},
+		{
+			"archivo": "Flag of Malaysia.svg",
+			"desde": 1963
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q833",
@@ -508,14 +519,21 @@
 			"url": "http://www.wikidata.org/entity/Q2657043",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q833",
+			"url": "https://www.wikidata.org/wiki/Q833",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "41231caa1fdc",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -263,6 +263,11 @@
 			"archivo": "Coat of arms of the Dominican Republic.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Dominican Republic.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q786",
@@ -340,14 +345,21 @@
 			"url": "http://www.wikidata.org/entity/Q16594097",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q786",
+			"url": "https://www.wikidata.org/wiki/Q786",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "10912ba9f621",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

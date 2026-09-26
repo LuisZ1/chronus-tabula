@@ -99,6 +99,11 @@
 			"archivo": "Coat of arms of Cameroon.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Cameroon.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -131,14 +136,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1009",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1009",
+			"url": "https://www.wikidata.org/wiki/Q1009",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ba9126c3deda",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

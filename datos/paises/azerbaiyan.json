@@ -63,6 +63,16 @@
 			"archivo": "Emblem of Azerbaijan.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Azerbaijan (1991–2013).svg",
+			"hasta": 2013
+		},
+		{
+			"archivo": "Flag of Azerbaijan.svg",
+			"desde": 2013
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Azerbaiyán",
@@ -99,14 +109,21 @@
 			"url": "https://www.wikidata.org/wiki/Q227",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q227",
+			"url": "https://www.wikidata.org/wiki/Q227",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ab52efc607dd",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

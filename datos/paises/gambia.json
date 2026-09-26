@@ -108,6 +108,11 @@
 			"archivo": "Coat of arms of The Gambia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of The Gambia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -140,14 +145,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1005",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1005",
+			"url": "https://www.wikidata.org/wiki/Q1005",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "39b6b2db67a3",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -227,6 +227,11 @@
 			"archivo": "Regional Emblem of Hong Kong.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Hong Kong.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q8646",
@@ -280,14 +285,21 @@
 			"url": "http://www.wikidata.org/entity/Q9051824",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q8646",
+			"url": "https://www.wikidata.org/wiki/Q8646",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d9a995cb9d6b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

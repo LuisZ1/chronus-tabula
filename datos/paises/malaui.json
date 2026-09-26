@@ -115,6 +115,22 @@
 			"archivo": "Coat of arms of Malawi.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Malawi.svg",
+			"desde": 1964,
+			"hasta": 2010
+		},
+		{
+			"archivo": "Flag of Malawi (2010–2012).svg",
+			"desde": 2010,
+			"hasta": 2012
+		},
+		{
+			"archivo": "Flag of Malawi.svg",
+			"desde": 2012
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -137,14 +153,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1020",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1020",
+			"url": "https://www.wikidata.org/wiki/Q1020",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "63fb25364067",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -221,6 +221,36 @@
 			"archivo": "Coat of arms of Iraq.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Iraq (1924–1959).svg",
+			"hasta": 1958
+		},
+		{
+			"archivo": "Flag of Iraq (1959–1963).svg",
+			"desde": 1959,
+			"hasta": 1963
+		},
+		{
+			"archivo": "Flag of Iraq (1963–1991).svg",
+			"desde": 1963,
+			"hasta": 1991
+		},
+		{
+			"archivo": "Flag of Iraq (1991–2004).svg",
+			"desde": 1991,
+			"hasta": 2004
+		},
+		{
+			"archivo": "Flag of Iraq (2004–2008).svg",
+			"desde": 2004,
+			"hasta": 2008
+		},
+		{
+			"archivo": "Flag of Iraq.svg",
+			"desde": 2008
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q796",
@@ -268,14 +298,21 @@
 			"url": "http://www.wikidata.org/entity/Q3700793",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q796",
+			"url": "https://www.wikidata.org/wiki/Q796",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "a8a1367e6a07",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

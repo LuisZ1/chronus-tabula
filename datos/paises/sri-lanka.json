@@ -239,6 +239,11 @@
 			"archivo": "Emblem of Sri Lanka.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Sri Lanka.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q854",
@@ -298,14 +303,21 @@
 			"url": "https://www.wikidata.org/wiki/Q854",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q854",
+			"url": "https://www.wikidata.org/wiki/Q854",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5f80d240517c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -97,6 +97,11 @@
 			"archivo": "Coat of arms of Kenya (Official).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Kenya.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki_es",
@@ -119,14 +124,21 @@
 			"url": "https://www.wikidata.org/wiki/Q114",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q114",
+			"url": "https://www.wikidata.org/wiki/Q114",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5f0e93a3879b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

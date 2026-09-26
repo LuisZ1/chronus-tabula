@@ -128,6 +128,11 @@
 			"archivo": "Coat of arms of Burkina Faso.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Burkina Faso.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -155,14 +160,21 @@
 			"url": "https://www.wikidata.org/wiki/Q965",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q965",
+			"url": "https://www.wikidata.org/wiki/Q965",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "3adccb8fafa0",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

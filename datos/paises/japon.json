@@ -335,6 +335,17 @@
 			"archivo": "Kamon of the Imperial House of Japan.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Japan (1870–1999).svg",
+			"desde": 1870,
+			"hasta": 1999
+		},
+		{
+			"archivo": "Flag of Japan.svg",
+			"desde": 1999
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Japón",
@@ -406,14 +417,21 @@
 			"url": "https://www.wikidata.org/wiki/Q17",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q17",
+			"url": "https://www.wikidata.org/wiki/Q17",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "19334995bce7",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

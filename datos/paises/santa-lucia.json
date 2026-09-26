@@ -221,6 +221,25 @@
 			"archivo": "Coat of arms of Saint Lucia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Saint Lucia (1967–1979).svg"
+		},
+		{
+			"archivo": "Flag of Saint Lucia (1939–1967).svg",
+			"desde": 1939,
+			"hasta": 1967
+		},
+		{
+			"archivo": "Flag of Saint Lucia (1979–2002).svg",
+			"desde": 1979,
+			"hasta": 2002
+		},
+		{
+			"archivo": "Flag of Saint Lucia.svg",
+			"desde": 2002
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q760",
@@ -268,14 +287,21 @@
 			"url": "https://www.wikidata.org/wiki/Q760",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q760",
+			"url": "https://www.wikidata.org/wiki/Q760",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "36cbc5667392",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

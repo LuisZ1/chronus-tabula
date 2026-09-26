@@ -97,6 +97,22 @@
 			"archivo": "Armoiries du Togo.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Togo (1957–1958).svg",
+			"desde": 1957,
+			"hasta": 1958
+		},
+		{
+			"archivo": "Flag of Togo (1958–1960).svg",
+			"desde": 1958,
+			"hasta": 1960
+		},
+		{
+			"archivo": "Flag of Togo (3-2).svg",
+			"desde": 1960
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -119,14 +135,21 @@
 			"url": "https://www.wikidata.org/wiki/Q945",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q945",
+			"url": "https://www.wikidata.org/wiki/Q945",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "77d2888d82df",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

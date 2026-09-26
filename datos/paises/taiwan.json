@@ -430,6 +430,17 @@
 			"hasta": 1928
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of China (1912–1928).svg",
+			"desde": 1912,
+			"hasta": 1928
+		},
+		{
+			"archivo": "Flag of the Republic of China.svg",
+			"desde": 1928
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q865",
@@ -657,14 +668,21 @@
 			"url": "https://www.wikidata.org/wiki/Q865",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q865",
+			"url": "https://www.wikidata.org/wiki/Q865",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ab11dd06f2c8",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

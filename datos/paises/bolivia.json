@@ -209,6 +209,15 @@
 			"archivo": "Escudo de Bolivia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Bolivia.svg"
+		},
+		{
+			"archivo": "Bandera de Bolivia (Estado).svg",
+			"desde": 1851
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q750",
@@ -244,14 +253,21 @@
 			"url": "http://www.wikidata.org/entity/Q110520817",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q750",
+			"url": "https://www.wikidata.org/wiki/Q750",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "2fe5d943aa27",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

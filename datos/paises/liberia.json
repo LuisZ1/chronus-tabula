@@ -229,6 +229,11 @@
 			"archivo": "Coat of arms of Liberia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Liberia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -261,14 +266,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1014",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1014",
+			"url": "https://www.wikidata.org/wiki/Q1014",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "7ff2f70a2b63",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

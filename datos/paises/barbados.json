@@ -201,6 +201,16 @@
 			"archivo": "Coat of arms of Barbados (2).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Barbados (1870–1966).svg",
+			"hasta": 1966
+		},
+		{
+			"archivo": "Flag of Barbados.svg",
+			"desde": 1966
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q244",
@@ -260,14 +270,21 @@
 			"url": "http://www.wikidata.org/entity/Q9333540",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q244",
+			"url": "https://www.wikidata.org/wiki/Q244",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "cfa33ba21627",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

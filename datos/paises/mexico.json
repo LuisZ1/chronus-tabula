@@ -344,6 +344,40 @@
 			"archivo": "Coat of arms of Mexico.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Imperial Standard of Mexico (1864-1867).svg"
+		},
+		{
+			"archivo": "Bandera del Primer Imperio Mexicano.svg",
+			"desde": 1821,
+			"hasta": 1823
+		},
+		{
+			"archivo": "Bandera Histórica de la República Mexicana (1824-1918).svg",
+			"desde": 1823,
+			"hasta": 1864
+		},
+		{
+			"archivo": "Bandera Histórica de la República Mexicana (1824-1918).svg",
+			"desde": 1867,
+			"hasta": 1893
+		},
+		{
+			"archivo": "Flag of Mexico (1893–1916).svg",
+			"desde": 1893,
+			"hasta": 1916
+		},
+		{
+			"archivo": "Flag of Mexico (1934-1968).svg",
+			"desde": 1934,
+			"hasta": 1968
+		},
+		{
+			"archivo": "Flag of Mexico.svg",
+			"desde": 1968
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q96",
@@ -511,14 +545,21 @@
 			"url": "http://www.wikidata.org/entity/Q5771800",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q96",
+			"url": "https://www.wikidata.org/wiki/Q96",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c8f9a3cba03f",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

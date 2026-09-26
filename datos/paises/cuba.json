@@ -227,6 +227,11 @@
 			"archivo": "Coat of arms of Cuba.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Cuba.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q241",
@@ -274,14 +279,21 @@
 			"url": "http://www.wikidata.org/entity/Q79358625",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q241",
+			"url": "https://www.wikidata.org/wiki/Q241",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5f07823c378d",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

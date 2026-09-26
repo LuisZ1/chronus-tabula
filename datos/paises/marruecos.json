@@ -128,6 +128,11 @@
 			"archivo": "Coat of arms of Morocco.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Morocco.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -155,14 +160,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1028",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1028",
+			"url": "https://www.wikidata.org/wiki/Q1028",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "32a476810450",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -441,6 +441,55 @@
 			"hasta": 1981
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Spain (1873–1874).svg"
+		},
+		{
+			"archivo": "Flag of Spain (1701–1760).svg",
+			"desde": 1701,
+			"hasta": 1760
+		},
+		{
+			"archivo": "Flag of Spain (1760–1785).svg",
+			"desde": 1760,
+			"hasta": 1843
+		},
+		{
+			"archivo": "Flag of Spain (1785–1873, 1875–1931).svg",
+			"desde": 1843,
+			"hasta": 1873
+		},
+		{
+			"archivo": "Flag of Spain (1785–1873, 1875–1931).svg",
+			"desde": 1874,
+			"hasta": 1931
+		},
+		{
+			"archivo": "Flag of the Second Spanish Republic.svg",
+			"desde": 1931,
+			"hasta": 1939
+		},
+		{
+			"archivo": "Flag of Spain (1938–1945).svg",
+			"desde": 1939,
+			"hasta": 1945
+		},
+		{
+			"archivo": "Flag of Spain (1945–1977).svg",
+			"desde": 1945,
+			"hasta": 1977
+		},
+		{
+			"archivo": "Flag of Spain (1977–1981).svg",
+			"desde": 1977,
+			"hasta": 1981
+		},
+		{
+			"archivo": "Flag of Spain.svg",
+			"desde": 1981
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:España",
@@ -488,14 +537,21 @@
 			"url": "https://www.wikidata.org/wiki/Q29",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q29",
+			"url": "https://www.wikidata.org/wiki/Q29",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5baa1248472c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

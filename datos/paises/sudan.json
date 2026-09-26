@@ -149,6 +149,15 @@
 			"archivo": "Emblem of Sudan (1956–1970).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Sudan (1956–1970).svg"
+		},
+		{
+			"archivo": "Flag of Sudan.svg",
+			"desde": 1970
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -234,14 +243,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1049",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1049",
+			"url": "https://www.wikidata.org/wiki/Q1049",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "6479ff514d8a",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -257,6 +257,11 @@
 			"archivo": "Emblem of Nepal.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Nepal.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q837",
@@ -328,14 +333,21 @@
 			"url": "http://www.wikidata.org/entity/Q3183124",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q837",
+			"url": "https://www.wikidata.org/wiki/Q837",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d22035926064",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

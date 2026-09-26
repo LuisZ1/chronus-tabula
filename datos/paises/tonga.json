@@ -179,6 +179,11 @@
 			"archivo": "Coat of arms of Tonga.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Tonga.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q678",
@@ -220,14 +225,21 @@
 			"url": "https://www.wikidata.org/wiki/Q678",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q678",
+			"url": "https://www.wikidata.org/wiki/Q678",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "3ca9117f3777",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

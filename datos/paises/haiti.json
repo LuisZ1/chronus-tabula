@@ -285,6 +285,22 @@
 			"archivo": "Coat of arms of Haiti.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Haiti.svg",
+			"desde": 1859,
+			"hasta": 1964
+		},
+		{
+			"archivo": "Flag of Haiti (1964–1986).svg",
+			"desde": 1964,
+			"hasta": 1986
+		},
+		{
+			"archivo": "Flag of Haiti.svg",
+			"desde": 1986
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q790",
@@ -398,14 +414,21 @@
 			"url": "http://www.wikidata.org/entity/Q131140314",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q790",
+			"url": "https://www.wikidata.org/wiki/Q790",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "425f02cca74d",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

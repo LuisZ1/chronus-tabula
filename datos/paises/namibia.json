@@ -98,6 +98,11 @@
 			"archivo": "Coat of arms of Namibia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Namibia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -125,14 +130,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1030",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1030",
+			"url": "https://www.wikidata.org/wiki/Q1030",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "a76a07a8a0a2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

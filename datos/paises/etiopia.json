@@ -209,6 +209,37 @@
 			"archivo": "Emblem of Ethiopia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Ethiopia (1897–1974).svg",
+			"desde": 1897,
+			"hasta": 1974
+		},
+		{
+			"archivo": "Flag of Ethiopia (1975–1987).svg",
+			"desde": 1975,
+			"hasta": 1987
+		},
+		{
+			"archivo": "Flag of Ethiopia (1987–1991).svg",
+			"desde": 1987,
+			"hasta": 1991
+		},
+		{
+			"archivo": "Flag of Ethiopia (1991–1996).svg",
+			"desde": 1991,
+			"hasta": 1996
+		},
+		{
+			"archivo": "Flag of Ethiopia.svg",
+			"desde": 1996
+		},
+		{
+			"archivo": "Flag of Ethiopia (1996–2009).svg",
+			"desde": 1996,
+			"hasta": 1996
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -260,14 +291,21 @@
 			"url": "https://www.wikidata.org/wiki/Q115",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q115",
+			"url": "https://www.wikidata.org/wiki/Q115",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d606263362b0",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -29,6 +29,21 @@
 			"hasta": 2010
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Netherlands.svg",
+			"hasta": 1959
+		},
+		{
+			"archivo": "Flag of the Netherlands Antilles (1959–1986).svg",
+			"desde": 1959,
+			"hasta": 1986
+		},
+		{
+			"archivo": "Flag of the Netherlands Antilles (1986–2010).svg",
+			"desde": 1986
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q25227",
@@ -52,14 +67,21 @@
 			"url": "https://www.wikidata.org/wiki/Q25227",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q25227",
+			"url": "https://www.wikidata.org/wiki/Q25227",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "600f0c65a5aa",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

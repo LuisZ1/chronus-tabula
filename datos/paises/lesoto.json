@@ -155,6 +155,20 @@
 			"archivo": "Coat of arms of Lesotho.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Lesotho (1966–1987).svg"
+		},
+		{
+			"archivo": "Flag of Lesotho (1987–2006).svg",
+			"desde": 1987,
+			"hasta": 2006
+		},
+		{
+			"archivo": "Flag of Lesotho.svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -182,14 +196,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1013",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1013",
+			"url": "https://www.wikidata.org/wiki/Q1013",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "6f9511768b57",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

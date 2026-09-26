@@ -245,6 +245,35 @@
 			"archivo": "Coat of arms of Brazil.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Brazil (1822–1853).svg"
+		},
+		{
+			"archivo": "Flag of Brazil (November 1889).svg",
+			"desde": 1889,
+			"hasta": 1889
+		},
+		{
+			"archivo": "Flag of Brazil (1889–1960).svg",
+			"desde": 1889,
+			"hasta": 1960
+		},
+		{
+			"archivo": "Flag of Brazil (1960–1968).svg",
+			"desde": 1960,
+			"hasta": 1968
+		},
+		{
+			"archivo": "Flag of Brazil (1968–1992).svg",
+			"desde": 1968,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Flag of Brazil.svg",
+			"desde": 1992
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q155",
@@ -310,14 +339,21 @@
 			"url": "http://www.wikidata.org/entity/Q10304982",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q155",
+			"url": "https://www.wikidata.org/wiki/Q155",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "309860a2bfb5",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",
