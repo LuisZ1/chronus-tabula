@@ -21,6 +21,10 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	-webkit-tap-highlight-color: transparent; /* los botones ya tienen :active */
+	-webkit-text-size-adjust: 100%;
+}
 html,
 body {
 	margin: 0;
@@ -65,8 +69,10 @@ a {
 	color: var(--tinta-suave);
 	text-decoration: none;
 }
-.nav a:hover {
-	color: var(--acento);
+@media (hover: hover) and (pointer: fine) {
+	.nav a:hover {
+		color: var(--acento);
+	}
 }
 
 /* ---- contenedor ---- */
@@ -111,6 +117,9 @@ a {
 	font-size: 16px;
 	text-decoration: none;
 	transition: transform 0.08s ease, filter 0.15s ease;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	user-select: none;
 }
 .btn:active {
 	transform: translateY(1px);
@@ -120,16 +129,20 @@ a {
 	color: #fff;
 	box-shadow: 0 3px 10px rgba(45, 111, 158, 0.35);
 }
-.btn.principal:hover {
-	background: var(--acento-oscuro);
+@media (hover: hover) and (pointer: fine) {
+	.btn.principal:hover {
+		background: var(--acento-oscuro);
+	}
 }
 .btn.secundario {
 	background: transparent;
 	color: var(--acento);
 	border: 1.5px solid var(--acento);
 }
-.btn.secundario:hover {
-	background: rgba(45, 111, 158, 0.08);
+@media (hover: hover) and (pointer: fine) {
+	.btn.secundario:hover {
+		background: rgba(45, 111, 158, 0.08);
+	}
 }
 .btn.grande {
 	padding: 18px 34px;

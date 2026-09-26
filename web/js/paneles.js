@@ -157,11 +157,24 @@ function setupYearPanel() {
 		const f = facts[+row.dataset.fact];
 		if (!f) return;
 		requestYear(f.anio); // salta al año exacto del dato
-		map.flyTo([f.lat, f.lng], Math.max(map.getZoom(), 5));
-		setTimeout(() => {
-			L.popup({ maxWidth: 340 }).setLatLng([f.lat, f.lng]).setContent(eventPopupHtml(f)).openOn(map);
-		}, 600);
+		volarYAbrir(f.lat, f.lng, () => eventPopupHtml(f));
 	});
+}
+
+/* vuela a un punto y abre su ficha AL LLEGAR (moveend), no tras un tiempo fijo:
+   un vuelo largo duraba más de 600 ms y la ficha se abría a medio camino.
+   Red de seguridad por si el mapa no llega a moverse (ya estaba allí). */
+function volarYAbrir(lat, lng, html) {
+	let hecho = false;
+	const abrir = () => {
+		if (hecho) return;
+		hecho = true;
+		map.off('moveend', abrir);
+		L.popup({ maxWidth: 340 }).setLatLng([lat, lng]).setContent(html()).openOn(map);
+	};
+	map.once('moveend', abrir);
+	map.flyTo([lat, lng], Math.max(map.getZoom(), 5));
+	setTimeout(abrir, 3000);
 }
 
 /* ---------- capas on/off ---------- */
