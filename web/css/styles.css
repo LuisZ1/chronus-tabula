@@ -1,10 +1,19 @@
 * {
 	box-sizing: border-box;
 }
+:root {
+	/* curva compartida de la interfaz: salida rápida y asentamiento suave */
+	--ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+}
+html {
+	-webkit-tap-highlight-color: transparent; /* sin destello gris al tocar (cada control tiene su :active) */
+	-webkit-text-size-adjust: 100%; /* sin inflado de letra en horizontal */
+}
 html,
 body {
 	height: 100%;
 	margin: 0;
+	overscroll-behavior: none; /* el mapa es una app: sin «tirar para recargar» ni rebote de página */
 	font-family:
 		system-ui,
 		-apple-system,
@@ -22,7 +31,7 @@ body {
 /* ---- Barra superior ---- */
 #topbar {
 	position: absolute;
-	top: 10px;
+	top: calc(10px + env(safe-area-inset-top, 0px));
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 1000;
@@ -66,17 +75,76 @@ body {
 	text-decoration: none;
 	font-family: Georgia, 'Times New Roman', serif;
 }
-#helpBtn:hover,
 #helpBtn:focus-visible {
 	background: #eaf2f8;
 	border-color: #2c3e50;
 	outline: none;
 }
+@media (hover: hover) and (pointer: fine) {
+	#helpBtn:hover {
+		background: #eaf2f8;
+		border-color: #2c3e50;
+	}
+}
+
+/* ---- Controles táctiles ----
+   touch-action: sin espera de doble toque (y sin zoom al pulsar ◀ ▶ muy seguido).
+   user-select: mantener pulsado un control no selecciona su texto. Solo controles:
+   el texto de las fichas sigue siendo seleccionable. */
+button,
+select,
+#topbar a,
+.tmark,
+.panel-title,
+#layersPanel label,
+.legend-row,
+.yp-row,
+.mp-row {
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+}
+
+/* respuesta al pulsar: el control reacciona al apoyar el dedo, no al soltarlo */
+.step-btn,
+.mini-btn,
+.era-chips button,
+#helpBtn {
+	transition:
+		transform 160ms var(--ease-out),
+		background-color 160ms var(--ease-out);
+}
+.step-btn:active,
+.mini-btn:active,
+.era-chips button:active,
+#helpBtn:active {
+	transform: scale(0.97);
+}
+.step-btn:active,
+.mini-btn:active,
+#helpBtn:active {
+	background: #dde9f3;
+}
+
+/* controles de Leaflet (zoom, capas base, atribución) fuera del notch */
+.leaflet-top {
+	top: env(safe-area-inset-top, 0px);
+}
+.leaflet-bottom {
+	bottom: env(safe-area-inset-bottom, 0px);
+}
+.leaflet-left {
+	left: env(safe-area-inset-left, 0px);
+}
+.leaflet-right {
+	right: env(safe-area-inset-right, 0px);
+}
 
 /* ---- Indicador de carga ---- */
 #loading {
 	position: absolute;
-	top: 60px;
+	top: calc(60px + env(safe-area-inset-top, 0px));
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 1100;
@@ -89,9 +157,14 @@ body {
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 	font-size: 14px;
 	color: #333;
+	transition:
+		opacity 150ms var(--ease-out) 200ms,
+		visibility 0s linear 200ms;
 }
 #loading.hidden {
-	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: none; /* ocultar es inmediato */
 }
 .spinner {
 	width: 16px;
@@ -111,10 +184,13 @@ body {
 #timebar {
 	position: absolute;
 	left: 50%;
-	bottom: 18px;
+	bottom: calc(18px + env(safe-area-inset-bottom, 0px));
 	transform: translateX(-50%);
 	z-index: 1000;
-	width: min(860px, calc(100% - 30px));
+	width: min(
+		860px,
+		calc(100% - 30px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px))
+	);
 	background: rgba(255, 255, 255, 0.94);
 	border-radius: 12px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
@@ -181,8 +257,10 @@ body {
 	font-size: 12px;
 	color: #2c3e50;
 }
-.step-btn:hover {
-	background: #eaf2f8;
+@media (hover: hover) and (pointer: fine) {
+	.step-btn:hover {
+		background: #eaf2f8;
+	}
 }
 
 /* ---- Popup ---- */
@@ -352,17 +430,14 @@ body {
 /* ---- Modo móvil: controles de dedo ---- */
 @media (max-width: 720px) {
 	#topbar {
-		left: 8px;
-		right: 8px;
+		left: calc(8px + env(safe-area-inset-left, 0px));
+		right: calc(8px + env(safe-area-inset-right, 0px));
 		transform: none;
 		max-width: none;
 		gap: 6px;
 	}
 	#topbar h1 {
 		font-size: 14px;
-	}
-	#followInput {
-		width: 110px;
 	}
 	#yearInput {
 		width: 74px;
@@ -373,8 +448,8 @@ body {
 		display: flex;
 	}
 	#timebar {
-		width: calc(100% - 16px);
-		bottom: 10px;
+		width: calc(100% - 16px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px));
+		bottom: calc(10px + env(safe-area-inset-bottom, 0px));
 		padding: 10px 12px 6px;
 	}
 	.timebar-row {
@@ -425,7 +500,7 @@ body {
 		display: flex;
 	}
 	#layersPanel {
-		top: 56px;
+		top: calc(56px + env(safe-area-inset-top, 0px));
 		max-width: 62vw;
 	}
 	.margen-row select {
@@ -519,15 +594,17 @@ body {
 	color: #555;
 	line-height: 1;
 }
-.mini-btn:hover {
-	background: #eaf2f8;
+@media (hover: hover) and (pointer: fine) {
+	.mini-btn:hover {
+		background: #eaf2f8;
+	}
 }
 
 /* ---- Panel de capas (izquierda) ---- */
 #layersPanel {
 	position: absolute;
-	top: 90px;
-	left: 10px;
+	top: calc(90px + env(safe-area-inset-top, 0px));
+	left: calc(10px + env(safe-area-inset-left, 0px));
 	z-index: 1000;
 	background: rgba(255, 255, 255, 0.94);
 	border-radius: 10px;
@@ -556,14 +633,15 @@ body {
 /* ---- Leyenda del año (derecha) ---- */
 #rightPanels {
 	position: absolute;
-	top: 92px;
-	right: 10px;
+	top: calc(92px + env(safe-area-inset-top, 0px));
+	right: calc(10px + env(safe-area-inset-right, 0px));
 	z-index: 1000;
 	width: 260px;
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
 	max-height: calc(100vh - 210px);
+	max-height: calc(100dvh - 210px); /* alto visible real (barra del navegador incluida) */
 }
 #legendPanel,
 #yearPanel {
@@ -577,9 +655,11 @@ body {
 }
 #legendPanel {
 	max-height: 34vh;
+	max-height: 34dvh;
 }
 #yearPanel {
 	max-height: 38vh;
+	max-height: 38dvh;
 }
 .legend-head {
 	display: flex;
@@ -588,6 +668,7 @@ body {
 }
 #legendList {
 	overflow-y: auto;
+	overscroll-behavior: contain;
 	margin-top: 6px;
 }
 #legendPanel.collapsed #legendList {
@@ -603,8 +684,10 @@ body {
 	border-radius: 5px;
 	cursor: pointer;
 }
-.legend-row:hover {
-	background: #eaf2f8;
+@media (hover: hover) and (pointer: fine) {
+	.legend-row:hover {
+		background: #eaf2f8;
+	}
 }
 .legend-row .chip {
 	width: 12px;
@@ -816,8 +899,10 @@ path.war-zone {
 	fill: url(#warstripes);
 	cursor: pointer;
 }
-path.war-zone:hover {
-	stroke-width: 3;
+@media (hover: hover) and (pointer: fine) {
+	path.war-zone:hover {
+		stroke-width: 3;
+	}
 }
 .war-popup p {
 	font-size: 12.5px;
@@ -830,8 +915,10 @@ path.war-zone:hover {
 path.war-occupied {
 	cursor: pointer;
 }
-path.war-occupied:hover {
-	fill-opacity: 0.22;
+@media (hover: hover) and (pointer: fine) {
+	path.war-occupied:hover {
+		fill-opacity: 0.22;
+	}
 }
 
 /* ---- Barra no lineal: marcas clicables ---- */
@@ -878,17 +965,21 @@ path.war-occupied:hover {
 	background: #c0392b;
 	transform: translateX(-50%) rotate(45deg);
 }
-.tm-war:hover {
-	background: #7a1010;
-	transform: translateX(-50%) rotate(45deg) scale(1.5);
+@media (hover: hover) and (pointer: fine) {
+	.tm-war:hover {
+		background: #7a1010;
+		transform: translateX(-50%) rotate(45deg) scale(1.5);
+	}
 }
 .tm-event {
 	font-size: 11px;
 	color: #c9a227;
 }
-.tm-event:hover {
-	color: #7a5a00;
-	transform: translateX(-50%) scale(1.35);
+@media (hover: hover) and (pointer: fine) {
+	.tm-event:hover {
+		color: #7a5a00;
+		transform: translateX(-50%) scale(1.35);
+	}
 }
 .tm-cluster {
 	min-width: 17px;
@@ -901,8 +992,10 @@ path.war-occupied:hover {
 		sans-serif;
 	text-align: center;
 }
-.tm-cluster:hover {
-	transform: translateX(-50%) scale(1.2);
+@media (hover: hover) and (pointer: fine) {
+	.tm-cluster:hover {
+		transform: translateX(-50%) scale(1.2);
+	}
 }
 .tmc-war {
 	background: #c0392b;
@@ -943,6 +1036,25 @@ path.war-occupied:hover {
 	max-width: 320px;
 	max-height: 220px;
 	overflow-y: auto;
+	overscroll-behavior: contain;
+	transform-origin: bottom left; /* crece desde la marca que la abre */
+	transition:
+		opacity 150ms var(--ease-out),
+		scale 150ms var(--ease-out);
+}
+@starting-style {
+	.mark-pop {
+		opacity: 0;
+		scale: 0.96;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	/* movimiento reducido: solo el fundido, sin escala */
+	@starting-style {
+		.mark-pop {
+			scale: 1;
+		}
+	}
 }
 .mp-row {
 	display: flex;
@@ -954,8 +1066,10 @@ path.war-occupied:hover {
 	font-size: 12.5px;
 	color: #333;
 }
-.mp-row:hover {
-	background: #eaf2f8;
+@media (hover: hover) and (pointer: fine) {
+	.mp-row:hover {
+		background: #eaf2f8;
+	}
 }
 .mp-row .mp-n {
 	flex: 1;
@@ -969,6 +1083,7 @@ path.war-occupied:hover {
 /* ---- Panel «Este año» ---- */
 #yearPanelBody {
 	overflow-y: auto;
+	overscroll-behavior: contain;
 	margin-top: 4px;
 	min-height: 0;
 }
@@ -994,8 +1109,10 @@ path.war-occupied:hover {
 	cursor: pointer;
 	line-height: 1.25;
 }
-.yp-row:hover {
-	background: #eaf2f8;
+@media (hover: hover) and (pointer: fine) {
+	.yp-row:hover {
+		background: #eaf2f8;
+	}
 }
 .yp-row .yp-ico {
 	flex: none;
@@ -1022,4 +1139,41 @@ path.war-occupied:hover {
 /* ---- Pie de fuentes en fichas ---- */
 details.fuentes {
 	max-width: 300px;
+}
+
+/* ---- Pantallas táctiles (va AL FINAL para ganar a las reglas de tamaño de arriba) ----
+   campos: en pantallas táctiles, 16 px como mínimo (con menos, iOS amplía la
+   página al enfocar y no vuelve). Nunca maximum-scale/user-scalable=no. */
+@media (pointer: coarse) {
+	#followInput,
+	#yearInput,
+	#langSelect,
+	#speedSelect,
+	#margenSelect,
+	#emblemaSelect {
+		font-size: 16px;
+	}
+	/* ✕ y ▾ se ven pequeños pero se tocan con un área de ~40 px */
+	.mini-btn {
+		position: relative;
+	}
+	.mini-btn::after {
+		content: '';
+		position: absolute;
+		inset: -9px;
+	}
+}
+
+/* móvil: el buscador absorbe el ancho libre de la barra superior (con letra de
+   16 px no cabe a ancho fijo). Va al final para ganar a #followInput y a la
+   regla de 900 px, que tienen la misma especificidad. */
+@media (max-width: 720px) {
+	.follow-box {
+		flex: 1;
+		min-width: 0;
+	}
+	#followInput {
+		width: 100%;
+		min-width: 0;
+	}
 }

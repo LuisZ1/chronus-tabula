@@ -236,13 +236,7 @@ function markAction(it) {
 		if (b) map.fitBounds(b, { maxZoom: 6, padding: [40, 40] });
 	} else {
 		requestYear(it.ev.anio);
-		map.flyTo([it.ev.lat, it.ev.lng], Math.max(map.getZoom(), 5));
-		setTimeout(() => {
-			L.popup({ maxWidth: 340 })
-				.setLatLng([it.ev.lat, it.ev.lng])
-				.setContent(eventPopupHtml(it.ev))
-				.openOn(map);
-		}, 600);
+		volarYAbrir(it.ev.lat, it.ev.lng, () => eventPopupHtml(it.ev));
 	}
 }
 
