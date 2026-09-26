@@ -413,6 +413,32 @@
 			"archivo": "Royal Coat of arms of Canada.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Canada (1868–1921).svg",
+			"desde": 1868,
+			"hasta": 1921
+		},
+		{
+			"archivo": "Flag of Canada (1921–1957).svg",
+			"desde": 1921,
+			"hasta": 1957
+		},
+		{
+			"archivo": "Flag of Canada (1957–1965).svg",
+			"desde": 1957,
+			"hasta": 1965
+		},
+		{
+			"archivo": "Flag of Canada (1964).svg",
+			"desde": 1964,
+			"hasta": 1965
+		},
+		{
+			"archivo": "Flag of Canada (Pantone).svg",
+			"desde": 1965
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q16",
@@ -622,14 +648,21 @@
 			"url": "http://www.wikidata.org/entity/Q192533",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q16",
+			"url": "https://www.wikidata.org/wiki/Q16",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "8557104b3cff",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

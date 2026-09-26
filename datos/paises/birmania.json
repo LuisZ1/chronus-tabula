@@ -242,6 +242,11 @@
 			"archivo": "State Seal of the Republic of the Union of Myanmar.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Myanmar.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q836",
@@ -301,14 +306,21 @@
 			"url": "http://www.wikidata.org/entity/Q3462649",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q836",
+			"url": "https://www.wikidata.org/wiki/Q836",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "2ffeb561e7ed",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

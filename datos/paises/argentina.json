@@ -203,6 +203,17 @@
 			"archivo": "Coat of arms of Argentina.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Argentina (civil).svg",
+			"desde": 1812,
+			"hasta": 1985
+		},
+		{
+			"archivo": "Flag of Argentina.svg",
+			"desde": 1985
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q414",
@@ -232,14 +243,21 @@
 			"url": "http://www.wikidata.org/entity/Q52395487",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q414",
+			"url": "https://www.wikidata.org/wiki/Q414",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "396b83f77b4b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

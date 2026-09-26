@@ -19,6 +19,11 @@
 			"archivo": "Blason St Barthélémy TOM entire.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Saint Barthélemy (local).svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q25362",
@@ -42,14 +47,21 @@
 			"url": "https://www.wikidata.org/wiki/Q25362",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q25362",
+			"url": "https://www.wikidata.org/wiki/Q25362",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "a578d4aa0db2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

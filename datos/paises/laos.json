@@ -215,6 +215,11 @@
 			"archivo": "Emblem of Laos (1991-2025).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Laos.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q819",
@@ -256,14 +261,21 @@
 			"url": "http://www.wikidata.org/entity/Q104914585",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q819",
+			"url": "https://www.wikidata.org/wiki/Q819",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "bec1b9f04f88",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

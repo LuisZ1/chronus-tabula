@@ -210,6 +210,11 @@
 			"archivo": "Coat of arms of Benin.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Benin.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -262,14 +267,21 @@
 			"url": "https://www.wikidata.org/wiki/Q962",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q962",
+			"url": "https://www.wikidata.org/wiki/Q962",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "4a9c6d0507b7",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

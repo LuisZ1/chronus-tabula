@@ -245,6 +245,17 @@
 			"archivo": "Coat of arms of Iceland.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Iceland (1918–1944).svg",
+			"desde": 1918,
+			"hasta": 1944
+		},
+		{
+			"archivo": "Flag of Iceland.svg",
+			"desde": 1944
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q189",
@@ -310,14 +321,21 @@
 			"url": "http://www.wikidata.org/entity/Q108856371",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q189",
+			"url": "https://www.wikidata.org/wiki/Q189",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ab648f2b2368",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

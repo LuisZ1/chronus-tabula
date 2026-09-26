@@ -233,6 +233,11 @@
 			"archivo": "Coat of arms of Colombia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Colombia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q739",
@@ -292,14 +297,21 @@
 			"url": "http://www.wikidata.org/entity/Q137204778",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q739",
+			"url": "https://www.wikidata.org/wiki/Q739",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "fc7ddeac975a",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -235,6 +235,17 @@
 			"archivo": "Coat of arms of the Bahamas.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Bahamas (1964–1973).svg",
+			"desde": 1964,
+			"hasta": 1973
+		},
+		{
+			"archivo": "Flag of the Bahamas.svg",
+			"desde": 1973
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q778",
@@ -288,14 +299,21 @@
 			"url": "http://www.wikidata.org/entity/Q43274",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q778",
+			"url": "https://www.wikidata.org/wiki/Q778",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5f0bccccf57b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

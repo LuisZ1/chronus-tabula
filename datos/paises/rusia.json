@@ -322,6 +322,22 @@
 			"archivo": "Lesser coat of arms of the Russian Empire.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Russia.svg",
+			"desde": 1721,
+			"hasta": 1858
+		},
+		{
+			"archivo": "Flag of Russia (1858–1896).svg",
+			"desde": 1858,
+			"hasta": 1896
+		},
+		{
+			"archivo": "Flag of Russia.svg",
+			"desde": 1896
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Rusia",
@@ -429,14 +445,21 @@
 			"url": "https://www.wikidata.org/wiki/Q34266",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q34266",
+			"url": "https://www.wikidata.org/wiki/Q34266",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "79d53baee4c0",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

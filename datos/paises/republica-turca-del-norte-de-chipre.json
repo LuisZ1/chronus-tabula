@@ -193,6 +193,11 @@
 			"archivo": "Coat of arms of the Turkish Republic of Northern Cyprus.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Turkish Republic of Northern Cyprus.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q23681",
@@ -324,14 +329,21 @@
 			"url": "https://www.wikidata.org/wiki/Q23681",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q23681",
+			"url": "https://www.wikidata.org/wiki/Q23681",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "e13ebeeea5c7",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

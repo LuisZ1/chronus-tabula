@@ -203,6 +203,55 @@
 			"archivo": "Royal arms of Cambodia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the State of Cambodia (1989–1992).svg"
+		},
+		{
+			"archivo": "Flag of Cambodia (1863–1948).svg",
+			"desde": 1863,
+			"hasta": 1942
+		},
+		{
+			"archivo": "Flag of Cambodia under Japanese occupation.svg",
+			"desde": 1942,
+			"hasta": 1945
+		},
+		{
+			"archivo": "Flag of Cambodia (1863–1948).svg",
+			"desde": 1945,
+			"hasta": 1948
+		},
+		{
+			"archivo": "Flag of Cambodia.svg",
+			"desde": 1948,
+			"hasta": 1970
+		},
+		{
+			"archivo": "Flag of the Khmer Republic.svg",
+			"desde": 1970,
+			"hasta": 1975
+		},
+		{
+			"archivo": "Flag of Democratic Kampuchea.svg",
+			"desde": 1975,
+			"hasta": 1979
+		},
+		{
+			"archivo": "Flag of the People's Republic of Kampuchea.svg",
+			"desde": 1979,
+			"hasta": 1989
+		},
+		{
+			"archivo": "Flag of Cambodia (1992–1993).svg",
+			"desde": 1992,
+			"hasta": 1993
+		},
+		{
+			"archivo": "Flag of Cambodia.svg",
+			"desde": 1993
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q424",
@@ -232,14 +281,21 @@
 			"url": "http://www.wikidata.org/entity/Q57319",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q424",
+			"url": "https://www.wikidata.org/wiki/Q424",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "24770060e7ab",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

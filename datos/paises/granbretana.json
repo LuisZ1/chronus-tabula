@@ -444,6 +444,20 @@
 			"desde": 2022
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United Kingdom (1-2).svg"
+		},
+		{
+			"archivo": "Flag of Great Britain (1707–1800).svg",
+			"desde": 1707,
+			"hasta": 1800
+		},
+		{
+			"archivo": "Flag of the United Kingdom (3-5).svg",
+			"desde": 1801
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Reino Unido / Gran Bretaña",
@@ -617,14 +631,21 @@
 			"url": "https://www.wikidata.org/wiki/Q145",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q145",
+			"url": "https://www.wikidata.org/wiki/Q145",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c77b131bfa3c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

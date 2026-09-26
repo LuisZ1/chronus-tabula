@@ -309,6 +309,12 @@
 			"desde": 1992
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Czech Republic.svg",
+			"desde": 1920
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q213",
@@ -422,14 +428,21 @@
 			"url": "http://www.wikidata.org/entity/Q2080040",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q213",
+			"url": "https://www.wikidata.org/wiki/Q213",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "7aaedbd9249b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -197,6 +197,11 @@
 			"archivo": "Coat of arms of Anguilla.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Anguilla.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q25228",
@@ -232,14 +237,21 @@
 			"url": "http://www.wikidata.org/entity/Q98079363",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q25228",
+			"url": "https://www.wikidata.org/wiki/Q25228",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "96c5c6424ff4",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

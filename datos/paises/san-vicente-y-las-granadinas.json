@@ -151,6 +151,11 @@
 			"archivo": "Coat of arms of Saint Vincent and the Grenadines.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Saint Vincent and the Grenadines.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q757",
@@ -180,14 +185,21 @@
 			"url": "https://www.wikidata.org/wiki/Q757",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q757",
+			"url": "https://www.wikidata.org/wiki/Q757",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "4a7d97145bf2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

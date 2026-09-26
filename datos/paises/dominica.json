@@ -267,6 +267,30 @@
 			"archivo": "Coat of arms of Dominica.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Dominica (1978–1981).svg"
+		},
+		{
+			"archivo": "Flag of Dominica (1965–1978).svg",
+			"desde": 1961,
+			"hasta": 1978
+		},
+		{
+			"archivo": "Flag of Dominica (1981–1988).svg",
+			"desde": 1981,
+			"hasta": 1988
+		},
+		{
+			"archivo": "Flag of Dominica (1988–1990).svg",
+			"desde": 1988,
+			"hasta": 1990
+		},
+		{
+			"archivo": "Flag of Dominica.svg",
+			"desde": 1990
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q784",
@@ -380,14 +404,21 @@
 			"url": "http://www.wikidata.org/entity/Q122208779",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q784",
+			"url": "https://www.wikidata.org/wiki/Q784",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "77fe17f254b9",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

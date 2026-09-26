@@ -245,6 +245,66 @@
 			"archivo": "Coat of arms of Costa Rica.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Costa Rica (1821–1823).svg",
+			"desde": 1821,
+			"hasta": 1823
+		},
+		{
+			"archivo": "Flag of Costa Rica (1823–1824).svg",
+			"desde": 1823,
+			"hasta": 1824
+		},
+		{
+			"archivo": "Flag of Costa Rica (1824).svg",
+			"desde": 1824,
+			"hasta": 1824
+		},
+		{
+			"archivo": "Flag of the United Provinces of Central America.svg",
+			"desde": 1824,
+			"hasta": 1824
+		},
+		{
+			"archivo": "Flag of Costa Rica (1824–1840).svg",
+			"desde": 1824,
+			"hasta": 1840
+		},
+		{
+			"archivo": "Flag of Costa Rica (1840–1842).svg",
+			"desde": 1840,
+			"hasta": 1842
+		},
+		{
+			"archivo": "Flag of Costa Rica (1842–1848).svg",
+			"desde": 1842,
+			"hasta": 1848
+		},
+		{
+			"archivo": "Flag of Costa Rica (1848–1906).svg",
+			"desde": 1848,
+			"hasta": 1906
+		},
+		{
+			"archivo": "Flag of Costa Rica.svg",
+			"desde": 1906
+		},
+		{
+			"archivo": "State flag of Costa Rica (1906–1964).svg",
+			"desde": 1906,
+			"hasta": 1964
+		},
+		{
+			"archivo": "State flag of Costa Rica (1964–1998).svg",
+			"desde": 1964,
+			"hasta": 1998
+		},
+		{
+			"archivo": "Flag of Costa Rica (state).svg",
+			"desde": 1998
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q800",
@@ -316,14 +376,21 @@
 			"url": "http://www.wikidata.org/entity/Q114705150",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q800",
+			"url": "https://www.wikidata.org/wiki/Q800",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "b6dfc0b56911",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

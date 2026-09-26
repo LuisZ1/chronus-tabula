@@ -78,6 +78,11 @@
 			"archivo": "Emblem of Eritrea (or argent azur).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Eritrea.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki_es",
@@ -105,14 +110,21 @@
 			"url": "https://www.wikidata.org/wiki/Q986",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q986",
+			"url": "https://www.wikidata.org/wiki/Q986",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "9b444bea270c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

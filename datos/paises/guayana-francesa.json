@@ -59,6 +59,11 @@
 			"archivo": "Coat of arms of French Guiana, according to the original displayed at the Museum Franconie, at Cayenne.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of France.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q3769",
@@ -82,14 +87,21 @@
 			"url": "https://www.wikidata.org/wiki/Q3769",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q3769",
+			"url": "https://www.wikidata.org/wiki/Q3769",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c042309ba038",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

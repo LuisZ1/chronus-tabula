@@ -209,6 +209,11 @@
 			"archivo": "Seal of Madagascar.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Madagascar.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -241,14 +246,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1019",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1019",
+			"url": "https://www.wikidata.org/wiki/Q1019",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d93762342f51",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -413,6 +413,17 @@
 			"archivo": "Emblem of India.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "British Raj Red Ensign.svg",
+			"desde": 1858,
+			"hasta": 1947
+		},
+		{
+			"archivo": "Flag of India.svg",
+			"desde": 1946
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q668",
@@ -628,14 +639,21 @@
 			"url": "http://www.wikidata.org/entity/Q19901232",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q668",
+			"url": "https://www.wikidata.org/wiki/Q668",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "177d6f38b238",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

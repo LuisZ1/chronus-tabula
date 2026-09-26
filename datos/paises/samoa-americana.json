@@ -163,6 +163,22 @@
 			"archivo": "Seal of American Samoa.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United States (1912-1959).svg",
+			"desde": 1912,
+			"hasta": 1959
+		},
+		{
+			"archivo": "US flag 49 stars.svg",
+			"desde": 1959,
+			"hasta": 1960
+		},
+		{
+			"archivo": "Flag of American Samoa.svg",
+			"desde": 1960
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q16641",
@@ -192,14 +208,21 @@
 			"url": "http://www.wikidata.org/entity/Q131299388",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q16641",
+			"url": "https://www.wikidata.org/wiki/Q16641",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "418f36d9f8d5",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

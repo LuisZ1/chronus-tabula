@@ -491,6 +491,11 @@
 			"archivo": "Escudo nacional del Perú.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "War flag of Peru.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q419",
@@ -760,14 +765,21 @@
 			"url": "http://www.wikidata.org/entity/Q235137",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q419",
+			"url": "https://www.wikidata.org/wiki/Q419",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "497c9745d9be",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

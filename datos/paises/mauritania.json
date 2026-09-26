@@ -121,6 +121,17 @@
 			"archivo": "National Seal of Mauritania.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Mauritania (1959–2017).svg",
+			"desde": 1959,
+			"hasta": 2017
+		},
+		{
+			"archivo": "Flag of Mauritania.svg",
+			"desde": 2017
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-en",
@@ -148,14 +159,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1025",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1025",
+			"url": "https://www.wikidata.org/wiki/Q1025",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1710b63a9c6e",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

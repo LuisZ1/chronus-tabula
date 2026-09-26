@@ -260,6 +260,11 @@
 			"desde": 1992
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of North Korea.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q423",
@@ -331,14 +336,21 @@
 			"url": "http://www.wikidata.org/entity/Q16905281",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q423",
+			"url": "https://www.wikidata.org/wiki/Q423",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ed299dc00f25",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

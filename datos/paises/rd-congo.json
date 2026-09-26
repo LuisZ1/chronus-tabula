@@ -121,6 +121,35 @@
 			"archivo": "Coat of arms of the Democratic Republic of the Congo (black spear).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Democratic Republic of the Congo (1997–2006).svg"
+		},
+		{
+			"archivo": "Flag of the Republic of the Congo (Léopoldville) (1960–1963).svg",
+			"desde": 1960,
+			"hasta": 1963
+		},
+		{
+			"archivo": "Flag of the Republic of the Congo (Léopoldville) (1963–1966).svg",
+			"desde": 1963,
+			"hasta": 1966
+		},
+		{
+			"archivo": "Flag of the Democratic Republic of the Congo (1966–1971).svg",
+			"desde": 1966,
+			"hasta": 1971
+		},
+		{
+			"archivo": "Flag of Zaire (1971–1997).svg",
+			"desde": 1971,
+			"hasta": 1997
+		},
+		{
+			"archivo": "Flag of the Democratic Republic of the Congo.svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -153,14 +182,21 @@
 			"url": "https://www.wikidata.org/wiki/Q974",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q974",
+			"url": "https://www.wikidata.org/wiki/Q974",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "fa1ccd64e80c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

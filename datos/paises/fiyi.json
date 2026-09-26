@@ -179,6 +179,11 @@
 			"archivo": "Coat of arms of Fiji.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Fiji.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q712",
@@ -220,14 +225,21 @@
 			"url": "http://www.wikidata.org/entity/Q981549",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q712",
+			"url": "https://www.wikidata.org/wiki/Q712",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "e9bccf58e2b4",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

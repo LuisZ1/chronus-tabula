@@ -487,6 +487,16 @@
 			"desde": 1998
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Bosnia and Herzegovina (1992–1998).svg",
+			"hasta": 1998
+		},
+		{
+			"archivo": "Flag of Bosnia and Herzegovina.svg",
+			"desde": 1998
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q225",
@@ -738,14 +748,21 @@
 			"url": "http://www.wikidata.org/entity/Q387491",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q225",
+			"url": "https://www.wikidata.org/wiki/Q225",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "f4b518396b22",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

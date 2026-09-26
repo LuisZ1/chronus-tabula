@@ -181,6 +181,11 @@
 			"archivo": "Public Seal of Samoa.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Samoa.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q683",
@@ -228,14 +233,21 @@
 			"url": "http://www.wikidata.org/entity/Q5446290",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q683",
+			"url": "https://www.wikidata.org/wiki/Q683",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "83620e6c4f9d",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

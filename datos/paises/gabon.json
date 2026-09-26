@@ -84,6 +84,17 @@
 			"archivo": "Coat of arms of Gabon.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Gabon (1959–1960).svg",
+			"desde": 1959,
+			"hasta": 1960
+		},
+		{
+			"archivo": "Flag of Gabon.svg",
+			"desde": 1960
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia_es",
@@ -116,14 +127,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1000",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1000",
+			"url": "https://www.wikidata.org/wiki/Q1000",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "9fe5678e72e8",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

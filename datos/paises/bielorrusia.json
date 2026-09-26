@@ -238,6 +238,42 @@
 			"desde": 2021
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Byelorussian Soviet Socialist Republic (1919–1927).svg",
+			"desde": 1919,
+			"hasta": 1927
+		},
+		{
+			"archivo": "Flag of the Byelorussian Soviet Socialist Republic (1927–1937).svg",
+			"desde": 1927,
+			"hasta": 1937
+		},
+		{
+			"archivo": "Flag of the Byelorussian Soviet Socialist Republic (1937–1951).svg",
+			"desde": 1937,
+			"hasta": 1951
+		},
+		{
+			"archivo": "Flag of the Byelorussian Soviet Socialist Republic (1951–1991).svg",
+			"desde": 1951,
+			"hasta": 1991
+		},
+		{
+			"archivo": "Flag of Belarus (1918, 1991–1995).svg",
+			"desde": 1991,
+			"hasta": 1995
+		},
+		{
+			"archivo": "Flag of Belarus (1995–2012).svg",
+			"desde": 1995,
+			"hasta": 2012
+		},
+		{
+			"archivo": "Flag of Belarus.svg",
+			"desde": 2012
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q184",
@@ -285,14 +321,21 @@
 			"url": "http://www.wikidata.org/entity/Q56235580",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q184",
+			"url": "https://www.wikidata.org/wiki/Q184",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1854c155ce0b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

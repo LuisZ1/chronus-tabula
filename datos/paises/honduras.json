@@ -248,6 +248,47 @@
 			"archivo": "Coat of arms of Honduras.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United Provinces of Central America.svg",
+			"desde": 1823,
+			"hasta": 1824
+		},
+		{
+			"archivo": "Flag of the Federal Republic of Central America.svg",
+			"desde": 1825,
+			"hasta": 1839
+		},
+		{
+			"archivo": "Flag of Honduras (1839-1866).svg",
+			"desde": 1839,
+			"hasta": 1866
+		},
+		{
+			"archivo": "Flag of Honduras (1866-1898).svg",
+			"desde": 1866,
+			"hasta": 1898
+		},
+		{
+			"archivo": "Flag of Honduras (1890s yellow star variant).svg",
+			"desde": 1898,
+			"hasta": 1949
+		},
+		{
+			"archivo": "Flag of Honduras (1949–2022, 2026–present).svg",
+			"desde": 1949,
+			"hasta": 2022
+		},
+		{
+			"archivo": "Flag of Honduras (2022–2026).svg",
+			"desde": 2022,
+			"hasta": 2026
+		},
+		{
+			"archivo": "Flag of Honduras (1949–2022, 2026–present).svg",
+			"desde": 2026
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q783",
@@ -319,14 +360,21 @@
 			"url": "http://www.wikidata.org/entity/Q16146159",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q783",
+			"url": "https://www.wikidata.org/wiki/Q783",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d167c4f866b4",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

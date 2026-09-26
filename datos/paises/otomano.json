@@ -259,6 +259,13 @@
 			"hasta": 1922
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Ottoman Empire (1844–1922).svg",
+			"desde": 1844,
+			"hasta": 1922
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Imperio otomano",
@@ -282,14 +289,21 @@
 			"url": "https://www.wikidata.org/wiki/Q12560",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q12560",
+			"url": "https://www.wikidata.org/wiki/Q12560",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "e8917c6281bf",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

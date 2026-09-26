@@ -242,6 +242,11 @@
 			"archivo": "Coat of Arms of Andorra.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Andorra.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q228",
@@ -307,14 +312,21 @@
 			"url": "http://www.wikidata.org/entity/Q93244592",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q228",
+			"url": "https://www.wikidata.org/wiki/Q228",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "dbb74a9e63bc",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

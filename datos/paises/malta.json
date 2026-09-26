@@ -251,6 +251,11 @@
 			"archivo": "Coat of arms of Malta.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Malta.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q233",
@@ -334,14 +339,21 @@
 			"url": "http://www.wikidata.org/entity/Q1647394",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q233",
+			"url": "https://www.wikidata.org/wiki/Q233",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "af0b67eb6919",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

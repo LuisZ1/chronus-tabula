@@ -207,6 +207,22 @@
 			"desde": 2006
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Cyprus (1960).svg",
+			"desde": 1960,
+			"hasta": 1960
+		},
+		{
+			"archivo": "Flag of Cyprus (1960–2006).svg",
+			"desde": 1960,
+			"hasta": 2006
+		},
+		{
+			"archivo": "Flag of Cyprus.svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q229",
@@ -236,14 +252,21 @@
 			"url": "http://www.wikidata.org/entity/Q48905549",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q229",
+			"url": "https://www.wikidata.org/wiki/Q229",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ba89b8a6e74c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

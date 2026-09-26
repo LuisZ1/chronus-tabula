@@ -142,6 +142,12 @@
 			"descripcion": "Bolívar asegura la independencia de Nueva Granada."
 		},
 		{
+			"nombre": "batalla de Pichincha",
+			"anio": 1822,
+			"lat": -0.22,
+			"lng": -78.53
+		},
+		{
 			"nombre": "Batalla de Ayacucho",
 			"anio": 1824,
 			"lat": -13.65,
@@ -159,6 +165,12 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikidata:Q1402751",
+			"url": "https://www.wikidata.org/wiki/Q1402751",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	]
 }

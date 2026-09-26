@@ -89,6 +89,12 @@
 			"desde": 1945
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Ireland.svg",
+			"desde": 1937
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q27",
@@ -136,14 +142,21 @@
 			"url": "http://www.wikidata.org/entity/Q5052598",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q27",
+			"url": "https://www.wikidata.org/wiki/Q27",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "bb1f14a9069c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

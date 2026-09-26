@@ -284,6 +284,20 @@
 			"archivo": "Emblem of Kyrgyzstan.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Kirghiz Soviet Socialist Republic (1952–1991); Flag of Kyrgyzstan (1991–1992).svg"
+		},
+		{
+			"archivo": "Flag of Kyrgyzstan (1992–2023).svg",
+			"desde": 1992,
+			"hasta": 2023
+		},
+		{
+			"archivo": "Flag of Kyrgyzstan.svg",
+			"desde": 2023
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q813",
@@ -379,14 +393,21 @@
 			"url": "http://www.wikidata.org/entity/Q112703041",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q813",
+			"url": "https://www.wikidata.org/wiki/Q813",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "a1d83678c52d",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

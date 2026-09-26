@@ -109,6 +109,11 @@
 			"archivo": "Coat of arms of Guinea.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Guinea.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -131,14 +136,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1006",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1006",
+			"url": "https://www.wikidata.org/wiki/Q1006",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5149775c13ed",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

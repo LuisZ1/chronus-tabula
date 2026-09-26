@@ -482,6 +482,147 @@
 			"archivo": "Greater coat of arms of the United States.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United States (1776–1777).svg",
+			"desde": 1775,
+			"hasta": 1777
+		},
+		{
+			"archivo": "Flag of the United States (1777–1795).svg",
+			"desde": 1777,
+			"hasta": 1795
+		},
+		{
+			"archivo": "Flag of the United States (1795-1818).svg",
+			"desde": 1795,
+			"hasta": 1818
+		},
+		{
+			"archivo": "Flag of the United States (1818–1819).svg",
+			"desde": 1818,
+			"hasta": 1819
+		},
+		{
+			"archivo": "Flag of the United States (1819–1820).svg",
+			"desde": 1819,
+			"hasta": 1820
+		},
+		{
+			"archivo": "Flag of the United States (1820–1822).svg",
+			"desde": 1820,
+			"hasta": 1822
+		},
+		{
+			"archivo": "Flag of the United States (1822–1836).svg",
+			"desde": 1822,
+			"hasta": 1836
+		},
+		{
+			"archivo": "Flag of the United States (1836–1837).svg",
+			"desde": 1836,
+			"hasta": 1837
+		},
+		{
+			"archivo": "Flag of the United States (1837–1845).svg",
+			"desde": 1837,
+			"hasta": 1845
+		},
+		{
+			"archivo": "Flag of the United States (1845–1846).svg",
+			"desde": 1845,
+			"hasta": 1846
+		},
+		{
+			"archivo": "Flag of the United States (1846–1847).svg",
+			"desde": 1846,
+			"hasta": 1847
+		},
+		{
+			"archivo": "Flag of the United States (1847–1848).svg",
+			"desde": 1847,
+			"hasta": 1848
+		},
+		{
+			"archivo": "Flag of the United States (1848–1851).svg",
+			"desde": 1848,
+			"hasta": 1851
+		},
+		{
+			"archivo": "Flag of the United States (1851–1858).svg",
+			"desde": 1851,
+			"hasta": 1858
+		},
+		{
+			"archivo": "Flag of the United States (1858–1859).svg",
+			"desde": 1858,
+			"hasta": 1859
+		},
+		{
+			"archivo": "Flag of the United States (1859–1861).svg",
+			"desde": 1859,
+			"hasta": 1861
+		},
+		{
+			"archivo": "Flag of the United States (1861–1863).svg",
+			"desde": 1861,
+			"hasta": 1863
+		},
+		{
+			"archivo": "Flag of the United States (1863–1865).svg",
+			"desde": 1863,
+			"hasta": 1865
+		},
+		{
+			"archivo": "Flag of the United States (1865–1867).svg",
+			"desde": 1865,
+			"hasta": 1867
+		},
+		{
+			"archivo": "Flag of the United States (1867-1877).svg",
+			"desde": 1867,
+			"hasta": 1877
+		},
+		{
+			"archivo": "Flag of the United States (1877–1890).svg",
+			"desde": 1877,
+			"hasta": 1890
+		},
+		{
+			"archivo": "Flag of the United States (1890–1891).svg",
+			"desde": 1890,
+			"hasta": 1891
+		},
+		{
+			"archivo": "Flag of the United States (1891–1896).svg",
+			"desde": 1891,
+			"hasta": 1896
+		},
+		{
+			"archivo": "Flag of the United States (1896–1908).svg",
+			"desde": 1896,
+			"hasta": 1908
+		},
+		{
+			"archivo": "Flag of the United States (1908–1912).svg",
+			"desde": 1908,
+			"hasta": 1912
+		},
+		{
+			"archivo": "Flag of the United States (1912-1959).svg",
+			"desde": 1912,
+			"hasta": 1959
+		},
+		{
+			"archivo": "Flag of the United States (1959–1960).svg",
+			"desde": 1959,
+			"hasta": 1960
+		},
+		{
+			"archivo": "Flag of the United States (DDD-F-416E specifications).svg",
+			"desde": 1960
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Estados Unidos",
@@ -745,14 +886,21 @@
 			"url": "https://www.wikidata.org/wiki/Q30",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q30",
+			"url": "https://www.wikidata.org/wiki/Q30",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "60f81d8b02e9",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

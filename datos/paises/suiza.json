@@ -195,6 +195,19 @@
 			"archivo": "Coat of Arms of Switzerland (Pantone).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Civil Ensign of Switzerland (Pantone).svg"
+		},
+		{
+			"archivo": "Flag of Switzerland (Pantone).svg",
+			"desde": 1889
+		},
+		{
+			"archivo": "Flag of Switzerland.svg",
+			"desde": 1889
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q39",
@@ -218,14 +231,21 @@
 			"url": "https://www.wikidata.org/wiki/Q39",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q39",
+			"url": "https://www.wikidata.org/wiki/Q39",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c5a3e95598a7",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

@@ -121,6 +121,11 @@
 			"archivo": "Coat of arms of Eswatini.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Eswatini.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -153,14 +158,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1050",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1050",
+			"url": "https://www.wikidata.org/wiki/Q1050",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "80e0aa379cf2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

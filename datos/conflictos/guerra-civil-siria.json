@@ -154,6 +154,12 @@
 			"descripcion": "El régimen recupera el cinturón rebelde de Damasco."
 		},
 		{
+			"nombre": "Operación Rama de Olivo",
+			"anio": 2019,
+			"lat": 36.51,
+			"lng": 36.87
+		},
+		{
 			"nombre": "Caída de Damasco",
 			"anio": 2024,
 			"lat": 33.51,
@@ -180,6 +186,12 @@
 			"url": "https://www.wikidata.org/wiki/Q24205448",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikidata:Q47465940",
+			"url": "https://www.wikidata.org/wiki/Q47465940",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	]
 }

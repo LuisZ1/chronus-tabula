@@ -753,6 +753,42 @@
 			"desde": 2016
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United Principalities of Romania (1862–1866).svg",
+			"desde": 1862,
+			"hasta": 1866
+		},
+		{
+			"archivo": "Flag of Romania.svg",
+			"desde": 1867,
+			"hasta": 1947
+		},
+		{
+			"archivo": "Flag of Romania (January-March 1948).svg",
+			"desde": 1947,
+			"hasta": 1949
+		},
+		{
+			"archivo": "Flag of Romania (1948–1952).svg",
+			"desde": 1949,
+			"hasta": 1952
+		},
+		{
+			"archivo": "Flag of Romania (1952–1965).svg",
+			"desde": 1952,
+			"hasta": 1965
+		},
+		{
+			"archivo": "Flag of Romania (1965–1989).svg",
+			"desde": 1965,
+			"hasta": 1989
+		},
+		{
+			"archivo": "Flag of Romania.svg",
+			"desde": 1989
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q218",
@@ -1196,14 +1232,21 @@
 			"url": "http://www.wikidata.org/entity/Q11163124",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q218",
+			"url": "https://www.wikidata.org/wiki/Q218",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "cd4bed4ae4a2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -266,6 +266,11 @@
 			"archivo": "Coat of arms of Slovenia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Slovenia.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q215",
@@ -349,14 +354,21 @@
 			"url": "http://www.wikidata.org/entity/Q12797332",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q215",
+			"url": "https://www.wikidata.org/wiki/Q215",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "f6c1217735a2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

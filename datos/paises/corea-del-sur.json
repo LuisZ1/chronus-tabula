@@ -296,6 +296,32 @@
 			"archivo": "Emblem of South Korea.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of South Korea (1948–1949).svg",
+			"desde": 1948,
+			"hasta": 1950
+		},
+		{
+			"archivo": "Flag of South Korea (1949–1984).svg",
+			"desde": 1950,
+			"hasta": 1984
+		},
+		{
+			"archivo": "Flag of South Korea (1984–1997).svg",
+			"desde": 1984,
+			"hasta": 1997
+		},
+		{
+			"archivo": "Flag of South Korea (1997–2011).svg",
+			"desde": 1997,
+			"hasta": 2011
+		},
+		{
+			"archivo": "Flag of South Korea.svg",
+			"desde": 2011
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q884",
@@ -415,14 +441,21 @@
 			"url": "http://www.wikidata.org/entity/Q55082182",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q884",
+			"url": "https://www.wikidata.org/wiki/Q884",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "8c16a47023d9",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -203,6 +203,44 @@
 			"archivo": "Coat of arms of Paraguay.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Paraguay (1988–1990).svg"
+		},
+		{
+			"archivo": "Flag of Paraguay (1812-1826).svg",
+			"desde": 1812,
+			"hasta": 1825
+		},
+		{
+			"archivo": "Flag of Paraguay (1826-1842).svg",
+			"desde": 1826,
+			"hasta": 1879
+		},
+		{
+			"archivo": "Flag of Paraguay (1842–1954).svg",
+			"desde": 1842,
+			"hasta": 1954
+		},
+		{
+			"archivo": "Flag of Paraguay (1954–1988).svg",
+			"desde": 1954,
+			"hasta": 1988
+		},
+		{
+			"archivo": "Flag of Paraguay (1990–2013).svg",
+			"desde": 1990,
+			"hasta": 2013
+		},
+		{
+			"archivo": "Flag of Paraguay (reverse).svg",
+			"desde": 2013
+		},
+		{
+			"archivo": "Flag of Paraguay.svg",
+			"desde": 2013
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q733",
@@ -232,14 +270,21 @@
 			"url": "http://www.wikidata.org/entity/Q22695687",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q733",
+			"url": "https://www.wikidata.org/wiki/Q733",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "8a30daa8a960",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

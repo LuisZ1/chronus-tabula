@@ -392,6 +392,40 @@
 			"archivo": "Coat of arms of Egypt (Official).svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Egypt (1922-1958).svg"
+		},
+		{
+			"archivo": "Flag of Egypt (1844–1867).svg",
+			"desde": 1844,
+			"hasta": 1867
+		},
+		{
+			"archivo": "Flag of Muhammad Ali.svg",
+			"desde": 1867,
+			"hasta": 1881
+		},
+		{
+			"archivo": "Flag of Egypt (1882–1922).svg",
+			"desde": 1881,
+			"hasta": 1922
+		},
+		{
+			"archivo": "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024).svg",
+			"desde": 1958,
+			"hasta": 1999
+		},
+		{
+			"archivo": "Flag of Egypt (1972–1984).svg",
+			"desde": 1972,
+			"hasta": 1984
+		},
+		{
+			"archivo": "Flag of Egypt.svg",
+			"desde": 1983
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -443,14 +477,21 @@
 			"url": "https://www.wikidata.org/wiki/Q79",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q79",
+			"url": "https://www.wikidata.org/wiki/Q79",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5f1f1d49d6e8",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

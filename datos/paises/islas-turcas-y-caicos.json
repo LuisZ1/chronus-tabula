@@ -111,6 +111,11 @@
 			"archivo": "Coat of arms of the Turks and Caicos Islands.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Turks and Caicos Islands.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q18221",
@@ -134,14 +139,21 @@
 			"url": "https://www.wikidata.org/wiki/Q18221",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q18221",
+			"url": "https://www.wikidata.org/wiki/Q18221",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "84ff01fb970e",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"poblacion",
 			"resena"

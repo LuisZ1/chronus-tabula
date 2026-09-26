@@ -245,6 +245,22 @@
 			"archivo": "State emblem of Mongolia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Mongolian People's Republic (1945–1992).svg",
+			"desde": 1945,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Flag of Mongolia (1992–2011).svg",
+			"desde": 1992,
+			"hasta": 2011
+		},
+		{
+			"archivo": "Flag of Mongolia.svg",
+			"desde": 2011
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q711",
@@ -310,14 +326,21 @@
 			"url": "http://www.wikidata.org/entity/Q110962738",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q711",
+			"url": "https://www.wikidata.org/wiki/Q711",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d5b9a138518f",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

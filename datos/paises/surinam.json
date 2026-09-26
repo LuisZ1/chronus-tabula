@@ -204,6 +204,11 @@
 			"archivo": "Coat of arms of Suriname.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Suriname.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q730",
@@ -233,14 +238,21 @@
 			"url": "https://www.wikidata.org/wiki/Q730",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q730",
+			"url": "https://www.wikidata.org/wiki/Q730",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "80f37fa03b63",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

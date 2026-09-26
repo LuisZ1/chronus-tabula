@@ -177,6 +177,11 @@
 			"archivo": "Coat of arms of Jamaica.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Jamaica.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q766",
@@ -212,14 +217,21 @@
 			"url": "http://www.wikidata.org/entity/Q43274",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q766",
+			"url": "https://www.wikidata.org/wiki/Q766",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "304c545b0b2c",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

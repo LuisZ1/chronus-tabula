@@ -203,6 +203,22 @@
 			"archivo": "Coat of arms of Antigua and Barbuda.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Antigua and Barbuda (1956–1962).svg",
+			"desde": 1956,
+			"hasta": 1962
+		},
+		{
+			"archivo": "Flag of Antigua and Barbuda (1962–1967).svg",
+			"desde": 1962,
+			"hasta": 1967
+		},
+		{
+			"archivo": "Flag of Antigua and Barbuda.svg",
+			"desde": 1967
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q781",
@@ -232,14 +248,21 @@
 			"url": "http://www.wikidata.org/entity/Q43274",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q781",
+			"url": "https://www.wikidata.org/wiki/Q781",
+			"licencia": "CC0",
+			"consultado": "2026-09-09"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1e56c7ad4bdf",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

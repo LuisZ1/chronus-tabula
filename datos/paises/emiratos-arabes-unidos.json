@@ -215,6 +215,11 @@
 			"archivo": "Emblem of the United Arab Emirates.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United Arab Emirates.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q878",
@@ -256,14 +261,21 @@
 			"url": "http://www.wikidata.org/entity/Q1951896",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q878",
+			"url": "https://www.wikidata.org/wiki/Q878",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ddf59c1aae3a",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

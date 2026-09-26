@@ -103,6 +103,26 @@
 			"archivo": "Emblem of Mozambique.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Mozambique (1983).svg",
+			"hasta": 1983
+		},
+		{
+			"archivo": "Flag of Mozambique (1974–1975).svg",
+			"desde": 1974,
+			"hasta": 1975
+		},
+		{
+			"archivo": "Flag of Mozambique (1975–1983).svg",
+			"desde": 1975,
+			"hasta": 1983
+		},
+		{
+			"archivo": "Flag of Mozambique.svg",
+			"desde": 1983
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki_es",
@@ -125,14 +145,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1029",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q1029",
+			"url": "https://www.wikidata.org/wiki/Q1029",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "45577b40ac8f",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

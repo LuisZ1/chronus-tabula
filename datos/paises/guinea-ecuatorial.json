@@ -78,6 +78,20 @@
 			"archivo": "Coat of arms of Equatorial Guinea.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Equatorial Guinea (1973–1979).svg"
+		},
+		{
+			"archivo": "Flag of Equatorial Guinea (without coat of arms).svg",
+			"desde": 1968,
+			"hasta": 1973
+		},
+		{
+			"archivo": "Flag of Equatorial Guinea.svg",
+			"desde": 1979
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -110,14 +124,21 @@
 			"url": "https://www.wikidata.org/wiki/Q983",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q983",
+			"url": "https://www.wikidata.org/wiki/Q983",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1e6169beb82a",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

@@ -215,6 +215,20 @@
 			"archivo": "Emblem of the State of Kuwait.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Kuwait (1915–1956).svg"
+		},
+		{
+			"archivo": "Maritime Ensign of Kuwait 1956-1961.svg",
+			"desde": 1956,
+			"hasta": 1961
+		},
+		{
+			"archivo": "Flag of Kuwait.svg",
+			"desde": 1961
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q817",
@@ -256,14 +270,21 @@
 			"url": "http://www.wikidata.org/entity/Q12243161",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q817",
+			"url": "https://www.wikidata.org/wiki/Q817",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1426b6f9a883",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

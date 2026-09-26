@@ -129,6 +129,11 @@
 			"archivo": "Emblem of Guinea-Bissau.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Guinea-Bissau.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -156,14 +161,21 @@
 			"url": "https://www.wikidata.org/wiki/Q1007",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q1007",
+			"url": "https://www.wikidata.org/wiki/Q1007",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d776a10ecd7a",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

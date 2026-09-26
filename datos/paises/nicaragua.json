@@ -227,6 +227,52 @@
 			"archivo": "Coat of arms of Nicaragua.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the United Provinces of Central America.svg",
+			"desde": 1823,
+			"hasta": 1824
+		},
+		{
+			"archivo": "Flag of the Federal Republic of Central America.svg",
+			"desde": 1824,
+			"hasta": 1839
+		},
+		{
+			"archivo": "Flag of Nicaragua (1839-1858).svg",
+			"desde": 1839,
+			"hasta": 1858
+		},
+		{
+			"archivo": "Flag of Nicaragua (1858-1889 and 1893-1896).svg",
+			"desde": 1858,
+			"hasta": 1889
+		},
+		{
+			"archivo": "Flag of Nicaragua (1889–1893).svg",
+			"desde": 1889,
+			"hasta": 1893
+		},
+		{
+			"archivo": "Flag of Nicaragua (1858-1889 and 1893-1896).svg",
+			"desde": 1893,
+			"hasta": 1896
+		},
+		{
+			"archivo": "Flag of Nicaragua (1896–1908).svg",
+			"desde": 1896,
+			"hasta": 1908
+		},
+		{
+			"archivo": "Flag of Nicaragua (1908–1971).svg",
+			"desde": 1908,
+			"hasta": 1971
+		},
+		{
+			"archivo": "Flag of Nicaragua.svg",
+			"desde": 1971
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q811",
@@ -274,14 +320,21 @@
 			"url": "http://www.wikidata.org/entity/Q311355",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q811",
+			"url": "https://www.wikidata.org/wiki/Q811",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "e77df33727bd",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

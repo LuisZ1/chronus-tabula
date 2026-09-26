@@ -244,6 +244,11 @@
 			"archivo": "Emblem of Israel.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Israel.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Israel",
@@ -442,14 +447,21 @@
 			"url": "https://es.wikipedia.org/wiki/Mandato_brit%C3%A1nico_de_Palestina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q801",
+			"url": "https://www.wikidata.org/wiki/Q801",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ab2b89312ac3",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

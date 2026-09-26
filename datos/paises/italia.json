@@ -678,6 +678,27 @@
 			"desde": 1948
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Italy (1861–1946).svg",
+			"desde": 1861,
+			"hasta": 1946
+		},
+		{
+			"archivo": "Flag of Italy (1946–2003).svg",
+			"desde": 1946,
+			"hasta": 2003
+		},
+		{
+			"archivo": "Flag of Italy (2003–2006).svg",
+			"desde": 2003,
+			"hasta": 2006
+		},
+		{
+			"archivo": "Flag of Italy.svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q38",
@@ -935,14 +956,21 @@
 			"url": "http://www.wikidata.org/entity/Q451791",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q38",
+			"url": "https://www.wikidata.org/wiki/Q38",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "97360df240ed",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

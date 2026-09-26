@@ -215,6 +215,11 @@
 			"archivo": "National emblem of Papua New Guinea.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Papua New Guinea.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q691",
@@ -256,14 +261,21 @@
 			"url": "http://www.wikidata.org/entity/Q43274",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q691",
+			"url": "https://www.wikidata.org/wiki/Q691",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "805f259dc56d",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

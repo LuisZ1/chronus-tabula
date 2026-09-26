@@ -215,6 +215,22 @@
 			"archivo": "Coat of arms of Grenada.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Grenada (1903–1967).svg",
+			"desde": 1903,
+			"hasta": 1967
+		},
+		{
+			"archivo": "Flag of Grenada (1967–1974).svg",
+			"desde": 1967,
+			"hasta": 1974
+		},
+		{
+			"archivo": "Flag of Grenada.svg",
+			"desde": 1974
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q769",
@@ -256,14 +272,21 @@
 			"url": "http://www.wikidata.org/entity/Q43274",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q769",
+			"url": "https://www.wikidata.org/wiki/Q769",
+			"licencia": "CC0",
+			"consultado": "2026-09-10"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c71bbb2cf8dc",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",
