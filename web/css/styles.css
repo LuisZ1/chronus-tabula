@@ -109,7 +109,6 @@ select,
 /* respuesta al pulsar: el control reacciona al apoyar el dedo, no al soltarlo */
 .step-btn,
 .mini-btn,
-.era-chips button,
 #helpBtn {
 	transition:
 		transform 160ms var(--ease-out),
@@ -117,7 +116,6 @@ select,
 }
 .step-btn:active,
 .mini-btn:active,
-.era-chips button:active,
 #helpBtn:active {
 	transform: scale(0.97);
 }
@@ -356,36 +354,7 @@ select,
 	} /* en móvil el zoom lo dan los chips de época */
 }
 
-/* ---- Chips de época y burbuja-lupa (modo móvil) ---- */
-.era-chips {
-	display: none;
-	gap: 6px;
-	overflow-x: auto;
-	padding: 0 2px 8px;
-	-webkit-overflow-scrolling: touch;
-	scrollbar-width: none;
-}
-.era-chips::-webkit-scrollbar {
-	display: none;
-}
-.era-chips button {
-	flex: none;
-	border-radius: 999px;
-	border: 1px solid #b9c2ca;
-	background: #fff;
-	color: #345;
-	font:
-		600 13px system-ui,
-		sans-serif;
-	padding: 7px 13px;
-	min-height: 34px;
-	cursor: pointer;
-}
-.era-chips button.on {
-	background: #2d6f9e;
-	color: #fff;
-	border-color: #2d6f9e;
-}
+/* ---- Burbuja-lupa sobre el pulgar (modo móvil) ---- */
 .slider-bubble {
 	position: absolute;
 	bottom: 46px;
@@ -444,16 +413,10 @@ select,
 		height: 40px;
 		font-size: 15px;
 	}
-	.era-chips {
-		display: flex;
-	}
 	#timebar {
 		width: calc(100% - 16px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px));
 		bottom: calc(10px + env(safe-area-inset-bottom, 0px));
 		padding: 10px 12px 6px;
-	}
-	.timebar-row {
-		gap: 7px;
 	}
 	#speedSelect {
 		display: none;
@@ -464,9 +427,14 @@ select,
 		height: 44px;
 		font-size: 15px;
 	}
-	/* deslizador de pulgar: pista gruesa y pulgar de 34 px */
+	/* deslizador de pulgar: pista gruesa y pulgar de 34 px. Sin appearance:none
+	   en el propio input, Chrome/Safari ignoran la pista personalizada y el
+	   pulgar queda descentrado respecto a ella */
 	#yearSlider {
 		height: 44px;
+		-webkit-appearance: none;
+		appearance: none;
+		background: transparent;
 	}
 	#yearSlider::-webkit-slider-runnable-track {
 		height: 10px;
@@ -500,7 +468,7 @@ select,
 		display: flex;
 	}
 	#layersPanel {
-		top: calc(56px + env(safe-area-inset-top, 0px));
+		top: calc(100px + env(safe-area-inset-top, 0px));
 		max-width: 62vw;
 	}
 	.margen-row select {
@@ -568,6 +536,15 @@ select,
 	color: #555;
 	margin: 6px 0 0;
 	max-width: 300px;
+}
+
+/* ---- Idioma (topbar): select normal en escritorio, icono en móvil ---- */
+.lang-box {
+	position: relative;
+	display: inline-flex;
+}
+.lang-ico {
+	display: none;
 }
 
 /* ---- Caja de seguimiento (topbar) ---- */
@@ -1175,5 +1152,125 @@ details.fuentes {
 	#followInput {
 		width: 100%;
 		min-width: 0;
+	}
+}
+
+/* móvil: barra superior en dos filas. Arriba, el nombre centrado entre el
+   idioma (icono) y la ayuda; debajo, el buscador a todo el ancho. */
+@media (max-width: 720px) {
+	#topbar {
+		display: grid;
+		grid-template-columns: 30px 1fr 30px;
+		grid-template-areas:
+			'lang title help'
+			'follow follow follow';
+		row-gap: 6px;
+		column-gap: 8px;
+		padding: 6px 8px;
+	}
+	#topbar h1 {
+		grid-area: title;
+		text-align: center;
+		font-size: 16px;
+	}
+	.lang-box {
+		grid-area: lang;
+		width: 28px;
+		height: 28px;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #b7c4d1;
+		border-radius: 50%;
+		background: #fff;
+	}
+	.lang-ico {
+		display: block;
+		width: 18px;
+		height: 18px;
+		fill: none;
+		stroke: #2c3e50;
+		stroke-width: 1.6;
+	}
+	/* el select nativo cubre el icono, invisible: al tocar se abre el del sistema */
+	#langSelect {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		cursor: pointer;
+	}
+	#helpBtn {
+		grid-area: help;
+	}
+	.follow-box {
+		grid-area: follow;
+	}
+	#followClear {
+		flex: none;
+	}
+	/* el zoom se hace con los dedos; los botones + − quedarían bajo la barra */
+	.leaflet-control-zoom {
+		display: none;
+	}
+	.leaflet-top {
+		top: calc(92px + env(safe-area-inset-top, 0px));
+	}
+}
+
+/* móvil: barra de tiempo en filas. El deslizador ocupa todo el ancho (abarca
+   toda la historia) y las marcas van justo debajo, alineadas con él; luego los
+   extremos y «Mostrando», y abajo los controles: ▶ ◀ salto ▶ año.
+   .timebar-row pasa a display: contents para poder reordenar sus hijos. */
+@media (max-width: 720px) {
+	#timebar {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		column-gap: 7px;
+	}
+	#timebar .timebar-row:not(.labels) {
+		display: contents;
+	}
+	.slider-wrap {
+		order: 1;
+		flex: 1 0 100%;
+	}
+	/* las marcas se reparten sobre el recorrido del pulgar (34 px: 17 por lado) */
+	#timeMarksM {
+		order: 2;
+		flex: 1 0 calc(100% - 34px);
+		margin: 0 17px;
+	}
+	/* extremos y «Mostrando»: fila propia a todo el ancho */
+	#timebar .timebar-row.labels {
+		order: 3;
+		flex: 1 0 100%;
+	}
+	#playBtn {
+		order: 4;
+		margin-top: 8px;
+	}
+	#prevYear {
+		order: 5;
+		margin-top: 8px;
+	}
+	.paso-info {
+		order: 6;
+		flex: 1;
+		margin: 8px 0 0;
+		gap: 4px;
+		white-space: nowrap;
+	}
+	.paso-info .pi-a {
+		display: none; /* las flechas de verdad están al lado */
+	}
+	#nextYear {
+		order: 7;
+		margin-top: 8px;
+	}
+	#yearInput {
+		order: 8;
+		margin-top: 8px;
 	}
 }

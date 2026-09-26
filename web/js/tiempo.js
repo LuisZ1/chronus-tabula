@@ -33,54 +33,35 @@ function winYearToPos(y) {
 	return Math.round(Math.max(0, Math.min(1, f)) * SLIDER_MAX);
 }
 
-/* ---------- modo móvil: zoom temporal por épocas ----------
-   En pantallas pequeñas el rango completo (5.026 años) deja ~15 años por
-   píxel: imposible de manejar con el dedo. Solución: chips de época que
-   acotan el deslizador al tramo elegido (1-2 años/px) + burbuja-lupa
-   sobre el pulgar. En escritorio nada cambia. */
+/* ---------- modo móvil: toda la historia en escala no lineal ----------
+   En pantallas pequeñas no hay navegador de zoom: el deslizador abarca de
+   3000 a. C. a hoy con la escala no lineal de TIME_SEGMENTS (1500–hoy ocupa
+   la mitad de la barra). Para afinar: flechas ◀ ▶ (salto según la densidad
+   del tramo), la casilla del año y la burbuja-lupa sobre el pulgar. */
 
 const mqMobile = window.matchMedia('(max-width: 720px)');
 function isMobile() {
 	return mqMobile.matches;
 }
 
-const ERAS = [
-	{ key: 'era.ancient', from: -3000, to: 500 },
-	{ key: 'era.medieval', from: 500, to: 1500 },
-	{ key: 'era.earlymodern', from: 1500, to: 1800 },
-	{ key: 'era.contemporary', from: 1800, to: 1950 },
-	{ key: 'era.modern', from: 1950, to: MAX_YEAR }
-];
-let activeEra = 2;
 
-function eraFor(y) {
-	for (let i = ERAS.length - 1; i > 0; i--) if (y >= ERAS[i].from) return i;
-	return 0;
-}
-
-/* mapeo posición↔año vigente: época activa en móvil, ventana del navegador en escritorio */
+/* mapeo posición↔año vigente: escala no lineal completa en móvil, ventana del navegador en escritorio */
 function curYearToPos(y) {
-	if (!isMobile()) return winYearToPos(y);
-	const e = ERAS[activeEra];
-	y = Math.max(e.from, Math.min(e.to, y));
-	return Math.round(((y - e.from) / (e.to - e.from)) * SLIDER_MAX);
+	return isMobile() ? yearToPos(y) : winYearToPos(y);
 }
 function curPosToYear(p) {
-	if (!isMobile()) return winPosToYear(p);
-	const e = ERAS[activeEra];
-	return Math.round(e.from + (p / SLIDER_MAX) * (e.to - e.from));
+	return isMobile() ? posToYear(p) : winPosToYear(p);
 }
 
 /* etiquetas de los extremos de la barra: siempre muestran el tramo que abarca
-   (la ventana del navegador en escritorio, la época activa en móvil) */
+   (la ventana del navegador en escritorio, toda la historia en móvil) */
 function updateEdgeLabels() {
 	const lo = document.getElementById('edgeLo'),
 		hi = document.getElementById('edgeHi');
 	if (!lo || !hi) return;
 	if (isMobile()) {
-		const e = ERAS[activeEra];
-		lo.textContent = i18n.formatYear(e.from);
-		hi.textContent = i18n.formatYear(e.to);
+		lo.textContent = i18n.formatYear(RANGO_MIN);
+		hi.textContent = i18n.formatYear(MAX_YEAR);
 	} else {
 		lo.textContent = i18n.formatYear(viewLo);
 		hi.textContent = i18n.formatYear(viewHi);
@@ -163,33 +144,6 @@ function setupNavigator() {
 	navRender();
 }
 
-function updateEraChips() {
-	const box = document.getElementById('eraChips');
-	if (!box) return;
-	if (!box.children.length) {
-		ERAS.forEach((e, i) => {
-			const b = document.createElement('button');
-			b.type = 'button';
-			b.addEventListener('click', () => {
-				activeEra = i;
-				const y = Math.max(e.from, Math.min(e.to, state.requestedYear));
-				updateEraChips();
-				buildTimeMarks();
-				requestYear(y, { force: true });
-			});
-			box.appendChild(b);
-		});
-	}
-	[...box.children].forEach((b, i) => {
-		b.textContent = i18n.t(ERAS[i].key);
-		b.classList.toggle('on', i === activeEra);
-	});
-	const on = box.children[activeEra];
-	if (on && on.scrollIntoView) on.scrollIntoView({ inline: 'center', block: 'nearest' });
-	updateEdgeLabels(); // que los extremos coincidan siempre con la época activa
-	actualizarPasoFlechas();
-}
-
 function yearToPos(y) {
 	y = Math.max(TIME_SEGMENTS[0].from, Math.min(TIME_SEGMENTS[TIME_SEGMENTS.length - 1].to, y));
 	let acc = 0;
@@ -264,10 +218,9 @@ function buildTimeMarks() {
 	closeMarkPop();
 	box.innerHTML = '';
 	const keys = followKeys();
-	// solo las marcas del tramo que abarca la barra: la época activa en móvil,
+	// solo las marcas del tramo que abarca la barra: todo en móvil,
 	// la ventana del navegador en escritorio
-	const enRango = y =>
-		isMobile() ? y >= ERAS[activeEra].from && y <= ERAS[activeEra].to : y >= viewLo && y <= viewHi;
+	const enRango = y => isMobile() || (y >= viewLo && y <= viewHi);
 
 	const lanes = [
 		{
@@ -290,7 +243,9 @@ function buildTimeMarks() {
 	// con el número) y las hacemos tocables; en escritorio, marcas finas y densas.
 	const mob = isMobile();
 	const gap = 1.5; // escritorio: encadenado fino por proximidad
-	const binW = 13; // móvil: ancho de cada casilla (%) -> ~7-8 pastillas por carril
+	// móvil: ancho de cada casilla (%) -> ~7-8 pastillas por carril; en pantallas
+	// estrechas, casillas de al menos ~46 px para que las pastillas no se pisen
+	const binW = Math.max(13, 4600 / (box.clientWidth || 330));
 
 	for (const lane of lanes) {
 		lane.items.sort((a, b) => a.y - b.y);
@@ -381,7 +336,16 @@ function buildTimeMarks() {
    proporcional al tramo visible — fina al acercar, amplia al ver todo — para que
    el usuario siempre sepa cuánto avanza (el tooltip lo muestra). */
 function pasoFlechas() {
-	const span = isMobile() ? ERAS[activeEra].to - ERAS[activeEra].from : viewHi - viewLo;
+	let span = viewHi - viewLo;
+	if (isMobile()) {
+		// escala no lineal: el salto sigue la densidad del tramo del año actual
+		// (años que valdría la barra entera a esa densidad): ~25 años desde 1500,
+		// ~50 en la Edad Media, ~250 en la Antigüedad
+		const y = state.requestedYear == null ? 1500 : state.requestedYear;
+		const s =
+			TIME_SEGMENTS.find(t => y < t.to) || TIME_SEGMENTS[TIME_SEGMENTS.length - 1];
+		span = ((s.to - s.from) * SLIDER_MAX) / s.w;
+	}
 	const raw = span / 100;
 	return [1, 2, 5, 10, 25, 50, 100, 250, 500].find(n => n >= raw) || 1000;
 }
@@ -410,13 +374,7 @@ function requestYear(y, opts = {}) {
 	if (!opts.fromPlay) stopPlay();
 	state.requestedYear = y;
 	if (isMobile()) {
-		// sincronizar la época activa con el año
-		const ei = eraFor(y);
-		if (ei !== activeEra) {
-			activeEra = ei;
-			updateEraChips();
-			buildTimeMarks();
-		}
+		actualizarPasoFlechas(); // el salto depende del tramo del año actual
 	} else if (y < viewLo || y > viewHi) {
 		// el año pedido cae fuera de la ventana visible: desplázala para incluirlo
 		const w = viewHi - viewLo;
@@ -513,7 +471,7 @@ function setupControls() {
 			refreshLayersControl();
 			updateLegend();
 			buildTimeMarks();
-			updateEraChips();
+			updateEdgeLabels();
 			actualizarPasoFlechas();
 			updateYearPanel();
 		});
