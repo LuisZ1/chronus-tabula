@@ -612,6 +612,8 @@ class Manejador(SimpleHTTPRequestHandler):
     def api_fichas_get(self, partes):
         if partes == ["_esquemas"]:
             return self._fichas(editor.esquemas)
+        if partes == ["_entidades"]:
+            return self._fichas(editor.entidades)
         if len(partes) == 1:
             return self._fichas(lambda: editor.listar(partes[0]))
         if len(partes) == 2:

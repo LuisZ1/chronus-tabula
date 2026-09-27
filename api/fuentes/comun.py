@@ -15,6 +15,8 @@ import sys
 import time
 from datetime import date
 
+import vinculos as _vinculos  # noqa: E402 — mismo directorio (api/fuentes)
+
 # Windows usa cp1252 en consolas y tuberías, incapaz de imprimir ✔ ⚠ ✘:
 # forzamos UTF-8 en la salida de todos los scripts del pipeline.
 for _flujo in (sys.stdout, sys.stderr):
@@ -114,7 +116,7 @@ def _orden(coleccion):
 # ---------------------------------------------------------------------------
 ORDEN_CLAVES = {
     "paises": ["id", "nombre", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
-               "owid", "relacionados", "resena", "gobernantes", "poblacion", "escudos",
+               "owid", "relacionados", "vinculos", "resena", "gobernantes", "poblacion", "escudos",
                "banderas", "fuentes", "revision"],
     "conflictos": ["id", "nombre", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
                    "zonas", "batallas", "fuentes"],
@@ -131,6 +133,7 @@ ORDEN_SUBCLAVES = {
     "banderas": ["archivo", "desde", "hasta"],
     "fuentes": ["id", "url", "licencia", "consultado"],
     "revision": ["estado", "fecha", "por", "hash", "secciones"],
+    "vinculos": ["id", "tipo", "desde", "hasta"],
     "zonas": ["nombre", "tipo", "mar", "desde", "hasta", "color", "poligono"],
     "batallas": ["nombre", "anio", "hasta", "lat", "lng", "descripcion", "bajas", "wiki"],
 }
@@ -149,6 +152,7 @@ ORDEN_LISTAS = {
     "escudos": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("archivo") or ""),
     "banderas": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("archivo") or ""),
     "batallas": lambda b: (_num(b.get("anio")), _num(b.get("hasta")), b.get("nombre") or ""),
+    "vinculos": lambda v: _vinculos.orden(v),
 }
 
 

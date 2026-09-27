@@ -11,7 +11,8 @@ Lee datos/ (un fichero por país, conflicto, evento y territorio) y comprueba:
     obligatorios, patrones), avisando de claves desconocidas;
   · coherencia de años, coordenadas y polígonos;
   · que los nombres de países existan en los mapas GeoJSON;
-  · que las referencias entre fichas (territorio → país, relacionados) resuelvan;
+  · que las referencias entre fichas resuelvan (territorio → país) y que los
+    vínculos entre países (predecesor, sucesor, parte_de, incluye) sean recíprocos;
   · que la marca de revisión (revision.hash) siga cuadrando con los datos. Cada aviso o error indica la
 entidad afectada («paises/angola» ↔ datos/paises/angola.json). Termina con
 código 0 si todo es válido y 1 si hay errores.
@@ -33,6 +34,7 @@ GEOJSON_DIR = os.path.join(RAIZ, "web", "data", "geojson")
 SCHEMA_DIR = os.path.join(RAIZ, "schema")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
 from comun import cargar_historia, hash_revision, DATOS  # noqa: E402
+import vinculos as VI  # noqa: E402
 
 # colección → fichero de esquema en schema/
 ESQUEMAS = {"paises": "pais.json", "conflictos": "conflicto.json",
@@ -243,6 +245,7 @@ def main():
 
     # 3) países
     ids = set()
+    todos_ids = {p.get("id") for p in d.get("paises", []) if isinstance(p, dict)}
     for p in d.get("paises", []):
         donde = f"paises/{p.get('id', '¿sin id?')}"
         for campo in ("id", "nombres"):
@@ -310,7 +313,9 @@ def main():
                     err(donde, f"{singular} '{e.get('archivo')}': 'desde' debe ser año entero o ausente")
                 elif e.get("hasta") is not None and not es_anio(e.get("hasta")):
                     err(donde, f"{singular} '{e.get('archivo')}': 'hasta' debe ser año entero o ausente")
+        VI.comprobar(p, todos_ids, err, aviso, donde)
         valida_fuentes(donde, p)
+    VI.comprobar_reciprocos(d.get("paises", []), aviso)
 
     # 4) conflictos
     cids = set()
@@ -379,10 +384,14 @@ def main():
                 nombres_pais.add(parte.strip().lower())
         for n in p.get("nombres", []) + p.get("relacionados", []):
             nombres_pais.add(str(n).lower())
+    # 'relacionados' es para alias; si un nombre es otra ficha, debe ser un vínculo
     for p in d.get("paises", []):
+        enlazados = {v.get("id") for v in p.get("vinculos", []) if isinstance(v, dict)}
         for n in p.get("relacionados", []):
-            if str(n).lower() not in nombres_pais:
-                aviso(f"paises/{p.get('id')}", f"'relacionados' cita {n!r}, que no es el nombre de ninguna ficha de 'paises'")
+            otra = VI.resolver(n, d.get("paises", []), excluir=p.get("id"))
+            if otra and otra not in enlazados:
+                aviso(f"paises/{p.get('id')}", f"'relacionados' cita {n!r}, que es la ficha paises/{otra}: "
+                                               "conviértelo en un vínculo (asistente del panel o python api/vincular.py)")
     for t in d.get("territorios", []):
         donde = f"territorios/'{t.get('nombre', '?')}'"
         for campo in ("nombre", "pais", "desde"):

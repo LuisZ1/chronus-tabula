@@ -114,7 +114,10 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
   "nombre": "Suecia",                      // título del popup, en español
   "nombres": ["Sweden", "Sweden–Norway"],  // ★ nombres EXACTOS en los mapas GeoJSON
   "wiki": "Suecia",                        // (opcional) artículo de es.wikipedia si difiere de "nombre"
-  "relacionados": ["Reino de Suecia"],     // (opcional) linaje/alias para el filtro histórico
+  "relacionados": ["Reino de Suecia"],     // (opcional) alias en español que no son otra ficha
+  "vinculos": [                            // (opcional) relación con OTRAS fichas, por su id
+    { "id": "vikingos", "tipo": "predecesor" }  // la otra ficha existía antes y dio paso a esta
+  ],
   "gobernantes": [                         // (opcional) reinados; se muestra el del año elegido
     { "desde": 1611, "hasta": 1632, "nombre": "Gustavo II Adolfo", "titulo": "Rey de Suecia" }
   ],
@@ -132,7 +135,9 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
 ```
 
 - `nombres` es el campo clave: debe copiar **letra por letra** cómo aparece la entidad en los ficheros `web/data/geojson/world_*.geojson` (campos `NAME` o `SUBJECTO`). El mismo reino cambia de nombre entre siglos («Castilla» → «Castile» → «Castille»), así que la lista puede tener varios. [Cómo averiguarlos](#trucos).
-- `relacionados` alimenta el filtro «Seguir un reino»: son los nombres de entidades predecesoras o aliadas cuya historia también pertenece a este país (España hereda «Corona de Castilla», «Califato de Córdoba»…). Se comparan con los `paises` de conflictos y eventos.
+- `vinculos` une la ficha con otras por su `id`, con un `tipo`: `predecesor` (existía antes y dio paso a esta), `sucesor` (vino después), `parte_de` (esta formaba parte de la otra) o `incluye` (la otra formaba parte de esta). `desde`/`hasta` son opcionales y acotan cuándo vale. Son **recíprocos**: si España tiene a Castilla como `predecesor`, Castilla tiene a España como `sucesor`. El asistente del panel escribe el inverso solo; a mano, añádelo tú (el validador avisa si falta).
+- Al **seguir un reino** en el mapa se resaltan él, sus predecesores y lo que incluye, en cadena (España → Corona de Castilla → Reino de León), y la barra de tiempo muestra las guerras y acontecimientos de todos ellos. Por eso conviene vincular bien el linaje.
+- `relacionados` queda para alias en español que no son otra ficha («Reino de Suecia», «Alto Volta»). Se comparan con los `paises` de conflictos y eventos y los usa el buscador. Si un nombre de `relacionados` es otra ficha, el validador te pedirá convertirlo en vínculo (`python api/vincular.py` lo hace de golpe, deduciendo el tipo por los años de los mapas; revisa el diff).
 - Si dos gobernantes se solapan en un año (corregencias, guerras civiles), la ficha muestra ambos.
 - `escudos` y `banderas` los rellenan los conectores de Wikidata (P94 y P41) con su vigencia; junto al nombre de cada país el mapa muestra el vigente en el año, y el usuario elige en el panel de capas si ver escudos o banderas (uno u otro). Si la ficha no trae el campo, el mapa consulta el actual en vivo.
 
@@ -291,7 +296,7 @@ Antes de abrir el merge request:
 python api/validar.py
 ```
 
-El validador comprueba: JSON bien formado (señalando el fichero y la línea), la **estructura de cada ficha contra su esquema** de `schema/` (tipos, obligatorios, patrones, claves desconocidas), ids únicos, coherencia de años (`desde ≤ hasta`, batallas y zonas dentro de su conflicto), coordenadas y polígonos en rango, tipos de zona válidos, que los `nombres` de países existan en algún GeoJSON, que las **referencias entre fichas** resuelvan (`pais` de un territorio y `relacionados` de un país deben nombrar fichas de `paises`), que haya `fuentes` y que las marcas `revision` sigan cuadrando. Los ✘ bloquean; los ⚠ son avisos. Si todo va bien termina con `✔ datos válidos`. Antes, `python api/formatear.py --check` te dice si algún fichero no está en formato canónico (el CI ejecuta ambos y no publica si alguno falla).
+El validador comprueba: JSON bien formado (señalando el fichero y la línea), la **estructura de cada ficha contra su esquema** de `schema/` (tipos, obligatorios, patrones, claves desconocidas), ids únicos, coherencia de años (`desde ≤ hasta`, batallas y zonas dentro de su conflicto), coordenadas y polígonos en rango, tipos de zona válidos, que los `nombres` de países existan en algún GeoJSON, que las **referencias entre fichas** resuelvan (el `pais` de un territorio debe nombrar una ficha de `paises`; los `vinculos` deben apuntar a ids existentes y tener su inverso), que haya `fuentes` y que las marcas `revision` sigan cuadrando. Los ✘ bloquean; los ⚠ son avisos. Si todo va bien termina con `✔ datos válidos`. Antes, `python api/formatear.py --check` te dice si algún fichero no está en formato canónico (el CI ejecuta ambos y no publica si alguno falla).
 
 Después, prueba visual: arranca el servidor, ve a los años que tocan tus datos y comprueba que las zonas caen donde deben, que la ficha se abre y que el filtro «Seguir un reino» encuentra tu entidad (si tocaste `paises`).
 
