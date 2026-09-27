@@ -78,6 +78,17 @@ function navRender() {
 }
 
 // aplica un cambio de ventana: repinta navegador, marcas, etiquetas y reubica el pulgar
+/* arrastre del navegador: como mucho una reconstrucción por frame (cada
+   pointermove rehacía todas las marcas; con ratones de 1000 Hz, a tirones) */
+let viewRaf = 0;
+function applyViewPronto() {
+	if (viewRaf) return;
+	viewRaf = requestAnimationFrame(() => {
+		viewRaf = 0;
+		applyView();
+	});
+}
+
 function applyView() {
 	navRender();
 	if (historia) buildTimeMarks();
@@ -133,9 +144,20 @@ function setupNavigator() {
 		}
 		viewLo = Math.round(RANGO_MIN + loF * RANGO_SPAN);
 		viewHi = Math.round(RANGO_MIN + hiF * RANGO_SPAN);
-		applyView();
+		applyViewPronto();
 	});
-	['pointerup', 'pointercancel'].forEach(ev => nav.addEventListener(ev, () => (mode = null)));
+	['pointerup', 'pointercancel'].forEach(ev =>
+		nav.addEventListener(ev, () => {
+			if (!mode) return;
+			mode = null;
+			// pasada final síncrona: el estado al soltar es exacto
+			if (viewRaf) {
+				cancelAnimationFrame(viewRaf);
+				viewRaf = 0;
+			}
+			applyView();
+		})
+	);
 	nav.addEventListener('dblclick', () => {
 		viewLo = RANGO_MIN;
 		viewHi = MAX_YEAR;
@@ -187,7 +209,7 @@ function markAction(it) {
 	if (it.tipo === 'war') {
 		requestYear(it.c.inicio);
 		const b = conflictBounds(it.c);
-		if (b) map.fitBounds(b, { maxZoom: 6, padding: [40, 40] });
+		if (b) encuadrar(b, { maxZoom: 6, padding: [40, 40] });
 	} else {
 		requestYear(it.ev.anio);
 		volarYAbrir(it.ev.lat, it.ev.lng, () => eventPopupHtml(it.ev));
@@ -394,6 +416,8 @@ function requestYear(y, opts = {}) {
 	slider.value = curYearToPos(y);
 	updateShownLabel(nearestYear(y));
 	clearTimeout(yearDebounce);
+	// solo el arrastre del deslizador espera 250 ms (dispara input sin parar);
+	// flechas, marcas, paneles, la casilla del año y la reproducción responden al instante
 	yearDebounce = setTimeout(
 		() => {
 			showYear(y);
@@ -404,7 +428,7 @@ function requestYear(y, opts = {}) {
 			updateYearPanel();
 			writeHash();
 		},
-		opts.fromPlay ? 0 : 250
+		opts.fromSlider ? 250 : 0
 	);
 }
 
@@ -441,7 +465,7 @@ function setupControls() {
 	const input = document.getElementById('yearInput');
 
 	slider.addEventListener('input', () => {
-		requestYear(curPosToYear(+slider.value));
+		requestYear(curPosToYear(+slider.value), { fromSlider: true });
 		showSliderBubble(slider);
 	});
 	['change', 'pointerup', 'pointercancel', 'touchend', 'blur'].forEach(ev =>

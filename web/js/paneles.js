@@ -46,7 +46,7 @@ function setupLegend() {
 		if (!row) return;
 		const e = state.legendData[+row.dataset.i];
 		if (!e) return;
-		map.fitBounds(
+		encuadrar(
 			[
 				[e.minLat, e.minLng],
 				[e.maxLat, e.maxLng]
@@ -147,7 +147,7 @@ function setupYearPanel() {
 		if (!row) return;
 		const c = (historia.conflictos || []).find(x => x.id === row.dataset.war);
 		const b = c && conflictBounds(c);
-		if (b) map.fitBounds(b, { maxZoom: 6, padding: [40, 40] });
+		if (b) encuadrar(b, { maxZoom: 6, padding: [40, 40] });
 	});
 
 	document.getElementById('ypFacts').addEventListener('click', ev => {
@@ -173,7 +173,7 @@ function volarYAbrir(lat, lng, html) {
 		L.popup({ maxWidth: 340 }).setLatLng([lat, lng]).setContent(html()).openOn(map);
 	};
 	map.once('moveend', abrir);
-	map.flyTo([lat, lng], Math.max(map.getZoom(), 5));
+	volarA([lat, lng], Math.max(map.getZoom(), 5));
 	setTimeout(abrir, 3000);
 }
 

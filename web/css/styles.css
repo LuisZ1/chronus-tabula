@@ -262,6 +262,28 @@ select,
 }
 
 /* ---- Popup ---- */
+/* fichas de Leaflet: fundido de 150 ms con curva de salida y escala desde la punta
+   (el punto pulsado). Leaflet coloca la ficha con transform en línea: por eso se
+   usa la propiedad independiente `scale`, que se compone con él. La opacidad la
+   anima Leaflet (en línea, 0 → 1); aquí solo cambian curva y duración. */
+.leaflet-fade-anim .leaflet-popup {
+	transform-origin: 50% 100%;
+	transition:
+		opacity 150ms var(--ease-out),
+		scale 150ms var(--ease-out);
+}
+@starting-style {
+	.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+		scale: 0.96;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	@starting-style {
+		.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+			scale: 1;
+		}
+	}
+}
 .territory-popup h3 {
 	margin: 0 0 6px;
 	font-size: 15px;
