@@ -46,6 +46,7 @@ const prefs = {
 	emblema: 'escudo', // cuál: 'escudo' (P94) o 'bandera' (P41), uno u otro
 	relleno: true,
 	territorios: true,
+	territorial: false, // al seguir un reino, incluir sus antecesores territoriales
 	margen: 0
 };
 try {

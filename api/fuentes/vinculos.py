@@ -10,10 +10,17 @@ relación tienen:
         {"id": "portugal", "tipo": "incluye", "desde": 1580, "hasta": 1640}
     ]
 
-    predecesor  la otra entidad existía antes y dio paso a esta
-    sucesor     la otra entidad vino después de esta
-    parte_de    esta entidad formaba parte de la otra
-    incluye     la otra entidad (territorio, colonia, reino) formaba parte de esta
+    predecesor            continuidad política: esta hereda el Estado, la dinastía
+                          o las instituciones de la otra (Castilla → España),
+                          directamente o a través de Estados de la misma línea
+                          que no tienen ficha
+    sucesor               el inverso: la otra heredó el Estado de esta
+    parte_de              esta entidad formaba parte de la otra
+    incluye               la otra entidad (territorio, colonia, reino) formaba parte de esta
+    antecesor_territorial la otra gobernó antes (parte de) este territorio, pero hubo
+                          ruptura: conquista o un Estado nuevo que no la continúa
+                          (Califato de Córdoba → España, Imperio azteca → México)
+    sucesor_territorial   el inverso: la otra gobernó después este territorio
 
 Los vínculos son siempre recíprocos: si España tiene a Castilla como
 predecesor, Castilla tiene a España como sucesor, con los mismos años. El
@@ -21,13 +28,15 @@ asistente del panel escribe el inverso automáticamente (reciprocos()) y
 api/validar.py avisa si falta alguno.
 
 Al seguir una entidad en el mapa se resaltan ella, sus predecesores y lo que
-incluye, siguiendo la cadena (España → Castilla → León). 'desde'/'hasta' son
+incluye, siguiendo la cadena (España → Castilla → León); los antecesores
+territoriales solo si se activa esa opción en el panel de capas. 'desde'/'hasta' son
 opcionales y acotan los años en que vale el vínculo.
 Solo librería estándar.
 """
 import unicodedata
 
-INVERSO = {"predecesor": "sucesor", "sucesor": "predecesor", "parte_de": "incluye", "incluye": "parte_de"}
+INVERSO = {"predecesor": "sucesor", "sucesor": "predecesor", "parte_de": "incluye", "incluye": "parte_de",
+           "antecesor_territorial": "sucesor_territorial", "sucesor_territorial": "antecesor_territorial"}
 TIPOS = tuple(INVERSO)
 ORDEN_TIPO = {t: i for i, t in enumerate(TIPOS)}
 

@@ -96,7 +96,7 @@
 		},
 		"vinculos": {
 			"type": "array",
-			"description": "Relación con otras fichas de países, por su id. Es recíproca: el inverso se escribe en la otra ficha (predecesor↔sucesor, parte_de↔incluye). Al seguir esta entidad en el mapa se resaltan también sus predecesores y lo que incluye, en cadena",
+			"description": "Relación con otras fichas de países, por su id. Es recíproca: el inverso se escribe en la otra ficha (predecesor↔sucesor, parte_de↔incluye, antecesor_territorial↔sucesor_territorial). Al seguir esta entidad en el mapa se resaltan también sus predecesores y lo que incluye, en cadena; los antecesores territoriales, solo si se activa esa opción",
 			"items": {
 				"type": "object",
 				"required": [
@@ -114,9 +114,11 @@
 							"predecesor",
 							"sucesor",
 							"parte_de",
-							"incluye"
+							"incluye",
+							"antecesor_territorial",
+							"sucesor_territorial"
 						],
-						"description": "predecesor: existía antes y dio paso a esta · sucesor: vino después · parte_de: esta formaba parte de la otra · incluye: la otra formaba parte de esta"
+						"description": "predecesor: continuidad política (esta hereda su Estado, dinastía o instituciones) · sucesor: el inverso · parte_de: esta formaba parte de la otra · incluye: la otra formaba parte de esta · antecesor_territorial: la otra gobernó antes este territorio, pero hubo ruptura (conquista, Estado nuevo) · sucesor_territorial: el inverso"
 					},
 					"desde": {
 						"type": [

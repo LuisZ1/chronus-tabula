@@ -218,6 +218,16 @@ function setupLayersPanel() {
 		if (typeof updateLabels === 'function') updateLabels();
 	});
 	bind('lyRelleno', 'relleno');
+	// seguir también a los antecesores territoriales: cambia qué se resalta
+	const ter = document.getElementById('lyTerritorial');
+	if (ter) {
+		ter.checked = !!prefs.territorial;
+		ter.addEventListener('change', () => {
+			prefs.territorial = ter.checked;
+			savePrefs();
+			if (state.follow) setFollow(state.follow);
+		});
+	}
 	bind('lyTerritorios', 'territorios');
 	// margen de años: cuántos años alrededor del elegido se muestran batallas y eventos
 	const sel = document.getElementById('margenSelect');
