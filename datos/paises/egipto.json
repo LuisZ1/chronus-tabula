@@ -72,7 +72,7 @@
 	"vinculos": [
 		{
 			"id": "ptolemaico",
-			"tipo": "predecesor"
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Egipto, oficialmente la República Árabe de Egipto, es un país soberano transcontinental. Está ubicado mayoritariamente en el extremo nororiental de África, mientras que en Asia se encuentra la península del Sinaí.",

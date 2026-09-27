@@ -7,23 +7,7 @@
 	"wiki": "República Popular China",
 	"vinculos": [
 		{
-			"id": "han",
-			"tipo": "predecesor"
-		},
-		{
-			"id": "ming",
-			"tipo": "predecesor"
-		},
-		{
 			"id": "qing",
-			"tipo": "predecesor"
-		},
-		{
-			"id": "song",
-			"tipo": "predecesor"
-		},
-		{
-			"id": "tang",
 			"tipo": "predecesor"
 		}
 	],

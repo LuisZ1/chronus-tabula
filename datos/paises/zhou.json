@@ -5,6 +5,12 @@
 		"Zhou states"
 	],
 	"wiki": "Dinastía Zhou",
+	"vinculos": [
+		{
+			"id": "qin",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "La dinastía Zhou fue una dinastía china que gobernó entre los años 1046 y 256 a. C.",
 	"gobernantes": [
 		{

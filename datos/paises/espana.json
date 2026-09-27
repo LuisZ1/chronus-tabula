@@ -23,10 +23,6 @@
 	],
 	"vinculos": [
 		{
-			"id": "almohade",
-			"tipo": "predecesor"
-		},
-		{
 			"id": "aragon",
 			"tipo": "predecesor"
 		},
@@ -35,30 +31,40 @@
 			"tipo": "predecesor"
 		},
 		{
-			"id": "cordoba",
-			"tipo": "predecesor"
-		},
-		{
-			"id": "granada",
-			"tipo": "predecesor"
-		},
-		{
-			"id": "leon",
-			"tipo": "predecesor"
-		},
-		{
 			"id": "navarra",
 			"tipo": "predecesor"
 		},
 		{
-			"id": "omeya",
-			"tipo": "predecesor"
+			"id": "mexico",
+			"tipo": "incluye",
+			"desde": 1521,
+			"hasta": 1821
 		},
 		{
 			"id": "peru",
 			"tipo": "incluye",
 			"desde": 1542,
 			"hasta": 1824
+		},
+		{
+			"id": "almohade",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "cordoba",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "granada",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "omeya",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "visigodos",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "España, formalmente Reino de España, es un país soberano transcontinental situado principalmente en el suroeste de Europa y, en menor medida, en el norte de África. Constituido en un Estado social y Estado de Derecho, su forma de gobierno es la monarquía parlamentaria.",

@@ -6,7 +6,11 @@
 	],
 	"vinculos": [
 		{
-			"id": "espana",
+			"id": "asturias",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "castilla",
 			"tipo": "sucesor"
 		}
 	],

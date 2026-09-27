@@ -10,11 +10,7 @@
 			"tipo": "predecesor"
 		},
 		{
-			"id": "ming",
-			"tipo": "sucesor"
-		},
-		{
-			"id": "rpchina",
+			"id": "sui",
 			"tipo": "sucesor"
 		}
 	],

@@ -10,7 +10,7 @@
 	"vinculos": [
 		{
 			"id": "peru",
-			"tipo": "sucesor"
+			"tipo": "sucesor_territorial"
 		}
 	],
 	"gobernantes": [

@@ -9,7 +9,11 @@
 	],
 	"vinculos": [
 		{
-			"id": "rpchina",
+			"id": "sui",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "song",
 			"tipo": "sucesor"
 		}
 	],
