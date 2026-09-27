@@ -20,7 +20,7 @@ body {
 #map {
 	position: absolute;
 	inset: 0;
-	background: #d4e6f1;
+	background: var(--mar, #cfe2ef);
 }
 
 /* ---- Barra superior ---- */
@@ -1402,3 +1402,44 @@ body {
 #topbar {
 	z-index: 1010;
 }
+
+/* ---- Mapa mural (css/marca.css): rótulos de lámina y paneles impresos ---- */
+/* nombres de entidades como en un mapa mural: mayúsculas condensadas */
+.map-label {
+	font-size: 11px;
+	font-weight: 700;
+	font-stretch: 78%;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--tinta);
+}
+#topbar,
+#timebar,
+#layersPanel,
+#legendPanel,
+#yearPanel,
+#loading {
+	border: 1px solid var(--linea-suave);
+}
+#topbar h1 {
+	font-stretch: 70%;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+.panel-title,
+.yp-sec {
+	font-stretch: 75%;
+	letter-spacing: 0.06em;
+}
+#showingLabel strong,
+#shownYear {
+	font-stretch: 75%;
+	font-weight: 800;
+}
+.battle-label,
+.event-label,
+.terr-label {
+	border-radius: 2px;
+}
+

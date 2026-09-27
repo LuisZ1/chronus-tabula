@@ -86,14 +86,17 @@ function fileForYear(y) {
 	return y < 0 ? `data/geojson/world_bc${-y}.geojson` : `data/geojson/world_${y}.geojson`;
 }
 
-/* Color estable por entidad soberana: el mismo reino conserva su color
-   en todos los años. Hash del nombre -> tono HSL. */
+/* tintas del mapa mural (css/marca.css): ocho colores planos de lámina, cada uno
+   en dos tonos, repartidos por hash del nombre. Así una entidad conserva su color
+   en todos los años y dos vecinas rara vez coinciden. */
+const TINTAS_MAPA = [
+	'#eaa39b', '#f1d06e', '#a9d18e', '#f2b27a', '#bda6d8', '#9cc7e0', '#d8b48a', '#b3d3c1',
+	'#df8f86', '#e6bf52', '#93c077', '#e89e5f', '#a78fc9', '#84b5d3', '#c9a072', '#98c2ab'
+];
 function colorFor(name) {
 	let h = 0;
 	for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
-	const hue = h % 360;
-	const light = 52 + (h % 17); // 52–68 %
-	return `hsl(${hue}, 62%, ${light}%)`;
+	return TINTAS_MAPA[h % TINTAS_MAPA.length];
 }
 
 function setLoading(on) {

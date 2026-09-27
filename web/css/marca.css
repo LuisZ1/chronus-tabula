@@ -1,19 +1,52 @@
 /* Chronus Tabula — marca.css
-   Sistema visual compartido: portada (index.html), colaborar.html, el mapa
-   (mapa.html) y el panel de administración (admin.html). Cargar ANTES que la
-   hoja propia de cada página; aquí solo van tokens, la base tipográfica y unos
-   pocos componentes comunes (botones, enlaces, chips, foco).
+   Sistema visual común de la portada (index.html), colaborar.html, el mapa
+   (mapa.html) y el panel de administración (admin.html). Se carga ANTES que la
+   hoja propia de cada página: aquí van los tokens, la base tipográfica, los
+   componentes comunes (botones, enlaces, chips, iconos, foco) y las superficies
+   del navegador (selección, cursor de texto, barras de desplazamiento).
 
-   Estilo: sencillo y claro, a la manera de apple.com. Una sola familia
-   (Montserrat), fondos blancos y gris muy claro, tinta casi negra, un único
-   color de acento y jerarquía por tamaño y peso, no por color. */
+   Mundo: el mapa mural del aula. Papel blanco frío, tinta en filetes de 1,5 px,
+   azul océano que ocupa superficies enteras, tintas políticas planas y el rojo
+   de las batallas. Tipografía Archivo (autoalojada, variable en anchura): la
+   versión condensada en mayúsculas para títulos, años y rótulos, como en una
+   lámina impresa; la normal para leer. Esquinas casi rectas, sin cristal. */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/* Archivo (Omnibus-Type, SIL OFL 1.1; licencia en lib/fuentes/). Variable en
+   peso (100–900) y anchura (62–125 %). */
+@font-face {
+	font-family: 'Archivo';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100 900;
+	font-stretch: 62% 125%;
+	src: url('../lib/fuentes/archivo-latin-wdth-normal.woff2') format('woff2-variations');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+		U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: 'Archivo';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 100 900;
+	font-stretch: 62% 125%;
+	src: url('../lib/fuentes/archivo-latin-ext-wdth-normal.woff2') format('woff2-variations');
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1D00-1DBF, U+1E00-1E9F,
+		U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: 'Archivo';
+	font-style: italic;
+	font-display: swap;
+	font-weight: 100 900;
+	font-stretch: 62% 125%;
+	src: url('../lib/fuentes/archivo-latin-wdth-italic.woff2') format('woff2-variations');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+2000-206F, U+2212;
+}
 
 /* banderas de los idiomas (🇪🇸 🇬🇧): Windows no pinta los emojis de banderas, así
    que se sirve una fuente mínima (Twemoji Country Flags reducida a esas dos, 4 KB;
    licencias en lib/banderas/). unicode-range: solo afecta a los indicadores
-   regionales, el resto del texto sigue en Montserrat. */
+   regionales, el resto del texto sigue en Archivo. */
 @font-face {
 	font-family: 'Banderas';
 	src: url('../lib/banderas/banderas-idioma.woff2') format('woff2');
@@ -22,40 +55,60 @@
 }
 
 :root {
-	/* --- color --- */
-	--fondo: #ffffff;
-	--fondo-alt: #f5f5f7;
-	--tinta: #1d1d1f; /* 15,5:1 sobre --fondo-alt */
-	--tinta-2: #6e6e73; /* 5,07:1 sobre blanco · 4,66:1 sobre --fondo-alt */
-	--linea: #d2d2d7;
-	--linea-suave: rgba(0, 0, 0, 0.08);
-	--acento: #2d6f9e; /* 5,41:1 con blanco: sirve como texto y como fondo de botón */
-	--acento-press: #245a80;
-	--acento-texto: #0a5a8f; /* enlaces en texto corrido: 7,3:1 */
-	--acento-velo: rgba(45, 111, 158, 0.1);
-	--ok: #1e7b47;
-	--ok-velo: #e6f4ec;
+	/* --- color: la lámina --- */
+	--papel: #ffffff;
+	--papel-2: #f2f5f7; /* papel en sombra: secciones alternas, campos */
+	--tinta: #14202b; /* 16,5:1 sobre papel */
+	--tinta-2: #56626e; /* 6,2:1 sobre papel · 5,7:1 sobre papel-2 */
+	--oceano: #1b4a73; /* 9,2:1 con blanco: fondo de secciones y botones */
+	--oceano-hondo: #143a5b;
+	--oceano-texto-2: #c9d9e8; /* texto secundario sobre océano: 6,4:1 */
+	--mar: #cfe2ef; /* el mar del mapa */
+	--rojo: #b8291c; /* batallas y marcas; 6,2:1 sobre papel */
+	--filete: 1.5px solid var(--tinta);
+	/* tintas políticas planas (las del mapa) */
+	--t-rosa: #eaa39b;
+	--t-amarillo: #f1d06e;
+	--t-verde: #a9d18e;
+	--t-naranja: #f2b27a;
+	--t-violeta: #bda6d8;
+	--t-celeste: #9cc7e0;
+	--t-ocre: #d8b48a;
+	--t-salvia: #b3d3c1;
+
+	/* alias que usan todas las páginas */
+	--fondo: var(--papel);
+	--fondo-alt: var(--papel-2);
+	--linea: #c5cfd7;
+	--linea-suave: rgba(20, 32, 43, 0.1);
+	--acento: var(--oceano);
+	--acento-press: var(--oceano-hondo);
+	--acento-texto: var(--oceano);
+	--acento-velo: rgba(27, 74, 115, 0.1);
+	--ok: #1d6b3f;
+	--ok-velo: #e4f1e8;
 	--mal: #b3261e;
 	--mal-velo: #fbe9e7;
-	--aviso: #8a5a00;
-	--aviso-velo: #fdf3dc;
-	/* épocas (tira de la portada y navegador del mapa) */
-	--antigua: #cbb78f;
-	--media: #a8c0a0;
-	--moderna: #9db6cf;
-	--contemp: #c9a3b4;
-	--actual: #e0b98a;
+	--aviso: #7d5300;
+	--aviso-velo: #fcf1d6;
+	/* épocas (barra de tiempo del mapa) */
+	--antigua: #d8b48a;
+	--media: #a9d18e;
+	--moderna: #9cc7e0;
+	--contemp: #eaa39b;
+	--actual: #f1d06e;
 
 	/* --- tipografía --- */
-	--font: 'Montserrat', 'Banderas', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+	--font: 'Archivo', 'Banderas', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 	--mono: ui-monospace, 'SF Mono', Consolas, 'Liberation Mono', monospace;
-	--t-display: clamp(2.75rem, 1.6rem + 4.8vw, 5rem); /* 44→80 · 700 · lh 1.05 · -0.03em */
-	--t-h2: clamp(2rem, 1.4rem + 2.6vw, 3rem); /* 32→48 · 700 · lh 1.1 · -0.025em */
-	--t-lead: clamp(1.1875rem, 1rem + 0.8vw, 1.5rem); /* 19→24 · 500 · lh 1.4 */
-	--t-h3: 1.3125rem; /* 21 · 600 · lh 1.2 */
-	--t-body: 1.0625rem; /* 17 · lh 1.5 */
-	--t-small: 0.875rem; /* 14 */
-	--t-micro: 0.75rem; /* 12 */
+	--estrecha: 62%; /* anchura de la condensada: títulos, años, rótulos */
+	--t-display: clamp(3.5rem, 1.8rem + 7vw, 7.5rem); /* años y titulares de lámina, condensada */
+	--t-h2: clamp(2.25rem, 1.5rem + 3vw, 3.75rem); /* condensada */
+	--t-lead: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+	--t-h3: 1.25rem;
+	--t-body: 1.0625rem;
+	--t-small: 0.875rem;
+	--t-micro: 0.75rem;
 
 	/* --- espaciado (base 4) --- */
 	--s-1: 4px;
@@ -69,39 +122,42 @@
 	--s-9: 96px;
 	--s-10: 128px;
 	--seccion-y: clamp(64px, 5vw + 40px, 128px);
-	--gutter: clamp(16px, 4vw, 32px);
+	--gutter: clamp(16px, 4vw, 40px);
 
 	/* --- anchuras --- */
-	--ancho: 1120px;
+	--ancho: 1200px;
 	--ancho-texto: 640px;
-	--ancho-hero: 980px;
+	--ancho-hero: 1200px;
 
-	/* --- radios --- */
-	--r-tarjeta: 20px;
-	--r-media: 22px;
-	--r-panel: 14px; /* paneles flotantes del mapa y tarjetas del panel */
-	--r-control: 10px; /* campos y botones pequeños */
-	--r-chip: 8px;
-	--r-pill: 980px;
+	/* --- radios: impresión, casi rectos --- */
+	--r-tarjeta: 4px;
+	--r-media: 4px;
+	--r-panel: 6px;
+	--r-control: 4px;
+	--r-chip: 2px;
+	--r-pill: 3px;
 
-	/* --- sombras (casi ninguna) --- */
-	--sombra-media: 0 1px 2px rgba(0, 0, 0, 0.04), 0 12px 40px rgba(0, 0, 0, 0.08);
-	--sombra-panel: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 28px rgba(0, 0, 0, 0.12);
-	--sombra-hover: 0 8px 24px rgba(0, 0, 0, 0.08);
+	/* --- sombras: casi ninguna; con desplazamiento y desenfoque --- */
+	--sombra-media: 0 1px 2px rgba(20, 32, 43, 0.08), 0 10px 30px rgba(20, 32, 43, 0.12);
+	--sombra-panel: 0 1px 1px rgba(20, 32, 43, 0.1), 0 6px 18px rgba(20, 32, 43, 0.12);
+	--sombra-hover: 0 8px 22px rgba(20, 32, 43, 0.14);
 
-	/* --- material translúcido (cabeceras, paneles sobre el mapa) --- */
-	--material: rgba(255, 255, 255, 0.72);
-	--material-denso: rgba(255, 255, 255, 0.86);
-	--desenfoque: saturate(180%) blur(20px);
+	/* --- superficies sobre el mapa: papel casi opaco, sin cristal --- */
+	--material: rgba(255, 255, 255, 0.96);
+	--material-denso: rgba(255, 255, 255, 0.97);
+	--desenfoque: none;
 
 	/* --- movimiento --- */
 	--ease-out: cubic-bezier(0.23, 1, 0.32, 1);
 	--ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 	--d-press: 120ms;
 	--d-ui: 200ms;
+
+	accent-color: var(--oceano);
+	scrollbar-color: #9aa8b4 transparent;
 }
 
-/* --- base --- */
+/* --- base y superficies del navegador --- */
 html {
 	-webkit-text-size-adjust: 100%;
 	-webkit-tap-highlight-color: transparent;
@@ -109,9 +165,14 @@ html {
 body {
 	font-family: var(--font);
 	color: var(--tinta);
+	caret-color: var(--oceano);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
+}
+::selection {
+	background: var(--t-amarillo);
+	color: var(--tinta);
 }
 button,
 input,
@@ -119,25 +180,32 @@ select,
 textarea {
 	font-family: inherit;
 }
-
-/* foco visible en todo lo interactivo (solo con teclado) */
 :focus-visible {
-	outline: 2px solid var(--acento);
+	outline: 2px solid var(--oceano);
 	outline-offset: 3px;
 }
 
-/* --- botones --- */
+/* la voz de la lámina: condensada en mayúsculas */
+.condensada {
+	font-stretch: var(--estrecha);
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+}
+
+/* --- botones: rectángulos impresos --- */
 .btn {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	gap: 6px;
+	gap: 8px;
 	min-height: 44px;
-	padding: 0 22px;
-	border: 0;
-	border-radius: var(--r-pill);
-	font: 500 var(--t-body) / 1 var(--font);
-	letter-spacing: -0.01em;
+	padding: 0 20px;
+	border: var(--filete);
+	border-radius: var(--r-control);
+	background: var(--papel);
+	color: var(--tinta);
+	font: 700 var(--t-body) / 1 var(--font);
+	font-stretch: 85%;
 	text-decoration: none;
 	cursor: pointer;
 	touch-action: manipulation;
@@ -145,7 +213,8 @@ textarea {
 	user-select: none;
 	transition:
 		transform var(--d-press) var(--ease-out),
-		background-color var(--d-ui) ease;
+		background-color var(--d-ui) ease,
+		color var(--d-ui) ease;
 }
 .btn:active {
 	transform: scale(0.97);
@@ -154,69 +223,77 @@ textarea {
 	outline-offset: 4px;
 }
 .btn.principal {
-	background: var(--acento);
+	background: var(--oceano);
+	border-color: var(--oceano);
 	color: #fff;
 }
 .btn.grande {
 	min-height: 52px;
-	padding: 0 30px;
+	padding: 0 26px;
 	font-size: 1.125rem;
 }
 .btn.pequeno {
-	min-height: 32px;
+	min-height: 34px;
 	padding: 0 14px;
-	font: 600 13px/1 var(--font);
-	letter-spacing: 0;
+	font: 700 14px/1 var(--font);
+	font-stretch: 85%;
 }
 @media (hover: hover) and (pointer: fine) {
+	.btn:hover {
+		background: var(--papel-2);
+	}
 	.btn.principal:hover {
-		background: var(--acento-press);
+		background: var(--oceano-hondo);
+		border-color: var(--oceano-hondo);
 	}
 }
 
-/* enlace de acción al estilo «Más información ›» */
+/* enlace de acción «Más información ›» */
 .enlace-flecha {
 	display: inline-flex;
 	align-items: center;
 	min-height: 44px;
 	color: var(--acento-texto);
-	font: 500 var(--t-body) / 1 var(--font);
-	letter-spacing: -0.01em;
+	font: 600 var(--t-body) / 1 var(--font);
 	text-decoration: none;
 	touch-action: manipulation;
 }
 .enlace-flecha::after {
-	content: '›';
-	margin-left: 4px;
-	font-size: 1.15em;
-	line-height: 1;
+	content: '→';
+	margin-left: 6px;
+	transition: transform var(--d-ui) var(--ease-out);
 }
 @media (hover: hover) and (pointer: fine) {
 	.enlace-flecha:hover {
 		text-decoration: underline;
-		text-underline-offset: 0.15em;
+		text-underline-offset: 0.18em;
+	}
+	.enlace-flecha:hover::after {
+		transform: translateX(3px);
 	}
 }
 
-/* etiqueta discreta (móvil, escritorio, «5 minutos»…) */
+/* etiqueta impresa (móvil, escritorio, «5 minutos»…) */
 .chip {
 	display: inline-block;
-	padding: 4px 8px;
-	border-radius: var(--r-pill);
-	background: var(--fondo-alt);
+	padding: 4px 7px 3px;
+	border: 1px solid currentColor;
+	border-radius: var(--r-chip);
 	color: var(--tinta-2);
-	font: 600 var(--t-micro) / 1 var(--font);
-	letter-spacing: 0.02em;
+	font: 700 var(--t-micro) / 1 var(--font);
+	font-stretch: var(--estrecha);
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
 	vertical-align: 0.15em;
 }
 
-/* iconos SVG de trazo fino (sprite <symbol> en cada página) */
+/* iconos de trazo (sprite <symbol> en cada página) */
 .icono {
 	width: 28px;
 	height: 28px;
 	fill: none;
 	stroke: currentColor;
-	stroke-width: 1.5;
+	stroke-width: 1.6;
 	stroke-linecap: round;
 	stroke-linejoin: round;
 	flex: none;
@@ -233,16 +310,9 @@ textarea {
 		scroll-behavior: auto !important;
 	}
 }
-@media (prefers-reduced-transparency: reduce) {
-	:root {
-		--material: #ffffff;
-		--material-denso: #ffffff;
-		--desenfoque: none;
-	}
-}
 @media (prefers-contrast: more) {
 	:root {
-		--tinta-2: #424245;
-		--linea: #86868b;
+		--tinta-2: #3b4652;
+		--linea: #6c7a86;
 	}
 }
