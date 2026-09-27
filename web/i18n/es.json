@@ -48,6 +48,8 @@
   "layers.margin": "Margen de años",
   "layers.marginTitle": "Mostrar también batallas y eventos de años cercanos al elegido",
   "layers.territories": "Territorios menores",
+  "layers.territorial": "Seguir antecesores territoriales",
+  "layers.territorialTitle": "Al seguir un reino, resaltar también a quienes gobernaron antes su territorio sin ser el mismo Estado (p. ej. el Califato de Córdoba al seguir España)",
   "terr.status": "Estatus",
   "terr.present": "actualidad",
   "war.theater": "Teatro de operaciones",

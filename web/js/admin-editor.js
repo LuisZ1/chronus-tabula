@@ -435,12 +435,21 @@
 	   servidor escribe el inverso en ella al guardar, y aquí se ve de antemano qué
 	   se resaltará al seguir esta entidad en el mapa. */
 	const TIPOS_VINC = [
-		{ id: 'predecesor', et: 'Predecesor', ayuda: 'existía antes y dio paso a esta' },
-		{ id: 'sucesor', et: 'Sucesor', ayuda: 'vino después de esta' },
+		{ id: 'predecesor', et: 'Predecesor', ayuda: 'esta hereda su Estado, dinastía o instituciones' },
+		{ id: 'sucesor', et: 'Sucesor', ayuda: 'heredó el Estado de esta' },
 		{ id: 'parte_de', et: 'Parte de', ayuda: 'esta formaba parte de la otra' },
-		{ id: 'incluye', et: 'Incluye', ayuda: 'la otra (territorio, colonia, reino) formaba parte de esta' }
+		{ id: 'incluye', et: 'Incluye', ayuda: 'la otra (territorio, colonia, reino) formaba parte de esta' },
+		{ id: 'antecesor_territorial', et: 'Antecesor territorial', ayuda: 'gobernó antes este territorio, sin continuidad de Estado' },
+		{ id: 'sucesor_territorial', et: 'Sucesor territorial', ayuda: 'gobernó después este territorio, sin continuidad de Estado' }
 	];
-	const INVERSO_VINC = { predecesor: 'sucesor', sucesor: 'predecesor', parte_de: 'incluye', incluye: 'parte_de' };
+	const INVERSO_VINC = {
+		predecesor: 'sucesor',
+		sucesor: 'predecesor',
+		parte_de: 'incluye',
+		incluye: 'parte_de',
+		antecesor_territorial: 'sucesor_territorial',
+		sucesor_territorial: 'antecesor_territorial'
+	};
 	let entidades = []; // [{id, nombre, vinculos, relacionados, nombres, lapso}]
 	let entPorId = new Map();
 	let entrantesActual = []; // vínculos que otras fichas declaran hacia la abierta
@@ -497,14 +506,14 @@
 
 	/* entidades que se resaltan al seguir esta: ella, sus predecesores y lo que
 	   incluye, en cadena (como seguidas() en js/datos.js) */
-	function cierreSeguimiento(idPropio, propios) {
+	function cierreSeguimiento(idPropio, propios, tipos = ['predecesor', 'incluye']) {
 		const vinc = id => (id === idPropio ? propios : (entPorId.get(id) || {}).vinculos || []);
 		const vistos = new Set([idPropio]);
 		const cola = [idPropio];
 		while (cola.length) {
 			const id = cola.shift();
 			for (const v of vinc(id)) {
-				if ((v.tipo === 'predecesor' || v.tipo === 'incluye') && v.id && !vistos.has(v.id)) {
+				if (tipos.includes(v.tipo) && v.id && !vistos.has(v.id)) {
 					vistos.add(v.id);
 					cola.push(v.id);
 				}
@@ -700,6 +709,13 @@
 				? `Al seguir <b>${esc(obj.nombre || 'esta ficha')}</b> en el mapa se resaltarán también: ${seg.map(id => esc(nombreEnt(id))).join(', ')}.`
 				: `Al seguir <b>${esc(obj.nombre || 'esta ficha')}</b> en el mapa solo se resaltarán sus propios territorios: añade predecesores o lo que incluye para seguir su historia completa.`
 		);
+		const ter = cierreSeguimiento(obj.id || '(nueva)', validos, ['predecesor', 'incluye', 'antecesor_territorial']).filter(
+			id => !seg.includes(id)
+		);
+		if (ter.length)
+			partes.push(
+				`Con la opción «Seguir antecesores territoriales» del mapa, también: ${ter.map(id => esc(nombreEnt(id))).join(', ')}.`
+			);
 		if (validos.length)
 			partes.push(
 				'Al guardar, cada ficha vinculada recibirá el inverso: ' +

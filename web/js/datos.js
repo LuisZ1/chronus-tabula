@@ -122,14 +122,21 @@ function poblacionCercana(pais, y) {
 /* Seguir una entidad resalta ella, sus predecesores y lo que incluye, en cadena
    (España → Corona de Castilla → Reino de León), según los 'vinculos' de las
    fichas (api/fuentes/vinculos.py). Con año, solo cuentan los vínculos vigentes
-   ese año (un 'incluye' de 1542 a 1824 no resalta Perú en 2010). */
+   ese año (un 'incluye' de 1542 a 1824 no resalta Perú en 2010). Los
+   antecesores territoriales (quien gobernó antes el territorio sin continuidad
+   de Estado: Califato de Córdoba → España) solo con la opción del panel de capas. */
+function tiposSeguidos() {
+	return prefs.territorial ? ['predecesor', 'incluye', 'antecesor_territorial'] : ['predecesor', 'incluye'];
+}
+
 function seguidas(pais, y) {
+	const tipos = tiposSeguidos();
 	const out = new Set([pais.id]);
 	const cola = [pais];
 	while (cola.length) {
 		const p = cola.shift();
 		for (const v of p.vinculos || []) {
-			if (v.tipo !== 'predecesor' && v.tipo !== 'incluye') continue;
+			if (!tipos.includes(v.tipo)) continue;
 			if (y != null && ((v.desde != null && y < v.desde) || (v.hasta != null && y > v.hasta))) continue;
 			const q = paisPorId.get(v.id);
 			if (q && !out.has(q.id)) {
@@ -143,7 +150,7 @@ function seguidas(pais, y) {
 
 let cacheSeguidos = { clave: null, nombres: null };
 function nombresSeguidos() {
-	const clave = state.follow.id + '|' + state.requestedYear;
+	const clave = state.follow.id + '|' + state.requestedYear + '|' + (prefs.territorial ? 't' : '');
 	if (cacheSeguidos.clave !== clave) {
 		const nombres = new Set();
 		for (const id of seguidas(state.follow, state.requestedYear))
