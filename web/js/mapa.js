@@ -9,10 +9,10 @@ function featureStyle(f) {
 	const followed = isFollowed(f.properties);
 	let fillOpacity;
 	if (state.follow) fillOpacity = followed ? 0.75 : prefs.relleno ? 0.1 : 0;
-	else fillOpacity = prefs.relleno ? 0.55 : 0;
+	else fillOpacity = prefs.relleno ? 0.74 : 0;
 	return {
-		color: followed ? '#b3261e' : '#4a4a4a',
-		weight: followed ? 2 : 0.5,
+		color: followed ? '#b8291c' : '#3a4450',
+		weight: followed ? 2 : 0.6,
 		fillColor: colorFor(key),
 		fillOpacity
 	};
