@@ -26,13 +26,21 @@ async function init() {
 		worldCopyJump: true,
 		minZoom: 2,
 		maxZoom: 12,
-		zoomControl: true
+		zoomControl: true,
+		// movimiento reducido: zoom sin escala animada (el arrastre y el pellizco siguen al dedo)
+		zoomAnimation: !menosMovimiento(),
+		markerZoomAnimation: !menosMovimiento()
 	}).setView(startView.center, startView.zoom);
 	hashApplying = false;
 
 	const warPane = map.createPane('warzones');
 	warPane.style.zIndex = 450; // sobre los territorios (400), bajo los marcadores (600)
 	warRenderer = L.svg({ pane: 'warzones', padding: 0.5 });
+	// reproducir: la capa de fronteras anterior se funde encima de la nueva
+	const outPane = map.createPane('saliente');
+	outPane.style.zIndex = 401; // justo sobre los territorios (400)
+	outPane.style.pointerEvents = 'none';
+	salienteRenderer = L.canvas({ pane: 'saliente' });
 
 	setupBaseLayers();
 	state.labelLayer = L.layerGroup();

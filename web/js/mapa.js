@@ -260,6 +260,30 @@ async function loadYearData(y) {
 	return gj;
 }
 
+/* capa saliente del modo Reproducir: copia no interactiva del mapa anterior en
+   el pane 'saliente' (encima), cuya opacidad baja de 1 a 0 en 300 ms. Nunca hay
+   más de dos capas vivas: si llega otro paso, la saliente previa se retira ya. */
+function retirarConFundido(oldLayer, oldGj) {
+	map.removeLayer(oldLayer);
+	if (state.saliente) map.removeLayer(state.saliente);
+	const capa = L.geoJSON(oldGj, { style: featureStyle, renderer: salienteRenderer, interactive: false });
+	state.saliente = capa.addTo(map);
+	const pane = map.getPane('saliente');
+	pane.style.transition = 'none';
+	pane.style.opacity = 1;
+	void pane.offsetWidth; // aplicar opacidad 1 antes de arrancar la transición
+	pane.style.transition = 'opacity 300ms cubic-bezier(0.77, 0, 0.175, 1)';
+	pane.style.opacity = 0;
+	const fin = () => {
+		if (state.saliente === capa) {
+			map.removeLayer(capa);
+			state.saliente = null;
+		}
+	};
+	pane.addEventListener('transitionend', fin, { once: true });
+	setTimeout(fin, 400);
+}
+
 async function showYear(requestedYear) {
 	const snap = nearestYear(requestedYear);
 	updateShownLabel(snap);
@@ -271,7 +295,12 @@ async function showYear(requestedYear) {
 		const gj = await loadYearData(snap);
 		if (token !== state.loadToken) return; // llegó tarde: el usuario ya pidió otro año
 
-		if (state.layer) map.removeLayer(state.layer);
+		// al reproducir, el mapa anterior se funde sobre el nuevo (se ve qué cambia);
+		// al arrastrar, con ◀ ▶ o con movimiento reducido, corte seco
+		if (state.layer && state.playTimer && !menosMovimiento() && state.layerGj) {
+			retirarConFundido(state.layer, state.layerGj);
+		} else if (state.layer) map.removeLayer(state.layer);
+		state.layerGj = gj;
 		state.layer = L.geoJSON(gj, {
 			style: featureStyle,
 			onEachFeature: (f, layer) => {

@@ -131,3 +131,18 @@ function writeHash() {
 	if (state.follow) parts.push(state.follow.id);
 	history.replaceState(null, '', '#' + parts.join('/'));
 }
+
+/* ---------- movimiento reducido: la cámara salta al destino, sin vuelo ----------
+   flyTo / fitBounds animados desplazan todo el mapa (el mayor movimiento de la
+   app); con prefers-reduced-motion se sustituyen por un salto directo. */
+const mqReduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+function menosMovimiento() {
+	return mqReduce.matches;
+}
+function encuadrar(bounds, opts) {
+	map.fitBounds(bounds, { ...opts, animate: !menosMovimiento() });
+}
+function volarA(latlng, zoom) {
+	if (menosMovimiento()) map.setView(latlng, zoom, { animate: false });
+	else map.flyTo(latlng, zoom);
+}

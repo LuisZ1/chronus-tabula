@@ -5,6 +5,7 @@
 /* ---------- zonas de conflicto (franjas rojas diagonales) ---------- */
 
 let warRenderer = null;
+let salienteRenderer = null; // capa de fronteras que se funde al reproducir (mapa.js)
 
 function ensureStripePattern() {
 	if (!warRenderer || !warRenderer._container) return;
