@@ -119,10 +119,44 @@ function poblacionCercana(pais, y) {
 
 /* ---------- seguimiento de una entidad ---------- */
 
+/* Seguir una entidad resalta ella, sus predecesores y lo que incluye, en cadena
+   (España → Corona de Castilla → Reino de León), según los 'vinculos' de las
+   fichas (api/fuentes/vinculos.py). Con año, solo cuentan los vínculos vigentes
+   ese año (un 'incluye' de 1542 a 1824 no resalta Perú en 2010). */
+function seguidas(pais, y) {
+	const out = new Set([pais.id]);
+	const cola = [pais];
+	while (cola.length) {
+		const p = cola.shift();
+		for (const v of p.vinculos || []) {
+			if (v.tipo !== 'predecesor' && v.tipo !== 'incluye') continue;
+			if (y != null && ((v.desde != null && y < v.desde) || (v.hasta != null && y > v.hasta))) continue;
+			const q = paisPorId.get(v.id);
+			if (q && !out.has(q.id)) {
+				out.add(q.id);
+				cola.push(q);
+			}
+		}
+	}
+	return out;
+}
+
+let cacheSeguidos = { clave: null, nombres: null };
+function nombresSeguidos() {
+	const clave = state.follow.id + '|' + state.requestedYear;
+	if (cacheSeguidos.clave !== clave) {
+		const nombres = new Set();
+		for (const id of seguidas(state.follow, state.requestedYear))
+			for (const n of (paisPorId.get(id) || {}).nombres || []) nombres.add(n);
+		cacheSeguidos = { clave, nombres };
+	}
+	return cacheSeguidos.nombres;
+}
+
 function isFollowed(props) {
 	if (!state.follow) return false;
-	const n = state.follow.nombres;
-	return n.includes(props.NAME) || n.includes(props.SUBJECTO);
+	const n = nombresSeguidos();
+	return n.has(props.NAME) || n.has(props.SUBJECTO);
 }
 
 function setFollow(pais) {
@@ -162,8 +196,14 @@ function normTxt(t) {
 
 function followKeys() {
 	if (!state.follow) return null;
-	const keys = [state.follow.nombre || state.follow.id, ...(state.follow.relacionados || [])];
-	return keys.map(normTxt);
+	// guerras y acontecimientos de toda la cadena, en cualquier año (la barra de
+	// tiempo los muestra todos): nombre y alias de cada entidad seguida
+	const keys = [];
+	for (const id of seguidas(state.follow, null)) {
+		const p = paisPorId.get(id);
+		if (p) keys.push(p.nombre || p.id, ...(p.relacionados || []));
+	}
+	return [...new Set(keys.map(normTxt))];
 }
 
 /* coincide si algún nombre implicado contiene alguna clave como palabra completa */

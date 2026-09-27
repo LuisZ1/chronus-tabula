@@ -24,7 +24,7 @@
 		id: 'Identificador', nombre: 'Nombre', nombres: 'Nombres en los mapas (GeoJSON)',
 		nombres_periodo: 'Nombres por época', wiki: 'Artículo de Wikipedia', wikidata: 'Wikidata (Qid)',
 		wikidata_hist: 'Wikidata de entidades predecesoras', owid: 'Our World in Data',
-		relacionados: 'Relacionados y alias', resena: 'Reseña', gobernantes: 'Gobernantes',
+		relacionados: 'Relacionados y alias', vinculos: 'Vínculos con otras fichas', resena: 'Reseña', gobernantes: 'Gobernantes',
 		poblacion: 'Población', escudos: 'Escudos', banderas: 'Banderas', fuentes: 'Fuentes',
 		inicio: 'Inicio', fin: 'Fin', paises: 'Países / bandos', bajas: 'Bajas', descripcion: 'Descripción',
 		zonas: 'Zonas de guerra', batallas: 'Batallas', anio: 'Año', hasta: 'Hasta', desde: 'Desde',
@@ -133,6 +133,7 @@
 		actual = { fichero: r.datos.fichero, version: r.datos.version };
 		original = r.datos.registro;
 		trabajo = clonar(original);
+		entrantesActual = r.datos.entrantes || [];
 		idManual = true;
 		empezarEdicion();
 	}
@@ -141,6 +142,7 @@
 		actual = { fichero: null, version: null };
 		original = {};
 		trabajo = {};
+		entrantesActual = [];
 		idManual = false;
 		empezarEdicion();
 	}
@@ -202,6 +204,7 @@
 			d.appendChild(coordenadas(obj));
 			return d;
 		}
+		if (k === 'vinculos' && col === 'paises' && obj === trabajo) return bloqueVinculos(obj, s);
 		if (esLista) {
 			d.appendChild(listaObjetos(obj, k, s, requerido));
 			return d;
@@ -427,6 +430,292 @@
 		return det;
 	}
 
+	/* --- vínculos entre países (predecesor, sucesor, parte de, incluye) ---
+	   Se elige la otra ficha de una lista (no se escribe su nombre a mano), el
+	   servidor escribe el inverso en ella al guardar, y aquí se ve de antemano qué
+	   se resaltará al seguir esta entidad en el mapa. */
+	const TIPOS_VINC = [
+		{ id: 'predecesor', et: 'Predecesor', ayuda: 'existía antes y dio paso a esta' },
+		{ id: 'sucesor', et: 'Sucesor', ayuda: 'vino después de esta' },
+		{ id: 'parte_de', et: 'Parte de', ayuda: 'esta formaba parte de la otra' },
+		{ id: 'incluye', et: 'Incluye', ayuda: 'la otra (territorio, colonia, reino) formaba parte de esta' }
+	];
+	const INVERSO_VINC = { predecesor: 'sucesor', sucesor: 'predecesor', parte_de: 'incluye', incluye: 'parte_de' };
+	let entidades = []; // [{id, nombre, vinculos, relacionados, nombres, lapso}]
+	let entPorId = new Map();
+	let entrantesActual = []; // vínculos que otras fichas declaran hacia la abierta
+
+	const normE = t =>
+		String(t || '')
+			.toLowerCase()
+			.normalize('NFD')
+			.replace(/[̀-ͯ]/g, '')
+			.trim();
+	const nombreEnt = id => (entPorId.get(id) || {}).nombre || id;
+	const anioTxt = y => (y == null ? '' : y < 0 ? `${-y} a. C.` : String(y));
+
+	async function cargarEntidades() {
+		const r = await llamar('/api/fichas/_entidades');
+		if (!r.ok) return;
+		entidades = r.datos;
+		entPorId = new Map(entidades.map(e => [e.id, e]));
+		const dl = $e('#edEntidadesList');
+		if (dl)
+			dl.innerHTML = entidades
+				.map(e => `<option value="${esc(e.id)}">${esc(e.nombre)}${e.lapso ? ` · ${anioTxt(e.lapso[0])}–${anioTxt(e.lapso[1])}` : ''}</option>`)
+				.join('');
+	}
+
+	/* la misma prioridad que el buscador del mapa: nombre, partes «A / B», id, nombres, nombres por época */
+	function resolverEnt(texto, excluir) {
+		const v = normE(texto);
+		if (!v) return null;
+		const ps = entidades.filter(e => e.id !== excluir);
+		const pruebas = [
+			e => normE(e.nombre) === v,
+			e => String(e.nombre || '').split('/').some(x => normE(x) === v),
+			e => e.id === v,
+			e => (e.nombres || []).some(x => normE(x) === v)
+		];
+		for (const p of pruebas) {
+			const hits = ps.filter(p);
+			if (hits.length === 1) return hits[0].id;
+			if (hits.length > 1) return null;
+		}
+		return null;
+	}
+
+	/* tipo probable según los años en que ambas salen en los mapas (igual que api/vincular.py) */
+	function sugerirTipo(propio, otro) {
+		if (!propio || !otro) return 'predecesor';
+		const [a1, b1] = propio;
+		const [a2, b2] = otro;
+		if (a2 < a1) return b2 >= b1 ? 'parte_de' : 'predecesor';
+		if (a2 > a1) return b2 <= b1 ? 'incluye' : 'sucesor';
+		return 'predecesor';
+	}
+
+	/* entidades que se resaltan al seguir esta: ella, sus predecesores y lo que
+	   incluye, en cadena (como seguidas() en js/datos.js) */
+	function cierreSeguimiento(idPropio, propios) {
+		const vinc = id => (id === idPropio ? propios : (entPorId.get(id) || {}).vinculos || []);
+		const vistos = new Set([idPropio]);
+		const cola = [idPropio];
+		while (cola.length) {
+			const id = cola.shift();
+			for (const v of vinc(id)) {
+				if ((v.tipo === 'predecesor' || v.tipo === 'incluye') && v.id && !vistos.has(v.id)) {
+					vistos.add(v.id);
+					cola.push(v.id);
+				}
+			}
+		}
+		vistos.delete(idPropio);
+		return [...vistos];
+	}
+
+	function bloqueVinculos(obj, s) {
+		const d = document.createElement('div');
+		d.className = 'ed-campo ed-vinc';
+		d.appendChild(
+			cabecera(
+				'Vínculos con otras fichas',
+				false,
+				'Elige la otra entidad de la lista y qué relación tiene con esta. Al guardar se escribe también el vínculo inverso en la otra ficha. Los años son opcionales: acotan cuándo vale el vínculo.'
+			)
+		);
+		const cuerpo = document.createElement('div');
+		d.appendChild(cuerpo);
+		const pintar = () => {
+			cuerpo.innerHTML = '';
+			const arr = obj.vinculos || [];
+			arr.forEach((v, i) => cuerpo.appendChild(filaVinculo(obj, v, i, pintar)));
+			const mas = document.createElement('button');
+			mas.type = 'button';
+			mas.className = 'sec ed-mas';
+			mas.textContent = '+ Añadir vínculo';
+			mas.addEventListener('click', () => {
+				if (!obj.vinculos) obj.vinculos = [];
+				obj.vinculos.push({ tipo: 'predecesor' });
+				marcarCambios();
+				pintar();
+				const ins = cuerpo.querySelectorAll('.ed-vfila input[list]');
+				if (ins.length) ins[ins.length - 1].focus();
+			});
+			cuerpo.appendChild(mas);
+			cuerpo.appendChild(sugerencias(obj, pintar));
+			cuerpo.appendChild(resumen(obj));
+		};
+		pintar();
+		return d;
+	}
+
+	function filaVinculo(obj, v, i, repintar) {
+		const fila = document.createElement('div');
+		fila.className = 'ed-item ed-vfila';
+		// la otra ficha
+		const c1 = document.createElement('div');
+		c1.className = 'ed-sub ancho';
+		c1.appendChild(cabecera('Otra ficha', true));
+		const inp = document.createElement('input');
+		inp.setAttribute('list', 'edEntidadesList');
+		inp.placeholder = 'escribe para buscar: Castilla, Aragón…';
+		inp.value = v.id || '';
+		const nom = document.createElement('div');
+		nom.className = 'ed-ayuda ed-vnom';
+		const pintarNom = () => {
+			if (!v.id) nom.textContent = '';
+			else if (v.id === obj.id) nom.innerHTML = '<span class="mal-txt">no puede ser la propia ficha</span>';
+			else if (entPorId.has(v.id)) nom.textContent = nombreEnt(v.id);
+			else nom.innerHTML = '<span class="mal-txt">no hay ninguna ficha con ese id</span>';
+		};
+		inp.addEventListener('change', () => {
+			const t = inp.value.trim();
+			const id = entPorId.has(t) ? t : resolverEnt(t, obj.id) || slug(t);
+			v.id = id || undefined;
+			if (!v.id) delete v.id;
+			inp.value = v.id || '';
+			// al elegir la ficha, proponer el tipo según los años de ambas
+			if (v.id && !v._tipoTocado && entPorId.has(v.id)) {
+				const yo = entPorId.get(obj.id);
+				v.tipo = sugerirTipo(yo && yo.lapso, entPorId.get(v.id).lapso);
+				sel.value = v.tipo;
+			}
+			pintarNom();
+			marcarCambios();
+			refrescarResumen(fila);
+		});
+		pintarNom();
+		c1.append(inp, nom);
+		// tipo
+		const c2 = document.createElement('div');
+		c2.className = 'ed-sub ancho';
+		c2.appendChild(cabecera('Relación', true));
+		const sel = document.createElement('select');
+		sel.innerHTML = TIPOS_VINC.map(t => `<option value="${t.id}">${t.et}: ${esc(t.ayuda)}</option>`).join('');
+		sel.value = v.tipo || 'predecesor';
+		sel.addEventListener('change', () => {
+			v.tipo = sel.value;
+			v._tipoTocado = true;
+			marcarCambios();
+			refrescarResumen(fila);
+		});
+		c2.appendChild(sel);
+		// años
+		const anio = k => {
+			const c = document.createElement('div');
+			c.className = 'ed-sub';
+			c.appendChild(cabecera(k === 'desde' ? 'Desde' : 'Hasta', false));
+			const el = document.createElement('input');
+			el.type = 'number';
+			el.step = '1';
+			el.placeholder = 'año (opcional)';
+			el.value = v[k] == null ? '' : v[k];
+			el.addEventListener('input', () => {
+				if (el.value === '') delete v[k];
+				else v[k] = Number(el.value);
+				marcarCambios();
+			});
+			c.appendChild(el);
+			return c;
+		};
+		const acc = document.createElement('div');
+		acc.className = 'ed-acc';
+		acc.innerHTML = '<button type="button" class="peligro" title="Quitar este vínculo (también se quita el inverso)">Quitar</button>';
+		acc.querySelector('button').addEventListener('click', () => {
+			obj.vinculos.splice(i, 1);
+			if (!obj.vinculos.length) delete obj.vinculos;
+			marcarCambios();
+			repintar();
+		});
+		fila.append(c1, c2, anio('desde'), anio('hasta'), acc);
+		return fila;
+	}
+
+	/* atajos: vínculos que otras fichas ya declaran, y 'relacionados' que son otra ficha */
+	function sugerencias(obj, repintar) {
+		const box = document.createElement('div');
+		box.className = 'ed-sug';
+		const tiene = id => (obj.vinculos || []).some(v => v.id === id);
+		const items = [];
+		for (const e of entrantesActual) {
+			if (tiene(e.id)) continue;
+			items.push({
+				texto: `<b>${esc(e.nombre)}</b> ya dice que esta ficha es su ${esc(INVERSO_VINC[e.tipo] || e.tipo)}`,
+				boton: `Añadir como ${TIPOS_VINC.find(t => t.id === e.tipo).et.toLowerCase()}`,
+				hacer: () => {
+					const v = { id: e.id, tipo: e.tipo };
+					if (e.desde != null) v.desde = e.desde;
+					if (e.hasta != null) v.hasta = e.hasta;
+					(obj.vinculos = obj.vinculos || []).push(v);
+				}
+			});
+		}
+		const yo = entPorId.get(obj.id);
+		for (const n of obj.relacionados || []) {
+			const id = resolverEnt(n, obj.id);
+			if (!id || tiene(id)) continue;
+			const tipo = sugerirTipo(yo && yo.lapso, (entPorId.get(id) || {}).lapso);
+			items.push({
+				texto: `«${esc(n)}», en <i>Relacionados y alias</i>, es la ficha <b>${esc(nombreEnt(id))}</b>`,
+				boton: `Vincular como ${TIPOS_VINC.find(t => t.id === tipo).et.toLowerCase()}`,
+				hacer: () => {
+					(obj.vinculos = obj.vinculos || []).push({ id, tipo });
+					obj.relacionados = obj.relacionados.filter(x => x !== n);
+					if (!obj.relacionados.length) delete obj.relacionados;
+					// el cuadro de 'relacionados' también cambia: repintar el formulario entero
+					setTimeout(pintarFormulario, 0);
+				}
+			});
+		}
+		if (!items.length) return box;
+		box.innerHTML = `<div class="ed-ayuda"><b>Sugerencias</b> (revisa la relación después de añadirlas)</div>`;
+		for (const it of items) {
+			const f = document.createElement('div');
+			f.className = 'ed-sug-fila';
+			f.innerHTML = `<span>${it.texto}</span>`;
+			const b = document.createElement('button');
+			b.type = 'button';
+			b.className = 'sec';
+			b.textContent = it.boton;
+			b.addEventListener('click', () => {
+				it.hacer();
+				marcarCambios();
+				repintar();
+			});
+			f.appendChild(b);
+			box.appendChild(f);
+		}
+		return box;
+	}
+
+	function resumen(obj) {
+		const p = document.createElement('div');
+		p.className = 'ed-vres mini';
+		const validos = (obj.vinculos || []).filter(v => v.id && entPorId.has(v.id) && v.id !== obj.id);
+		const seg = cierreSeguimiento(obj.id || '(nueva)', validos);
+		const partes = [];
+		partes.push(
+			seg.length
+				? `Al seguir <b>${esc(obj.nombre || 'esta ficha')}</b> en el mapa se resaltarán también: ${seg.map(id => esc(nombreEnt(id))).join(', ')}.`
+				: `Al seguir <b>${esc(obj.nombre || 'esta ficha')}</b> en el mapa solo se resaltarán sus propios territorios: añade predecesores o lo que incluye para seguir su historia completa.`
+		);
+		if (validos.length)
+			partes.push(
+				'Al guardar, cada ficha vinculada recibirá el inverso: ' +
+					validos.map(v => `${esc(nombreEnt(v.id))} la tendrá como <i>${esc((TIPOS_VINC.find(t => t.id === INVERSO_VINC[v.tipo]) || {}).et || '?').toLowerCase()}</i>`).join(' · ') +
+					'.'
+			);
+		p.innerHTML = partes.join('<br>');
+		return p;
+	}
+
+	function refrescarResumen(fila) {
+		const box = fila.closest('.ed-vinc');
+		const viejo = box && box.querySelector('.ed-vres');
+		if (viejo) viejo.replaceWith(resumen(trabajo));
+	}
+
 	/* lat/lng con selector en un mapa */
 	function coordenadas(obj) {
 		const box = document.createElement('div');
@@ -578,7 +867,9 @@
 		if (rr.ok) {
 			actual.version = rr.datos.version;
 			original = rr.datos.registro;
+			entrantesActual = rr.datos.entrantes || [];
 		} else original = clonar(trabajo);
+		if (col === 'paises') await cargarEntidades();
 		trabajo = clonar(original);
 		idManual = true;
 		pintarFormulario();
@@ -587,8 +878,11 @@
 		pintarValidacion(
 			{ avisos: d.avisos, diff: d.diff, fichero: null },
 			`<div class="ed-msg bien"><b>✔ Guardado en <code>${esc(d.ruta || '')}</code>.</b> ` +
-				(d.recompilado ? 'El mapa ya lo muestra (recarga la pestaña del mapa). ' : '') +
-				'Para compartirlo: revisa el cambio con <code>git diff</code>, haz commit y abre tu merge request.</div>'
+				(d.reciprocos_escritos && d.reciprocos_escritos.length
+					? `También se ha escrito el vínculo inverso en ${d.reciprocos_escritos.map(f => `<code>${esc(f)}</code>`).join(', ')}. `
+					: '') +
+				(d.recompilado ? 'El mapa local ya lo muestra (recarga la pestaña del mapa). ' : '') +
+				'El cambio solo está en tu copia: revísalo con <code>git diff</code>, haz commit y abre un pull request.</div>'
 		);
 		$e('#edGuardar').disabled = true;
 		cargarLista();
@@ -628,6 +922,7 @@
 		pintarColecciones();
 		irPaso(trabajo ? 2 : 1);
 		await cargarLista();
+		await cargarEntidades();
 		const rp = await llamar('/api/fichas/paises');
 		if (rp.ok) {
 			nombresPaises = rp.datos.map(f => f.titulo);

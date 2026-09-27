@@ -13,6 +13,7 @@ recompila web/data/historia.json. Así nadie tiene que editar el JSON a mano.
     POST /api/fichas/_validar             {coleccion, registro, fichero?} -> errores, avisos, diff (no escribe)
     POST /api/fichas/<col>                {registro} -> crea una ficha nueva
     POST /api/fichas/<col>/<fichero>      {registro, version} -> guarda cambios
+    GET  /api/fichas/_entidades           países con su nombre, vínculos y años en los mapas
 
 Reglas:
   · Solo se escribe si no hay errores (los avisos no bloquean).
@@ -23,6 +24,9 @@ Reglas:
     nombre: si cambian, el fichero se renombra.
   · Si un país con revisión «validado» cambia gobernantes, población o nombres
     por época, su marca pasa a «borrador» (hay que volver a revisarlo).
+  · Los vínculos entre países son recíprocos: al guardar un país se escribe
+    también el inverso en las fichas que menciona (api/fuentes/vinculos.py);
+    esos ficheros salen en el diff antes de guardar.
 Solo librería estándar.
 """
 import difflib
@@ -39,11 +43,13 @@ sys.path.insert(0, AQUI)
 from comun import (COLECCIONES, DATOS, HOY, RAIZ, _leer_json, _nombre_fichero,  # noqa: E402
                    compilar_web, hash_revision, texto_canonico)
 import validar as V  # noqa: E402
+import vinculos as VI  # noqa: E402
 
 FICHERO_RE = re.compile(r"^[a-z0-9][a-z0-9-]*\.json$")
 escritura = threading.Lock()   # una escritura a la vez
 _geo_lock = threading.Lock()
 _nombres_geo = None            # nombres de los GeoJSON (NAME/SUBJECTO), se cargan una vez
+_anios_geo = None              # {nombre del GeoJSON: (primer año, último año)}
 
 
 class ErrorFicha(Exception):
@@ -119,7 +125,67 @@ def leer(col, fichero):
         registro = json.loads(texto)
     except json.JSONDecodeError as e:
         raise ErrorFicha(f"{col}/{fichero} no es JSON válido (línea {e.lineno}): corrígelo a mano", 422)
-    return {"coleccion": col, "fichero": fichero, "registro": registro, "version": _huella(texto)}
+    out = {"coleccion": col, "fichero": fichero, "registro": registro, "version": _huella(texto)}
+    if col == "paises":
+        # vínculos que otras fichas declaran hacia esta y ella no tiene
+        out["entrantes"] = VI.entrantes(registro.get("id"), registro, _todos_paises())
+    return out
+
+
+# --- vínculos entre países -----------------------------------------------------
+
+def _todos_paises():
+    out = []
+    carpeta = _ruta("paises")
+    for fn in sorted(os.listdir(carpeta)):
+        if fn.endswith(".json") and not fn.startswith("_"):
+            try:
+                out.append(_leer_json(os.path.join(carpeta, fn)))
+            except ValueError:
+                pass
+    return out
+
+
+def _leer_pais(pid):
+    if not isinstance(pid, str) or not re.match(r"^[a-z0-9-]+$", pid):
+        return None
+    ruta = os.path.join(_ruta("paises"), pid + ".json")
+    if not os.path.exists(ruta):
+        return None
+    try:
+        return _leer_json(ruta)
+    except ValueError:
+        return None
+
+
+def anios_geo():
+    global _anios_geo
+    with _geo_lock:
+        if _anios_geo is None:
+            _anios_geo = VI.anios_en_mapas(V.GEOJSON_DIR)
+        return _anios_geo
+
+
+def entidades():
+    """Países para el selector de vínculos del asistente: id, nombre, fichero,
+    vínculos y años en que aparecen en los mapas (para sugerir el tipo)."""
+    por_nombre = anios_geo()
+    out = []
+    for r in _todos_paises():
+        if not r.get("id"):
+            continue
+        out.append({"id": r["id"], "nombre": r.get("nombre") or r["id"], "fichero": r["id"] + ".json",
+                    "vinculos": r.get("vinculos") or [], "relacionados": r.get("relacionados") or [],
+                    "nombres": r.get("nombres") or [], "lapso": VI.lapso(r, por_nombre)})
+    out.sort(key=lambda x: x["nombre"].lower())
+    return out
+
+
+def _cambios_reciprocos(reg, fichero_actual):
+    """{id: registro nuevo} de las OTRAS fichas que hay que tocar para que los
+    vínculos de 'reg' queden recíprocos."""
+    antes = _leer_pais(fichero_actual[:-5]) if fichero_actual else None
+    return VI.reciprocos(reg.get("id"), antes or {}, reg, _leer_pais)
 
 
 # --- validación --------------------------------------------------------------
@@ -186,6 +252,9 @@ def comprobar(col, reg):
         _rangos(donde + " nombre por época", reg.get("nombres_periodo"))
         _rangos(donde + " escudo", reg.get("escudos"), etiqueta="archivo")
         _rangos(donde + " bandera", reg.get("banderas"), etiqueta="archivo")
+        ids = {fn[:-5] for fn in os.listdir(_ruta("paises")) if fn.endswith(".json")}
+        ids.add(reg.get("id"))
+        VI.comprobar(reg, ids, V.err, V.aviso, donde)
         geo = nombres_geo()
         nombres = [n for n in reg.get("nombres", []) if isinstance(n, str)]
         desconocidos = [n for n in nombres if n not in geo]
@@ -254,8 +323,20 @@ def validar(col, reg, fichero_actual=None):
         antes.splitlines(True), nuevo.splitlines(True),
         fromfile=f"datos/{col}/{fichero_actual}" if fichero_actual else "/dev/null",
         tofile=f"datos/{col}/{destino}", n=2))
+    sin_cambios = bool(fichero_actual) and antes == nuevo
+    otros = []
+    if col == "paises" and not errores:
+        for pid, r2 in sorted(_cambios_reciprocos(reg, fichero_actual).items()):
+            fn = pid + ".json"
+            viejo = _leer_texto(_ruta(col, fn))
+            diff += "".join(difflib.unified_diff(
+                viejo.splitlines(True), texto_canonico(col, r2).splitlines(True),
+                fromfile=f"datos/{col}/{fn}", tofile=f"datos/{col}/{fn}", n=2))
+            otros.append(fn)
+        if otros:
+            sin_cambios = False
     return {"errores": errores, "avisos": avisos + extra, "fichero": destino,
-            "diff": diff, "sin_cambios": bool(fichero_actual) and antes == nuevo}
+            "diff": diff, "sin_cambios": sin_cambios, "reciprocos": otros}
 
 
 def guardar(col, reg, fichero_actual=None, version=None):
@@ -274,9 +355,18 @@ def guardar(col, reg, fichero_actual=None, version=None):
             return {**res, "guardado": False, "version": version}
         reg2, destino, _ = _preparar(col, reg, fichero_actual)
         texto = texto_canonico(col, reg2)
+        # antes de escribir: el cálculo compara con la versión en disco
+        otros = _cambios_reciprocos(reg2, fichero_actual) if col == "paises" else {}
         os.makedirs(_ruta(col), exist_ok=True)
         with open(_ruta(col, destino), "w", encoding="utf-8", newline="\n") as f:
             f.write(texto)
+        escritos = []
+        if col == "paises":
+            # el inverso de cada vínculo, en la otra ficha (ya validado arriba)
+            for pid, r2 in sorted(otros.items()):
+                with open(_ruta(col, pid + ".json"), "w", encoding="utf-8", newline="\n") as f:
+                    f.write(texto_canonico(col, r2))
+                escritos.append(f"datos/{col}/{pid}.json")
         if fichero_actual and destino != fichero_actual:
             os.remove(_ruta(col, fichero_actual))
         try:
@@ -285,5 +375,5 @@ def guardar(col, reg, fichero_actual=None, version=None):
         except Exception:  # noqa: BLE001 — el fichero ya está bien escrito; otro fichero roto no lo invalida
             recompilado = False
         return {**res, "guardado": True, "fichero": destino, "version": _huella(texto),
-                "recompilado": recompilado,
+                "recompilado": recompilado, "reciprocos_escritos": escritos,
                 "ruta": os.path.relpath(_ruta(col, destino), RAIZ).replace(os.sep, "/")}

@@ -92,7 +92,52 @@
 			"items": {
 				"type": "string"
 			},
-			"description": "Alias en español y nombres de otras fichas relacionadas (predecesores, colonias, nombres oficiales antiguos). Los usa el filtro «Seguir un reino» y el buscador; NO van a 'nombres', que solo admite nombres exactos de los GeoJSON"
+			"description": "Alias en español que no son otra ficha (nombres oficiales antiguos, variantes). Los usan el buscador y el filtro de guerras y acontecimientos al seguir un reino. Para enlazar con OTRA ficha (predecesores, sucesores, colonias) usa 'vinculos'; NO van a 'nombres', que solo admite nombres exactos de los GeoJSON"
+		},
+		"vinculos": {
+			"type": "array",
+			"description": "Relación con otras fichas de países, por su id. Es recíproca: el inverso se escribe en la otra ficha (predecesor↔sucesor, parte_de↔incluye). Al seguir esta entidad en el mapa se resaltan también sus predecesores y lo que incluye, en cadena",
+			"items": {
+				"type": "object",
+				"required": [
+					"id",
+					"tipo"
+				],
+				"properties": {
+					"id": {
+						"type": "string",
+						"pattern": "^[a-z0-9-]+$",
+						"description": "id de la otra ficha (datos/paises/<id>.json)"
+					},
+					"tipo": {
+						"enum": [
+							"predecesor",
+							"sucesor",
+							"parte_de",
+							"incluye"
+						],
+						"description": "predecesor: existía antes y dio paso a esta · sucesor: vino después · parte_de: esta formaba parte de la otra · incluye: la otra formaba parte de esta"
+					},
+					"desde": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año desde el que vale (negativo = a. C.); vacío = siempre"
+					},
+					"hasta": {
+						"type": [
+							"integer",
+							"null"
+						],
+						"minimum": -123000,
+						"maximum": 2100,
+						"description": "Año hasta el que vale (negativo = a. C.); vacío = siempre"
+					}
+				}
+			}
 		},
 		"resena": {
 			"type": "string",

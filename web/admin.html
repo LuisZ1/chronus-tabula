@@ -119,6 +119,15 @@ tr.abierta + tr.payload { display:table-row; }
 .ed-acc { display:flex; gap:4px; justify-content:flex-end; }
 .ed-acc button { padding:4px 9px; }
 .ed-mas { margin:8px 0 2px; }
+.ed-vinc { border:1px solid var(--line); border-radius:10px; padding:10px 12px; background:#fff; }
+.ed-vfila { grid-template-columns:minmax(200px, 2fr) minmax(220px, 2.4fr) minmax(90px, 1fr) minmax(90px, 1fr) auto; }
+.ed-vfila .ed-sub.ancho { grid-column:auto; }
+.ed-vnom { margin:3px 0 0; min-height:1em; }
+.mal-txt { color:var(--bad); }
+.ed-sug { margin:10px 0 0; }
+.ed-sug-fila { display:flex; gap:10px; align-items:center; justify-content:space-between; flex-wrap:wrap; padding:6px 0; border-top:1px dashed var(--line); font-size:13px; }
+.ed-vres { margin:10px 0 2px; padding:8px 10px; background:var(--fondo-alt); border-radius:6px; line-height:1.5; }
+@media (max-width: 760px) { .ed-vfila { grid-template-columns:1fr 1fr; } .ed-vfila .ed-sub.ancho { grid-column:1 / -1; } }
 .ed-coord { display:flex; gap:6px; } .ed-coord input { min-width:0; } .ed-coord button { flex:none; padding:5px 10px; }
 .ed-rev { padding:8px 12px; background:var(--code); border-radius:8px; }
 .ed-pie { display:flex; gap:10px; justify-content:space-between; flex-wrap:wrap; margin-top:16px; padding-top:12px; border-top:1px solid var(--line); position:sticky; bottom:0; background:var(--panel); }
@@ -254,6 +263,7 @@ button.aviso-pill.pendiente { background:var(--aviso-velo); color:var(--aviso); 
         Toda aportación debe citar su fuente en «Fuentes».</p>
         <form id="edForm" onsubmit="return false"></form>
         <datalist id="edPaisesList"></datalist>
+        <datalist id="edEntidadesList"></datalist>
         <div class="ed-pie">
           <button type="button" class="sec" id="edVolver">← Elegir otra ficha</button>
           <button type="button" id="edRevisar">Revisar cambios →</button>
@@ -785,6 +795,6 @@ async function cargarTodo() {
 })();
 </script>
 <script src="lib/leaflet/leaflet.js"></script>
-<script src="js/admin-editor.js?v=3"></script>
+<script src="js/admin-editor.js?v=4"></script>
 </body>
 </html>
