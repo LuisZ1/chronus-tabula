@@ -1,0 +1,16 @@
+# Procedencia de las láminas de la portada
+
+Las 21 imágenes de esta carpeta son capturas de la propia aplicación (`web/mapa.html`), sin retoque ni generación por IA. Se usan en el primer pantallazo de `index.html` (la barra de escala cambia de una a otra) y en «Láminas para abrir en clase».
+
+- Fecha: 2026-09-28.
+- Método: Chromium sin interfaz (Playwright) abre `mapa.html#AÑO/LAT/LNG/ZOOM`. Antes de capturar se ocultan la interfaz, los marcadores (batallas, acontecimientos, territorios) y las teselas del mapa base. Quedan las fronteras, los rótulos y el mar (`--mar`).
+- Paleta: las tintas del mapa mural (`TINTAS_MAPA` en `js/nucleo.js`, `--t-*` en `css/marca.css`).
+- Años: −500 (ficheros `*-ac500`), 1000, 1492, 1650, 1815, 1914 y 2010.
+- Variantes:
+  - `ancho-*`: 2000×1125, capturada a 1600×900 con dpr 1,25, vista `44.00/14.00/4`.
+  - `medio-*`: 1200×675, reducida desde `ancho`.
+  - `movil-*`: 780×1100, vista `42.00/12.00/3.3`.
+- Formato: WebP.
+- Datos: fronteras de [historical-basemaps](https://github.com/aourednik/historical-basemaps) (véase el README: GPL-3.0 para el código, uso académico y educativo para los datos). Nombres de `datos/paises/`, con las fuentes citadas en cada ficha.
+
+Si cambian la paleta o las fronteras, conviene regenerarlas con la misma receta.
