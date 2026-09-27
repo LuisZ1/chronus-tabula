@@ -5,6 +5,12 @@
 		"Asturias"
 	],
 	"wiki": "Reino de Asturias",
+	"vinculos": [
+		{
+			"id": "leon",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "El reino de Asturias o de los astures fue la primera entidad política cristiana establecida en la península ibérica después del desmoronamiento del reino visigodo de Toledo tras la desaparición del rey Rodrigo en la batalla de Guadalete y la subsiguiente conquista musulmana de la península ibérica.",
 	"gobernantes": [
 		{

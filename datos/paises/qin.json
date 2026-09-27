@@ -7,6 +7,10 @@
 	"wiki": "Dinastía Qin",
 	"vinculos": [
 		{
+			"id": "zhou",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "han",
 			"tipo": "sucesor"
 		}

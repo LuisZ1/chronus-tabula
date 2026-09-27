@@ -7,7 +7,7 @@
 	"vinculos": [
 		{
 			"id": "espana",
-			"tipo": "sucesor"
+			"tipo": "sucesor_territorial"
 		}
 	],
 	"gobernantes": [

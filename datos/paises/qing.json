@@ -9,6 +9,10 @@
 	],
 	"vinculos": [
 		{
+			"id": "ming",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "rpchina",
 			"tipo": "sucesor"
 		}

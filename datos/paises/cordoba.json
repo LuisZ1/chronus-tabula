@@ -8,7 +8,7 @@
 	"vinculos": [
 		{
 			"id": "espana",
-			"tipo": "sucesor"
+			"tipo": "sucesor_territorial"
 		}
 	],
 	"resena": "Un emirato es un territorio político bajo la administración de un emir, siendo un tipo de monarquía característica de Asia y África. En árabe, el término puede ser generalizado a una provincia o país que es administrado por un miembro de la clase dominante.",

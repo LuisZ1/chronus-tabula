@@ -8,6 +8,10 @@
 	],
 	"vinculos": [
 		{
+			"id": "leon",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "espana",
 			"tipo": "sucesor"
 		}

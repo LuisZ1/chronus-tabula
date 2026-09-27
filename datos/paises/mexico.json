@@ -12,8 +12,14 @@
 	],
 	"vinculos": [
 		{
+			"id": "espana",
+			"tipo": "parte_de",
+			"desde": 1521,
+			"hasta": 1821
+		},
+		{
 			"id": "azteca",
-			"tipo": "predecesor"
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "México, oficialmente Estados Unidos Mexicanos, es un país soberano ubicado en la parte meridional de América del Norte; su capital y ciudad más poblada es la Ciudad de México. De acuerdo con la constitución vigente, su forma de gobierno consiste en una república representativa, democrática, laica y federal, compuesta por 32 entidades federativas.",

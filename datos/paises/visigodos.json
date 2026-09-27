@@ -6,6 +6,12 @@
 		"Visigoths"
 	],
 	"wiki": "Reino visigodo",
+	"vinculos": [
+		{
+			"id": "espana",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "El reino visigodo fue una entidad política establecida por el pueblo visigodo tras su asentamiento en una parte de la actual Francia y la península ibérica, en la época de las invasiones germánicas, que perduró durante buena parte de la Alta Edad Media, ocupando territorios en las Galias e Hispania en sus diversas etapas.",
 	"gobernantes": [
 		{

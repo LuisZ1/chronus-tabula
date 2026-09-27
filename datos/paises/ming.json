@@ -13,11 +13,11 @@
 	],
 	"vinculos": [
 		{
-			"id": "han",
+			"id": "song",
 			"tipo": "predecesor"
 		},
 		{
-			"id": "rpchina",
+			"id": "qing",
 			"tipo": "sucesor"
 		}
 	],
