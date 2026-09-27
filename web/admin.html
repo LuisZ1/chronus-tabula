@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chronus Tabula · Administración</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+<link rel="stylesheet" href="lib/leaflet/leaflet.css">
 <style>
 :root {
   --bg:#f4f2ec; --panel:#fffdf8; --ink:#2b2e33; --muted:#767a80; --line:#e2ded4;
@@ -75,6 +76,59 @@ tr.abierta + tr.payload { display:table-row; }
 #loginError { display:none; margin-top:12px; font-size:12.5px; color:var(--bad); background:var(--badbg); border-radius:8px; padding:8px 10px; }
 #sesion { float:right; font-size:12.5px; color:var(--muted); }
 #sesion button { padding:4px 12px; font-size:12px; margin-left:8px; }
+/* --- asistente de edición de fichas --- */
+.ed-pasos { display:flex; gap:6px; list-style:none; padding:0; margin:0 0 14px; counter-reset:paso; flex-wrap:wrap; }
+.ed-pasos li { counter-increment:paso; font-size:13px; color:var(--muted); padding:4px 12px 4px 8px; border-radius:999px; border:1px solid var(--line); }
+.ed-pasos li::before { content:counter(paso); display:inline-grid; place-items:center; width:18px; height:18px; margin-right:6px; border-radius:50%; background:var(--line); color:var(--ink); font-size:11px; font-weight:700; }
+.ed-pasos li.on { color:var(--ink); border-color:var(--accent); font-weight:600; }
+.ed-pasos li.on::before { background:var(--accent); color:#fff; }
+.ed-pasos li.hecho::before { content:'✓'; background:var(--okbg); color:var(--ok); }
+.ed-cols { display:inline-flex; border:1px solid var(--line); border-radius:9px; overflow:hidden; }
+.ed-cols button { background:transparent; color:var(--ink); border-radius:0; padding:7px 14px; font-weight:500; }
+.ed-cols button.on { background:var(--accent); color:#fff; }
+.ed-barra { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:10px; }
+.ed-barra input[type=search] { flex:1; min-width:180px; padding:7px 10px; border:1px solid var(--line); border-radius:8px; font-size:14px; background:var(--bg); color:var(--ink); }
+#edLista { max-height:420px; overflow-y:auto; border:1px solid var(--line); border-radius:10px; }
+.ed-fila { display:grid; grid-template-columns:1fr auto; gap:0 12px; width:100%; text-align:left; background:transparent; color:var(--ink); border-radius:0; border-bottom:1px solid var(--line); padding:8px 12px; font-weight:400; }
+.ed-fila:hover { background:var(--hover); filter:none; }
+.ed-fila b { font-weight:600; } .ed-fila span { color:var(--muted); font-size:12.5px; text-align:right; }
+.ed-fila code { grid-column:1 / -1; font-size:11px; color:var(--muted); }
+.ed-fila.roto b { color:var(--bad); }
+.ed-cab { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:6px; }
+.ed-cab h3 { margin:0; font-size:18px; } .ed-cab code { font-size:12px; color:var(--muted); }
+#edCambios { color:var(--warn); font-size:12.5px; font-weight:600; }
+.ed-campo { margin:14px 0; }
+.ed-campo > label, .ed-sub label { display:block; font-size:13px; font-weight:600; margin-bottom:3px; }
+.ed-sub label { font-size:11.5px; color:var(--muted); font-weight:600; }
+.req { color:var(--bad); }
+.ed-ayuda { font-size:12px; color:var(--muted); margin:-1px 0 5px; }
+#editor input:not([type=checkbox]):not([type=search]), #editor select, #editor textarea { width:100%; padding:6px 9px; border:1px solid var(--line); border-radius:7px; font:14px system-ui,sans-serif; background:#fff; color:var(--ink); }
+#editor textarea { resize:vertical; }
+#editor input[readonly] { background:var(--code); color:var(--muted); }
+#editor .ed-json { font:12.5px/1.45 ui-monospace,Consolas,monospace; }
+#editor .mal { border-color:var(--bad) !important; }
+.ed-lista { border:1px solid var(--line); border-radius:10px; padding:8px 12px; background:#fff; }
+.ed-lista summary { cursor:pointer; padding:2px 0; }
+.ed-item { display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:6px 10px; align-items:end; padding:10px 0; border-top:1px dashed var(--line); }
+.ed-item:first-child { border-top:0; }
+.ed-sub.ancho, .ed-sub.coord { grid-column:span 2; }
+.ed-sub.ancho:has(.ed-json) { grid-column:1 / -1; }
+.ed-acc { display:flex; gap:4px; justify-content:flex-end; }
+.ed-acc button { padding:4px 9px; }
+.ed-mas { margin:8px 0 2px; }
+.ed-coord { display:flex; gap:6px; } .ed-coord input { min-width:0; } .ed-coord button { flex:none; padding:5px 10px; }
+.ed-rev { padding:8px 12px; background:var(--code); border-radius:8px; }
+.ed-pie { display:flex; gap:10px; justify-content:space-between; flex-wrap:wrap; margin-top:16px; padding-top:12px; border-top:1px solid var(--line); position:sticky; bottom:0; background:var(--panel); }
+.ed-msg { border-radius:9px; padding:9px 13px; margin:8px 0; font-size:13.5px; background:var(--code); }
+.ed-msg ul { margin:6px 0 0; padding-left:20px; } .ed-msg li { margin:2px 0; }
+.ed-msg.mal { background:var(--badbg); color:var(--bad); } .ed-msg.aviso { background:var(--warnbg); color:#6b4a0c; }
+.ed-msg.bien { background:var(--okbg); color:var(--ok); }
+#edDiff { margin:10px 0 0; padding:10px 12px; background:#1f2328; color:#d6d9dd; border-radius:9px; font:12px/1.5 ui-monospace,Consolas,monospace; max-height:380px; overflow:auto; white-space:pre; tab-size:2; }
+#edDiff .mas { color:#7ee2a0; } #edDiff .menos { color:#ff9c95; } #edDiff .at { color:#8fb6ff; } #edDiff .f { color:#9aa0a6; }
+#edMapaModal { position:fixed; inset:0; z-index:200; background:rgba(20,22,26,.45); display:flex; align-items:center; justify-content:center; padding:20px; }
+#edMapaModal[hidden] { display:none; }
+.ed-mapa-card { background:var(--panel); border-radius:14px; padding:14px; width:min(760px, 100%); box-shadow:0 10px 40px rgba(0,0,0,.25); }
+#edMapa { height:min(60vh, 460px); border-radius:9px; margin:8px 0; }
 </style>
 </head>
 <body>
@@ -102,6 +156,57 @@ tr.abierta + tr.payload { display:table-row; }
   <div id="error">No se puede contactar con la API. Arranca el servidor con <code>python api/servidor.py</code> y abre este panel en <code>http://localhost:9000/admin.html</code>.</div>
 
   <div class="grid" id="estado"></div>
+
+  <h2>Asistente de edición de fichas</h2>
+  <p class="mini">Edita un país, conflicto, evento o territorio con un formulario, sin tocar el JSON. Al guardar, el servidor
+  valida la ficha contra <code>schema/</code>, la escribe en <code>datos/</code> en formato canónico y recompila el mapa.
+  Después revisa el cambio con <code>git diff</code> y abre tu merge request.</p>
+  <div class="card" id="editor">
+    <ol class="ed-pasos" id="edPasos"><li class="on">Elegir ficha</li><li>Editar</li><li>Revisar y guardar</li></ol>
+
+    <div id="edPaso1">
+      <div class="ed-barra">
+        <div class="ed-cols" id="edCols"></div>
+        <input type="search" id="edBuscar" placeholder="Buscar por nombre, año o fichero…" autocomplete="off">
+        <span class="mini" id="edCuenta"></span>
+        <button type="button" id="edNueva">+ Nuevo país</button>
+      </div>
+      <div id="edLista"></div>
+    </div>
+
+    <div id="edPaso2" hidden>
+      <div class="ed-cab"><h3 id="edTitulo"></h3><code id="edFichero"></code><span id="edCambios"></span></div>
+      <p class="mini">Los campos con <span class="req">*</span> son obligatorios. Deja en blanco lo que no sepas: la ficha del mapa simplemente no lo muestra.
+      Toda aportación debe citar su fuente en «Fuentes».</p>
+      <form id="edForm" onsubmit="return false"></form>
+      <datalist id="edPaisesList"></datalist>
+      <div class="ed-pie">
+        <button type="button" class="sec" id="edVolver">← Elegir otra ficha</button>
+        <button type="button" id="edRevisar">Revisar cambios →</button>
+      </div>
+    </div>
+
+    <div id="edPaso3" hidden>
+      <div id="edResultado"></div>
+      <pre id="edDiff" hidden></pre>
+      <div class="ed-pie">
+        <span><button type="button" class="sec" id="edEditar">← Seguir editando</button>
+        <button type="button" class="sec" id="edOtra">Elegir otra ficha</button></span>
+        <button type="button" id="edGuardar" disabled>💾 Guardar en datos/</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="edMapaModal" hidden>
+    <div class="ed-mapa-card">
+      <b>Elige la ubicación</b> <span class="mini" id="edMapaSel"></span>
+      <div id="edMapa"></div>
+      <div class="acciones" style="justify-content:flex-end;display:flex;gap:8px">
+        <button type="button" class="sec" id="edMapaNo">Cancelar</button>
+        <button type="button" id="edMapaOk">Usar estas coordenadas</button>
+      </div>
+    </div>
+  </div>
 
   <h2>Fuentes externas</h2>
   <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>datos/</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
@@ -532,6 +637,7 @@ $('#btnExportar').addEventListener('click', async ev => {
 async function cargarTodo() {
   await cargarAjustes();  // antes que las fuentes: sus tarjetas muestran los países consultados
   await Promise.all([cargarEstado(), cargarFuentes(), cargarMapeo(), cargarPropuestas()]);
+  if (window.edIniciar) edIniciar();  // asistente de edición de fichas (js/admin-editor.js)
   reengancharIngesta();  // si hay una ingesta en marcha, mostrar su progreso
 }
 
@@ -555,5 +661,7 @@ async function cargarTodo() {
   }
 })();
 </script>
+<script src="lib/leaflet/leaflet.js"></script>
+<script src="js/admin-editor.js?v=1"></script>
 </body>
 </html>
