@@ -2,129 +2,210 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Colaborar — Chronus Tabula</title>
   <meta name="description" content="Cómo colaborar en Chronus Tabula: avisar de errores, aportar datos históricos con fuentes o mejorar el código. Un fichero por país, conflicto, evento o territorio; validación automática. Proyecto abierto en GitHub.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
-  <link rel="stylesheet" href="css/portada.css?v=3">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d1d1f' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/marca.css?v=2">
+  <link rel="stylesheet" href="css/portada.css?v=5">
 </head>
 <body>
 
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-globo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z"/></symbol>
+    <symbol id="i-aviso" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M12 8v4M12 14.5h.01"/></symbol>
+    <symbol id="i-ficha" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+    <symbol id="i-codigo" viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></symbol>
+    <symbol id="i-corona" viewBox="0 0 24 24"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5L3 8Z"/></symbol>
+    <symbol id="i-espadas" viewBox="0 0 24 24"><path d="M5 3l11 11M3 5l2-2M14 14l-2 2 4 4 2-2-4-4M19 3 8 14M21 5l-2-2M10 14l2 2-4 4-2-2 4-4"/></symbol>
+    <symbol id="i-estrella" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"/></symbol>
+    <symbol id="i-alfiler" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-libro" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V4.5C17 4 14 4.5 12 6Z"/><path d="M12 6v14.5"/></symbol>
+    <symbol id="i-revisado" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16 9.5"/></symbol>
+    <symbol id="i-panel" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16"/></symbol>
+    <symbol id="i-rama" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="7" r="2"/><path d="M6 7v10M18 9c0 4-4 5-10.5 8.5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+  </svg>
+
+  <a class="saltar" href="#contenido">Ir al contenido</a>
+
   <header class="cab">
-    <a class="marca" href="index.html"><span class="globo">🌍</span> Chronus Tabula</a>
-    <nav class="nav">
-      <a href="index.html">Inicio</a>
-      <a href="mapa.html">Abrir el mapa</a>
+    <div class="cab-in">
+      <a class="marca" href="index.html"><svg class="icono" aria-hidden="true"><use href="#i-globo"/></svg>Chronus Tabula</a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="#formas" class="solo-ancho">Cómo ayudar</a>
+        <a href="#asistente" class="solo-ancho">El asistente</a>
+        <a href="#datos" class="solo-ancho">Los datos</a>
+        <a href="#flujo" class="solo-ancho">Paso a paso</a>
+        <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener" class="solo-ancho">GitHub ↗</a>
+        <a href="mapa.html" class="btn principal pequeno">Abrir el mapa</a>
+      </nav>
+    </div>
+    <nav class="subnav" aria-label="Secciones">
+      <a href="#formas">Cómo ayudar</a>
+      <a href="#asistente">El asistente</a>
+      <a href="#datos">Los datos</a>
+      <a href="#flujo">Paso a paso</a>
+      <a href="#reglas">Reglas</a>
       <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub ↗</a>
     </nav>
   </header>
 
-  <main class="cont">
+  <main id="contenido">
 
-    <section class="hero">
-      <h1>Cómo colaborar</h1>
-      <p class="lema">Chronus Tabula es un proyecto abierto. Cada país, guerra, acontecimiento o territorio es un pequeño fichero de texto que cualquiera puede corregir o ampliar, cada dato lleva su fuente y una comprobación automática vigila que todo encaje antes de publicarse. No hace falta saber programar para ayudar.</p>
-      <div class="acciones">
-        <a class="btn principal" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ver el repositorio en GitHub ↗</a>
-        <a class="btn secundario" href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Guía completa (CONTRIBUTING)</a>
+    <section class="hero corto">
+      <div class="cont">
+        <p class="antetitulo">Proyecto abierto</p>
+        <h1>Mejora el mapa.</h1>
+        <p class="lema">Cada país, guerra o acontecimiento es un pequeño fichero con su fuente. Corrígelo o amplíalo; no hace falta programar.</p>
+        <div class="acciones">
+          <a class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Avisar de un error</a>
+          <a class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Guía completa</a>
+        </div>
       </div>
     </section>
 
-    <section class="bloque">
-      <h2>Tres formas de ayudar</h2>
-      <div class="rejilla">
-        <div class="tarjeta"><div class="ico">🐞</div><h3>Avisar de un error</h3><p>¿Una fecha de reinado mal, una frontera que no cuadra, una batalla en el sitio equivocado? Abre un <a href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener"><em>issue</em> en GitHub</a> contando qué has visto y en qué año; hay una plantilla que te guía. Es la forma más rápida de mejorar el mapa.</p></div>
-        <div class="tarjeta"><div class="ico">📜</div><h3>Aportar datos</h3><p>Añadir o corregir gobernantes, población, batallas, acontecimientos o territorios editando el fichero de esa entidad en <code>datos/</code>, siempre con su fuente. Es el grueso del trabajo y donde más ayuda hace falta.</p></div>
-        <div class="tarjeta"><div class="ico">🛠️</div><h3>Código y diseño</h3><p>La app es JavaScript sin dependencias ni proceso de compilación, más un pequeño backend en Python estándar para el panel de edición. Mejoras de interfaz, accesibilidad o rendimiento son bienvenidas.</p></div>
+    <section class="bloque alt" id="formas">
+      <div class="cont">
+        <h2>Tres formas de ayudar.</h2>
+        <p class="intro">Elige según el tiempo que tengas. Todas cuentan.</p>
+        <div class="rejilla">
+          <article class="tarjeta con-accion"><svg class="icono" aria-hidden="true"><use href="#i-aviso"/></svg><span class="chip">5 minutos</span><h3>Avisar de un error</h3><p>¿Una fecha de reinado mal, una frontera que no cuadra, una batalla en el sitio equivocado? Cuenta qué has visto y en qué año; una plantilla te guía.</p><a class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Abrir un aviso</a></article>
+          <article class="tarjeta con-accion"><svg class="icono" aria-hidden="true"><use href="#i-ficha"/></svg><span class="chip">Con el asistente o un editor de texto</span><h3>Aportar datos</h3><p>Añade o corrige gobernantes, población, batallas, acontecimientos o territorios, siempre con su fuente. Es donde más ayuda hace falta.</p><a class="enlace-flecha" href="#asistente">Ver ejemplos con el asistente</a></article>
+          <article class="tarjeta con-accion"><svg class="icono" aria-hidden="true"><use href="#i-codigo"/></svg><span class="chip">Con Git</span><h3>Código y diseño</h3><p>JavaScript sin dependencias ni compilación, y un pequeño servidor en Python estándar. Mejoras de interfaz, accesibilidad o rendimiento son bienvenidas.</p><a class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ver el repositorio</a></article>
+        </div>
       </div>
     </section>
 
-    <section class="bloque" id="datos">
-      <h2>Cómo están organizados los datos</h2>
-      <p class="intro">Todo el conocimiento del mapa vive en la carpeta <code>datos/</code>, con <strong>un fichero JSON por entidad</strong>. Así cada cambio toca solo su fichero, el diff se lee de un vistazo y dos personas no chocan aunque trabajen a la vez. La web no lee esa carpeta directamente: un paso de compilación la junta en <code>web/data/historia.json</code>, que se genera solo (al arrancar el servidor local y en cada despliegue) y no se edita ni se guarda en el repositorio.</p>
-      <pre><code>datos/
+    <section class="bloque" id="asistente">
+      <div class="cont">
+        <h2>Edita sin tocar el JSON.</h2>
+        <p class="intro">El panel de administración incluye un asistente que convierte cada ficha en un formulario. Te avisa de los errores antes de guardar y escribe el fichero con el formato correcto.</p>
+        <ol class="pasos-3">
+          <li><span class="num" aria-hidden="true">1</span><h3>Arranca el panel</h3><p>En la carpeta del proyecto, <code>python api/servidor.py</code>. Abre <code>http://localhost:9000/admin.html#editor</code>; la primera vez crearás un usuario y una contraseña locales.</p></li>
+          <li><span class="num" aria-hidden="true">2</span><h3>Elige y edita</h3><p>Escoge Países, Conflictos, Eventos o Territorios, busca la ficha o pulsa <span class="ui">+ Nuevo</span>. Los campos con <span class="ui">*</span> son obligatorios; lo que no sepas, déjalo en blanco.</p></li>
+          <li><span class="num" aria-hidden="true">3</span><h3>Revisa y guarda</h3><p><span class="ui">Revisar cambios</span> muestra los errores, los avisos y las líneas exactas que cambiarán. Si no hay errores, <span class="ui">Guardar en datos/</span> escribe el fichero y el mapa lo muestra al recargar.</p></li>
+        </ol>
+
+        <h3 class="sub">Tres ejemplos</h3>
+        <div class="rejilla ejemplos">
+          <article class="tarjeta ejemplo">
+            <span class="chip">Corregir un dato</span>
+            <h3>La fecha de un reinado</h3>
+            <p>Felipe II aparece en España de 1556 a 1598. Si una fecha estuviera mal:</p>
+            <ol>
+              <li><span class="ui">Países</span>, busca <kbd>españa</kbd> y ábrela.</li>
+              <li>Despliega <span class="ui">Gobernantes</span>, localiza la fila de <em>Felipe II</em> y cambia <span class="ui">Hasta</span>.</li>
+              <li>En <span class="ui">Fuentes</span>, <span class="ui">+ Añadir</span> y escribe en <span class="ui">Identificador</span> de dónde sale el dato, por ejemplo <code>wikipedia-es:Felipe II de España</code>.</li>
+              <li><span class="ui">Revisar cambios</span>: el diff marca solo esa línea y la fuente nueva. Guarda.</li>
+            </ol>
+            <p class="nota-ej">Si escribes un año de fin anterior al de inicio, el asistente no deja guardar y te dice por qué: <em>«'desde' (1556) es posterior a 'hasta' (1550)»</em>.</p>
+          </article>
+          <article class="tarjeta ejemplo">
+            <span class="chip">Añadir un acontecimiento</span>
+            <h3>La Universidad de Salamanca, 1218</h3>
+            <ol>
+              <li><span class="ui">Eventos</span> → <span class="ui">+ Nuevo evento</span>.</li>
+              <li><span class="ui">Nombre</span>: <kbd>Fundación de la Universidad de Salamanca</kbd>; <span class="ui">Año</span>: <kbd>1218</kbd>.</li>
+              <li>En <span class="ui">Coordenadas</span>, <span class="ui">📍 Mapa</span> y pincha sobre Salamanca (≈ 40,96, −5,66).</li>
+              <li><span class="ui">Países</span>: <kbd>Reino de León</kbd>; una <span class="ui">Descripción</span> de una frase y el <span class="ui">Artículo de Wikipedia</span>: <kbd>Universidad de Salamanca</kbd>.</li>
+              <li><span class="ui">Fuentes</span> → <span class="ui">+ Añadir</span>: <span class="ui">Identificador</span> <code>wikipedia-es:Universidad de Salamanca</code> y <span class="ui">Licencia</span> <code>CC BY-SA</code>.</li>
+            </ol>
+            <p class="nota-ej">Al guardar se crea <code>datos/eventos/1218-fundacion-de-la-universidad-de-salamanca.json</code> y aparece como ⭐ en el mapa de 1218.</p>
+          </article>
+          <article class="tarjeta ejemplo">
+            <span class="chip">Ampliar un conflicto</span>
+            <h3>Una batalla que falta</h3>
+            <p>La Guerra de los Treinta Años aún no tiene la batalla de la Montaña Blanca (1620).</p>
+            <ol>
+              <li><span class="ui">Conflictos</span>, busca <kbd>treinta</kbd> y ábrelo.</li>
+              <li>Despliega <span class="ui">Batallas</span> → <span class="ui">+ Añadir</span>.</li>
+              <li><span class="ui">Nombre</span>: <kbd>Batalla de la Montaña Blanca</kbd>; <span class="ui">Año</span>: <kbd>1620</kbd>; coordenadas junto a Praga (≈ 50,08, 14,32) con <span class="ui">📍 Mapa</span>.</li>
+              <li>Añade su fuente en <span class="ui">Fuentes</span> del conflicto y revisa.</li>
+            </ol>
+            <p class="nota-ej">No te preocupes por el orden: al guardar, las batallas se ordenan por año.</p>
+          </article>
+        </div>
+        <p class="nota">Después, como con cualquier cambio: <code>git diff</code> para verlo, <em>commit</em> y <em>pull request</em>. Si otra persona ha cambiado la misma ficha mientras la editabas, el asistente no la sobrescribe y te pide recargarla. En países y conflictos el <span class="ui">Identificador</span> no se cambia desde aquí, y los polígonos de las zonas se editan como texto.</p>
+      </div>
+    </section>
+
+    <section class="bloque alt" id="datos">
+      <div class="cont">
+        <h2>Un fichero por entidad.</h2>
+        <p class="intro">Todo el conocimiento del mapa vive en <code>datos/</code>. Cada cambio toca solo su fichero, el diff se lee de un vistazo y dos personas no chocan aunque trabajen a la vez.</p>
+        <pre><code>datos/
   paises/&lt;id&gt;.json               espana.json, rd-congo.json, sacroimperio.json…
   conflictos/&lt;id&gt;.json           guerra-de-los-cien-anos.json…
   eventos/&lt;año&gt;-&lt;nombre&gt;.json    1492-descubrimiento-de-america.json, 480ac-batalla-de-salamina.json…
   territorios/&lt;nombre&gt;.json      gibraltar.json, ceuta.json…
-  _meta.json                     ayuda interna
-schema/                          el "contrato" de cada tipo de ficha (JSON Schema)
-  pais.json · conflicto.json · evento.json · territorio.json</code></pre>
-      <div class="rejilla dos">
-        <div class="tarjeta"><div class="ico">🏛️</div><h3><code>paises/</code></h3><p>La ficha de cada país o imperio: nombre en español, sus nombres en los mapas, nombres por época (Zaire entre 1971 y 1997), gobernantes con fechas, población, escudos y banderas con vigencia, reseña, fuentes y la marca de revisión. El fichero se llama como su <code>id</code>.</p></div>
-        <div class="tarjeta"><div class="ico">🔥</div><h3><code>conflictos/</code></h3><p>Guerras con inicio y fin, bandos, zonas (frentes y territorios ocupados dibujados como polígonos, por fases) y sus batallas con coordenadas y año.</p></div>
-        <div class="tarjeta"><div class="ico">⭐</div><h3><code>eventos/</code></h3><p>Acontecimientos e inventos con año, lugar y descripción breve. El nombre del fichero empieza por el año (<code>480ac-…</code> para el 480 a. C.).</p></div>
-        <div class="tarjeta"><div class="ico">📍</div><h3><code>territorios/</code></h3><p>Enclaves e islas que no se ven a escala mundial, con el país del que heredan el color y desde cuándo. Si un lugar cambió de dueño, hay un fichero por periodo.</p></div>
+schema/                          el contrato de cada tipo de ficha (JSON Schema)</code></pre>
+        <div class="rejilla">
+          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-corona"/></svg><h3>Países</h3><p>Nombre, nombres en los mapas y por época, gobernantes con fechas, población, escudos y banderas, reseña, fuentes y marca de revisión.</p></article>
+          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-espadas"/></svg><h3>Conflictos</h3><p>Guerras con inicio, fin y bandos; zonas de frente u ocupadas por fases, y sus batallas con coordenadas y año.</p></article>
+          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-estrella"/></svg><h3>Eventos</h3><p>Acontecimientos e inventos con año, lugar y descripción breve. El fichero empieza por el año: <code>480ac-…</code> para el 480 a. C.</p></article>
+          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-alfiler"/></svg><h3>Territorios</h3><p>Enclaves e islas que no se ven a escala mundial, con el país del que heredan el color y desde cuándo.</p></article>
+        </div>
+        <p class="nota">Los años negativos son a. C., las coordenadas son siempre <code>[latitud, longitud]</code> y casi todos los campos son opcionales. Las fronteras son ficheros GeoJSON aparte, de <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>.</p>
       </div>
-      <p class="nota">Los años <strong>negativos significan a. C.</strong> en todos los ficheros, las coordenadas son siempre <code>[latitud, longitud]</code> y casi todos los campos son opcionales: si a un país le falta la población, su ficha simplemente no muestra esa fila. Los mapas de fronteras por año son ficheros GeoJSON aparte, tomados de <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>.</p>
     </section>
 
     <section class="bloque" id="flujo">
-      <h2>El flujo para aportar datos, en cinco pasos</h2>
-      <p class="intro">Este es el resumen; la <a href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">guía completa</a> detalla el formato de cada campo con ejemplos copiables.</p>
-      <ol class="pasos">
-        <li><h3>Haz un <em>fork</em> y clona el repositorio</h3><p>Todo el proyecto es estático: no hay que instalar nada más que Python para servirlo en local.</p></li>
-        <li><h3>Arranca la app en tu equipo</h3><p><code>python api/servidor.py</code> compila los datos y abre el mapa en <code>http://localhost:9000/</code>. El mismo servidor sirve el panel de administración en <code>/admin.html</code>.</p></li>
-        <li><h3>Edita (o crea) el fichero de la entidad en <code>datos/</code></h3><p>Con cualquier editor de texto: por ejemplo <code>datos/paises/espana.json</code>. Si usas VS Code, el proyecto ya trae la configuración para que te autocomplete los campos y te subraye los errores según el esquema de <code>schema/</code>.</p></li>
-        <li><h3>Formatea y valida</h3><p><code>python api/formatear.py</code> deja el fichero en el formato canónico (orden de claves, tabuladores, listas por año) y <code>python api/validar.py</code> comprueba estructura, fechas, coordenadas, nombres en los mapas, referencias y fuentes. Si ambos están en verde, la integración continua también lo estará.</p></li>
-        <li><h3>Pruébalo en el navegador y abre un <em>pull request</em></h3><p>Recarga el mapa en los años que tocan tus datos y comprueba que todo cae donde debe. La plantilla del pull request te pide qué has añadido y de dónde sale; se revisa y, al fusionarse, se publica solo.</p></li>
-      </ol>
-    </section>
-
-    <section class="bloque" id="herramientas">
-      <h2>Las herramientas que te acompañan</h2>
-      <p class="intro">Cuatro scripts de Python sin dependencias, en <code>api/</code>. Los dos primeros son los que usarás; los otros dos los ejecuta el servidor y el despliegue por ti.</p>
-      <div class="rejilla dos">
-        <div class="tarjeta"><div class="ico">✎</div><h3><code>formatear.py</code></h3><p>El formato canónico: claves en un orden fijo, gobernantes, población, nombres por época, escudos y batallas ordenados por año, tabuladores y saltos de línea LF. Dos personas que editan la misma ficha producen el mismo texto y los diffs solo muestran cambios reales. Con <code>--check</code> no toca nada, solo avisa (así lo usa el CI).</p></div>
-        <div class="tarjeta"><div class="ico">🧪</div><h3><code>validar.py</code></h3><p>Comprueba cada ficha contra su esquema de <code>schema/</code> (tipos, campos obligatorios, patrones como <code>Q123</code> o <code>#rrggbb</code>, claves con erratas), la coherencia de años y coordenadas, que los nombres existan en los GeoJSON, que las referencias entre fichas resuelvan y que las marcas de revisión sigan cuadrando. Cada aviso dice qué fichero y qué campo.</p></div>
-        <div class="tarjeta"><div class="ico">🧩</div><h3><code>compilar.py</code></h3><p>Junta <code>datos/</code> en <code>web/data/historia.json</code>, el único JSON que descarga la web, siempre en el mismo orden. Lo lanzan solos <code>servidor.py</code> al arrancar, <code>exportar.py</code> y el despliegue; solo lo ejecutarás a mano si sirves <code>web/</code> con otro servidor.</p></div>
-        <div class="tarjeta"><div class="ico">📦</div><h3><code>dividir.py</code></h3><p>El camino inverso: reparte un <code>historia.json</code> completo en ficheros de <code>datos/</code>. Sirve para incorporar un JSON grande que alguien haya preparado aparte.</p></div>
+      <div class="cont">
+        <h2>Aportar datos, paso a paso.</h2>
+        <p class="intro">El resumen; la <a href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">guía completa</a> detalla cada campo con ejemplos.</p>
+        <ol class="pasos">
+          <li><h3>Haz un <em>fork</em> y clona el repositorio</h3><p>Solo necesitas Python para servirlo en tu equipo.</p></li>
+          <li><h3>Arranca la app</h3><p><code>python api/servidor.py</code> abre el mapa en <code>http://localhost:9000/</code> y el panel en <code>/admin.html</code>.</p></li>
+          <li><h3>Edita la ficha</h3><p>Con el <a href="#asistente">asistente del panel</a>, que valida y guarda por ti, o con cualquier editor de texto en <code>datos/</code>.</p></li>
+          <li><h3>Formatea y valida</h3><p><code>python api/formatear.py</code> y <code>python api/validar.py</code>. Si ambos están en verde, la integración continua también lo estará.</p></li>
+          <li><h3>Abre un <em>pull request</em></h3><p>Comprueba en el mapa los años que tocan tus datos y cuenta qué añades y de dónde sale. Al fusionarse, se publica solo.</p></li>
+        </ol>
+        <details class="mas">
+          <summary><svg class="icono chevron" aria-hidden="true"><use href="#i-chevron"/></svg>Las herramientas, en detalle</summary>
+          <ul class="lista-controles">
+            <li><svg class="icono" aria-hidden="true"><use href="#i-panel"/></svg><div><h3>Panel de administración</h3><p>Asistente de edición de fichas y conectores con Wikidata, Wikipedia y Our World in Data que dejan propuestas para revisar. Solo funciona en tu equipo.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-ficha"/></svg><div><h3><code>formatear.py</code></h3><p>Formato canónico: claves en orden fijo, listas por año, tabuladores. Los diffs solo muestran cambios reales.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-revisado"/></svg><div><h3><code>validar.py</code></h3><p>Esquema, años, coordenadas, nombres en los mapas, referencias y marcas de revisión. Cada aviso indica fichero y campo.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-libro"/></svg><div><h3><code>compilar.py</code> y <code>dividir.py</code></h3><p>Juntan <code>datos/</code> en el <code>historia.json</code> que descarga la web, y al revés. Normalmente los lanzan el servidor y el despliegue.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-rama"/></svg><div><h3>Despliegue</h3><p>En cada <em>push</em> a <code>main</code>, GitHub Actions formatea, valida y, si todo pasa, publica la web.</p></div></li>
+          </ul>
+        </details>
       </div>
     </section>
 
-    <section class="bloque" id="esquemas">
-      <h2>Esquemas y marca de revisión</h2>
-      <div class="rejilla">
-        <div class="tarjeta"><div class="ico">📐</div><h3>Un esquema por tipo de ficha</h3><p>En <code>schema/</code> está el contrato de cada colección en formato JSON Schema, con la descripción de cada campo. Es la referencia cuando dudes qué admite un campo, alimenta el autocompletado del editor (<code>.vscode/settings.json</code> ya lo enlaza) y es lo que aplica el validador. Si propones un campo nuevo, se añade primero al esquema.</p></div>
-        <div class="tarjeta"><div class="ico">✅</div><h3>La marca <code>revision</code></h3><p>Cada país puede llevar un bloque <code>revision</code> con estado (<code>validado</code> o <code>borrador</code>), fecha, quién lo revisó, qué secciones y una huella (<code>hash</code>) de sus gobernantes, población y nombres por época. Si alguien cambia esos datos después, la huella deja de cuadrar y el validador avisa: así sabemos qué fichas están revisadas y cuáles hay que volver a mirar, y las extracciones automáticas pueden saltarse lo ya validado.</p></div>
-        <div class="tarjeta"><div class="ico">🤖</div><h3>Qué comprueba el despliegue</h3><p>En cada <em>push</em> a <code>main</code>, GitHub Actions ejecuta <code>formatear.py --check</code> y <code>validar.py</code>; si algo falla, la web no se publica y el registro indica el fichero y el campo. Si pasa, compila <code>historia.json</code> y publica <code>web/</code> en GitHub Pages. Un pull request se revisa antes de fusionarse (<code>CODEOWNERS</code> asigna revisores por carpeta).</p></div>
+    <section class="bloque alt" id="reglas">
+      <div class="cont">
+        <h2>Reglas de oro.</h2>
+        <div class="rejilla">
+          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-libro"/></svg><h3>Todo con fuente</h3><p>Cada dato cita de dónde sale en <code>fuentes</code>: Wikipedia, Wikidata, un libro, un censo. Sin fuente no se acepta.</p></div>
+          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-ficha"/></svg><h3>Hechos, no textos ajenos</h3><p>Nombres, fechas y cifras, nunca párrafos copiados. Los textos que se guardan van atribuidos y con su licencia.</p></div>
+          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-globo"/></svg><h3>Español primero</h3><p>Nombres y textos en español; la interfaz también existe en inglés.</p></div>
+          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-revisado"/></svg><h3>Validador en verde</h3><p>Antes de proponer un cambio, el formateador y el validador deben pasar sin errores.</p></div>
+        </div>
       </div>
     </section>
 
-    <section class="bloque" id="panel">
-      <h2>El panel de administración</h2>
-      <p class="intro">Para incorporar datos a mayor escala hay un panel local (solo funciona en tu equipo, no en la web publicada) que se conecta a fuentes abiertas y propone cambios que tú revisas antes de aplicar.</p>
-      <div class="rejilla">
-        <div class="tarjeta"><div class="ico">🔌</div><h3>Conectores</h3><p>Wikidata (gobernantes, población, escudos y banderas por época, batallas), Wikipedia (reseñas) y Our World in Data (población). Se lanzan uno a uno o todos en cola durante horas o días, respetan los límites de peticiones de cada API, se pueden detener y reanudan por el país en que se quedaron. Por defecto consultan solo los países nuevos (los que nunca consultaron o sin esa sección validada); un interruptor permite volver a consultar todos.</p></div>
-        <div class="tarjeta"><div class="ico">📥</div><h3>Propuestas</h3><p>Nada toca <code>datos/</code> directamente: cada dato llega como propuesta, con su fuente ya puesta, que apruebas o rechazas.</p></div>
-        <div class="tarjeta"><div class="ico">✅</div><h3>Exportar y validar</h3><p>Lo aprobado se escribe en el fichero de cada país (ya en formato canónico), pasa por el validador, recompila la web local y estampa la marca <code>revision</code> con la fecha y la huella del contenido.</p></div>
-      </div>
-    </section>
-
-    <section class="bloque">
-      <h2>Reglas de oro</h2>
-      <div class="rejilla">
-        <div class="tarjeta"><div class="ico">📚</div><h3>Todo con fuente</h3><p>Cada dato nuevo cita de dónde sale (Wikipedia, Wikidata, un libro, un censo…) en el campo <code>fuentes</code>. Sin fuente no se acepta.</p></div>
-        <div class="tarjeta"><div class="ico">⚖️</div><h3>Hechos, no textos ajenos</h3><p>Se extraen hechos (nombres, fechas, cifras), nunca párrafos copiados. Los textos que sí se guardan van atribuidos y con su licencia (CC BY-SA).</p></div>
-        <div class="tarjeta"><div class="ico">🇪🇸</div><h3>Español primero</h3><p>Los nombres y textos van en español; la interfaz también existe en inglés.</p></div>
-        <div class="tarjeta"><div class="ico">🧪</div><h3>Formato y validador en verde</h3><p>Antes de proponer un cambio, <code>python api/formatear.py</code> y <code>python api/validar.py</code> deben pasar sin errores. Un fichero por entidad: no edites <code>historia.json</code>.</p></div>
-      </div>
-    </section>
-
-    <section class="cierre">
-      <h2>¿Te animas?</h2>
-      <div class="acciones">
-        <a class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ir al repositorio ↗</a>
-        <a class="btn secundario" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Abrir un issue</a>
-        <a class="btn secundario" href="mapa.html">Volver al mapa</a>
+    <section class="cierre claro">
+      <div class="cont">
+        <h2>¿Te animas?</h2>
+        <div class="acciones">
+          <a class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ir al repositorio</a>
+          <a class="enlace-flecha" href="mapa.html">Volver al mapa</a>
+        </div>
       </div>
     </section>
 
   </main>
 
   <footer class="pie">
-    <span>Chronus Tabula es software y datos abiertos. Fuentes: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY), historical-basemaps.</span>
-    <span><a href="index.html">Inicio</a> · <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub</a></span>
+    <div class="cont">
+      <p>Chronus Tabula es software y datos abiertos. Fuentes: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) y historical-basemaps.</p>
+      <p><a href="index.html">Inicio</a><a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
   </footer>
 
 </body>

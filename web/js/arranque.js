@@ -2,11 +2,75 @@
    Arranque de la aplicación.
    Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
+/* ---------- selector de idioma ----------
+   Botón con la bandera y un menú propio (role=listbox). El <select id="langSelect">
+   oculto sigue siendo la fuente de verdad: el menú cambia su valor y lanza 'change',
+   que es lo que escucha tiempo.js para traducir la interfaz. */
+function montarMenuIdioma() {
+	const sel = document.getElementById('langSelect');
+	const btn = document.getElementById('langBtn');
+	const menu = document.getElementById('langMenu');
+	if (!sel || !btn || !menu) return;
+	const ops = [...menu.querySelectorAll('[role=option]')];
+	const pintar = () => {
+		const actual = ops.find(o => o.dataset.lang === sel.value) || ops[0];
+		btn.querySelector('.bandera').textContent = actual.querySelector('.bandera').textContent;
+		btn.setAttribute('aria-label', 'Idioma · Language: ' + actual.title);
+		ops.forEach(o => o.setAttribute('aria-selected', o === actual));
+	};
+	const abrir = () => {
+		menu.hidden = false;
+		btn.setAttribute('aria-expanded', 'true');
+		(ops.find(o => o.getAttribute('aria-selected') === 'true') || ops[0]).focus();
+	};
+	const cerrar = foco => {
+		menu.hidden = true;
+		btn.setAttribute('aria-expanded', 'false');
+		if (foco) btn.focus();
+	};
+	const elegir = o => {
+		cerrar(true);
+		if (sel.value !== o.dataset.lang) {
+			sel.value = o.dataset.lang;
+			sel.dispatchEvent(new Event('change'));
+		}
+		pintar();
+	};
+	btn.addEventListener('click', () => (menu.hidden ? abrir() : cerrar()));
+	btn.addEventListener('keydown', e => {
+		if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+			e.preventDefault();
+			abrir();
+		}
+	});
+	ops.forEach((o, i) => {
+		o.tabIndex = -1;
+		o.addEventListener('click', () => elegir(o));
+		o.addEventListener('keydown', e => {
+			if (e.key === 'Enter' || e.key === ' ') {
+				e.preventDefault();
+				elegir(o);
+			} else if (e.key === 'Escape') cerrar(true);
+			else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+				e.preventDefault();
+				ops[(i + (e.key === 'ArrowDown' ? 1 : -1) + ops.length) % ops.length].focus();
+			} else if (e.key === 'Tab') cerrar();
+		});
+	});
+	// clic o toque fuera: se cierra
+	document.addEventListener('pointerdown', e => {
+		if (!menu.hidden && !e.target.closest('.lang-box')) cerrar();
+	});
+	sel.addEventListener('change', pintar);
+	pintar();
+}
+
 /* ---------- arranque ---------- */
 
 async function init() {
 	await i18n.init();
 	document.getElementById('langSelect').value = i18n.lang;
+	montarMenuIdioma();
 
 	state.years = (await (await fetch('data/years.json')).json()).sort((a, b) => a - b);
 	// años modernos navegables (reproducción y botones ◀ ▶); usan el mapa de 2010

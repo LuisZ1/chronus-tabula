@@ -322,7 +322,9 @@ class Manejador(SimpleHTTPRequestHandler):
         return ruta.startswith("/api/") and ruta not in PUBLICAS
 
     def log_message(self, fmt, *args):  # silenciar estáticos, mantener API
-        if "/api/" in (args[0] if args else ""):
+        # se decide por la ruta pedida, no por args[0]: en los errores (send_error →
+        # log_error) args[0] es un HTTPStatus, no la línea de la petición
+        if (getattr(self, "path", "") or "").startswith("/api/"):
             super().log_message(fmt, *args)
 
     # --- rutas ---
