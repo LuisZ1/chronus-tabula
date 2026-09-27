@@ -43,6 +43,34 @@ python api/validar.py          # estructura (schema/), fechas, coordenadas, nomb
 
 En el panel de administración (`http://localhost:9000/admin.html`, tras `python api/servidor.py`), el **asistente de edición de fichas** guía en tres pasos: eliges la colección y la ficha (o creas una nueva), la editas en un formulario generado a partir de `schema/` (listas de gobernantes, población, batallas, fuentes…; coordenadas eligiéndolas en un mapa) y revisas el resultado —errores, avisos y el *diff* exacto del fichero— antes de guardar. Al guardar, el servidor valida la ficha, la escribe en `datos/` en formato canónico y recompila el mapa; si alguien cambió el fichero mientras lo editabas, no lo pisa. Luego solo queda `git diff`, commit y merge request. En países y conflictos el `id` no se cambia desde el asistente (da nombre al fichero); los polígonos de zonas y territorios se editan como JSON.
 
+Para empezar: `python api/servidor.py` y abre `http://localhost:9000/admin.html#editor` (la primera vez el panel te pide crear un usuario y contraseña locales). Los campos con `*` son obligatorios; lo que no sepas, déjalo en blanco.
+
+**Ejemplo 1: corregir la fecha de un reinado.** Felipe II figura en España de 1556 a 1598.
+
+1. **Países**, busca `españa` y ábrela.
+2. Despliega **Gobernantes**, localiza la fila de *Felipe II* y cambia **Hasta**.
+3. En **Fuentes**, **+ Añadir** y escribe en **Identificador** de dónde sale el dato (p. ej. `wikipedia-es:Felipe II de España`).
+4. **Revisar cambios →**: el diff muestra solo esa línea y la fuente nueva. **💾 Guardar en datos/**.
+
+Si el año de fin queda antes que el de inicio, no deja guardar y lo explica: *'desde' (1556) es posterior a 'hasta' (1550)*. Si el país estaba revisado («validado»), su marca de revisión pasa a «borrador» para que otra persona lo compruebe.
+
+**Ejemplo 2: añadir un acontecimiento** (la Universidad de Salamanca, 1218).
+
+1. **Eventos** → **+ Nuevo evento**.
+2. **Nombre**: `Fundación de la Universidad de Salamanca`; **Año**: `1218`.
+3. **Coordenadas** → **📍 Mapa** y pincha sobre Salamanca (≈ 40,96, −5,66).
+4. **Países**: `Reino de León`; una **Descripción** de una frase; **Artículo de Wikipedia**: `Universidad de Salamanca`.
+5. **Fuentes** → **+ Añadir**: **Identificador** `wikipedia-es:Universidad de Salamanca`, **Licencia** `CC BY-SA`.
+6. Revisa y guarda: se crea `datos/eventos/1218-fundacion-de-la-universidad-de-salamanca.json` y el ⭐ aparece en el mapa de 1218.
+
+**Ejemplo 3: añadir una batalla a un conflicto** (la Montaña Blanca, 1620, en la Guerra de los Treinta Años).
+
+1. **Conflictos**, busca `treinta` y ábrelo.
+2. **Batallas** → **+ Añadir**: **Nombre** `Batalla de la Montaña Blanca`, **Año** `1620`, coordenadas junto a Praga (≈ 50,08, 14,32) con **📍 Mapa**.
+3. Añade la fuente en **Fuentes** del conflicto, revisa y guarda. El orden no importa: las batallas se ordenan por año al guardar.
+
+Después, lo de siempre: `git diff`, commit y pull request.
+
 ## Cómo están organizados los datos
 
 Cada entidad vive en su propio fichero dentro de `datos/`. Así cada cambio toca solo su fichero, el diff se lee de un vistazo y dos personas no chocan aunque trabajen a la vez.
@@ -299,5 +327,5 @@ La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta l
   | `arranque.js` | `init()` |
   | `admin-editor.js` | asistente de edición de fichas del panel (su servidor: `api/editor.py`) |
 
-  Los estilos están en `web/css/styles.css`. La indentación del código es con **tabuladores** (hay un `.prettierrc` en la raíz: `prettier --write "web/js/*.js"` lo aplica solo). Para cambios grandes, abre antes un issue y lo hablamos.
+  Los estilos están en `web/css/styles.css` (mapa) y `web/css/portada.css` (portada y colaborar); los tokens comunes —tipografía Montserrat, colores, radios, sombras, botones— están en `web/css/marca.css`, que cargan las cuatro páginas (mapa, portada, colaborar y panel) antes de su hoja propia: cambia allí un color o un tamaño y se aplica a todo. La indentación del código es con **tabuladores** (hay un `.prettierrc` en la raíz: `prettier --write "web/js/*.js"` lo aplica solo). Para cambios grandes, abre antes un issue y lo hablamos.
 - **Mapas base o de fronteras**: los GeoJSON provienen de [historical-basemaps](https://github.com/aourednik/historical-basemaps); si hay versiones nuevas, se regenera también `data/years.json` y se vuelve a pasar `python api/limpiar_geojson.py`, que retira entidades duplicadas o anacrónicas conocidas (el mismo polígono dos veces con dos atribuciones, como «Yemen» y «Yemen (UK)» en 1938). El validador avisa de geometrías repetidas: si aparece una nueva, añádela a `PARCHES` en ese script con su motivo.

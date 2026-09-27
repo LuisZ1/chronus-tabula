@@ -4,26 +4,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Chronus Tabula · Administración</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d1d1f' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/marca.css?v=2">
 <link rel="stylesheet" href="lib/leaflet/leaflet.css">
 <style>
 :root {
-  --bg:#f4f2ec; --panel:#fffdf8; --ink:#2b2e33; --muted:#767a80; --line:#e2ded4;
-  --accent:#2d6f9e; --ok:#2e7d4f; --bad:#b3362b; --warn:#b07818;
-  --okbg:#e8f3ec; --badbg:#f7e5e2; --warnbg:#f7efdd; --hover:#edf3f8; --code:#eeebe2;
+  /* alias del panel sobre los tokens comunes de css/marca.css */
+  --bg:var(--fondo-alt); --panel:var(--fondo); --ink:var(--tinta); --muted:var(--tinta-2); --line:var(--linea);
+  --accent:var(--acento); --bad:var(--mal); --warn:var(--aviso); /* --ok ya viene de marca.css */
+  --okbg:var(--ok-velo); --badbg:var(--mal-velo); --warnbg:var(--aviso-velo); --hover:var(--acento-velo); --code:#ececf0;
 }
 * { box-sizing:border-box; }
-body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; padding:34px 20px 80px; }
-.wrap { max-width:1080px; margin:0 auto; }
-h1 { font-size:26px; margin:0; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 var(--font); padding:0 0 80px; }
+.wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
+h1 { font-size:28px; font-weight:700; letter-spacing:-0.02em; margin:0; }
 h1 small { font-size:13px; color:var(--muted); font-weight:400; margin-left:10px; }
-h2 { font-size:19px; margin:36px 0 10px; }
+h2 { font-size:22px; font-weight:700; letter-spacing:-0.015em; margin:40px 0 10px; }
 a.volver { color:var(--accent); font-size:13px; text-decoration:none; }
 .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-top:14px; }
-.stat { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:10px 14px; }
+.stat { background:var(--panel); border:0; border-radius:var(--r-panel); padding:12px 16px; }
 .stat b { display:block; font-size:22px; }
 .stat span { font-size:12px; color:var(--muted); }
-.card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-top:12px; }
+.card { background:var(--panel); border:0; border-radius:var(--r-tarjeta); padding:18px 22px; margin-top:12px; }
 .f-head { display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; }
 .f-head h3 { margin:0; font-size:16px; }
 .pill { font-size:11px; font-weight:600; padding:1px 9px; border-radius:999px; }
@@ -31,8 +35,9 @@ a.volver { color:var(--accent); font-size:13px; text-decoration:none; }
 .p-warn { color:var(--warn); background:var(--warnbg); }
 .f-desc { color:var(--muted); font-size:13.5px; margin:4px 0 10px; }
 .f-meta { font-size:12px; color:var(--muted); }
-button { font:600 13px system-ui,sans-serif; color:#fff; background:var(--accent); border:0; border-radius:8px; padding:7px 16px; cursor:pointer; }
-button:hover { filter:brightness(1.1); }
+button { font:600 13px var(--font); color:#fff; background:var(--accent); border:0; border-radius:var(--r-pill); padding:8px 16px; cursor:pointer; transition:transform var(--d-press) var(--ease-out), background-color var(--d-ui) ease; }
+button:active:not(:disabled) { transform:scale(0.97); }
+@media (hover:hover) and (pointer:fine) { button:hover { filter:brightness(1.1); } }
 button:disabled { opacity:.5; cursor:wait; }
 button.sec { background:transparent; color:var(--accent); border:1px solid var(--accent); }
 button.peligro { background:transparent; color:var(--bad); border:1px solid var(--bad); }
@@ -102,7 +107,7 @@ tr.abierta + tr.payload { display:table-row; }
 .ed-sub label { font-size:11.5px; color:var(--muted); font-weight:600; }
 .req { color:var(--bad); }
 .ed-ayuda { font-size:12px; color:var(--muted); margin:-1px 0 5px; }
-#editor input:not([type=checkbox]):not([type=search]), #editor select, #editor textarea { width:100%; padding:6px 9px; border:1px solid var(--line); border-radius:7px; font:14px system-ui,sans-serif; background:#fff; color:var(--ink); }
+#editor input:not([type=checkbox]):not([type=search]), #editor select, #editor textarea { width:100%; padding:6px 9px; border:1px solid var(--line); border-radius:var(--r-control); font:14px var(--font); background:#fff; color:var(--ink); }
 #editor textarea { resize:vertical; }
 #editor input[readonly] { background:var(--code); color:var(--muted); }
 #editor .ed-json { font:12.5px/1.45 ui-monospace,Consolas,monospace; }
@@ -129,6 +134,39 @@ tr.abierta + tr.payload { display:table-row; }
 #edMapaModal[hidden] { display:none; }
 .ed-mapa-card { background:var(--panel); border-radius:14px; padding:14px; width:min(760px, 100%); box-shadow:0 10px 40px rgba(0,0,0,.25); }
 #edMapa { height:min(60vh, 460px); border-radius:9px; margin:8px 0; }
+/* --- barra fija y pestañas --- */
+.barra { position:sticky; top:0; z-index:50; background:color-mix(in srgb, var(--bg) 90%, transparent); -webkit-backdrop-filter:var(--desenfoque); backdrop-filter:var(--desenfoque); border-bottom:1px solid var(--linea-suave); }
+.barra-in { max-width:1080px; margin:0 auto; padding:8px 20px 0; }
+.barra-fila { display:flex; align-items:center; gap:6px 12px; flex-wrap:wrap; min-height:40px; }
+.titulo { font:700 17px/1.2 var(--font); letter-spacing:-0.01em; }
+.barra-der { margin-left:auto; display:flex; align-items:center; gap:14px; font-size:13px; }
+.barra-der .volver { font-size:13px; }
+#sesion { float:none; }
+.avisos { display:flex; gap:8px; flex-wrap:wrap; }
+.aviso-pill { display:inline-flex; align-items:center; gap:8px; min-height:30px; padding:0 6px 0 12px; border-radius:var(--r-pill); font:600 12.5px/1 var(--font); }
+.aviso-pill[hidden] { display:none; }
+.aviso-pill.vivo { background:var(--ok-velo); color:var(--ok); }
+.aviso-pill .punto { width:8px; height:8px; border-radius:50%; background:var(--ok); flex:none; }
+.aviso-pill .enlace { background:none; color:inherit; padding:0; font:inherit; border-radius:0; }
+.aviso-pill .mini-b { padding:4px 10px; font-size:12px; }
+button.aviso-pill.pendiente { background:var(--aviso-velo); color:var(--aviso); padding:0 12px; }
+.pestanas { display:flex; gap:2px; overflow-x:auto; scrollbar-width:none; margin:4px -12px 0; }
+.pestanas::-webkit-scrollbar { display:none; }
+.pestanas button { flex:none; display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:0 12px; background:none; color:var(--tinta-2); border-radius:0; border-bottom:2px solid transparent; font:500 14px/1 var(--font); }
+.pestanas button[aria-selected="true"] { color:var(--tinta); border-bottom-color:var(--acento); font-weight:600; }
+@media (hover:hover) and (pointer:fine) { .pestanas button:hover { filter:none; color:var(--tinta); } }
+.pestanas button:active:not(:disabled) { transform:none; }
+.badge { display:inline-block; min-width:20px; padding:3px 7px; border-radius:var(--r-pill); background:var(--acento); color:#fff; font:600 11px/1 var(--font); text-align:center; }
+.badge:empty { display:none; }
+.punto-tab { width:8px; height:8px; border-radius:50%; background:var(--ok); }
+.punto-tab[hidden] { display:none; }
+#tb-editor.sucio::after { content:''; width:7px; height:7px; border-radius:50%; background:var(--warn); }
+.pestana > h2:first-child { margin-top:26px; }
+/* la barra de acciones de propuestas queda pegada bajo la cabecera al hacer scroll */
+.barra-props { position:sticky; top:var(--barra-h, 96px); z-index:10; background:var(--bg); padding:8px 0; margin:0 0 4px; }
+/* en pantallas estrechas los botones ocupan varias filas: mejor que no se queden pegados */
+@media (max-width:700px) { .barra-props { position:static; } .barra-der { margin-left:0; } }
+#error { margin-top:16px; }
 </style>
 </head>
 <body>
@@ -149,53 +187,129 @@ tr.abierta + tr.payload { display:table-row; }
   </form>
 </div>
 
+<!-- barra fija: identidad y sesión, avisos que importan desde cualquier pestaña
+     (ingesta en marcha, aprobadas sin exportar) y la navegación entre pestañas -->
+<header class="barra" id="barra">
+  <div class="barra-in">
+    <div class="barra-fila">
+      <span class="titulo">Panel de administración</span><span class="mini">Chronus Tabula</span>
+      <span class="avisos" id="avisos">
+        <span class="aviso-pill vivo" id="avIngesta" hidden><span class="punto" aria-hidden="true"></span><button type="button" class="enlace" id="avIngestaTxt" title="Ver la ingesta en la pestaña Fuentes"></button><button type="button" class="peligro mini-b" id="avDetener">⏹ Detener</button></span>
+        <button type="button" class="aviso-pill pendiente" id="avAprobadas" hidden title="Hay cambios aprobados que aún no se han escrito en datos/"></button>
+      </span>
+      <span class="barra-der"><a class="volver" href="/">Ver el mapa ↗</a><span id="sesion"></span></span>
+    </div>
+    <nav class="pestanas" role="tablist" aria-label="Secciones del panel">
+      <button type="button" role="tab" id="tb-propuestas" aria-controls="tab-propuestas" data-tab="propuestas">Propuestas <span class="badge" id="bgPropuestas"></span></button>
+      <button type="button" role="tab" id="tb-editor" aria-controls="tab-editor" data-tab="editor">Editor de fichas</button>
+      <button type="button" role="tab" id="tb-fuentes" aria-controls="tab-fuentes" data-tab="fuentes">Fuentes e ingestas <span class="punto-tab" id="bgFuentes" hidden aria-label="ingesta en marcha"></span></button>
+      <button type="button" role="tab" id="tb-mapeo" aria-controls="tab-mapeo" data-tab="mapeo">Mapeo país ↔ fuente</button>
+    </nav>
+  </div>
+</header>
+
 <div class="wrap">
-  <span id="sesion"></span>
-  <h1>🛠️ Panel de administración <small>Chronus Tabula</small></h1>
-  <a class="volver" href="/">← volver al mapa</a>
   <div id="error">No se puede contactar con la API. Arranca el servidor con <code>python api/servidor.py</code> y abre este panel en <code>http://localhost:9000/admin.html</code>.</div>
 
-  <div class="grid" id="estado"></div>
+  <section class="pestana" id="tab-propuestas" role="tabpanel" aria-labelledby="tb-propuestas" hidden>
+    <h2>Cola de propuestas</h2>
+    <p class="mini">Lo que traen los conectores de «Fuentes»: revisa cada dato, apruébalo o recházalo y exporta lo aprobado a <code>datos/</code>.</p>
+    <div class="filtros barra-props">
+      <select id="fEstado">
+        <option value="pendiente">pendientes</option>
+        <option value="aprobada">aprobadas</option>
+        <option value="rechazada">rechazadas</option>
+        <option value="exportada">exportadas</option>
+      </select>
+      <button class="sec" id="btnAprobarSel">Aprobar seleccionadas</button>
+      <button class="peligro" id="btnRechazarSel">Rechazar seleccionadas</button>
+      <button id="btnExportar">⬇ Exportar aprobadas a historia.json</button>
+      <button class="sec" id="btnDepurar" title="Rechaza automáticamente las propuestas de batalla pendientes cuyas coordenadas caen lejos del teatro de operaciones de su conflicto (asignación errónea por año+país)">🧹 Depurar geografía</button>
+    </div>
+    <div class="tbl"><table id="props"><thead><tr>
+      <th><input type="checkbox" id="selTodas"></th><th>#</th><th>Tipo</th><th>País</th><th>Resumen (dato mapeado)</th><th>Fuente</th><th></th>
+    </tr></thead><tbody></tbody></table></div>
+    <pre class="log" id="logExport" style="display:none"></pre>
+  </section>
 
-  <h2>Asistente de edición de fichas</h2>
-  <p class="mini">Edita un país, conflicto, evento o territorio con un formulario, sin tocar el JSON. Al guardar, el servidor
-  valida la ficha contra <code>schema/</code>, la escribe en <code>datos/</code> en formato canónico y recompila el mapa.
-  Después revisa el cambio con <code>git diff</code> y abre tu merge request.</p>
-  <div class="card" id="editor">
-    <ol class="ed-pasos" id="edPasos"><li class="on">Elegir ficha</li><li>Editar</li><li>Revisar y guardar</li></ol>
+  <section class="pestana" id="tab-editor" role="tabpanel" aria-labelledby="tb-editor" hidden>
+    <h2>Asistente de edición de fichas</h2>
+    <p class="mini">Edita un país, conflicto, evento o territorio con un formulario, sin tocar el JSON. Al guardar, el servidor
+    valida la ficha contra <code>schema/</code>, la escribe en <code>datos/</code> en formato canónico y recompila el mapa.
+    Después revisa el cambio con <code>git diff</code> y abre tu merge request.</p>
+    <div class="card" id="editor">
+      <ol class="ed-pasos" id="edPasos"><li class="on">Elegir ficha</li><li>Editar</li><li>Revisar y guardar</li></ol>
 
-    <div id="edPaso1">
-      <div class="ed-barra">
-        <div class="ed-cols" id="edCols"></div>
-        <input type="search" id="edBuscar" placeholder="Buscar por nombre, año o fichero…" autocomplete="off">
-        <span class="mini" id="edCuenta"></span>
-        <button type="button" id="edNueva">+ Nuevo país</button>
+      <div id="edPaso1">
+        <div class="ed-barra">
+          <div class="ed-cols" id="edCols"></div>
+          <input type="search" id="edBuscar" placeholder="Buscar por nombre, año o fichero…" autocomplete="off">
+          <span class="mini" id="edCuenta"></span>
+          <button type="button" id="edNueva">+ Nuevo país</button>
+        </div>
+        <div id="edLista"></div>
       </div>
-      <div id="edLista"></div>
+
+      <div id="edPaso2" hidden>
+        <div class="ed-cab"><h3 id="edTitulo"></h3><code id="edFichero"></code><span id="edCambios"></span></div>
+        <p class="mini">Los campos con <span class="req">*</span> son obligatorios. Deja en blanco lo que no sepas: la ficha del mapa simplemente no lo muestra.
+        Toda aportación debe citar su fuente en «Fuentes».</p>
+        <form id="edForm" onsubmit="return false"></form>
+        <datalist id="edPaisesList"></datalist>
+        <div class="ed-pie">
+          <button type="button" class="sec" id="edVolver">← Elegir otra ficha</button>
+          <button type="button" id="edRevisar">Revisar cambios →</button>
+        </div>
+      </div>
+
+      <div id="edPaso3" hidden>
+        <div id="edResultado"></div>
+        <pre id="edDiff" hidden></pre>
+        <div class="ed-pie">
+          <span><button type="button" class="sec" id="edEditar">← Seguir editando</button>
+          <button type="button" class="sec" id="edOtra">Elegir otra ficha</button></span>
+          <button type="button" id="edGuardar" disabled>💾 Guardar en datos/</button>
+        </div>
+      </div>
     </div>
 
-    <div id="edPaso2" hidden>
-      <div class="ed-cab"><h3 id="edTitulo"></h3><code id="edFichero"></code><span id="edCambios"></span></div>
-      <p class="mini">Los campos con <span class="req">*</span> son obligatorios. Deja en blanco lo que no sepas: la ficha del mapa simplemente no lo muestra.
-      Toda aportación debe citar su fuente en «Fuentes».</p>
-      <form id="edForm" onsubmit="return false"></form>
-      <datalist id="edPaisesList"></datalist>
-      <div class="ed-pie">
-        <button type="button" class="sec" id="edVolver">← Elegir otra ficha</button>
-        <button type="button" id="edRevisar">Revisar cambios →</button>
-      </div>
-    </div>
+  </section>
 
-    <div id="edPaso3" hidden>
-      <div id="edResultado"></div>
-      <pre id="edDiff" hidden></pre>
-      <div class="ed-pie">
-        <span><button type="button" class="sec" id="edEditar">← Seguir editando</button>
-        <button type="button" class="sec" id="edOtra">Elegir otra ficha</button></span>
-        <button type="button" id="edGuardar" disabled>💾 Guardar en datos/</button>
+  <section class="pestana" id="tab-fuentes" role="tabpanel" aria-labelledby="tb-fuentes" hidden>
+    <h2>Fuentes externas</h2>
+    <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>datos/</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
+    <div id="colaBox" style="margin:8px 0 14px; padding:10px 12px; border:1px solid var(--line,#ddd); border-radius:8px;">
+      <div class="acciones" style="margin-top:0">
+        <button id="btnCola">▶ Ejecutar todo en cola</button>
+        <button id="btnColaCero" class="sec" hidden title="Olvidar la cola a medias y empezar por el primer conector">↺ Empezar por el primero</button>
+        <button id="btnDetener" class="peligro" hidden title="Para la ingesta en curso en cuanto termine el país que está consultando; el progreso queda guardado y se puede reanudar">⏹ Detener</button>
+        <label class="mini"><input type="checkbox" id="colaDemo"> demo</label>
+        <span class="mini" id="colaEstado"></span>
       </div>
+      <div class="ajuste" id="ajusteAlcance">
+        <label class="switch" title="Qué países consulta cada conector (afecta a la cola y a los botones «Actualizar»)"><input type="checkbox" id="soloNuevos" checked><span class="slider"></span></label>
+        <span id="soloNuevosTxt"><b>Solo países nuevos desde la última ejecución</b></span>
+      </div>
+      <div class="mini" id="colaAyuda">Lanza todos los conectores en serie, sin parar entre uno y otro. Pensado para dejarlo corriendo desatendido durante horas o días: no hay límite práctico de tiempo (tope de seguridad de 7 días por conector). Si algo se queda colgado, <strong>⏹ Detener</strong> para entre país y país guardando el progreso, y la cola se reanuda por el conector en que se quedó, no por el primero. Solo crea propuestas (no exporta nada).</div>
+      <pre class="log" id="colaLog" style="display:none;margin-top:8px"></pre>
     </div>
-  </div>
+    <div id="fuentes"></div>
+
+  </section>
+
+  <section class="pestana" id="tab-mapeo" role="tabpanel" aria-labelledby="tb-mapeo" hidden>
+    <h2>Mapeo país ↔ fuente</h2>
+    <p class="mini">Qué identificador usa cada país en cada fuente (campos <code>owid</code> y <code>wikidata</code> de <code>historia.json</code>) y cuántos datos tiene ya. Para ingerir un país nuevo, añádele su identificador en el JSON.</p>
+    <div class="filtros">
+      <input id="mapeoBuscar" placeholder="Buscar país…" style="flex:1;min-width:160px;padding:6px 10px;border:1px solid var(--line,#ccc);border-radius:6px;font-size:13px;">
+      <span class="mini" id="mapeoCuenta"></span>
+    </div>
+    <div class="tbl"><table id="mapeo"><thead><tr>
+      <th>País</th><th>OWID (entidad)</th><th>Wikidata (QID)</th><th>Gobernantes</th><th>Población</th><th>Fuentes actuales</th>
+    </tr></thead><tbody></tbody></table></div>
+    <button class="sec" id="mapeoMas" style="display:none;margin-top:8px">Cargar más</button>
+
+  </section>
 
   <div id="edMapaModal" hidden>
     <div class="ed-mapa-card">
@@ -208,53 +322,6 @@ tr.abierta + tr.payload { display:table-row; }
     </div>
   </div>
 
-  <h2>Fuentes externas</h2>
-  <p class="mini">Cada actualización descarga de la fuente, mapea a nuestro formato y deja <strong>propuestas</strong> en la cola de abajo. Nada toca <code>datos/</code> sin tu aprobación. «Demo» prueba el circuito sin conexión.</p>
-  <div id="colaBox" style="margin:8px 0 14px; padding:10px 12px; border:1px solid var(--line,#ddd); border-radius:8px;">
-    <div class="acciones" style="margin-top:0">
-      <button id="btnCola">▶ Ejecutar todo en cola</button>
-      <button id="btnColaCero" class="sec" hidden title="Olvidar la cola a medias y empezar por el primer conector">↺ Empezar por el primero</button>
-      <button id="btnDetener" class="peligro" hidden title="Para la ingesta en curso en cuanto termine el país que está consultando; el progreso queda guardado y se puede reanudar">⏹ Detener</button>
-      <label class="mini"><input type="checkbox" id="colaDemo"> demo</label>
-      <span class="mini" id="colaEstado"></span>
-    </div>
-    <div class="ajuste" id="ajusteAlcance">
-      <label class="switch" title="Qué países consulta cada conector (afecta a la cola y a los botones «Actualizar»)"><input type="checkbox" id="soloNuevos" checked><span class="slider"></span></label>
-      <span id="soloNuevosTxt"><b>Solo países nuevos desde la última ejecución</b></span>
-    </div>
-    <div class="mini" id="colaAyuda">Lanza todos los conectores en serie, sin parar entre uno y otro. Pensado para dejarlo corriendo desatendido durante horas o días: no hay límite práctico de tiempo (tope de seguridad de 7 días por conector). Si algo se queda colgado, <strong>⏹ Detener</strong> para entre país y país guardando el progreso, y la cola se reanuda por el conector en que se quedó, no por el primero. Solo crea propuestas (no exporta nada).</div>
-    <pre class="log" id="colaLog" style="display:none;margin-top:8px"></pre>
-  </div>
-  <div id="fuentes"></div>
-
-  <h2>Mapeo país ↔ fuente</h2>
-  <p class="mini">Qué identificador usa cada país en cada fuente (campos <code>owid</code> y <code>wikidata</code> de <code>historia.json</code>) y cuántos datos tiene ya. Para ingerir un país nuevo, añádele su identificador en el JSON.</p>
-  <div class="filtros">
-    <input id="mapeoBuscar" placeholder="Buscar país…" style="flex:1;min-width:160px;padding:6px 10px;border:1px solid var(--line,#ccc);border-radius:6px;font-size:13px;">
-    <span class="mini" id="mapeoCuenta"></span>
-  </div>
-  <div class="tbl"><table id="mapeo"><thead><tr>
-    <th>País</th><th>OWID (entidad)</th><th>Wikidata (QID)</th><th>Gobernantes</th><th>Población</th><th>Fuentes actuales</th>
-  </tr></thead><tbody></tbody></table></div>
-  <button class="sec" id="mapeoMas" style="display:none;margin-top:8px">Cargar más</button>
-
-  <h2>Cola de propuestas</h2>
-  <div class="filtros">
-    <select id="fEstado">
-      <option value="pendiente">pendientes</option>
-      <option value="aprobada">aprobadas</option>
-      <option value="rechazada">rechazadas</option>
-      <option value="exportada">exportadas</option>
-    </select>
-    <button class="sec" id="btnAprobarSel">Aprobar seleccionadas</button>
-    <button class="peligro" id="btnRechazarSel">Rechazar seleccionadas</button>
-    <button id="btnExportar">⬇ Exportar aprobadas a historia.json</button>
-    <button class="sec" id="btnDepurar" title="Rechaza automáticamente las propuestas de batalla pendientes cuyas coordenadas caen lejos del teatro de operaciones de su conflicto (asignación errónea por año+país)">🧹 Depurar geografía</button>
-  </div>
-  <div class="tbl"><table id="props"><thead><tr>
-    <th><input type="checkbox" id="selTodas"></th><th>#</th><th>Tipo</th><th>País</th><th>Resumen (dato mapeado)</th><th>Fuente</th><th></th>
-  </tr></thead><tbody></tbody></table></div>
-  <pre class="log" id="logExport" style="display:none"></pre>
 </div>
 
 <script>
@@ -328,16 +395,72 @@ function pintarSesion(usuario) {
 }
 function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
+/* estado general: ya no es una rejilla de cifras, sino lo que pide acción —
+   insignia de pendientes en la pestaña, aviso de aprobadas sin exportar en la
+   barra y el recuento de cada estado en el filtro de propuestas */
 async function cargarEstado() {
   const e = await api('/api/estado');
   const p = e.propuestas || {};
-  $('#estado').innerHTML = `
-    <div class="stat"><b>${e.paises}</b><span>países</span></div>
-    <div class="stat"><b>${e.conflictos}</b><span>conflictos</span></div>
-    <div class="stat"><b>${e.eventos}</b><span>eventos</span></div>
-    <div class="stat"><b>${p.pendiente || 0}</b><span>propuestas pendientes</span></div>
-    <div class="stat"><b>${p.aprobada || 0}</b><span>aprobadas sin exportar</span></div>
-    <div class="stat"><b>${p.exportada || 0}</b><span>exportadas</span></div>`;
+  $('#bgPropuestas').textContent = p.pendiente ? p.pendiente : '';
+  $('#bgPropuestas').title = p.pendiente ? `${p.pendiente} propuestas pendientes de revisar` : '';
+  const ap = p.aprobada || 0;
+  $('#avAprobadas').hidden = !ap;
+  $('#avAprobadas').textContent = `${ap} aprobada${ap === 1 ? '' : 's'} sin exportar`;
+  const nombres = { pendiente: 'pendientes', aprobada: 'aprobadas', rechazada: 'rechazadas', exportada: 'exportadas' };
+  [...$('#fEstado').options].forEach(o => { o.textContent = `${nombres[o.value]} (${p[o.value] || 0})`; });
+}
+
+/* --- pestañas: una sección a la vez; la barra de arriba no se mueve ---
+   Se recuerda la última (y la dirección #pestaña permite enlazarla). */
+const PESTANAS = ['propuestas', 'editor', 'fuentes', 'mapeo'];
+function abrirPestana(id, conFoco) {
+  if (!PESTANAS.includes(id)) id = 'propuestas';
+  PESTANAS.forEach(t => {
+    const on = t === id, b = $('#tb-' + t);
+    $('#tab-' + t).hidden = !on;
+    b.setAttribute('aria-selected', on);
+    b.tabIndex = on ? 0 : -1;
+  });
+  if (conFoco) $('#tb-' + id).focus();
+  try { localStorage.setItem('chronus.pestana', id); } catch (e) {}
+  history.replaceState(null, '', '#' + id);
+  window.scrollTo(0, 0);
+}
+document.querySelectorAll('.pestanas [role=tab]').forEach(b => {
+  b.addEventListener('click', () => abrirPestana(b.dataset.tab));
+  b.addEventListener('keydown', ev => {
+    const i = PESTANAS.indexOf(b.dataset.tab);
+    const j = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: PESTANAS.length - 1 }[ev.key];
+    if (j === undefined) return;
+    ev.preventDefault();
+    abrirPestana(PESTANAS[(j + PESTANAS.length) % PESTANAS.length], true);
+  });
+});
+window.addEventListener('hashchange', () => abrirPestana(location.hash.slice(1)));
+(function () {
+  let guardada = null;
+  try { guardada = localStorage.getItem('chronus.pestana'); } catch (e) {}
+  const h = location.hash.slice(1);
+  abrirPestana(PESTANAS.includes(h) ? h : guardada || 'propuestas');
+})();
+// alto real de la barra (varía con el ancho): la usa la barra de acciones pegajosa
+new ResizeObserver(() => document.documentElement.style.setProperty('--barra-h', $('#barra').offsetHeight + 'px'))
+  .observe($('#barra'));
+$('#avAprobadas').addEventListener('click', () => { $('#fEstado').value = 'aprobada'; abrirPestana('propuestas'); cargarPropuestas(); });
+$('#avIngestaTxt').addEventListener('click', () => abrirPestana('fuentes'));
+$('#avDetener').addEventListener('click', () => $('#btnDetener').click());
+
+/* aviso de ingesta en marcha en la barra: se ve desde cualquier pestaña (las
+   ingestas duran horas y sus propuestas se revisan mientras tanto) */
+function pintarIngestaGlobal(est, seg) {
+  const vivo = !!(est && !est.terminada);
+  $('#avIngesta').hidden = !vivo;
+  $('#bgFuentes').hidden = !vivo;
+  if (!vivo) return;
+  const c = est.cola || {};
+  const nombre = est.fid === '_cola' ? `Cola ${c.indice || 0}/${c.total || '?'}${c.actual ? ' · ' + c.actual : ''}` : est.fid;
+  $('#avIngestaTxt').textContent = `${est.deteniendo ? 'Deteniendo' : 'Ingesta'}: ${nombre} · ${fmtCrono(seg || 0)}`;
+  $('#avDetener').disabled = !!est.deteniendo;
 }
 
 async function cargarFuentes() {
@@ -420,6 +543,7 @@ async function vigilarIngesta(fid) {
       if (!isNaN(t)) inicio = t;
     }
     const seg = Math.max(0, Math.round((Date.now() - inicio) / 1000));
+    pintarIngestaGlobal(est, seg);
     btn.textContent = `⏳ Actualizando… ${fmtCrono(seg)}`;
     const texto = (est.lineas || []).join('\n');
     if (log.textContent !== texto) {
@@ -434,7 +558,7 @@ async function vigilarIngesta(fid) {
     }
     await new Promise(r => setTimeout(r, 1500));
   }
-  $('#btnCola').disabled = false; mostrarDetener(false);
+  $('#btnCola').disabled = false; mostrarDetener(false); pintarIngestaGlobal(null);
   await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes(), cargarAjustes()]);
 }
 
@@ -513,6 +637,7 @@ async function vigilarCola() {
     catch (e) { log.textContent += '\nERROR consultando el progreso: ' + e.message; break; }
     if (est.inicio) { const t = new Date(est.inicio).getTime(); if (!isNaN(t)) inicio = t; }
     const seg = Math.max(0, Math.round((Date.now() - inicio) / 1000));
+    pintarIngestaGlobal(est, seg);
     const c = est.cola || {};
     btn.textContent = est.terminada ? '▶ Ejecutar todo en cola'
       : est.deteniendo ? `⏳ Deteniendo… ${c.indice || 0}/${c.total || ''}` : `⏳ Ejecutando cola… ${c.indice || 0}/${c.total || ''}`;
@@ -522,7 +647,7 @@ async function vigilarCola() {
     if (est.terminada) { log.scrollTop = log.scrollHeight; break; }
     await new Promise(r => setTimeout(r, 1500));
   }
-  btn.disabled = false; mostrarDetener(false);
+  btn.disabled = false; mostrarDetener(false); pintarIngestaGlobal(null);
   await Promise.all([cargarEstado(), cargarPropuestas(), cargarFuentes(), cargarAjustes()]);
 }
 
@@ -662,6 +787,6 @@ async function cargarTodo() {
 })();
 </script>
 <script src="lib/leaflet/leaflet.js"></script>
-<script src="js/admin-editor.js?v=1"></script>
+<script src="js/admin-editor.js?v=3"></script>
 </body>
 </html>

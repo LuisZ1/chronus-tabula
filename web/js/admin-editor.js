@@ -47,7 +47,8 @@
 	const $e = s => document.querySelector(s);
 	const clonar = o => JSON.parse(JSON.stringify(o));
 	const sucio = () => trabajo && JSON.stringify(trabajo) !== JSON.stringify(original);
-	const etiqueta = k => ETIQ[k] || k;
+	// 'paises' son bandos en un conflicto; en eventos, simplemente los países implicados
+	const etiqueta = k => (k === 'paises' && col !== 'conflictos' ? 'Países' : ETIQ[k] || k);
 	const slug = t =>
 		String(t || '')
 			.normalize('NFKD')
@@ -232,6 +233,9 @@
 
 	function marcarCambios() {
 		$e('#edCambios').textContent = sucio() ? '● cambios sin guardar' : '';
+		// punto en la pestaña del panel: se ve aunque estés en otra pestaña
+		const tab = $e('#tb-editor');
+		if (tab) tab.classList.toggle('sucio', !!sucio());
 	}
 
 	/* un control para un valor escalar, lista de textos o JSON libre */
