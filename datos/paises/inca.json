@@ -5,8 +5,13 @@
 		"Inca Empire"
 	],
 	"relacionados": [
-		"Imperio inca (Tahuantinsuyo)",
-		"Perú"
+		"Imperio inca (Tahuantinsuyo)"
+	],
+	"vinculos": [
+		{
+			"id": "peru",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{

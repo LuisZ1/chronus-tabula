@@ -9,9 +9,14 @@
 	"owid": "France",
 	"relacionados": [
 		"Reino franco",
-		"Francos",
 		"Borgoña",
 		"Ducado de Normandía"
+	],
+	"vinculos": [
+		{
+			"id": "francos",
+			"tipo": "predecesor"
+		}
 	],
 	"resena": "Francia, oficialmente República Francesa, es un país soberano transcontinental que se extiende por Europa Occidental y por regiones y territorios de ultramar en América y los océanos Atlántico, Pacífico e Índico. Es uno de los veintisiete Estados soberanos que integran la Unión Europea.",
 	"gobernantes": [

@@ -9,8 +9,13 @@
 	"relacionados": [
 		"Gran Bretaña",
 		"Inglaterra anglosajona",
-		"Britanos",
-		"Reino Unido"
+		"Britanos"
+	],
+	"vinculos": [
+		{
+			"id": "granbretana",
+			"tipo": "sucesor"
+		}
 	],
 	"resena": "Inglaterra es una de las cuatro naciones constituyentes del Reino Unido. Su territorio está formado por la parte sur y central de Gran Bretaña, isla que comparte junto a Escocia y Gales, y cerca de cien islas más pequeñas como las islas Sorlingas y la isla de Wight.",
 	"gobernantes": [

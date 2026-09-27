@@ -9,8 +9,13 @@
 	"wikidata": "Q145",
 	"owid": "United Kingdom",
 	"relacionados": [
-		"Inglaterra",
 		"Trece Colonias"
+	],
+	"vinculos": [
+		{
+			"id": "inglaterra",
+			"tipo": "predecesor"
+		}
 	],
 	"resena": "El Reino Unido, oficialmente el Reino Unido de Gran Bretaña e Irlanda del Norte, es un país soberano e insular ubicado al noroeste de la Europa continental. Su territorio está formado geográficamente por la isla de Gran Bretaña, el noreste de la isla de Irlanda y pequeñas islas adyacentes.",
 	"gobernantes": [

@@ -7,8 +7,13 @@
 	"wiki": "Imperio azteca",
 	"wikidata": "Q12542",
 	"relacionados": [
-		"Aztecas",
-		"México"
+		"Aztecas"
+	],
+	"vinculos": [
+		{
+			"id": "mexico",
+			"tipo": "sucesor"
+		}
 	],
 	"resena": "El Imperio mexica o Triple Alianza, llamado también Imperio azteca y —con más precisión— Imperio tenochca, fue un imperio organizado en una confederación compleja, multiétnica y flexible de ciudades estado con situaciones políticas diversas, que existió en el área central de Mesoamérica durante el Posclásico Tardío hasta la Conquista española.",
 	"gobernantes": [

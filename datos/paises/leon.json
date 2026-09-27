@@ -4,6 +4,12 @@
 	"nombres": [
 		"León"
 	],
+	"vinculos": [
+		{
+			"id": "espana",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "El reino de León fue un reino medieval independiente situado en la región noroeste de la península ibérica. Fue fundado en el año 910, cuando los príncipes cristianos del reino de Asturias, en la costa norte de la península, trasladaron su capital de Oviedo a la ciudad de León.",
 	"gobernantes": [
 		{

@@ -4,6 +4,12 @@
 	"nombres": [
 		"Almohad Caliphate"
 	],
+	"vinculos": [
+		{
+			"id": "espana",
+			"tipo": "sucesor"
+		}
+	],
 	"gobernantes": [
 		{
 			"nombre": "Abd al-Mumin",

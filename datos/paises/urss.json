@@ -5,8 +5,11 @@
 		"USSR"
 	],
 	"wikidata": "Q15180",
-	"relacionados": [
-		"Rusia"
+	"vinculos": [
+		{
+			"id": "rusia",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{

@@ -5,8 +5,13 @@
 		"Prussia"
 	],
 	"relacionados": [
-		"Alemania",
 		"Sacro Imperio"
+	],
+	"vinculos": [
+		{
+			"id": "alemania",
+			"tipo": "sucesor"
+		}
 	],
 	"resena": "Prusia fue un Estado del mar Báltico, situado en la llanura nordeuropea entre Pomerania, Polonia y Lituania que existió desde finales de la Edad Media, a partir de la secularización en 1525 de la parte prusiana del Estado de la Orden Teutónica.",
 	"gobernantes": [

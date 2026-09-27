@@ -4,8 +4,11 @@
 	"nombres": [
 		"Safavid Empire"
 	],
-	"relacionados": [
-		"Persia"
+	"vinculos": [
+		{
+			"id": "persia",
+			"tipo": "parte_de"
+		}
 	],
 	"resena": "El Imperio safávida o Imperio safawí es considerado como el más grande Imperio iraní desde la conquista musulmana de Persia. Los safávidas son originarios de Ardebil, una ciudad del Azerbaiyán iraní, al norte de Irán.",
 	"gobernantes": [

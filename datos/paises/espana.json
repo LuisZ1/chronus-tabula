@@ -13,22 +13,53 @@
 	],
 	"owid": "Spain",
 	"relacionados": [
-		"Corona de Castilla",
-		"Corona de Aragón",
-		"Reino nazarí de Granada",
-		"Reino de León",
-		"Reino de Navarra",
-		"Califato de Córdoba",
 		"Emirato de Córdoba",
-		"Califato omeya",
-		"Califato almohade",
 		"Reino visigodo",
 		"Celtíberos",
 		"Lusitanos",
 		"Cántabros y astures",
 		"Nueva España",
-		"Perú",
 		"Nueva Granada"
+	],
+	"vinculos": [
+		{
+			"id": "almohade",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "aragon",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "castilla",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "cordoba",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "granada",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "leon",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "navarra",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "omeya",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "peru",
+			"tipo": "incluye",
+			"desde": 1542,
+			"hasta": 1824
+		}
 	],
 	"resena": "España, formalmente Reino de España, es un país soberano transcontinental situado principalmente en el suroeste de Europa y, en menor medida, en el norte de África. Constituido en un Estado social y Estado de Derecho, su forma de gobierno es la monarquía parlamentaria.",
 	"gobernantes": [

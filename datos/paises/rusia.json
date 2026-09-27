@@ -8,9 +8,17 @@
 	"wikidata": "Q34266",
 	"owid": "Russia",
 	"relacionados": [
-		"URSS",
-		"Rus",
-		"Kyivan Rus"
+		"Rus"
+	],
+	"vinculos": [
+		{
+			"id": "rus",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "urss",
+			"tipo": "predecesor"
+		}
 	],
 	"resena": "Rusia, conocida formalmente como Federación Rusa , es un país euroasiático que se extiende sobre Europa del Este y Asia del Norte. Es el país más extenso del mundo, con una superficie de 17 125 191 km², equivalente a algo más de la novena parte de la tierra firme del planeta, y posee una gran variedad de relieve y de ecosistemas.",
 	"gobernantes": [

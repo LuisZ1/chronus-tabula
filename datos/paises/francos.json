@@ -5,6 +5,12 @@
 		"Franks",
 		"Frankish Kingdom"
 	],
+	"vinculos": [
+		{
+			"id": "francia",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "El reino de los francos, en latín también era conocido como Francia, o simplemente reino franco, son las denominaciones historiográficas que identifican el reino de los francos establecido a finales del siglo V aprovechando la decadencia de la autoridad imperial romana en las Galias, durante la época de las denominadas \"invasiones bárbaras\".",
 	"gobernantes": [
 		{

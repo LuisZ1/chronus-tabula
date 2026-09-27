@@ -7,6 +7,18 @@
 	"wiki": "es:Perú",
 	"wikidata": "Q419",
 	"owid": "PER",
+	"vinculos": [
+		{
+			"id": "inca",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "espana",
+			"tipo": "parte_de",
+			"desde": 1542,
+			"hasta": 1824
+		}
+	],
 	"resena": "El Perú, oficialmente República del Perú, es un Estado soberano, ubicado en el oeste de América del Sur. Limita al norte, con Ecuador y Colombia; al este, con Brasil y Bolivia; al sur, con Chile; y al oeste, con el océano Pacífico, que bordea sus 2250 km de costa.",
 	"gobernantes": [
 		{

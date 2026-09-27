@@ -5,8 +5,13 @@
 		"Tang Empire"
 	],
 	"relacionados": [
-		"China",
 		"Imperio Tang"
+	],
+	"vinculos": [
+		{
+			"id": "rpchina",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{
