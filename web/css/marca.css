@@ -1,0 +1,248 @@
+/* Chronus Tabula — marca.css
+   Sistema visual compartido: portada (index.html), colaborar.html, el mapa
+   (mapa.html) y el panel de administración (admin.html). Cargar ANTES que la
+   hoja propia de cada página; aquí solo van tokens, la base tipográfica y unos
+   pocos componentes comunes (botones, enlaces, chips, foco).
+
+   Estilo: sencillo y claro, a la manera de apple.com. Una sola familia
+   (Montserrat), fondos blancos y gris muy claro, tinta casi negra, un único
+   color de acento y jerarquía por tamaño y peso, no por color. */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* banderas de los idiomas (🇪🇸 🇬🇧): Windows no pinta los emojis de banderas, así
+   que se sirve una fuente mínima (Twemoji Country Flags reducida a esas dos, 4 KB;
+   licencias en lib/banderas/). unicode-range: solo afecta a los indicadores
+   regionales, el resto del texto sigue en Montserrat. */
+@font-face {
+	font-family: 'Banderas';
+	src: url('../lib/banderas/banderas-idioma.woff2') format('woff2');
+	unicode-range: U+1F1E6-1F1FF;
+	font-display: swap;
+}
+
+:root {
+	/* --- color --- */
+	--fondo: #ffffff;
+	--fondo-alt: #f5f5f7;
+	--tinta: #1d1d1f; /* 15,5:1 sobre --fondo-alt */
+	--tinta-2: #6e6e73; /* 5,07:1 sobre blanco · 4,66:1 sobre --fondo-alt */
+	--linea: #d2d2d7;
+	--linea-suave: rgba(0, 0, 0, 0.08);
+	--acento: #2d6f9e; /* 5,41:1 con blanco: sirve como texto y como fondo de botón */
+	--acento-press: #245a80;
+	--acento-texto: #0a5a8f; /* enlaces en texto corrido: 7,3:1 */
+	--acento-velo: rgba(45, 111, 158, 0.1);
+	--ok: #1e7b47;
+	--ok-velo: #e6f4ec;
+	--mal: #b3261e;
+	--mal-velo: #fbe9e7;
+	--aviso: #8a5a00;
+	--aviso-velo: #fdf3dc;
+	/* épocas (tira de la portada y navegador del mapa) */
+	--antigua: #cbb78f;
+	--media: #a8c0a0;
+	--moderna: #9db6cf;
+	--contemp: #c9a3b4;
+	--actual: #e0b98a;
+
+	/* --- tipografía --- */
+	--font: 'Montserrat', 'Banderas', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+	--mono: ui-monospace, 'SF Mono', Consolas, 'Liberation Mono', monospace;
+	--t-display: clamp(2.75rem, 1.6rem + 4.8vw, 5rem); /* 44→80 · 700 · lh 1.05 · -0.03em */
+	--t-h2: clamp(2rem, 1.4rem + 2.6vw, 3rem); /* 32→48 · 700 · lh 1.1 · -0.025em */
+	--t-lead: clamp(1.1875rem, 1rem + 0.8vw, 1.5rem); /* 19→24 · 500 · lh 1.4 */
+	--t-h3: 1.3125rem; /* 21 · 600 · lh 1.2 */
+	--t-body: 1.0625rem; /* 17 · lh 1.5 */
+	--t-small: 0.875rem; /* 14 */
+	--t-micro: 0.75rem; /* 12 */
+
+	/* --- espaciado (base 4) --- */
+	--s-1: 4px;
+	--s-2: 8px;
+	--s-3: 12px;
+	--s-4: 16px;
+	--s-5: 24px;
+	--s-6: 32px;
+	--s-7: 48px;
+	--s-8: 64px;
+	--s-9: 96px;
+	--s-10: 128px;
+	--seccion-y: clamp(64px, 5vw + 40px, 128px);
+	--gutter: clamp(16px, 4vw, 32px);
+
+	/* --- anchuras --- */
+	--ancho: 1120px;
+	--ancho-texto: 640px;
+	--ancho-hero: 980px;
+
+	/* --- radios --- */
+	--r-tarjeta: 20px;
+	--r-media: 22px;
+	--r-panel: 14px; /* paneles flotantes del mapa y tarjetas del panel */
+	--r-control: 10px; /* campos y botones pequeños */
+	--r-chip: 8px;
+	--r-pill: 980px;
+
+	/* --- sombras (casi ninguna) --- */
+	--sombra-media: 0 1px 2px rgba(0, 0, 0, 0.04), 0 12px 40px rgba(0, 0, 0, 0.08);
+	--sombra-panel: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 28px rgba(0, 0, 0, 0.12);
+	--sombra-hover: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+	/* --- material translúcido (cabeceras, paneles sobre el mapa) --- */
+	--material: rgba(255, 255, 255, 0.72);
+	--material-denso: rgba(255, 255, 255, 0.86);
+	--desenfoque: saturate(180%) blur(20px);
+
+	/* --- movimiento --- */
+	--ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+	--ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+	--d-press: 120ms;
+	--d-ui: 200ms;
+}
+
+/* --- base --- */
+html {
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	font-family: var(--font);
+	color: var(--tinta);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+button,
+input,
+select,
+textarea {
+	font-family: inherit;
+}
+
+/* foco visible en todo lo interactivo (solo con teclado) */
+:focus-visible {
+	outline: 2px solid var(--acento);
+	outline-offset: 3px;
+}
+
+/* --- botones --- */
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	min-height: 44px;
+	padding: 0 22px;
+	border: 0;
+	border-radius: var(--r-pill);
+	font: 500 var(--t-body) / 1 var(--font);
+	letter-spacing: -0.01em;
+	text-decoration: none;
+	cursor: pointer;
+	touch-action: manipulation;
+	-webkit-user-select: none;
+	user-select: none;
+	transition:
+		transform var(--d-press) var(--ease-out),
+		background-color var(--d-ui) ease;
+}
+.btn:active {
+	transform: scale(0.97);
+}
+.btn:focus-visible {
+	outline-offset: 4px;
+}
+.btn.principal {
+	background: var(--acento);
+	color: #fff;
+}
+.btn.grande {
+	min-height: 52px;
+	padding: 0 30px;
+	font-size: 1.125rem;
+}
+.btn.pequeno {
+	min-height: 32px;
+	padding: 0 14px;
+	font: 600 13px/1 var(--font);
+	letter-spacing: 0;
+}
+@media (hover: hover) and (pointer: fine) {
+	.btn.principal:hover {
+		background: var(--acento-press);
+	}
+}
+
+/* enlace de acción al estilo «Más información ›» */
+.enlace-flecha {
+	display: inline-flex;
+	align-items: center;
+	min-height: 44px;
+	color: var(--acento-texto);
+	font: 500 var(--t-body) / 1 var(--font);
+	letter-spacing: -0.01em;
+	text-decoration: none;
+	touch-action: manipulation;
+}
+.enlace-flecha::after {
+	content: '›';
+	margin-left: 4px;
+	font-size: 1.15em;
+	line-height: 1;
+}
+@media (hover: hover) and (pointer: fine) {
+	.enlace-flecha:hover {
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+}
+
+/* etiqueta discreta (móvil, escritorio, «5 minutos»…) */
+.chip {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: var(--r-pill);
+	background: var(--fondo-alt);
+	color: var(--tinta-2);
+	font: 600 var(--t-micro) / 1 var(--font);
+	letter-spacing: 0.02em;
+	vertical-align: 0.15em;
+}
+
+/* iconos SVG de trazo fino (sprite <symbol> en cada página) */
+.icono {
+	width: 28px;
+	height: 28px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	flex: none;
+}
+
+/* --- preferencias del sistema --- */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition-duration: 0.01ms !important;
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		scroll-behavior: auto !important;
+	}
+}
+@media (prefers-reduced-transparency: reduce) {
+	:root {
+		--material: #ffffff;
+		--material-denso: #ffffff;
+		--desenfoque: none;
+	}
+}
+@media (prefers-contrast: more) {
+	:root {
+		--tinta-2: #424245;
+		--linea: #86868b;
+	}
+}
