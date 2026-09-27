@@ -28,7 +28,9 @@ git clone <tu-fork> && cd "mapa mundi anual"
 # 2. Arranca la app en local
 python api/servidor.py         # → http://localhost:9000 (mapa) y /admin.html (panel)
 
-# 3. Edita (o crea) el fichero de la entidad en datos/ (p. ej. datos/paises/espana.json)
+# 3. Edita (o crea) la ficha: con el asistente del panel (/admin.html → «Asistente de
+#    edición de fichas», sin tocar JSON; valida, formatea y guarda por ti) o a mano en
+#    el fichero de datos/ (p. ej. datos/paises/espana.json)
 
 # 4. Formatea y valida
 python api/formatear.py        # formato canónico (orden de claves, tabs, listas por año)
@@ -36,6 +38,10 @@ python api/validar.py          # estructura (schema/), fechas, coordenadas, nomb
 
 # 5. Prueba en el navegador, haz commit y abre tu merge request
 ```
+
+### Editar con el asistente (sin tocar JSON)
+
+En el panel de administración (`http://localhost:9000/admin.html`, tras `python api/servidor.py`), el **asistente de edición de fichas** guía en tres pasos: eliges la colección y la ficha (o creas una nueva), la editas en un formulario generado a partir de `schema/` (listas de gobernantes, población, batallas, fuentes…; coordenadas eligiéndolas en un mapa) y revisas el resultado —errores, avisos y el *diff* exacto del fichero— antes de guardar. Al guardar, el servidor valida la ficha, la escribe en `datos/` en formato canónico y recompila el mapa; si alguien cambió el fichero mientras lo editabas, no lo pisa. Luego solo queda `git diff`, commit y merge request. En países y conflictos el `id` no se cambia desde el asistente (da nombre al fichero); los polígonos de zonas y territorios se editan como JSON.
 
 ## Cómo están organizados los datos
 
@@ -291,6 +297,7 @@ La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta l
   | `paneles.js` | leyenda, panel «Este año» y panel de capas |
   | `tiempo.js` | barra de tiempo, escala del modo móvil, marcas y reproducción |
   | `arranque.js` | `init()` |
+  | `admin-editor.js` | asistente de edición de fichas del panel (su servidor: `api/editor.py`) |
 
   Los estilos están en `web/css/styles.css`. La indentación del código es con **tabuladores** (hay un `.prettierrc` en la raíz: `prettier --write "web/js/*.js"` lo aplica solo). Para cambios grandes, abre antes un issue y lo hablamos.
 - **Mapas base o de fronteras**: los GeoJSON provienen de [historical-basemaps](https://github.com/aourednik/historical-basemaps); si hay versiones nuevas, se regenera también `data/years.json` y se vuelve a pasar `python api/limpiar_geojson.py`, que retira entidades duplicadas o anacrónicas conocidas (el mismo polígono dos veces con dos atribuciones, como «Yemen» y «Yemen (UK)» en 1938). El validador avisa de geometrías repetidas: si aparece una nueva, añádela a `PARCHES` en ese script con su motivo.

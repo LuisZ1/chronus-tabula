@@ -21,6 +21,7 @@ que usa el panel de administración:
     GET  /api/propuestas?estado=pendiente
     POST /api/propuestas/accion          {"ids": [1,2], "accion": "aprobar"|"rechazar"}
     POST /api/exportar                   aplica lo aprobado a historia.json + valida
+    GET  /api/fichas/…, POST /api/fichas/…  asistente de edición de fichas (ver api/editor.py)
 
 Solo usa la librería estándar de Python: no hay nada que instalar.
 La API está pensada para uso local del editor (escucha en 127.0.0.1).
@@ -36,6 +37,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 from seguridad import (cerrar_sesion, crear_sesion, crear_usuario, hay_usuarios,
                        validar_token, verificar)
+import editor
 
 ENV_UTF8 = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8", "PYTHONUNBUFFERED": "1"}
 
@@ -349,6 +351,8 @@ class Manejador(SimpleHTTPRequestHandler):
         if ruta == "/api/propuestas":
             params = dict(p.split("=", 1) for p in query.split("&") if "=" in p)
             return self.api_propuestas(params.get("estado", "pendiente"))
+        if ruta.startswith("/api/fichas/"):
+            return self.api_fichas_get(ruta[len("/api/fichas/"):].strip("/").split("/"))
         if ruta.startswith("/api/"):
             return self.json_out({"error": "ruta desconocida"}, 404)
         return super().do_GET()
@@ -379,6 +383,8 @@ class Manejador(SimpleHTTPRequestHandler):
             return self.api_depurar()
         if ruta == "/api/exportar":
             return self.api_exportar()
+        if ruta.startswith("/api/fichas/"):
+            return self.api_fichas_post(ruta[len("/api/fichas/"):].strip("/").split("/"))
         return self.json_out({"error": "ruta desconocida"}, 404)
 
     # --- implementación ---
@@ -591,6 +597,39 @@ class Manejador(SimpleHTTPRequestHandler):
         con.commit(); con.close()
         self.json_out({"rechazadas": len(rechazadas), "pendientes_revisadas": len(filas),
                        "margen_grados": MARGEN_GEO, "detalle": rechazadas})
+
+    # --- asistente de edición de fichas (lógica en api/editor.py) ---
+    def _fichas(self, fn):
+        try:
+            return self.json_out(fn())
+        except editor.ErrorFicha as e:
+            return self.json_out({"error": str(e), **e.extra}, e.codigo)
+        except (ValueError, TypeError) as e:
+            return self.json_out({"error": f"petición no válida: {e}"}, 400)
+
+    def api_fichas_get(self, partes):
+        if partes == ["_esquemas"]:
+            return self._fichas(editor.esquemas)
+        if len(partes) == 1:
+            return self._fichas(lambda: editor.listar(partes[0]))
+        if len(partes) == 2:
+            return self._fichas(lambda: editor.leer(partes[0], partes[1]))
+        return self.json_out({"error": "ruta desconocida"}, 404)
+
+    def api_fichas_post(self, partes):
+        try:
+            datos = self.json_in()
+        except ValueError:
+            return self.json_out({"error": "el cuerpo debe ser JSON"}, 400)
+        if partes == ["_validar"]:
+            return self._fichas(lambda: editor.validar(datos.get("coleccion"), datos.get("registro"),
+                                                       datos.get("fichero")))
+        if len(partes) == 1:
+            return self._fichas(lambda: editor.guardar(partes[0], datos.get("registro")))
+        if len(partes) == 2:
+            return self._fichas(lambda: editor.guardar(partes[0], datos.get("registro"), partes[1],
+                                                       datos.get("version")))
+        return self.json_out({"error": "ruta desconocida"}, 404)
 
     def api_exportar(self):
         r = subprocess.run([sys.executable, os.path.join(RAIZ, "api", "exportar.py")],
