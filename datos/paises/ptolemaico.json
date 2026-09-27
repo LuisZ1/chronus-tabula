@@ -5,6 +5,12 @@
 		"Ptolemaic Kingdom"
 	],
 	"wiki": "Dinastía ptolemaica",
+	"vinculos": [
+		{
+			"id": "egipto",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "La dinastía ptolemaica fue fundada por Ptolomeo I Sóter, general de Alejandro Magno. Esta dinastía gobernó en el Antiguo Egipto durante el período helenístico desde 323 a.",
 	"gobernantes": [
 		{

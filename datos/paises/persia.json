@@ -10,6 +10,20 @@
 		"Imperio aqueménida",
 		"Media"
 	],
+	"vinculos": [
+		{
+			"id": "iran",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "safavida",
+			"tipo": "incluye"
+		},
+		{
+			"id": "sasanida",
+			"tipo": "incluye"
+		}
+	],
 	"resena": "Irán, oficialmente la República Islámica de Irán ; también conocida históricamente en Occidente como Persia, es un país soberano de Oriente Próximo y Asia Occidental. Es una república islámica teocrática basada en los principios religiosos del islam chií.",
 	"gobernantes": [
 		{

@@ -5,8 +5,13 @@
 		"Qing Empire"
 	],
 	"relacionados": [
-		"China",
 		"Manchúes"
+	],
+	"vinculos": [
+		{
+			"id": "rpchina",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{

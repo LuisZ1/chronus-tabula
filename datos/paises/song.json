@@ -5,8 +5,13 @@
 		"Song Empire"
 	],
 	"relacionados": [
-		"China",
 		"China Jin y Song"
+	],
+	"vinculos": [
+		{
+			"id": "rpchina",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{

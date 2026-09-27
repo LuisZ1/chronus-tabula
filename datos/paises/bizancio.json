@@ -7,8 +7,13 @@
 	],
 	"relacionados": [
 		"Imperio romano de Oriente",
-		"Roma",
 		"Imperio bizantino"
+	],
+	"vinculos": [
+		{
+			"id": "roma",
+			"tipo": "predecesor"
+		}
 	],
 	"gobernantes": [
 		{

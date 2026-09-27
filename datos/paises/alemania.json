@@ -9,12 +9,17 @@
 	],
 	"owid": "Germany",
 	"relacionados": [
-		"Prusia",
 		"Sacro Imperio",
 		"Prusia y estados alemanes",
 		"Godos",
 		"Vándalos",
 		"Suevos"
+	],
+	"vinculos": [
+		{
+			"id": "prusia",
+			"tipo": "predecesor"
+		}
 	],
 	"resena": "Alemania, oficialmente la República Federal de Alemania, es un país de Europa central y el Estado de la Unión Europea con mayor población y PIB. Constituido en Estado social y democrático de derecho, su forma de gobierno es la república parlamentaria y federal.",
 	"gobernantes": [

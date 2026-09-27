@@ -6,12 +6,20 @@
 		"Ming Chinese Empire"
 	],
 	"relacionados": [
-		"China",
 		"Chu",
 		"Qi",
 		"Zhao",
-		"Wei",
-		"Han"
+		"Wei"
+	],
+	"vinculos": [
+		{
+			"id": "han",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "rpchina",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{

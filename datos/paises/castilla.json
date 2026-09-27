@@ -6,8 +6,11 @@
 		"Castile",
 		"Castille"
 	],
-	"relacionados": [
-		"España"
+	"vinculos": [
+		{
+			"id": "espana",
+			"tipo": "sucesor"
+		}
 	],
 	"resena": "La Corona de Castilla, como entidad histórica, se suele considerar que comienza con la última y definitiva unión dinástica de los reinos de Castilla y de León, con sus respectivos territorios, en 1230, o bien con la reunión de sus Cortes, unas décadas después.",
 	"gobernantes": [

@@ -5,6 +5,12 @@
 		"Qin"
 	],
 	"wiki": "Dinastía Qin",
+	"vinculos": [
+		{
+			"id": "han",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "La dinastía Qin fue la primera dinastía imperial de China, desde el año 221 a. C.",
 	"gobernantes": [
 		{

@@ -4,6 +4,12 @@
 	"nombres": [
 		"Navarre"
 	],
+	"vinculos": [
+		{
+			"id": "espana",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "El Reino de Navarra fue la continuación institucional del Reino de Pamplona, uno de los reinos medievales de Europa situado en ambas vertientes de los Pirineos occidentales, pero con la mayor parte de su territorio localizado al sur de la cordillera, en el norte de la península ibérica, desde 1162.",
 	"gobernantes": [
 		{

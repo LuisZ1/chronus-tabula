@@ -4,9 +4,19 @@
 	"nombres": [
 		"Han Empire"
 	],
-	"relacionados": [
-		"China",
-		"Qin"
+	"vinculos": [
+		{
+			"id": "qin",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "ming",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "rpchina",
+			"tipo": "sucesor"
+		}
 	],
 	"gobernantes": [
 		{

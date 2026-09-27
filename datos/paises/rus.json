@@ -5,6 +5,12 @@
 		"Kyivan Rus",
 		"Rus' Khaganate"
 	],
+	"vinculos": [
+		{
+			"id": "rusia",
+			"tipo": "sucesor"
+		}
+	],
 	"resena": "La Rus de Kiev fue una federación de tribus eslavas orientales desde finales del siglo IX hasta mediados del XIII, regida por la dinastía Rúrik.",
 	"gobernantes": [
 		{
