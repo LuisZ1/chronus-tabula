@@ -6,7 +6,7 @@
   <title>Chronus Tabula — el mundo, año a año</title>
   <meta name="description" content="Mapa histórico interactivo: elige un año, de 3000 a. C. a hoy, y consulta fronteras, reinos, gobernantes, batallas y acontecimientos, cada dato con su fuente.">
   <meta name="theme-color" content="#ffffff">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231d1d1f' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2314202b' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z'/%3E%3C/svg%3E">
   <!-- enlaces antiguos al mapa (#año/lat/lng/zoom[/reino]): reenviar al mapa conservando el estado -->
   <script>
     (function () {
@@ -14,33 +14,26 @@
       if (h && /^-?\d+(\/|$)/.test(h)) location.replace('mapa.html#' + h);
     })();
   </script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="css/marca.css?v=2">
-  <link rel="stylesheet" href="css/portada.css?v=5">
+  <link rel="preload" href="lib/fuentes/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="img/lamina/ancho-1492.webp" media="(min-width: 761px)" fetchpriority="high">
+  <link rel="preload" as="image" href="img/lamina/movil-1492.webp" media="(max-width: 760px)" fetchpriority="high">
+  <link rel="stylesheet" href="css/marca.css?v=3">
+  <link rel="stylesheet" href="css/portada.css?v=7">
 </head>
 <body>
 
-  <!-- iconos de trazo fino (se usan con <svg class="icono"><use href="#i-…"/></svg>) -->
+  <!-- iconos de trazo (se usan con <svg class="icono"><use href="#i-…"/></svg>) -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="i-globo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z"/></symbol>
-    <symbol id="i-mapa" viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></symbol>
-    <symbol id="i-corona" viewBox="0 0 24 24"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5L3 8Z"/></symbol>
     <symbol id="i-espadas" viewBox="0 0 24 24"><path d="M5 3l11 11M3 5l2-2M14 14l-2 2 4 4 2-2-4-4M19 3 8 14M21 5l-2-2M10 14l2 2-4 4-2-2 4-4"/></symbol>
     <symbol id="i-estrella" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"/></symbol>
-    <symbol id="i-alfiler" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
     <symbol id="i-escudo" viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/></symbol>
     <symbol id="i-saltos" viewBox="0 0 24 24"><path d="m11 7-5 5 5 5M18 7l-5 5 5 5"/></symbol>
     <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></symbol>
-    <symbol id="i-movil" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2.5"/><path d="M11 18h2"/></symbol>
     <symbol id="i-marcas" viewBox="0 0 24 24"><path d="M3 18h18M7 18v-5M12 18V8M17 18v-3"/></symbol>
     <symbol id="i-reproducir" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8.5 5 3.5-5 3.5v-7Z"/></symbol>
     <symbol id="i-diana" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></symbol>
     <symbol id="i-panel" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M15 4v16"/></symbol>
-    <symbol id="i-enlace" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
-    <symbol id="i-libro" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V4.5C17 4 14 4.5 12 6Z"/><path d="M12 6v14.5"/></symbol>
-    <symbol id="i-revisado" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.8 2.8L16 9.5"/></symbol>
-    <symbol id="i-rama" viewBox="0 0 24 24"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="7" r="2"/><path d="M6 7v10M18 9c0 4-4 5-10.5 8.5"/></symbol>
+    <symbol id="i-movil" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="2.5"/><path d="M11 18h2"/></symbol>
     <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
   </svg>
 
@@ -48,21 +41,20 @@
 
   <header class="cab">
     <div class="cab-in">
-      <a class="marca" href="index.html"><svg class="icono" aria-hidden="true"><use href="#i-globo"/></svg>Chronus Tabula</a>
+      <a class="marca" href="index.html">Chronus Tabula</a>
       <nav class="nav" aria-label="Secciones">
-        <a href="#que-ves" class="solo-ancho">Qué verás</a>
-        <a href="#como" class="solo-ancho">Cómo se usa</a>
+        <a href="#leer" class="solo-ancho">Cómo se lee</a>
+        <a href="#clase" class="solo-ancho">En clase</a>
         <a href="#datos" class="solo-ancho">Fuentes</a>
         <a href="colaborar.html" class="solo-ancho">Colaborar</a>
         <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener" class="solo-ancho">GitHub ↗</a>
         <a href="mapa.html" class="btn principal pequeno">Abrir el mapa</a>
       </nav>
     </div>
-    <!-- móvil: las secciones en una fila desplazable, en vez de desaparecer -->
     <nav class="subnav" aria-label="Secciones">
-      <a href="#que-ves">Qué verás</a>
-      <a href="#como">Cómo se usa</a>
-      <a href="#momentos">Ejemplos</a>
+      <a href="#leer">Cómo se lee</a>
+      <a href="#gestos">Tres gestos</a>
+      <a href="#clase">En clase</a>
       <a href="#datos">Fuentes</a>
       <a href="colaborar.html">Colaborar</a>
     </nav>
@@ -70,98 +62,199 @@
 
   <main id="contenido">
 
-    <section class="hero">
-      <div class="cont">
-        <p class="antetitulo">Mapa histórico interactivo</p>
-        <h1>El mundo, año a año.</h1>
-        <p class="lema">Elige cualquier año entre el 3000 a.&nbsp;C. y hoy y descubre qué reinos existían, hasta dónde llegaban, quién los gobernaba y qué estaba ocurriendo.</p>
+    <!-- la lámina: el mapa real de un año, a sangre -->
+    <section class="lamina" aria-labelledby="titulo">
+      <div class="lamina-fotos" id="laminaFotos">
+        <!-- capturas de mapa.html (ver img/lamina/PROCEDENCIA.md); solo la de 1492 se carga de entrada -->
+        <picture data-anio="-500"><source media="(max-width: 760px)" data-srcset="img/lamina/movil-ac500.webp"><source media="(max-width: 1300px)" data-srcset="img/lamina/medio-ac500.webp"><img data-src="img/lamina/ancho-ac500.webp" alt="" width="2000" height="1125"></picture>
+        <picture data-anio="1000"><source media="(max-width: 760px)" data-srcset="img/lamina/movil-1000.webp"><source media="(max-width: 1300px)" data-srcset="img/lamina/medio-1000.webp"><img data-src="img/lamina/ancho-1000.webp" alt="" width="2000" height="1125"></picture>
+        <picture data-anio="1492"><source media="(max-width: 760px)" srcset="img/lamina/movil-1492.webp"><source media="(max-width: 1300px)" srcset="img/lamina/medio-1492.webp"><img class="activa" src="img/lamina/ancho-1492.webp" alt="Mapa político del mundo en 1492: Castilla, Portugal, el Imperio otomano, el Imperio inca y otros estados, cada uno con su color." width="2000" height="1125" fetchpriority="high"></picture>
+        <picture data-anio="1650"><source media="(max-width: 760px)" data-srcset="img/lamina/movil-1650.webp"><source media="(max-width: 1300px)" data-srcset="img/lamina/medio-1650.webp"><img data-src="img/lamina/ancho-1650.webp" alt="" width="2000" height="1125"></picture>
+        <picture data-anio="1815"><source media="(max-width: 760px)" data-srcset="img/lamina/movil-1815.webp"><source media="(max-width: 1300px)" data-srcset="img/lamina/medio-1815.webp"><img data-src="img/lamina/ancho-1815.webp" alt="" width="2000" height="1125"></picture>
+        <picture data-anio="1914"><source media="(max-width: 760px)" data-srcset="img/lamina/movil-1914.webp"><source media="(max-width: 1300px)" data-srcset="img/lamina/medio-1914.webp"><img data-src="img/lamina/ancho-1914.webp" alt="" width="2000" height="1125"></picture>
+        <picture data-anio="2010"><source media="(max-width: 760px)" data-srcset="img/lamina/movil-2010.webp"><source media="(max-width: 1300px)" data-srcset="img/lamina/medio-2010.webp"><img data-src="img/lamina/ancho-2010.webp" alt="" width="2000" height="1125"></picture>
+      </div>
+
+      <div class="cartela">
+        <h1 id="titulo">
+          <span class="h1-a">El mundo en</span>
+          <span class="anio-grande" aria-live="polite"><span id="anioCartela">1492</span></span>
+        </h1>
+        <p class="lema">Fronteras, gobernantes, batallas y acontecimientos de cualquier año entre el 3000&nbsp;a.&nbsp;C. y hoy, cada dato con su fuente.</p>
         <div class="acciones">
-          <a class="btn principal grande" href="mapa.html">Abrir el mapa</a>
-          <a class="enlace-flecha" href="#como">Ver cómo funciona</a>
+          <a class="btn principal grande" id="abrirAnio" href="mapa.html#1492/30.00/10.00/3">Abrir 1492 en el mapa</a>
+          <a class="enlace-flecha" href="#leer">Cómo se lee</a>
         </div>
       </div>
-      <figure class="captura">
-        <img src="img/portada-1492.webp" srcset="img/portada-1492-980.webp 980w, img/portada-1492.webp 1960w" sizes="(max-width: 1020px) calc(100vw - 32px), 980px"
-             width="1960" height="1225" alt="El mapa en 1492: Europa, el norte de África y Oriente Próximo coloreados por reinos, con los paneles de capas y del año y la barra de tiempo al pie." fetchpriority="high">
+
+      <figure class="leyenda" aria-label="Leyenda">
+        <span class="leyenda-titulo">Leyenda</span>
+        <ul>
+          <li><span class="muestra estados" aria-hidden="true"></span>Estados y territorios</li>
+          <li><span class="muestra guerra" aria-hidden="true"></span>Zona de guerra</li>
+          <li><span class="muestra rotulo" aria-hidden="true">CASTILLA</span>Nombre de la época</li>
+        </ul>
       </figure>
-      <div class="cont">
-        <div class="tira" role="list" aria-label="Épocas de la barra de tiempo">
-          <a role="listitem" class="ep antigua" href="mapa.html#-500/38.00/20.00/4" style="width:20%"><span>Antigüedad</span></a>
-          <a role="listitem" class="ep media" href="mapa.html#1000/45.00/15.00/3" style="width:20%"><span>Edad Media</span></a>
-          <a role="listitem" class="ep moderna" href="mapa.html#1600/35.00/10.00/3" style="width:38%"><span>Edad Moderna</span></a>
-          <a role="listitem" class="ep contemp" href="mapa.html#1880/35.00/10.00/3" style="width:22%"><span><span class="largo">Contemporánea</span><span class="corto">Contemp.</span></span></a>
+
+      <div class="escala">
+        <label class="escala-titulo" for="escalaAnios"><span>Escala de años</span><span>Arrastra o elige</span></label>
+        <div class="escala-riel">
+          <input type="range" id="escalaAnios" min="0" max="6" step="1" value="2" aria-valuetext="1492">
         </div>
-        <div class="tira-escala" aria-hidden="true"><span style="left:0">3000 a.&nbsp;C.</span><span style="left:20%">500</span><span style="left:40%">1500</span><span style="left:78%">1800</span><span class="fin">hoy</span></div>
-        <p class="tira-nota">La barra del mapa da más espacio a las épocas con más cambios. Toca una época para abrir el mapa en ella.</p>
+        <ul class="escala-anios" aria-label="Años de la lámina">
+          <li><button type="button" data-i="0" aria-pressed="false" aria-label="500 antes de Cristo">−500</button></li>
+          <li><button type="button" data-i="1" aria-pressed="false">1000</button></li>
+          <li><button type="button" data-i="2" aria-pressed="true">1492</button></li>
+          <li><button type="button" data-i="3" aria-pressed="false">1650</button></li>
+          <li><button type="button" data-i="4" aria-pressed="false">1815</button></li>
+          <li><button type="button" data-i="5" aria-pressed="false">1914</button></li>
+          <li><button type="button" data-i="6" aria-pressed="false">2010</button></li>
+        </ul>
       </div>
     </section>
 
-    <section class="bloque alt" id="que-ves">
-      <div class="cont">
-        <h2>Un año. Todo lo que pasaba.</h2>
-        <p class="intro">Fronteras, gobernantes, batallas y acontecimientos en un mismo mapa, con los nombres que tenían entonces.</p>
-        <div class="rejilla">
-          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-mapa"/></svg><h3>Fronteras de la época</h3><p>Cada reino, imperio o país con su extensión y su nombre de entonces: Congo Belga, Zaire o RD del Congo según el año.</p></article>
-          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-corona"/></svg><h3>Gobernantes y población</h3><p>Pulsa un territorio para ver quién gobernaba ese año, su población aproximada, su superficie y una breve reseña.</p></article>
-          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-espadas"/></svg><h3>Batallas y frentes</h3><p>Las batallas del año, situadas en el mapa, y las zonas de guerra activas: frentes y territorios ocupados.</p></article>
-          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-estrella"/></svg><h3>Acontecimientos e inventos</h3><p>Los hitos y los inventos del año, cada uno con su ficha y su enlace a Wikipedia.</p></article>
-          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-alfiler"/></svg><h3>Territorios pequeños</h3><p>Ceuta, Canarias, Gibraltar o las Azores, demasiado pequeños a escala mundial, marcados con el color de su país.</p></article>
-          <article class="tarjeta"><svg class="icono" aria-hidden="true"><use href="#i-escudo"/></svg><h3>Escudos y banderas</h3><p>Junto a cada nombre, el escudo o la bandera que estaba vigente en ese periodo.</p></article>
+    <!-- cómo se lee: la leyenda completa -->
+    <section class="bloque" id="leer">
+      <div class="cont dos-col">
+        <div>
+          <h2>Cómo se lee la lámina</h2>
+          <p class="intro">Todo lo que aparece en el mapa corresponde al año elegido. Si cambias el año, cambian las fronteras, los nombres y lo que está pasando.</p>
         </div>
+        <dl class="leyenda-grande">
+          <div>
+            <dt><span class="muestra estados" aria-hidden="true"></span></dt>
+            <dd><b>Fronteras</b><span>Cada color es un estado o territorio. Proceden de 53 mapas históricos; entre dos fechas se muestra el último disponible.</span></dd>
+          </div>
+          <div>
+            <dt><span class="rotulo-mapa">Congo Belga</span></dt>
+            <dd><b>Nombres de entonces</b><span>El rótulo cambia con el año: Congo Belga, Zaire o República Democrática del Congo.</span></dd>
+          </div>
+          <div>
+            <dt><span class="ficha-mini" aria-hidden="true"><i></i><i></i><i></i><i></i></span></dt>
+            <dd><b>Ficha al pulsar</b><span>Gobernante de ese año, capital, población, forma de gobierno y fuentes.</span></dd>
+          </div>
+          <div>
+            <dt><span class="marca-mapa batalla"><svg class="icono" aria-hidden="true"><use href="#i-espadas"/></svg>Lepanto</span></dt>
+            <dd><b>Batallas</b><span>Las del año, con bandos, resultado y el conflicto al que pertenecen.</span></dd>
+          </div>
+          <div>
+            <dt><span class="muestra guerra" aria-hidden="true"></span></dt>
+            <dd><b>Zonas de guerra</b><span>Territorio en disputa durante un conflicto, rayado en rojo.</span></dd>
+          </div>
+          <div>
+            <dt><span class="marca-mapa evento"><svg class="icono" aria-hidden="true"><use href="#i-estrella"/></svg>Imprenta</span></dt>
+            <dd><b>Acontecimientos e inventos</b><span>Lo que ocurrió cerca de esa fecha y dónde.</span></dd>
+          </div>
+          <div>
+            <dt><span class="marca-mapa terr"><span class="punto-terr" aria-hidden="true"></span>Malta</span></dt>
+            <dd><b>Territorios pequeños</b><span>Islas y enclaves demasiado pequeños para verse como área, marcados con un punto.</span></dd>
+          </div>
+          <div>
+            <dt><svg class="icono" aria-hidden="true"><use href="#i-escudo"/></svg></dt>
+            <dd><b>Escudos y banderas</b><span>Los de cada periodo, cuando existen.</span></dd>
+          </div>
+        </dl>
       </div>
     </section>
 
-    <section class="bloque" id="como">
+    <!-- tres gestos -->
+    <section class="bloque oceano" id="gestos">
       <div class="cont">
-        <h2>Tres gestos y ya estás dentro.</h2>
-        <p class="intro">No hace falta instalar nada ni crear una cuenta: funciona en el navegador, en el ordenador y en el móvil.</p>
+        <h2>Tres gestos</h2>
+        <p class="intro">No hace falta instalar nada ni crear una cuenta. Funciona igual en el proyector, en el ordenador y en el móvil.</p>
         <ol class="pasos-3">
-          <li><span class="num" aria-hidden="true">1</span><h3>Elige el año</h3><p>Arrastra la barra inferior o escribe el año en la casilla. Los años negativos son antes de Cristo: <code>-480</code> te lleva a las Termópilas.</p></li>
-          <li><span class="num" aria-hidden="true">2</span><h3>Pulsa un territorio</h3><p>Su ficha muestra quién gobernaba, la población y la superficie, una reseña y las fuentes de cada dato.</p></li>
-          <li><span class="num" aria-hidden="true">3</span><h3>Activa lo que quieras ver</h3><p>En el panel de capas enciendes o apagas batallas, zonas de guerra, acontecimientos, nombres, escudos o banderas.</p></li>
+          <li>
+            <span class="num" aria-hidden="true">1</span>
+            <h3>Elige el año</h3>
+            <p>Arrastra la barra de tiempo, escribe una fecha o salta de batalla en batalla. Prueba con <a href="mapa.html#-480/38.80/22.50/6">el 480&nbsp;a.&nbsp;C., en las Termópilas</a>.</p>
+          </li>
+          <li>
+            <span class="num" aria-hidden="true">2</span>
+            <h3>Pulsa un territorio</h3>
+            <p>Se abre su ficha: quién gobernaba, desde cuándo, capital, población y de dónde sale cada dato.</p>
+          </li>
+          <li>
+            <span class="num" aria-hidden="true">3</span>
+            <h3>Comparte el momento</h3>
+            <p>La dirección guarda año, lugar y zoom. Quien la abra verá exactamente lo mismo.</p>
+            <div class="enlace-momento">
+              <code id="enlaceEjemplo">…/mapa.html#1492/38.00/-4.00/5</code>
+              <button type="button" class="copiar" data-copiar="mapa.html#1492/38.00/-4.00/5">Copiar</button>
+            </div>
+          </li>
         </ol>
+
         <details class="mas">
           <summary><svg class="icono chevron" aria-hidden="true"><use href="#i-chevron"/></svg>Todos los controles</summary>
           <ul class="lista-controles">
-            <li><svg class="icono" aria-hidden="true"><use href="#i-saltos"/></svg><div><h3>Flechas ◀ ▶</h3><p>Avanzan o retroceden un salto fijo (1, 5, 10, 50 años…) según el tramo que estés viendo.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><div><h3>Zoom de la barra <span class="chip">escritorio</span></h3><p>Arrastra los tiradores de la tira de colores para acercar un periodo y ganar precisión; doble clic para ver todo.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-movil"/></svg><div><h3>En el móvil <span class="chip">móvil</span></h3><p>La barra abarca toda la historia y da la mitad del espacio a los años desde 1500. Una burbuja muestra el año mientras arrastras.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-marcas"/></svg><div><h3>Marcas bajo la barra</h3><p>Conflictos y acontecimientos en su año. Pulsa una para saltar a ella; las agrupadas despliegan su lista.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-reproducir"/></svg><div><h3>Reproducir</h3><p>La historia avanza sola de mapa en mapa, a la velocidad que elijas, y puedes pausarla cuando quieras.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-diana"/></svg><div><h3>Seguir un reino</h3><p>Escribe un país o imperio y el mapa lo resalta a lo largo del tiempo; las marcas se filtran a su historia.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-panel"/></svg><div><h3>Paneles del año</h3><p>«Este año» resume conflictos y datos de interés; la leyenda lista las entidades por superficie. Pulsa una para centrarla.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-enlace"/></svg><div><h3>Compartir un momento</h3><p>La dirección guarda año, posición y zoom: quien abra el enlace verá exactamente lo mismo.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-globo"/></svg><div><h3>Idioma</h3><p>La interfaz está en español y en inglés; se cambia arriba a la derecha.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-reproducir"/></svg><div><h3>Reproducir</h3><p>El tiempo avanza solo y ves crecer y caer los estados.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-saltos"/></svg><div><h3>Saltos</h3><p>De mapa en mapa, de batalla en batalla o de acontecimiento en acontecimiento.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><div><h3>Buscar</h3><p>Un país, una batalla o un suceso, y el mapa va al año y al lugar.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-diana"/></svg><div><h3>Seguir un territorio</h3><p>Fíjalo y observa cómo cambia su extensión con los siglos.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-marcas"/></svg><div><h3>Capas</h3><p>Muestra u oculta batallas, zonas de guerra, acontecimientos y rótulos.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-panel"/></svg><div><h3>Teclado</h3><p><kbd>←</kbd> <kbd>→</kbd> cambian el año; <kbd>Espacio</kbd> reproduce.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-movil"/></svg><div><h3>En el móvil</h3><p>Los paneles se abren desde abajo y se cierran deslizando.</p></div></li>
           </ul>
-          <p class="nota">Hay 53 mapas de fronteras repartidos por toda la historia. Entre dos fechas se muestra el último mapa disponible; «Mostrando», bajo la barra, indica cuál.</p>
         </details>
       </div>
     </section>
 
-    <section class="bloque alt" id="momentos">
+    <!-- momentos para proyectar -->
+    <section class="bloque" id="clase">
       <div class="cont">
-        <h2>Empieza por una pregunta.</h2>
-        <p class="intro">Cada enlace abre el mapa justo en ese momento. Cópialo y compártelo tal cual.</p>
-        <div class="rejilla momentos">
-          <a class="momento" href="mapa.html#-480/38.80/22.50/6"><span class="anio">480 a.&nbsp;C.</span><span class="pregunta">¿Quién se enfrentaba en las Termópilas?</span><span class="enlace-flecha">Abrir</span></a>
-          <a class="momento" href="mapa.html#1492/38.00/-4.00/5"><span class="anio">1492</span><span class="pregunta">¿Cómo era la Península el año de Granada?</span><span class="enlace-flecha">Abrir</span></a>
-          <a class="momento" href="mapa.html#1914/50.00/15.00/4"><span class="anio">1914</span><span class="pregunta">¿Qué imperios dominaban Europa antes de la Gran Guerra?</span><span class="enlace-flecha">Abrir</span></a>
+        <h2>Láminas para abrir en clase</h2>
+        <p class="intro">Cada una es un enlace: proyéctala tal cual o compártela para que cada cual la explore desde su pantalla.</p>
+        <div class="placas">
+          <figure class="placa">
+            <a class="placa-img" href="mapa.html#-480/38.80/22.50/6"><img src="img/lamina/medio-ac500.webp" alt="Mapa del Mediterráneo oriental hacia el 500 a. C." loading="lazy" width="1200" height="675"></a>
+            <figcaption>
+              <span class="anio">480 a. C.</span>
+              <span class="pregunta">Termópilas: ¿hasta dónde llegaba el Imperio persa?</span>
+              <span class="acciones-placa"><a class="enlace-flecha" href="mapa.html#-480/38.80/22.50/6">Abrir</a><button type="button" class="copiar" data-copiar="mapa.html#-480/38.80/22.50/6">Copiar enlace</button></span>
+            </figcaption>
+          </figure>
+          <figure class="placa">
+            <a class="placa-img" href="mapa.html#1492/38.00/-4.00/5"><img src="img/lamina/medio-1492.webp" alt="Mapa del mundo en 1492" loading="lazy" width="1200" height="675"></a>
+            <figcaption>
+              <span class="anio">1492</span>
+              <span class="pregunta">La Península el año en que cae Granada y parte Colón.</span>
+              <span class="acciones-placa"><a class="enlace-flecha" href="mapa.html#1492/38.00/-4.00/5">Abrir</a><button type="button" class="copiar" data-copiar="mapa.html#1492/38.00/-4.00/5">Copiar enlace</button></span>
+            </figcaption>
+          </figure>
+          <figure class="placa">
+            <a class="placa-img" href="mapa.html#1815/48.00/12.00/4"><img src="img/lamina/medio-1815.webp" alt="Mapa del mundo en 1815" loading="lazy" width="1200" height="675"></a>
+            <figcaption>
+              <span class="anio">1815</span>
+              <span class="pregunta">Europa tras Waterloo y el Congreso de Viena.</span>
+              <span class="acciones-placa"><a class="enlace-flecha" href="mapa.html#1815/48.00/12.00/4">Abrir</a><button type="button" class="copiar" data-copiar="mapa.html#1815/48.00/12.00/4">Copiar enlace</button></span>
+            </figcaption>
+          </figure>
+          <figure class="placa">
+            <a class="placa-img" href="mapa.html#1914/50.00/15.00/4"><img src="img/lamina/medio-1914.webp" alt="Mapa del mundo en 1914" loading="lazy" width="1200" height="675"></a>
+            <figcaption>
+              <span class="anio">1914</span>
+              <span class="pregunta">Europa antes de la Gran Guerra. Compárala con <a href="mapa.html#1920/50.00/15.00/4">1920</a>: tres imperios ya no están.</span>
+              <span class="acciones-placa"><a class="enlace-flecha" href="mapa.html#1914/50.00/15.00/4">Abrir</a><button type="button" class="copiar" data-copiar="mapa.html#1914/50.00/15.00/4">Copiar enlace</button></span>
+            </figcaption>
+          </figure>
         </div>
-        <p class="nota centrada">Compara después con <a href="mapa.html#1920/50.00/15.00/4">Europa en 1920</a>: tres imperios ya no están.</p>
       </div>
     </section>
 
-    <section class="bloque" id="datos">
-      <div class="cont">
-        <h2>Cada dato, con su fuente.</h2>
-        <p class="intro">Las fronteras proceden de mapas históricos abiertos. Gobernantes, población y acontecimientos se citan uno a uno y se revisan antes de publicarse.</p>
-        <p class="fuentes"><a href="https://es.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a><a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a><a href="https://ourworldindata.org/" target="_blank" rel="noopener">Our World in Data</a><a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a></p>
-        <div class="rejilla puntos">
-          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-libro"/></svg><h3>Con fuente</h3><p>Al pie de cada ficha verás de dónde sale la información. Sin fuente, un dato no entra.</p></div>
-          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-revisado"/></svg><h3>Revisado</h3><p>Las fichas revisadas llevan fecha y huella del contenido, y cada cambio pasa una validación automática de fechas, coordenadas y referencias.</p></div>
-          <div class="punto"><svg class="icono" aria-hidden="true"><use href="#i-rama"/></svg><h3>Abierto</h3><p>Los datos son texto legible, una ficha por entidad, y cualquiera puede <a href="colaborar.html#asistente">corregirlos o ampliarlos con un formulario</a>, sin tocar código.</p></div>
+    <!-- fuentes -->
+    <section class="bloque alt" id="datos">
+      <div class="cont dos-col">
+        <div>
+          <h2>Cada dato, con su fuente</h2>
+          <p class="recuento">Hoy la lámina reúne <b>262</b> estados y entidades, <b>939</b> batallas de <b>160</b> conflictos, <b>384</b> zonas de guerra, <b>183</b> acontecimientos y <b>35</b> territorios pequeños.</p>
+          <p class="nota">Las fronteras son aproximadas: resumen situaciones que a menudo fueron difusas o disputadas. Si encuentras un error, <a href="colaborar.html#asistente">puedes corregirlo</a>.</p>
         </div>
-        <p class="nota centrada">Las fronteras son aproximadas: resumen situaciones que a menudo fueron difusas o disputadas.</p>
+        <ul class="colofon">
+          <li><a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a><span>Fronteras · 53 mapas</span></li>
+          <li><a href="https://es.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a><span>Fichas y fechas · CC BY-SA</span></li>
+          <li><a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a><span>Gobernantes y coordenadas · CC0</span></li>
+          <li><a href="https://ourworldindata.org/" target="_blank" rel="noopener">Our World in Data</a><span>Población · CC BY</span></li>
+        </ul>
       </div>
     </section>
 
@@ -169,7 +262,7 @@
       <div class="cont">
         <h2>Elige un año.</h2>
         <div class="acciones">
-          <a class="btn principal grande" href="mapa.html">Abrir el mapa</a>
+          <a class="btn grande" href="mapa.html">Abrir el mapa</a>
           <a class="enlace-flecha" href="colaborar.html">Colaborar en el proyecto</a>
         </div>
       </div>
@@ -179,10 +272,11 @@
 
   <footer class="pie">
     <div class="cont">
-      <p>Datos con fuentes citadas: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) y <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> para las fronteras.</p>
+      <p>Datos con fuentes citadas: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) y <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> para las fronteras. Tipografía Archivo (SIL OFL).</p>
       <p><a href="colaborar.html">Colaborar</a><a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Código en GitHub</a></p>
     </div>
   </footer>
 
+  <script src="js/portada.js?v=1" defer></script>
 </body>
 </html>
