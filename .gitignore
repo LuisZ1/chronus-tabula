@@ -21,3 +21,6 @@ web/data/historia.json
 
 # herramientas locales de Claude Code (skills y agentes de terceros, hooks): no se publican
 .claude/
+
+# material de trabajo de la skill Impeccable (briefs, capturas de revisión): local
+.impeccable/
