@@ -1083,6 +1083,42 @@ kbd {
 /* ==== ajustes de pantalla ==== */
 @media (max-width: 1000px) {
 	.dos-col {
+/* ==== aviso-legal.html ==== */
+.hero.legal {
+	padding-bottom: var(--s-7);
+}
+.texto-legal > * {
+	max-width: 780px;
+}
+.texto-legal h2 {
+	margin-bottom: var(--s-5);
+}
+.texto-legal p,
+.texto-legal li {
+	line-height: 1.6;
+}
+.texto-legal > p {
+	margin: 0 0 var(--s-4);
+}
+.texto-legal > ul:not(.colofon) {
+	margin: 0 0 var(--s-5);
+	padding-left: 1.2em;
+}
+.texto-legal > ul:not(.colofon) li {
+	margin-bottom: var(--s-3);
+}
+.texto-legal .aviso-local {
+	margin: 0 0 var(--s-6);
+}
+.permisos > div {
+	grid-template-columns: 64px 1fr;
+}
+.permisos .chip {
+	min-width: 34px;
+	text-align: center;
+	font-size: 0.8125rem;
+}
+
 		grid-template-columns: 1fr;
 		gap: var(--s-6);
 	}

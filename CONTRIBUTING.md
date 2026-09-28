@@ -2,6 +2,8 @@
 
 ¡Gracias por querer ampliar la historia! El 95 % de las contribuciones no tocan código: consisten en **editar un fichero JSON pequeño en `datos/`**: uno por país (`datos/paises/<id>.json`), conflicto, evento o territorio, pensados para leerse y ampliarse a mano. El `web/data/historia.json` que descarga la web se **genera** a partir de ellos (no lo edites). Esta guía te enseña cada formato con ejemplos copiables, cómo probar tus cambios y qué debe llevar tu merge request.
 
+> **Licencia de las contribuciones.** Chronus Tabula no es software libre: el código se ofrece bajo PolyForm Strict 1.0.0 y la base de datos tiene todos los derechos reservados ([LICENSE.md](LICENSE.md)). Puedes hacer un *fork* y modificarlo **solo para proponer cambios aquí**. Al enviar una contribución declaras que puedes aportarla y que los datos o textos de terceros que incluye respetan su licencia, y concedes al titular una licencia no exclusiva y perpetua para usarla en el proyecto (apartado 4 de [LICENSE.md](LICENSE.md)).
+
 ## Índice
 
 1. [El flujo en 5 pasos](#el-flujo-en-5-pasos)
@@ -316,6 +318,7 @@ Después, prueba visual: arranca el servidor, ve a los años que tocan tus datos
 - [ ] Todos los datos nuevos llevan `fuentes`
 - [ ] Si tocaste gobernantes/población/nombres por época de un país con `revision` validada, lo indicas en el MR
 - [ ] Sin cambios de código no relacionados en el mismo MR
+- [ ] Acepto que mi contribución se incorpore según el apartado 4 de [LICENSE.md](LICENSE.md)
 
 La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta lista; `.github/CODEOWNERS` asigna revisores por carpeta.
 

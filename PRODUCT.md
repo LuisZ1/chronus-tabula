@@ -23,7 +23,7 @@ Un mapa que cambia con el año con datos curados y citados uno a uno: fronteras 
 - Aula con proyector, ordenador personal y móvil; la misma URL funciona en todos.
 - La dirección guarda año, posición y zoom (`mapa.html#1492/38.00/-4.00/5`): un enlace se comparte y abre exactamente el mismo momento.
 - Interfaz en español e inglés.
-- Colaboración: repositorio abierto en GitHub; servidor local (`python api/servidor.py`) con panel de administración y asistente de edición de fichas; los cambios llegan por pull request.
+- Colaboración: repositorio público en GitHub (código y datos a la vista, no libres: PolyForm Strict y base de datos reservada, ver LICENSE.md); servidor local (`python api/servidor.py`) con panel de administración y asistente de edición de fichas; los cambios llegan por pull request.
 
 ## Capabilities and Constraints
 
@@ -38,6 +38,7 @@ Un mapa que cambia con el año con datos curados y citados uno a uno: fronteras 
 - Nombre: Chronus Tabula.
 - El público académico no se nombra literalmente en la web («para profesores y alumnos»); lo transmiten el tono, los ejemplos y el rigor.
 - Español primero; interfaz también en inglés.
+- Los datos se presentan como orientativos: la web avisa de que pueden contener errores (aviso-legal.html y pie de cada ficha).
 - La identidad visual está abierta a una propuesta nueva (confirmado: 2026-09-28), tipografía incluida.
 
 ## Evidence on Hand
@@ -52,7 +53,7 @@ Un mapa que cambia con el año con datos curados y citados uno a uno: fronteras 
 1. Demostrar, no describir: el mapa cambiando con el año es la mejor explicación.
 2. Rigor visible: cada dato con su fuente, y la incertidumbre de las fronteras dicha con honestidad.
 3. Un enlace, un momento: todo lo que se ve se puede compartir y proyectar tal cual.
-4. Abierto de verdad: cualquiera puede corregir o ampliar, sin tocar código.
+4. Abierto a contribuciones: cualquiera puede corregir o ampliar, sin tocar código; la aplicación y su base de datos no se pueden copiar ni comercializar.
 
 ## Accessibility & Inclusion
 

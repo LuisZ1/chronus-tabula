@@ -1597,3 +1597,36 @@ body {
 		transition: none;
 	}
 }
+
+/* aviso al pie de cada ficha (js/fichas.js avisoDatoHtml) */
+.aviso-dato {
+	clear: both;
+	margin: 8px 0 0;
+	padding-top: 6px;
+	border-top: 1px solid var(--linea-suave);
+	font-size: 11px;
+	line-height: 1.4;
+	color: var(--tinta-2);
+}
+.hoja-cuerpo .aviso-dato {
+	margin-top: 16px;
+	padding-top: 10px;
+	font-size: 13px;
+}
+
+/* la reseña del país actual cuando se consulta una época anterior (CT-02) */
+.resena-hoy {
+	margin: 0 0 4px !important;
+	font-weight: 700;
+	font-size: 11px !important;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: var(--tinta-2) !important;
+}
+/* filas activables con teclado: foco visible */
+.legend-row:focus-visible,
+.yp-row:focus-visible,
+#layersPanel .panel-title:focus-visible {
+	outline: 2px solid var(--oceano);
+	outline-offset: 1px;
+}

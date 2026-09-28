@@ -3,6 +3,11 @@
    Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
 /* pie de fuentes de una ficha: plegado, se despliega solo si el lector lo pide */
+/* recordatorio al pie de cada ficha: los datos son orientativos */
+function avisoDatoHtml() {
+	return `<p class="aviso-dato">${i18n.t('popup.disclaimer')} <a href="aviso-legal.html#exactitud" target="_blank" rel="noopener">${i18n.t('popup.disclaimerMore')}</a></p>`;
+}
+
 function fuentesHtml(reg) {
 	const fs = reg && reg.fuentes;
 	if (!fs || !fs.length) return '';
@@ -77,7 +82,7 @@ function popupHtml(props) {
 		? `<div class="wiki-extract"><p>${esc(resena)}</p><div class="wiki-src">${i18n.t('wiki.source')}</div></div>`
 		: '';
 
-	return `<div class="territory-popup" data-wiki="${esc(wikiRef)}"><h3>${esc(name)}</h3><table>${rows}</table>${resenaHtml}${fuentesHtml(pais)}</div>`;
+	return `<div class="territory-popup" data-wiki="${esc(wikiRef)}"><h3>${esc(name)}</h3><table>${rows}</table>${resenaHtml}${fuentesHtml(pais)}${avisoDatoHtml()}</div>`;
 }
 
 /* 'Reino de Aragón' → 'es:Reino de Aragón'; si ya trae prefijo de idioma ('es:…', 'en:…'), se respeta */
@@ -136,7 +141,9 @@ async function cargarExtracto(raiz, alTerminar) {
 	const div = document.createElement('div');
 	div.className = 'wiki-extract';
 	div.innerHTML = `${info.t ? `<img src="${escHtml(info.t)}" alt="">` : ''}<p>${escHtml(info.e)}${info.u ? ` <a href="${escHtml(info.u)}" target="_blank" rel="noopener">${i18n.t('wiki.more')}</a>` : ''}</p><div class="wiki-src">${i18n.t('wiki.source')}</div>`;
-	box.appendChild(div);
+	const aviso = box.querySelector('.aviso-dato');
+	if (aviso) box.insertBefore(div, aviso);
+	else box.appendChild(div);
 	if (alTerminar) alTerminar();
 }
 
@@ -302,7 +309,7 @@ function conflictPopupHtml(c, zona) {
 		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${c.paises.map(esc).join(', ')}</td></tr>`;
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
 	const wikiRef = refWiki(c.wiki || c.nombre);
-	return `<div class="territory-popup war-popup" data-wiki="${esc(wikiRef)}"><h3>🔥 ${esc(c.nombre)}</h3><table>${rows}</table>${c.descripcion ? `<p>${esc(c.descripcion)}</p>` : ''}${fuentesHtml(c)}</div>`;
+	return `<div class="territory-popup war-popup" data-wiki="${esc(wikiRef)}"><h3>🔥 ${esc(c.nombre)}</h3><table>${rows}</table>${c.descripcion ? `<p>${esc(c.descripcion)}</p>` : ''}${fuentesHtml(c)}${avisoDatoHtml()}</div>`;
 }
 
 /* ---------- batallas y eventos ---------- */
@@ -322,7 +329,7 @@ function battlePopupHtml(c, b) {
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
 	const desc = [b.descripcion, c.descripcion].filter(Boolean).map(esc).join('<br>');
 	const wikiRef = refWiki(b.wiki || b.nombre);
-	return `<div class="territory-popup battle-popup" data-wiki="${esc(wikiRef)}"><h3>⚔️ ${esc(b.nombre)}</h3><table>${rows}</table>${desc ? `<p>${desc}</p>` : ''}${fuentesHtml(b.fuentes ? b : c)}</div>`;
+	return `<div class="territory-popup battle-popup" data-wiki="${esc(wikiRef)}"><h3>⚔️ ${esc(b.nombre)}</h3><table>${rows}</table>${desc ? `<p>${desc}</p>` : ''}${fuentesHtml(b.fuentes ? b : c)}${avisoDatoHtml()}</div>`;
 }
 
 function eventPopupHtml(ev) {
@@ -336,7 +343,7 @@ function eventPopupHtml(ev) {
 		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${ev.paises.map(esc).join(', ')}</td></tr>`;
 	const wikiRef = refWiki(ev.wiki || ev.nombre);
 	const ico = ev.categoria === 'invento' ? '💡' : '⭐';
-	return `<div class="territory-popup event-popup" data-wiki="${esc(wikiRef)}"><h3>${ico} ${esc(ev.nombre)}</h3><table>${rows}</table>${ev.descripcion ? `<p>${escHtml(ev.descripcion)}</p>` : ''}${fuentesHtml(ev)}</div>`;
+	return `<div class="territory-popup event-popup" data-wiki="${esc(wikiRef)}"><h3>${ico} ${esc(ev.nombre)}</h3><table>${rows}</table>${ev.descripcion ? `<p>${escHtml(ev.descripcion)}</p>` : ''}${fuentesHtml(ev)}${avisoDatoHtml()}</div>`;
 }
 
 function territorioPopupHtml(t, color) {
@@ -348,5 +355,5 @@ function territorioPopupHtml(t, color) {
 		: `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(t.pais)}</td></tr>`;
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(t.desde)} – ${fin}</td></tr>`;
 	const wikiRef = refWiki(t.wiki || t.nombre);
-	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}</div>`;
+	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}${avisoDatoHtml()}</div>`;
 }
