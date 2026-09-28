@@ -1,0 +1,19 @@
+{
+	"nombre": "Viajes de Zheng He",
+	"anio": 1405,
+	"lat": 31.6,
+	"lng": 121.15,
+	"paises": [
+		"Imperio Ming (China)"
+	],
+	"descripcion": "Las flotas del almirante Zheng He zarpan de Liujiagang; en siete viajes (1405-1433) llegan a la India, Ormuz y la costa oriental de África.",
+	"wiki": "Zheng He",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Treasure voyages",
+			"url": "https://en.wikipedia.org/wiki/Treasure_voyages",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

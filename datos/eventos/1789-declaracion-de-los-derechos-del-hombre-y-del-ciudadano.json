@@ -1,0 +1,18 @@
+{
+	"nombre": "Declaración de los Derechos del Hombre y del Ciudadano",
+	"anio": 1789,
+	"lat": 48.805,
+	"lng": 2.12,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "La Asamblea Nacional, en Versalles, proclama la igualdad ante la ley y la soberanía nacional (26 de agosto).",
+	"wiki": "Declaración de los Derechos del Hombre y del Ciudadano",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Declaración de los Derechos del Hombre y del Ciudadano",
+			"url": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_los_Derechos_del_Hombre_y_del_Ciudadano",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

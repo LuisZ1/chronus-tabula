@@ -1,0 +1,18 @@
+{
+	"nombre": "Fundación de San Petersburgo",
+	"anio": 1703,
+	"lat": 59.95,
+	"lng": 30.317,
+	"paises": [
+		"Rusia"
+	],
+	"descripcion": "Pedro I funda en el Nevá la nueva capital, su «ventana a Europa».",
+	"wiki": "San Petersburgo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:San Petersburgo",
+			"url": "https://es.wikipedia.org/wiki/San_Petersburgo",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"nombre": "Declaración Universal de los Derechos Humanos",
+	"anio": 1948,
+	"lat": 48.86,
+	"lng": 2.29,
+	"descripcion": "Adoptada por la Asamblea General de la ONU en París (10 de diciembre).",
+	"wiki": "Declaración Universal de los Derechos Humanos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Declaración Universal de los Derechos Humanos",
+			"url": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_Universal_de_los_Derechos_Humanos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

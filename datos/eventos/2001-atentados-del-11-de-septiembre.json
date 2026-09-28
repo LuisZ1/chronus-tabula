@@ -1,0 +1,19 @@
+{
+	"nombre": "Atentados del 11 de septiembre",
+	"anio": 2001,
+	"lat": 40.71,
+	"lng": -74.01,
+	"paises": [
+		"Estados Unidos"
+	],
+	"descripcion": "Al Qaeda estrella dos aviones contra las Torres Gemelas, uno contra el Pentágono y otro cae en Pensilvania; casi 3.000 muertos.",
+	"wiki": "Atentados del 11 de septiembre de 2001",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Atentados del 11 de septiembre de 2001",
+			"url": "https://es.wikipedia.org/wiki/Atentados_del_11_de_septiembre_de_2001",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

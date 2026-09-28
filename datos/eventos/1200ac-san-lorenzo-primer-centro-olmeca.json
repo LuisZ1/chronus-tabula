@@ -1,0 +1,20 @@
+{
+	"nombre": "San Lorenzo, primer centro olmeca",
+	"anio": -1200,
+	"hasta": -900,
+	"lat": 17.75,
+	"lng": -94.76,
+	"paises": [
+		"Olmecas"
+	],
+	"descripcion": "Entre 1200 y 900 a. C. (fechas aproximadas) florece en San Lorenzo, en el golfo de México, el primer gran centro olmeca, famoso por sus cabezas colosales.",
+	"wiki": "San Lorenzo Tenochtitlan",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Olmecs",
+			"url": "https://en.wikipedia.org/wiki/Olmecs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

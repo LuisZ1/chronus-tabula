@@ -1,0 +1,16 @@
+{
+	"nombre": "Manifiesto comunista",
+	"anio": 1848,
+	"lat": 51.51,
+	"lng": -0.13,
+	"descripcion": "Marx y Engels publican en Londres el programa de la Liga de los Comunistas.",
+	"wiki": "Manifiesto del Partido Comunista",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Manifiesto del Partido Comunista",
+			"url": "https://es.wikipedia.org/wiki/Manifiesto_del_Partido_Comunista",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

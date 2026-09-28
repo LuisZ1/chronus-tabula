@@ -1,0 +1,16 @@
+{
+	"nombre": "Crisis financiera de 2008",
+	"anio": 2008,
+	"lat": 40.71,
+	"lng": -74.01,
+	"descripcion": "La quiebra de Lehman Brothers (15 de septiembre) desencadena la Gran Recesión.",
+	"wiki": "Crisis financiera de 2008",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Crisis financiera de 2008",
+			"url": "https://es.wikipedia.org/wiki/Crisis_financiera_de_2008",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

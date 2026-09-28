@@ -1,0 +1,18 @@
+{
+	"nombre": "Terremoto de Lisboa",
+	"anio": 1755,
+	"lat": 38.708,
+	"lng": -9.139,
+	"paises": [
+		"Portugal"
+	],
+	"descripcion": "El terremoto y el tsunami del 1 de noviembre arrasan Lisboa; Pombal dirige la reconstrucción y el desastre alimenta el debate ilustrado.",
+	"wiki": "Terremoto de Lisboa de 1755",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Terremoto de Lisboa de 1755",
+			"url": "https://es.wikipedia.org/wiki/Terremoto_de_Lisboa_de_1755",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"nombre": "Tratado de Maastricht",
+	"anio": 1992,
+	"lat": 50.85,
+	"lng": 5.69,
+	"descripcion": "Crea la Unión Europea.",
+	"wiki": "Tratado de Maastricht",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Maastricht",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Maastricht",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

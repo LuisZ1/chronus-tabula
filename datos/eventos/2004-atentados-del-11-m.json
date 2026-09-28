@@ -1,0 +1,19 @@
+{
+	"nombre": "Atentados del 11-M",
+	"anio": 2004,
+	"lat": 40.41,
+	"lng": -3.69,
+	"paises": [
+		"España"
+	],
+	"descripcion": "192 muertos en los trenes de cercanías de Madrid.",
+	"wiki": "Atentados del 11 de marzo de 2004",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Atentados del 11 de marzo de 2004",
+			"url": "https://es.wikipedia.org/wiki/Atentados_del_11_de_marzo_de_2004",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

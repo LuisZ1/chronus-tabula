@@ -1,0 +1,22 @@
+{
+	"nombre": "Tratado de Versalles",
+	"anio": 1919,
+	"lat": 48.8,
+	"lng": 2.12,
+	"paises": [
+		"Alemania",
+		"Francia",
+		"Reino Unido",
+		"Estados Unidos"
+	],
+	"descripcion": "Paz con Alemania: culpa de guerra, reparaciones, pérdida de Alsacia-Lorena y de las colonias; crea la Sociedad de Naciones.",
+	"wiki": "Tratado de Versalles (1919)",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de Versalles (1919)",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_Versalles_%281919%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

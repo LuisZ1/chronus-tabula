@@ -1,0 +1,19 @@
+{
+	"nombre": "Proclamación del Reino de Italia",
+	"anio": 1861,
+	"lat": 45.07,
+	"lng": 7.69,
+	"paises": [
+		"Italia"
+	],
+	"descripcion": "El Parlamento de Turín proclama a Víctor Manuel II rey de Italia (17 de marzo).",
+	"wiki": "Reino de Italia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Italia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Italia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

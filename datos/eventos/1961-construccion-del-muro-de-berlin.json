@@ -1,0 +1,20 @@
+{
+	"nombre": "Construcción del Muro de Berlín",
+	"anio": 1961,
+	"hasta": 1989,
+	"lat": 52.52,
+	"lng": 13.38,
+	"paises": [
+		"Alemania"
+	],
+	"descripcion": "La RDA levanta el muro el 13 de agosto de 1961; cae el 9 de noviembre de 1989.",
+	"wiki": "Muro de Berlín",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Muro de Berlín",
+			"url": "https://es.wikipedia.org/wiki/Muro_de_Berl%C3%ADn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

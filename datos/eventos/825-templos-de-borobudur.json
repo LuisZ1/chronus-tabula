@@ -4,7 +4,7 @@
 	"lat": -7.61,
 	"lng": 110.2,
 	"paises": [
-		"Imperio jemer"
+		"Reino de Mataram (dinastía Sailendra)"
 	],
 	"descripcion": "La dinastía Sailendra erige en el centro de Java el mayor monumento budista del mundo: un colosal mandala de piedra en terrazas coronado por estupas, testimonio de la difusión del budismo y de la cultura india por el Sudeste Asiático.",
 	"wiki": "Borobudur",
@@ -14,6 +14,12 @@
 			"url": "https://es.wikipedia.org/wiki/Borobudur",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-en:Borobudur",
+			"url": "https://en.wikipedia.org/wiki/Borobudur",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

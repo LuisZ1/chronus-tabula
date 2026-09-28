@@ -1,0 +1,20 @@
+{
+	"nombre": "Compromiso de Caspe",
+	"anio": 1412,
+	"lat": 41.23,
+	"lng": -0.04,
+	"paises": [
+		"Corona de Aragón",
+		"Corona de Castilla"
+	],
+	"descripcion": "Nueve compromisarios de Aragón, Cataluña y Valencia eligen rey a Fernando de Antequera: los Trastámara castellanos llegan al trono aragonés.",
+	"wiki": "Compromiso de Caspe",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Compromiso de Caspe",
+			"url": "https://es.wikipedia.org/wiki/Compromiso_de_Caspe",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

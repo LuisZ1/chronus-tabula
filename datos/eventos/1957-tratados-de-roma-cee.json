@@ -1,0 +1,16 @@
+{
+	"nombre": "Tratados de Roma (CEE)",
+	"anio": 1957,
+	"lat": 41.89,
+	"lng": 12.48,
+	"descripcion": "Seis países fundan la Comunidad Económica Europea y el Euratom.",
+	"wiki": "Tratados de Roma",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratados de Roma",
+			"url": "https://es.wikipedia.org/wiki/Tratados_de_Roma",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

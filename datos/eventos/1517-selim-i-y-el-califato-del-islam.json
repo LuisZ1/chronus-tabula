@@ -1,0 +1,30 @@
+{
+	"nombre": "Selim I y el califato del islam",
+	"anio": 1517,
+	"lat": 30.05,
+	"lng": 31.25,
+	"paises": [
+		"Otomano",
+		"Egipto"
+	],
+	"descripcion": "Selim I conquista El Cairo, acaba con el sultanato mameluco y se lleva a Estambul al último califa abasí, al-Mutawakkil III. Que este le cediera entonces el califato es una tradición posterior, sin testimonios de la época (se documenta por escrito en 1790); los sultanes solo usarán el título de califa de forma sistemática desde el siglo XVIII, reconocido en el tratado de Küçük Kaynarca (1774).",
+	"wiki": "Califato otomano",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Califato otomano",
+			"url": "https://es.wikipedia.org/wiki/Califato_otomano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
+		},
+		{
+			"id": "wikipedia-en:Ottoman Caliphate",
+			"url": "https://en.wikipedia.org/wiki/Ottoman_Caliphate",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

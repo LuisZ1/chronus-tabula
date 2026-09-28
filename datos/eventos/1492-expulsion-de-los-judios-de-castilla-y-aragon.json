@@ -1,0 +1,19 @@
+{
+	"nombre": "Expulsión de los judíos de Castilla y Aragón",
+	"anio": 1492,
+	"lat": 37.18,
+	"lng": -3.59,
+	"paises": [
+		"Corona de Castilla",
+		"Corona de Aragón"
+	],
+	"descripcion": "El decreto de la Alhambra obliga a los judíos a convertirse o marcharse; decenas de miles de sefardíes emigran a Portugal, el norte de África y el Imperio otomano.",
+	"wiki": "Decreto de la Alhambra",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Decreto de la Alhambra",
+			"url": "https://es.wikipedia.org/wiki/Decreto_de_la_Alhambra",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

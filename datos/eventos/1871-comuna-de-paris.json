@@ -1,0 +1,19 @@
+{
+	"nombre": "Comuna de París",
+	"anio": 1871,
+	"lat": 48.86,
+	"lng": 2.35,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "Gobierno revolucionario de marzo a mayo, aplastado en la «Semana Sangrienta».",
+	"wiki": "Comuna de París",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Comuna de París",
+			"url": "https://es.wikipedia.org/wiki/Comuna_de_Par%C3%ADs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

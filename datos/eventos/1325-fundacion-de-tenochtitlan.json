@@ -1,0 +1,19 @@
+{
+	"nombre": "Fundación de Tenochtitlan",
+	"anio": 1325,
+	"lat": 19.43,
+	"lng": -99.13,
+	"paises": [
+		"Imperio azteca"
+	],
+	"descripcion": "Los mexicas fundan su ciudad en un islote del lago de Texcoco (fecha tradicional); un siglo después será la cabeza de la Triple Alianza.",
+	"wiki": "Tenochtitlan",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Aztec Empire",
+			"url": "https://en.wikipedia.org/wiki/Aztec_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

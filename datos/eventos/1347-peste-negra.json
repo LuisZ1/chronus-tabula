@@ -2,12 +2,13 @@
 	"nombre": "Peste Negra",
 	"anio": 1347,
 	"hasta": 1353,
-	"lat": 37.06,
-	"lng": 15.29,
+	"lat": 38.19,
+	"lng": 15.55,
 	"paises": [
-		"Europa"
+		"Reino de Sicilia",
+		"República de Génova"
 	],
-	"descripcion": "La pandemia entra en Europa por Sicilia y mata a un tercio de la población.",
+	"descripcion": "La pandemia entra en Europa por Messina (Sicilia), en galeras genovesas, y mata a un tercio de la población.",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Peste Negra",

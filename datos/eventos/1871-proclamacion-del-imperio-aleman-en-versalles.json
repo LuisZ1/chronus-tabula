@@ -1,0 +1,20 @@
+{
+	"nombre": "Proclamación del Imperio alemán en Versalles",
+	"anio": 1871,
+	"lat": 48.8,
+	"lng": 2.12,
+	"paises": [
+		"Alemania",
+		"Prusia"
+	],
+	"descripcion": "Guillermo I es proclamado emperador en la Galería de los Espejos (18 de enero).",
+	"wiki": "Proclamación del Imperio alemán",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Proclamación del Imperio alemán",
+			"url": "https://es.wikipedia.org/wiki/Proclamaci%C3%B3n_del_Imperio_alem%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

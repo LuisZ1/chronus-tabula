@@ -1,0 +1,20 @@
+{
+	"nombre": "Humillación de Canossa",
+	"anio": 1077,
+	"lat": 44.58,
+	"lng": 10.46,
+	"paises": [
+		"Sacro Imperio Romano Germánico",
+		"Estados Pontificios (Papado)"
+	],
+	"descripcion": "El emperador Enrique IV espera tres días ante el castillo de Canossa para que el papa Gregorio VII le levante la excomunión, en plena querella de las investiduras.",
+	"wiki": "Humillación de Canossa",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Road to Canossa",
+			"url": "https://en.wikipedia.org/wiki/Road_to_Canossa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

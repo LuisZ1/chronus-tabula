@@ -1,0 +1,32 @@
+{
+	"nombre": "Tratado de Kadesh, el tratado de paz más antiguo conservado",
+	"anio": -1259,
+	"lat": 40.02,
+	"lng": 34.62,
+	"paises": [
+		"Egipto",
+		"Imperio hitita"
+	],
+	"descripcion": "Ramsés II y Hattusili III firman el tratado de paz más antiguo que se conserva con las versiones de las dos partes, la egipcia y la hitita; el de Ebla y Abarsal, anterior, podría disputarle el título. Una copia preside la sede de la ONU.",
+	"wiki": "Tratado de paz egipcio-hitita",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de paz egipcio-hitita",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_paz_egipcio-hitita",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Egyptian–Hittite peace treaty",
+			"url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Hattusa",
+			"url": "https://en.wikipedia.org/wiki/Hattusa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

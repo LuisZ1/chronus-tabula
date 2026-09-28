@@ -1,0 +1,19 @@
+{
+	"nombre": "Vasco da Gama llega a la India",
+	"anio": 1498,
+	"lat": 11.25,
+	"lng": 75.78,
+	"paises": [
+		"Portugal"
+	],
+	"descripcion": "Tras doblar el cabo de Buena Esperanza, la flota de Vasco da Gama llega a Calicut el 20 de mayo de 1498: primera ruta marítima directa entre Europa y Asia.",
+	"wiki": "Vasco da Gama",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Vasco da Gama",
+			"url": "https://en.wikipedia.org/wiki/Vasco_da_Gama",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

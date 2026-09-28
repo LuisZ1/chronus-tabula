@@ -1,0 +1,19 @@
+{
+	"nombre": "Paz de los Pirineos",
+	"anio": 1659,
+	"lat": 43.343,
+	"lng": -1.766,
+	"paises": [
+		"España",
+		"Francia"
+	],
+	"descripcion": "Se firma en la isla de los Faisanes: España cede el Rosellón y la Cerdaña y Francia pasa a ser la potencia hegemónica.",
+	"wiki": "Tratado de los Pirineos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tratado de los Pirineos",
+			"url": "https://es.wikipedia.org/wiki/Tratado_de_los_Pirineos",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

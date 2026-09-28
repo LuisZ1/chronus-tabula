@@ -1,0 +1,19 @@
+{
+	"nombre": "Boda de Isabel y Fernando",
+	"anio": 1469,
+	"lat": 41.65,
+	"lng": -4.72,
+	"paises": [
+		"Corona de Castilla",
+		"Corona de Aragón"
+	],
+	"descripcion": "Isabel de Castilla y Fernando de Aragón se casan en Valladolid; la unión dinástica de ambas coronas llegará en 1479.",
+	"wiki": "Reyes Católicos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reyes Católicos",
+			"url": "https://es.wikipedia.org/wiki/Reyes_Cat%C3%B3licos",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

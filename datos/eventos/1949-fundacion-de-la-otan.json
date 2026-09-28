@@ -1,0 +1,16 @@
+{
+	"nombre": "Fundación de la OTAN",
+	"anio": 1949,
+	"lat": 38.9,
+	"lng": -77.04,
+	"descripcion": "Tratado del Atlántico Norte, firmado en Washington el 4 de abril.",
+	"wiki": "Organización del Tratado del Atlántico Norte",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Organización del Tratado del Atlántico Norte",
+			"url": "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_del_Tratado_del_Atl%C3%A1ntico_Norte",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

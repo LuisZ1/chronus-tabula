@@ -6,7 +6,7 @@
 	"paises": [
 		"Egipto"
 	],
-	"descripcion": "Hacia el 3100 a. C. (aquí ajustado al inicio de la línea temporal), Narmer une el Alto y el Bajo Egipto: nace el primer Estado territorial de la historia, con capital en Menfis.",
+	"descripcion": "Hacia 3150-3100 a. C. (en la línea temporal, en 3000 a. C.), Narmer (Menes) une el Alto y el Bajo Egipto y funda Menfis.",
 	"wiki": "Narmer",
 	"fuentes": [
 		{
@@ -14,6 +14,12 @@
 			"url": "https://es.wikipedia.org/wiki/Narmer",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Early Dynastic Period (Egypt)",
+			"url": "https://en.wikipedia.org/wiki/Early_Dynastic_Period_(Egypt)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

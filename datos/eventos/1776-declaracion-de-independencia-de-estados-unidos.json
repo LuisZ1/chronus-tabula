@@ -1,0 +1,19 @@
+{
+	"nombre": "Declaración de Independencia de Estados Unidos",
+	"anio": 1776,
+	"lat": 39.949,
+	"lng": -75.15,
+	"paises": [
+		"Estados Unidos",
+		"Gran Bretaña"
+	],
+	"descripcion": "El 4 de julio, en Filadelfia, las Trece Colonias se declaran independientes.",
+	"wiki": "Declaración de Independencia de los Estados Unidos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Declaración de Independencia de los Estados Unidos",
+			"url": "https://es.wikipedia.org/wiki/Declaraci%C3%B3n_de_Independencia_de_los_Estados_Unidos",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

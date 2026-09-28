@@ -1,0 +1,19 @@
+{
+	"nombre": "Tetrarquía de Diocleciano",
+	"anio": 293,
+	"lat": 40.77,
+	"lng": 29.92,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "Diocleciano reparte el gobierno del Imperio entre dos augustos (él mismo en Nicomedia y Maximiano en Milán) y dos césares (Galerio en Sirmio y Constancio en Tréveris) para defender mejor sus fronteras.",
+	"wiki": "Tetrarquía",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Diocleciano",
+			"url": "https://es.wikipedia.org/wiki/Diocleciano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

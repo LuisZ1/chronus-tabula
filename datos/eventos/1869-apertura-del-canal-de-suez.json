@@ -1,0 +1,20 @@
+{
+	"nombre": "Apertura del canal de Suez",
+	"anio": 1869,
+	"lat": 30.6,
+	"lng": 32.33,
+	"paises": [
+		"Egipto",
+		"Francia"
+	],
+	"descripcion": "Une el Mediterráneo y el mar Rojo y acorta la ruta a la India.",
+	"wiki": "Canal de Suez",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Canal de Suez",
+			"url": "https://es.wikipedia.org/wiki/Canal_de_Suez",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

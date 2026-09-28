@@ -1,0 +1,21 @@
+{
+	"nombre": "Holocausto",
+	"anio": 1941,
+	"hasta": 1945,
+	"lat": 50.03,
+	"lng": 19.18,
+	"paises": [
+		"Alemania",
+		"Polonia"
+	],
+	"descripcion": "Exterminio sistemático de unos seis millones de judíos europeos por la Alemania nazi; el marcador está en Auschwitz-Birkenau.",
+	"wiki": "Holocausto",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Holocausto",
+			"url": "https://es.wikipedia.org/wiki/Holocausto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

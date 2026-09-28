@@ -1,0 +1,19 @@
+{
+	"nombre": "Inauguración de Constantinopla",
+	"anio": 330,
+	"lat": 41.01,
+	"lng": 28.98,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "Constantino inaugura el 11 de mayo la nueva capital sobre la antigua Bizancio, con cuarenta días de fiestas en el Hipódromo. Será la capital del Imperio romano de Oriente durante más de mil años.",
+	"wiki": "Constantinopla",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Constantinopla",
+			"url": "https://es.wikipedia.org/wiki/Constantinopla",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

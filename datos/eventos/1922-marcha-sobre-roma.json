@@ -1,0 +1,19 @@
+{
+	"nombre": "Marcha sobre Roma",
+	"anio": 1922,
+	"lat": 41.9,
+	"lng": 12.5,
+	"paises": [
+		"Italia"
+	],
+	"descripcion": "Víctor Manuel III encarga el gobierno a Mussolini.",
+	"wiki": "Marcha sobre Roma",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Marcha sobre Roma",
+			"url": "https://es.wikipedia.org/wiki/Marcha_sobre_Roma",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

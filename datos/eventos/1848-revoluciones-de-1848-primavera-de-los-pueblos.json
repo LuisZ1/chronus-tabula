@@ -1,0 +1,22 @@
+{
+	"nombre": "Revoluciones de 1848 (Primavera de los Pueblos)",
+	"anio": 1848,
+	"lat": 48.86,
+	"lng": 2.35,
+	"paises": [
+		"Francia",
+		"Austria",
+		"Prusia",
+		"Italia"
+	],
+	"descripcion": "Oleada revolucionaria liberal y nacionalista que empieza en París en febrero y se extiende a Viena, Berlín, Milán y Budapest; cae Metternich.",
+	"wiki": "Revoluciones de 1848",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revoluciones de 1848",
+			"url": "https://es.wikipedia.org/wiki/Revoluciones_de_1848",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

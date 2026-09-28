@@ -1,0 +1,20 @@
+{
+	"nombre": "Concilio de Trento",
+	"anio": 1545,
+	"lat": 46.067,
+	"lng": 11.121,
+	"paises": [
+		"Estados Pontificios",
+		"Sacro Imperio Romano Germánico",
+		"España"
+	],
+	"descripcion": "El concilio (1545-1563) fija la doctrina católica frente a la Reforma: es el núcleo de la Contrarreforma.",
+	"wiki": "Concilio de Trento",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Concilio de Trento",
+			"url": "https://es.wikipedia.org/wiki/Concilio_de_Trento",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

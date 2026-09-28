@@ -1,0 +1,22 @@
+{
+	"nombre": "Cisma de Occidente",
+	"anio": 1378,
+	"lat": 43.95,
+	"lng": 4.81,
+	"paises": [
+		"Estados Pontificios (Papado)",
+		"Francia",
+		"Corona de Aragón",
+		"Corona de Castilla"
+	],
+	"descripcion": "Papas rivales en Roma y Aviñón (y desde 1409 también en Pisa) dividen la cristiandad latina hasta el concilio de Constanza (1417).",
+	"wiki": "Cisma de Occidente",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Western Schism",
+			"url": "https://en.wikipedia.org/wiki/Western_Schism",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"nombre": "Fundación de la ONU",
+	"anio": 1945,
+	"lat": 37.78,
+	"lng": -122.42,
+	"descripcion": "La Carta se firma en San Francisco el 26 de junio.",
+	"wiki": "Carta de las Naciones Unidas",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Carta de las Naciones Unidas",
+			"url": "https://es.wikipedia.org/wiki/Carta_de_las_Naciones_Unidas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}
