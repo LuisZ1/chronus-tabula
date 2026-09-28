@@ -150,8 +150,9 @@ function makeLabelMarker(d) {
 	// queda en coaCache, con clave distinta para cada propiedad.
 	const em = emblemaElegido();
 	const fijo = d.pais ? emblemaParaAnio(d.pais, state.shownYear, em.campo) : null;
+	const enVivo = !fijo && puedeEmblemaEnVivo(d.pais, state.shownYear, em.campo);
 	let src = fijo;
-	if (!src) {
+	if (!src && enVivo) {
 		const cached = coaCache.get(coaKey(d.name));
 		if (typeof cached === 'string' && cached !== 'none' && cached !== 'pending') src = cached;
 	}
@@ -161,7 +162,7 @@ function makeLabelMarker(d) {
 		className: 'map-label-wrap',
 		iconSize: null
 	});
-	if (!fijo && prefs.escudos && !coaCache.has(coaKey(d.name))) requestCoA(d);
+	if (enVivo && prefs.escudos && !coaCache.has(coaKey(d.name))) requestCoA(d);
 	return L.marker([d.lat, d.lng], { icon, interactive: false, keyboard: false });
 }
 

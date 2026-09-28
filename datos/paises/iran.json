@@ -143,7 +143,9 @@
 	],
 	"banderas": [
 		{
-			"archivo": "State flag of Iran (1964–1980).svg"
+			"archivo": "State flag of Iran (1964–1980).svg",
+			"desde": 1964,
+			"hasta": 1980
 		},
 		{
 			"archivo": "First Flag of I.R.Iran.svg",

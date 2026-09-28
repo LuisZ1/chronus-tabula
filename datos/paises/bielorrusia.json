@@ -221,9 +221,6 @@
 	],
 	"escudos": [
 		{
-			"archivo": "Coat of arms of Belarus (2012–2021).svg"
-		},
-		{
 			"archivo": "Coat of arms of Belarus (1991–1995).svg",
 			"desde": 1991,
 			"hasta": 1995
@@ -232,6 +229,11 @@
 			"archivo": "Coat of arms of Belarus.svg",
 			"desde": 1995,
 			"hasta": 2012
+		},
+		{
+			"archivo": "Coat of arms of Belarus (2012–2021).svg",
+			"desde": 2012,
+			"hasta": 2021
 		},
 		{
 			"archivo": "Coat of arms of Belarus (2020–present).svg",

@@ -135,9 +135,6 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Afghanistan (1909–1926).svg"
-		},
-		{
 			"archivo": "Flag of Afghanistan (1880–1901).svg",
 			"desde": 1709,
 			"hasta": 1738
@@ -156,6 +153,11 @@
 			"archivo": "Flag of Afghanistan (1901–1919).svg",
 			"desde": 1901,
 			"hasta": 1919
+		},
+		{
+			"archivo": "Flag of Afghanistan (1909–1926).svg",
+			"desde": 1909,
+			"hasta": 1926
 		},
 		{
 			"archivo": "Flag of Afghanistan (1926–1928).svg",

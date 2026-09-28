@@ -223,12 +223,14 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Saint Lucia (1967–1979).svg"
-		},
-		{
 			"archivo": "Flag of Saint Lucia (1939–1967).svg",
 			"desde": 1939,
 			"hasta": 1967
+		},
+		{
+			"archivo": "Flag of Saint Lucia (1967–1979).svg",
+			"desde": 1967,
+			"hasta": 1979
 		},
 		{
 			"archivo": "Flag of Saint Lucia (1979–2002).svg",

@@ -126,7 +126,7 @@ ORDEN_CLAVES = {
                     "wiki", "fuentes"],
 }
 ORDEN_SUBCLAVES = {
-    "nombres_periodo": ["nombre", "desde", "hasta", "wikidata"],
+    "nombres_periodo": ["nombre", "desde", "hasta", "wiki", "wikidata"],
     "gobernantes": ["nombre", "cargo", "titulo", "desde", "hasta"],
     "poblacion": ["anio", "valor", "fuente"],
     "escudos": ["archivo", "desde", "hasta"],

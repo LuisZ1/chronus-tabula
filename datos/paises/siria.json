@@ -54,7 +54,9 @@
 	],
 	"escudos": [
 		{
-			"archivo": "Emblem of Syria (1963–1972) based on Emblem of Syria (1945–1958, 1961–1963).svg"
+			"archivo": "Emblem of Syria (1963–1972) based on Emblem of Syria (1945–1958, 1961–1963).svg",
+			"desde": 1945,
+			"hasta": 1972
 		},
 		{
 			"archivo": "Coat of arms of the United Arab Republic (1958–1971).svg",

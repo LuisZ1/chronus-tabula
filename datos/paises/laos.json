@@ -212,7 +212,9 @@
 	],
 	"escudos": [
 		{
-			"archivo": "Emblem of Laos (1991-2025).svg"
+			"archivo": "Emblem of Laos (1991-2025).svg",
+			"desde": 1991,
+			"hasta": 2025
 		}
 	],
 	"banderas": [

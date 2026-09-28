@@ -247,7 +247,9 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Brazil (1822–1853).svg"
+			"archivo": "Flag of Brazil (1822–1853).svg",
+			"desde": 1822,
+			"hasta": 1853
 		},
 		{
 			"archivo": "Flag of Brazil (November 1889).svg",

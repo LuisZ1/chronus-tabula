@@ -123,9 +123,6 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of the Democratic Republic of the Congo (1997–2006).svg"
-		},
-		{
 			"archivo": "Flag of the Republic of the Congo (Léopoldville) (1960–1963).svg",
 			"desde": 1960,
 			"hasta": 1963
@@ -144,6 +141,11 @@
 			"archivo": "Flag of Zaire (1971–1997).svg",
 			"desde": 1971,
 			"hasta": 1997
+		},
+		{
+			"archivo": "Flag of the Democratic Republic of the Congo (1997–2006).svg",
+			"desde": 1997,
+			"hasta": 2006
 		},
 		{
 			"archivo": "Flag of the Democratic Republic of the Congo.svg",

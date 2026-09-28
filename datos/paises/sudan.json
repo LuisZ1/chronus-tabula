@@ -146,12 +146,16 @@
 	],
 	"escudos": [
 		{
-			"archivo": "Emblem of Sudan (1956–1970).svg"
+			"archivo": "Emblem of Sudan (1956–1970).svg",
+			"desde": 1956,
+			"hasta": 1970
 		}
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Sudan (1956–1970).svg"
+			"archivo": "Flag of Sudan (1956–1970).svg",
+			"desde": 1956,
+			"hasta": 1970
 		},
 		{
 			"archivo": "Flag of Sudan.svg",

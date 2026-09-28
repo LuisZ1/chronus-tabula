@@ -80,12 +80,14 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Equatorial Guinea (1973–1979).svg"
-		},
-		{
 			"archivo": "Flag of Equatorial Guinea (without coat of arms).svg",
 			"desde": 1968,
 			"hasta": 1973
+		},
+		{
+			"archivo": "Flag of Equatorial Guinea (1973–1979).svg",
+			"desde": 1973,
+			"hasta": 1979
 		},
 		{
 			"archivo": "Flag of Equatorial Guinea.svg",

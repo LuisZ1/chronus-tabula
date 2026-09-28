@@ -157,7 +157,9 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Lesotho (1966–1987).svg"
+			"archivo": "Flag of Lesotho (1966–1987).svg",
+			"desde": 1966,
+			"hasta": 1987
 		},
 		{
 			"archivo": "Flag of Lesotho (1987–2006).svg",

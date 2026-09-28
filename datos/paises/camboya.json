@@ -205,9 +205,6 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of the State of Cambodia (1989–1992).svg"
-		},
-		{
 			"archivo": "Flag of Cambodia (1863–1948).svg",
 			"desde": 1863,
 			"hasta": 1942
@@ -241,6 +238,11 @@
 			"archivo": "Flag of the People's Republic of Kampuchea.svg",
 			"desde": 1979,
 			"hasta": 1989
+		},
+		{
+			"archivo": "Flag of the State of Cambodia (1989–1992).svg",
+			"desde": 1989,
+			"hasta": 1992
 		},
 		{
 			"archivo": "Flag of Cambodia (1992–1993).svg",

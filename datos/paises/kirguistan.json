@@ -286,7 +286,9 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of the Kirghiz Soviet Socialist Republic (1952–1991); Flag of Kyrgyzstan (1991–1992).svg"
+			"archivo": "Flag of the Kirghiz Soviet Socialist Republic (1952–1991); Flag of Kyrgyzstan (1991–1992).svg",
+			"desde": 1952,
+			"hasta": 1992
 		},
 		{
 			"archivo": "Flag of Kyrgyzstan (1992–2023).svg",
