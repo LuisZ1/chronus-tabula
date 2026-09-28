@@ -274,6 +274,9 @@
 			el.value = v == null ? '' : v;
 			if (/año/i.test(s.description || '') || ['desde', 'hasta', 'anio', 'inicio', 'fin'].includes(k))
 				el.placeholder = 'año (negativo = a. C.)';
+			// gobernantes: 'hasta' vacío = sigue en el cargo
+			if (k === 'hasta' && /en el cargo/.test(s.description || ''))
+				el.placeholder = 'vacío = en el cargo';
 			el.addEventListener('input', () => {
 				const n = el.value === '' ? undefined : Number(el.value);
 				cambiar(obj, k, Number.isNaN(n) ? el.value : n);

@@ -151,9 +151,10 @@ function emblemaElegido() {
 		: { campo: 'escudos', prop: 'P94', clave: 'coa' };
 }
 
+/* 'hasta' vacío o ausente = sigue en el cargo: vale hasta el año en curso */
 function gobernanteEn(pais, y) {
 	if (!pais || !pais.gobernantes) return [];
-	return pais.gobernantes.filter(g => g.desde <= y && y <= g.hasta);
+	return pais.gobernantes.filter(g => g.desde <= y && y <= (g.hasta ?? ANIO_ACTUAL));
 }
 
 /* la estimación más cercana, pero no de otra época: dentro del periodo activo

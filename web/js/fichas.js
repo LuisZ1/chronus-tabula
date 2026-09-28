@@ -36,7 +36,9 @@ function popupHtml(props) {
 	let rows = '';
 
 	for (const g of gobernanteEn(pais, y)) {
-		rows += `<tr><td>${i18n.t('popup.ruler')}</td><td><strong>${esc(g.nombre)}</strong>${g.titulo ? '<br><em>' + esc(g.titulo) + '</em>' : ''}</td></tr>`;
+		// 'titulo' si lo hay; si no, el 'cargo' (muchas fichas solo tienen este)
+		const t = g.titulo || g.cargo;
+		rows += `<tr><td>${i18n.t('popup.ruler')}</td><td><strong>${esc(g.nombre)}</strong>${t ? '<br><em>' + esc(t) + '</em>' : ''}</td></tr>`;
 	}
 	const pop = poblacionCercana(pais, y);
 	if (pop) {

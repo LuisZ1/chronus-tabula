@@ -152,12 +152,12 @@
 		},
 		"gobernantes": {
 			"type": "array",
+			"description": "Gobernantes con sus años de mandato; la ficha muestra los del año elegido. Deja 'hasta' vacío si sigue en el cargo",
 			"items": {
 				"type": "object",
 				"required": [
 					"nombre",
-					"desde",
-					"hasta"
+					"desde"
 				],
 				"properties": {
 					"nombre": {
@@ -177,10 +177,13 @@
 						"description": "Año; negativo = a. C."
 					},
 					"hasta": {
-						"type": "integer",
+						"type": [
+							"integer",
+							"null"
+						],
 						"minimum": -123000,
 						"maximum": 2100,
-						"description": "Año; negativo = a. C."
+						"description": "Año en que deja el cargo (negativo = a. C.); vacío o ausente = sigue en el cargo (se muestra hasta el año en curso). No uses un año futuro ni repitas 'desde' para decir «en el cargo»"
 					}
 				}
 			}

@@ -42,6 +42,7 @@ ESQUEMAS = {"paises": "pais.json", "conflictos": "conflicto.json",
 
 errores = []
 avisos = []
+HOY_ANIO = __import__("datetime").date.today().year
 
 
 def err(donde, msg):
@@ -266,10 +267,14 @@ def main():
                              "(los usa el filtro «Seguir un reino»)")
         for g in p.get("gobernantes", []):
             gd = f"{donde} gobernante '{g.get('nombre', '?')}'"
-            if not (es_anio(g.get("desde")) and es_anio(g.get("hasta"))):
-                err(gd, "'desde'/'hasta' deben ser años enteros (negativos = a. C.)")
-            elif g["desde"] > g["hasta"]:
+            # 'hasta' vacío o ausente = sigue en el cargo
+            if not es_anio(g.get("desde")) or (g.get("hasta") is not None and not es_anio(g.get("hasta"))):
+                err(gd, "'desde' debe ser un año entero y 'hasta' un año entero o vacío (en el cargo); "
+                        "negativos = a. C.")
+            elif g.get("hasta") is not None and g["desde"] > g["hasta"]:
                 err(gd, f"desde ({g['desde']}) > hasta ({g['hasta']})")
+            elif g.get("hasta") is not None and g["hasta"] > HOY_ANIO:
+                aviso(gd, f"'hasta' ({g['hasta']}) es un año futuro; si sigue en el cargo, deja 'hasta' vacío")
             if not g.get("nombre"):
                 err(gd, "falta 'nombre'")
         for pob in p.get("poblacion", []):
