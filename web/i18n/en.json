@@ -14,6 +14,8 @@
   "popup.precision": "Border precision",
   "popup.wikipedia": "Wikipedia",
   "popup.unknown": "Unnamed territory",
+  "sheet.label": "Territory details",
+  "sheet.close": "Close details",
   "popup.noData": "No data",
   "popup.noDataText": "The border map for this period does not assign this territory to any people or state. It does not mean it was uninhabited.",
   "popup.filled": "Border taken from",
