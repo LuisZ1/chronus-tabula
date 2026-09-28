@@ -1,0 +1,4362 @@
+{
+ "tema": "Edad Contemporánea (≥ 1816): fronteras (c07, piezas del cartógrafo B), Israel/Mandato en 1945 (c13), etiquetas (c01, carto-B-renombres) y mapas intermedios (c05)",
+ "mapas": {
+  "world_1880.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1880.geojson",
+    "nombres": [
+     "Tasmania (UK)",
+     "Eastern Rumelia",
+     "Ottoman Empire"
+    ],
+    "motivo": "c07 · Balcanes del Congreso de Berlín (1878-1881) y Tasmania británica (piezas del cartógrafo B)"
+   },
+   {
+    "op": "recortar",
+    "de": "Romania",
+    "motivo": "c07 · Rumanía solapaba 5,8 mil km² con Bulgaria en la orilla derecha del Danubio; la frontera de 1878 es el Danubio y Dobruja meridional es búlgara (como en world_1900)",
+    "fuente": "https://es.wikipedia.org/wiki/Congreso_de_Berl%C3%ADn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      19.0,
+      41.5,
+      22.5,
+      43.0
+     ]
+    },
+    "desde": [
+     "Greece"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c07 · el mapa daba a Grecia una franja de Kosovo y el norte de Albania (19,6-22,3° E, 41,8-42,9° N); eran los vilatos otomanos de Kosovo y Escutari hasta 1912",
+    "fuente": "https://es.wikipedia.org/wiki/Congreso_de_Berl%C3%ADn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      22.0,
+      40.5,
+      23.9,
+      42.0
+     ]
+    },
+    "desde": [
+     "Eastern Rumelia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c07 · el alto Struma (Gorna Dzhumaya, Petrich) quedó en la Macedonia otomana en 1878; Rumelia Oriental empezaba al este de Rila (~23,9° E). Límite aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Eastern_Rumelia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      22.0,
+      42.0,
+      23.9,
+      42.8
+     ]
+    },
+    "desde": [
+     "Eastern Rumelia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bulgaria"
+    },
+    "motivo": "c07 · Kiustendil, Dupnitsa y Samokov formaban parte del Principado de Bulgaria (1878), no de Rumelia Oriental. Límite aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Bulgaria"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.9,
+      40.5,
+      28.5,
+      41.7
+     ]
+    },
+    "desde": [
+     "Eastern Rumelia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c07 · los Ródopes meridionales y la Tracia al sur de ~41,7° N (Kardzhali, Gumuljina) siguieron otomanos hasta 1912-1913; Rumelia Oriental acababa en los Ródopes. Límite aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Eastern_Rumelia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of Brazil",
+    "props": {
+     "NAME": "Brazil",
+     "SUBJECTO": "Brazil"
+    },
+    "motivo": "c01 · independiente desde 1822 (Imperio, República desde 1889)",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_del_Brasil"
+   },
+   {
+    "op": "recortar",
+    "de": "Russian Empire",
+    "motivo": "c07 · el Imperio ruso conservaba islas de Alaska (Kodiak, Aleutianas, archipiélago Alexander, San Lorenzo: 34 mil km²) superpuestas a Estados Unidos; Alaska es estadounidense desde la compra de 1867",
+    "fuente": "https://es.wikipedia.org/wiki/Compra_de_Alaska"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      32.2,
+      34.5,
+      34.7,
+      35.75
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Cyprus (UK)",
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c07 · Chipre, administrada por el Reino Unido desde la Convención de Chipre (4-6-1878); el mapa la dejaba otomana",
+    "fuente": "https://es.wikipedia.org/wiki/Chipre_brit%C3%A1nica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "pol": [
+        [
+         41.4,
+         41.45
+        ],
+        [
+         41.55,
+         41.75
+        ],
+        [
+         42.6,
+         41.6
+        ],
+        [
+         43.5,
+         41.2
+        ],
+        [
+         43.8,
+         40.6
+        ],
+        [
+         43.7,
+         40.05
+        ],
+        [
+         43.0,
+         40.0
+        ],
+        [
+         42.3,
+         40.35
+        ],
+        [
+         41.9,
+         40.9
+        ]
+       ]
+      },
+      {
+       "caja": [
+        41.8,
+        39.9,
+        44.0,
+        41.4
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "c07 · Kars y Ardahan, rusos por el Tratado de Berlín (1878) hasta 1918; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Óblast_de_Kars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       28.12,
+       45.45
+      ],
+      [
+       28.2,
+       45.9
+      ],
+      [
+       28.25,
+       46.45
+      ],
+      [
+       29.7,
+       46.45
+      ],
+      [
+       30.1,
+       45.9
+      ],
+      [
+       29.75,
+       45.3
+      ],
+      [
+       28.8,
+       45.25
+      ]
+     ]
+    },
+    "desde": [
+     "Romania"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "c07 · Besarabia meridional (Cahul, Bolgrad, Izmail) volvió a Rusia en el Congreso de Berlín (1878); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Congreso_de_Berl%C3%ADn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Burma",
+       "mapa": "world_1945.geojson"
+      },
+      {
+       "pol": [
+        [
+         94.0,
+         19.35
+        ],
+        [
+         101.5,
+         19.35
+        ],
+        [
+         101.5,
+         29.5
+        ],
+        [
+         93.0,
+         29.5
+        ],
+        [
+         93.0,
+         22.6
+        ],
+        [
+         94.1,
+         21.0
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "British Raj"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Burma",
+     "SUBJECTO": "Kingdom of Burma",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c07 · la Alta Birmania (Mandalay) y los Estados shan siguieron bajo la dinastía Konbaung hasta la tercera guerra anglo-birmana (1885); el Raj solo tenía la Baja Birmania (1852) y Arakán (1826). Contorno de Birmania de world_1945 al norte de ~19,4° N",
+    "fuente": "https://es.wikipedia.org/wiki/Tercera_guerra_anglo-birmana"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Khiva"
+    },
+    "desde": [
+     "Russian Empire",
+     "Bokhara Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Khanate of Khiva",
+     "SUBJECTO": "Russian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c07 · el kanato de Jiva es protectorado ruso desde el Tratado de Gandjemin (1873); el mapa lo incluía en el Imperio ruso. Contorno aproximado con provincias actuales (Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Kanato_de_Jiva"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Bukhara"
+    },
+    "desde": [
+     "Russian Empire",
+     "Bokhara Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Emirate of Bukhara",
+     "SUBJECTO": "Russian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c07 · el emirato de Bujará (con su capital) es protectorado ruso desde 1868; el mapa ponía Bujará dentro del Imperio ruso y rotulaba «Bokhara Khanate» sobre Merv. Contorno aproximado con provincias actuales (Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Emirato_de_Bujar%C3%A1"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bokhara Khanate",
+    "props": {
+     "NAME": "Turkmen tribes",
+     "SUBJECTO": "Turkmen tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c07 · lo que queda del polígono «Bokhara Khanate» (Ajal y Merv) son las tribus turcomanas, independientes hasta Geok Tepe (1881) y Merv (1884)",
+    "fuente": "https://es.wikipedia.org/wiki/Conquista_rusa_de_Asia_Central"
+   }
+  ],
+  "world_1900.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1900.geojson",
+    "nombres": [
+     "Ottoman Empire",
+     "French West Africa",
+     "Belgian Congo",
+     "Anglo-Egyption Sudan",
+     "Angola",
+     "Abyssinia",
+     "German South-West Africa",
+     "Kamerun",
+     "Rhodesia",
+     "German E. Africa (Tanganyika)",
+     "Botswana",
+     "British East Africa",
+     "British Somaliland",
+     "Mozambique",
+     "French Equatorial Africa",
+     "Uganda",
+     "Rio De Oro",
+     "South Africa",
+     "Nigeria",
+     "Eritrea",
+     "Spanish Sahara",
+     "Malawi",
+     "Gold Coast",
+     "Italian Somaliland",
+     "Liberia",
+     "Egypt",
+     "Togoland",
+     "Djibouti",
+     "Portuguese Guinea",
+     "Sierra Leone",
+     "Equatorial Guinea",
+     "Algeria",
+     "Natal",
+     "Madagascar (France)",
+     "Taiwan (Japan)",
+     "Tasmania (UK)",
+     "Chile"
+    ],
+    "motivo": "c07 · reparto de África con fronteras de 1914 (BORDERPRECISION 1), guerra del Pacífico, Taiwán japonés y Tasmania (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of Brazil",
+    "props": {
+     "NAME": "Brazil",
+     "SUBJECTO": "Brazil"
+    },
+    "motivo": "c01 · independiente desde 1822 (Imperio, República desde 1889)",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_del_Brasil"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of Hawaii",
+    "props": {
+     "NAME": "Hawaii (USA)",
+     "SUBJECTO": "United States"
+    },
+    "motivo": "c01 · anexionado por EE. UU. el 7-7-1898",
+    "fuente": "https://en.wikipedia.org/wiki/Newlands_Resolution"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Philippines"
+    },
+    "poner": {
+     "SUBJECTO": "United States"
+    },
+    "motivo": "c01 · Tratado de París (10-12-1898)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Par%C3%ADs_(1898)"
+   }
+  ],
+  "world_1914.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Manchu Empire",
+    "props": {
+     "NAME": "Republic of China",
+     "SUBJECTO": "Republic of China"
+    },
+    "motivo": "c01 · República de China desde el 1-1-1912; los Qing abdican el 12-2-1912",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_de_China_(1912-1949)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Georgia"
+    },
+    "poner": {
+     "SUBJECTO": "Russian Empire"
+    },
+    "motivo": "c01 · parte del Imperio ruso hasta 1918",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_Democr%C3%A1tica_de_Transcaucasia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Armenia"
+    },
+    "poner": {
+     "SUBJECTO": "Russian Empire"
+    },
+    "motivo": "c01 · parte del Imperio ruso hasta 1918"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Azerbaijan"
+    },
+    "poner": {
+     "SUBJECTO": "Russian Empire"
+    },
+    "motivo": "c01 · parte del Imperio ruso hasta 1918"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Finland"
+    },
+    "poner": {
+     "SUBJECTO": "Russian Empire"
+    },
+    "motivo": "c01 · Gran Ducado autónomo hasta el 6-12-1917",
+    "fuente": "https://es.wikipedia.org/wiki/Gran_Ducado_de_Finlandia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Morocco"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · protectorado francés desde el Tratado de Fez (30-3-1912)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Fez"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Kamerun"
+    },
+    "poner": {
+     "SUBJECTO": "German Empire"
+    },
+    "motivo": "c01 · colonia alemana",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_alem%C3%A1n"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Togoland"
+    },
+    "poner": {
+     "SUBJECTO": "German Empire"
+    },
+    "motivo": "c01 · colonia alemana"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "German South-West Africa"
+    },
+    "poner": {
+     "SUBJECTO": "German Empire"
+    },
+    "motivo": "c01 · colonia alemana"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Philippines"
+    },
+    "poner": {
+     "SUBJECTO": "United States"
+    },
+    "motivo": "c01 · colonia estadounidense",
+    "fuente": "https://es.wikipedia.org/wiki/Gobierno_Insular_de_las_Islas_Filipinas"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Iceland"
+    },
+    "poner": {
+     "SUBJECTO": "Denmark"
+    },
+    "motivo": "c01 · parte de Dinamarca hasta el 1-12-1918",
+    "fuente": "https://es.wikipedia.org/wiki/Reino_de_Islandia"
+   }
+  ],
+  "world_1930.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1930.geojson",
+    "nombres": [
+     "Turkey",
+     "Ireland"
+    ],
+    "motivo": "c07 · Turquía de Lausana (1923) y Estado Libre Irlandés (1922) (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "de": "White Russia",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR"
+    },
+    "motivo": "c01 · «White Russia» es Bielorrusia; el polígono es la URSS entera",
+    "fuente": "https://es.wikipedia.org/wiki/Uni%C3%B3n_de_Rep%C3%BAblicas_Socialistas_Sovi%C3%A9ticas"
+   },
+   {
+    "op": "renombrar",
+    "de": "Far Eastern SSR",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR"
+    },
+    "motivo": "c01 · la República del Lejano Oriente se integra en la RSFS de Rusia el 15-11-1922",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Lejano_Oriente"
+   },
+   {
+    "op": "renombrar",
+    "de": "Chinese Warlords",
+    "props": {
+     "NAME": "Republic of China",
+     "SUBJECTO": "Republic of China"
+    },
+    "motivo": "c01 · reunificación nominal por la Expedición del Norte (1928)",
+    "fuente": "https://es.wikipedia.org/wiki/Expedici%C3%B3n_al_Norte"
+   },
+   {
+    "op": "renombrar",
+    "de": "Manchuria",
+    "props": {
+     "NAME": "Republic of China",
+     "SUBJECTO": "Republic of China"
+    },
+    "motivo": "c01 · Manchukuo es de 1932; en 1930 Manchuria es china (Zhang Xueliang)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hejaz",
+    "props": {
+     "NAME": "Kingdom of Hejaz and Nejd",
+     "SUBJECTO": "Kingdom of Hejaz and Nejd"
+    },
+    "motivo": "c01 · Reino del Hiyaz y el Néyed (1926-1932)",
+    "fuente": "https://es.wikipedia.org/wiki/Reino_del_Hiyaz_y_el_Neyed"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hail",
+    "props": {
+     "NAME": "Kingdom of Hejaz and Nejd",
+     "SUBJECTO": "Kingdom of Hejaz and Nejd"
+    },
+    "motivo": "c01 · Hail, tomada por Ibn Saud en 1921"
+   },
+   {
+    "op": "renombrar",
+    "de": "Emirate of Bin Shal'an",
+    "props": {
+     "NAME": "Kingdom of Hejaz and Nejd",
+     "SUBJECTO": "Kingdom of Hejaz and Nejd"
+    },
+    "motivo": "c01 · Néyed de Ibn Saud (confianza media)"
+   }
+  ],
+  "world_1938.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1938.geojson",
+    "nombres": [
+     "Turkey"
+    ],
+    "motivo": "c07 · Anatolia oriental turca desde el Tratado de Kars (1921) (pieza del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hejaz",
+    "props": {
+     "NAME": "Saudi Arabia",
+     "SUBJECTO": "Saudi Arabia"
+    },
+    "motivo": "c01 · Arabia Saudí desde el 23-9-1932"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hail",
+    "props": {
+     "NAME": "Saudi Arabia",
+     "SUBJECTO": "Saudi Arabia"
+    },
+    "motivo": "c01 · Arabia Saudí desde el 23-9-1932"
+   },
+   {
+    "op": "renombrar",
+    "de": "Emirate of Bin Shal'an",
+    "props": {
+     "NAME": "Saudi Arabia",
+     "SUBJECTO": "Saudi Arabia"
+    },
+    "motivo": "c01 · Arabia Saudí desde el 23-9-1932"
+   },
+   {
+    "op": "renombrar",
+    "de": "Mesopotamia (GB)",
+    "props": {
+     "NAME": "Iraq",
+     "SUBJECTO": "Iraq"
+    },
+    "motivo": "c01 · Reino de Irak independiente desde el 3-10-1932",
+    "fuente": "https://es.wikipedia.org/wiki/Reino_de_Irak"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cambodia"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · Indochina francesa; Japón ocupa el norte en 1940 y el sur en 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_japonesa_de_Indochina"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cochin China"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · Indochina francesa; Japón ocupa el norte en 1940 y el sur en 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_japonesa_de_Indochina"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Laos"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · Indochina francesa; Japón ocupa el norte en 1940 y el sur en 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_japonesa_de_Indochina"
+   },
+   {
+    "op": "renombrar",
+    "de": "Chinese warlords",
+    "props": {
+     "NAME": "Republic of China",
+     "SUBJECTO": "Republic of China"
+    },
+    "motivo": "c01 · Indochina francesa; Japón ocupa el norte en 1940 y el sur en 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_japonesa_de_Indochina"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Burma",
+     "mapa": "world_1945.geojson"
+    },
+    "desde": [
+     "British Raj"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Burma",
+     "SUBJECTO": "United Kingdom",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c07 · Birmania se separa de la India británica el 1-4-1937 (Ley del Gobierno de Birmania de 1935) como colonia propia; geometría de Birmania en world_1945",
+    "fuente": "https://es.wikipedia.org/wiki/Birmania_brit%C3%A1nica"
+   }
+  ],
+  "world_1945.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1945.geojson",
+    "nombres": [
+     "Mandatory Palestine (GB)",
+     "British Raj"
+    ],
+    "motivo": "c07 + c13 · en 1945 el territorio es el Mandato británico de Palestina (Israel se proclama el 14-5-1948) y el Raj británico sigue unido (partición de agosto de 1947) (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Guyana",
+    "props": {
+     "NAME": "British Guiana",
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c01 · Guayana Británica (no neerlandesa)",
+    "fuente": "https://es.wikipedia.org/wiki/Guayana_Brit%C3%A1nica"
+   }
+  ],
+  "world_1960.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1960.geojson",
+    "nombres": [
+     "North Vietnam",
+     "South Vietnam",
+     "China",
+     "East Pakistan"
+    ],
+    "motivo": "c07 · dos Vietnam (Ginebra, 1954), Tíbet en la RPC (1950-1951) y Pakistán Oriental (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eritrea"
+    },
+    "poner": {
+     "SUBJECTO": "Ethiopia"
+    },
+    "motivo": "c01 · federada con Etiopía (1952) y anexionada (1962)",
+    "fuente": "https://es.wikipedia.org/wiki/Eritrea"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Algeria"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · francesa hasta el 5-7-1962",
+    "fuente": "https://es.wikipedia.org/wiki/Guerra_de_Independencia_de_Argelia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Angola"
+    },
+    "poner": {
+     "SUBJECTO": "Portugal"
+    },
+    "motivo": "c01 · portuguesa hasta 1975",
+    "fuente": "https://es.wikipedia.org/wiki/Guerra_colonial_portuguesa"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Mozambique"
+    },
+    "poner": {
+     "SUBJECTO": "Portugal"
+    },
+    "motivo": "c01 · portuguesa hasta 1975",
+    "fuente": "https://es.wikipedia.org/wiki/Guerra_colonial_portuguesa"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Guinea-Bissau"
+    },
+    "poner": {
+     "SUBJECTO": "Portugal"
+    },
+    "motivo": "c01 · portuguesa hasta 1975",
+    "fuente": "https://es.wikipedia.org/wiki/Guerra_colonial_portuguesa"
+   },
+   {
+    "op": "quitar",
+    "de": "Vietnam",
+    "a": "North Vietnam",
+    "motivo": "c07 · resto de 0 km² del polígono «Vietnam» al norte del paralelo 17, tras dividirlo",
+    "fuente": "https://es.wikipedia.org/wiki/Acuerdos_de_Ginebra_(1954)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "West Bank"
+    },
+    "desde": [
+     "Israel"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jordan"
+    },
+    "motivo": "c07 · Cisjordania, bajo administración jordana desde la guerra de 1948 y las líneas del armisticio de 1949 hasta 1967; el mapa la incluía en Israel",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_jordana_de_Cisjordania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Gaza Strip"
+    },
+    "desde": [
+     "Israel"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Gaza Strip (Egypt)",
+     "SUBJECTO": "Egypt",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c07 · la Franja de Gaza, bajo administración egipcia de 1948-1949 a 1967; el mapa la incluía en Israel",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_egipcia_de_la_Franja_de_Gaza"
+   }
+  ],
+  "world_1994.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-1994.geojson",
+    "nombres": [
+     "Federal Republic of Yugoslavia"
+    ],
+    "motivo": "c07 · República Federal de Yugoslavia (Serbia y Montenegro, 1992-2006) (piezas del cartógrafo B)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Taiwan",
+     "mapa": "world_2000.geojson"
+    },
+    "desde": [
+     "Taiwan"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Taiwan",
+     "SUBJECTO": "Taiwan",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c07 · el mapa traía Taiwán dos veces: un polígono «Taiwan» simplificado (33 mil km²) y, encima, uno sin NAME con el contorno detallado (36 mil km²) idéntico al «Taiwan» de world_1960 y world_2000. Queda el detallado, con NAME, para que 1994 coincida con los mapas vecinos; el duplicado sin nombre desaparece",
+    "fuente": "comprobación geométrica (revisiones/pendientes/2026-09-28-contemporanea-1994-2026-errores-y-laguna.md)"
+   }
+  ],
+  "world_2000.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/contemporanea-B-2000.geojson",
+    "nombres": [
+     "Federal Republic of Yugoslavia"
+    ],
+    "motivo": "c07 · República Federal de Yugoslavia (Serbia y Montenegro, 1992-2006) (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Hong Kong"
+    },
+    "poner": {
+     "SUBJECTO": "China"
+    },
+    "motivo": "c01 · devuelto a China el 1-7-1997",
+    "fuente": "https://es.wikipedia.org/wiki/Transferencia_de_soberan%C3%ADa_de_Hong_Kong"
+   },
+   {
+    "op": "renombrar",
+    "de": "Zaire",
+    "props": {
+     "NAME": "Democratic Republic of the Congo",
+     "SUBJECTO": "Democratic Republic of the Congo"
+    },
+    "motivo": "c01 · renombrado el 17-5-1997",
+    "fuente": "https://es.wikipedia.org/wiki/Primera_guerra_del_Congo"
+   }
+  ],
+  "world_2010.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "sustituir",
+    "geometria": "api/geo/correcciones/contemporanea-timor-oriental-ne50m.geojson",
+    "nombres": [
+     "East Timor"
+    ],
+    "props": {
+     "SUBJECTO": "East Timor",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c07 · Timor Oriental, independiente el 20-5-2002 (administración de la ONU desde 1999); se separa de Indonesia con el contorno de Natural Earth, como proponía el cartógrafo B en lugar de su frontera aproximada en 125° E",
+    "fuente": "https://es.wikipedia.org/wiki/Timor_Oriental"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      125.15,
+      -9.6,
+      127.5,
+      -8.0
+     ]
+    },
+    "desde": [
+     "Indonesia"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "East Timor"
+    },
+    "motivo": "c07 · el contorno costero del mapa base no coincide con el de Natural Earth y dejaba una franja indonesia en la costa sur de Timor Oriental; todo lo que queda al este de la frontera terrestre (~125,1° E) es de Timor Oriental",
+    "fuente": "https://es.wikipedia.org/wiki/Timor_Oriental"
+   },
+   {
+    "op": "renombrar",
+    "de": "Zaire",
+    "props": {
+     "NAME": "Democratic Republic of the Congo",
+     "SUBJECTO": "Democratic Republic of the Congo"
+    },
+    "motivo": "c01 · renombrado el 17-5-1997",
+    "fuente": "https://es.wikipedia.org/wiki/Primera_guerra_del_Congo"
+   }
+  ],
+  "world_1878.geojson<world_1880.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Transvaal"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland"
+    },
+    "motivo": "c05 · 1878: el Transvaal fue anexionado por el Reino Unido (12-4-1877) hasta la primera guerra bóer (1880-1881); por lo demás, los Balcanes, Chipre y Kars del Congreso de Berlín (13-7-1878) son los de world_1880",
+    "fuente": "https://es.wikipedia.org/wiki/Primera_guerra_b%C3%B3er"
+   }
+  ],
+  "world_1871.geojson<world_1880.geojson": [
+   {
+    "op": "quitar",
+    "de": "Eastern Rumelia",
+    "a": "Ottoman Empire",
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Rumelia Oriental es una provincia otomana más",
+    "fuente": "https://es.wikipedia.org/wiki/Congreso_de_Berl%C3%ADn"
+   },
+   {
+    "op": "quitar",
+    "de": "Bulgaria",
+    "a": "Ottoman Empire",
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): el Principado de Bulgaria no existe hasta 1878",
+    "fuente": "https://es.wikipedia.org/wiki/Principado_de_Bulgaria"
+   },
+   {
+    "op": "quitar",
+    "de": "Bosnia-Herzegovina",
+    "a": "Ottoman Empire",
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Bosnia es otomana hasta la ocupación austrohúngara de 1878",
+    "fuente": "https://es.wikipedia.org/wiki/Campa%C3%B1a_austroh%C3%BAngara_en_Bosnia_y_Herzegovina_de_1878"
+   },
+   {
+    "op": "quitar",
+    "de": "Cyprus (UK)",
+    "a": "Ottoman Empire",
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Chipre es otomana hasta 1878",
+    "fuente": "https://es.wikipedia.org/wiki/Chipre_brit%C3%A1nica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       41.4,
+       41.45
+      ],
+      [
+       41.55,
+       41.75
+      ],
+      [
+       42.6,
+       41.6
+      ],
+      [
+       43.5,
+       41.2
+      ],
+      [
+       43.8,
+       40.6
+      ],
+      [
+       43.7,
+       40.05
+      ],
+      [
+       43.0,
+       40.0
+      ],
+      [
+       42.3,
+       40.35
+      ],
+      [
+       41.9,
+       40.9
+      ]
+     ]
+    },
+    "desde": [
+     "Russian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Kars, Ardahan y Batumi, otomanos hasta 1878; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Óblast_de_Kars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       28.12,
+       45.45
+      ],
+      [
+       28.2,
+       45.9
+      ],
+      [
+       28.25,
+       46.45
+      ],
+      [
+       29.7,
+       46.45
+      ],
+      [
+       30.1,
+       45.9
+      ],
+      [
+       29.75,
+       45.3
+      ],
+      [
+       28.8,
+       45.25
+      ]
+     ]
+    },
+    "desde": [
+     "Russian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Romania"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Besarabia meridional, moldava/rumana entre el Tratado de París (1856) y 1878; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Par%C3%ADs_(1856)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      27.2,
+      43.6,
+      29.9,
+      45.22
+     ]
+    },
+    "desde": [
+     "Romania"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Dobruja del Norte, otomana hasta 1878; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Dobruja_del_Norte"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      21.2,
+      42.2,
+      23.1,
+      43.5
+     ]
+    },
+    "desde": [
+     "Serbia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Niš, Pirot y Vranje, otomanos hasta 1878; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Congreso_de_Berl%C3%ADn"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Serbia"
+    },
+    "poner": {
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Principado de Serbia, autónomo y vasallo otomano hasta 1878",
+    "fuente": "https://es.wikipedia.org/wiki/Principado_de_Serbia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Romania"
+    },
+    "poner": {
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Principados Unidos de Moldavia y Valaquia, vasallos otomanos hasta 1878",
+    "fuente": "https://es.wikipedia.org/wiki/Principados_Unidos_de_Moldavia_y_Valaquia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Montenegro"
+    },
+    "poner": {
+     "SUBJECTO": "Ottoman Empire"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): el Imperio otomano no reconoce la independencia de Montenegro hasta 1878 (propuesta del cartógrafo B); el territorio no se retrocede",
+    "fuente": "https://es.wikipedia.org/wiki/Principado_de_Montenegro"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Kokand"
+    },
+    "desde": [
+     "Russian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Khanate of Kokand",
+     "SUBJECTO": "Khanate of Kokand",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): el kanato de Kokand (valle de Fergana) sigue independiente hasta su anexión en 1876; Taskent es rusa desde 1865. Contorno aproximado con provincias actuales (Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Kanato_de_Kokand"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Khanate of Khiva"
+    },
+    "poner": {
+     "SUBJECTO": "Khanate of Khiva"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): el kanato de Jiva es independiente hasta la campaña rusa de 1873",
+    "fuente": "https://es.wikipedia.org/wiki/Kanato_de_Jiva"
+   },
+   {
+    "op": "renombrar",
+    "de": "Harer (Egypt)",
+    "props": {
+     "NAME": "Emirate of Harar",
+     "SUBJECTO": "Emirate of Harar"
+    },
+    "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): el emirato de Harar es independiente hasta la ocupación egipcia de 1875",
+    "fuente": "https://en.wikipedia.org/wiki/Emirate_of_Harar"
+   }
+  ],
+  "world_1830.geojson<world_1815.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "feat": "Guatemala",
+       "mapa": "world_1880.geojson"
+      },
+      {
+       "feat": "Honduras",
+       "mapa": "world_1880.geojson"
+      },
+      {
+       "feat": "El Salvador",
+       "mapa": "world_1880.geojson"
+      },
+      {
+       "feat": "Nicaragua",
+       "mapa": "world_1880.geojson"
+      },
+      {
+       "feat": "Costa Rica",
+       "mapa": "world_1880.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Vice-Royalty of New Spain"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Federal Republic of Central America",
+     "SUBJECTO": "Federal Republic of Central America",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Provincias Unidas del Centro de América (1823-1841), con las fronteras de sus cinco Estados en world_1880",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_de_Centro_Am%C3%A9rica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Vice-Royalty of New Spain",
+    "props": {
+     "NAME": "Mexico",
+     "SUBJECTO": "Mexico",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): México independiente (1821), aún con Texas, Nuevo México y la Alta California (frontera de Adams-Onís, 1819)",
+    "fuente": "https://es.wikipedia.org/wiki/Independencia_de_M%C3%A9xico"
+   },
+   {
+    "op": "quitar",
+    "de": "Florida (Spain)",
+    "a": "United States",
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Florida, estadounidense por el Tratado de Adams-Onís (1819, efectivo en 1821)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Adams-On%C3%ADs"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Venezuela",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Vice-Royalty of New Granada"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Venezuela",
+     "SUBJECTO": "Venezuela",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Venezuela se separa de la Gran Colombia en 1830; fronteras de world_1880",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Gran_Colombia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Ecuador",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Vice-Royalty of New Granada"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ecuador",
+     "SUBJECTO": "Ecuador",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Ecuador se separa de la Gran Colombia (13-5-1830); fronteras de world_1880",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Gran_Colombia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Vice-Royalty of New Granada",
+    "props": {
+     "NAME": "Republic of New Granada",
+     "SUBJECTO": "Republic of New Granada",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): lo que queda de la Gran Colombia (1819-1831) es la Nueva Granada (Colombia y Panamá); el cartógrafo B proponía la Gran Colombia unida, pero el mapa se usa de 1830 a 1849, cuando ya estaba disuelta",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_de_la_Nueva_Granada"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "British Guiana",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Guiana",
+     "Vice-Royalty of New Granada"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "British Guiana",
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Demerara, Esequibo y Berbice, británicos desde 1814 (Guayana Británica en 1831)",
+    "fuente": "https://es.wikipedia.org/wiki/Guayana_Brit%C3%A1nica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Guiana",
+    "props": {
+     "NAME": "Dutch Guiana",
+     "SUBJECTO": "Netherlands"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Surinam, neerlandés",
+    "fuente": "https://es.wikipedia.org/wiki/Surinam_(colonia_neerlandesa)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "French Guiana",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Viceroyalty of Brazil",
+     "Guiana"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "French Guiana",
+     "SUBJECTO": "France",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): la Guayana Francesa, devuelta a Francia en 1817",
+    "fuente": "https://es.wikipedia.org/wiki/Guayana_Francesa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Chile",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Vice-Royalty of Peru",
+     "United Provinces of La Plata"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Chile",
+     "SUBJECTO": "Chile",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Chile independiente (1818); fronteras de world_1880, anteriores a la guerra del Pacífico",
+    "fuente": "https://es.wikipedia.org/wiki/Independencia_de_Chile"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bolivia",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Vice-Royalty of Peru",
+     "United Provinces of La Plata"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bolivia",
+     "SUBJECTO": "Bolivia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Bolivia independiente (6-8-1825), con salida al mar; fronteras de world_1880",
+    "fuente": "https://es.wikipedia.org/wiki/Independencia_de_Bolivia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Vice-Royalty of Peru",
+    "props": {
+     "NAME": "Peru",
+     "SUBJECTO": "Peru",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Perú independiente (1821-1824, Ayacucho)",
+    "fuente": "https://es.wikipedia.org/wiki/Independencia_del_Per%C3%BA"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Uruguay",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "United Provinces of La Plata",
+     "Viceroyalty of Brazil"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Uruguay",
+     "SUBJECTO": "Uruguay",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Uruguay independiente por la Convención Preliminar de Paz (1828)",
+    "fuente": "https://es.wikipedia.org/wiki/Convenci%C3%B3n_Preliminar_de_Paz"
+   },
+   {
+    "op": "renombrar",
+    "de": "Viceroyalty of Brazil",
+    "props": {
+     "NAME": "Brazil",
+     "SUBJECTO": "Brazil"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Imperio del Brasil, independiente el 7-9-1822",
+    "fuente": "https://es.wikipedia.org/wiki/Independencia_de_Brasil"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Dominican Republic",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Spain"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Haiti"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Haití ocupa y gobierna toda La Española de 1822 a 1844",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_haitiana_de_Santo_Domingo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       20.85,
+       39.05
+      ],
+      [
+       26.3,
+       39.05
+      ],
+      [
+       26.3,
+       36.0
+      ],
+      [
+       21.05,
+       36.0
+      ],
+      [
+       21.05,
+       38.0
+      ],
+      [
+       20.85,
+       38.0
+      ]
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Greece",
+     "SUBJECTO": "Greece",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): reino de Grecia con la frontera Arta-Volos (1832, ~39° N), sin las islas Jónicas (británicas hasta 1864); la misma línea que el cartógrafo B usa para 1880",
+    "fuente": "https://es.wikipedia.org/wiki/Protocolo_de_Londres_(1830)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Belgium",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "United Kingdom of the Netherlands"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Belgium",
+     "SUBJECTO": "Belgium",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Bélgica se separa de los Países Bajos (revolución de agosto de 1830; reconocida en 1839)",
+    "fuente": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_belga"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      15,
+      -36,
+      35,
+      -25
+     ]
+    },
+    "desde": [
+     "Dutch East Indies"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Cape Colony",
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): la colonia del Cabo es británica desde 1806 (cedida en 1814); el mapa de 1815 la rotula «Dutch East Indies»",
+    "fuente": "https://es.wikipedia.org/wiki/Colonia_del_Cabo"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cape Colony"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): colonia británica",
+    "fuente": "https://es.wikipedia.org/wiki/Colonia_del_Cabo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-B-1880.geojson",
+     "nombre": "Tasmania (UK)"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Tasmania (UK)",
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Tasmania (Tierra de Van Diemen), colonia británica desde 1803; pieza del cartógrafo B",
+    "fuente": "https://es.wikipedia.org/wiki/Tierra_de_Van_Diemen"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Sindh"
+    },
+    "desde": [
+     "Maratha Confederacy"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Talpur Sindh",
+     "SUBJECTO": "Talpur Sindh",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): el Sind de los emires talpur, independiente hasta la conquista británica de 1843; contorno de la provincia actual (Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Talpur"
+   },
+   {
+    "op": "quitar",
+    "de": "Maratha Confederacy",
+    "a": "British East India Company",
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): la Confederación maratha fue derrotada en la tercera guerra anglo-maratha (1817-1818); sus tierras pasan a la Compañía o a principados bajo su tutela",
+    "fuente": "https://es.wikipedia.org/wiki/Tercera_guerra_anglo-maratha"
+   },
+   {
+    "op": "quitar",
+    "de": "Assam",
+    "a": "British East India Company",
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Assam, británico por el Tratado de Yandabo (1826)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Yandabo"
+   },
+   {
+    "op": "quitar",
+    "de": "Arakan",
+    "a": "British East India Company",
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Arakán, británico por el Tratado de Yandabo (1826)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Yandabo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      97.3,
+      9.5,
+      99.8,
+      16.45
+     ]
+    },
+    "desde": [
+     "Burma"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "British East India Company"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Tenasserim, británico por el Tratado de Yandabo (1826); límite aproximado en el Salween",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Yandabo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      43.4,
+      38.85,
+      46.6,
+      41.3
+     ]
+    },
+    "desde": [
+     "Persia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): los kanatos de Ereván y Najicheván, rusos por el Tratado de Turkmenchay (1828); límite aproximado en el Aras",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Turkmenchay"
+   },
+   {
+    "op": "quitar",
+    "de": "Hong Kong",
+    "a": "Qing Empire",
+    "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Hong Kong es británico desde 1841; en 1830 es territorio Qing",
+    "fuente": "https://es.wikipedia.org/wiki/Hong_Kong_brit%C3%A1nico"
+   }
+  ],
+  "world_1850.geojson<world_1830.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "United States of America",
+       "mapa": "world_1880.geojson"
+      },
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Alaska"
+      },
+      {
+       "pol": [
+        [
+         -114.72,
+         32.72
+        ],
+        [
+         -113.5,
+         32.95
+        ],
+        [
+         -112.5,
+         33.2
+        ],
+        [
+         -111.5,
+         33.0
+        ],
+        [
+         -110.5,
+         32.95
+        ],
+        [
+         -109.6,
+         32.85
+        ],
+        [
+         -108.5,
+         32.4
+        ],
+        [
+         -106.6,
+         32.25
+        ],
+        [
+         -106.53,
+         31.78
+        ],
+        [
+         -108.21,
+         31.78
+        ],
+        [
+         -108.21,
+         31.33
+        ],
+        [
+         -111.07,
+         31.33
+        ],
+        [
+         -114.82,
+         32.49
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Mexico",
+     "British North America"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "United States"
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): Texas (1845), Oregón (1846) y la cesión mexicana (1848), con las fronteras de world_1880 salvo la Venta de La Mesilla (1853) y Alaska (1867)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Guadalupe_Hidalgo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Honduras",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Federal Republic of Central America"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Honduras",
+     "SUBJECTO": "Honduras",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la federación centroamericana se disuelve entre 1838 y 1841",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_de_Centro_Am%C3%A9rica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "El Salvador",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Federal Republic of Central America"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "El Salvador",
+     "SUBJECTO": "El Salvador",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la federación centroamericana se disuelve entre 1838 y 1841",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_de_Centro_Am%C3%A9rica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Nicaragua",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Federal Republic of Central America"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Nicaragua",
+     "SUBJECTO": "Nicaragua",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la federación centroamericana se disuelve entre 1838 y 1841",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_de_Centro_Am%C3%A9rica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Costa Rica",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Federal Republic of Central America"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Costa Rica",
+     "SUBJECTO": "Costa Rica",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la federación centroamericana se disuelve entre 1838 y 1841",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_de_Centro_Am%C3%A9rica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Federal Republic of Central America",
+    "props": {
+     "NAME": "Guatemala",
+     "SUBJECTO": "Guatemala"
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la federación centroamericana se disuelve entre 1838 y 1841 (Guatemala)",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Federal_de_Centro_Am%C3%A9rica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Dominican Republic",
+     "mapa": "world_1880.geojson"
+    },
+    "desde": [
+     "Haiti"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Dominican Republic",
+     "SUBJECTO": "Dominican Republic",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la República Dominicana se independiza de Haití (27-2-1844)",
+    "fuente": "https://es.wikipedia.org/wiki/Independencia_dominicana"
+   },
+   {
+    "op": "renombrar",
+    "de": "Algiers",
+    "props": {
+     "NAME": "Algeria (FR)",
+     "SUBJECTO": "France",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): Argelia, conquistada por Francia (1830-1847, rendición de Abd al-Qádir)",
+    "fuente": "https://es.wikipedia.org/wiki/Conquista_francesa_de_Argelia"
+   },
+   {
+    "op": "quitar",
+    "de": "Sikh Empire",
+    "a": "British East India Company",
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): el Punyab, anexionado tras la segunda guerra anglo-sij (1849)",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_sij"
+   },
+   {
+    "op": "quitar",
+    "de": "Talpur Sindh",
+    "a": "British East India Company",
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): el Sind, conquistado por los británicos en 1843 (Miani)",
+    "fuente": "https://es.wikipedia.org/wiki/Batalla_de_Miani"
+   },
+   {
+    "op": "quitar",
+    "de": "Republic of Kraków",
+    "a": "Austrian Empire",
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): la República de Cracovia, anexionada por Austria en 1846",
+    "fuente": "https://es.wikipedia.org/wiki/Ciudad_Libre_de_Cracovia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Hong Kong",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Qing Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hong Kong",
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): Hong Kong, británico por el Tratado de Nankín (1842)",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Nank%C3%ADn"
+   }
+  ],
+  "world_1942.geojson<world_1938.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Czechia"
+    },
+    "desde": [
+     "Czechoslovakia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Protectorate of Bohemia and Moravia",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Protectorado de Bohemia y Moravia (15-3-1939); contorno de Chequia (Natural Earth) sin los Sudetes, ya alemanes en 1938",
+    "fuente": "https://es.wikipedia.org/wiki/Protectorado_de_Bohemia_y_Moravia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Slovakia"
+    },
+    "desde": [
+     "Czechoslovakia",
+     "Germany"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Slovakia",
+     "SUBJECTO": "Slovakia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: República Eslovaca (14-3-1939-1945), Estado cliente de Alemania, sin el sur cedido a Hungría en 1938",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Eslovaca_(1939-1945)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      22.0,
+      47.8,
+      24.7,
+      49.3
+     ]
+    },
+    "desde": [
+     "Czechoslovakia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hungary"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Rutenia subcarpática, ocupada por Hungría en marzo de 1939",
+    "fuente": "https://es.wikipedia.org/wiki/Ucrania_Carpática"
+   },
+   {
+    "op": "quitar",
+    "de": "Czechoslovakia",
+    "a": "Protectorate of Bohemia and Moravia",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Checoslovaquia desaparece en marzo de 1939 (restos del borde)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_Checoslovaquia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      20.9,
+      55.2,
+      21.9,
+      56.0
+     ]
+    },
+    "desde": [
+     "Lithuania"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: el territorio de Memel (Klaipėda), anexionado por Alemania el 23-3-1939; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Territorio_de_Memel"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Belarus"
+      },
+      {
+       "caja": [
+        22.0,
+        51.0,
+        28.8,
+        57.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "USSR",
+     "Poland"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Reichskommissariat Ostland",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Reichskommissariat Ostland (1941-1944): países bálticos y Bielorrusia occidental; el este de Bielorrusia quedó bajo administración militar",
+    "fuente": "https://es.wikipedia.org/wiki/Reichskommissariat_Ostland"
+   },
+   {
+    "op": "quitar",
+    "de": "Lithuania",
+    "a": "Reichskommissariat Ostland",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Lituania (anexionada por la URSS en 1940), en el Reichskommissariat Ostland desde 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Reichskommissariat_Ostland"
+   },
+   {
+    "op": "quitar",
+    "de": "Latvia",
+    "a": "Reichskommissariat Ostland",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Letonia (anexionada por la URSS en 1940), en el Reichskommissariat Ostland desde 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Reichskommissariat_Ostland"
+   },
+   {
+    "op": "quitar",
+    "de": "Estonia",
+    "a": "Reichskommissariat Ostland",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Estonia (anexionada por la URSS en 1940), en el Reichskommissariat Ostland desde 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Reichskommissariat_Ostland"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       19.1,
+       49.3
+      ],
+      [
+       19.2,
+       50.1
+      ],
+      [
+       19.9,
+       50.8
+      ],
+      [
+       19.9,
+       51.5
+      ],
+      [
+       20.3,
+       52.1
+      ],
+      [
+       20.7,
+       52.45
+      ],
+      [
+       21.6,
+       52.65
+      ],
+      [
+       22.6,
+       52.45
+      ],
+      [
+       23.3,
+       52.3
+      ],
+      [
+       24.1,
+       51.7
+      ],
+      [
+       23.9,
+       51.2
+      ],
+      [
+       24.1,
+       50.6
+      ],
+      [
+       24.9,
+       50.3
+      ],
+      [
+       25.8,
+       49.9
+      ],
+      [
+       26.3,
+       49.3
+      ],
+      [
+       25.8,
+       48.5
+      ],
+      [
+       24.7,
+       48.3
+      ],
+      [
+       23.5,
+       48.9
+      ],
+      [
+       22.6,
+       49.1
+      ],
+      [
+       21.0,
+       49.3
+      ],
+      [
+       20.0,
+       49.2
+      ]
+     ]
+    },
+    "desde": [
+     "Poland"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "General Government",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Gobierno General (Cracovia, Varsovia, Lublin, Radom y, desde 1941, Galitzia); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Gobierno_General"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      22.0,
+      52.55,
+      24.4,
+      54.0
+     ]
+    },
+    "desde": [
+     "Poland"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: el distrito de Białystok, administrado desde Prusia Oriental (1941-1944); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Distrito_de_Bia%C5%82ystok"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.0,
+      51.6,
+      29.0,
+      57.0
+     ]
+    },
+    "desde": [
+     "Poland"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Reichskommissariat Ostland"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Bielorrusia occidental de la Polonia de entreguerras, en el Reichskommissariat Ostland",
+    "fuente": "https://es.wikipedia.org/wiki/Reichskommissariat_Ostland"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Ukraine"
+      },
+      {
+       "pol": [
+        [
+         27.8,
+         48.45
+        ],
+        [
+         28.4,
+         48.9
+        ],
+        [
+         29.2,
+         48.7
+        ],
+        [
+         29.9,
+         48.5
+        ],
+        [
+         30.5,
+         48.2
+        ],
+        [
+         31.1,
+         47.8
+        ],
+        [
+         31.5,
+         47.3
+        ],
+        [
+         32.0,
+         46.9
+        ],
+        [
+         31.9,
+         46.5
+        ],
+        [
+         30.2,
+         45.9
+        ],
+        [
+         29.6,
+         46.4
+        ],
+        [
+         29.1,
+         47.0
+        ],
+        [
+         28.8,
+         47.5
+        ],
+        [
+         28.2,
+         47.9
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "USSR"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Romania"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la gobernación de Transnistria (entre el Dniéster y el Bug), administrada por Rumanía (1941-1944); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Gobernaci%C3%B3n_de_Transnistria"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Ukraine"
+      },
+      {
+       "n": [
+        {
+         "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+         "nombre": "Ukraine"
+        },
+        {
+         "pol": [
+          [
+           27.8,
+           48.45
+          ],
+          [
+           28.4,
+           48.9
+          ],
+          [
+           29.2,
+           48.7
+          ],
+          [
+           29.9,
+           48.5
+          ],
+          [
+           30.5,
+           48.2
+          ],
+          [
+           31.1,
+           47.8
+          ],
+          [
+           31.5,
+           47.3
+          ],
+          [
+           32.0,
+           46.9
+          ],
+          [
+           31.9,
+           46.5
+          ],
+          [
+           30.2,
+           45.9
+          ],
+          [
+           29.6,
+           46.4
+          ],
+          [
+           29.1,
+           47.0
+          ],
+          [
+           28.8,
+           47.5
+          ],
+          [
+           28.2,
+           47.9
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "caja": [
+        32.4,
+        44.3,
+        36.8,
+        46.2
+       ]
+      },
+      {
+       "caja": [
+        35.8,
+        44.0,
+        41.0,
+        53.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "USSR",
+     "Poland"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Reichskommissariat Ukraine",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Reichskommissariat Ukraine (1941-1944), sin Galitzia (Gobierno General), Transnistria, Crimea ni el este (administración militar); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Reichskommissariat_Ukraine"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       29.5,
+       59.95
+      ],
+      [
+       30.0,
+       59.5
+      ],
+      [
+       31.3,
+       59.3
+      ],
+      [
+       31.5,
+       58.5
+      ],
+      [
+       32.0,
+       57.8
+      ],
+      [
+       33.5,
+       57.2
+      ],
+      [
+       34.3,
+       56.3
+      ],
+      [
+       35.2,
+       55.3
+      ],
+      [
+       35.5,
+       54.5
+      ],
+      [
+       36.0,
+       53.5
+      ],
+      [
+       36.3,
+       52.3
+      ],
+      [
+       36.6,
+       51.5
+      ],
+      [
+       38.5,
+       52.0
+      ],
+      [
+       39.1,
+       51.6
+      ],
+      [
+       40.0,
+       50.5
+      ],
+      [
+       41.0,
+       49.6
+      ],
+      [
+       42.5,
+       49.3
+      ],
+      [
+       44.4,
+       48.8
+      ],
+      [
+       44.5,
+       48.2
+      ],
+      [
+       44.3,
+       46.3
+      ],
+      [
+       45.0,
+       44.5
+      ],
+      [
+       44.6,
+       43.7
+      ],
+      [
+       43.6,
+       43.5
+      ],
+      [
+       42.0,
+       43.2
+      ],
+      [
+       40.0,
+       43.6
+      ],
+      [
+       39.2,
+       44.3
+      ],
+      [
+       38.5,
+       44.5
+      ],
+      [
+       37.0,
+       44.0
+      ],
+      [
+       33.0,
+       44.0
+      ],
+      [
+       30.0,
+       45.0
+      ],
+      [
+       29.5,
+       46.0
+      ],
+      [
+       24.0,
+       50.0
+      ],
+      [
+       24.0,
+       57.0
+      ],
+      [
+       27.0,
+       58.0
+      ],
+      [
+       28.0,
+       59.5
+      ]
+     ]
+    },
+    "desde": [
+     "USSR"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "German-occupied USSR",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: territorio soviético bajo administración militar alemana hasta el frente de otoño de 1942 (Leningrado, Rzhev, Vorónezh, el Don, Stalingrado y el Cáucaso); frente muy aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Frente_Oriental_(Segunda_Guerra_Mundial)"
+   },
+   {
+    "op": "quitar",
+    "de": "Poland",
+    "a": "Germany",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: el oeste de Polonia (Wartheland, Danzig-Prusia Occidental, Alta Silesia oriental, Zichenau), anexionado por Alemania en 1939",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Polonia_(1939-1945)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       21.0,
+       46.4
+      ],
+      [
+       22.0,
+       46.4
+      ],
+      [
+       22.7,
+       46.55
+      ],
+      [
+       23.5,
+       46.6
+      ],
+      [
+       23.9,
+       46.45
+      ],
+      [
+       24.5,
+       46.35
+      ],
+      [
+       25.3,
+       45.9
+      ],
+      [
+       25.8,
+       45.75
+      ],
+      [
+       26.4,
+       45.8
+      ],
+      [
+       26.4,
+       46.6
+      ],
+      [
+       25.8,
+       47.3
+      ],
+      [
+       25.1,
+       47.8
+      ],
+      [
+       24.5,
+       47.95
+      ],
+      [
+       22.9,
+       48.2
+      ],
+      [
+       21.0,
+       48.2
+      ]
+     ]
+    },
+    "desde": [
+     "Romania"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hungary"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: el norte de Transilvania, húngaro por el segundo arbitraje de Viena (30-8-1940); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Segundo_arbitraje_de_Viena"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       26.9,
+       44.13
+      ],
+      [
+       27.3,
+       44.15
+      ],
+      [
+       28.0,
+       43.95
+      ],
+      [
+       28.7,
+       43.75
+      ],
+      [
+       28.7,
+       43.3
+      ],
+      [
+       27.0,
+       43.5
+      ]
+     ]
+    },
+    "desde": [
+     "Romania"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bulgaria"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Dobruja meridional, búlgara por el Tratado de Craiova (7-9-1940); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Tratado_de_Craiova"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       18.8,
+       45.9
+      ],
+      [
+       19.6,
+       46.2
+      ],
+      [
+       20.3,
+       46.15
+      ],
+      [
+       20.1,
+       45.6
+      ],
+      [
+       20.3,
+       45.2
+      ],
+      [
+       19.4,
+       45.2
+      ],
+      [
+       18.9,
+       45.4
+      ]
+     ]
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hungary"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Bačka y Baranya, anexionadas por Hungría en abril de 1941; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Croatia"
+      },
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Bosnia and Herz."
+      }
+     ]
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Independent State of Croatia",
+     "SUBJECTO": "Independent State of Croatia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Estado Independiente de Croacia (1941-1945), Estado títere del Eje con Bosnia; sin descontar la Dalmacia anexionada por Italia",
+    "fuente": "https://es.wikipedia.org/wiki/Estado_Independiente_de_Croacia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "Slovenia"
+      },
+      {
+       "caja": [
+        13.3,
+        45.3,
+        15.0,
+        46.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Italy"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la provincia de Liubliana, anexionada por Italia (1941); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Provincia_de_Liubliana"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Slovenia"
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Baja Estiria y la Alta Carniola, anexionadas de hecho por Alemania (1941); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Eslovenia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Montenegro"
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Montenegro",
+     "SUBJECTO": "Italy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Montenegro, gobernación italiana (1941-1943)",
+    "fuente": "https://es.wikipedia.org/wiki/Gobernaci%C3%B3n_de_Montenegro"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Kosovo"
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Albania"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la mayor parte de Kosovo, unida a la Albania italiana (1941); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Albania_italiana"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+       "nombre": "North Macedonia"
+      },
+      {
+       "caja": [
+        20.0,
+        40.8,
+        21.05,
+        42.4
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Albania"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: el oeste de Macedonia (Tetovo, Gostivar, Debar), unido a la Albania italiana; límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Albania_italiana"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "North Macedonia"
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bulgaria"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Macedonia del Vardar, ocupada y anexionada por Bulgaria (1941); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_b%C3%BAlgara_de_Macedonia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Serbia"
+    },
+    "desde": [
+     "Yugoslavia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Serbia",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: territorio del comandante militar en Serbia (con el Banato), bajo ocupación alemana (1941-1944)",
+    "fuente": "https://es.wikipedia.org/wiki/Territorio_del_Comandante_Militar_en_Serbia"
+   },
+   {
+    "op": "quitar",
+    "de": "Yugoslavia",
+    "a": "Independent State of Croatia",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Yugoslavia se desintegra tras la invasión de abril de 1941 (restos del borde)",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.6,
+      40.5,
+      26.7,
+      41.8
+     ]
+    },
+    "desde": [
+     "Greece"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bulgaria"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Macedonia oriental y Tracia occidental griegas, ocupadas y anexionadas por Bulgaria (1941); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Grecia_por_las_potencias_del_Eje"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Greece"
+    },
+    "poner": {
+     "SUBJECTO": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Grecia bajo la triple ocupación alemana, italiana y búlgara (1941-1944), con el gobierno colaboracionista del Estado Heleno",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Grecia_por_las_potencias_del_Eje"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Albania"
+    },
+    "poner": {
+     "SUBJECTO": "Italy"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Albania, unida a la corona italiana desde abril de 1939",
+    "fuente": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_italiana_de_Albania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       5.9,
+       49.5
+      ],
+      [
+       6.5,
+       49.5
+      ],
+      [
+       8.2,
+       49.0
+      ],
+      [
+       7.6,
+       47.6
+      ],
+      [
+       7.0,
+       47.4
+      ],
+      [
+       6.85,
+       47.8
+      ],
+      [
+       7.1,
+       48.5
+      ],
+      [
+       6.4,
+       48.8
+      ],
+      [
+       5.9,
+       49.0
+      ]
+     ]
+    },
+    "desde": [
+     "France"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Alsacia y el Mosela, anexionados de hecho por Alemania (1940); límite aproximado",
+    "fuente": "https://es.wikipedia.org/wiki/Anexi%C3%B3n_de_Alsacia-Mosela_por_la_Alemania_nazi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.1,
+       46.2
+      ],
+      [
+       5.5,
+       46.75
+      ],
+      [
+       4.85,
+       46.78
+      ],
+      [
+       3.3,
+       46.56
+      ],
+      [
+       2.07,
+       47.2
+      ],
+      [
+       1.0,
+       47.1
+      ],
+      [
+       0.7,
+       46.8
+      ],
+      [
+       0.3,
+       46.1
+      ],
+      [
+       0.15,
+       45.65
+      ],
+      [
+       -0.2,
+       44.9
+      ],
+      [
+       -0.5,
+       43.9
+      ],
+      [
+       -1.24,
+       43.16
+      ],
+      [
+       -1.8,
+       43.3
+      ],
+      [
+       -6,
+       43.3
+      ],
+      [
+       -6,
+       51.5
+      ],
+      [
+       8.5,
+       51.5
+      ],
+      [
+       8.5,
+       47.5
+      ],
+      [
+       7.0,
+       47.4
+      ]
+     ]
+    },
+    "desde": [
+     "France"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "German-occupied France",
+     "SUBJECTO": "Germany",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la zona ocupada por Alemania (norte y costa atlántica) según el armisticio de 22-6-1940; el resto es la Francia de Vichy hasta noviembre de 1942; línea de demarcación aproximada",
+    "fuente": "https://es.wikipedia.org/wiki/Francia_de_Vichy"
+   },
+   {
+    "op": "recortar",
+    "de": "German-occupied France",
+    "motivo": "c05 · el polígono de Francia del mapa de 1938 invadía 1,1 mil km² de Suiza (Jura); Suiza no fue ocupada"
+   },
+   {
+    "op": "quitar",
+    "de": "Luxembourg",
+    "a": "Germany",
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Luxemburgo, anexionado de hecho por Alemania (1942)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_Luxemburgo"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Belgium"
+    },
+    "poner": {
+     "SUBJECTO": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Bélgica, ocupada por Alemania (1940-1944)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_B%C3%A9lgica_durante_la_Segunda_Guerra_Mundial"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Netherlands"
+    },
+    "poner": {
+     "SUBJECTO": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: los Países Bajos, ocupados por Alemania (1940-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_los_Pa%C3%ADses_Bajos"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Denmark"
+    },
+    "poner": {
+     "SUBJECTO": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Dinamarca, ocupada por Alemania (1940-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_Dinamarca"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Norway"
+    },
+    "poner": {
+     "SUBJECTO": "Germany"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Noruega, ocupada por Alemania (Reichskommissariat Norwegen, 1940-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Noruega_por_la_Alemania_nazi"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ethiopia (Italy)",
+    "props": {
+     "NAME": "Ethiopia",
+     "SUBJECTO": "Ethiopia"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Etiopía, liberada por la campaña de África Oriental; Haile Selassie vuelve a Adís Abeba el 5-5-1941",
+    "fuente": "https://es.wikipedia.org/wiki/Campa%C3%B1a_de_%C3%81frica_Oriental_(Segunda_Guerra_Mundial)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eritrea (Italy)"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Eritrea, bajo administración militar británica desde 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Administraci%C3%B3n_brit%C3%A1nica_de_Eritrea"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Italian Somaliland"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Somalia italiana, bajo administración militar británica desde 1941",
+    "fuente": "https://es.wikipedia.org/wiki/Campa%C3%B1a_de_%C3%81frica_Oriental_(Segunda_Guerra_Mundial)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Burma"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Birmania, ocupada por Japón en 1942",
+    "fuente": "https://es.wikipedia.org/wiki/Campa%C3%B1a_de_Birmania"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Malaysia"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Malaya y Borneo británico, ocupados por Japón (diciembre de 1941-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_japonesa_de_Malasia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brunei"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Brunéi, ocupado por Japón (1941-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_japonesa_de_Malasia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Hong Kong"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Hong Kong, ocupado por Japón desde el 25-12-1941",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_japonesa_de_Hong_Kong"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Dutch East Indies"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: las Indias Orientales Neerlandesas, ocupadas por Japón (marzo de 1942-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_japonesa_de_las_Indias_Orientales_Neerlandesas"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Philippines"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Filipinas, ocupada por Japón (1942-1945)",
+    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_japonesa_de_Filipinas"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Guam"
+    },
+    "poner": {
+     "SUBJECTO": "Empire of Japan"
+    },
+    "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Guam, ocupada por Japón (1941-1944)",
+    "fuente": "https://es.wikipedia.org/wiki/Batalla_de_Guam_(1941)"
+   }
+  ],
+  "world_1950.geojson<world_1960.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Somaliland"
+    },
+    "desde": [
+     "Somalia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "British Somaliland",
+     "SUBJECTO": "United Kingdom",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: la Somalilandia británica, protectorado hasta el 26-6-1960 (contorno de Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Somalilandia_brit%C3%A1nica"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "South Yemen"
+    },
+    "desde": [
+     "Yemen"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Aden Protectorate",
+     "SUBJECTO": "United Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: la colonia y el protectorado británicos de Adén (hasta 1967); contorno aproximado con gobernaciones actuales (Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Protectorado_de_Ad%C3%A9n"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Netherlands New Guinea"
+    },
+    "desde": [
+     "Indonesia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Netherlands New Guinea",
+     "SUBJECTO": "Netherlands",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: la Nueva Guinea Neerlandesa sigue siendo neerlandesa hasta 1962 (Acuerdo de Nueva York)",
+    "fuente": "https://es.wikipedia.org/wiki/Nueva_Guinea_Neerlandesa"
+   },
+   {
+    "op": "quitar",
+    "de": "North Vietnam",
+    "a": "South Vietnam",
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: un solo Vietnam en guerra (1946-1954): el Estado de Vietnam de la Unión Francesa frente al Viet Minh; los Acuerdos de Ginebra que lo dividen son de 1954",
+    "fuente": "https://es.wikipedia.org/wiki/Guerra_de_Indochina"
+   },
+   {
+    "op": "renombrar",
+    "de": "South Vietnam",
+    "props": {
+     "NAME": "Vietnam",
+     "SUBJECTO": "France",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: Estado de Vietnam (1949), Estado asociado de la Unión Francesa, en guerra con el Viet Minh",
+    "fuente": "https://es.wikipedia.org/wiki/Estado_de_Vietnam"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Morocco"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Morocco» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Tunisia"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Tunisia» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Algeria"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Algeria» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Mauritania"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Mauritania» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Senegal"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Senegal» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Mali"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Mali» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Guinea"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Guinea» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Ivory Coast"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Ivory Coast» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Burkina Faso"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Burkina Faso» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Niger"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Niger» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Benin"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Benin» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Togo"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Togo» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cameroon"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Cameroon» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Chad"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Chad» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Central African Republic"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Central African Republic» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Congo» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Gabon"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Gabon» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Madagascar"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Madagascar» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Djibouti"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Djibouti» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Laos"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Laos» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cambodia"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Cambodia» todavía es colonia, protectorado o territorio bajo administración de France en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_colonial_franc%C3%A9s"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sudan"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Sudan» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Libya"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Libya» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eritrea"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Eritrea» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Ghana"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Ghana» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Nigeria"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Nigeria» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sierra Leone"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Sierra Leone» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Gambia, The"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Gambia, The» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Kenya"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Kenya» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Uganda"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Uganda» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Tanzania, United Republic of"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Tanzania, United Republic of» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Zambia"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Zambia» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Malawi"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Malawi» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Zimbabwe"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Zimbabwe» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Botswana"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Botswana» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Lesotho"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Lesotho» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Swaziland"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Swaziland» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Malaysia"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Malaysia» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brunei"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Brunei» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cyprus"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Cyprus» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Kuwait"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Kuwait» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Qatar"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Qatar» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "United Arab Emirates"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «United Arab Emirates» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Guyana"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Guyana» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Belize"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Belize» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Jamaica"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Jamaica» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Trinidad"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Trinidad» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bahamas"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Bahamas» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Fiji"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Fiji» todavía es colonia, protectorado o territorio bajo administración de United Kingdom en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Imperio_brit%C3%A1nico"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Zaire"
+    },
+    "poner": {
+     "SUBJECTO": "Belgium"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Zaire» todavía es colonia, protectorado o territorio bajo administración de Belgium en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Congo_Belga"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Rwanda"
+    },
+    "poner": {
+     "SUBJECTO": "Belgium"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Rwanda» todavía es colonia, protectorado o territorio bajo administración de Belgium en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Congo_Belga"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Burundi"
+    },
+    "poner": {
+     "SUBJECTO": "Belgium"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Burundi» todavía es colonia, protectorado o territorio bajo administración de Belgium en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Congo_Belga"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Somalia"
+    },
+    "poner": {
+     "SUBJECTO": "Italy"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Somalia» todavía es colonia, protectorado o territorio bajo administración de Italy en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Territorio_en_fideicomiso_de_Somalia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Namibia"
+    },
+    "poner": {
+     "SUBJECTO": "South Africa"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Namibia» todavía es colonia, protectorado o territorio bajo administración de South Africa en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/%C3%81frica_del_Sudoeste"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Sahara"
+    },
+    "poner": {
+     "SUBJECTO": "Spain"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Western Sahara» todavía es colonia, protectorado o territorio bajo administración de Spain en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/%C3%81frica_Occidental_Espa%C3%B1ola"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Equatorial Guinea"
+    },
+    "poner": {
+     "SUBJECTO": "Spain"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Equatorial Guinea» todavía es colonia, protectorado o territorio bajo administración de Spain en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/%C3%81frica_Occidental_Espa%C3%B1ola"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Suriname"
+    },
+    "poner": {
+     "SUBJECTO": "Netherlands"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Suriname» todavía es colonia, protectorado o territorio bajo administración de Netherlands en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Surinam_(colonia_neerlandesa)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Papua New Guinea"
+    },
+    "poner": {
+     "SUBJECTO": "Australia"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Papua New Guinea» todavía es colonia, protectorado o territorio bajo administración de Australia en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Territorio_de_Papua_y_Nueva_Guinea"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Samoa"
+    },
+    "poner": {
+     "SUBJECTO": "New Zealand"
+    },
+    "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Samoa» todavía es colonia, protectorado o territorio bajo administración de New Zealand en 1950",
+    "fuente": "https://es.wikipedia.org/wiki/Samoa_Occidental"
+   }
+  ],
+  "world_1990.geojson<world_1994.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Russia",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ukraine",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Byelarus",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Moldova",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Estonia",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Latvia",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Lithuania",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Georgia",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Armenia",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Azerbaijan",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kazakhstan",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Uzbekistan",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Turkmenistan",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kyrgyzstan",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tajikistan",
+    "props": {
+     "NAME": "USSR",
+     "SUBJECTO": "USSR",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la URSS se disuelve el 26-12-1991; se une con la frontera exterior de sus sucesoras",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+   },
+   {
+    "op": "renombrar",
+    "de": "Federal Republic of Yugoslavia",
+    "props": {
+     "NAME": "Yugoslavia",
+     "SUBJECTO": "Yugoslavia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la RFS de Yugoslavia se desintegra en 1991-1992",
+    "fuente": "https://es.wikipedia.org/wiki/Desintegraci%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Slovenia",
+    "props": {
+     "NAME": "Yugoslavia",
+     "SUBJECTO": "Yugoslavia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la RFS de Yugoslavia se desintegra en 1991-1992",
+    "fuente": "https://es.wikipedia.org/wiki/Desintegraci%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Croatia",
+    "props": {
+     "NAME": "Yugoslavia",
+     "SUBJECTO": "Yugoslavia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la RFS de Yugoslavia se desintegra en 1991-1992",
+    "fuente": "https://es.wikipedia.org/wiki/Desintegraci%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bosnia and Herzegovina",
+    "props": {
+     "NAME": "Yugoslavia",
+     "SUBJECTO": "Yugoslavia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la RFS de Yugoslavia se desintegra en 1991-1992",
+    "fuente": "https://es.wikipedia.org/wiki/Desintegraci%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Macedonia",
+    "props": {
+     "NAME": "Yugoslavia",
+     "SUBJECTO": "Yugoslavia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: la RFS de Yugoslavia se desintegra en 1991-1992",
+    "fuente": "https://es.wikipedia.org/wiki/Desintegraci%C3%B3n_de_Yugoslavia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Czech Republic",
+    "props": {
+     "NAME": "Czechoslovakia",
+     "SUBJECTO": "Czechoslovakia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: Checoslovaquia se separa el 1-1-1993",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_Checoslovaquia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Slovakia",
+    "props": {
+     "NAME": "Czechoslovakia",
+     "SUBJECTO": "Czechoslovakia",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: Checoslovaquia se separa el 1-1-1993",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_Checoslovaquia"
+   },
+   {
+    "op": "quitar",
+    "de": "Eritrea",
+    "a": "Ethiopia",
+    "motivo": "c05 · 1990: reunificación alemana (3-10-1990) y Yemen unido (22-5-1990); la URSS, Yugoslavia y Checoslovaquia todavía existen: Eritrea forma parte de Etiopía hasta su independencia (24-5-1993)",
+    "fuente": "https://es.wikipedia.org/wiki/Eritrea"
+   }
+  ],
+  "world_1975.geojson<world_1990.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "East Germany",
+     "mapa": "world_1960.geojson"
+    },
+    "desde": [
+     "Germany"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "East Germany",
+     "SUBJECTO": "East Germany",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: la RDA (1949-1990), con la geometría de world_1960",
+    "fuente": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_Alemana"
+   },
+   {
+    "op": "renombrar",
+    "de": "Germany",
+    "props": {
+     "NAME": "West Germany",
+     "SUBJECTO": "West Germany"
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: la RFA (1949-1990)",
+    "fuente": "https://es.wikipedia.org/wiki/Alemania_Occidental"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "South Yemen"
+    },
+    "desde": [
+     "Yemen"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "South Yemen",
+     "SUBJECTO": "South Yemen",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: la República Democrática Popular del Yemen (1967-1990); contorno aproximado con gobernaciones actuales (Natural Earth)",
+    "fuente": "https://es.wikipedia.org/wiki/Yemen_del_Sur"
+   },
+   {
+    "op": "renombrar",
+    "de": "Yemen",
+    "props": {
+     "NAME": "North Yemen",
+     "SUBJECTO": "North Yemen"
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: la República Árabe del Yemen (1962-1990)",
+    "fuente": "https://es.wikipedia.org/wiki/Yemen_del_Norte"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Namibia"
+    },
+    "poner": {
+     "SUBJECTO": "South Africa"
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: Namibia (África del Sudoeste), bajo administración sudafricana hasta el 21-3-1990",
+    "fuente": "https://es.wikipedia.org/wiki/Namibia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Djibouti"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: Yibuti (Territorio Francés de los Afar y los Issa), independiente el 27-6-1977",
+    "fuente": "https://es.wikipedia.org/wiki/Yibuti"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Belize"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: Belice, colonia británica hasta el 21-9-1981",
+    "fuente": "https://es.wikipedia.org/wiki/Belice"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brunei"
+    },
+    "poner": {
+     "SUBJECTO": "United Kingdom"
+    },
+    "motivo": "c05 · 1975: dos Alemanias y dos Yemen; Namibia, Yibuti, Belice y Brunéi aún dependientes: Brunéi, protectorado británico hasta el 1-1-1984",
+    "fuente": "https://es.wikipedia.org/wiki/Brun%C3%A9i"
+   }
+  ],
+  "world_2020.geojson<world_2010.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/sudan-del-sur.ne50m.geojson"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "South Sudan",
+     "ABBREVN": "S. Sudan",
+     "SUBJECTO": "South Sudan",
+     "BORDERPRECISION": 3,
+     "PARTOF": "South Sudan"
+    },
+    "motivo": "c05 · 2020: mapa actual: independencia de Sudán del Sur, 9-7-2011 (ONU); la misma geometría de Natural Earth que world_2011 (api/derivar_mapas.py)",
+    "fuente": "Natural Earth 1:50m admin-0 (dominio público)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Swaziland",
+    "props": {
+     "NAME": "Eswatini",
+     "SUBJECTO": "Eswatini"
+    },
+    "motivo": "c05 · 2020: mapa actual: Suazilandia pasa a llamarse Esuatini el 19-4-2018",
+    "fuente": "https://es.wikipedia.org/wiki/Esuatini"
+   },
+   {
+    "op": "renombrar",
+    "de": "Macedonia",
+    "props": {
+     "NAME": "North Macedonia",
+     "SUBJECTO": "North Macedonia"
+    },
+    "motivo": "c05 · 2020: mapa actual: Macedonia pasa a llamarse Macedonia del Norte el 12-2-2019 (Acuerdo de Prespa)",
+    "fuente": "https://es.wikipedia.org/wiki/Acuerdo_de_Prespa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/contemporanea-ne-regiones.geojson",
+     "nombre": "Curaçao"
+    },
+    "desde": [
+     "Netherlands Antilles"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Curaçao",
+     "SUBJECTO": "Netherlands",
+     "BORDERPRECISION": 3
+    },
+    "motivo": "c05 · 2020: mapa actual: las Antillas Neerlandesas se disuelven el 10-10-2010; Curazao es un país constituyente del Reino de los Países Bajos",
+    "fuente": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_las_Antillas_Neerlandesas"
+   },
+   {
+    "op": "renombrar",
+    "de": "Netherlands Antilles",
+    "props": {
+     "NAME": "Caribbean Netherlands",
+     "SUBJECTO": "Netherlands"
+    },
+    "motivo": "c05 · 2020: mapa actual: Bonaire (con San Eustaquio y Saba) forma el Caribe Neerlandés, municipios especiales de los Países Bajos desde el 10-10-2010",
+    "fuente": "https://es.wikipedia.org/wiki/Caribe_Neerland%C3%A9s"
+   }
+  ]
+ }
+}
