@@ -214,6 +214,27 @@
 			"desde": 2003
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Turkmen Soviet Socialist Republic (1974–1991), Flag of Turkmenistan (1991–1992).svg",
+			"desde": 1925,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Flag of Turkmenistan (1992–1997).svg",
+			"desde": 1992,
+			"hasta": 1997
+		},
+		{
+			"archivo": "Flag of Turkmenistan (1997–2001).svg",
+			"desde": 1997,
+			"hasta": 2001
+		},
+		{
+			"archivo": "Flag of Turkmenistan.svg",
+			"desde": 2001
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q874",
@@ -243,14 +264,21 @@
 			"url": "https://www.wikidata.org/wiki/Q874",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q874",
+			"url": "https://www.wikidata.org/wiki/Q874",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "9f9b73aa82c4",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

@@ -204,6 +204,67 @@
 			"desde": 2006
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Venezuela (1811).svg",
+			"desde": 1817,
+			"hasta": 1899
+		},
+		{
+			"archivo": "Bandera de la Guerra a Muerte.svg",
+			"desde": 1899,
+			"hasta": 1903
+		},
+		{
+			"archivo": "Bandera de Angostura (20 de noviembre de 1817).svg",
+			"desde": 1903,
+			"hasta": 1905
+		},
+		{
+			"archivo": "Flag of Venezuela (1830-1836).svg",
+			"desde": 1905,
+			"hasta": 1917
+		},
+		{
+			"archivo": "Flag of Venezuela (1836–1859).svg",
+			"desde": 1917,
+			"hasta": 1920
+		},
+		{
+			"archivo": "Flag of Venezuela (1817 and 1859).svg",
+			"desde": 1920,
+			"hasta": 1923
+		},
+		{
+			"archivo": "Flag of Venezuela (1859–1863).svg",
+			"desde": 1923,
+			"hasta": 1926
+		},
+		{
+			"archivo": "Flag of Venezuela (1863–1905).svg",
+			"desde": 1926,
+			"hasta": 1927
+		},
+		{
+			"archivo": "Flag of Venezuela (1905–1930).svg",
+			"desde": 1927,
+			"hasta": 1930
+		},
+		{
+			"archivo": "Flag of Venezuela (1930–2006).svg",
+			"desde": 1930,
+			"hasta": 1954
+		},
+		{
+			"archivo": "State flag of Venezuela (1954–2006).svg",
+			"desde": 1954,
+			"hasta": 2006
+		},
+		{
+			"archivo": "Flag of Venezuela.svg",
+			"desde": 2006
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q717",
@@ -233,14 +294,21 @@
 			"url": "https://www.wikidata.org/wiki/Q717",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q717",
+			"url": "https://www.wikidata.org/wiki/Q717",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "18be0d556d29",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

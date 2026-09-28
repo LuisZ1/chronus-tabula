@@ -203,6 +203,11 @@
 			"archivo": "Coat of arms of Uruguay.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Uruguay.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q77",
@@ -232,14 +237,21 @@
 			"url": "https://www.wikidata.org/wiki/Q77",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q77",
+			"url": "https://www.wikidata.org/wiki/Q77",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "34d623d761f5",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",
