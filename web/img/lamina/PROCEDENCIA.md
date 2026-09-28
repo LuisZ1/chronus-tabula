@@ -15,4 +15,6 @@ Las 21 imágenes de esta carpeta son capturas de la propia aplicación (`web/map
 
 Las tres de −500 (`*-ac500`) se regeneraron el 2026-09-28 tras rellenar con `api/rellenar_geojson.py` la tierra sin atribuir del mapa de 500 a. C.; lo que sigue sin datos sale rayado, como en el mapa.
 
-Si cambian la paleta o las fronteras, conviene regenerarlas con la misma receta.
+Las 21 se regeneraron de nuevo el 2026-09-28, con la interfaz en español, tras aplicar las correcciones de fronteras de `api/correcciones/` (consultas c01-c07) y los nombres por época nuevos de las fichas.
+
+Si cambian la paleta o las fronteras, conviene regenerarlas con la misma receta: `python3 api/laminas.py` con la web servida en `http://127.0.0.1:9100/` (`cd web && python3 -m http.server 9100`).
