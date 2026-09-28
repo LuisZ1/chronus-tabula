@@ -1,0 +1,8471 @@
+{
+ "tema": "Edad Media: fronteras (c04), etiquetas (c01) y mapas intermedios (c05)",
+ "mapas": {
+  "world_600.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      7,
+      43.5,
+      13,
+      49.2
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Lombard principalities",
+     "SUBJECTO": "Lombard principalities",
+     "PARTOF": "Lombard principalities",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino ostrogodo cae en 553-554; en 600 el norte de Italia es lombardo",
+    "fuente": "https://en.wikipedia.org/wiki/Gothic_War_(535–554)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      13,
+      43.5,
+      20,
+      49.2
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Avars",
+     "SUBJECTO": "Avars",
+     "PARTOF": "Avars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Panonia y el Nórico oriental, ávaros y eslavos (desde 568)",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "quitar",
+    "de": "Ostrogoths",
+    "a": null,
+    "motivo": "resto del antiguo reino ostrogodo (Alpes, bávaros): sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Gothic_War_(535–554)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Monte Alb?n",
+    "props": {
+     "NAME": "Monte Albán",
+     "SUBJECTO": "Monte Albán",
+     "PARTOF": "Monte Albán"
+    },
+    "motivo": "carácter mal codificado"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   }
+  ],
+  "world_700.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Sui Empire",
+    "props": {
+     "NAME": "Tang Empire",
+     "SUBJECTO": "Tang Empire",
+     "PARTOF": "Tang Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "dinastía Tang (618-907); los Sui caen en 618",
+    "fuente": "https://en.wikipedia.org/wiki/Tang_dynasty"
+   },
+   {
+    "op": "quitar",
+    "de": "Sasanian dependencies",
+    "a": "Umayyad Caliphate",
+    "motivo": "conquista árabe de Persia: Ctesifonte 637, Nahavand 642, fin sasánida 651",
+    "fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+   },
+   {
+    "op": "quitar",
+    "de": "Sasanian Empire",
+    "a": "Umayyad Caliphate",
+    "motivo": "conquista árabe de Persia: Ctesifonte 637, Nahavand 642, fin sasánida 651",
+    "fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      50,
+      35.8,
+      55,
+      37.6
+     ]
+    },
+    "desde": [
+     "Umayyad Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Tabaristan (Dabuyids)",
+     "SUBJECTO": "Tabaristan (Dabuyids)",
+     "PARTOF": "Tabaristan (Dabuyids)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Tabaristán sigue en manos de dinastías locales (dabúyidas) hasta 760",
+    "fuente": "https://en.wikipedia.org/wiki/Dabuyid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      124,
+      33,
+      131,
+      39.0
+     ]
+    },
+    "desde": [
+     "Koguryo",
+     "Paekche"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Silla",
+     "SUBJECTO": "Silla",
+     "PARTOF": "Silla",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Silla unificada: Paekche cae en 660, Koguryo en 668; Silla domina al sur del Taedong desde 676",
+    "fuente": "https://en.wikipedia.org/wiki/Goguryeo–Tang_War"
+   },
+   {
+    "op": "renombrar",
+    "de": "Koguryo",
+    "props": {
+     "NAME": "Balhae",
+     "SUBJECTO": "Balhae",
+     "PARTOF": "Balhae",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Balhae, fundado en 698 sobre el antiguo Koguryo",
+    "fuente": "https://en.wikipedia.org/wiki/Balhae"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -10,
+      35.9,
+      4.6,
+      44.5
+     ]
+    },
+    "desde": [
+     "Umayyad Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Visigothic Kingdom",
+     "SUBJECTO": "Visigothic Kingdom",
+     "PARTOF": "Visigothic Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la conquista musulmana empieza en 711 (Guadalete): en 700 Hispania y la Septimania son visigodas",
+    "fuente": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
+   },
+   {
+    "op": "quitar",
+    "de": "Teotihuacàn",
+    "a": null,
+    "motivo": "Teotihuacán se quema y abandona hacia 550-650",
+    "fuente": "https://en.wikipedia.org/wiki/Teotihuacan"
+   },
+   {
+    "op": "renombrar",
+    "de": "Huns",
+    "props": {
+     "NAME": "Caucasian Huns",
+     "SUBJECTO": "Khazars",
+     "PARTOF": "Khazars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "hunos del Cáucaso (reino de Varachan), tributarios jázaros; no es el imperio de Atila",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med700.md"
+   },
+   {
+    "op": "renombrar",
+    "de": "Western Gokturk Khaganate",
+    "props": {
+     "NAME": "Türgesh",
+     "SUBJECTO": "Türgesh",
+     "PARTOF": "Türgesh",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el kanato turco occidental cae ante los Tang (657-659); en 700, turguesos y principados sogdianos",
+    "fuente": "https://en.wikipedia.org/wiki/Tang_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Monte Alb?n",
+    "props": {
+     "NAME": "Monte Albán",
+     "SUBJECTO": "Monte Albán",
+     "PARTOF": "Monte Albán"
+    },
+    "motivo": "carácter mal codificado"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   }
+  ],
+  "world_800.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Avars"
+      },
+      {
+       "caja": [
+        15,
+        44.5,
+        22.5,
+        48.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Slavonic tribes",
+     "Bulgars",
+     "Magyars",
+     "Khazars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Avars"
+    },
+    "motivo": "la cuenca panonia es todavía ávara en 800 (kanato sometido a los francos en 791-796, fin hacia 822); en el mapa base la tapaba la capa de eslavos",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "recortar",
+    "de": "Avars",
+    "motivo": "fuera de la cuenca panonia, la capa «Avars» del mapa base solapa con búlgaros, magiares, jázaros y eslavos; se deja a cada vecino lo suyo (mismo criterio que en 900)",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "recortar",
+    "de": "Slavonic tribes",
+    "motivo": "la capa de eslavos del mapa base se superpone a los Estados vecinos (carolingios, bizantinos, búlgaros, jázaros); cada Estado conserva su territorio",
+    "fuente": "https://en.wikipedia.org/wiki/Early_Slavs"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      98.5,
+      24,
+      101,
+      27.2
+     ]
+    },
+    "desde": [
+     "Tibetan Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Nan Chao",
+     "SUBJECTO": "Nan Chao",
+     "PARTOF": "Nan Chao",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Dalí es la capital de Nanzhao desde 738",
+    "fuente": "https://en.wikipedia.org/wiki/Nanzhao"
+   },
+   {
+    "op": "renombrar",
+    "de": "Avars",
+    "props": {
+     "NAME": "Avars",
+     "SUBJECTO": "Carolingian Empire",
+     "PARTOF": "Carolingian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los ávaros están sometidos a los francos desde 796",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "renombrar",
+    "de": "Silia",
+    "props": {
+     "NAME": "Silla",
+     "SUBJECTO": "Silla",
+     "PARTOF": "Silla",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nothumbria",
+    "props": {
+     "NAME": "Northumbria",
+     "SUBJECTO": "Northumbria",
+     "PARTOF": "Northumbria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Toltec Empire",
+    "props": {
+     "NAME": "Mesoamerican city-states and chiefdoms",
+     "SUBJECTO": "Mesoamerican city-states and chiefdoms",
+     "PARTOF": "Mesoamerican city-states and chiefdoms",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el auge de Tula es de 900-1150",
+    "fuente": "https://en.wikipedia.org/wiki/Tula_(Mesoamerican_site)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Idrisid Caliphate",
+    "props": {
+     "NAME": "Idrisid Emirate",
+     "SUBJECTO": "Idrisid Emirate",
+     "PARTOF": "Idrisid Emirate"
+    },
+    "motivo": "los idrisíes fueron emirato, no califato",
+    "fuente": "https://en.wikipedia.org/wiki/Idrisid_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ghana",
+    "props": {
+     "NAME": "Empire of Ghana",
+     "SUBJECTO": "Empire of Ghana",
+     "PARTOF": "Empire of Ghana"
+    },
+    "motivo": "imperio de Ghana (Uagadú, Mauritania y Malí); no la Ghana moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Ghana_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ouighurs",
+    "props": {
+     "NAME": "Uyghurs",
+     "SUBJECTO": "Uyghurs",
+     "PARTOF": "Uyghurs"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   }
+  ],
+  "world_900.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      70,
+      35.5,
+      80.5,
+      43
+     ]
+    },
+    "desde": [
+     "Tibetan Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Karkhanids",
+     "SUBJECTO": "Karkhanids",
+     "PARTOF": "Karkhanids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Kashgar, en la órbita karajánida",
+    "fuente": "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      80.5,
+      35.5,
+      93,
+      43
+     ]
+    },
+    "desde": [
+     "Tibetan Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Tarim oasis states (Khotan, Qocho)",
+     "SUBJECTO": "Tarim oasis states (Khotan, Qocho)",
+     "PARTOF": "Tarim oasis states (Khotan, Qocho)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Jotán y el reino uigur de Qocho (desde 866)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Qocho"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      93,
+      36.5,
+      105,
+      43
+     ]
+    },
+    "desde": [
+     "Tibetan Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Guiyi Circuit and Ganzhou Uyghurs",
+     "SUBJECTO": "Guiyi Circuit and Ganzhou Uyghurs",
+     "PARTOF": "Guiyi Circuit and Ganzhou Uyghurs",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Dunhuang (circuito Guiyi, desde 851) y los uigures de Ganzhou",
+    "fuente": "https://en.wikipedia.org/wiki/Guiyi_Circuit"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      98.5,
+      24,
+      101,
+      27.2
+     ]
+    },
+    "desde": [
+     "Tibetan Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Nan Chao",
+     "SUBJECTO": "Nan Chao",
+     "PARTOF": "Nan Chao",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Dalí es la capital de Nanzhao desde 738",
+    "fuente": "https://en.wikipedia.org/wiki/Nanzhao"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tibetan Empire",
+    "props": {
+     "NAME": "Tibet",
+     "SUBJECTO": "Tibet",
+     "PARTOF": "Tibet",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el imperio tibetano se hunde tras la muerte de Langdarma (842): Era de la Fragmentación",
+    "fuente": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+   },
+   {
+    "op": "recortar",
+    "de": "Avars",
+    "motivo": "la capa «Avars» del mapa base solapa con magiares, búlgaros y jázaros",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      10,
+      40,
+      30,
+      45.3
+     ]
+    },
+    "desde": [
+     "Avars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bulgars",
+     "SUBJECTO": "Bulgars",
+     "PARTOF": "Bulgars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Belgrado y Sirmio, búlgaros (Krum, 803-814)",
+    "fuente": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+   },
+   {
+    "op": "quitar",
+    "de": "Avars",
+    "a": "Magyars",
+    "motivo": "el kanato ávaro desaparece en 796-822; los magiares ocupan la cuenca en 895-900",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      12.1,
+      45.2,
+      12.65,
+      45.75
+     ]
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Venecia, dependencia bizantina autónoma (Pax Nicephori)",
+    "fuente": "https://en.wikipedia.org/wiki/Pax_Nicephori"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       11.7,
+       42.3
+      ],
+      [
+       12.0,
+       41.4
+      ],
+      [
+       13.4,
+       41.2
+      ],
+      [
+       13.9,
+       42.8
+      ],
+      [
+       12.3,
+       44.8
+      ],
+      [
+       11.9,
+       44.6
+      ],
+      [
+       11.9,
+       43.5
+      ]
+     ]
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Papal States",
+     "SUBJECTO": "Papal States",
+     "PARTOF": "Papal States",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estados Pontificios (Lacio, Umbría, Pentápolis)",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       7.5,
+       43.7
+      ],
+      [
+       7.0,
+       44.2
+      ],
+      [
+       6.9,
+       45.1
+      ],
+      [
+       7.0,
+       45.9
+      ],
+      [
+       8.4,
+       46.3
+      ],
+      [
+       10.4,
+       46.6
+      ],
+      [
+       12.4,
+       46.8
+      ],
+      [
+       13.8,
+       46.5
+      ],
+      [
+       14.5,
+       45.5
+      ],
+      [
+       19,
+       41
+      ],
+      [
+       19,
+       36
+      ],
+      [
+       7.5,
+       36
+      ]
+     ]
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Italy",
+     "SUBJECTO": "Kingdom of Italy",
+     "PARTOF": "Kingdom of Italy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Italia (Berengario I, 888-924)",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -5,
+      47.6,
+      15,
+      56
+     ]
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Lotharingia",
+     "SUBJECTO": "Lotharingia",
+     "PARTOF": "Lotharingia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Lotaringia (Lorena y Países Bajos); el imperio se reparte en 843 y se disuelve en 888",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+   },
+   {
+    "op": "renombrar",
+    "de": "Carolingian Empire",
+    "props": {
+     "NAME": "Kingdom of Burgundy",
+     "SUBJECTO": "Kingdom of Burgundy",
+     "PARTOF": "Kingdom of Burgundy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Borgoña Transjurana y Provenza; no hay Imperio carolingio en 900",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -2.6,
+      42.0,
+      -0.8,
+      43.3
+     ]
+    },
+    "desde": [
+     "West Francia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Navarre",
+     "SUBJECTO": "Navarre",
+     "PARTOF": "Navarre",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Pamplona desde 824 (Sancho Garcés I, 905)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Pamplona"
+   },
+   {
+    "op": "renombrar",
+    "de": "Yamato",
+    "props": {
+     "NAME": "Japan",
+     "SUBJECTO": "Japan",
+     "PARTOF": "Japan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "«Yamato» corresponde al periodo anterior al s. VIII",
+    "fuente": "https://en.wikipedia.org/wiki/Yamato_period"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nothumbria",
+    "props": {
+     "NAME": "Northumbria",
+     "SUBJECTO": "Northumbria",
+     "PARTOF": "Northumbria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Idrisid Caliphate",
+    "props": {
+     "NAME": "Idrisid Emirate",
+     "SUBJECTO": "Idrisid Emirate",
+     "PARTOF": "Idrisid Emirate"
+    },
+    "motivo": "los idrisíes fueron emirato, no califato",
+    "fuente": "https://en.wikipedia.org/wiki/Idrisid_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ghana",
+    "props": {
+     "NAME": "Empire of Ghana",
+     "SUBJECTO": "Empire of Ghana",
+     "PARTOF": "Empire of Ghana"
+    },
+    "motivo": "imperio de Ghana (Uagadú, Mauritania y Malí); no la Ghana moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Ghana_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ouighurs",
+    "props": {
+     "NAME": "Uyghurs",
+     "SUBJECTO": "Uyghurs",
+     "PARTOF": "Uyghurs"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "recortar",
+    "de": "Magyars",
+    "motivo": "la capa «Magyars» solapa con jázaros y búlgaros; en 900 los magiares ya están en la cuenca del Danubio (895-900)",
+    "fuente": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+   }
+  ],
+  "world_1000.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      36,
+      39,
+      49.5,
+      44.8
+     ]
+    },
+    "desde": [
+     "Khazars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Alans",
+     "SUBJECTO": "Alans",
+     "PARTOF": "Alans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "norte del Cáucaso, alanos",
+    "fuente": "https://en.wikipedia.org/wiki/Khazars"
+   },
+   {
+    "op": "quitar",
+    "de": "Khazars",
+    "a": "Peshemegs",
+    "motivo": "el kanato jázaro cae en 965-969 (Sviatoslav)",
+    "fuente": "https://en.wikipedia.org/wiki/Khazars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      62,
+      37,
+      80,
+      45.5
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Karkhanids",
+     "SUBJECTO": "Karkhanids",
+     "PARTOF": "Karkhanids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los karajánidas toman Bujará y Samarcanda (999); Kashgar es suya desde mediados del s. X",
+    "fuente": "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -54,
+      59.5,
+      -43,
+      65.5
+     ]
+    },
+    "desde": [
+     "Denmark-Norway"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Norse Greenland",
+     "SUBJECTO": "Norse Greenland",
+     "PARTOF": "Norse Greenland",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "asentamientos nórdicos de Groenlandia (Brattahlíð, c. 985), independientes hasta 1261",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1000-1100.md"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -80,
+      58,
+      -5,
+      84
+     ]
+    },
+    "desde": [
+     "Denmark-Norway"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "resto de Groenlandia: pueblos thule, no nórdicos (sin datos)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1000-1100.md"
+   },
+   {
+    "op": "renombrar",
+    "de": "Denmark-Norway",
+    "props": {
+     "NAME": "Denmark",
+     "SUBJECTO": "Denmark",
+     "PARTOF": "Denmark",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "«Denmark-Norway» es la unión de 1523/1536-1814; en 1000, Dinamarca de Svend Barba Partida (dominio sobre Noruega tras Svolder, discutido)",
+    "fuente": "https://en.wikipedia.org/wiki/Denmark–Norway"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      25.5,
+      41,
+      30.5,
+      44.3
+     ]
+    },
+    "desde": [
+     "Bulgar Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Byzantine Empire",
+     "SUBJECTO": "Byzantine Empire",
+     "PARTOF": "Byzantine Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Juan Tzimisces toma Preslav y la Bulgaria oriental (971)",
+    "fuente": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bulgar Khanate",
+    "props": {
+     "NAME": "Bulgaria",
+     "SUBJECTO": "Bulgaria",
+     "PARTOF": "Bulgaria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estado búlgaro de Samuel, capital Ohrid; enlaza con bulgaria-primer",
+    "fuente": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nan Chao",
+    "props": {
+     "NAME": "Dali Kingdom",
+     "SUBJECTO": "Dali Kingdom",
+     "PARTOF": "Dali Kingdom"
+    },
+    "motivo": "Nanzhao cae en 902; reino de Dalí (937-1253)",
+    "fuente": "https://en.wikipedia.org/wiki/Nanzhao"
+   },
+   {
+    "op": "renombrar",
+    "de": "Mali",
+    "props": {
+     "NAME": "Kangaba (Manden)",
+     "SUBJECTO": "Kangaba (Manden)",
+     "PARTOF": "Kangaba (Manden)"
+    },
+    "motivo": "el Imperio de Malí nace hacia 1235 (Sundiata); antes, jefaturas mandinga de Kangaba (discutido)",
+    "fuente": "https://en.wikipedia.org/wiki/Mali_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ghana",
+    "props": {
+     "NAME": "Empire of Ghana",
+     "SUBJECTO": "Empire of Ghana",
+     "PARTOF": "Empire of Ghana"
+    },
+    "motivo": "imperio de Ghana (Uagadú, Mauritania y Malí); no la Ghana moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Ghana_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Burgandy",
+    "props": {
+     "NAME": "Burgundy",
+     "SUBJECTO": "Burgundy",
+     "PARTOF": "Burgundy"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Dutchy of Benevento",
+    "props": {
+     "NAME": "Duchy of Benevento",
+     "SUBJECTO": "Duchy of Benevento",
+     "PARTOF": "Duchy of Benevento"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Peshemegs",
+    "props": {
+     "NAME": "Pechenegs",
+     "SUBJECTO": "Pechenegs",
+     "PARTOF": "Pechenegs"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Boethuk",
+    "props": {
+     "NAME": "Beothuk",
+     "SUBJECTO": "Beothuk",
+     "PARTOF": "Beothuk"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bulgaria",
+    "props": {
+     "NAME": "Bulgars",
+     "SUBJECTO": "Bulgars",
+     "PARTOF": "Bulgars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Estado de Samuel es el Primer Imperio búlgaro, con el mismo rótulo que en 800-900; «Bulgaria» es el nombre del país moderno",
+    "fuente": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire"
+   }
+  ],
+  "world_1100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -9.2,
+       40.05
+      ],
+      [
+       -8.0,
+       39.95
+      ],
+      [
+       -6.5,
+       39.8
+      ],
+      [
+       -6.5,
+       41.8
+      ],
+      [
+       -9.2,
+       41.8
+      ]
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "León",
+     "SUBJECTO": "León",
+     "PARTOF": "León",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Coimbra y el Mondego, cristianos desde 1064 (condado de Portugal, vasallo de León)",
+    "fuente": "https://en.wikipedia.org/wiki/Reconquista"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -6.5,
+       39.8
+      ],
+      [
+       -5.5,
+       39.6
+      ],
+      [
+       -4.0,
+       39.5
+      ],
+      [
+       -3.0,
+       39.8
+      ],
+      [
+       -2.3,
+       40.6
+      ],
+      [
+       -2.1,
+       41.2
+      ],
+      [
+       -2.5,
+       41.8
+      ],
+      [
+       -6.5,
+       41.8
+      ]
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Castilla",
+     "SUBJECTO": "Castilla",
+     "PARTOF": "Castilla",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Toledo (1085) y el valle del Tajo, de Alfonso VI de León y Castilla",
+    "fuente": "https://en.wikipedia.org/wiki/Reconquista"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -2.2,
+       41.0
+      ],
+      [
+       -2.2,
+       42.1
+      ],
+      [
+       -0.9,
+       42.3
+      ],
+      [
+       0.8,
+       42.0
+      ],
+      [
+       0.8,
+       41.0
+      ]
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Zaragoza",
+     "SUBJECTO": "Taifa of Zaragoza",
+     "PARTOF": "Taifa of Zaragoza",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa hudí de Zaragoza hasta 1110 (aragonesa desde 1118)",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa_of_Zaragoza"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -1.3,
+      38.8,
+      0.3,
+      40.0
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Valencia (El Cid)",
+     "SUBJECTO": "Principality of Valencia (El Cid)",
+     "PARTOF": "Principality of Valencia (El Cid)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valencia del Cid (1094-1102)",
+    "fuente": "https://en.wikipedia.org/wiki/El_Cid"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       29.8,
+       38.2
+      ],
+      [
+       30.5,
+       39.8
+      ],
+      [
+       32,
+       40.3
+      ],
+      [
+       35,
+       40.4
+      ],
+      [
+       38.5,
+       40.3
+      ],
+      [
+       38.5,
+       38.0
+      ],
+      [
+       36.5,
+       37.3
+      ],
+      [
+       33.5,
+       37.0
+      ],
+      [
+       31.5,
+       37.4
+      ],
+      [
+       30.2,
+       37.6
+      ]
+     ]
+    },
+    "desde": [
+     "Byzantine Empire",
+     "Seljuk Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sultanate of Rum",
+     "SUBJECTO": "Sultanate of Rum",
+     "PARTOF": "Sultanate of Rum",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato de Rum (1077; Konya desde 1097) y danisméndidas, tras Manzikert (1071)",
+    "fuente": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34.2,
+      31.3,
+      35.7,
+      33.3
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate",
+     "Seljuk Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Jerusalem",
+     "SUBJECTO": "Kingdom of Jerusalem",
+     "PARTOF": "Kingdom of Jerusalem",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Jerusalén (1099)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      35.7,
+      35.6,
+      37.0,
+      37.0
+     ]
+    },
+    "desde": [
+     "Byzantine Empire",
+     "Seljuk Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Antioch",
+     "SUBJECTO": "Principality of Antioch",
+     "PARTOF": "Principality of Antioch",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Antioquía (1098)",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Antioch"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      37.5,
+      36.5,
+      39.5,
+      38.0
+     ]
+    },
+    "desde": [
+     "Seljuk Empire",
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "County of Edessa",
+     "SUBJECTO": "County of Edessa",
+     "PARTOF": "County of Edessa",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "condado de Edesa (1098)",
+    "fuente": "https://en.wikipedia.org/wiki/County_of_Edessa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      15,
+      39.8,
+      18.6,
+      41.95
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Norman Italy",
+     "SUBJECTO": "Norman Italy",
+     "PARTOF": "Norman Italy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los normandos toman Bari (1071)",
+    "fuente": "https://en.wikipedia.org/wiki/Norman_conquest_of_southern_Italy"
+   },
+   {
+    "op": "renombrar",
+    "de": "Dutchy of Benevento",
+    "props": {
+     "NAME": "Norman Italy",
+     "SUBJECTO": "Norman Italy",
+     "PARTOF": "Norman Italy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "condado de Sicilia (Palermo 1072, isla completa 1091) y ducado de Apulia",
+    "fuente": "https://en.wikipedia.org/wiki/Norman_conquest_of_southern_Italy"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of Sukhotai",
+    "props": {
+     "NAME": "Pagan",
+     "SUBJECTO": "Pagan",
+     "PARTOF": "Pagan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sukhothai nace en 1238; en 1100, apogeo del reino de Pagan",
+    "fuente": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Pyu state",
+    "props": {
+     "NAME": "Pagan",
+     "SUBJECTO": "Pagan",
+     "PARTOF": "Pagan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los pyu desaparecen hacia 1050; Pagan (Anawrahta, 1044)",
+    "fuente": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      79.4,
+      5.8,
+      82,
+      10
+     ]
+    },
+    "desde": [
+     "Cholas"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sinhalese kingdom",
+     "SUBJECTO": "Sinhalese kingdom",
+     "PARTOF": "Sinhalese kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Vijayabahu I expulsa a los chola (c. 1070): reino de Polonnaruwa",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Polonnaruwa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -80,
+      -9.3,
+      -78.2,
+      -6.8
+     ]
+    },
+    "desde": [
+     "Huari Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Chimú Empire",
+     "SUBJECTO": "Chimú Empire",
+     "PARTOF": "Chimú Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Chimú (Chan Chan) en la costa norte",
+    "fuente": "https://en.wikipedia.org/wiki/Chimor"
+   },
+   {
+    "op": "quitar",
+    "de": "Huari Empire",
+    "a": "Andean states and chiefdoms",
+    "motivo": "Wari se despuebla hacia 1000",
+    "fuente": "https://en.wikipedia.org/wiki/Wari_culture"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tiahuanaco Empire",
+    "props": {
+     "NAME": "Aymara kingdoms",
+     "SUBJECTO": "Aymara kingdoms",
+     "PARTOF": "Aymara kingdoms",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Tiwanaku abandona su capital hacia 1000 (discutido hasta 1150)",
+    "fuente": "https://en.wikipedia.org/wiki/Tiwanaku"
+   },
+   {
+    "op": "quitar",
+    "de": "Bulgar Khanate",
+    "a": "Byzantine Empire",
+    "motivo": "Bulgaria es provincia bizantina de 1018 a 1185",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nan Chao",
+    "props": {
+     "NAME": "Dali Kingdom",
+     "SUBJECTO": "Dali Kingdom",
+     "PARTOF": "Dali Kingdom"
+    },
+    "motivo": "Nanzhao cae en 902; reino de Dalí (937-1253)",
+    "fuente": "https://en.wikipedia.org/wiki/Nanzhao"
+   },
+   {
+    "op": "renombrar",
+    "de": "Mali",
+    "props": {
+     "NAME": "Kangaba (Manden)",
+     "SUBJECTO": "Kangaba (Manden)",
+     "PARTOF": "Kangaba (Manden)"
+    },
+    "motivo": "el Imperio de Malí nace hacia 1235 (Sundiata); antes, jefaturas mandinga de Kangaba (discutido)",
+    "fuente": "https://en.wikipedia.org/wiki/Mali_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ghana",
+    "props": {
+     "NAME": "Empire of Ghana",
+     "SUBJECTO": "Empire of Ghana",
+     "PARTOF": "Empire of Ghana"
+    },
+    "motivo": "imperio de Ghana (Uagadú, Mauritania y Malí); no la Ghana moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Ghana_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Burgandy",
+    "props": {
+     "NAME": "Burgundy",
+     "SUBJECTO": "Burgundy",
+     "PARTOF": "Burgundy"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Boethuk",
+    "props": {
+     "NAME": "Beothuk",
+     "SUBJECTO": "Beothuk",
+     "PARTOF": "Beothuk"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   }
+  ],
+  "world_1200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       100,
+       34.2
+      ],
+      [
+       104.5,
+       34.2
+      ],
+      [
+       106.5,
+       33.6
+      ],
+      [
+       108.5,
+       33.8
+      ],
+      [
+       110.5,
+       33.4
+      ],
+      [
+       112.5,
+       32.8
+      ],
+      [
+       114,
+       32.4
+      ],
+      [
+       115.5,
+       32.6
+      ],
+      [
+       117,
+       32.9
+      ],
+      [
+       118.5,
+       33.2
+      ],
+      [
+       119.3,
+       33.9
+      ],
+      [
+       120.5,
+       34.3
+      ],
+      [
+       123,
+       34.3
+      ],
+      [
+       123,
+       42
+      ],
+      [
+       100,
+       42
+      ]
+     ]
+    },
+    "desde": [
+     "Song Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jin Empire",
+     "SUBJECTO": "Jin Empire",
+     "PARTOF": "Jin Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Kaifeng cae ante los Jin en 1127; tratado de Shaoxing (1142): frontera en el Huai",
+    "fuente": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115–1234)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Liao",
+    "props": {
+     "NAME": "Jin Empire",
+     "SUBJECTO": "Jin Empire",
+     "PARTOF": "Jin Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "dinastía Jin yurchen (1115-1234); los Liao caen en 1125",
+    "fuente": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115–1234)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -10,
+      20,
+      15,
+      38
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Almohad Caliphate",
+     "SUBJECTO": "Almohad Caliphate",
+     "PARTOF": "Almohad Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Ifriqiya y Tripolitania, almohades desde 1159-1160",
+    "fuente": "https://en.wikipedia.org/wiki/Almohad_Caliphate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       34.65,
+       32.0
+      ],
+      [
+       35.3,
+       32.0
+      ],
+      [
+       35.45,
+       33.3
+      ],
+      [
+       35.1,
+       33.3
+      ]
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate",
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Jerusalem",
+     "SUBJECTO": "Kingdom of Jerusalem",
+     "PARTOF": "Kingdom of Jerusalem",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Jerusalén restaurado (capital Acre, 1191): costa de Jaffa a Tiro",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      35.75,
+      34.2,
+      36.2,
+      34.7
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate",
+     "Byzantine Empire",
+     "Seljuk Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "County of Tripoli",
+     "SUBJECTO": "County of Tripoli",
+     "PARTOF": "County of Tripoli",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "condado de Trípoli (1109-1289)",
+    "fuente": "https://en.wikipedia.org/wiki/County_of_Tripoli"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      35.7,
+      35.8,
+      36.6,
+      36.6
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate",
+     "Byzantine Empire",
+     "Seljuk Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Antioch",
+     "SUBJECTO": "Principality of Antioch",
+     "PARTOF": "Principality of Antioch",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Antioquía (1098-1268)",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Antioch"
+   },
+   {
+    "op": "renombrar",
+    "de": "Fatimid Caliphate",
+    "props": {
+     "NAME": "Ayyubid Sultanate",
+     "SUBJECTO": "Ayyubid Sultanate",
+     "PARTOF": "Ayyubid Sultanate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los fatimíes terminan en 1171: sultanato ayubí (al-Adil I, 1200-1218)",
+    "fuente": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      42,
+      30.5,
+      47.8,
+      35.5
+     ]
+    },
+    "desde": [
+     "Buwayhid Emirates"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Abbasid Caliphate",
+     "SUBJECTO": "Abbasid Caliphate",
+     "PARTOF": "Abbasid Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Irak central, califato abasí restaurado (al-Nasir)",
+    "fuente": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      44,
+      36.5,
+      49.5,
+      40.5
+     ]
+    },
+    "desde": [
+     "Buwayhid Emirates"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ildegizids",
+     "SUBJECTO": "Ildegizids",
+     "PARTOF": "Ildegizids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "atabegs ildegízidas de Azerbaiyán",
+    "fuente": "https://en.wikipedia.org/wiki/Eldiguzids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      36,
+      35,
+      42,
+      38.5
+     ]
+    },
+    "desde": [
+     "Buwayhid Emirates"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ayyubid Sultanate",
+     "SUBJECTO": "Ayyubid Sultanate",
+     "PARTOF": "Ayyubid Sultanate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Yazira, zanguí o ayubí",
+    "fuente": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Buwayhid Emirates",
+    "props": {
+     "NAME": "Khwarazmian Empire",
+     "SUBJECTO": "Khwarazmian Empire",
+     "PARTOF": "Khwarazmian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los buyíes terminan en 1055-1062; Irán es corasmio (Irak Ajamí, 1194)",
+    "fuente": "https://en.wikipedia.org/wiki/Buyid_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Buyiids",
+    "props": {
+     "NAME": "Kashmir",
+     "SUBJECTO": "Kashmir",
+     "PARTOF": "Kashmir",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "no hay buyíes en Cachemira: reino de Cachemira (dinastía Lohara)",
+    "fuente": "https://en.wikipedia.org/wiki/Lohara_dynasty"
+   },
+   {
+    "op": "quitar",
+    "de": "Kwarizm-Shah",
+    "a": null,
+    "motivo": "feature mal situada en Makrán: Corasmia está al sur del Aral",
+    "fuente": "https://en.wikipedia.org/wiki/Khwarazmian_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      56,
+      40,
+      62.5,
+      43.8
+     ]
+    },
+    "desde": [
+     "Kara Khitai Khaganate"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Khwarazmian Empire",
+     "SUBJECTO": "Khwarazmian Empire",
+     "PARTOF": "Khwarazmian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Corasmia (bajo Amu Daria, Urgench), núcleo del Jwarazm-Sha (vasallo nominal de los kara-kitai hasta c. 1210)",
+    "fuente": "https://en.wikipedia.org/wiki/Khwarazmian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ghaznavid Emirate",
+    "props": {
+     "NAME": "Ghurid Empire",
+     "SUBJECTO": "Ghurid Empire",
+     "PARTOF": "Ghurid Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los gaznávidas pierden Lahore en 1186; imperio gúrida (1175-1215)",
+    "fuente": "https://en.wikipedia.org/wiki/Ghurid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       29.8,
+       38.2
+      ],
+      [
+       30.5,
+       39.8
+      ],
+      [
+       32,
+       40.3
+      ],
+      [
+       35,
+       40.4
+      ],
+      [
+       39,
+       40.3
+      ],
+      [
+       39,
+       38.0
+      ],
+      [
+       36.5,
+       36.8
+      ],
+      [
+       33.5,
+       36.5
+      ],
+      [
+       31.5,
+       36.8
+      ],
+      [
+       30.2,
+       37.6
+      ]
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sultanate of Rum",
+     "SUBJECTO": "Sultanate of Rum",
+     "PARTOF": "Sultanate of Rum",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato de Rum en su apogeo (Konya, Sivas, Malatya)",
+    "fuente": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        20,
+        0,
+        50,
+        25
+       ]
+      },
+      {
+       "caja": [
+        36.5,
+        9,
+        40.5,
+        15.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ifat"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "tierras bajas fuera del altiplano cristiano: sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Zagwe_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ifat",
+    "props": {
+     "NAME": "Zagwe dynasty",
+     "SUBJECTO": "Zagwe dynasty",
+     "PARTOF": "Zagwe dynasty",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "dinastía Zagüe (c. 1137-1270, Lalibela); Ifat nace hacia 1275-1285",
+    "fuente": "https://en.wikipedia.org/wiki/Zagwe_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Toltec Empire",
+    "props": {
+     "NAME": "Mesoamerican city-states and chiefdoms",
+     "SUBJECTO": "Mesoamerican city-states and chiefdoms",
+     "PARTOF": "Mesoamerican city-states and chiefdoms",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Tula se abandona hacia 1150",
+    "fuente": "https://en.wikipedia.org/wiki/Tula_(Mesoamerican_site)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bhutan",
+    "props": {
+     "NAME": "Tibetan principalities",
+     "SUBJECTO": "Tibetan principalities",
+     "PARTOF": "Tibetan principalities",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Bután como Estado es de 1616; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Bhutan"
+   },
+   {
+    "op": "renombrar",
+    "de": "Imperial Japan (Fujiwara)",
+    "props": {
+     "NAME": "Shogun Japan (Kamakura)",
+     "SUBJECTO": "Shogun Japan (Kamakura)",
+     "PARTOF": "Shogun Japan (Kamakura)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "shogunato de Kamakura (1185-1333)",
+    "fuente": "https://en.wikipedia.org/wiki/Kamakura_shogunate"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bulgar Khanate",
+    "props": {
+     "NAME": "Bulgaria",
+     "SUBJECTO": "Bulgaria",
+     "PARTOF": "Bulgaria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Segundo Imperio búlgaro (1185, Tarnovo)",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nan Chao",
+    "props": {
+     "NAME": "Dali Kingdom",
+     "SUBJECTO": "Dali Kingdom",
+     "PARTOF": "Dali Kingdom"
+    },
+    "motivo": "Nanzhao cae en 902; reino de Dalí (937-1253)",
+    "fuente": "https://en.wikipedia.org/wiki/Nanzhao"
+   },
+   {
+    "op": "renombrar",
+    "de": "Mali",
+    "props": {
+     "NAME": "Kangaba (Manden)",
+     "SUBJECTO": "Kangaba (Manden)",
+     "PARTOF": "Kangaba (Manden)"
+    },
+    "motivo": "el Imperio de Malí nace hacia 1235 (Sundiata); antes, jefaturas mandinga de Kangaba (discutido)",
+    "fuente": "https://en.wikipedia.org/wiki/Mali_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ghana",
+    "props": {
+     "NAME": "Empire of Ghana",
+     "SUBJECTO": "Empire of Ghana",
+     "PARTOF": "Empire of Ghana"
+    },
+    "motivo": "imperio de Ghana (Uagadú, Mauritania y Malí); no la Ghana moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Ghana_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Burgandy",
+    "props": {
+     "NAME": "Burgundy",
+     "SUBJECTO": "Burgundy",
+     "PARTOF": "Burgundy"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Dutchy of Benevento",
+    "props": {
+     "NAME": "Duchy of Benevento",
+     "SUBJECTO": "Duchy of Benevento",
+     "PARTOF": "Duchy of Benevento"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Boethuk",
+    "props": {
+     "NAME": "Beothuk",
+     "SUBJECTO": "Beothuk",
+     "PARTOF": "Beothuk"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bulgaria",
+    "props": {
+     "NAME": "Second Bulgarian Empire",
+     "SUBJECTO": "Second Bulgarian Empire",
+     "PARTOF": "Second Bulgarian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Segundo Imperio búlgaro (1185-1396); rótulo propio para no confundirlo con el país moderno",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire"
+   }
+  ],
+  "world_1279.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      38.3,
+      53.2,
+      42.8,
+      55.1
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ryazan (principality)",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Riazán (Oká medio)",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34,
+      55.1,
+      48,
+      62.5
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Vladimir-Suzdal",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "gran principado de Vladímir (Moscú, Tver, Rostov), tributario de la Horda",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      21,
+      47,
+      29,
+      53.5
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Galicia-Volhynia",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Galitzia-Volinia",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      29,
+      49.3,
+      31.7,
+      53.5
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Kiev",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Kiev",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      31.7,
+      50.0,
+      38.3,
+      55.1
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Chernigov",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Chernígov",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "quitar",
+    "de": "Ryazan",
+    "a": "Khanate of the Golden Horde",
+    "motivo": "estepa meridional, bajo control directo de la Horda de Oro",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ryazan (principality)",
+    "props": {
+     "NAME": "Ryazan",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Riazán, reducido a su cuenca",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -2.3,
+      33.5,
+      3.0,
+      36.6
+     ]
+    },
+    "desde": [
+     "Hafsid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Zayyanid Caliphate",
+     "SUBJECTO": "Zayyanid Caliphate",
+     "PARTOF": "Zayyanid Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino ziyání de Tlemcen (desde 1235)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Tlemcen"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kediri",
+    "props": {
+     "NAME": "Singhasari",
+     "SUBJECTO": "Singhasari",
+     "PARTOF": "Singhasari",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Kediri cae en 1222; Singhasari (1222-1292) y Majapahit (desde 1293, Trowulan)",
+    "fuente": "https://en.wikipedia.org/wiki/Majapahit"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      12,
+      36.5,
+      15.8,
+      38.4
+     ]
+    },
+    "desde": [
+     "Sicily"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Sicily (Trinacria)",
+     "SUBJECTO": "Kingdom of Sicily (Trinacria)",
+     "PARTOF": "Kingdom of Sicily (Trinacria)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras las Vísperas (1282) la isla es de la casa de Barcelona",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -103,
+      17,
+      -100.2,
+      21.5
+     ]
+    },
+    "desde": [
+     "Mixtec Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Tarascan state",
+     "SUBJECTO": "Tarascan state",
+     "PARTOF": "Tarascan state",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estado tarasco (purépecha), capital Tzintzuntzan (c. 1300-1530; en 1279, pre-Estado, discutido)",
+    "fuente": "https://en.wikipedia.org/wiki/Tarascan_state"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -100.2,
+      18.8,
+      -98.4,
+      20.3
+     ]
+    },
+    "desde": [
+     "Mixtec Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Tepanec and Nahua city-states",
+     "SUBJECTO": "Tepanec and Nahua city-states",
+     "PARTOF": "Tepanec and Nahua city-states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ciudades-Estado tepanecas y nahuas del valle de México (Azcapotzalco, Texcoco)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1279-1300.md"
+   },
+   {
+    "op": "quitar",
+    "de": "Mixtec Empire",
+    "a": null,
+    "motivo": "Guerrero: sin datos (los mixtecos están en Oaxaca)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1279-1300.md"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -98.5,
+      16.8,
+      -97.0,
+      18.3
+     ]
+    },
+    "desde": [
+     "Zapotec Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Mixtec Empire",
+     "SUBJECTO": "Mixtec Empire",
+     "PARTOF": "Mixtec Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "señoríos mixtecos de la Mixteca (Oaxaca)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1279-1300.md"
+   },
+   {
+    "op": "renombrar",
+    "de": "Aceh",
+    "props": {
+     "NAME": "Samudera Pasai",
+     "SUBJECTO": "Samudera Pasai",
+     "PARTOF": "Samudera Pasai",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el sultanato de Aceh es de c. 1496; en el norte de Sumatra, Samudera Pasai (desde 1267)",
+    "fuente": "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      36.3,
+      12.5,
+      40.3,
+      15.7
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Ethiopia",
+     "SUBJECTO": "Ethiopia",
+     "PARTOF": "Ethiopia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Etiopía salomónica (desde 1270) con el Tigray y Aksum",
+    "fuente": "https://en.wikipedia.org/wiki/Ethiopian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Seljuk Caliphate",
+    "props": {
+     "NAME": "Sultanate of Rum",
+     "SUBJECTO": "Sultanate of Rum",
+     "PARTOF": "Sultanate of Rum",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato (no califato), vasallo iljaní 1256-1308",
+    "fuente": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Benin",
+    "props": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin",
+     "PARTOF": "Kingdom of Benin"
+    },
+    "motivo": "reino de Benín (Edo, sur de Nigeria); no la República de Benín",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bulgar Khanate",
+    "props": {
+     "NAME": "Second Bulgarian Empire",
+     "SUBJECTO": "Second Bulgarian Empire",
+     "PARTOF": "Second Bulgarian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Segundo Imperio búlgaro (Tarnovo, 1185-1396); «kanato» no corresponde a esta época",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire"
+   }
+  ],
+  "world_1300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      38.3,
+      53.2,
+      42.8,
+      55.1
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ryazan (principality)",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Riazán (Oká medio)",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34,
+      55.1,
+      48,
+      62.5
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Vladimir-Suzdal",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "gran principado de Vladímir (Tver, Rostov), tributario de la Horda",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      21,
+      47,
+      29,
+      53.5
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Galicia-Volhynia",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Galitzia-Volinia",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      29,
+      49.3,
+      31.7,
+      53.5
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Kiev",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Kiev",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      31.7,
+      50.0,
+      38.3,
+      55.1
+     ]
+    },
+    "desde": [
+     "Ryazan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Chernigov",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Chernígov",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "quitar",
+    "de": "Ryazan",
+    "a": "Khanate of the Golden Horde",
+    "motivo": "estepa meridional, bajo control directo de la Horda de Oro",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ryazan (principality)",
+    "props": {
+     "NAME": "Ryazan",
+     "SUBJECTO": "Khanate of the Golden Horde",
+     "PARTOF": "Khanate of the Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Riazán, reducido a su cuenca",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -2.3,
+      33.5,
+      3.0,
+      36.6
+     ]
+    },
+    "desde": [
+     "Hafsid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Zayyanid Caliphate",
+     "SUBJECTO": "Zayyanid Caliphate",
+     "PARTOF": "Zayyanid Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino ziyání de Tlemcen (desde 1235)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Tlemcen"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kediri",
+    "props": {
+     "NAME": "Majapahit",
+     "SUBJECTO": "Majapahit",
+     "PARTOF": "Majapahit",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Kediri cae en 1222; Singhasari (1222-1292) y Majapahit (desde 1293, Trowulan)",
+    "fuente": "https://en.wikipedia.org/wiki/Majapahit"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      12,
+      36.5,
+      15.8,
+      38.4
+     ]
+    },
+    "desde": [
+     "Sicily"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Sicily (Trinacria)",
+     "SUBJECTO": "Kingdom of Sicily (Trinacria)",
+     "PARTOF": "Kingdom of Sicily (Trinacria)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras las Vísperas (1282) la isla es de la casa de Barcelona",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "renombrar",
+    "de": "Sicily",
+    "props": {
+     "NAME": "Kingdom of Naples",
+     "SUBJECTO": "Kingdom of Naples",
+     "PARTOF": "Kingdom of Naples",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el continente queda para los Anjou (reino de Nápoles)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.3,
+      34.7,
+      26.5,
+      35.8
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Creta veneciana (1205/1212-1669)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Candia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -103,
+      17,
+      -100.2,
+      21.5
+     ]
+    },
+    "desde": [
+     "Mixtec Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Tarascan state",
+     "SUBJECTO": "Tarascan state",
+     "PARTOF": "Tarascan state",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estado tarasco (purépecha), capital Tzintzuntzan (c. 1300-1530; en 1279, pre-Estado, discutido)",
+    "fuente": "https://en.wikipedia.org/wiki/Tarascan_state"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -100.2,
+      18.8,
+      -98.4,
+      20.3
+     ]
+    },
+    "desde": [
+     "Mixtec Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Tepanec and Nahua city-states",
+     "SUBJECTO": "Tepanec and Nahua city-states",
+     "PARTOF": "Tepanec and Nahua city-states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ciudades-Estado tepanecas y nahuas del valle de México (Azcapotzalco, Texcoco)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1279-1300.md"
+   },
+   {
+    "op": "quitar",
+    "de": "Mixtec Empire",
+    "a": null,
+    "motivo": "Guerrero: sin datos (los mixtecos están en Oaxaca)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1279-1300.md"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -98.5,
+      16.8,
+      -97.0,
+      18.3
+     ]
+    },
+    "desde": [
+     "Zapotec Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Mixtec Empire",
+     "SUBJECTO": "Mixtec Empire",
+     "PARTOF": "Mixtec Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "señoríos mixtecos de la Mixteca (Oaxaca)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1279-1300.md"
+   },
+   {
+    "op": "renombrar",
+    "de": "Aceh",
+    "props": {
+     "NAME": "Samudera Pasai",
+     "SUBJECTO": "Samudera Pasai",
+     "PARTOF": "Samudera Pasai",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el sultanato de Aceh es de c. 1496; en el norte de Sumatra, Samudera Pasai (desde 1267)",
+    "fuente": "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      36.3,
+      12.5,
+      40.3,
+      15.7
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Ethiopia",
+     "SUBJECTO": "Ethiopia",
+     "PARTOF": "Ethiopia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Etiopía salomónica (desde 1270) con el Tigray y Aksum",
+    "fuente": "https://en.wikipedia.org/wiki/Ethiopian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Seljuk Caliphate",
+    "props": {
+     "NAME": "Sultanate of Rum",
+     "SUBJECTO": "Sultanate of Rum",
+     "PARTOF": "Sultanate of Rum",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato (no califato), vasallo iljaní 1256-1308",
+    "fuente": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+   },
+   {
+    "op": "quitar",
+    "de": "Chola state",
+    "a": "Pandya state",
+    "motivo": "los chola desaparecen en 1279, absorbidos por los pandya",
+    "fuente": "https://en.wikipedia.org/wiki/Chola_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Pagan",
+    "props": {
+     "NAME": "Myinsaing",
+     "SUBJECTO": "Myinsaing",
+     "PARTOF": "Myinsaing",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el imperio de Pagan se hunde en 1287-1297",
+    "fuente": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Benin",
+    "props": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin",
+     "PARTOF": "Kingdom of Benin"
+    },
+    "motivo": "reino de Benín (Edo, sur de Nigeria); no la República de Benín",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bulgar Khanate",
+    "props": {
+     "NAME": "Second Bulgarian Empire",
+     "SUBJECTO": "Second Bulgarian Empire",
+     "PARTOF": "Second Bulgarian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Segundo Imperio búlgaro (Tarnovo, 1185-1396); «kanato» no corresponde a esta época",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire"
+   }
+  ],
+  "world_1400.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -2.3,
+      33.5,
+      3.0,
+      36.6
+     ]
+    },
+    "desde": [
+     "Hafsid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Zayyanid Caliphate",
+     "SUBJECTO": "Zayyanid Caliphate",
+     "PARTOF": "Zayyanid Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino ziyání de Tlemcen (desde 1235)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Tlemcen"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kediri",
+    "props": {
+     "NAME": "Majapahit",
+     "SUBJECTO": "Majapahit",
+     "PARTOF": "Majapahit",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Majapahit (desde 1293, Trowulan)",
+    "fuente": "https://en.wikipedia.org/wiki/Majapahit"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      98.5,
+      0.8,
+      105,
+      9.5
+     ]
+    },
+    "desde": [
+     "Srivijaya Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Malacca",
+     "SUBJECTO": "Malacca",
+     "PARTOF": "Malacca",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Malaca se funda hacia 1400",
+    "fuente": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+   },
+   {
+    "op": "quitar",
+    "de": "Srivijaya Empire",
+    "a": "Majapahit",
+    "motivo": "Majapahit ataca Palembang en 1377 y acaba con el sucesor de Srivijaya",
+    "fuente": "https://en.wikipedia.org/wiki/Majapahit"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      12,
+      36.5,
+      15.8,
+      38.4
+     ]
+    },
+    "desde": [
+     "Sicily"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Sicily (Trinacria)",
+     "SUBJECTO": "Kingdom of Sicily (Trinacria)",
+     "PARTOF": "Kingdom of Sicily (Trinacria)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la isla, de la casa de Barcelona desde 1282",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "renombrar",
+    "de": "Sicily",
+    "props": {
+     "NAME": "Kingdom of Naples",
+     "SUBJECTO": "Kingdom of Naples",
+     "PARTOF": "Kingdom of Naples",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Nápoles (Anjou-Durazzo)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.3,
+      34.7,
+      26.5,
+      35.8
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Creta veneciana (1205/1212-1669)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Candia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.2,
+      38.1,
+      24.7,
+      39.1
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Eubea (Negroponte), veneciana",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1400.md"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      22.5,
+      37.9,
+      24.2,
+      38.55
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Duchy of Athens",
+     "SUBJECTO": "Duchy of Athens",
+     "PARTOF": "Duchy of Athens",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ducado de Atenas (Acciaioli)",
+    "fuente": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       19.3,
+       39.0
+      ],
+      [
+       26.0,
+       39.0
+      ],
+      [
+       26.0,
+       42.9
+      ],
+      [
+       19.3,
+       42.9
+      ]
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Tesalia y Macedonia otomanas (Tesalónica 1387-1403)",
+    "fuente": "https://en.wikipedia.org/wiki/Ottoman_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      19.5,
+      43.0,
+      22.6,
+      44.9
+     ]
+    },
+    "desde": [
+     "Ottoman Empire",
+     "Bulgar Khanate",
+     "Hungary",
+     "Kingdom of Hungary"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Serbia",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Serbia morava de los Lazarević, vasalla otomana (anexión en 1459)",
+    "fuente": "https://en.wikipedia.org/wiki/Serbian_Despotate"
+   },
+   {
+    "op": "quitar",
+    "de": "Bulgar Khanate",
+    "a": "Ottoman Empire",
+    "motivo": "Tarnovo cae en 1393 y Vidin en 1396",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire"
+   },
+   {
+    "op": "quitar",
+    "de": "Seljuk Caliphate",
+    "a": "Ottoman Empire",
+    "motivo": "el sultanato de Rum desaparece en 1308; Sivas es otomana en 1398 (hasta Ankara, 1402)",
+    "fuente": "https://en.wikipedia.org/wiki/Sultanate_of_Rum"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       97,
+       21
+      ],
+      [
+       97,
+       36
+      ],
+      [
+       103,
+       38
+      ],
+      [
+       106,
+       39.5
+      ],
+      [
+       111,
+       41
+      ],
+      [
+       116,
+       41.5
+      ],
+      [
+       119,
+       40.3
+      ],
+      [
+       121,
+       42.5
+      ],
+      [
+       124.5,
+       43.5
+      ],
+      [
+       125,
+       40.1
+      ],
+      [
+       122,
+       39
+      ],
+      [
+       122,
+       17
+      ]
+     ]
+    },
+    "desde": [
+     "Great Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ming Empire",
+     "SUBJECTO": "Ming Empire",
+     "PARTOF": "Ming Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "dinastía Ming (1368): China propia, Yunnan (1382) y el sur de Manchuria (1387)",
+    "fuente": "https://en.wikipedia.org/wiki/Ming_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       124.2,
+       39.9
+      ],
+      [
+       126,
+       41.5
+      ],
+      [
+       128,
+       42
+      ],
+      [
+       129.8,
+       42.9
+      ],
+      [
+       130.7,
+       42.3
+      ],
+      [
+       131.5,
+       33
+      ],
+      [
+       124,
+       33
+      ]
+     ]
+    },
+    "desde": [
+     "Great Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Korea",
+     "SUBJECTO": "Korea",
+     "PARTOF": "Korea",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Joseon (1392)",
+    "fuente": "https://en.wikipedia.org/wiki/Joseon"
+   },
+   {
+    "op": "renombrar",
+    "de": "Great Khanate",
+    "props": {
+     "NAME": "Northern Yuan",
+     "SUBJECTO": "Northern Yuan",
+     "PARTOF": "Northern Yuan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los mongoles se retiran a la meseta como Yuan del Norte (1368-1635)",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Yuan"
+   },
+   {
+    "op": "renombrar",
+    "de": "Shogun Japan (Kamakura)",
+    "props": {
+     "NAME": "Japan (Muromachi)",
+     "SUBJECTO": "Japan (Muromachi)",
+     "PARTOF": "Japan (Muromachi)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Kamakura cae en 1333; shogunato Ashikaga (1336-1573)",
+    "fuente": "https://en.wikipedia.org/wiki/Muromachi_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      66,
+      5,
+      90,
+      16.2
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi",
+     "Chola state",
+     "Pandya state"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Vijayanagara",
+     "SUBJECTO": "Vijayanagara",
+     "PARTOF": "Vijayanagara",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Vijayanagara (1336, Hampi) al sur del Krishna",
+    "fuente": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      73,
+      16.2,
+      80.3,
+      20.8
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bahmani Kingdom",
+     "SUBJECTO": "Bahmani Kingdom",
+     "PARTOF": "Bahmani Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato bahmaní (1347, Gulbarga)",
+    "fuente": "https://en.wikipedia.org/wiki/Bahmani_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      86.3,
+      20.5,
+      92.8,
+      27.5
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bengal",
+     "SUBJECTO": "Bengal",
+     "PARTOF": "Bengal",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato de Bengala (1352)",
+    "fuente": "https://en.wikipedia.org/wiki/Bengal_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      80.5,
+      23.8,
+      86.3,
+      27.6
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jaunpur Sultanate",
+     "SUBJECTO": "Jaunpur Sultanate",
+     "PARTOF": "Jaunpur Sultanate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato de Jaunpur (1394)",
+    "fuente": "https://en.wikipedia.org/wiki/Jaunpur_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      68,
+      20,
+      74.5,
+      24.8
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Gujarat",
+     "SUBJECTO": "Gujarat",
+     "PARTOF": "Gujarat",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "gobernación de Gujarat, independiente de hecho (sultanato en 1407)",
+    "fuente": "https://en.wikipedia.org/wiki/Gujarat_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      74.5,
+      21.3,
+      80.5,
+      24.8
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Malwa",
+     "SUBJECTO": "Malwa",
+     "PARTOF": "Malwa",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Malwa (sultanato en 1401)",
+    "fuente": "https://en.wikipedia.org/wiki/Malwa_Sultanate"
+   },
+   {
+    "op": "renombrar",
+    "de": "Sultanate of Delhi",
+    "props": {
+     "NAME": "Sultanate of Delhi",
+     "SUBJECTO": "Sultanate of Delhi",
+     "PARTOF": "Sultanate of Delhi",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Delhi reducida tras el saqueo de Timur (17-12-1398)",
+    "fuente": "https://en.wikipedia.org/wiki/Timurid_conquests_and_invasions"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      91,
+      19.6,
+      101,
+      27
+     ]
+    },
+    "desde": [
+     "Pagan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ava",
+     "SUBJECTO": "Ava",
+     "PARTOF": "Ava",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Ava en la Alta Birmania",
+    "fuente": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Pagan",
+    "props": {
+     "NAME": "Pegu",
+     "SUBJECTO": "Pegu",
+     "PARTOF": "Pegu",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Hanthawaddy (Pegu) en la Baja Birmania",
+    "fuente": "https://en.wikipedia.org/wiki/Pagan_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34,
+      54.3,
+      48,
+      58.6
+     ]
+    },
+    "desde": [
+     "Blue Horde"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Grand Duchy of Moscow",
+     "SUBJECTO": "Golden Horde",
+     "PARTOF": "Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "gran principado de Moscú (Vasili I, 1389-1425), tributario de la Horda",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34.3,
+      56.3,
+      36.8,
+      57.6
+     ]
+    },
+    "desde": [
+     "Grand Duchy of Moscow"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Tver",
+     "SUBJECTO": "Golden Horde",
+     "PARTOF": "Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "gran principado de Tver",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Tver"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      38.3,
+      53.2,
+      42.8,
+      54.9
+     ]
+    },
+    "desde": [
+     "Blue Horde",
+     "Grand Duchy of Moscow"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ryazan",
+     "SUBJECTO": "Golden Horde",
+     "PARTOF": "Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "gran principado de Riazán",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow"
+   },
+   {
+    "op": "renombrar",
+    "de": "Blue Horde",
+    "props": {
+     "NAME": "Golden Horde",
+     "SUBJECTO": "Golden Horde",
+     "PARTOF": "Golden Horde",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Horda de Oro, unificada bajo Edigu en 1400 (Horda Azul/Blanca: etiquetas discutidas)",
+    "fuente": "https://en.wikipedia.org/wiki/Golden_Horde"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -103,
+      17,
+      -100.2,
+      21.5
+     ]
+    },
+    "desde": [
+     "Mixtec Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Tarascan state",
+     "SUBJECTO": "Tarascan state",
+     "PARTOF": "Tarascan state",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estado tarasco (c. 1300-1530)",
+    "fuente": "https://en.wikipedia.org/wiki/Tarascan_state"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -100.2,
+      18.8,
+      -98.4,
+      20.3
+     ]
+    },
+    "desde": [
+     "Mixtec Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Tepanec and Nahua city-states",
+     "SUBJECTO": "Tepanec and Nahua city-states",
+     "PARTOF": "Tepanec and Nahua city-states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Azcapotzalco, Texcoco, Tenochtitlan (1325)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1400.md"
+   },
+   {
+    "op": "quitar",
+    "de": "Mixtec Empire",
+    "a": null,
+    "motivo": "Guerrero: sin datos",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1400.md"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -98.5,
+      16.8,
+      -97.0,
+      18.3
+     ]
+    },
+    "desde": [
+     "Zapotec Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Mixtec Empire",
+     "SUBJECTO": "Mixtec Empire",
+     "PARTOF": "Mixtec Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "señoríos mixtecos (Oaxaca)",
+    "fuente": "revisiones/aplicadas/2026-09-28-carto-A-med1400.md"
+   },
+   {
+    "op": "renombrar",
+    "de": "Aceh",
+    "props": {
+     "NAME": "Samudera Pasai",
+     "SUBJECTO": "Samudera Pasai",
+     "PARTOF": "Samudera Pasai",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el sultanato de Aceh es de c. 1496",
+    "fuente": "https://en.wikipedia.org/wiki/Samudera_Pasai_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      36.3,
+      12.5,
+      40.3,
+      15.7
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Ethiopia",
+     "SUBJECTO": "Ethiopia",
+     "PARTOF": "Ethiopia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Etiopía salomónica con el Tigray",
+    "fuente": "https://en.wikipedia.org/wiki/Ethiopian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Benin",
+    "props": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin",
+     "PARTOF": "Kingdom of Benin"
+    },
+    "motivo": "reino de Benín (Edo, sur de Nigeria); no la República de Benín",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caloosahatchee cultureure",
+    "props": {
+     "NAME": "Caloosahatchee culture",
+     "SUBJECTO": "Caloosahatchee culture",
+     "PARTOF": "Caloosahatchee culture"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   }
+  ],
+  "world_1492.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Inca Empire",
+     "mapa": "world_1500.geojson"
+    },
+    "desde": "*",
+    "libre": true,
+    "props": {
+     "NAME": "Inca Empire",
+     "SUBJECTO": "Inca Empire",
+     "PARTOF": "Inca Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Tahuantinsuyo en 1492 (Topa Inca, 1471-1493; Chimor conquistado hacia 1470); Wari se despuebla hacia 1000",
+    "fuente": "https://en.wikipedia.org/wiki/Inca_Empire"
+   },
+   {
+    "op": "quitar",
+    "de": "Wari",
+    "a": "Inca Empire",
+    "motivo": "resto de «Wari» en la sierra central peruana (hueco del polígono inca de 1500): es territorio inca en 1492",
+    "fuente": "https://en.wikipedia.org/wiki/Inca_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       95,
+       41
+      ],
+      [
+       95,
+       53
+      ],
+      [
+       122,
+       53
+      ],
+      [
+       122,
+       41
+      ]
+     ]
+    },
+    "desde": [
+     "Chagatai Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Northern Yuan",
+     "SUBJECTO": "Northern Yuan",
+     "PARTOF": "Northern Yuan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Yuan del Norte (Dayan Kan) en la meseta mongola",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Yuan"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      122,
+      38,
+      141.5,
+      58
+     ]
+    },
+    "desde": [
+     "Chagatai Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jurchen tribes",
+     "SUBJECTO": "Jurchen tribes",
+     "PARTOF": "Jurchen tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tribus yurchen de Manchuria",
+    "fuente": "https://en.wikipedia.org/wiki/Jurchen_people"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      63,
+      37,
+      70,
+      41
+     ]
+    },
+    "desde": [
+     "Chagatai Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Timurid Emirates",
+     "SUBJECTO": "Timurid Emirates",
+     "PARTOF": "Timurid Emirates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Samarcanda es timúrida en 1492 (Sultán Ahmad Mirza)",
+    "fuente": "https://en.wikipedia.org/wiki/Timurid_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      46,
+      54,
+      53.5,
+      57
+     ]
+    },
+    "desde": [
+     "Golden Horde"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Khanate of Kazan",
+     "SUBJECTO": "Khanate of Kazan",
+     "PARTOF": "Khanate of Kazan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "kanato de Kazán (1437/1438)",
+    "fuente": "https://en.wikipedia.org/wiki/Kazan_Khanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      45,
+      45,
+      49.5,
+      47.5
+     ]
+    },
+    "desde": [
+     "Golden Horde"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Khanate of Astrakhan",
+     "SUBJECTO": "Khanate of Astrakhan",
+     "PARTOF": "Khanate of Astrakhan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "kanato de Astracán (1466, fecha discutida)",
+    "fuente": "https://en.wikipedia.org/wiki/Astrakhan_Khanate"
+   },
+   {
+    "op": "quitar",
+    "de": "Golkonda",
+    "a": "Bahmani Kingdom",
+    "motivo": "Golconda se independiza en 1518",
+    "fuente": "https://en.wikipedia.org/wiki/Golconda_Sultanate"
+   },
+   {
+    "op": "renombrar",
+    "de": "Imperial Hungary",
+    "props": {
+     "NAME": "Kingdom of Hungary",
+     "SUBJECTO": "Kingdom of Hungary",
+     "PARTOF": "Kingdom of Hungary",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Hungría de Vladislao II",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary"
+   },
+   {
+    "op": "renombrar",
+    "de": "Congo",
+    "props": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo",
+     "PARTOF": "Kingdom of Kongo",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino del Kongo (Mbanza Kongo)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.3,
+      34.7,
+      26.5,
+      35.8
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Creta veneciana (hasta 1669)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Candia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Laos",
+    "props": {
+     "NAME": "Lan Xang",
+     "SUBJECTO": "Lan Xang",
+     "PARTOF": "Lan Xang"
+    },
+    "motivo": "reino de Lan Xang (1353); «Laos» enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Lan_Xang"
+   },
+   {
+    "op": "renombrar",
+    "de": "Cambodia",
+    "props": {
+     "NAME": "Khmer kingdom",
+     "SUBJECTO": "Khmer kingdom",
+     "PARTOF": "Khmer kingdom"
+    },
+    "motivo": "reino jemer poscamboyano; «Cambodia» enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Post-Angkor_period"
+   },
+   {
+    "op": "renombrar",
+    "de": "Papua New Guinea",
+    "props": {
+     "NAME": "Papuans",
+     "SUBJECTO": "Papuans",
+     "PARTOF": "Papuans"
+    },
+    "motivo": "pueblos papúes; nombre de Estado moderno («Papuans» es el NAME de 1200)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Philippines",
+    "props": {
+     "NAME": "Philippine polities",
+     "SUBJECTO": "Philippine polities",
+     "PARTOF": "Philippine polities"
+    },
+    "motivo": "barangays y sultanatos filipinos; nombre de Estado moderno"
+   },
+   {
+    "op": "renombrar",
+    "de": "Taiwan",
+    "props": {
+     "NAME": "Taiwanese Tribes",
+     "SUBJECTO": "Taiwanese Tribes",
+     "PARTOF": "Taiwanese Tribes"
+    },
+    "motivo": "pueblos aborígenes («Taiwanese Tribes» es el NAME de 1200)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Benin",
+    "props": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin",
+     "PARTOF": "Kingdom of Benin"
+    },
+    "motivo": "reino de Benín (Edo, sur de Nigeria); no la República de Benín",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "de": "Scottland",
+    "props": {
+     "NAME": "Scotland",
+     "SUBJECTO": "Scotland",
+     "PARTOF": "Scotland"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "recortar",
+    "de": "Inca Empire",
+    "motivo": "el polígono inca de 1500 invade tierras amazónicas (asháninka, yanesha, matsigenka) que no fueron incas: el Antisuyu se detiene en la ceja de selva",
+    "fuente": "https://en.wikipedia.org/wiki/Inca_Empire"
+   }
+  ],
+  "world_1500.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       95,
+       41
+      ],
+      [
+       95,
+       53
+      ],
+      [
+       122,
+       53
+      ],
+      [
+       122,
+       41
+      ]
+     ]
+    },
+    "desde": [
+     "Chagatai Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Northern Yuan",
+     "SUBJECTO": "Northern Yuan",
+     "PARTOF": "Northern Yuan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Yuan del Norte en la meseta mongola",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Yuan"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      122,
+      38,
+      141.5,
+      58
+     ]
+    },
+    "desde": [
+     "Chagatai Khanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jurchen tribes",
+     "SUBJECTO": "Jurchen tribes",
+     "PARTOF": "Jurchen tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tribus yurchen de Manchuria",
+    "fuente": "https://en.wikipedia.org/wiki/Jurchen_people"
+   },
+   {
+    "op": "renombrar",
+    "de": "Golkonda",
+    "props": {
+     "NAME": "Bahmani Kingdom",
+     "SUBJECTO": "Bahmani Kingdom",
+     "PARTOF": "Bahmani Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Golconda se independiza en 1518",
+    "fuente": "https://en.wikipedia.org/wiki/Golconda_Sultanate"
+   },
+   {
+    "op": "renombrar",
+    "de": "Imperial Hungary",
+    "props": {
+     "NAME": "Kingdom of Hungary",
+     "SUBJECTO": "Kingdom of Hungary",
+     "PARTOF": "Kingdom of Hungary",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Hungría de Vladislao II",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary"
+   },
+   {
+    "op": "renombrar",
+    "de": "Congo",
+    "props": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo",
+     "PARTOF": "Kingdom of Kongo",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino del Kongo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.3,
+      34.7,
+      26.5,
+      35.8
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Creta veneciana",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Candia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -102.8,
+      18.2,
+      -100.3,
+      20.5
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "P'urhépecha",
+     "SUBJECTO": "P'urhépecha",
+     "PARTOF": "P'urhépecha",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estado tarasco (Tzintzuntzan)",
+    "fuente": "https://en.wikipedia.org/wiki/Tarascan_state"
+   },
+   {
+    "op": "renombrar",
+    "de": "Madagascar",
+    "props": {
+     "NAME": "Malagasy",
+     "SUBJECTO": "Malagasy",
+     "PARTOF": "Malagasy"
+    },
+    "motivo": "Madagascar no se unifica hasta el s. XIX; enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "de": "Laos",
+    "props": {
+     "NAME": "Lan Xang",
+     "SUBJECTO": "Lan Xang",
+     "PARTOF": "Lan Xang"
+    },
+    "motivo": "reino de Lan Xang (1353); «Laos» enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Lan_Xang"
+   },
+   {
+    "op": "renombrar",
+    "de": "Cambodia",
+    "props": {
+     "NAME": "Khmer kingdom",
+     "SUBJECTO": "Khmer kingdom",
+     "PARTOF": "Khmer kingdom"
+    },
+    "motivo": "reino jemer poscamboyano; «Cambodia» enlaza con la ficha moderna",
+    "fuente": "https://en.wikipedia.org/wiki/Post-Angkor_period"
+   },
+   {
+    "op": "renombrar",
+    "de": "Papua New Guinea",
+    "props": {
+     "NAME": "Papuans",
+     "SUBJECTO": "Papuans",
+     "PARTOF": "Papuans"
+    },
+    "motivo": "pueblos papúes; nombre de Estado moderno («Papuans» es el NAME de 1200)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Philippines",
+    "props": {
+     "NAME": "Philippine polities",
+     "SUBJECTO": "Philippine polities",
+     "PARTOF": "Philippine polities"
+    },
+    "motivo": "barangays y sultanatos filipinos; nombre de Estado moderno"
+   },
+   {
+    "op": "renombrar",
+    "de": "Taiwan",
+    "props": {
+     "NAME": "Taiwanese Tribes",
+     "SUBJECTO": "Taiwanese Tribes",
+     "PARTOF": "Taiwanese Tribes"
+    },
+    "motivo": "pueblos aborígenes («Taiwanese Tribes» es el NAME de 1200)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Benin",
+    "props": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin",
+     "PARTOF": "Kingdom of Benin"
+    },
+    "motivo": "reino de Benín (Edo, sur de Nigeria); no la República de Benín",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tlinoit",
+    "props": {
+     "NAME": "Tlingit",
+     "SUBJECTO": "Tlingit",
+     "PARTOF": "Tlingit"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Cherookee",
+    "props": {
+     "NAME": "Cherokee",
+     "SUBJECTO": "Cherokee",
+     "PARTOF": "Cherokee"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "renombrar",
+    "de": "Scottland",
+    "props": {
+     "NAME": "Scotland",
+     "SUBJECTO": "Scotland",
+     "PARTOF": "Scotland"
+    },
+    "motivo": "errata"
+   },
+   {
+    "op": "quitar",
+    "de": "Expansionist Kingdom of Merina",
+    "a": "Malagasy",
+    "motivo": "el reino merina nace hacia 1540",
+    "fuente": "https://en.wikipedia.org/wiki/Merina_Kingdom"
+   }
+  ],
+  "world_1453.geojson<world_1400.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Byzantine Empire",
+    "props": {
+     "NAME": "Despotate of the Morea",
+     "SUBJECTO": "Despotate of the Morea",
+     "PARTOF": "Despotate of the Morea",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Constantinopla cae el 29-5-1453; de los bizantinos queda el despotado de Morea (Mistra), que cae en 1460",
+    "fuente": "https://en.wikipedia.org/wiki/Despotate_of_the_Morea"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -2.5,
+      42.5,
+      1.9,
+      47.2
+     ]
+    },
+    "desde": [
+     "English territory"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "France"
+    },
+    "motivo": "fin de la guerra de los Cien Años: Burdeos se rinde en octubre de 1453 tras Castillon (17-7-1453); a Inglaterra solo le queda Calais",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Castillon"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "pol": [
+        [
+         2.0,
+         50.1
+        ],
+        [
+         1.6,
+         50.9
+        ],
+        [
+         2.5,
+         51.1
+        ],
+        [
+         3.4,
+         51.4
+        ],
+        [
+         3.6,
+         51.6
+        ],
+        [
+         4.0,
+         52.0
+        ],
+        [
+         4.5,
+         52.9
+        ],
+        [
+         4.8,
+         53.1
+        ],
+        [
+         5.2,
+         52.8
+        ],
+        [
+         5.2,
+         52.3
+        ],
+        [
+         5.6,
+         51.9
+        ],
+        [
+         5.9,
+         51.3
+        ],
+        [
+         6.1,
+         50.8
+        ],
+        [
+         6.3,
+         50.3
+        ],
+        [
+         6.1,
+         49.5
+        ],
+        [
+         5.5,
+         49.5
+        ],
+        [
+         4.8,
+         49.9
+        ],
+        [
+         4.1,
+         50.0
+        ],
+        [
+         3.2,
+         50.0
+        ],
+        [
+         2.6,
+         49.9
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         3.4,
+         47.9
+        ],
+        [
+         4.3,
+         48.1
+        ],
+        [
+         5.0,
+         47.9
+        ],
+        [
+         5.7,
+         47.9
+        ],
+        [
+         6.3,
+         47.9
+        ],
+        [
+         6.9,
+         47.5
+        ],
+        [
+         6.6,
+         46.9
+        ],
+        [
+         6.0,
+         46.3
+        ],
+        [
+         5.2,
+         46.2
+        ],
+        [
+         4.7,
+         46.2
+        ],
+        [
+         4.1,
+         46.5
+        ],
+        [
+         3.5,
+         47.0
+        ],
+        [
+         3.1,
+         47.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "France",
+     "Holy Roman Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Burgundian State",
+     "SUBJECTO": "Burgundian State",
+     "PARTOF": "Burgundian State",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Estado borgoñón de Felipe el Bueno: ducado y condado de Borgoña y los Países Bajos (Flandes, Artois, Brabante, Henao, Holanda, Zelanda; Luxemburgo en 1443); independiente de hecho desde Arras (1435). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Burgundian_State"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      46,
+      54,
+      53.5,
+      57
+     ]
+    },
+    "desde": [
+     "White Horde",
+     "Golden Horde"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Khanate of Kazan",
+     "SUBJECTO": "Khanate of Kazan",
+     "PARTOF": "Khanate of Kazan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "kanato de Kazán (1437/1438), la misma caja que en el mapa de 1492",
+    "fuente": "https://en.wikipedia.org/wiki/Kazan_Khanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Crimean Khanate",
+     "mapa": "world_1492.geojson"
+    },
+    "desde": [
+     "Golden Horde"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Crimean Khanate",
+     "SUBJECTO": "Crimean Khanate",
+     "PARTOF": "Crimean Khanate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "kanato de Crimea (Hacı I Giray, 1441), con la extensión del mapa de 1492; todavía independiente (vasallo otomano en 1478)",
+    "fuente": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tepanec and Nahua city-states",
+    "props": {
+     "NAME": "Mexihcah (Triple Alliance)",
+     "SUBJECTO": "Mexihcah (Triple Alliance)",
+     "PARTOF": "Mexihcah (Triple Alliance)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Triple Alianza de Tenochtitlan, Texcoco y Tlacopan (1428), tras vencer a Azcapotzalco; rótulo del mapa de 1492",
+    "fuente": "https://en.wikipedia.org/wiki/Aztec_Triple_Alliance"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -74.6,
+       -13.0
+      ],
+      [
+       -73.0,
+       -12.6
+      ],
+      [
+       -71.5,
+       -12.9
+      ],
+      [
+       -70.5,
+       -13.6
+      ],
+      [
+       -69.4,
+       -14.6
+      ],
+      [
+       -69.3,
+       -15.4
+      ],
+      [
+       -70.0,
+       -15.9
+      ],
+      [
+       -70.8,
+       -15.8
+      ],
+      [
+       -71.6,
+       -15.2
+      ],
+      [
+       -72.8,
+       -14.8
+      ],
+      [
+       -74.0,
+       -14.6
+      ],
+      [
+       -74.8,
+       -13.9
+      ]
+     ]
+    },
+    "desde": "*",
+    "libre": true,
+    "props": {
+     "NAME": "Inca Empire",
+     "SUBJECTO": "Inca Empire",
+     "PARTOF": "Inca Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "primer Tahuantinsuyo de Pachacútec (desde 1438): Cuzco, tierras chancas y el norte del Titicaca (Colla). Cronología de Rowe, discutida; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Pachacuti"
+   }
+  ],
+  "world_1230.geojson<world_1200.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Castilla",
+    "props": {
+     "NAME": "Castile",
+     "SUBJECTO": "Castile",
+     "PARTOF": "Castile",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Castilla; en 1230 Fernando III hereda León y une las dos coronas (Corona de Castilla)",
+    "fuente": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Castile"
+   },
+   {
+    "op": "renombrar",
+    "de": "León",
+    "props": {
+     "NAME": "Castile",
+     "SUBJECTO": "Castile",
+     "PARTOF": "Castile",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de León, unido a Castilla en 1230 (Fernando III)",
+    "fuente": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Castile"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -7.3,
+       40.2
+      ],
+      [
+       -7.0,
+       39.0
+      ],
+      [
+       -7.1,
+       38.7
+      ],
+      [
+       -6.3,
+       38.4
+      ],
+      [
+       -5.3,
+       38.4
+      ],
+      [
+       -4.3,
+       38.35
+      ],
+      [
+       -3.2,
+       38.3
+      ],
+      [
+       -2.4,
+       38.4
+      ],
+      [
+       -1.9,
+       38.9
+      ],
+      [
+       -1.5,
+       39.5
+      ],
+      [
+       -1.3,
+       40.1
+      ],
+      [
+       -1.6,
+       40.6
+      ],
+      [
+       -2.0,
+       41.2
+      ],
+      [
+       -3.0,
+       41.6
+      ],
+      [
+       -5.0,
+       41.5
+      ],
+      [
+       -6.5,
+       41.0
+      ]
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Castile"
+    },
+    "motivo": "tras Las Navas (1212): Toledo y La Mancha hasta Sierra Morena (Alcaraz 1213, Baeza 1227) y la Extremadura leonesa (Cáceres 1229, Mérida y Badajoz 1230). En el mapa base el centro peninsular figuraba almohade. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Las_Navas_de_Tolosa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -9.0,
+       37.95
+      ],
+      [
+       -8.0,
+       37.9
+      ],
+      [
+       -7.2,
+       38.2
+      ],
+      [
+       -7.0,
+       38.9
+      ],
+      [
+       -7.3,
+       39.5
+      ],
+      [
+       -7.0,
+       40.2
+      ],
+      [
+       -6.8,
+       41.0
+      ],
+      [
+       -8.9,
+       41.2
+      ],
+      [
+       -9.6,
+       39.0
+      ]
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate",
+     "Castile"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Portugal"
+    },
+    "motivo": "Portugal hasta el Tajo y el Alentejo (Lisboa 1147, Alcácer do Sal 1217, Elvas 1230); el Algarve es de 1249. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Siege_of_Alcácer_do_Sal_(1217)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -1.9,
+       41.3
+      ],
+      [
+       -1.9,
+       40.6
+      ],
+      [
+       -1.5,
+       40.1
+      ],
+      [
+       -0.8,
+       40.0
+      ],
+      [
+       0.0,
+       40.3
+      ],
+      [
+       0.5,
+       40.5
+      ],
+      [
+       0.9,
+       40.8
+      ],
+      [
+       3.4,
+       42.4
+      ],
+      [
+       0.5,
+       42.8
+      ],
+      [
+       -1.0,
+       42.5
+      ]
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Aragón"
+    },
+    "motivo": "Corona de Aragón: Zaragoza (1118), Lérida y Tortosa (1148-1149) y Teruel (1171); Valencia es de 1238. En el mapa base el valle del Ebro figuraba almohade",
+    "fuente": "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      2.2,
+      39.2,
+      3.6,
+      40.1
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Aragón"
+    },
+    "motivo": "conquista de Mallorca por Jaime I (Madina Mayurqa, 31-12-1229)",
+    "fuente": "https://en.wikipedia.org/wiki/Conquest_of_Majorca"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almohad Caliphate"
+      },
+      {
+       "caja": [
+        -1.6,
+        38.6,
+        0.4,
+        40.35
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Valencia",
+     "SUBJECTO": "Taifa of Valencia",
+     "PARTOF": "Taifa of Valencia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa de Valencia de Zayyán ibn Mardanís (1229-1238). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa_of_Valencia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almohad Caliphate"
+      },
+      {
+       "y": [
+        {
+         "caja": [
+          -10,
+          35.95,
+          -1.8,
+          44
+         ]
+        },
+        {
+         "caja": [
+          -1.8,
+          37.3,
+          4.5,
+          44
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hudid Emirate (Ibn Hud)",
+     "SUBJECTO": "Hudid Emirate (Ibn Hud)",
+     "PARTOF": "Hudid Emirate (Ibn Hud)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "al-Ándalus se separa de los almohades: Ibn Hud (Murcia, 1228) se hace con Córdoba, Sevilla y Granada en 1229-1231",
+    "fuente": "https://en.wikipedia.org/wiki/Ibn_Hud"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Hudid Emirate (Ibn Hud)"
+      },
+      {
+       "caja": [
+        -3.0,
+        40.45,
+        -1.8,
+        42.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hudid Emirate (Ibn Hud)"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Castile"
+    },
+    "motivo": "Soria, Medinaceli y Sigüenza, castellanas desde el s. XII",
+    "fuente": "https://en.wikipedia.org/wiki/Crown_of_Castile"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Hudid Emirate (Ibn Hud)"
+      },
+      {
+       "caja": [
+        -1.8,
+        40.45,
+        -0.5,
+        42.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hudid Emirate (Ibn Hud)"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Aragón"
+    },
+    "motivo": "Calatayud y Daroca, aragonesas desde 1120-1122",
+    "fuente": "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Hudid Emirate (Ibn Hud)"
+      },
+      {
+       "caja": [
+        -7.4,
+        39.0,
+        -6.9,
+        39.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hudid Emirate (Ibn Hud)"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Castile"
+    },
+    "motivo": "Alcántara y Valencia de Alcántara, leonesas (Alcántara 1213)",
+    "fuente": "https://en.wikipedia.org/wiki/Order_of_Alcántara"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Hudid Emirate (Ibn Hud)"
+      },
+      {
+       "caja": [
+        0.0,
+        40.1,
+        0.6,
+        40.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hudid Emirate (Ibn Hud)"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Valencia"
+    },
+    "motivo": "el norte de Castellón (Morella, Peñíscola) sigue en la taifa de Valencia hasta 1232-1233",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa_of_Valencia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Hudid Emirate (Ibn Hud)"
+      },
+      {
+       "caja": [
+        1.1,
+        38.5,
+        4.5,
+        40.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hudid Emirate (Ibn Hud)"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "Menorca (tributaria de Aragón desde 1231) e Ibiza (conquistada en 1235) siguen en manos de gobernadores musulmanes locales, no de Ibn Hud: sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Conquest_of_Majorca"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almohad Caliphate"
+      },
+      {
+       "caja": [
+        5,
+        28,
+        16,
+        38.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almohad Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hafsid Caliphate"
+    },
+    "motivo": "Abu Zakariya, gobernador de Túnez, rompe con Marrakech en 1229: sultanato hafsí (Bugía y Constantina en 1230). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Hafsid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Angevin Empire"
+      },
+      {
+       "caja": [
+        -5.3,
+        45.2,
+        2.8,
+        51.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Angevin Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of France"
+    },
+    "motivo": "Felipe II toma Normandía, Anjou y Maine (1202-1204) y Luis VIII el Poitou (1224): a los Plantagenet les queda Gascuña",
+    "fuente": "https://en.wikipedia.org/wiki/Angevin_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Angevin Empire",
+    "props": {
+     "NAME": "English territory",
+     "SUBJECTO": "English territory",
+     "PARTOF": "English territory",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Inglaterra (Enrique III) con Gascuña; el «imperio angevino» termina en 1204-1224 (rótulo del mapa de 1279)",
+    "fuente": "https://en.wikipedia.org/wiki/Angevin_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Duchy of Benevento",
+    "props": {
+     "NAME": "Sicily",
+     "SUBJECTO": "Sicily",
+     "PARTOF": "Sicily",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Sicilia (Federico II, 1198-1250): el rótulo «ducado de Benevento» no corresponde a 1230",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        36.5,
+        39.5,
+        43.5,
+        41.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Trebizond",
+     "SUBJECTO": "Trebizond",
+     "PARTOF": "Trebizond",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Imperio de Trebisonda (1204), de los Grandes Comnenos",
+    "fuente": "https://en.wikipedia.org/wiki/Empire_of_Trebizond"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        27.3,
+        40.3,
+        29.7,
+        41.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Latin Empire",
+     "SUBJECTO": "Latin Empire",
+     "PARTOF": "Latin Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Imperio latino de Constantinopla (1204-1261), reducido tras 1230 a la ciudad y su entorno",
+    "fuente": "https://en.wikipedia.org/wiki/Latin_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        19.0,
+        40.8,
+        27.3,
+        42.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Second Bulgarian Empire"
+    },
+    "motivo": "Iván Asen II vence a Teodoro de Epiro en Klokotnitsa (9-3-1230) y se queda con Tracia, Macedonia y Albania",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Klokotnitsa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        22.6,
+        37.9,
+        24.2,
+        38.7
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Duchy of Athens",
+     "SUBJECTO": "Duchy of Athens",
+     "PARTOF": "Duchy of Athens",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ducado de Atenas (1205), de los La Roche",
+    "fuente": "https://en.wikipedia.org/wiki/Duchy_of_Athens"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        21.0,
+        36.3,
+        23.4,
+        38.35
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Principality of Achaea",
+     "SUBJECTO": "Principality of Achaea",
+     "PARTOF": "Principality of Achaea",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "principado de Acaya en el Peloponeso (1205), de los Villehardouin",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Achaea"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        23.4,
+        34.7,
+        26.5,
+        35.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Venice"
+    },
+    "motivo": "Creta veneciana (1205/1212-1669)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Candia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        19.0,
+        38.2,
+        24.2,
+        40.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Despotate of Epirus",
+     "SUBJECTO": "Despotate of Epirus",
+     "PARTOF": "Despotate of Epirus",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Epiro, Tesalia y Tesalónica, de los Comneno Ducas (Manuel, vasallo búlgaro tras 1230)",
+    "fuente": "https://en.wikipedia.org/wiki/Despotate_of_Epirus"
+   },
+   {
+    "op": "quitar",
+    "de": "Byzantine Empire",
+    "a": "Empire of Nicaea",
+    "motivo": "lo que queda del mundo bizantino en Asia Menor e islas es el Imperio de Nicea (1204-1261), de Juan III Vatatzés",
+    "fuente": "https://en.wikipedia.org/wiki/Empire_of_Nicaea"
+   },
+   {
+    "op": "quitar",
+    "de": "Xixia",
+    "a": "Mongol Empire",
+    "motivo": "el reino tangut de Xia Occidental cae ante los mongoles en 1227",
+    "fuente": "https://en.wikipedia.org/wiki/Western_Xia"
+   },
+   {
+    "op": "quitar",
+    "de": "Kara Khitai Khaganate",
+    "a": "Mongol Empire",
+    "motivo": "los mongoles de Jebe conquistan a los kara-kitai en 1218",
+    "fuente": "https://en.wikipedia.org/wiki/Qara_Khitai"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Jin Empire"
+      },
+      {
+       "caja": [
+        104,
+        32.3,
+        117.5,
+        35.9
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Jin Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Mongol Empire"
+    },
+    "motivo": "los Jin pierden Zhongdu (1215), el norte y Manchuria; en 1230 solo conservan Henan y el Guanzhong (Kaifeng cae en 1233, Caizhou en 1234). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Jin_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ghurid Empire"
+      },
+      {
+       "caja": [
+        69.5,
+        24,
+        76,
+        36
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ghurid Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sultanate of Delhi"
+    },
+    "motivo": "Iltutmish (1211-1236) se queda con el Punjab y, en 1228, con Multán y Uch de Qabacha",
+    "fuente": "https://en.wikipedia.org/wiki/Iltutmish"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      57,
+      30,
+      76,
+      45
+     ]
+    },
+    "desde": [
+     "Khwarazmian Empire",
+     "Ghurid Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Mongol Empire"
+    },
+    "motivo": "invasión mongola de 1219-1221: Transoxiana, Corasmia, Jorasán y Afganistán",
+    "fuente": "https://en.wikipedia.org/wiki/Mongol_invasion_of_the_Khwarazmian_Empire"
+   },
+   {
+    "op": "quitar",
+    "de": "Ghurid Empire",
+    "a": "Mongol Empire",
+    "motivo": "los gúridas desaparecen en 1215 (Jwarazm) y sus tierras pasan a los mongoles (1221)",
+    "fuente": "https://en.wikipedia.org/wiki/Ghurid_dynasty"
+   },
+   {
+    "op": "quitar",
+    "de": "Ildegizids",
+    "a": "Khwarazmian Empire",
+    "motivo": "Jalal al-Din Mingburnu ocupa Azerbaiyán (Tabriz, 1225) y reina en el oeste de Irán hasta 1231",
+    "fuente": "https://en.wikipedia.org/wiki/Jalal_al-Din_Mangburni"
+   }
+  ],
+  "world_1050.geojson<world_1000.geojson": [
+   {
+    "op": "renombrar",
+    "de": "León",
+    "props": {
+     "NAME": "Castilla",
+     "SUBJECTO": "Castilla",
+     "PARTOF": "Castilla",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Fernando I, rey de Castilla desde 1035, se corona rey de León en 1037: Castilla y León unidos hasta 1065",
+    "fuente": "https://en.wikipedia.org/wiki/Ferdinand_I_of_León"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -2.6,
+        40.3,
+        1.6,
+        42.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Zaragoza",
+     "SUBJECTO": "Taifa of Zaragoza",
+     "PARTOF": "Taifa of Zaragoza",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "fitna de al-Ándalus (1009-1031): taifa de Zaragoza (tuyibíes, hudíes desde 1039). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa_of_Zaragoza"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -9.8,
+        38.2,
+        -5.6,
+        41.4
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Badajoz",
+     "SUBJECTO": "Taifa of Badajoz",
+     "PARTOF": "Taifa of Badajoz",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa de Badajoz (aftasíes, 1022-1094). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -5.6,
+        38.4,
+        -1.5,
+        41.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Toledo",
+     "SUBJECTO": "Taifa of Toledo",
+     "PARTOF": "Taifa of Toledo",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa de Toledo (Banu Dhi l-Nun, 1035-1085). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Caliphate of Córdoba"
+        },
+        {
+         "caja": [
+          -0.6,
+          38.3,
+          0.4,
+          39.1
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Caliphate of Córdoba"
+        },
+        {
+         "caja": [
+          1.0,
+          38.5,
+          4.5,
+          40.2
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Denia",
+     "SUBJECTO": "Taifa of Denia",
+     "PARTOF": "Taifa of Denia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa de Denia y las Baleares (Muyahid, 1010-1076). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -2.2,
+        37.6,
+        0.4,
+        40.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Valencia",
+     "SUBJECTO": "Taifa of Valencia",
+     "PARTOF": "Taifa of Valencia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa de Valencia, con Murcia (amiríes, 1010-1065). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa_of_Valencia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -2.7,
+        36.6,
+        -1.5,
+        37.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Almería",
+     "SUBJECTO": "Taifa of Almería",
+     "PARTOF": "Taifa of Almería",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa de Almería (Banu Sumadih, 1041-1091). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -5.2,
+        36.0,
+        -2.7,
+        37.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Granada",
+     "SUBJECTO": "Taifa of Granada",
+     "PARTOF": "Taifa of Granada",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa zirí de Granada (1013-1090). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "caja": [
+        -5.4,
+        37.6,
+        -3.6,
+        38.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Córdoba",
+     "SUBJECTO": "Taifa of Córdoba",
+     "PARTOF": "Taifa of Córdoba",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Córdoba, república de los Banu Yahwar (1031-1069) tras la abolición del califato en 1031",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caliphate of Córdoba"
+      },
+      {
+       "y": [
+        {
+         "caja": [
+          -10,
+          35.95,
+          -1.8,
+          44
+         ]
+        },
+        {
+         "caja": [
+          -1.8,
+          37.3,
+          4.5,
+          44
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Seville",
+     "SUBJECTO": "Taifa of Seville",
+     "PARTOF": "Taifa of Seville",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "taifa abadí de Sevilla (1023-1091), que absorbe las pequeñas taifas del Guadalquivir y del Algarve. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Taifa"
+   },
+   {
+    "op": "renombrar",
+    "de": "Caliphate of Córdoba",
+    "props": {
+     "NAME": "Zenata emirates",
+     "SUBJECTO": "Zenata emirates",
+     "PARTOF": "Zenata emirates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en el Magreb occidental, sin el califato, mandan principados zenatas (magrawas de Fez, Sijilmasa); los almorávides empiezan en el Sáhara hacia 1040 y toman Sijilmasa en 1055",
+    "fuente": "https://en.wikipedia.org/wiki/Maghrawa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Fatimid Caliphate"
+      },
+      {
+       "caja": [
+        6.0,
+        28,
+        15.8,
+        38.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Zirid Emirate",
+     "SUBJECTO": "Zirid Emirate",
+     "PARTOF": "Zirid Emirate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los ziríes de Ifriqiya rompen con El Cairo en 1048 y reconocen a los abasíes",
+    "fuente": "https://en.wikipedia.org/wiki/Zirid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Fatimid Caliphate"
+      },
+      {
+       "caja": [
+        0.4,
+        28,
+        6.0,
+        37.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hammadid Emirate",
+     "SUBJECTO": "Hammadid Emirate",
+     "PARTOF": "Hammadid Emirate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "emirato hammadí del Magreb central (Qal'at Beni Hammad), independiente desde 1014-1015",
+    "fuente": "https://en.wikipedia.org/wiki/Hammadid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Denmark"
+      },
+      {
+       "caja": [
+        4,
+        57.8,
+        32,
+        72
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Denmark"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Norway",
+     "SUBJECTO": "Norway",
+     "PARTOF": "Norway",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Noruega, independiente de Dinamarca desde 1035 (Magnus el Bueno); Harald Hardrada reina desde 1046",
+    "fuente": "https://en.wikipedia.org/wiki/Harald_Hardrada"
+   },
+   {
+    "op": "quitar",
+    "de": "Bulgars",
+    "a": "Byzantine Empire",
+    "motivo": "Basilio II acaba con el Estado búlgaro de Samuel en 1018: Bulgaria es provincia bizantina hasta 1185",
+    "fuente": "https://en.wikipedia.org/wiki/Byzantine_conquest_of_Bulgaria"
+   },
+   {
+    "op": "quitar",
+    "de": "Armenia",
+    "a": "Byzantine Empire",
+    "motivo": "Bizancio se anexiona Vaspurakan (1021) y Ani (1045); Kars y Siunia siguen armenias (sin polígono propio). Aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bagratid_Armenia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       48.5,
+       34.5
+      ],
+      [
+       48.5,
+       38.5
+      ],
+      [
+       54,
+       39.5
+      ],
+      [
+       63,
+       39.5
+      ],
+      [
+       63,
+       30
+      ],
+      [
+       57,
+       27.5
+      ],
+      [
+       55,
+       29
+      ],
+      [
+       54,
+       32.5
+      ],
+      [
+       51,
+       33.5
+      ]
+     ]
+    },
+    "desde": [
+     "Buwayhid Emirates",
+     "Ghaznavid Emirate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Seljuk Empire",
+     "SUBJECTO": "Seljuk Empire",
+     "PARTOF": "Seljuk Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los selyúcidas vencen a los gaznávidas en Dandanaqan (1040) y se quedan con el Jorasán; toman Rayy (1042), Hamadán y Kermán (1048). Isfahán es de 1051 y Bagdad de 1055. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+   },
+   {
+    "op": "quitar",
+    "de": "Pratiharas",
+    "a": "Rajput kingdoms",
+    "motivo": "los Gurjara-Pratihara desaparecen hacia 1036; su capa solapaba con los reinos rajputs",
+    "fuente": "https://en.wikipedia.org/wiki/Gurjara-Pratihara_dynasty"
+   },
+   {
+    "op": "recortar",
+    "de": "Rajput kingdoms",
+    "motivo": "la capa rajput solapaba con el reino de los Pala en Bihar",
+    "fuente": "https://en.wikipedia.org/wiki/Pala_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Rajput kingdoms"
+      },
+      {
+       "caja": [
+        69.5,
+        29,
+        75.5,
+        34.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Rajput kingdoms"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ghaznavid Emirate"
+    },
+    "motivo": "el Punjab y Lahore, gaznávidas desde Mahmud de Gazni (1020s) hasta 1186",
+    "fuente": "https://en.wikipedia.org/wiki/Ghaznavids"
+   }
+  ],
+  "world_850.geojson<world_800.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -2.3,
+      42.4,
+      -0.9,
+      43.3
+     ]
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Navarre",
+     "SUBJECTO": "Navarre",
+     "PARTOF": "Navarre",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Pamplona (Íñigo Arista, 824), fuera del dominio franco; la misma entidad que en el mapa de 900",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Pamplona"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      12.1,
+      45.2,
+      12.65,
+      45.75
+     ]
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Venice",
+     "SUBJECTO": "Venice",
+     "PARTOF": "Venice",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Venecia, ducado bajo soberanía bizantina (Pax Nicephori, 812)",
+    "fuente": "https://en.wikipedia.org/wiki/Pax_Nicephori"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "West Francia",
+     "mapa": "world_900.geojson"
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "West Francia",
+     "SUBJECTO": "West Francia",
+     "PARTOF": "West Francia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tratado de Verdún (agosto de 843): Francia Occidental para Carlos el Calvo, con la extensión del mapa de 900",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "East Francia",
+     "mapa": "world_900.geojson"
+    },
+    "desde": [
+     "Carolingian Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "East Francia",
+     "SUBJECTO": "East Francia",
+     "PARTOF": "East Francia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tratado de Verdún (843): Francia Oriental para Luis el Germánico, con la extensión del mapa de 900",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Verdun"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Avars"
+      },
+      {
+       "caja": [
+        14,
+        44.5,
+        19.2,
+        49.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Avars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "East Francia"
+    },
+    "motivo": "el kanato ávaro desaparece hacia 822; la Panonia occidental es marca franca (principado del Balatón de Pribina, 846)",
+    "fuente": "https://en.wikipedia.org/wiki/Balaton_Principality"
+   },
+   {
+    "op": "quitar",
+    "de": "Avars",
+    "a": "Bulgars",
+    "motivo": "la llanura del Tisza, al este de la antigua Avaria, queda en la órbita búlgara desde Krum (803-814)",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "recortar",
+    "de": "Magyars",
+    "motivo": "en 850 los magiares están en Etelköz, al norte del mar Negro; su capa solapaba con la de los búlgaros",
+    "fuente": "https://en.wikipedia.org/wiki/Etelköz"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Great Moravia",
+       "mapa": "world_900.geojson"
+      },
+      {
+       "caja": [
+        15.5,
+        47.6,
+        20.5,
+        50.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Slavonic tribes",
+     "Czechs",
+     "East Francia"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Great Moravia",
+     "SUBJECTO": "Great Moravia",
+     "PARTOF": "Great Moravia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Gran Moravia de Mojmir I (833) y Rastislav (846): Moravia y el oeste de Eslovaquia (Nitra). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Great_Moravia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Carolingian Empire",
+    "props": {
+     "NAME": "Middle Francia",
+     "SUBJECTO": "Middle Francia",
+     "PARTOF": "Middle Francia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tratado de Verdún (843): Francia Media de Lotario I, de Frisia a Italia (sin los Estados Pontificios)",
+    "fuente": "https://en.wikipedia.org/wiki/Middle_Francia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        12.3,
+        36.6,
+        14.3,
+        38.4
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Aghlabid Emirate"
+    },
+    "motivo": "conquista aglabí de Sicilia: Palermo (831), el oeste de la isla hacia 850; Enna cae en 859 y Siracusa en 878",
+    "fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Sicily"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      92.5,
+      38.5,
+      99.5,
+      42
+     ]
+    },
+    "desde": [
+     "Tibetan Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Guiyi Circuit",
+     "SUBJECTO": "Guiyi Circuit",
+     "PARTOF": "Guiyi Circuit",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Zhang Yichao expulsa a los tibetanos de Dunhuang y Guazhou (848); circuito Guiyi desde 851",
+    "fuente": "https://en.wikipedia.org/wiki/Guiyi_Circuit"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tibetan Empire",
+    "props": {
+     "NAME": "Tibet",
+     "SUBJECTO": "Tibet",
+     "PARTOF": "Tibet",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el imperio tibetano se hunde tras la muerte de Langdarma (842): Era de la Fragmentación",
+    "fuente": "https://en.wikipedia.org/wiki/Tibetan_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Uyghurs",
+    "props": {
+     "NAME": "Yenisei Kyrgyz Khaganate",
+     "SUBJECTO": "Yenisei Kyrgyz Khaganate",
+     "PARTOF": "Yenisei Kyrgyz Khaganate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los kirguises del Yeniséi destruyen el kaganato uigur en 840 (saqueo de Ordu-Baliq) y dominan la meseta mongola hasta c. 924",
+    "fuente": "https://en.wikipedia.org/wiki/Uyghur_Khaganate"
+   }
+  ],
+  "world_950.geojson<world_900.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Khitans",
+    "props": {
+     "NAME": "Liao",
+     "SUBJECTO": "Liao",
+     "PARTOF": "Liao",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Abaoji funda el Estado kitán en 907-916; dinastía Liao desde 947",
+    "fuente": "https://en.wikipedia.org/wiki/Liao_dynasty"
+   },
+   {
+    "op": "quitar",
+    "de": "Balhae",
+    "a": "Liao",
+    "motivo": "los kitanes destruyen Balhae en 926",
+    "fuente": "https://en.wikipedia.org/wiki/Balhae"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        112,
+        38.8,
+        119.8,
+        41.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Liao"
+    },
+    "motivo": "las Dieciséis Prefecturas (Youzhou, hoy Pekín, y Datong), cedidas a los Liao en 938",
+    "fuente": "https://en.wikipedia.org/wiki/Sixteen_Prefectures"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        102,
+        16,
+        108.5,
+        23.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Annam",
+     "SUBJECTO": "Annam",
+     "PARTOF": "Annam",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Ngô Quyền vence a los Han del Sur en el Bạch Đằng (938) e inicia la independencia vietnamita (rótulo del mapa de 1000)",
+    "fuente": "https://en.wikipedia.org/wiki/Ngô_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        118.8,
+        25.5,
+        122.5,
+        31.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Wuyue",
+     "SUBJECTO": "Wuyue",
+     "PARTOF": "Wuyue",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Wuyue (Hangzhou, 907-978), con Fuzhou desde 947. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        104.5,
+        20,
+        117.5,
+        25.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Southern Han",
+     "SUBJECTO": "Southern Han",
+     "PARTOF": "Southern Han",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Han del Sur (Cantón, 917-971). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        113.8,
+        24.3,
+        122,
+        33.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Southern Tang",
+     "SUBJECTO": "Southern Tang",
+     "PARTOF": "Southern Tang",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Tang del Sur (Nankín, 937-975), con el Jiangxi y el norte de Fujian (Min, 945). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        108.5,
+        24.5,
+        114.2,
+        30.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Chu",
+     "SUBJECTO": "Chu",
+     "PARTOF": "Chu",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Chu (Changsha, 907-951). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Tang Empire"
+      },
+      {
+       "caja": [
+        97,
+        26,
+        110,
+        33.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Tang Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Later Shu",
+     "SUBJECTO": "Later Shu",
+     "PARTOF": "Later Shu",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Shu Posterior (Chengdu, 934-965). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Five_Dynasties_and_Ten_Kingdoms_period"
+   },
+   {
+    "op": "renombrar",
+    "de": "Tang Empire",
+    "props": {
+     "NAME": "Later Han",
+     "SUBJECTO": "Later Han",
+     "PARTOF": "Later Han",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los Tang caen en 907; en 950 el norte es de los Han Posteriores (947-951), cuarta de las Cinco Dinastías",
+    "fuente": "https://en.wikipedia.org/wiki/Later_Han_(Five_Dynasties)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Silla",
+    "props": {
+     "NAME": "Goryeo",
+     "SUBJECTO": "Goryeo",
+     "PARTOF": "Goryeo",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Goryeo (918) reunifica Corea en 936 tras el periodo de los Tres Reinos Posteriores",
+    "fuente": "https://en.wikipedia.org/wiki/Goryeo"
+   },
+   {
+    "op": "renombrar",
+    "de": "Aghlabid Emirate",
+    "props": {
+     "NAME": "Fatimid Caliphate",
+     "SUBJECTO": "Fatimid Caliphate",
+     "PARTOF": "Fatimid Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los fatimíes derrocan a los aglabíes en 909 y proclaman su califato en Ifriqiya (Egipto es de 969)",
+    "fuente": "https://en.wikipedia.org/wiki/Fatimid_Caliphate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Abbasid Caliphate"
+      },
+      {
+       "caja": [
+        19,
+        28,
+        25,
+        33.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Fatimid Caliphate"
+    },
+    "motivo": "Barqa (Cirenaica), fatimí desde las primeras campañas contra Egipto (913-921)",
+    "fuente": "https://en.wikipedia.org/wiki/Fatimid_Caliphate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Abbasid Caliphate"
+        },
+        {
+         "caja": [
+          24,
+          21.5,
+          35.2,
+          31.8
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Abbasid Caliphate"
+        },
+        {
+         "caja": [
+          34.2,
+          29.5,
+          37.6,
+          34.8
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ikhshidids",
+     "SUBJECTO": "Ikhshidids",
+     "PARTOF": "Ikhshidids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los ijshidíes gobiernan Egipto, Palestina y el sur de Siria (935-969). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Ikhshidid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Abbasid Caliphate"
+      },
+      {
+       "caja": [
+        35.5,
+        34.8,
+        44.5,
+        38.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hamdanids",
+     "SUBJECTO": "Hamdanids",
+     "PARTOF": "Hamdanids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los hamdaníes de Mosul y de Alepo (Sayf al-Dawla, 945). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Hamdanid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Abbasid Caliphate"
+        },
+        {
+         "caja": [
+          42,
+          29,
+          60,
+          38.5
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Saffarids"
+        },
+        {
+         "caja": [
+          50,
+          23.5,
+          57,
+          37.5
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate",
+     "Saffarids"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Buwayhid Emirates",
+     "SUBJECTO": "Buwayhid Emirates",
+     "PARTOF": "Buwayhid Emirates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los buyíes entran en Bagdad en 945 (Muizz al-Dawla) y dominan Irak, Fars y el Yibal; el califa abasí queda como autoridad religiosa",
+    "fuente": "https://en.wikipedia.org/wiki/Buyid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Abbasid Caliphate"
+      },
+      {
+       "caja": [
+        34,
+        19.5,
+        42.5,
+        29.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ikhshidids"
+    },
+    "motivo": "el Hiyaz (La Meca y Medina) reconoce a los ijshidíes desde c. 935",
+    "fuente": "https://en.wikipedia.org/wiki/Ikhshidid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Abbasid Caliphate"
+      },
+      {
+       "caja": [
+        46.5,
+        22.5,
+        52,
+        29.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Qarmatians",
+     "SUBJECTO": "Qarmatians",
+     "PARTOF": "Qarmatians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los cármatas de Bahréin (al-Ahsa), que saquean La Meca en 930. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Qarmatians"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Abbasid Caliphate"
+      },
+      {
+       "caja": [
+        38.5,
+        38.3,
+        46.5,
+        42
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Armenia",
+     "SUBJECTO": "Armenia",
+     "PARTOF": "Armenia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino bagrátida de Armenia (desde 885), independiente del califato (rótulo del mapa de 1000). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Bagratid_Armenia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Abbasid Caliphate"
+      },
+      {
+       "caja": [
+        46.5,
+        36.3,
+        50.5,
+        41.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Abbasid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sallarids",
+     "SUBJECTO": "Sallarids",
+     "PARTOF": "Sallarids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los salláridas gobiernan Azerbaiyán (941-979). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Sallarid_dynasty"
+   },
+   {
+    "op": "quitar",
+    "de": "Abbasid Caliphate",
+    "a": null,
+    "motivo": "el califa abasí, bajo tutela buyí desde 945, ya no gobierna territorio propio; el interior de Arabia queda sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Abbasid_Caliphate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Saffarids"
+      },
+      {
+       "caja": [
+        57,
+        33,
+        66,
+        37.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Saffarids"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Samanid Empire"
+    },
+    "motivo": "el Jorasán es samánida desde la victoria sobre Amr ibn al-Layth (900); los safáríes quedan en el Sistán",
+    "fuente": "https://en.wikipedia.org/wiki/Samanid_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Emirate of Córdoba",
+    "props": {
+     "NAME": "Caliphate of Córdoba",
+     "SUBJECTO": "Caliphate of Córdoba",
+     "PARTOF": "Caliphate of Córdoba",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Abd al-Rahman III se proclama califa en 929",
+    "fuente": "https://en.wikipedia.org/wiki/Caliphate_of_Córdoba"
+   },
+   {
+    "op": "renombrar",
+    "de": "Asturias",
+    "props": {
+     "NAME": "León",
+     "SUBJECTO": "León",
+     "PARTOF": "León",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino astur traslada su capital a León (910-914): reino de León",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_León"
+   },
+   {
+    "op": "quitar",
+    "de": "Lotharingia",
+    "a": "East Francia",
+    "motivo": "Lotaringia pasa a Francia Oriental en 925 (Enrique I)",
+    "fuente": "https://en.wikipedia.org/wiki/Lotharingia"
+   },
+   {
+    "op": "recortar",
+    "de": "Slavic tribes",
+    "motivo": "los eslavos del Elba, tributarios de Enrique I y Otón I (marcas de 936), solapaban con Francia Oriental",
+    "fuente": "https://en.wikipedia.org/wiki/Polabian_Slavs"
+   },
+   {
+    "op": "recortar",
+    "de": "East Francia",
+    "motivo": "pequeño solape con el reino de Croacia en la frontera de Carintia",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(925–1102)"
+   },
+   {
+    "op": "quitar",
+    "de": "Great Moravia",
+    "a": "Magyars",
+    "motivo": "la Gran Moravia se hunde ante los magiares hacia 906",
+    "fuente": "https://en.wikipedia.org/wiki/Great_Moravia"
+   }
+  ],
+  "world_1350.geojson<world_1300.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Raška",
+    "props": {
+     "NAME": "Serbian Empire",
+     "SUBJECTO": "Serbian Empire",
+     "PARTOF": "Serbian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Esteban Dušan se corona emperador de serbios y griegos en Skopie (16-4-1346)",
+    "fuente": "https://en.wikipedia.org/wiki/Serbian_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Byzantine Empire"
+        },
+        {
+         "caja": [
+          19.2,
+          38.6,
+          23.9,
+          42.4
+         ]
+        }
+       ]
+      },
+      {
+       "caja": [
+        22.6,
+        39.9,
+        24.5,
+        41.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Serbian Empire"
+    },
+    "motivo": "Dušan conquista Macedonia, Albania, el Epiro y Tesalia (1342-1348); Tesalónica sigue bizantina. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Serbian_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      26.2,
+      39.3,
+      31.2,
+      41.3
+     ]
+    },
+    "desde": [
+     "Byzantine Empire",
+     "Sultanate of Rum"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ottoman Empire",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "beylicato otomano de Orhan: Bursa (1326), Nicea (1331), Nicomedia (1337) y Karasi (1345); Galípoli es de 1354. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Orhan"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34,
+      37,
+      41.5,
+      41.3
+     ]
+    },
+    "desde": [
+     "Sultanate of Rum",
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Eretnids",
+     "SUBJECTO": "Eretnids",
+     "PARTOF": "Eretnids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Eretna, antiguo gobernador iljaní, se independiza en Anatolia central y oriental (Sivas, Kayseri) en 1335-1343. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Eretnids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Byzantine Empire"
+      },
+      {
+       "caja": [
+        26,
+        36,
+        35,
+        41.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Byzantine Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Anatolian beyliks",
+     "SUBJECTO": "Anatolian beyliks",
+     "PARTOF": "Anatolian beyliks",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el sultanato de Rum desaparece en 1308: Anatolia occidental se reparte entre beylicatos turcos (Aydın, Saruhan, Menteşe, Germiyan, Karamán)",
+    "fuente": "https://en.wikipedia.org/wiki/Anatolian_beyliks"
+   },
+   {
+    "op": "quitar",
+    "de": "Sultanate of Rum",
+    "a": "Anatolian beyliks",
+    "motivo": "el sultanato de Rum desaparece en 1308; sus tierras quedan en manos de los beylicatos",
+    "fuente": "https://en.wikipedia.org/wiki/Anatolian_beyliks"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        38,
+        29,
+        48.5,
+        37.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jalayirids",
+     "SUBJECTO": "Jalayirids",
+     "PARTOF": "Jalayirids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Iljanato se descompone tras la muerte de Abu Said (1335); los yalayíríes se hacen con Bagdad (1339). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Jalayirid_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        44,
+        35,
+        51,
+        40.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Chobanids",
+     "SUBJECTO": "Chobanids",
+     "PARTOF": "Chobanids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los chobaníes dominan Azerbaiyán desde Tabriz (1338-1357). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Chobanids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        50,
+        26.5,
+        55,
+        32
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Injuids",
+     "SUBJECTO": "Injuids",
+     "PARTOF": "Injuids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los inyuíes gobiernan Fars desde Shiraz (1335-1357). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Injuids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        54,
+        26,
+        59.5,
+        33.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Muzaffarids",
+     "SUBJECTO": "Muzaffarids",
+     "PARTOF": "Muzaffarids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los muzafaríes de Yazd y Kermán (desde 1314; Kermán en 1340). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Muzaffarids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        55,
+        35,
+        59.5,
+        37.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sarbadars",
+     "SUBJECTO": "Sarbadars",
+     "PARTOF": "Sarbadars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los sarbadares de Sabzevar (1337-1381). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Sarbadars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        59.5,
+        30.5,
+        66,
+        37.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kartids",
+     "SUBJECTO": "Kartids",
+     "PARTOF": "Kartids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la dinastía kártida de Herat (1245-1381), independiente tras 1335. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Kart_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        41.5,
+        37.5,
+        50.5,
+        43
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Chobanids"
+    },
+    "motivo": "Arrán, Armenia y el vasallaje georgiano, bajo los chobaníes, que entronizan a kanes títeres hasta 1357",
+    "fuente": "https://en.wikipedia.org/wiki/Chobanids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        35.5,
+        35,
+        38.5,
+        37.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Mamluke Sultanate"
+    },
+    "motivo": "el curso alto del Éufrates al oeste de Harrán queda en la órbita mameluca de Alepo. Aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Mamluk_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        45,
+        23,
+        52,
+        29.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "la costa árabe del golfo no depende de ningún sucesor iljaní: sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Ilkhanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ilkhanate"
+      },
+      {
+       "caja": [
+        64,
+        28,
+        70,
+        37.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ilkhanate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kartids"
+    },
+    "motivo": "Gur, Farah y el oeste afgano, en la órbita kártida. Aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Kart_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Ilkhanate"
+    },
+    "poner": {
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el resto (Jorasán y Gurgán) es del último pretendiente iljaní, Togha Temür (1338-1353); se mantiene el rótulo «Ilkhanate»",
+    "fuente": "https://en.wikipedia.org/wiki/Togha_Temür"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "minor Hindu kingdoms"
+      },
+      {
+       "caja": [
+        68,
+        20.8,
+        85,
+        25
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "minor Hindu kingdoms"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Sultanate of Delhi"
+    },
+    "motivo": "Gujarat y Malwa, conquistados por Alauddin Jalji (1299-1305), siguen en el sultanato de los Tughluq",
+    "fuente": "https://en.wikipedia.org/wiki/Delhi_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      73,
+      16.2,
+      80.3,
+      20.8
+     ]
+    },
+    "desde": [
+     "minor Hindu kingdoms",
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bahmani Kingdom",
+     "SUBJECTO": "Bahmani Kingdom",
+     "PARTOF": "Bahmani Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato bahmaní (Gulbarga, 1347); la misma caja que en el mapa de 1400",
+    "fuente": "https://en.wikipedia.org/wiki/Bahmani_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      76.5,
+      8,
+      80.5,
+      11.3
+     ]
+    },
+    "desde": [
+     "Pandya state",
+     "minor Hindu kingdoms"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Madurai Sultanate",
+     "SUBJECTO": "Madurai Sultanate",
+     "PARTOF": "Madurai Sultanate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sultanato de Madurai (1335-1378), escindido de Delhi. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Madurai_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      73.5,
+      8,
+      80.5,
+      16.2
+     ]
+    },
+    "desde": [
+     "minor Hindu kingdoms",
+     "Pandya state"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Vijayanagara",
+     "SUBJECTO": "Vijayanagara",
+     "PARTOF": "Vijayanagara",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Vijayanagara (Harihara I, 1336, Hampi) al sur del Krishna",
+    "fuente": "https://en.wikipedia.org/wiki/Vijayanagara_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      86.3,
+      20.5,
+      92.8,
+      27.5
+     ]
+    },
+    "desde": [
+     "Sultanate of Delhi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Bengal",
+     "SUBJECTO": "Bengal",
+     "PARTOF": "Bengal",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Bengala se separa de Delhi en 1338 (Fajruddín, Ilyas Shah en Lajnauti desde 1342; unificación en 1352)",
+    "fuente": "https://en.wikipedia.org/wiki/Bengal_Sultanate"
+   },
+   {
+    "op": "renombrar",
+    "de": "Shogun Japan (Kamakura)",
+    "props": {
+     "NAME": "Japan (Muromachi)",
+     "SUBJECTO": "Japan (Muromachi)",
+     "PARTOF": "Japan (Muromachi)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Kamakura cae en 1333; shogunato Ashikaga (1336-1573), rótulo del mapa de 1400",
+    "fuente": "https://en.wikipedia.org/wiki/Muromachi_period"
+   }
+  ],
+  "world_720.geojson<world_700.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -7.3,
+      42.8,
+      -4.2,
+      43.8
+     ]
+    },
+    "desde": [
+     "Visigothic Kingdom"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Asturias",
+     "SUBJECTO": "Asturias",
+     "PARTOF": "Asturias",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "núcleo astur de Pelayo en los Picos de Europa (Covadonga, 718 o 722); rótulo del mapa de 800. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Asturias"
+   },
+   {
+    "op": "quitar",
+    "de": "Visigothic Kingdom",
+    "a": "Umayyad Caliphate",
+    "motivo": "conquista omeya de Hispania: Guadalete (711), Toledo (711-712), Zaragoza (714) y Narbona (719-720): al-Ándalus, provincia del califato de Damasco",
+    "fuente": "https://en.wikipedia.org/wiki/Umayyad_conquest_of_Hispania"
+   },
+   {
+    "op": "quitar",
+    "de": "Kingdom of Sind",
+    "a": "Umayyad Caliphate",
+    "motivo": "Muhammad ibn al-Qasim conquista el Makrán y el Sind, con Debal, Brahmanabad y Multán (711-714)",
+    "fuente": "https://en.wikipedia.org/wiki/Umayyad_campaigns_in_India"
+   },
+   {
+    "op": "quitar",
+    "de": "Kwarezm",
+    "a": "Umayyad Caliphate",
+    "motivo": "Qutayba toma Corasmia (712) y acaba con los afríguidas como reyes independientes",
+    "fuente": "https://en.wikipedia.org/wiki/Afrighids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      56,
+      37,
+      69.5,
+      43.5
+     ]
+    },
+    "desde": [
+     "Türgesh"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Umayyad Caliphate"
+    },
+    "motivo": "Qutayba ibn Muslim somete Bujará (709), Corasmia y Samarcanda (712); en 720 el Oxus inferior y Sogdiana son omeyas, disputados por los turguesos. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Transoxiana"
+   }
+  ],
+  "world_560.geojson<world_500.geojson": [
+   {
+    "op": "quitar",
+    "de": "Vandals",
+    "a": "Eastern Roman Empire",
+    "motivo": "Belisario acaba con el reino vándalo (Ad Decimum y Tricamarum, 533-534): África, Cerdeña, Córcega y Baleares vuelven al Imperio",
+    "fuente": "https://en.wikipedia.org/wiki/Vandalic_War"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ostrogoths"
+      },
+      {
+       "caja": [
+        4.2,
+        42.9,
+        7.8,
+        46.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Franks"
+    },
+    "motivo": "los ostrogodos ceden la Provenza a los francos en 537",
+    "fuente": "https://en.wikipedia.org/wiki/Provence"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ostrogoths"
+      },
+      {
+       "caja": [
+        4.2,
+        46.3,
+        13.9,
+        49.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Franks"
+    },
+    "motivo": "Recia y el Nórico occidental pasan a la órbita franca (alamanes y bávaros) durante la guerra gótica. Aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Gothic_War_(535–554)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Ostrogoths"
+      },
+      {
+       "caja": [
+        13.9,
+        45.8,
+        19.2,
+        49.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Lombards",
+     "SUBJECTO": "Lombards",
+     "PARTOF": "Lombards",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los lombardos se asientan en Panonia y el Nórico oriental hacia 546-547, como federados de Justiniano (hasta 568)",
+    "fuente": "https://en.wikipedia.org/wiki/Lombards"
+   },
+   {
+    "op": "quitar",
+    "de": "Ostrogoths",
+    "a": "Eastern Roman Empire",
+    "motivo": "guerra gótica (535-554): Italia y Dalmacia vuelven al Imperio; la Pragmática Sanción es de 554",
+    "fuente": "https://en.wikipedia.org/wiki/Gothic_War_(535–554)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Visigoths"
+        },
+        {
+         "caja": [
+          -2.5,
+          42.9,
+          7.8,
+          48.5
+         ]
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         1.6,
+         42.3
+        ],
+        [
+         3.4,
+         42.3
+        ],
+        [
+         4.2,
+         43.3
+        ],
+        [
+         4.8,
+         43.6
+        ],
+        [
+         4.5,
+         44.2
+        ],
+        [
+         3.4,
+         44.1
+        ],
+        [
+         2.2,
+         43.6
+        ],
+        [
+         1.6,
+         43.0
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Visigoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Franks"
+    },
+    "motivo": "Clodoveo vence a Alarico II en Vouillé (507): Aquitania es franca; a los visigodos les queda la Septimania",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Vouillé"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Visigoths"
+      },
+      {
+       "pol": [
+        [
+         -6.4,
+         36.0
+        ],
+        [
+         -5.0,
+         36.9
+        ],
+        [
+         -3.6,
+         37.4
+        ],
+        [
+         -2.0,
+         38.1
+        ],
+        [
+         -0.3,
+         38.9
+        ],
+        [
+         0.3,
+         38.8
+        ],
+        [
+         -0.2,
+         38.3
+        ],
+        [
+         -1.5,
+         37.3
+        ],
+        [
+         -2.5,
+         36.6
+        ],
+        [
+         -4.5,
+         36.5
+        ],
+        [
+         -5.6,
+         35.9
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Visigoths"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Eastern Roman Empire"
+    },
+    "motivo": "provincia bizantina de Spania (desde 552), de Cartagena a Málaga. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Spania"
+   },
+   {
+    "op": "quitar",
+    "de": "Burgunds",
+    "a": "Franks",
+    "motivo": "los francos conquistan el reino burgundio (532-534)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_the_Burgundians"
+   },
+   {
+    "op": "quitar",
+    "de": "Turingians",
+    "a": "Franks",
+    "motivo": "los francos someten Turingia (531)",
+    "fuente": "https://en.wikipedia.org/wiki/Thuringii"
+   },
+   {
+    "op": "renombrar",
+    "de": "Ruanruan",
+    "props": {
+     "NAME": "Göktürk Khaganate",
+     "SUBJECTO": "Göktürk Khaganate",
+     "PARTOF": "Göktürk Khaganate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los göktürks de Bumin derrotan a los rouran en 552: primer kaganato turco",
+    "fuente": "https://en.wikipedia.org/wiki/First_Turkic_Khaganate"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Himyarite Kingdom"
+    },
+    "poner": {
+     "SUBJECTO": "Axum"
+    },
+    "motivo": "Aksum conquista Himyar en 525; Abraha gobierna el Yemen como virrey, en la práctica autónomo, hasta c. 570",
+    "fuente": "https://en.wikipedia.org/wiki/Abraha"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Southern Qi"
+      },
+      {
+       "caja": [
+        97,
+        26,
+        110,
+        33.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Southern Qi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Northern Zhou",
+     "SUBJECTO": "Northern Zhou",
+     "PARTOF": "Northern Zhou",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Wei Occidental toma Sichuan en 553; desde 557 es Zhou del Norte. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Zhou"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Southern Qi"
+      },
+      {
+       "caja": [
+        112,
+        32.3,
+        123,
+        38.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Southern Qi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Toba Wei"
+    },
+    "motivo": "los Qi del Norte ocupan el Huainan hasta el Yangtsé (555); la frontera con Chen queda en el río. Aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Qi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Southern Qi"
+      },
+      {
+       "caja": [
+        104,
+        30.6,
+        112,
+        34
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Southern Qi"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Northern Zhou"
+    },
+    "motivo": "Wei Occidental toma Hanzhong y Xiangyang y reduce a los Liang a un Estado títere en Jiangling (554). Aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Western_Liang"
+   },
+   {
+    "op": "renombrar",
+    "de": "Southern Qi",
+    "props": {
+     "NAME": "Chen",
+     "SUBJECTO": "Chen",
+     "PARTOF": "Chen",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en el sur, a los Qi Meridionales (479-502) les suceden los Liang (502-557) y los Chen (557-589)",
+    "fuente": "https://en.wikipedia.org/wiki/Chen_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Toba Wei"
+      },
+      {
+       "caja": [
+        90,
+        20,
+        111.3,
+        45
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Toba Wei"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Northern Zhou"
+    },
+    "motivo": "los Wei del Norte se dividen en 534-535; el oeste (Chang'an) es Zhou del Norte desde 557. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Zhou"
+   },
+   {
+    "op": "renombrar",
+    "de": "Toba Wei",
+    "props": {
+     "NAME": "Northern Qi",
+     "SUBJECTO": "Northern Qi",
+     "PARTOF": "Northern Qi",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el este de los antiguos Wei (Ye) es Qi del Norte desde 550",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Qi"
+   }
+  ],
+  "world_1150.geojson<world_1100.geojson": [
+   {
+    "op": "quitar",
+    "de": "Taifa of Zaragoza",
+    "a": "Aragón",
+    "motivo": "Alfonso I el Batallador toma Zaragoza en 1118",
+    "fuente": "https://en.wikipedia.org/wiki/Alfonso_the_Battler"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almoravid dynasty"
+      },
+      {
+       "caja": [
+        -0.2,
+        40.4,
+        1.5,
+        42.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Aragón"
+    },
+    "motivo": "Ramón Berenguer IV, príncipe de Aragón y conde de Barcelona (unión de 1137), toma Tortosa (1148) y Lérida (1149)",
+    "fuente": "https://en.wikipedia.org/wiki/Crown_of_Aragon"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "León"
+      },
+      {
+       "caja": [
+        -9.6,
+        39.0,
+        -6.8,
+        41.9
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "León"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Portugal",
+     "SUBJECTO": "Portugal",
+     "PARTOF": "Portugal",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Alfonso Enríquez se proclama rey tras Ourique (1139); Zamora (1143) y la bula de 1179 lo confirman",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Portugal"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -9.6,
+      38.6,
+      -7.8,
+      39.8
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Portugal"
+    },
+    "motivo": "Santarém y Lisboa, conquistadas en 1147 (con ayuda cruzada)",
+    "fuente": "https://en.wikipedia.org/wiki/Siege_of_Lisbon"
+   },
+   {
+    "op": "renombrar",
+    "de": "Principality of Valencia (El Cid)",
+    "props": {
+     "NAME": "Taifa of Murcia (Ibn Mardanish)",
+     "SUBJECTO": "Taifa of Murcia (Ibn Mardanish)",
+     "PARTOF": "Taifa of Murcia (Ibn Mardanish)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras los almorávides (Valencia 1102), el «rey Lobo» Ibn Mardanís gobierna Valencia y Murcia (1147-1172)",
+    "fuente": "https://en.wikipedia.org/wiki/Muhammad_ibn_Mardanish"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almoravid dynasty"
+      },
+      {
+       "caja": [
+        -2.5,
+        37.3,
+        0.3,
+        40.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Taifa of Murcia (Ibn Mardanish)"
+    },
+    "motivo": "Murcia, capital de Ibn Mardanís. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Muhammad_ibn_Mardanish"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almoravid dynasty"
+      },
+      {
+       "caja": [
+        -18,
+        14,
+        6,
+        27
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "el Sáhara occidental y el Sahel, cuna de los almorávides, no pasan a los almohades: sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Almohad_Caliphate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Almoravid dynasty"
+      },
+      {
+       "y": [
+        {
+         "caja": [
+          -18,
+          27,
+          6,
+          35.95
+         ]
+        },
+        {
+         "caja": [
+          -10,
+          35.95,
+          -1.8,
+          44
+         ]
+        },
+        {
+         "caja": [
+          -1.8,
+          37.3,
+          0.5,
+          44
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Almoravid dynasty"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Almohad Caliphate",
+     "SUBJECTO": "Almohad Caliphate",
+     "PARTOF": "Almohad Caliphate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Abd al-Mumin toma Marrakech (1147) y acaba con los almorávides; en al-Ándalus los almohades ganan Sevilla (1147) y Córdoba (1149) frente a las segundas taifas. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Almohad_Caliphate"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Almoravid dynasty"
+    },
+    "poner": {
+     "BORDERPRECISION": 1
+    },
+    "motivo": "a los almorávides solo les quedan las Baleares, con los Banu Ganiya (hasta 1203)",
+    "fuente": "https://en.wikipedia.org/wiki/Banu_Ghaniya"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Fatimid Caliphate"
+      },
+      {
+       "caja": [
+        0.4,
+        28,
+        6.5,
+        37.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Hammadid Emirate",
+     "SUBJECTO": "Hammadid Emirate",
+     "PARTOF": "Hammadid Emirate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "emirato hammadí de Bugía, independiente desde 1014-1015 (almohade en 1152)",
+    "fuente": "https://en.wikipedia.org/wiki/Hammadid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Fatimid Caliphate"
+      },
+      {
+       "pol": [
+        [
+         10.0,
+         36.1
+        ],
+        [
+         11.2,
+         36.1
+        ],
+        [
+         11.2,
+         35.0
+        ],
+        [
+         10.8,
+         34.2
+        ],
+        [
+         11.8,
+         33.2
+        ],
+        [
+         13.8,
+         32.95
+        ],
+        [
+         13.8,
+         32.5
+        ],
+        [
+         11.5,
+         32.6
+        ],
+        [
+         10.2,
+         33.8
+        ],
+        [
+         10.2,
+         35.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kingdom of Sicily",
+     "SUBJECTO": "Kingdom of Sicily",
+     "PARTOF": "Kingdom of Sicily",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el «reino de África» normando: Trípoli (1146), Mahdia, Susa y Sfax (1148)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Africa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Fatimid Caliphate"
+      },
+      {
+       "caja": [
+        6.5,
+        28,
+        15.8,
+        38
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Fatimid Caliphate"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "el interior de Ifriqiya, en manos de tribus hilalíes y emiratos locales tras el fin zirí (1148): sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Banu_Hilal"
+   },
+   {
+    "op": "renombrar",
+    "de": "Norman Italy",
+    "props": {
+     "NAME": "Kingdom of Sicily",
+     "SUBJECTO": "Kingdom of Sicily",
+     "PARTOF": "Kingdom of Sicily",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Rogerio II es coronado rey de Sicilia en 1130 y une la isla, Apulia, Calabria y Nápoles (1139)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "feat": "County of Edessa"
+      },
+      {
+       "n": [
+        {
+         "feat": "Byzantine Empire"
+        },
+        {
+         "caja": [
+          36.3,
+          35,
+          40,
+          37.2
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Seljuk Empire"
+        },
+        {
+         "caja": [
+          39,
+          34.5,
+          44.5,
+          37.8
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "County of Edessa",
+     "Byzantine Empire",
+     "Seljuk Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Zengids",
+     "SUBJECTO": "Zengids",
+     "PARTOF": "Zengids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Zengi (atabeg de Mosul y Alepo) toma Edesa en 1144; su hijo Nur al-Din reina en Alepo desde 1146. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Zengid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      35.6,
+      33.9,
+      36.6,
+      34.8
+     ]
+    },
+    "desde": "*",
+    "libre": true,
+    "props": {
+     "NAME": "County of Tripoli",
+     "SUBJECTO": "County of Tripoli",
+     "PARTOF": "County of Tripoli",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "condado de Trípoli (1109-1289)",
+    "fuente": "https://en.wikipedia.org/wiki/County_of_Tripoli"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      124,
+      33,
+      131,
+      38.7
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Korea"
+    },
+    "motivo": "el sur de la península, sin datos en el mapa base, es del mismo reino de Goryeo (918-1392)",
+    "fuente": "https://en.wikipedia.org/wiki/Goryeo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       100,
+       34.2
+      ],
+      [
+       104.5,
+       34.2
+      ],
+      [
+       106.5,
+       33.6
+      ],
+      [
+       108.5,
+       33.8
+      ],
+      [
+       110.5,
+       33.4
+      ],
+      [
+       112.5,
+       32.8
+      ],
+      [
+       114,
+       32.4
+      ],
+      [
+       115.5,
+       32.6
+      ],
+      [
+       117,
+       32.9
+      ],
+      [
+       118.5,
+       33.2
+      ],
+      [
+       119.3,
+       33.9
+      ],
+      [
+       120.5,
+       34.3
+      ],
+      [
+       123,
+       34.3
+      ],
+      [
+       123,
+       42
+      ],
+      [
+       100,
+       42
+      ]
+     ]
+    },
+    "desde": [
+     "Song Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Jin Empire",
+     "SUBJECTO": "Jin Empire",
+     "PARTOF": "Jin Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los yurchen toman Kaifeng (1127); por el tratado de Shaoxing (1142) la frontera con los Song queda en el Huai. La misma línea que en el mapa de 1200",
+    "fuente": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115–1234)"
+   },
+   {
+    "op": "quitar",
+    "de": "Liao",
+    "a": "Jin Empire",
+    "motivo": "los Jin acaban con los Liao en 1125",
+    "fuente": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115–1234)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Karkhanids"
+        },
+        {
+         "caja": [
+          70,
+          38,
+          90,
+          46
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Cuman-Kipchak confederation"
+        },
+        {
+         "caja": [
+          70,
+          40.8,
+          90,
+          48
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Karkhanids",
+     "Cuman-Kipchak confederation"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kara Khitai Khaganate",
+     "SUBJECTO": "Kara Khitai Khaganate",
+     "PARTOF": "Kara Khitai Khaganate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Yelü Dashi funda el kanato kara-kitai en Balasagun (1124-1134) y vence a los selyúcidas en Qatwan (1141). Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Qara_Khitai"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Karkhanids"
+    },
+    "poner": {
+     "SUBJECTO": "Kara Khitai Khaganate"
+    },
+    "motivo": "los karajánidas occidentales (Samarcanda) son vasallos de los kara-kitai tras Qatwan (1141)",
+    "fuente": "https://en.wikipedia.org/wiki/Kara-Khanid_Khanate"
+   }
+  ]
+ }
+}
