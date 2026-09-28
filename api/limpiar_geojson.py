@@ -41,6 +41,18 @@ PARCHES = {
         ({"NAME": "Qatar", "SUBJECTO": "Qatar"}, "duplica «Qatar» (protectorado británico, como en el mapa de 1930)"),
         ({"NAME": "Trucial Oman", "SUBJECTO": "Trucial Oman"}, "duplica «Trucial Oman» (protectorado británico, como en el mapa de 1930)"),
     ],
+    "world_1994.geojson": [
+        ({"NAME": "Switzerland", "RELLENO": None}, "polígono «Switzerland» de área nula; el país lo pinta el relleno de RELLENOS (api/rellenar_geojson.py)"),
+    ],
+    "world_2000.geojson": [
+        ({"NAME": "Switzerland", "RELLENO": None}, "polígono «Switzerland» de área nula; el país lo pinta el relleno de RELLENOS (api/rellenar_geojson.py)"),
+    ],
+    "world_2010.geojson": [
+        ({"NAME": "Switzerland", "RELLENO": None}, "polígono «Switzerland» de área nula; el país lo pinta el relleno de RELLENOS (api/rellenar_geojson.py)"),
+    ],
+    "world_2011.geojson": [
+        ({"NAME": "Switzerland", "RELLENO": None}, "polígono «Switzerland» de área nula; el país lo pinta el relleno de RELLENOS (api/rellenar_geojson.py)"),
+    ],
 }
 
 

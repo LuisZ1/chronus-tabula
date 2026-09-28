@@ -38,6 +38,18 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOJSON = os.path.join(RAIZ, "web", "data", "geojson")
 MIN_KM2 = 2000  # trozos menores no se añaden (bordes de recorte)
 
+# Capas de la Antigüedad que se repiten en varios mapas (consulta c03). IRL es aparte de CEL
+# porque un relleno (NAME, origen) ya aplicado no se repite; en cada mapa solo se usa uno de los dos.
+_CTB = ("world_bc500.geojson", "Celtiberians", "celtíberos e íberos del interior peninsular (Numancia)")
+_CEL = ("world_bc400.geojson", "Celts", "celtas de las islas británicas y del norte de la Galia")
+_THR = ("world_bc500.geojson", "Thrace", "tracios (reino odrisio desde c. 480 a. C.)")
+_GER = ("world_bc400.geojson", "Germanic tribes", "pueblos germánicos")
+_SCY = ("world_bc400.geojson", "Scythians", "escitas de la estepa póntica")
+_ARN = ("world_bc500.geojson", "Arabian pastoral nomads", "pastores nómadas de Arabia")
+_ARA = ("world_bc200.geojson", "Arabs", "tribus árabes de Arabia central")
+_IRL = ("world_bc400.geojson", "Celts", "reinos gaélicos de Irlanda y pueblos de Caledonia (Hibernia nunca fue romana)")
+_SAR = ("world_bc100.geojson", "Sarmates", "sármatas y alanos de la estepa póntica")
+
 # destino -> [(mapa de origen, NAME en el origen, motivo)], en orden de prioridad
 RELLENOS = {
     "world_bc500.geojson": [
@@ -59,6 +71,39 @@ RELLENOS = {
         # descartados a propósito: «Proto-Thai cultures» (el mapa de origen las sitúa en
         # Manchuria), «Cimerians» (desaparecidos antes de 500 a. C.), «Karasuk culture»
         # (anterior) y «Burmese» (los birmanos llegan en el siglo IX)
+    ],
+    # Antigüedad, de -323 a 500 (consulta c03; revisiones/aplicadas/2026-09-28-carto-A-tierra-sin-datos-323ac-500.md).
+    # Los celtas continentales de -323 a -100 no van aquí: se rotulan «La Tène Celts» con una operación
+    # «asignar» en api/correcciones/10-antiguedad.json (la capa de Hallstatt de 400 a. C. es la única geometría).
+    "world_bc323.geojson": [_CTB, _CEL, _THR, _GER, _SCY, _ARN],
+    "world_bc300.geojson": [_CTB, _CEL, _THR, _GER, _SCY, _ARN],
+    "world_bc200.geojson": [_CTB, _CEL, _THR, _GER, _ARN],
+    "world_bc100.geojson": [_CTB, _CEL, _GER, _ARA],
+    "world_bc1.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_100.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_200.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_300.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_400.geojson": [_IRL, _GER, _ARA],
+    "world_500.geojson": [_IRL, _GER, _ARA],
+    # world_560 se deriva en corregir_mapas.py del estado corregido de world_500, antes de sus rellenos
+    "world_560.geojson": [_IRL, _GER, _ARA],
+    # Corea (Joseon) con un hueco sin datos alrededor de Hanseong/Seúl, capital desde 1405
+    "world_1600.geojson": [
+        ("world_1650.geojson", "Korea", "hueco sin datos dentro de Joseon (Hanseong/Seúl, capital desde 1405)"),
+    ],
+    "world_1715.geojson": [
+        ("world_1650.geojson", "Korea", "hueco sin datos dentro de Joseon (Hanseong/Seúl)"),
+    ],
+    # Suiza: en estos mapas el polígono «Switzerland» tiene área nula y el país es un polígono sin NAME;
+    # se toma la geometría de world_1960 (fronteras sin cambios desde 1815). world_2011 deriva de world_2010.
+    "world_1994.geojson": [
+        ("world_1960.geojson", "Switzerland", "Suiza sin datos: el polígono «Switzerland» de este mapa tiene área nula; geometría de world_1960"),
+    ],
+    "world_2000.geojson": [
+        ("world_1960.geojson", "Switzerland", "Suiza sin datos: el polígono «Switzerland» de este mapa tiene área nula; geometría de world_1960"),
+    ],
+    "world_2010.geojson": [
+        ("world_1960.geojson", "Switzerland", "Suiza sin datos: el polígono «Switzerland» de este mapa tiene área nula; geometría de world_1960"),
     ],
 }
 
