@@ -24,3 +24,6 @@ web/data/historia.json
 
 # material de trabajo de la skill Impeccable (briefs, capturas de revisión): local
 .impeccable/
+
+# buzón de trabajo de los agentes historiador, cartógrafo y árbitro: local
+revisiones/
