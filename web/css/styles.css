@@ -1451,3 +1451,149 @@ body {
 	color: var(--tinta-2);
 	line-height: 1.45;
 }
+
+/* ---- Ficha en el móvil: hoja modal desde abajo (js/fichas.js abrirHojaFicha) ----
+   Los globos de Leaflet no se muestran en el móvil: la ficha ocupa casi toda la
+   pantalla sobre el mapa oscurecido y se cierra con la ✕ (44 px), tocando fuera,
+   deslizando hacia abajo, con Escape o con «atrás». */
+@media (max-width: 720px) {
+	.leaflet-popup-pane {
+		display: none;
+	}
+}
+.hoja-ficha {
+	position: fixed;
+	inset: 0;
+	z-index: 3000;
+}
+.hoja-ficha[hidden] {
+	display: none;
+}
+.hoja-velo {
+	position: absolute;
+	inset: 0;
+	background: rgba(20, 32, 43, 0.55);
+	opacity: 0;
+	transition: opacity 220ms var(--ease-out);
+}
+.hoja-panel {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	max-height: calc(100dvh - 40px);
+	min-height: 40dvh;
+	background: var(--papel);
+	border-top: var(--filete);
+	border-radius: var(--r-panel) var(--r-panel) 0 0;
+	box-shadow: 0 -8px 30px rgba(20, 32, 43, 0.25);
+	transform: translateY(100%);
+	transition: transform 260ms var(--ease-out);
+	padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.hoja-ficha.abierta .hoja-velo {
+	opacity: 1;
+}
+.hoja-ficha.abierta .hoja-panel {
+	transform: translateY(0);
+}
+.hoja-panel:focus {
+	outline: none;
+}
+.hoja-cab {
+	position: relative;
+	flex: none;
+	height: 40px;
+	touch-action: none;
+}
+.hoja-asa {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	width: 40px;
+	height: 4px;
+	margin-left: -20px;
+	border-radius: 2px;
+	background: #c5cfd7;
+}
+.hoja-cerrar {
+	position: absolute;
+	top: 2px;
+	right: 6px;
+	width: 44px;
+	height: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	border-radius: var(--r-control);
+	background: transparent;
+	color: var(--tinta);
+	cursor: pointer;
+	touch-action: manipulation;
+}
+.hoja-cerrar:active {
+	background: var(--papel-2);
+}
+.hoja-cuerpo {
+	flex: 1;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
+	padding: 0 20px 24px;
+}
+.hoja-cuerpo .territory-popup h3 {
+	margin: 0 44px 12px 0;
+	font-size: 1.5rem;
+	font-weight: 800;
+	font-stretch: 75%;
+	line-height: 1.1;
+}
+.hoja-cuerpo .territory-popup table {
+	width: 100%;
+	font-size: 15px;
+}
+.hoja-cuerpo .territory-popup td {
+	padding: 7px 10px 7px 0;
+	border-bottom: 1px solid var(--linea-suave);
+}
+.hoja-cuerpo .territory-popup td:first-child {
+	width: 40%;
+	white-space: normal;
+	color: var(--tinta-2);
+}
+.hoja-cuerpo .territory-popup p,
+.hoja-cuerpo .wiki-extract p {
+	font-size: 15px;
+	line-height: 1.5;
+	color: var(--tinta);
+}
+.hoja-cuerpo .wiki-extract {
+	max-width: none;
+	margin-top: 14px;
+	padding-top: 12px;
+}
+.hoja-cuerpo .wiki-extract img {
+	width: 88px;
+}
+.hoja-cuerpo .wiki-src {
+	font-size: 12px;
+}
+.hoja-cuerpo a {
+	display: inline-block;
+	min-height: 24px;
+}
+.hoja-cuerpo details.fuentes summary {
+	display: flex;
+	align-items: center;
+	min-height: 44px;
+	font-size: 15px;
+}
+@media (prefers-reduced-motion: reduce) {
+	.hoja-velo,
+	.hoja-panel {
+		transition: none;
+	}
+}
