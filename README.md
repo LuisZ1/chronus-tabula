@@ -70,6 +70,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   compilar.py               genera web/data/historia.json a partir de datos/
   dividir.py                importa un historia.json monolítico al árbol datos/
   limpiar_geojson.py        retira entidades duplicadas/anacrónicas conocidas de los mapas base
+  rellenar_geojson.py       rellena la tierra sin atribuir con pueblos de mapas vecinos (usa shapely)
                               (parches documentados; --check en CI)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)

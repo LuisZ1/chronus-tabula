@@ -1443,3 +1443,11 @@ body {
 	border-radius: 2px;
 }
 
+
+/* ficha de la tierra sin atribuir en el mapa de origen (js/mapa.js sinDatos) */
+.sin-datos-popup p {
+	margin: 4px 0 0;
+	max-width: 30ch;
+	color: var(--tinta-2);
+	line-height: 1.45;
+}
