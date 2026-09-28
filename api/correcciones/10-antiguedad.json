@@ -1,0 +1,3503 @@
+{
+ "tema": "Antigüedad: fronteras (c02), etiquetas (c01) y mapas intermedios (c03); specs del cartógrafo A en el orden de todo_all.sh: egipto, oriente100, sasanida, india, occidente, etiq_ant, china400, ant1, nuevos",
+ "mapas": {
+  "world_bc400.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -20,
+      0,
+      32.6,
+      32.5
+     ]
+    },
+    "desde": [
+     "Achaemenid Empire"
+    ],
+    "props": {
+     "NAME": "Egypt",
+     "SUBJECTO": "Egypt",
+     "PARTOF": "Egypt",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Egipto independiente (dinastías XXVIII-XXX, 404-343 a. C.)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Xiongnu",
+    "props": {
+     "NAME": "Proto-Altaic pastoralists",
+     "SUBJECTO": "Prot-Altaic pastoralists",
+     "PARTOF": "Proto-Altaic pastoralists"
+    },
+    "motivo": "la confederación xiongnu es de Modu Chanyu (209 a. C.); en 400 a. C., pastores de la estepa (nombre de world_bc500)"
+   }
+  ],
+  "world_bc100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.0,
+       43
+      ],
+      [
+       38.0,
+       37.0
+      ],
+      [
+       38.4,
+       36.4
+      ],
+      [
+       40.2,
+       35.0
+      ],
+      [
+       41.3,
+       34.4
+      ],
+      [
+       43.0,
+       33.2
+      ],
+      [
+       44.3,
+       32.3
+      ],
+      [
+       46.5,
+       31.0
+      ],
+      [
+       48.5,
+       29.0
+      ],
+      [
+       48.5,
+       20
+      ],
+      [
+       70,
+       20
+      ],
+      [
+       70,
+       43
+      ]
+     ]
+    },
+    "desde": [
+     "Seleucid Kingdom"
+    ],
+    "props": {
+     "NAME": "Parthia",
+     "SUBJECTO": "Parthia",
+     "PARTOF": "Parthia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Mitrídates I toma Media (148/147 a. C.) y Seleucia (141 a. C.); hacia 100 a. C. el Éufrates es la frontera parto-seléucida"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        38.6,
+        20,
+        48.5,
+        34.6
+       ]
+      },
+      {
+       "pol": [
+        [
+         38.0,
+         43
+        ],
+        [
+         38.0,
+         37.0
+        ],
+        [
+         38.4,
+         36.4
+        ],
+        [
+         40.2,
+         35.0
+        ],
+        [
+         41.3,
+         34.4
+        ],
+        [
+         43.0,
+         33.2
+        ],
+        [
+         44.3,
+         32.3
+        ],
+        [
+         46.5,
+         31.0
+        ],
+        [
+         48.5,
+         29.0
+        ],
+        [
+         48.5,
+         20
+        ],
+        [
+         70,
+         20
+        ],
+        [
+         70,
+         43
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Seleucid Kingdom"
+    ],
+    "props": {
+     "NAME": null
+    },
+    "motivo": "desierto sirio-arábigo al sur del Éufrates: tribus árabes, no seléucida (sin datos)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       34.2,
+       31.2
+      ],
+      [
+       35.3,
+       30.95
+      ],
+      [
+       35.95,
+       31.3
+      ],
+      [
+       35.95,
+       32.75
+      ],
+      [
+       35.65,
+       33.25
+      ],
+      [
+       35.1,
+       33.25
+      ],
+      [
+       34.2,
+       31.8
+      ]
+     ]
+    },
+    "desde": [
+     "Ptolemaic Kingdom",
+     "Seleucid Kingdom"
+    ],
+    "props": {
+     "NAME": "Judea",
+     "SUBJECTO": "Judea",
+     "PARTOF": "Judea",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino asmoneo independiente (c. 140-63 a. C.; Alejandro Janeo 103-76 a. C.)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        34.2,
+        31.0,
+        37.5,
+        37.5
+       ]
+      },
+      {
+       "caja": [
+        32,
+        34.4,
+        34.7,
+        35.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ptolemaic Kingdom"
+    ],
+    "props": {
+     "NAME": "Seleucid Kingdom",
+     "SUBJECTO": "Seleucid Kingdom",
+     "PARTOF": "Seleucid Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Celesiria y Fenicia, seléucidas desde Panion (200 a. C.); los lágidas conservan Egipto, Cirenaica y Chipre"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      60,
+      10,
+      95,
+      21.5
+     ]
+    },
+    "desde": [
+     "Mauryan Empire"
+    ],
+    "props": {
+     "NAME": "Satavahana",
+     "SUBJECTO": "Satavahana",
+     "PARTOF": "Satavahana",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Decán es satavahana tras la caída maurya"
+   },
+   {
+    "op": "renombrar",
+    "de": "Mauryan Empire",
+    "props": {
+     "NAME": "Shunga Empire",
+     "SUBJECTO": "Shunga Empire",
+     "PARTOF": "Shunga Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el último maurya muere en 185 a. C.; en 100 a. C. reina en el Ganges la dinastía shunga (185-73 a. C.)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      75.5,
+      20,
+      82,
+      32
+     ]
+    },
+    "desde": [
+     "Kushan Empire"
+    ],
+    "props": {
+     "NAME": "Shunga Empire"
+    },
+    "motivo": "Mathura y el Doab occidental: reyes locales (Mitra) en la órbita shunga; discutido"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      55,
+      35.0,
+      63.0,
+      42
+     ]
+    },
+    "desde": [
+     "Kushan Empire"
+    ],
+    "props": {
+     "NAME": "Parthia"
+    },
+    "motivo": "Margiana (Merv) es parta hacia 100 a. C."
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       63,
+       34.8
+      ],
+      [
+       66.5,
+       35.3
+      ],
+      [
+       69.5,
+       35.6
+      ],
+      [
+       71.5,
+       36.0
+      ],
+      [
+       75,
+       36.3
+      ],
+      [
+       75,
+       42
+      ],
+      [
+       63,
+       42
+      ]
+     ]
+    },
+    "desde": [
+     "Kushan Empire"
+    ],
+    "props": {
+     "NAME": "Yuezhi",
+     "SUBJECTO": "Yuezhi",
+     "PARTOF": "Yuezhi",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los yuezhi dominan Bactria desde c. 130 a. C.; el Imperio kushán nace hacia 30 d. C."
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      68.6,
+      29.5,
+      76,
+      36.5
+     ]
+    },
+    "desde": [
+     "Kushan Empire"
+    ],
+    "props": {
+     "NAME": "Indo-Greek Kingdoms",
+     "SUBJECTO": "Indo-Greek Kingdoms",
+     "PARTOF": "Indo-Greek Kingdoms",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reinos indogriegos en Gandhara y el Punjab (c. 180 a. C.-10 d. C.)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kushan Empire",
+    "props": {
+     "NAME": "Indo-Scythians",
+     "SUBJECTO": "Indo-Scythians",
+     "PARTOF": "Indo-Scythians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "sakas (indoescitas) en Drangiana, Aracosia y Sind hacia 100 a. C."
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Celltic Hallsatt culture",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Celtiberians",
+       "mapa": "world_bc500.geojson"
+      },
+      {
+       "feat": "Celts",
+       "mapa": "world_bc400.geojson"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "relleno de tierra sin datos (consulta c03): celtas de La Tène en la Galia y Europa central; la única geometría disponible es la capa de Hallstatt de 400 a. C., que aquí se rotula como La Tène (c. 450 a. C.-s. I a. C.); lo que cubren celtíberos, celtas insulares y tracios se deja a sus rellenos",
+    "fuente": "https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture; revisiones/aplicadas/2026-09-28-carto-A-tierra-sin-datos-323ac-500.md"
+   }
+  ],
+  "world_300.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Parthian Empire",
+    "props": {
+     "NAME": "Sasanian Empire",
+     "SUBJECTO": "Sasanian Empire",
+     "PARTOF": "Sasanian Empire"
+    },
+    "motivo": "el Imperio parto termina en 224 (Hormozgán); en 300 reina el sasánida Narsés"
+   },
+   {
+    "op": "renombrar",
+    "de": "Suren Kingdom",
+    "props": {
+     "NAME": "Kushano-Sasanian Kingdom",
+     "SUBJECTO": "Sasanian Empire",
+     "PARTOF": "Sasanian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino indoparto termina c. 226; en 300 la zona es kushano-sasánida"
+   },
+   {
+    "op": "renombrar",
+    "de": "Satavahanihara",
+    "props": {
+     "NAME": "Vakataka",
+     "SUBJECTO": "Vakataka",
+     "PARTOF": "Vakataka"
+    },
+    "motivo": "los satavahana terminan c. 224; los vakataka dominan el Decán desde c. 250"
+   },
+   {
+    "op": "renombrar",
+    "de": "Gupta Empire",
+    "props": {
+     "NAME": "Magadha",
+     "SUBJECTO": "Magadha",
+     "PARTOF": "Magadha"
+    },
+    "motivo": "Chandragupta I se corona hacia 320; en 300 no hay Imperio gupta (mismo nombre y geometría que en el mapa de 200)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       4.4,
+       52.25
+      ],
+      [
+       4.49,
+       52.16
+      ],
+      [
+       5.12,
+       52.09
+      ],
+      [
+       5.34,
+       51.97
+      ],
+      [
+       6.1,
+       51.86
+      ],
+      [
+       6.25,
+       51.83
+      ],
+      [
+       6.45,
+       51.66
+      ],
+      [
+       6.76,
+       51.43
+      ],
+      [
+       6.77,
+       51.23
+      ],
+      [
+       6.96,
+       50.94
+      ],
+      [
+       7.1,
+       50.73
+      ],
+      [
+       7.23,
+       50.58
+      ],
+      [
+       7.4,
+       50.44
+      ],
+      [
+       7.6,
+       50.36
+      ],
+      [
+       7.59,
+       50.23
+      ],
+      [
+       7.9,
+       49.97
+      ],
+      [
+       8.27,
+       50.0
+      ],
+      [
+       8.36,
+       49.63
+      ],
+      [
+       8.43,
+       49.32
+      ],
+      [
+       8.35,
+       49.0
+      ],
+      [
+       7.8,
+       48.58
+      ],
+      [
+       7.58,
+       48.03
+      ],
+      [
+       7.59,
+       47.56
+      ],
+      [
+       6.0,
+       47.4
+      ],
+      [
+       5.5,
+       49.5
+      ],
+      [
+       4.5,
+       50.8
+      ],
+      [
+       3.5,
+       51.5
+      ],
+      [
+       3.8,
+       52.25
+      ]
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Rome (Constantinus)"
+    },
+    "motivo": "la frontera sigue el Rin: Colonia, Maguncia y Tréveris son romanas (Agri Decumates ya evacuados hacia 260)"
+   }
+  ],
+  "world_400.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Persia",
+    "props": {
+     "NAME": "Sasanian Empire",
+     "SUBJECTO": "Sasanian Empire",
+     "PARTOF": "Sasanian Empire"
+    },
+    "motivo": "«Persia» enlaza con la ficha aqueménida/kayar; es el Imperio sasánida"
+   },
+   {
+    "op": "renombrar",
+    "de": "Suren Kingdom",
+    "props": {
+     "NAME": "Kidarites",
+     "SUBJECTO": "Kidarites",
+     "PARTOF": "Kidarites",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino indoparto termina c. 226; hacia 400 dominan los kidaritas"
+   },
+   {
+    "op": "renombrar",
+    "de": "Satavahanihara",
+    "props": {
+     "NAME": "Vakataka",
+     "SUBJECTO": "Vakataka",
+     "PARTOF": "Vakataka"
+    },
+    "motivo": "en 400 el Decán es vakataka (Prabhavatigupta, regente c. 390-410)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       4.4,
+       52.25
+      ],
+      [
+       4.49,
+       52.16
+      ],
+      [
+       5.12,
+       52.09
+      ],
+      [
+       5.34,
+       51.97
+      ],
+      [
+       6.1,
+       51.86
+      ],
+      [
+       6.25,
+       51.83
+      ],
+      [
+       6.45,
+       51.66
+      ],
+      [
+       6.76,
+       51.43
+      ],
+      [
+       6.77,
+       51.23
+      ],
+      [
+       6.96,
+       50.94
+      ],
+      [
+       7.1,
+       50.73
+      ],
+      [
+       7.23,
+       50.58
+      ],
+      [
+       7.4,
+       50.44
+      ],
+      [
+       7.6,
+       50.36
+      ],
+      [
+       7.59,
+       50.23
+      ],
+      [
+       7.9,
+       49.97
+      ],
+      [
+       8.27,
+       50.0
+      ],
+      [
+       8.36,
+       49.63
+      ],
+      [
+       8.43,
+       49.32
+      ],
+      [
+       8.35,
+       49.0
+      ],
+      [
+       7.8,
+       48.58
+      ],
+      [
+       7.58,
+       48.03
+      ],
+      [
+       7.59,
+       47.56
+      ],
+      [
+       6.0,
+       47.4
+      ],
+      [
+       5.5,
+       49.5
+      ],
+      [
+       4.5,
+       50.8
+      ],
+      [
+       3.5,
+       51.5
+      ],
+      [
+       3.8,
+       52.25
+      ]
+     ]
+    },
+    "desde": [
+     "Alamans",
+     "Franks",
+     "Burgunds"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Western Roman Empire"
+    },
+    "motivo": "la frontera sigue el Rin: Colonia y Maguncia son romanas en 400 (los francos toman Colonia en 462; los burgundios pasan el Rin en 406-411)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       99,
+       34.2
+      ],
+      [
+       103,
+       33.8
+      ],
+      [
+       106,
+       33.3
+      ],
+      [
+       107,
+       33.3
+      ],
+      [
+       110,
+       33.2
+      ],
+      [
+       112.1,
+       32.8
+      ],
+      [
+       113.4,
+       32.8
+      ],
+      [
+       115.5,
+       33.0
+      ],
+      [
+       117.2,
+       33.6
+      ],
+      [
+       118.8,
+       33.8
+      ],
+      [
+       120.5,
+       34.5
+      ],
+      [
+       123,
+       34.5
+      ],
+      [
+       123,
+       40
+      ],
+      [
+       99,
+       40
+      ]
+     ]
+    },
+    "desde": [
+     "Jin"
+    ],
+    "props": {
+     "NAME": "Sixteen Kingdoms"
+    },
+    "motivo": "Chang'an (Qin Posterior desde 386) y Luoyang (399) no son Jin; la frontera del Jin Oriental sigue el Huai y el Han"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      124.0,
+      37.6,
+      127.6,
+      40.6
+     ]
+    },
+    "desde": [
+     "Sixteen Kingdoms"
+    ],
+    "props": {
+     "NAME": "Koguryo"
+    },
+    "motivo": "Goguryeo se anexiona Lelang (Pyongyang) en 313"
+   }
+  ],
+  "world_bc300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       64,
+       23
+      ],
+      [
+       64,
+       34.8
+      ],
+      [
+       66.5,
+       35.3
+      ],
+      [
+       69.5,
+       35.6
+      ],
+      [
+       71.5,
+       36.0
+      ],
+      [
+       75,
+       36.0
+      ],
+      [
+       75,
+       23
+      ]
+     ]
+    },
+    "desde": [
+     "Seleucid Kingdom"
+    ],
+    "props": {
+     "NAME": "Mauryan Empire",
+     "SUBJECTO": "Mauryan Empire",
+     "PARTOF": "Mauryan Empire"
+    },
+    "motivo": "tratado seléucida-maurya (c. 305-302 a. C.): Gandhara, Paropamisadas, Aracosia y Gedrosia oriental pasan a Chandragupta"
+   },
+   {
+    "op": "quitar",
+    "de": "Teotihuacán",
+    "a": null,
+    "motivo": "los edificios más antiguos de Teotihuacán son de c. 200 a. C."
+   },
+   {
+    "op": "renombrar",
+    "de": "Zhow states",
+    "props": {
+     "NAME": "Zhou states",
+     "SUBJECTO": "Zhou states",
+     "PARTOF": "Zhou states"
+    },
+    "motivo": "errata: enlaza con la ficha zhou"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Celltic Hallsatt culture",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Celtiberians",
+       "mapa": "world_bc500.geojson"
+      },
+      {
+       "feat": "Celts",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Thrace",
+       "mapa": "world_bc500.geojson"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "relleno de tierra sin datos (consulta c03): celtas de La Tène en la Galia y Europa central; la única geometría disponible es la capa de Hallstatt de 400 a. C., que aquí se rotula como La Tène (c. 450 a. C.-s. I a. C.); lo que cubren celtíberos, celtas insulares y tracios se deja a sus rellenos",
+    "fuente": "https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture; revisiones/aplicadas/2026-09-28-carto-A-tierra-sin-datos-323ac-500.md"
+   }
+  ],
+  "world_100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      69,
+      31.5,
+      77.5,
+      36.5
+     ]
+    },
+    "desde": [
+     "Suren Kingdom"
+    ],
+    "props": {
+     "NAME": "Kushan Empire"
+    },
+    "motivo": "los kushán absorben Gandhara y el Punjab del reino indoparto desde mediados del s. I"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "pol": [
+        [
+         4.4,
+         52.25
+        ],
+        [
+         4.49,
+         52.16
+        ],
+        [
+         5.12,
+         52.09
+        ],
+        [
+         5.34,
+         51.97
+        ],
+        [
+         6.1,
+         51.86
+        ],
+        [
+         6.25,
+         51.83
+        ],
+        [
+         6.45,
+         51.66
+        ],
+        [
+         6.76,
+         51.43
+        ],
+        [
+         6.77,
+         51.23
+        ],
+        [
+         6.96,
+         50.94
+        ],
+        [
+         7.1,
+         50.73
+        ],
+        [
+         7.23,
+         50.58
+        ],
+        [
+         7.4,
+         50.44
+        ],
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.59,
+         50.23
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         6.0,
+         47.4
+        ],
+        [
+         5.5,
+         49.5
+        ],
+        [
+         4.5,
+         50.8
+        ],
+        [
+         3.5,
+         51.5
+        ],
+        [
+         3.8,
+         52.25
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.7,
+         50.33
+        ],
+        [
+         8.2,
+         50.22
+        ],
+        [
+         8.57,
+         50.27
+        ],
+        [
+         8.75,
+         50.42
+        ],
+        [
+         8.98,
+         50.3
+        ],
+        [
+         8.98,
+         50.08
+        ],
+        [
+         9.15,
+         49.95
+        ],
+        [
+         9.26,
+         49.7
+        ],
+        [
+         9.37,
+         49.58
+        ],
+        [
+         9.43,
+         49.43
+        ],
+        [
+         9.6,
+         49.1
+        ],
+        [
+         9.63,
+         48.87
+        ],
+        [
+         9.69,
+         48.8
+        ],
+        [
+         10.09,
+         48.84
+        ],
+        [
+         10.6,
+         48.95
+        ],
+        [
+         10.97,
+         49.06
+        ],
+        [
+         11.4,
+         49.0
+        ],
+        [
+         11.78,
+         48.85
+        ],
+        [
+         12.0,
+         48.4
+        ],
+        [
+         10.0,
+         47.9
+        ],
+        [
+         9.17,
+         47.66
+        ],
+        [
+         8.63,
+         47.7
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         7.59,
+         50.23
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Roman Empire"
+    },
+    "motivo": "limes: la frontera sigue el Rin (Colonia, Maguncia) y el limes germánico-rético incluye los Agri Decumates (c. 74-260)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Satavahanihara",
+    "props": {
+     "NAME": "Satavahana",
+     "SUBJECTO": "Satavahana",
+     "PARTOF": "Satavahana"
+    },
+    "motivo": "errata de origen"
+   }
+  ],
+  "world_200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Kushan Empire",
+     "mapa": "world_100.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kushan Empire",
+     "SUBJECTO": "Kushan Empire",
+     "PARTOF": "Kushan Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Imperio kushán (Vasudeva I, c. 191-225): Bactria, hoy sin datos en 200"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      65.5,
+      29.5,
+      78,
+      36.5
+     ]
+    },
+    "desde": [
+     "Suren Kingdom"
+    ],
+    "props": {
+     "NAME": "Kushan Empire"
+    },
+    "motivo": "Gandhara, Paropamisadas y Punjab kushán; el reino indoparto queda en Sistán y Aracosia meridional"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      74.5,
+      25.5,
+      79.5,
+      31
+     ]
+    },
+    "desde": [
+     "Magadha",
+     "Saka Kingdom"
+    ],
+    "props": {
+     "NAME": "Kushan Empire"
+    },
+    "motivo": "el Doab hasta Mathura, capital kushán de invierno"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "pol": [
+        [
+         4.4,
+         52.25
+        ],
+        [
+         4.49,
+         52.16
+        ],
+        [
+         5.12,
+         52.09
+        ],
+        [
+         5.34,
+         51.97
+        ],
+        [
+         6.1,
+         51.86
+        ],
+        [
+         6.25,
+         51.83
+        ],
+        [
+         6.45,
+         51.66
+        ],
+        [
+         6.76,
+         51.43
+        ],
+        [
+         6.77,
+         51.23
+        ],
+        [
+         6.96,
+         50.94
+        ],
+        [
+         7.1,
+         50.73
+        ],
+        [
+         7.23,
+         50.58
+        ],
+        [
+         7.4,
+         50.44
+        ],
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.59,
+         50.23
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         6.0,
+         47.4
+        ],
+        [
+         5.5,
+         49.5
+        ],
+        [
+         4.5,
+         50.8
+        ],
+        [
+         3.5,
+         51.5
+        ],
+        [
+         3.8,
+         52.25
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.7,
+         50.33
+        ],
+        [
+         8.2,
+         50.22
+        ],
+        [
+         8.57,
+         50.27
+        ],
+        [
+         8.75,
+         50.42
+        ],
+        [
+         8.98,
+         50.3
+        ],
+        [
+         8.98,
+         50.08
+        ],
+        [
+         9.15,
+         49.95
+        ],
+        [
+         9.26,
+         49.7
+        ],
+        [
+         9.37,
+         49.58
+        ],
+        [
+         9.43,
+         49.43
+        ],
+        [
+         9.6,
+         49.1
+        ],
+        [
+         9.63,
+         48.87
+        ],
+        [
+         9.69,
+         48.8
+        ],
+        [
+         10.09,
+         48.84
+        ],
+        [
+         10.6,
+         48.95
+        ],
+        [
+         10.97,
+         49.06
+        ],
+        [
+         11.4,
+         49.0
+        ],
+        [
+         11.78,
+         48.85
+        ],
+        [
+         12.0,
+         48.4
+        ],
+        [
+         10.0,
+         47.9
+        ],
+        [
+         9.17,
+         47.66
+        ],
+        [
+         8.63,
+         47.7
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         7.59,
+         50.23
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Roman Empire"
+    },
+    "motivo": "limes: la frontera sigue el Rin (Colonia, Maguncia) y el limes germánico-rético incluye los Agri Decumates (c. 74-260)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Satavahanihara",
+    "props": {
+     "NAME": "Satavahana",
+     "SUBJECTO": "Satavahana",
+     "PARTOF": "Satavahana"
+    },
+    "motivo": "errata de origen"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      68.5,
+      28.0,
+      80.5,
+      37.0
+     ]
+    },
+    "desde": [
+     "Saka Kingdom"
+    ],
+    "props": {
+     "NAME": "Kushan Empire"
+    },
+    "motivo": "el Punjab (Taxila, Sakala) es kushán bajo Vasudeva I (c. 191-225) y une Gandhara con Mathura; los sátrapas occidentales (Saka Kingdom) conservan Sind, Guyarat y Malwa (inscripción de Rudradaman en Junagadh, c. 150)",
+    "fuente": "https://en.wikipedia.org/wiki/Kushan_Empire; https://en.wikipedia.org/wiki/Western_Satraps"
+   }
+  ],
+  "world_500.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Kushan Principalities",
+    "props": {
+     "NAME": "Hephthalites",
+     "SUBJECTO": "Hephthalites",
+     "PARTOF": "Hephthalites",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los heftalitas expulsan a los kidaritas (479) y dominan Gandhara"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      62.5,
+      34.0,
+      75,
+      42.5
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Hephthalites"
+    },
+    "motivo": "hacia 500 los heftalitas dominan Bactria, Sogdiana, el Pamir y parte de Afganistán"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -7,
+      49.5,
+      -1.5,
+      56
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Britons",
+     "SUBJECTO": "Britons",
+     "PARTOF": "Britons",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reinos britanos (Dumnonia, Gwynedd, Powys); el dominio romano en Britania termina hacia 410 y el Imperio de Occidente en 476"
+   },
+   {
+    "op": "renombrar",
+    "de": "Franks",
+    "props": {
+     "NAME": "Franks",
+     "SUBJECTO": "Franks",
+     "PARTOF": "Franks"
+    },
+    "motivo": "reino franco de Clodoveo; ya no es parte de un Imperio de Occidente inexistente"
+   },
+   {
+    "op": "quitar",
+    "de": "Western Roman Empire",
+    "a": "Franks",
+    "motivo": "resto de digitalización casi puntual en 48.9 N 7.4 E"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       3.0,
+       52.3
+      ],
+      [
+       4.4,
+       52.25
+      ],
+      [
+       5.12,
+       52.1
+      ],
+      [
+       6.1,
+       51.86
+      ],
+      [
+       6.45,
+       51.7
+      ],
+      [
+       6.9,
+       51.5
+      ],
+      [
+       7.4,
+       51.3
+      ],
+      [
+       7.6,
+       50.7
+      ],
+      [
+       7.7,
+       50.3
+      ],
+      [
+       3.0,
+       50.3
+      ]
+     ]
+    },
+    "desde": [
+     "Saxons",
+     "Turingians"
+    ],
+    "props": {
+     "NAME": "Franks"
+    },
+    "motivo": "Colonia y el Rin inferior y medio son francos (ripuarios) desde 462"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       4.4,
+       43.2
+      ],
+      [
+       4.6,
+       43.9
+      ],
+      [
+       4.85,
+       43.95
+      ],
+      [
+       5.8,
+       43.8
+      ],
+      [
+       5.95,
+       44.2
+      ],
+      [
+       6.6,
+       44.3
+      ],
+      [
+       7.2,
+       44.1
+      ],
+      [
+       7.55,
+       43.8
+      ],
+      [
+       7.6,
+       43.0
+      ],
+      [
+       4.4,
+       43.0
+      ]
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "props": {
+     "NAME": "Visigoths"
+    },
+    "motivo": "la Provenza al sur de la Durance es visigoda en 500; los ostrogodos la ocupan en 508-511"
+   },
+   {
+    "op": "quitar",
+    "de": "Tuʻi Tonga Empire",
+    "a": null,
+    "motivo": "el imperio Tuʻi Tonga empieza hacia 950 (ʻAhoʻeitu)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Jin Empire",
+    "props": {
+     "NAME": "Southern Qi",
+     "SUBJECTO": "Southern Qi",
+     "PARTOF": "Southern Qi"
+    },
+    "motivo": "los Jin terminan en 420; en 500 reina el Qi del Sur (479-502) en Jiankang"
+   }
+  ],
+  "world_bc323.geojson": [
+   {
+    "op": "quitar",
+    "de": "Teotihuac�n",
+    "a": null,
+    "motivo": "los edificios más antiguos de Teotihuacán son de c. 200 a. C."
+   },
+   {
+    "op": "renombrar",
+    "de": "Monte Alb�n",
+    "props": {
+     "NAME": "Monte Albán",
+     "SUBJECTO": "Monte Albán",
+     "PARTOF": "Monte Albán"
+    },
+    "motivo": "carácter mal codificado"
+   },
+   {
+    "op": "renombrar",
+    "de": "Zhow states",
+    "props": {
+     "NAME": "Zhou states",
+     "SUBJECTO": "Zhou states",
+     "PARTOF": "Zhou states"
+    },
+    "motivo": "errata: enlaza con la ficha zhou"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Celltic Hallsatt culture",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Celtiberians",
+       "mapa": "world_bc500.geojson"
+      },
+      {
+       "feat": "Celts",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Thrace",
+       "mapa": "world_bc500.geojson"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "relleno de tierra sin datos (consulta c03): celtas de La Tène en la Galia y Europa central; la única geometría disponible es la capa de Hallstatt de 400 a. C., que aquí se rotula como La Tène (c. 450 a. C.-s. I a. C.); lo que cubren celtíberos, celtas insulares y tracios se deja a sus rellenos",
+    "fuente": "https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture; revisiones/aplicadas/2026-09-28-carto-A-tierra-sin-datos-323ac-500.md"
+   }
+  ],
+  "world_bc1.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Satavahanihara",
+    "props": {
+     "NAME": "Satavahana",
+     "SUBJECTO": "Satavahana",
+     "PARTOF": "Satavahana"
+    },
+    "motivo": "errata de origen"
+   }
+  ],
+  "world_bc3000.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Ur",
+    "props": {
+     "NAME": "Sumerian city-states",
+     "SUBJECTO": "Sumerian city-states",
+     "PARTOF": "Sumerian city-states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en el III milenio temprano la Baja Mesopotamia son ciudades-Estado sumerias (Uruk, Lagash, Umma, Kish, Ur); Ur solo es Estado territorial con Ur III (2112-2004)"
+   }
+  ],
+  "world_bc2000.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Ur",
+    "props": {
+     "NAME": "Isin and Larsa",
+     "SUBJECTO": "Isin and Larsa",
+     "PARTOF": "Isin and Larsa",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Ur III cae hacia 2004 ante Elam; le suceden Isin, Larsa y los Estados amorreos"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hittites",
+    "props": {
+     "NAME": "Hatti",
+     "SUBJECTO": "Hatti",
+     "PARTOF": "Hatti",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino hitita nace hacia 1650 (Hattusili I); en 2000 es el país de Hatti con las colonias asirias (Kanesh)"
+   }
+  ],
+  "world_bc1500.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      29,
+      18.5,
+      36,
+      23.5
+     ]
+    },
+    "desde": [
+     "Kush"
+    ],
+    "props": {
+     "NAME": "Egypt"
+    },
+    "motivo": "Imperio Nuevo: Tutmosis I destruye Kerma hacia 1500 y Egipto controla Nubia hasta la 4.ª catarata"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      32,
+      27,
+      35,
+      31.6
+     ]
+    },
+    "desde": [
+     "state societies and Aramaean kingdoms"
+    ],
+    "props": {
+     "NAME": "Egypt"
+    },
+    "motivo": "el Sinaí (minas de Serabit el-Jadim) es egipcio en el Imperio Nuevo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34.5,
+      33,
+      36.4,
+      34.95
+     ]
+    },
+    "desde": [
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Canaan",
+     "SUBJECTO": "Egypt",
+     "PARTOF": "Egypt",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Biblos y Sidón, ciudades cananeas en la órbita egipcia; los hititas no llegan a Siria hasta Suppiluliuma I (c. 1350)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      35,
+      33,
+      45.5,
+      37.2
+     ]
+    },
+    "desde": [
+     "Arameans",
+     "Kingdom of David and Solomon",
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Mitanni",
+     "SUBJECTO": "Mitanni",
+     "PARTOF": "Mitanni",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Mitani (c. 1550-1260), capital Wassukanni en el alto Jabur; los arameos no aparecen hasta c. 1100; la Siria del norte (Alepo, Ugarit) está en la órbita de Mitani hasta Suppiluliuma I"
+   },
+   {
+    "op": "quitar",
+    "de": "Arameans",
+    "a": "Arabian pastoral nomads",
+    "motivo": "desierto sirio: pastores nómadas (suteos); los arameos son posteriores a 1100"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of David and Solomon",
+    "props": {
+     "NAME": "Canaan",
+     "SUBJECTO": "Egypt",
+     "PARTOF": "Egypt",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ciudades-Estado cananeas bajo hegemonía egipcia (Meguido 1457); la monarquía unida es de c. 1047-931 y está discutida"
+   },
+   {
+    "op": "renombrar",
+    "de": "Urartu",
+    "props": {
+     "NAME": "Hurrian Kingdoms",
+     "SUBJECTO": "Hurrian Kingdoms",
+     "PARTOF": "Hurrian Kingdoms",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Urartu se forma hacia 860 a. C.; en 1500 son tierras hurritas y de Nairi"
+   },
+   {
+    "op": "renombrar",
+    "de": "Phrygians",
+    "props": {
+     "NAME": "Arzawa",
+     "SUBJECTO": "Arzawa",
+     "PARTOF": "Arzawa",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los frigios llegan con el colapso hitita (s. XII); en 1500 el oeste anatolio es Arzawa y los Estados luvitas"
+   },
+   {
+    "op": "renombrar",
+    "de": "state societies and Aramaean kingdoms",
+    "props": {
+     "NAME": "Zagros peoples",
+     "SUBJECTO": "Zagros peoples",
+     "PARTOF": "Zagros peoples",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Zagros: casitas, lullubi y guti; no hay reinos arameos"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.3,
+      34.7,
+      26.5,
+      35.8
+     ]
+    },
+    "desde": [
+     "Greek city-states"
+    ],
+    "props": {
+     "NAME": "Minoan",
+     "SUBJECTO": "Minoan",
+     "PARTOF": "Minoan",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Creta minoica (bajo élite micénica desde c. 1450)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Greek city-states",
+    "props": {
+     "NAME": "Mycenaean Greece",
+     "SUBJECTO": "Mycenaean Greece",
+     "PARTOF": "Mycenaean Greece",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "no hay polis hasta el s. VIII; en 1500 es la Grecia micénica (c. 1750-1050)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Celtiberians",
+    "props": {
+     "NAME": "Bronze Age Iberian cultures",
+     "SUBJECTO": "Bronze Age Iberian cultures",
+     "PARTOF": "Bronze Age Iberian cultures",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la presencia celta en la Península es como pronto del s. VI a. C."
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        100,
+        20,
+        125,
+        45
+       ]
+      },
+      {
+       "caja": [
+        110,
+        32,
+        119.5,
+        38.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Zhoa"
+    ],
+    "props": {
+     "NAME": "Sinic"
+    },
+    "motivo": "fuera del núcleo Shang (Henán, Shandong, sur de Hebei)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Zhoa",
+    "props": {
+     "NAME": "Shang",
+     "SUBJECTO": "Shang",
+     "PARTOF": "Shang",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "dinastía Shang (c. 1600-1046, capital final Yinxu/Anyang); «Zhoa» es errata y los Zhou son de 1046"
+   },
+   {
+    "op": "quitar",
+    "de": "Wu",
+    "a": "Sinic",
+    "motivo": "Wu es potencia histórica desde Shoumeng (586-561)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      40.3,
+      36.9,
+      42.6,
+      38.2
+     ]
+    },
+    "desde": [
+     "Arabian pastoral nomads"
+    ],
+    "props": {
+     "NAME": "Mitanni"
+    },
+    "motivo": "el monte Kashiyari (Tur Abdin), en el alto Tigris, es parte del reino de Mitani y no estepa de pastores (resto del polígono «Arameans» del original)",
+    "fuente": "https://en.wikipedia.org/wiki/Mitanni"
+   }
+  ],
+  "world_bc1000.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       35.0,
+       33.05
+      ],
+      [
+       35.45,
+       33.05
+      ],
+      [
+       35.75,
+       33.9
+      ],
+      [
+       36.2,
+       34.6
+      ],
+      [
+       36.2,
+       35.1
+      ],
+      [
+       35.8,
+       35.1
+      ],
+      [
+       35.5,
+       34.2
+      ],
+      [
+       35.0,
+       33.3
+      ]
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon",
+     "Arameans",
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Phoenicia",
+     "SUBJECTO": "Phoenicia",
+     "PARTOF": "Phoenicia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ciudades fenicias (Tiro, Sidón, Biblos, Arwad); Tiro, potencia desde Hiram I (969-936)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      35,
+      34.8,
+      40,
+      37
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon"
+    ],
+    "props": {
+     "NAME": "Arameans"
+    },
+    "motivo": "Hamat y la Siria del norte son arameas o sirohititas, no del reino de David"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      29,
+      31,
+      41.5,
+      35.5
+     ]
+    },
+    "desde": [
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Arameans"
+    },
+    "motivo": "Siria central: reinos arameos; el Imperio hitita cae hacia 1180"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      25,
+      33,
+      34.8,
+      43
+     ]
+    },
+    "desde": [
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Phrygians"
+    },
+    "motivo": "Anatolia central occidental: frigios, llegados tras el colapso hitita"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        34.8,
+        33,
+        42,
+        43
+       ]
+      },
+      {
+       "caja": [
+        35,
+        35.5,
+        40.5,
+        38.6
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hittites"
+    ],
+    "props": {
+     "NAME": null
+    },
+    "motivo": "Anatolia centro-norte tras la caída de Hattusa: kaskas y pueblos mal documentados (sin datos)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hittites",
+    "props": {
+     "NAME": "Syro-Hittite states",
+     "SUBJECTO": "Syro-Hittite states",
+     "PARTOF": "Syro-Hittite states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras la caída de Hattusa (c. 1180) quedan los reinos sirohititas (Karkemish, Melid, Tabal)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Urartu",
+    "props": {
+     "NAME": "Hurrian Kingdoms",
+     "SUBJECTO": "Hurrian Kingdoms",
+     "PARTOF": "Hurrian Kingdoms",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Urartu se forma hacia 860 a. C. (Arame, 858-844)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Celtiberians",
+    "props": {
+     "NAME": "Bronze Age Iberian cultures",
+     "SUBJECTO": "Bronze Age Iberian cultures",
+     "PARTOF": "Bronze Age Iberian cultures",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la presencia celta en la Península es como pronto del s. VI a. C."
+   },
+   {
+    "op": "renombrar",
+    "de": "Zhoa",
+    "props": {
+     "NAME": "Zhou states",
+     "SUBJECTO": "Zhou states",
+     "PARTOF": "Zhou states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Zhou occidentales (1046-771); errata «Zhoa»; enlaza con la ficha zhou"
+   },
+   {
+    "op": "quitar",
+    "de": "Wu",
+    "a": "Sinic",
+    "motivo": "Wu es potencia histórica desde Shoumeng (586-561)"
+   },
+   {
+    "op": "recortar",
+    "de": "Sinic",
+    "motivo": "Wu y los estados Zhou se solapaban en el original; al unir Wu a «Sinic» el solape pasa a los estados Zhou"
+   }
+  ],
+  "world_bc700.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       35.0,
+       33.05
+      ],
+      [
+       35.45,
+       33.05
+      ],
+      [
+       35.75,
+       33.9
+      ],
+      [
+       36.2,
+       34.6
+      ],
+      [
+       36.2,
+       35.1
+      ],
+      [
+       35.8,
+       35.1
+      ],
+      [
+       35.5,
+       34.2
+      ],
+      [
+       35.0,
+       33.3
+      ]
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon",
+     "Arameans",
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Phoenicia",
+     "SUBJECTO": "Assyria",
+     "PARTOF": "Assyria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ciudades fenicias, tributarias de Asiria"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       34.3,
+       31.25
+      ],
+      [
+       34.55,
+       31.0
+      ],
+      [
+       35.5,
+       30.9
+      ],
+      [
+       35.55,
+       31.9
+      ],
+      [
+       34.9,
+       31.9
+      ]
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon"
+    ],
+    "props": {
+     "NAME": "Judah",
+     "SUBJECTO": "Assyria",
+     "PARTOF": "Assyria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Judá, vasallo asirio (Ezequías, 701); Israel es provincia asiria desde 722 y la monarquía unida se dividió hacia 930"
+   },
+   {
+    "op": "quitar",
+    "de": "Kingdom of David and Solomon",
+    "a": "Assyria",
+    "motivo": "Samaria (722) y Damasco (732) son provincias asirias"
+   },
+   {
+    "op": "quitar",
+    "de": "Arameans",
+    "a": "Assyria",
+    "motivo": "los reinos arameos quedan absorbidos por Asiria (Damasco 732)"
+   },
+   {
+    "op": "quitar",
+    "de": "Babylonia",
+    "a": "Assyria",
+    "motivo": "Senaquerib gobierna Babilonia (705-681) con reyes vasallos"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      32,
+      27,
+      35,
+      31.6
+     ]
+    },
+    "desde": [
+     "state societies and Aramaean kingdoms"
+    ],
+    "props": {
+     "NAME": "Egypt"
+    },
+    "motivo": "Sinaí egipcio (XXV dinastía)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      44,
+      31,
+      47.5,
+      38
+     ]
+    },
+    "desde": [
+     "state societies and Aramaean kingdoms"
+    ],
+    "props": {
+     "NAME": "Assyria"
+    },
+    "motivo": "el Zagros occidental (Zamua, Parsua, Ellipi) es provincia o vasallo asirio"
+   },
+   {
+    "op": "renombrar",
+    "de": "state societies and Aramaean kingdoms",
+    "props": {
+     "NAME": "Medes",
+     "SUBJECTO": "Medes",
+     "PARTOF": "Medes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tribus medas del Zagros central y de la meseta (aún sin reino unificado; extensión discutida)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34.5,
+      35.4,
+      41.5,
+      38.6
+     ]
+    },
+    "desde": [
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Assyria"
+    },
+    "motivo": "Cilicia (Que), Kummukh y Melid, provincias o vasallos asirios; el Imperio hitita no existe desde c. 1180"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      25,
+      33,
+      34.5,
+      43
+     ]
+    },
+    "desde": [
+     "Hittites"
+    ],
+    "props": {
+     "NAME": "Phrygians"
+    },
+    "motivo": "reino frigio (Midas, fines del s. VIII)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hittites",
+    "props": {
+     "NAME": "Tabal",
+     "SUBJECTO": "Tabal",
+     "PARTOF": "Tabal",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Tabal y los Estados neohititas de Capadocia, tributarios de Asiria"
+   },
+   {
+    "op": "renombrar",
+    "de": "Egypt",
+    "props": {
+     "NAME": "Egypt",
+     "SUBJECTO": "Kush",
+     "PARTOF": "Kush"
+    },
+    "motivo": "XXV dinastía kushita (747-656; Taharqa 690-664): Egipto y Nubia bajo un mismo rey"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Etrurians",
+     "mapa": "world_bc500.geojson"
+    },
+    "desde": [
+     "Urnfield cultures"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Etrurians",
+     "SUBJECTO": "Etrurians",
+     "PARTOF": "Etrurians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "etruscos (desde c. 900; apogeo c. 500)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Greek city-states",
+       "mapa": "world_bc500.geojson"
+      },
+      {
+       "caja": [
+        12,
+        36.5,
+        19,
+        41.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Urnfield cultures"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Greek city-states"
+    },
+    "motivo": "colonias griegas de Sicilia oriental y Magna Grecia (Cumas 740, Siracusa 733, Síbaris 720, Tarento 706)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      9.9,
+      36.6,
+      10.6,
+      37.1
+     ]
+    },
+    "desde": [
+     "Berbers"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Cartago, fundación fenicia (trad. 814; núcleo arqueológico del s. VIII-VII)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Zhoa",
+    "props": {
+     "NAME": "Zhou states",
+     "SUBJECTO": "Zhou states",
+     "PARTOF": "Zhou states",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Primaveras y Otoños (desde 771): el poder está en los Estados; enlaza con la ficha zhou"
+   },
+   {
+    "op": "quitar",
+    "de": "Wu",
+    "a": "Sinic",
+    "motivo": "Wu es potencia histórica desde Shoumeng (586-561)"
+   },
+   {
+    "op": "recortar",
+    "de": "Sinic",
+    "motivo": "Wu y los estados Zhou se solapaban en el original; al unir Wu a «Sinic» el solape pasa a los estados Zhou"
+   }
+  ],
+  "world_bc2300.geojson<world_bc3000.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      46,
+      25,
+      50.6,
+      34
+     ]
+    },
+    "desde": [
+     "Elam"
+    ],
+    "props": {
+     "NAME": "Akkadian Empire",
+     "SUBJECTO": "Akkadian Empire",
+     "PARTOF": "Akkadian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Susiana, conquistada por Sargón y Rimush"
+   },
+   {
+    "op": "quitar",
+    "de": "city-states",
+    "a": "Akkadian Empire",
+    "motivo": "Siria del norte hasta el Mediterráneo (Ebla, Mari), conquistada por Sargón y Naram-Sin"
+   },
+   {
+    "op": "quitar",
+    "de": "Hurrian Kingdoms",
+    "a": "Akkadian Empire",
+    "motivo": "Alta Mesopotamia (Tell Brak / Nagar, Nínive)"
+   },
+   {
+    "op": "quitar",
+    "de": "Sumerian city-states",
+    "a": "Akkadian Empire",
+    "motivo": "Imperio acadio (c. 2334-2154), primer imperio: «from the Mediterranean to Iran»; extensión aproximada"
+   }
+  ],
+  "world_bc2100.geojson<world_bc3000.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      46,
+      29,
+      50.6,
+      34
+     ]
+    },
+    "desde": [
+     "Elam"
+    ],
+    "props": {
+     "NAME": "Third Dynasty of Ur",
+     "SUBJECTO": "Third Dynasty of Ur",
+     "PARTOF": "Third Dynasty of Ur",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Susa y el piedemonte del Zagros bajo Ur III"
+   },
+   {
+    "op": "quitar",
+    "de": "Sumerian city-states",
+    "a": "Third Dynasty of Ur",
+    "motivo": "III dinastía de Ur (2112-2004): Sumer y Acad unificados"
+   }
+  ],
+  "world_bc1750.geojson<world_bc2000.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      39.5,
+      32,
+      43.5,
+      36.5
+     ]
+    },
+    "desde": [
+     "city-states"
+    ],
+    "props": {
+     "NAME": "Babylonia",
+     "SUBJECTO": "Babylonia",
+     "PARTOF": "Babylonia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Hammurabi conquista Mari (1761)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      42,
+      35.2,
+      44.6,
+      36.9
+     ]
+    },
+    "desde": [
+     "Hurrian Kingdoms"
+    ],
+    "props": {
+     "NAME": "Assyria",
+     "SUBJECTO": "Babylonia",
+     "PARTOF": "Babylonia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Asiria antigua (Assur, Ekallatum), sometida por Hammurabi hacia 1757"
+   },
+   {
+    "op": "quitar",
+    "de": "Isin and Larsa",
+    "a": "Babylonia",
+    "motivo": "Babilonia de Hammurabi (1792-1750): Larsa 1763, Eshnunna 1762, Mari 1761"
+   },
+   {
+    "op": "renombrar",
+    "de": "city-states",
+    "props": {
+     "NAME": "Yamhad",
+     "SUBJECTO": "Yamhad",
+     "PARTOF": "Yamhad",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Yamhad (Alepo), la gran potencia siria de la época"
+   }
+  ],
+  "world_bc600.geojson<world_bc700.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      32,
+      36.4,
+      36.2,
+      38.2
+     ]
+    },
+    "desde": [
+     "Assyria"
+    ],
+    "props": {
+     "NAME": "Cilicia",
+     "SUBJECTO": "Cilicia",
+     "PARTOF": "Cilicia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Cilicia (Hilakku/Que), independiente tras la caída de Asiria"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "caja": [
+        42.3,
+        35.3,
+        48,
+        38.8
+       ]
+      },
+      {
+       "caja": [
+        45.5,
+        33.8,
+        48,
+        38.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Assyria"
+    ],
+    "props": {
+     "NAME": "Medes"
+    },
+    "motivo": "el corazón asirio al este del Tigris (Nínive 612) y el Zagros pasan a los medos; extensión discutida"
+   },
+   {
+    "op": "renombrar",
+    "de": "Assyria",
+    "props": {
+     "NAME": "Neo-Babylonian Empire",
+     "SUBJECTO": "Neo-Babylonian Empire",
+     "PARTOF": "Neo-Babylonian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Imperio neobabilónico (626-539): Mesopotamia, Siria y Levante; c. 500.000 km² en 562"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       36.5,
+       24
+      ],
+      [
+       36.5,
+       30.2
+      ],
+      [
+       38.5,
+       31.6
+      ],
+      [
+       43.5,
+       30.0
+      ],
+      [
+       47.5,
+       29.6
+      ],
+      [
+       48,
+       24
+      ]
+     ]
+    },
+    "desde": [
+     "Neo-Babylonian Empire"
+    ],
+    "props": {
+     "NAME": "Arabian pastoral nomads"
+    },
+    "motivo": "desierto arábigo septentrional: tribus árabes (Qedar), fuera del control babilonio salvo la campaña de Nabonido a Tayma (552-543)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Judah",
+    "props": {
+     "NAME": "Judah",
+     "SUBJECTO": "Neo-Babylonian Empire",
+     "PARTOF": "Neo-Babylonian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Judá, vasallo babilonio hasta la destrucción de Jerusalén (586)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Phoenicia",
+    "props": {
+     "NAME": "Phoenicia",
+     "SUBJECTO": "Neo-Babylonian Empire",
+     "PARTOF": "Neo-Babylonian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "ciudades fenicias bajo Babilonia (asedio de Tiro 586-573)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Egypt",
+    "props": {
+     "NAME": "Egypt",
+     "SUBJECTO": "Egypt",
+     "PARTOF": "Egypt",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "XXVI dinastía saíta (Psamético I reunifica Egipto en 664-656; los kushitas vuelven a Napata)"
+   },
+   {
+    "op": "quitar",
+    "de": "Urartu",
+    "a": "Medes",
+    "motivo": "fin de Urartu hacia 590 (discutido)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      34.3,
+      35,
+      45,
+      43
+     ]
+    },
+    "desde": [
+     "Phrygians",
+     "Tabal"
+    ],
+    "props": {
+     "NAME": "Medes"
+    },
+    "motivo": "Capadocia hasta el Halys, frontera lidio-meda tras la batalla del Eclipse (585)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      50,
+      29,
+      61,
+      38.5
+     ]
+    },
+    "desde": [
+     "Iranian pastoralists"
+    ],
+    "props": {
+     "NAME": "Medes"
+    },
+    "motivo": "meseta irania bajo Ciaxares y Astiages; extensión oriental discutida («the precise geographic extent remains unknown»)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Medes",
+    "props": {
+     "NAME": "Medes",
+     "SUBJECTO": "Medes",
+     "PARTOF": "Medes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino medo (Ciaxares 624-585, Astiages 585-550); BORDERPRECISION 1, extensión discutida"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      51,
+      25,
+      60,
+      32.8
+     ]
+    },
+    "desde": [
+     "Elam"
+    ],
+    "props": {
+     "NAME": "Persis",
+     "SUBJECTO": "Medes",
+     "PARTOF": "Medes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Anshan/Persis de los teíspidas, bajo soberanía meda"
+   },
+   {
+    "op": "quitar",
+    "de": "Phrygians",
+    "a": "Lydia",
+    "motivo": "Gordion cae hacia 675; Lidia mermnada domina hasta el Halys"
+   },
+   {
+    "op": "quitar",
+    "de": "Tabal",
+    "a": "Lydia",
+    "motivo": "Anatolia al oeste del Halys, lidia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Lydia",
+    "props": {
+     "NAME": "Lydia",
+     "SUBJECTO": "Lydia",
+     "PARTOF": "Lydia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Lidia (c. 680-546)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      15,
+      43.3,
+      60,
+      51
+     ]
+    },
+    "desde": [
+     "Cimerians",
+     "Proto-Scythian culture"
+    ],
+    "props": {
+     "NAME": "Scythians",
+     "SUBJECTO": "Scythians",
+     "PARTOF": "Scythians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "escitas en la estepa póntica (centro póntico desde c. 600)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      15,
+      35,
+      60,
+      60
+     ]
+    },
+    "desde": [
+     "Cimerians"
+    ],
+    "props": {
+     "NAME": null
+    },
+    "motivo": "los cimerios desaparecen en el s. VII; al sur del Cáucaso y en la zona forestal, sin datos"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Greek city-states",
+       "mapa": "world_bc500.geojson"
+      },
+      {
+       "caja": [
+        2,
+        41,
+        10,
+        44.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Urnfield cultures"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Greek city-states"
+    },
+    "motivo": "Massalia (c. 600) y Emporion"
+   }
+  ],
+  "world_bc200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Celltic Hallsatt culture",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Celtiberians",
+       "mapa": "world_bc500.geojson"
+      },
+      {
+       "feat": "Celts",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "feat": "Thrace",
+       "mapa": "world_bc500.geojson"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "relleno de tierra sin datos (consulta c03): celtas de La Tène en la Galia y Europa central; la única geometría disponible es la capa de Hallstatt de 400 a. C., que aquí se rotula como La Tène (c. 450 a. C.-s. I a. C.); lo que cubren celtíberos, celtas insulares y tracios se deja a sus rellenos",
+    "fuente": "https://en.wikipedia.org/wiki/La_T%C3%A8ne_culture; revisiones/aplicadas/2026-09-28-carto-A-tierra-sin-datos-323ac-500.md"
+   }
+  ],
+  "world_bc1250.geojson<world_bc1500.geojson": [
+   {
+    "op": "quitar",
+    "de": "Arzawa",
+    "a": "Hittites",
+    "motivo": "Mursili II somete Arzawa hacia 1320 a. C. y la reparte en reinos vasallos hititas (Mira, Hapalla, país del río Seha)",
+    "fuente": "https://en.wikipedia.org/wiki/Arzawa"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       35.0,
+       34.3
+      ],
+      [
+       36.9,
+       34.3
+      ],
+      [
+       37.6,
+       35.0
+      ],
+      [
+       38.1,
+       36.0
+      ],
+      [
+       38.3,
+       36.9
+      ],
+      [
+       38.6,
+       37.6
+      ],
+      [
+       38.6,
+       39.0
+      ],
+      [
+       34.5,
+       39.0
+      ],
+      [
+       34.5,
+       34.3
+      ]
+     ]
+    },
+    "desde": [
+     "Mitanni",
+     "Canaan"
+    ],
+    "props": {
+     "NAME": "Hittites",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Siria del norte hitita desde Suppiluliuma I (c. 1350-1322): Alepo, Karkemish, Ugarit, Amurru y Kadesh; tras la batalla de Kadesh (1274) y el tratado de 1259 la frontera con Egipto queda al sur de Kadesh y el Éufrates (Emar) separa hititas y asirios",
+    "fuente": "https://en.wikipedia.org/wiki/Hittite_Empire; https://en.wikipedia.org/wiki/Battle_of_Kadesh; https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "pol": [
+        [
+         34.5,
+         34.3
+        ],
+        [
+         36.9,
+         34.3
+        ],
+        [
+         37.6,
+         35.0
+        ],
+        [
+         38.1,
+         36.0
+        ],
+        [
+         39.0,
+         35.95
+        ],
+        [
+         40.14,
+         35.33
+        ],
+        [
+         40.89,
+         34.55
+        ],
+        [
+         41.95,
+         34.47
+        ],
+        [
+         42.83,
+         33.64
+        ],
+        [
+         43.78,
+         33.35
+        ],
+        [
+         44.6,
+         33.0
+        ],
+        [
+         44.6,
+         31.0
+        ],
+        [
+         34.5,
+         31.0
+        ]
+       ]
+      },
+      {
+       "caja": [
+        34.5,
+        31.0,
+        37.0,
+        34.3
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Mitanni"
+    ],
+    "props": {
+     "NAME": "Canaan"
+    },
+    "motivo": "Siria del sur (Upi, Damasco): provincia egipcia de Canaán bajo Ramsés II, al sur de la frontera de Kadesh",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Kadesh; https://en.wikipedia.org/wiki/Canaan"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       34.5,
+       34.3
+      ],
+      [
+       36.9,
+       34.3
+      ],
+      [
+       37.6,
+       35.0
+      ],
+      [
+       38.1,
+       36.0
+      ],
+      [
+       39.0,
+       35.95
+      ],
+      [
+       40.14,
+       35.33
+      ],
+      [
+       40.89,
+       34.55
+      ],
+      [
+       41.95,
+       34.47
+      ],
+      [
+       42.83,
+       33.64
+      ],
+      [
+       43.78,
+       33.35
+      ],
+      [
+       44.6,
+       33.0
+      ],
+      [
+       44.6,
+       31.0
+      ],
+      [
+       34.5,
+       31.0
+      ]
+     ]
+    },
+    "desde": [
+     "Mitanni"
+    ],
+    "props": {
+     "NAME": "Arabian pastoral nomads"
+    },
+    "motivo": "estepa siria al sur del Éufrates: pastores nómadas (suteos, ahlamu), fuera del reino de Hanigalbat",
+    "fuente": "https://en.wikipedia.org/wiki/Suteans"
+   },
+   {
+    "op": "renombrar",
+    "de": "Mitanni",
+    "props": {
+     "NAME": "Hanigalbat",
+     "SUBJECTO": "Assyria",
+     "PARTOF": "Assyria",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "resto de Mitani al este del Éufrates (Hanigalbat): Salmanasar I (1273-1244) derrota a Shattuara II hacia 1250 y lo convierte en provincia asiria",
+    "fuente": "https://en.wikipedia.org/wiki/Mitanni; https://en.wikipedia.org/wiki/Shalmaneser_I"
+   },
+   {
+    "op": "quitar",
+    "de": "Minoan",
+    "a": "Mycenaean Greece",
+    "motivo": "Creta está bajo élites micénicas desde c. 1450 a. C. (tablillas en lineal B de Cnosos)",
+    "fuente": "https://en.wikipedia.org/wiki/Minoan_civilization"
+   }
+  ],
+  "world_bc850.geojson<world_bc1000.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      30,
+      33.3,
+      45,
+      40
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon"
+    ],
+    "props": {
+     "NAME": "Arameans"
+    },
+    "motivo": "Damasco y el Hauran: reino arameo de Damasco (Hadadezer, en Qarqar en 853 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Aram-Damascus; https://en.wikipedia.org/wiki/Battle_of_Qarqar"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      36.4,
+      20,
+      45,
+      33.3
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon"
+    ],
+    "props": {
+     "NAME": "Arameans"
+    },
+    "motivo": "el Hauran y la estepa al este de Galaad y Moab, en la órbita del reino arameo de Damasco; no forman parte de Israel ni de Judá",
+    "fuente": "https://en.wikipedia.org/wiki/Aram-Damascus"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "caja": [
+        30,
+        31.85,
+        36.4,
+        33.3
+       ]
+      },
+      {
+       "caja": [
+        35.5,
+        30.95,
+        36.4,
+        31.85
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Kingdom of David and Solomon"
+    ],
+    "props": {
+     "NAME": "Kingdom of Israel",
+     "SUBJECTO": "Kingdom of Israel",
+     "PARTOF": "Kingdom of Israel",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Israel de los omridas (capital Samaria; Ajab c. 871-852): Galilea, Samaria, Galaad y Moab tributario hasta la revuelta de Mesha (c. 840)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Israel_(Samaria); https://en.wikipedia.org/wiki/Mesha_Stele"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of David and Solomon",
+    "props": {
+     "NAME": "Judah",
+     "SUBJECTO": "Judah",
+     "PARTOF": "Judah",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Judá (Josafat, c. 870-849), con Edom sometido; la monarquía unida se dividió hacia 930",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Judah"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.02,
+       36.83
+      ],
+      [
+       38.1,
+       36.0
+      ],
+      [
+       39.0,
+       35.95
+      ],
+      [
+       40.14,
+       35.33
+      ],
+      [
+       40.89,
+       34.55
+      ],
+      [
+       41.95,
+       34.47
+      ],
+      [
+       42.83,
+       33.64
+      ],
+      [
+       43.78,
+       33.35
+      ],
+      [
+       44.6,
+       33.0
+      ],
+      [
+       46,
+       32.0
+      ],
+      [
+       49.6,
+       32.0
+      ],
+      [
+       49.6,
+       38.6
+      ],
+      [
+       38.6,
+       38.6
+      ],
+      [
+       38.35,
+       37.6
+      ]
+     ]
+    },
+    "desde": [
+     "Arameans"
+    ],
+    "props": {
+     "NAME": "Assyria"
+    },
+    "motivo": "Asiria neoasiria: Asurnasirpal II (883-859) y Salmanasar III (859-824) someten los reinos arameos de la Yazira hasta el Éufrates (Bit Adini y Til Barsip, 856)",
+    "fuente": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire; https://en.wikipedia.org/wiki/Shalmaneser_III; https://en.wikipedia.org/wiki/Bit_Adini"
+   },
+   {
+    "op": "renombrar",
+    "de": "Hurrian Kingdoms",
+    "props": {
+     "NAME": "Urartu",
+     "SUBJECTO": "Urartu",
+     "PARTOF": "Urartu",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Urartu (Arame, c. 858-844, primer rey conocido, enfrentado a Salmanasar III); extensión aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Arame_of_Urartu; https://en.wikipedia.org/wiki/Urartu"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      44,
+      31,
+      56,
+      40
+     ]
+    },
+    "desde": [
+     "state societies and Aramaean kingdoms"
+    ],
+    "props": {
+     "NAME": "Zagros peoples",
+     "SUBJECTO": "Zagros peoples",
+     "PARTOF": "Zagros peoples",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Zagros: maneos, medos (primera mención en 836 a. C.), elipi y otros pueblos sin reino unificado; no hay reinos arameos (mismo rótulo que en el mapa de -1500)",
+    "fuente": "https://en.wikipedia.org/wiki/Mannaeans; https://en.wikipedia.org/wiki/Medes"
+   }
+  ]
+ }
+}
