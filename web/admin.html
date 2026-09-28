@@ -33,7 +33,7 @@ a.volver { color:var(--accent); font-size:13px; text-decoration:none; }
 .p-warn { color:var(--warn); background:var(--warnbg); }
 .f-desc { color:var(--muted); font-size:13.5px; margin:4px 0 10px; }
 .f-meta { font-size:12px; color:var(--muted); }
-button { font:600 13px var(--font); color:#fff; background:var(--accent); border:0; border-radius:var(--r-pill); padding:8px 16px; cursor:pointer; transition:transform var(--d-press) var(--ease-out), background-color var(--d-ui) ease; }
+button { font:600 13px var(--font); color:#fff; background:var(--accent); border:1px solid transparent; border-radius:var(--r-pill); padding:8px 16px; cursor:pointer; transition:transform var(--d-press) var(--ease-out), background-color var(--d-ui) ease; }
 button:active:not(:disabled) { transform:scale(0.97); }
 @media (hover:hover) and (pointer:fine) { button:hover { filter:brightness(1.1); } }
 button:disabled { opacity:.5; cursor:wait; }
@@ -130,7 +130,10 @@ tr.abierta + tr.payload { display:table-row; }
 @media (max-width: 760px) { .ed-vfila { grid-template-columns:1fr 1fr; } .ed-vfila .ed-sub.ancho { grid-column:1 / -1; } }
 .ed-coord { display:flex; gap:6px; } .ed-coord input { min-width:0; } .ed-coord button { flex:none; padding:5px 10px; }
 .ed-rev { padding:8px 12px; background:var(--code); border-radius:8px; }
-.ed-pie { display:flex; gap:10px; justify-content:space-between; flex-wrap:wrap; margin-top:16px; padding-top:12px; border-top:1px solid var(--line); position:sticky; bottom:0; background:var(--panel); }
+.ed-pie { display:flex; gap:10px; justify-content:space-between; align-items:center; flex-wrap:wrap; margin-top:16px; padding-top:12px; border-top:1px solid var(--line); position:sticky; bottom:0; background:var(--panel); }
+/* los botones del pie, todos con la misma altura (primario y secundarios) */
+.ed-pie button { display:inline-flex; align-items:center; justify-content:center; min-height:40px; padding:0 18px; }
+.ed-pie-grupo { display:flex; gap:10px; flex-wrap:wrap; }
 .ed-msg { border-radius:9px; padding:9px 13px; margin:8px 0; font-size:13.5px; background:var(--code); }
 .ed-msg ul { margin:6px 0 0; padding-left:20px; } .ed-msg li { margin:2px 0; }
 .ed-msg.mal { background:var(--badbg); color:var(--bad); } .ed-msg.aviso { background:var(--warnbg); color:#6b4a0c; }
@@ -243,7 +246,7 @@ button.aviso-pill.pendiente { background:var(--aviso-velo); color:var(--aviso); 
     <h2>Asistente de edición de fichas</h2>
     <p class="mini">Edita un país, conflicto, evento o territorio con un formulario, sin tocar el JSON. Al guardar, el servidor
     valida la ficha contra <code>schema/</code>, la escribe en <code>datos/</code> en formato canónico y recompila el mapa.
-    Después revisa el cambio con <code>git diff</code> y abre tu merge request.</p>
+    Después revisa el cambio con <code>git diff</code>, haz commit y abre un pull request.</p>
     <div class="card" id="editor">
       <ol class="ed-pasos" id="edPasos"><li class="on">Elegir ficha</li><li>Editar</li><li>Revisar y guardar</li></ol>
 
@@ -274,9 +277,9 @@ button.aviso-pill.pendiente { background:var(--aviso-velo); color:var(--aviso); 
         <div id="edResultado"></div>
         <pre id="edDiff" hidden></pre>
         <div class="ed-pie">
-          <span><button type="button" class="sec" id="edEditar">← Seguir editando</button>
-          <button type="button" class="sec" id="edOtra">Elegir otra ficha</button></span>
-          <button type="button" id="edGuardar" disabled>💾 Guardar en datos/</button>
+          <div class="ed-pie-grupo"><button type="button" class="sec" id="edEditar">← Seguir editando</button>
+          <button type="button" class="sec" id="edOtra">Elegir otra ficha</button></div>
+          <button type="button" id="edGuardar" disabled>Guardar en datos/</button>
         </div>
       </div>
     </div>
@@ -795,6 +798,6 @@ async function cargarTodo() {
 })();
 </script>
 <script src="lib/leaflet/leaflet.js"></script>
-<script src="js/admin-editor.js?v=5"></script>
+<script src="js/admin-editor.js?v=6"></script>
 </body>
 </html>

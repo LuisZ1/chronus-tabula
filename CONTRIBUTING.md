@@ -58,7 +58,7 @@ Si el año de fin queda antes que el de inicio, no deja guardar y lo explica: *'
 
 1. **Eventos** → **+ Nuevo evento**.
 2. **Nombre**: `Fundación de la Universidad de Salamanca`; **Año**: `1218`.
-3. **Coordenadas** → **📍 Mapa** y pincha sobre Salamanca (≈ 40,96, −5,66).
+3. **Coordenadas** → **Elegir en el mapa** y pincha sobre Salamanca (≈ 40,96, −5,66).
 4. **Países**: `Reino de León`; una **Descripción** de una frase; **Artículo de Wikipedia**: `Universidad de Salamanca`.
 5. **Fuentes** → **+ Añadir**: **Identificador** `wikipedia-es:Universidad de Salamanca`, **Licencia** `CC BY-SA`.
 6. Revisa y guarda: se crea `datos/eventos/1218-fundacion-de-la-universidad-de-salamanca.json` y el ⭐ aparece en el mapa de 1218.
@@ -66,7 +66,7 @@ Si el año de fin queda antes que el de inicio, no deja guardar y lo explica: *'
 **Ejemplo 3: añadir una batalla a un conflicto** (la Montaña Blanca, 1620, en la Guerra de los Treinta Años).
 
 1. **Conflictos**, busca `treinta` y ábrelo.
-2. **Batallas** → **+ Añadir**: **Nombre** `Batalla de la Montaña Blanca`, **Año** `1620`, coordenadas junto a Praga (≈ 50,08, 14,32) con **📍 Mapa**.
+2. **Batallas** → **+ Añadir**: **Nombre** `Batalla de la Montaña Blanca`, **Año** `1620`, coordenadas junto a Praga (≈ 50,08, 14,32) con **Elegir en el mapa**.
 3. Añade la fuente en **Fuentes** del conflicto, revisa y guarda. El orden no importa: las batallas se ordenan por año al guardar.
 
 Después, lo de siempre: `git diff`, commit y pull request.
