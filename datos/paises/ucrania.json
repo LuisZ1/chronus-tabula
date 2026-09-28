@@ -155,10 +155,28 @@
 	],
 	"escudos": [
 		{
-			"archivo": "Emblem of the Ukrainian Soviet Socialist Republic (1949–1991), Emblem of Ukraine (1991–1992).svg"
+			"archivo": "Emblem of the Ukrainian Soviet Socialist Republic (1949–1991), Emblem of Ukraine (1991–1992).svg",
+			"desde": 1949,
+			"hasta": 1992
 		},
 		{
 			"archivo": "Coat of Arms of Ukraine (Pantone).svg",
+			"desde": 1992
+		}
+	],
+	"banderas": [
+		{
+			"archivo": "Flag of Ukraine (1917–1921).svg",
+			"desde": 1917,
+			"hasta": 1921
+		},
+		{
+			"archivo": "Flag of Ukraine (1991–1992).svg",
+			"desde": 1991,
+			"hasta": 1992
+		},
+		{
+			"archivo": "Flag of Ukraine.svg",
 			"desde": 1992
 		}
 	],
@@ -294,14 +312,21 @@
 			"url": "https://www.wikidata.org/wiki/Q212",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q212",
+			"url": "https://www.wikidata.org/wiki/Q212",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "e0330ef7fc63",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

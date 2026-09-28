@@ -399,9 +399,6 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Egypt (1922-1958).svg"
-		},
-		{
 			"archivo": "Flag of Egypt (1844–1867).svg",
 			"desde": 1844,
 			"hasta": 1867
@@ -417,9 +414,14 @@
 			"hasta": 1922
 		},
 		{
+			"archivo": "Flag of Egypt (1922-1958).svg",
+			"desde": 1922,
+			"hasta": 1958
+		},
+		{
 			"archivo": "Flag of the United Arab Republic (1958–1971), Flag of Syria (1980–2024).svg",
 			"desde": 1958,
-			"hasta": 1999
+			"hasta": 1971
 		},
 		{
 			"archivo": "Flag of Egypt (1972–1984).svg",

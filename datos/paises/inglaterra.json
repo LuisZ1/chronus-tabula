@@ -257,9 +257,6 @@
 	],
 	"escudos": [
 		{
-			"archivo": "Coat of arms of England (1694–1702).svg"
-		},
-		{
 			"archivo": "Royal Arms of England (1154-1189).svg",
 			"hasta": 1189
 		},
@@ -361,6 +358,11 @@
 			"archivo": "Coat of Arms of England (c. 1690).svg",
 			"desde": 1690,
 			"hasta": 1690
+		},
+		{
+			"archivo": "Coat of arms of England (1694–1702).svg",
+			"desde": 1694,
+			"hasta": 1702
 		},
 		{
 			"archivo": "Coat of arms of England (1702–1707).svg",

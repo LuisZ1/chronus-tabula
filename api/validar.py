@@ -313,6 +313,9 @@ def main():
                     err(donde, f"{singular} '{e.get('archivo')}': 'desde' debe ser año entero o ausente")
                 elif e.get("hasta") is not None and not es_anio(e.get("hasta")):
                     err(donde, f"{singular} '{e.get('archivo')}': 'hasta' debe ser año entero o ausente")
+                elif e.get("desde") is None and e.get("hasta") is None and re.search(r"\d{3,4}\s*[-–—]\s*\d{3,4}", e["archivo"]):
+                    aviso(donde, f"{singular} '{e['archivo']}' no tiene fechas pero su nombre indica un periodo: "
+                                 "sin 'desde'/'hasta' se toma como el emblema actual; ponle sus años")
         VI.comprobar(p, todos_ids, err, aviso, donde)
         valida_fuentes(donde, p)
     VI.comprobar_reciprocos(d.get("paises", []), aviso)

@@ -23,7 +23,11 @@ function popupHtml(props) {
 		return `<div class="territory-popup sin-datos-popup"><h3>${i18n.t('popup.noData')}</h3><p>${i18n.t('popup.noDataText')}</p></div>`;
 	const y = state.requestedYear;
 	const pais = paisFor(props);
-	const name = (pais && pais.nombre) || props.NAME || i18n.t('popup.unknown');
+	// en su época actual, la ficha; en otra época, el nombre de ese periodo
+	// (Antiguo Egipto, no Egipto) y nada que sea solo del país actual
+	const actual = esEpocaActual(pais, y);
+	const periodo = periodoActivo(pais, y);
+	const name = (periodo && periodo.nombre) || (pais && pais.nombre) || props.NAME || i18n.t('popup.unknown');
 	let rows = '';
 
 	for (const g of gobernanteEn(pais, y)) {
@@ -44,26 +48,28 @@ function popupHtml(props) {
 		rows += `<tr><td>${i18n.t('popup.sovereign')}</td><td>${esc(props.SUBJECTO)}</td></tr>`;
 	if (props.PARTOF && props.PARTOF !== props.NAME && props.PARTOF !== props.SUBJECTO)
 		rows += `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(props.PARTOF)}</td></tr>`;
-	if (props.wikipedia) {
-		const url = /^https?:/.test(props.wikipedia)
-			? props.wikipedia
-			: `https://en.wikipedia.org/wiki/${encodeURIComponent(props.wikipedia)}`;
 	if (props.RELLENO && props.RELLENO.origen) {
 		const m = /world_(bc)?(\d+)/.exec(props.RELLENO.origen);
 		const anio = m ? (m[1] ? -Number(m[2]) : Number(m[2])) : null;
 		rows += `<tr><td>${i18n.t('popup.filled')}</td><td>${esc(i18n.t('popup.filledText').replace('{y}', anio == null ? '?' : i18n.formatYear(anio)))}</td></tr>`;
 	}
+	if (props.wikipedia) {
+		const url = /^https?:/.test(props.wikipedia)
+			? props.wikipedia
+			: `https://en.wikipedia.org/wiki/${encodeURIComponent(props.wikipedia)}`;
 		rows += `<tr><td>${i18n.t('popup.wikipedia')}</td><td><a href="${esc(url)}" target="_blank" rel="noopener">↗</a></td></tr>`;
 	}
 
 	// reseña curada guardada en la ficha: si existe, se muestra y NO se descarga el
 	// extracto en vivo (evita texto duplicado); si no, se deja el extracto en vivo.
-	const resena = pais && pais.resena;
+	const resena = actual && pais && pais.resena;
 
-	// título para el extracto de Wikipedia: preferimos el nombre curado en español
+	// título para el extracto de Wikipedia: preferimos el nombre curado en español;
+	// fuera de la época actual, el artículo de ese periodo
 	let wikiRef = '';
 	if (!resena) {
-		if (pais) wikiRef = refWiki(pais.wiki || pais.nombre);
+		if (pais && !actual) wikiRef = periodo ? refWiki(periodo.wiki || periodo.nombre) : '';
+		else if (pais) wikiRef = refWiki(pais.wiki || pais.nombre);
 		else if (props.wikipedia && !/^https?:/.test(props.wikipedia)) wikiRef = 'en:' + props.wikipedia;
 	}
 

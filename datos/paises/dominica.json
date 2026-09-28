@@ -269,12 +269,14 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Dominica (1978–1981).svg"
-		},
-		{
 			"archivo": "Flag of Dominica (1965–1978).svg",
 			"desde": 1961,
 			"hasta": 1978
+		},
+		{
+			"archivo": "Flag of Dominica (1978–1981).svg",
+			"desde": 1978,
+			"hasta": 1981
 		},
 		{
 			"archivo": "Flag of Dominica (1981–1988).svg",

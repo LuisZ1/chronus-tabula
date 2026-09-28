@@ -38,14 +38,49 @@ function paisFor(props) {
    - en último caso, el nombre original del GeoJSON. */
 const NOMBRE_HISTORICO = /imperio|reino|califato|dinast[íi]a|vikingos|dos naciones|sacro|bizan|hel[ée]n|antigua|cl[áa]sic|\//i;
 
-function nombrePeriodo(pais, y) {
+function periodoActivo(pais, y) {
 	if (!pais || !Array.isArray(pais.nombres_periodo)) return null;
 	for (const per of pais.nombres_periodo) {
 		const desde = per.desde ?? -1e9;
 		const hasta = per.hasta ?? 1e9;
-		if (y >= desde && y <= hasta) return per.nombre;
+		if (y >= desde && y <= hasta) return per;
 	}
 	return null;
+}
+
+function nombrePeriodo(pais, y) {
+	const per = periodoActivo(pais, y);
+	return per ? per.nombre : null;
+}
+
+/* ---------- ¿el año consultado es la época «actual» de la ficha? ----------
+   Una ficha como Egipto cubre del Antiguo Egipto a hoy con 'nombres_periodo',
+   pero su reseña, su bandera o su escudo sin fechas y los emblemas que se
+   buscan en vivo son los del país actual. Solo valen en su época: en el año
+   −2804 el mapa no debe enseñar la bandera ni la reseña de la República Árabe
+   de Egipto. Es época actual si el periodo activo llega a nuestros días, o si no
+   hay periodo activo y el año no es anterior al primero (p. ej. la RD del Congo
+   después de «Zaire»). Sin 'nombres_periodo', la ficha es una sola entidad. */
+const ANIO_ACTUAL = new Date().getFullYear();
+
+/* emblemas «actuales» (sin fechas, o buscados en vivo): además de la época
+   actual, en una ficha de Estado moderno (con Qid de Wikidata) sin periodos no
+   se muestran antes de 1800, porque las banderas y escudos nacionales de hoy
+   no existían: mejor ninguno que uno anacrónico (Armenia en 323 a. C.) */
+const ANIO_EMBLEMAS_MODERNOS = 1800;
+
+function emblemaActualVale(pais, y) {
+	if (!esEpocaActual(pais, y)) return false;
+	const sinPeriodos = !Array.isArray(pais.nombres_periodo) || !pais.nombres_periodo.length;
+	return !(sinPeriodos && pais.wikidata && y < ANIO_EMBLEMAS_MODERNOS);
+}
+
+function esEpocaActual(pais, y) {
+	if (!pais || !Array.isArray(pais.nombres_periodo) || !pais.nombres_periodo.length) return true;
+	const per = periodoActivo(pais, y);
+	if (per) return per.hasta == null || per.hasta >= ANIO_ACTUAL - 1;
+	const primero = Math.min(...pais.nombres_periodo.map(p => p.desde ?? -1e9));
+	return y >= primero;
 }
 
 function nombreVisible(name, y, permitirHistorico) {
@@ -79,6 +114,7 @@ function emblemaParaAnio(pais, y, campo) {
 	// el fichero es canónico por fecha y el respaldo queda el primero, así que no
 	// vale con recorrer la lista sin más)
 	let respaldo = null;
+	let primeroFechado = Infinity;
 	for (const e of pais[campo]) {
 		if (e.desde == null && e.hasta == null) {
 			respaldo = respaldo || e;
@@ -86,9 +122,21 @@ function emblemaParaAnio(pais, y, campo) {
 		}
 		const desde = e.desde ?? -1e9;
 		const hasta = e.hasta ?? 1e9;
+		primeroFechado = Math.min(primeroFechado, desde);
 		if (y >= desde && y <= hasta) return escudoUrlDe(e.archivo);
 	}
-	return respaldo ? escudoUrlDe(respaldo.archivo) : null;
+	// el respaldo sin fechas es el emblema actual: nunca antes del primer emblema
+	// fechado ni fuera de la época actual de la ficha
+	if (!respaldo || (primeroFechado !== Infinity && y < primeroFechado) || !emblemaActualVale(pais, y)) return null;
+	return escudoUrlDe(respaldo.archivo);
+}
+
+/* el emblema en vivo (Wikidata por nombre) es siempre el actual: solo sin ficha,
+   o si la ficha no trae emblemas de ese tipo y el año es de su época actual */
+function puedeEmblemaEnVivo(pais, y, campo) {
+	if (!pais) return true;
+	if (Array.isArray(pais[campo]) && pais[campo].length) return false;
+	return emblemaActualVale(pais, y);
 }
 
 function escudoParaAnio(pais, y) {
@@ -108,10 +156,16 @@ function gobernanteEn(pais, y) {
 	return pais.gobernantes.filter(g => g.desde <= y && y <= g.hasta);
 }
 
+/* la estimación más cercana, pero no de otra época: dentro del periodo activo
+   (si la ficha los tiene) y a menos de 500 años */
 function poblacionCercana(pais, y) {
 	if (!pais || !pais.poblacion || !pais.poblacion.length) return null;
+	const per = periodoActivo(pais, y);
+	const lo = per && per.desde != null ? per.desde : -1e9;
+	const hi = per && per.hasta != null ? per.hasta : 1e9;
 	let best = null;
 	for (const p of pais.poblacion) {
+		if (p.anio < lo || p.anio > hi || Math.abs(p.anio - y) > 500) continue;
 		if (!best || Math.abs(p.anio - y) < Math.abs(best.anio - y)) best = p;
 	}
 	return best;

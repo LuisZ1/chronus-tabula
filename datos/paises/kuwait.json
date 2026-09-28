@@ -217,7 +217,9 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Kuwait (1915–1956).svg"
+			"archivo": "Flag of Kuwait (1915–1956).svg",
+			"desde": 1915,
+			"hasta": 1956
 		},
 		{
 			"archivo": "Maritime Ensign of Kuwait 1956-1961.svg",

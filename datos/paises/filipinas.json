@@ -301,12 +301,14 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of the Philippines (1985–1986).svg"
-		},
-		{
 			"archivo": "Flag of the Philippines (navy blue).svg",
 			"desde": 1936,
 			"hasta": 1985
+		},
+		{
+			"archivo": "Flag of the Philippines (1985–1986).svg",
+			"desde": 1985,
+			"hasta": 1986
 		},
 		{
 			"archivo": "Flag of the Philippines (navy blue).svg",

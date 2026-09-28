@@ -358,9 +358,6 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Imperial Standard of Mexico (1864-1867).svg"
-		},
-		{
 			"archivo": "Bandera del Primer Imperio Mexicano.svg",
 			"desde": 1821,
 			"hasta": 1823
@@ -369,6 +366,11 @@
 			"archivo": "Bandera Histórica de la República Mexicana (1824-1918).svg",
 			"desde": 1823,
 			"hasta": 1864
+		},
+		{
+			"archivo": "Imperial Standard of Mexico (1864-1867).svg",
+			"desde": 1864,
+			"hasta": 1867
 		},
 		{
 			"archivo": "Bandera Histórica de la República Mexicana (1824-1918).svg",

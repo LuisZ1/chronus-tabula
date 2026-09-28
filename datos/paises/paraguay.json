@@ -205,9 +205,6 @@
 	],
 	"banderas": [
 		{
-			"archivo": "Flag of Paraguay (1988–1990).svg"
-		},
-		{
 			"archivo": "Flag of Paraguay (1812-1826).svg",
 			"desde": 1812,
 			"hasta": 1825
@@ -226,6 +223,11 @@
 			"archivo": "Flag of Paraguay (1954–1988).svg",
 			"desde": 1954,
 			"hasta": 1988
+		},
+		{
+			"archivo": "Flag of Paraguay (1988–1990).svg",
+			"desde": 1988,
+			"hasta": 1990
 		},
 		{
 			"archivo": "Flag of Paraguay (1990–2013).svg",

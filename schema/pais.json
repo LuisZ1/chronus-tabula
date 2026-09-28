@@ -57,6 +57,11 @@
 						"maximum": 2100,
 						"description": "Año (negativo = a. C.) o null/ausente"
 					},
+					"wiki": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Artículo de Wikipedia en español de ese periodo (p. ej. 'Antiguo Egipto'); si falta, se usa el nombre. Fuera de la época actual, la ficha del mapa muestra el extracto de este artículo en vez de la reseña del país actual"
+					},
 					"wikidata": {
 						"type": "string",
 						"pattern": "^Q[0-9]+$",
