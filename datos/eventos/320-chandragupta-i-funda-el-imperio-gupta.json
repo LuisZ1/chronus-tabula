@@ -1,0 +1,25 @@
+{
+	"nombre": "Chandragupta I funda el Imperio Gupta",
+	"anio": 320,
+	"lat": 25.6,
+	"lng": 85.1,
+	"paises": [
+		"Imperio Gupta"
+	],
+	"descripcion": "Chandragupta I se corona en Pataliputra con el título de maharajadhiraja; con su hijo Samudragupta nace el Imperio Gupta, la «edad de oro» de la India clásica.",
+	"wiki": "Imperio Gupta",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Gupta Empire",
+			"url": "https://en.wikipedia.org/wiki/Gupta_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio Gupta",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Gupta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

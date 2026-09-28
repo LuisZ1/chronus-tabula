@@ -1,0 +1,20 @@
+{
+	"nombre": "Disolución de la Unión Soviética",
+	"anio": 1991,
+	"lat": 55.75,
+	"lng": 37.62,
+	"paises": [
+		"URSS",
+		"Rusia"
+	],
+	"descripcion": "Gorbachov dimite el 25 de diciembre y la URSS se disuelve; nacen quince repúblicas independientes.",
+	"wiki": "Disolución de la Unión Soviética",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Disolución de la Unión Soviética",
+			"url": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

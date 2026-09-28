@@ -1,0 +1,19 @@
+{
+	"nombre": "Armenia adopta el cristianismo",
+	"anio": 301,
+	"lat": 40.16,
+	"lng": 44.29,
+	"paises": [
+		"Armenia"
+	],
+	"descripcion": "El rey Tiridates III, convertido por Gregorio el Iluminador, hace del cristianismo la religión del reino de Armenia, el primer Estado que lo adopta oficialmente (la fecha tradicional es 301; algunos autores proponen 314). Marcador en Echmiadzin.",
+	"wiki": "Cristianización de Armenia",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kingdom of Armenia (antiquity)",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_%28antiquity%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

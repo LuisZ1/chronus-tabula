@@ -1,0 +1,19 @@
+{
+	"nombre": "Muerte de Alejandro Magno",
+	"anio": -323,
+	"lat": 32.54,
+	"lng": 44.42,
+	"paises": [
+		"Macedonia y Liga Helénica"
+	],
+	"descripcion": "Alejandro muere en Babilonia, en el palacio de Nabucodonosor II, a los 32 años. Sus generales (los diádocos) se reparten el imperio.",
+	"wiki": "Alejandro Magno",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Alejandro Magno",
+			"url": "https://es.wikipedia.org/wiki/Alejandro_Magno",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

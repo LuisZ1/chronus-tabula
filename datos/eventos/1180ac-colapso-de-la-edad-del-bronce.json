@@ -1,0 +1,27 @@
+{
+	"nombre": "Colapso de la Edad del Bronce",
+	"anio": -1180,
+	"lat": 37.73,
+	"lng": 22.76,
+	"paises": [
+		"Imperio hitita",
+		"Grecia antigua",
+		"Egipto"
+	],
+	"descripcion": "Entre 1200 y 1150 a. C. (fecha aproximada) caen el Imperio hitita, los reinos micénicos y Ugarit; Egipto resiste debilitado. Las causas (Pueblos del Mar, sequía, crisis internas) siguen en debate. Marcador en Micenas.",
+	"wiki": "Colapso de la Edad del Bronce Final",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Late Bronze Age collapse",
+			"url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Mycenae",
+			"url": "https://en.wikipedia.org/wiki/Mycenae",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

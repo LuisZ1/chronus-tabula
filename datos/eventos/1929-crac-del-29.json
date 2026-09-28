@@ -1,0 +1,19 @@
+{
+	"nombre": "Crac del 29",
+	"anio": 1929,
+	"lat": 40.71,
+	"lng": -74.01,
+	"paises": [
+		"Estados Unidos"
+	],
+	"descripcion": "Hundimiento de la Bolsa de Nueva York (24-29 de octubre), inicio de la Gran Depresión.",
+	"wiki": "Crac del 29",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Crac del 29",
+			"url": "https://es.wikipedia.org/wiki/Crac_del_29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

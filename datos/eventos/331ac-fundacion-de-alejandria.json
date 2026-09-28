@@ -1,0 +1,20 @@
+{
+	"nombre": "Fundación de Alejandría",
+	"anio": -331,
+	"lat": 31.2,
+	"lng": 29.92,
+	"paises": [
+		"Macedonia y Liga Helénica",
+		"Egipto"
+	],
+	"descripcion": "Alejandro Magno traza en la costa del delta del Nilo la ciudad que llevará su nombre y que será capital de los Ptolomeos y gran centro cultural del mundo helenístico.",
+	"wiki": "Alejandría",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Alejandro Magno",
+			"url": "https://es.wikipedia.org/wiki/Alejandro_Magno",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

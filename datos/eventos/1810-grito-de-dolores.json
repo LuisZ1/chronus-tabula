@@ -1,0 +1,19 @@
+{
+	"nombre": "Grito de Dolores",
+	"anio": 1810,
+	"lat": 21.157,
+	"lng": -100.934,
+	"paises": [
+		"México",
+		"España"
+	],
+	"descripcion": "El cura Hidalgo llama a la insurrección el 16 de septiembre y empieza la guerra de independencia de México.",
+	"wiki": "Grito de Dolores",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Grito de Dolores",
+			"url": "https://es.wikipedia.org/wiki/Grito_de_Dolores",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

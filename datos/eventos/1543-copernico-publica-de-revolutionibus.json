@@ -1,0 +1,19 @@
+{
+	"nombre": "Copérnico publica De revolutionibus",
+	"anio": 1543,
+	"lat": 49.454,
+	"lng": 11.077,
+	"paises": [
+		"Sacro Imperio Romano Germánico",
+		"Polonia"
+	],
+	"descripcion": "Se imprime en Núremberg el modelo heliocéntrico de Copérnico, punto de partida de la revolución científica.",
+	"wiki": "De revolutionibus orbium coelestium",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:De revolutionibus orbium coelestium",
+			"url": "https://es.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

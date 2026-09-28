@@ -1,0 +1,18 @@
+{
+	"nombre": "Coronación de Napoleón",
+	"anio": 1804,
+	"lat": 48.853,
+	"lng": 2.35,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "Napoleón se corona emperador de los franceses en Notre-Dame (2 de diciembre).",
+	"wiki": "Coronación de Napoleón",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Coronación de Napoleón",
+			"url": "https://es.wikipedia.org/wiki/Coronaci%C3%B3n_de_Napole%C3%B3n",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

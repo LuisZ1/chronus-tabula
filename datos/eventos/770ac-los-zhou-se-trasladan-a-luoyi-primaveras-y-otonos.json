@@ -1,0 +1,19 @@
+{
+	"nombre": "Los Zhou se trasladan a Luoyi: Primaveras y Otoños",
+	"anio": -770,
+	"lat": 34.62,
+	"lng": 112.45,
+	"paises": [
+		"Dinastía Zhou"
+	],
+	"descripcion": "Tras el saqueo de Fenghao en 771 a. C., el rey Ping traslada la corte al este, a Luoyi (hacia 770 a. C.); el poder real pasa a los Estados feudales.",
+	"wiki": "Zhou del Oeste",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Western Zhou",
+			"url": "https://en.wikipedia.org/wiki/Western_Zhou",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

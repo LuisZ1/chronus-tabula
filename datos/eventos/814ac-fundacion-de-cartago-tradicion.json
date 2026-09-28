@@ -1,0 +1,26 @@
+{
+	"nombre": "Fundación de Cartago (tradición)",
+	"anio": -814,
+	"lat": 36.85,
+	"lng": 10.32,
+	"paises": [
+		"Fenicia",
+		"Cartago"
+	],
+	"descripcion": "Según la tradición, colonos de Tiro fundan Cartago en 814 a. C.; es una fecha tradicional: los restos urbanos más antiguos hallados son del siglo VII a. C.",
+	"wiki": "Cartago",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Phoenicia",
+			"url": "https://en.wikipedia.org/wiki/Phoenicia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Carthage",
+			"url": "https://en.wikipedia.org/wiki/Carthage",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

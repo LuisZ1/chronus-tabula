@@ -1,0 +1,26 @@
+{
+	"nombre": "Huesos oraculares de Yinxu",
+	"anio": -1250,
+	"categoria": "invento",
+	"lat": 36.13,
+	"lng": 114.31,
+	"paises": [
+		"Dinastía Shang"
+	],
+	"descripcion": "Hacia el siglo XIII a. C. (reinado de Wu Ding, c. 1250-1191 a. C.), en Yin, última capital Shang (Anyang), se graban en huesos y caparazones las inscripciones adivinatorias que son la escritura china más antigua conocida.",
+	"wiki": "Yinxu",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Yinxu",
+			"url": "https://en.wikipedia.org/wiki/Yinxu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Shang dynasty",
+			"url": "https://en.wikipedia.org/wiki/Shang_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

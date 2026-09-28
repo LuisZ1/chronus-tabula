@@ -1,0 +1,18 @@
+{
+	"nombre": "Lutero publica las 95 tesis",
+	"anio": 1517,
+	"lat": 51.866,
+	"lng": 12.643,
+	"paises": [
+		"Sacro Imperio Romano Germánico"
+	],
+	"descripcion": "Lutero critica en Wittenberg la venta de indulgencias; empieza la Reforma protestante.",
+	"wiki": "Noventa y cinco tesis",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Noventa y cinco tesis",
+			"url": "https://es.wikipedia.org/wiki/Noventa_y_cinco_tesis",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

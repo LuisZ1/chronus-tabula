@@ -1,0 +1,19 @@
+{
+	"nombre": "Edicto de Tesalónica",
+	"anio": 380,
+	"lat": 40.64,
+	"lng": 22.94,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "El 27 de febrero, Teodosio, Graciano y Valentiniano II proclaman el cristianismo niceno religión oficial del Imperio romano.",
+	"wiki": "Edicto de Tesalónica",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Edicto de Tesalónica",
+			"url": "https://es.wikipedia.org/wiki/Edicto_de_Tesal%C3%B3nica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

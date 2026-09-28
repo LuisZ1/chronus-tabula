@@ -1,0 +1,16 @@
+{
+	"nombre": "Año de África",
+	"anio": 1960,
+	"lat": 9.06,
+	"lng": 7.49,
+	"descripcion": "Diecisiete países africanos se independizan en un solo año.",
+	"wiki": "Año de África",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Año de África",
+			"url": "https://es.wikipedia.org/wiki/A%C3%B1o_de_%C3%81frica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

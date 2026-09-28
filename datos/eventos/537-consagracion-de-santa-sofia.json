@@ -1,0 +1,19 @@
+{
+	"nombre": "Consagración de Santa Sofía",
+	"anio": 537,
+	"lat": 41.008,
+	"lng": 28.98,
+	"paises": [
+		"Imperio bizantino (romano de Oriente)"
+	],
+	"descripcion": "Justiniano inaugura la nueva basílica de Santa Sofía de Constantinopla, levantada en menos de seis años tras la revuelta de Niká; su cúpula sobre pechinas será modelo durante siglos.",
+	"wiki": "Santa Sofía",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Hagia Sophia",
+			"url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

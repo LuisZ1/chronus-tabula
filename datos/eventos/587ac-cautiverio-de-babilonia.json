@@ -5,7 +5,7 @@
 	"lng": 44.42,
 	"paises": [
 		"Babilonia",
-		"Israel"
+		"Reino de Judá"
 	],
 	"descripcion": "Nabucodonosor II destruye Jerusalén y su Templo y deporta a Babilonia a buena parte del pueblo judío. El destierro, que dura hasta la conquista persa de 539 a.C., marca profundamente la religión y la identidad judías.",
 	"wiki": "Cautiverio de Babilonia",
@@ -15,6 +15,12 @@
 			"url": "https://es.wikipedia.org/wiki/Cautiverio_de_Babilonia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-en:Neo-Babylonian Empire",
+			"url": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

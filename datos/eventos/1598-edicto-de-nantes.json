@@ -1,0 +1,24 @@
+{
+	"nombre": "Edicto de Nantes",
+	"anio": 1598,
+	"lat": 47.218,
+	"lng": -1.554,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "Enrique IV concede derechos a los hugonotes y cierra las guerras de religión.",
+	"wiki": "Edicto de Nantes",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Edicto de Nantes",
+			"url": "https://es.wikipedia.org/wiki/Edicto_de_Nantes",
+			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-en:French Wars of Religion",
+			"url": "https://en.wikipedia.org/wiki/French_Wars_of_Religion",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

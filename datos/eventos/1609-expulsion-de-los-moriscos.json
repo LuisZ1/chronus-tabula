@@ -1,0 +1,18 @@
+{
+	"nombre": "Expulsión de los moriscos",
+	"anio": 1609,
+	"lat": 39.47,
+	"lng": -0.376,
+	"paises": [
+		"España"
+	],
+	"descripcion": "Felipe III decreta la expulsión de los moriscos (1609-1614), empezando por el reino de Valencia.",
+	"wiki": "Expulsión de los moriscos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Expulsión de los moriscos",
+			"url": "https://es.wikipedia.org/wiki/Expulsi%C3%B3n_de_los_moriscos",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

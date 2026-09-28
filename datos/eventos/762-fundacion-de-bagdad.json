@@ -1,0 +1,19 @@
+{
+	"nombre": "Fundación de Bagdad",
+	"anio": 762,
+	"lat": 33.34,
+	"lng": 44.4,
+	"paises": [
+		"Califato abasí"
+	],
+	"descripcion": "El califa al-Mansur funda la ciudad redonda de Bagdad (Madinat al-Salam), nueva capital abasí y gran centro del saber islámico.",
+	"wiki": "Bagdad",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Round city of Baghdad",
+			"url": "https://en.wikipedia.org/wiki/Round_city_of_Baghdad",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

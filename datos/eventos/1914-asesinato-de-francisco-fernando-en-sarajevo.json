@@ -1,0 +1,20 @@
+{
+	"nombre": "Asesinato de Francisco Fernando en Sarajevo",
+	"anio": 1914,
+	"lat": 43.86,
+	"lng": 18.43,
+	"paises": [
+		"Austria",
+		"Serbia"
+	],
+	"descripcion": "El 28 de junio, detonante de la Primera Guerra Mundial.",
+	"wiki": "Atentado de Sarajevo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Atentado de Sarajevo",
+			"url": "https://es.wikipedia.org/wiki/Atentado_de_Sarajevo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"nombre": "Conferencia de Yalta",
+	"anio": 1945,
+	"lat": 44.47,
+	"lng": 34.14,
+	"paises": [
+		"URSS",
+		"Estados Unidos",
+		"Reino Unido"
+	],
+	"descripcion": "Roosevelt, Churchill y Stalin acuerdan la posguerra (febrero).",
+	"wiki": "Conferencia de Yalta",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Conferencia de Yalta",
+			"url": "https://es.wikipedia.org/wiki/Conferencia_de_Yalta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

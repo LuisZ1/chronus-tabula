@@ -1,0 +1,21 @@
+{
+	"nombre": "Compra de Luisiana",
+	"anio": 1803,
+	"lat": 29.958,
+	"lng": -90.064,
+	"paises": [
+		"Estados Unidos",
+		"Francia",
+		"España"
+	],
+	"descripcion": "Francia, que acababa de recibir Luisiana de España, la vende a Estados Unidos; el traspaso se hace en el Cabildo de Nueva Orleans.",
+	"wiki": "Compra de Luisiana",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Louisiana (New Spain)",
+			"url": "https://en.wikipedia.org/wiki/Louisiana_%28New_Spain%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

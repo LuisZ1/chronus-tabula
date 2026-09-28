@@ -1,0 +1,26 @@
+{
+	"nombre": "Acuerdo de los 17 Puntos",
+	"anio": 1951,
+	"lat": 29.65,
+	"lng": 91.13,
+	"paises": [
+		"República Popular China",
+		"Tíbet (gobierno de Lhasa)"
+	],
+	"descripcion": "Firmado en Pekín el 23 de mayo de 1951 por delegados del gobierno de Lhasa tras la derrota tibetana en Qamdo, incorpora el Tíbet a la República Popular China, que lo presenta como «liberación pacífica del Tíbet».",
+	"wiki": "Acuerdo de los Diecisiete Puntos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Acuerdo de los Diecisiete Puntos",
+			"url": "https://es.wikipedia.org/wiki/Acuerdo_de_los_Diecisiete_Puntos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-en:Annexation of Tibet by the People's Republic of China",
+			"url": "https://en.wikipedia.org/wiki/Annexation_of_Tibet_by_the_People%27s_Republic_of_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

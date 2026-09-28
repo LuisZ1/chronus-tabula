@@ -1,0 +1,19 @@
+{
+	"nombre": "Batalla de Kerbala",
+	"anio": 680,
+	"lat": 32.61,
+	"lng": 44.02,
+	"paises": [
+		"Califato omeya"
+	],
+	"descripcion": "Las tropas del califa Yazid matan a Husáin, nieto de Mahoma, y a su pequeño séquito; el martirio de Husáin convierte el partido de Alí en la corriente religiosa chií.",
+	"wiki": "Batalla de Kerbala",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Karbala",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Karbala",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

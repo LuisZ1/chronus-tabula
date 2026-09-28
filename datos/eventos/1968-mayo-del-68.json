@@ -1,0 +1,19 @@
+{
+	"nombre": "Mayo del 68",
+	"anio": 1968,
+	"lat": 48.85,
+	"lng": 2.34,
+	"paises": [
+		"Francia"
+	],
+	"descripcion": "Revuelta estudiantil y huelga general en Francia.",
+	"wiki": "Mayo de 1968 en Francia",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Mayo de 1968 en Francia",
+			"url": "https://es.wikipedia.org/wiki/Mayo_de_1968_en_Francia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

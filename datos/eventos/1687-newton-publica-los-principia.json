@@ -1,0 +1,18 @@
+{
+	"nombre": "Newton publica los Principia",
+	"anio": 1687,
+	"lat": 51.507,
+	"lng": -0.128,
+	"paises": [
+		"Inglaterra"
+	],
+	"descripcion": "La ley de la gravitación universal y las leyes del movimiento culminan la revolución científica.",
+	"wiki": "Philosophiæ naturalis principia mathematica",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Philosophiæ naturalis principia mathematica",
+			"url": "https://es.wikipedia.org/wiki/Philosophi%C3%A6_naturalis_principia_mathematica",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

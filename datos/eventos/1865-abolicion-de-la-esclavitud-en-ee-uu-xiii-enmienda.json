@@ -1,0 +1,19 @@
+{
+	"nombre": "Abolición de la esclavitud en EE. UU. (XIII Enmienda)",
+	"anio": 1865,
+	"lat": 38.89,
+	"lng": -77.01,
+	"paises": [
+		"Estados Unidos"
+	],
+	"descripcion": "Ratificada en diciembre de 1865, al terminar la guerra de Secesión.",
+	"wiki": "Decimotercera Enmienda a la Constitución de los Estados Unidos",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Decimotercera Enmienda a la Constitución de los Estados Unidos",
+			"url": "https://es.wikipedia.org/wiki/Decimotercera_Enmienda_a_la_Constituci%C3%B3n_de_los_Estados_Unidos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

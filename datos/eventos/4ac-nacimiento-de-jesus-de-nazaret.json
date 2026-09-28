@@ -1,0 +1,20 @@
+{
+	"nombre": "Nacimiento de Jesús de Nazaret",
+	"anio": -4,
+	"lat": 31.7,
+	"lng": 35.2,
+	"paises": [
+		"Judea",
+		"Roma"
+	],
+	"descripcion": "Nacimiento de Jesús de Nazaret en el reino de Judea, cliente de Roma. Fecha aproximada y discutida: los historiadores la sitúan entre el 7 y el 4 a. C.; el marcador está en Belén, lugar que da la tradición. Murió en Jerusalén hacia 30-33 d. C.",
+	"wiki": "Jesús de Nazaret",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Jesús de Nazaret",
+			"url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_de_Nazaret",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

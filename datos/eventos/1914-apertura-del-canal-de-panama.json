@@ -1,0 +1,20 @@
+{
+	"nombre": "Apertura del canal de Panamá",
+	"anio": 1914,
+	"lat": 9.08,
+	"lng": -79.68,
+	"paises": [
+		"Estados Unidos",
+		"Panamá"
+	],
+	"descripcion": "Inaugurado el 15 de agosto.",
+	"wiki": "Canal de Panamá",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Canal de Panamá",
+			"url": "https://es.wikipedia.org/wiki/Canal_de_Panam%C3%A1",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

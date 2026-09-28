@@ -1,0 +1,20 @@
+{
+	"nombre": "Independencia de Haití",
+	"anio": 1804,
+	"lat": 19.45,
+	"lng": -72.68,
+	"paises": [
+		"Haití",
+		"Francia"
+	],
+	"descripcion": "El 1 de enero, en Gonaïves, Dessalines proclama la independencia de la antigua Saint-Domingue: primera república negra y segundo Estado independiente de América.",
+	"wiki": "Acta de Independencia de Haití",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Saint-Domingue",
+			"url": "https://en.wikipedia.org/wiki/Saint-Domingue",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

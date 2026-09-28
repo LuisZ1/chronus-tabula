@@ -1,0 +1,19 @@
+{
+	"nombre": "Asesinato de Julio César",
+	"anio": -44,
+	"lat": 41.895,
+	"lng": 12.477,
+	"paises": [
+		"Roma"
+	],
+	"descripcion": "En los idus de marzo, un grupo de senadores encabezado por Bruto y Casio apuñala a César en la curia del teatro de Pompeyo. Su muerte, lejos de salvar la República, abre la guerra civil que llevará a Augusto al poder.",
+	"wiki": "Asesinato de Julio César",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Assassination of Julius Caesar",
+			"url": "https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

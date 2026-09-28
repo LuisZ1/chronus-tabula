@@ -1,0 +1,20 @@
+{
+	"nombre": "Unión de Kalmar",
+	"anio": 1397,
+	"lat": 56.66,
+	"lng": 16.36,
+	"paises": [
+		"Dinamarca-Noruega",
+		"Suecia"
+	],
+	"descripcion": "Margarita I une bajo un solo monarca Dinamarca, Noruega y Suecia; la unión dura hasta la elección de Gustavo Vasa en 1523.",
+	"wiki": "Unión de Kalmar",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kalmar Union",
+			"url": "https://en.wikipedia.org/wiki/Kalmar_Union",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

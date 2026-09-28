@@ -4,9 +4,10 @@
 	"lat": 24.7,
 	"lng": 84.99,
 	"paises": [
-		"Imperio maurya"
+		"Magadha",
+		"India"
 	],
-	"descripcion": "Según la tradición, Siddhartha Gautama alcanza la iluminación bajo el árbol Bodhi en Bodh Gaya y se convierte en el Buda. Su enseñanza sobre el sufrimiento y su superación dará origen a una de las grandes religiones del mundo.",
+	"descripcion": "Según la tradición, Siddhartha Gautama alcanza la iluminación bajo el árbol Bodhi en Bodh Gaya y se convierte en el Buda. Su enseñanza sobre el sufrimiento y su superación dará origen a una de las grandes religiones del mundo. (Fecha tradicional; muchos especialistas sitúan la vida de Buda hacia 480-400 a. C.)",
 	"wiki": "Buda Gautama",
 	"fuentes": [
 		{
@@ -14,6 +15,12 @@
 			"url": "https://es.wikipedia.org/wiki/Buda_Gautama",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-en:Gautama Buddha",
+			"url": "https://en.wikipedia.org/wiki/Gautama_Buddha",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

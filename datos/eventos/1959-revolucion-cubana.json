@@ -1,0 +1,19 @@
+{
+	"nombre": "Revolución cubana",
+	"anio": 1959,
+	"lat": 23.11,
+	"lng": -82.37,
+	"paises": [
+		"Cuba"
+	],
+	"descripcion": "Batista huye el 1 de enero; Fidel Castro toma el poder.",
+	"wiki": "Revolución cubana",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Revolución cubana",
+			"url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_cubana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

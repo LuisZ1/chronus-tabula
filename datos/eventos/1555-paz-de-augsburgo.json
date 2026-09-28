@@ -1,0 +1,18 @@
+{
+	"nombre": "Paz de Augsburgo",
+	"anio": 1555,
+	"lat": 48.366,
+	"lng": 10.898,
+	"paises": [
+		"Sacro Imperio Romano Germánico"
+	],
+	"descripcion": "Cada príncipe del Imperio decide la religión de su territorio (cuius regio, eius religio) entre catolicismo y luteranismo.",
+	"wiki": "Paz de Augsburgo",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Paz de Augsburgo",
+			"url": "https://es.wikipedia.org/wiki/Paz_de_Augsburgo",
+			"licencia": "CC BY-SA"
+		}
+	]
+}

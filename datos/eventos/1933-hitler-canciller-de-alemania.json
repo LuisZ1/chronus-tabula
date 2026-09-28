@@ -1,0 +1,19 @@
+{
+	"nombre": "Hitler, canciller de Alemania",
+	"anio": 1933,
+	"lat": 52.51,
+	"lng": 13.38,
+	"paises": [
+		"Alemania"
+	],
+	"descripcion": "Hindenburg nombra canciller a Hitler el 30 de enero; en meses se desmantela la República de Weimar.",
+	"wiki": "Machtergreifung",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Machtergreifung",
+			"url": "https://es.wikipedia.org/wiki/Machtergreifung",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

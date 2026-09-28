@@ -1,0 +1,19 @@
+{
+	"nombre": "Reunificación alemana",
+	"anio": 1990,
+	"lat": 52.52,
+	"lng": 13.4,
+	"paises": [
+		"Alemania"
+	],
+	"descripcion": "La RDA se integra en la RFA el 3 de octubre.",
+	"wiki": "Reunificación alemana",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reunificación alemana",
+			"url": "https://es.wikipedia.org/wiki/Reunificaci%C3%B3n_alemana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}
