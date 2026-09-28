@@ -4,14 +4,21 @@
 	"lat": 35.6,
 	"lng": 116.98,
 	"paises": [
-		"Dinastía Zhou"
+		"Dinastía Zhou",
+		"China"
 	],
-	"descripcion": "En un tiempo de guerra y fragmentación florecen las grandes corrientes del pensamiento chino: confucianismo (Confucio, 551-479 a. C.), taoísmo, mohismo y legismo, base de la cultura china posterior.",
+	"descripcion": "Confucio (551-479 a. C.) enseña en la China del periodo de Primaveras y Otoños una ética del deber, el respeto y la armonía social. A su alrededor florecen las grandes corrientes del pensamiento chino (confucianismo, taoísmo, mohismo y legismo), base durante más de dos milenios de la política, la familia y la administración en el este de Asia.",
 	"wiki": "Cien escuelas de pensamiento",
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Cien escuelas de pensamiento",
 			"url": "https://es.wikipedia.org/wiki/Cien_escuelas_de_pensamiento",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Confucio",
+			"url": "https://es.wikipedia.org/wiki/Confucio",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
 		}

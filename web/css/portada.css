@@ -655,6 +655,9 @@ section[id] {
 .bloque.oceano .mas {
 	border-top-color: rgba(255, 255, 255, 0.35);
 }
+#controles {
+	scroll-margin-top: 72px;
+}
 .mas summary {
 	display: inline-flex;
 	align-items: center;
@@ -1080,9 +1083,6 @@ kbd {
 	letter-spacing: 0.04em;
 }
 
-/* ==== ajustes de pantalla ==== */
-@media (max-width: 1000px) {
-	.dos-col {
 /* ==== aviso-legal.html ==== */
 .hero.legal {
 	padding-bottom: var(--s-7);
@@ -1119,6 +1119,9 @@ kbd {
 	font-size: 0.8125rem;
 }
 
+/* ==== ajustes de pantalla ==== */
+@media (max-width: 1000px) {
+	.dos-col {
 		grid-template-columns: 1fr;
 		gap: var(--s-6);
 	}

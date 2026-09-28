@@ -49,7 +49,7 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
                               capas, mapa, paneles, tiempo, arranque
   data/historia.json        GENERADO desde datos/ (no se edita ni se versiona):
                               el único JSON que descarga la web
-  data/geojson/             53 mapas de fronteras world_*.geojson (historical-basemaps)
+  data/geojson/             54 mapas de fronteras world_*.geojson (53 de historical-basemaps y 2011 derivado con api/derivar_mapas.py)
   data/years.json           índice de años con mapa
   data/land.geojson         contorno de continentes (Natural Earth), recorte costero
 
@@ -71,6 +71,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   dividir.py                importa un historia.json monolítico al árbol datos/
   limpiar_geojson.py        retira entidades duplicadas/anacrónicas conocidas de los mapas base
   rellenar_geojson.py       rellena la tierra sin atribuir con pueblos de mapas vecinos (usa shapely)
+  derivar_mapas.py          genera mapas posteriores a 2010 (2011: Sudán del Sur) a partir del último (usa shapely)
                               (parches documentados; --check en CI)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)

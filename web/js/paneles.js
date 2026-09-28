@@ -16,7 +16,7 @@ function updateLegend() {
 		// nombre por época (RD del Congo…); la leyenda sí admite nombres históricos
 		const display = nombreVisible(e.key, state.shownYear, true);
 		rows.push(
-			`<div class="legend-row" data-i="${i}"><span class="chip" style="background:${colorFor(e.key)}"></span><span class="lname" title="${escHtml(e.key)}">${escHtml(display)}</span><span class="larea">${fmtKm2(km2)}</span></div>`
+			`<div class="legend-row" data-i="${i}" role="button" tabindex="0"><span class="chip" style="background:${colorFor(e.key)}"></span><span class="lname" title="${escHtml(e.key)}">${escHtml(display)}</span><span class="larea">${fmtKm2(km2)}</span></div>`
 		);
 	}
 	list.innerHTML = rows.join('');
@@ -41,6 +41,7 @@ function setupLegend() {
 		} catch (e) {}
 		apply();
 	});
+	activarConTeclado(document.getElementById('legendList'), '.legend-row');
 	document.getElementById('legendList').addEventListener('click', ev => {
 		const row = ev.target.closest('.legend-row');
 		if (!row) return;
@@ -53,6 +54,18 @@ function setupLegend() {
 			],
 			{ maxZoom: 6, padding: [30, 30] }
 		);
+	});
+}
+
+/* filas que se pulsan (entidades, conflictos, datos): Intro o Espacio hacen
+   lo mismo que el clic */
+function activarConTeclado(caja, selector) {
+	caja.addEventListener('keydown', ev => {
+		if (ev.key !== 'Enter' && ev.key !== ' ') return;
+		const fila = ev.target.closest(selector);
+		if (!fila) return;
+		ev.preventDefault();
+		fila.click();
 	});
 }
 
@@ -101,7 +114,7 @@ function updateYearPanel() {
 		? wars
 				.map(
 					c =>
-						`<div class="yp-row" data-war="${escHtml(c.id)}"><span class="yp-ico">⚔️</span><span class="yp-name">${escHtml(c.nombre)}</span><span class="yp-years">${i18n.formatYear(c.inicio)}–${i18n.formatYear(c.fin)}</span></div>`
+						`<div class="yp-row" data-war="${escHtml(c.id)}" role="button" tabindex="0"><span class="yp-ico">⚔️</span><span class="yp-name">${escHtml(c.nombre)}</span><span class="yp-years">${i18n.formatYear(c.inicio)}–${i18n.formatYear(c.fin)}</span></div>`
 				)
 				.join('')
 		: `<div class="yp-empty">${i18n.t('panel.none')}</div>`;
@@ -115,7 +128,7 @@ function updateYearPanel() {
 		? facts
 				.map(
 					(ev, i) =>
-						`<div class="yp-row" data-fact="${i}"><span class="yp-ico">${ev.categoria === 'invento' ? '💡' : '⭐'}</span><span class="yp-name">${escHtml(ev.nombre)}</span><span class="yp-years">${i18n.formatYear(ev.anio)}</span></div>`
+						`<div class="yp-row" data-fact="${i}" role="button" tabindex="0"><span class="yp-ico">${ev.categoria === 'invento' ? '💡' : '⭐'}</span><span class="yp-name">${escHtml(ev.nombre)}</span><span class="yp-years">${i18n.formatYear(ev.anio)}</span></div>`
 				)
 				.join('')
 		: `<div class="yp-empty">${i18n.t('panel.none')}</div>`;
@@ -142,6 +155,8 @@ function setupYearPanel() {
 		apply();
 	});
 
+	activarConTeclado(document.getElementById('ypWars'), '.yp-row');
+	activarConTeclado(document.getElementById('ypFacts'), '.yp-row');
 	document.getElementById('ypWars').addEventListener('click', ev => {
 		const row = ev.target.closest('.yp-row');
 		if (!row) return;

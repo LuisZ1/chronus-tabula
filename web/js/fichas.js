@@ -78,8 +78,12 @@ function popupHtml(props) {
 		else if (props.wikipedia && !/^https?:/.test(props.wikipedia)) wikiRef = 'en:' + props.wikipedia;
 	}
 
+	// Estado moderno sin nombres por época consultado antes de 1800: la reseña
+	// describe el país de hoy, y así se rotula
+	const sinPeriodos = pais && (!Array.isArray(pais.nombres_periodo) || !pais.nombres_periodo.length);
+	const deHoy = resena && pais.wikidata && sinPeriodos && y < ANIO_EMBLEMAS_MODERNOS;
 	const resenaHtml = resena
-		? `<div class="wiki-extract"><p>${esc(resena)}</p><div class="wiki-src">${i18n.t('wiki.source')}</div></div>`
+		? `<div class="wiki-extract">${deHoy ? `<p class="resena-hoy">${i18n.t('popup.todayNote')}</p>` : ''}<p>${esc(resena)}</p><div class="wiki-src">${i18n.t('wiki.source')}</div></div>`
 		: '';
 
 	return `<div class="territory-popup" data-wiki="${esc(wikiRef)}"><h3>${esc(name)}</h3><table>${rows}</table>${resenaHtml}${fuentesHtml(pais)}${avisoDatoHtml()}</div>`;

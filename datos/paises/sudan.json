@@ -32,6 +32,14 @@
 		"Sudán Anglo-Egipcio",
 		"República del Sudán"
 	],
+	"vinculos": [
+		{
+			"id": "sudan-del-sur",
+			"tipo": "incluye",
+			"desde": 1956,
+			"hasta": 2011
+		}
+	],
 	"resena": "Sudán, oficialmente República del Sudán, es uno de los cincuenta y cinco países que forman el continente africano. Su capital es Jartum y la ciudad más poblada es Omdurmán.",
 	"gobernantes": [
 		{

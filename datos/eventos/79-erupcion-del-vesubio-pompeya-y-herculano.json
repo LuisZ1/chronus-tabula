@@ -6,7 +6,7 @@
 	"paises": [
 		"Roma"
 	],
-	"descripcion": "La erupción del Vesubio en el año 79 sepulta Pompeya, Herculano y Estabia, conservándolas como testimonio único de la vida romana.",
+	"descripcion": "El Vesubio entra en erupción y sepulta bajo ceniza y flujos piroclásticos las ciudades romanas de Pompeya, Herculano y Estabia. Su conservación excepcional las convertiría, siglos después, en una ventana única a la vida cotidiana romana.",
 	"wiki": "Erupción del Vesubio del año 79",
 	"fuentes": [
 		{
@@ -18,6 +18,12 @@
 		{
 			"id": "libro:El Imperio Romano 31 a.C.-235 d.C.",
 			"licencia": "referencia"
+		},
+		{
+			"id": "wikipedia-es:Erupción del Vesubio de 79",
+			"url": "https://es.wikipedia.org/wiki/Erupción_del_Vesubio_de_79",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-07"
 		}
 	]
 }
