@@ -110,6 +110,16 @@
 			"archivo": "Coat of arms of Tunisia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Tunisia (1959–1999).svg",
+			"hasta": 1999
+		},
+		{
+			"archivo": "Flag of Tunisia.svg",
+			"desde": 1999
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -137,14 +147,21 @@
 			"url": "https://www.wikidata.org/wiki/Q948",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q948",
+			"url": "https://www.wikidata.org/wiki/Q948",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "dc31e404736b",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

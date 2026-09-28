@@ -215,6 +215,11 @@
 			"archivo": "Emblem of Uzbekistan.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Uzbekistan.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q265",
@@ -256,14 +261,21 @@
 			"url": "https://www.wikidata.org/wiki/Q265",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q265",
+			"url": "https://www.wikidata.org/wiki/Q265",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "fde77138361f",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

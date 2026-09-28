@@ -359,6 +359,11 @@
 			"archivo": "Emblem of Turkey.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Turkey.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "Wikidata:Q43",
@@ -520,14 +525,21 @@
 			"url": "https://www.wikidata.org/wiki/Q43",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q43",
+			"url": "https://www.wikidata.org/wiki/Q43",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "ca1953872944",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion",

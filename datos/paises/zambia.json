@@ -132,6 +132,17 @@
 			"archivo": "Coat of arms of Zambia.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Zambia (1964–1996).svg",
+			"desde": 1964,
+			"hasta": 1996
+		},
+		{
+			"archivo": "Flag of Zambia.svg",
+			"desde": 1996
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -164,14 +175,21 @@
 			"url": "https://www.wikidata.org/wiki/Q953",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q953",
+			"url": "https://www.wikidata.org/wiki/Q953",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "1d614e3e7e56",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

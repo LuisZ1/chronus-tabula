@@ -150,6 +150,17 @@
 			"archivo": "Coat of arms of Zimbabwe.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Rhodesia (1968–1979).svg",
+			"desde": 1968,
+			"hasta": 1979
+		},
+		{
+			"archivo": "Flag of Zimbabwe.svg",
+			"desde": 1979
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wiki-es",
@@ -182,14 +193,21 @@
 			"url": "https://www.wikidata.org/wiki/Q954",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikidata:P41:Q954",
+			"url": "https://www.wikidata.org/wiki/Q954",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-09",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "9d52789e4fb2",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",

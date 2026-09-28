@@ -233,6 +233,38 @@
 			"hasta": 1991
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of the Soviet Union (1922–1923).svg",
+			"desde": 1922,
+			"hasta": 1923
+		},
+		{
+			"archivo": "Flag of the Soviet Union (1924).svg",
+			"desde": 1923,
+			"hasta": 1924
+		},
+		{
+			"archivo": "Flag of the Soviet Union (1924–1936).svg",
+			"desde": 1924,
+			"hasta": 1936
+		},
+		{
+			"archivo": "Flag of the Soviet Union (1936 – 1955).svg",
+			"desde": 1936,
+			"hasta": 1955
+		},
+		{
+			"archivo": "Flag of the Soviet Union (dark version).svg",
+			"desde": 1955,
+			"hasta": 1980
+		},
+		{
+			"archivo": "Flag of the Soviet Union.svg",
+			"desde": 1955,
+			"hasta": 1991
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:Unión Soviética (URSS)",
@@ -388,14 +420,21 @@
 			"url": "https://www.wikidata.org/wiki/Q15180",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q15180",
+			"url": "https://www.wikidata.org/wiki/Q15180",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "38a9adc98289",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"gobernantes",
 			"poblacion"

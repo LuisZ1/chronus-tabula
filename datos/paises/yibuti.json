@@ -69,6 +69,11 @@
 			"archivo": "Emblem of Djibouti.svg"
 		}
 	],
+	"banderas": [
+		{
+			"archivo": "Flag of Djibouti.svg"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es",
@@ -91,14 +96,21 @@
 			"url": "https://www.wikidata.org/wiki/Q977",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikidata:P41:Q977",
+			"url": "https://www.wikidata.org/wiki/Q977",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
 		"estado": "validado",
-		"fecha": "2026-09-08",
+		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "e58225e05623",
 		"secciones": [
+			"banderas",
 			"escudos",
 			"fuentes",
 			"gobernantes",
