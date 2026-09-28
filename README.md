@@ -154,6 +154,12 @@ Todo lo que se ve en el mapa sale de los ficheros de `datos/` (uno por país, co
 3. Prueba en local moviendo el deslizador por los años que tocan tus datos.
 4. Abre el merge request explicando la fuente de tus datos.
 
-## Licencias
+## Licencia
 
-Código de la aplicación: libre uso en el ámbito del proyecto. Fronteras de historical-basemaps: GPL-3.0 (código) y uso académico/educativo (datos). Natural Earth: dominio público. Contenidos de Wikipedia/Wikidata: CC BY-SA / CC0 según cada obra.
+© 2026 Luis Zumárraga. Chronus Tabula tiene el código y los datos a la vista, pero **no es software libre**. Los detalles están en [LICENSE.md](LICENSE.md) y el resumen para visitantes en [web/aviso-legal.html](web/aviso-legal.html).
+
+- **Software** (web, scripts, esquemas, diseño): [PolyForm Strict 1.0.0](LICENSE-POLYFORM-STRICT.md). Uso no comercial; sin redistribución ni obras derivadas, salvo *forks* para proponer cambios a este repositorio.
+- **Base de datos** (`datos/` y lo que se compila de ella: selección, estructura, formato, vínculos y reseñas propias): todos los derechos reservados (LPI arts. 12 y 133–137; Directiva 96/9/CE). Se puede consultar y citar; no extraer ni reutilizar en otra aplicación o base de datos.
+- **Terceros**, con su propia licencia: fronteras de historical-basemaps (GPL-3.0, también las versiones corregidas en `web/data/geojson/`), textos de Wikipedia (CC BY-SA 4.0), Wikidata (CC0), Our World in Data (CC BY 4.0), Leaflet (BSD-2), polygon-clipping (MIT), Archivo (OFL 1.1) y Twemoji Country Flags (MIT / CC BY 4.0).
+
+**Los datos son orientativos**: pueden contener errores y las fronteras son aproximadas. Contrástalos antes de usarlos en un trabajo académico.

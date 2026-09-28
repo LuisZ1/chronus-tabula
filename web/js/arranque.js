@@ -97,6 +97,10 @@ async function init() {
 	}).setView(startView.center, startView.zoom);
 	hashApplying = false;
 
+	// en el crédito del mapa, junto a Leaflet: el aviso legal (datos orientativos, licencia)
+	map.attributionControl.addAttribution(
+		`<a href="aviso-legal.html" target="_blank" rel="noopener">${i18n.t('popup.disclaimerMore')}</a>`
+	);
 	const warPane = map.createPane('warzones');
 	warPane.style.zIndex = 450; // sobre los territorios (400), bajo los marcadores (600)
 	warRenderer = L.svg({ pane: 'warzones', padding: 0.5 });

@@ -16,6 +16,10 @@
 - [ ] Si he cambiado gobernantes, población o nombres por época de un país ya validado, lo indico aquí
       para que se revise y se renueve su marca `revision`
 
+## Licencia
+
+- [ ] Puedo aportar este cambio, los datos o textos de terceros respetan su licencia y acepto que se incorpore según el apartado 4 de `LICENSE.md`
+
 ## Fuentes consultadas
 
 <!-- Pega aquí las URL de las fuentes principales; facilita la revisión. -->
