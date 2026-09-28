@@ -288,6 +288,10 @@ section[id] {
 	background: repeating-linear-gradient(-45deg, var(--rojo) 0 2px, transparent 2px 6px), var(--t-verde);
 	border-color: var(--rojo);
 }
+.muestra.sin-datos {
+	background: repeating-linear-gradient(-45deg, #b9c3cc 0 1.2px, var(--papel) 1.2px 5px);
+	border-color: #9aa6b1;
+}
 .muestra.rotulo {
 	width: auto;
 	height: auto;

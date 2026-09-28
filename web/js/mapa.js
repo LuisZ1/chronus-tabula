@@ -4,8 +4,40 @@
 
 /* ---------- estilo de los territorios ---------- */
 
+/* tierra que el mapa de origen no atribuye a nadie (feature sin NAME ni SUBJECTO):
+   se muestra como «sin datos», rayada y sin color, en vez de como un único
+   territorio gigante del mismo color */
+function sinDatos(props) {
+	return !props || (!props.NAME && !props.SUBJECTO);
+}
+
+/* rayado para el renderizador canvas: Leaflet asigna fillColor a ctx.fillStyle,
+   que admite un CanvasPattern */
+let patronSinDatos = null;
+function rayadoSinDatos() {
+	if (!patronSinDatos) {
+		const c = document.createElement('canvas');
+		c.width = c.height = 8;
+		const x = c.getContext('2d');
+		x.fillStyle = 'rgba(255, 255, 255, 0.50)'; // papel al 66 %: se entrevé el mar y el relieve
+		x.fillRect(0, 0, 8, 8);
+		x.strokeStyle = '#b9c3cc';
+		x.lineWidth = 1.2;
+		x.beginPath();
+		for (const d of [-8, 0, 8]) {
+			x.moveTo(d, 8);
+			x.lineTo(d + 8, 0);
+		}
+		x.stroke();
+		patronSinDatos = x.createPattern(c, 'repeat') || '#ffffff';
+	}
+	return patronSinDatos;
+}
+
 function featureStyle(f) {
-	const key = f.properties.SUBJECTO || f.properties.NAME || '?';
+	if (sinDatos(f.properties))
+		return { color: '#9aa6b1', weight: 0.5, fillColor: rayadoSinDatos(), fillOpacity: prefs.relleno ? 1 : 0 };
+	const key = f.properties.SUBJECTO || f.properties.NAME;
 	const followed = isFollowed(f.properties);
 	let fillOpacity;
 	if (state.follow) fillOpacity = followed ? 0.75 : prefs.relleno ? 0.1 : 0;

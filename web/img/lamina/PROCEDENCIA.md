@@ -13,4 +13,6 @@ Las 21 imágenes de esta carpeta son capturas de la propia aplicación (`web/map
 - Formato: WebP.
 - Datos: fronteras de [historical-basemaps](https://github.com/aourednik/historical-basemaps) (véase el README: GPL-3.0 para el código, uso académico y educativo para los datos). Nombres de `datos/paises/`, con las fuentes citadas en cada ficha.
 
+Las tres de −500 (`*-ac500`) se regeneraron el 2026-09-28 tras rellenar con `api/rellenar_geojson.py` la tierra sin atribuir del mapa de 500 a. C.; lo que sigue sin datos sale rayado, como en el mapa.
+
 Si cambian la paleta o las fronteras, conviene regenerarlas con la misma receta.

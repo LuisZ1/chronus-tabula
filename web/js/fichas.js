@@ -19,6 +19,8 @@ function fuentesHtml(reg) {
 
 function popupHtml(props) {
 	const esc = escHtml;
+	if (sinDatos(props))
+		return `<div class="territory-popup sin-datos-popup"><h3>${i18n.t('popup.noData')}</h3><p>${i18n.t('popup.noDataText')}</p></div>`;
 	const y = state.requestedYear;
 	const pais = paisFor(props);
 	const name = (pais && pais.nombre) || props.NAME || i18n.t('popup.unknown');
@@ -46,6 +48,11 @@ function popupHtml(props) {
 		const url = /^https?:/.test(props.wikipedia)
 			? props.wikipedia
 			: `https://en.wikipedia.org/wiki/${encodeURIComponent(props.wikipedia)}`;
+	if (props.RELLENO && props.RELLENO.origen) {
+		const m = /world_(bc)?(\d+)/.exec(props.RELLENO.origen);
+		const anio = m ? (m[1] ? -Number(m[2]) : Number(m[2])) : null;
+		rows += `<tr><td>${i18n.t('popup.filled')}</td><td>${esc(i18n.t('popup.filledText').replace('{y}', anio == null ? '?' : i18n.formatYear(anio)))}</td></tr>`;
+	}
 		rows += `<tr><td>${i18n.t('popup.wikipedia')}</td><td><a href="${esc(url)}" target="_blank" rel="noopener">↗</a></td></tr>`;
 	}
 
