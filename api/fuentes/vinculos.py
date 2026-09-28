@@ -85,11 +85,18 @@ def comprobar(reg, ids, err, aviso, donde):
         if clave in vistos:
             err(etiqueta, "vínculo repetido")
         vistos.add(clave)
-    tipos_por_id = {}
+    tramos = {}  # (id, tipo) -> [(desde, hasta)]
     for v in _lista(reg):
-        tipos_por_id.setdefault(v.get("id"), set()).add(v.get("tipo"))
-    for dest, ts in tipos_por_id.items():
-        if {"predecesor", "sucesor"} <= ts:
+        a, b = v.get("desde"), v.get("hasta")
+        a = a if isinstance(a, int) else float("-inf")
+        b = b if isinstance(b, int) else float("inf")
+        tramos.setdefault((v.get("id"), v.get("tipo")), []).append((a, b))
+    for (dest, tipo), pre in tramos.items():
+        if tipo != "predecesor":
+            continue
+        suc = tramos.get((dest, "sucesor"), [])
+        # solo avisa si los años se solapan (acotados sin solaparse, p. ej. Rusia ↔ URSS, es válido)
+        if any(a1 <= b2 and a2 <= b1 for a1, b1 in pre for a2, b2 in suc):
             aviso(f"{donde} vínculo «{dest}»", "es a la vez predecesor y sucesor: ¿seguro? (acota los años)")
 
 

@@ -105,20 +105,29 @@ def main():
                       "ejecución continuará desde este país (o pulsa «Empezar de cero» en el panel).", flush=True)
                 aviso_red(f"Wikidata ({p['id']})", e)
         existentes = {(g.get("nombre", ""), g.get("desde")) for g in p.get("gobernantes", [])}
+        if demo:
+            filas = [{"persona": f["persona"], "nombre": f["nombre"], "cargo": f.get("cargo"),
+                      "ini": int(f["ini"]) if f["ini"] else None,
+                      "fin": int(f["fin"]) if f["fin"] else None} for f in filas]
         for f in filas:
-            if demo:
-                f = {"persona": f["persona"], "nombre": f["nombre"],
-                     "ini": int(f["ini"]) if f["ini"] else None,
-                     "fin": int(f["fin"]) if f["fin"] else None}
             if f["ini"] is None:
                 continue
-            desde, hasta = f["ini"], f["fin"] if f["fin"] is not None else f["ini"]
+            desde, hasta = f["ini"], f["fin"]
+            if hasta is None:
+                # sin fecha de fin: si otro le sucedió en el mismo cargo, termina cuando empieza
+                # el siguiente; si no, sigue en el cargo ('hasta' ausente). Nunca hasta = desde,
+                # que lo haría desaparecer al año siguiente.
+                despues = [x["ini"] for x in filas if x.get("cargo") == f.get("cargo")
+                           and x["ini"] is not None and x["ini"] > desde]
+                hasta = min(despues) if despues else None
             # ¿ya existe uno que se solape con el mismo nombre aproximado?
             apellido = f["nombre"].split(" de ")[0].strip().lower()
             if any(apellido in n.lower() and d and abs(d - desde) <= 2 for n, d in existentes):
                 continue
             qid_p = f["persona"].rsplit("/", 1)[-1]
-            gob = {"desde": desde, "hasta": hasta, "nombre": f["nombre"]}
+            gob = {"desde": desde, "nombre": f["nombre"]}
+            if hasta is not None:
+                gob["hasta"] = hasta
             if f.get("cargo"):
                 gob["cargo"] = f["cargo"]
             payload = {
@@ -126,7 +135,7 @@ def main():
                 "fuente": {"id": f"wikidata:{qid_p}", "url": f["persona"],
                            "licencia": "CC0", "consultado": HOY},
             }
-            resumen = f"gobernante {f['nombre']} ({desde}–{hasta})"
+            resumen = f"gobernante {f['nombre']} ({desde}–{hasta if hasta is not None else 'en el cargo'})"
             if proponer(con, "gobernante", p["id"], resumen, payload, f"wikidata:{qid_p}"):
                 nuevas += 1
                 print(f"  + {p['id']}: {resumen}", flush=True)

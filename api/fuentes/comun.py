@@ -146,7 +146,8 @@ def _num(v, vacio=float("-inf")):
 # Sublistas que se ordenan cronológicamente (el resto conserva el orden de edición:
 # 'nombres', 'fuentes', 'zonas', 'paises'… tienen un orden que puede ser significativo).
 ORDEN_LISTAS = {
-    "gobernantes": lambda g: (_num(g.get("desde")), _num(g.get("hasta")), g.get("nombre") or ""),
+    # sin 'hasta' = sigue en el cargo: va detrás de los que empezaron el mismo año
+    "gobernantes": lambda g: (_num(g.get("desde")), _num(g.get("hasta"), float("inf")), g.get("nombre") or ""),
     "poblacion": lambda x: (_num(x.get("anio")), x.get("fuente") or ""),
     "nombres_periodo": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("nombre") or ""),
     "escudos": lambda x: (_num(x.get("desde")), _num(x.get("hasta")), x.get("archivo") or ""),
