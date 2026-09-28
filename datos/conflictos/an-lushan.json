@@ -7,7 +7,7 @@
 		"Imperio Tang",
 		"Rebeldes de An Lushan"
 	],
-	"bajas": "13-36 millones según los censos: una de las guerras más mortíferas de la historia",
+	"bajas": "Muy discutidas: el censo cae de 52,9 a 16,9 millones (755-764), pero los historiadores lo atribuyen en gran parte al colapso del registro; estimaciones de muertes desde ~13 millones a cifras muy inferiores",
 	"descripcion": "El general An Lushan se alza contra los Tang y toma las dos capitales; la dinastía sobrevive pero queda quebrada para siempre.",
 	"wiki": "Rebelión de An Lushan",
 	"zonas": [
@@ -60,6 +60,12 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikipedia-en:An Lushan rebellion",
+			"url": "https://en.wikipedia.org/wiki/An_Lushan_rebellion",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

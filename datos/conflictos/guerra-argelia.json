@@ -1,0 +1,59 @@
+{
+	"id": "guerra-argelia",
+	"nombre": "Guerra de Independencia de Argelia",
+	"inicio": 1954,
+	"fin": 1962,
+	"paises": [
+		"Francia",
+		"Argelia"
+	],
+	"bajas": "entre ~300.000 y más de 1.000.000 de muertos argelinos según las fuentes (discutido); ~25.000 militares franceses",
+	"descripcion": "El FLN, que inicia la insurrección con los atentados del «Toussaint Rouge» (1 de noviembre de 1954, sobre todo en el Aurés), lucha contra la Argelia francesa; la crisis de 1958 devuelve a De Gaulle al poder y los Acuerdos de Evian llevan a la independencia (5 de julio de 1962).",
+	"wiki": "Guerra de Independencia de Argelia",
+	"zonas": [
+		{
+			"nombre": "Argelia septentrional",
+			"tipo": "frente",
+			"poligono": [
+				[
+					37,
+					-1.8
+				],
+				[
+					37,
+					8.6
+				],
+				[
+					34.5,
+					8.3
+				],
+				[
+					34.8,
+					-1.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Argel",
+			"anio": 1957,
+			"lat": 36.78,
+			"lng": 3.06
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Independencia de Argelia",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Independencia_de_Argelia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Toussaint Rouge",
+			"url": "https://en.wikipedia.org/wiki/Toussaint_Rouge",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

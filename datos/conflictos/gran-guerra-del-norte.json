@@ -1,0 +1,131 @@
+{
+	"id": "gran-guerra-del-norte",
+	"nombre": "Gran Guerra del Norte",
+	"inicio": 1700,
+	"fin": 1721,
+	"paises": [
+		"Suecia",
+		"Rusia",
+		"Dinamarca-Noruega",
+		"Polonia",
+		"Sajonia",
+		"Prusia"
+	],
+	"bajas": "~350.000-500.000 muertos militares (Suecia ≥200.000, Rusia ~300.000)",
+	"descripcion": "Una coalición encabezada por la Rusia de Pedro I derrota a la Suecia de Carlos XII; con la Paz de Nystad (1721) Rusia gana Estonia, Livonia e Ingria y se proclama imperio.",
+	"wiki": "Gran Guerra del Norte",
+	"zonas": [
+		{
+			"nombre": "Báltico oriental",
+			"tipo": "frente",
+			"desde": 1700,
+			"hasta": 1710,
+			"poligono": [
+				[
+					59.5,
+					24
+				],
+				[
+					59,
+					30.5
+				],
+				[
+					56.5,
+					30
+				],
+				[
+					56.5,
+					24
+				]
+			]
+		},
+		{
+			"nombre": "Campaña de Ucrania (Poltava)",
+			"tipo": "frente",
+			"desde": 1708,
+			"hasta": 1709,
+			"poligono": [
+				[
+					51,
+					31
+				],
+				[
+					50.5,
+					35.5
+				],
+				[
+					48.5,
+					35
+				],
+				[
+					48.8,
+					31
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Narva",
+			"anio": 1700,
+			"lat": 59.375,
+			"lng": 28.18,
+			"descripcion": "Carlos XII derrota a un ejército ruso muy superior (30 de noviembre de 1700).",
+			"wiki": "Batalla de Narva (1700)"
+		},
+		{
+			"nombre": "Batalla de Poltava",
+			"anio": 1709,
+			"lat": 49.631,
+			"lng": 34.553,
+			"descripcion": "Pedro I aniquila al ejército sueco; fin de la hegemonía sueca.",
+			"wiki": "Batalla de Poltava"
+		},
+		{
+			"nombre": "Batalla de Gangut",
+			"anio": 1714,
+			"lat": 59.83,
+			"lng": 22.97,
+			"descripcion": "Primera gran victoria naval rusa, en la bahía de Riilahti, al norte de la península de Hanko (marcador en Hanko; posición aproximada).",
+			"wiki": "Batalla de Gangut"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Great Northern War",
+			"url": "https://en.wikipedia.org/wiki/Great_Northern_War",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Narva (1700)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Narva_(1700)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Poltava",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Poltava",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Treaty of Nystad",
+			"url": "https://en.wikipedia.org/wiki/Treaty_of_Nystad",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Gangut",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Gangut",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Hanko",
+			"url": "https://en.wikipedia.org/wiki/Hanko,_Finland",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

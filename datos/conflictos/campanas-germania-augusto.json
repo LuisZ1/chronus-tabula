@@ -1,0 +1,67 @@
+{
+	"id": "campanas-germania-augusto",
+	"nombre": "Campañas romanas en Germania",
+	"inicio": -12,
+	"fin": 16,
+	"paises": [
+		"Roma",
+		"Pueblos germánicos",
+		"Queruscos"
+	],
+	"bajas": "16.000-20.000 romanos muertos solo en Teutoburgo",
+	"descripcion": "Druso, Tiberio y Germánico intentan llevar la frontera del Rin al Elba. La emboscada de Arminio en el bosque de Teutoburgo (9 d. C.) destruye tres legiones de Varo y frena la expansión; tras las campañas de castigo de Germánico (16 d. C.) el Rin queda como frontera.",
+	"wiki": "Batalla del bosque de Teutoburgo",
+	"zonas": [
+		{
+			"nombre": "Germania entre el Rin y el Elba",
+			"tipo": "frente",
+			"poligono": [
+				[
+					53.8,
+					6.8
+				],
+				[
+					53.8,
+					10.5
+				],
+				[
+					51.0,
+					11.5
+				],
+				[
+					50.2,
+					8.5
+				],
+				[
+					51.5,
+					6.2
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del bosque de Teutoburgo",
+			"anio": 9,
+			"lat": 52.41,
+			"lng": 8.13,
+			"descripcion": "Arminio aniquila tres legiones de Varo (probablemente en Kalkriese).",
+			"bajas": "16.000-20.000 romanos muertos",
+			"wiki": "Batalla del bosque de Teutoburgo"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Early Imperial campaigns in Germania",
+			"url": "https://en.wikipedia.org/wiki/Early_Imperial_campaigns_in_Germania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Teutoburg Forest",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

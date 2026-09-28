@@ -187,6 +187,14 @@
 			"lng": 1.74
 		},
 		{
+			"nombre": "Toma de Gibraltar",
+			"anio": 1704,
+			"lat": 36.14,
+			"lng": -5.35,
+			"descripcion": "Una flota anglo-neerlandesa toma la plaza en nombre del archiduque Carlos (1-4 de agosto de 1704).",
+			"wiki": "Toma de Gibraltar"
+		},
+		{
 			"nombre": "batalla de Málaga (1704)",
 			"anio": 1704,
 			"lat": 36.7,
@@ -231,10 +239,26 @@
 			"lng": -5.21
 		},
 		{
+			"nombre": "Batalla de Malplaquet",
+			"anio": 1709,
+			"lat": 50.34,
+			"lng": 3.88,
+			"descripcion": "Victoria muy costosa de Marlborough y Eugenio de Saboya sobre los franceses (11 de septiembre de 1709).",
+			"wiki": "Batalla de Malplaquet"
+		},
+		{
 			"nombre": "Batalla de Siracusa",
 			"anio": 1710,
 			"lat": 37.07,
 			"lng": 15.28
+		},
+		{
+			"nombre": "Batalla de Villaviciosa",
+			"anio": 1710,
+			"lat": 40.79,
+			"lng": -2.84,
+			"descripcion": "Tras tomar Brihuega, Felipe V y Vendôme vencen al ejército aliado (11 de diciembre de 1710).",
+			"wiki": "Batalla de Villaviciosa"
 		},
 		{
 			"nombre": "Sitio de Barcelona",
@@ -319,6 +343,24 @@
 			"url": "https://www.wikidata.org/wiki/Q10671396",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Capture of Gibraltar",
+			"url": "https://en.wikipedia.org/wiki/Capture_of_Gibraltar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Malplaquet",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Malplaquet",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Villaviciosa",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Villaviciosa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

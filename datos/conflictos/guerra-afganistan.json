@@ -127,7 +127,7 @@
 			"lng": 69.18
 		},
 		{
-			"nombre": "Friendly fire incident at Sangin",
+			"nombre": "Incidente de fuego amigo en Sangin",
 			"anio": 2006,
 			"lat": 31.59,
 			"lng": 64.36
@@ -181,6 +181,12 @@
 			"lng": 71.34
 		},
 		{
+			"nombre": "Operación Halmazag",
+			"anio": 2010,
+			"lat": 36.66,
+			"lng": 68.83
+		},
+		{
 			"nombre": "Operación Moshtarak (Marjah)",
 			"anio": 2010,
 			"lat": 31.52,
@@ -188,13 +194,7 @@
 			"descripcion": "La mayor ofensiva aliada de la guerra, en el bastión talibán de Helmand."
 		},
 		{
-			"nombre": "Operation Halmazag",
-			"anio": 2010,
-			"lat": 36.66,
-			"lng": 68.83
-		},
-		{
-			"nombre": "Battle of Joybar",
+			"nombre": "Batalla de Joybar",
 			"anio": 2011,
 			"lat": 34.87,
 			"lng": 69.64

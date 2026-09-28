@@ -163,6 +163,31 @@
 					-2
 				]
 			]
+		},
+		{
+			"nombre": "Flandes y el Canal",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1340,
+			"hasta": 1340,
+			"poligono": [
+				[
+					51.6,
+					2.8
+				],
+				[
+					51.6,
+					3.9
+				],
+				[
+					51.1,
+					3.9
+				],
+				[
+					51.1,
+					2.8
+				]
+			]
 		}
 	],
 	"batallas": [
@@ -171,6 +196,15 @@
 			"anio": 1338,
 			"lat": 51.65,
 			"lng": 3.37
+		},
+		{
+			"nombre": "Batalla naval de La Esclusa (Sluys)",
+			"anio": 1340,
+			"lat": 51.35,
+			"lng": 3.375,
+			"descripcion": "La flota de Eduardo III destruye la francesa frente a Sluys (24 de junio de 1340).",
+			"bajas": "16.000-20.000 muertos franceses",
+			"wiki": "Batalla de La Esclusa"
 		},
 		{
 			"nombre": "Batalla de Crécy",
@@ -223,60 +257,6 @@
 			"lng": -1.15
 		},
 		{
-			"nombre": "Batalla de Radcot Bridge",
-			"anio": 1387,
-			"lat": 51.69,
-			"lng": -1.59
-		},
-		{
-			"nombre": "batalla de Mynydd Hyddgen",
-			"anio": 1401,
-			"lat": 52.51,
-			"lng": -3.8
-		},
-		{
-			"nombre": "batalla de Tuthill (1401)",
-			"anio": 1401,
-			"lat": 53.14,
-			"lng": -4.27
-		},
-		{
-			"nombre": "batalla de Bryn Glas",
-			"anio": 1402,
-			"lat": 52.31,
-			"lng": -3.1
-		},
-		{
-			"nombre": "batalla de Shrewsbury",
-			"anio": 1403,
-			"lat": 52.75,
-			"lng": -2.72
-		},
-		{
-			"nombre": "batalla de Stalling Down",
-			"anio": 1403,
-			"lat": 51.46,
-			"lng": -3.42
-		},
-		{
-			"nombre": "batalla de Campston Hill",
-			"anio": 1404,
-			"lat": 51.91,
-			"lng": -2.87
-		},
-		{
-			"nombre": "batalla de Grosmont",
-			"anio": 1405,
-			"lat": 51.91,
-			"lng": -2.87
-		},
-		{
-			"nombre": "batalla de Pwll Melyn",
-			"anio": 1405,
-			"lat": 51.72,
-			"lng": -2.95
-		},
-		{
 			"nombre": "Batalla de Azincourt",
 			"anio": 1415,
 			"lat": 50.46,
@@ -291,22 +271,16 @@
 			"lng": 0.08
 		},
 		{
-			"nombre": "batalla de Chef-de-Caux",
-			"anio": 1416,
-			"lat": 49.51,
-			"lng": 0.08
-		},
-		{
-			"nombre": "Siege of Bayeux (1417)",
+			"nombre": "Sitio de Bayeux (1417)",
 			"anio": 1417,
 			"lat": 49.28,
 			"lng": -0.7
 		},
 		{
 			"nombre": "batalla de La Rochelle (1419)",
-			"anio": 1420,
-			"lat": 47.27,
-			"lng": -1.38
+			"anio": 1419,
+			"lat": 46.15,
+			"lng": -1.2
 		},
 		{
 			"nombre": "batalla de Baugé",
@@ -488,6 +462,18 @@
 			"url": "https://www.wikidata.org/wiki/Q1523324",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Battle of Radcot Bridge",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Radcot_Bridge",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Sluys",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Sluys",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

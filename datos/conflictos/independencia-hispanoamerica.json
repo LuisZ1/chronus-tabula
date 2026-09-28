@@ -135,11 +135,35 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Chacabuco",
+			"anio": 1817,
+			"lat": -32.99,
+			"lng": -70.66,
+			"descripcion": "El Ejército de los Andes de San Martín derrota a los realistas y abre el camino a Santiago.",
+			"wiki": "Batalla de Chacabuco"
+		},
+		{
+			"nombre": "Batalla de Maipú",
+			"anio": 1818,
+			"lat": -33.51,
+			"lng": -70.77,
+			"descripcion": "Consolida la independencia de Chile.",
+			"wiki": "Batalla de Maipú"
+		},
+		{
 			"nombre": "Batalla de Boyacá",
 			"anio": 1819,
 			"lat": 5.45,
 			"lng": -73.42,
 			"descripcion": "Bolívar asegura la independencia de Nueva Granada."
+		},
+		{
+			"nombre": "Batalla de Carabobo",
+			"anio": 1821,
+			"lat": 9.97,
+			"lng": -68.12,
+			"descripcion": "Bolívar asegura la independencia de Venezuela.",
+			"wiki": "Batalla de Carabobo (1821)"
 		},
 		{
 			"nombre": "batalla de Pichincha",
@@ -154,6 +178,14 @@
 			"lng": -74.22,
 			"descripcion": "Sucre derrota al último ejército realista; fin del dominio español continental.",
 			"bajas": "~2.100 muertos"
+		},
+		{
+			"nombre": "Batalla de Junín",
+			"anio": 1824,
+			"lat": -11.03,
+			"lng": -76.08,
+			"descripcion": "Victoria de la caballería patriota antes de Ayacucho.",
+			"wiki": "Batalla de Junín"
 		}
 	],
 	"fuentes": [
@@ -171,6 +203,30 @@
 			"url": "https://www.wikidata.org/wiki/Q1402751",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Chacabuco",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Chacabuco",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Maipú",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Maip%C3%BA",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Carabobo (1821)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Carabobo_%281821%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Junín",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Jun%C3%ADn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

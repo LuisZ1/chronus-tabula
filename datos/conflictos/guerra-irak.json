@@ -1,0 +1,67 @@
+{
+	"id": "guerra-irak",
+	"nombre": "Guerra de Irak",
+	"inicio": 2003,
+	"fin": 2011,
+	"paises": [
+		"Irak",
+		"Estados Unidos",
+		"Gran Bretaña",
+		"España"
+	],
+	"bajas": "estimaciones muy dispares, de ~150.000 a más de 400.000 muertos iraquíes (discutido); ~4.500 soldados de EE. UU.",
+	"descripcion": "La coalición liderada por EE. UU. invade Irak y derriba a Sadam Husein; sigue una insurgencia y una guerra civil sectaria. España retira sus tropas en 2004.",
+	"wiki": "Guerra de Irak",
+	"zonas": [
+		{
+			"nombre": "Mesopotamia central",
+			"tipo": "frente",
+			"poligono": [
+				[
+					36.5,
+					42
+				],
+				[
+					36.5,
+					45.5
+				],
+				[
+					30.5,
+					48
+				],
+				[
+					30.5,
+					43
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Nasiriya",
+			"anio": 2003,
+			"lat": 31.04,
+			"lng": 46.26
+		},
+		{
+			"nombre": "Caída de Bagdad",
+			"anio": 2003,
+			"lat": 33.31,
+			"lng": 44.36
+		},
+		{
+			"nombre": "Segunda batalla de Faluya",
+			"anio": 2004,
+			"lat": 33.35,
+			"lng": 43.78
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Irak",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Irak",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

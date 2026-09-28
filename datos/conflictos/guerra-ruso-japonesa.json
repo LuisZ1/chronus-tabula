@@ -77,6 +77,15 @@
 			"lat": 41.8,
 			"lng": 123.43,
 			"descripcion": "La mayor batalla terrestre hasta entonces: más de 600.000 combatientes."
+		},
+		{
+			"nombre": "Batalla de Tsushima",
+			"anio": 1905,
+			"lat": 34.45,
+			"lng": 130.15,
+			"descripcion": "La flota de Tōgō aniquila a la escuadra rusa del Báltico y decide la guerra.",
+			"bajas": "~5.000 marinos rusos muertos; la flota del Báltico, destruida",
+			"wiki": "Batalla de Tsushima"
 		}
 	],
 	"fuentes": [
@@ -91,6 +100,18 @@
 			"url": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Tsushima",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Tsushima",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Tsushima",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Tsushima",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

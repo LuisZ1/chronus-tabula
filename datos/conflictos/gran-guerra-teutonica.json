@@ -1,0 +1,70 @@
+{
+	"id": "gran-guerra-teutonica",
+	"nombre": "Gran Guerra polaco-lituano-teutónica",
+	"inicio": 1409,
+	"fin": 1411,
+	"paises": [
+		"Polonia / República de las Dos Naciones",
+		"Lituania",
+		"Orden Teutónica"
+	],
+	"bajas": "decenas de miles; muere el gran maestre Ulrich von Jungingen",
+	"descripcion": "Polonia y Lituania, unidas bajo los Jagellón, derrotan a la Orden Teutónica en Grunwald (Tannenberg), una de las mayores batallas de la Europa medieval.",
+	"wiki": "Batalla de Grunwald",
+	"zonas": [
+		{
+			"nombre": "Prusia teutónica",
+			"tipo": "frente",
+			"poligono": [
+				[
+					54.6,
+					18.5
+				],
+				[
+					54.6,
+					21.5
+				],
+				[
+					53.2,
+					21.5
+				],
+				[
+					53.2,
+					18.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Grunwald (Tannenberg)",
+			"anio": 1410,
+			"lat": 53.486,
+			"lng": 20.125,
+			"descripcion": "Jagellón y Vitautas vencen a la Orden Teutónica (15 de julio de 1410).",
+			"wiki": "Batalla de Grunwald"
+		},
+		{
+			"nombre": "Sitio de Marienburg",
+			"anio": 1410,
+			"lat": 54.04,
+			"lng": 19.028,
+			"descripcion": "Los vencedores de Grunwald no logran tomar la capital de la Orden (julio-septiembre de 1410).",
+			"wiki": "Sitio de Marienburg (1410)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Grunwald",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Grunwald",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Siege of Marienburg (1410)",
+			"url": "https://en.wikipedia.org/wiki/Siege_of_Marienburg_(1410)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

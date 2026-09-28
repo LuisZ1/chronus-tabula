@@ -1,0 +1,103 @@
+{
+	"id": "caida-de-asiria",
+	"nombre": "Caída del Imperio asirio",
+	"inicio": -626,
+	"fin": -605,
+	"paises": [
+		"Babilonia",
+		"Reino medo",
+		"Asiria",
+		"Egipto"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Babilonios y medos destruyen Asiria: cae Nínive (612) y en Karkemish (605) Nabucodonosor derrota a egipcios y restos asirios y se queda con Siria y el Levante.",
+	"wiki": "Batalla de Nínive (612 a. C.)",
+	"zonas": [
+		{
+			"nombre": "Asiria (Alto Tigris)",
+			"tipo": "frente",
+			"desde": -616,
+			"hasta": -609,
+			"poligono": [
+				[
+					37,
+					42.5
+				],
+				[
+					37,
+					44.5
+				],
+				[
+					35.3,
+					44.5
+				],
+				[
+					35.3,
+					42.5
+				]
+			]
+		},
+		{
+			"nombre": "Éufrates medio (Harrán y Karkemish)",
+			"tipo": "frente",
+			"desde": -610,
+			"hasta": -605,
+			"poligono": [
+				[
+					37.3,
+					37.3
+				],
+				[
+					37.3,
+					39.5
+				],
+				[
+					36.3,
+					39.5
+				],
+				[
+					36.3,
+					37.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Caída de Nínive",
+			"anio": -612,
+			"lat": 36.35,
+			"lng": 43.14,
+			"descripcion": "Tras tres meses de asedio, medos de Ciaxares y babilonios de Nabopolasar saquean la capital asiria.",
+			"wiki": "Batalla de Nínive (612 a. C.)"
+		},
+		{
+			"nombre": "Batalla de Karkemish",
+			"anio": -605,
+			"lat": 36.83,
+			"lng": 38.02,
+			"descripcion": "Nabucodonosor vence al faraón Necao II: fin de la influencia egipcia en el Levante.",
+			"wiki": "Batalla de Karkemish"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Nineveh (612 BC)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Nineveh_(612_BC)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Carchemish",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Carchemish",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Neo-Babylonian Empire",
+			"url": "https://en.wikipedia.org/wiki/Neo-Babylonian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

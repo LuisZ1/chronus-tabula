@@ -1,0 +1,122 @@
+{
+	"id": "crisis-siglo-iii",
+	"nombre": "Crisis del siglo III (anarquía militar e invasiones)",
+	"inicio": 239,
+	"fin": 284,
+	"paises": [
+		"Roma",
+		"Imperio sasánida",
+		"Imperio galo",
+		"Imperio de Palmira",
+		"Godos"
+	],
+	"bajas": "desconocidas (cientos de miles, con la peste de Cipriano)",
+	"descripcion": "Tras 238 el Imperio sufre usurpaciones continuas, invasiones germanas y la ofensiva sasánida: Sapor I captura a Valeriano en Edesa (260) y el Imperio se parte en tres (Imperio galo, Palmira y el núcleo italiano) hasta que Aureliano lo reunifica (273-274). Diocleciano cierra la crisis en 284.",
+	"wiki": "Crisis del siglo III",
+	"zonas": [
+		{
+			"nombre": "Imperio galo",
+			"tipo": "ocupado",
+			"desde": 260,
+			"hasta": 274,
+			"poligono": [
+				[
+					55.0,
+					-5.0
+				],
+				[
+					51.5,
+					4.5
+				],
+				[
+					49.5,
+					8.5
+				],
+				[
+					46.5,
+					6.5
+				],
+				[
+					43.3,
+					3.0
+				],
+				[
+					36.2,
+					-6.0
+				],
+				[
+					42.0,
+					-9.2
+				],
+				[
+					48.5,
+					-4.8
+				]
+			]
+		},
+		{
+			"nombre": "Imperio de Palmira",
+			"tipo": "ocupado",
+			"desde": 270,
+			"hasta": 273,
+			"poligono": [
+				[
+					37.5,
+					35.5
+				],
+				[
+					37.0,
+					40.5
+				],
+				[
+					33.0,
+					40.5
+				],
+				[
+					29.5,
+					33.0
+				],
+				[
+					31.0,
+					29.0
+				],
+				[
+					31.5,
+					25.0
+				],
+				[
+					29.0,
+					31.5
+				],
+				[
+					36.5,
+					30.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Edesa (captura de Valeriano)",
+			"anio": 260,
+			"lat": 37.16,
+			"lng": 38.79,
+			"descripcion": "Sapor I derrota y captura al emperador Valeriano, el primer emperador romano hecho prisionero. Coordenadas de la ciudad (Şanlıurfa): la batalla se libró entre Carras y Edesa.",
+			"wiki": "Batalla de Edesa"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Crisis of the Third Century",
+			"url": "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Edessa",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Edessa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

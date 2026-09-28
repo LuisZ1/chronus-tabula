@@ -1,0 +1,59 @@
+{
+	"id": "segunda-guerra-italo-etiope",
+	"nombre": "Segunda guerra ítalo-etíope",
+	"inicio": 1935,
+	"fin": 1937,
+	"paises": [
+		"Italia",
+		"Etiopia"
+	],
+	"bajas": "decenas de miles de etíopes (cifras discutidas); Italia usa gas mostaza",
+	"descripcion": "La Italia de Mussolini invade Etiopía y la integra en el África Oriental Italiana; la Sociedad de Naciones impone sanciones ineficaces. La ocupación dura hasta 1941.",
+	"wiki": "Segunda guerra ítalo-etíope",
+	"zonas": [
+		{
+			"nombre": "Frente norte (Tigray)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					14.8,
+					37
+				],
+				[
+					14.8,
+					40.5
+				],
+				[
+					11.5,
+					40.5
+				],
+				[
+					11.5,
+					37
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Maychew",
+			"anio": 1936,
+			"lat": 12.78,
+			"lng": 39.54
+		},
+		{
+			"nombre": "Toma de Adís Abeba",
+			"anio": 1936,
+			"lat": 9.03,
+			"lng": 38.74
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra ítalo-etíope",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_%C3%ADtalo-et%C3%ADope",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

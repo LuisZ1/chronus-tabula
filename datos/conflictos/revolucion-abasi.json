@@ -1,0 +1,93 @@
+{
+	"id": "revolucion-abasi",
+	"nombre": "Revolución abasí",
+	"inicio": 747,
+	"fin": 750,
+	"paises": [
+		"Califato abasí",
+		"Califato omeya"
+	],
+	"bajas": "decenas de miles; la familia omeya es masacrada salvo Abderramán I",
+	"descripcion": "Desde el Jorasán, el movimiento abasí derroca a los omeyas en la batalla del Zab (750); la capital pasa a Irak y un omeya superviviente funda el emirato de Córdoba (756).",
+	"wiki": "Revolución abasí",
+	"zonas": [
+		{
+			"nombre": "Jorasán",
+			"tipo": "frente",
+			"desde": 747,
+			"hasta": 749,
+			"poligono": [
+				[
+					38,
+					56
+				],
+				[
+					38,
+					64
+				],
+				[
+					34,
+					64
+				],
+				[
+					34,
+					56
+				]
+			]
+		},
+		{
+			"nombre": "Irak y Siria",
+			"tipo": "frente",
+			"desde": 749,
+			"hasta": 750,
+			"poligono": [
+				[
+					37.5,
+					36
+				],
+				[
+					37.5,
+					45.5
+				],
+				[
+					32,
+					45.5
+				],
+				[
+					32,
+					36
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del Zab",
+			"anio": 750,
+			"lat": 35.99,
+			"lng": 43.34,
+			"descripcion": "Los abasíes derrotan al último califa omeya, Marwán II, junto al Gran Zab. Se desconoce el lugar exacto: el marcador está en la confluencia del Gran Zab con el Tigris.",
+			"wiki": "Batalla del Zab"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Abbasid Revolution",
+			"url": "https://en.wikipedia.org/wiki/Abbasid_Revolution",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Zab",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Zab",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Great Zab",
+			"url": "https://en.wikipedia.org/wiki/Great_Zab",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

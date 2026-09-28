@@ -1,0 +1,73 @@
+{
+	"id": "guerras-romano-partas-republica",
+	"nombre": "Guerras romano-partas (fase republicana y triunviral)",
+	"inicio": -54,
+	"fin": -36,
+	"paises": [
+		"Roma",
+		"Imperio parto",
+		"Armenia"
+	],
+	"bajas": "~20.000 romanos muertos y 10.000 prisioneros solo en Carras",
+	"descripcion": "Primer choque entre Roma y los partos. Craso invade Mesopotamia y es aniquilado en Carras (53 a. C.); los partos contraatacan en Siria y Marco Antonio fracasa en su campaña de 36 a. C. El Éufrates queda como frontera.",
+	"wiki": "Guerras romano-partas",
+	"zonas": [
+		{
+			"nombre": "Alta Mesopotamia y Siria",
+			"tipo": "frente",
+			"poligono": [
+				[
+					37.5,
+					36.0
+				],
+				[
+					37.5,
+					41.0
+				],
+				[
+					35.5,
+					42.0
+				],
+				[
+					34.0,
+					40.5
+				],
+				[
+					35.0,
+					36.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Carras",
+			"anio": -53,
+			"lat": 36.87,
+			"lng": 39.03,
+			"descripcion": "El surena parto destruye el ejército de Craso, que muere en la retirada.",
+			"bajas": "~20.000 romanos muertos y 10.000 prisioneros",
+			"wiki": "Batalla de Carras"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Roman–Parthian Wars",
+			"url": "https://en.wikipedia.org/wiki/Roman%E2%80%93Parthian_Wars",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Carrhae",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Carrhae",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Harran",
+			"url": "https://en.wikipedia.org/wiki/Harran",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

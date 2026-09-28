@@ -1,0 +1,104 @@
+{
+	"id": "guerras-husitas",
+	"nombre": "Guerras husitas",
+	"inicio": 1419,
+	"fin": 1434,
+	"paises": [
+		"Husitas (Bohemia)",
+		"Sacro Imperio Romano Germánico",
+		"Estados Pontificios (Papado)"
+	],
+	"bajas": "decenas de miles; la población de Bohemia se reduce en torno a un tercio",
+	"descripcion": "Tras la muerte de Jan Hus, los husitas de Bohemia rechazan cinco cruzadas con sus carros fortificados y armas de fuego; las Compactata de Basilea (1436) les reconocen su culto.",
+	"wiki": "Guerras husitas",
+	"zonas": [
+		{
+			"nombre": "Bohemia",
+			"tipo": "frente",
+			"poligono": [
+				[
+					51,
+					12.2
+				],
+				[
+					51,
+					16.5
+				],
+				[
+					48.6,
+					16.5
+				],
+				[
+					48.6,
+					12.2
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Vítkov",
+			"anio": 1420,
+			"lat": 50.089,
+			"lng": 14.451,
+			"descripcion": "Jan Žižka rechaza a los cruzados de Segismundo en la colina de Vítkov, junto a Praga.",
+			"wiki": "Batalla de Vítkov"
+		},
+		{
+			"nombre": "Batalla de Kutná Hora",
+			"anio": 1421,
+			"lat": 49.95,
+			"lng": 15.267,
+			"descripcion": "Žižka rompe el cerco imperial (21 de diciembre de 1421).",
+			"wiki": "Batalla de Kutná Hora"
+		},
+		{
+			"nombre": "Batalla de Domažlice",
+			"anio": 1431,
+			"lat": 49.44,
+			"lng": 12.93,
+			"descripcion": "La quinta cruzada huye ante los husitas (coordenadas de la ciudad).",
+			"wiki": "Batalla de Domažlice"
+		},
+		{
+			"nombre": "Batalla de Lipany",
+			"anio": 1434,
+			"lat": 50.029,
+			"lng": 14.937,
+			"descripcion": "Los husitas moderados (utraquistas) derrotan a los radicales taboritas.",
+			"wiki": "Batalla de Lipany"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Hussite Wars",
+			"url": "https://en.wikipedia.org/wiki/Hussite_Wars",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Vítkov Hill",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Vítkov_Hill",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Kutná Hora",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Kutná_Hora",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Domažlice",
+			"url": "https://en.wikipedia.org/wiki/Domažlice",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Lipany",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Lipany",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

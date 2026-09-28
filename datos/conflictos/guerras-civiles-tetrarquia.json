@@ -1,0 +1,110 @@
+{
+	"id": "guerras-civiles-tetrarquia",
+	"nombre": "Guerras civiles de la tetrarquía",
+	"inicio": 306,
+	"fin": 324,
+	"paises": [
+		"Roma"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "La tetrarquía de Diocleciano se descompone en guerras entre coemperadores. Constantino vence a Majencio en el puente Milvio (312) y a Licinio en Adrianópolis y Crisópolis (324), y reúne todo el Imperio bajo su mando.",
+	"wiki": "Guerras civiles de la Tetrarquía",
+	"zonas": [
+		{
+			"nombre": "Italia (Constantino contra Majencio)",
+			"tipo": "frente",
+			"desde": 312,
+			"hasta": 312,
+			"poligono": [
+				[
+					46.0,
+					7.5
+				],
+				[
+					45.5,
+					13.5
+				],
+				[
+					42.0,
+					13.5
+				],
+				[
+					41.5,
+					12.0
+				],
+				[
+					44.0,
+					8.0
+				]
+			]
+		},
+		{
+			"nombre": "Tracia y Bósforo (Constantino contra Licinio)",
+			"tipo": "frente",
+			"desde": 324,
+			"hasta": 324,
+			"poligono": [
+				[
+					42.5,
+					25.5
+				],
+				[
+					42.0,
+					29.5
+				],
+				[
+					40.5,
+					30.0
+				],
+				[
+					40.3,
+					26.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del puente Milvio",
+			"anio": 312,
+			"lat": 41.94,
+			"lng": 12.47,
+			"descripcion": "Constantino derrota a Majencio, que muere ahogado en el Tíber (coordenadas del Ponte Milvio actual).",
+			"wiki": "Batalla del Puente Milvio"
+		},
+		{
+			"nombre": "Batalla de Crisópolis",
+			"anio": 324,
+			"lat": 41.015,
+			"lng": 29.03,
+			"descripcion": "Victoria final de Constantino sobre Licinio, en la orilla asiática del Bósforo (actual Üsküdar).",
+			"wiki": "Batalla de Crisópolis"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Civil wars of the Tetrarchy",
+			"url": "https://en.wikipedia.org/wiki/Civil_wars_of_the_Tetrarchy",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Milvian Bridge",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Milvian_Bridge",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Ponte Milvio",
+			"url": "https://en.wikipedia.org/wiki/Ponte_Milvio",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Chrysopolis",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Chrysopolis",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

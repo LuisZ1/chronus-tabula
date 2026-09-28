@@ -1,0 +1,45 @@
+{
+	"id": "guerra-lidio-meda",
+	"nombre": "Guerra entre Lidia y Media",
+	"inicio": -590,
+	"fin": -585,
+	"paises": [
+		"Lidia",
+		"Reino medo"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Según Heródoto, la guerra dura cinco años sin vencedor; en el sexto un eclipse de sol (28 de mayo de 585 a. C.) interrumpe la batalla junto al río Halys y lidios y medos firman la paz y fijan allí su frontera.",
+	"wiki": "Batalla del Eclipse",
+	"zonas": [
+		{
+			"nombre": "Río Halys (Kızılırmak)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					40.5,
+					33.5
+				],
+				[
+					40.5,
+					35.5
+				],
+				[
+					38.8,
+					35.5
+				],
+				[
+					38.8,
+					33.5
+				]
+			]
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of the Eclipse",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Eclipse",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,107 @@
+{
+	"id": "guerra-triple-alianza",
+	"nombre": "Guerra de la Triple Alianza (del Paraguay)",
+	"inicio": 1864,
+	"fin": 1870,
+	"paises": [
+		"Paraguay",
+		"Brasil",
+		"Argentina",
+		"Uruguay"
+	],
+	"bajas": "entre 150.000 y 300.000 muertos; Paraguay pierde una gran parte de su población (cifras discutidas)",
+	"descripcion": "La guerra más mortífera de la historia de Sudamérica: la alianza de Brasil, Argentina y Uruguay derrota al Paraguay de Solano López, que muere en Cerro Corá.",
+	"wiki": "Guerra de la Triple Alianza",
+	"zonas": [
+		{
+			"nombre": "Ñeembucú y Humaitá",
+			"tipo": "frente",
+			"desde": 1864,
+			"hasta": 1868,
+			"poligono": [
+				[
+					-26,
+					-59
+				],
+				[
+					-26,
+					-56.5
+				],
+				[
+					-27.6,
+					-56.5
+				],
+				[
+					-27.6,
+					-59
+				]
+			]
+		},
+		{
+			"nombre": "Campaña de las Cordilleras",
+			"tipo": "frente",
+			"desde": 1869,
+			"hasta": 1870,
+			"poligono": [
+				[
+					-22.0,
+					-57.5
+				],
+				[
+					-22.0,
+					-55.5
+				],
+				[
+					-25.5,
+					-55.5
+				],
+				[
+					-25.5,
+					-57.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla naval del Riachuelo",
+			"anio": 1865,
+			"lat": -27.5,
+			"lng": -58.8
+		},
+		{
+			"nombre": "Batalla de Curupayty",
+			"anio": 1866,
+			"lat": -27.15,
+			"lng": -58.55
+		},
+		{
+			"nombre": "Batalla de Tuyutí",
+			"anio": 1866,
+			"lat": -27.2,
+			"lng": -58.4
+		},
+		{
+			"nombre": "Batalla de Cerro Corá",
+			"anio": 1870,
+			"lat": -22.65,
+			"lng": -56.03,
+			"descripcion": "Muerte de Francisco Solano López (1 de marzo de 1870).",
+			"wiki": "Batalla de Cerro Corá"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de la Triple Alianza",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_la_Triple_Alianza",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Cerro Corá",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Cerro_Cor%C3%A1",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

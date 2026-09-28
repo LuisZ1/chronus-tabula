@@ -1,0 +1,99 @@
+{
+	"id": "gran-guerra-turca",
+	"nombre": "Gran Guerra Turca (Guerra de la Santa Liga)",
+	"inicio": 1683,
+	"fin": 1699,
+	"paises": [
+		"Imperio otomano",
+		"Sacro Imperio Romano Germánico",
+		"Austria",
+		"Polonia",
+		"República de Venecia",
+		"Rusia"
+	],
+	"bajas": "~390.000 muertos y heridos (Santa Liga 300.000, otomanos 90.000)",
+	"descripcion": "Tras el fracaso otomano ante Viena, la Santa Liga reconquista Hungría; la Paz de Karlowitz marca la primera gran pérdida territorial otomana en Europa.",
+	"wiki": "Gran Guerra Turca",
+	"zonas": [
+		{
+			"nombre": "Hungría",
+			"tipo": "frente",
+			"poligono": [
+				[
+					48.3,
+					16.3
+				],
+				[
+					48.3,
+					22.5
+				],
+				[
+					45.0,
+					22.5
+				],
+				[
+					45.0,
+					16.3
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Sitio y batalla de Viena",
+			"anio": 1683,
+			"lat": 48.235,
+			"lng": 16.335,
+			"descripcion": "Juan III Sobieski rompe el cerco otomano desde el Kahlenberg (12 de septiembre de 1683).",
+			"wiki": "Batalla de Viena"
+		},
+		{
+			"nombre": "Segunda batalla de Mohács",
+			"anio": 1687,
+			"lat": 45.85,
+			"lng": 18.4,
+			"descripcion": "Derrota otomana decisiva junto al monte Harsány (12 de agosto de 1687; coordenadas de Nagyharsány).",
+			"wiki": "Batalla de Mohács (1687)"
+		},
+		{
+			"nombre": "Batalla de Zenta",
+			"anio": 1697,
+			"lat": 45.926,
+			"lng": 20.098,
+			"descripcion": "Eugenio de Saboya destruye al ejército otomano al cruzar el Tisza.",
+			"wiki": "Batalla de Zenta"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Great Turkish War",
+			"url": "https://en.wikipedia.org/wiki/Great_Turkish_War",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Vienna",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Vienna",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Mohács (1687)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Moh%C3%A1cs_(1687)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Nagyharsány",
+			"url": "https://en.wikipedia.org/wiki/Nagyhars%C3%A1ny",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Zenta",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Zenta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

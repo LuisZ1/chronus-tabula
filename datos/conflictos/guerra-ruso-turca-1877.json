@@ -1,0 +1,90 @@
+{
+	"id": "guerra-ruso-turca-1877",
+	"nombre": "Guerra ruso-turca de 1877-1878",
+	"inicio": 1877,
+	"fin": 1878,
+	"paises": [
+		"Rusia",
+		"Imperio otomano",
+		"Rumanía",
+		"Serbia",
+		"Montenegro"
+	],
+	"bajas": "unos 200.000-300.000 muertos (militares y civiles)",
+	"descripcion": "Rusia y sus aliados balcánicos derrotan al Imperio otomano; el Tratado de San Stefano crea una gran Bulgaria que el Congreso de Berlín reduce.",
+	"wiki": "Guerra ruso-turca (1877-1878)",
+	"zonas": [
+		{
+			"nombre": "Bulgaria danubiana",
+			"tipo": "frente",
+			"poligono": [
+				[
+					44,
+					23
+				],
+				[
+					44,
+					28
+				],
+				[
+					42.3,
+					27.8
+				],
+				[
+					42.5,
+					23
+				]
+			]
+		},
+		{
+			"nombre": "Cáucaso (Kars)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					41.5,
+					41.5
+				],
+				[
+					41.5,
+					44
+				],
+				[
+					39.8,
+					44
+				],
+				[
+					39.8,
+					41.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del paso de Shipka",
+			"anio": 1877,
+			"lat": 42.75,
+			"lng": 25.32
+		},
+		{
+			"nombre": "Sitio de Plevna",
+			"anio": 1877,
+			"lat": 43.42,
+			"lng": 24.61
+		},
+		{
+			"nombre": "Toma de Kars",
+			"anio": 1877,
+			"lat": 40.6,
+			"lng": 43.1
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra ruso-turca (1877-1878)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_ruso-turca_(1877-1878)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

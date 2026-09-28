@@ -96,6 +96,14 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Heiligerlee",
+			"anio": 1568,
+			"lat": 53.16,
+			"lng": 7.0,
+			"descripcion": "Luis de Nassau vence a las tropas españolas: se considera el comienzo de la guerra (23 de mayo de 1568).",
+			"wiki": "Batalla de Heiligerlee"
+		},
+		{
 			"nombre": "Batalla de Reimerswaal",
 			"anio": 1574,
 			"lat": 51.47,
@@ -115,23 +123,19 @@
 			"descripcion": "Alejandro Farnesio recupera la gran ciudad para España."
 		},
 		{
+			"nombre": "Batalla de Nieuwpoort",
+			"anio": 1600,
+			"lat": 51.16,
+			"lng": 2.74,
+			"descripcion": "Mauricio de Nassau vence al archiduque Alberto en las dunas de Flandes (también en la guerra anglo-española).",
+			"wiki": "Batalla de las Dunas (1600)"
+		},
+		{
 			"nombre": "Sitio de Breda",
 			"anio": 1625,
 			"lat": 51.59,
 			"lng": 4.78,
 			"descripcion": "La rendición que pintó Velázquez en «Las lanzas»."
-		},
-		{
-			"nombre": "Batalla de Vlotho",
-			"anio": 1638,
-			"lat": 52.17,
-			"lng": 8.85
-		},
-		{
-			"nombre": "Batalla de Vlotho",
-			"anio": 1638,
-			"lat": 52.17,
-			"lng": 8.85
 		},
 		{
 			"nombre": "Batalla de las Dunas",
@@ -140,12 +144,6 @@
 			"lng": 1.55,
 			"descripcion": "Los holandeses destruyen la última gran armada española.",
 			"bajas": "~7.000 bajas españolas"
-		},
-		{
-			"nombre": "batalla de Newburn",
-			"anio": 1640,
-			"lat": 54.98,
-			"lng": -1.75
 		}
 	],
 	"fuentes": [
@@ -181,6 +179,18 @@
 			"url": "https://www.wikidata.org/wiki/Q744588",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Battle of Newburn",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Newburn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Heiligerlee (1568)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Heiligerlee_(1568)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

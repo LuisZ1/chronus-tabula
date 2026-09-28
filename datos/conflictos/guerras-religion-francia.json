@@ -1,0 +1,102 @@
+{
+	"id": "guerras-religion-francia",
+	"nombre": "Guerras de religión de Francia",
+	"inicio": 1562,
+	"fin": 1598,
+	"paises": [
+		"Francia",
+		"Hugonotes",
+		"Liga Católica",
+		"España",
+		"Inglaterra"
+	],
+	"bajas": "2-4 millones de muertos (violencia, hambre y epidemias)",
+	"descripcion": "Católicos y hugonotes se enfrentan en ocho guerras; la conversión de Enrique IV (1593) y el Edicto de Nantes (1598) les ponen fin.",
+	"wiki": "Guerras de religión de Francia",
+	"zonas": [
+		{
+			"nombre": "Francia",
+			"tipo": "frente",
+			"poligono": [
+				[
+					50.5,
+					2.0
+				],
+				[
+					48.5,
+					7.5
+				],
+				[
+					43.5,
+					6.5
+				],
+				[
+					43.3,
+					-1.5
+				],
+				[
+					47.5,
+					-2.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Matanza de Wassy",
+			"anio": 1562,
+			"lat": 48.5,
+			"lng": 4.95,
+			"descripcion": "Las tropas del duque de Guisa atacan un culto calvinista (1 de marzo de 1562); empieza la guerra.",
+			"wiki": "Matanza de Wassy"
+		},
+		{
+			"nombre": "Noche de San Bartolomé",
+			"anio": 1572,
+			"lat": 48.86,
+			"lng": 2.34,
+			"descripcion": "Matanza de hugonotes en París y en las provincias (24 de agosto de 1572).",
+			"wiki": "Matanza de San Bartolomé"
+		},
+		{
+			"nombre": "Batalla de Ivry",
+			"anio": 1590,
+			"lat": 48.88,
+			"lng": 1.46,
+			"descripcion": "Enrique IV derrota a la Liga Católica (14 de marzo de 1590).",
+			"wiki": "Batalla de Ivry"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:French Wars of Religion",
+			"url": "https://en.wikipedia.org/wiki/French_Wars_of_Religion",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Massacre of Wassy",
+			"url": "https://en.wikipedia.org/wiki/Massacre_of_Wassy",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Wassy",
+			"url": "https://en.wikipedia.org/wiki/Wassy",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Ivry",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Ivry",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Ivry-la-Bataille",
+			"url": "https://en.wikipedia.org/wiki/Ivry-la-Bataille",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

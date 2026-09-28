@@ -1,0 +1,77 @@
+{
+	"id": "dieciseis-reinos",
+	"nombre": "Dieciséis Reinos",
+	"inicio": 304,
+	"fin": 439,
+	"paises": [
+		"Jin Oriental",
+		"Qin Anterior",
+		"Qin Posterior",
+		"Wei del Norte"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "El norte de China se fragmenta en estados de dinastías xiongnu, xianbei, di y qiang mientras los Jin se refugian en el sur. El Qin Anterior de Fu Jian unifica el norte, pero su derrota en el río Fei (383) lo hunde; los Wei del Norte reunifican el norte en 439.",
+	"wiki": "Dieciséis Reinos",
+	"zonas": [
+		{
+			"nombre": "Norte de China",
+			"tipo": "frente",
+			"poligono": [
+				[
+					41.0,
+					103.0
+				],
+				[
+					41.0,
+					120.0
+				],
+				[
+					36.5,
+					122.0
+				],
+				[
+					33.5,
+					119.0
+				],
+				[
+					33.0,
+					106.0
+				],
+				[
+					36.0,
+					102.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del río Fei (Feishui)",
+			"anio": 383,
+			"lat": 32.55,
+			"lng": 116.8,
+			"descripcion": "El Jin Oriental frena la invasión del Qin Anterior de Fu Jian y consolida la división entre el norte y el sur. El río Fei ya no existe; el marcador está en el distrito de Shou (Anhui), donde se libró la batalla.",
+			"wiki": "Batalla del río Fei"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Sixteen Kingdoms",
+			"url": "https://en.wikipedia.org/wiki/Sixteen_Kingdoms",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Fei River",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Fei_River",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Shou County",
+			"url": "https://en.wikipedia.org/wiki/Shou_County",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

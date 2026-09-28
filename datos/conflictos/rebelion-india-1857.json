@@ -1,0 +1,65 @@
+{
+	"id": "rebelion-india-1857",
+	"nombre": "Rebelión de la India de 1857 (motín de los cipayos)",
+	"inicio": 1857,
+	"fin": 1858,
+	"paises": [
+		"Gran Bretaña (Compañía de las Indias Orientales)",
+		"India"
+	],
+	"bajas": "cientos de miles, sobre todo civiles indios (cifras discutidas)",
+	"descripcion": "Los cipayos se amotinan en Meerut y proclaman emperador al último mogol; aplastada la revuelta, la Corona británica asume el gobierno de la India (1858, Raj británico).",
+	"wiki": "Rebelión de la India de 1857",
+	"zonas": [
+		{
+			"nombre": "Llanura del Ganges",
+			"tipo": "frente",
+			"poligono": [
+				[
+					30,
+					76.5
+				],
+				[
+					29,
+					82
+				],
+				[
+					25,
+					84
+				],
+				[
+					25.5,
+					78
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asedio de Cawnpore",
+			"anio": 1857,
+			"lat": 26.45,
+			"lng": 80.33
+		},
+		{
+			"nombre": "Asedio de Delhi",
+			"anio": 1857,
+			"lat": 28.66,
+			"lng": 77.23
+		},
+		{
+			"nombre": "Asedio de Lucknow",
+			"anio": 1857,
+			"lat": 26.85,
+			"lng": 80.95
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Rebelión de la India de 1857",
+			"url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_de_la_India_de_1857",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

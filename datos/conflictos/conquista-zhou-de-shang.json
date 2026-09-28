@@ -1,0 +1,37 @@
+{
+	"id": "conquista-zhou-de-shang",
+	"nombre": "Conquista Zhou de los Shang",
+	"inicio": -1046,
+	"fin": -1046,
+	"paises": [
+		"Dinastía Zhou",
+		"Dinastía Shang"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "El rey Wu de Zhou y sus aliados derrotan en Muye al último rey Shang, Di Xin, toman la capital Yin y fundan la dinastía Zhou (fecha aproximada: hacia 1046 a. C.).",
+	"wiki": "Batalla de Muye",
+	"batallas": [
+		{
+			"nombre": "Batalla de Muye",
+			"anio": -1046,
+			"lat": 35.3,
+			"lng": 113.93,
+			"descripcion": "Fin de la dinastía Shang. Marcador en Xinxiang (distrito de Muye), en el norte de Henan: el lugar exacto del campo de batalla no se conoce.",
+			"wiki": "Batalla de Muye"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Muye",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Muye",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Xinxiang",
+			"url": "https://en.wikipedia.org/wiki/Xinxiang",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"id": "guerras-ruso-turcas",
-	"nombre": "Guerras ruso-turcas",
+	"nombre": "Guerras ruso-turcas (1711-1829)",
 	"inicio": 1711,
 	"fin": 1829,
 	"paises": [
@@ -38,6 +38,47 @@
 					29.5
 				]
 			]
+		},
+		{
+			"nombre": "Egeo (expedición rusa del Archipiélago)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1769,
+			"hasta": 1774,
+			"poligono": [
+				[
+					40.0,
+					24.0
+				],
+				[
+					40.0,
+					25.9
+				],
+				[
+					39.0,
+					26.2
+				],
+				[
+					38.5,
+					26.0
+				],
+				[
+					38.1,
+					26.2
+				],
+				[
+					37.5,
+					26.9
+				],
+				[
+					36.5,
+					26.5
+				],
+				[
+					36.5,
+					24.0
+				]
+			]
 		}
 	],
 	"batallas": [
@@ -48,22 +89,39 @@
 			"lng": 28.0
 		},
 		{
-			"nombre": "Guerra ruso-turca de 1768-1774 (Küçük Kaynarca)",
-			"anio": 1774,
-			"lat": 45.0,
-			"lng": 29.5
+			"nombre": "Batalla de Chesme",
+			"anio": 1770,
+			"lat": 38.33,
+			"lng": 26.29,
+			"descripcion": "La flota rusa del Báltico, llegada por el Mediterráneo, destruye la otomana frente a Çeşme."
 		},
 		{
-			"nombre": "Guerra ruso-turca de 1787-1792 (Jassy)",
-			"anio": 1792,
-			"lat": 47.16,
-			"lng": 27.58
+			"nombre": "Batalla de Kagul",
+			"anio": 1770,
+			"lat": 45.92,
+			"lng": 28.18,
+			"descripcion": "Rumiántsev derrota al gran visir junto al río Kagul (hoy Cahul, Moldavia)."
 		},
 		{
-			"nombre": "Guerra ruso-turca de 1828-1829",
+			"nombre": "Batalla de Rímnik",
+			"anio": 1789,
+			"lat": 45.38,
+			"lng": 27.06,
+			"descripcion": "Suvórov y el príncipe de Coburgo vencen a los otomanos junto al río Râmnicu Sărat."
+		},
+		{
+			"nombre": "Asalto de Izmail",
+			"anio": 1790,
+			"lat": 45.35,
+			"lng": 28.83,
+			"descripcion": "Suvórov toma al asalto la fortaleza otomana del Danubio."
+		},
+		{
+			"nombre": "Batalla de Kulevicha",
 			"anio": 1829,
-			"lat": 42.0,
-			"lng": 26.0
+			"lat": 43.26,
+			"lng": 27.12,
+			"descripcion": "Díbich derrota al gran visir y abre el paso de los Balcanes hacia Adrianópolis."
 		}
 	],
 	"fuentes": [
@@ -76,6 +134,36 @@
 		{
 			"id": "libro:Breve historia del Imperio otomano",
 			"licencia": "referencia"
+		},
+		{
+			"id": "wikipedia-en:Battle of Chesma",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Chesma",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Kagul",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Kagul",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Rymnik",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Rymnik",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Siege of Izmail",
+			"url": "https://en.wikipedia.org/wiki/Siege_of_Izmail",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Kulevicha",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Kulevicha",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

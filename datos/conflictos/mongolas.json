@@ -10,7 +10,8 @@
 		"Califato abasí",
 		"Rus",
 		"Polonia",
-		"Hungría"
+		"Hungría",
+		"Sultanato mameluco"
 	],
 	"bajas": "~30.000.000-40.000.000 de muertos",
 	"descripcion": "La mayor conquista terrestre de la historia, de Corea a Polonia.",
@@ -223,9 +224,96 @@
 					50
 				]
 			]
+		},
+		{
+			"nombre": "Primera incursión en la estepa póntica",
+			"tipo": "frente",
+			"desde": 1222,
+			"hasta": 1223,
+			"poligono": [
+				[
+					48.5,
+					34
+				],
+				[
+					48.5,
+					40
+				],
+				[
+					47.35,
+					40
+				],
+				[
+					47.25,
+					38.5
+				],
+				[
+					47.2,
+					37.4
+				],
+				[
+					46.9,
+					36.4
+				],
+				[
+					46.7,
+					34
+				]
+			]
+		},
+		{
+			"nombre": "Siria y Palestina",
+			"tipo": "frente",
+			"desde": 1259,
+			"hasta": 1260,
+			"poligono": [
+				[
+					36.9,
+					36.3
+				],
+				[
+					37,
+					39
+				],
+				[
+					31.5,
+					36.5
+				],
+				[
+					31.4,
+					34.6
+				],
+				[
+					32.1,
+					34.95
+				],
+				[
+					32.9,
+					35.2
+				],
+				[
+					33.9,
+					35.65
+				],
+				[
+					34.5,
+					36.0
+				],
+				[
+					35.5,
+					36.0
+				]
+			]
 		}
 	],
 	"batallas": [
+		{
+			"nombre": "Batalla del río Kalka",
+			"anio": 1223,
+			"lat": 47.25,
+			"lng": 37.5,
+			"descripcion": "Subotai y Jebe derrotan a los príncipes de la Rus y a los cumanos (31 de mayo de 1223)."
+		},
 		{
 			"nombre": "Batalla de Legnica",
 			"anio": 1241,
@@ -234,12 +322,26 @@
 			"descripcion": "Los mongoles derrotan a polacos y caballeros teutónicos."
 		},
 		{
+			"nombre": "Batalla de Mohi",
+			"anio": 1241,
+			"lat": 47.98,
+			"lng": 20.91,
+			"descripcion": "Batu y Subotai aniquilan al ejército de Bela IV de Hungría (11 de abril de 1241)."
+		},
+		{
 			"nombre": "Saqueo de Bagdad",
 			"anio": 1258,
 			"lat": 33.34,
 			"lng": 44.4,
 			"descripcion": "Hulagu destruye la capital abasí; fin del califato de Bagdad.",
 			"bajas": "~200.000-800.000 muertos"
+		},
+		{
+			"nombre": "Batalla de Ain Yalut",
+			"anio": 1260,
+			"lat": 32.55,
+			"lng": 35.36,
+			"descripcion": "Los mamelucos de Qutuz y Baibars detienen el avance mongol hacia Egipto (3 de septiembre de 1260)."
 		},
 		{
 			"nombre": "Sitio de Xiangyang",
@@ -258,6 +360,24 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Kalka River",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Kalka_River",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Mohi",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Mohi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Ain Jalut",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

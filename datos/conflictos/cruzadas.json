@@ -203,6 +203,14 @@
 			"lng": 35.44,
 			"descripcion": "Saladino aniquila al ejército cruzado y recupera Jerusalén.",
 			"bajas": "~17.000 cruzados muertos o capturados"
+		},
+		{
+			"nombre": "Caída de Acre",
+			"anio": 1291,
+			"lat": 32.93,
+			"lng": 35.08,
+			"descripcion": "Los mamelucos toman la última gran plaza cruzada de Tierra Santa (18 de mayo de 1291).",
+			"wiki": "Sitio de Acre (1291)"
 		}
 	],
 	"fuentes": [
@@ -214,6 +222,24 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikipedia-en:Battle of Hattin",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Hattin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Siege of Acre (1291)",
+			"url": "https://en.wikipedia.org/wiki/Siege_of_Acre_(1291)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Jerusalem",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

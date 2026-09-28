@@ -1,0 +1,157 @@
+{
+	"id": "rebelion-glyndwr",
+	"nombre": "Rebelión de Owain Glyndŵr",
+	"inicio": 1400,
+	"fin": 1415,
+	"paises": [
+		"Principado de Gales (Owain Glyndŵr)",
+		"Inglaterra",
+		"Francia"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Owain Glyndŵr se proclama príncipe de Gales en 1400 y se levanta contra Enrique IV de Inglaterra; con apoyo francés (1405) controla buena parte de Gales, pero pierde sus castillos hacia 1409 y la resistencia se apaga en torno a 1415. Es una guerra distinta de la de los Cien Años, aunque Francia la aprovechó.",
+	"wiki": "Owain Glyndŵr",
+	"zonas": [
+		{
+			"nombre": "Gales y la Marca galesa",
+			"tipo": "frente",
+			"poligono": [
+				[
+					53.45,
+					-4.8
+				],
+				[
+					53.45,
+					-2.6
+				],
+				[
+					51.4,
+					-2.6
+				],
+				[
+					51.4,
+					-5.3
+				],
+				[
+					52.2,
+					-4.9
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Mynydd Hyddgen",
+			"anio": 1401,
+			"lat": 52.51,
+			"lng": -3.8,
+			"descripcion": "Primera gran victoria de Glyndŵr (junio de 1401).",
+			"wiki": "Batalla de Mynydd Hyddgen"
+		},
+		{
+			"nombre": "Batalla de Tuthill",
+			"anio": 1401,
+			"lat": 53.14,
+			"lng": -4.27,
+			"descripcion": "Combate junto a Caernarfon (2 de noviembre de 1401).",
+			"wiki": "Batalla de Tuthill"
+		},
+		{
+			"nombre": "Batalla de Bryn Glas",
+			"anio": 1402,
+			"lat": 52.31,
+			"lng": -3.1,
+			"descripcion": "Los galeses derrotan y capturan a Edmund Mortimer cerca de Pilleth (22 de junio de 1402).",
+			"wiki": "Batalla de Bryn Glas"
+		},
+		{
+			"nombre": "Batalla de Shrewsbury",
+			"anio": 1403,
+			"lat": 52.75,
+			"lng": -2.72,
+			"descripcion": "Enrique IV vence a los Percy sublevados, que esperaban la ayuda galesa de Glyndŵr.",
+			"wiki": "Batalla de Shrewsbury"
+		},
+		{
+			"nombre": "Batalla de Stalling Down",
+			"anio": 1403,
+			"lat": 51.46,
+			"lng": -3.42,
+			"descripcion": "Batalla tradicional de existencia muy dudosa: no hay pruebas contemporáneas de que llegara a librarse.",
+			"wiki": "Batalla de Stalling Down"
+		},
+		{
+			"nombre": "Batalla de Campston Hill",
+			"anio": 1404,
+			"lat": 51.91,
+			"lng": -2.87,
+			"descripcion": "Victoria galesa en la frontera de Monmouthshire (coordenadas aproximadas, junto a Grosmont)."
+		},
+		{
+			"nombre": "Batalla de Grosmont",
+			"anio": 1405,
+			"lat": 51.91,
+			"lng": -2.87,
+			"descripcion": "Los ingleses de John Talbot derrotan a las fuerzas de Rhys Gethin.",
+			"wiki": "Batalla de Grosmont"
+		},
+		{
+			"nombre": "Batalla de Pwll Melyn",
+			"anio": 1405,
+			"lat": 51.72,
+			"lng": -2.95,
+			"descripcion": "Derrota galesa cerca de Usk (5 de mayo de 1405).",
+			"wiki": "Batalla de Pwll Melyn"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Owain Glyndŵr",
+			"url": "https://en.wikipedia.org/wiki/Owain_Glyndŵr",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Mynydd Hyddgen",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Mynydd_Hyddgen",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Tuthill",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Tuthill",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Bryn Glas",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Bryn_Glas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Shrewsbury",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Shrewsbury",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Stalling Down",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Stalling_Down",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Grosmont",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Grosmont",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Pwll Melyn",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Pwll_Melyn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

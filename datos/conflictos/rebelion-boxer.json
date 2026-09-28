@@ -1,0 +1,67 @@
+{
+	"id": "rebelion-boxer",
+	"nombre": "Rebelión de los bóxers",
+	"inicio": 1899,
+	"fin": 1901,
+	"paises": [
+		"Imperio Qing (China)",
+		"Alianza de las Ocho Naciones",
+		"Japón",
+		"Rusia",
+		"Gran Bretaña",
+		"Francia",
+		"Alemania",
+		"Estados Unidos",
+		"Italia",
+		"Austria-Hungría"
+	],
+	"bajas": "~100.000 muertos, en su mayoría civiles chinos",
+	"descripcion": "Movimiento antiextranjero apoyado por Cixi; la intervención de ocho potencias levanta el asedio de las legaciones de Pekín y le impone a China el Protocolo Bóxer (1901).",
+	"wiki": "Levantamiento de los bóxers",
+	"zonas": [
+		{
+			"nombre": "Zhili (Pekín-Tianjin)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					40.5,
+					115.5
+				],
+				[
+					40.5,
+					118.5
+				],
+				[
+					38.5,
+					118.5
+				],
+				[
+					38.5,
+					115.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asedio de las legaciones de Pekín",
+			"anio": 1900,
+			"lat": 39.9,
+			"lng": 116.4
+		},
+		{
+			"nombre": "Batalla de Tianjin",
+			"anio": 1900,
+			"lat": 39.13,
+			"lng": 117.2
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Levantamiento de los bóxers",
+			"url": "https://es.wikipedia.org/wiki/Levantamiento_de_los_b%C3%B3xers",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

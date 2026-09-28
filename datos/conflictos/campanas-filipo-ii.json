@@ -1,0 +1,56 @@
+{
+	"id": "campanas-filipo-ii",
+	"nombre": "Hegemonía macedónica sobre Grecia (Queronea)",
+	"inicio": -339,
+	"fin": -338,
+	"paises": [
+		"Macedonia y Liga Helénica",
+		"Atenas",
+		"Tebas"
+	],
+	"bajas": "miles",
+	"descripcion": "Filipo II derrota en Queronea a la coalición de Atenas y Tebas; con la Liga de Corinto (337 a. C.) Macedonia se convierte en potencia hegemónica de Grecia, base de la expedición de Alejandro.",
+	"wiki": "Batalla de Queronea (338 a. C.)",
+	"zonas": [
+		{
+			"nombre": "Beocia y Fócide",
+			"tipo": "frente",
+			"poligono": [
+				[
+					38.9,
+					22.3
+				],
+				[
+					38.9,
+					23.6
+				],
+				[
+					38.2,
+					23.8
+				],
+				[
+					38.2,
+					22.4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Queronea",
+			"anio": -338,
+			"lat": 38.495,
+			"lng": 22.8475,
+			"descripcion": "Filipo II y el joven Alejandro vencen a atenienses y tebanos.",
+			"wiki": "Batalla de Queronea (338 a. C.)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Chaeronea (338 BC)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

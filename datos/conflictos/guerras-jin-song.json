@@ -1,0 +1,111 @@
+{
+	"id": "guerras-jin-song",
+	"nombre": "Guerras Jin-Song",
+	"inicio": 1125,
+	"fin": 1142,
+	"paises": [
+		"Dinastía Jin (yurchen)",
+		"Imperio Song (China)"
+	],
+	"bajas": "cientos de miles",
+	"descripcion": "Los yurchen de la dinastía Jin toman Kaifeng (incidente de Jingkang, 1127) y capturan al emperador Huizong; los Song se refugian al sur y la paz de Shaoxing (1142) fija la frontera en el río Huai.",
+	"wiki": "Guerras Jin-Song",
+	"zonas": [
+		{
+			"nombre": "Llanura del norte de China",
+			"tipo": "frente",
+			"poligono": [
+				[
+					38,
+					111
+				],
+				[
+					38,
+					119
+				],
+				[
+					32.5,
+					119
+				],
+				[
+					32.5,
+					111
+				]
+			]
+		},
+		{
+			"nombre": "Yangtsé inferior",
+			"tipo": "frente",
+			"desde": 1129,
+			"hasta": 1130,
+			"poligono": [
+				[
+					32.5,
+					118
+				],
+				[
+					32.5,
+					121
+				],
+				[
+					30,
+					121
+				],
+				[
+					30,
+					118
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Caída de Kaifeng (incidente de Jingkang)",
+			"anio": 1127,
+			"lat": 34.8,
+			"lng": 114.35,
+			"descripcion": "Los Jin saquean la capital Song y se llevan cautivos a los emperadores Huizong y Qinzong.",
+			"wiki": "Incidente de Jingkang"
+		},
+		{
+			"nombre": "Batalla de Yancheng",
+			"anio": 1140,
+			"lat": 33.58,
+			"lng": 114.02,
+			"descripcion": "Victoria de Yue Fei sobre los Jin cerca de la actual Luohe (coordenadas de la ciudad).",
+			"wiki": "Batalla de Yancheng"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Jin–Song wars",
+			"url": "https://en.wikipedia.org/wiki/Jin%E2%80%93Song_wars",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Jingkang incident",
+			"url": "https://en.wikipedia.org/wiki/Jingkang_incident",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Kaifeng",
+			"url": "https://en.wikipedia.org/wiki/Kaifeng",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Yancheng",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Yancheng",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Luohe",
+			"url": "https://en.wikipedia.org/wiki/Luohe",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

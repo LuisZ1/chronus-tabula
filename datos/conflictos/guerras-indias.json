@@ -362,126 +362,6 @@
 			"lng": -118.33
 		},
 		{
-			"nombre": "Batalla de Chino",
-			"anio": 1846,
-			"lat": 33.99,
-			"lng": -117.72
-		},
-		{
-			"nombre": "Batalla de Monterey",
-			"anio": 1846,
-			"lat": 36.61,
-			"lng": -121.9
-		},
-		{
-			"nombre": "Batalla de Monterrey",
-			"anio": 1846,
-			"lat": 25.68,
-			"lng": -100.31
-		},
-		{
-			"nombre": "Batalla de Natividad",
-			"anio": 1846,
-			"lat": 36.77,
-			"lng": -121.6
-		},
-		{
-			"nombre": "Batalla de Palo Alto",
-			"anio": 1846,
-			"lat": 26.02,
-			"lng": -97.47
-		},
-		{
-			"nombre": "Batalla de Resaca de la Palma",
-			"anio": 1846,
-			"lat": 25.94,
-			"lng": -97.49
-		},
-		{
-			"nombre": "Batalla de San Pascual",
-			"anio": 1846,
-			"lat": 33.09,
-			"lng": -116.99
-		},
-		{
-			"nombre": "Batalla de Santa Fe",
-			"anio": 1846,
-			"lat": 35.67,
-			"lng": -105.96
-		},
-		{
-			"nombre": "Batalla del Rancho Domínguez",
-			"anio": 1846,
-			"lat": 33.77,
-			"lng": -118.32
-		},
-		{
-			"nombre": "Incidente de Thornton",
-			"anio": 1846,
-			"lat": 26.06,
-			"lng": -97.78
-		},
-		{
-			"nombre": "Sitio de Fort Texas",
-			"anio": 1846,
-			"lat": 25.9,
-			"lng": -97.49
-		},
-		{
-			"nombre": "Batalla de La Mesa",
-			"anio": 1847,
-			"lat": 34.0,
-			"lng": -118.2
-		},
-		{
-			"nombre": "Batalla de Mora",
-			"anio": 1847,
-			"lat": 35.97,
-			"lng": -105.33
-		},
-		{
-			"nombre": "Batalla de Sacramento",
-			"anio": 1847,
-			"lat": 28.87,
-			"lng": -106.19
-		},
-		{
-			"nombre": "Batalla de Santa Clara",
-			"anio": 1847,
-			"lat": 37.35,
-			"lng": -121.95
-		},
-		{
-			"nombre": "Batalla de la Angostura",
-			"anio": 1847,
-			"lat": 25.34,
-			"lng": -101.05
-		},
-		{
-			"nombre": "Batalla de la Cañada",
-			"anio": 1847,
-			"lat": 35.99,
-			"lng": -106.04
-		},
-		{
-			"nombre": "Batalla del Paso de Embudo",
-			"anio": 1847,
-			"lat": 36.2,
-			"lng": -105.9
-		},
-		{
-			"nombre": "Batalla del Río San Gabriel",
-			"anio": 1847,
-			"lat": 33.99,
-			"lng": -118.11
-		},
-		{
-			"nombre": "Segunda batalla de Mora",
-			"anio": 1847,
-			"lat": 35.97,
-			"lng": -105.33
-		},
-		{
 			"nombre": "Battle of the Diablo Mountains",
 			"anio": 1854,
 			"lat": 31.4,
@@ -536,22 +416,10 @@
 			"lng": -107.67
 		},
 		{
-			"nombre": "Batalla de Corrick's Ford",
-			"anio": 1861,
-			"lat": 39.09,
-			"lng": -79.69
-		},
-		{
 			"nombre": "Batalla de the Florida Mountains",
 			"anio": 1861,
 			"lat": 32.12,
 			"lng": -107.62
-		},
-		{
-			"nombre": "Batalla de the Head of Passes",
-			"anio": 1861,
-			"lat": 29.16,
-			"lng": -89.25
 		},
 		{
 			"nombre": "Batalla de Apache Pass",
@@ -560,40 +428,10 @@
 			"lng": -109.45
 		},
 		{
-			"nombre": "Batalla de Galveston Harbor",
-			"anio": 1862,
-			"lat": 29.34,
-			"lng": -94.77
-		},
-		{
-			"nombre": "Batalla de Memphis",
-			"anio": 1862,
-			"lat": 35.13,
-			"lng": -90.16
-		},
-		{
-			"nombre": "Batalla de Stones River",
-			"anio": 1862,
-			"lat": 35.87,
-			"lng": -86.43
-		},
-		{
-			"nombre": "Battle of St. Charles",
-			"anio": 1862,
-			"lat": 34.38,
-			"lng": -91.13
-		},
-		{
 			"nombre": "Primera batalla de Dragoon Springs",
 			"anio": 1862,
 			"lat": 32.0,
 			"lng": -110.02
-		},
-		{
-			"nombre": "Action off Galveston Light",
-			"anio": 1863,
-			"lat": 29.32,
-			"lng": -94.66
 		},
 		{
 			"nombre": "Batalla de Big Mound",
@@ -608,30 +446,6 @@
 			"lng": -99.78
 		},
 		{
-			"nombre": "Batalla de Devil's Backbone",
-			"anio": 1863,
-			"lat": 35.18,
-			"lng": -94.31
-		},
-		{
-			"nombre": "Batalla de Fayetteville",
-			"anio": 1863,
-			"lat": 36.07,
-			"lng": -94.16
-		},
-		{
-			"nombre": "Batalla de Helena",
-			"anio": 1863,
-			"lat": 34.53,
-			"lng": -90.6
-		},
-		{
-			"nombre": "Batalla de Salem Church",
-			"anio": 1863,
-			"lat": 38.29,
-			"lng": -77.53
-		},
-		{
 			"nombre": "Batalla de Stony Lake",
 			"anio": 1863,
 			"lat": 46.85,
@@ -644,70 +458,10 @@
 			"lng": -98.86
 		},
 		{
-			"nombre": "Primera batalla de Collierville",
-			"anio": 1863,
-			"lat": 35.04,
-			"lng": -89.66
-		},
-		{
-			"nombre": "Segunda batalla de Collierville",
-			"anio": 1863,
-			"lat": 35.04,
-			"lng": -89.66
-		},
-		{
-			"nombre": "Skirmish at Ashley's Mills",
-			"anio": 1863,
-			"lat": 34.7,
-			"lng": -92.1
-		},
-		{
-			"nombre": "batalla de jackson",
-			"anio": 1863,
-			"lat": 32.29,
-			"lng": -90.2
-		},
-		{
-			"nombre": "Ambush of the steamboat J. R. Williams",
-			"anio": 1864,
-			"lat": 35.44,
-			"lng": -95.03
-		},
-		{
-			"nombre": "Batalla de Altamaha Bridge",
-			"anio": 1864,
-			"lat": 31.66,
-			"lng": -81.83
-		},
-		{
-			"nombre": "Batalla de Brice's Cross Roads",
-			"anio": 1864,
-			"lat": 34.51,
-			"lng": -88.73
-		},
-		{
-			"nombre": "Batalla de Elkin's Ferry",
-			"anio": 1864,
-			"lat": 33.93,
-			"lng": -93.36
-		},
-		{
-			"nombre": "Batalla de Fort McAllister",
-			"anio": 1864,
-			"lat": 31.89,
-			"lng": -81.19
-		},
-		{
 			"nombre": "Batalla de Killdeer Mountain",
 			"anio": 1864,
 			"lat": 47.42,
 			"lng": -102.92
-		},
-		{
-			"nombre": "Batalla de Mansfield",
-			"anio": 1864,
-			"lat": 32.01,
-			"lng": -93.67
 		},
 		{
 			"nombre": "Batalla de Mount Gray",
@@ -716,36 +470,12 @@
 			"lng": -111.47
 		},
 		{
-			"nombre": "Batalla de Pleasant Hill",
-			"anio": 1864,
-			"lat": 31.85,
-			"lng": -93.51
-		},
-		{
-			"nombre": "Batalla de Spotsylvania",
-			"anio": 1864,
-			"lat": 38.22,
-			"lng": -77.6
-		},
-		{
-			"nombre": "Batalla de la espesura",
-			"anio": 1864,
-			"lat": 38.32,
-			"lng": -77.76
-		},
-		{
 			"nombre": "Masacre de Sand Creek",
 			"anio": 1864,
 			"lat": 38.55,
 			"lng": -102.51,
 			"descripcion": "La milicia de Colorado ataca un campamento pacífico.",
 			"bajas": "~200 cheyenes y arapajós muertos, dos tercios mujeres y niños"
-		},
-		{
-			"nombre": "Batalla de Bentonville",
-			"anio": 1865,
-			"lat": 35.31,
-			"lng": -78.32
 		},
 		{
 			"nombre": "Batalla de Fort Buchanan",

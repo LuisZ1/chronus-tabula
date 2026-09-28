@@ -1,0 +1,61 @@
+{
+	"id": "guerra-chaco",
+	"nombre": "Guerra del Chaco",
+	"inicio": 1932,
+	"fin": 1935,
+	"paises": [
+		"Bolivia",
+		"Paraguay"
+	],
+	"bajas": "~90.000-100.000 muertos",
+	"descripcion": "Bolivia y Paraguay se disputan el Chaco Boreal; Paraguay gana la mayor parte del territorio (tratado de 1938).",
+	"wiki": "Guerra del Chaco",
+	"zonas": [
+		{
+			"nombre": "Chaco Boreal",
+			"tipo": "frente",
+			"poligono": [
+				[
+					-19.5,
+					-62.5
+				],
+				[
+					-19.5,
+					-59
+				],
+				[
+					-23,
+					-58
+				],
+				[
+					-23,
+					-62.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Boquerón",
+			"anio": 1932,
+			"lat": -22.77,
+			"lng": -59.94,
+			"descripcion": "Primera gran batalla de la guerra (9-29 de septiembre de 1932), ganada por Paraguay.",
+			"wiki": "Batalla de Boquerón (1932)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Chaco",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Chaco",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Boquerón (1932)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Boquer%C3%B3n_(1932)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

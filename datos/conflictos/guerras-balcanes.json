@@ -46,6 +46,12 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Kirk Kilisse",
+			"anio": 1912,
+			"lat": 41.73,
+			"lng": 27.22
+		},
+		{
 			"nombre": "Batalla de Kumanovo",
 			"anio": 1912,
 			"lat": 42.13,
@@ -76,6 +82,10 @@
 			"url": "https://es.wikipedia.org/wiki/Guerras_Balcánicas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:Breve historia del Imperio otomano",
+			"licencia": "referencia"
 		}
 	]
 }

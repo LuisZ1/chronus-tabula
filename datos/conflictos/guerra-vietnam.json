@@ -68,6 +68,14 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Incidente del golfo de Tonkín",
+			"anio": 1964,
+			"lat": 19.7,
+			"lng": 106.46,
+			"descripcion": "Pretexto de la escalada estadounidense (resolución del Congreso).",
+			"wiki": "Incidente del golfo de Tonkín"
+		},
+		{
 			"nombre": "Ofensiva del Tet",
 			"anio": 1968,
 			"lat": 16.47,
@@ -96,6 +104,12 @@
 			"url": "https://es.wikipedia.org/wiki/Guerra_de_Vietnam",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Incidente del golfo de Tonkín",
+			"url": "https://es.wikipedia.org/wiki/Incidente_del_golfo_de_Tonk%C3%ADn",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

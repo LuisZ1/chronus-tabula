@@ -47,10 +47,10 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Batalla de Guilin",
+			"nombre": "Batalla de Guiling",
 			"anio": -354,
-			"lat": 35.6,
-			"lng": 114.6,
+			"lat": 35.2,
+			"lng": 114.7,
 			"descripcion": "Qi derrota a Wei (estratagema de Sun Bin)."
 		},
 		{
@@ -59,6 +59,15 @@
 			"lat": 36.2,
 			"lng": 115.6,
 			"descripcion": "Qi vuelve a derrotar a Wei; muerte de Pang Juan."
+		},
+		{
+			"nombre": "Batalla de Changping",
+			"anio": -260,
+			"lat": 35.8,
+			"lng": 112.92,
+			"descripcion": "Qin aniquila al ejército de Zhao; la mayoría de los prisioneros son ejecutados. Se libró al noroeste de Gaoping (Shanxi): el marcador está en Gaoping.",
+			"bajas": "~450.000 muertos de Zhao según Sima Qian",
+			"wiki": "Batalla de Changping"
 		}
 	],
 	"fuentes": [
@@ -71,6 +80,18 @@
 		{
 			"id": "libro:Breve historia de la China milenaria",
 			"licencia": "referencia"
+		},
+		{
+			"id": "wikipedia-en:Battle of Changping",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Changping",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Gaoping",
+			"url": "https://en.wikipedia.org/wiki/Gaoping",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

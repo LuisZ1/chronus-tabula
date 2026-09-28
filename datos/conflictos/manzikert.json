@@ -1,0 +1,55 @@
+{
+	"id": "manzikert",
+	"nombre": "Guerra bizantino-selyúcida y batalla de Manzikert",
+	"inicio": 1068,
+	"fin": 1071,
+	"paises": [
+		"Imperio bizantino (romano de Oriente)",
+		"Imperio selyúcida"
+	],
+	"bajas": "miles; el emperador Romano IV cae prisionero",
+	"descripcion": "Alp Arslan derrota y captura a Romano IV Diógenes en Manzikert; los turcos se extienden por Anatolia y Bizancio pide ayuda a Occidente, antecedente de las cruzadas.",
+	"wiki": "Batalla de Manzikert",
+	"zonas": [
+		{
+			"nombre": "Armenia bizantina",
+			"tipo": "frente",
+			"poligono": [
+				[
+					40.5,
+					39.5
+				],
+				[
+					40.5,
+					44
+				],
+				[
+					38.2,
+					44
+				],
+				[
+					38.2,
+					39.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Manzikert",
+			"anio": 1071,
+			"lat": 39.145,
+			"lng": 42.539,
+			"descripcion": "26 de agosto de 1071, cerca de la actual Malazgirt.",
+			"wiki": "Batalla de Manzikert"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Manzikert",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Manzikert",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}
