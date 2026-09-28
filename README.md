@@ -49,7 +49,8 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
                               capas, mapa, paneles, tiempo, arranque
   data/historia.json        GENERADO desde datos/ (no se edita ni se versiona):
                               el único JSON que descarga la web
-  data/geojson/             54 mapas de fronteras world_*.geojson (53 de historical-basemaps y 2011 derivado con api/derivar_mapas.py)
+  data/geojson/             82 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,
+                              28 intermedios creados por esa misma herramienta y 2011 derivado con api/derivar_mapas.py)
   data/years.json           índice de años con mapa
   data/land.geojson         contorno de continentes (Natural Earth), recorte costero
 
@@ -73,6 +74,9 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   rellenar_geojson.py       rellena la tierra sin atribuir con pueblos de mapas vecinos (usa shapely)
   derivar_mapas.py          genera mapas posteriores a 2010 (2011: Sudán del Sur) a partir del último (usa shapely)
                               (parches documentados; --check en CI)
+  corregir_mapas.py         aplica las correcciones de fronteras de api/correcciones/ y crea mapas intermedios (usa shapely)
+  vista_previa.py           PNG de un año del mapa, con un cambio propuesto o un conflicto encima (usa shapely y matplotlib)
+  laminas.py                regenera las láminas de la portada (web/img/lamina/)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)
   validar.py                validador: esquema (schema/), años, coordenadas, nombres en los
