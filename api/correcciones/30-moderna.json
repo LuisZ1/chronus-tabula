@@ -1,0 +1,2602 @@
+{
+ "tema": "Edad Moderna (1501-1815): fronteras y tierra sin datos (c06, piezas del cartógrafo B), etiquetas (c01, carto-B-renombres) y mapas intermedios (c05: 1812, 1763, 1740, 1580)",
+ "mapas": {
+  "world_1530.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-otomanos-1530.geojson",
+    "nombres": [
+     "Safavid Empire",
+     "Hafsid Caliphate",
+     "Zayyanid Caliphate",
+     "Yemen",
+     "Cyprus (Venice)",
+     "Crete (Venice)",
+     "Funj"
+    ],
+    "motivo": "c06 · otomanos 1530: conquistas posteriores a 1530 vuelven a su dueño de entonces (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Tsardom of Muscovy"
+    },
+    "poner": {
+     "NAME": "Grand Duchy of Moscow"
+    },
+    "motivo": "c01 · Iván IV toma el título de zar el 16-1-1547; en 1530 es el Gran Principado de Moscú (como en world_1500)",
+    "fuente": "https://en.wikipedia.org/wiki/Tsardom_of_Russia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Benin"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · reino de Benín (Edo, Nigeria): con NAME «Benin» se enlaza con la República de Benín (antigua Dahomey)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   }
+  ],
+  "world_1600.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-1600-inca-songhai-mogoles.geojson",
+    "nombres": [
+     "Vice Royalty of Peru",
+     "Pashalik of Timbuktu",
+     "Mughal Empire",
+     "Siberians"
+    ],
+    "motivo": "c06 · 1600: Inca → Virreinato del Perú, Tondibi, Akbar y Siberia (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-otomanos-1600.geojson",
+    "nombres": [
+     "Crete (Venice)",
+     "Funj"
+    ],
+    "motivo": "c06 · otomanos 1600: Creta veneciana y Sudán funj (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1600.geojson",
+    "nombres": [
+     "Vice Royalty of Peru",
+     "Portuguese Brazil",
+     "Philippines (Spain)"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Japan (Warring States)"
+    },
+    "poner": {
+     "NAME": "Japan (Toyotomi)"
+    },
+    "motivo": "c01 · Japón unificado por Hideyoshi en 1590",
+    "fuente": "https://en.wikipedia.org/wiki/Azuchi%E2%80%93Momoyama_period"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Watassid Morocco"
+    },
+    "poner": {
+     "NAME": "Saadi Morocco",
+     "SUBJECTO": "Saadi Morocco"
+    },
+    "motivo": "c01 · los wattásidas acaban en 1554; en 1600 reinan los saadíes",
+    "fuente": "https://en.wikipedia.org/wiki/Saadi_Sultanate"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Benin"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · reino de Benín (Edo, Nigeria): con NAME «Benin» se enlaza con la República de Benín (antigua Dahomey)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Songhai"
+    },
+    "poner": {
+     "NAME": "Dendi",
+     "SUBJECTO": "Dendi"
+    },
+    "motivo": "c01 · tras Tondibi (1591) el resto del Imperio songhai es el reino de Dendi (lo pide la ficha carto-B-1600-inca-songhai-mogoles)",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   }
+  ],
+  "world_1650.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-europa-asia-1650.geojson",
+    "nombres": [
+     "Genoa",
+     "Safavid Empire",
+     "Yemen (Zaydi Imamate)",
+     "Bijapur",
+     "Nayaka kingdoms"
+    ],
+    "motivo": "c06 · 1650: Córcega, Zuhab, Yemen zaidí y fin de Vijayanagara (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1650.geojson",
+    "nombres": [
+     "Vice Royalty of Peru"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Austrian Empire"
+    },
+    "poner": {
+     "NAME": "Habsburg Monarchy"
+    },
+    "motivo": "c01 · el Imperio austriaco se proclama en 1804",
+    "fuente": "https://en.wikipedia.org/wiki/Austrian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Songhai"
+    },
+    "poner": {
+     "NAME": "Dendi",
+     "SUBJECTO": "Dendi"
+    },
+    "motivo": "c01 · el Imperio songhai cae en Tondibi (1591); queda el reino de Dendi",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Benin"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · reino de Benín (Edo, Nigeria): con NAME «Benin» se enlaza con la República de Benín (antigua Dahomey)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   }
+  ],
+  "world_1700.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-europa-asia-1700.geojson",
+    "nombres": [
+     "Genoa",
+     "Manchu Empire",
+     "Portuguese Brazil",
+     "Jamaica (England)",
+     "France",
+     "Ottoman Empire",
+     "Safavid Empire",
+     "Yemen (Zaydi Imamate)"
+    ],
+    "motivo": "c06 · 1700: mapa copiado de 1650, cambios de 1650-1700 (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1700.geojson",
+    "nombres": [
+     "Vice Royalty of Peru",
+     "Cape Colony",
+     "Manchu Empire",
+     "New France"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Austrian Empire"
+    },
+    "poner": {
+     "NAME": "Habsburg Monarchy"
+    },
+    "motivo": "c01 · el Imperio austriaco se proclama en 1804",
+    "fuente": "https://en.wikipedia.org/wiki/Austrian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Songhai"
+    },
+    "poner": {
+     "NAME": "Dendi",
+     "SUBJECTO": "Dendi"
+    },
+    "motivo": "c01 · el Imperio songhai cae en Tondibi (1591); queda el reino de Dendi",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Benin"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · reino de Benín (Edo, Nigeria): con NAME «Benin» se enlaza con la República de Benín (antigua Dahomey)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   }
+  ],
+  "world_1715.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-europa-asia-1715.geojson",
+    "nombres": [
+     "Genoa",
+     "France"
+    ],
+    "motivo": "c06 · 1715: Córcega genovesa y Estrasburgo francés (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1715.geojson",
+    "nombres": [
+     "New France",
+     "South Carolina",
+     "Ottoman Empire",
+     "Manchu Empire",
+     "Vice-Royalty of Peru"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Austrian Empire"
+    },
+    "poner": {
+     "NAME": "Habsburg Monarchy"
+    },
+    "motivo": "c01 · el Imperio austriaco se proclama en 1804",
+    "fuente": "https://en.wikipedia.org/wiki/Austrian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Songhai"
+    },
+    "poner": {
+     "NAME": "Dendi",
+     "SUBJECTO": "Dendi"
+    },
+    "motivo": "c01 · el Imperio songhai cae en Tondibi (1591); queda el reino de Dendi",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Haiti"
+    },
+    "poner": {
+     "NAME": "Saint-Domingue",
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · colonia francesa de 1697 a 1804",
+    "fuente": "https://en.wikipedia.org/wiki/Saint-Domingue"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Papua New Guinea"
+    },
+    "poner": {
+     "NAME": "Papuans",
+     "SUBJECTO": "Papuans"
+    },
+    "motivo": "c01 · Papúa Nueva Guinea es el Estado de 1975 (world_1600 usa «Papous»)",
+    "fuente": "https://es.wikipedia.org/wiki/Pap%C3%BAa_Nueva_Guinea"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   }
+  ],
+  "world_1783.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-europa-asia-1783.geojson",
+    "nombres": [
+     "France"
+    ],
+    "motivo": "c06 · Estrasburgo francés (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-norteamerica-europa-india-1783.geojson",
+    "nombres": [
+     "Florida (Spain)",
+     "Vice-Royalty of New Spain"
+    ],
+    "motivo": "c06 · 1783: Floridas españolas y Nuevo México (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1783.geojson",
+    "nombres": [
+     "Qing Empire",
+     "Ottoman Empire",
+     "Prussia"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Austrian Empire"
+    },
+    "poner": {
+     "NAME": "Habsburg Monarchy"
+    },
+    "motivo": "c01 · el Imperio austriaco se proclama en 1804",
+    "fuente": "https://en.wikipedia.org/wiki/Austrian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Songhai"
+    },
+    "poner": {
+     "NAME": "Dendi",
+     "SUBJECTO": "Dendi"
+    },
+    "motivo": "c01 · el Imperio songhai cae en Tondibi (1591); queda el reino de Dendi",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Golconda"
+    },
+    "poner": {
+     "NAME": "Nizam's Dominions",
+     "SUBJECTO": "Nizam's Dominions"
+    },
+    "motivo": "c01 · Golconda cae en 1687; Estado de Hyderabad desde 1724 (mismo NAME que world_1800)",
+    "fuente": "https://en.wikipedia.org/wiki/Hyderabad_State"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Zulu"
+    },
+    "poner": {
+     "NAME": "Nguni chiefdoms",
+     "SUBJECTO": "Nguni chiefdoms"
+    },
+    "motivo": "c01 · el reino zulú lo funda Shaka en 1816",
+    "fuente": "https://en.wikipedia.org/wiki/Zulu_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Papua New Guinea"
+    },
+    "poner": {
+     "NAME": "Papuans",
+     "SUBJECTO": "Papuans"
+    },
+    "motivo": "c01 · Papúa Nueva Guinea es el Estado de 1975 (world_1600 usa «Papous»)",
+    "fuente": "https://es.wikipedia.org/wiki/Pap%C3%BAa_Nueva_Guinea"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sotho"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · el polígono está en Benin City (6,3° N 5,6° E); los sotho viven en el sur de África, a ~4.000 km",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Quebec"
+    },
+    "poner": {
+     "SUBJECTO": "Great Britain"
+    },
+    "motivo": "c01 · Provincia de Quebec británica desde 1763 (Alto y Bajo Canadá desde 1791)",
+    "fuente": "https://en.wikipedia.org/wiki/Province_of_Quebec_(1763%E2%80%931791)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Luisiana"
+    },
+    "poner": {
+     "SUBJECTO": "Spain"
+    },
+    "motivo": "c01 · Luisiana española de 1762 a 1800-1803 (entrega efectiva a Francia el 30-11-1803)",
+    "fuente": "https://en.wikipedia.org/wiki/Louisiana_(New_Spain)"
+   }
+  ],
+  "world_1800.geojson": [
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-europa-asia-1800.geojson",
+    "nombres": [
+     "France"
+    ],
+    "motivo": "c06 · Estrasburgo francés (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-norteamerica-europa-india-1800.geojson",
+    "nombres": [
+     "Florida (Spain)",
+     "Vice-Royalty of New Spain",
+     "France",
+     "Bengal"
+    ],
+    "motivo": "c06 · 1800: Floridas, Nuevo México, orilla izquierda del Rin, Bengala (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1800.geojson",
+    "nombres": [
+     "Qing Empire",
+     "Ottoman Empire"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Austrian Empire"
+    },
+    "poner": {
+     "NAME": "Habsburg Monarchy"
+    },
+    "motivo": "c01 · el Imperio austriaco se proclama en 1804",
+    "fuente": "https://en.wikipedia.org/wiki/Austrian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Songhai"
+    },
+    "poner": {
+     "NAME": "Dendi",
+     "SUBJECTO": "Dendi"
+    },
+    "motivo": "c01 · el Imperio songhai cae en Tondibi (1591); queda el reino de Dendi",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Zulu"
+    },
+    "poner": {
+     "NAME": "Nguni chiefdoms",
+     "SUBJECTO": "Nguni chiefdoms"
+    },
+    "motivo": "c01 · el reino zulú lo funda Shaka en 1816",
+    "fuente": "https://en.wikipedia.org/wiki/Zulu_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Papua New Guinea"
+    },
+    "poner": {
+     "NAME": "Papuans",
+     "SUBJECTO": "Papuans"
+    },
+    "motivo": "c01 · Papúa Nueva Guinea es el Estado de 1975 (world_1600 usa «Papous»)",
+    "fuente": "https://es.wikipedia.org/wiki/Pap%C3%BAa_Nueva_Guinea"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sotho"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · el polígono está en Benin City (6,3° N 5,6° E); los sotho viven en el sur de África, a ~4.000 km",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Quebec"
+    },
+    "poner": {
+     "SUBJECTO": "Great Britain"
+    },
+    "motivo": "c01 · Provincia de Quebec británica desde 1763 (Alto y Bajo Canadá desde 1791)",
+    "fuente": "https://en.wikipedia.org/wiki/Province_of_Quebec_(1763%E2%80%931791)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Luisiana"
+    },
+    "poner": {
+     "SUBJECTO": "Spain"
+    },
+    "motivo": "c01 · Luisiana española de 1762 a 1800-1803 (entrega efectiva a Francia el 30-11-1803)",
+    "fuente": "https://en.wikipedia.org/wiki/Louisiana_(New_Spain)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Venetia"
+    },
+    "poner": {
+     "SUBJECTO": "Habsburg Austria"
+    },
+    "motivo": "c01 · Venecia, austriaca desde Campo Formio (1797)",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Campo_Formio"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Lombardy"
+    },
+    "poner": {
+     "NAME": "Cisalpine Republic",
+     "SUBJECTO": "France"
+    },
+    "motivo": "c01 · República Cisalpina, restaurada tras Marengo (1800)",
+    "fuente": "https://en.wikipedia.org/wiki/Cisalpine_Republic"
+   }
+  ],
+  "world_1815.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "       "
+    },
+    "poner": {
+     "NAME": "United Kingdom of the Netherlands"
+    },
+    "motivo": "c01 · NAME en blanco (7 espacios): el Reino Unido de los Países Bajos no tiene rótulo",
+    "fuente": "https://en.wikipedia.org/wiki/United_Kingdom_of_the_Netherlands"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-europa-asia-1815.geojson",
+    "nombres": [
+     "France"
+    ],
+    "motivo": "c06 · Estrasburgo francés (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-norteamerica-europa-india-1815.geojson",
+    "nombres": [
+     "Florida (Spain)",
+     "United Kingdom of the Netherlands",
+     "Sikh Empire",
+     "Nizam's Dominions"
+    ],
+    "motivo": "c06 · 1815: Florida española, Bélgica, Punyab sij, Hyderabad (piezas del cartógrafo B)"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-sin-datos-1815.geojson",
+    "nombres": [
+     "Manchu Empire",
+     "Ottoman Empire"
+    ],
+    "motivo": "c06 · tierra sin datos con dueño conocido (piezas del cartógrafo B)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Canada"
+    },
+    "poner": {
+     "NAME": "British North America",
+     "SUBJECTO": "United Kingdom of Great Britain and Ireland"
+    },
+    "motivo": "c01 · el Dominio del Canadá es de 1867",
+    "fuente": "https://en.wikipedia.org/wiki/Canada_under_British_rule"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sotho"
+    },
+    "poner": {
+     "NAME": "Kingdom of Benin",
+     "SUBJECTO": "Kingdom of Benin"
+    },
+    "motivo": "c01 · el polígono está en Benin City (6,3° N 5,6° E); los sotho viven en el sur de África, a ~4.000 km",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Congo"
+    },
+    "poner": {
+     "NAME": "Kingdom of Kongo",
+     "SUBJECTO": "Kingdom of Kongo"
+    },
+    "motivo": "c01 · reino del Kongo (Mbanza Kongo, hoy Angola), no la República del Congo",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Manchu Empire"
+    },
+    "poner": {
+     "NAME": "Qing Empire",
+     "SUBJECTO": "Qing Empire"
+    },
+    "motivo": "c01 · el mismo Estado que «Qing Empire» en 1783 y 1800",
+    "fuente": "https://en.wikipedia.org/wiki/Qing_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Kongldom of Hawaii"
+    },
+    "poner": {
+     "NAME": "Kingdom of Hawaii"
+    },
+    "motivo": "c01 · errata",
+    "fuente": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "United Provinces of La Plata"
+    },
+    "poner": {
+     "SUBJECTO": "United Provinces of La Plata"
+    },
+    "motivo": "c01 · gobierno propio desde 1810 (independencia declarada en 1816) — discutido",
+    "fuente": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-tasmania.geojson",
+    "nombres": [
+     "Tasmania (UK)"
+    ],
+    "motivo": "c07 · Tasmania (Tierra de Van Diemen), colonia británica desde 1803; pieza del cartógrafo B (carto-B-contemporanea-1815), BORDERPRECISION 1",
+    "fuente": "https://en.wikipedia.org/wiki/Van_Diemen%27s_Land"
+   }
+  ],
+  "world_1580.geojson<world_1600.geojson": [
+   {
+    "op": "quitar",
+    "de": "Pashalik of Timbuktu",
+    "a": "Dendi",
+    "motivo": "antes de Tondibi (1591) el Imperio songhai sigue entero",
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Tondibi"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Dendi"
+    },
+    "poner": {
+     "NAME": "Songhai",
+     "SUBJECTO": "Songhai",
+     "PARTOF": "Songhai"
+    },
+    "motivo": "el Imperio songhai de los askias (Gao) hasta 1591",
+    "fuente": "https://en.wikipedia.org/wiki/Songhai_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Japan (Toyotomi)"
+    },
+    "poner": {
+     "NAME": "Japan (Warring States)"
+    },
+    "motivo": "en 1580 Japón no está unificado: Oda Nobunaga domina el centro y Hideyoshi no completa la unificación hasta 1590",
+    "fuente": "https://en.wikipedia.org/wiki/Sengoku_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Khanate of Sibir",
+     "mapa": "world_1530.geojson"
+    },
+    "desde": [
+     "Tsardom of Muscovy"
+    ],
+    "props": {
+     "NAME": "Khanate of Sibir",
+     "SUBJECTO": "Khanate of Sibir",
+     "PARTOF": "Khanate of Sibir",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el kanato de Siberia de Kuchum; la expedición de Yermak empieza en 1581-1582 y Tobolsk se funda en 1587; geometría de world_1530",
+    "fuente": "https://en.wikipedia.org/wiki/Khanate_of_Sibir"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Khanty",
+     "mapa": "world_1530.geojson"
+    },
+    "desde": [
+     "Tsardom of Muscovy"
+    ],
+    "props": {
+     "NAME": "Khanty",
+     "SUBJECTO": "Khanty",
+     "PARTOF": "Khanty",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Obi inferior (jantis), fuera del dominio ruso antes de la conquista de Siberia (1582-1600); geometría de world_1530",
+    "fuente": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        62.0,
+        50.0,
+        95.0,
+        77.0
+       ]
+      },
+      {
+       "feat": "Tsardom of Muscovy",
+       "mapa": "world_1530.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Tsardom of Muscovy"
+    ],
+    "props": {
+     "NAME": "Siberians"
+    },
+    "motivo": "pueblos de Siberia occidental aún sin dominio ruso en 1580 (Mangazeya se funda en 1601); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Ahmadnagar",
+     "mapa": "world_1600.geojson"
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Ahmadnagar"
+    },
+    "motivo": "la ciudad de Ahmadnagar cae ante Akbar en 1600; en 1580 el sultanato nizamshahí está entero (geometría de world_1600)",
+    "fuente": "https://en.wikipedia.org/wiki/Ahmadnagar_Sultanate"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      74.0,
+      19.0,
+      80.6,
+      21.9
+     ]
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Islamic and Hindu states"
+    },
+    "motivo": "Berar (mogol en 1596) y Jandesh (1601) aún no son mogoles en 1580; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Akbar"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      66.0,
+      23.0,
+      71.2,
+      29.2
+     ]
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Islamic and Hindu states"
+    },
+    "motivo": "el Sind (Thatta) no es mogol hasta 1591, ni Baluchistán hasta 1595; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Akbar"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      83.4,
+      19.0,
+      87.6,
+      22.7
+     ]
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Orissa"
+    },
+    "motivo": "Orissa, de los afganos karraníes, no se anexiona hasta 1592; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Akbar"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       73.4,
+       34.4
+      ],
+      [
+       74.0,
+       35.1
+      ],
+      [
+       75.0,
+       35.0
+      ],
+      [
+       75.8,
+       34.3
+      ],
+      [
+       75.6,
+       33.5
+      ],
+      [
+       74.9,
+       33.2
+      ],
+      [
+       74.0,
+       33.3
+      ],
+      [
+       73.5,
+       33.8
+      ]
+     ]
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Kashmir",
+     "SUBJECTO": "Kashmir",
+     "PARTOF": "Kashmir",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el sultanato de Cachemira (dinastía Chak) cae ante Akbar en 1586; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Chak_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "archivo": "api/geo/correcciones/moderna-otomanos-1530.geojson",
+       "nombre": "Safavid Empire"
+      },
+      {
+       "caja": [
+        44.8,
+        35.0,
+        50.0,
+        39.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Safavid Empire"
+    },
+    "motivo": "Tabriz y el Azerbaiyán iraní siguen siendo safávidas hasta la conquista otomana de 1585 (guerra de 1578-1590); pieza safávida del cartógrafo B para 1530, recortada",
+    "fuente": "https://en.wikipedia.org/wiki/Ottoman%E2%80%93Safavid_War_(1578%E2%80%931590)"
+   }
+  ],
+  "world_1740.geojson<world_1715.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Tsardom of Muscovy"
+    },
+    "poner": {
+     "NAME": "Russian Empire",
+     "SUBJECTO": "Russian Empire",
+     "PARTOF": "Russian Empire"
+    },
+    "motivo": "Pedro I se proclama emperador en 1721, tras la Paz de Nystad",
+    "fuente": "https://en.wikipedia.org/wiki/Russian_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Russian Empire",
+       "mapa": "world_1783.geojson"
+      },
+      {
+       "caja": [
+        19.0,
+        60.4,
+        28.2,
+        71.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Sweden"
+    ],
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "Paz de Nystad (1721): Livonia, Estonia, Ingria y la Carelia de Víborg pasan de Suecia a Rusia; geometría de world_1783 sin la Finlandia cedida en 1743",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Nystad"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Naples"
+    },
+    "poner": {
+     "NAME": "Kingdom of the Two Sicilies",
+     "SUBJECTO": "Kingdom of the Two Sicilies",
+     "PARTOF": "Kingdom of the Two Sicilies"
+    },
+    "motivo": "Carlos de Borbón reina en Nápoles y Sicilia desde 1734-1735 (Paz de Viena, 1738)",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1738)"
+   },
+   {
+    "op": "quitar",
+    "de": "Sicily",
+    "a": "Kingdom of the Two Sicilies",
+    "motivo": "Sicilia, de Saboya a Austria en 1720 y a Carlos de Borbón en 1735",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Vienna_(1738)"
+   },
+   {
+    "op": "quitar",
+    "de": "Sardinia",
+    "a": "Sardinia-Piedmont",
+    "motivo": "Cerdeña pasa de Austria a Saboya en 1720 (Tratado de La Haya)",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_The_Hague_(1720)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sardinia-Piedmont"
+    },
+    "poner": {
+     "NAME": "Kingdom of Sardinia",
+     "SUBJECTO": "Kingdom of Sardinia",
+     "PARTOF": "Kingdom of Sardinia"
+    },
+    "motivo": "desde 1720 los Saboya son reyes de Cerdeña (mismo NAME que world_1783)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Parma"
+    },
+    "poner": {
+     "SUBJECTO": "Austrian Empire"
+    },
+    "motivo": "Parma y Piacenza, austriacas de 1735 a 1748",
+    "fuente": "https://en.wikipedia.org/wiki/Duchy_of_Parma"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Safavid Empire"
+    },
+    "poner": {
+     "NAME": "Persia",
+     "SUBJECTO": "Persia",
+     "PARTOF": "Persia"
+    },
+    "motivo": "caída de los safávidas (1722-1736): Nader Sah se corona en 1736 (dinastía afsárida), como «Persia» en world_1783",
+    "fuente": "https://en.wikipedia.org/wiki/Afsharid_dynasty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       60.0,
+       40.0
+      ],
+      [
+       71.8,
+       37.2
+      ],
+      [
+       72.3,
+       35.9
+      ],
+      [
+       72.3,
+       34.0
+      ],
+      [
+       71.2,
+       33.0
+      ],
+      [
+       71.0,
+       31.0
+      ],
+      [
+       70.5,
+       29.0
+      ],
+      [
+       69.5,
+       27.5
+      ],
+      [
+       68.3,
+       25.5
+      ],
+      [
+       67.6,
+       24.0
+      ],
+      [
+       60.0,
+       24.0
+      ]
+     ]
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Persia"
+    },
+    "motivo": "Nader Sah toma Kandahar y Kabul (1738) y, tras saquear Delhi (1739), el emperador mogol le cede todo lo que está al oeste del Indo; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Nader_Shah%27s_invasion_of_the_Mughal_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Golconda",
+     "mapa": "world_1783.geojson"
+    },
+    "desde": [
+     "Mughal Empire",
+     "Maratha",
+     "Hindu Kingdoms"
+    ],
+    "props": {
+     "NAME": "Nizam's Dominions",
+     "SUBJECTO": "Nizam's Dominions",
+     "PARTOF": "Nizam's Dominions",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Asaf Jah I, nizam del Decán, gobierna Hyderabad por su cuenta desde 1724; geometría de world_1783",
+    "fuente": "https://en.wikipedia.org/wiki/Hyderabad_State"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Maratha Confederacy",
+       "mapa": "world_1783.geojson"
+      },
+      {
+       "caja": [
+        68.0,
+        15.0,
+        84.5,
+        24.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Mughal Empire"
+    ],
+    "props": {
+     "NAME": "Maratha"
+    },
+    "motivo": "expansión maratha de Baji Rao I: Guyarat, Berar y Malwa (cedido en el Tratado de Bhopal, 1738); geometría de world_1783 al sur de 24,8° N",
+    "fuente": "https://en.wikipedia.org/wiki/Baji_Rao_I"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Vice-Royalty of New Granada",
+     "mapa": "world_1783.geojson"
+    },
+    "desde": [
+     "Vice-Royalty of Peru"
+    ],
+    "props": {
+     "NAME": "Vice-Royalty of New Granada",
+     "SUBJECTO": "Spain",
+     "PARTOF": "Vice-Royalty of New Granada",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "el Virreinato de Nueva Granada se separa del Perú en 1717 y de nuevo, de forma definitiva, en 1739; geometría de world_1783",
+    "fuente": "https://es.wikipedia.org/wiki/Virreinato_de_Nueva_Granada"
+   }
+  ],
+  "world_1763.geojson<world_1783.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "United States of America"
+    },
+    "poner": {
+     "NAME": "British American colonies",
+     "SUBJECTO": "Great Britain",
+     "PARTOF": "British American colonies"
+    },
+    "motivo": "antes de la independencia (1776-1783) las Trece Colonias y el territorio hasta el Misisipi, cedido por Francia en la Paz de París (1763), son británicos",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Paris_(1763)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Florida (Spain)"
+    },
+    "poner": {
+     "NAME": "British Florida",
+     "SUBJECTO": "Great Britain",
+     "PARTOF": "British Florida"
+    },
+    "motivo": "España cede Florida a Gran Bretaña en la Paz de París (1763); las Floridas Oriental y Occidental son británicas hasta 1783",
+    "fuente": "https://en.wikipedia.org/wiki/British_West_Florida"
+   },
+   {
+    "op": "quitar",
+    "de": "Viceroyalty of the Río de la Plata",
+    "a": "Vice-Royalty of Peru",
+    "motivo": "el Virreinato del Río de la Plata no se crea hasta 1776; antes, sus gobernaciones dependen del Virreinato del Perú",
+    "fuente": "https://es.wikipedia.org/wiki/Virreinato_del_R%C3%ADo_de_la_Plata"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      24.8,
+      47.5,
+      26.7,
+      48.4
+     ]
+    },
+    "desde": [
+     "Habsburg Monarchy"
+    ],
+    "props": {
+     "NAME": "Ottoman Empire"
+    },
+    "motivo": "la Bucovina, parte de Moldavia (vasalla otomana) hasta que Austria la ocupa en 1774-1775; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bukovina"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Polish–Lithuanian Commonwealth",
+       "mapa": "world_1715.geojson"
+      },
+      {
+       "feat": "Prussia",
+       "mapa": "world_1715.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Prussia",
+     "Habsburg Monarchy",
+     "Russian Empire"
+    ],
+    "props": {
+     "NAME": "Poland"
+    },
+    "motivo": "antes del primer reparto (1772): Prusia Real, Galitzia y la Bielorrusia oriental aún son de la República de las Dos Naciones; geometría de world_1715",
+    "fuente": "https://en.wikipedia.org/wiki/First_Partition_of_Poland"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Crimean Khanate",
+       "mapa": "world_1600.geojson"
+      },
+      {
+       "caja": [
+        28.0,
+        44.0,
+        40.0,
+        48.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Russian Empire",
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Crimean Khanate",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Crimean Khanate",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el kanato de Crimea, vasallo otomano, hasta Küçük Kaynarca (1774) y la anexión rusa (1783); geometría de world_1600 recortada al sur de 48° N",
+    "fuente": "https://en.wikipedia.org/wiki/Crimean_Khanate"
+   }
+  ],
+  "world_1812.geojson<world_1800.geojson": [
+   {
+    "op": "quitar",
+    "de": "Batavian Republic",
+    "a": "France",
+    "motivo": "el Reino de Holanda se anexiona al Imperio francés el 9-7-1810",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Holland"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.0,
+       51.8
+      ],
+      [
+       7.3,
+       51.7
+      ],
+      [
+       8.1,
+       52.0
+      ],
+      [
+       8.7,
+       52.4
+      ],
+      [
+       9.4,
+       52.65
+      ],
+      [
+       10.1,
+       52.8
+      ],
+      [
+       10.6,
+       53.3
+      ],
+      [
+       10.95,
+       53.95
+      ],
+      [
+       10.95,
+       55.3
+      ],
+      [
+       5.0,
+       55.3
+      ],
+      [
+       5.0,
+       51.8
+      ]
+     ]
+    },
+    "desde": [
+     "Oldenburg",
+     "Bremen",
+     "Hamburg",
+     "Lübeck",
+     "Cuxhaven",
+     "Mecklenburg-Strelitz",
+     "Prussia",
+     "Swabia",
+     "Brunswick",
+     "Lippe-Detmold",
+     "Schaumburg-Lippe",
+     "Hanover"
+    ],
+    "props": {
+     "NAME": "France"
+    },
+    "motivo": "departamentos hanseáticos (Bocas del Elba, Bocas del Weser, Alto Ems y Lippe), anexionados en diciembre de 1810; límite sur aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bouches-de-l%27Elbe"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      5.0,
+      43.4,
+      10.6,
+      46.6
+     ]
+    },
+    "desde": [
+     "Kingdom of Sardinia"
+    ],
+    "props": {
+     "NAME": "France"
+    },
+    "motivo": "Piamonte (1802) y Liguria (1805), anexionados a Francia; la isla de Cerdeña sigue en manos de la Casa de Saboya",
+    "fuente": "https://en.wikipedia.org/wiki/Territorial_evolution_of_France"
+   },
+   {
+    "op": "quitar",
+    "de": "Tuscany",
+    "a": "France",
+    "motivo": "el Reino de Etruria (Toscana) se anexiona a Francia en 1807-1808",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Etruria"
+   },
+   {
+    "op": "quitar",
+    "de": "Parma",
+    "a": "France",
+    "motivo": "Parma y Piacenza, departamento francés del Taro (1808)",
+    "fuente": "https://en.wikipedia.org/wiki/Taro_(department)"
+   },
+   {
+    "op": "quitar",
+    "de": "Pontremoli",
+    "a": "France",
+    "motivo": "Lunigiana, integrada en los departamentos franceses de Toscana (1808)",
+    "fuente": "https://en.wikipedia.org/wiki/Apennins"
+   },
+   {
+    "op": "quitar",
+    "de": "Fivizzano",
+    "a": "France",
+    "motivo": "Lunigiana, integrada en los departamentos franceses de Toscana (1808)",
+    "fuente": "https://en.wikipedia.org/wiki/Apennins"
+   },
+   {
+    "op": "quitar",
+    "de": "Massa",
+    "a": "Lucca",
+    "motivo": "Massa y Carrara, dadas al principado de Lucca y Piombino de Elisa Bonaparte (1806)",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Lucca_and_Piombino"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Lucca"
+    },
+    "poner": {
+     "SUBJECTO": "France"
+    },
+    "motivo": "principado de Lucca y Piombino (1805-1814), Estado cliente de Napoleón",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Lucca_and_Piombino"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cisalpine Republic"
+    },
+    "poner": {
+     "NAME": "Kingdom of Italy",
+     "SUBJECTO": "France",
+     "PARTOF": "Kingdom of Italy"
+    },
+    "motivo": "la República Italiana (1802) pasa a Reino de Italia en 1805, con Napoleón como rey",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)"
+   },
+   {
+    "op": "quitar",
+    "de": "Venetia",
+    "a": "Kingdom of Italy",
+    "motivo": "Venecia, cedida por Austria al Reino de Italia en Presburgo (1805)",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Pressburg_(1805)"
+   },
+   {
+    "op": "quitar",
+    "de": "Modena",
+    "a": "Kingdom of Italy",
+    "motivo": "Módena, parte de la Cispadana y de la Cisalpina desde 1797",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       11.2,
+       45.2
+      ],
+      [
+       11.2,
+       44.0
+      ],
+      [
+       12.1,
+       43.75
+      ],
+      [
+       12.75,
+       43.45
+      ],
+      [
+       13.2,
+       42.85
+      ],
+      [
+       13.9,
+       42.7
+      ],
+      [
+       14.6,
+       42.7
+      ],
+      [
+       14.6,
+       45.2
+      ]
+     ]
+    },
+    "desde": [
+     "Papal States"
+    ],
+    "props": {
+     "NAME": "Kingdom of Italy"
+    },
+    "motivo": "las Legaciones (1797) y las Marcas (1808) pasan al Reino de Italia; corte por los Apeninos aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)"
+   },
+   {
+    "op": "quitar",
+    "de": "Papal States",
+    "a": "France",
+    "motivo": "Roma y el Lacio, anexionados a Francia en 1809 (departamentos del Tíber y del Trasimeno)",
+    "fuente": "https://en.wikipedia.org/wiki/Papal_States"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       10.45,
+       45.7
+      ],
+      [
+       10.45,
+       46.55
+      ],
+      [
+       11.2,
+       46.8
+      ],
+      [
+       12.0,
+       46.8
+      ],
+      [
+       12.1,
+       46.25
+      ],
+      [
+       11.6,
+       45.85
+      ],
+      [
+       11.1,
+       45.65
+      ]
+     ]
+    },
+    "desde": [
+     "Habsburg Monarchy"
+    ],
+    "props": {
+     "NAME": "Kingdom of Italy"
+    },
+    "motivo": "Trentino y Bolzano: de Austria a Baviera (1805) y de Baviera al Reino de Italia (departamento del Alto Adigio, 1810); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Alto_Adige_(department)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       12.1,
+       46.95
+      ],
+      [
+       13.9,
+       46.8
+      ],
+      [
+       14.4,
+       46.45
+      ],
+      [
+       15.2,
+       46.3
+      ],
+      [
+       15.8,
+       45.9
+      ],
+      [
+       16.4,
+       45.45
+      ],
+      [
+       17.0,
+       45.2
+      ],
+      [
+       19.6,
+       42.0
+      ],
+      [
+       12.1,
+       42.0
+      ],
+      [
+       12.1,
+       46.25
+      ]
+     ]
+    },
+    "desde": [
+     "Habsburg Monarchy"
+    ],
+    "props": {
+     "NAME": "Illyrian Provinces",
+     "SUBJECTO": "France",
+     "PARTOF": "Illyrian Provinces",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Provincias Ilirias del Imperio francés, cedidas por Austria en Schönbrunn (1809); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Illyrian_Provinces"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       9.5,
+       46.8
+      ],
+      [
+       10.45,
+       46.55
+      ],
+      [
+       11.2,
+       46.8
+      ],
+      [
+       12.1,
+       46.95
+      ],
+      [
+       12.9,
+       47.05
+      ],
+      [
+       13.9,
+       46.95
+      ],
+      [
+       14.0,
+       47.5
+      ],
+      [
+       13.8,
+       48.5
+      ],
+      [
+       13.4,
+       48.7
+      ],
+      [
+       12.5,
+       48.4
+      ],
+      [
+       12.5,
+       48.0
+      ],
+      [
+       9.5,
+       48.0
+      ]
+     ]
+    },
+    "desde": [
+     "Habsburg Monarchy"
+    ],
+    "props": {
+     "NAME": "Bavaria"
+    },
+    "motivo": "Tirol y Vorarlberg (Presburgo, 1805) y Salzburgo con el Innviertel (1810), bávaros; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Pressburg_(1805)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Helvetic Republic"
+    },
+    "poner": {
+     "NAME": "Swiss Confederation",
+     "SUBJECTO": "Swiss Confederation",
+     "PARTOF": "Swiss Confederation"
+    },
+    "motivo": "Acta de Mediación (1803): la República Helvética vuelve a ser una confederación de cantones",
+    "fuente": "https://en.wikipedia.org/wiki/Act_of_Mediation"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.75,
+       46.45
+      ],
+      [
+       7.2,
+       46.5
+      ],
+      [
+       8.0,
+       46.6
+      ],
+      [
+       8.45,
+       46.5
+      ],
+      [
+       8.2,
+       46.2
+      ],
+      [
+       7.8,
+       45.9
+      ],
+      [
+       7.0,
+       45.9
+      ],
+      [
+       6.8,
+       46.1
+      ]
+     ]
+    },
+    "desde": [
+     "Swiss Confederation"
+    ],
+    "props": {
+     "NAME": "France"
+    },
+    "motivo": "el Valais, departamento francés del Simplon (1810); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Simplon_(department)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      11.5,
+      36.0,
+      15.75,
+      38.45
+     ]
+    },
+    "desde": [
+     "Kingdom of the Two Sicilies"
+    ],
+    "props": {
+     "NAME": "Kingdom of Sicily",
+     "SUBJECTO": "Kingdom of Sicily",
+     "PARTOF": "Kingdom of Sicily",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "Fernando IV de Borbón conserva Sicilia (con protección británica) tras perder Nápoles en 1806",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Kingdom of the Two Sicilies"
+    },
+    "poner": {
+     "NAME": "Kingdom of Naples",
+     "SUBJECTO": "France",
+     "PARTOF": "Kingdom of Naples"
+    },
+    "motivo": "Reino de Nápoles de José Bonaparte (1806) y Joaquín Murat (1808-1815)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Naples_(Napoleonic)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       7.9,
+       51.35
+      ],
+      [
+       8.5,
+       51.1
+      ],
+      [
+       9.0,
+       50.6
+      ],
+      [
+       10.0,
+       50.6
+      ],
+      [
+       10.5,
+       51.35
+      ],
+      [
+       12.1,
+       51.35
+      ],
+      [
+       12.25,
+       51.9
+      ],
+      [
+       11.95,
+       52.3
+      ],
+      [
+       12.25,
+       52.9
+      ],
+      [
+       11.5,
+       53.1
+      ],
+      [
+       10.6,
+       53.3
+      ],
+      [
+       10.1,
+       52.8
+      ],
+      [
+       9.4,
+       52.65
+      ],
+      [
+       8.7,
+       52.4
+      ],
+      [
+       8.1,
+       52.0
+      ],
+      [
+       7.9,
+       51.7
+      ]
+     ]
+    },
+    "desde": [
+     "Oldenburg",
+     "Bremen",
+     "Hamburg",
+     "Lübeck",
+     "Cuxhaven",
+     "Mecklenburg-Strelitz",
+     "Prussia",
+     "Swabia",
+     "Brunswick",
+     "Lippe-Detmold",
+     "Schaumburg-Lippe",
+     "Hanover"
+    ],
+    "props": {
+     "NAME": "Kingdom of Westphalia",
+     "SUBJECTO": "France",
+     "PARTOF": "Kingdom of Westphalia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Reino de Westfalia de Jerónimo Bonaparte (Tilsit, 1807; Hannover del sur, 1810); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Westphalia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      5.5,
+      50.3,
+      8.6,
+      52.6
+     ]
+    },
+    "desde": [
+     "Prussia",
+     "Swabia"
+    ],
+    "props": {
+     "NAME": "Grand Duchy of Berg",
+     "SUBJECTO": "France",
+     "PARTOF": "Grand Duchy of Berg",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Gran Ducado de Berg (1806), con la Marca y Essen, prusianas hasta Tilsit; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Berg"
+   },
+   {
+    "op": "quitar",
+    "de": "Mecklenburg-Strelitz",
+    "a": "France",
+    "motivo": "Lauenburgo (polígono rotulado «Mecklenburg-Strelitz» en world_1800, que es el Hannover británico), anexionado a Francia en 1810-1811",
+    "fuente": "https://en.wikipedia.org/wiki/Saxe-Lauenburg"
+   },
+   {
+    "op": "quitar",
+    "de": "Luxembourg",
+    "a": "France",
+    "motivo": "el ducado de Luxemburgo, departamento francés de los Bosques desde 1795",
+    "fuente": "https://en.wikipedia.org/wiki/Forêts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bavaria",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Swabia",
+     "Prussia"
+    ],
+    "props": {
+     "NAME": "Bavaria"
+    },
+    "motivo": "Baviera, reino desde 1806, con Franconia (Ansbach en 1806, Bayreuth en 1810); geometría de world_1815 (incluye Wurzburgo, que en 1812 aún era gran ducado)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Bavaria"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Grand Duchy of Hesse",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Swabia"
+    ],
+    "props": {
+     "NAME": "Grand Duchy of Hesse",
+     "SUBJECTO": "Grand Duchy of Hesse",
+     "PARTOF": "Grand Duchy of Hesse",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "Hesse-Darmstadt, gran ducado y miembro de la Confederación del Rin desde 1806; geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Hesse"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Nassau",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Swabia"
+    ],
+    "props": {
+     "NAME": "Nassau",
+     "SUBJECTO": "Nassau",
+     "PARTOF": "Nassau",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "ducado de Nassau (1806), miembro de la Confederación del Rin; geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Duchy_of_Nassau"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Swabia"
+    },
+    "poner": {
+     "NAME": "Confederation of the Rhine",
+     "SUBJECTO": "Confederation of the Rhine",
+     "PARTOF": "Confederation of the Rhine",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "resto de los pequeños Estados de la Confederación del Rin (Fráncfort, Wurzburgo, Isenburgo…), bajo protección de Napoleón desde 1806",
+    "fuente": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Poland",
+       "mapa": "world_1783.geojson"
+      },
+      {
+       "caja": [
+        21.9,
+        52.55,
+        24.6,
+        54.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Prussia",
+     "Habsburg Monarchy"
+    ],
+    "props": {
+     "NAME": "Duchy of Warsaw",
+     "SUBJECTO": "Duchy of Warsaw",
+     "PARTOF": "Duchy of Warsaw",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Ducado de Varsovia: tierras prusianas del segundo y tercer reparto (Tilsit, 1807) y Galitzia occidental con Cracovia (Schönbrunn, 1809); geometría de la Polonia de world_1783",
+    "fuente": "https://en.wikipedia.org/wiki/Duchy_of_Warsaw"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       19.3,
+       50.25
+      ],
+      [
+       19.4,
+       49.95
+      ],
+      [
+       20.0,
+       49.95
+      ],
+      [
+       21.0,
+       50.2
+      ],
+      [
+       21.8,
+       50.35
+      ],
+      [
+       22.6,
+       50.55
+      ],
+      [
+       24.0,
+       50.8
+      ],
+      [
+       24.2,
+       51.9
+      ],
+      [
+       19.3,
+       51.9
+      ]
+     ]
+    },
+    "desde": [
+     "Habsburg Monarchy"
+    ],
+    "props": {
+     "NAME": "Duchy of Warsaw"
+    },
+    "motivo": "Galitzia occidental con Cracovia (tercer reparto, 1795), cedida por Austria al Ducado de Varsovia en Schönbrunn (1809); límite del Vístula y el San aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/West_Galicia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Poland",
+       "mapa": "world_1783.geojson"
+      },
+      {
+       "caja": [
+        21.9,
+        52.55,
+        24.6,
+        54.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Prussia"
+    ],
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "distrito de Białystok, cedido por Prusia a Rusia en Tilsit (1807); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Białystok_Oblast"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Russian Empire",
+       "mapa": "world_1815.geojson"
+      },
+      {
+       "caja": [
+        19.0,
+        59.0,
+        33.0,
+        71.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Sweden"
+    ],
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "Finlandia, cedida por Suecia a Rusia en Fredrikshamn (1809); geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Fredrikshamn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       26.6,
+       48.3
+      ],
+      [
+       27.5,
+       48.5
+      ],
+      [
+       28.3,
+       48.15
+      ],
+      [
+       29.2,
+       47.5
+      ],
+      [
+       29.6,
+       46.9
+      ],
+      [
+       30.1,
+       46.4
+      ],
+      [
+       30.4,
+       46.0
+      ],
+      [
+       29.9,
+       45.2
+      ],
+      [
+       28.2,
+       45.4
+      ],
+      [
+       28.1,
+       46.0
+      ],
+      [
+       28.2,
+       46.7
+      ],
+      [
+       27.3,
+       47.6
+      ]
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "Besarabia, entre el Prut y el Dniéster, cedida por el Imperio otomano en el Tratado de Bucarest (28-5-1812); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1812)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       40.0,
+       44.0
+      ],
+      [
+       40.0,
+       42.3
+      ],
+      [
+       41.6,
+       41.6
+      ],
+      [
+       42.8,
+       41.5
+      ],
+      [
+       43.5,
+       41.1
+      ],
+      [
+       44.8,
+       41.0
+      ],
+      [
+       45.5,
+       40.6
+      ],
+      [
+       45.6,
+       40.0
+      ],
+      [
+       46.2,
+       39.6
+      ],
+      [
+       46.5,
+       38.9
+      ],
+      [
+       47.4,
+       39.3
+      ],
+      [
+       48.0,
+       39.7
+      ],
+      [
+       48.3,
+       39.0
+      ],
+      [
+       48.0,
+       38.4
+      ],
+      [
+       49.5,
+       38.4
+      ],
+      [
+       50.6,
+       40.5
+      ],
+      [
+       48.5,
+       42.2
+      ],
+      [
+       47.8,
+       43.6
+      ]
+     ]
+    },
+    "desde": [
+     "central Asian khanates",
+     "Persia",
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Russian Empire"
+    },
+    "motivo": "Georgia (1801), Ganyá (1804), Karabaj, Shirván y Sheki (1805), Bakú, Derbent y Quba (1806), Imericia y Guria (1810), en manos rusas antes de Gulistán (1813); Ereván y Najicheván siguen persas; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Gulistan"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Egypt",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Egypt",
+     "SUBJECTO": "Egypt",
+     "PARTOF": "Egypt",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "Egipto de Mehmet Alí, valí desde 1805 y gobernante de hecho bajo soberanía otomana nominal; geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Egypt_under_Muhammad_Ali"
+   },
+   {
+    "op": "quitar",
+    "de": "Luisiana",
+    "a": "United States of America",
+    "motivo": "compra de Luisiana (1803): la Luisiana pasa de Francia a los Estados Unidos",
+    "fuente": "https://en.wikipedia.org/wiki/Louisiana_Purchase"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -91.8,
+      28.5,
+      -89.6,
+      31.1
+     ]
+    },
+    "desde": [
+     "Florida (Spain)"
+    ],
+    "props": {
+     "NAME": "United States of America"
+    },
+    "motivo": "distrito de Baton Rouge (Florida Occidental), anexionado por los Estados Unidos en 1810 y unido al estado de Luisiana en 1812; corte en el río Pearl aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Republic_of_West_Florida"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Viceroyalty of the Río de la Plata"
+    },
+    "poner": {
+     "NAME": "United Provinces of La Plata",
+     "SUBJECTO": "United Provinces of La Plata",
+     "PARTOF": "United Provinces of La Plata"
+    },
+    "motivo": "gobierno propio en Buenos Aires desde la Revolución de Mayo (1810), como en world_1815; Montevideo, Paraguay y el Alto Perú no le obedecían",
+    "fuente": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Mayo"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Fulani Empire",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Hausa States"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Fulani Empire",
+     "SUBJECTO": "Fulani Empire",
+     "PARTOF": "Fulani Empire"
+    },
+    "motivo": "califato de Sokoto, fundado por Usman dan Fodio con la yihad de 1804-1809 contra los Estados hausas; geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Sokoto_Caliphate"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Dutch settlements"
+    },
+    "poner": {
+     "NAME": "Cape Colony",
+     "SUBJECTO": "United Kingdom",
+     "PARTOF": "Cape Colony"
+    },
+    "motivo": "El Cabo, ocupado por Gran Bretaña desde la batalla de Blaauwberg (1806) y cedido en 1814",
+    "fuente": "https://en.wikipedia.org/wiki/Cape_Colony"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Ceylon (Dutch)"
+    },
+    "poner": {
+     "NAME": "Ceylon",
+     "SUBJECTO": "United Kingdom",
+     "PARTOF": "Ceylon"
+    },
+    "motivo": "la costa de Ceilán, británica desde 1796 y colonia de la Corona desde la Paz de Amiens (1802); Kandy sigue independiente hasta 1815",
+    "fuente": "https://en.wikipedia.org/wiki/British_Ceylon"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Đại Việt"
+    },
+    "poner": {
+     "NAME": "Annam",
+     "SUBJECTO": "Annam",
+     "PARTOF": "Annam"
+    },
+    "motivo": "Gia Long unifica Vietnam en 1802 (dinastía Nguyễn), como en world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Gia_Long"
+   },
+   {
+    "op": "quitar",
+    "de": "Bengal",
+    "a": "British East India Company",
+    "motivo": "Bengala, de la Compañía de las Indias Orientales desde 1757-1765",
+    "fuente": "https://en.wikipedia.org/wiki/Bengal_Presidency"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "British East India Company",
+     "mapa": "world_1815.geojson"
+    },
+    "libre": true,
+    "desde": [
+     "Circars",
+     "Ambur",
+     "Kanara",
+     "Carnatic",
+     "Madras",
+     "Gooty",
+     "Mysore",
+     "Maratha Confederacy",
+     "Bundelkhand",
+     "Nizam's Dominions",
+     "Oudh",
+     "Malabar",
+     "Cochin",
+     "Rajputs"
+    ],
+    "props": {
+     "NAME": "British East India Company"
+    },
+    "motivo": "dominios de la Compañía tras la caída de Tipu (1799), los distritos cedidos por el nizam (1800), el Carnático y la mitad de Oudh (1801) y la segunda guerra anglo-maratha (1803-1805); geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Second_Anglo-Maratha_War"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Mysore (Indian princely state)",
+     "mapa": "world_1815.geojson"
+    },
+    "desde": [
+     "Mysore",
+     "British East India Company"
+    ],
+    "props": {
+     "NAME": "Mysore (Indian princely state)",
+     "SUBJECTO": "Mysore (Indian princely state)",
+     "PARTOF": "Mysore (Indian princely state)",
+     "BORDERPRECISION": 2
+    },
+    "motivo": "reino de Mysore restaurado a los Wodeyar bajo protección británica tras la muerte de Tipu (1799); geometría de world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Mysore"
+   },
+   {
+    "op": "quitar",
+    "de": "Mysore",
+    "a": "British East India Company",
+    "motivo": "el resto del Mysore de Tipu (Malabar, Coimbatore, Kanara) pasa a la Compañía en 1799",
+    "fuente": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+   },
+   {
+    "op": "quitar",
+    "de": "Circars",
+    "a": "British East India Company",
+    "motivo": "Circares del Norte (Compañía desde 1766) y el interior de Orissa, tributario británico tras 1803",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Circars"
+   },
+   {
+    "op": "quitar",
+    "de": "Ambur",
+    "a": "British East India Company",
+    "motivo": "Baramahal y Salem, cedidos por Tipu a la Compañía en 1792 (Seringapatam)",
+    "fuente": "https://en.wikipedia.org/wiki/Treaty_of_Seringapatam"
+   },
+   {
+    "op": "quitar",
+    "de": "Carnatic",
+    "a": "British East India Company",
+    "motivo": "el nawabato del Carnático, anexionado por la Compañía en 1801",
+    "fuente": "https://en.wikipedia.org/wiki/Carnatic_Sultanate"
+   },
+   {
+    "op": "quitar",
+    "de": "Kanara",
+    "a": "British East India Company",
+    "motivo": "Kanara, de la Compañía desde 1799",
+    "fuente": "https://en.wikipedia.org/wiki/Fourth_Anglo-Mysore_War"
+   },
+   {
+    "op": "quitar",
+    "de": "Malabar",
+    "a": "British East India Company",
+    "motivo": "Malabar, de la Compañía desde 1792 (Seringapatam); el Malabar neerlandés, tomado por los británicos en 1795",
+    "fuente": "https://en.wikipedia.org/wiki/Malabar_District"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Cochin"
+    },
+    "poner": {
+     "SUBJECTO": "Cochin"
+    },
+    "motivo": "reino de Cochín, protegido británico (tratado de 1809); los neerlandeses perdieron Cochín en 1795",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Cochin"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Travancore"
+    },
+    "poner": {
+     "SUBJECTO": "Travancore"
+    },
+    "motivo": "reino de Travancore, protegido británico (tratados de 1795 y 1805), como en world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Travancore"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sikhs"
+    },
+    "poner": {
+     "NAME": "Sikh Empire",
+     "SUBJECTO": "Sikh Empire",
+     "PARTOF": "Sikh Empire"
+    },
+    "motivo": "Ranjit Singh toma Lahore (1799) y se proclama maharajá del Punyab (1801), como en world_1815",
+    "fuente": "https://en.wikipedia.org/wiki/Sikh_Empire"
+   },
+   {
+    "op": "sustituir",
+    "modo": "añadir",
+    "geometria": "api/geo/correcciones/moderna-tasmania.geojson",
+    "nombres": [
+     "Tasmania (UK)"
+    ],
+    "motivo": "c07 · Tasmania (Tierra de Van Diemen), colonia británica desde 1803; pieza del cartógrafo B (carto-B-contemporanea-1815), BORDERPRECISION 1",
+    "fuente": "https://en.wikipedia.org/wiki/Van_Diemen%27s_Land"
+   }
+  ]
+ }
+}
