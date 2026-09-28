@@ -3,7 +3,8 @@
 	"nombre": "Francia",
 	"nombres": [
 		"France",
-		"Kingdom of France"
+		"Kingdom of France",
+		"West Francia"
 	],
 	"nombres_periodo": [
 		{
@@ -24,8 +25,13 @@
 		{
 			"nombre": "Reino de Francia (Restauración)",
 			"desde": 1815,
-			"hasta": 1847,
+			"hasta": 1829,
 			"wiki": "Restauración borbónica en Francia"
+		},
+		{
+			"nombre": "Monarquía de Julio",
+			"desde": 1830,
+			"hasta": 1847
 		},
 		{
 			"nombre": "Segunda República Francesa",
@@ -109,16 +115,64 @@
 			"hasta": 1461
 		},
 		{
+			"nombre": "Luis XI",
+			"titulo": "Rey de Francia",
+			"desde": 1461,
+			"hasta": 1483
+		},
+		{
+			"nombre": "Carlos VIII",
+			"titulo": "Rey de Francia",
+			"desde": 1483,
+			"hasta": 1498
+		},
+		{
+			"nombre": "Luis XII",
+			"titulo": "Rey de Francia",
+			"desde": 1498,
+			"hasta": 1515
+		},
+		{
 			"nombre": "Francisco I",
 			"titulo": "Rey de Francia",
 			"desde": 1515,
 			"hasta": 1547
 		},
 		{
+			"nombre": "Enrique II",
+			"titulo": "Rey de Francia",
+			"desde": 1547,
+			"hasta": 1559
+		},
+		{
+			"nombre": "Francisco II",
+			"titulo": "Rey de Francia",
+			"desde": 1559,
+			"hasta": 1560
+		},
+		{
+			"nombre": "Carlos IX",
+			"titulo": "Rey de Francia (Noche de San Bartolomé)",
+			"desde": 1560,
+			"hasta": 1574
+		},
+		{
+			"nombre": "Enrique III",
+			"titulo": "Rey de Francia",
+			"desde": 1574,
+			"hasta": 1589
+		},
+		{
 			"nombre": "Enrique IV",
 			"titulo": "Rey de Francia",
 			"desde": 1589,
 			"hasta": 1610
+		},
+		{
+			"nombre": "Luis XIII",
+			"titulo": "Rey de Francia (con Richelieu)",
+			"desde": 1610,
+			"hasta": 1643
 		},
 		{
 			"nombre": "Luis XIV el Rey Sol",
@@ -139,16 +193,82 @@
 			"hasta": 1792
 		},
 		{
+			"nombre": "Napoleón Bonaparte",
+			"titulo": "Primer cónsul de la República Francesa",
+			"desde": 1799,
+			"hasta": 1804
+		},
+		{
 			"nombre": "Napoleón I Bonaparte",
 			"titulo": "Emperador de los franceses",
 			"desde": 1804,
+			"hasta": 1814
+		},
+		{
+			"nombre": "Luis XVIII",
+			"titulo": "Rey de Francia (Restauración)",
+			"desde": 1814,
+			"hasta": 1824
+		},
+		{
+			"nombre": "Napoleón I (Cien Días)",
+			"titulo": "Emperador de los franceses",
+			"desde": 1815,
 			"hasta": 1815
+		},
+		{
+			"nombre": "Carlos X",
+			"titulo": "Rey de Francia",
+			"desde": 1824,
+			"hasta": 1830
+		},
+		{
+			"nombre": "Luis Felipe I",
+			"titulo": "Rey de los franceses",
+			"desde": 1830,
+			"hasta": 1848
+		},
+		{
+			"nombre": "Luis Napoleón Bonaparte",
+			"titulo": "Presidente de la República",
+			"desde": 1848,
+			"hasta": 1852
 		},
 		{
 			"nombre": "Napoleón III",
 			"titulo": "Emperador de los franceses",
 			"desde": 1852,
 			"hasta": 1870
+		},
+		{
+			"nombre": "Adolphe Thiers",
+			"titulo": "Presidente de la República",
+			"desde": 1871,
+			"hasta": 1873
+		},
+		{
+			"nombre": "Patrice de Mac-Mahon",
+			"titulo": "Presidente de la República",
+			"desde": 1873,
+			"hasta": 1879
+		},
+		{
+			"nombre": "Raymond Poincaré",
+			"titulo": "Presidente de la República",
+			"desde": 1913,
+			"hasta": 1920
+		},
+		{
+			"nombre": "Philippe Pétain",
+			"titulo": "Jefe del Estado francés (Vichy)",
+			"desde": 1940,
+			"hasta": 1944
+		},
+		{
+			"nombre": "Charles de Gaulle",
+			"titulo": "Presidente del Gobierno provisional",
+			"desde": 1944,
+			"hasta": 1946
 		},
 		{
 			"nombre": "Vincent Auriol",
@@ -199,7 +319,7 @@
 			"hasta": 1995
 		},
 		{
-			"nombre": "Q2105",
+			"nombre": "Jacques Chirac",
 			"cargo": "jefe de Estado",
 			"desde": 1995,
 			"hasta": 2007
@@ -241,16 +361,15 @@
 			"hasta": 2017
 		},
 		{
-			"nombre": "Q3052772",
-			"cargo": "jefe de Estado",
-			"desde": 2017,
-			"hasta": 2017
-		},
-		{
 			"nombre": "Édouard Philippe",
 			"cargo": "jefe de gobierno",
 			"desde": 2017,
 			"hasta": 2020
+		},
+		{
+			"nombre": "Emmanuel Macron",
+			"cargo": "jefe de Estado",
+			"desde": 2017
 		},
 		{
 			"nombre": "Jean Castex",
@@ -285,8 +404,7 @@
 		{
 			"nombre": "Sébastien Lecornu",
 			"cargo": "jefe de gobierno",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -688,6 +806,36 @@
 			"url": "https://www.wikidata.org/wiki/Q142",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Monarquía de Julio",
+			"url": "https://es.wikipedia.org/wiki/Monarqu%C3%ADa_de_Julio",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Presidente de la República Francesa",
+			"url": "https://es.wikipedia.org/wiki/Presidente_de_la_Rep%C3%BAblica_Francesa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of French monarchs",
+			"url": "https://en.wikipedia.org/wiki/List_of_French_monarchs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Jefes de Estado de Francia",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Jefes_de_Estado_de_Francia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {

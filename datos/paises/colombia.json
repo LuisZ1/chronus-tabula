@@ -2,7 +2,15 @@
 	"id": "colombia",
 	"nombre": "Colombia",
 	"nombres": [
-		"Colombia"
+		"Colombia",
+		"Republic of New Granada"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "República de la Nueva Granada",
+			"desde": 1831,
+			"hasta": 1857
+		}
 	],
 	"wiki": "es:Colombia",
 	"wikidata": "Q739",
@@ -42,8 +50,7 @@
 		{
 			"nombre": "Abelardo de la Espriella",
 			"cargo": "jefe de gobierno",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -303,10 +310,22 @@
 			"url": "https://www.wikidata.org/wiki/Q739",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Republic of New Granada",
+			"url": "https://en.wikipedia.org/wiki/Republic_of_New_Granada",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "fc7ddeac975a",

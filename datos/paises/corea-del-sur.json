@@ -10,6 +10,18 @@
 	"relacionados": [
 		"Republica de Corea"
 	],
+	"vinculos": [
+		{
+			"id": "japon",
+			"tipo": "parte_de",
+			"desde": 1910,
+			"hasta": 1945
+		},
+		{
+			"id": "joseon",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "La República de Corea, comúnmente Corea del Sur, es un país soberano de Asia Oriental, ubicado en la parte sur de la península de Corea. Limita al norte con Corea del Norte, con la cual integró un solo país hasta 1945.",
 	"gobernantes": [
 		{

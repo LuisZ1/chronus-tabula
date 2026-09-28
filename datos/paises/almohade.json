@@ -6,7 +6,15 @@
 	],
 	"vinculos": [
 		{
+			"id": "almoravide",
+			"tipo": "antecesor_territorial"
+		},
+		{
 			"id": "espana",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "hafsi",
 			"tipo": "sucesor_territorial"
 		}
 	],

@@ -1,0 +1,55 @@
+{
+	"id": "moscu",
+	"nombre": "Gran Principado de Moscú",
+	"nombres": [
+		"Grand Duchy of Moscow"
+	],
+	"wiki": "Gran Principado de Moscú",
+	"vinculos": [
+		{
+			"id": "rusia",
+			"tipo": "sucesor"
+		}
+	],
+	"resena": "Principado ruso surgido hacia 1263 con Daniel, hijo de Alejandro Nevski. Tributario de la Horda de Oro, fue ganando territorio hasta unir el noreste ruso. Iván III anexionó Nóvgorod en 1478 y dejó de pagar tributo tras la «parada del Ugrá» (1480).",
+	"gobernantes": [
+		{
+			"nombre": "Daniel de Moscú",
+			"titulo": "Príncipe de Moscú",
+			"desde": 1263,
+			"hasta": 1303
+		},
+		{
+			"nombre": "Dmitri Donskói",
+			"titulo": "Gran príncipe de Moscú y Vladímir",
+			"desde": 1359,
+			"hasta": 1389
+		},
+		{
+			"nombre": "Vasili I",
+			"titulo": "Gran príncipe de Moscú",
+			"desde": 1389,
+			"hasta": 1425
+		},
+		{
+			"nombre": "Iván III el Grande",
+			"titulo": "Gran príncipe de Moscú",
+			"desde": 1462,
+			"hasta": 1505
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Grand Duchy of Moscow",
+			"url": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Gran Principado de Moscú",
+			"url": "https://es.wikipedia.org/wiki/Gran_Principado_de_Moscú",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

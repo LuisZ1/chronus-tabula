@@ -1,0 +1,21 @@
+{
+	"id": "reino-jerusalen",
+	"nombre": "Reino de Jerusalén",
+	"nombres": [
+		"Kingdom of Jerusalem"
+	],
+	"wiki": "Reino de Jerusalén",
+	"relacionados": [
+		"Estados cruzados",
+		"Reino latino de Jerusalén"
+	],
+	"resena": "Principal Estado cruzado, fundado tras la toma de Jerusalén en 1099. Perdió la ciudad tras Hattin (1187), se reconstituyó en la costa con capital en Acre (1191) y desapareció con la caída de Acre en 1291.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kingdom of Jerusalem",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

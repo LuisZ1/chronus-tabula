@@ -8,7 +8,13 @@
 	"vinculos": [
 		{
 			"id": "rusia",
-			"tipo": "sucesor"
+			"tipo": "predecesor",
+			"hasta": 1922
+		},
+		{
+			"id": "rusia",
+			"tipo": "sucesor",
+			"desde": 1991
 		}
 	],
 	"gobernantes": [
@@ -25,22 +31,16 @@
 			"hasta": 1946
 		},
 		{
-			"nombre": "Lenin",
-			"cargo": "jefe de gobierno",
-			"desde": 1923,
-			"hasta": 1924
+			"nombre": "Iósif Stalin",
+			"titulo": "Secretario general del Partido Comunista",
+			"desde": 1922,
+			"hasta": 1953
 		},
 		{
 			"nombre": "Alekséi Rýkov",
 			"cargo": "jefe de gobierno",
 			"desde": 1924,
 			"hasta": 1930
-		},
-		{
-			"nombre": "Iósif Stalin",
-			"titulo": "Secretario general del PCUS",
-			"desde": 1924,
-			"hasta": 1953
 		},
 		{
 			"nombre": "Viacheslav Mólotov",
@@ -85,7 +85,7 @@
 			"hasta": 1958
 		},
 		{
-			"nombre": "Nikita Jrushchov",
+			"nombre": "Nikita Jruschov",
 			"cargo": "jefe de gobierno",
 			"desde": 1958,
 			"hasta": 1964
@@ -200,6 +200,21 @@
 		}
 	],
 	"poblacion": [
+		{
+			"anio": 1926,
+			"valor": 147027915,
+			"fuente": "Censo soviético de 1926 (Wikipedia (en): Demographics of the Soviet Union)"
+		},
+		{
+			"anio": 1939,
+			"valor": 170557093,
+			"fuente": "Censo soviético de 1939 (Wikipedia (en): Demographics of the Soviet Union)"
+		},
+		{
+			"anio": 1959,
+			"valor": 208826650,
+			"fuente": "Censo soviético de 1959 (Wikipedia (en): Demographics of the Soviet Union)"
+		},
 		{
 			"anio": 1989,
 			"valor": 293047571,
@@ -426,10 +441,22 @@
 			"url": "https://www.wikidata.org/wiki/Q15180",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Iósif Stalin",
+			"url": "https://es.wikipedia.org/wiki/I%C3%B3sif_Stalin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Demographics of the Soviet Union",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Soviet_Union",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "38a9adc98289",

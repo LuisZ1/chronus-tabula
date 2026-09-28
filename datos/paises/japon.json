@@ -7,7 +7,12 @@
 		"Empire of Japan",
 		"Imperial Japan (Fujiwara)",
 		"Shogun Japan (Kamakura)",
-		"Japan (Warring States)"
+		"Japan (Muromachi)",
+		"Japan (Warring States)",
+		"Japan (Toyotomi)",
+		"Yamato",
+		"Tokugawa Shogunate",
+		"Tokugawa shogunate"
 	],
 	"wikidata": "Q17",
 	"owid": "Japan",
@@ -18,6 +23,20 @@
 		"Clan Toyotomi",
 		"Clan Tokugawa",
 		"Daimios rivales"
+	],
+	"vinculos": [
+		{
+			"id": "corea-del-norte",
+			"tipo": "incluye",
+			"desde": 1910,
+			"hasta": 1945
+		},
+		{
+			"id": "corea-del-sur",
+			"tipo": "incluye",
+			"desde": 1910,
+			"hasta": 1945
+		}
 	],
 	"resena": "Japón es un país insular en Asia Oriental ubicado en el noroeste del océano Pacífico. Limita con el mar del Japón al oeste y se extiende desde el mar de Ojotsk en el norte hasta el mar de la China Oriental y Taiwán en el sur.",
 	"gobernantes": [
@@ -94,10 +113,34 @@
 			"hasta": 1616
 		},
 		{
+			"nombre": "Kōkaku",
+			"titulo": "Emperador",
+			"desde": 1780,
+			"hasta": 1817
+		},
+		{
+			"nombre": "Ninkō",
+			"titulo": "Emperador",
+			"desde": 1817,
+			"hasta": 1846
+		},
+		{
+			"nombre": "Kōmei",
+			"titulo": "Emperador",
+			"desde": 1846,
+			"hasta": 1867
+		},
+		{
 			"nombre": "Emperador Meiji (Restauración Meiji)",
 			"titulo": "Emperador",
 			"desde": 1867,
 			"hasta": 1912
+		},
+		{
+			"nombre": "Taishō",
+			"titulo": "Emperador",
+			"desde": 1912,
+			"hasta": 1926
 		},
 		{
 			"nombre": "Hirohito (Showa)",
@@ -120,8 +163,7 @@
 		{
 			"nombre": "Naruhito",
 			"cargo": "jefe de Estado",
-			"desde": 2019,
-			"hasta": 2019
+			"desde": 2019
 		},
 		{
 			"nombre": "Yoshihide Suga",
@@ -144,8 +186,7 @@
 		{
 			"nombre": "Sanae Takaichi",
 			"cargo": "jefe de gobierno",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -423,10 +464,22 @@
 			"url": "https://www.wikidata.org/wiki/Q17",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Emperadores de Japón",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Emperadores_de_Japón",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "19334995bce7",

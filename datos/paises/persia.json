@@ -2,13 +2,7 @@
 	"id": "persia",
 	"nombre": "Persia",
 	"nombres": [
-		"Persia",
-		"Achaemenid Empire"
-	],
-	"relacionados": [
-		"Persia aqueménida",
-		"Imperio aqueménida",
-		"Media"
+		"Persia"
 	],
 	"vinculos": [
 		{
@@ -20,6 +14,10 @@
 			"tipo": "sucesor"
 		},
 		{
+			"id": "aquemenida",
+			"tipo": "antecesor_territorial"
+		},
+		{
 			"id": "sasanida",
 			"tipo": "antecesor_territorial"
 		}
@@ -27,22 +25,22 @@
 	"resena": "Irán, oficialmente la República Islámica de Irán ; también conocida históricamente en Occidente como Persia, es un país soberano de Oriente Próximo y Asia Occidental. Es una república islámica teocrática basada en los principios religiosos del islam chií.",
 	"gobernantes": [
 		{
-			"nombre": "Ciro II el Grande",
-			"titulo": "Rey de reyes aqueménida",
-			"desde": -559,
-			"hasta": -530
+			"nombre": "Nader Sah",
+			"titulo": "Sah (dinastía afsárida)",
+			"desde": 1736,
+			"hasta": 1747
 		},
 		{
-			"nombre": "Darío I",
-			"titulo": "Rey de reyes aqueménida",
-			"desde": -522,
-			"hasta": -486
+			"nombre": "Karim Kan Zand",
+			"titulo": "Regente (vakil) de Persia; no adoptó el título de sah",
+			"desde": 1751,
+			"hasta": 1779
 		},
 		{
-			"nombre": "Jerjes I",
-			"titulo": "Rey de reyes aqueménida",
-			"desde": -486,
-			"hasta": -465
+			"nombre": "Agha Mohammad Kan",
+			"titulo": "Sah, fundador de la dinastía kayar (coronado en 1796)",
+			"desde": 1789,
+			"hasta": 1797
 		},
 		{
 			"nombre": "Fath-Alí Sah (dinastía Kayar)",
@@ -57,6 +55,12 @@
 			"hasta": 1896
 		},
 		{
+			"nombre": "Reza Shah Pahlaví",
+			"titulo": "Sah de Persia (Irán desde 1935)",
+			"desde": 1925,
+			"hasta": 1941
+		},
+		{
 			"nombre": "Mohammad Reza Pahlaví",
 			"titulo": "Sah de Irán",
 			"desde": 1941,
@@ -64,10 +68,6 @@
 		}
 	],
 	"poblacion": [
-		{
-			"anio": -480,
-			"valor": 25000000
-		},
 		{
 			"anio": 1900,
 			"valor": 10000000
@@ -84,10 +84,34 @@
 			"url": "https://es.wikipedia.org/wiki/Ir%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of monarchs of Persia",
+			"url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Karim Khan Zand",
+			"url": "https://es.wikipedia.org/wiki/Karim_Khan_Zand",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Agha Mohammad Khan Qajar",
+			"url": "https://en.wikipedia.org/wiki/Agha_Mohammad_Khan_Qajar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Reza Shah",
+			"url": "https://es.wikipedia.org/wiki/Reza_Shah",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "35ce70561570",

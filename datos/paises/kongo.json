@@ -1,0 +1,54 @@
+{
+	"id": "kongo",
+	"nombre": "Reino del Kongo",
+	"nombres": [
+		"Kingdom of Kongo"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino del Kongo",
+			"desde": 1390,
+			"hasta": 1914
+		}
+	],
+	"wiki": "Reino del Congo",
+	"relacionados": [
+		"Kongo",
+		"Reino del Congo"
+	],
+	"vinculos": [
+		{
+			"id": "angola",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino bantú de la cuenca baja del río Congo, con capital en Mbanza Kongo (São Salvador, hoy en el norte de Angola). Se formó hacia 1390 y desde finales del siglo XV mantuvo trato con Portugal; sus reyes adoptaron el catolicismo. La derrota de Mbwila (1665) ante los portugueses abrió un largo periodo de guerras internas, y en el siglo XIX el reino acabó como vasallo de Portugal hasta que la monarquía titular se suprimió en 1914. No tiene relación con la actual República del Congo.",
+	"gobernantes": [
+		{
+			"nombre": "Afonso I (Mvemba a Nzinga)",
+			"titulo": "Manikongo, rey del Kongo",
+			"desde": 1509,
+			"hasta": 1543
+		},
+		{
+			"nombre": "García II",
+			"titulo": "Rey del Kongo",
+			"desde": 1641,
+			"hasta": 1661
+		},
+		{
+			"nombre": "António I",
+			"titulo": "Rey del Kongo (muere en Mbwila)",
+			"desde": 1661,
+			"hasta": 1665
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kingdom of Kongo",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

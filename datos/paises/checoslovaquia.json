@@ -1,0 +1,95 @@
+{
+	"id": "checoslovaquia",
+	"nombre": "Checoslovaquia",
+	"nombres": [
+		"Czechoslovakia"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Primera República Checoslovaca",
+			"desde": 1918,
+			"hasta": 1938
+		},
+		{
+			"nombre": "Protectorado de Bohemia y Moravia / República Eslovaca",
+			"desde": 1939,
+			"hasta": 1944
+		},
+		{
+			"nombre": "República Checoslovaca",
+			"desde": 1945,
+			"hasta": 1959
+		},
+		{
+			"nombre": "República Socialista Checoslovaca",
+			"desde": 1960,
+			"hasta": 1989
+		},
+		{
+			"nombre": "República Federal Checa y Eslovaca",
+			"desde": 1990,
+			"hasta": 1992
+		}
+	],
+	"wiki": "Checoslovaquia",
+	"vinculos": [
+		{
+			"id": "austria",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "eslovaquia",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "republica-checa",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Tomáš Masaryk",
+			"titulo": "Presidente",
+			"desde": 1918,
+			"hasta": 1935
+		},
+		{
+			"nombre": "Edvard Beneš",
+			"titulo": "Presidente",
+			"desde": 1935,
+			"hasta": 1948
+		},
+		{
+			"nombre": "Alexander Dubček",
+			"titulo": "Primer secretario del PCCh (Primavera de Praga)",
+			"desde": 1968,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Gustáv Husák",
+			"titulo": "Secretario general / presidente",
+			"desde": 1969,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Václav Havel",
+			"titulo": "Presidente",
+			"desde": 1989,
+			"hasta": 1992
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Checoslovaquia",
+			"url": "https://es.wikipedia.org/wiki/Checoslovaquia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Czechoslovakia",
+			"url": "https://en.wikipedia.org/wiki/Czechoslovakia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "tibet-imperial",
+	"nombre": "Imperio tibetano",
+	"nombres": [
+		"Tibetan Empire",
+		"Tufan Empire"
+	],
+	"wiki": "Imperio tibetano",
+	"relacionados": [
+		"Tufan",
+		"Imperio de Yarlung"
+	],
+	"resena": "Imperio del altiplano tibetano unificado hacia 618 (Songtsen Gampo). Disputó a los Tang la cuenca del Tarim y el Gansu en los siglos VII-IX. Se hundió tras el asesinato de Langdarma en 842 y empezó la llamada Era de la Fragmentación.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Tibetan Empire",
+			"url": "https://en.wikipedia.org/wiki/Tibetan_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio tibetano",
+			"url": "https://es.wikipedia.org/wiki/Imperio_tibetano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -2,7 +2,9 @@
 	"id": "yemen",
 	"nombre": "Yemen",
 	"nombres": [
-		"Yemen"
+		"Yemen",
+		"North Yemen",
+		"Yemen (Zaydi Imamate)"
 	],
 	"wiki": "Yemen",
 	"wikidata": "Q805",
@@ -89,8 +91,7 @@
 		{
 			"nombre": "Rashad al-Alimi",
 			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		},
 		{
 			"nombre": "Ahmad Awad Bin Mubarak",
@@ -248,10 +249,16 @@
 			"url": "https://www.wikidata.org/wiki/Q805",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "5638a9f6a553",

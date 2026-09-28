@@ -1,0 +1,59 @@
+{
+	"id": "jin",
+	"nombre": "Dinastía Jin",
+	"nombres": [
+		"Jin"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Jin Occidental",
+			"desde": 266,
+			"hasta": 316
+		},
+		{
+			"nombre": "Jin Oriental",
+			"desde": 317,
+			"hasta": 420
+		}
+	],
+	"wiki": "Dinastía Jin (266-420)",
+	"vinculos": [
+		{
+			"id": "han",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "sui",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Dinastía fundada por Sima Yan, que en 266 depuso al último emperador de Wei. En 280 conquistó el reino de Wu y reunificó China por primera vez desde la caída de los Han. Las guerras civiles de los Ocho Príncipes y las revueltas de pueblos del norte le hicieron perder Luoyang (311) y Chang'an (316); la corte se refugió en Jiankang (Nankín), donde el Jin Oriental resistió hasta 420 y frenó al Qin Anterior en la batalla del río Fei (383).",
+	"gobernantes": [
+		{
+			"nombre": "Wu de Jin (Sima Yan)",
+			"titulo": "Emperador, fundador",
+			"desde": 266,
+			"hasta": 290
+		},
+		{
+			"nombre": "Yuan de Jin (Sima Rui)",
+			"titulo": "Emperador, fundador del Jin Oriental",
+			"desde": 318,
+			"hasta": 322
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Jin dynasty (266–420)",
+			"url": "https://en.wikipedia.org/wiki/Jin_dynasty_(266%E2%80%93420)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Dinastía Jin (266-420)",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Jin_(266-420)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"id": "noruega",
+	"nombre": "Noruega",
+	"nombres": [
+		"Norway",
+		"Kingdom of Norway"
+	],
+	"wikidata": "Q20",
+	"relacionados": [
+		"Noruega"
+	],
+	"vinculos": [
+		{
+			"id": "vikingos",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "dinamarca",
+			"tipo": "parte_de",
+			"desde": 1537,
+			"hasta": 1814
+		},
+		{
+			"id": "suecia",
+			"tipo": "parte_de",
+			"desde": 1814,
+			"hasta": 1905
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Denmark–Norway",
+			"url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Noruega",
+			"url": "https://es.wikipedia.org/wiki/Noruega",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

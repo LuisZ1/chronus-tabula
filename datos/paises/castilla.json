@@ -49,16 +49,58 @@
 			"hasta": 1284
 		},
 		{
+			"nombre": "Sancho IV",
+			"titulo": "Rey de Castilla",
+			"desde": 1284,
+			"hasta": 1295
+		},
+		{
+			"nombre": "Fernando IV",
+			"titulo": "Rey de Castilla",
+			"desde": 1295,
+			"hasta": 1312
+		},
+		{
+			"nombre": "Alfonso XI",
+			"titulo": "Rey de Castilla",
+			"desde": 1312,
+			"hasta": 1350
+		},
+		{
+			"nombre": "Pedro I",
+			"titulo": "Rey de Castilla",
+			"desde": 1350,
+			"hasta": 1369
+		},
+		{
 			"nombre": "Enrique II",
 			"titulo": "Rey de Castilla",
 			"desde": 1369,
 			"hasta": 1379
 		},
 		{
+			"nombre": "Juan I",
+			"titulo": "Rey de Castilla",
+			"desde": 1379,
+			"hasta": 1390
+		},
+		{
+			"nombre": "Enrique III",
+			"titulo": "Rey de Castilla",
+			"desde": 1390,
+			"hasta": 1406
+		},
+		{
 			"nombre": "Juan II",
 			"titulo": "Rey de Castilla",
 			"desde": 1406,
 			"hasta": 1454
+		},
+		{
+			"nombre": "Enrique IV",
+			"titulo": "Rey de Castilla",
+			"desde": 1454,
+			"hasta": 1474
 		},
 		{
 			"nombre": "Isabel I la Católica",
@@ -98,10 +140,16 @@
 			"url": "https://es.wikipedia.org/wiki/Corona_de_Castilla",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of Castilian monarchs",
+			"url": "https://en.wikipedia.org/wiki/List_of_Castilian_monarchs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "2d287f3ab648",

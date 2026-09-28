@@ -2,11 +2,30 @@
 	"id": "bulgaria-primer",
 	"nombre": "Primer Imperio búlgaro",
 	"nombres": [
-		"Bulgaria"
+		"Danube Bulgars",
+		"Bulgars"
 	],
 	"wiki": "Primer Imperio búlgaro",
-	"resena": "El Primer Imperio búlgaro fue un Estado de Europa Oriental existente entre 681 d. C.",
+	"vinculos": [
+		{
+			"id": "segundo-bulgaro",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Estado fundado en 681 por el kan Asparuh al sur del Danubio, tras vencer a Bizancio. Con Krum y Simeón I (893-927) fue una gran potencia balcánica; Boris I lo cristianizó en 864. Basilio II lo anexionó a Bizancio en 1018.",
 	"gobernantes": [
+		{
+			"nombre": "Asparuh (fundador)",
+			"titulo": "Kan de los búlgaros",
+			"desde": 681,
+			"hasta": 700
+		},
+		{
+			"nombre": "Krum",
+			"titulo": "Kan de los búlgaros",
+			"desde": 803,
+			"hasta": 814
+		},
 		{
 			"nombre": "Boris I",
 			"titulo": "Kan y luego zar, cristianiza a los búlgaros",
@@ -38,10 +57,16 @@
 			"url": "https://es.wikipedia.org/wiki/Primer_Imperio_b%C3%BAlgaro",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:First Bulgarian Empire",
+			"url": "https://en.wikipedia.org/wiki/First_Bulgarian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "fbae2dc74239",

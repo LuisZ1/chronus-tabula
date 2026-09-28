@@ -7,12 +7,16 @@
 	"wiki": "Dinastía Sui",
 	"vinculos": [
 		{
-			"id": "han",
-			"tipo": "predecesor"
-		},
-		{
 			"id": "tang",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "han",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "jin",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "La dinastía Sui siguió a las Dinastías Meridionales y Septentrionales y precedió a la dinastía Tang en China. Duró 37 años y acabó con alrededor de cuatro siglos de gobierno compartido entre dinastías autoproclamadas tanto en el norte, como en el sur.",

@@ -101,12 +101,6 @@
 			"hasta": 2021
 		},
 		{
-			"nombre": "Abdul Hamid Dabaiba",
-			"cargo": "jefe de gobierno",
-			"desde": 2021,
-			"hasta": 2021
-		},
-		{
 			"nombre": "Mohamed Menfi",
 			"cargo": "jefe de Estado",
 			"desde": 2021,
@@ -117,6 +111,11 @@
 			"cargo": "Presidente del Consejo Presidencial",
 			"desde": 2021,
 			"hasta": 2026
+		},
+		{
+			"nombre": "Abdul Hamid Dabaiba",
+			"cargo": "jefe de gobierno",
+			"desde": 2021
 		}
 	],
 	"poblacion": [
@@ -265,10 +264,16 @@
 			"url": "https://www.wikidata.org/wiki/Q1016",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "296a39eed6e0",

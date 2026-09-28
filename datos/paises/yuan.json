@@ -1,0 +1,61 @@
+{
+	"id": "yuan",
+	"nombre": "Dinastía Yuan (Gran Kanato mongol)",
+	"nombres": [
+		"Great Khanate"
+	],
+	"wiki": "Dinastía Yuan",
+	"relacionados": [
+		"Imperio Yuan",
+		"Imperio mongol (Yuan)"
+	],
+	"vinculos": [
+		{
+			"id": "mongol",
+			"tipo": "parte_de"
+		},
+		{
+			"id": "song",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "ming",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Dinastía mongola proclamada por Kublai Kan en 1271, con capital en Janbalic (Pekín). Tras vencer a los Song del Sur en Yamen (1279) gobernó toda China, Mongolia y Corea como vasalla. La rebelión de los Turbantes Rojos acabó con ella en 1368.",
+	"gobernantes": [
+		{
+			"nombre": "Kublai Kan",
+			"titulo": "Gran kan y emperador de China",
+			"desde": 1271,
+			"hasta": 1294
+		},
+		{
+			"nombre": "Toghon Temür (último emperador en China)",
+			"titulo": "Emperador de China",
+			"desde": 1333,
+			"hasta": 1368
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1351,
+			"valor": 87600000
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Yuan dynasty",
+			"url": "https://en.wikipedia.org/wiki/Yuan_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Dinastía Yuan",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Yuan",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,108 @@
+{
+	"id": "yugoslavia",
+	"nombre": "Yugoslavia",
+	"nombres": [
+		"Yugoslavia",
+		"Federal Republic of Yugoslavia"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de los Serbios, Croatas y Eslovenos",
+			"desde": 1918,
+			"hasta": 1928
+		},
+		{
+			"nombre": "Reino de Yugoslavia",
+			"desde": 1929,
+			"hasta": 1944
+		},
+		{
+			"nombre": "República Federativa Socialista de Yugoslavia",
+			"desde": 1945,
+			"hasta": 1991
+		},
+		{
+			"nombre": "República Federal de Yugoslavia",
+			"desde": 1992,
+			"hasta": 2002
+		},
+		{
+			"nombre": "Serbia y Montenegro",
+			"desde": 2003,
+			"hasta": 2006
+		}
+	],
+	"wiki": "Yugoslavia",
+	"vinculos": [
+		{
+			"id": "bosnia-y-herzegovina",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "croacia",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "eslovenia",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "macedonia-del-norte",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "montenegro",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "serbia",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Pedro I",
+			"titulo": "Rey",
+			"desde": 1918,
+			"hasta": 1921
+		},
+		{
+			"nombre": "Alejandro I",
+			"titulo": "Rey",
+			"desde": 1921,
+			"hasta": 1934
+		},
+		{
+			"nombre": "Pedro II (regencia del príncipe Pablo hasta 1941)",
+			"titulo": "Rey",
+			"desde": 1934,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Josip Broz Tito",
+			"titulo": "Presidente",
+			"desde": 1945,
+			"hasta": 1980
+		},
+		{
+			"nombre": "Slobodan Milošević",
+			"titulo": "Presidente de la RF de Yugoslavia",
+			"desde": 1997,
+			"hasta": 2000
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Yugoslavia",
+			"url": "https://es.wikipedia.org/wiki/Yugoslavia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Yugoslavia",
+			"url": "https://en.wikipedia.org/wiki/Yugoslavia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

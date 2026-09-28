@@ -1,0 +1,43 @@
+{
+	"id": "sokoto",
+	"nombre": "Califato de Sokoto",
+	"nombres": [
+		"Sokoto Caliphate",
+		"Fulani Empire"
+	],
+	"wiki": "Califato de Sokoto",
+	"vinculos": [
+		{
+			"id": "nigeria",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Usman dan Fodio",
+			"titulo": "Comendador de los creyentes",
+			"desde": 1804,
+			"hasta": 1815
+		},
+		{
+			"nombre": "Muhammed Bello",
+			"titulo": "Sultán de Sokoto",
+			"desde": 1817,
+			"hasta": 1837
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Califato de Sokoto",
+			"url": "https://es.wikipedia.org/wiki/Califato_de_Sokoto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Sokoto Caliphate",
+			"url": "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

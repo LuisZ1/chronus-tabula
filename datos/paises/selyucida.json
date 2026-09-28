@@ -1,0 +1,47 @@
+{
+	"id": "selyucida",
+	"nombre": "Imperio selyúcida",
+	"nombres": [
+		"Seljuk Empire"
+	],
+	"wiki": "Imperio selyúcida",
+	"relacionados": [
+		"Selyúcidas",
+		"Gran Selyúcida"
+	],
+	"resena": "Imperio turco suní fundado por Tughril Beg en 1037. Tomó Bagdad en 1055, derrotó a Bizancio en Manzikert (1071) y hacia 1080 dominaba de Anatolia al Hindu Kush. Se fragmentó en el s. XII y su último sultán cayó ante Corasmia en 1194.",
+	"gobernantes": [
+		{
+			"nombre": "Tughril Beg",
+			"titulo": "Sultán selyúcida",
+			"desde": 1037,
+			"hasta": 1063
+		},
+		{
+			"nombre": "Alp Arslan (vencedor en Manzikert)",
+			"titulo": "Sultán selyúcida",
+			"desde": 1063,
+			"hasta": 1072
+		},
+		{
+			"nombre": "Malik Shah I",
+			"titulo": "Sultán selyúcida",
+			"desde": 1072,
+			"hasta": 1092
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Seljuk Empire",
+			"url": "https://en.wikipedia.org/wiki/Seljuk_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio selyúcida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_selyúcida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

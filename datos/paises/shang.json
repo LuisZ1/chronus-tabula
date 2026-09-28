@@ -1,0 +1,46 @@
+{
+	"id": "shang",
+	"nombre": "Dinastía Shang",
+	"nombres": [
+		"Shang"
+	],
+	"wiki": "Dinastía Shang",
+	"relacionados": [
+		"Yin"
+	],
+	"vinculos": [
+		{
+			"id": "zhou",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Dinastía que gobernó la llanura central del río Amarillo entre c. 1600 y 1046 a. C. Es la primera de la tradición china confirmada por la arqueología: de su última capital, Yinxu (Anyang), proceden los huesos oraculares, la escritura china más antigua conocida, y grandes bronces rituales. Cayó ante los Zhou en la batalla de Muye.",
+	"gobernantes": [
+		{
+			"nombre": "Wu Ding",
+			"titulo": "Rey Shang",
+			"desde": -1250,
+			"hasta": -1191
+		},
+		{
+			"nombre": "Di Xin",
+			"titulo": "Último rey Shang",
+			"desde": -1075,
+			"hasta": -1046
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Shang dynasty",
+			"url": "https://en.wikipedia.org/wiki/Shang_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Muye",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Muye",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

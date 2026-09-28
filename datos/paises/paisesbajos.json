@@ -3,9 +3,18 @@
 	"nombre": "Países Bajos",
 	"nombres": [
 		"Dutch Republic",
-		"Netherlands"
+		"Netherlands",
+		"United Kingdom of the Netherlands"
 	],
 	"owid": "Netherlands",
+	"vinculos": [
+		{
+			"id": "indonesia",
+			"tipo": "incluye",
+			"desde": 1800,
+			"hasta": 1949
+		}
+	],
 	"resena": "Países Bajos es una de las cuatro naciones constituyentes del Reino de los Países Bajos y un Estado miembro de la Unión Europea. Su capital y ciudad más poblada oficial es Ámsterdam,no obstante, la sede del gobierno, del parlamento, de la monarquía y de los órganos judiciales se encuentra en La Haya.",
 	"gobernantes": [
 		{

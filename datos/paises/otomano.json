@@ -2,11 +2,40 @@
 	"id": "otomano",
 	"nombre": "Imperio otomano",
 	"nombres": [
-		"Ottoman Empire"
+		"Ottoman Empire",
+		"Ottoman Sultanate"
 	],
 	"wikidata": "Q12560",
 	"relacionados": [
 		"Imperio bizantino"
+	],
+	"vinculos": [
+		{
+			"id": "turquia",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "egipto",
+			"tipo": "incluye",
+			"desde": 1517,
+			"hasta": 1867
+		},
+		{
+			"id": "bizancio",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "mamelucos",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "rum",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "segundo-bulgaro",
+			"tipo": "antecesor_territorial"
+		}
 	],
 	"resena": "El Imperio otomano, oficialmente el Sublime Estado Otomano, fue un Estado multiétnico gobernado por la dinastía osmanlí. Era conocido como el Imperio turco por sus contemporáneos, aunque los gobernantes osmanlíes jamás utilizaron ese nombre para referirse a su Estado.",
 	"gobernantes": [
@@ -53,10 +82,16 @@
 			"hasta": 1444
 		},
 		{
-			"nombre": "Mehmed II",
+			"nombre": "Mehmed II (primer reinado)",
 			"titulo": "Sultán (primer reinado)",
 			"desde": 1444,
 			"hasta": 1446
+		},
+		{
+			"nombre": "Murad II (segundo reinado)",
+			"titulo": "Sultán otomano",
+			"desde": 1446,
+			"hasta": 1451
 		},
 		{
 			"nombre": "Mehmed II el Conquistador",
@@ -247,6 +282,11 @@
 	],
 	"poblacion": [
 		{
+			"anio": 1906,
+			"valor": 20884000,
+			"fuente": "Censo otomano de 1906-1907 (Wikipedia (en): Demographics of the Ottoman Empire; la fuente da 20,4-20,9 millones)"
+		},
+		{
 			"anio": 1912,
 			"valor": 24000000,
 			"fuente": "Wikidata (P1082)"
@@ -295,10 +335,22 @@
 			"url": "https://www.wikidata.org/wiki/Q12560",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Murad II",
+			"url": "https://en.wikipedia.org/wiki/Murad_II",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Demographics of the Ottoman Empire",
+			"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Ottoman_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "e8917c6281bf",

@@ -9,6 +9,14 @@
 		{
 			"id": "qing",
 			"tipo": "predecesor"
+		},
+		{
+			"id": "taiwan",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "tibet",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "La República Popular China, mayormente conocida como China, es un país soberano de Asia Oriental con capital en Pekín. Es el segundo país más poblado del mundo.",
@@ -32,6 +40,53 @@
 			"hasta": 2026
 		}
 	],
+	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 544044355,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 1960,
+			"valor": 654802068,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 1970,
+			"valor": 823308964,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 1980,
+			"valor": 983163540,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 1990,
+			"valor": 1153582725,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 2000,
+			"valor": 1269581174,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 2010,
+			"valor": 1351561505,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 2020,
+			"valor": 1426106093,
+			"fuente": "Our World in Data (China)"
+		},
+		{
+			"anio": 2023,
+			"valor": 1422584930,
+			"fuente": "Our World in Data (China)"
+		}
+	],
 	"fuentes": [
 		{
 			"id": "wikipedia-es:República Popular China",
@@ -44,10 +99,16 @@
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Popular_China",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "be490ebbbdbb",

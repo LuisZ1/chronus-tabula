@@ -1,0 +1,46 @@
+{
+	"id": "iljanato",
+	"nombre": "Iljanato",
+	"nombres": [
+		"Ilkhanate"
+	],
+	"wiki": "Iljanato",
+	"relacionados": [
+		"Iljanes"
+	],
+	"vinculos": [
+		{
+			"id": "mongol",
+			"tipo": "parte_de"
+		}
+	],
+	"resena": "Kanato mongol de Persia fundado por Hulagu tras la toma de Bagdad (1258). Abarcó Irán, Irak, el Cáucaso y buena parte de Anatolia; se desintegró a la muerte de Abu Said en 1335.",
+	"gobernantes": [
+		{
+			"nombre": "Hulagu",
+			"titulo": "Iljan",
+			"desde": 1256,
+			"hasta": 1265
+		},
+		{
+			"nombre": "Abu Said (último iljan)",
+			"titulo": "Iljan",
+			"desde": 1316,
+			"hasta": 1335
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Ilkhanate",
+			"url": "https://en.wikipedia.org/wiki/Ilkhanate",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Iljanato",
+			"url": "https://es.wikipedia.org/wiki/Iljanato",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

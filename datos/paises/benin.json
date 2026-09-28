@@ -169,8 +169,7 @@
 		{
 			"nombre": "Romuald Wadagni",
 			"cargo": "jefe de Estado",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -273,10 +272,16 @@
 			"url": "https://www.wikidata.org/wiki/Q962",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "4a9c6d0507b7",

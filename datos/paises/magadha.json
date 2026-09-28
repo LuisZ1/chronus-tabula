@@ -1,0 +1,38 @@
+{
+	"id": "magadha",
+	"nombre": "Magadha",
+	"nombres": [
+		"Magadha"
+	],
+	"wiki": "Magadha",
+	"relacionados": [
+		"Reino de Magadha"
+	],
+	"vinculos": [
+		{
+			"id": "maurya",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Uno de los dieciséis grandes reinos (mahajanapadas) del valle del Ganges, en el actual Bihar, con capital primero en Rajagriha y después en Pataliputra. Allí predicó Buda. Fue la base de los imperios Nanda y Maurya. La cronología de sus primeros reyes (Bimbisara) está discutida.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Magadha",
+			"url": "https://en.wikipedia.org/wiki/Magadha",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Gautama Buddha",
+			"url": "https://en.wikipedia.org/wiki/Gautama_Buddha",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Magadha",
+			"url": "https://es.wikipedia.org/wiki/Magadha",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

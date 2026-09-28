@@ -1,0 +1,46 @@
+{
+	"id": "almoravide",
+	"nombre": "Imperio almorávide",
+	"nombres": [
+		"Almoravid dynasty"
+	],
+	"wiki": "Almorávide",
+	"relacionados": [
+		"Almorávides"
+	],
+	"vinculos": [
+		{
+			"id": "almohade",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Movimiento religioso y militar bereber sanhaya surgido hacia 1050 en el Sáhara occidental. Fundó Marrakech hacia 1070, unió el Magreb occidental y al-Ándalus tras vencer en Sagrajas (1086) y cayó ante los almohades en 1147.",
+	"gobernantes": [
+		{
+			"nombre": "Yusuf ibn Tasufín",
+			"titulo": "Emir almorávide",
+			"desde": 1061,
+			"hasta": 1106
+		},
+		{
+			"nombre": "Alí ibn Yusuf",
+			"titulo": "Emir almorávide",
+			"desde": 1106,
+			"hasta": 1143
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Almoravid dynasty",
+			"url": "https://en.wikipedia.org/wiki/Almoravid_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Almorávide",
+			"url": "https://es.wikipedia.org/wiki/Almorávide",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"id": "sicilia",
+	"nombre": "Reino de Sicilia",
+	"nombres": [
+		"Sicily",
+		"Kingdom of Sicily",
+		"Kingdom of Sicily (Trinacria)"
+	],
+	"wiki": "Reino de Sicilia",
+	"vinculos": [
+		{
+			"id": "aragon",
+			"tipo": "parte_de",
+			"desde": 1409,
+			"hasta": 1516
+		}
+	],
+	"resena": "Reino normando fundado por Roger II en 1130 sobre Sicilia y el sur de Italia. Tras las Vísperas sicilianas (1282) la isla pasó a la casa de Barcelona y el continente formó el reino de Nápoles.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kingdom of Sicily",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Reino de Sicilia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Sicilia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

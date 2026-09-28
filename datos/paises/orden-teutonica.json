@@ -1,0 +1,27 @@
+{
+	"id": "orden-teutonica",
+	"nombre": "Estado de la Orden Teutónica",
+	"nombres": [
+		"Teutonic Knights"
+	],
+	"wiki": "Estado monástico de los Caballeros Teutónicos",
+	"relacionados": [
+		"Orden Teutónica",
+		"Caballeros teutónicos"
+	],
+	"resena": "Estado de la orden militar alemana en Prusia y Livonia, formado desde 1230 a costa de los prusianos paganos. Su derrota ante Polonia-Lituania en Grunwald (1410) inició su declive.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:State of the Teutonic Order",
+			"url": "https://en.wikipedia.org/wiki/State_of_the_Teutonic_Order",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Estado monástico de los Caballeros Teutónicos",
+			"url": "https://es.wikipedia.org/wiki/Estado_monástico_de_los_Caballeros_Teutónicos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

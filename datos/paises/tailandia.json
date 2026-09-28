@@ -2,7 +2,32 @@
 	"id": "tailandia",
 	"nombre": "Tailandia",
 	"nombres": [
-		"Thailand"
+		"Thailand",
+		"Ayutthaya",
+		"Rattanakosin Kingdom",
+		"Siam"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Ayutthaya",
+			"desde": 1351,
+			"hasta": 1766
+		},
+		{
+			"nombre": "Reino de Thonburi",
+			"desde": 1767,
+			"hasta": 1781
+		},
+		{
+			"nombre": "Reino de Siam (Rattanakosin)",
+			"desde": 1782,
+			"hasta": 1938
+		},
+		{
+			"nombre": "Reino de Tailandia",
+			"desde": 1939,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:Tailandia",
 	"wikidata": "Q869",
@@ -15,8 +40,7 @@
 		{
 			"nombre": "Maha Vajiralongkorn",
 			"cargo": "jefe de Estado",
-			"desde": 2016,
-			"hasta": 2016
+			"desde": 2016
 		},
 		{
 			"nombre": "Peatongtarn Shinawatra",
@@ -270,10 +294,22 @@
 			"url": "https://www.wikidata.org/wiki/Q869",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Ayutthaya Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Ayutthaya_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1558e583d8cb",

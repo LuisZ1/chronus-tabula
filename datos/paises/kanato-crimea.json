@@ -1,0 +1,48 @@
+{
+	"id": "kanato-crimea",
+	"nombre": "Kanato de Crimea",
+	"nombres": [
+		"Crimean Khanate"
+	],
+	"relacionados": [
+		"Tártaros de Crimea"
+	],
+	"vinculos": [
+		{
+			"id": "hordadeoro",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "rusia",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Hacı I Giray",
+			"titulo": "Kan de Crimea, fundador",
+			"desde": 1441,
+			"hasta": 1466
+		},
+		{
+			"nombre": "Şahin Giray",
+			"titulo": "Último kan de Crimea",
+			"desde": 1777,
+			"hasta": 1783
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Crimean Khanate",
+			"url": "https://en.wikipedia.org/wiki/Crimean_Khanate",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Kanato de Crimea",
+			"url": "https://es.wikipedia.org/wiki/Kanato_de_Crimea",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

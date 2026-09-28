@@ -1,0 +1,48 @@
+{
+	"id": "hawai",
+	"nombre": "Reino de Hawái",
+	"nombres": [
+		"Kingdom of Hawaii"
+	],
+	"wiki": "Reino de Hawái",
+	"vinculos": [
+		{
+			"id": "eeuu",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Kamehameha III",
+			"titulo": "Rey",
+			"desde": 1825,
+			"hasta": 1854
+		},
+		{
+			"nombre": "Kalākaua",
+			"titulo": "Rey",
+			"desde": 1874,
+			"hasta": 1891
+		},
+		{
+			"nombre": "Liliʻuokalani",
+			"titulo": "Reina",
+			"desde": 1891,
+			"hasta": 1893
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Hawái",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Haw%C3%A1i",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Hawaiian Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

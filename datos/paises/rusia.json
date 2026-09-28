@@ -3,7 +3,25 @@
 	"nombre": "Rusia",
 	"nombres": [
 		"Russian Empire",
-		"Russia"
+		"Russia",
+		"Tsardom of Muscovy"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio ruso",
+			"desde": 1721,
+			"hasta": 1916
+		},
+		{
+			"nombre": "República Rusa / RSFS de Rusia",
+			"desde": 1917,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Federación de Rusia",
+			"desde": 1992,
+			"hasta": 2026
+		}
 	],
 	"wikidata": "Q34266",
 	"owid": "Russia",
@@ -12,16 +30,46 @@
 	],
 	"vinculos": [
 		{
+			"id": "moscu",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "rus",
 			"tipo": "predecesor"
 		},
 		{
 			"id": "urss",
-			"tipo": "predecesor"
+			"tipo": "predecesor",
+			"desde": 1991
+		},
+		{
+			"id": "urss",
+			"tipo": "sucesor",
+			"hasta": 1922
+		},
+		{
+			"id": "hordadeoro",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "kanato-crimea",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Rusia, conocida formalmente como Federación Rusa , es un país euroasiático que se extiende sobre Europa del Este y Asia del Norte. Es el país más extenso del mundo, con una superficie de 17 125 191 km², equivalente a algo más de la novena parte de la tierra firme del planeta, y posee una gran variedad de relieve y de ecosistemas.",
 	"gobernantes": [
+		{
+			"nombre": "Iván III el Grande",
+			"titulo": "Gran príncipe de Moscú",
+			"desde": 1462,
+			"hasta": 1505
+		},
+		{
+			"nombre": "Basilio III",
+			"titulo": "Gran príncipe de Moscú",
+			"desde": 1505,
+			"hasta": 1533
+		},
 		{
 			"nombre": "Iván IV el Terrible",
 			"titulo": "Zar de Rusia",
@@ -29,15 +77,51 @@
 			"hasta": 1584
 		},
 		{
-			"nombre": "Pedro I el Grande",
-			"titulo": "Zar y Emperador de Rusia",
-			"desde": 1682,
-			"hasta": 1725
+			"nombre": "Fiódor I",
+			"titulo": "Zar de Rusia",
+			"desde": 1584,
+			"hasta": 1598
 		},
 		{
-			"nombre": "Pedro I de Rusia",
-			"cargo": "jefe de Estado",
-			"desde": 1721,
+			"nombre": "Borís Godunov",
+			"titulo": "Zar de Rusia",
+			"desde": 1598,
+			"hasta": 1605
+		},
+		{
+			"nombre": "Basilio IV Shuiski",
+			"titulo": "Zar de Rusia (Periodo Tumultuoso)",
+			"desde": 1606,
+			"hasta": 1610
+		},
+		{
+			"nombre": "Miguel I Románov",
+			"titulo": "Zar de Rusia, primer Románov",
+			"desde": 1613,
+			"hasta": 1645
+		},
+		{
+			"nombre": "Alejo I",
+			"titulo": "Zar de Rusia",
+			"desde": 1645,
+			"hasta": 1676
+		},
+		{
+			"nombre": "Fiódor III",
+			"titulo": "Zar de Rusia",
+			"desde": 1676,
+			"hasta": 1682
+		},
+		{
+			"nombre": "Iván V",
+			"titulo": "Cozar de Rusia con Pedro I",
+			"desde": 1682,
+			"hasta": 1696
+		},
+		{
+			"nombre": "Pedro I el Grande",
+			"titulo": "Zar (cozar con Iván V hasta 1696) y, desde 1721, emperador de Rusia",
+			"desde": 1682,
 			"hasta": 1725
 		},
 		{
@@ -95,12 +179,6 @@
 			"hasta": 1825
 		},
 		{
-			"nombre": "Nikolái Rumiántsev",
-			"cargo": "jefe de gobierno",
-			"desde": 1810,
-			"hasta": 1812
-		},
-		{
 			"nombre": "Nicolás I de Rusia",
 			"cargo": "jefe de Estado",
 			"desde": 1825,
@@ -125,10 +203,16 @@
 			"hasta": 1917
 		},
 		{
-			"nombre": "Ivan Shcheglovitov",
-			"cargo": "jefe de gobierno",
+			"nombre": "Aleksandr Kérenski",
+			"titulo": "Presidente del Gobierno Provisional",
 			"desde": 1917,
 			"hasta": 1917
+		},
+		{
+			"nombre": "Borís Yeltsin",
+			"titulo": "Presidente de la Federación Rusa",
+			"desde": 1991,
+			"hasta": 1999
 		},
 		{
 			"nombre": "Vladímir Putin",
@@ -141,6 +225,11 @@
 			"titulo": "Presidente de la Federación Rusa",
 			"desde": 2008,
 			"hasta": 2012
+		},
+		{
+			"nombre": "Vladímir Putin",
+			"titulo": "Presidente de la Federación Rusa",
+			"desde": 2012
 		}
 	],
 	"poblacion": [
@@ -459,10 +548,46 @@
 			"url": "https://www.wikidata.org/wiki/Q34266",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Tsardom of Russia",
+			"url": "https://en.wikipedia.org/wiki/Tsardom_of_Russia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Ivan Shcheglovitov",
+			"url": "https://en.wikipedia.org/wiki/Ivan_Shcheglovitov",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of Russian monarchs",
+			"url": "https://en.wikipedia.org/wiki/List_of_Russian_monarchs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Gobierno Provisional Ruso",
+			"url": "https://es.wikipedia.org/wiki/Gobierno_Provisional_Ruso",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Borís Yeltsin",
+			"url": "https://es.wikipedia.org/wiki/Borís_Yeltsin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Disolución de la Unión Soviética",
+			"url": "https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "79d53baee4c0",

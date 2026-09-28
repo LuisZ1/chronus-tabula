@@ -3,7 +3,8 @@
 	"nombre": "Irlanda",
 	"nombres": [
 		"Ireland",
-		"Irlanda"
+		"Irlanda",
+		"Kingdom of Ireland"
 	],
 	"wiki": "es:Irlanda",
 	"wikidata": "Q27",
@@ -11,6 +12,14 @@
 	"relacionados": [
 		"Republica de Irlanda",
 		"Eire"
+	],
+	"vinculos": [
+		{
+			"id": "granbretana",
+			"tipo": "parte_de",
+			"desde": 1801,
+			"hasta": 1922
+		}
 	],
 	"resena": "Irlanda, también conocido como República de Irlanda, es un país soberano e insular que ocupa la mayor parte de la isla de Irlanda. Es uno de los veintisiete Estados miembros de la Unión Europea.",
 	"gobernantes": [
@@ -35,14 +44,12 @@
 		{
 			"nombre": "Catherine Connolly",
 			"cargo": "jefe de Estado",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		},
 		{
 			"nombre": "Micheál Martin",
 			"cargo": "jefe de gobierno",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -148,10 +155,16 @@
 			"url": "https://www.wikidata.org/wiki/Q27",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "bb1f14a9069c",

@@ -4,21 +4,50 @@
 	"nombres": [
 		"Germany",
 		"German Empire",
-		"West Germany",
-		"East Germany"
+		"West Germany"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio alemán",
+			"desde": 1871,
+			"hasta": 1918
+		},
+		{
+			"nombre": "República de Weimar",
+			"desde": 1919,
+			"hasta": 1932
+		},
+		{
+			"nombre": "Alemania nazi (Tercer Reich)",
+			"desde": 1933,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Alemania ocupada",
+			"desde": 1946,
+			"hasta": 1948
+		},
+		{
+			"nombre": "República Federal de Alemania",
+			"desde": 1949,
+			"hasta": 2026
+		}
 	],
 	"owid": "Germany",
 	"relacionados": [
 		"Sacro Imperio",
 		"Prusia y estados alemanes",
 		"Godos",
-		"Vándalos",
 		"Suevos"
 	],
 	"vinculos": [
 		{
 			"id": "prusia",
 			"tipo": "predecesor"
+		},
+		{
+			"id": "rda",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Alemania, oficialmente la República Federal de Alemania, es un país de Europa central y el Estado de la Unión Europea con mayor población y PIB. Constituido en Estado social y democrático de derecho, su forma de gobierno es la república parlamentaria y federal.",
@@ -30,10 +59,28 @@
 			"hasta": 1888
 		},
 		{
+			"nombre": "Federico III",
+			"titulo": "Emperador alemán",
+			"desde": 1888,
+			"hasta": 1888
+		},
+		{
 			"nombre": "Guillermo II",
 			"titulo": "Emperador alemán",
 			"desde": 1888,
 			"hasta": 1918
+		},
+		{
+			"nombre": "Friedrich Ebert",
+			"titulo": "Presidente del Reich (República de Weimar)",
+			"desde": 1919,
+			"hasta": 1925
+		},
+		{
+			"nombre": "Paul von Hindenburg",
+			"titulo": "Presidente del Reich",
+			"desde": 1925,
+			"hasta": 1934
 		},
 		{
 			"nombre": "Adolf Hitler",
@@ -48,10 +95,57 @@
 			"hasta": 1963
 		},
 		{
+			"nombre": "Ludwig Erhard (RFA)",
+			"titulo": "Canciller federal",
+			"desde": 1963,
+			"hasta": 1966
+		},
+		{
+			"nombre": "Kurt Georg Kiesinger (RFA)",
+			"titulo": "Canciller federal",
+			"desde": 1966,
+			"hasta": 1969
+		},
+		{
+			"nombre": "Willy Brandt (RFA)",
+			"titulo": "Canciller federal",
+			"desde": 1969,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Helmut Schmidt (RFA)",
+			"titulo": "Canciller federal",
+			"desde": 1974,
+			"hasta": 1982
+		},
+		{
+			"nombre": "Helmut Kohl",
+			"titulo": "Canciller federal",
+			"desde": 1982,
+			"hasta": 1998
+		},
+		{
+			"nombre": "Gerhard Schröder",
+			"titulo": "Canciller federal",
+			"desde": 1998,
+			"hasta": 2005
+		},
+		{
 			"nombre": "Angela Merkel",
 			"titulo": "Canciller federal",
 			"desde": 2005,
 			"hasta": 2021
+		},
+		{
+			"nombre": "Olaf Scholz",
+			"titulo": "Canciller federal",
+			"desde": 2021,
+			"hasta": 2025
+		},
+		{
+			"nombre": "Friedrich Merz",
+			"titulo": "Canciller federal",
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -253,10 +347,22 @@
 			"url": "https://es.wikipedia.org/wiki/Alemania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-es:Reunificación alemana",
+			"url": "https://es.wikipedia.org/wiki/Reunificaci%C3%B3n_alemana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Jefes de Estado de Alemania",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Jefes_de_Estado_de_Alemania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "de9eb58a0871",

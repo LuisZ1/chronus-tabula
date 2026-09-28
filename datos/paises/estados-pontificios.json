@@ -1,0 +1,28 @@
+{
+	"id": "estados-pontificios",
+	"nombre": "Estados Pontificios",
+	"nombres": [
+		"Papal States"
+	],
+	"wiki": "Estados Pontificios",
+	"relacionados": [
+		"Papado",
+		"Estados Pontificios (Papado)",
+		"Santa Sede"
+	],
+	"resena": "Territorios de la Italia central gobernados por el papa como soberano temporal desde la donación de Pipino el Breve (756) hasta la unificación italiana (1870).",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Papal States",
+			"url": "https://en.wikipedia.org/wiki/Papal_States",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Estados Pontificios",
+			"url": "https://es.wikipedia.org/wiki/Estados_Pontificios",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

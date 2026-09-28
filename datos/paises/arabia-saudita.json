@@ -2,7 +2,38 @@
 	"id": "arabia-saudita",
 	"nombre": "Arabia Saudita",
 	"nombres": [
-		"Saudi Arabia"
+		"Saudi Arabia",
+		"Arabia (Nejd)",
+		"Nejd",
+		"Kingdom of Hejaz and Nejd"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Emirato de Diriyah (primer Estado saudí)",
+			"desde": 1744,
+			"hasta": 1818
+		},
+		{
+			"nombre": "Emirato de Néyed (segundo Estado saudí)",
+			"desde": 1824,
+			"hasta": 1891
+		},
+		{
+			"nombre": "Emirato de Néyed y Hasa",
+			"desde": 1913,
+			"hasta": 1920
+		},
+		{
+			"nombre": "Sultanato de Néyed",
+			"desde": 1921,
+			"hasta": 1925
+		},
+		{
+			"nombre": "Reino del Hiyaz y el Néyed",
+			"desde": 1926,
+			"hasta": 1931,
+			"wiki": "Reino del Hiyaz y el Neyed"
+		}
 	],
 	"wiki": "es:Arabia Saudita",
 	"wikidata": "Q851",
@@ -331,10 +362,34 @@
 			"url": "https://www.wikidata.org/wiki/Q851",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Reino del Hiyaz y el Neyed",
+			"url": "https://es.wikipedia.org/wiki/Reino_del_Hiyaz_y_el_Neyed",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Emirate of Diriyah",
+			"url": "https://en.wikipedia.org/wiki/Emirate_of_Diriyah",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Emirate of Nejd",
+			"url": "https://en.wikipedia.org/wiki/Emirate_of_Nejd",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Emirate of Nejd and Hasa",
+			"url": "https://en.wikipedia.org/wiki/Emirate_of_Nejd_and_Hasa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "92ba18880999",

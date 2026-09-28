@@ -5,8 +5,26 @@
 		"Assyria"
 	],
 	"wiki": "Asiria",
+	"vinculos": [
+		{
+			"id": "mitani",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Asiria hace referencia a una antigua región de la Alta Mesopotamia que toma su nombre de la ciudad de Aššur —del mismo nombre que Assur, su deidad tutelar—, y es también el nombre del Estado —y posterior imperio— que formó entre el milenio iii y i a. C.",
 	"gobernantes": [
+		{
+			"nombre": "Asurnasirpal II",
+			"titulo": "Rey de Asiria",
+			"desde": -883,
+			"hasta": -859
+		},
+		{
+			"nombre": "Salmanasar III",
+			"titulo": "Rey de Asiria (batalla de Qarqar)",
+			"desde": -859,
+			"hasta": -824
+		},
 		{
 			"nombre": "Tiglat-Pileser III",
 			"titulo": "Rey de Asiria, reorganizador del imperio",
@@ -18,6 +36,18 @@
 			"titulo": "Rey de Asiria",
 			"desde": -722,
 			"hasta": -705
+		},
+		{
+			"nombre": "Senaquerib",
+			"titulo": "Rey de Asiria",
+			"desde": -705,
+			"hasta": -681
+		},
+		{
+			"nombre": "Asarhadón",
+			"titulo": "Rey de Asiria, conquista Egipto",
+			"desde": -681,
+			"hasta": -669
 		},
 		{
 			"nombre": "Asurbanipal",
@@ -38,10 +68,16 @@
 			"url": "https://es.wikipedia.org/wiki/Asiria",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:Neo-Assyrian Empire",
+			"url": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "bb63b08e58a5",

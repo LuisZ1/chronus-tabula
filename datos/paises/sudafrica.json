@@ -3,18 +3,19 @@
 	"nombre": "Sudáfrica",
 	"nombres": [
 		"South Africa",
-		"Union of South Africa"
+		"Union of South Africa",
+		"Cape Colony"
 	],
 	"nombres_periodo": [
+		{
+			"nombre": "Colonia del Cabo",
+			"desde": 1652,
+			"hasta": 1805
+		},
 		{
 			"nombre": "Colonia del Cabo / colonias británicas y repúblicas bóer",
 			"desde": 1806,
 			"hasta": 1910
-		},
-		{
-			"nombre": "Reino zulú",
-			"desde": 1816,
-			"hasta": 1897
 		},
 		{
 			"nombre": "Unión Sudafricana",
@@ -33,38 +34,22 @@
 		"Unión Sudafricana",
 		"República de Sudáfrica"
 	],
+	"vinculos": [
+		{
+			"id": "orange",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "transvaal",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "zulu",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Sudáfrica o, en uso minoritario, Suráfrica, y oficialmente la República de Sudáfrica, es un país soberano, situado en África austral y cuya forma de gobierno es la república parlamentaria. Su territorio está organizado en nueve provincias.",
 	"gobernantes": [
-		{
-			"nombre": "Shaka kaSenzangakhona",
-			"cargo": "Rey zulú",
-			"desde": 1816,
-			"hasta": 1828
-		},
-		{
-			"nombre": "Dingane kaSenzangakhona",
-			"cargo": "Rey zulú",
-			"desde": 1828,
-			"hasta": 1840
-		},
-		{
-			"nombre": "Mpande kaSenzangakhona",
-			"cargo": "Rey zulú",
-			"desde": 1840,
-			"hasta": 1872
-		},
-		{
-			"nombre": "Cetshwayo kaMpande",
-			"cargo": "Rey zulú",
-			"desde": 1872,
-			"hasta": 1884
-		},
-		{
-			"nombre": "Dinuzulu kaCetshwayo",
-			"cargo": "Rey zulú",
-			"desde": 1884,
-			"hasta": 1913
-		},
 		{
 			"nombre": "Louis Botha",
 			"cargo": "Primer ministro (Unión)",
@@ -309,10 +294,16 @@
 			"url": "https://www.wikidata.org/wiki/Q258",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Dutch Cape Colony",
+			"url": "https://en.wikipedia.org/wiki/Dutch_Cape_Colony",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c0d6dc4103f2",

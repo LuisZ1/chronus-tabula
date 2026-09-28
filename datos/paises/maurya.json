@@ -5,6 +5,12 @@
 		"Mauryan Empire"
 	],
 	"wiki": "Imperio mauryano",
+	"vinculos": [
+		{
+			"id": "magadha",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"gobernantes": [
 		{
 			"nombre": "Chandragupta Maurya",

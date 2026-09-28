@@ -13,8 +13,17 @@
 		{
 			"id": "roma",
 			"tipo": "predecesor"
+		},
+		{
+			"id": "vandalos",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "otomano",
+			"tipo": "sucesor_territorial"
 		}
 	],
+	"resena": "Continuación del Imperio romano en Oriente, con capital en Constantinopla. Justiniano (527-565) recuperó Italia y el norte de África; perdió Siria y Egipto ante el islam en el s. VII y Anatolia ante los turcos tras Manzikert (1071). Cayó ante los otomanos en 1453.",
 	"gobernantes": [
 		{
 			"nombre": "Arcadio",
@@ -72,6 +81,12 @@
 			"id": "wikipedia-es:Imperio bizantino (romano de Oriente)",
 			"url": "https://es.wikipedia.org/wiki/Imperio_bizantino_(romano_de_Oriente)",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-es:Imperio bizantino",
+			"url": "https://es.wikipedia.org/wiki/Imperio_bizantino",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

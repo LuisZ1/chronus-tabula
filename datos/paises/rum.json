@@ -1,0 +1,26 @@
+{
+	"id": "rum",
+	"nombre": "Sultanato de Rum",
+	"nombres": [
+		"Sultanate of Rum"
+	],
+	"wiki": "Sultanato de Rum",
+	"relacionados": [
+		"Selyúcidas de Rum"
+	],
+	"vinculos": [
+		{
+			"id": "otomano",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Sultanato selyúcida de Anatolia (1077-1308), con capital en Konya desde 1097. Tras la derrota de Köse Dağ (1243) fue vasallo de los mongoles y se disolvió en beylicatos, entre ellos el otomano.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Sultanate of Rum",
+			"url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

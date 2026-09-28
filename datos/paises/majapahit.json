@@ -1,0 +1,23 @@
+{
+	"id": "majapahit",
+	"nombre": "Imperio de Majapahit",
+	"nombres": [
+		"Majapahit"
+	],
+	"wiki": "Majapahit",
+	"vinculos": [
+		{
+			"id": "srivijaya",
+			"tipo": "antecesor_territorial"
+		}
+	],
+	"resena": "Imperio hindú-budista de Java oriental fundado en 1293 por Raden Wijaya, con capital en Trowulan. Dominó buena parte del archipiélago en el s. XIV, acabó con el último Estado sucesor de Srivijaya (Palembang, 1377) y desapareció ante el sultanato de Demak hacia 1527.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Majapahit",
+			"url": "https://en.wikipedia.org/wiki/Majapahit",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

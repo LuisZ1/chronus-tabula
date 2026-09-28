@@ -1,0 +1,47 @@
+{
+	"id": "acad",
+	"nombre": "Imperio acadio",
+	"nombres": [
+		"Akkadian Empire"
+	],
+	"wiki": "Imperio acadio",
+	"relacionados": [
+		"Acad",
+		"Imperio de Acad"
+	],
+	"resena": "Primer imperio de la historia (c. 2334-2154 a. C., cronología media), fundado por Sargón de Acad, que unió bajo un solo rey a los pueblos de lengua acadia y sumeria y extendió su dominio del Mediterráneo a Irán. La ubicación de su capital, Acad, es desconocida.",
+	"gobernantes": [
+		{
+			"nombre": "Sargón de Acad",
+			"titulo": "Rey de Acad",
+			"desde": -2334,
+			"hasta": -2279
+		},
+		{
+			"nombre": "Naram-Sin",
+			"titulo": "Rey de Acad, «rey de las cuatro regiones»",
+			"desde": -2254,
+			"hasta": -2218
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Akkadian Empire",
+			"url": "https://en.wikipedia.org/wiki/Akkadian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Akkad (city)",
+			"url": "https://en.wikipedia.org/wiki/Akkad_(city)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Naram-Sin of Akkad",
+			"url": "https://en.wikipedia.org/wiki/Naram-Sin_of_Akkad",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

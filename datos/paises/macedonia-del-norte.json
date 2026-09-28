@@ -2,11 +2,18 @@
 	"id": "macedonia-del-norte",
 	"nombre": "Macedonia del Norte",
 	"nombres": [
-		"Macedonia"
+		"Macedonia",
+		"North Macedonia"
 	],
 	"wiki": "es:Macedonia del Norte",
 	"wikidata": "Q221",
 	"owid": "MKD",
+	"vinculos": [
+		{
+			"id": "yugoslavia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Macedonia del Norte, denominada oficialmente como República de Macedonia del Norte, es un país sin litoral situado en el sureste de Europa, en la península de los Balcanes. Limita al norte con Serbia y Kosovo, al este con Bulgaria, al sur con Grecia y al oeste con Albania.",
 	"gobernantes": [
 		{
@@ -70,22 +77,20 @@
 			"hasta": 2024
 		},
 		{
-			"nombre": "Gordana Siljanovska-Davkova",
-			"cargo": "jefe de Estado",
-			"desde": 2024,
-			"hasta": 2024
-		},
-		{
-			"nombre": "Hristijan Mickoski",
-			"cargo": "jefe de gobierno",
-			"desde": 2024,
-			"hasta": 2024
-		},
-		{
 			"nombre": "Talat Xhaferi",
 			"cargo": "jefe de gobierno",
 			"desde": 2024,
 			"hasta": 2024
+		},
+		{
+			"nombre": "Gordana Siljanovska-Davkova",
+			"cargo": "jefe de Estado",
+			"desde": 2024
+		},
+		{
+			"nombre": "Hristijan Mickoski",
+			"cargo": "jefe de gobierno",
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -387,10 +392,16 @@
 			"url": "https://www.wikidata.org/wiki/Q221",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "2c6a4286e464",

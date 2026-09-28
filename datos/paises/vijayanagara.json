@@ -1,0 +1,31 @@
+{
+	"id": "vijayanagara",
+	"nombre": "Imperio de Vijayanagara",
+	"nombres": [
+		"Vijayanagara"
+	],
+	"wiki": "Imperio Vijayanagara",
+	"resena": "Imperio hindú del sur de la India fundado en 1336 por los hermanos Harihara y Bukka, con capital en Vijayanagara (Hampi). Rival de los sultanatos del Decán, fue derrotado en Talikota en 1565.",
+	"gobernantes": [
+		{
+			"nombre": "Harihara I (fundador)",
+			"titulo": "Raya de Vijayanagara",
+			"desde": 1336,
+			"hasta": 1356
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Vijayanagara Empire",
+			"url": "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio Vijayanagara",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Vijayanagara",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

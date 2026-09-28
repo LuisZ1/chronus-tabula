@@ -1,0 +1,129 @@
+{
+	"id": "joseon",
+	"nombre": "Corea (Goryeo y Joseon)",
+	"nombres": [
+		"Korea"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Goryeo",
+			"desde": 918,
+			"hasta": 1391,
+			"wiki": "Goryeo"
+		},
+		{
+			"nombre": "Joseon",
+			"desde": 1392,
+			"hasta": 1896
+		},
+		{
+			"nombre": "Imperio coreano",
+			"desde": 1897,
+			"hasta": 1910
+		}
+	],
+	"relacionados": [
+		"Joseon",
+		"Goryeo",
+		"Reino de Joseon",
+		"Corea"
+	],
+	"vinculos": [
+		{
+			"id": "corea-del-norte",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "corea-del-sur",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Seonjo",
+			"titulo": "Rey de Joseon (guerra Imjin)",
+			"desde": 1567,
+			"hasta": 1608
+		},
+		{
+			"nombre": "Gwanghaegun",
+			"titulo": "Rey de Joseon",
+			"desde": 1608,
+			"hasta": 1623
+		},
+		{
+			"nombre": "Injo",
+			"titulo": "Rey de Joseon (invasiones manchúes)",
+			"desde": 1623,
+			"hasta": 1649
+		},
+		{
+			"nombre": "Yeongjo",
+			"titulo": "Rey de Joseon",
+			"desde": 1724,
+			"hasta": 1776
+		},
+		{
+			"nombre": "Jeongjo",
+			"titulo": "Rey de Joseon",
+			"desde": 1776,
+			"hasta": 1800
+		},
+		{
+			"nombre": "Sunjo",
+			"titulo": "Rey de Joseon",
+			"desde": 1800,
+			"hasta": 1834
+		},
+		{
+			"nombre": "Heonjong",
+			"titulo": "Rey de Joseon",
+			"desde": 1834,
+			"hasta": 1849
+		},
+		{
+			"nombre": "Cheoljong",
+			"titulo": "Rey de Joseon",
+			"desde": 1849,
+			"hasta": 1864
+		},
+		{
+			"nombre": "Gojong",
+			"titulo": "Rey de Joseon; emperador de Corea desde 1897",
+			"desde": 1864,
+			"hasta": 1907
+		},
+		{
+			"nombre": "Sunjong",
+			"titulo": "Emperador de Corea",
+			"desde": 1907,
+			"hasta": 1910
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Joseon",
+			"url": "https://en.wikipedia.org/wiki/Joseon",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Goryeo",
+			"url": "https://en.wikipedia.org/wiki/Goryeo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Dinastía Joseon",
+			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Joseon",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio coreano",
+			"url": "https://es.wikipedia.org/wiki/Imperio_coreano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

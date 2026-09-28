@@ -5,6 +5,18 @@
 		"Visigothic Kingdom",
 		"Visigoths"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino visigodo de Tolosa",
+			"desde": 418,
+			"hasta": 507
+		},
+		{
+			"nombre": "Reino visigodo de Toledo",
+			"desde": 507,
+			"hasta": 711
+		}
+	],
 	"wiki": "Reino visigodo",
 	"vinculos": [
 		{
@@ -14,6 +26,42 @@
 	],
 	"resena": "El reino visigodo fue una entidad política establecida por el pueblo visigodo tras su asentamiento en una parte de la actual Francia y la península ibérica, en la época de las invasiones germánicas, que perduró durante buena parte de la Alta Edad Media, ocupando territorios en las Galias e Hispania en sus diversas etapas.",
 	"gobernantes": [
+		{
+			"nombre": "Alarico I",
+			"titulo": "Rey de los visigodos; saqueo de Roma (410)",
+			"desde": 395,
+			"hasta": 410
+		},
+		{
+			"nombre": "Ataúlfo",
+			"titulo": "Rey de los visigodos",
+			"desde": 410,
+			"hasta": 415
+		},
+		{
+			"nombre": "Walia",
+			"titulo": "Rey; asentamiento federado en Aquitania (418)",
+			"desde": 415,
+			"hasta": 418
+		},
+		{
+			"nombre": "Teodorico I",
+			"titulo": "Rey de Tolosa; muere en los Campos Cataláunicos",
+			"desde": 418,
+			"hasta": 451
+		},
+		{
+			"nombre": "Eurico",
+			"titulo": "Rey de Tolosa; máxima expansión en Galia e Hispania",
+			"desde": 466,
+			"hasta": 484
+		},
+		{
+			"nombre": "Alarico II",
+			"titulo": "Rey de Tolosa; derrotado en Vouillé",
+			"desde": 484,
+			"hasta": 507
+		},
 		{
 			"nombre": "Leovigildo",
 			"titulo": "Rey visigodo, unificador de Hispania",
@@ -51,10 +99,16 @@
 			"url": "https://es.wikipedia.org/wiki/Reino_visigodo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:Visigothic Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Visigothic_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "9c53863ddf54",

@@ -71,6 +71,12 @@
 	],
 	"vinculos": [
 		{
+			"id": "otomano",
+			"tipo": "parte_de",
+			"desde": 1517,
+			"hasta": 1867
+		},
+		{
 			"id": "ptolemaico",
 			"tipo": "antecesor_territorial"
 		}
@@ -88,6 +94,18 @@
 			"cargo": "Faraón (Dinastía IV)",
 			"desde": -2589,
 			"hasta": -2566
+		},
+		{
+			"nombre": "Mentuhotep II",
+			"cargo": "Faraón (Dinastía XI, reunifica Egipto: Reino Medio)",
+			"desde": -2040,
+			"hasta": -2009
+		},
+		{
+			"nombre": "Ahmose I",
+			"cargo": "Faraón (Dinastía XVIII, expulsa a los hicsos); fechas discutidas: con la cronología alta, 1570-1546 a. C.",
+			"desde": -1550,
+			"hasta": -1525
 		},
 		{
 			"nombre": "Hatshepsut",
@@ -118,6 +136,18 @@
 			"cargo": "Faraón (Dinastía XIX)",
 			"desde": -1279,
 			"hasta": -1213
+		},
+		{
+			"nombre": "Ramsés III",
+			"cargo": "Faraón (Dinastía XX, vence a los Pueblos del Mar)",
+			"desde": -1186,
+			"hasta": -1155
+		},
+		{
+			"nombre": "Psamético I",
+			"cargo": "Faraón (Dinastía XXVI saíta, reunifica Egipto)",
+			"desde": -664,
+			"hasta": -610
 		},
 		{
 			"nombre": "Cleopatra VII",
@@ -206,8 +236,7 @@
 		{
 			"nombre": "Mostafá Madbuli",
 			"cargo": "jefe de gobierno",
-			"desde": 2018,
-			"hasta": 2018
+			"desde": 2018
 		}
 	],
 	"poblacion": [
@@ -490,10 +519,40 @@
 			"url": "https://www.wikidata.org/wiki/Q79",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Mentuhotep II",
+			"url": "https://en.wikipedia.org/wiki/Mentuhotep_II",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Ahmose I",
+			"url": "https://en.wikipedia.org/wiki/Ahmose_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Ramesses III",
+			"url": "https://en.wikipedia.org/wiki/Ramesses_III",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Psamtik I",
+			"url": "https://en.wikipedia.org/wiki/Psamtik_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5f1f1d49d6e8",

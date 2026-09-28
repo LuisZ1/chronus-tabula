@@ -1,0 +1,29 @@
+{
+	"id": "srivijaya",
+	"nombre": "Srivijaya",
+	"nombres": [
+		"Srivijaya Empire"
+	],
+	"wiki": "Srivijaya",
+	"vinculos": [
+		{
+			"id": "majapahit",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Talasocracia budista con centro en Palembang (Sumatra) que dominó los estrechos de Malaca y de la Sonda entre los siglos VII y XIII. Su último Estado sucesor cayó ante Majapahit en 1377.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Srivijaya",
+			"url": "https://en.wikipedia.org/wiki/Srivijaya",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Srivijaya",
+			"url": "https://es.wikipedia.org/wiki/Srivijaya",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

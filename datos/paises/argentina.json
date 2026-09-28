@@ -2,7 +2,15 @@
 	"id": "argentina",
 	"nombre": "Argentina",
 	"nombres": [
-		"Argentina"
+		"Argentina",
+		"United Provinces of La Plata"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Provincias Unidas del Río de la Plata",
+			"desde": 1810,
+			"hasta": 1830
+		}
 	],
 	"wiki": "es:Argentina",
 	"wikidata": "Q414",
@@ -10,10 +18,93 @@
 	"resena": "Argentina, oficialmente República Argentina, es un país soberano ubicado en el extremo sur y sudeste de América del Sur. Adopta la forma de gobierno democrática, federal, representativa y republicana.",
 	"gobernantes": [
 		{
+			"nombre": "Juan Manuel de Rosas",
+			"titulo": "Gobernador de Buenos Aires (encargado de las Relaciones Exteriores)",
+			"desde": 1829,
+			"hasta": 1852
+		},
+		{
+			"nombre": "Bartolomé Mitre",
+			"titulo": "Presidente",
+			"desde": 1862,
+			"hasta": 1868
+		},
+		{
+			"nombre": "Domingo Faustino Sarmiento",
+			"titulo": "Presidente",
+			"desde": 1868,
+			"hasta": 1874
+		},
+		{
+			"nombre": "Julio Argentino Roca",
+			"titulo": "Presidente",
+			"desde": 1880,
+			"hasta": 1886
+		},
+		{
+			"nombre": "Hipólito Yrigoyen",
+			"titulo": "Presidente",
+			"desde": 1916,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Juan Domingo Perón",
+			"titulo": "Presidente",
+			"desde": 1946,
+			"hasta": 1955
+		},
+		{
+			"nombre": "Juan Domingo Perón",
+			"titulo": "Presidente",
+			"desde": 1973,
+			"hasta": 1974
+		},
+		{
+			"nombre": "Jorge Rafael Videla",
+			"titulo": "Presidente de facto (Proceso de Reorganización Nacional)",
+			"desde": 1976,
+			"hasta": 1981
+		},
+		{
+			"nombre": "Raúl Alfonsín",
+			"titulo": "Presidente",
+			"desde": 1983,
+			"hasta": 1989
+		},
+		{
+			"nombre": "Carlos Menem",
+			"titulo": "Presidente",
+			"desde": 1989,
+			"hasta": 1999
+		},
+		{
+			"nombre": "Néstor Kirchner",
+			"titulo": "Presidente",
+			"desde": 2003,
+			"hasta": 2007
+		},
+		{
+			"nombre": "Cristina Fernández de Kirchner",
+			"titulo": "Presidenta",
+			"desde": 2007,
+			"hasta": 2015
+		},
+		{
+			"nombre": "Mauricio Macri",
+			"titulo": "Presidente",
+			"desde": 2015,
+			"hasta": 2019
+		},
+		{
+			"nombre": "Alberto Fernández",
+			"titulo": "Presidente",
+			"desde": 2019,
+			"hasta": 2023
+		},
+		{
 			"nombre": "Javier Milei",
 			"cargo": "jefe de Estado",
-			"desde": 2023,
-			"hasta": 2023
+			"desde": 2023
 		}
 	],
 	"poblacion": [
@@ -249,10 +340,28 @@
 			"url": "https://www.wikidata.org/wiki/Q414",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Presidentes de la Nación Argentina",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_la_Nación_Argentina",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:United Provinces of the Río de la Plata",
+			"url": "https://en.wikipedia.org/wiki/United_Provinces_of_the_R%C3%ADo_de_la_Plata",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "396b83f77b4b",

@@ -2,11 +2,38 @@
 	"id": "indonesia",
 	"nombre": "Indonesia",
 	"nombres": [
-		"Indonesia"
+		"Indonesia",
+		"Dutch East Indies",
+		"Netherlands Indies"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Indias Orientales de la Compañía Neerlandesa (VOC)",
+			"desde": 1602,
+			"hasta": 1799
+		},
+		{
+			"nombre": "Indias Orientales Neerlandesas",
+			"desde": 1800,
+			"hasta": 1944
+		},
+		{
+			"nombre": "República de Indonesia",
+			"desde": 1945,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:Indonesia",
 	"wikidata": "Q252",
 	"owid": "IDN",
+	"vinculos": [
+		{
+			"id": "paisesbajos",
+			"tipo": "parte_de",
+			"desde": 1800,
+			"hasta": 1949
+		}
+	],
 	"resena": "Indonesia, oficialmente la República de Indonesia, es un país ubicado al sudeste de Asia y al norte de Oceanía, entre los océanos Índico y Pacífico. Se compone de más de 17 000 islas, incluidas Sumatra, Java, Célebes y partes de Borneo y Nueva Guinea.",
 	"gobernantes": [
 		{
@@ -54,8 +81,7 @@
 		{
 			"nombre": "Prabowo Subianto",
 			"cargo": "jefe de Estado",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -327,10 +353,28 @@
 			"url": "https://www.wikidata.org/wiki/Q252",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Indias Orientales Neerlandesas",
+			"url": "https://es.wikipedia.org/wiki/Indias_Orientales_Neerlandesas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Dutch East India Company",
+			"url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "849668d41991",

@@ -1,0 +1,73 @@
+{
+	"id": "kush",
+	"nombre": "Reino de Kush",
+	"nombres": [
+		"Kush",
+		"Meroe"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Kush (Napata)",
+			"desde": -750,
+			"hasta": -301
+		},
+		{
+			"nombre": "Reino de Kush (Meroe)",
+			"desde": -300,
+			"hasta": 350
+		}
+	],
+	"wiki": "Reino de Kush",
+	"relacionados": [
+		"Nubia",
+		"Napata",
+		"Reino de Meroe"
+	],
+	"vinculos": [
+		{
+			"id": "sudan",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino nubio del Nilo medio, heredero de la cultura de Kerma. Tras siglos de dominio egipcio recuperó la independencia hacia 1070 a. C. con capital en Napata; sus reyes gobernaron Egipto como dinastía XXV (747-656 a. C.) y, hacia 591 a. C., trasladaron la capital a Meroe, centro del hierro y del comercio con el mar Rojo. Se disolvió hacia 350 d. C.",
+	"gobernantes": [
+		{
+			"nombre": "Alara",
+			"titulo": "Rey de Kush (primer rey documentado)",
+			"desde": -800,
+			"hasta": -760
+		},
+		{
+			"nombre": "Pianjy",
+			"titulo": "Rey de Kush y faraón (dinastía XXV)",
+			"desde": -747,
+			"hasta": -716
+		},
+		{
+			"nombre": "Taharqa",
+			"titulo": "Rey de Kush y faraón (dinastía XXV)",
+			"desde": -690,
+			"hasta": -664
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Kush",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Kush",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Kush",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Twenty-fifth Dynasty of Egypt",
+			"url": "https://en.wikipedia.org/wiki/Twenty-fifth_Dynasty_of_Egypt",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

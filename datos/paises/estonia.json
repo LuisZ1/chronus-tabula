@@ -43,7 +43,7 @@
 			"hasta": 2006
 		},
 		{
-			"nombre": "Q156469",
+			"nombre": "Siim Kallas",
 			"cargo": "jefe de gobierno",
 			"desde": 2002,
 			"hasta": 2003
@@ -85,22 +85,20 @@
 			"hasta": 2021
 		},
 		{
-			"nombre": "Alar Karis",
-			"cargo": "jefe de Estado",
-			"desde": 2021,
-			"hasta": 2021
-		},
-		{
 			"nombre": "Kaja Kallas",
 			"cargo": "jefe de gobierno",
 			"desde": 2021,
 			"hasta": 2021
 		},
 		{
+			"nombre": "Alar Karis",
+			"cargo": "jefe de Estado",
+			"desde": 2021
+		},
+		{
 			"nombre": "Kristen Michal",
 			"cargo": "jefe de gobierno",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -408,10 +406,22 @@
 			"url": "https://www.wikidata.org/wiki/Q191",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Siim Kallas",
+			"url": "https://en.wikipedia.org/wiki/Siim_Kallas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "95e226747449",

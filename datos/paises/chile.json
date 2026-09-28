@@ -10,6 +10,24 @@
 	"resena": "Chile, oficialmente República de Chile, es un Estado soberano ubicado en el extremo sudoeste de América del Sur. Adopta la forma de gobierno republicana, democrática, presidencialista y unitaria.",
 	"gobernantes": [
 		{
+			"nombre": "Bernardo O'Higgins",
+			"titulo": "Director Supremo",
+			"desde": 1817,
+			"hasta": 1823
+		},
+		{
+			"nombre": "Salvador Allende",
+			"titulo": "Presidente",
+			"desde": 1970,
+			"hasta": 1973
+		},
+		{
+			"nombre": "Augusto Pinochet",
+			"titulo": "Presidente de la Junta / dictador",
+			"desde": 1973,
+			"hasta": 1990
+		},
+		{
 			"nombre": "Patricio Aylwin",
 			"cargo": "jefe de Estado",
 			"desde": 1990,
@@ -60,8 +78,7 @@
 		{
 			"nombre": "José Antonio Kast",
 			"cargo": "jefe de gobierno",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -327,10 +344,22 @@
 			"url": "https://www.wikidata.org/wiki/Q298",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Presidentes de Chile",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Chile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "80dea4b72440",

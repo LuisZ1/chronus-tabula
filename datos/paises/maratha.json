@@ -1,0 +1,51 @@
+{
+	"id": "maratha",
+	"nombre": "Confederación maratha",
+	"nombres": [
+		"Maratha Confederacy",
+		"Maratha",
+		"Mahratta states"
+	],
+	"relacionados": [
+		"Imperio maratha",
+		"Marathas"
+	],
+	"vinculos": [
+		{
+			"id": "mogol",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "india",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Shivaji",
+			"titulo": "Chhatrapati, fundador (coronado en Raigad)",
+			"desde": 1674,
+			"hasta": 1680
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Maratha Confederacy",
+			"url": "https://en.wikipedia.org/wiki/Maratha_Confederacy",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Shivaji",
+			"url": "https://en.wikipedia.org/wiki/Shivaji",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Confederación maratha",
+			"url": "https://es.wikipedia.org/wiki/Confederación_maratha",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

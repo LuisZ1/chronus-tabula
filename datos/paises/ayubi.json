@@ -1,0 +1,44 @@
+{
+	"id": "ayubi",
+	"nombre": "Sultanato ayubí",
+	"nombres": [
+		"Ayyubid Sultanate"
+	],
+	"wiki": "Dinastía ayubí",
+	"relacionados": [
+		"Ayubíes"
+	],
+	"vinculos": [
+		{
+			"id": "fatimi",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "mamelucos",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Dinastía kurda fundada por Saladino, que abolió el califato fatimí en 1171. Gobernó Egipto, Siria, Yemen y la Alta Mesopotamia, recuperó Jerusalén en 1187 y cayó ante los mamelucos (1250 en Egipto, 1260 en Siria).",
+	"gobernantes": [
+		{
+			"nombre": "Saladino",
+			"titulo": "Sultán de Egipto y Siria",
+			"desde": 1174,
+			"hasta": 1193
+		},
+		{
+			"nombre": "Al-Adil I",
+			"titulo": "Sultán ayubí",
+			"desde": 1200,
+			"hasta": 1218
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Ayyubid dynasty",
+			"url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

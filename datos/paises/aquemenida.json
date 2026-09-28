@@ -1,0 +1,100 @@
+{
+	"id": "aquemenida",
+	"nombre": "Imperio aqueménida",
+	"nombres": [
+		"Achaemenid Empire"
+	],
+	"wiki": "Imperio aqueménida",
+	"relacionados": [
+		"Persia aqueménida",
+		"Imperio aqueménida",
+		"Imperio aqueménida (Persia)",
+		"Imperio persa aqueménida"
+	],
+	"vinculos": [
+		{
+			"id": "babilonia",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "elam",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "lidia",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "media",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "macedonia",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "persia",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Primer gran imperio persa, fundado por Ciro el Grande hacia 550 a. C. tras someter a medos, lidios y babilonios. Con Darío I alcanzó su máxima extensión, del Egeo y Egipto al valle del Indo, organizado en satrapías, unido por caminos reales y un sistema de correos, y con capitales en Susa, Persépolis, Pasargada y Ecbatana. Fracasó en su intento de someter a los griegos (guerras médicas) y cayó ante Alejandro Magno en 330 a. C.",
+	"gobernantes": [
+		{
+			"nombre": "Ciro II el Grande",
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -559,
+			"hasta": -530
+		},
+		{
+			"nombre": "Darío I",
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -522,
+			"hasta": -486
+		},
+		{
+			"nombre": "Jerjes I",
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -486,
+			"hasta": -465
+		},
+		{
+			"nombre": "Artajerjes I",
+			"titulo": "Rey de reyes aqueménida",
+			"desde": -465,
+			"hasta": -424
+		},
+		{
+			"nombre": "Darío III",
+			"titulo": "Último rey aqueménida, vencido por Alejandro",
+			"desde": -336,
+			"hasta": -330
+		}
+	],
+	"poblacion": [
+		{
+			"anio": -480,
+			"valor": 25000000,
+			"fuente": "valor trasladado de la ficha persia (sin fuente propia; estimaciones habituales entre 17 y 35 millones)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio aqueménida",
+			"url": "https://es.wikipedia.org/wiki/Imperio_aquem%C3%A9nida",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Achaemenid Empire",
+			"url": "https://en.wikipedia.org/wiki/Achaemenid_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Medes",
+			"url": "https://en.wikipedia.org/wiki/Medes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

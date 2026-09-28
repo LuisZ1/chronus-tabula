@@ -14,18 +14,16 @@
 		},
 		{
 			"id": "ming",
-			"tipo": "sucesor"
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "yuan",
+			"tipo": "sucesor_territorial"
 		}
 	],
 	"gobernantes": [
 		{
-			"nombre": "Taizu (fundador)",
-			"titulo": "Emperador Song",
-			"desde": 960,
-			"hasta": 976
-		},
-		{
-			"nombre": "Zhao Kuangyin (emperador Taizu)",
+			"nombre": "Taizu (Zhao Kuangyin, fundador)",
 			"titulo": "Emperador Taizu, fundador de la dinastía Song",
 			"desde": 960,
 			"hasta": 976

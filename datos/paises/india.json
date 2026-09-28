@@ -2,11 +2,40 @@
 	"id": "india",
 	"nombre": "India",
 	"nombres": [
-		"India"
+		"India",
+		"British Raj"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Raj británico",
+			"desde": 1858,
+			"hasta": 1946
+		},
+		{
+			"nombre": "República de la India",
+			"desde": 1947,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:India",
 	"wikidata": "Q668",
 	"owid": "IND",
+	"vinculos": [
+		{
+			"id": "granbretana",
+			"tipo": "parte_de",
+			"desde": 1858,
+			"hasta": 1947
+		},
+		{
+			"id": "maratha",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "mogol",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "La India, oficialmente República de la India, es un país soberano ubicado en Asia del Sur. Con un estimado de más de 1 476 millones de habitantes, es el país más poblado del mundo desde el año 2023.",
 	"gobernantes": [
 		{
@@ -208,10 +237,9 @@
 			"hasta": 2017
 		},
 		{
-			"nombre": "Q1058",
+			"nombre": "Narendra Modi",
 			"cargo": "jefe de gobierno",
-			"desde": 2014,
-			"hasta": 2014
+			"desde": 2014
 		},
 		{
 			"nombre": "Ram Nath Kovind",
@@ -222,8 +250,7 @@
 		{
 			"nombre": "Draupadi Murmu",
 			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		}
 	],
 	"poblacion": [
@@ -645,10 +672,28 @@
 			"url": "https://www.wikidata.org/wiki/Q668",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Raj británico",
+			"url": "https://es.wikipedia.org/wiki/Raj_brit%C3%A1nico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Primer ministro de la India",
+			"url": "https://es.wikipedia.org/wiki/Primer_ministro_de_la_India",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "177d6f38b238",

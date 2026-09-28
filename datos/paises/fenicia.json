@@ -1,0 +1,23 @@
+{
+	"id": "fenicia",
+	"nombre": "Fenicia",
+	"nombres": [
+		"Phoenicia"
+	],
+	"wiki": "Fenicia",
+	"relacionados": [
+		"Fenicios",
+		"Tiro",
+		"Sidón",
+		"Biblos"
+	],
+	"resena": "Conjunto de ciudades-Estado cananeas de la costa del actual Líbano (Tiro, Sidón, Biblos, Arwad), con su apogeo entre c. 1200 y 332 a. C. Grandes navegantes y comerciantes, fundaron colonias por todo el Mediterráneo, entre ellas Cartago, y difundieron el alfabeto.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Phoenicia",
+			"url": "https://en.wikipedia.org/wiki/Phoenicia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

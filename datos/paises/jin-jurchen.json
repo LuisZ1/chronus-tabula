@@ -2,8 +2,7 @@
 	"id": "jin-jurchen",
 	"nombre": "Dinastía Jin (yurchen)",
 	"nombres": [
-		"Jin Empire",
-		"Jin"
+		"Jin Empire"
 	],
 	"wiki": "Dinastía Jin (1115-1234)",
 	"resena": "La dinastía Jin, también conocida como la dinastía Yurchen, fue fundada por los Waynan, clan de los yurchen, los antepasados de los manchúes que fundaron la dinastía Qing quinientos años más tarde. El nombre se escribe a veces como Jinn[cita requerida] para diferenciarlo de la anterior dinastía Jin cuyo nombre se translitera igual.",
@@ -13,6 +12,13 @@
 			"titulo": "Taizu; funda la dinastía Jin yurchen",
 			"desde": 1115,
 			"hasta": 1123
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 1186,
+			"valor": 53000000,
+			"fuente": "Wikipedia (en): Jin dynasty (1115–1234)"
 		}
 	],
 	"fuentes": [
@@ -27,10 +33,16 @@
 			"url": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Jin_(1115-1234)",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:Jin dynasty (1115–1234)",
+			"url": "https://en.wikipedia.org/wiki/Jin_dynasty_(1115%E2%80%931234)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "3d16c7354810",

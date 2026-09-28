@@ -3,7 +3,26 @@
 	"nombre": "Roma",
 	"nombres": [
 		"Rome",
-		"Roman Empire"
+		"Roman Empire",
+		"Roman Republic",
+		"Rome (Diocletianus)",
+		"Rome (Maximian)",
+		"Rome (Galerius)",
+		"Rome (Constantinus)"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "República romana",
+			"desde": -509,
+			"hasta": -28,
+			"wiki": "República romana"
+		},
+		{
+			"nombre": "Imperio romano",
+			"desde": -27,
+			"hasta": 395,
+			"wiki": "Imperio romano"
+		}
 	],
 	"relacionados": [
 		"Imperio romano de Oriente",
@@ -18,6 +37,10 @@
 		{
 			"id": "romaoccidente",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "etruscos",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Roma es una ciudad, capital de la región del Lacio y de Italia. Con una población de 2 857 321 habitantes, es el municipio más poblado de Italia y la tercera ciudad más poblada de la Unión Europea.",
@@ -209,10 +232,76 @@
 			"hasta": 244
 		},
 		{
+			"nombre": "Filipo el Árabe",
+			"titulo": "Emperador romano",
+			"desde": 244,
+			"hasta": 249
+		},
+		{
+			"nombre": "Decio",
+			"titulo": "Emperador romano; persecución de 250",
+			"desde": 249,
+			"hasta": 251
+		},
+		{
+			"nombre": "Valeriano",
+			"titulo": "Emperador; capturado por Sapor I en Edesa",
+			"desde": 253,
+			"hasta": 260
+		},
+		{
+			"nombre": "Claudio II el Gótico",
+			"titulo": "Emperador romano",
+			"desde": 268,
+			"hasta": 270
+		},
+		{
+			"nombre": "Aureliano",
+			"titulo": "Emperador; reunifica el Imperio (273-274)",
+			"desde": 270,
+			"hasta": 275
+		},
+		{
+			"nombre": "Diocleciano",
+			"titulo": "Emperador (augusto de Oriente); instaura la tetrarquía",
+			"desde": 284,
+			"hasta": 305
+		},
+		{
+			"nombre": "Maximiano",
+			"titulo": "Augusto de Occidente (tetrarquía)",
+			"desde": 286,
+			"hasta": 305
+		},
+		{
 			"nombre": "Constantino I el Grande",
 			"titulo": "Emperador romano",
 			"desde": 306,
 			"hasta": 337
+		},
+		{
+			"nombre": "Constancio II",
+			"titulo": "Emperador romano",
+			"desde": 337,
+			"hasta": 361
+		},
+		{
+			"nombre": "Juliano el Apóstata",
+			"titulo": "Emperador; muere en campaña contra Persia",
+			"desde": 360,
+			"hasta": 363
+		},
+		{
+			"nombre": "Valentiniano I",
+			"titulo": "Emperador (Occidente)",
+			"desde": 364,
+			"hasta": 375
+		},
+		{
+			"nombre": "Valente",
+			"titulo": "Emperador (Oriente); muere en Adrianópolis",
+			"desde": 364,
+			"hasta": 378
 		},
 		{
 			"nombre": "Teodosio I (último emperador de un imperio unido)",
@@ -246,10 +335,28 @@
 			"url": "https://es.wikipedia.org/wiki/Roma",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-es:Diocleciano",
+			"url": "https://es.wikipedia.org/wiki/Diocleciano",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Emperadores romanos",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Emperadores_romanos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Constantius II",
+			"url": "https://en.wikipedia.org/wiki/Constantius_II",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "ef39b2b841cf",

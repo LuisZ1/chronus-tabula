@@ -1,0 +1,36 @@
+{
+	"id": "transvaal",
+	"nombre": "República Sudafricana (Transvaal)",
+	"nombres": [
+		"Transvaal"
+	],
+	"wiki": "República de Sudáfrica (Transvaal)",
+	"vinculos": [
+		{
+			"id": "sudafrica",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Paul Kruger",
+			"titulo": "Presidente",
+			"desde": 1883,
+			"hasta": 1902
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:República de Sudáfrica (Transvaal)",
+			"url": "https://es.wikipedia.org/wiki/Transvaal",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:South African Republic",
+			"url": "https://en.wikipedia.org/wiki/South_African_Republic",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

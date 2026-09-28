@@ -1,0 +1,26 @@
+{
+	"id": "escitas",
+	"nombre": "Escitas",
+	"nombres": [
+		"Scythians"
+	],
+	"wiki": "Escitas",
+	"relacionados": [
+		"Escitia"
+	],
+	"resena": "Pueblo nómada iranio de jinetes que dominó la estepa póntica desde los siglos VIII-VII a. C.; entre c. 626 y 616 a. C. llegó en sus correrías hasta Palestina y desde c. 600 a. C. su centro de poder fue la estepa al norte del mar Negro.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Scythians",
+			"url": "https://en.wikipedia.org/wiki/Scythians",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Escitas",
+			"url": "https://es.wikipedia.org/wiki/Escitas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

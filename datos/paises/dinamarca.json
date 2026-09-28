@@ -1,0 +1,76 @@
+{
+	"id": "dinamarca",
+	"nombre": "Dinamarca / Dinamarca-Noruega",
+	"nombres": [
+		"Denmark-Norway",
+		"Denmark"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Dinamarca",
+			"desde": 1000,
+			"hasta": 1536
+		},
+		{
+			"nombre": "Dinamarca-Noruega",
+			"desde": 1537,
+			"hasta": 1814
+		},
+		{
+			"nombre": "Reino de Dinamarca",
+			"desde": 1814,
+			"hasta": 2026
+		}
+	],
+	"wikidata": "Q35",
+	"relacionados": [
+		"Dinamarca",
+		"Dinamarca-Noruega"
+	],
+	"vinculos": [
+		{
+			"id": "vikingos",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "noruega",
+			"tipo": "incluye",
+			"desde": 1537,
+			"hasta": 1814
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Cristián IV",
+			"titulo": "Rey de Dinamarca y Noruega",
+			"desde": 1588,
+			"hasta": 1648
+		},
+		{
+			"nombre": "Federico III",
+			"titulo": "Rey de Dinamarca y Noruega (instaura el absolutismo, 1660)",
+			"desde": 1648,
+			"hasta": 1670
+		},
+		{
+			"nombre": "Federico VI",
+			"titulo": "Rey de Dinamarca (y de Noruega hasta 1814)",
+			"desde": 1808,
+			"hasta": 1839
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Denmark–Norway",
+			"url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Norway",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Dinamarca-Noruega",
+			"url": "https://es.wikipedia.org/wiki/Dinamarca-Noruega",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

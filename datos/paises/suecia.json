@@ -6,8 +6,46 @@
 		"Sweden–Norway"
 	],
 	"owid": "Sweden",
+	"vinculos": [
+		{
+			"id": "noruega",
+			"tipo": "incluye",
+			"desde": 1814,
+			"hasta": 1905
+		}
+	],
 	"resena": "Suecia, oficialmente el Reino de Suecia, es un país escandinavo de Europa del Norte, constituido en estado social y democrático, con la monarquía parlamentaria como sistema de gobierno. Es uno de los veintisiete Estados soberanos que forman la Unión Europea.",
 	"gobernantes": [
+		{
+			"nombre": "Gustavo I Vasa",
+			"titulo": "Rey de Suecia (independencia de la Unión de Kalmar)",
+			"desde": 1523,
+			"hasta": 1560
+		},
+		{
+			"nombre": "Erico XIV",
+			"titulo": "Rey de Suecia",
+			"desde": 1560,
+			"hasta": 1568
+		},
+		{
+			"nombre": "Juan III",
+			"titulo": "Rey de Suecia",
+			"desde": 1568,
+			"hasta": 1592
+		},
+		{
+			"nombre": "Segismundo",
+			"titulo": "Rey de Suecia y de Polonia",
+			"desde": 1592,
+			"hasta": 1599
+		},
+		{
+			"nombre": "Carlos IX",
+			"titulo": "Regente y rey de Suecia",
+			"desde": 1599,
+			"hasta": 1611
+		},
 		{
 			"nombre": "Gustavo II Adolfo (el León del Norte)",
 			"titulo": "Rey de Suecia",
@@ -15,10 +53,64 @@
 			"hasta": 1632
 		},
 		{
+			"nombre": "Cristina",
+			"titulo": "Reina de Suecia",
+			"desde": 1632,
+			"hasta": 1654
+		},
+		{
+			"nombre": "Carlos X Gustavo",
+			"titulo": "Rey de Suecia",
+			"desde": 1654,
+			"hasta": 1660
+		},
+		{
+			"nombre": "Carlos XI",
+			"titulo": "Rey de Suecia",
+			"desde": 1660,
+			"hasta": 1697
+		},
+		{
 			"nombre": "Carlos XII",
 			"titulo": "Rey de Suecia",
 			"desde": 1697,
 			"hasta": 1718
+		},
+		{
+			"nombre": "Ulrica Leonor",
+			"titulo": "Reina de Suecia",
+			"desde": 1718,
+			"hasta": 1720
+		},
+		{
+			"nombre": "Federico I",
+			"titulo": "Rey de Suecia",
+			"desde": 1720,
+			"hasta": 1751
+		},
+		{
+			"nombre": "Adolfo Federico",
+			"titulo": "Rey de Suecia",
+			"desde": 1751,
+			"hasta": 1771
+		},
+		{
+			"nombre": "Gustavo III",
+			"titulo": "Rey de Suecia",
+			"desde": 1771,
+			"hasta": 1792
+		},
+		{
+			"nombre": "Gustavo IV Adolfo",
+			"titulo": "Rey de Suecia",
+			"desde": 1792,
+			"hasta": 1809
+		},
+		{
+			"nombre": "Carlos XIII",
+			"titulo": "Rey de Suecia (y de Noruega desde 1814)",
+			"desde": 1809,
+			"hasta": 1818
 		}
 	],
 	"poblacion": [
@@ -220,10 +312,22 @@
 			"url": "https://es.wikipedia.org/wiki/Suecia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of Swedish monarchs",
+			"url": "https://en.wikipedia.org/wiki/List_of_Swedish_monarchs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Monarcas de Suecia",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Monarcas_de_Suecia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "93d121ad122c",

@@ -27,7 +27,7 @@
 		{
 			"nombre": "Boabdil (Muhammad XII, último sultán)",
 			"titulo": "Sultán de Granada",
-			"desde": 1487,
+			"desde": 1482,
 			"hasta": 1492
 		}
 	],
@@ -48,10 +48,16 @@
 			"url": "https://es.wikipedia.org/wiki/Reino_nazar%C3%AD_de_Granada",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-es:Boabdil",
+			"url": "https://es.wikipedia.org/wiki/Boabdil",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "d81bcb97480c",

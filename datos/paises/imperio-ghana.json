@@ -1,0 +1,27 @@
+{
+	"id": "imperio-ghana",
+	"nombre": "Imperio de Ghana",
+	"nombres": [
+		"Empire of Ghana"
+	],
+	"wiki": "Imperio de Ghana",
+	"relacionados": [
+		"Uagadú",
+		"Wagadu"
+	],
+	"resena": "Reino soninké del Sahel occidental, en el sureste de la actual Mauritania y el oeste de Malí, con capital en Kumbi Saleh. Controló el comercio transahariano del oro hasta su declive en el s. XII y quedó vasallo de Malí a mediados del XIII. No tiene relación territorial con la actual Ghana, que tomó su nombre en 1957.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Ghana Empire",
+			"url": "https://en.wikipedia.org/wiki/Ghana_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio de Ghana",
+			"url": "https://es.wikipedia.org/wiki/Imperio_de_Ghana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

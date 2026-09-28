@@ -1,0 +1,23 @@
+{
+	"id": "zagwe",
+	"nombre": "Dinastía Zagüe",
+	"nombres": [
+		"Zagwe dynasty"
+	],
+	"wiki": "Dinastía Zagüe",
+	"vinculos": [
+		{
+			"id": "etiopia",
+			"tipo": "sucesor"
+		}
+	],
+	"resena": "Dinastía que gobernó el altiplano etíope entre c. 1137 (otros autores, c. 930) y 1270. Su rey Lalibela mandó excavar las iglesias monolíticas que llevan su nombre.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Zagwe dynasty",
+			"url": "https://en.wikipedia.org/wiki/Zagwe_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

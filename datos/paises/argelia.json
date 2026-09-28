@@ -4,9 +4,16 @@
 	"nombres": [
 		"Algeria",
 		"Algeria (France)",
-		"Algeria (FR)"
+		"Algeria (FR)",
+		"Algiers"
 	],
 	"nombres_periodo": [
+		{
+			"nombre": "Regencia de Argel",
+			"desde": 1516,
+			"hasta": 1829,
+			"wiki": "Regencia de Argel"
+		},
 		{
 			"nombre": "Argelia francesa",
 			"desde": 1830,
@@ -277,10 +284,16 @@
 			"url": "https://www.wikidata.org/wiki/Q262",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-es:Regencia de Argel",
+			"url": "https://es.wikipedia.org/wiki/Regencia_de_Argel",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "56f90bcc5062",

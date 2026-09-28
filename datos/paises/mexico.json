@@ -25,6 +25,48 @@
 	"resena": "México, oficialmente Estados Unidos Mexicanos, es un país soberano ubicado en la parte meridional de América del Norte; su capital y ciudad más poblada es la Ciudad de México. De acuerdo con la constitución vigente, su forma de gobierno consiste en una república representativa, democrática, laica y federal, compuesta por 32 entidades federativas.",
 	"gobernantes": [
 		{
+			"nombre": "Agustín de Iturbide",
+			"titulo": "Emperador de México",
+			"desde": 1822,
+			"hasta": 1823
+		},
+		{
+			"nombre": "Guadalupe Victoria",
+			"titulo": "Presidente",
+			"desde": 1824,
+			"hasta": 1829
+		},
+		{
+			"nombre": "Antonio López de Santa Anna",
+			"titulo": "Presidente (once mandatos intermitentes)",
+			"desde": 1833,
+			"hasta": 1855
+		},
+		{
+			"nombre": "Benito Juárez",
+			"titulo": "Presidente",
+			"desde": 1858,
+			"hasta": 1872
+		},
+		{
+			"nombre": "Maximiliano I",
+			"titulo": "Emperador de México (Segundo Imperio)",
+			"desde": 1864,
+			"hasta": 1867
+		},
+		{
+			"nombre": "Porfirio Díaz",
+			"titulo": "Presidente",
+			"desde": 1876,
+			"hasta": 1880
+		},
+		{
+			"nombre": "Porfirio Díaz",
+			"titulo": "Presidente (Porfiriato)",
+			"desde": 1884,
+			"hasta": 1911
+		},
+		{
 			"nombre": "Francisco I. Madero",
 			"cargo": "jefe de Estado",
 			"desde": 1911,
@@ -37,7 +79,7 @@
 			"hasta": 1914
 		},
 		{
-			"nombre": "Q313122",
+			"nombre": "Venustiano Carranza",
 			"cargo": "jefe de Estado",
 			"desde": 1917,
 			"hasta": 1920
@@ -127,19 +169,19 @@
 			"hasta": 1982
 		},
 		{
-			"nombre": "Q296691",
+			"nombre": "Miguel de la Madrid",
 			"cargo": "jefe de Estado",
 			"desde": 1982,
 			"hasta": 1988
 		},
 		{
-			"nombre": "Q315633",
+			"nombre": "Carlos Salinas de Gortari",
 			"cargo": "jefe de Estado",
 			"desde": 1988,
 			"hasta": 1994
 		},
 		{
-			"nombre": "Q298149",
+			"nombre": "Ernesto Zedillo",
 			"cargo": "jefe de Estado",
 			"desde": 1994,
 			"hasta": 2000
@@ -151,22 +193,27 @@
 			"hasta": 2006
 		},
 		{
-			"nombre": "Q296741",
+			"nombre": "Felipe Calderón",
+			"titulo": "Presidente",
+			"desde": 2006,
+			"hasta": 2012
+		},
+		{
+			"nombre": "Enrique Peña Nieto",
 			"cargo": "jefe de Estado",
 			"desde": 2012,
 			"hasta": 2018
 		},
 		{
-			"nombre": "Q318508",
+			"nombre": "Andrés Manuel López Obrador",
 			"cargo": "jefe de Estado",
 			"desde": 2018,
 			"hasta": 2024
 		},
 		{
-			"nombre": "Q5771800",
-			"cargo": "jefe de gobierno",
-			"desde": 2024,
-			"hasta": 2024
+			"nombre": "Claudia Sheinbaum",
+			"cargo": "jefe de Estado",
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -565,10 +612,22 @@
 			"url": "https://www.wikidata.org/wiki/Q96",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Presidente de México",
+			"url": "https://es.wikipedia.org/wiki/Presidente_de_M%C3%A9xico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c8f9a3cba03f",

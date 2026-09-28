@@ -2,7 +2,9 @@
 	"id": "suiza",
 	"nombre": "Suiza",
 	"nombres": [
-		"Switzerland"
+		"Switzerland",
+		"Swiss Confederation",
+		"Helvetic Republic"
 	],
 	"wiki": "es:Suiza",
 	"wikidata": "Q39",

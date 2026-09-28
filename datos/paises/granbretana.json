@@ -15,6 +15,18 @@
 		{
 			"id": "inglaterra",
 			"tipo": "predecesor"
+		},
+		{
+			"id": "irlanda",
+			"tipo": "incluye",
+			"desde": 1801,
+			"hasta": 1922
+		},
+		{
+			"id": "india",
+			"tipo": "incluye",
+			"desde": 1858,
+			"hasta": 1947
 		}
 	],
 	"resena": "El Reino Unido, oficialmente el Reino Unido de Gran Bretaña e Irlanda del Norte, es un país soberano e insular ubicado al noroeste de la Europa continental. Su territorio está formado geográficamente por la isla de Gran Bretaña, el noreste de la isla de Irlanda y pequeñas islas adyacentes.",
@@ -62,6 +74,30 @@
 			"hasta": 1901
 		},
 		{
+			"nombre": "Robert Peel",
+			"titulo": "Primer ministro",
+			"desde": 1841,
+			"hasta": 1846
+		},
+		{
+			"nombre": "William Gladstone",
+			"titulo": "Primer ministro",
+			"desde": 1868,
+			"hasta": 1874
+		},
+		{
+			"nombre": "Benjamin Disraeli",
+			"titulo": "Primer ministro",
+			"desde": 1874,
+			"hasta": 1880
+		},
+		{
+			"nombre": "William Gladstone",
+			"titulo": "Primer ministro",
+			"desde": 1880,
+			"hasta": 1885
+		},
+		{
 			"nombre": "Eduardo VII",
 			"titulo": "Rey del Reino Unido",
 			"desde": 1901,
@@ -74,22 +110,16 @@
 			"hasta": 1936
 		},
 		{
+			"nombre": "David Lloyd George",
+			"titulo": "Primer ministro",
+			"desde": 1916,
+			"hasta": 1922
+		},
+		{
 			"nombre": "Eduardo VIII",
 			"titulo": "Rey del Reino Unido",
 			"desde": 1936,
 			"hasta": 1936
-		},
-		{
-			"nombre": "Eduardo VIII del Reino Unido",
-			"cargo": "jefe de Estado",
-			"desde": 1936,
-			"hasta": 1936
-		},
-		{
-			"nombre": "Neville Chamberlain",
-			"cargo": "jefe de gobierno",
-			"desde": 1936,
-			"hasta": 1940
 		},
 		{
 			"nombre": "Jorge VI",
@@ -98,10 +128,10 @@
 			"hasta": 1952
 		},
 		{
-			"nombre": "Jorge VI del Reino Unido",
-			"cargo": "jefe de Estado",
-			"desde": 1936,
-			"hasta": 1952
+			"nombre": "Neville Chamberlain",
+			"cargo": "jefe de gobierno",
+			"desde": 1937,
+			"hasta": 1940
 		},
 		{
 			"nombre": "Winston Churchill",
@@ -124,12 +154,6 @@
 		{
 			"nombre": "Isabel II",
 			"titulo": "Reina del Reino Unido",
-			"desde": 1952,
-			"hasta": 2022
-		},
-		{
-			"nombre": "Isabel II del Reino Unido",
-			"cargo": "jefe de Estado",
 			"desde": 1952,
 			"hasta": 2022
 		},
@@ -176,7 +200,7 @@
 			"hasta": 1979
 		},
 		{
-			"nombre": "Q7416",
+			"nombre": "Margaret Thatcher",
 			"cargo": "jefe de gobierno",
 			"desde": 1979,
 			"hasta": 1990
@@ -194,13 +218,13 @@
 			"hasta": 2007
 		},
 		{
-			"nombre": "Q10648",
+			"nombre": "Gordon Brown",
 			"cargo": "jefe de gobierno",
 			"desde": 2007,
 			"hasta": 2010
 		},
 		{
-			"nombre": "Q192",
+			"nombre": "David Cameron",
 			"cargo": "jefe de gobierno",
 			"desde": 2010,
 			"hasta": 2016
@@ -218,19 +242,13 @@
 			"hasta": 2022
 		},
 		{
-			"nombre": "Carlos III del Reino Unido",
-			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
-		},
-		{
-			"nombre": "Q272201",
+			"nombre": "Liz Truss",
 			"cargo": "jefe de gobierno",
 			"desde": 2022,
 			"hasta": 2022
 		},
 		{
-			"nombre": "Q20055561",
+			"nombre": "Rishi Sunak",
 			"cargo": "jefe de gobierno",
 			"desde": 2022,
 			"hasta": 2024
@@ -245,12 +263,6 @@
 			"nombre": "Keir Starmer",
 			"cargo": "jefe de gobierno",
 			"desde": 2024,
-			"hasta": 2026
-		},
-		{
-			"nombre": "Andy Burnham",
-			"cargo": "jefe de gobierno",
-			"desde": 2026,
 			"hasta": 2026
 		}
 	],
@@ -642,10 +654,22 @@
 			"url": "https://www.wikidata.org/wiki/Q145",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Primeros ministros del Reino Unido",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Primeros_ministros_del_Reino_Unido",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Prime Minister of the United Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Prime_Minister_of_the_United_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "c77b131bfa3c",

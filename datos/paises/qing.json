@@ -2,7 +2,8 @@
 	"id": "qing",
 	"nombre": "Imperio Qing (China)",
 	"nombres": [
-		"Qing Empire"
+		"Qing Empire",
+		"Manchu Empire"
 	],
 	"relacionados": [
 		"Manchúes"
@@ -15,14 +16,36 @@
 		{
 			"id": "rpchina",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "taiwan",
+			"tipo": "sucesor"
 		}
 	],
 	"gobernantes": [
+		{
+			"nombre": "Hong Taiji",
+			"titulo": "Emperador Qing (proclama la dinastía, 1636)",
+			"desde": 1636,
+			"hasta": 1643
+		},
+		{
+			"nombre": "Shunzhi",
+			"titulo": "Emperador Qing (entrada en Pekín, 1644)",
+			"desde": 1644,
+			"hasta": 1661
+		},
 		{
 			"nombre": "Kangxi",
 			"titulo": "Emperador Qing",
 			"desde": 1661,
 			"hasta": 1722
+		},
+		{
+			"nombre": "Yongzheng",
+			"titulo": "Emperador Qing",
+			"desde": 1722,
+			"hasta": 1735
 		},
 		{
 			"nombre": "Qianlong",
@@ -31,9 +54,39 @@
 			"hasta": 1796
 		},
 		{
+			"nombre": "Jiaqing",
+			"titulo": "Emperador Qing",
+			"desde": 1796,
+			"hasta": 1820
+		},
+		{
+			"nombre": "Daoguang",
+			"titulo": "Emperador Qing",
+			"desde": 1820,
+			"hasta": 1850
+		},
+		{
+			"nombre": "Xianfeng",
+			"titulo": "Emperador Qing",
+			"desde": 1850,
+			"hasta": 1861
+		},
+		{
+			"nombre": "Tongzhi",
+			"titulo": "Emperador Qing",
+			"desde": 1861,
+			"hasta": 1875
+		},
+		{
 			"nombre": "Cixi (emperatriz regente)",
 			"titulo": "Regente",
 			"desde": 1861,
+			"hasta": 1908
+		},
+		{
+			"nombre": "Guangxu",
+			"titulo": "Emperador Qing",
+			"desde": 1875,
 			"hasta": 1908
 		},
 		{
@@ -58,6 +111,18 @@
 			"id": "wikipedia-es:Imperio Qing (China)",
 			"url": "https://es.wikipedia.org/wiki/Imperio_Qing_(China)",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-en:List of emperors of the Qing dynasty",
+			"url": "https://en.wikipedia.org/wiki/List_of_emperors_of_the_Qing_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Dinastía Qing",
+			"url": "https://es.wikipedia.org/wiki/Dinastía_Qing",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }
