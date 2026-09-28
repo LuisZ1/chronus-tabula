@@ -3,18 +3,23 @@
 	"nombre": "Vikingos (Escandinavia)",
 	"nombres": [
 		"Danes",
-		"Kingdom of Norway",
-		"Denmark-Norway",
-		"Denmark",
-		"Norway"
+		"Northmen"
 	],
 	"wiki": "Era vikinga",
 	"relacionados": [
-		"Dinamarca",
-		"Noruega",
 		"Danelaw",
 		"Normandos",
 		"Ducado de Normandía"
+	],
+	"vinculos": [
+		{
+			"id": "dinamarca",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "noruega",
+			"tipo": "sucesor"
+		}
 	],
 	"resena": "La época vikinga es el nombre dado al periodo histórico en Escandinavia y su área de influencia en Europa, tras la edad de hierro germánica, entre los años 793 y 1066, durante el cual los vikingos —guerreros y comerciantes escandinavos— atacaron y exploraron la mayor parte de Europa, del suroeste de Asia, de África y de Norteamérica nororiental.",
 	"gobernantes": [

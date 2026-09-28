@@ -2,7 +2,20 @@
 	"id": "italia",
 	"nombre": "Italia",
 	"nombres": [
-		"Italy"
+		"Italy",
+		"Kingfom of Italy"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Italia",
+			"desde": 1861,
+			"hasta": 1945
+		},
+		{
+			"nombre": "República Italiana",
+			"desde": 1946,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:Italia",
 	"wikidata": "Q38",
@@ -10,16 +23,40 @@
 	"resena": "Italia, oficialmente la República Italiana, es un país soberano ubicado en Europa meridional, y uno de los veintisiete Estados miembros de la Unión Europea. Está constituido en una república parlamentaria compuesta por veinte regiones, integradas a su vez por ciento diez provincias.",
 	"gobernantes": [
 		{
+			"nombre": "Víctor Manuel II",
+			"titulo": "Rey de Italia",
+			"desde": 1861,
+			"hasta": 1878
+		},
+		{
+			"nombre": "Humberto I",
+			"titulo": "Rey de Italia",
+			"desde": 1878,
+			"hasta": 1900
+		},
+		{
+			"nombre": "Víctor Manuel III",
+			"titulo": "Rey de Italia",
+			"desde": 1900,
+			"hasta": 1946
+		},
+		{
+			"nombre": "Benito Mussolini",
+			"titulo": "Presidente del Consejo (Duce)",
+			"desde": 1922,
+			"hasta": 1943
+		},
+		{
 			"nombre": "Alcide De Gasperi",
 			"cargo": "jefe de Estado",
 			"desde": 1946,
 			"hasta": 1946
 		},
 		{
-			"nombre": "Alcide De Gasperi",
-			"cargo": "jefe de gobierno",
+			"nombre": "Humberto II",
+			"titulo": "Rey de Italia",
 			"desde": 1946,
-			"hasta": 1947
+			"hasta": 1946
 		},
 		{
 			"nombre": "Enrico de Nicola",
@@ -30,44 +67,14 @@
 		{
 			"nombre": "Alcide De Gasperi",
 			"cargo": "jefe de gobierno",
-			"desde": 1947,
-			"hasta": 1947
-		},
-		{
-			"nombre": "Alcide De Gasperi",
-			"cargo": "jefe de gobierno",
-			"desde": 1947,
-			"hasta": 1948
-		},
-		{
-			"nombre": "Alcide De Gasperi",
-			"cargo": "jefe de gobierno",
-			"desde": 1948,
-			"hasta": 1950
+			"desde": 1946,
+			"hasta": 1953
 		},
 		{
 			"nombre": "Luigi Einaudi",
 			"cargo": "jefe de Estado",
 			"desde": 1948,
 			"hasta": 1955
-		},
-		{
-			"nombre": "Alcide De Gasperi",
-			"cargo": "jefe de gobierno",
-			"desde": 1950,
-			"hasta": 1951
-		},
-		{
-			"nombre": "Alcide De Gasperi",
-			"cargo": "jefe de gobierno",
-			"desde": 1951,
-			"hasta": 1953
-		},
-		{
-			"nombre": "Alcide De Gasperi",
-			"cargo": "jefe de gobierno",
-			"desde": 1953,
-			"hasta": 1953
 		},
 		{
 			"nombre": "Giuseppe Pella",
@@ -462,8 +469,7 @@
 		{
 			"nombre": "Sergio Mattarella",
 			"cargo": "jefe de Estado",
-			"desde": 2015,
-			"hasta": 2015
+			"desde": 2015
 		},
 		{
 			"nombre": "Paolo Gentiloni",
@@ -486,8 +492,7 @@
 		{
 			"nombre": "Giorgia Meloni",
 			"cargo": "jefe de gobierno",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		}
 	],
 	"poblacion": [
@@ -962,10 +967,22 @@
 			"url": "https://www.wikidata.org/wiki/Q38",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Reino de Italia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Italia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "97360df240ed",

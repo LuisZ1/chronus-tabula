@@ -1,0 +1,41 @@
+{
+	"id": "segundo-bulgaro",
+	"nombre": "Segundo Imperio búlgaro",
+	"nombres": [
+		"Second Bulgarian Empire"
+	],
+	"wiki": "Segundo Imperio búlgaro",
+	"vinculos": [
+		{
+			"id": "bulgaria-primer",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "otomano",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Estado búlgaro restaurado en 1185 por la revuelta de los hermanos Asen y Pedro contra Bizancio, con capital en Tarnovo. Dominó los Balcanes con Iván Asen II y cayó ante los otomanos (Tarnovo 1393, Vidin 1396).",
+	"gobernantes": [
+		{
+			"nombre": "Kaloyan",
+			"titulo": "Zar de Bulgaria",
+			"desde": 1197,
+			"hasta": 1207
+		},
+		{
+			"nombre": "Iván Asen II",
+			"titulo": "Zar de Bulgaria",
+			"desde": 1218,
+			"hasta": 1241
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Second Bulgarian Empire",
+			"url": "https://en.wikipedia.org/wiki/Second_Bulgarian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

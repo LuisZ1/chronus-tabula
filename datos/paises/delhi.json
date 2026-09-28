@@ -1,0 +1,47 @@
+{
+	"id": "delhi",
+	"nombre": "Sultanato de Delhi",
+	"nombres": [
+		"Sultanate of Delhi"
+	],
+	"wiki": "Sultanato de Delhi",
+	"vinculos": [
+		{
+			"id": "gurida",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "mogol",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Estado musulmán del norte de la India (1206-1526) gobernado por cinco dinastías sucesivas (mameluca, jalyí, tughlaq, sayyid y lodi). Alcanzó su máxima extensión a principios del s. XIV; Timur lo arrasó en 1398 y Babur puso fin a él en Panipat (1526).",
+	"gobernantes": [
+		{
+			"nombre": "Qutb ud-Din Aibak (fundador)",
+			"titulo": "Sultán de Delhi",
+			"desde": 1206,
+			"hasta": 1210
+		},
+		{
+			"nombre": "Alauddín Jalyí",
+			"titulo": "Sultán de Delhi",
+			"desde": 1296,
+			"hasta": 1316
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Delhi Sultanate",
+			"url": "https://en.wikipedia.org/wiki/Delhi_Sultanate",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Sultanato de Delhi",
+			"url": "https://es.wikipedia.org/wiki/Sultanato_de_Delhi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

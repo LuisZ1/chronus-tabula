@@ -8,6 +8,10 @@
 		{
 			"id": "roma",
 			"tipo": "predecesor"
+		},
+		{
+			"id": "vandalos",
+			"tipo": "sucesor_territorial"
 		}
 	],
 	"resena": "El Imperio romano de Occidente fue una entidad política de la Antigüedad que existió entre los años 286 y 476. Abarcaba el área occidental de Europa —al oeste de los ríos Rin y Drina—, buena parte de Gran Bretaña y la franja mediterránea de África, al norte del desierto del Sáhara hasta Libia.",

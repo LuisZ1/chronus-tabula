@@ -5,6 +5,12 @@
 		"Ghaznavid Emirate"
 	],
 	"wiki": "Imperio gaznávida",
+	"vinculos": [
+		{
+			"id": "gurida",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "Los gaznávidas o gaznavíes fueron una dinastía musulmana, de origen turco, fundada por el jefe samaní Sebük Tegin, que reinó desde finales del siglo X hasta finales del siglo XII, en un imperio constituido por las regiones de Jorasán, de Afganistán y Punyab, con capital en Gazni y luego, casi al final del régimen, en Lahore.",
 	"gobernantes": [
 		{

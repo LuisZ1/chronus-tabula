@@ -1,0 +1,60 @@
+{
+	"id": "zulu",
+	"nombre": "Reino zulú",
+	"nombres": [
+		"Zululand"
+	],
+	"wiki": "Reino zulú",
+	"vinculos": [
+		{
+			"id": "sudafrica",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Shaka",
+			"titulo": "Rey zulú",
+			"desde": 1816,
+			"hasta": 1828
+		},
+		{
+			"nombre": "Dingane",
+			"titulo": "Rey zulú",
+			"desde": 1828,
+			"hasta": 1840
+		},
+		{
+			"nombre": "Mpande",
+			"titulo": "Rey zulú",
+			"desde": 1840,
+			"hasta": 1872
+		},
+		{
+			"nombre": "Cetshwayo",
+			"titulo": "Rey zulú",
+			"desde": 1872,
+			"hasta": 1884
+		},
+		{
+			"nombre": "Dinuzulu",
+			"titulo": "Rey zulú",
+			"desde": 1884,
+			"hasta": 1887
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino zulú",
+			"url": "https://es.wikipedia.org/wiki/Reino_zul%C3%BA",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Zulu Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Zulu_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

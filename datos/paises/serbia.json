@@ -2,11 +2,18 @@
 	"id": "serbia",
 	"nombre": "Serbia",
 	"nombres": [
-		"Serbia"
+		"Serbia",
+		"Serbian Empire"
 	],
 	"wiki": "es:Serbia",
 	"wikidata": "Q403",
 	"owid": "SRB",
+	"vinculos": [
+		{
+			"id": "yugoslavia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Serbia, oficialmente República de Serbia (), es un país soberano, constituido en Estado social y democrático de derecho y cuya forma de gobierno es la república parlamentaria.",
 	"gobernantes": [
 		{
@@ -18,8 +25,7 @@
 		{
 			"nombre": "Djuro Macut",
 			"cargo": "jefe de gobierno",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -170,10 +176,16 @@
 			"url": "https://www.wikidata.org/wiki/Q403",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ce7b2bcfbd7e",

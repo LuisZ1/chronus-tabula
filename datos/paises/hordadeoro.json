@@ -5,6 +5,21 @@
 		"Golden Horde",
 		"Khanate of the Golden Horde"
 	],
+	"vinculos": [
+		{
+			"id": "kanato-crimea",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "mongol",
+			"tipo": "parte_de",
+			"hasta": 1260
+		},
+		{
+			"id": "rusia",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "La Horda de Oro u Horda Dorada —en tártaro: Алтын Урда, Altın Urda — fue un Estado mongol que abarcaba parte de las actuales Rusia, Ucrania y Kazajistán.",
 	"gobernantes": [
 		{

@@ -112,16 +112,22 @@
 			"hasta": 1700
 		},
 		{
-			"nombre": "Felipe V",
+			"nombre": "Felipe V (primer reinado)",
 			"titulo": "Rey de España",
 			"desde": 1700,
-			"hasta": 1746
+			"hasta": 1724
 		},
 		{
 			"nombre": "Luis I",
 			"titulo": "Rey de España (reinó unos meses)",
 			"desde": 1724,
 			"hasta": 1724
+		},
+		{
+			"nombre": "Felipe V (segundo reinado)",
+			"titulo": "Rey de España",
+			"desde": 1724,
+			"hasta": 1746
 		},
 		{
 			"nombre": "Fernando VI",
@@ -172,10 +178,22 @@
 			"hasta": 1843
 		},
 		{
+			"nombre": "Francisco Serrano",
+			"titulo": "Regente del Reino (Sexenio Democrático)",
+			"desde": 1869,
+			"hasta": 1871
+		},
+		{
 			"nombre": "Amadeo I",
 			"titulo": "Rey de España, de la casa de Saboya",
 			"desde": 1870,
 			"hasta": 1873
+		},
+		{
+			"nombre": "Primera República (Figueras, Pi y Margall, Salmerón, Castelar)",
+			"titulo": "Presidentes del Poder Ejecutivo",
+			"desde": 1873,
+			"hasta": 1874
 		},
 		{
 			"nombre": "Alfonso XII",
@@ -208,15 +226,9 @@
 			"hasta": 1939
 		},
 		{
-			"nombre": "Francisco Franco Bahamonde",
-			"cargo": "jefe de Estado",
-			"desde": 1936,
-			"hasta": 1975
-		},
-		{
 			"nombre": "Francisco Franco",
-			"titulo": "Jefe del Estado",
-			"desde": 1939,
+			"titulo": "Jefe del Estado (bando sublevado desde 1936)",
+			"desde": 1936,
 			"hasta": 1975
 		},
 		{
@@ -232,20 +244,8 @@
 			"hasta": 1981
 		},
 		{
-			"nombre": "Q214367",
-			"cargo": "jefe de gobierno",
-			"desde": 1976,
-			"hasta": 1981
-		},
-		{
 			"nombre": "Leopoldo Calvo-Sotelo",
 			"titulo": "Presidente del Gobierno",
-			"desde": 1981,
-			"hasta": 1982
-		},
-		{
-			"nombre": "Leopoldo Calvo-Sotelo Bustelo",
-			"cargo": "jefe de gobierno",
 			"desde": 1981,
 			"hasta": 1982
 		},
@@ -276,8 +276,7 @@
 		{
 			"nombre": "Felipe VI",
 			"titulo": "Rey de España",
-			"desde": 2014,
-			"hasta": 2100
+			"desde": 2014
 		},
 		{
 			"nombre": "Pedro Sánchez",
@@ -582,10 +581,16 @@
 			"url": "https://www.wikidata.org/wiki/Q29",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Sexenio Democrático",
+			"url": "https://es.wikipedia.org/wiki/Sexenio_Democrático",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "5baa1248472c",

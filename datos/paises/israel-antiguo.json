@@ -1,0 +1,48 @@
+{
+	"id": "israel-antiguo",
+	"nombre": "Reinos de Israel y Judá",
+	"nombres": [
+		"Kingdom of David and Solomon",
+		"Kingdom of Israel",
+		"Judah"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Monarquía unida (según la Biblia)",
+			"desde": -1047,
+			"hasta": -931
+		},
+		{
+			"nombre": "Reinos de Israel y Judá",
+			"desde": -930,
+			"hasta": -723
+		},
+		{
+			"nombre": "Reino de Judá",
+			"desde": -722,
+			"hasta": -586
+		}
+	],
+	"wiki": "Reino de Israel (monarquía unida)",
+	"relacionados": [
+		"Reino de Judá",
+		"Reino de Israel",
+		"Reino de David y Salomón",
+		"Monarquía unida de Israel"
+	],
+	"resena": "Según la Biblia, Saúl, David y Salomón reinaron sobre un Estado unido (c. 1047-931 a. C.) que se dividió en los reinos de Israel y Judá hacia 930 a. C.; la existencia y la extensión de esa monarquía unida se discuten entre historiadores y arqueólogos. Israel cayó ante Asiria en 722 a. C. y Judá ante Babilonia en 586 a. C.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:United Monarchy",
+			"url": "https://en.wikipedia.org/wiki/United_Monarchy",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Reino de Israel (monarquía unida)",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Israel_(monarqu%C3%ADa_unida)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

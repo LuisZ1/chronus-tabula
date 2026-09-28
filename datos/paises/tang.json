@@ -19,14 +19,14 @@
 	],
 	"gobernantes": [
 		{
-			"nombre": "Li Shimin (emperador Taizong)",
-			"titulo": "Emperador Taizong, artífice de la era próspera de Zhenguan",
-			"desde": 626,
-			"hasta": 649
+			"nombre": "Gaozu (Li Yuan, fundador)",
+			"titulo": "Emperador de China",
+			"desde": 618,
+			"hasta": 626
 		},
 		{
-			"nombre": "Taizong",
-			"titulo": "Emperador Tang",
+			"nombre": "Taizong (Li Shimin)",
+			"titulo": "Emperador Taizong, artífice de la era próspera de Zhenguan",
 			"desde": 626,
 			"hasta": 649
 		},
@@ -37,14 +37,8 @@
 			"hasta": 705
 		},
 		{
-			"nombre": "Emperador Xuanzong (Li Longji)",
+			"nombre": "Xuanzong (Li Longji)",
 			"titulo": "Emperador Xuanzong, apogeo y crisis (rebelión de An Lushan)",
-			"desde": 712,
-			"hasta": 756
-		},
-		{
-			"nombre": "Xuanzong",
-			"titulo": "Emperador Tang",
 			"desde": 712,
 			"hasta": 756
 		}
@@ -60,6 +54,12 @@
 			"id": "wikipedia-es:Imperio Tang (China)",
 			"url": "https://es.wikipedia.org/wiki/Imperio_Tang_(China)",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-en:Tang dynasty",
+			"url": "https://en.wikipedia.org/wiki/Tang_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

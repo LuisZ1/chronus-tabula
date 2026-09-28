@@ -1,0 +1,71 @@
+{
+	"id": "vandalos",
+	"nombre": "Reino vándalo",
+	"nombres": [
+		"Vandals"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de los vándalos y alanos",
+			"desde": 439,
+			"hasta": 534
+		}
+	],
+	"wiki": "Reino vándalo",
+	"relacionados": [
+		"Vándalos",
+		"Reino vándalo",
+		"Reino de los vándalos y alanos"
+	],
+	"vinculos": [
+		{
+			"id": "romaoccidente",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "bizancio",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino fundado por Genserico, que en 429 pasó con vándalos y alanos de Hispania a África, tomó Cartago en 439 y obtuvo el reconocimiento imperial en 442. Con su flota dominó el Mediterráneo occidental (Baleares, Córcega, Cerdeña, Sicilia) y saqueó Roma en 455. Justiniano lo conquistó en 533-534, con Belisario, tras vencer a Gelimer.",
+	"gobernantes": [
+		{
+			"nombre": "Genserico",
+			"titulo": "Rey de los vándalos y alanos",
+			"desde": 428,
+			"hasta": 477
+		},
+		{
+			"nombre": "Hunerico",
+			"titulo": "Rey de los vándalos",
+			"desde": 477,
+			"hasta": 484
+		},
+		{
+			"nombre": "Trasamundo",
+			"titulo": "Rey de los vándalos",
+			"desde": 496,
+			"hasta": 523
+		},
+		{
+			"nombre": "Gelimer",
+			"titulo": "Último rey de los vándalos",
+			"desde": 530,
+			"hasta": 534
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino vándalo",
+			"url": "https://es.wikipedia.org/wiki/Reino_v%C3%A1ndalo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Vandal Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Vandal_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

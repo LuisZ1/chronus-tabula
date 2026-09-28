@@ -11,10 +11,21 @@
 		{
 			"id": "alemania",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "sacroimperio",
+			"tipo": "parte_de",
+			"hasta": 1806
 		}
 	],
 	"resena": "Prusia fue un Estado del mar Báltico, situado en la llanura nordeuropea entre Pomerania, Polonia y Lituania que existió desde finales de la Edad Media, a partir de la secularización en 1525 de la parte prusiana del Estado de la Orden Teutónica.",
 	"gobernantes": [
+		{
+			"nombre": "Alberto de Brandeburgo-Ansbach",
+			"titulo": "Duque de Prusia",
+			"desde": 1525,
+			"hasta": 1568
+		},
 		{
 			"nombre": "Federico Guillermo, el Gran Elector",
 			"titulo": "Elector de Brandeburgo",
@@ -22,10 +33,40 @@
 			"hasta": 1688
 		},
 		{
+			"nombre": "Federico I",
+			"titulo": "Rey en Prusia (primer rey)",
+			"desde": 1701,
+			"hasta": 1713
+		},
+		{
+			"nombre": "Federico Guillermo I, el Rey Sargento",
+			"titulo": "Rey en Prusia",
+			"desde": 1713,
+			"hasta": 1740
+		},
+		{
 			"nombre": "Federico II el Grande",
 			"titulo": "Rey de Prusia",
 			"desde": 1740,
 			"hasta": 1786
+		},
+		{
+			"nombre": "Federico Guillermo II",
+			"titulo": "Rey de Prusia",
+			"desde": 1786,
+			"hasta": 1797
+		},
+		{
+			"nombre": "Federico Guillermo III",
+			"titulo": "Rey de Prusia",
+			"desde": 1797,
+			"hasta": 1840
+		},
+		{
+			"nombre": "Federico Guillermo IV",
+			"titulo": "Rey de Prusia",
+			"desde": 1840,
+			"hasta": 1861
 		},
 		{
 			"nombre": "Guillermo I (con Bismarck de canciller)",
@@ -38,6 +79,11 @@
 		{
 			"anio": 1786,
 			"valor": 5400000
+		},
+		{
+			"anio": 1816,
+			"valor": 10349000,
+			"fuente": "Wikipedia (en): Prussia"
 		},
 		{
 			"anio": 1871,
@@ -55,10 +101,28 @@
 			"url": "https://es.wikipedia.org/wiki/Prusia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of monarchs of Prussia",
+			"url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Prussia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Reino de Prusia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Prusia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Prussia",
+			"url": "https://en.wikipedia.org/wiki/Prussia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "464a93a1bfa4",

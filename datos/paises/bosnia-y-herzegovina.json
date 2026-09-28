@@ -8,6 +8,12 @@
 	"wiki": "es:Bosnia y Herzegovina",
 	"wikidata": "Q225",
 	"owid": "BIH",
+	"vinculos": [
+		{
+			"id": "yugoslavia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Bosnia y Herzegovina, comúnmente llamada Bosnia-Herzegovina, o simplemente Bosnia, es un país soberano europeo, con capital en Sarajevo, situado en la confluencia de Europa Central y del sudeste europeo, y que limita con Croacia, al norte, oeste y sur; con Serbia al este; con Montenegro al este y al sur, y con el mar Adriático al suroeste a lo largo de 21,2…",
 	"gobernantes": [
 		{
@@ -277,26 +283,22 @@
 		{
 			"nombre": "Borjana Krišto",
 			"cargo": "jefe de gobierno",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		},
 		{
 			"nombre": "Denis Bećirović",
 			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		},
 		{
 			"nombre": "Željka Cvijanović",
 			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		},
 		{
 			"nombre": "Željko Komšić",
 			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		}
 	],
 	"poblacion": [
@@ -754,10 +756,16 @@
 			"url": "https://www.wikidata.org/wiki/Q225",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "f4b518396b22",

@@ -1,0 +1,48 @@
+{
+	"id": "media",
+	"nombre": "Reino medo",
+	"nombres": [
+		"Medes"
+	],
+	"wiki": "Imperio medo",
+	"relacionados": [
+		"Media",
+		"Medos",
+		"Imperio medo"
+	],
+	"vinculos": [
+		{
+			"id": "aquemenida",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino de los medos, en el oeste de la meseta irania, con capital en Ecbatana. Con Ciaxares (624-585 a. C.) se alió con Babilonia para destruir Asiria y llegó hasta el río Halys, aunque la extensión real de su dominio es discutida. Ciro II lo conquistó en 550 a. C.",
+	"gobernantes": [
+		{
+			"nombre": "Ciaxares",
+			"titulo": "Rey de los medos",
+			"desde": -624,
+			"hasta": -585
+		},
+		{
+			"nombre": "Astiages",
+			"titulo": "Último rey de los medos",
+			"desde": -585,
+			"hasta": -550
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Medes",
+			"url": "https://en.wikipedia.org/wiki/Medes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Astyages",
+			"url": "https://en.wikipedia.org/wiki/Astyages",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

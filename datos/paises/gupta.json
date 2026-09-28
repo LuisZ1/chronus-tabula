@@ -1,0 +1,66 @@
+{
+	"id": "gupta",
+	"nombre": "Imperio Gupta",
+	"nombres": [
+		"Gupta Empire"
+	],
+	"wiki": "Imperio Gupta",
+	"relacionados": [
+		"Imperio Gupta",
+		"Guptas"
+	],
+	"resena": "Imperio del norte de la India fundado por Chandragupta I, coronado en Pataliputra hacia 320. Samudragupta y Chandragupta II lo extendieron por la llanura del Ganges y derrotaron a los sakas del oeste. Su época se considera la edad de oro de la India clásica, con avances en matemáticas y astronomía, literatura sánscrita y la fundación de la universidad de Nalanda. Las invasiones heftalitas desde mediados del s. V aceleraron su declive, y desapareció hacia 550.",
+	"gobernantes": [
+		{
+			"nombre": "Chandragupta I",
+			"titulo": "Maharajadhiraja, fundador",
+			"desde": 320,
+			"hasta": 335
+		},
+		{
+			"nombre": "Samudragupta",
+			"titulo": "Emperador gupta",
+			"desde": 335,
+			"hasta": 375
+		},
+		{
+			"nombre": "Chandragupta II",
+			"titulo": "Emperador gupta; apogeo",
+			"desde": 375,
+			"hasta": 415
+		},
+		{
+			"nombre": "Kumaragupta I",
+			"titulo": "Emperador gupta; fundación de Nalanda",
+			"desde": 415,
+			"hasta": 455
+		},
+		{
+			"nombre": "Skandagupta",
+			"titulo": "Emperador gupta; frena a los heftalitas",
+			"desde": 455,
+			"hasta": 467
+		}
+	],
+	"poblacion": [
+		{
+			"anio": 400,
+			"valor": 75000000,
+			"fuente": "en.wikipedia 'Gupta Empire' (~75 millones en el s. V)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio Gupta",
+			"url": "https://es.wikipedia.org/wiki/Imperio_Gupta",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Gupta Empire",
+			"url": "https://en.wikipedia.org/wiki/Gupta_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

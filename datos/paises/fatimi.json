@@ -5,6 +5,12 @@
 		"Fatimid Caliphate"
 	],
 	"wiki": "Califato fatimí",
+	"vinculos": [
+		{
+			"id": "ayubi",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "El Califato fatimí fue el cuarto califato islámico, existente entre los siglos X y XII, bajo el gobierno de los fatimíes. Fue así el único califato chií de toda la historia —ismailita, concretamente—.",
 	"gobernantes": [
 		{

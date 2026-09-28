@@ -1,0 +1,43 @@
+{
+	"id": "manchukuo",
+	"nombre": "Manchukuo",
+	"nombres": [
+		"Manchuria"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Manchuria (República de China)",
+			"desde": 1912,
+			"hasta": 1931
+		},
+		{
+			"nombre": "Manchukuo (Estado títere japonés)",
+			"desde": 1932,
+			"hasta": 1945
+		}
+	],
+	"wiki": "Manchukuo",
+	"resena": "Manchuria, región del noreste de China. Tras el incidente de Mukden (1931), Japón la ocupó y en 1932 creó el Estado de Manchukuo, formalmente independiente pero bajo control japonés, con Puyi como jefe del Ejecutivo y emperador desde 1934. Desapareció con la invasión soviética de 1945.",
+	"gobernantes": [
+		{
+			"nombre": "Puyi",
+			"titulo": "Jefe del Ejecutivo; emperador desde 1934",
+			"desde": 1932,
+			"hasta": 1945
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Manchukuo",
+			"url": "https://es.wikipedia.org/wiki/Manchukuo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Manchukuo",
+			"url": "https://en.wikipedia.org/wiki/Manchukuo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

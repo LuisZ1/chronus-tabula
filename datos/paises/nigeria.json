@@ -21,6 +21,16 @@
 	"relacionados": [
 		"República Federal de Nigeria"
 	],
+	"vinculos": [
+		{
+			"id": "reino-benin",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "sokoto",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Nigeria, oficialmente República Federal de Nigeria, es un país de África occidental, que limita con Níger al norte, con Chad en el nordeste, con Camerún en el este y con Benín en el oeste. Su costa sur está localizada en el golfo de Guinea en el océano Atlántico.",
 	"gobernantes": [
 		{

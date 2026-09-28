@@ -1,0 +1,34 @@
+{
+	"id": "urartu",
+	"nombre": "Urartu",
+	"nombres": [
+		"Urartu"
+	],
+	"wiki": "Urartu",
+	"relacionados": [
+		"Reino de Van"
+	],
+	"resena": "Reino de la meseta armenia en torno al lago Van, formado hacia 860 a. C. (Arame). Rival de Asiria en los siglos IX-VII a. C., cayó ante los medos hacia 590 a. C. (según otros autores, a mediados del siglo VI).",
+	"gobernantes": [
+		{
+			"nombre": "Arame",
+			"titulo": "Rey de Urartu",
+			"desde": -858,
+			"hasta": -844
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Urartu",
+			"url": "https://en.wikipedia.org/wiki/Urartu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Urartu",
+			"url": "https://es.wikipedia.org/wiki/Urartu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

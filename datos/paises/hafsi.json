@@ -1,0 +1,32 @@
+{
+	"id": "hafsi",
+	"nombre": "Sultanato hafsí",
+	"nombres": [
+		"Hafsid Caliphate"
+	],
+	"wiki": "Hafsíes",
+	"relacionados": [
+		"Hafsíes"
+	],
+	"vinculos": [
+		{
+			"id": "almohade",
+			"tipo": "antecesor_territorial"
+		}
+	],
+	"resena": "Dinastía bereber que gobernó Ifriqiya (Túnez y el este de Argelia) desde su separación del imperio almohade en 1229 hasta la conquista otomana de 1574.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Hafsid dynasty",
+			"url": "https://en.wikipedia.org/wiki/Hafsid_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Hafsíes",
+			"url": "https://es.wikipedia.org/wiki/Hafsíes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

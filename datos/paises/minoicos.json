@@ -1,0 +1,27 @@
+{
+	"id": "minoicos",
+	"nombre": "Civilización minoica",
+	"nombres": [
+		"Minoan"
+	],
+	"wiki": "Civilización minoica",
+	"relacionados": [
+		"Creta minoica",
+		"Cnosos"
+	],
+	"resena": "Civilización de la Edad del Bronce en Creta (c. 3100-1100 a. C.). Construyó palacios como Cnosos, Festo y Malia desde c. 2100 a. C. y dominó el comercio egeo; hacia 1450 a. C. pasó a manos de una élite micénica.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Minoan civilization",
+			"url": "https://en.wikipedia.org/wiki/Minoan_civilization",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Civilización minoica",
+			"url": "https://es.wikipedia.org/wiki/Civilización_minoica",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

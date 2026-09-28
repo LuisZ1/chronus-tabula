@@ -1,0 +1,27 @@
+{
+	"id": "frigia",
+	"nombre": "Frigia",
+	"nombres": [
+		"Phrygians"
+	],
+	"wiki": "Frigia",
+	"relacionados": [
+		"Frigios",
+		"Reino de Frigia"
+	],
+	"resena": "Reino de Anatolia central con capital en Gordion. Alcanzó su apogeo a finales del siglo VIII a. C. con el rey Midas y fue destruido por los cimerios hacia 675 a. C.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Phrygia",
+			"url": "https://en.wikipedia.org/wiki/Phrygia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Frigia",
+			"url": "https://es.wikipedia.org/wiki/Frigia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -6,6 +6,12 @@
 	],
 	"wiki": "Imperio songhai",
 	"wikidata": "Q206789",
+	"vinculos": [
+		{
+			"id": "mali",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "El Imperio songhai, también conocido como el Imperio songai, fue un Estado ubicado en África Occidental. Desde comienzo del siglo XV hasta finales del siglo XVI, Songhai fue uno de los mayores imperios islámicos de la historia.",
 	"gobernantes": [
 		{

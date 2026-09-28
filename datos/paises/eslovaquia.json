@@ -7,6 +7,12 @@
 	"wiki": "es:Eslovaquia",
 	"wikidata": "Q214",
 	"owid": "SVK",
+	"vinculos": [
+		{
+			"id": "checoslovaquia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Eslovaquia, oficialmente República Eslovaca, es uno de los veintisiete Estados soberanos que forman la Unión Europea. Situado en Europa Central, es un Estado sin salida al mar.",
 	"gobernantes": [
 		{
@@ -100,22 +106,20 @@
 			"hasta": 2023
 		},
 		{
-			"nombre": "Robert Fico",
-			"cargo": "jefe de gobierno",
-			"desde": 2023,
-			"hasta": 2023
-		},
-		{
 			"nombre": "Ľudovít Ódor",
 			"cargo": "jefe de gobierno",
 			"desde": 2023,
 			"hasta": 2023
 		},
 		{
+			"nombre": "Robert Fico",
+			"cargo": "jefe de gobierno",
+			"desde": 2023
+		},
+		{
 			"nombre": "Peter Pellegrini",
 			"cargo": "jefe de Estado",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -429,10 +433,16 @@
 			"url": "https://www.wikidata.org/wiki/Q214",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "1c604a71e701",

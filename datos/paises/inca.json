@@ -21,6 +21,12 @@
 			"hasta": 1471
 		},
 		{
+			"nombre": "Túpac Yupanqui (conquista del reino Chimú)",
+			"titulo": "Sapa Inca",
+			"desde": 1471,
+			"hasta": 1493
+		},
+		{
 			"nombre": "Huayna Cápac",
 			"titulo": "Sapa Inca",
 			"desde": 1493,
@@ -44,6 +50,12 @@
 			"id": "wikipedia-es:Imperio inca (Tahuantinsuyo)",
 			"url": "https://es.wikipedia.org/wiki/Imperio_inca_(Tahuantinsuyo)",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-en:Inca Empire",
+			"url": "https://en.wikipedia.org/wiki/Inca_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

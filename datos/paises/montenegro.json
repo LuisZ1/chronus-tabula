@@ -7,6 +7,12 @@
 	"wiki": "es:Montenegro",
 	"wikidata": "Q236",
 	"owid": "MNE",
+	"vinculos": [
+		{
+			"id": "yugoslavia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Montenegro es un país del sureste de Europa situado en la península balcánica, que cuenta con casi 300 km de costa a orillas del mar Adriático. Limita por el norte con Bosnia y Herzegovina y Serbia; Albania por el sur; Croacia por el oeste; y con Kosovo por el este.",
 	"gobernantes": [
 		{
@@ -96,14 +102,12 @@
 		{
 			"nombre": "Jakov Milatović",
 			"cargo": "jefe de Estado",
-			"desde": 2023,
-			"hasta": 2023
+			"desde": 2023
 		},
 		{
 			"nombre": "Milojko Spajić",
 			"cargo": "jefe de gobierno",
-			"desde": 2023,
-			"hasta": 2023
+			"desde": 2023
 		}
 	],
 	"poblacion": [
@@ -272,10 +276,16 @@
 			"url": "https://www.wikidata.org/wiki/Q236",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "4358e0c54374",

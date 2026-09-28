@@ -4,7 +4,8 @@
 	"nombres": [
 		"Poland",
 		"Poland-Lithuania",
-		"Poland-Llituania"
+		"Poland-Llituania",
+		"Polish–Lithuanian Commonwealth"
 	],
 	"owid": "Poland",
 	"relacionados": [
@@ -13,10 +14,40 @@
 	"resena": "Polonia, oficialmente la República de Polonia, es un país de Europa Central, uno de los veintisiete Estados soberanos que forman la Unión Europea, constituido en Estado democrático de derecho y cuya forma de gobierno es la república parlamentaria. Es un Estado unitario con 16 subdivisiones o regiones administrativas denominadas voivodatos.",
 	"gobernantes": [
 		{
+			"nombre": "Mieszko I (bautismo de Polonia, 966)",
+			"titulo": "Duque de los polanos",
+			"desde": 960,
+			"hasta": 992
+		},
+		{
+			"nombre": "Boleslao I el Bravo (rey en 1025)",
+			"titulo": "Duque y rey de Polonia",
+			"desde": 992,
+			"hasta": 1025
+		},
+		{
+			"nombre": "Ladislao I el Breve",
+			"titulo": "Rey de Polonia",
+			"desde": 1320,
+			"hasta": 1333
+		},
+		{
 			"nombre": "Casimiro III el Grande",
 			"titulo": "Rey de Polonia",
 			"desde": 1333,
 			"hasta": 1370
+		},
+		{
+			"nombre": "Ladislao II Jagellón (vencedor en Grunwald)",
+			"titulo": "Rey de Polonia",
+			"desde": 1386,
+			"hasta": 1434
+		},
+		{
+			"nombre": "Casimiro IV Jagellón",
+			"titulo": "Rey de Polonia y gran duque de Lituania",
+			"desde": 1447,
+			"hasta": 1492
 		},
 		{
 			"nombre": "Segismundo II Augusto",
@@ -29,6 +60,18 @@
 			"titulo": "Rey de Polonia",
 			"desde": 1674,
 			"hasta": 1696
+		},
+		{
+			"nombre": "Józef Piłsudski",
+			"titulo": "Jefe del Estado",
+			"desde": 1918,
+			"hasta": 1922
+		},
+		{
+			"nombre": "Lech Wałęsa",
+			"titulo": "Presidente",
+			"desde": 1990,
+			"hasta": 1995
 		}
 	],
 	"poblacion": [
@@ -137,12 +180,19 @@
 			"valor": 4000000
 		},
 		{
-			"anio": 1600,
-			"valor": 5000000
+			"anio": 1582,
+			"valor": 8000000,
+			"fuente": "Wikipedia (en): Polish–Lithuanian Commonwealth"
+		},
+		{
+			"anio": 1618,
+			"valor": 12000000,
+			"fuente": "Wikipedia (en): Polish–Lithuanian Commonwealth"
 		},
 		{
 			"anio": 1700,
-			"valor": 6000000
+			"valor": 8000000,
+			"fuente": "Wikipedia (en): Polish–Lithuanian Commonwealth"
 		},
 		{
 			"anio": 1750,
@@ -230,10 +280,28 @@
 			"url": "https://es.wikipedia.org/wiki/Polonia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of Polish monarchs",
+			"url": "https://en.wikipedia.org/wiki/List_of_Polish_monarchs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Segunda República Polaca",
+			"url": "https://es.wikipedia.org/wiki/Segunda_República_Polaca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Polish–Lithuanian Commonwealth",
+			"url": "https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_Commonwealth",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "f4144616556a",

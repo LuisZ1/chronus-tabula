@@ -1,0 +1,26 @@
+{
+	"id": "olmecas",
+	"nombre": "Olmecas",
+	"nombres": [
+		"Olmec"
+	],
+	"wiki": "Olmeca",
+	"relacionados": [
+		"Cultura olmeca"
+	],
+	"resena": "Primera gran civilización de Mesoamérica, en la costa del golfo de México (c. 1600/1200-400 a. C.). Sus centros fueron San Lorenzo (c. 1200-900 a. C.) y La Venta (c. 900-400 a. C.), conocidos por sus cabezas colosales.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Olmecs",
+			"url": "https://en.wikipedia.org/wiki/Olmecs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Olmeca",
+			"url": "https://es.wikipedia.org/wiki/Olmeca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

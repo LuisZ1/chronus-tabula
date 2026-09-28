@@ -24,6 +24,30 @@
 			"hasta": 1440
 		},
 		{
+			"nombre": "Moctezuma I Ilhuicamina",
+			"titulo": "Huey tlatoani de Tenochtitlan",
+			"desde": 1440,
+			"hasta": 1469
+		},
+		{
+			"nombre": "Axayácatl",
+			"titulo": "Huey tlatoani de Tenochtitlan",
+			"desde": 1469,
+			"hasta": 1481
+		},
+		{
+			"nombre": "Tízoc",
+			"titulo": "Huey tlatoani de Tenochtitlan",
+			"desde": 1481,
+			"hasta": 1486
+		},
+		{
+			"nombre": "Ahuízotl",
+			"titulo": "Huey tlatoani de Tenochtitlan",
+			"desde": 1486,
+			"hasta": 1502
+		},
+		{
 			"nombre": "Moctezuma II",
 			"titulo": "Tlatoani a la llegada de Cortés",
 			"desde": 1502,
@@ -54,10 +78,16 @@
 			"url": "https://es.wikipedia.org/wiki/Imperio_azteca",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:Aztec Empire",
+			"url": "https://en.wikipedia.org/wiki/Aztec_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "b4f12ff51adc",

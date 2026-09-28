@@ -10,6 +10,12 @@
 	"relacionados": [
 		"Republica de Eslovenia"
 	],
+	"vinculos": [
+		{
+			"id": "yugoslavia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "Eslovenia, cuyo nombre oficial es República de Eslovenia es un país ubicado en Europa Central, siendo uno de los veintisiete Estados soberanos que forman la Unión Europea. Limita con Italia al oeste; con el mar Adriático, al suroeste; con Croacia al sur y al este; con Hungría, al noreste; y con Austria, al norte.",
 	"gobernantes": [
 		{
@@ -61,22 +67,20 @@
 			"hasta": 2022
 		},
 		{
-			"nombre": "Nataša Pirc Musar",
-			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
-		},
-		{
 			"nombre": "Robert Golob",
 			"cargo": "jefe de gobierno",
 			"desde": 2022,
 			"hasta": 2026
 		},
 		{
+			"nombre": "Nataša Pirc Musar",
+			"cargo": "jefe de Estado",
+			"desde": 2022
+		},
+		{
 			"nombre": "Janez Janša",
 			"cargo": "jefe de gobierno",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -360,10 +364,16 @@
 			"url": "https://www.wikidata.org/wiki/Q215",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "f6c1217735a2",

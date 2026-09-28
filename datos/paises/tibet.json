@@ -1,0 +1,61 @@
+{
+	"id": "tibet",
+	"nombre": "Tíbet (gobierno de Lhasa)",
+	"nombres": [
+		"Tibet",
+		"Tibetan principalities"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Tíbet",
+			"desde": 843,
+			"hasta": 1912,
+			"wiki": "Historia del Tíbet"
+		},
+		{
+			"nombre": "Tíbet (gobierno de Lhasa)",
+			"desde": 1913,
+			"hasta": 1950,
+			"wiki": "Tíbet (1912-1951)"
+		}
+	],
+	"wiki": "Tíbet (1912-1951)",
+	"relacionados": [
+		"Tíbet"
+	],
+	"vinculos": [
+		{
+			"id": "rpchina",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Entre 1913 y 1950 el gobierno del Dalái Lama en Lhasa actuó de forma independiente, sin reconocimiento de la República de China, que lo consideraba parte de su territorio; en 1950-1951 fue incorporado a la República Popular China.",
+	"gobernantes": [
+		{
+			"nombre": "Thubten Gyatso (XIII Dalái Lama)",
+			"titulo": "Dalái Lama",
+			"desde": 1879,
+			"hasta": 1933
+		},
+		{
+			"nombre": "Tenzin Gyatso (XIV Dalái Lama)",
+			"titulo": "Dalái Lama",
+			"desde": 1950,
+			"hasta": 1959
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tíbet (1912-1951)",
+			"url": "https://es.wikipedia.org/wiki/T%C3%ADbet_(1912-1951)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Annexation of Tibet by the People's Republic of China",
+			"url": "https://en.wikipedia.org/wiki/Annexation_of_Tibet_by_the_People%27s_Republic_of_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

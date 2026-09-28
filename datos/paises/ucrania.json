@@ -111,16 +111,15 @@
 			"hasta": 2019
 		},
 		{
-			"nombre": "Volodímir Zelenski",
-			"cargo": "jefe de Estado",
-			"desde": 2019,
-			"hasta": 2019
-		},
-		{
 			"nombre": "Oleksiy Hontcharouk",
 			"cargo": "jefe de gobierno",
 			"desde": 2019,
 			"hasta": 2020
+		},
+		{
+			"nombre": "Volodímir Zelenski",
+			"cargo": "jefe de Estado",
+			"desde": 2019
 		},
 		{
 			"nombre": "Denís Shmihal",
@@ -137,8 +136,7 @@
 		{
 			"nombre": "Sergii Koretskyi",
 			"cargo": "jefe de gobierno",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -318,10 +316,16 @@
 			"url": "https://www.wikidata.org/wiki/Q212",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "e0330ef7fc63",

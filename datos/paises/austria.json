@@ -4,13 +4,52 @@
 	"nombres": [
 		"Austria",
 		"Austrian Empire",
+		"Habsburg Monarchy",
 		"Austria Hungary",
 		"Austro-Hungarian Empire"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio austríaco",
+			"desde": 1804,
+			"hasta": 1866
+		},
+		{
+			"nombre": "Austria-Hungría",
+			"desde": 1867,
+			"hasta": 1918
+		},
+		{
+			"nombre": "Primera República de Austria",
+			"desde": 1919,
+			"hasta": 1937
+		},
+		{
+			"nombre": "Austria (anexionada al Reich)",
+			"desde": 1938,
+			"hasta": 1944
+		},
+		{
+			"nombre": "República de Austria",
+			"desde": 1945,
+			"hasta": 2026
+		}
 	],
 	"owid": "Austria",
 	"relacionados": [
 		"Sacro Imperio",
 		"Austria-Hungría"
+	],
+	"vinculos": [
+		{
+			"id": "sacroimperio",
+			"tipo": "parte_de",
+			"hasta": 1806
+		},
+		{
+			"id": "checoslovaquia",
+			"tipo": "sucesor_territorial"
+		}
 	],
 	"resena": "Austria, oficialmente República de Austria, es un país de Europa central y Estado de la Unión Europea. Limita con la República Checa y Alemania al norte, Eslovaquia y Hungría al este, Eslovenia e Italia al sur y Suiza y Liechtenstein al oeste.",
 	"gobernantes": [
@@ -21,10 +60,28 @@
 			"hasta": 1780
 		},
 		{
+			"nombre": "Francisco I",
+			"titulo": "Emperador de Austria",
+			"desde": 1804,
+			"hasta": 1835
+		},
+		{
+			"nombre": "Fernando I",
+			"titulo": "Emperador de Austria",
+			"desde": 1835,
+			"hasta": 1848
+		},
+		{
 			"nombre": "Francisco José I",
 			"titulo": "Emperador de Austria y Rey de Hungría",
 			"desde": 1848,
 			"hasta": 1916
+		},
+		{
+			"nombre": "Carlos I",
+			"titulo": "Emperador de Austria y rey de Hungría",
+			"desde": 1916,
+			"hasta": 1918
 		}
 	],
 	"poblacion": [
@@ -158,7 +215,8 @@
 		},
 		{
 			"anio": 1910,
-			"valor": 6571587
+			"valor": 51390223,
+			"fuente": "Censo de 1910 de Austria-Hungría entera (Wikipedia (en): Austria-Hungary); el resto de la serie es de las fronteras actuales de Austria (OWID)"
 		},
 		{
 			"anio": 1920,
@@ -226,10 +284,28 @@
 			"url": "https://es.wikipedia.org/wiki/Austria",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-es:Compromiso austrohúngaro",
+			"url": "https://es.wikipedia.org/wiki/Compromiso_austroh%C3%BAngaro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Imperio austríaco",
+			"url": "https://es.wikipedia.org/wiki/Imperio_austríaco",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Austria-Hungary",
+			"url": "https://en.wikipedia.org/wiki/Austria-Hungary",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "6dce1bcc2101",

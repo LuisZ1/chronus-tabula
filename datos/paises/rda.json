@@ -1,0 +1,42 @@
+{
+	"id": "rda",
+	"nombre": "República Democrática Alemana (RDA)",
+	"nombres": [
+		"East Germany"
+	],
+	"wiki": "República Democrática Alemana",
+	"vinculos": [
+		{
+			"id": "alemania",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Walter Ulbricht",
+			"titulo": "Primer secretario del SED",
+			"desde": 1950,
+			"hasta": 1971
+		},
+		{
+			"nombre": "Erich Honecker",
+			"titulo": "Secretario general del SED",
+			"desde": 1971,
+			"hasta": 1989
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:República Democrática Alemana",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_Alemana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:East Germany",
+			"url": "https://en.wikipedia.org/wiki/East_Germany",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

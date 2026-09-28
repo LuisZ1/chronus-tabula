@@ -10,6 +10,12 @@
 	"relacionados": [
 		"Chequia"
 	],
+	"vinculos": [
+		{
+			"id": "checoslovaquia",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "La República Checa, también conocida como Chequia, es un país soberano de Europa Central sin litoral. Limita con Alemania al oeste, con Austria al sur, con Eslovaquia al este y con Polonia al norte.",
 	"gobernantes": [
 		{
@@ -37,7 +43,7 @@
 			"hasta": 2002
 		},
 		{
-			"nombre": "Q32777",
+			"nombre": "Vladimír Špidla",
 			"cargo": "jefe de gobierno",
 			"desde": 2002,
 			"hasta": 2004
@@ -111,14 +117,12 @@
 		{
 			"nombre": "Petr Pavel",
 			"cargo": "jefe de Estado",
-			"desde": 2023,
-			"hasta": 2023
+			"desde": 2023
 		},
 		{
 			"nombre": "Andrej Babiš",
 			"cargo": "jefe de gobierno",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -434,10 +438,22 @@
 			"url": "https://www.wikidata.org/wiki/Q213",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Vladimír Špidla",
+			"url": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_%C5%A0pidla",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "7aaedbd9249b",

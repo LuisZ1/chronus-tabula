@@ -17,6 +17,48 @@
 	"resena": "El reino de León fue un reino medieval independiente situado en la región noroeste de la península ibérica. Fue fundado en el año 910, cuando los príncipes cristianos del reino de Asturias, en la costa norte de la península, trasladaron su capital de Oviedo a la ciudad de León.",
 	"gobernantes": [
 		{
+			"nombre": "García I",
+			"titulo": "Rey de León",
+			"desde": 910,
+			"hasta": 914
+		},
+		{
+			"nombre": "Ordoño II",
+			"titulo": "Rey de León",
+			"desde": 914,
+			"hasta": 924
+		},
+		{
+			"nombre": "Ramiro II",
+			"titulo": "Rey de León",
+			"desde": 931,
+			"hasta": 950
+		},
+		{
+			"nombre": "Alfonso V",
+			"titulo": "Rey de León",
+			"desde": 999,
+			"hasta": 1028
+		},
+		{
+			"nombre": "Bermudo III",
+			"titulo": "Rey de León",
+			"desde": 1028,
+			"hasta": 1037
+		},
+		{
+			"nombre": "Alfonso VII (emperador)",
+			"titulo": "Rey de León",
+			"desde": 1126,
+			"hasta": 1157
+		},
+		{
+			"nombre": "Fernando II",
+			"titulo": "Rey de León",
+			"desde": 1157,
+			"hasta": 1188
+		},
+		{
 			"nombre": "Alfonso IX (primeras Cortes de León)",
 			"titulo": "Rey de León",
 			"desde": 1188,
@@ -34,10 +76,16 @@
 			"url": "https://es.wikipedia.org/wiki/Reino_de_Le%C3%B3n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of monarchs of León",
+			"url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_León",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "5519ccc227be",

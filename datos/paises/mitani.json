@@ -1,0 +1,59 @@
+{
+	"id": "mitani",
+	"nombre": "Mitani",
+	"nombres": [
+		"Mitanni",
+		"Hanigalbat"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Mitani",
+			"desde": -1550,
+			"hasta": -1251
+		},
+		{
+			"nombre": "Hanigalbat",
+			"desde": -1250,
+			"hasta": -1001
+		}
+	],
+	"wiki": "Mitanni",
+	"relacionados": [
+		"Reino de Mitani"
+	],
+	"vinculos": [
+		{
+			"id": "asiria",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino hurrita de la Alta Mesopotamia y del norte de Siria (c. 1550-1260 a. C.) con capital en Wassukanni, en el alto Jabur. Disputó Siria a Egipto y a los hititas, que lo devastaron hacia 1345 a. C.; su resto oriental, Hanigalbat, cayó bajo Asiria con Salmanasar I, que lo anexionó hacia mediados del siglo XIII a. C.",
+	"gobernantes": [
+		{
+			"nombre": "Saustatar",
+			"titulo": "Rey de Mitani",
+			"desde": -1480,
+			"hasta": -1460
+		},
+		{
+			"nombre": "Tusratta",
+			"titulo": "Rey de Mitani (cartas de Amarna)",
+			"desde": -1358,
+			"hasta": -1335
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Mitanni",
+			"url": "https://en.wikipedia.org/wiki/Mitanni",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Shalmaneser I",
+			"url": "https://en.wikipedia.org/wiki/Shalmaneser_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

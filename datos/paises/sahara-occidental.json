@@ -2,7 +2,9 @@
 	"id": "sahara-occidental",
 	"nombre": "Sáhara Occidental",
 	"nombres": [
-		"Western Sahara"
+		"Western Sahara",
+		"Spanish Sahara",
+		"Rio De Oro"
 	],
 	"nombres_periodo": [
 		{

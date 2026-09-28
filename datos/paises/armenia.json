@@ -4,15 +4,35 @@
 	"nombres": [
 		"Armenia"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Armenia",
+			"desde": -331,
+			"hasta": 428,
+			"wiki": "Reino de Armenia (Antigüedad)"
+		}
+	],
 	"wiki": "Armenia",
 	"wikidata": "Q399",
 	"resena": "Armenia, oficialmente la República de Armenia, es un país sin salida al mar localizado en el altiplano armenio en Eurasia. Cultural, histórica y políticamente Armenia se considera como parte de Europa del Este.",
 	"gobernantes": [
 		{
-			"nombre": "Nikol Pashinián",
-			"cargo": "jefe de gobierno",
-			"desde": 2018,
-			"hasta": 2018
+			"nombre": "Artaxias I",
+			"titulo": "Rey de Armenia, fundador de la dinastía artáxida",
+			"desde": -189,
+			"hasta": -160
+		},
+		{
+			"nombre": "Tigranes II el Grande",
+			"titulo": "Rey de reyes de Armenia",
+			"desde": -95,
+			"hasta": -55
+		},
+		{
+			"nombre": "Tiridates III",
+			"titulo": "Rey de Armenia; adopta el cristianismo (c. 301)",
+			"desde": 298,
+			"hasta": 330
 		},
 		{
 			"nombre": "Armen Sarkissian",
@@ -21,10 +41,14 @@
 			"hasta": 2022
 		},
 		{
+			"nombre": "Nikol Pashinián",
+			"cargo": "jefe de gobierno",
+			"desde": 2018
+		},
+		{
 			"nombre": "Vahagn Jachaturián",
 			"cargo": "jefe de Estado",
-			"desde": 2022,
-			"hasta": 2022
+			"desde": 2022
 		}
 	],
 	"poblacion": [
@@ -122,10 +146,22 @@
 			"url": "https://www.wikidata.org/wiki/Q399",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Armenia (antiquity)",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_(antiquity)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "10271a0966e5",

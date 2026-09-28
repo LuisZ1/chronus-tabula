@@ -55,12 +55,6 @@
 			"nombre": "Balduino de Bélgica",
 			"cargo": "jefe de Estado",
 			"desde": 1950,
-			"hasta": 1951
-		},
-		{
-			"nombre": "Balduino de Bélgica",
-			"cargo": "jefe de Estado",
-			"desde": 1951,
 			"hasta": 1993
 		},
 		{
@@ -72,8 +66,7 @@
 		{
 			"nombre": "Felipe I de Bélgica",
 			"cargo": "jefe de Estado",
-			"desde": 2013,
-			"hasta": 2013
+			"desde": 2013
 		},
 		{
 			"nombre": "Charles Michel",
@@ -96,8 +89,7 @@
 		{
 			"nombre": "Bart De Wever",
 			"cargo": "jefe de gobierno",
-			"desde": 2025,
-			"hasta": 2025
+			"desde": 2025
 		}
 	],
 	"poblacion": [
@@ -404,10 +396,16 @@
 			"url": "https://www.wikidata.org/wiki/Q31",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "9e13a0ba31fa",

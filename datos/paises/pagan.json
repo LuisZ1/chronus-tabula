@@ -1,0 +1,33 @@
+{
+	"id": "pagan",
+	"nombre": "Reino de Pagan",
+	"nombres": [
+		"Pagan",
+		"Bagan",
+		"Kingdom of Pagan"
+	],
+	"wiki": "Reino de Pagan",
+	"resena": "Primer Estado que unificó el valle del Irawadi (Birmania). Anawrahta (1044) lo convirtió en imperio y tomó Thaton en 1057. Tras las invasiones mongolas se hundió entre 1287 y 1297.",
+	"gobernantes": [
+		{
+			"nombre": "Anawrahta",
+			"titulo": "Rey de Pagan",
+			"desde": 1044,
+			"hasta": 1077
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Pagan Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Pagan_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Reino de Pagan",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Pagan",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

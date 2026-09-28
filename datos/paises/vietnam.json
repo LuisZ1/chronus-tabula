@@ -2,7 +2,10 @@
 	"id": "vietnam",
 	"nombre": "Vietnam",
 	"nombres": [
-		"Vietnam"
+		"Vietnam",
+		"Đại Việt",
+		"Annam",
+		"North Vietnam"
 	],
 	"wiki": "es:Vietnam",
 	"wikidata": "Q881",

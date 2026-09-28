@@ -1,0 +1,48 @@
+{
+	"id": "xiongnu",
+	"nombre": "Xiongnu",
+	"nombres": [
+		"Xiongnu",
+		"Southern Xiongnu"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Confederación xiongnu",
+			"desde": -209,
+			"hasta": 48
+		},
+		{
+			"nombre": "Xiongnu del Sur",
+			"desde": 48,
+			"hasta": 216
+		}
+	],
+	"wiki": "Xiongnu",
+	"relacionados": [
+		"Confederación Xiongnu",
+		"Xiongnu"
+	],
+	"resena": "Confederación de pueblos nómadas de la estepa de Mongolia, unida por el chanyu Modu en 209 a. C. Fue la gran rival de la China Han: le impuso tributos tras el cerco de Pingcheng (200 a. C.), hasta que las campañas del emperador Wu la hicieron retroceder. En 48 d. C. se dividió en Xiongnu del Norte y del Sur; los del Norte se dispersaron tras sus derrotas de 89-91 y los del Sur se asentaron dentro de las fronteras chinas.",
+	"gobernantes": [
+		{
+			"nombre": "Modu (Maodun)",
+			"titulo": "Chanyu, fundador de la confederación",
+			"desde": -209,
+			"hasta": -174
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Xiongnu",
+			"url": "https://es.wikipedia.org/wiki/Xiongnu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Xiongnu",
+			"url": "https://en.wikipedia.org/wiki/Xiongnu",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

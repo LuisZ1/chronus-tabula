@@ -1,0 +1,29 @@
+{
+	"id": "elam",
+	"nombre": "Elam",
+	"nombres": [
+		"Elam"
+	],
+	"wiki": "Elam",
+	"vinculos": [
+		{
+			"id": "aquemenida",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Civilización del suroeste de Irán (Juzistán y Fars) con capital en Susa, activa desde c. 3200 a. C. Rival y socio de Mesopotamia durante tres milenios, fue arrasada por Asurbanipal hacia 647 a. C. y absorbida por los persas hacia 540 a. C.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Elam",
+			"url": "https://en.wikipedia.org/wiki/Elam",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Elam",
+			"url": "https://es.wikipedia.org/wiki/Elam",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

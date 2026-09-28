@@ -2,7 +2,25 @@
 	"id": "irak",
 	"nombre": "Irak",
 	"nombres": [
-		"Iraq"
+		"Iraq",
+		"Mesopotamia (GB)"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Mandato británico de Mesopotamia",
+			"desde": 1920,
+			"hasta": 1920
+		},
+		{
+			"nombre": "Reino de Irak",
+			"desde": 1921,
+			"hasta": 1957
+		},
+		{
+			"nombre": "República de Irak",
+			"desde": 1958,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:Irak",
 	"wikidata": "Q796",
@@ -28,10 +46,15 @@
 			"hasta": 2022
 		},
 		{
-			"nombre": "Nizar Amidi",
+			"nombre": "Abdul Latif Rashid",
 			"cargo": "jefe de Estado",
 			"desde": 2022,
-			"hasta": 2022
+			"hasta": 2026
+		},
+		{
+			"nombre": "Nizar Amidi",
+			"cargo": "jefe de Estado",
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -304,10 +327,28 @@
 			"url": "https://www.wikidata.org/wiki/Q796",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Reino de Irak",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Irak",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:President of Iraq",
+			"url": "https://en.wikipedia.org/wiki/President_of_Iraq",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "a8a1367e6a07",

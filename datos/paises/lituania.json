@@ -39,8 +39,7 @@
 		{
 			"nombre": "Gitanas Nausėda",
 			"cargo": "jefe de Estado",
-			"desde": 2019,
-			"hasta": 2019
+			"desde": 2019
 		},
 		{
 			"nombre": "Ingrida Šimonytė",
@@ -63,8 +62,7 @@
 		{
 			"nombre": "Mindaugas Sinkevičius",
 			"cargo": "jefe de gobierno",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -347,10 +345,16 @@
 			"url": "https://www.wikidata.org/wiki/Q37",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "841e72f85482",

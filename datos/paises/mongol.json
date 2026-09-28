@@ -7,6 +7,21 @@
 	"relacionados": [
 		"Corasmia"
 	],
+	"vinculos": [
+		{
+			"id": "hordadeoro",
+			"tipo": "incluye",
+			"hasta": 1260
+		},
+		{
+			"id": "iljanato",
+			"tipo": "incluye"
+		},
+		{
+			"id": "yuan",
+			"tipo": "incluye"
+		}
+	],
 	"resena": "El Imperio mongol fue el segundo imperio más extenso de la historia y el más grande de los imperios constituidos por territorios continuos. Fue fundado por Gengis Kan en el año 1206 y tuvo su punto álgido cuando alcanzó aproximadamente 23 000 000 km² de extensión.",
 	"gobernantes": [
 		{

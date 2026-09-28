@@ -1,12 +1,46 @@
 {
 	"id": "taiwan",
-	"nombre": "Taiwán",
+	"nombre": "República de China (Taiwán)",
 	"nombres": [
-		"Taiwan"
+		"Taiwan",
+		"Republic of China",
+		"Chinese Warlords"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Taiwán bajo los Qing",
+			"desde": 1683,
+			"hasta": 1894,
+			"wiki": "en:Taiwan under Qing rule"
+		},
+		{
+			"nombre": "República de China",
+			"desde": 1912,
+			"hasta": 1948
+		},
+		{
+			"nombre": "República de China (Taiwán)",
+			"desde": 1949,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:Taiwán",
 	"wikidata": "Q865",
 	"owid": "TWN",
+	"relacionados": [
+		"Taiwán",
+		"República de China"
+	],
+	"vinculos": [
+		{
+			"id": "qing",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "rpchina",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "La República de China es un país soberano situado en Asia Oriental. Su nombre oficial está ligado a un reconocimiento limitado desde 1949 al estar ubicado principalmente en el archipiélago de Taiwán, este último es el nombre con el que es popularmente conocido.",
 	"gobernantes": [
 		{
@@ -228,14 +262,12 @@
 		{
 			"nombre": "Chuo Rung-tai",
 			"cargo": "jefe de gobierno",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		},
 		{
 			"nombre": "Lai Ching‑te",
 			"cargo": "jefe de Estado",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -674,10 +706,28 @@
 			"url": "https://www.wikidata.org/wiki/Q865",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:República de China",
+			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_de_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Taiwan under Qing rule",
+			"url": "https://en.wikipedia.org/wiki/Taiwan_under_Qing_rule",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ab11dd06f2c8",

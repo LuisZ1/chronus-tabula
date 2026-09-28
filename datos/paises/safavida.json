@@ -8,6 +8,10 @@
 		{
 			"id": "persia",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "timurida",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "El Imperio safávida o Imperio safawí es considerado como el más grande Imperio iraní desde la conquista musulmana de Persia. Los safávidas son originarios de Ardebil, una ciudad del Azerbaiyán iraní, al norte de Irán.",
@@ -19,10 +23,22 @@
 			"hasta": 1524
 		},
 		{
+			"nombre": "Tahmasp I",
+			"titulo": "Sah",
+			"desde": 1524,
+			"hasta": 1576
+		},
+		{
 			"nombre": "Abás I el Grande",
 			"titulo": "Sah",
 			"desde": 1588,
 			"hasta": 1629
+		},
+		{
+			"nombre": "Sultán Husayn",
+			"titulo": "Sah (caída de Isfahán, 1722)",
+			"desde": 1694,
+			"hasta": 1722
 		}
 	],
 	"fuentes": [
@@ -36,10 +52,16 @@
 			"url": "https://es.wikipedia.org/wiki/Imperio_saf%C3%A1vida",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:List of monarchs of Persia",
+			"url": "https://en.wikipedia.org/wiki/List_of_monarchs_of_Persia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-08",
 		"por": "panel-admin",
 		"hash": "376ac6b3a4d8",

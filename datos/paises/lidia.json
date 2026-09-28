@@ -1,0 +1,46 @@
+{
+	"id": "lidia",
+	"nombre": "Lidia",
+	"nombres": [
+		"Lydia"
+	],
+	"wiki": "Lidia",
+	"relacionados": [
+		"Reino de Lidia"
+	],
+	"vinculos": [
+		{
+			"id": "aquemenida",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino de Anatolia occidental con capital en Sardes, gobernado por los mermnadas desde c. 680 a. C. Bajo Aliates y Creso dominó todo el oeste del río Halys y es célebre por las primeras monedas acuñadas. Ciro II lo conquistó en 546 a. C.",
+	"gobernantes": [
+		{
+			"nombre": "Giges",
+			"titulo": "Rey de Lidia",
+			"desde": -680,
+			"hasta": -644
+		},
+		{
+			"nombre": "Aliates",
+			"titulo": "Rey de Lidia",
+			"desde": -635,
+			"hasta": -585
+		},
+		{
+			"nombre": "Creso",
+			"titulo": "Rey de Lidia",
+			"desde": -560,
+			"hasta": -546
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Lydia",
+			"url": "https://en.wikipedia.org/wiki/Lydia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

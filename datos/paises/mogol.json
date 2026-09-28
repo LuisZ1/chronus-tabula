@@ -4,6 +4,24 @@
 	"nombres": [
 		"Mughal Empire"
 	],
+	"vinculos": [
+		{
+			"id": "timurida",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "delhi",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "india",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "maratha",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"gobernantes": [
 		{
 			"nombre": "Babur (fundador)",
@@ -12,10 +30,22 @@
 			"hasta": 1530
 		},
 		{
+			"nombre": "Humayun",
+			"titulo": "Emperador mogol (exiliado 1540-1555)",
+			"desde": 1530,
+			"hasta": 1556
+		},
+		{
 			"nombre": "Akbar el Grande",
 			"titulo": "Emperador mogol",
 			"desde": 1556,
 			"hasta": 1605
+		},
+		{
+			"nombre": "Jahangir",
+			"titulo": "Emperador mogol",
+			"desde": 1605,
+			"hasta": 1627
 		},
 		{
 			"nombre": "Sha Jahan (constructor del Taj Mahal)",
@@ -28,6 +58,24 @@
 			"titulo": "Emperador mogol",
 			"desde": 1658,
 			"hasta": 1707
+		},
+		{
+			"nombre": "Bahadur Shah I",
+			"titulo": "Emperador mogol",
+			"desde": 1707,
+			"hasta": 1712
+		},
+		{
+			"nombre": "Muhammad Shah",
+			"titulo": "Emperador mogol (saqueo de Delhi por Nader Sah, 1739)",
+			"desde": 1719,
+			"hasta": 1748
+		},
+		{
+			"nombre": "Shah Alam II",
+			"titulo": "Emperador mogol",
+			"desde": 1759,
+			"hasta": 1806
 		}
 	],
 	"poblacion": [
@@ -45,6 +93,12 @@
 			"id": "wikipedia-es:Imperio mogol (India)",
 			"url": "https://es.wikipedia.org/wiki/Imperio_mogol_(India)",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-en:List of Mughal emperors",
+			"url": "https://en.wikipedia.org/wiki/List_of_Mughal_emperors",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

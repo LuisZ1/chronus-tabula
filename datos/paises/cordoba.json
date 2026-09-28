@@ -7,11 +7,15 @@
 	],
 	"vinculos": [
 		{
+			"id": "omeya",
+			"tipo": "antecesor_territorial"
+		},
+		{
 			"id": "espana",
 			"tipo": "sucesor_territorial"
 		}
 	],
-	"resena": "Un emirato es un territorio político bajo la administración de un emir, siendo un tipo de monarquía característica de Asia y África. En árabe, el término puede ser generalizado a una provincia o país que es administrado por un miembro de la clase dominante.",
+	"resena": "Estado musulmán de al-Ándalus fundado en 756 por Abderramán I, un omeya que escapó de la matanza abasí. Emirato independiente de Bagdad, Abderramán III lo proclamó califato en 929; con Almanzor alcanzó su máximo poder y se descompuso en reinos de taifas tras la fitna (1009-1031).",
 	"gobernantes": [
 		{
 			"nombre": "Abderramán I",
@@ -55,6 +59,18 @@
 			"url": "https://es.wikipedia.org/wiki/Emirato",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-es:Califato de Córdoba",
+			"url": "https://es.wikipedia.org/wiki/Califato_de_Córdoba",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Emirato de Córdoba",
+			"url": "https://es.wikipedia.org/wiki/Emirato_de_Córdoba",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {

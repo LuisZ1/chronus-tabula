@@ -3,12 +3,13 @@
 	"nombre": "Guinea-Bisau",
 	"nombres": [
 		"Guinea-Bissau",
-		"Guinea-Bissau (Portugal)"
+		"Guinea-Bissau (Portugal)",
+		"Portuguese Guinea"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Guinea Portuguesa",
-			"desde": 1879,
+			"desde": 1588,
 			"hasta": 1973
 		},
 		{
@@ -167,10 +168,16 @@
 			"url": "https://www.wikidata.org/wiki/Q1007",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Portuguese Guinea",
+			"url": "https://en.wikipedia.org/wiki/Portuguese_Guinea",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d776a10ecd7a",

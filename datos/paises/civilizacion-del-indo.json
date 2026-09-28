@@ -1,0 +1,28 @@
+{
+	"id": "civilizacion-del-indo",
+	"nombre": "Civilización del valle del Indo",
+	"nombres": [
+		"Indus valley civilization"
+	],
+	"wiki": "Cultura del valle del Indo",
+	"relacionados": [
+		"Civilización harappa",
+		"Harappa",
+		"Mohenjo-Daro"
+	],
+	"resena": "Civilización urbana de la Edad del Bronce en el Indo y sus afluentes (Pakistán y noroeste de la India). Su fase madura (c. 2600-1900 a. C.) tuvo ciudades planificadas como Harappa y Mohenjo-Daro, con alcantarillado y pesos normalizados; su escritura sigue sin descifrar. Declinó entre 1900 y 1300 a. C.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Indus Valley Civilisation",
+			"url": "https://en.wikipedia.org/wiki/Indus_Valley_Civilisation",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Cultura del valle del Indo",
+			"url": "https://es.wikipedia.org/wiki/Cultura_del_valle_del_Indo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

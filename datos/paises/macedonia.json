@@ -2,7 +2,37 @@
 	"id": "macedonia",
 	"nombre": "Macedonia y Liga Helénica",
 	"nombres": [
-		"Macedon and Hellenic League"
+		"Macedon and Hellenic League",
+		"Empire of Alexander",
+		"Kingdom of Kassander"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Macedonia",
+			"desde": -700,
+			"hasta": -337
+		},
+		{
+			"nombre": "Imperio de Alejandro Magno",
+			"desde": -336,
+			"hasta": -323,
+			"wiki": "Imperio macedonio"
+		},
+		{
+			"nombre": "Reino de Macedonia",
+			"desde": -322,
+			"hasta": -168
+		}
+	],
+	"vinculos": [
+		{
+			"id": "aquemenida",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "polis-griegas",
+			"tipo": "antecesor_territorial"
+		}
 	],
 	"gobernantes": [
 		{
@@ -35,6 +65,18 @@
 			"id": "wikipedia-es:Macedonia y Liga Helénica",
 			"url": "https://es.wikipedia.org/wiki/Macedonia_y_Liga_Helénica",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-es:Antigua Macedonia",
+			"url": "https://es.wikipedia.org/wiki/Antigua_Macedonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Casandro",
+			"url": "https://es.wikipedia.org/wiki/Casandro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

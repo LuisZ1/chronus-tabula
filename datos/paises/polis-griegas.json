@@ -1,0 +1,74 @@
+{
+	"id": "polis-griegas",
+	"nombre": "Grecia antigua (micénicos y polis)",
+	"nombres": [
+		"Greek city-states",
+		"Greek colonies"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Grecia micénica",
+			"desde": -1750,
+			"hasta": -1050
+		},
+		{
+			"nombre": "Polis griegas",
+			"desde": -800,
+			"hasta": -146
+		}
+	],
+	"wiki": "Polis",
+	"relacionados": [
+		"Grecia antigua",
+		"Grecia micénica",
+		"Micenas",
+		"Atenas",
+		"Esparta",
+		"Hélade",
+		"Corinto",
+		"Tebas",
+		"Liga de Delos",
+		"Liga del Peloponeso",
+		"Esparta y la Liga Helénica",
+		"Magna Grecia"
+	],
+	"vinculos": [
+		{
+			"id": "macedonia",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Mundo griego de la Antigüedad. En la Edad del Bronce, reinos micénicos con palacios en Micenas, Pilos o Tirinto (c. 1750-1050 a. C.); tras su colapso, desde el siglo VIII a. C., ciudades-Estado independientes (polis) como Atenas o Esparta, que colonizaron el Mediterráneo y el mar Negro. Desde Queronea (338 a. C.) quedaron bajo la hegemonía de Macedonia.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Mycenaean Greece",
+			"url": "https://en.wikipedia.org/wiki/Mycenaean_Greece",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Late Bronze Age collapse",
+			"url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Chaeronea (338 BC)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Peloponnesian War",
+			"url": "https://en.wikipedia.org/wiki/Peloponnesian_War",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Polis",
+			"url": "https://es.wikipedia.org/wiki/Polis",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

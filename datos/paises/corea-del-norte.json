@@ -10,6 +10,18 @@
 	"relacionados": [
 		"República Popular Democrática de Corea"
 	],
+	"vinculos": [
+		{
+			"id": "japon",
+			"tipo": "parte_de",
+			"desde": 1910,
+			"hasta": 1945
+		},
+		{
+			"id": "joseon",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "La República Popular Democrática de Corea, comúnmente Corea del Norte, es un país soberano de Asia Oriental, situado en la parte norte de la península de Corea. Limita al norte con China, al noreste con Rusia y al sur con Corea del Sur, con la que formó un solo país hasta el año 1945.",
 	"gobernantes": [
 		{
@@ -45,8 +57,7 @@
 		{
 			"nombre": "Kim Jong-un",
 			"cargo": "jefe de Estado",
-			"desde": 2011,
-			"hasta": 2011
+			"desde": 2011
 		},
 		{
 			"nombre": "Pak Pong-ju",
@@ -63,8 +74,7 @@
 		{
 			"nombre": "Pak Thae-song",
 			"cargo": "jefe de gobierno",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		}
 	],
 	"poblacion": [
@@ -342,10 +352,16 @@
 			"url": "https://www.wikidata.org/wiki/Q423",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ed299dc00f25",

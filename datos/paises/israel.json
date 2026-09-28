@@ -4,13 +4,6 @@
 	"nombres": [
 		"Israel"
 	],
-	"nombres_periodo": [
-		{
-			"nombre": "Palestina (Mandato británico)",
-			"desde": 1939,
-			"hasta": 1947
-		}
-	],
 	"wiki": "Israel",
 	"wikidata": "Q801",
 	"resena": "Israel, oficialmente Estado de Israel, es un estado soberano de Asia occidental ubicado en la región de Oriente Próximo, en el Levante mediterráneo.",
@@ -208,31 +201,69 @@
 			"hasta": 2021
 		},
 		{
-			"nombre": "Isaac Herzog",
-			"cargo": "jefe de Estado",
-			"desde": 2021,
-			"hasta": 2021
-		},
-		{
 			"nombre": "Naftali Bennett",
 			"cargo": "jefe de gobierno",
 			"desde": 2021,
 			"hasta": 2022
 		},
 		{
-			"nombre": "Benjamín Netanyahu",
-			"cargo": "jefe de gobierno",
-			"desde": 2022,
-			"hasta": 2022
+			"nombre": "Isaac Herzog",
+			"cargo": "jefe de Estado",
+			"desde": 2021
 		},
 		{
 			"nombre": "Yair Lapid",
 			"cargo": "jefe de gobierno",
 			"desde": 2022,
 			"hasta": 2022
+		},
+		{
+			"nombre": "Benjamín Netanyahu",
+			"cargo": "jefe de gobierno",
+			"desde": 2022
 		}
 	],
 	"poblacion": [
+		{
+			"anio": 1950,
+			"valor": 1289244,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 1960,
+			"valor": 1891941,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 1970,
+			"valor": 2864773,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 1980,
+			"valor": 3721666,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 1990,
+			"valor": 4544995,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 2000,
+			"valor": 6111194,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 2010,
+			"valor": 7336735,
+			"fuente": "Our World in Data (Israel)"
+		},
+		{
+			"anio": 2020,
+			"valor": 8800380,
+			"fuente": "Our World in Data (Israel)"
+		},
 		{
 			"anio": 2023,
 			"valor": 9840000,
@@ -453,10 +484,22 @@
 			"url": "https://www.wikidata.org/wiki/Q801",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "owid:population",
+			"url": "https://ourworldindata.org/grapher/population",
+			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "ab2b89312ac3",

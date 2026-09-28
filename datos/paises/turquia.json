@@ -7,6 +7,12 @@
 	"wiki": "es:Turquía",
 	"wikidata": "Q43",
 	"owid": "TUR",
+	"vinculos": [
+		{
+			"id": "otomano",
+			"tipo": "predecesor"
+		}
+	],
 	"resena": "Turquía, formalmente República de Turquía, es un país transcontinental, con la mayor parte de su territorio situado en Asia Occidental y una menor en Europa Oriental, extendiéndose por toda la península de Anatolia, el centro del altiplano armenio y en Tracia Oriental por la zona de los Balcanes.",
 	"gobernantes": [
 		{
@@ -76,12 +82,6 @@
 			"hasta": 1989
 		},
 		{
-			"nombre": "Kenan Evren",
-			"cargo": "jefe de Estado",
-			"desde": 1982,
-			"hasta": 1989
-		},
-		{
 			"nombre": "Turgut Özal",
 			"cargo": "jefe de Estado",
 			"desde": 1989,
@@ -148,27 +148,21 @@
 			"hasta": 2014
 		},
 		{
-			"nombre": "Recep Tayyip Erdoğan",
-			"cargo": "jefe de Estado",
-			"desde": 2014,
-			"hasta": 2014
-		},
-		{
 			"nombre": "Ahmet Davutoğlu",
 			"cargo": "jefe de gobierno",
 			"desde": 2014,
 			"hasta": 2016
 		},
 		{
+			"nombre": "Recep Tayyip Erdoğan",
+			"cargo": "jefe de Estado",
+			"titulo": "Presidente de la República",
+			"desde": 2014
+		},
+		{
 			"nombre": "Binali Yıldırım",
 			"cargo": "jefe de gobierno",
 			"desde": 2016,
-			"hasta": 2018
-		},
-		{
-			"nombre": "Recep Tayyip Erdoğan",
-			"cargo": "jefe de gobierno",
-			"desde": 2018,
 			"hasta": 2018
 		}
 	],
@@ -531,10 +525,16 @@
 			"url": "https://www.wikidata.org/wiki/Q43",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-28",
 		"por": "panel-admin",
 		"hash": "ca1953872944",

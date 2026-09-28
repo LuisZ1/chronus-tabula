@@ -1,0 +1,49 @@
+{
+	"id": "reino-benin",
+	"nombre": "Reino de Benín",
+	"nombres": [
+		"Kingdom of Benin"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Benín",
+			"desde": 1180,
+			"hasta": 1897
+		}
+	],
+	"wiki": "Reino de Benín",
+	"relacionados": [
+		"Reino de Benín",
+		"Imperio de Benín",
+		"Edo"
+	],
+	"vinculos": [
+		{
+			"id": "nigeria",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino de los edo en el sur de la actual Nigeria, con capital en Edo (hoy Benin City). Los obas lo gobernaron desde el siglo XII; con Ewuare, a mediados del siglo XV, pasó de ciudad-Estado a potencia regional. Fue independiente hasta que una expedición británica tomó la capital en 1897 y saqueó el palacio (los bronces de Benín). El oba sigue existiendo como monarquía tradicional dentro de Nigeria. No tiene relación histórica con la República de Benín, la antigua Dahomey.",
+	"gobernantes": [
+		{
+			"nombre": "Eweka I",
+			"titulo": "Primer oba de Benín",
+			"desde": 1180,
+			"hasta": 1246
+		},
+		{
+			"nombre": "Ovonramwen",
+			"titulo": "Oba de Benín, depuesto por los británicos",
+			"desde": 1888,
+			"hasta": 1897
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kingdom of Benin",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Benin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"id": "gurida",
+	"nombre": "Imperio gúrida",
+	"nombres": [
+		"Ghurid Empire"
+	],
+	"wiki": "Dinastía gúrida",
+	"vinculos": [
+		{
+			"id": "gaznavi",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "delhi",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Imperio de origen afgano (1175-1215) que sustituyó a los gaznávidas, venció a los rajputs en Tarain (1192) y conquistó el norte de la India. De sus generales esclavos nació el sultanato de Delhi.",
+	"gobernantes": [
+		{
+			"nombre": "Ghiyath al-Din Muhammad",
+			"titulo": "Sultán gúrida",
+			"desde": 1163,
+			"hasta": 1203
+		},
+		{
+			"nombre": "Muhammad de Gor",
+			"titulo": "Sultán gúrida",
+			"desde": 1203,
+			"hasta": 1206
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Ghurid dynasty",
+			"url": "https://en.wikipedia.org/wiki/Ghurid_dynasty",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

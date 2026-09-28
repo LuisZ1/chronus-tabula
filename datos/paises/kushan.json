@@ -1,0 +1,47 @@
+{
+	"id": "kushan",
+	"nombre": "Imperio kushán",
+	"nombres": [
+		"Kushan Empire"
+	],
+	"wiki": "Imperio kushán",
+	"relacionados": [
+		"Kushán",
+		"Kushanes"
+	],
+	"resena": "Imperio fundado hacia el año 30 por Kujula Kadfises, jefe de uno de los clanes yuezhi asentados en Bactria. En su apogeo, con Kanishka (s. II), se extendió del Amu Daria al valle del Ganges, con capitales en Purushapura (Peshawar) y Mathura. Controló el tramo central de la Ruta de la Seda entre Roma, Partia y la China Han, y bajo su patrocinio floreció el arte grecobudista de Gandhara. Tras Vasudeva I (c. 225) se fragmentó ante sasánidas y, más tarde, kidaritas.",
+	"gobernantes": [
+		{
+			"nombre": "Kujula Kadfises",
+			"titulo": "Fundador del imperio",
+			"desde": 30,
+			"hasta": 80
+		},
+		{
+			"nombre": "Kanishka I",
+			"titulo": "Emperador kushán; máxima expansión",
+			"desde": 127,
+			"hasta": 147
+		},
+		{
+			"nombre": "Vasudeva I",
+			"titulo": "Último gran emperador kushán",
+			"desde": 191,
+			"hasta": 225
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio kushán",
+			"url": "https://es.wikipedia.org/wiki/Imperio_kush%C3%A1n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Kushan Empire",
+			"url": "https://en.wikipedia.org/wiki/Kushan_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

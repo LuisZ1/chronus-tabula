@@ -6,6 +6,14 @@
 	],
 	"wikidata": "Q45",
 	"owid": "Portugal",
+	"vinculos": [
+		{
+			"id": "brasil",
+			"tipo": "incluye",
+			"desde": 1500,
+			"hasta": 1822
+		}
+	],
 	"resena": "Portugal, oficialmente República Portuguesa, es un país soberano del suroeste de Europa, ubicado en la península ibérica. Es uno de los veintisiete Estados miembros de la Unión Europea.",
 	"gobernantes": [
 		{
@@ -45,10 +53,34 @@
 			"hasta": 1557
 		},
 		{
+			"nombre": "Sebastián I",
+			"titulo": "Rey de Portugal (muerto en Alcazarquivir)",
+			"desde": 1557,
+			"hasta": 1578
+		},
+		{
+			"nombre": "Enrique I el Cardenal",
+			"titulo": "Rey de Portugal",
+			"desde": 1578,
+			"hasta": 1580
+		},
+		{
 			"nombre": "Felipe I (Felipe II de España, unión ibérica)",
 			"titulo": "Rey de Portugal",
 			"desde": 1580,
 			"hasta": 1598
+		},
+		{
+			"nombre": "Felipe II (Felipe III de España)",
+			"titulo": "Rey de Portugal (unión ibérica)",
+			"desde": 1598,
+			"hasta": 1621
+		},
+		{
+			"nombre": "Felipe III (Felipe IV de España)",
+			"titulo": "Rey de Portugal (unión ibérica)",
+			"desde": 1621,
+			"hasta": 1640
 		},
 		{
 			"nombre": "Juan IV de Braganza",
@@ -57,10 +89,34 @@
 			"hasta": 1656
 		},
 		{
+			"nombre": "Alfonso VI",
+			"titulo": "Rey de Portugal",
+			"desde": 1656,
+			"hasta": 1683
+		},
+		{
+			"nombre": "Pedro II",
+			"titulo": "Rey de Portugal",
+			"desde": 1683,
+			"hasta": 1706
+		},
+		{
+			"nombre": "Juan V",
+			"titulo": "Rey de Portugal",
+			"desde": 1706,
+			"hasta": 1750
+		},
+		{
 			"nombre": "José I (con el marqués de Pombal)",
 			"titulo": "Rey de Portugal",
 			"desde": 1750,
 			"hasta": 1777
+		},
+		{
+			"nombre": "María I",
+			"titulo": "Reina de Portugal (regencia de su hijo Juan desde 1792)",
+			"desde": 1777,
+			"hasta": 1816
 		},
 		{
 			"nombre": "Juan VI",
@@ -113,14 +169,12 @@
 		{
 			"nombre": "Luís Montenegro",
 			"cargo": "jefe de gobierno",
-			"desde": 2024,
-			"hasta": 2024
+			"desde": 2024
 		},
 		{
 			"nombre": "António José Seguro",
 			"cargo": "jefe de Estado",
-			"desde": 2026,
-			"hasta": 2026
+			"desde": 2026
 		}
 	],
 	"poblacion": [
@@ -474,10 +528,22 @@
 			"url": "https://www.wikidata.org/wiki/Q45",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:List of Portuguese monarchs",
+			"url": "https://en.wikipedia.org/wiki/List_of_Portuguese_monarchs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "b498aeb71016",

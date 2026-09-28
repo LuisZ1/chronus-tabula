@@ -2,7 +2,8 @@
 	"id": "cartago",
 	"nombre": "Cartago",
 	"nombres": [
-		"Carthage"
+		"Carthage",
+		"Carthaginian Empire"
 	],
 	"relacionados": [
 		"Cartago"
@@ -39,6 +40,12 @@
 			"url": "https://es.wikipedia.org/wiki/Cartago",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
+		},
+		{
+			"id": "wikipedia-en:Carthage",
+			"url": "https://en.wikipedia.org/wiki/Carthage",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {

@@ -2,13 +2,91 @@
 	"id": "brasil",
 	"nombre": "Brasil",
 	"nombres": [
-		"Brazil"
+		"Brazil",
+		"Viceroyalty of Brazil"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Brasil colonial (Portugal)",
+			"desde": 1500,
+			"hasta": 1814
+		},
+		{
+			"nombre": "Reino Unido de Portugal, Brasil y los Algarves",
+			"desde": 1815,
+			"hasta": 1821
+		},
+		{
+			"nombre": "Imperio del Brasil",
+			"desde": 1822,
+			"hasta": 1888
+		},
+		{
+			"nombre": "República de los Estados Unidos del Brasil",
+			"desde": 1889,
+			"hasta": 1966
+		},
+		{
+			"nombre": "República Federativa del Brasil",
+			"desde": 1967,
+			"hasta": 2026
+		}
 	],
 	"wiki": "es:Brasil",
 	"wikidata": "Q155",
 	"owid": "BRA",
+	"vinculos": [
+		{
+			"id": "portugal",
+			"tipo": "parte_de",
+			"desde": 1500,
+			"hasta": 1822
+		}
+	],
 	"resena": "Brasil, oficialmente República Federativa de Brasil, es un país soberano de América del Sur que comprende la mitad oriental del subcontinente y algunos grupos de pequeñas islas en el océano Atlántico. Su capital es Brasilia y su ciudad más poblada, São Paulo.",
 	"gobernantes": [
+		{
+			"nombre": "Pedro I",
+			"titulo": "Emperador del Brasil",
+			"desde": 1822,
+			"hasta": 1831
+		},
+		{
+			"nombre": "Pedro II",
+			"titulo": "Emperador del Brasil",
+			"desde": 1831,
+			"hasta": 1889
+		},
+		{
+			"nombre": "Deodoro da Fonseca",
+			"titulo": "Presidente",
+			"desde": 1889,
+			"hasta": 1891
+		},
+		{
+			"nombre": "Getúlio Vargas",
+			"titulo": "Presidente (Estado Novo desde 1937)",
+			"desde": 1930,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Getúlio Vargas",
+			"titulo": "Presidente",
+			"desde": 1951,
+			"hasta": 1954
+		},
+		{
+			"nombre": "Juscelino Kubitschek",
+			"titulo": "Presidente",
+			"desde": 1956,
+			"hasta": 1961
+		},
+		{
+			"nombre": "Dictadura militar (Castelo Branco … Figueiredo)",
+			"titulo": "Presidentes militares",
+			"desde": 1964,
+			"hasta": 1985
+		},
 		{
 			"nombre": "Fernando Collor de Mello",
 			"cargo": "jefe de Estado",
@@ -54,8 +132,7 @@
 		{
 			"nombre": "Luiz Inácio Lula da Silva",
 			"cargo": "jefe de Estado",
-			"desde": 2023,
-			"hasta": 2023
+			"desde": 2023
 		}
 	],
 	"poblacion": [
@@ -347,10 +424,28 @@
 			"url": "https://www.wikidata.org/wiki/Q155",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-es:Imperio del Brasil",
+			"url": "https://es.wikipedia.org/wiki/Imperio_del_Brasil",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Anexo:Presidentes de Brasil",
+			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Brasil",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:List of current heads of state and government",
+			"url": "https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "309860a2bfb5",

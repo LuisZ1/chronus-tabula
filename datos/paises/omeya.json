@@ -6,6 +6,14 @@
 	],
 	"vinculos": [
 		{
+			"id": "abasi",
+			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "cordoba",
+			"tipo": "sucesor_territorial"
+		},
+		{
 			"id": "espana",
 			"tipo": "sucesor_territorial"
 		}

@@ -8,6 +8,12 @@
 		{
 			"id": "espana",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "sicilia",
+			"tipo": "incluye",
+			"desde": 1409,
+			"hasta": 1516
 		}
 	],
 	"resena": "La Corona de Aragón, conocida también por otros nombres alternativos, fue una entidad política conformada por un conjunto de territorios que, mediante conquistas y matrimonios, estuvieron bajo la jurisdicción del rey de Aragón y conde de Barcelona entre 1137 y 1707-1716.",

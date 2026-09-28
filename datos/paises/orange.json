@@ -1,0 +1,36 @@
+{
+	"id": "orange",
+	"nombre": "Estado Libre de Orange",
+	"nombres": [
+		"Orange Free State"
+	],
+	"wiki": "Estado Libre de Orange",
+	"vinculos": [
+		{
+			"id": "sudafrica",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"gobernantes": [
+		{
+			"nombre": "Martinus Theunis Steyn",
+			"titulo": "Presidente",
+			"desde": 1896,
+			"hasta": 1902
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Estado Libre de Orange",
+			"url": "https://es.wikipedia.org/wiki/Estado_Libre_de_Orange",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Orange Free State",
+			"url": "https://en.wikipedia.org/wiki/Orange_Free_State",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

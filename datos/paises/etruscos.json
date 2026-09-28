@@ -1,0 +1,33 @@
+{
+	"id": "etruscos",
+	"nombre": "Etruscos",
+	"nombres": [
+		"Etrurians"
+	],
+	"wiki": "Etruscos",
+	"relacionados": [
+		"Etruria",
+		"Civilización etrusca"
+	],
+	"vinculos": [
+		{
+			"id": "roma",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Pueblo del centro de Italia organizado en una federación de ciudades-Estado desde c. 900 a. C. Hacia 500 a. C. dominaba Toscana, Umbría y parte del Lacio, con influencia en el valle del Po y Campania. Influyó mucho en la Roma primitiva, que lo fue absorbiendo desde el siglo IV a. C.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Etruscan civilization",
+			"url": "https://en.wikipedia.org/wiki/Etruscan_civilization",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Etruscos",
+			"url": "https://es.wikipedia.org/wiki/Etruscos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

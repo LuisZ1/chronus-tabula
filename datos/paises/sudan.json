@@ -7,11 +7,6 @@
 	],
 	"nombres_periodo": [
 		{
-			"nombre": "Reino de Kush",
-			"desde": -780,
-			"hasta": 350
-		},
-		{
 			"nombre": "Estado mahdista (Mahdiyya)",
 			"desde": 1885,
 			"hasta": 1899
@@ -38,16 +33,14 @@
 			"tipo": "incluye",
 			"desde": 1956,
 			"hasta": 2011
+		},
+		{
+			"id": "kush",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Sudán, oficialmente República del Sudán, es uno de los cincuenta y cinco países que forman el continente africano. Su capital es Jartum y la ciudad más poblada es Omdurmán.",
 	"gobernantes": [
-		{
-			"nombre": "Reino de Kush (Napata y Meroe)",
-			"cargo": "Reino histórico nubio (dinastía kushita XXV de Egipto s. VIII a.C.; capital en Meroe desde ~300 a.C.)",
-			"desde": -780,
-			"hasta": 350
-		},
 		{
 			"nombre": "Muhammad Ahmad (el Mahdi)",
 			"cargo": "Líder del Estado mahdista",
@@ -264,7 +257,7 @@
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "6479ff514d8a",

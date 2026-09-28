@@ -5,6 +5,16 @@
 		"Timurid Empire",
 		"Timurid Emirates"
 	],
+	"vinculos": [
+		{
+			"id": "mogol",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "safavida",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "El Imperio timúrida, autodenominado como Estado Gurkani (گورکانیان) o Imperio Turán, fue un imperio fundado por Tamerlán, un señor de la guerra y conquistador de linaje turcomongol, que lo estableció entre 1370 y su muerte en 1405.",
 	"gobernantes": [
 		{

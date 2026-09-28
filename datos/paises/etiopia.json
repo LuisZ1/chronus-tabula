@@ -38,8 +38,26 @@
 		"Abisinia",
 		"Imperio de Etiopia"
 	],
+	"vinculos": [
+		{
+			"id": "zagwe",
+			"tipo": "predecesor"
+		}
+	],
 	"resena": "Etiopía, oficialmente la República Democrática Federal de Etiopía, antiguamente conocida como Abisinia, es un país sin litoral situado en el Cuerno de África. Las estimaciones demográficas a 2021 lo sitúan como el segundo país más poblado de África, solo por detrás de Nigeria y el duodécimo a nivel mundial, así como el país sin litoral más poblado del mundo.",
 	"gobernantes": [
+		{
+			"nombre": "Ezana",
+			"cargo": "Rey de Aksum; primer rey cristiano (c. 340); fechas aproximadas",
+			"desde": 320,
+			"hasta": 360
+		},
+		{
+			"nombre": "Kaleb",
+			"cargo": "Rey de Aksum; conquista Himyar (Yemen); fechas aproximadas",
+			"desde": 514,
+			"hasta": 542
+		},
 		{
 			"nombre": "Tewodros II",
 			"cargo": "Emperador (dinastia salomonica restaurada)",
@@ -119,12 +137,6 @@
 			"hasta": 2013
 		},
 		{
-			"nombre": "Haile Mariam Desalegne",
-			"cargo": "jefe de gobierno",
-			"desde": 2012,
-			"hasta": 2018
-		},
-		{
 			"nombre": "Hailemariam Desalegn",
 			"cargo": "Primer ministro",
 			"desde": 2012,
@@ -134,12 +146,6 @@
 			"nombre": "Mulatu Teshome",
 			"cargo": "Presidente",
 			"desde": 2013,
-			"hasta": 2018
-		},
-		{
-			"nombre": "Abiy Ahmed Ali",
-			"cargo": "jefe de gobierno",
-			"desde": 2018,
 			"hasta": 2018
 		},
 		{
@@ -153,12 +159,6 @@
 			"cargo": "Primer ministro",
 			"desde": 2018,
 			"hasta": 2026
-		},
-		{
-			"nombre": "Taye Atskeselassie",
-			"cargo": "jefe de Estado",
-			"desde": 2024,
-			"hasta": 2024
 		},
 		{
 			"nombre": "Taye Atske Selassie",
@@ -297,10 +297,16 @@
 			"url": "https://www.wikidata.org/wiki/Q115",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Aksum",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Aksum",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	],
 	"revision": {
-		"estado": "validado",
+		"estado": "borrador",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
 		"hash": "d606263362b0",
