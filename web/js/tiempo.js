@@ -390,8 +390,22 @@ function actualizarPasoFlechas() {
 
 let yearDebounce;
 
+/* un año válido de la barra: entero y dentro de [RANGO_MIN, MAX_YEAR]; null si no es un número.
+   Todo pasa por aquí (casilla, deslizador, flechas, reproducción, URL), así que
+   1492.5 se normaliza igual en la interfaz, en el enlace y al recargar */
+function normalizarAnio(v) {
+	const n = typeof v === 'string' ? (v.trim() === '' ? NaN : Number(v)) : Number(v);
+	if (!Number.isFinite(n)) return null;
+	return Math.max(RANGO_MIN, Math.min(MAX_YEAR, Math.round(n)));
+}
+
 function requestYear(y, opts = {}) {
-	y = Math.max(-123000, Math.min(MAX_YEAR, y));
+	y = normalizarAnio(y);
+	if (y == null) {
+		const input = document.getElementById('yearInput');
+		if (input && state.requestedYear != null) input.value = state.requestedYear;
+		return;
+	}
 	if (y === state.requestedYear && !opts.force) return;
 	if (!opts.fromPlay) stopPlay();
 	state.requestedYear = y;
@@ -414,6 +428,7 @@ function requestYear(y, opts = {}) {
 	const input = document.getElementById('yearInput');
 	input.value = y;
 	slider.value = curYearToPos(y);
+	slider.setAttribute('aria-valuetext', i18n.formatYear(y));
 	updateShownLabel(nearestYear(y));
 	clearTimeout(yearDebounce);
 	// solo el arrastre del deslizador espera 250 ms (dispara input sin parar);
@@ -471,7 +486,24 @@ function setupControls() {
 	['change', 'pointerup', 'pointercancel', 'touchend', 'blur'].forEach(ev =>
 		slider.addEventListener(ev, hideSliderBubble)
 	);
-	input.addEventListener('change', () => requestYear(+input.value || 0));
+	input.addEventListener('change', () => requestYear(input.value));
+
+	// atajos anunciados en la ayuda: ← → cambian el año y Espacio reproduce o
+	// pausa, salvo cuando el foco está en un campo, un control o el propio mapa
+	// (donde las flechas lo desplazan), o con una ficha abierta en el móvil
+	document.addEventListener('keydown', ev => {
+		if (ev.defaultPrevented || ev.altKey || ev.ctrlKey || ev.metaKey) return;
+		const t = ev.target;
+		if (t && t.closest && t.closest('input, textarea, select, button, a, summary, [contenteditable], [role="button"], .leaflet-container'))
+			return;
+		const hoja = document.getElementById('hojaFicha');
+		if (hoja && !hoja.hidden) return;
+		if (ev.key === 'ArrowLeft') document.getElementById('prevYear').click();
+		else if (ev.key === 'ArrowRight') document.getElementById('nextYear').click();
+		else if (ev.key === ' ' || ev.key === 'Spacebar') document.getElementById('playBtn').click();
+		else return;
+		ev.preventDefault(); // Espacio no desplaza la página
+	});
 
 	document.getElementById('prevYear').addEventListener('click', () =>
 		requestYear(state.requestedYear - pasoFlechas())

@@ -5,6 +5,64 @@
 		"France",
 		"Kingdom of France"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Francia",
+			"desde": 987,
+			"hasta": 1791
+		},
+		{
+			"nombre": "Primera República Francesa",
+			"desde": 1792,
+			"hasta": 1803
+		},
+		{
+			"nombre": "Primer Imperio francés",
+			"desde": 1804,
+			"hasta": 1814
+		},
+		{
+			"nombre": "Reino de Francia (Restauración)",
+			"desde": 1815,
+			"hasta": 1847,
+			"wiki": "Restauración borbónica en Francia"
+		},
+		{
+			"nombre": "Segunda República Francesa",
+			"desde": 1848,
+			"hasta": 1851
+		},
+		{
+			"nombre": "Segundo Imperio francés",
+			"desde": 1852,
+			"hasta": 1869
+		},
+		{
+			"nombre": "Tercera República Francesa",
+			"desde": 1870,
+			"hasta": 1939
+		},
+		{
+			"nombre": "Francia de Vichy",
+			"desde": 1940,
+			"hasta": 1943
+		},
+		{
+			"nombre": "Gobierno provisional de la República Francesa",
+			"desde": 1944,
+			"hasta": 1945
+		},
+		{
+			"nombre": "Cuarta República Francesa",
+			"desde": 1946,
+			"hasta": 1957
+		},
+		{
+			"nombre": "Quinta República Francesa",
+			"desde": 1958,
+			"hasta": 2026
+		}
+	],
 	"wikidata": "Q142",
 	"owid": "France",
 	"relacionados": [
@@ -633,10 +691,10 @@
 		}
 	],
 	"revision": {
-		"estado": "validado",
-		"fecha": "2026-09-26",
-		"por": "panel-admin",
-		"hash": "69035ad13904",
+		"estado": "borrador",
+		"fecha": "2026-09-28",
+		"por": "editor",
+		"hash": "68fb2745d303",
 		"secciones": [
 			"banderas",
 			"escudos",

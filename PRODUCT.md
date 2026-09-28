@@ -30,7 +30,7 @@ Un mapa que cambia con el año con datos curados y citados uno a uno: fronteras 
 - Web estática publicada en GitHub Pages; HTML, CSS y JavaScript sin dependencias ni compilación, Leaflet para el mapa. El panel de administración y las ingestas son solo locales.
 - Superficies: portada (`web/index.html`), colaborar (`web/colaborar.html`), mapa (`web/mapa.html`), panel (`web/admin.html`).
 - Sistema visual común en `web/css/marca.css`, que cargan las cuatro páginas.
-- La barra de tiempo del mapa reparte el espacio de forma no lineal (1500–hoy ocupa la mitad) y tiene 53 mapas de fronteras; entre dos fechas se muestra el último mapa disponible.
+- La barra de tiempo del mapa reparte el espacio de forma no lineal (1500–hoy ocupa la mitad) y tiene 54 mapas de fronteras; entre dos fechas se muestra el último mapa disponible.
 - Las fronteras son aproximadas y a menudo difusas o disputadas: la web no debe prometer precisión que no tiene.
 
 ## Brand Commitments
@@ -43,7 +43,7 @@ Un mapa que cambia con el año con datos curados y citados uno a uno: fronteras 
 
 ## Evidence on Hand
 
-- Datos reales (a 28-09-2026): 262 países y entidades, 160 conflictos, 384 zonas de guerra, 939 batallas, 183 acontecimientos, 35 territorios, 53 mapas de fronteras.
+- Datos reales (a 28-09-2026): 263 países y entidades, 160 conflictos, 384 zonas de guerra, 941 batallas, 180 acontecimientos, 35 territorios, 54 mapas de fronteras (53 de historical-basemaps y uno derivado, 2011).
 - Capturas reales del mapa generadas desde la propia app (`web/img/lamina/`, con su procedencia en `PROCEDENCIA.md`).
 - Fuentes: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY), historical-basemaps.
 - No hay testimonios, centros usuarios, cifras de uso ni prensa: no se inventan.

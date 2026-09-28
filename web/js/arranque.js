@@ -73,7 +73,8 @@ async function init() {
 	montarMenuIdioma();
 
 	state.years = (await (await fetch('data/years.json')).json()).sort((a, b) => a - b);
-	// años modernos navegables (reproducción y botones ◀ ▶); usan el mapa de 2010
+	LAST_MAP_YEAR = state.years[state.years.length - 1];
+	// años modernos navegables (reproducción y botones ◀ ▶); usan el último mapa
 	for (const vy of [2014, 2020, 2022, MAX_YEAR]) if (!state.years.includes(vy)) state.years.push(vy);
 	state.years.sort((a, b) => a - b);
 
@@ -96,11 +97,11 @@ async function init() {
 		markerZoomAnimation: !menosMovimiento()
 	}).setView(startView.center, startView.zoom);
 	hashApplying = false;
-
 	// en el crédito del mapa, junto a Leaflet: el aviso legal (datos orientativos, licencia)
 	map.attributionControl.addAttribution(
 		`<a href="aviso-legal.html" target="_blank" rel="noopener">${i18n.t('popup.disclaimerMore')}</a>`
 	);
+
 	const warPane = map.createPane('warzones');
 	warPane.style.zIndex = 450; // sobre los territorios (400), bajo los marcadores (600)
 	warRenderer = L.svg({ pane: 'warzones', padding: 0.5 });
@@ -140,8 +141,22 @@ async function init() {
 	});
 	// en móvil los paneles arrancan plegados; su título los abre y cierra
 	const lp = document.getElementById('layersPanel');
-	lp.querySelector('.panel-title').addEventListener('click', () => lp.classList.toggle('collapsed'));
-	if (isMobile()) lp.classList.add('collapsed');
+	const lt = lp.querySelector('.panel-title');
+	const plegar = () => {
+		lp.classList.toggle('collapsed');
+		lt.setAttribute('aria-expanded', lp.classList.contains('collapsed') ? 'false' : 'true');
+	};
+	lt.addEventListener('click', plegar);
+	lt.addEventListener('keydown', e => {
+		if (e.key === 'Enter' || e.key === ' ') {
+			e.preventDefault();
+			plegar();
+		}
+	});
+	if (isMobile()) {
+		lp.classList.add('collapsed');
+		lt.setAttribute('aria-expanded', 'false');
+	}
 
 	state.requestedYear = null; // fuerza la primera petición
 	requestYear(startYear, { force: true, fromPlay: true });

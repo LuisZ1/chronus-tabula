@@ -1,0 +1,37 @@
+{
+	"id": "sudan-del-sur",
+	"nombre": "Sudán del Sur",
+	"nombres": [
+		"South Sudan"
+	],
+	"wiki": "Sudán del Sur",
+	"wikidata": "Q958",
+	"owid": "South Sudan",
+	"vinculos": [
+		{
+			"id": "sudan",
+			"tipo": "parte_de",
+			"desde": 1956,
+			"hasta": 2011
+		}
+	],
+	"resena": "Sudán del Sur es un país sin litoral de África oriental. Se independizó de Sudán el 9 de julio de 2011, tras el referéndum de enero de ese año, y es el Estado reconocido más joven del mundo.",
+	"fuentes": [
+		{
+			"id": "wikidata:Q958",
+			"licencia": "CC0",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "onu:estados-miembros",
+			"url": "https://www.un.org/es/about-us/member-states",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "natural-earth:admin-0",
+			"url": "https://www.naturalearthdata.com/",
+			"licencia": "dominio público",
+			"consultado": "2026-09-28"
+		}
+	]
+}

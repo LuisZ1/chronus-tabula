@@ -365,8 +365,10 @@ function alertBox(msg) {
 	}, 3000);
 }
 
+/* «Fronteras de: …»: el año del mapa de fronteras, que puede ser anterior al
+   consultado (en 2026 se ven las de 2011, el último mapa) */
 function updateShownLabel(snap) {
-	document.getElementById('shownYear').textContent = i18n.formatYear(snap);
+	document.getElementById('shownYear').textContent = i18n.formatYear(Math.min(snap, LAST_MAP_YEAR));
 }
 
 /* ---------- mapas base (sin API key) ---------- */

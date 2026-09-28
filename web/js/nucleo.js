@@ -31,8 +31,8 @@ const state = {
 const CACHE_MAX = 6;
 const INITIAL_YEAR = 1492;
 const MAX_YEAR = 2026; // último año navegable (conflictos y eventos actuales)
-const LAST_MAP_YEAR = 2010; // último mapa de fronteras disponible: los años
-// posteriores reutilizan el mapa de 2010
+let LAST_MAP_YEAR = 2011; // último mapa de fronteras disponible (se lee de data/years.json al
+// arrancar): los años posteriores reutilizan ese mapa y la barra dice de qué año son las fronteras
 const DEG2_TO_KM2 = 111.195 * 111.195; // 1º×1º en el ecuador ≈ 12364 km²
 let map;
 

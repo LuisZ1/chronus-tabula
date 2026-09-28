@@ -1,7 +1,7 @@
 {
   "app.title": "Chronus Tabula",
   "ui.loading": "Cargando…",
-  "ui.showing": "Mostrando",
+  "ui.showing": "Fronteras de",
   "ui.prev": "Año anterior con datos",
   "ui.next": "Año siguiente con datos",
   "ui.typeYear": "Escribe un año (negativo = a. C.)",

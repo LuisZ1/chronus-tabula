@@ -118,6 +118,19 @@
 		}
 	}
 
+	/* la ayuda del mapa enlaza a index.html#controles: abrir el desplegable y llevarlo a la vista */
+	function abrirControles() {
+		if (location.hash !== '#controles') return;
+		var d = document.getElementById('controles');
+		if (!d) return;
+		d.open = true;
+		d.scrollIntoView({ block: 'start', behavior: reducir ? 'auto' : 'smooth' });
+		var s = d.querySelector('summary');
+		if (s) s.focus({ preventScroll: true });
+	}
+	abrirControles();
+	window.addEventListener('hashchange', abrirControles);
+
 	/* copiar enlaces a momentos: la URL absoluta de la página actual */
 	function urlCompleta(rel) {
 		try {
