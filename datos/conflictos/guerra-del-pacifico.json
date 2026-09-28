@@ -1,6 +1,6 @@
 {
 	"id": "guerra-del-pacifico",
-	"nombre": "Guerra del Pacífico",
+	"nombre": "Guerra del Pacífico (1941-1945)",
 	"inicio": 1941,
 	"fin": 1945,
 	"paises": [
@@ -234,7 +234,8 @@
 			"anio": 1942,
 			"lat": 28.2,
 			"lng": -177.37,
-			"descripcion": "Derrota naval japonesa que marca el punto de inflexión del Pacífico."
+			"descripcion": "Derrota naval japonesa que marca el punto de inflexión del Pacífico.",
+			"bajas": "4 portaaviones japoneses hundidos"
 		},
 		{
 			"nombre": "Batalla del Mar del Coral",
@@ -260,8 +261,8 @@
 		{
 			"nombre": "Batalla del golfo de Leyte",
 			"anio": 1944,
-			"lat": 11.0,
-			"lng": 125.3,
+			"lat": 10.37,
+			"lng": 125.36,
 			"descripcion": "La mayor batalla naval de la guerra; inicio de la reconquista de Filipinas (octubre de 1944)."
 		},
 		{
@@ -274,23 +275,9 @@
 		{
 			"nombre": "Batalla de Okinawa",
 			"anio": 1945,
-			"lat": 26.33,
-			"lng": 127.8,
+			"lat": 26.5,
+			"lng": 128.0,
 			"descripcion": "Última gran batalla terrestre antes de la rendición."
-		},
-		{
-			"nombre": "Bombardeo atómico de Hiroshima",
-			"anio": 1945,
-			"lat": 34.39,
-			"lng": 132.46,
-			"descripcion": "6 de agosto de 1945."
-		},
-		{
-			"nombre": "Bombardeo atómico de Nagasaki",
-			"anio": 1945,
-			"lat": 32.75,
-			"lng": 129.87,
-			"descripcion": "9 de agosto de 1945."
 		}
 	],
 	"fuentes": [

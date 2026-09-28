@@ -1,0 +1,133 @@
+{
+	"id": "sucesion-austriaca",
+	"nombre": "Guerra de Sucesión Austriaca",
+	"inicio": 1740,
+	"fin": 1748,
+	"paises": [
+		"Austria",
+		"Prusia",
+		"Francia",
+		"España",
+		"Gran Bretaña",
+		"Baviera",
+		"Países Bajos",
+		"Cerdeña"
+	],
+	"bajas": "más de 350.000 muertos y heridos",
+	"descripcion": "Prusia, Francia, España y Baviera discuten la herencia de María Teresa; Prusia se queda con Silesia y la Paz de Aquisgrán (1748) confirma a María Teresa. La guerra del Asiento entre Gran Bretaña y España se funde con ella.",
+	"wiki": "Guerra de sucesión austriaca",
+	"zonas": [
+		{
+			"nombre": "Silesia y Bohemia",
+			"tipo": "frente",
+			"desde": 1740,
+			"hasta": 1745,
+			"poligono": [
+				[
+					51.8,
+					14.5
+				],
+				[
+					51.5,
+					18.5
+				],
+				[
+					49.5,
+					18.5
+				],
+				[
+					49.3,
+					14.0
+				]
+			]
+		},
+		{
+			"nombre": "Países Bajos austriacos",
+			"tipo": "frente",
+			"desde": 1744,
+			"hasta": 1748,
+			"poligono": [
+				[
+					51.4,
+					2.5
+				],
+				[
+					51.3,
+					6.0
+				],
+				[
+					49.6,
+					6.0
+				],
+				[
+					50.0,
+					2.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Mollwitz",
+			"anio": 1741,
+			"lat": 50.85,
+			"lng": 17.41,
+			"descripcion": "Primera victoria de Federico II (10 de abril de 1741).",
+			"wiki": "Batalla de Mollwitz"
+		},
+		{
+			"nombre": "Batalla de Dettingen",
+			"anio": 1743,
+			"lat": 50.04,
+			"lng": 9.04,
+			"descripcion": "Victoria aliada; la última vez que un rey británico mandó tropas en persona.",
+			"wiki": "Batalla de Dettingen"
+		},
+		{
+			"nombre": "Batalla de Fontenoy",
+			"anio": 1745,
+			"lat": 50.57,
+			"lng": 3.45,
+			"descripcion": "Victoria francesa de Mauricio de Sajonia (11 de mayo de 1745; coordenadas de Antoing, municipio al que pertenece Fontenoy).",
+			"wiki": "Batalla de Fontenoy"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:War of the Austrian Succession",
+			"url": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Treaty of Breslau",
+			"url": "https://en.wikipedia.org/wiki/Treaty_of_Breslau",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Mollwitz",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Mollwitz",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Dettingen",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Dettingen",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Fontenoy",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Fontenoy",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Antoing",
+			"url": "https://en.wikipedia.org/wiki/Antoing",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

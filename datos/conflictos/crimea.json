@@ -64,34 +64,22 @@
 			"descripcion": "La carga de la Brigada Ligera, inmortalizada por Tennyson."
 		},
 		{
+			"nombre": "Batalla de Nigoiti",
+			"anio": 1854,
+			"lat": 42.08,
+			"lng": 42.11
+		},
+		{
+			"nombre": "Batalla del Choloki",
+			"anio": 1854,
+			"lat": 41.85,
+			"lng": 41.97
+		},
+		{
 			"nombre": "Batalla del río Alma",
 			"anio": 1854,
 			"lat": 44.83,
 			"lng": 33.67
-		},
-		{
-			"nombre": "batalla de Nigoiti",
-			"anio": 1854,
-			"lat": 42.08,
-			"lng": 42.11
-		},
-		{
-			"nombre": "batalla de Nigoiti",
-			"anio": 1854,
-			"lat": 42.08,
-			"lng": 42.11
-		},
-		{
-			"nombre": "batalla del Choloki",
-			"anio": 1854,
-			"lat": 41.85,
-			"lng": 41.97
-		},
-		{
-			"nombre": "batalla del Choloki",
-			"anio": 1854,
-			"lat": 41.85,
-			"lng": 41.97
 		},
 		{
 			"nombre": "Batalla de Eupatoria",
@@ -106,13 +94,7 @@
 			"lng": 31.5
 		},
 		{
-			"nombre": "Battle of the Chernaya",
-			"anio": 1855,
-			"lat": 44.47,
-			"lng": 33.85
-		},
-		{
-			"nombre": "Battle of the Chernaya",
+			"nombre": "Batalla del río Chórnaya",
 			"anio": 1855,
 			"lat": 44.47,
 			"lng": 33.85

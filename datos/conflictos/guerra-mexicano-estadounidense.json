@@ -1,0 +1,262 @@
+{
+	"id": "guerra-mexicano-estadounidense",
+	"nombre": "Guerra de Estados Unidos contra México",
+	"inicio": 1846,
+	"fin": 1848,
+	"paises": [
+		"Estados Unidos",
+		"México"
+	],
+	"bajas": "~25.000 mexicanos y ~13.000 estadounidenses muertos (mayoría por enfermedad)",
+	"descripcion": "Tras la anexión de Texas, EE. UU. invade México; por el Tratado de Guadalupe Hidalgo México cede Alta California y Nuevo México, más de la mitad de su territorio.",
+	"wiki": "Intervención estadounidense en México",
+	"zonas": [
+		{
+			"nombre": "Norte de México y Texas",
+			"tipo": "frente",
+			"desde": 1846,
+			"hasta": 1847,
+			"poligono": [
+				[
+					29.5,
+					-104
+				],
+				[
+					29.5,
+					-97
+				],
+				[
+					25,
+					-97
+				],
+				[
+					25,
+					-104
+				]
+			]
+		},
+		{
+			"nombre": "Alta California",
+			"tipo": "frente",
+			"desde": 1846,
+			"hasta": 1847,
+			"poligono": [
+				[
+					38.5,
+					-123.5
+				],
+				[
+					38.5,
+					-116.5
+				],
+				[
+					32.6,
+					-116.5
+				],
+				[
+					32.6,
+					-118.5
+				],
+				[
+					34.5,
+					-121.5
+				]
+			]
+		},
+		{
+			"nombre": "Nuevo México",
+			"tipo": "frente",
+			"desde": 1846,
+			"hasta": 1847,
+			"poligono": [
+				[
+					37,
+					-107
+				],
+				[
+					37,
+					-104.8
+				],
+				[
+					35,
+					-104.8
+				],
+				[
+					35,
+					-107
+				]
+			]
+		},
+		{
+			"nombre": "Campaña de Veracruz a México",
+			"tipo": "frente",
+			"desde": 1847,
+			"hasta": 1847,
+			"poligono": [
+				[
+					20,
+					-99.5
+				],
+				[
+					19.8,
+					-96
+				],
+				[
+					19,
+					-96
+				],
+				[
+					19.1,
+					-99.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Chino",
+			"anio": 1846,
+			"lat": 33.99,
+			"lng": -117.72
+		},
+		{
+			"nombre": "Batalla de Monterey",
+			"anio": 1846,
+			"lat": 36.61,
+			"lng": -121.9,
+			"descripcion": "Ocupación estadounidense de Monterey, capital de la Alta California."
+		},
+		{
+			"nombre": "Batalla de Monterrey",
+			"anio": 1846,
+			"lat": 25.68,
+			"lng": -100.31
+		},
+		{
+			"nombre": "Batalla de Natividad",
+			"anio": 1846,
+			"lat": 36.77,
+			"lng": -121.6
+		},
+		{
+			"nombre": "Batalla de Palo Alto",
+			"anio": 1846,
+			"lat": 26.02,
+			"lng": -97.47,
+			"descripcion": "Primera gran batalla de la guerra (8 de mayo de 1846)."
+		},
+		{
+			"nombre": "Batalla de Resaca de la Palma",
+			"anio": 1846,
+			"lat": 25.94,
+			"lng": -97.49
+		},
+		{
+			"nombre": "Batalla de San Pascual",
+			"anio": 1846,
+			"lat": 33.09,
+			"lng": -116.99
+		},
+		{
+			"nombre": "Batalla de Santa Fe",
+			"anio": 1846,
+			"lat": 35.67,
+			"lng": -105.96
+		},
+		{
+			"nombre": "Batalla del Rancho Domínguez",
+			"anio": 1846,
+			"lat": 33.77,
+			"lng": -118.32
+		},
+		{
+			"nombre": "Incidente de Thornton",
+			"anio": 1846,
+			"lat": 26.06,
+			"lng": -97.78,
+			"descripcion": "Escaramuza en la franja disputada entre el Nueces y el Bravo que Estados Unidos usó como casus belli."
+		},
+		{
+			"nombre": "Sitio de Fort Texas",
+			"anio": 1846,
+			"lat": 25.9,
+			"lng": -97.49
+		},
+		{
+			"nombre": "Batalla de Cerro Gordo",
+			"anio": 1847,
+			"lat": 19.45,
+			"lng": -96.67,
+			"descripcion": "Scott abre el camino de Veracruz a la capital."
+		},
+		{
+			"nombre": "Batalla de Chapultepec",
+			"anio": 1847,
+			"lat": 19.42,
+			"lng": -99.18,
+			"descripcion": "Los Niños Héroes; al día siguiente cae la capital."
+		},
+		{
+			"nombre": "Batalla de La Angostura (Buena Vista)",
+			"anio": 1847,
+			"lat": 25.34,
+			"lng": -101.05
+		},
+		{
+			"nombre": "Batalla de La Mesa",
+			"anio": 1847,
+			"lat": 34.0,
+			"lng": -118.2
+		},
+		{
+			"nombre": "Batalla de Mora",
+			"anio": 1847,
+			"lat": 35.97,
+			"lng": -105.33
+		},
+		{
+			"nombre": "Batalla de Sacramento",
+			"anio": 1847,
+			"lat": 28.87,
+			"lng": -106.19
+		},
+		{
+			"nombre": "Batalla de Santa Clara",
+			"anio": 1847,
+			"lat": 37.35,
+			"lng": -121.95
+		},
+		{
+			"nombre": "Batalla de la Cañada",
+			"anio": 1847,
+			"lat": 35.99,
+			"lng": -106.04
+		},
+		{
+			"nombre": "Batalla del Paso de Embudo",
+			"anio": 1847,
+			"lat": 36.2,
+			"lng": -105.9
+		},
+		{
+			"nombre": "Batalla del Río San Gabriel",
+			"anio": 1847,
+			"lat": 33.99,
+			"lng": -118.11
+		},
+		{
+			"nombre": "Segunda batalla de Mora",
+			"anio": 1847,
+			"lat": 35.97,
+			"lng": -105.33
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Intervención estadounidense en México",
+			"url": "https://es.wikipedia.org/wiki/Intervenci%C3%B3n_estadounidense_en_M%C3%A9xico",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

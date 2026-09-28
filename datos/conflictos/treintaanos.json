@@ -174,10 +174,12 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Naval Batalla de Saint-Martin-de-Ré",
-			"anio": 1622,
-			"lat": 46.22,
-			"lng": -1.37
+			"nombre": "Batalla de la Montaña Blanca",
+			"anio": 1620,
+			"lat": 50.08,
+			"lng": 14.32,
+			"descripcion": "Las tropas imperiales y de la Liga Católica aplastan a los rebeldes bohemios junto a Praga (8 de noviembre de 1620); coordenadas aproximadas del cerro de Bílá Hora.",
+			"wiki": "Batalla de la Montaña Blanca"
 		},
 		{
 			"nombre": "Batalla de Breitenfeld",
@@ -186,6 +188,28 @@
 			"lng": 12.36,
 			"descripcion": "Primera gran victoria protestante, de Gustavo II Adolfo.",
 			"bajas": "~13.000 imperiales muertos"
+		},
+		{
+			"nombre": "Batalla de Lützen",
+			"anio": 1632,
+			"lat": 51.26,
+			"lng": 12.14,
+			"descripcion": "Victoria sueca en la que muere Gustavo Adolfo (16 de noviembre de 1632); coordenadas de la localidad.",
+			"wiki": "Batalla de Lützen (1632)"
+		},
+		{
+			"nombre": "Batalla de Nördlingen",
+			"anio": 1634,
+			"lat": 48.81,
+			"lng": 10.49,
+			"descripcion": "Españoles e imperiales derrotan a los suecos (5-6 de septiembre de 1634).",
+			"wiki": "Batalla de Nördlingen (1634)"
+		},
+		{
+			"nombre": "Batalla de Vlotho",
+			"anio": 1638,
+			"lat": 52.17,
+			"lng": 8.85
 		},
 		{
 			"nombre": "Batalla de Rocroi",
@@ -211,6 +235,36 @@
 			"url": "https://www.wikidata.org/wiki/Q2890947",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Battle of Vlotho",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Vlotho",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of White Mountain",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_White_Mountain",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Lützen (1632)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_L%C3%BCtzen_(1632)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Lützen",
+			"url": "https://en.wikipedia.org/wiki/L%C3%BCtzen",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Nördlingen (1634)",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_N%C3%B6rdlingen_(1634)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

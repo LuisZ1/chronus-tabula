@@ -284,6 +284,14 @@
 			"lng": 20.87
 		},
 		{
+			"nombre": "Batalla de Jena-Auerstedt",
+			"anio": 1806,
+			"lat": 50.927,
+			"lng": 11.586,
+			"descripcion": "Napoleón y Davout destrozan al ejército prusiano (14 de octubre de 1806).",
+			"wiki": "Batalla de Jena-Auerstedt"
+		},
+		{
 			"nombre": "Batalla de Pułtusk",
 			"anio": 1806,
 			"lat": 52.71,
@@ -294,6 +302,22 @@
 			"anio": 1807,
 			"lat": 40.07,
 			"lng": 24.93
+		},
+		{
+			"nombre": "Batalla de Eylau",
+			"anio": 1807,
+			"lat": 54.4,
+			"lng": 20.63,
+			"descripcion": "Choque sangriento y sin vencedor claro entre franceses y rusos en Prusia Oriental.",
+			"wiki": "Batalla de Eylau"
+		},
+		{
+			"nombre": "Batalla de Friedland",
+			"anio": 1807,
+			"lat": 54.45,
+			"lng": 21.02,
+			"descripcion": "Victoria francesa sobre Rusia que lleva a la paz de Tilsit (14 de junio de 1807).",
+			"wiki": "Batalla de Friedland"
 		},
 		{
 			"nombre": "batalla de Heilsberg",
@@ -341,6 +365,14 @@
 			"lng": -0.88,
 			"descripcion": "«Guerra a cuchillo»: la resistencia de Palafox asombra a Europa.",
 			"bajas": "~50.000 muertos, la mayoría civiles"
+		},
+		{
+			"nombre": "Batalla de Wagram",
+			"anio": 1809,
+			"lat": 48.3,
+			"lng": 16.56,
+			"descripcion": "Napoleón derrota a Austria al noreste de Viena (5-6 de julio de 1809).",
+			"wiki": "Batalla de Wagram"
 		},
 		{
 			"nombre": "Battle of the Procida Canal",
@@ -393,6 +425,14 @@
 			"lng": 24.47
 		},
 		{
+			"nombre": "Batalla de los Arapiles (Salamanca)",
+			"anio": 1812,
+			"lat": 40.89,
+			"lng": -5.62,
+			"descripcion": "Wellington derrota al ejército francés de Marmont al sur de Salamanca (22 de julio de 1812).",
+			"wiki": "Batalla de los Arapiles"
+		},
+		{
 			"nombre": "batalla de Smolensk",
 			"anio": 1812,
 			"lat": 54.78,
@@ -422,12 +462,6 @@
 			"lat": 42.85,
 			"lng": -2.67,
 			"descripcion": "Wellington expulsa a José I; el botín francés queda esparcido por el campo."
-		},
-		{
-			"nombre": "Batalla de Craonne",
-			"anio": 1814,
-			"lat": 49.44,
-			"lng": 3.72
 		},
 		{
 			"nombre": "Batalla de Craonne",
@@ -585,6 +619,36 @@
 			"url": "https://www.wikidata.org/wiki/Q25809",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Battle of Jena–Auerstedt",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Jena%E2%80%93Auerstedt",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Eylau",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Eylau",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Friedland",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Friedland",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Wagram",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Wagram",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Salamanca",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Salamanca",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

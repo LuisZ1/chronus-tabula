@@ -1,0 +1,111 @@
+{
+	"id": "cruzada-albigense",
+	"nombre": "Cruzada albigense",
+	"inicio": 1209,
+	"fin": 1229,
+	"paises": [
+		"Francia",
+		"Estados Pontificios (Papado)",
+		"Condado de Toulouse",
+		"Corona de Aragón"
+	],
+	"bajas": "miles, con matanzas de civiles (Béziers, 1209)",
+	"descripcion": "Cruzada contra los cátaros del Languedoc; en Muret (1213) muere Pedro II de Aragón y el sur de Francia acaba integrado en la corona francesa, que frena la expansión aragonesa al norte de los Pirineos.",
+	"wiki": "Cruzada albigense",
+	"zonas": [
+		{
+			"nombre": "Languedoc",
+			"tipo": "frente",
+			"poligono": [
+				[
+					44.3,
+					0.8
+				],
+				[
+					44.3,
+					4.2
+				],
+				[
+					42.8,
+					4.2
+				],
+				[
+					42.8,
+					0.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Saqueo de Béziers",
+			"anio": 1209,
+			"lat": 43.35,
+			"lng": 3.22,
+			"descripcion": "Matanza de la población el 22 de julio de 1209 (coordenadas de la ciudad).",
+			"wiki": "Masacre de Béziers"
+		},
+		{
+			"nombre": "Sitio de Carcasona",
+			"anio": 1209,
+			"lat": 43.21,
+			"lng": 2.35,
+			"descripcion": "Agosto de 1209 (coordenadas de la ciudad).",
+			"wiki": "Sitio de Carcasona (1209)"
+		},
+		{
+			"nombre": "Batalla de Muret",
+			"anio": 1213,
+			"lat": 43.467,
+			"lng": 1.333,
+			"descripcion": "Simón de Montfort derrota a Pedro II de Aragón, que muere en el combate (12 de septiembre de 1213).",
+			"wiki": "Batalla de Muret"
+		},
+		{
+			"nombre": "Sitio de Toulouse",
+			"anio": 1218,
+			"lat": 43.6,
+			"lng": 1.44,
+			"descripcion": "Asedio de 1217-1218 en el que muere Simón de Montfort (coordenadas de la ciudad).",
+			"wiki": "Sitio de Toulouse (1217-1218)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Albigensian Crusade",
+			"url": "https://en.wikipedia.org/wiki/Albigensian_Crusade",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Muret",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Muret",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Massacre at Béziers",
+			"url": "https://en.wikipedia.org/wiki/Massacre_at_Béziers",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Béziers",
+			"url": "https://en.wikipedia.org/wiki/Béziers",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Carcassonne",
+			"url": "https://en.wikipedia.org/wiki/Carcassonne",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Toulouse",
+			"url": "https://en.wikipedia.org/wiki/Toulouse",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

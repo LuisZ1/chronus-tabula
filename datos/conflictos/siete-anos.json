@@ -157,11 +157,27 @@
 			"lng": 88.38
 		},
 		{
+			"nombre": "Batalla de Leuthen",
+			"anio": 1757,
+			"lat": 51.15,
+			"lng": 16.75,
+			"descripcion": "Federico II vence a los austriacos en Silesia (5 de diciembre de 1757).",
+			"wiki": "Batalla de Leuthen"
+		},
+		{
 			"nombre": "Batalla de Plassey",
 			"anio": 1757,
 			"lat": 23.8,
 			"lng": 88.25,
 			"descripcion": "Clive gana Bengala para la Compañía de las Indias Orientales."
+		},
+		{
+			"nombre": "Batalla de Rossbach",
+			"anio": 1757,
+			"lat": 51.27,
+			"lng": 11.89,
+			"descripcion": "Federico II derrota a franceses e imperiales en Sajonia (5 de noviembre de 1757).",
+			"wiki": "Batalla de Rossbach"
 		},
 		{
 			"nombre": "Batalla de Cuddalore (1758)",
@@ -315,6 +331,18 @@
 			"url": "https://www.wikidata.org/wiki/Q170400",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-en:Battle of Rossbach",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Rossbach",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Leuthen",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Leuthen",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

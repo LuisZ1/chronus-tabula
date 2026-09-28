@@ -1,0 +1,71 @@
+{
+	"id": "guerra-kalinga",
+	"nombre": "Guerra de Kalinga",
+	"inicio": -262,
+	"fin": -261,
+	"paises": [
+		"Imperio maurya",
+		"Kalinga"
+	],
+	"bajas": "100.000 muertos y 150.000 deportados según el edicto XIII de Asoka",
+	"descripcion": "Asoka conquista el reino de Kalinga (actual Odisha). El horror de la matanza, que él mismo relata en sus edictos, le lleva a abrazar el budismo y la «conquista por el dharma».",
+	"wiki": "Guerra de Kalinga",
+	"zonas": [
+		{
+			"nombre": "Kalinga (Odisha)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					22.0,
+					84.0
+				],
+				[
+					21.5,
+					87.3
+				],
+				[
+					19.3,
+					85.2
+				],
+				[
+					18.8,
+					83.8
+				],
+				[
+					20.5,
+					83.0
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Kalinga (colinas de Dhauli)",
+			"anio": -261,
+			"lat": 20.19,
+			"lng": 85.84,
+			"descripcion": "Lugar tradicional de la batalla, 8 km al sur de Bhubaneswar, junto al río Daya (coordenadas aproximadas).",
+			"wiki": "Guerra de Kalinga"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kalinga War",
+			"url": "https://en.wikipedia.org/wiki/Kalinga_War",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Dhauli",
+			"url": "https://en.wikipedia.org/wiki/Dhauli",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Bhubaneswar",
+			"url": "https://en.wikipedia.org/wiki/Bhubaneswar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

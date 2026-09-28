@@ -1,0 +1,116 @@
+{
+	"id": "guerras-unificacion-italiana",
+	"nombre": "Guerras de la unificación italiana",
+	"inicio": 1848,
+	"fin": 1870,
+	"paises": [
+		"Reino de Cerdeña",
+		"Italia",
+		"Austria",
+		"Francia",
+		"Estados Pontificios",
+		"Reino de las Dos Sicilias"
+	],
+	"bajas": "decenas de miles",
+	"descripcion": "Primera (1848-1849), segunda (1859) y tercera (1866) guerras de independencia, la expedición de los Mil de Garibaldi (1860) y la toma de Roma (1870) crean el Reino de Italia.",
+	"wiki": "Unificación italiana",
+	"zonas": [
+		{
+			"nombre": "Lombardía y Véneto",
+			"tipo": "frente",
+			"poligono": [
+				[
+					46.2,
+					8.5
+				],
+				[
+					46.2,
+					12.5
+				],
+				[
+					45,
+					12.5
+				],
+				[
+					45,
+					8.5
+				]
+			]
+		},
+		{
+			"nombre": "Expedición de los Mil",
+			"tipo": "frente",
+			"desde": 1860,
+			"hasta": 1860,
+			"poligono": [
+				[
+					41.5,
+					13.5
+				],
+				[
+					41.2,
+					15.5
+				],
+				[
+					37.8,
+					15.7
+				],
+				[
+					36.7,
+					14.8
+				],
+				[
+					37.8,
+					12.4
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Custoza (1848)",
+			"anio": 1848,
+			"lat": 45.38,
+			"lng": 10.8
+		},
+		{
+			"nombre": "Batalla de Magenta",
+			"anio": 1859,
+			"lat": 45.46,
+			"lng": 8.88
+		},
+		{
+			"nombre": "Batalla de Solferino",
+			"anio": 1859,
+			"lat": 45.37,
+			"lng": 10.57,
+			"descripcion": "Su carnicería inspira a Henry Dunant la Cruz Roja."
+		},
+		{
+			"nombre": "Batalla de Calatafimi",
+			"anio": 1860,
+			"lat": 37.91,
+			"lng": 12.86
+		},
+		{
+			"nombre": "Batalla del Volturno",
+			"anio": 1860,
+			"lat": 41.09,
+			"lng": 14.25
+		},
+		{
+			"nombre": "Toma de Roma (Porta Pia)",
+			"anio": 1870,
+			"lat": 41.91,
+			"lng": 12.5
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Unificación italiana",
+			"url": "https://es.wikipedia.org/wiki/Unificaci%C3%B3n_italiana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

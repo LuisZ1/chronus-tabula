@@ -1,0 +1,94 @@
+{
+	"id": "guerra-civil-cesar",
+	"nombre": "Guerra civil de César",
+	"inicio": -49,
+	"fin": -45,
+	"paises": [
+		"Roma"
+	],
+	"bajas": "decenas de miles (6.000-15.000 pompeyanos muertos solo en Farsalia)",
+	"descripcion": "César cruza el Rubicón y se enfrenta a Pompeyo y a los optimates del Senado. Vence en Farsalia (48 a. C.), en África y en Munda (45 a. C.) y queda como dictador; su asesinato en 44 a. C. abre la última fase de la República.",
+	"wiki": "Segunda guerra civil de la República romana",
+	"zonas": [
+		{
+			"nombre": "Grecia y Epiro",
+			"tipo": "frente",
+			"desde": -48,
+			"hasta": -48,
+			"poligono": [
+				[
+					41.2,
+					19.3
+				],
+				[
+					41.0,
+					23.0
+				],
+				[
+					38.8,
+					23.5
+				],
+				[
+					38.8,
+					20.5
+				]
+			]
+		},
+		{
+			"nombre": "Bética (Munda)",
+			"tipo": "frente",
+			"desde": -45,
+			"hasta": -45,
+			"poligono": [
+				[
+					38.2,
+					-6.5
+				],
+				[
+					38.2,
+					-4.0
+				],
+				[
+					36.8,
+					-4.0
+				],
+				[
+					36.8,
+					-6.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Farsalia",
+			"anio": -48,
+			"lat": 39.41,
+			"lng": 22.28,
+			"descripcion": "César derrota a Pompeyo, que huye a Egipto y es asesinado.",
+			"wiki": "Batalla de Farsalia"
+		},
+		{
+			"nombre": "Batalla de Munda",
+			"anio": -45,
+			"lat": 37.35,
+			"lng": -5.22,
+			"descripcion": "Última victoria de César sobre los hijos de Pompeyo; el lugar exacto se discute (probablemente cerca de La Lantejuela).",
+			"wiki": "Batalla de Munda"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Battle of Pharsalus",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Pharsalus",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Munda",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Munda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"id": "expansion-neoasiria",
+	"nombre": "Expansión del Imperio neoasirio",
+	"inicio": -911,
+	"fin": -647,
+	"paises": [
+		"Asiria",
+		"Aram-Damasco",
+		"Reino de Israel",
+		"Reino de Judá",
+		"Babilonia",
+		"Egipto",
+		"Elam",
+		"Urartu"
+	],
+	"bajas": "desconocidas; deportaciones masivas de población",
+	"descripcion": "Asiria se convierte en el mayor imperio conocido hasta entonces (~1,4 millones de km² hacia 670 a. C.): somete Siria, el Levante, Babilonia y, en 671, Egipto.",
+	"wiki": "Imperio neoasirio",
+	"zonas": [
+		{
+			"nombre": "Siria y Levante",
+			"tipo": "frente",
+			"desde": -853,
+			"hasta": -701,
+			"poligono": [
+				[
+					37,
+					36
+				],
+				[
+					36.5,
+					40
+				],
+				[
+					33,
+					38.5
+				],
+				[
+					31,
+					35.5
+				],
+				[
+					33,
+					35
+				],
+				[
+					35.5,
+					35.7
+				]
+			]
+		},
+		{
+			"nombre": "Egipto",
+			"tipo": "frente",
+			"desde": -671,
+			"hasta": -663,
+			"poligono": [
+				[
+					31.4,
+					29.8
+				],
+				[
+					31.2,
+					32.4
+				],
+				[
+					29.5,
+					31.8
+				],
+				[
+					25.7,
+					32.8
+				],
+				[
+					25.7,
+					32.5
+				],
+				[
+					29.8,
+					30.8
+				]
+			]
+		},
+		{
+			"nombre": "Elam",
+			"tipo": "frente",
+			"desde": -653,
+			"hasta": -647,
+			"poligono": [
+				[
+					33,
+					47
+				],
+				[
+					32.5,
+					49.5
+				],
+				[
+					31,
+					49.5
+				],
+				[
+					31.3,
+					47.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Qarqar",
+			"anio": -853,
+			"lat": 35.74,
+			"lng": 36.33,
+			"descripcion": "Salmanasar III contra una coalición de reyes sirios, arameos e israelitas; la batalla con más combatientes documentada hasta entonces. Coordenadas de Tell Qarqur.",
+			"wiki": "Batalla de Qarqar"
+		},
+		{
+			"nombre": "Destrucción de Susa",
+			"anio": -647,
+			"lat": 32.19,
+			"lng": 48.26,
+			"descripcion": "Asurbanipal saquea la capital de Elam (hacia 647 a. C.).",
+			"wiki": "Susa"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Neo-Assyrian Empire",
+			"url": "https://en.wikipedia.org/wiki/Neo-Assyrian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Qarqar",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Qarqar",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Tell Qarqur",
+			"url": "https://en.wikipedia.org/wiki/Tell_Qarqur",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Elam",
+			"url": "https://en.wikipedia.org/wiki/Elam",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Susa",
+			"url": "https://en.wikipedia.org/wiki/Susa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

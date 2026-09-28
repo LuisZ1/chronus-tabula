@@ -1,0 +1,74 @@
+{
+	"id": "guerra-afgano-sovietica",
+	"nombre": "Guerra de Afganistán (1978-1992) / intervención soviética",
+	"inicio": 1979,
+	"fin": 1989,
+	"paises": [
+		"URSS",
+		"Afganistán",
+		"Muyahidines"
+	],
+	"bajas": "~1-2 millones de afganos y ~15.000 soldados soviéticos",
+	"descripcion": "La URSS invade Afganistán para sostener al régimen comunista; los muyahidines, apoyados por EE. UU., Pakistán y Arabia Saudí, la obligan a retirarse en 1989.",
+	"wiki": "Guerra de Afganistán (1978-1992)",
+	"zonas": [
+		{
+			"nombre": "Afganistán oriental",
+			"tipo": "frente",
+			"poligono": [
+				[
+					37,
+					67
+				],
+				[
+					37,
+					71.5
+				],
+				[
+					31,
+					70
+				],
+				[
+					31,
+					66
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Operación Tormenta-333 (Kabul)",
+			"anio": 1979,
+			"lat": 34.47,
+			"lng": 69.12
+		},
+		{
+			"nombre": "Ofensivas del Panjshir",
+			"anio": 1980,
+			"hasta": 1985,
+			"lat": 35.27,
+			"lng": 69.47,
+			"descripcion": "Nueve ofensivas soviéticas contra Ahmad Shah Massoud en el valle del Panjshir (1980-1985); coordenadas del valle."
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Afganistán (1978-1992)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Afganist%C3%A1n_(1978-1992)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Panjshir offensives",
+			"url": "https://en.wikipedia.org/wiki/Panjshir_offensives",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Panjshir Valley",
+			"url": "https://en.wikipedia.org/wiki/Panjshir_Valley",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

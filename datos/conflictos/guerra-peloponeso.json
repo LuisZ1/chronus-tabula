@@ -1,7 +1,7 @@
 {
 	"id": "guerra-peloponeso",
 	"nombre": "Guerra del Peloponeso",
-	"inicio": -432,
+	"inicio": -431,
 	"fin": -404,
 	"paises": [
 		"Atenas",
@@ -101,14 +101,14 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Potidea",
-			"anio": -432,
+			"nombre": "Asedio de Potidea (432-430 a. C.)",
+			"anio": -431,
 			"lat": 40.19,
 			"lng": 23.33
 		},
 		{
 			"nombre": "Anfípolis",
-			"anio": -424,
+			"anio": -422,
 			"lat": 40.82,
 			"lng": 23.84
 		},
@@ -143,6 +143,18 @@
 			"url": "https://es.wikipedia.org/wiki/Guerra_del_Peloponeso",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-en:Battle of Amphipolis",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Amphipolis",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Peloponnesian War",
+			"url": "https://en.wikipedia.org/wiki/Peloponnesian_War",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

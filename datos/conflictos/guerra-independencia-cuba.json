@@ -1,0 +1,110 @@
+{
+	"id": "guerra-independencia-cuba",
+	"nombre": "Guerras de independencia de Cuba",
+	"inicio": 1868,
+	"fin": 1898,
+	"paises": [
+		"España",
+		"Cuba"
+	],
+	"bajas": "Guerra de los Diez Años: ~200.000; guerra de 1895: más de 200.000, contando las víctimas civiles de la reconcentración de Weyler (cifras discutidas)",
+	"descripcion": "Guerra de los Diez Años (1868-1878, Paz de Zanjón), Guerra Chiquita (1879-1880) y guerra de 1895-1898, iniciada por Martí y Maceo; Martí muere en Dos Ríos (1895). Desemboca en la intervención de EE. UU. (ver «Guerra hispano-estadounidense»).",
+	"wiki": "Guerra de Independencia cubana",
+	"zonas": [
+		{
+			"nombre": "Oriente cubano",
+			"tipo": "frente",
+			"poligono": [
+				[
+					21.3,
+					-78
+				],
+				[
+					21.3,
+					-74.2
+				],
+				[
+					19.9,
+					-74.2
+				],
+				[
+					19.9,
+					-78
+				]
+			]
+		},
+		{
+			"nombre": "Invasión de Occidente",
+			"tipo": "frente",
+			"desde": 1895,
+			"hasta": 1896,
+			"poligono": [
+				[
+					23.2,
+					-84.9
+				],
+				[
+					23.2,
+					-78
+				],
+				[
+					21.7,
+					-78
+				],
+				[
+					21.8,
+					-84.9
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Grito de Yara (La Demajagua)",
+			"anio": 1868,
+			"lat": 20.28,
+			"lng": -77.18,
+			"descripcion": "Céspedes libera a sus esclavos en su ingenio de La Demajagua y se alza contra España (10 de octubre de 1868)."
+		},
+		{
+			"nombre": "Batalla de Mal Tiempo",
+			"anio": 1895,
+			"lat": 22.34,
+			"lng": -80.28,
+			"descripcion": "Victoria de Máximo Gómez y Maceo a pocos kilómetros de Cruces (coordenadas de la localidad).",
+			"wiki": "Batalla de Mal Tiempo"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Independencia cubana",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Independencia_cubana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Guerra de los Diez Años",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_los_Diez_A%C3%B1os",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:La Demajagua (memorial)",
+			"url": "https://en.wikipedia.org/wiki/La_Demajagua_(memorial)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Mal Tiempo",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Mal_Tiempo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Cruces, Cuba",
+			"url": "https://en.wikipedia.org/wiki/Cruces,_Cuba",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

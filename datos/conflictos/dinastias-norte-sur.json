@@ -1,7 +1,7 @@
 {
 	"id": "dinastias-norte-sur",
 	"nombre": "Dinastías del Norte y del Sur",
-	"inicio": 383,
+	"inicio": 420,
 	"fin": 589,
 	"paises": [
 		"Dinastías del Norte",
@@ -60,15 +60,6 @@
 					108.0
 				]
 			]
-		}
-	],
-	"batallas": [
-		{
-			"nombre": "Batalla del río Fei (Feishui)",
-			"anio": 383,
-			"lat": 32.6,
-			"lng": 116.9,
-			"descripcion": "Jin Oriental frena a Qin Anterior; se consolida la división Norte-Sur."
 		}
 	],
 	"fuentes": [

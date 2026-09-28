@@ -1,6 +1,6 @@
 {
 	"id": "liberacion-tibet",
-	"nombre": "Liberación del Tíbet por el EPL",
+	"nombre": "Incorporación del Tíbet a la República Popular China (1950-1951)",
 	"inicio": 1950,
 	"fin": 1951,
 	"paises": [
@@ -8,7 +8,7 @@
 		"Tíbet (gobierno de Lhasa)"
 	],
 	"bajas": "unos 5.000 combatientes tibetanos",
-	"descripcion": "El Ejército Popular de Liberación derrota al ejército tibetano en la batalla de Qamdo (Chamdo) en octubre de 1950; en 1951 el Acuerdo de los 17 Puntos incorpora el Tíbet a la República Popular China.",
+	"descripcion": "El Ejército Popular de Liberación derrota al ejército tibetano en la batalla de Qamdo (Chamdo) en octubre de 1950; en mayo de 1951 el Acuerdo de los 17 Puntos incorpora el Tíbet a la República Popular China. La historiografía en español e inglés habla de anexión del Tíbet; la RPC la denomina oficialmente «liberación pacífica del Tíbet».",
 	"wiki": "Batalla de Chamdo",
 	"zonas": [
 		{
@@ -55,6 +55,18 @@
 			"url": "https://es.wikipedia.org/wiki/Batalla_de_Chamdo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "wikipedia-es:Anexión del Tíbet por la República Popular China",
+			"url": "https://es.wikipedia.org/wiki/Anexi%C3%B3n_del_T%C3%ADbet_por_la_Rep%C3%BAblica_Popular_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Annexation of Tibet by the People's Republic of China",
+			"url": "https://en.wikipedia.org/wiki/Annexation_of_Tibet_by_the_People%27s_Republic_of_China",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		},
 		{
 			"id": "libro:Breve historia de la República Popular China (1949-2019)",

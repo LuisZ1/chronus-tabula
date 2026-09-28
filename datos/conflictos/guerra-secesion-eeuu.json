@@ -81,9 +81,49 @@
 					-85.0
 				]
 			]
+		},
+		{
+			"nombre": "Frente trans-Misisipi y costa del Golfo",
+			"tipo": "frente",
+			"desde": 1861,
+			"hasta": 1865,
+			"poligono": [
+				[
+					36.6,
+					-95.5
+				],
+				[
+					36.6,
+					-90.6
+				],
+				[
+					32.3,
+					-91.2
+				],
+				[
+					29.0,
+					-89.0
+				],
+				[
+					29.0,
+					-95.5
+				]
+			]
 		}
 	],
 	"batallas": [
+		{
+			"nombre": "Batalla de Corrick's Ford",
+			"anio": 1861,
+			"lat": 39.09,
+			"lng": -79.69
+		},
+		{
+			"nombre": "Batalla de Head of Passes",
+			"anio": 1861,
+			"lat": 29.16,
+			"lng": -89.25
+		},
 		{
 			"nombre": "Batalla de Antietam",
 			"anio": 1862,
@@ -92,6 +132,42 @@
 			"descripcion": "El día más sangriento de la historia militar estadounidense.",
 			"bajas": "~23.000 bajas en un día",
 			"wiki": "Batalla de Antietam"
+		},
+		{
+			"nombre": "Batalla de Memphis",
+			"anio": 1862,
+			"lat": 35.13,
+			"lng": -90.16
+		},
+		{
+			"nombre": "Batalla de Saint Charles",
+			"anio": 1862,
+			"lat": 34.38,
+			"lng": -91.13
+		},
+		{
+			"nombre": "Batalla de Stones River",
+			"anio": 1862,
+			"lat": 35.87,
+			"lng": -86.43
+		},
+		{
+			"nombre": "Batalla del puerto de Galveston",
+			"anio": 1862,
+			"lat": 29.34,
+			"lng": -94.77
+		},
+		{
+			"nombre": "Batalla de Devil's Backbone",
+			"anio": 1863,
+			"lat": 35.18,
+			"lng": -94.31
+		},
+		{
+			"nombre": "Batalla de Fayetteville",
+			"anio": 1863,
+			"lat": 36.07,
+			"lng": -94.16
 		},
 		{
 			"nombre": "Batalla de Gettysburg",
@@ -103,12 +179,114 @@
 			"wiki": "Batalla de Gettysburg"
 		},
 		{
+			"nombre": "Batalla de Helena",
+			"anio": 1863,
+			"lat": 34.53,
+			"lng": -90.6
+		},
+		{
+			"nombre": "Batalla de Jackson",
+			"anio": 1863,
+			"lat": 32.29,
+			"lng": -90.2
+		},
+		{
+			"nombre": "Batalla de Salem Church",
+			"anio": 1863,
+			"lat": 38.29,
+			"lng": -77.53
+		},
+		{
+			"nombre": "Combate frente al faro de Galveston",
+			"anio": 1863,
+			"lat": 29.32,
+			"lng": -94.66
+		},
+		{
+			"nombre": "Escaramuza de Ashley's Mills",
+			"anio": 1863,
+			"lat": 34.7,
+			"lng": -92.1
+		},
+		{
+			"nombre": "Primera batalla de Collierville",
+			"anio": 1863,
+			"lat": 35.04,
+			"lng": -89.66
+		},
+		{
+			"nombre": "Segunda batalla de Collierville",
+			"anio": 1863,
+			"lat": 35.04,
+			"lng": -89.66
+		},
+		{
 			"nombre": "Sitio de Vicksburg",
 			"anio": 1863,
 			"lat": 32.35,
 			"lng": -90.88,
 			"descripcion": "Grant parte en dos la Confederación al controlar el Misisipi.",
 			"wiki": "Sitio de Vicksburg"
+		},
+		{
+			"nombre": "Batalla de Brice's Cross Roads",
+			"anio": 1864,
+			"lat": 34.51,
+			"lng": -88.73
+		},
+		{
+			"nombre": "Batalla de Elkin's Ferry",
+			"anio": 1864,
+			"lat": 33.93,
+			"lng": -93.36
+		},
+		{
+			"nombre": "Batalla de Fort McAllister",
+			"anio": 1864,
+			"lat": 31.89,
+			"lng": -81.19
+		},
+		{
+			"nombre": "Batalla de Mansfield",
+			"anio": 1864,
+			"lat": 32.01,
+			"lng": -93.67
+		},
+		{
+			"nombre": "Batalla de Pleasant Hill",
+			"anio": 1864,
+			"lat": 31.85,
+			"lng": -93.51
+		},
+		{
+			"nombre": "Batalla de Spotsylvania",
+			"anio": 1864,
+			"lat": 38.22,
+			"lng": -77.6
+		},
+		{
+			"nombre": "Batalla de la Espesura (Wilderness)",
+			"anio": 1864,
+			"lat": 38.32,
+			"lng": -77.76
+		},
+		{
+			"nombre": "Batalla del puente de Altamaha",
+			"anio": 1864,
+			"lat": 31.66,
+			"lng": -81.83
+		},
+		{
+			"nombre": "Emboscada al vapor J. R. Williams",
+			"anio": 1864,
+			"lat": 35.44,
+			"lng": -95.03
+		},
+		{
+			"nombre": "Batalla de Bentonville",
+			"anio": 1865,
+			"lat": 35.31,
+			"lng": -78.32
 		},
 		{
 			"nombre": "Rendición de Appomattox",

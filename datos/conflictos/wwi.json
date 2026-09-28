@@ -160,6 +160,31 @@
 					12.5
 				]
 			]
+		},
+		{
+			"nombre": "Mar del Norte (bloqueo y Jutlandia)",
+			"tipo": "frente",
+			"mar": true,
+			"desde": 1914,
+			"hasta": 1918,
+			"poligono": [
+				[
+					58.5,
+					2.0
+				],
+				[
+					58.5,
+					8.0
+				],
+				[
+					53.5,
+					8.0
+				],
+				[
+					53.5,
+					2.0
+				]
+			]
 		}
 	],
 	"batallas": [
@@ -176,16 +201,30 @@
 			"lng": 7.17
 		},
 		{
-			"nombre": "Battle of Monchy-au-Bois",
+			"nombre": "Batalla de Monchy-au-Bois",
 			"anio": 1914,
 			"lat": 50.18,
 			"lng": 2.66
 		},
 		{
-			"nombre": "Battle of the Meuse",
+			"nombre": "Batalla de Tannenberg",
+			"anio": 1914,
+			"lat": 53.49,
+			"lng": 20.13,
+			"descripcion": "Hindenburg y Ludendorff destruyen el II Ejército ruso en Prusia Oriental.",
+			"wiki": "Batalla de Tannenberg (1914)"
+		},
+		{
+			"nombre": "Batalla del Mosa (1914)",
 			"anio": 1914,
 			"lat": 49.7,
 			"lng": 4.94
+		},
+		{
+			"nombre": "Bombardeo de Odesa",
+			"anio": 1914,
+			"lat": 46.47,
+			"lng": 30.73
 		},
 		{
 			"nombre": "Primera batalla del Marne",
@@ -196,31 +235,19 @@
 			"bajas": "~500.000 bajas"
 		},
 		{
-			"nombre": "batalla de Odesa",
-			"anio": 1914,
-			"lat": 46.47,
-			"lng": 30.73
-		},
-		{
-			"nombre": "batalla de Odesa",
-			"anio": 1914,
-			"lat": 46.47,
-			"lng": 30.73
-		},
-		{
-			"nombre": "second battle of Krakow",
+			"nombre": "Segunda batalla de Cracovia",
 			"anio": 1914,
 			"lat": 50.06,
 			"lng": 19.94
 		},
 		{
-			"nombre": "Battle of Durazzo",
+			"nombre": "Batalla de Durazzo",
 			"anio": 1915,
 			"lat": 41.28,
 			"lng": 19.33
 		},
 		{
-			"nombre": "Battles of Przasnysz",
+			"nombre": "Batallas de Przasnysz",
 			"anio": 1915,
 			"lat": 52.13,
 			"lng": 20.05
@@ -240,6 +267,14 @@
 			"lng": 23.5
 		},
 		{
+			"nombre": "Batalla de Jutlandia",
+			"anio": 1916,
+			"lat": 56.7,
+			"lng": 5.9,
+			"descripcion": "La mayor batalla naval de la guerra; la flota alemana no vuelve a desafiar el bloqueo.",
+			"wiki": "Batalla de Jutlandia"
+		},
+		{
 			"nombre": "Batalla de Verdún",
 			"anio": 1916,
 			"lat": 49.2,
@@ -256,7 +291,15 @@
 			"bajas": "~1.000.000 de bajas"
 		},
 		{
-			"nombre": "Monastir Offensive",
+			"nombre": "Ofensiva Brusílov",
+			"anio": 1916,
+			"lat": 50.75,
+			"lng": 25.33,
+			"descripcion": "La mayor ofensiva rusa de la guerra, en Galitzia y Volinia.",
+			"wiki": "Ofensiva Brusílov"
+		},
+		{
+			"nombre": "Ofensiva de Monastir",
 			"anio": 1916,
 			"lat": 41.03,
 			"lng": 21.42
@@ -268,7 +311,23 @@
 			"lng": 3.12
 		},
 		{
-			"nombre": "Second Battle of the Aisne",
+			"nombre": "Batalla de Caporetto",
+			"anio": 1917,
+			"lat": 46.25,
+			"lng": 13.58,
+			"descripcion": "Derrota italiana; el frente retrocede hasta el Piave.",
+			"wiki": "Batalla de Caporetto"
+		},
+		{
+			"nombre": "Batalla de Passchendaele",
+			"anio": 1917,
+			"lat": 50.9,
+			"lng": 3.02,
+			"descripcion": "Tercera batalla de Ypres, símbolo del barro y de la guerra de desgaste.",
+			"wiki": "Batalla de Passchendaele"
+		},
+		{
+			"nombre": "Segunda batalla del Aisne (ofensiva Nivelle)",
 			"anio": 1917,
 			"lat": 49.4,
 			"lng": 3.6
@@ -352,7 +411,7 @@
 			"lng": 12.35
 		},
 		{
-			"nombre": "Battle of the Sambre",
+			"nombre": "Batalla del Sambre (1918)",
 			"anio": 1918,
 			"lat": 50.47,
 			"lng": 4.87
@@ -370,19 +429,19 @@
 			"lng": 3.28
 		},
 		{
-			"nombre": "Second Battle of the Somme",
-			"anio": 1918,
-			"lat": 50.02,
-			"lng": 2.8
-		},
-		{
 			"nombre": "Segunda batalla del Marne",
 			"anio": 1918,
 			"lat": 49.08,
 			"lng": 3.67
 		},
 		{
-			"nombre": "Third Battle of the Aisne",
+			"nombre": "Segunda batalla del Somme",
+			"anio": 1918,
+			"lat": 50.02,
+			"lng": 2.8
+		},
+		{
+			"nombre": "Tercera batalla del Aisne",
 			"anio": 1918,
 			"lat": 49.38,
 			"lng": 3.73
@@ -583,6 +642,42 @@
 			"url": "https://www.wikidata.org/wiki/Q3636419",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Tannenberg (1914)",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Tannenberg_%281914%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Jutlandia",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Jutlandia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Jutland",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Jutland",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Caporetto",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Caporetto",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Ofensiva Brusílov",
+			"url": "https://es.wikipedia.org/wiki/Ofensiva_Brus%C3%ADlov",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Passchendaele",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Passchendaele",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

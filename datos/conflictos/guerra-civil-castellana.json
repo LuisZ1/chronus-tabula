@@ -1,0 +1,84 @@
+{
+	"id": "guerra-civil-castellana",
+	"nombre": "Primera guerra civil castellana",
+	"inicio": 1351,
+	"fin": 1369,
+	"paises": [
+		"Corona de Castilla",
+		"Inglaterra",
+		"Francia"
+	],
+	"bajas": "miles",
+	"descripcion": "Pedro I el Cruel, apoyado por el Príncipe Negro, lucha contra su hermanastro Enrique de Trastámara, apoyado por Francia y Du Guesclin; Pedro muere en Montiel y empieza la dinastía Trastámara.",
+	"wiki": "Primera guerra civil castellana",
+	"zonas": [
+		{
+			"nombre": "Castilla",
+			"tipo": "frente",
+			"desde": 1366,
+			"hasta": 1369,
+			"poligono": [
+				[
+					43,
+					-6
+				],
+				[
+					43,
+					-1.5
+				],
+				[
+					38.5,
+					-1.5
+				],
+				[
+					38.5,
+					-6
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Nájera",
+			"anio": 1367,
+			"lat": 42.43,
+			"lng": -2.7,
+			"descripcion": "El Príncipe Negro y Pedro I derrotan a Enrique de Trastámara y Du Guesclin (3 de abril de 1367).",
+			"wiki": "Batalla de Nájera"
+		},
+		{
+			"nombre": "Batalla de Montiel",
+			"anio": 1369,
+			"lat": 38.7,
+			"lng": -2.87,
+			"descripcion": "Derrota de Pedro I, que muere días después a manos de su hermanastro (coordenadas de la localidad).",
+			"wiki": "Batalla de Montiel"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Primera guerra civil castellana",
+			"url": "https://es.wikipedia.org/wiki/Primera_guerra_civil_castellana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Nájera",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Nájera",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Montiel",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Montiel",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Montiel",
+			"url": "https://en.wikipedia.org/wiki/Montiel",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

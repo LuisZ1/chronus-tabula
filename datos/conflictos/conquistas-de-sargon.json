@@ -1,0 +1,72 @@
+{
+	"id": "conquistas-de-sargon",
+	"nombre": "Conquistas de Sargón de Acad",
+	"inicio": -2334,
+	"fin": -2279,
+	"paises": [
+		"Imperio acadio",
+		"Sumer",
+		"Elam"
+	],
+	"bajas": "desconocidas",
+	"descripcion": "Sargón somete las ciudades sumerias y extiende su dominio hasta Siria y Elam: nace el primer imperio de la historia (fechas de la cronología media).",
+	"wiki": "Imperio acadio",
+	"zonas": [
+		{
+			"nombre": "Sumer y Acad",
+			"tipo": "frente",
+			"poligono": [
+				[
+					34.5,
+					43.5
+				],
+				[
+					33.5,
+					46.5
+				],
+				[
+					30.5,
+					47.8
+				],
+				[
+					30.8,
+					45.5
+				],
+				[
+					32.5,
+					43.8
+				]
+			]
+		},
+		{
+			"nombre": "Alta Mesopotamia y Siria",
+			"tipo": "frente",
+			"poligono": [
+				[
+					37.2,
+					37.5
+				],
+				[
+					37.2,
+					42.5
+				],
+				[
+					35.5,
+					42.5
+				],
+				[
+					35.3,
+					37.5
+				]
+			]
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Akkadian Empire",
+			"url": "https://en.wikipedia.org/wiki/Akkadian_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

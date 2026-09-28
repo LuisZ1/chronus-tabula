@@ -1,0 +1,57 @@
+{
+	"id": "asedio-constantinopla-717",
+	"nombre": "Segundo asedio árabe de Constantinopla",
+	"inicio": 717,
+	"fin": 718,
+	"paises": [
+		"Califato omeya",
+		"Imperio bizantino (romano de Oriente)",
+		"Primer Imperio búlgaro"
+	],
+	"bajas": "decenas de miles, sobre todo entre los sitiadores",
+	"descripcion": "León III y el kan búlgaro Tervel rechazan el gran asalto omeya de Maslama por tierra y mar; es el fin de los intentos califales de tomar Constantinopla.",
+	"wiki": "Segundo asedio árabe de Constantinopla",
+	"zonas": [
+		{
+			"nombre": "Constantinopla y el Bósforo",
+			"tipo": "frente",
+			"poligono": [
+				[
+					41.3,
+					28.5
+				],
+				[
+					41.3,
+					29.3
+				],
+				[
+					40.8,
+					29.3
+				],
+				[
+					40.8,
+					28.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Asedio de Constantinopla",
+			"anio": 717,
+			"hasta": 718,
+			"lat": 41.01,
+			"lng": 28.98,
+			"descripcion": "Julio o agosto de 717 a 15 de agosto de 718.",
+			"wiki": "Segundo asedio árabe de Constantinopla"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Siege of Constantinople (717–718)",
+			"url": "https://en.wikipedia.org/wiki/Siege_of_Constantinople_(717%E2%80%93718)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

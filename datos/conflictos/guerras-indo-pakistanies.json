@@ -86,18 +86,6 @@
 	],
 	"batallas": [
 		{
-			"nombre": "batalla de Walong",
-			"anio": 1962,
-			"lat": 28.13,
-			"lng": 97.02
-		},
-		{
-			"nombre": "batalla del paso de Sela",
-			"anio": 1962,
-			"lat": 27.5,
-			"lng": 92.1
-		},
-		{
 			"nombre": "Batalla de Asal Uttar (1965)",
 			"anio": 1965,
 			"lat": 30.9,

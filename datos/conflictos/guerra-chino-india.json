@@ -1,0 +1,97 @@
+{
+	"id": "guerra-chino-india",
+	"nombre": "Guerra chino-india",
+	"inicio": 1962,
+	"fin": 1962,
+	"paises": [
+		"República Popular China",
+		"India"
+	],
+	"bajas": "~2.000-4.000 muertos",
+	"descripcion": "Guerra fronteriza en el Himalaya (Aksai Chin y NEFA/Arunachal); victoria china y alto el fuego unilateral.",
+	"wiki": "Guerra chino-india",
+	"zonas": [
+		{
+			"nombre": "NEFA (Arunachal)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					29.3,
+					91.5
+				],
+				[
+					29.3,
+					97.4
+				],
+				[
+					27,
+					97.4
+				],
+				[
+					27,
+					91.5
+				]
+			]
+		},
+		{
+			"nombre": "Aksai Chin",
+			"tipo": "frente",
+			"poligono": [
+				[
+					36,
+					77.8
+				],
+				[
+					36,
+					80.3
+				],
+				[
+					34,
+					80.3
+				],
+				[
+					34,
+					77.8
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Walong",
+			"anio": 1962,
+			"lat": 28.13,
+			"lng": 97.02,
+			"descripcion": "21 de octubre - 16 de noviembre de 1962.",
+			"wiki": "Batalla de Walong"
+		},
+		{
+			"nombre": "Batalla del paso de Sela",
+			"anio": 1962,
+			"lat": 27.5,
+			"lng": 92.1,
+			"descripcion": "Combates en el paso de Sela durante la ofensiva china de noviembre.",
+			"wiki": "Paso de Sela"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra chino-india",
+			"url": "https://es.wikipedia.org/wiki/Guerra_chino-india",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of Walong",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_Walong",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Sela Pass",
+			"url": "https://en.wikipedia.org/wiki/Sela_Pass",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

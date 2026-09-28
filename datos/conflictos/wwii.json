@@ -471,10 +471,28 @@
 	],
 	"batallas": [
 		{
-			"nombre": "ataque a Pearl Harbor",
+			"nombre": "Asedio de Varsovia",
+			"anio": 1939,
+			"lat": 52.23,
+			"lng": 21.01,
+			"descripcion": "Capitulación de la capital polaca el 28 de septiembre.",
+			"wiki": "Asedio de Varsovia (1939)"
+		},
+		{
+			"nombre": "Evacuación de Dunkerque",
+			"anio": 1940,
+			"lat": 51.03,
+			"lng": 2.38,
+			"descripcion": "Unos 338.000 soldados aliados evacuados a Gran Bretaña.",
+			"wiki": "Evacuación de Dunkerque"
+		},
+		{
+			"nombre": "Batalla de Moscú",
 			"anio": 1941,
-			"lat": 21.36,
-			"lng": -157.95
+			"lat": 55.75,
+			"lng": 37.62,
+			"descripcion": "Primera derrota de la Wehrmacht; fin de la guerra relámpago en el Este.",
+			"wiki": "Batalla de Moscú"
 		},
 		{
 			"nombre": "Batalla de Balikpapan",
@@ -493,14 +511,6 @@
 			"anio": 1942,
 			"lat": 53.89,
 			"lng": -166.54
-		},
-		{
-			"nombre": "Batalla de Midway",
-			"anio": 1942,
-			"lat": 28.2,
-			"lng": -177.35,
-			"descripcion": "EE. UU. cambia el curso de la guerra del Pacífico.",
-			"bajas": "4 portaaviones japoneses hundidos"
 		},
 		{
 			"nombre": "Batalla de Port Moresby",
@@ -535,7 +545,7 @@
 			"lng": 115.5
 		},
 		{
-			"nombre": "Battle of Tjiater Pass",
+			"nombre": "Batalla del paso de Tjiater",
 			"anio": 1942,
 			"lat": -6.77,
 			"lng": 107.63
@@ -547,6 +557,14 @@
 			"lng": 28.95,
 			"descripcion": "Montgomery derrota a Rommel en Egipto.",
 			"bajas": "~60.000 bajas"
+		},
+		{
+			"nombre": "Sitio de Leningrado",
+			"anio": 1942,
+			"lat": 59.94,
+			"lng": 30.31,
+			"descripcion": "872 días de asedio (1941-1944), en torno a 800.000 civiles muertos.",
+			"wiki": "Sitio de Leningrado"
 		},
 		{
 			"nombre": "batalla del Mar de Java",
@@ -595,6 +613,14 @@
 			"anio": 1943,
 			"lat": -7.83,
 			"lng": 157.35
+		},
+		{
+			"nombre": "Batalla de Kursk",
+			"anio": 1943,
+			"lat": 51.73,
+			"lng": 36.19,
+			"descripcion": "La mayor batalla de carros de la historia; la iniciativa pasa a la URSS.",
+			"wiki": "Batalla de Kursk"
 		},
 		{
 			"nombre": "Batalla de Sattelberg",
@@ -669,16 +695,16 @@
 			"lng": 155.1
 		},
 		{
+			"nombre": "Campaña de Nueva Georgia",
+			"anio": 1943,
+			"lat": -8.5,
+			"lng": 157.33
+		},
+		{
 			"nombre": "Invasión aliada de Italia",
 			"anio": 1943,
 			"lat": 40.68,
 			"lng": 14.76
-		},
-		{
-			"nombre": "New Georgia Campaign",
-			"anio": 1943,
-			"lat": -8.5,
-			"lng": 157.33
 		},
 		{
 			"nombre": "Operación Cartwheel",
@@ -801,12 +827,6 @@
 			"lng": 134.25
 		},
 		{
-			"nombre": "Batalla de Saipán",
-			"anio": 1944,
-			"lat": 15.18,
-			"lng": 145.75
-		},
-		{
 			"nombre": "Batalla de St. Vith",
 			"anio": 1944,
 			"lat": 50.28,
@@ -825,16 +845,24 @@
 			"lng": 145.63
 		},
 		{
+			"nombre": "Batalla de las Ardenas",
+			"anio": 1944,
+			"lat": 50.17,
+			"lng": 5.95,
+			"descripcion": "Última gran ofensiva alemana en el oeste (Bastoña).",
+			"wiki": "Batalla de las Ardenas"
+		},
+		{
+			"nombre": "Batalla de las islas Green",
+			"anio": 1944,
+			"lat": -4.5,
+			"lng": 154.17
+		},
+		{
 			"nombre": "Batalla del Bosque de Hürtgen",
 			"anio": 1944,
 			"lat": 50.71,
 			"lng": 6.36
-		},
-		{
-			"nombre": "Batalla del Golfo de Leyte",
-			"anio": 1944,
-			"lat": 10.37,
-			"lng": 125.36
 		},
 		{
 			"nombre": "Batalla del Mar de Sibuyan",
@@ -847,12 +875,6 @@
 			"anio": 1944,
 			"lat": 20.0,
 			"lng": 130.0
-		},
-		{
-			"nombre": "Battle of the Green Islands",
-			"anio": 1944,
-			"lat": -4.5,
-			"lng": 154.17
 		},
 		{
 			"nombre": "Bolsa de Falaise",
@@ -873,6 +895,14 @@
 			"anio": 1944,
 			"lat": 50.45,
 			"lng": 6.26
+		},
+		{
+			"nombre": "Operación Bagration",
+			"anio": 1944,
+			"lat": 53.9,
+			"lng": 27.57,
+			"descripcion": "Destrucción del Grupo de Ejércitos Centro en Bielorrusia.",
+			"wiki": "Operación Bagration"
 		},
 		{
 			"nombre": "batalla de Brest",
@@ -899,12 +929,6 @@
 			"lng": 7.43
 		},
 		{
-			"nombre": "Batalla de Authion",
-			"anio": 1945,
-			"lat": 44.0,
-			"lng": 7.43
-		},
-		{
 			"nombre": "Batalla de Berlín",
 			"anio": 1945,
 			"lat": 52.52,
@@ -919,7 +943,7 @@
 			"lng": 11.34
 		},
 		{
-			"nombre": "Batalla de Buchhof and Stein am Kocher",
+			"nombre": "Batalla de Buchhof y Stein am Kocher",
 			"anio": 1945,
 			"lat": 49.27,
 			"lng": 9.27
@@ -929,12 +953,6 @@
 			"anio": 1945,
 			"lat": 44.75,
 			"lng": 10.22
-		},
-		{
-			"nombre": "Batalla de Iwo Jima",
-			"anio": 1945,
-			"lat": 24.78,
-			"lng": 141.32
 		},
 		{
 			"nombre": "Batalla de Kassel",
@@ -973,16 +991,16 @@
 			"lng": 11.08
 		},
 		{
-			"nombre": "Batalla de Okinawa",
-			"anio": 1945,
-			"lat": 26.5,
-			"lng": 128.0
-		},
-		{
 			"nombre": "Batalla de Remagen",
 			"anio": 1945,
 			"lat": 50.58,
 			"lng": 7.24
+		},
+		{
+			"nombre": "Batalla de Riva Ridge",
+			"anio": 1945,
+			"lat": 44.19,
+			"lng": 10.83
 		},
 		{
 			"nombre": "Batalla de Slivice",
@@ -997,22 +1015,16 @@
 			"lng": 12.14
 		},
 		{
-			"nombre": "Battle of Riva Ridge",
+			"nombre": "Operación Cowboy",
 			"anio": 1945,
-			"lat": 44.19,
-			"lng": 10.83
+			"lat": 49.58,
+			"lng": 12.77
 		},
 		{
 			"nombre": "Operación Ten-Gō",
 			"anio": 1945,
 			"lat": 30.37,
 			"lng": 128.07
-		},
-		{
-			"nombre": "Operación cowboy",
-			"anio": 1945,
-			"lat": 49.58,
-			"lng": 12.77
 		}
 	],
 	"fuentes": [
@@ -1522,6 +1534,42 @@
 			"url": "https://www.wikidata.org/wiki/Q19839898",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Evacuación de Dunkerque",
+			"url": "https://es.wikipedia.org/wiki/Evacuaci%C3%B3n_de_Dunkerque",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Sitio de Leningrado",
+			"url": "https://es.wikipedia.org/wiki/Sitio_de_Leningrado",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Moscú",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Mosc%C3%BA",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Kursk",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Kursk",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Operación Bagration",
+			"url": "https://es.wikipedia.org/wiki/Operaci%C3%B3n_Bagration",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de las Ardenas",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_las_Ardenas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

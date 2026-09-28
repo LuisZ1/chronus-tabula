@@ -1,0 +1,54 @@
+{
+	"id": "guerra-austro-prusiana",
+	"nombre": "Guerra austro-prusiana (de las Siete Semanas)",
+	"inicio": 1866,
+	"fin": 1866,
+	"paises": [
+		"Prusia",
+		"Austria",
+		"Italia"
+	],
+	"bajas": "~40.000 muertos",
+	"descripcion": "Prusia expulsa a Austria de los asuntos alemanes; nace la Confederación de Alemania del Norte e Italia gana el Véneto.",
+	"wiki": "Guerra austro-prusiana",
+	"zonas": [
+		{
+			"nombre": "Bohemia",
+			"tipo": "frente",
+			"poligono": [
+				[
+					51,
+					13.5
+				],
+				[
+					51,
+					17
+				],
+				[
+					49.5,
+					17
+				],
+				[
+					49.5,
+					13.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Sadowa (Königgrätz)",
+			"anio": 1866,
+			"lat": 50.29,
+			"lng": 15.83
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra austro-prusiana",
+			"url": "https://es.wikipedia.org/wiki/Guerra_austro-prusiana",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

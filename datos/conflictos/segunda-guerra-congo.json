@@ -1,0 +1,57 @@
+{
+	"id": "segunda-guerra-congo",
+	"nombre": "Segunda guerra del Congo",
+	"inicio": 1998,
+	"fin": 2003,
+	"paises": [
+		"RD del Congo",
+		"Ruanda",
+		"Uganda",
+		"Angola",
+		"Zimbabue",
+		"Namibia"
+	],
+	"bajas": "millones de muertos, la mayoría por hambre y enfermedad (la cifra de 5,4 millones del IRC está discutida)",
+	"descripcion": "La «guerra mundial africana»: nueve Estados y decenas de milicias combaten en el Congo, el conflicto más letal desde 1945.",
+	"wiki": "Segunda guerra del Congo",
+	"zonas": [
+		{
+			"nombre": "Este del Congo (Kivu e Ituri)",
+			"tipo": "frente",
+			"poligono": [
+				[
+					2.5,
+					26.5
+				],
+				[
+					2.5,
+					30.5
+				],
+				[
+					-4.5,
+					29.5
+				],
+				[
+					-4.5,
+					26.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Guerra de los Seis Días de Kisangani",
+			"anio": 2000,
+			"lat": 0.52,
+			"lng": 25.2
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Segunda guerra del Congo",
+			"url": "https://es.wikipedia.org/wiki/Segunda_guerra_del_Congo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

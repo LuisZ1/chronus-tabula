@@ -1,7 +1,7 @@
 {
 	"id": "independencia-escocia",
 	"nombre": "Guerras de independencia de Escocia",
-	"inicio": 1291,
+	"inicio": 1296,
 	"fin": 1328,
 	"paises": [
 		"Inglaterra",
@@ -14,7 +14,7 @@
 		{
 			"nombre": "Frontera anglo-escocesa y Tierras Bajas",
 			"tipo": "frente",
-			"desde": 1291,
+			"desde": 1296,
 			"hasta": 1328,
 			"poligono": [
 				[
@@ -70,6 +70,12 @@
 		{
 			"id": "libro:Breve historia de Inglaterra",
 			"licencia": "referencia"
+		},
+		{
+			"id": "wikipedia-en:First War of Scottish Independence",
+			"url": "https://en.wikipedia.org/wiki/First_War_of_Scottish_Independence",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

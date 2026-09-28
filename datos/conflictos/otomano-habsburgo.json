@@ -182,8 +182,8 @@
 		{
 			"nombre": "Batalla de Lepanto",
 			"anio": 1571,
-			"lat": 38.2,
-			"lng": 21.3,
+			"lat": 38.25,
+			"lng": 21.25,
 			"descripcion": "La Liga Santa destruye la flota otomana; combate Cervantes.",
 			"bajas": "~40.000 muertos"
 		}

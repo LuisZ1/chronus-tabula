@@ -1,0 +1,53 @@
+{
+	"id": "guerra-indochina",
+	"nombre": "Guerra de Indochina",
+	"inicio": 1946,
+	"fin": 1954,
+	"paises": [
+		"Francia",
+		"Vietnam"
+	],
+	"bajas": "~400.000-500.000 muertos",
+	"descripcion": "El Viet Minh de Ho Chi Minh derrota a Francia en Dien Bien Phu; los Acuerdos de Ginebra dividen Vietnam por el paralelo 17.",
+	"wiki": "Guerra de Indochina",
+	"zonas": [
+		{
+			"nombre": "Tonkín",
+			"tipo": "frente",
+			"poligono": [
+				[
+					23,
+					102.5
+				],
+				[
+					23,
+					107.5
+				],
+				[
+					19.5,
+					106.5
+				],
+				[
+					19.5,
+					103
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla de Dien Bien Phu",
+			"anio": 1954,
+			"lat": 21.39,
+			"lng": 103.02
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra de Indochina",
+			"url": "https://es.wikipedia.org/wiki/Guerra_de_Indochina",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

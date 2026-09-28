@@ -102,7 +102,7 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Batalla de Clavijo",
+			"nombre": "Batalla de Clavijo (legendaria)",
 			"anio": 844,
 			"lat": 42.25,
 			"lng": -2.36,
@@ -151,12 +151,6 @@
 			"lng": -5.02
 		},
 		{
-			"nombre": "Conquista de Lisboa (1094)",
-			"anio": 1094,
-			"lat": 38.73,
-			"lng": -9.15
-		},
-		{
 			"nombre": "Conquista de Valencia (el Cid)",
 			"anio": 1094,
 			"lat": 39.47,
@@ -181,6 +175,13 @@
 			"anio": 1143,
 			"lat": 39.0,
 			"lng": -4.0
+		},
+		{
+			"nombre": "Conquista de Lisboa (1147)",
+			"anio": 1147,
+			"lat": 38.71,
+			"lng": -9.13,
+			"descripcion": "Alfonso I Enríquez toma la ciudad con ayuda de los cruzados de la Segunda Cruzada (1 de julio - 25 de octubre de 1147); Alfonso VI la había ocupado brevemente en 1093-1094."
 		},
 		{
 			"nombre": "batalla de Calatrava",
@@ -268,6 +269,12 @@
 			"url": "https://www.wikidata.org/wiki/Q20616054",
 			"licencia": "CC0",
 			"consultado": "2026-09-02"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Clavijo",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Clavijo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

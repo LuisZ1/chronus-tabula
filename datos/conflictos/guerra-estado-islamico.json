@@ -102,7 +102,7 @@
 	],
 	"batallas": [
 		{
-			"nombre": "Batalla de Ramadi",
+			"nombre": "Batalla de Ramadi (2014-2015)",
 			"anio": 2014,
 			"lat": 33.42,
 			"lng": 43.3
@@ -122,7 +122,7 @@
 			"lng": 43.77
 		},
 		{
-			"nombre": "Batalla de Ramadi",
+			"nombre": "Batalla de Ramadi (2015-2016)",
 			"anio": 2016,
 			"lat": 33.42,
 			"lng": 43.3

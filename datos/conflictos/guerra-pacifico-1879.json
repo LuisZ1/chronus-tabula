@@ -1,0 +1,136 @@
+{
+	"id": "guerra-pacifico-1879",
+	"nombre": "Guerra del Pacífico (1879-1884)",
+	"inicio": 1879,
+	"fin": 1884,
+	"paises": [
+		"Chile",
+		"Perú",
+		"Bolivia"
+	],
+	"bajas": "~15.000-25.000 muertos",
+	"descripcion": "Guerra del salitre: Chile ocupa el litoral boliviano y Tarapacá, Tacna y Arica, y llega a tomar Lima. Bolivia pierde su salida al mar (Tratado de Ancón, 1883; pacto de tregua, 1884).",
+	"wiki": "Guerra del Pacífico (1879-1884)",
+	"zonas": [
+		{
+			"nombre": "Litoral y Tarapacá",
+			"tipo": "ocupado",
+			"desde": 1879,
+			"hasta": 1884,
+			"poligono": [
+				[
+					-17.5,
+					-70.5
+				],
+				[
+					-17.5,
+					-68.8
+				],
+				[
+					-25.5,
+					-68.3
+				],
+				[
+					-25.5,
+					-70.6
+				]
+			]
+		},
+		{
+			"nombre": "Campaña de Lima",
+			"tipo": "frente",
+			"desde": 1880,
+			"hasta": 1881,
+			"poligono": [
+				[
+					-11.8,
+					-77.3
+				],
+				[
+					-11.8,
+					-76.7
+				],
+				[
+					-12.5,
+					-76.6
+				],
+				[
+					-12.5,
+					-77.2
+				]
+			]
+		},
+		{
+			"nombre": "Campaña de la Breña (sierra peruana)",
+			"tipo": "frente",
+			"desde": 1881,
+			"hasta": 1883,
+			"poligono": [
+				[
+					-7.0,
+					-79.0
+				],
+				[
+					-7.0,
+					-75.0
+				],
+				[
+					-12.5,
+					-74.5
+				],
+				[
+					-12.5,
+					-76.5
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Combate naval de Angamos",
+			"anio": 1879,
+			"lat": -23.03,
+			"lng": -70.52,
+			"descripcion": "Captura del Huáscar; muerte de Miguel Grau."
+		},
+		{
+			"nombre": "Combate naval de Iquique",
+			"anio": 1879,
+			"lat": -20.2,
+			"lng": -70.16,
+			"descripcion": "Hundimiento de la Esmeralda y muerte de Arturo Prat."
+		},
+		{
+			"nombre": "Asalto y toma del Morro de Arica",
+			"anio": 1880,
+			"lat": -18.48,
+			"lng": -70.32
+		},
+		{
+			"nombre": "Batalla del Alto de la Alianza (Tacna)",
+			"anio": 1880,
+			"lat": -17.98,
+			"lng": -70.28
+		},
+		{
+			"nombre": "Batallas de Chorrillos y Miraflores",
+			"anio": 1881,
+			"lat": -12.16,
+			"lng": -77.02
+		},
+		{
+			"nombre": "Batalla de Huamachuco",
+			"anio": 1883,
+			"lat": -7.81,
+			"lng": -78.05
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Guerra del Pacífico (1879-1884)",
+			"url": "https://es.wikipedia.org/wiki/Guerra_del_Pac%C3%ADfico_(1879-1884)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}

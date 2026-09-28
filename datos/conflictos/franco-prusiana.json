@@ -70,12 +70,28 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla de Gravelotte-Saint-Privat",
+			"anio": 1870,
+			"lat": 49.11,
+			"lng": 6.03,
+			"descripcion": "Encierra al ejército de Bazaine en Metz.",
+			"wiki": "Batalla de Gravelotte"
+		},
+		{
 			"nombre": "Batalla de Sedán",
 			"anio": 1870,
 			"lat": 49.7,
 			"lng": 4.94,
 			"descripcion": "Napoleón III es capturado con su ejército.",
 			"bajas": "~26.000 bajas y 100.000 prisioneros franceses"
+		},
+		{
+			"nombre": "Sitio de París",
+			"anio": 1871,
+			"lat": 48.86,
+			"lng": 2.35,
+			"descripcion": "Cuatro meses de asedio; París capitula el 28 de enero de 1871, días después de proclamarse el Imperio alemán en Versalles.",
+			"wiki": "Sitio de París (1870-1871)"
 		}
 	],
 	"fuentes": [
@@ -87,6 +103,18 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikipedia-es:Sitio de París (1870-1871)",
+			"url": "https://es.wikipedia.org/wiki/Sitio_de_Par%C3%ADs_%281870-1871%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-es:Batalla de Gravelotte",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Gravelotte",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

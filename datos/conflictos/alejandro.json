@@ -222,6 +222,14 @@
 	],
 	"batallas": [
 		{
+			"nombre": "Batalla del Gránico",
+			"anio": -334,
+			"lat": 40.317,
+			"lng": 27.281,
+			"descripcion": "Primera victoria de Alejandro sobre los sátrapas persas en Asia Menor.",
+			"wiki": "Batalla del Gránico"
+		},
+		{
 			"nombre": "Batalla de Issos",
 			"anio": -333,
 			"lat": 36.84,
@@ -235,6 +243,14 @@
 			"lng": 43.44,
 			"descripcion": "Victoria decisiva que abre a Alejandro el corazón de Persia.",
 			"bajas": "~50.000 persas muertos"
+		},
+		{
+			"nombre": "Batalla del Hidaspes",
+			"anio": -326,
+			"lat": 32.828,
+			"lng": 73.639,
+			"descripcion": "Alejandro derrota al rey Poros junto al actual río Jhelum.",
+			"wiki": "Batalla del Hidaspes"
 		}
 	],
 	"fuentes": [
@@ -246,6 +262,18 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Granicus",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Granicus",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Hydaspes",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Hydaspes",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
 		}
 	]
 }

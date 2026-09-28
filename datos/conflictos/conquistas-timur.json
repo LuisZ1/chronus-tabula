@@ -1,0 +1,118 @@
+{
+	"id": "conquistas-timur",
+	"nombre": "Conquistas de Tamerlán",
+	"inicio": 1370,
+	"fin": 1405,
+	"paises": [
+		"Imperio timúrida",
+		"Horda de Oro",
+		"Sultanato de Delhi",
+		"Imperio otomano",
+		"Sultanato mameluco"
+	],
+	"bajas": "muy elevadas; las cifras globales que circulan están muy discutidas",
+	"descripcion": "Timur crea desde Samarcanda un imperio del Cáucaso a la India: derrota a Toqtamish (1395), saquea Delhi (1398) y Bagdad (1401) y captura al sultán Bayaceto en Ankara (1402).",
+	"wiki": "Tamerlán",
+	"zonas": [
+		{
+			"nombre": "Irán y Cáucaso",
+			"tipo": "frente",
+			"desde": 1380,
+			"hasta": 1403,
+			"poligono": [
+				[
+					42.5,
+					40
+				],
+				[
+					42.5,
+					62
+				],
+				[
+					29,
+					62
+				],
+				[
+					29,
+					40
+				]
+			]
+		},
+		{
+			"nombre": "Norte de la India",
+			"tipo": "frente",
+			"desde": 1398,
+			"hasta": 1399,
+			"poligono": [
+				[
+					33,
+					70
+				],
+				[
+					33,
+					78.5
+				],
+				[
+					28,
+					78.5
+				],
+				[
+					28,
+					70
+				]
+			]
+		}
+	],
+	"batallas": [
+		{
+			"nombre": "Batalla del río Terek",
+			"anio": 1395,
+			"lat": 43.58,
+			"lng": 47.45,
+			"descripcion": "Timur derrota a Toqtamish, kan de la Horda de Oro, en el Cáucaso norte.",
+			"wiki": "Batalla del río Terek"
+		},
+		{
+			"nombre": "Saqueo de Delhi",
+			"anio": 1398,
+			"lat": 28.61,
+			"lng": 77.21,
+			"descripcion": "Timur vence al sultán de Delhi y saquea la ciudad (17-20 de diciembre de 1398).",
+			"wiki": "Saqueo de Delhi (1398)"
+		},
+		{
+			"nombre": "Saqueo de Bagdad",
+			"anio": 1401,
+			"lat": 33.35,
+			"lng": 44.34,
+			"descripcion": "Tras cuarenta días de asedio, Timur toma y arrasa Bagdad.",
+			"wiki": "Asedio de Bagdad (1401)"
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Timurid conquests and invasions",
+			"url": "https://en.wikipedia.org/wiki/Timurid_conquests_and_invasions",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Battle of the Terek River",
+			"url": "https://en.wikipedia.org/wiki/Battle_of_the_Terek_River",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Sack of Delhi (1398)",
+			"url": "https://en.wikipedia.org/wiki/Sack_of_Delhi_(1398)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Siege of Baghdad (1401)",
+			"url": "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1401)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-28"
+		}
+	]
+}
