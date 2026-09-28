@@ -750,7 +750,7 @@
 		const b = document.createElement('button');
 		b.type = 'button';
 		b.className = 'sec';
-		b.textContent = '📍 Mapa';
+		b.textContent = 'Elegir en el mapa';
 		b.addEventListener('click', () =>
 			elegirEnMapa(obj.lat, obj.lng, (lat, lng) => {
 				la.value = lat;
