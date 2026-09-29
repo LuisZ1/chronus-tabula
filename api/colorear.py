@@ -6,13 +6,13 @@
     python api/colorear.py --check    # solo informa (código 1 si habría cambios)
     python api/colorear.py --informe  # lista los choques que había con el color por hash
 
-La web pinta cada entidad (SUBJECTO o, si no hay, NAME) con una de las 16 tintas de
-TINTAS_MAPA (web/js/nucleo.js): 8 colores en dos tonos, elegidos por un hash del
+La web pinta cada entidad (SUBJECTO o, si no hay, NAME) con una de las 26 tintas de
+TINTAS_MAPA (web/js/nucleo.js): 13 colores en dos tonos, elegidos por un hash del
 nombre. Así una entidad conserva su color en todos los años, pero dos vecinas pueden
 caer en el mismo color. Este script recorre los mapas de web/data/years.json en orden
 cronológico, busca las entidades que se tocan (o quedan a menos de VECINDAD grados,
 p. ej. a ambos lados de un río generalizado) y, si comparten color —mismo tono de los
-8, aunque sea en la variante clara u oscura—, cambia el de la más pequeña.
+13, aunque sea en la variante clara u oscura—, cambia el de la más pequeña.
 
 Prioridades para cada entidad, de mayor a menor superficie:
   1. el color que ya tenía en el mapa anterior (si se lo cambiamos entonces);
@@ -42,8 +42,8 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOJSON = os.path.join(RAIZ, "web", "data", "geojson")
 YEARS = os.path.join(RAIZ, "web", "data", "years.json")
 SALIDA = os.path.join(RAIZ, "web", "data", "colores.json")
-N_TINTAS = 16  # longitud de TINTAS_MAPA en web/js/nucleo.js
-N_TONOS = 8  # índice i e i+8 son el mismo color en dos tonos
+N_TINTAS = 26  # longitud de TINTAS_MAPA en web/js/nucleo.js
+N_TONOS = 13  # índice i e i+13 son el mismo color en dos tonos
 VECINDAD = 0.08  # grados (~8 km): vecinas aunque haya una franja mínima entre ellas
 SIMPLIFICAR = 0.02
 

@@ -75,6 +75,11 @@
 	--t-celeste: #9cc7e0;
 	--t-ocre: #d8b48a;
 	--t-salvia: #b3d3c1;
+	--t-frambuesa: #eba8c4;
+	--t-turquesa: #8ed3cd;
+	--t-pervinca: #aab3e8;
+	--t-lima: #d2dc8a;
+	--t-piedra: #cfc6b6;
 
 	/* alias que usan todas las páginas */
 	--fondo: var(--papel);

@@ -88,14 +88,19 @@ function fileForYear(y) {
 	return y < 0 ? `data/geojson/world_bc${-y}.geojson` : `data/geojson/world_${y}.geojson`;
 }
 
-/* tintas del mapa mural (css/marca.css): ocho colores planos de lámina, cada uno
-   en dos tonos (índices i e i+8), repartidos por hash del nombre. Así una entidad
+/* tintas del mapa mural (css/marca.css): trece colores planos de lámina, cada uno
+   en dos tonos (índices i e i+13), repartidos por hash del nombre. Así una entidad
    conserva su color en todos los años. Para que dos vecinas no coincidan,
    api/colorear.py genera data/colores.json con las excepciones de cada mapa
    ({año: {clave: índice}}), que se cargan al arrancar (js/arranque.js). */
 const TINTAS_MAPA = [
+	// claros: rosa, amarillo, verde, naranja, violeta, celeste, ocre, salvia,
+	// frambuesa, turquesa, pervinca, lima, piedra
 	'#eaa39b', '#f1d06e', '#a9d18e', '#f2b27a', '#bda6d8', '#9cc7e0', '#d8b48a', '#b3d3c1',
-	'#df8f86', '#e6bf52', '#93c077', '#e89e5f', '#a78fc9', '#84b5d3', '#c9a072', '#98c2ab'
+	'#eba8c4', '#8ed3cd', '#aab3e8', '#d2dc8a', '#cfc6b6',
+	// oscuros, en el mismo orden
+	'#df8f86', '#e6bf52', '#93c077', '#e89e5f', '#a78fc9', '#84b5d3', '#c9a072', '#98c2ab',
+	'#dc8cae', '#6fbfb8', '#8e99da', '#b9c66a', '#b5ab97'
 ];
 let COLORES = {}; // año de mapa -> { clave: índice en TINTAS_MAPA } (data/colores.json)
 function colorFor(name, anio = state.colorYear) {
