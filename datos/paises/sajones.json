@@ -1,0 +1,23 @@
+{
+	"id": "sajones",
+	"nombre": "Sajones",
+	"nombres": [
+		"Saxons"
+	],
+	"wiki": "Sajones",
+	"resena": "Confederación de tribus germánicas occidentales de la costa del mar del Norte. En la Sajonia antigua (Westfalia, Angria, Ostfalia y Nordalbingia, entre el Rin y el Elba) resistieron a los francos hasta las guerras sajonas de Carlomagno (772-804). Parte de ellos pasó a Britania en los siglos V y VI.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sajones",
+			"url": "https://es.wikipedia.org/wiki/Sajones",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Old Saxony",
+			"url": "https://en.wikipedia.org/wiki/Old_Saxony",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

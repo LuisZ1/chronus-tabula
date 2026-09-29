@@ -1,0 +1,29 @@
+{
+	"id": "lindsey",
+	"nombre": "Reino de Lindsey",
+	"nombres": [
+		"Lindsey"
+	],
+	"wiki": "Reino de Lindsey",
+	"vinculos": [
+		{
+			"id": "mercia",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Pequeño reino o sub-reino anglo del actual Lincolnshire, entre el Humber, el Trent y el Witham. Disputado por Northumbria y Mercia, quedó en manos de esta tras la batalla del Trent (679).",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Lindsey",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Lindsey",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Lindsey",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Lindsey",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

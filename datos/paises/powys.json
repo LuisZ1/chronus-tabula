@@ -1,0 +1,23 @@
+{
+	"id": "powys",
+	"nombre": "Reino de Powys",
+	"nombres": [
+		"Powys"
+	],
+	"wiki": "Reino de Powys",
+	"resena": "Reino galés del centro y este de Gales, con las llanuras del Severn y del Dee. Perdió Chester ante Æthelfrith de Northumbria (613-616) y sus tierras bajas ante Mercia; el dique de Offa fijó después la frontera.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Powys",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Powys",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Powys",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Powys",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,146 @@
+{
+ "tema": "Euratlas, propuesta alta B (siglos XVI-XVII): Moldavia como principado propio en 1453, 1492 y 1500 en lugar de Polonia-Lituania, Hungría o la Horda de Oro",
+ "mapas": {
+  "world_1500.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+     "nombre": "Moldavia histórica"
+    },
+    "desde": [
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "ABBREVN": "Moldova",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Moldavia (Esteban el Grande, 1457-1504) no formaba parte de Polonia-Lituania: en 1498 tuvo que aceptar la soberanía otomana y seguir pagando tributo al sultán Bayezid II; se marca como principado propio vasallo del Imperio otomano, como el Kanato de Crimea. Límites: Cárpatos (frontera húngara del mapa), Dniéster (frontera ruso-otomana de world_1800) y Milcov-Siret-Danubio; Chilia y Cetatea Albă siguen otomanas (perdidas en 1484); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+     "nombre": "Valaquia al sur del Milcov"
+    },
+    "desde": [
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Ottoman Empire"
+    },
+    "motivo": "la cuña al sur del Milcov y del Siret es Valaquia, que este mapa pinta como otomana, y no Polonia-Lituania; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      28.1,
+      45.25,
+      28.55,
+      45.5
+     ]
+    },
+    "desde": [
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Moldova"
+    },
+    "motivo": "resto de Polonia-Lituania (unos 145 km²) en la orilla norte del bajo Danubio, junto a la desembocadura del Prut, que quedaba fuera de la región de Moldavia; era tierra moldava (Reni, Galați) y Polonia-Lituania nunca llegó al Danubio",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   }
+  ],
+  "world_1492.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+     "nombre": "Moldavia histórica"
+    },
+    "desde": [
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "ABBREVN": "Moldova",
+     "SUBJECTO": "Moldova",
+     "PARTOF": "Moldova",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 1492 Moldavia es un principado propio de Esteban el Grande, no parte de Polonia-Lituania: paga tributo al sultán desde 1480-1484 y en 1485 jura fidelidad al rey de Polonia en Colomea, pero la soberanía otomana no se acepta hasta 1498; se deja como principado sin soberano. Límites: Cárpatos (frontera húngara del mapa), Dniéster (world_1800) y Milcov-Siret-Danubio; Chilia y Cetatea Albă ya otomanas desde 1484; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Stephen_the_Great"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+     "nombre": "Valaquia al sur del Milcov"
+    },
+    "desde": [
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Ottoman Empire"
+    },
+    "motivo": "la cuña al sur del Milcov y del Siret es Valaquia, que este mapa pinta como otomana, y no Polonia-Lituania; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      28.1,
+      45.25,
+      28.55,
+      45.5
+     ]
+    },
+    "desde": [
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Moldova"
+    },
+    "motivo": "resto de Polonia-Lituania (unos 145 km²) en la orilla norte del bajo Danubio, junto a la desembocadura del Prut, que quedaba fuera de la región de Moldavia; era tierra moldava (Reni, Galați) y Polonia-Lituania nunca llegó al Danubio",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   }
+  ],
+  "world_1453.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+     "nombre": "Moldavia histórica"
+    },
+    "desde": [
+     "Kingdom of Hungary",
+     "Poland-Lithuania"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el norte y el oeste de Moldavia (Suceava, capital de 1388 a 1564; Bacău, Piatra, Cernăuți y Hotin) eran del principado, no de Hungría ni de Polonia-Lituania: Moldavia llegaba de los Cárpatos al Dniéster y del río Ceremuș al Danubio y al mar Negro. Límites: Cárpatos (frontera húngara del original de world_1500) y Dniéster (world_1800); trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Moldova"
+    },
+    "poner": {
+     "SUBJECTO": "Moldova",
+     "PARTOF": "Moldova"
+    },
+    "motivo": "en 1453 Moldavia es un principado independiente: no forma parte del Imperio mongol, y el tributo al sultán empieza con Pedro Aron en 1456",
+    "fuente": "https://en.wikipedia.org/wiki/Moldavia"
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+	"id": "ulaid",
+	"nombre": "Ulaid",
+	"nombres": [
+		"Ulaid"
+	],
+	"wiki": "Ulaid",
+	"resena": "Reino del noreste de Irlanda, que en época histórica quedó reducido a las tierras al este del Bann (Antrim y Down). Se disputaban su trono los Dál Fiatach de Downpatrick y los Dál nAraidi.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Ulaid",
+			"url": "https://es.wikipedia.org/wiki/Ulaid",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Ulaid",
+			"url": "https://en.wikipedia.org/wiki/Ulaid",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

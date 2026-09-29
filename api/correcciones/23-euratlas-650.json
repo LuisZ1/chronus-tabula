@@ -1,0 +1,309 @@
+{
+	"tema": "Siglo VII: mapa nuevo de 650 con el califato rashidun, el Imperio bizantino reducido y el fin del Imperio sasánida (propuesta Euratlas siglo VII, A)",
+	"mapas": {
+		"world_650.geojson<world_600.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"n": [
+						{
+							"feat": "Sasanian Empire"
+						},
+						{
+							"y": [
+								{
+									"feat": "Kingdom of Zunbil",
+									"mapa": "world_700.geojson"
+								},
+								{
+									"feat": null,
+									"mapa": "world_700.geojson"
+								}
+							]
+						}
+					]
+				},
+				"desde": [
+					"Sasanian Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": null
+				},
+				"motivo": "Aracosia y Zamindawar (sur del actual Afganistán) no estaban conquistadas: el primer choque árabe allí es de 653-654 y los zunbiles gobiernan desde c. 680; a falta de fuente para el poder local de 650 se deja sin datos, como en el mapa de 700",
+				"fuente": "https://en.wikipedia.org/wiki/Zunbils"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						50,
+						35.8,
+						55,
+						37.6
+					]
+				},
+				"desde": [
+					"Sasanian Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Tabaristan (Dabuyids)",
+					"SUBJECTO": "Tabaristan (Dabuyids)",
+					"PARTOF": "Tabaristan (Dabuyids)",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "los dabúyidas gobiernan el Tabaristán desde c. 642 y pactan con los árabes que estos no entren sin permiso; misma caja que en el mapa de 700 (20-medieval.json)",
+				"fuente": "https://en.wikipedia.org/wiki/Dabuyid_dynasty"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"feat": "Cuacasian Albania",
+					"mapa": "world_700.geojson"
+				},
+				"desde": [
+					"Sasanian Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Cuacasian Albania",
+					"SUBJECTO": "Cuacasian Albania",
+					"PARTOF": "Cuacasian Albania",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tras la caída sasánida la Albania del Cáucaso queda en manos de sus príncipes locales; los árabes solo entran en Azerbaiyán y el Cáucaso oriental a partir de 651; nombre y geometría del mapa de 700",
+				"fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"feat": "Armenia",
+					"mapa": "world_700.geojson"
+				},
+				"desde": [
+					"Sasanian Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Armenia",
+					"SUBJECTO": "Armenia",
+					"PARTOF": "Armenia",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "la Armenia persa queda en manos de sus príncipes al hundirse el Imperio sasánida; no se somete al califato hasta 653; nombre y geometría del mapa de 700",
+				"fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"feat": "Kwarezm",
+					"mapa": "world_700.geojson"
+				},
+				"desde": [
+					"Sasanian Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Kwarezm",
+					"SUBJECTO": "Kwarezm",
+					"PARTOF": "Kwarezm",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "el Jorasmo no forma parte de las conquistas rashidun (el Jorasán llega hasta Merv en 651); nombre y geometría del mapa de 700",
+				"fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"feat": "Sasanian Empire"
+				},
+				"desde": [
+					"Sasanian Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Rashidun Caliphate",
+					"SUBJECTO": "Rashidun Caliphate",
+					"PARTOF": "Rashidun Caliphate",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "conquista árabe de Mesopotamia e Irán (633-651): Ctesifonte, Nahavand, Jorasán y Merv; Yazdegerd III muere cerca de Merv en 651 y el Imperio sasánida desaparece; el califato llega hasta el bajo Indo (Makrán)",
+				"fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia · https://en.wikipedia.org/wiki/Rashidun_Caliphate"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"y": [
+						{
+							"caja": [
+								19.0,
+								10.0,
+								65.0,
+								34.3
+							]
+						},
+						{
+							"caja": [
+								35.5,
+								34.3,
+								65.0,
+								45.0
+							]
+						}
+					]
+				},
+				"desde": [
+					"Eastern Roman Empire"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Rashidun Caliphate",
+					"SUBJECTO": "Rashidun Caliphate",
+					"PARTOF": "Rashidun Caliphate",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "conquista árabe de la Siria bizantina (634-638), de la Alta Mesopotamia (hasta 640), de Egipto (639-642) y de la Cirenaica (Barca, 642-643); el límite occidental se pone en el antiguo límite entre Cirenaica y Tripolitania (~19° E), porque Trípoli volvió pronto a manos bizantinas y tras la campaña de 647 los árabes se retiraron a Barca",
+				"fuente": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Levant · https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt · https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Maghreb · https://en.wikipedia.org/wiki/Rashidun_Caliphate"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"n": [
+						{
+							"y": [
+								{
+									"caja": [
+										19.0,
+										10.0,
+										65.0,
+										34.3
+									]
+								},
+								{
+									"caja": [
+										35.5,
+										34.3,
+										65.0,
+										45.0
+									]
+								}
+							]
+						},
+						{
+							"y": [
+								{
+									"feat": "Eastern Roman Empire",
+									"mapa": "world_700.geojson"
+								},
+								{
+									"feat": "Georgian Kingdom",
+									"mapa": "world_700.geojson"
+								}
+							]
+						}
+					]
+				},
+				"desde": [
+					"Rashidun Caliphate"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Eastern Roman Empire"
+				},
+				"motivo": "Bizancio conserva Anatolia hasta el Tauro y el oeste del Cáucaso (Lázica); la frontera con el califato se toma de la del mapa de 700, que a esta escala no cambia entre 640 y 700",
+				"fuente": "https://en.wikipedia.org/wiki/Arab%E2%80%93Byzantine_wars"
+			},
+			{
+				"op": "quitar",
+				"de": "Sasanian dependencies",
+				"a": "Rashidun Caliphate",
+				"motivo": "el Yemen y la costa oriental de Arabia (Baréin) quedan bajo Medina tras las guerras de la Ridda (632-633)",
+				"fuente": "https://en.wikipedia.org/wiki/Ridda_wars"
+			},
+			{
+				"op": "quitar",
+				"de": "Hejaz",
+				"a": "Rashidun Caliphate",
+				"motivo": "el Hiyaz, con Medina (capital del califato hasta 656) y La Meca, es el núcleo del califato rashidun",
+				"fuente": "https://en.wikipedia.org/wiki/Rashidun_Caliphate"
+			},
+			{
+				"op": "quitar",
+				"de": "Mazun",
+				"a": "Rashidun Caliphate",
+				"motivo": "Omán se incorpora al califato en las guerras de la Ridda (batalla de Dibba, 632)",
+				"fuente": "https://en.wikipedia.org/wiki/Ridda_wars"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"pol": [
+						[
+							34.8,
+							28.0
+						],
+						[
+							34.8,
+							29.6
+						],
+						[
+							36.4,
+							32.4
+						],
+						[
+							38.8,
+							34.6
+						],
+						[
+							41.6,
+							34.6
+						],
+						[
+							47.6,
+							30.6
+						],
+						[
+							48.6,
+							29.6
+						],
+						[
+							57.0,
+							26.6
+						],
+						[
+							60.5,
+							22.5
+						],
+						[
+							52.5,
+							12.0
+						],
+						[
+							42.5,
+							12.0
+						],
+						[
+							38.5,
+							19.5
+						],
+						[
+							34.8,
+							28.0
+						]
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Rashidun Caliphate",
+					"SUBJECTO": "Rashidun Caliphate",
+					"PARTOF": "Rashidun Caliphate",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "las guerras de la Ridda (632-633) unifican bajo Medina toda la península arábiga (Yamama, Nechd, Omán, Baréin, Yemen) y el desierto sirio",
+				"fuente": "https://en.wikipedia.org/wiki/Ridda_wars"
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"id": "frisios",
+	"nombre": "Frisios",
+	"nombres": [
+		"Frisians"
+	],
+	"wiki": "Frisios o frisones",
+	"resena": "Pueblo germánico de la costa del mar del Norte, en Frisia. El reino frisón (c. 600-734) se extendía, según algunos autores, del Zwin, junto a Brujas, al Weser. Los francos lo sometieron tras la batalla del Boarn (734).",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Frisios o frisones",
+			"url": "https://es.wikipedia.org/wiki/Frisios_o_frisones",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Frisian Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Frisian_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "ceredigion",
+	"nombre": "Reino de Ceredigion",
+	"nombres": [
+		"Ceredigion"
+	],
+	"wiki": "Reino de Ceredigion",
+	"resena": "Pequeño reino galés entre el Dyfi y el Teifi, surgido a mediados del siglo V e independiente hasta hacia 872.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Ceredigion",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Ceredigion",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Ceredigion",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Ceredigion",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

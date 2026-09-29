@@ -1,0 +1,29 @@
+{
+	"id": "gepidos",
+	"nombre": "Gépidos",
+	"nombres": [
+		"Gepids"
+	],
+	"wiki": "Reino gépido",
+	"vinculos": [
+		{
+			"id": "avaros",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Pueblo germánico oriental procedente del bajo Vístula. Tras vencer a los hunos en el Nedao (454) dominó la llanura del Tisza y Transilvania, con capital en Sirmio. Los lombardos lo derrotaron en 552 y los ávaros acabaron con él en 567.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino gépido",
+			"url": "https://es.wikipedia.org/wiki/Reino_g%C3%A9pido",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Gepids",
+			"url": "https://en.wikipedia.org/wiki/Gepids",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

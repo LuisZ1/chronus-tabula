@@ -1,0 +1,32 @@
+{
+	"id": "britanos",
+	"nombre": "Britanos",
+	"nombres": [
+		"Britons"
+	],
+	"wiki": "Britanos",
+	"relacionados": [
+		"Britones"
+	],
+	"vinculos": [
+		{
+			"id": "inglaterra",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Pueblos celtas nativos de Gran Bretaña. Tras el fin del dominio romano formaron reinos en Gales, en el suroeste (Dumnonia) y en el norte (el Hen Ogledd: Rheged, Gododdin, Alt Clut, Elmet), que fueron cediendo ante los anglosajones.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Britanos",
+			"url": "https://es.wikipedia.org/wiki/Britanos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Hen Ogledd",
+			"url": "https://en.wikipedia.org/wiki/Hen_Ogledd",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

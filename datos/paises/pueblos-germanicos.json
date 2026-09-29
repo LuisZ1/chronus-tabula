@@ -1,0 +1,29 @@
+{
+	"id": "pueblos-germanicos",
+	"nombre": "Pueblos germánicos",
+	"nombres": [
+		"Germanic tribes"
+	],
+	"wiki": "Pueblos germánicos",
+	"vinculos": [
+		{
+			"id": "lugios",
+			"tipo": "incluye"
+		}
+	],
+	"resena": "Pueblos de lengua germánica sin Estado común que ocupaban la Germania Magna, entre el Rin, el Danubio y el Vístula, y el sur de Escandinavia: sajones, turingios, lombardos, burgundios, vándalos o gautas, entre otros. En el mapa se agrupan bajo este rótulo donde no hay una atribución más precisa; las fronteras son aproximadas.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pueblos germánicos",
+			"url": "https://es.wikipedia.org/wiki/Pueblos_germ%C3%A1nicos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Germania",
+			"url": "https://en.wikipedia.org/wiki/Germania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

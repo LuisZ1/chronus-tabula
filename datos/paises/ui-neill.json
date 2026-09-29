@@ -1,0 +1,26 @@
+{
+	"id": "ui-neill",
+	"nombre": "Uí Néill",
+	"nombres": [
+		"Uí Néill"
+	],
+	"wiki": "Uí Néill",
+	"relacionados": [
+		"Leth Cuinn"
+	],
+	"resena": "Linajes descendientes de Niall de los Nueve Rehenes que dominaron el norte y el centro de Irlanda: los del norte (Cenél Conaill, Cenél nEógain) y los del sur (Mide, Brega), con los Airgíalla como tributarios. Monopolizaron el título de rey supremo de Tara.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Uí Néill",
+			"url": "https://es.wikipedia.org/wiki/U%C3%AD_N%C3%A9ill",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Uí Néill",
+			"url": "https://en.wikipedia.org/wiki/U%C3%AD_N%C3%A9ill",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

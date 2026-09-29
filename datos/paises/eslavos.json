@@ -1,0 +1,23 @@
+{
+	"id": "eslavos",
+	"nombre": "Eslavos",
+	"nombres": [
+		"Slavs"
+	],
+	"wiki": "Pueblos eslavos",
+	"resena": "Pueblos de lengua eslava que las fuentes bizantinas citan desde comienzos del siglo VI como esclavenos y antes. Jordanes los sitúa entre el Vístula, el Dniéper y el norte del bajo Danubio. A finales de ese siglo ya se extendían hasta el Elba y el Saale y penetraban en los Balcanes.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pueblos eslavos",
+			"url": "https://es.wikipedia.org/wiki/Pueblos_eslavos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Antes (people)",
+			"url": "https://en.wikipedia.org/wiki/Antes_%28people%29",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

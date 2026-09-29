@@ -1,0 +1,29 @@
+{
+	"id": "dumnonia",
+	"nombre": "Dumnonia",
+	"nombres": [
+		"Dumnonia"
+	],
+	"wiki": "Dumnonia",
+	"vinculos": [
+		{
+			"id": "wessex",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino britano del suroeste (Devon, Cornualles y partes de Somerset y Dorset). Wessex lo recortó por el este: el Parrett tras Peonnum (658) y más tierras tras la derrota de Geraint ante Ine (710). Cornualles siguió siendo britana hasta el siglo IX.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dumnonia",
+			"url": "https://es.wikipedia.org/wiki/Dumnonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Dumnonia",
+			"url": "https://en.wikipedia.org/wiki/Dumnonia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "glywysing",
+	"nombre": "Glywysing",
+	"nombres": [
+		"Glywysing"
+	],
+	"wiki": "Glywysing",
+	"relacionados": [
+		"Morgannwg"
+	],
+	"resena": "Reino galés del sureste (la futura Glamorgan). En el mapa agrupa a sus vecinos Gwent, Brycheiniog y Ergyng. Unido a Gwent formó Morgannwg, que cayó ante los normandos.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Glywysing",
+			"url": "https://es.wikipedia.org/wiki/Glywysing",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Glywysing",
+			"url": "https://en.wikipedia.org/wiki/Glywysing",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

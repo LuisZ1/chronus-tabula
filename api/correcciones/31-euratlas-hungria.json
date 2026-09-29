@@ -1,0 +1,362 @@
+{
+ "tema": "Euratlas, propuesta alta A (siglos XVI-XVII): la Hungría real de los Habsburgo en 1580, 1600 y 1650 en lugar del Imperio otomano y del Sacro Imperio",
+ "mapas": {
+  "world_1580.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "menos": [
+        {
+         "y": [
+          {
+           "feat": "Imperial Hungary",
+           "mapa": "world_1500.geojson"
+          },
+          {
+           "feat": "Slovakia",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Hungary",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Croatia",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "pol": [
+            [
+             17.0,
+             48.08
+            ],
+            [
+             17.02,
+             48.2
+            ],
+            [
+             17.1,
+             48.3
+            ],
+            [
+             17.25,
+             48.1
+            ],
+            [
+             17.1,
+             48.02
+            ]
+           ]
+          }
+         ]
+        },
+        {
+         "caja": [
+          13.0,
+          44.6,
+          14.5,
+          45.7
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-hungria-frontera.geojson",
+       "nombre": "Lado Habsburgo 1580"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire",
+     "Holy Roman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Royal Hungary",
+     "ABBREVN": "R. Hungary",
+     "SUBJECTO": "Habsburg Monarchy",
+     "PARTOF": "Habsburg Monarchy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Hungría real (actual Eslovaquia, Transdanubia noroccidental, el noreste húngaro y los restos del reino de Croacia en torno a Zagreb, Varaždin, Karlovac y Senj) era de los Habsburgo desde la división del reino tras Mohács (1526) y la toma otomana de Buda (1541), con capital en Pressburgo; no era parte del Sacro Imperio ni del Imperio otomano. La frontera occidental con Austria, Estiria, Carniola y Moravia es la actual de Eslovaquia, Hungría y Croacia (sin Istria ni Rijeka, austriacas, y con Pressburgo, que el contorno actual deja justo fuera), porque la de world_1500 deja Pressburgo y Zagreb en el Sacro Imperio; la del noreste y con Polonia, la de «Imperial Hungary» de world_1500; y se corta con la frontera otomana del año; trazado aproximado. En 1580, antes de la Guerra Larga: Esztergom, Nógrád, Szécsény y Fülek siguen siendo sanjacados otomanos del eyalato de Buda; Győr, Tata, Veszprém, Kanizsa, Eger y Bihać son habsburgo. Transilvania y el Partium no se tocan.",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1526%E2%80%931867) · https://en.wikipedia.org/wiki/Budin_Eyalet · https://en.wikipedia.org/wiki/Fi%C4%BEakovo · https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(Habsburg)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "caja": [
+        13.0,
+        44.6,
+        14.5,
+        45.7
+       ]
+      },
+      {
+       "y": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Croatia",
+         "mapa": "world_2010.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Holy Roman Empire"
+    },
+    "motivo": "Rijeka (Fiume), Kastav y el Kvarner interior eran austriacos (Habsburgo) desde 1466 y nunca otomanos; el mapa base deja aquí una cuña otomana entre el Sacro Imperio y la Hungría real; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Rijeka"
+   }
+  ],
+  "world_1600.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "menos": [
+        {
+         "y": [
+          {
+           "feat": "Imperial Hungary",
+           "mapa": "world_1500.geojson"
+          },
+          {
+           "feat": "Slovakia",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Hungary",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Croatia",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "pol": [
+            [
+             17.0,
+             48.08
+            ],
+            [
+             17.02,
+             48.2
+            ],
+            [
+             17.1,
+             48.3
+            ],
+            [
+             17.25,
+             48.1
+            ],
+            [
+             17.1,
+             48.02
+            ]
+           ]
+          }
+         ]
+        },
+        {
+         "caja": [
+          13.0,
+          44.6,
+          14.5,
+          45.7
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-hungria-frontera.geojson",
+       "nombre": "Lado Habsburgo 1600"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire",
+     "Holy Roman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Royal Hungary",
+     "ABBREVN": "R. Hungary",
+     "SUBJECTO": "Habsburg Monarchy",
+     "PARTOF": "Habsburg Monarchy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Hungría real (actual Eslovaquia, Transdanubia noroccidental, el noreste húngaro y los restos del reino de Croacia en torno a Zagreb, Varaždin, Karlovac y Senj) era de los Habsburgo desde la división del reino tras Mohács (1526) y la toma otomana de Buda (1541), con capital en Pressburgo; no era parte del Sacro Imperio ni del Imperio otomano. La frontera occidental con Austria, Estiria, Carniola y Moravia es la actual de Eslovaquia, Hungría y Croacia (sin Istria ni Rijeka, austriacas, y con Pressburgo, que el contorno actual deja justo fuera), porque la de world_1500 deja Pressburgo y Zagreb en el Sacro Imperio; la del noreste y con Polonia, la de «Imperial Hungary» de world_1500; y se corta con la frontera otomana del año; trazado aproximado. Hacia finales de 1600, en plena Guerra Larga: Esztergom y Visegrád (1595), Fülek (1593), Győr y Komárom (1598) son habsburgo; Eger (1596), Kanizsa (23-10-1600), Hatvan, Székesfehérvár y Bihać (1592) son otomanas (eyalatos de Buda, Eğri, Kanije y Temesvar). Transilvania y el Partium (Bihar, Máramaros…) no se tocan.",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1526%E2%80%931867) · https://en.wikipedia.org/wiki/Long_Turkish_War · https://en.wikipedia.org/wiki/Siege_of_Nagykanizsa_(1600) · https://en.wikipedia.org/wiki/E%C4%9Fri_Eyalet · https://en.wikipedia.org/wiki/Kingdom_of_Croatia_(Habsburg)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "caja": [
+        13.0,
+        44.6,
+        14.5,
+        45.7
+       ]
+      },
+      {
+       "y": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Croatia",
+         "mapa": "world_2010.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Holy Roman Empire"
+    },
+    "motivo": "Rijeka (Fiume), Kastav y el Kvarner interior eran austriacos (Habsburgo) desde 1466 y nunca otomanos; el mapa base deja aquí una cuña otomana entre el Sacro Imperio y la Hungría real; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Rijeka"
+   }
+  ],
+  "world_1650.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "menos": [
+        {
+         "y": [
+          {
+           "feat": "Imperial Hungary",
+           "mapa": "world_1500.geojson"
+          },
+          {
+           "feat": "Slovakia",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Hungary",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Croatia",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "pol": [
+            [
+             17.0,
+             48.08
+            ],
+            [
+             17.02,
+             48.2
+            ],
+            [
+             17.1,
+             48.3
+            ],
+            [
+             17.25,
+             48.1
+            ],
+            [
+             17.1,
+             48.02
+            ]
+           ]
+          }
+         ]
+        },
+        {
+         "caja": [
+          13.0,
+          44.6,
+          14.5,
+          45.7
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-hungria-frontera.geojson",
+       "nombre": "Lado Habsburgo 1650"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire",
+     "Holy Roman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Royal Hungary",
+     "ABBREVN": "R. Hungary",
+     "SUBJECTO": "Habsburg Monarchy",
+     "PARTOF": "Habsburg Monarchy",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Hungría real (actual Eslovaquia, Transdanubia noroccidental, el noreste húngaro y los restos del reino de Croacia en torno a Zagreb, Varaždin, Karlovac y Senj) era de los Habsburgo desde la división del reino tras Mohács (1526) y la toma otomana de Buda (1541), con capital en Pressburgo; no era parte del Sacro Imperio ni del Imperio otomano. La frontera occidental con Austria, Estiria, Carniola y Moravia es la actual de Eslovaquia, Hungría y Croacia (sin Istria ni Rijeka, austriacas, y con Pressburgo, que el contorno actual deja justo fuera), porque la de world_1500 deja Pressburgo y Zagreb en el Sacro Imperio; la del noreste y con Polonia, la de «Imperial Hungary» de world_1500; y se corta con la frontera otomana del año; trazado aproximado. En 1650, tras la paz de Zsitvatorok (1606): Eger y Kanizsa quedan otomanas y Esztergom vuelve a serlo (1605); Fülek y Érsekújvár (Nové Zámky, otomana en 1663) siguen habsburgo; Szabolcs y Szatmár siguen con Transilvania tras la paz de Linz (1645) y no se tocan.",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1526%E2%80%931867) · https://en.wikipedia.org/wiki/Long_Turkish_War · https://en.wikipedia.org/wiki/Nov%C3%A9_Z%C3%A1mky · https://en.wikipedia.org/wiki/George_I_R%C3%A1k%C3%B3czi · https://en.wikipedia.org/wiki/Partium"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "caja": [
+        13.0,
+        44.6,
+        14.5,
+        45.7
+       ]
+      },
+      {
+       "y": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Croatia",
+         "mapa": "world_2010.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Holy Roman Empire"
+    },
+    "motivo": "Rijeka (Fiume), Kastav y el Kvarner interior eran austriacos (Habsburgo) desde 1466 y nunca otomanos; el mapa base deja aquí una cuña otomana entre el Sacro Imperio y la Hungría real; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Rijeka"
+   }
+  ]
+ }
+}

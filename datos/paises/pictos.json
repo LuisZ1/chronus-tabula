@@ -1,0 +1,27 @@
+{
+	"id": "pictos",
+	"nombre": "Pictos",
+	"nombres": [
+		"Picts"
+	],
+	"wiki": "Pictos",
+	"relacionados": [
+		"Pictavia",
+		"Fortriu"
+	],
+	"resena": "Pueblo celta de Escocia al norte del Forth y del Clyde. Desde el siglo VII el reino de Fortriu impuso su hegemonía; en Dun Nechtain (685) frenó a Northumbria. Hacia mediados del siglo IX se unió con Dál Riata en el reino de Alba.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pictos",
+			"url": "https://es.wikipedia.org/wiki/Pictos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Picts",
+			"url": "https://en.wikipedia.org/wiki/Picts",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

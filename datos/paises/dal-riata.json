@@ -1,0 +1,27 @@
+{
+	"id": "dal-riata",
+	"nombre": "Dál Riata",
+	"nombres": [
+		"Dál Riata"
+	],
+	"wiki": "Dál Riata",
+	"relacionados": [
+		"Dalriada",
+		"Escotos"
+	],
+	"resena": "Reino gaélico a ambos lados del canal del Norte: Argyll (Kintyre, Islay, Lorne, Cowal) y el norte de Antrim, con capital en Dunadd y el monasterio de Iona. Decayó tras Mag Rath (637), cayó bajo los pictos en la década de 730 y se unió a ellos en Alba.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Dál Riata",
+			"url": "https://es.wikipedia.org/wiki/D%C3%A1l_Riata",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Dál Riata",
+			"url": "https://en.wikipedia.org/wiki/D%C3%A1l_Riata",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"id": "cultura-de-kiev",
+	"nombre": "Cultura de Kiev",
+	"nombres": [
+		"Kiev culture"
+	],
+	"wiki": "en:Kiev culture",
+	"vinculos": [
+		{
+			"id": "cultura-de-zarubintsy",
+			"tipo": "predecesor"
+		}
+	],
+	"resena": "Cultura arqueológica de los siglos III a V en la cuenca media y alta del Dniéper, el Desna y el Prípiat. Se considera la primera cultura eslava identificable, aunque su atribución étnica se discute.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Kiev culture",
+			"url": "https://en.wikipedia.org/wiki/Kiev_culture",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

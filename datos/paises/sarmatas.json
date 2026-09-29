@@ -1,0 +1,29 @@
+{
+	"id": "sarmatas",
+	"nombre": "Sármatas",
+	"nombres": [
+		"Sarmates"
+	],
+	"wiki": "Sármatas",
+	"resena": "Pueblos nómadas de lengua irania emparentados con los escitas, que dominaron la estepa póntica hasta que los godos la conquistaron hacia el año 200. Una rama, la de los yácigos, vivió entre el Danubio y el Tisza hasta el siglo V.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Sármatas",
+			"url": "https://es.wikipedia.org/wiki/S%C3%A1rmatas",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Sarmatians",
+			"url": "https://en.wikipedia.org/wiki/Sarmatians",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Iazyges",
+			"url": "https://en.wikipedia.org/wiki/Iazyges",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

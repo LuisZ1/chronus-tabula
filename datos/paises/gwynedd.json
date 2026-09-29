@@ -1,0 +1,23 @@
+{
+	"id": "gwynedd",
+	"nombre": "Reino de Gwynedd",
+	"nombres": [
+		"Gwynedd"
+	],
+	"wiki": "Reino de Gwynedd",
+	"resena": "Reino galés del noroeste (Anglesey y Snowdonia), fundado según la tradición por Cunedda hacia 500. Sus reyes se llamaron a menudo reyes de los britanos; Eduardo I lo conquistó en 1282-1283.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Gwynedd",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Gwynedd",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Gwynedd",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Gwynedd",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

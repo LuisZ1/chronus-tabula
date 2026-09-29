@@ -1,0 +1,32 @@
+{
+	"id": "sussex",
+	"nombre": "Reino de Sussex",
+	"nombres": [
+		"Sussex"
+	],
+	"wiki": "Reino de Sussex",
+	"relacionados": [
+		"Sajones del sur"
+	],
+	"vinculos": [
+		{
+			"id": "wessex",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino de los sajones del sur, en la costa entre el Weald y el canal de la Mancha. De poco peso político, cayó bajo la órbita de Mercia y después de Wessex, que lo absorbió en el siglo IX.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Sussex",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Sussex",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Sussex",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Sussex",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}
