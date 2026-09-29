@@ -1,0 +1,67 @@
+{
+	"id": "rashidun",
+	"nombre": "Califato ortodoxo",
+	"nombres": [
+		"Rashidun Caliphate"
+	],
+	"wiki": "Califato ortodoxo",
+	"relacionados": [
+		"Califato rashidun",
+		"Califato de los rashidun"
+	],
+	"vinculos": [
+		{
+			"id": "omeya",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "bizancio",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "sasanida",
+			"tipo": "antecesor_territorial"
+		}
+	],
+	"resena": "Primer califato tras la muerte de Mahoma (632-661), gobernado por los cuatro califas que la tradición suní llama «bien guiados»: Abu Bakr, Úmar, Uthmán y Alí. Desde Medina, y después desde Kufa, unificó Arabia en las guerras de la Ridda y en menos de veinte años arrebató a Bizancio Siria, Palestina, Egipto y la Cirenaica y acabó con el Imperio sasánida. La guerra civil que siguió al asesinato de Uthmán terminó en 661 con la llegada al poder de los omeyas.",
+	"gobernantes": [
+		{
+			"nombre": "Abu Bakr",
+			"titulo": "Califa",
+			"desde": 632,
+			"hasta": 634
+		},
+		{
+			"nombre": "Úmar ibn al-Jattab",
+			"titulo": "Califa",
+			"desde": 634,
+			"hasta": 644
+		},
+		{
+			"nombre": "Uthmán ibn Affán",
+			"titulo": "Califa",
+			"desde": 644,
+			"hasta": 656
+		},
+		{
+			"nombre": "Alí ibn Abi Tálib",
+			"titulo": "Califa",
+			"desde": 656,
+			"hasta": 661
+		}
+	],
+	"fuentes": [
+		{
+			"id": "Wikipedia (es): Califato ortodoxo",
+			"url": "https://es.wikipedia.org/wiki/Califato_ortodoxo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "Wikipedia (en): Rashidun Caliphate",
+			"url": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

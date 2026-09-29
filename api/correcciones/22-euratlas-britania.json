@@ -1,0 +1,235 @@
+{
+	"tema": "Britania e Irlanda en 560-720: reinos anglosajones, britanos, pictos, Dál Riata y reinos irlandeses (propuesta Euratlas siglo VII, B)",
+	"mapas": {
+		"world_560.geojson": [
+			{
+				"op": "sustituir",
+				"geometria": "api/geo/correcciones/medieval-euratlas-britania.geojson",
+				"nombres": [
+					"Picts",
+					"Dál Riata",
+					"Ulaid",
+					"Uí Néill",
+					"Connacht",
+					"Laigin",
+					"Mumu"
+				],
+				"modo": "sustituir",
+				"resto": null,
+				"props": {
+					"BORDERPRECISION": 1
+				},
+				"motivo": "reconstrucción aproximada de los reinos de Britania e Irlanda con líneas naturales (ríos, estuarios, Peninos, Druim Alban); comparación con Euratlas solo como referencia visual, sin calcar",
+				"fuente": "https://en.wikipedia.org/wiki/Heptarchy · https://en.wikipedia.org/wiki/Hen_Ogledd · https://en.wikipedia.org/wiki/Picts · https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"archivo": "api/geo/correcciones/medieval-euratlas-britania.geojson",
+					"nombre": "Britons"
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Britons",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "el sur de Escocia (Alt Clut, Gododdin, Rheged) y Anglesey eran britanos en 560; se agrupan con los britanos de Gales y de Dumnonia que ya tiene el mapa",
+				"fuente": "https://en.wikipedia.org/wiki/Hen_Ogledd"
+			}
+		],
+		"world_600.geojson": [
+			{
+				"op": "renombrar",
+				"de": "Cantia",
+				"props": {
+					"NAME": "Kent",
+					"SUBJECTO": "Kent",
+					"PARTOF": "Kent",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "«Cantia» es el reino de Kent y no puede rotular toda la Inglaterra anglosajona; el resto se reparte entre los reinos de la heptarquía",
+				"fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+			},
+			{
+				"op": "sustituir",
+				"geometria": "api/geo/correcciones/medieval-euratlas-britania.geojson",
+				"nombres": [
+					"Dumnonia",
+					"Kent",
+					"Sussex",
+					"Wessex",
+					"Essex",
+					"East Anglia",
+					"Mercia",
+					"Lindsey",
+					"Deira",
+					"Bernicia",
+					"Elmet",
+					"Rheged",
+					"Gododdin",
+					"Strathclyde",
+					"Picts",
+					"Dál Riata",
+					"Gwynedd",
+					"Powys",
+					"Ceredigion",
+					"Dyfed",
+					"Glywysing",
+					"Ulaid",
+					"Uí Néill",
+					"Connacht",
+					"Laigin",
+					"Mumu"
+				],
+				"modo": "sustituir",
+				"resto": null,
+				"props": {
+					"BORDERPRECISION": 1
+				},
+				"motivo": "reconstrucción aproximada de los reinos de Britania e Irlanda con líneas naturales (ríos, estuarios, Peninos, Druim Alban); comparación con Euratlas solo como referencia visual, sin calcar",
+				"fuente": "https://en.wikipedia.org/wiki/Heptarchy · https://en.wikipedia.org/wiki/Hen_Ogledd · https://en.wikipedia.org/wiki/Picts · https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+			}
+		],
+		"world_700.geojson": [
+			{
+				"op": "renombrar",
+				"de": "Cantia",
+				"props": {
+					"NAME": "Kent",
+					"SUBJECTO": "Kent",
+					"PARTOF": "Kent",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "«Cantia» es el reino de Kent y no puede rotular toda la Inglaterra anglosajona; el resto se reparte entre los reinos de la heptarquía",
+				"fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+			},
+			{
+				"op": "sustituir",
+				"geometria": "api/geo/correcciones/medieval-euratlas-britania.geojson",
+				"nombres": [
+					"Dumnonia",
+					"Kent",
+					"Sussex",
+					"Wessex",
+					"Essex",
+					"East Anglia",
+					"Mercia",
+					"Northumbria",
+					"Strathclyde",
+					"Picts",
+					"Dál Riata",
+					"Gwynedd",
+					"Powys",
+					"Ceredigion",
+					"Dyfed",
+					"Glywysing",
+					"Ulaid",
+					"Uí Néill",
+					"Connacht",
+					"Laigin",
+					"Mumu"
+				],
+				"modo": "sustituir",
+				"resto": null,
+				"props": {
+					"BORDERPRECISION": 1
+				},
+				"motivo": "reconstrucción aproximada de los reinos de Britania e Irlanda con líneas naturales (ríos, estuarios, Peninos, Druim Alban); comparación con Euratlas solo como referencia visual, sin calcar",
+				"fuente": "https://en.wikipedia.org/wiki/Heptarchy · https://en.wikipedia.org/wiki/Hen_Ogledd · https://en.wikipedia.org/wiki/Picts · https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+			}
+		],
+		"world_720.geojson": [
+			{
+				"op": "renombrar",
+				"de": "Cantia",
+				"props": {
+					"NAME": "Kent",
+					"SUBJECTO": "Kent",
+					"PARTOF": "Kent",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "«Cantia» es el reino de Kent y no puede rotular toda la Inglaterra anglosajona; el resto se reparte entre los reinos de la heptarquía",
+				"fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Kent"
+			},
+			{
+				"op": "sustituir",
+				"geometria": "api/geo/correcciones/medieval-euratlas-britania.geojson",
+				"nombres": [
+					"Dumnonia",
+					"Kent",
+					"Sussex",
+					"Wessex",
+					"Essex",
+					"East Anglia",
+					"Mercia",
+					"Northumbria",
+					"Strathclyde",
+					"Picts",
+					"Dál Riata",
+					"Gwynedd",
+					"Powys",
+					"Ceredigion",
+					"Dyfed",
+					"Glywysing",
+					"Ulaid",
+					"Uí Néill",
+					"Connacht",
+					"Laigin",
+					"Mumu"
+				],
+				"modo": "sustituir",
+				"resto": null,
+				"props": {
+					"BORDERPRECISION": 1
+				},
+				"motivo": "reconstrucción aproximada de los reinos de Britania e Irlanda con líneas naturales (ríos, estuarios, Peninos, Druim Alban); comparación con Euratlas solo como referencia visual, sin calcar; mismas piezas que 700 (base de este mapa)",
+				"fuente": "https://en.wikipedia.org/wiki/Heptarchy · https://en.wikipedia.org/wiki/Hen_Ogledd · https://en.wikipedia.org/wiki/Picts · https://en.wikipedia.org/wiki/Kingdom_of_Munster"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"pol": [
+						[
+							-3.0,
+							51.5
+						],
+						[
+							-4.1,
+							51.35
+						],
+						[
+							-4.05,
+							51.0
+						],
+						[
+							-4.0,
+							50.65
+						],
+						[
+							-3.95,
+							50.1
+						],
+						[
+							-3.0,
+							50.1
+						],
+						[
+							-3.0,
+							51.5
+						]
+					]
+				},
+				"desde": [
+					"Dumnonia"
+				],
+				"props": {
+					"NAME": "Wessex",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Ine de Wessex vence a Geraint de Dumnonia (710) y avanza por Devon: la frontera pasa del Exe a Dartmoor (línea aproximada; la caja solo toma tierra de Dumnonia; Cornualles y el oeste de Devon siguen siendo britanos)",
+				"fuente": "https://en.wikipedia.org/wiki/Dumnonia"
+			}
+		]
+	}
+}

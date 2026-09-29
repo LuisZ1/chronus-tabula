@@ -1,0 +1,43 @@
+{
+	"id": "pueblo-godo",
+	"nombre": "Pueblo godo",
+	"nombres": [
+		"Goths"
+	],
+	"wiki": "Pueblo godo",
+	"vinculos": [
+		{
+			"id": "ostrogodos",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "visigodos",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "tervingios",
+			"tipo": "incluye"
+		}
+	],
+	"resena": "Pueblo germánico oriental que, desde el bajo Vístula, llegó en el siglo III a la estepa póntica. Allí formó, con otros pueblos, la cultura de Cherniajov. Los greutungos (entre el Dniéster y el Don) y los tervingos (al oeste del Dniéster) se dispersaron con la llegada de los hunos, hacia 375, y dieron origen a ostrogodos y visigodos.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pueblo godo",
+			"url": "https://es.wikipedia.org/wiki/Pueblo_godo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Greuthungi",
+			"url": "https://en.wikipedia.org/wiki/Greuthungi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Chernyakhov culture",
+			"url": "https://en.wikipedia.org/wiki/Chernyakhov_culture",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

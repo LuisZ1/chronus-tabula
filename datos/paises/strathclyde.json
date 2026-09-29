@@ -1,0 +1,26 @@
+{
+	"id": "strathclyde",
+	"nombre": "Reino de Strathclyde",
+	"nombres": [
+		"Strathclyde"
+	],
+	"wiki": "Reino de Strathclyde",
+	"relacionados": [
+		"Alt Clut"
+	],
+	"resena": "Reino britano del valle del Clyde, gobernado desde la roca de Dumbarton (Alt Clut), del norte del lago Lomond a la costa de Ayr. El último reino del Hen Ogledd: fue independiente hasta el siglo XI.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Strathclyde",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Strathclyde",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Strathclyde",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Strathclyde",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

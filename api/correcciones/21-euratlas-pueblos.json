@@ -1,0 +1,1716 @@
+{
+ "tema": "Pueblos de Germania Magna y la Europa oriental en la tierra sin datos, 200-600 (propuesta Euratlas siglos I-VI, A)",
+ "mapas": {
+  "world_200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   }
+  ],
+  "world_271.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_275.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_324.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_337.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_340.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_350.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_353.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_363.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos y tervingos (cultura de Cherniajov) en la estepa póntica y la estepa boscosa entre el Dniéster y el Don, desde el siglo III hasta la llegada de los hunos (c. 375)",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Bosporian Kingdom",
+     "mapa": "world_200.geojson"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bosporian Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el reino del Bósforo, cliente de Roma, sigue existiendo en el este de Crimea hasta la segunda mitad del siglo IV; se toma su extensión del mapa de 200",
+    "fuente": "https://en.wikipedia.org/wiki/Bosporan_Kingdom"
+   }
+  ],
+  "world_395.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Ostrogoths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos (ostrogodos) sometidos a los hunos al norte de la estepa; la cultura de Cherniajov perdura hasta comienzos del siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   }
+  ],
+  "world_400.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "tisza"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "yácigos (sármatas) en la llanura entre el Danubio y el Tisza, hasta su absorción por godos y hunos en el siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Iazyges"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Ostrogoths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos (ostrogodos) sometidos a los hunos al norte de la estepa; la cultura de Cherniajov perdura hasta comienzos del siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   }
+  ],
+  "world_450.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "godos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Ostrogoths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "godos greutungos (ostrogodos) sometidos a los hunos al norte de la estepa; la cultura de Cherniajov perdura hasta comienzos del siglo V",
+    "fuente": "https://en.wikipedia.org/wiki/Greuthungi"
+   }
+  ],
+  "world_476.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "gepidos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Gepids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino gépido en la llanura del Tisza y Transilvania, de la batalla del Nedao (454) a su destrucción por lombardos y ávaros (567)",
+    "fuente": "https://en.wikipedia.org/wiki/Gepids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "kiev"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Kiev culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura arqueológica de Kiev (siglos III-V) en el Dniéper medio y alto, el Desna y el Prípiat; se rotula la cultura porque su atribución étnica (protoeslavos, con aportes bálticos) es debatida",
+    "fuente": "https://en.wikipedia.org/wiki/Kiev_culture"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "bulgaros"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bulgars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cutriguros y utiguros, tribus hunobúlgaras de la estepa entre el Dniéper, el Don y el Kubán (los búlgaros aparecen en las fuentes en 480)",
+    "fuente": "https://en.wikipedia.org/wiki/Kutrigurs"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caucasian Alans",
+       "mapa": "world_400.geojson"
+      },
+      {
+       "caja": [
+        36,
+        41,
+        50,
+        45.3
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Caucasian Alans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "alanos del Cáucaso norte, que siguen allí tras la caída del imperio huno; se toma la parte sur de su extensión en el mapa de 400",
+    "fuente": "https://en.wikipedia.org/wiki/Alans"
+   }
+  ],
+  "world_500.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos-500"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "gepidos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Gepids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino gépido en la llanura del Tisza y Transilvania, de la batalla del Nedao (454) a su destrucción por lombardos y ávaros (567)",
+    "fuente": "https://en.wikipedia.org/wiki/Gepids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "eslavos-500"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Slavs",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "eslavos (sclavenos y antes), atestiguados en las fuentes bizantinas desde comienzos del siglo VI; Jordanes los sitúa del Vístula al Dniéper y al norte del bajo Danubio",
+    "fuente": "https://en.wikipedia.org/wiki/Antes_(people)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "bulgaros"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bulgars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cutriguros y utiguros, tribus hunobúlgaras de la estepa entre el Dniéper, el Don y el Kubán (los búlgaros aparecen en las fuentes en 480)",
+    "fuente": "https://en.wikipedia.org/wiki/Kutrigurs"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caucasian Alans",
+       "mapa": "world_400.geojson"
+      },
+      {
+       "caja": [
+        36,
+        41,
+        50,
+        45.3
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Caucasian Alans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "alanos del Cáucaso norte, que siguen allí tras la caída del imperio huno; se toma la parte sur de su extensión en el mapa de 400",
+    "fuente": "https://en.wikipedia.org/wiki/Alans"
+   }
+  ],
+  "world_560.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      8.5,
+      50.0,
+      11.9,
+      51.3
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Franks"
+    },
+    "motivo": "Turingia, conquistada por los francos en 531-532, forma parte del reino franco (Austrasia)",
+    "fuente": "https://en.wikipedia.org/wiki/Thuringii"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "germanos-560"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Germania Magna: pueblos germánicos independientes entre el Rin, el Danubio y el Vístula (sin fronteras fijas; reconstrucción aproximada sobre tierra sin datos)",
+    "fuente": "https://en.wikipedia.org/wiki/Germania"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "gepidos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Gepids",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino gépido en la llanura del Tisza y Transilvania, de la batalla del Nedao (454) a su destrucción por lombardos y ávaros (567)",
+    "fuente": "https://en.wikipedia.org/wiki/Gepids"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "eslavos-560"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Slavs",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "eslavos (sclavenos y antes), atestiguados en las fuentes bizantinas desde comienzos del siglo VI; Jordanes los sitúa del Vístula al Dniéper y al norte del bajo Danubio",
+    "fuente": "https://en.wikipedia.org/wiki/Antes_(people)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "bulgaros"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bulgars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cutriguros y utiguros, tribus hunobúlgaras de la estepa entre el Dniéper, el Don y el Kubán (los búlgaros aparecen en las fuentes en 480)",
+    "fuente": "https://en.wikipedia.org/wiki/Kutrigurs"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caucasian Alans",
+       "mapa": "world_400.geojson"
+      },
+      {
+       "caja": [
+        36,
+        41,
+        50,
+        45.3
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Caucasian Alans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "alanos del Cáucaso norte, que siguen allí tras la caída del imperio huno; se toma la parte sur de su extensión en el mapa de 400",
+    "fuente": "https://en.wikipedia.org/wiki/Alans"
+   }
+  ],
+  "world_600.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "jutlandia"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Danes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "daneses en Jutlandia, citados por Jordanes y Gregorio de Tours en el siglo VI",
+    "fuente": "https://en.wikipedia.org/wiki/Danes_(Germanic_tribe)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+       "nombre": "eslavos-600"
+      },
+      {
+       "feat": "Avars"
+      },
+      {
+       "feat": "Lombard principalities"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Slavs",
+     "BORDERPRECISION": 1,
+     "SUBJECTO": "Slavs",
+     "PARTOF": "Slavs"
+    },
+    "motivo": "eslavos (sclavenos y antes), atestiguados en las fuentes bizantinas desde comienzos del siglo VI; Jordanes los sitúa del Vístula al Dniéper y al norte del bajo Danubio; los eslavos no están sometidos a Bizancio (SUBJECTO y PARTOF pasan a «Slavs»)",
+    "fuente": "https://en.wikipedia.org/wiki/Antes_(people)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      6.0,
+      51.3,
+      12.5,
+      54.4
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Saxons"
+    },
+    "motivo": "Sajonia antigua: Westfalia, Angria, Ostfalia y Nordalbingia, entre el Rin, el Elba y el Eider; el norte de Turingia pasa a los sajones a finales del siglo VI",
+    "fuente": "https://en.wikipedia.org/wiki/Old_Saxony"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      3.2,
+      51.2,
+      6.3,
+      52.3
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Frisians"
+    },
+    "motivo": "el reino frisón se extiende por la costa del delta del Rin, el Mosa y el Escalda, del Zwin al Weser",
+    "fuente": "https://en.wikipedia.org/wiki/Frisian_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        7.0,
+        49.0,
+        12.5,
+        51.3
+       ]
+      },
+      {
+       "feat": "Slavs"
+      },
+      {
+       "feat": "Saxons"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Frankish Kingdom"
+    },
+    "motivo": "Hesse y Turingia (conquistada en 531-532) dependen del reino franco de Austrasia",
+    "fuente": "https://en.wikipedia.org/wiki/Thuringii"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        12.0,
+        47.0,
+        14.5,
+        49.3
+       ]
+      },
+      {
+       "feat": "Avars"
+      },
+      {
+       "feat": "Lombard principalities"
+      },
+      {
+       "feat": "Slavs"
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Frankish Kingdom"
+    },
+    "motivo": "ducado de Baviera de los agilolfingos (desde c. 555), bajo soberanía franca, hasta el Enns",
+    "fuente": "https://en.wikipedia.org/wiki/Duchy_of_Bavaria"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+       "nombre": "gepidos"
+      },
+      {
+       "caja": [
+        14.5,
+        46.5,
+        19.0,
+        49.0
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Avars"
+    },
+    "motivo": "jaganato ávaro: la cuenca de los Cárpatos, de la actual Austria (al este del Enns) a Transilvania, tras la marcha de los lombardos (568) y la destrucción de los gépidos (567)",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Germanic tribes",
+       "mapa": "world_bc400.geojson"
+      },
+      {
+       "caja": [
+        4,
+        55.3,
+        32,
+        72
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos germánicos de Escandinavia (gautas, suiones, noruegos) fuera de las entidades con nombre; la misma capa que rellena los mapas de 200 a 560",
+    "fuente": "https://en.wikipedia.org/wiki/Germanic_peoples"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "balticos"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "pueblos bálticos (los aestios de Tácito, galindios, sudovios) entre el bajo Vístula, el Daugava y el alto Dniéper; frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/euratlas-pueblos-zonas.geojson",
+     "nombre": "bulgaros"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Bulgars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cutriguros y utiguros, tribus hunobúlgaras de la estepa entre el Dniéper, el Don y el Kubán (los búlgaros aparecen en las fuentes en 480)",
+    "fuente": "https://en.wikipedia.org/wiki/Kutrigurs"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Caucasian Alans",
+       "mapa": "world_400.geojson"
+      },
+      {
+       "caja": [
+        36,
+        41,
+        50,
+        45.3
+       ]
+      }
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Caucasian Alans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "alanos del Cáucaso norte, que siguen allí tras la caída del imperio huno; se toma la parte sur de su extensión en el mapa de 400",
+    "fuente": "https://en.wikipedia.org/wiki/Alans"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Avars"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Avars"
+    },
+    "motivo": "limpieza: tierra «sin datos» del mapa base superpuesta a la entidad (sin cambio de frontera)",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonian_Avars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Lombard principalities"
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Lombard principalities"
+    },
+    "motivo": "limpieza: tierra «sin datos» del mapa base superpuesta a la entidad (sin cambio de frontera)",
+    "fuente": "https://en.wikipedia.org/wiki/Lombards"
+   }
+  ]
+ }
+}

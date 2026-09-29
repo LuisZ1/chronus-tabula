@@ -1,0 +1,23 @@
+{
+	"id": "reino-del-bosforo",
+	"nombre": "Reino del Bósforo",
+	"nombres": [
+		"Bosporian Kingdom"
+	],
+	"wiki": "Reino del Bósforo",
+	"resena": "Reino grecoescita del estrecho de Kerch, con capital en Panticapea, fundado en 438 a. C. y cliente de Roma desde el siglo I a. C. La historiografía tradicional lo da por desaparecido hacia 375-376, con la llegada de los hunos, pero una inscripción de hacia 483 indica que sobrevivió hasta la conquista bizantina de 527.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino del Bósforo",
+			"url": "https://es.wikipedia.org/wiki/Reino_del_B%C3%B3sforo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Bosporan Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Bosporan_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

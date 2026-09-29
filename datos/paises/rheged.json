@@ -1,0 +1,29 @@
+{
+	"id": "rheged",
+	"nombre": "Reino de Rheged",
+	"nombres": [
+		"Rheged"
+	],
+	"wiki": "Reino de Rheged",
+	"vinculos": [
+		{
+			"id": "northumbria",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino britano del Hen Ogledd, en Cumbria y Dumfries y Galloway, quizá con tierras de Lancashire y Yorkshire. Asociado al rey Urien, pasó a Northumbria antes de 730, tal vez por el matrimonio de Oswiu con la princesa Rieinmelth.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Rheged",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Rheged",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Rheged",
+			"url": "https://en.wikipedia.org/wiki/Rheged",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "elmet",
+	"nombre": "Reino de Elmet",
+	"nombres": [
+		"Elmet"
+	],
+	"wiki": "Reino de Elmet",
+	"vinculos": [
+		{
+			"id": "northumbria",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino britano del actual West Yorkshire (entre Leeds y Selby), uno de los últimos del sur del Hen Ogledd. Edwin de Northumbria lo conquistó en 616-617.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Elmet",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Elmet",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Elmet",
+			"url": "https://en.wikipedia.org/wiki/Elmet",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

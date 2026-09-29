@@ -1,0 +1,52 @@
+{
+	"id": "northumbria",
+	"nombre": "Reino de Northumbria",
+	"nombres": [
+		"Northumbria"
+	],
+	"wiki": "Reino de Northumbria",
+	"relacionados": [
+		"Northanhymbra"
+	],
+	"vinculos": [
+		{
+			"id": "bernicia",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "deira",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "elmet",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "gododdin",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "rheged",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "inglaterra",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino anglo (654-1066) nacido de la unión de Deira y Bernicia. Hacia 700 iba del Humber y el Mersey al Forth, con Elmet, Lothian y Rheged. Fue el foco cultural de Lindisfarne, Jarrow y Beda; los vikingos le arrebataron York en 866-867.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Northumbria",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Northumbria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Northumbria",
+			"url": "https://en.wikipedia.org/wiki/Northumbria",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

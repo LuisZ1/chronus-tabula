@@ -1,0 +1,33 @@
+{
+	"id": "kent",
+	"nombre": "Reino de Kent",
+	"nombres": [
+		"Kent"
+	],
+	"wiki": "Reino de Kent",
+	"relacionados": [
+		"Cantia",
+		"Kent anglosajón"
+	],
+	"vinculos": [
+		{
+			"id": "wessex",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino anglosajón del sureste de Inglaterra, fundado por los jutos en el siglo V. Con Æthelberht (c. 589-616) fue el primero en recibir la misión de Agustín (597) y la sede de Canterbury. Pasó a Wessex en 825.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Kent",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Kent",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Kent",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kent",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"id": "leinster",
+	"nombre": "Reino de Leinster",
+	"nombres": [
+		"Laigin"
+	],
+	"wiki": "Reino de Leinster",
+	"relacionados": [
+		"Laigin",
+		"Leinster"
+	],
+	"resena": "Reino del este de Irlanda (Laigin). Perdió las Midlands ante los Uí Néill del sur, que formaron Mide, y Osraige ante Munster; en los siglos VII y VIII lo dominaron los Uí Dúnlainge.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Leinster",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Leinster",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Leinster",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Leinster",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

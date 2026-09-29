@@ -1,0 +1,33 @@
+{
+	"id": "estanglia",
+	"nombre": "Reino de Estanglia",
+	"nombres": [
+		"East Anglia"
+	],
+	"wiki": "Reino de Estanglia",
+	"relacionados": [
+		"Anglia Oriental",
+		"Anglos del este"
+	],
+	"vinculos": [
+		{
+			"id": "inglaterra",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino de los anglos del este, en Norfolk y Suffolk, desde el siglo VI hasta su incorporación a Inglaterra en 918. Rædwald (m. c. 624), probablemente enterrado en Sutton Hoo, fue el rey más poderoso de su tiempo.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Estanglia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Estanglia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of the East Angles",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_the_East_Angles",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

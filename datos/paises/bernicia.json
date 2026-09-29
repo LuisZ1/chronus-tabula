@@ -1,0 +1,29 @@
+{
+	"id": "bernicia",
+	"nombre": "Reino de Bernicia",
+	"nombres": [
+		"Bernicia"
+	],
+	"wiki": "Reino de Bernicia",
+	"vinculos": [
+		{
+			"id": "northumbria",
+			"tipo": "sucesor"
+		}
+	],
+	"resena": "Reino anglo con centro en Bamburgh, entre el Tees y el Forth. Æthelfrith lo unió a Deira hacia 604 y Oswiu formó con ambos Northumbria.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Bernicia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Bernicia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Bernicia",
+			"url": "https://en.wikipedia.org/wiki/Bernicia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

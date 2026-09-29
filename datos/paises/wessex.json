@@ -1,0 +1,48 @@
+{
+	"id": "wessex",
+	"nombre": "Reino de Wessex",
+	"nombres": [
+		"Wessex"
+	],
+	"wiki": "Reino de Wessex",
+	"relacionados": [
+		"Sajones del oeste"
+	],
+	"vinculos": [
+		{
+			"id": "inglaterra",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "dumnonia",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "essex",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "kent",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "sussex",
+			"tipo": "antecesor_territorial"
+		}
+	],
+	"resena": "Reino de los sajones del oeste, en el sur de Inglaterra (c. 519-927). Se extendió hacia el oeste a costa de Dumnonia (Cirencester, Gloucester y Bath en 577; el Parrett en 658; la derrota de Geraint en 710). Ine dio el primer código de leyes y sus reyes, de Egberto a Alfredo y Æthelstan, unificaron Inglaterra.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Wessex",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Wessex",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Wessex",
+			"url": "https://en.wikipedia.org/wiki/Wessex",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

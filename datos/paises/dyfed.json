@@ -1,0 +1,23 @@
+{
+	"id": "dyfed",
+	"nombre": "Reino de Dyfed",
+	"nombres": [
+		"Dyfed"
+	],
+	"wiki": "Reino de Dyfed",
+	"resena": "Reino galés del suroeste (Pembrokeshire), fundado por colonos irlandeses en el siglo V; a comienzos del siglo X se unió a sus vecinos en Deheubarth.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Dyfed",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Dyfed",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Dyfed",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Dyfed",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

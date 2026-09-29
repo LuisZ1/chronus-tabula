@@ -1,0 +1,27 @@
+{
+	"id": "munster",
+	"nombre": "Reino de Munster",
+	"nombres": [
+		"Mumu"
+	],
+	"wiki": "Reino de Munster",
+	"relacionados": [
+		"Mumu",
+		"Munster"
+	],
+	"resena": "Reino del sur de Irlanda (Mumu), dominado desde el siglo VII por los Eóganachta de Cashel. Faílbe Flann cruzó el Shannon y ganó a Connacht el futuro Thomond (Clare).",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Munster",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Munster",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Munster",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Munster",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

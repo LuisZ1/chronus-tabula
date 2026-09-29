@@ -1,0 +1,36 @@
+{
+	"id": "mercia",
+	"nombre": "Reino de Mercia",
+	"nombres": [
+		"Mercia"
+	],
+	"wiki": "Reino de Mercia",
+	"relacionados": [
+		"Mierce"
+	],
+	"vinculos": [
+		{
+			"id": "lindsey",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "inglaterra",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino anglo de las Midlands, con su núcleo en el valle del Trent. Penda ganó los Hwicce tras Cirencester (628) y Æthelred aseguró Lindsey en la batalla del Trent (679). Con Offa (757-796), que levantó el dique que lleva su nombre frente a Gales, dominó la Inglaterra del sur.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Mercia",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Mercia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Mercia",
+			"url": "https://en.wikipedia.org/wiki/Mercia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

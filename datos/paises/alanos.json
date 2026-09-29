@@ -1,0 +1,24 @@
+{
+	"id": "alanos",
+	"nombre": "Alanos",
+	"nombres": [
+		"Alans",
+		"Caucasian Alans"
+	],
+	"wiki": "Alanos",
+	"resena": "Pueblo nómada iranio relacionado con los sármatas. Vivía en las estepas al este del Don y al norte del Cáucaso. Los hunos sometieron a buena parte de ellos en 375: unos se unieron a vándalos y suevos en su paso a Occidente y otros se refugiaron en el Cáucaso, donde están en el origen de los osetios.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Alanos",
+			"url": "https://es.wikipedia.org/wiki/Alanos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Alans",
+			"url": "https://en.wikipedia.org/wiki/Alans",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

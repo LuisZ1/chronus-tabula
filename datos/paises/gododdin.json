@@ -1,0 +1,29 @@
+{
+	"id": "gododdin",
+	"nombre": "Reino de Gododdin",
+	"nombres": [
+		"Gododdin"
+	],
+	"wiki": "Reino de Gododdin",
+	"vinculos": [
+		{
+			"id": "northumbria",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino britano de Lothian y los Borders, con Din Eidyn (Edimburgo) y Traprain Law. Tras el desastre de Catraeth (c. 600), cantado en el poema Y Gododdin, Edimburgo cayó ante los anglos en 638.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Gododdin",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Gododdin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Gododdin",
+			"url": "https://en.wikipedia.org/wiki/Gododdin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

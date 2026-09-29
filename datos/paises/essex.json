@@ -1,0 +1,32 @@
+{
+	"id": "essex",
+	"nombre": "Reino de Essex",
+	"nombres": [
+		"Essex"
+	],
+	"wiki": "Reino de Essex",
+	"relacionados": [
+		"Sajones del este"
+	],
+	"vinculos": [
+		{
+			"id": "wessex",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Reino de los sajones del este (527-825), con Essex, Middlesex, buena parte de Hertfordshire y dos antiguas capitales romanas, Colchester y Londres, que perdió ante Mercia en el siglo VIII. Pasó a Wessex en 825.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Essex",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Essex",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Essex",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Essex",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

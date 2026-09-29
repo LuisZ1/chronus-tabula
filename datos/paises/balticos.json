@@ -1,0 +1,23 @@
+{
+	"id": "balticos",
+	"nombre": "Pueblos bálticos",
+	"nombres": [
+		"Balts"
+	],
+	"wiki": "Bálticos",
+	"resena": "Hablantes de lenguas bálticas asentados entre el bajo Vístula, el Daugava y el alto Dniéper. Tácito los llama aestios; a este grupo pertenecen galindios, sudovios y, más tarde, prusianos, lituanos y letones.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Bálticos",
+			"url": "https://es.wikipedia.org/wiki/B%C3%A1lticos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Balts",
+			"url": "https://en.wikipedia.org/wiki/Balts",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

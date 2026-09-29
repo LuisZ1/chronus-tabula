@@ -1,0 +1,29 @@
+{
+	"id": "deira",
+	"nombre": "Reino de Deira",
+	"nombres": [
+		"Deira"
+	],
+	"wiki": "Reino de Deira",
+	"vinculos": [
+		{
+			"id": "northumbria",
+			"tipo": "sucesor"
+		}
+	],
+	"resena": "Reino anglo entre el Humber y el Tees, del mar al borde occidental del valle de York. Compartió rey con Bernicia desde 604 y se fundió con ella en Northumbria tras la muerte de Oswine (651).",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Deira",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Deira",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Deira",
+			"url": "https://en.wikipedia.org/wiki/Deira",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

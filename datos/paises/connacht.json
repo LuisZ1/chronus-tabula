@@ -1,0 +1,26 @@
+{
+	"id": "connacht",
+	"nombre": "Connacht",
+	"nombres": [
+		"Connacht"
+	],
+	"wiki": "Connacht",
+	"relacionados": [
+		"Connachta"
+	],
+	"resena": "Provincia del oeste de Irlanda, al oeste del Shannon, repartida en la Alta Edad Media entre los Uí Briúin, los Uí Fiachrach y los Uí Maine. En el siglo VII perdió el actual Clare ante Munster.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Connacht",
+			"url": "https://es.wikipedia.org/wiki/Connacht",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Connacht",
+			"url": "https://en.wikipedia.org/wiki/Connacht",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}
