@@ -87,6 +87,30 @@ RELLENOS = {
     "world_500.geojson": [_IRL, _GER, _ARA],
     # world_560 se deriva en corregir_mapas.py del estado corregido de world_500, antes de sus rellenos
     "world_560.geojson": [_IRL, _GER, _ARA],
+    # mapas intermedios de la extensión de Roma (api/correcciones/15-roma.json): se derivan del estado
+    # corregido de su mapa base, antes de sus rellenos, así que llevan los mismos que su base
+    "world_bc264.geojson": [_CTB, _CEL, _THR, _GER, _ARN],
+    "world_bc218.geojson": [_CTB, _CEL, _THR, _GER, _ARN],
+    "world_bc146.geojson": [_CTB, _CEL, _GER, _ARA],
+    "world_bc63.geojson": [_CTB, _CEL, _GER, _ARA],
+    "world_bc50.geojson": [_CTB, _CEL, _GER, _ARA],
+    "world_bc30.geojson": [_CTB, _CEL, _GER, _ARA],
+    "world_14.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_46.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_106.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_117.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_118.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_271.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_275.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_324.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_337.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_340.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_350.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_353.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_363.geojson": [_IRL, _GER, _SAR, _ARA],
+    "world_395.geojson": [_IRL, _GER, _ARA],
+    "world_450.geojson": [_IRL, _GER, _ARA],
+    "world_476.geojson": [_IRL, _GER, _ARA],
     # Corea (Joseon) con un hueco sin datos alrededor de Hanseong/Seúl, capital desde 1405
     "world_1600.geojson": [
         ("world_1650.geojson", "Korea", "hueco sin datos dentro de Joseon (Hanseong/Seúl, capital desde 1405)"),

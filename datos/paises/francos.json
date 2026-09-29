@@ -15,6 +15,10 @@
 			"id": "sacroimperio",
 			"tipo": "sucesor",
 			"desde": 843
+		},
+		{
+			"id": "soissons",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "El reino de los francos, en latín también era conocido como Francia, o simplemente reino franco, son las denominaciones historiográficas que identifican el reino de los francos establecido a finales del siglo V aprovechando la decadencia de la autoridad imperial romana en las Galias, durante la época de las denominadas \"invasiones bárbaras\".",
@@ -58,8 +62,8 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es:Reino franco / Imperio carolingio",
-			"url": "https://es.wikipedia.org/wiki/Reino_franco_/_Imperio_carolingio",
+			"id": "wikipedia-es:Imperio carolingio",
+			"url": "https://es.wikipedia.org/wiki/Imperio_carolingio",
 			"licencia": "CC BY-SA"
 		},
 		{
