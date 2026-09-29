@@ -1,0 +1,58 @@
+{
+	"id": "soissons",
+	"nombre": "Dominio de Soissons",
+	"nombres": [
+		"Domain of Soissons"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Dominio de Soissons",
+			"desde": 457,
+			"hasta": 486
+		}
+	],
+	"wiki": "Reino de Soissons",
+	"relacionados": [
+		"Reino de Soissons",
+		"Reino de Siagrio"
+	],
+	"vinculos": [
+		{
+			"id": "romaoccidente",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "francos",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Territorio galorromano del norte de la Galia, en torno a Soissons, que siguió en manos de mandos romanos después de que se descompusiera el poder imperial en Occidente: Egidio, magister militum de Mayoriano, y su hijo Siagrio, a quien Gregorio de Tours llama «rey de los romanos». Clodoveo lo venció en la batalla de Soissons (486) y lo anexionó al reino franco.",
+	"gobernantes": [
+		{
+			"nombre": "Egidio",
+			"titulo": "Magister militum per Gallias",
+			"desde": 457,
+			"hasta": 465
+		},
+		{
+			"nombre": "Siagrio",
+			"titulo": "«Rey de los romanos» (rex Romanorum)",
+			"desde": 465,
+			"hasta": 486
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Reino de Soissons",
+			"url": "https://es.wikipedia.org/wiki/Reino_de_Soissons",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Domain of Soissons",
+			"url": "https://en.wikipedia.org/wiki/Domain_of_Soissons",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

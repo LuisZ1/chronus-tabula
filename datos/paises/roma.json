@@ -8,7 +8,12 @@
 		"Rome (Diocletianus)",
 		"Rome (Maximian)",
 		"Rome (Galerius)",
-		"Rome (Constantinus)"
+		"Rome (Constantius)",
+		"Rome (Constantine II)",
+		"Rome (Constans)",
+		"Rome (Constantius II)",
+		"Rome (Magnentius)",
+		"Rome (Vetranio)"
 	],
 	"nombres_periodo": [
 		{
@@ -41,6 +46,18 @@
 		{
 			"id": "etruscos",
 			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "imperio-galo",
+			"tipo": "sucesor_territorial",
+			"desde": 260,
+			"hasta": 274
+		},
+		{
+			"id": "palmira",
+			"tipo": "sucesor_territorial",
+			"desde": 270,
+			"hasta": 273
 		}
 	],
 	"resena": "Roma es una ciudad, capital de la región del Lacio y de Italia. Con una población de 2 857 321 habitantes, es el municipio más poblado de Italia y la tercera ciudad más poblada de la Unión Europea.",

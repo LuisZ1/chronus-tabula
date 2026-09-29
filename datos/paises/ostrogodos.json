@@ -5,6 +5,12 @@
 		"Ostrogoths"
 	],
 	"wiki": "Reino ostrogodo",
+	"vinculos": [
+		{
+			"id": "reino-odoacro",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"resena": "El reino ostrogodo de Italia fue una entidad política, un reino bárbaro nominalmente parte del Imperio romano, fundado por ostrogodos germánicos y que controló los territorios de la prefectura del pretorio de Italia entre 493 y 553. Sus límites aproximados iban desde la Provenza hasta Iliria.",
 	"gobernantes": [
 		{

@@ -7,6 +7,7 @@
 | Fichero | Mapas (año del fichero `world_*.geojson`) | Geometrías |
 |---|---|---|
 | `10-antiguedad.json` | años ≤ 500 | `api/geo/correcciones/antiguedad-*.geojson` |
+| `15-roma.json` | años ≤ 500: frontera de Roma y de sus vecinos, y sus mapas intermedios (-264 a 476); se aplica después de `10-antiguedad.json` | `api/geo/correcciones/roma-*.geojson` (de momento ninguna: regiones en línea) |
 | `20-medieval.json` | 501 a 1500 | `api/geo/correcciones/medieval-*.geojson` |
 | `30-moderna.json` | 1501 a 1815 | `api/geo/correcciones/moderna-*.geojson` |
 | `40-contemporanea.json` | ≥ 1816 | `api/geo/correcciones/contemporanea-*.geojson` |
@@ -69,9 +70,10 @@ python3 api/corregir_mapas.py --forzar                         # reescribe aunqu
 2. `python3 api/limpiar_geojson.py`: PARCHES (duplicados y anacronismos)
 3. `python3 api/rellenar_geojson.py`: RELLENOS (tierra sin datos con pueblos de mapas vecinos)
 4. `python3 api/derivar_mapas.py`: mapas posteriores a 2010
-5. `python3 api/compilar.py` y `python3 api/validar.py`; vistas previas con `api/vista_previa.py`
+5. `python3 api/colorear.py`: colores de cada mapa para que dos vecinas no coincidan (`web/data/colores.json`)
+6. `python3 api/compilar.py` y `python3 api/validar.py`; vistas previas con `api/vista_previa.py`
 
-Cada paso es idempotente. Si el paso 1 reescribe un mapa, hay que volver a pasar los pasos 2 a 4. Los rellenos que ya estaban en el original no se repiten. Si un mapa deja de tener correcciones, el paso 1 restaura su original. Un mapa nuevo que ya no se define hay que borrarlo a mano.
+Cada paso es idempotente. Si el paso 1 reescribe un mapa, hay que volver a pasar los pasos 2 a 5. Los rellenos que ya estaban en el original no se repiten. Si un mapa deja de tener correcciones, el paso 1 restaura su original. Un mapa nuevo que ya no se define hay que borrarlo a mano.
 
 ## Reglas
 

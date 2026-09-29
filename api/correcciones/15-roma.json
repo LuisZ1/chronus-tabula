@@ -1,0 +1,6265 @@
+{
+ "tema": "Extensión de Roma de 400 a. C. a 476 d. C.: correcciones de la frontera romana y de sus vecinos y mapas intermedios (revisiones/aplicadas/2026-09-29-roma-extension.md)",
+ "mapas": {
+  "world_bc400.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       13.4,
+       41.45
+      ],
+      [
+       14.6,
+       41.45
+      ],
+      [
+       14.6,
+       40.5
+      ],
+      [
+       13.4,
+       40.5
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "Samnites",
+     "SUBJECTO": "Samnites",
+     "PARTOF": "Samnites",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 400 a. C. Roma no domina Campania: Capua (423) y Cumas (421) están en manos oscas/samnitas; la Campania pasa a la órbita romana en 343-338 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_expansion_in_Italy"
+   }
+  ],
+  "world_bc323.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       11.2,
+       45.0
+      ],
+      [
+       12.9,
+       45.0
+      ],
+      [
+       13.3,
+       45.3
+      ],
+      [
+       14.3,
+       45.6
+      ],
+      [
+       14.3,
+       46.6
+      ],
+      [
+       13.4,
+       46.35
+      ],
+      [
+       11.2,
+       46.1
+      ]
+     ]
+    },
+    "desde": [],
+    "props": {
+     "NAME": "Veneti",
+     "SUBJECTO": "Veneti",
+     "PARTOF": "Veneti",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "vénetos del Adriático (Este, Patavium), independientes; aliados de Roma desde 225 a. C.",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Adriatic_Veneti"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      13.3,
+      40.5,
+      15.5,
+      42.05
+     ]
+    },
+    "desde": [
+     "Sabines"
+    ],
+    "props": {
+     "NAME": "Samnites",
+     "SUBJECTO": "Samnites",
+     "PARTOF": "Samnites",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Samnio es independiente en 323 a. C. (segunda guerra samnita, 326-304); «Sabines» solo cubre la Sabina, al norte",
+    "fuente": "https://en.wikipedia.org/wiki/Samnite_Wars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      9.6,
+      41.8,
+      12.5,
+      45.5
+     ]
+    },
+    "desde": [
+     "Greek city-states"
+    ],
+    "props": {
+     "NAME": "Etrurians",
+     "SUBJECTO": "Etrurians",
+     "PARTOF": "Etrurians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Toscana no es griega: son las ciudades etruscas, independientes hasta las guerras de 311-264 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Etruscan_civilization"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       10.3,
+       42.35
+      ],
+      [
+       12.35,
+       42.35
+      ],
+      [
+       12.35,
+       43.2
+      ],
+      [
+       12.0,
+       44.1
+      ],
+      [
+       9.9,
+       44.1
+      ],
+      [
+       10.3,
+       43.0
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Republic",
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Etrurians",
+     "SUBJECTO": "Etrurians",
+     "PARTOF": "Etrurians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Roma solo llega al bosque Ciminio (Veyes 396, Sutrium y Nepete); Volsinios, Tarquinia o Vulci siguen siendo etruscas hasta 280-264 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_expansion_in_Italy"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       8.4,
+       45.7
+      ],
+      [
+       8.4,
+       44.7
+      ],
+      [
+       8.9,
+       44.75
+      ],
+      [
+       9.4,
+       44.6
+      ],
+      [
+       9.9,
+       44.35
+      ],
+      [
+       10.5,
+       44.25
+      ],
+      [
+       11.2,
+       44.1
+      ],
+      [
+       11.8,
+       43.95
+      ],
+      [
+       12.4,
+       44.15
+      ],
+      [
+       12.9,
+       44.5
+      ],
+      [
+       12.9,
+       45.0
+      ],
+      [
+       11.2,
+       45.0
+      ],
+      [
+       11.2,
+       46.1
+      ],
+      [
+       8.4,
+       46.6
+      ]
+     ]
+    },
+    "desde": [],
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "galos cisalpinos (ínsubres, boyos, cenomanos, senones) en el valle del Po desde c. 400 a. C.; Roma los somete en 225-191 a. C.",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Cisalpine_Gaul"
+   }
+  ],
+  "world_bc300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       11.2,
+       45.0
+      ],
+      [
+       12.9,
+       45.0
+      ],
+      [
+       13.3,
+       45.3
+      ],
+      [
+       14.3,
+       45.6
+      ],
+      [
+       14.3,
+       46.6
+      ],
+      [
+       13.4,
+       46.35
+      ],
+      [
+       11.2,
+       46.1
+      ]
+     ]
+    },
+    "desde": [],
+    "props": {
+     "NAME": "Veneti",
+     "SUBJECTO": "Veneti",
+     "PARTOF": "Veneti",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "vénetos del Adriático (Este, Patavium), independientes; aliados de Roma desde 225 a. C.",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Adriatic_Veneti"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      9.6,
+      41.8,
+      12.5,
+      45.5
+     ]
+    },
+    "desde": [
+     "Greek city-states"
+    ],
+    "props": {
+     "NAME": "Etrurians",
+     "SUBJECTO": "Etrurians",
+     "PARTOF": "Etrurians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Toscana no es griega: son las ciudades etruscas, independientes hasta 280-264 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Etruscan_civilization"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       10.3,
+       42.35
+      ],
+      [
+       12.35,
+       42.35
+      ],
+      [
+       12.35,
+       43.2
+      ],
+      [
+       12.0,
+       44.1
+      ],
+      [
+       9.9,
+       44.1
+      ],
+      [
+       10.3,
+       43.0
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "Etrurians",
+     "SUBJECTO": "Etrurians",
+     "PARTOF": "Etrurians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Roma solo llega al bosque Ciminio en 300 a. C.; Volsinios cae en 264 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_expansion_in_Italy"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      13.0,
+      40.2,
+      16.0,
+      42.3
+     ]
+    },
+    "desde": [],
+    "props": {
+     "NAME": "Samnites",
+     "SUBJECTO": "Samnites",
+     "PARTOF": "Samnites",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Samnio, independiente hasta la tercera guerra samnita (298-290 a. C.), sale sin datos",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Samnite_Wars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       8.4,
+       45.7
+      ],
+      [
+       8.4,
+       44.7
+      ],
+      [
+       8.9,
+       44.75
+      ],
+      [
+       9.4,
+       44.6
+      ],
+      [
+       9.9,
+       44.35
+      ],
+      [
+       10.5,
+       44.25
+      ],
+      [
+       11.2,
+       44.1
+      ],
+      [
+       11.8,
+       43.95
+      ],
+      [
+       12.4,
+       44.15
+      ],
+      [
+       12.9,
+       44.5
+      ],
+      [
+       12.9,
+       45.0
+      ],
+      [
+       11.2,
+       45.0
+      ],
+      [
+       11.2,
+       46.1
+      ],
+      [
+       8.4,
+       46.6
+      ]
+     ]
+    },
+    "desde": [],
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "galos cisalpinos en el valle del Po (Roma los somete en 225-191 a. C.)",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Cisalpine_Gaul"
+   }
+  ],
+  "world_bc200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.5,
+       45.0
+      ],
+      [
+       7.2,
+       45.25
+      ],
+      [
+       7.87,
+       45.52
+      ],
+      [
+       8.6,
+       45.85
+      ],
+      [
+       9.1,
+       45.87
+      ],
+      [
+       9.67,
+       45.78
+      ],
+      [
+       10.25,
+       45.65
+      ],
+      [
+       10.84,
+       45.75
+      ],
+      [
+       11.3,
+       45.85
+      ],
+      [
+       12.0,
+       46.0
+      ],
+      [
+       12.6,
+       46.15
+      ],
+      [
+       13.4,
+       46.35
+      ],
+      [
+       14.3,
+       46.6
+      ],
+      [
+       14.3,
+       47.6
+      ],
+      [
+       6.5,
+       47.6
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los Alpes no son romanos en 200 a. C.: salasos, lepontios y réticos se someten en 25-15 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province; https://en.wikipedia.org/wiki/Raetia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.5,
+       43.5
+      ],
+      [
+       6.5,
+       45.0
+      ],
+      [
+       7.2,
+       45.25
+      ],
+      [
+       7.87,
+       45.52
+      ],
+      [
+       8.4,
+       45.7
+      ],
+      [
+       8.4,
+       44.7
+      ],
+      [
+       8.9,
+       44.75
+      ],
+      [
+       9.4,
+       44.6
+      ],
+      [
+       9.9,
+       44.35
+      ],
+      [
+       10.2,
+       44.05
+      ],
+      [
+       10.2,
+       43.5
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Ligures",
+     "SUBJECTO": "Ligures",
+     "PARTOF": "Ligures",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Liguria y el Piamonte (ligures y taurinos) no son romanos en 200 a. C.: las guerras ligures duran hasta 155 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Cisalpine_Gaul"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of Syphax",
+    "props": {
+     "NAME": "Numidia",
+     "SUBJECTO": "Numidia",
+     "PARTOF": "Numidia"
+    },
+    "motivo": "Sífax es capturado en 203 a. C.; en 200 a. C. Masinisa reina en toda Numidia",
+    "fuente": "https://en.wikipedia.org/wiki/Masinissa"
+   },
+   {
+    "op": "renombrar",
+    "de": "Kingdom of Gala",
+    "props": {
+     "NAME": "Numidia",
+     "SUBJECTO": "Numidia",
+     "PARTOF": "Numidia"
+    },
+    "motivo": "reino de Masinisa, unificado tras Zama (202 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Masinissa"
+   }
+  ],
+  "world_bc100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.5,
+       45.0
+      ],
+      [
+       7.2,
+       45.25
+      ],
+      [
+       7.87,
+       45.52
+      ],
+      [
+       8.6,
+       45.85
+      ],
+      [
+       9.1,
+       45.87
+      ],
+      [
+       9.67,
+       45.78
+      ],
+      [
+       10.25,
+       45.65
+      ],
+      [
+       10.84,
+       45.75
+      ],
+      [
+       11.3,
+       45.85
+      ],
+      [
+       12.0,
+       46.0
+      ],
+      [
+       12.6,
+       46.15
+      ],
+      [
+       13.4,
+       46.35
+      ],
+      [
+       14.3,
+       46.6
+      ],
+      [
+       14.3,
+       47.6
+      ],
+      [
+       6.5,
+       47.6
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los Alpes (salasos de Aosta, réticos del Adigio) no son romanos hasta 25-15 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province; https://en.wikipedia.org/wiki/Raetia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       22.3,
+       44.6
+      ],
+      [
+       23.0,
+       43.8
+      ],
+      [
+       25.0,
+       43.6
+      ],
+      [
+       26.5,
+       44.0
+      ],
+      [
+       27.9,
+       44.1
+      ],
+      [
+       28.8,
+       44.9
+      ],
+      [
+       29.7,
+       45.2
+      ],
+      [
+       30.0,
+       40.0
+      ],
+      [
+       22.0,
+       40.0
+      ]
+     ]
+    },
+    "desde": [
+     "Daces"
+    ],
+    "props": {
+     "NAME": "Thrace",
+     "SUBJECTO": "Thrace",
+     "PARTOF": "Thrace",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "al sur del Danubio (Tracia, Mesia y Bizancio) no hay dacios en 100 a. C.: son tracios y getas; Burebista domina la costa póntica después, hacia 60-44 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Odrysian_kingdom"
+   }
+  ],
+  "world_bc1.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.52,
+       37.62
+      ],
+      [
+       38.2,
+       37.3
+      ],
+      [
+       37.87,
+       37.06
+      ],
+      [
+       38.0,
+       36.82
+      ],
+      [
+       38.25,
+       36.55
+      ],
+      [
+       38.05,
+       35.98
+      ],
+      [
+       39.02,
+       35.95
+      ],
+      [
+       39.85,
+       35.66
+      ],
+      [
+       40.14,
+       35.33
+      ],
+      [
+       45.0,
+       35.3
+      ],
+      [
+       45.0,
+       37.62
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Parthian Empire",
+     "SUBJECTO": "Parthian Empire",
+     "PARTOF": "Parthian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 1 d. C. la frontera es el Éufrates (Zeugma): Osroene y Nisibis son partos; Mesopotamia solo es provincia romana en 116-117 y desde 198",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.52,
+       37.62
+      ],
+      [
+       38.55,
+       38.3
+      ],
+      [
+       38.75,
+       38.9
+      ],
+      [
+       38.95,
+       39.6
+      ],
+      [
+       39.5,
+       39.75
+      ],
+      [
+       39.8,
+       40.3
+      ],
+      [
+       40.5,
+       40.85
+      ],
+      [
+       41.3,
+       41.2
+      ],
+      [
+       46.0,
+       41.2
+      ],
+      [
+       46.0,
+       37.62
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Armenia",
+     "SUBJECTO": "Armenia",
+     "PARTOF": "Armenia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el alto Éufrates separa Capadocia y la Armenia Menor de Armenia (Sofene, Karin/Erzurum)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_(antiquity)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -17.0,
+       26.0
+      ],
+      [
+       -17.0,
+       35.6
+      ],
+      [
+       -6.0,
+       35.9
+      ],
+      [
+       -5.3,
+       35.95
+      ],
+      [
+       -4.0,
+       35.3
+      ],
+      [
+       -2.2,
+       35.2
+      ],
+      [
+       -1.0,
+       35.8
+      ],
+      [
+       1.0,
+       36.6
+      ],
+      [
+       3.0,
+       37.0
+      ],
+      [
+       6.3,
+       37.3
+      ],
+      [
+       6.3,
+       26.0
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Mauretania",
+     "SUBJECTO": "Mauretania",
+     "PARTOF": "Mauretania",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Mauretania es reino cliente (Juba II, 25 a. C.-23 d. C.; Ptolomeo, hasta 40) y provincia desde 42-44",
+    "fuente": "https://en.wikipedia.org/wiki/Mauretania; https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       33.4,
+       38.3
+      ],
+      [
+       33.6,
+       39.4
+      ],
+      [
+       34.4,
+       40.0
+      ],
+      [
+       35.6,
+       40.1
+      ],
+      [
+       36.6,
+       39.9
+      ],
+      [
+       37.8,
+       39.6
+      ],
+      [
+       38.4,
+       39.2
+      ],
+      [
+       38.3,
+       38.2
+      ],
+      [
+       37.5,
+       37.6
+      ],
+      [
+       36.3,
+       37.5
+      ],
+      [
+       35.3,
+       37.4
+      ],
+      [
+       34.2,
+       37.6
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Cappadocia",
+     "SUBJECTO": "Cappadocia",
+     "PARTOF": "Cappadocia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Capadocia es reino cliente (Arquelao) hasta su anexión en 17 d. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   }
+  ],
+  "world_100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.52,
+       37.62
+      ],
+      [
+       38.2,
+       37.3
+      ],
+      [
+       37.87,
+       37.06
+      ],
+      [
+       38.0,
+       36.82
+      ],
+      [
+       38.25,
+       36.55
+      ],
+      [
+       38.05,
+       35.98
+      ],
+      [
+       39.02,
+       35.95
+      ],
+      [
+       39.85,
+       35.66
+      ],
+      [
+       40.14,
+       35.33
+      ],
+      [
+       45.0,
+       35.3
+      ],
+      [
+       45.0,
+       37.62
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Parthian Empire",
+     "SUBJECTO": "Parthian Empire",
+     "PARTOF": "Parthian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 100 la frontera es el Éufrates: Osroene es vasalla parta y Mesopotamia no es romana hasta Trajano (116-117) y Septimio Severo (198)",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       39.85,
+       35.66
+      ],
+      [
+       39.6,
+       34.4
+      ],
+      [
+       40.2,
+       33.2
+      ],
+      [
+       41.5,
+       31.5
+      ],
+      [
+       43.0,
+       28.0
+      ],
+      [
+       50.0,
+       28.0
+      ],
+      [
+       50.0,
+       35.3
+      ],
+      [
+       40.14,
+       35.33
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Parthian Empire",
+     "SUBJECTO": "Parthian Empire",
+     "PARTOF": "Parthian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Éufrates medio (Dura-Europos, parta hasta 165) y la baja Mesopotamia hasta el golfo son partos en 100",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province); https://en.wikipedia.org/wiki/Dura-Europos"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.52,
+       37.62
+      ],
+      [
+       38.55,
+       38.3
+      ],
+      [
+       38.75,
+       38.9
+      ],
+      [
+       38.95,
+       39.6
+      ],
+      [
+       39.5,
+       39.75
+      ],
+      [
+       39.8,
+       40.3
+      ],
+      [
+       40.5,
+       40.85
+      ],
+      [
+       41.3,
+       41.2
+      ],
+      [
+       46.0,
+       41.2
+      ],
+      [
+       46.0,
+       37.62
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Armenia",
+     "SUBJECTO": "Armenia",
+     "PARTOF": "Armenia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el alto Éufrates separa Capadocia y la Armenia Menor de Armenia (Sofene, Karin/Erzurum)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_(antiquity)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       15.5,
+       48.35
+      ],
+      [
+       16.37,
+       48.23
+      ],
+      [
+       16.9,
+       48.14
+      ],
+      [
+       17.63,
+       47.72
+      ],
+      [
+       18.12,
+       47.78
+      ],
+      [
+       18.74,
+       47.81
+      ],
+      [
+       19.1,
+       47.8
+      ],
+      [
+       19.06,
+       47.5
+      ],
+      [
+       18.95,
+       47.0
+      ],
+      [
+       18.86,
+       46.6
+      ],
+      [
+       18.7,
+       46.0
+      ],
+      [
+       15.5,
+       46.0
+      ]
+     ]
+    },
+    "desde": [
+     "Boihaenum"
+    ],
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la orilla derecha del Danubio (Carnunto, Vindobona, Aquinco) es Panonia, romana desde Augusto; los marcomanos y cuados quedan al norte del río",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonia"
+   }
+  ],
+  "world_200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       40.3,
+       33.5
+      ],
+      [
+       41.9,
+       34.1
+      ],
+      [
+       43.68,
+       34.6
+      ],
+      [
+       50.0,
+       34.6
+      ],
+      [
+       50.0,
+       28.0
+      ],
+      [
+       44.0,
+       28.0
+      ],
+      [
+       40.3,
+       32.0
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Parthian Empire",
+     "SUBJECTO": "Parthian Empire",
+     "PARTOF": "Parthian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Mesopotamia severa (198) llega a Nisibis y Singara y, en el Éufrates, a Dura y Kifrin; Babilonia, Ctesifonte y Mesene siguen siendo partas",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       42.19,
+       37.33
+      ],
+      [
+       42.8,
+       36.7
+      ],
+      [
+       43.13,
+       36.34
+      ],
+      [
+       43.5,
+       35.3
+      ],
+      [
+       43.68,
+       34.6
+      ],
+      [
+       50.0,
+       34.6
+      ],
+      [
+       50.0,
+       37.8
+      ],
+      [
+       42.0,
+       37.8
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Parthian Empire",
+     "SUBJECTO": "Parthian Empire",
+     "PARTOF": "Parthian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "al este del Tigris (Adiabene, Arbela) no hay provincia romana en 200: la frontera severa es el Tigris-Singara",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       40.3,
+       38.6
+      ],
+      [
+       41.6,
+       37.8
+      ],
+      [
+       46.0,
+       37.8
+      ],
+      [
+       46.0,
+       39.5
+      ],
+      [
+       40.3,
+       39.5
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Armenia",
+     "SUBJECTO": "Armenia",
+     "PARTOF": "Armenia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Arzanene y Corduene, al norte de Mesopotamia, son armenias o partas hasta 299",
+    "fuente": "https://en.wikipedia.org/wiki/Arzanene"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.52,
+       37.62
+      ],
+      [
+       38.55,
+       38.3
+      ],
+      [
+       38.75,
+       38.9
+      ],
+      [
+       38.95,
+       39.6
+      ],
+      [
+       39.5,
+       39.75
+      ],
+      [
+       39.8,
+       40.3
+      ],
+      [
+       40.5,
+       40.85
+      ],
+      [
+       41.3,
+       41.2
+      ],
+      [
+       46.0,
+       41.2
+      ],
+      [
+       46.0,
+       37.62
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Armenia",
+     "SUBJECTO": "Armenia",
+     "PARTOF": "Armenia",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el alto Éufrates separa Capadocia y la Armenia Menor de Armenia (Sofene, Karin/Erzurum)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Armenia_(antiquity)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       15.5,
+       48.35
+      ],
+      [
+       16.37,
+       48.23
+      ],
+      [
+       16.9,
+       48.14
+      ],
+      [
+       17.63,
+       47.72
+      ],
+      [
+       18.12,
+       47.78
+      ],
+      [
+       18.74,
+       47.81
+      ],
+      [
+       19.1,
+       47.8
+      ],
+      [
+       19.06,
+       47.5
+      ],
+      [
+       18.95,
+       47.0
+      ],
+      [
+       18.86,
+       46.6
+      ],
+      [
+       18.7,
+       46.0
+      ],
+      [
+       15.5,
+       46.0
+      ]
+     ]
+    },
+    "desde": [
+     "Boihaenum"
+    ],
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la orilla derecha del Danubio (Carnunto, Vindobona, Aquinco) es Panonia, romana desde Augusto",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       25.0,
+       43.72
+      ],
+      [
+       25.0,
+       45.4
+      ],
+      [
+       25.8,
+       45.5
+      ],
+      [
+       26.7,
+       45.9
+      ],
+      [
+       27.3,
+       45.95
+      ],
+      [
+       27.97,
+       45.45
+      ],
+      [
+       28.05,
+       45.43
+      ],
+      [
+       27.97,
+       45.27
+      ],
+      [
+       27.95,
+       44.68
+      ],
+      [
+       27.27,
+       44.12
+      ],
+      [
+       25.95,
+       43.85
+      ],
+      [
+       25.35,
+       43.62
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Sarmates",
+     "SUBJECTO": "Sarmates",
+     "PARTOF": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Adriano devuelve a los roxolanos en 118-119 la Valaquia y el sur de Moldavia; en 200 Roma solo conserva al este del Olt la franja del limes Transalutanus",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Roman_Dacia"
+   }
+  ],
+  "world_300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "pol": [
+        [
+         7.59,
+         47.56
+        ],
+        [
+         8.63,
+         47.7
+        ],
+        [
+         9.17,
+         47.66
+        ],
+        [
+         9.9,
+         47.55
+        ],
+        [
+         10.1,
+         48.4
+        ],
+        [
+         10.78,
+         48.72
+        ],
+        [
+         10.9,
+         49.3
+        ],
+        [
+         7.9,
+         49.3
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         7.58,
+         48.03
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.7,
+         50.33
+        ],
+        [
+         8.2,
+         50.22
+        ],
+        [
+         8.57,
+         50.27
+        ],
+        [
+         8.75,
+         50.42
+        ],
+        [
+         8.98,
+         50.3
+        ],
+        [
+         8.98,
+         50.08
+        ],
+        [
+         9.15,
+         49.95
+        ],
+        [
+         9.26,
+         49.7
+        ],
+        [
+         9.37,
+         49.58
+        ],
+        [
+         9.43,
+         49.43
+        ],
+        [
+         9.6,
+         49.1
+        ],
+        [
+         9.63,
+         48.87
+        ],
+        [
+         9.69,
+         48.8
+        ],
+        [
+         10.09,
+         48.84
+        ],
+        [
+         10.6,
+         48.95
+        ],
+        [
+         10.97,
+         49.06
+        ],
+        [
+         11.4,
+         49.0
+        ],
+        [
+         11.78,
+         48.85
+        ],
+        [
+         12.0,
+         48.4
+        ],
+        [
+         10.0,
+         47.9
+        ],
+        [
+         9.17,
+         47.66
+        ],
+        [
+         8.63,
+         47.7
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         7.59,
+         50.23
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Rome (Maximian)",
+     "Rome (Constantinus)"
+    ],
+    "props": {
+     "NAME": "Alamans",
+     "SUBJECTO": "Alamans",
+     "PARTOF": "Alamans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras el abandono de los Agri Decumates (c. 260) la frontera es Rin-lago Constanza-Iller-Danubio: la Selva Negra, Suabia y el antiguo limes son alamanes",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Agri_Decumates; https://en.wikipedia.org/wiki/Danube-Iller-Rhine_Limes"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Constantinus)",
+    "props": {
+     "NAME": "Rome (Constantius)",
+     "SUBJECTO": "Rome (Constantius)",
+     "PARTOF": "Rome (Constantius)"
+    },
+    "motivo": "en 300 el césar de Occidente es Constancio Cloro (293-306), no su hijo Constantino",
+    "fuente": "https://en.wikipedia.org/wiki/Tetrarchy"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       37.8,
+       38.3
+      ],
+      [
+       40.3,
+       38.4
+      ],
+      [
+       40.9,
+       38.0
+      ],
+      [
+       40.95,
+       37.1
+      ],
+      [
+       41.0,
+       36.6
+      ],
+      [
+       40.8,
+       36.0
+      ],
+      [
+       40.45,
+       35.1
+      ],
+      [
+       39.6,
+       35.25
+      ],
+      [
+       38.2,
+       35.9
+      ],
+      [
+       37.8,
+       36.6
+      ]
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "props": {
+     "NAME": "Rome (Diocletianus)",
+     "SUBJECTO": "Rome (Diocletianus)",
+     "PARTOF": "Rome (Diocletianus)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Osroene (Edesa, Carras, Samosata, Amida) y el Jabur son romanos en 300",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       40.9,
+       38.3
+      ],
+      [
+       41.8,
+       37.6
+      ],
+      [
+       42.19,
+       37.33
+      ],
+      [
+       42.1,
+       36.9
+      ],
+      [
+       42.4,
+       36.2
+      ],
+      [
+       42.0,
+       35.8
+      ],
+      [
+       41.3,
+       35.6
+      ],
+      [
+       40.7,
+       35.8
+      ],
+      [
+       40.95,
+       36.6
+      ],
+      [
+       40.9,
+       37.1
+      ]
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "props": {
+     "NAME": "Rome (Diocletianus)",
+     "SUBJECTO": "Rome (Diocletianus)",
+     "PARTOF": "Rome (Diocletianus)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Nisibis y Singara, romanas desde 198 y de nuevo tras la victoria de Galerio (298)",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Nisibis_(299)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       41.8,
+       37.6
+      ],
+      [
+       42.19,
+       37.33
+      ],
+      [
+       43.4,
+       37.2
+      ],
+      [
+       43.9,
+       37.6
+      ],
+      [
+       43.9,
+       38.4
+      ],
+      [
+       41.3,
+       38.4
+      ],
+      [
+       40.9,
+       38.3
+      ]
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "props": {
+     "NAME": "Rome (Diocletianus)",
+     "SUBJECTO": "Rome (Diocletianus)",
+     "PARTOF": "Rome (Diocletianus)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "paz de Nisibis (299): las satrapías transtigritanas (Arzanene, Zabdicene, Corduene…) pasan a Roma",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Nisibis_(299)"
+   }
+  ],
+  "world_400.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       7.59,
+       47.56
+      ],
+      [
+       8.63,
+       47.7
+      ],
+      [
+       9.17,
+       47.66
+      ],
+      [
+       9.9,
+       47.55
+      ],
+      [
+       10.1,
+       48.4
+      ],
+      [
+       10.78,
+       48.72
+      ],
+      [
+       10.9,
+       49.3
+      ],
+      [
+       7.9,
+       49.3
+      ],
+      [
+       7.8,
+       48.58
+      ],
+      [
+       7.58,
+       48.03
+      ]
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Alamans",
+     "SUBJECTO": "Alamans",
+     "PARTOF": "Alamans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "frontera Rin-lago Constanza-Iller-Danubio (limes de Diocleciano y Valentiniano): la Selva Negra y Suabia son alamanas",
+    "fuente": "https://en.wikipedia.org/wiki/Danube-Iller-Rhine_Limes"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       37.9,
+       38.35
+      ],
+      [
+       37.9,
+       41.2
+      ],
+      [
+       42.0,
+       41.2
+      ],
+      [
+       41.8,
+       40.2
+      ],
+      [
+       41.5,
+       39.2
+      ],
+      [
+       41.5,
+       38.4
+      ]
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "props": {
+     "NAME": "Eastern Roman Empire",
+     "SUBJECTO": "Eastern Roman Empire",
+     "PARTOF": "Eastern Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "partición de Armenia (387): la parte occidental (Karin/Teodosiópolis, Sofene, Ekeleats) pasa a Roma; Persarmenia queda bajo los sasánidas",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Acilisene"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Visigoths"
+    },
+    "poner": {
+     "SUBJECTO": "Eastern Roman Empire",
+     "PARTOF": "Eastern Roman Empire"
+    },
+    "motivo": "los visigodos de Alarico, federados asentados en Epiro y Macedonia (397-401) cuando es magister militum per Illyricum; el territorio sigue siendo del Imperio de Oriente",
+    "fuente": "https://en.wikipedia.org/wiki/Alaric_I"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -5.9,
+       49.8
+      ],
+      [
+       -5.9,
+       51.8
+      ],
+      [
+       -5.1,
+       52.1
+      ],
+      [
+       -4.9,
+       52.6
+      ],
+      [
+       -4.8,
+       53.4
+      ],
+      [
+       -3.6,
+       54.5
+      ],
+      [
+       -3.4,
+       54.9
+      ],
+      [
+       -1.5,
+       55.05
+      ],
+      [
+       0.5,
+       55.1
+      ],
+      [
+       2.0,
+       52.5
+      ],
+      [
+       2.0,
+       49.8
+      ]
+     ]
+    },
+    "desde": [
+     "Celts"
+    ],
+    "props": {
+     "NAME": "Western Roman Empire",
+     "SUBJECTO": "Western Roman Empire",
+     "PARTOF": "Western Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 400 la diócesis de Britania (York, Gales, Cornualles) sigue siendo romana hasta el muro de Adriano; se abandona hacia 410",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Roman_Britain"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       37.8,
+       38.3
+      ],
+      [
+       40.3,
+       38.4
+      ],
+      [
+       40.9,
+       38.0
+      ],
+      [
+       40.95,
+       37.1
+      ],
+      [
+       41.0,
+       36.6
+      ],
+      [
+       40.8,
+       36.0
+      ],
+      [
+       40.45,
+       35.1
+      ],
+      [
+       39.6,
+       35.25
+      ],
+      [
+       38.2,
+       35.9
+      ],
+      [
+       37.8,
+       36.6
+      ]
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "props": {
+     "NAME": "Eastern Roman Empire",
+     "SUBJECTO": "Eastern Roman Empire",
+     "PARTOF": "Eastern Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Joviano cede Nisibis y Singara (363), pero Osroene (Edesa, Carras), Amida, Samosata y el Jabur siguen siendo romanos",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province); https://en.wikipedia.org/wiki/Jovian_(emperor)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        18,
+        40,
+        56,
+        58
+       ]
+      },
+      {
+       "pol": [
+        [
+         24.4,
+         43.6
+        ],
+        [
+         24.3,
+         45.4
+        ],
+        [
+         25.3,
+         45.5
+        ],
+        [
+         26.3,
+         45.6
+        ],
+        [
+         26.7,
+         46.3
+        ],
+        [
+         26.3,
+         47.3
+        ],
+        [
+         25.6,
+         48.0
+        ],
+        [
+         26.2,
+         48.6
+        ],
+        [
+         27.8,
+         49.2
+        ],
+        [
+         29.5,
+         49.7
+        ],
+        [
+         31.5,
+         50.2
+        ],
+        [
+         33.5,
+         50.6
+        ],
+        [
+         36.0,
+         51.0
+        ],
+        [
+         38.5,
+         51.3
+        ],
+        [
+         41.5,
+         51.6
+        ],
+        [
+         44.5,
+         51.8
+        ],
+        [
+         46.8,
+         51.6
+        ],
+        [
+         47.8,
+         50.2
+        ],
+        [
+         47.6,
+         48.6
+        ],
+        [
+         48.3,
+         47.2
+        ],
+        [
+         49.5,
+         46.3
+        ],
+        [
+         49.5,
+         44.0
+        ],
+        [
+         40.0,
+         44.0
+        ],
+        [
+         33.0,
+         44.0
+        ],
+        [
+         30.0,
+         44.5
+        ],
+        [
+         28.5,
+         43.6
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Hunnic Empire"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": null
+    },
+    "motivo": "hacia 400 el dominio huno no pasa de la línea bosque-estepa (~50-51,5° N) ni llega a la alta Tisza/Galitzia: esa cuña recta del mapa base pasa a sin datos",
+    "fuente": "https://en.wikipedia.org/wiki/Huns ; https://en.wikipedia.org/wiki/Uldin ; referencias visuales: Commons «406 CE, Europe.svg» y «AD 0401 - Uldin the Hun - EN.png»"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       24.4,
+       43.6
+      ],
+      [
+       24.3,
+       45.4
+      ],
+      [
+       25.3,
+       45.5
+      ],
+      [
+       26.3,
+       45.6
+      ],
+      [
+       26.7,
+       46.3
+      ],
+      [
+       26.3,
+       47.3
+      ],
+      [
+       25.6,
+       48.0
+      ],
+      [
+       26.2,
+       48.6
+      ],
+      [
+       27.8,
+       49.2
+      ],
+      [
+       29.5,
+       49.7
+      ],
+      [
+       31.5,
+       50.2
+      ],
+      [
+       33.5,
+       50.6
+      ],
+      [
+       36.0,
+       51.0
+      ],
+      [
+       38.5,
+       51.3
+      ],
+      [
+       41.5,
+       51.6
+      ],
+      [
+       44.5,
+       51.8
+      ],
+      [
+       46.8,
+       51.6
+      ],
+      [
+       47.8,
+       50.2
+      ],
+      [
+       47.6,
+       48.6
+      ],
+      [
+       48.3,
+       47.2
+      ],
+      [
+       49.5,
+       46.3
+      ],
+      [
+       49.5,
+       44.0
+      ],
+      [
+       40.0,
+       44.0
+      ],
+      [
+       33.0,
+       44.0
+      ],
+      [
+       30.0,
+       44.5
+      ],
+      [
+       28.5,
+       43.6
+      ]
+     ]
+    },
+    "desde": [],
+    "libre": true,
+    "props": {
+     "NAME": "Hunnic Empire",
+     "ABBREVN": "Huns",
+     "SUBJECTO": "Hunnic Empire",
+     "PARTOF": "Hunnic Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "hunos de Uldin en Muntenia y Moldavia (400-408), estepa póntica del Olt y los Cárpatos al Volga; se respetan los pueblos sometidos ya dibujados (ostrogodos, esciros, akatziros, alanos, gépidos)",
+    "fuente": "https://en.wikipedia.org/wiki/Huns ; https://en.wikipedia.org/wiki/Uldin ; referencias visuales: Commons «406 CE, Europe.svg» y «AD 0401 - Uldin the Hun - EN.png»"
+   }
+  ],
+  "world_bc264.geojson<world_bc200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       8.4,
+       45.7
+      ],
+      [
+       8.4,
+       44.7
+      ],
+      [
+       8.9,
+       44.75
+      ],
+      [
+       9.4,
+       44.6
+      ],
+      [
+       9.9,
+       44.35
+      ],
+      [
+       10.5,
+       44.25
+      ],
+      [
+       11.2,
+       44.1
+      ],
+      [
+       11.8,
+       43.95
+      ],
+      [
+       12.4,
+       44.15
+      ],
+      [
+       12.9,
+       44.5
+      ],
+      [
+       12.9,
+       45.0
+      ],
+      [
+       11.2,
+       45.0
+      ],
+      [
+       11.2,
+       46.1
+      ],
+      [
+       8.4,
+       46.6
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "264 a. C.: Italia romana termina en la línea Arno-Rubicón; el valle del Po es de los galos cisalpinos (conquista en 225-191 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Cisalpine_Gaul"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       11.2,
+       45.0
+      ],
+      [
+       12.9,
+       45.0
+      ],
+      [
+       13.3,
+       45.3
+      ],
+      [
+       14.3,
+       45.6
+      ],
+      [
+       14.3,
+       46.6
+      ],
+      [
+       13.4,
+       46.35
+      ],
+      [
+       11.2,
+       46.1
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Veneti",
+     "SUBJECTO": "Veneti",
+     "PARTOF": "Veneti",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los vénetos, independientes (aliados de Roma desde 225 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Adriatic_Veneti"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       14.35,
+       36.6
+      ],
+      [
+       14.55,
+       37.05
+      ],
+      [
+       14.75,
+       37.35
+      ],
+      [
+       14.85,
+       37.7
+      ],
+      [
+       15.0,
+       37.85
+      ],
+      [
+       15.28,
+       37.87
+      ],
+      [
+       15.45,
+       37.9
+      ],
+      [
+       15.45,
+       36.5
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Syracuse",
+     "SUBJECTO": "Syracuse",
+     "PARTOF": "Syracuse",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Hierón II (sudeste de Sicilia y la costa oriental hasta Tauromenio)",
+    "fuente": "https://en.wikipedia.org/wiki/Hiero_II_of_Syracuse"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       14.95,
+       38.35
+      ],
+      [
+       15.0,
+       37.87
+      ],
+      [
+       15.28,
+       37.87
+      ],
+      [
+       15.45,
+       37.9
+      ],
+      [
+       15.6,
+       38.05
+      ],
+      [
+       15.68,
+       38.35
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Mamertines",
+     "SUBJECTO": "Mamertines",
+     "PARTOF": "Mamertines",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Mesina, en manos de los mamertinos, cuya petición de ayuda desencadena la primera guerra púnica",
+    "fuente": "https://en.wikipedia.org/wiki/Mamertines"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       12.0,
+       36.4
+      ],
+      [
+       12.0,
+       38.4
+      ],
+      [
+       15.68,
+       38.35
+      ],
+      [
+       15.6,
+       38.05
+      ],
+      [
+       15.4,
+       37.3
+      ],
+      [
+       15.3,
+       36.4
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sicilia occidental y central, cartaginesa hasta 241 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/First_Punic_War"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      8.0,
+      38.8,
+      9.9,
+      43.1
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Cerdeña y Córcega, cartaginesas hasta 238-237 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "caja": [
+        -7.5,
+        35.8,
+        -1.6,
+        37.5
+       ]
+      },
+      {
+       "feat": "Carthaginian Empire",
+       "mapa": "world_bc300.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "factorías púnicas de la costa sur de Iberia (Gadir, Malaka); la conquista bárquida empieza en 237 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Carthage"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -10.0,
+      35.8,
+      3.5,
+      44.0
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Celtiberians",
+     "SUBJECTO": "Celtiberians",
+     "PARTOF": "Celtiberians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Iberia no es romana ni cartaginesa en 264 a. C.: pueblos íberos y celtíberos",
+    "fuente": "https://en.wikipedia.org/wiki/Pre-Roman_peoples_of_the_Iberian_Peninsula"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      19.0,
+      39.5,
+      21.0,
+      43.0
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Illyrians",
+     "SUBJECTO": "Illyrians",
+     "PARTOF": "Illyrians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la costa iliria (Apolonia, Epidamno) solo pasa a Roma en 229 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/First_Illyrian_War"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "caja": [
+        8.3,
+        28,
+        26,
+        38
+       ]
+      },
+      {
+       "feat": "Carthaginian Empire",
+       "mapa": "world_bc300.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Numidia",
+     "Saharan Pastoral Nomads"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Cartago domina el norte de Túnez y la costa de Tripolitania; las factorías púnicas de la costa argelina y marroquí no se distinguen a esta escala",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Carthage"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Kingdom of Syphax",
+     "mapa": "world_bc200.geojson"
+    },
+    "desde": [
+     "Numidia"
+    ],
+    "props": {
+     "NAME": "Masaesyli",
+     "SUBJECTO": "Masaesyli",
+     "PARTOF": "Masaesyli",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "masesilios (Numidia occidental)",
+    "fuente": "https://en.wikipedia.org/wiki/Numidia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Numidia",
+    "props": {
+     "NAME": "Massylii",
+     "SUBJECTO": "Massylii",
+     "PARTOF": "Massylii"
+    },
+    "motivo": "masilios (Numidia oriental); el reino unificado de Masinisa es de 202 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Numidia"
+   },
+   {
+    "op": "renombrar",
+    "de": "Parthia",
+    "props": {
+     "NAME": "Seleucid Kingdom",
+     "SUBJECTO": "Seleucid Kingdom",
+     "PARTOF": "Seleucid Kingdom"
+    },
+    "motivo": "Arsaces funda el reino parto hacia 247 a. C.; en 264 a. C. es seléucida",
+    "fuente": "https://en.wikipedia.org/wiki/Parthian_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Bactria",
+    "props": {
+     "NAME": "Seleucid Kingdom",
+     "SUBJECTO": "Seleucid Kingdom",
+     "PARTOF": "Seleucid Kingdom"
+    },
+    "motivo": "el reino grecobactriano se separa hacia 250 a. C.; en 264 a. C. es seléucida",
+    "fuente": "https://en.wikipedia.org/wiki/Greco-Bactrian_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       64,
+       23
+      ],
+      [
+       64,
+       34.8
+      ],
+      [
+       66.5,
+       35.3
+      ],
+      [
+       69.5,
+       35.6
+      ],
+      [
+       71.5,
+       36.0
+      ],
+      [
+       75,
+       36.0
+      ],
+      [
+       75,
+       23
+      ]
+     ]
+    },
+    "desde": [
+     "Seleucid Kingdom"
+    ],
+    "props": {
+     "NAME": "Mauryan Empire",
+     "SUBJECTO": "Mauryan Empire",
+     "PARTOF": "Mauryan Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Gandhara, Aracosia y Paropamisadas son maurya desde el tratado de c. 303 a. C. (Asoka reina en 264)",
+    "fuente": "https://en.wikipedia.org/wiki/Maurya_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Han Empire",
+    "props": {
+     "NAME": "Zhou states",
+     "SUBJECTO": "Zhou states",
+     "PARTOF": "Zhou states"
+    },
+    "motivo": "los Han reinan desde 202 a. C.; en 264 a. C. son los Reinos Combatientes",
+    "fuente": "https://en.wikipedia.org/wiki/Warring_States_period"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Qin",
+     "mapa": "world_bc300.geojson"
+    },
+    "desde": [
+     "Zhou states"
+    ],
+    "props": {
+     "NAME": "Qin",
+     "SUBJECTO": "Qin",
+     "PARTOF": "Qin",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el Estado de Qin (con Ba y Shu desde 316 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Qin_(state)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nan-Yue",
+    "props": {
+     "NAME": "Yue",
+     "SUBJECTO": "Yue",
+     "PARTOF": "Yue"
+    },
+    "motivo": "Nanyue se funda en 204 a. C.; antes, pueblos yue",
+    "fuente": "https://en.wikipedia.org/wiki/Nanyue"
+   }
+  ],
+  "world_bc218.geojson<world_bc200.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       14.35,
+       36.6
+      ],
+      [
+       14.55,
+       37.05
+      ],
+      [
+       14.75,
+       37.35
+      ],
+      [
+       14.85,
+       37.7
+      ],
+      [
+       15.0,
+       37.85
+      ],
+      [
+       15.28,
+       37.87
+      ],
+      [
+       15.45,
+       37.9
+      ],
+      [
+       15.45,
+       36.5
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Syracuse",
+     "SUBJECTO": "Syracuse",
+     "PARTOF": "Syracuse",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino de Hierón II, aliado independiente de Roma hasta 212 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Hiero_II_of_Syracuse"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       0.87,
+       40.72
+      ],
+      [
+       -0.88,
+       41.65
+      ],
+      [
+       -2.45,
+       42.46
+      ],
+      [
+       -10.0,
+       42.46
+      ],
+      [
+       -10.0,
+       35.8
+      ],
+      [
+       3.5,
+       35.8
+      ],
+      [
+       3.5,
+       40.72
+      ]
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "218 a. C.: la Iberia bárquida llega hasta el Ebro (tratado de 226 a. C.; Cartagonova, c. 228)",
+    "fuente": "https://en.wikipedia.org/wiki/Ebro_Treaty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -10.0,
+      35.8,
+      3.5,
+      44.0
+     ]
+    },
+    "desde": [
+     "Rome"
+    ],
+    "props": {
+     "NAME": "Celtiberians",
+     "SUBJECTO": "Celtiberians",
+     "PARTOF": "Celtiberians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "al norte del Ebro, pueblos íberos (ilergetes) y Ampurias; los Escipiones desembarcan en 218 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Ebro_Treaty"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       0.87,
+       40.72
+      ],
+      [
+       -0.3,
+       40.6
+      ],
+      [
+       -1.5,
+       40.5
+      ],
+      [
+       -3.0,
+       40.3
+      ],
+      [
+       -4.3,
+       40.1
+      ],
+      [
+       -5.5,
+       39.8
+      ],
+      [
+       -6.5,
+       39.2
+      ],
+      [
+       -7.4,
+       38.4
+      ],
+      [
+       -7.5,
+       37.0
+      ],
+      [
+       -7.5,
+       35.8
+      ],
+      [
+       3.5,
+       35.8
+      ],
+      [
+       3.5,
+       40.72
+      ]
+     ]
+    },
+    "desde": [
+     "Celtiberians"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "conquistas bárquidas en el interior (237-219 a. C.): valle del Guadalquivir, Sierra Morena, Oretania, alto Guadiana y meseta sur hasta el Tajo (carpetanos y olcades, sometidos por Aníbal en 221-220); las campañas contra vacceos (Helmantica, Arbocala) son razias y no se cuentan",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Carthaginian_Iberia; https://en.wikipedia.org/wiki/Hannibal"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "caja": [
+        8.3,
+        28,
+        26,
+        38
+       ]
+      },
+      {
+       "feat": "Carthaginian Empire",
+       "mapa": "world_bc300.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Numidia",
+     "Saharan Pastoral Nomads"
+    ],
+    "props": {
+     "NAME": "Carthage",
+     "SUBJECTO": "Carthage",
+     "PARTOF": "Carthage",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "antes de Zama, Cartago domina el norte de Túnez y Tripolitania; masilios y masesilios, al oeste",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Carthage"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Kingdom of Syphax",
+     "mapa": "world_bc200.geojson"
+    },
+    "desde": [
+     "Numidia"
+    ],
+    "props": {
+     "NAME": "Kingdom of Syphax",
+     "SUBJECTO": "Kingdom of Syphax",
+     "PARTOF": "Kingdom of Syphax",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sífax, rey de los masesilios (c. 215-203 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Syphax"
+   },
+   {
+    "op": "renombrar",
+    "de": "Numidia",
+    "props": {
+     "NAME": "Kingdom of Gala",
+     "SUBJECTO": "Kingdom of Gala",
+     "PARTOF": "Kingdom of Gala"
+    },
+    "motivo": "Gala, rey de los masilios y padre de Masinisa",
+    "fuente": "https://en.wikipedia.org/wiki/Masinissa"
+   },
+   {
+    "op": "renombrar",
+    "de": "Han Empire",
+    "props": {
+     "NAME": "Qin",
+     "SUBJECTO": "Qin",
+     "PARTOF": "Qin"
+    },
+    "motivo": "el Imperio Qin unifica China en 221 a. C. (hasta 206 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Qin_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Nan-Yue",
+    "props": {
+     "NAME": "Yue",
+     "SUBJECTO": "Yue",
+     "PARTOF": "Yue"
+    },
+    "motivo": "Nanyue se funda en 204 a. C.; en 218 a. C. Qin combate a los yue",
+    "fuente": "https://en.wikipedia.org/wiki/Nanyue"
+   }
+  ],
+  "world_bc146.geojson<world_bc100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      25.5,
+      35.5,
+      34.5,
+      42.0
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "Pergamon",
+     "SUBJECTO": "Pergamon",
+     "PARTOF": "Pergamon",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "146 a. C.: el oeste de Anatolia es el reino atálida de Pérgamo, legado a Roma en 133 (provincia de Asia, 129)",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province; https://en.wikipedia.org/wiki/Attalid_kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       3.2,
+       42.45
+      ],
+      [
+       1.7,
+       42.5
+      ],
+      [
+       0.7,
+       42.7
+      ],
+      [
+       -0.5,
+       42.85
+      ],
+      [
+       -1.8,
+       43.35
+      ],
+      [
+       -1.8,
+       46.5
+      ],
+      [
+       7.0,
+       46.5
+      ],
+      [
+       7.0,
+       44.2
+      ],
+      [
+       7.5,
+       43.8
+      ],
+      [
+       7.5,
+       43.0
+      ],
+      [
+       3.5,
+       42.8
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "La Tène Celts",
+     "SUBJECTO": "La Tène Celts",
+     "PARTOF": "La Tène Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la Galia Narbonense es provincia en 121-118 a. C.; en 146 a. C. alóbroges, volcas y salios son independientes (Massalia, aliada)",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "pol": [
+        [
+         -10.0,
+         36.8
+        ],
+        [
+         -10.0,
+         42.0
+        ],
+        [
+         -6.3,
+         42.0
+        ],
+        [
+         -5.2,
+         39.5
+        ],
+        [
+         -6.0,
+         37.9
+        ],
+        [
+         -7.3,
+         37.2
+        ]
+       ]
+      },
+      {
+       "feat": "Rome",
+       "mapa": "world_bc200.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "Lusitanians",
+     "SUBJECTO": "Lusitanians",
+     "PARTOF": "Lusitanians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "lusitanos de Viriato, en guerra con Roma (147-139 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Lusitanian_War"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "caja": [
+        -10.0,
+        35.8,
+        3.5,
+        44.0
+       ]
+      },
+      {
+       "feat": "Rome",
+       "mapa": "world_bc200.geojson"
+      },
+      {
+       "pol": [
+        [
+         0.7,
+         40.8
+        ],
+        [
+         -0.9,
+         41.2
+        ],
+        [
+         -1.9,
+         41.9
+        ],
+        [
+         -2.1,
+         42.4
+        ],
+        [
+         -1.0,
+         42.5
+        ],
+        [
+         0.6,
+         42.0
+        ],
+        [
+         1.2,
+         41.2
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Republic"
+    ],
+    "props": {
+     "NAME": "Celtiberians",
+     "SUBJECTO": "Celtiberians",
+     "PARTOF": "Celtiberians",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 146 a. C. Roma domina la costa mediterránea, el Betis y el valle del Ebro; la Meseta celtíbera (Numancia, 143-133) es independiente",
+    "fuente": "https://en.wikipedia.org/wiki/Numantine_War"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.0,
+       38.0
+      ],
+      [
+       38.0,
+       37.0
+      ],
+      [
+       38.4,
+       36.4
+      ],
+      [
+       40.2,
+       35.0
+      ],
+      [
+       41.3,
+       34.4
+      ],
+      [
+       43.0,
+       33.2
+      ],
+      [
+       44.3,
+       32.3
+      ],
+      [
+       46.5,
+       31.0
+      ],
+      [
+       48.5,
+       29.0
+      ],
+      [
+       49.5,
+       29.8
+      ],
+      [
+       48.0,
+       31.5
+      ],
+      [
+       47.3,
+       32.5
+      ],
+      [
+       46.3,
+       33.4
+      ],
+      [
+       45.6,
+       34.3
+      ],
+      [
+       45.2,
+       35.4
+      ],
+      [
+       44.6,
+       36.4
+      ],
+      [
+       44.3,
+       37.2
+      ],
+      [
+       43.5,
+       37.6
+      ],
+      [
+       41.0,
+       38.0
+      ]
+     ]
+    },
+    "desde": [
+     "Parthia"
+    ],
+    "props": {
+     "NAME": "Seleucid Kingdom",
+     "SUBJECTO": "Seleucid Kingdom",
+     "PARTOF": "Seleucid Kingdom",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Mitrídates I toma Media en 148-147 a. C., pero Babilonia y Seleucia siguen siendo seléucidas hasta 141",
+    "fuente": "https://en.wikipedia.org/wiki/Mithridates_I_of_Parthia"
+   },
+   {
+    "op": "quitar",
+    "de": "Judea",
+    "a": "Seleucid Kingdom",
+    "motivo": "los asmoneos aún son vasallos seléucidas en 146 a. C. (independencia de hecho con Simón, 142-141)",
+    "fuente": "https://en.wikipedia.org/wiki/Hasmonean_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Yuezhi",
+    "props": {
+     "NAME": "Bactria",
+     "SUBJECTO": "Bactria",
+     "PARTOF": "Bactria"
+    },
+    "motivo": "el reino grecobactriano dura hasta c. 130 a. C., cuando llegan los yuezhi",
+    "fuente": "https://en.wikipedia.org/wiki/Greco-Bactrian_Kingdom"
+   }
+  ],
+  "world_bc63.geojson<world_bc100.geojson": [
+   {
+    "op": "quitar",
+    "de": "Seleucid Kingdom",
+    "a": "Roman Republic",
+    "motivo": "Pompeyo depone al último seléucida y crea la provincia de Siria (64-63 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       28.9,
+       40.1
+      ],
+      [
+       28.9,
+       41.3
+      ],
+      [
+       31.0,
+       41.3
+      ],
+      [
+       33.0,
+       42.0
+      ],
+      [
+       35.2,
+       42.1
+      ],
+      [
+       36.5,
+       41.4
+      ],
+      [
+       37.0,
+       41.1
+      ],
+      [
+       36.3,
+       40.5
+      ],
+      [
+       34.0,
+       40.8
+      ],
+      [
+       32.0,
+       40.6
+      ],
+      [
+       30.5,
+       40.0
+      ]
+     ]
+    },
+    "desde": [
+     "minor states"
+    ],
+    "props": {
+     "NAME": "Roman Republic",
+     "SUBJECTO": "Roman Republic",
+     "PARTOF": "Roman Republic",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "provincia de Bitinia y Ponto (legado de Nicomedes IV, 74 a. C.; Pompeyo la organiza en 63 a. C.); el Ponto interior, Galacia, Capadocia y Armenia quedan como clientes",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      23.4,
+      34.8,
+      26.4,
+      35.8
+     ]
+    },
+    "desde": [
+     "Ptolemaic Kingdom"
+    ],
+    "props": {
+     "NAME": "Roman Republic",
+     "SUBJECTO": "Roman Republic",
+     "PARTOF": "Roman Republic",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Creta, conquistada por Metelo (69-67 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      18.0,
+      28.0,
+      25.0,
+      33.5
+     ]
+    },
+    "desde": [
+     "Ptolemaic Kingdom"
+    ],
+    "props": {
+     "NAME": "Roman Republic",
+     "SUBJECTO": "Roman Republic",
+     "PARTOF": "Roman Republic",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Cirenaica, legada en 96 a. C. y provincia en 74 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   }
+  ],
+  "world_bc50.geojson<world_bc63.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       4.4,
+       52.25
+      ],
+      [
+       4.49,
+       52.16
+      ],
+      [
+       5.12,
+       52.09
+      ],
+      [
+       5.34,
+       51.97
+      ],
+      [
+       6.1,
+       51.86
+      ],
+      [
+       6.25,
+       51.83
+      ],
+      [
+       6.45,
+       51.66
+      ],
+      [
+       6.76,
+       51.43
+      ],
+      [
+       6.77,
+       51.23
+      ],
+      [
+       6.96,
+       50.94
+      ],
+      [
+       7.1,
+       50.73
+      ],
+      [
+       7.23,
+       50.58
+      ],
+      [
+       7.4,
+       50.44
+      ],
+      [
+       7.6,
+       50.36
+      ],
+      [
+       7.59,
+       50.23
+      ],
+      [
+       7.9,
+       49.97
+      ],
+      [
+       8.27,
+       50.0
+      ],
+      [
+       8.36,
+       49.63
+      ],
+      [
+       8.43,
+       49.32
+      ],
+      [
+       8.35,
+       49.0
+      ],
+      [
+       7.8,
+       48.58
+      ],
+      [
+       7.58,
+       48.03
+      ],
+      [
+       7.59,
+       47.56
+      ],
+      [
+       8.6,
+       47.65
+      ],
+      [
+       9.5,
+       47.55
+      ],
+      [
+       9.5,
+       46.6
+      ],
+      [
+       8.4,
+       46.3
+      ],
+      [
+       7.0,
+       45.9
+      ],
+      [
+       6.8,
+       45.2
+      ],
+      [
+       7.0,
+       44.2
+      ],
+      [
+       7.6,
+       43.75
+      ],
+      [
+       7.6,
+       43.0
+      ],
+      [
+       3.2,
+       42.4
+      ],
+      [
+       -1.8,
+       43.35
+      ],
+      [
+       -5.5,
+       43.6
+      ],
+      [
+       -5.5,
+       48.95
+      ],
+      [
+       -1.5,
+       49.8
+      ],
+      [
+       1.3,
+       50.95
+      ],
+      [
+       2.5,
+       51.2
+      ],
+      [
+       3.3,
+       51.45
+      ],
+      [
+       4.0,
+       52.0
+      ]
+     ]
+    },
+    "desde": [
+     "La Tène Celts",
+     "Celts"
+    ],
+    "props": {
+     "NAME": "Roman Republic",
+     "SUBJECTO": "Roman Republic",
+     "PARTOF": "Roman Republic",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "guerra de las Galias (58-51 a. C.): César conquista la Galia comata hasta el Rin",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Gallic_Wars"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      32.0,
+      34.4,
+      34.7,
+      35.8
+     ]
+    },
+    "desde": [
+     "Ptolemaic Kingdom"
+    ],
+    "props": {
+     "NAME": "Roman Republic",
+     "SUBJECTO": "Roman Republic",
+     "PARTOF": "Roman Republic",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Chipre, anexionada en 58 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Cyprus_(Roman_province)"
+   }
+  ],
+  "world_bc30.geojson<world_bc50.geojson": [
+   {
+    "op": "quitar",
+    "de": "Ptolemaic Kingdom",
+    "a": "Roman Republic",
+    "motivo": "Octavio toma Alejandría (30 a. C.): Egipto es provincia romana",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "quitar",
+    "de": "Numidia",
+    "a": "Roman Republic",
+    "motivo": "César convierte el reino de Juba I en la provincia de África Nova (46 a. C.)",
+    "fuente": "https://en.wikipedia.org/wiki/Africa_Nova"
+   },
+   {
+    "op": "quitar",
+    "de": "Mauretania",
+    "a": "Roman Republic",
+    "motivo": "Bocco II lega Mauretania a Roma (33 a. C.); Augusto la administra hasta que pone a Juba II en 25 a. C.",
+    "fuente": "https://en.wikipedia.org/wiki/Mauretania"
+   }
+  ],
+  "world_14.geojson<world_bc1.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       4.4,
+       52.25
+      ],
+      [
+       4.49,
+       52.16
+      ],
+      [
+       5.12,
+       52.09
+      ],
+      [
+       5.34,
+       51.97
+      ],
+      [
+       6.1,
+       51.86
+      ],
+      [
+       6.25,
+       51.83
+      ],
+      [
+       6.45,
+       51.66
+      ],
+      [
+       6.76,
+       51.43
+      ],
+      [
+       6.77,
+       51.23
+      ],
+      [
+       6.96,
+       50.94
+      ],
+      [
+       7.1,
+       50.73
+      ],
+      [
+       7.23,
+       50.58
+      ],
+      [
+       7.4,
+       50.44
+      ],
+      [
+       7.6,
+       50.36
+      ],
+      [
+       7.59,
+       50.23
+      ],
+      [
+       7.9,
+       49.97
+      ],
+      [
+       8.27,
+       50.0
+      ],
+      [
+       8.36,
+       49.63
+      ],
+      [
+       8.43,
+       49.32
+      ],
+      [
+       8.35,
+       49.0
+      ],
+      [
+       7.8,
+       48.58
+      ],
+      [
+       7.58,
+       48.03
+      ],
+      [
+       7.59,
+       47.56
+      ],
+      [
+       8.63,
+       47.7
+      ],
+      [
+       9.17,
+       47.66
+      ],
+      [
+       9.2,
+       48.05
+      ],
+      [
+       10.0,
+       48.4
+      ],
+      [
+       10.78,
+       48.72
+      ],
+      [
+       11.42,
+       48.76
+      ],
+      [
+       12.1,
+       49.02
+      ],
+      [
+       12.57,
+       48.88
+      ],
+      [
+       13.45,
+       48.57
+      ],
+      [
+       14.3,
+       48.3
+      ],
+      [
+       15.33,
+       48.23
+      ],
+      [
+       16.37,
+       48.21
+      ],
+      [
+       16.9,
+       48.14
+      ],
+      [
+       17.1,
+       48.14
+      ],
+      [
+       17.1,
+       56
+      ],
+      [
+       3.0,
+       56
+      ],
+      [
+       3.0,
+       53.3
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras Teutoburgo (9 d. C.) Roma abandona la Germania entre el Rin y el Elba; a la muerte de Augusto (14) la frontera es el Rin",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province; https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+   },
+   {
+    "op": "quitar",
+    "de": "Judea",
+    "a": "Roman Empire",
+    "motivo": "Judea (con Samaria e Idumea) es provincia desde 6 d. C.; Galilea y Batanea siguen con tetrarcas herodianos",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       15.5,
+       48.35
+      ],
+      [
+       16.37,
+       48.23
+      ],
+      [
+       16.9,
+       48.14
+      ],
+      [
+       17.63,
+       47.72
+      ],
+      [
+       18.12,
+       47.78
+      ],
+      [
+       18.74,
+       47.81
+      ],
+      [
+       19.1,
+       47.8
+      ],
+      [
+       19.06,
+       47.5
+      ],
+      [
+       18.95,
+       47.0
+      ],
+      [
+       18.86,
+       46.6
+      ],
+      [
+       18.7,
+       46.0
+      ],
+      [
+       15.5,
+       46.0
+      ]
+     ]
+    },
+    "desde": [
+     "Boihaenum"
+    ],
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Panonia hasta el Danubio, sometida en la guerra de 6-9 d. C.; Marbod y los marcomanos quedan en Bohemia",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonia"
+   }
+  ],
+  "world_46.geojson<world_100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       7.6,
+       50.36
+      ],
+      [
+       7.7,
+       50.33
+      ],
+      [
+       8.2,
+       50.22
+      ],
+      [
+       8.57,
+       50.27
+      ],
+      [
+       8.75,
+       50.42
+      ],
+      [
+       8.98,
+       50.3
+      ],
+      [
+       8.98,
+       50.08
+      ],
+      [
+       9.15,
+       49.95
+      ],
+      [
+       9.26,
+       49.7
+      ],
+      [
+       9.37,
+       49.58
+      ],
+      [
+       9.43,
+       49.43
+      ],
+      [
+       9.6,
+       49.1
+      ],
+      [
+       9.63,
+       48.87
+      ],
+      [
+       9.69,
+       48.8
+      ],
+      [
+       10.09,
+       48.84
+      ],
+      [
+       10.6,
+       48.95
+      ],
+      [
+       10.97,
+       49.06
+      ],
+      [
+       11.4,
+       49.0
+      ],
+      [
+       11.78,
+       48.85
+      ],
+      [
+       12.0,
+       48.4
+      ],
+      [
+       10.0,
+       47.9
+      ],
+      [
+       9.17,
+       47.66
+      ],
+      [
+       8.63,
+       47.7
+      ],
+      [
+       7.59,
+       47.56
+      ],
+      [
+       7.58,
+       48.03
+      ],
+      [
+       7.8,
+       48.58
+      ],
+      [
+       8.35,
+       49.0
+      ],
+      [
+       8.43,
+       49.32
+      ],
+      [
+       8.36,
+       49.63
+      ],
+      [
+       8.27,
+       50.0
+      ],
+      [
+       7.9,
+       49.97
+      ],
+      [
+       7.59,
+       50.23
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los Agri Decumates se ocupan con los Flavios (desde c. 74); en 46 la frontera es el Rin y el Danubio",
+    "fuente": "https://en.wikipedia.org/wiki/Agri_Decumates"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -5.8,
+       49.8
+      ],
+      [
+       -3.53,
+       50.72
+      ],
+      [
+       -2.36,
+       51.38
+      ],
+      [
+       -1.5,
+       52.4
+      ],
+      [
+       -0.54,
+       53.23
+      ],
+      [
+       0.2,
+       53.8
+      ],
+      [
+       1.0,
+       54.5
+      ],
+      [
+       -8.0,
+       58.0
+      ],
+      [
+       -8.0,
+       49.8
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Celts",
+     "SUBJECTO": "Celts",
+     "PARTOF": "Celts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "46 d. C.: la Britania romana (43) llega a la línea del Fosse Way (Exeter-Lincoln); Gales, los brigantes y el norte se conquistan en 47-84",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_conquest_of_Britain"
+   }
+  ],
+  "world_106.geojson<world_100.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Roman Empire",
+       "mapa": "world_200.geojson"
+      },
+      {
+       "caja": [
+        20.0,
+        44.0,
+        28.5,
+        48.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Dacia"
+    ],
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Trajano conquista Dacia (101-106): Oltenia, Banato y Transilvania",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Roman_Dacia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       24.4,
+       43.72
+      ],
+      [
+       25.35,
+       43.62
+      ],
+      [
+       25.95,
+       43.85
+      ],
+      [
+       27.27,
+       44.12
+      ],
+      [
+       27.95,
+       44.68
+      ],
+      [
+       27.97,
+       45.27
+      ],
+      [
+       28.8,
+       45.2
+      ],
+      [
+       29.7,
+       45.2
+      ],
+      [
+       29.7,
+       45.8
+      ],
+      [
+       29.0,
+       46.5
+      ],
+      [
+       28.2,
+       46.5
+      ],
+      [
+       27.3,
+       45.95
+      ],
+      [
+       26.7,
+       45.9
+      ],
+      [
+       25.8,
+       45.5
+      ],
+      [
+       24.5,
+       45.3
+      ]
+     ]
+    },
+    "desde": "*",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valaquia, el sur de Moldavia y los Cárpatos orientales se anexionan a Mesia Inferior (106-117)",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Roman_Dacia"
+   },
+   {
+    "op": "quitar",
+    "de": "Nabatean Kingdom",
+    "a": "Roman Empire",
+    "motivo": "provincia de Arabia Pétrea (106)",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   }
+  ],
+  "world_117.geojson<world_106.geojson": [
+   {
+    "op": "quitar",
+    "de": "Armenia",
+    "a": "Roman Empire",
+    "motivo": "Trajano anexiona Armenia (114); Adriano la devuelve como reino cliente",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_province"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       38.0,
+       37.6
+      ],
+      [
+       42.5,
+       37.6
+      ],
+      [
+       44.2,
+       37.3
+      ],
+      [
+       44.8,
+       36.4
+      ],
+      [
+       45.3,
+       35.3
+      ],
+      [
+       45.9,
+       34.3
+      ],
+      [
+       46.6,
+       33.2
+      ],
+      [
+       47.6,
+       32.2
+      ],
+      [
+       48.6,
+       30.8
+      ],
+      [
+       49.2,
+       29.9
+      ],
+      [
+       47.5,
+       29.0
+      ],
+      [
+       44.0,
+       29.4
+      ],
+      [
+       41.4,
+       31.4
+      ],
+      [
+       40.1,
+       33.2
+      ],
+      [
+       39.5,
+       34.4
+      ],
+      [
+       38.0,
+       35.5
+      ]
+     ]
+    },
+    "desde": [
+     "Parthian Empire"
+    ],
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "provincias de Mesopotamia (116) y Asiria; Trajano llega al golfo Pérsico: máxima extensión del Imperio",
+    "fuente": "https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province); https://en.wikipedia.org/wiki/Roman_province"
+   }
+  ],
+  "world_118.geojson<world_106.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       24.4,
+       43.72
+      ],
+      [
+       25.35,
+       43.62
+      ],
+      [
+       25.95,
+       43.85
+      ],
+      [
+       27.27,
+       44.12
+      ],
+      [
+       27.95,
+       44.68
+      ],
+      [
+       27.97,
+       45.27
+      ],
+      [
+       28.8,
+       45.2
+      ],
+      [
+       29.7,
+       45.2
+      ],
+      [
+       29.7,
+       45.8
+      ],
+      [
+       29.0,
+       46.5
+      ],
+      [
+       28.2,
+       46.5
+      ],
+      [
+       27.3,
+       45.95
+      ],
+      [
+       26.7,
+       45.9
+      ],
+      [
+       25.8,
+       45.5
+      ],
+      [
+       24.5,
+       45.3
+      ]
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Sarmates",
+     "SUBJECTO": "Sarmates",
+     "PARTOF": "Sarmates",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Adriano abandona Mesopotamia, Asiria y Armenia (117-118) y devuelve a los roxolanos Valaquia y el sur de Moldavia (118-119)",
+    "fuente": "https://en.wikipedia.org/wiki/Roman_Dacia"
+   }
+  ],
+  "world_275.geojson<world_300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       41.8,
+       37.6
+      ],
+      [
+       42.19,
+       37.33
+      ],
+      [
+       43.4,
+       37.2
+      ],
+      [
+       43.9,
+       37.6
+      ],
+      [
+       43.9,
+       38.4
+      ],
+      [
+       41.3,
+       38.4
+      ],
+      [
+       40.9,
+       38.3
+      ]
+     ]
+    },
+    "desde": [
+     "Rome (Diocletianus)"
+    ],
+    "props": {
+     "NAME": "Sasanian Empire",
+     "SUBJECTO": "Sasanian Empire",
+     "PARTOF": "Sasanian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "las satrapías transtigritanas solo pasan a Roma en la paz de Nisibis (299)",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Nisibis_(299)"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Diocletianus)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Aureliano, «restitutor orbis», reunifica el Imperio (272-274); Dacia se evacua en 271-275 y los Agri Decumates en c. 260",
+    "fuente": "https://en.wikipedia.org/wiki/Crisis_of_the_Third_Century"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Maximian)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Imperio reunificado por Aureliano (274)",
+    "fuente": "https://en.wikipedia.org/wiki/Aurelian"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Galerius)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Imperio reunificado por Aureliano (274)",
+    "fuente": "https://en.wikipedia.org/wiki/Aurelian"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Constantius)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "la Galia vuelve al Imperio tras la batalla de Châlons (274)",
+    "fuente": "https://en.wikipedia.org/wiki/Gallic_Empire"
+   }
+  ],
+  "world_271.geojson<world_275.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "feat": "Rome (Constantinus)",
+       "mapa": "world_300.geojson"
+      },
+      {
+       "pol": [
+        [
+         4.4,
+         52.25
+        ],
+        [
+         4.49,
+         52.16
+        ],
+        [
+         5.12,
+         52.09
+        ],
+        [
+         5.34,
+         51.97
+        ],
+        [
+         6.1,
+         51.86
+        ],
+        [
+         6.25,
+         51.83
+        ],
+        [
+         6.45,
+         51.66
+        ],
+        [
+         6.76,
+         51.43
+        ],
+        [
+         6.77,
+         51.23
+        ],
+        [
+         6.96,
+         50.94
+        ],
+        [
+         7.1,
+         50.73
+        ],
+        [
+         7.23,
+         50.58
+        ],
+        [
+         7.4,
+         50.44
+        ],
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.59,
+         50.23
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         6.0,
+         47.4
+        ],
+        [
+         5.5,
+         49.5
+        ],
+        [
+         4.5,
+         50.8
+        ],
+        [
+         3.5,
+         51.5
+        ],
+        [
+         3.8,
+         52.25
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Gallic Empire",
+     "SUBJECTO": "Gallic Empire",
+     "PARTOF": "Gallic Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Imperio galo (260-274) de Póstumo a Tétrico: Galia, Germania y Britania; Hispania vuelve a Claudio II en 269",
+    "fuente": "https://en.wikipedia.org/wiki/Gallic_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Rome (Diocletianus)",
+         "mapa": "world_300.geojson"
+        },
+        {
+         "y": [
+          {
+           "pol": [
+            [
+             31.8,
+             40.3
+            ],
+            [
+             34.0,
+             40.4
+            ],
+            [
+             36.0,
+             39.6
+            ],
+            [
+             38.5,
+             39.5
+            ],
+            [
+             38.6,
+             37.4
+            ],
+            [
+             36.5,
+             36.8
+            ],
+            [
+             35.5,
+             36.6
+            ],
+            [
+             34.5,
+             36.2
+            ],
+            [
+             32.5,
+             36.0
+            ],
+            [
+             31.8,
+             36.6
+            ],
+            [
+             31.8,
+             38.5
+            ]
+           ]
+          },
+          {
+           "caja": [
+            34.0,
+            15,
+            50,
+            36.95
+           ]
+          },
+          {
+           "caja": [
+            24.9,
+            15,
+            34.0,
+            31.7
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "caja": [
+        32.0,
+        34.4,
+        34.7,
+        35.8
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Palmyrene Empire",
+     "SUBJECTO": "Palmyrene Empire",
+     "PARTOF": "Palmyrene Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Imperio de Palmira (270-272) de Zenobia y Vabalato: Siria, Palestina, Arabia, Egipto y Anatolia hasta Ancira",
+    "fuente": "https://en.wikipedia.org/wiki/Palmyrene_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "pol": [
+        [
+         37.8,
+         38.3
+        ],
+        [
+         40.3,
+         38.4
+        ],
+        [
+         40.9,
+         38.0
+        ],
+        [
+         40.95,
+         37.1
+        ],
+        [
+         41.0,
+         36.6
+        ],
+        [
+         40.8,
+         36.0
+        ],
+        [
+         40.45,
+         35.1
+        ],
+        [
+         39.6,
+         35.25
+        ],
+        [
+         38.2,
+         35.9
+        ],
+        [
+         37.8,
+         36.6
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         40.9,
+         38.3
+        ],
+        [
+         41.8,
+         37.6
+        ],
+        [
+         42.19,
+         37.33
+        ],
+        [
+         42.1,
+         36.9
+        ],
+        [
+         42.4,
+         36.2
+        ],
+        [
+         42.0,
+         35.8
+        ],
+        [
+         41.3,
+         35.6
+        ],
+        [
+         40.7,
+         35.8
+        ],
+        [
+         40.95,
+         36.6
+        ],
+        [
+         40.9,
+         37.1
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Palmyrene Empire",
+     "SUBJECTO": "Palmyrene Empire",
+     "PARTOF": "Palmyrene Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Mesopotamia, recuperada por Odenato (262-263), en manos palmirenas",
+    "fuente": "https://en.wikipedia.org/wiki/Odaenathus"
+   }
+  ],
+  "world_324.geojson<world_300.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Rome (Diocletianus)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Constantino, único emperador tras Crisópolis (324): fin de la tetrarquía",
+    "fuente": "https://en.wikipedia.org/wiki/Constantine_the_Great"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Maximian)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "fin de la tetrarquía (324)",
+    "fuente": "https://en.wikipedia.org/wiki/Tetrarchy"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Galerius)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "fin de la tetrarquía (324)",
+    "fuente": "https://en.wikipedia.org/wiki/Tetrarchy"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Constantius)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "fin de la tetrarquía (324)",
+    "fuente": "https://en.wikipedia.org/wiki/Tetrarchy"
+   }
+  ],
+  "world_337.geojson<world_324.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "feat": "Rome (Constantinus)",
+       "mapa": "world_300.geojson"
+      },
+      {
+       "pol": [
+        [
+         4.4,
+         52.25
+        ],
+        [
+         4.49,
+         52.16
+        ],
+        [
+         5.12,
+         52.09
+        ],
+        [
+         5.34,
+         51.97
+        ],
+        [
+         6.1,
+         51.86
+        ],
+        [
+         6.25,
+         51.83
+        ],
+        [
+         6.45,
+         51.66
+        ],
+        [
+         6.76,
+         51.43
+        ],
+        [
+         6.77,
+         51.23
+        ],
+        [
+         6.96,
+         50.94
+        ],
+        [
+         7.1,
+         50.73
+        ],
+        [
+         7.23,
+         50.58
+        ],
+        [
+         7.4,
+         50.44
+        ],
+        [
+         7.6,
+         50.36
+        ],
+        [
+         7.59,
+         50.23
+        ],
+        [
+         7.9,
+         49.97
+        ],
+        [
+         8.27,
+         50.0
+        ],
+        [
+         8.36,
+         49.63
+        ],
+        [
+         8.43,
+         49.32
+        ],
+        [
+         8.35,
+         49.0
+        ],
+        [
+         7.8,
+         48.58
+        ],
+        [
+         7.58,
+         48.03
+        ],
+        [
+         7.59,
+         47.56
+        ],
+        [
+         6.0,
+         47.4
+        ],
+        [
+         5.5,
+         49.5
+        ],
+        [
+         4.5,
+         50.8
+        ],
+        [
+         3.5,
+         51.5
+        ],
+        [
+         3.8,
+         52.25
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         -10.0,
+         36.0
+        ],
+        [
+         -5.6,
+         36.0
+        ],
+        [
+         -5.3,
+         36.1
+        ],
+        [
+         -2.0,
+         36.6
+        ],
+        [
+         0.0,
+         37.5
+        ],
+        [
+         3.5,
+         39.0
+        ],
+        [
+         3.5,
+         44.0
+        ],
+        [
+         -10.0,
+         44.0
+        ]
+       ]
+      },
+      {
+       "caja": [
+        -11.0,
+        27.0,
+        -1.9,
+        36.2
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Rome (Constantine II)",
+     "SUBJECTO": "Rome (Constantine II)",
+     "PARTOF": "Rome (Constantine II)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reparto de 337 entre los hijos de Constantino: Constantino II recibe Britania, las Galias y las Hispanias (con la Tingitana)",
+    "fuente": "https://en.wikipedia.org/wiki/Constantine_II_(emperor)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "y": [
+        {
+         "feat": "Rome (Maximian)",
+         "mapa": "world_300.geojson"
+        },
+        {
+         "feat": "Rome (Galerius)",
+         "mapa": "world_300.geojson"
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         24.9,
+         44.0
+        ],
+        [
+         27.3,
+         44.15
+        ],
+        [
+         28.0,
+         45.6
+        ],
+        [
+         30.0,
+         45.6
+        ],
+        [
+         30.0,
+         40.0
+        ],
+        [
+         24.7,
+         40.8
+        ],
+        [
+         24.3,
+         41.6
+        ],
+        [
+         24.6,
+         42.6
+        ],
+        [
+         24.9,
+         43.6
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Rome (Constans)",
+     "SUBJECTO": "Rome (Constans)",
+     "PARTOF": "Rome (Constans)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Constante recibe Italia, África y el Ilírico; tras la eliminación de Dalmacio (337) suma Dacia, Macedonia y Acaya (Viminacio, 338)",
+    "fuente": "https://en.wikipedia.org/wiki/Constans"
+   },
+   {
+    "op": "renombrar",
+    "de": "Roman Empire",
+    "props": {
+     "NAME": "Rome (Constantius II)",
+     "SUBJECTO": "Rome (Constantius II)",
+     "PARTOF": "Rome (Constantius II)"
+    },
+    "motivo": "Constancio II recibe Tracia con Constantinopla, Asia, el Ponto, Oriente y Egipto; la parte de Anibaliano (Armenia y el Ponto) pasa a él tras 337",
+    "fuente": "https://en.wikipedia.org/wiki/Constantius_II"
+   }
+  ],
+  "world_340.geojson<world_337.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Rome (Constantine II)",
+    "props": {
+     "NAME": "Rome (Constans)",
+     "SUBJECTO": "Rome (Constans)",
+     "PARTOF": "Rome (Constans)"
+    },
+    "motivo": "Constantino II muere en Aquilea (340) al invadir Italia; Constante gobierna todo Occidente",
+    "fuente": "https://en.wikipedia.org/wiki/Constantine_II_(emperor)"
+   }
+  ],
+  "world_350.geojson<world_340.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       12.9,
+       49.5
+      ],
+      [
+       12.9,
+       48.6
+      ],
+      [
+       12.3,
+       47.4
+      ],
+      [
+       13.7,
+       46.5
+      ],
+      [
+       13.9,
+       45.5
+      ],
+      [
+       18.8,
+       40.0
+      ],
+      [
+       21.0,
+       34.0
+      ],
+      [
+       30.0,
+       34.0
+      ],
+      [
+       30.0,
+       49.5
+      ]
+     ]
+    },
+    "desde": [
+     "Rome (Constans)"
+    ],
+    "props": {
+     "NAME": "Rome (Vetranio)",
+     "SUBJECTO": "Rome (Vetranio)",
+     "PARTOF": "Rome (Vetranio)",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Vetranión, proclamado en Mursa/Sirmio (marzo-diciembre de 350), gobierna el Ilírico (Panonia, Nórico, Dalmacia, Dacia y Macedonia)",
+    "fuente": "https://en.wikipedia.org/wiki/Vetranio"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Constans)",
+    "props": {
+     "NAME": "Rome (Magnentius)",
+     "SUBJECTO": "Rome (Magnentius)",
+     "PARTOF": "Rome (Magnentius)"
+    },
+    "motivo": "Magnencio mata a Constante (350) y es reconocido en Britania, Galia, Hispania, Italia y África",
+    "fuente": "https://en.wikipedia.org/wiki/Magnentius"
+   }
+  ],
+  "world_353.geojson<world_350.geojson": [
+   {
+    "op": "renombrar",
+    "de": "Rome (Magnentius)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Constancio II vence a Magnencio (Mursa 351, Mons Seleucus 353) y reúne el Imperio",
+    "fuente": "https://en.wikipedia.org/wiki/Constantius_II"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Vetranio)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Vetranión abdica ante Constancio II (diciembre de 350)",
+    "fuente": "https://en.wikipedia.org/wiki/Vetranio"
+   },
+   {
+    "op": "renombrar",
+    "de": "Rome (Constantius II)",
+    "props": {
+     "NAME": "Roman Empire",
+     "SUBJECTO": "Roman Empire",
+     "PARTOF": "Roman Empire"
+    },
+    "motivo": "Constancio II, único augusto (353-361)",
+    "fuente": "https://en.wikipedia.org/wiki/Constantius_II"
+   }
+  ],
+  "world_363.geojson<world_324.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "pol": [
+        [
+         40.9,
+         38.3
+        ],
+        [
+         41.8,
+         37.6
+        ],
+        [
+         42.19,
+         37.33
+        ],
+        [
+         42.1,
+         36.9
+        ],
+        [
+         42.4,
+         36.2
+        ],
+        [
+         42.0,
+         35.8
+        ],
+        [
+         41.3,
+         35.6
+        ],
+        [
+         40.7,
+         35.8
+        ],
+        [
+         40.95,
+         36.6
+        ],
+        [
+         40.9,
+         37.1
+        ]
+       ]
+      },
+      {
+       "pol": [
+        [
+         41.8,
+         37.6
+        ],
+        [
+         42.19,
+         37.33
+        ],
+        [
+         43.4,
+         37.2
+        ],
+        [
+         43.9,
+         37.6
+        ],
+        [
+         43.9,
+         38.4
+        ],
+        [
+         41.3,
+         38.4
+        ],
+        [
+         40.9,
+         38.3
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Roman Empire"
+    ],
+    "props": {
+     "NAME": "Sasanian Empire",
+     "SUBJECTO": "Sasanian Empire",
+     "PARTOF": "Sasanian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "tras la muerte de Juliano, Joviano cede a Sapor II Nisibis, Singara y las satrapías transtigritanas (363)",
+    "fuente": "https://en.wikipedia.org/wiki/Jovian_(emperor); https://en.wikipedia.org/wiki/Mesopotamia_(Roman_province)"
+   }
+  ],
+  "world_395.geojson<world_400.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Roman Empire"
+    },
+    "poner": {
+     "NAME": "Western Roman Empire"
+    },
+    "motivo": "muerte de Teodosio (395): el Imperio se reparte definitivamente entre Honorio (Occidente) y Arcadio (Oriente); fronteras del mapa de 400",
+    "fuente": "https://en.wikipedia.org/wiki/Western_Roman_Empire"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Roman Empire"
+    },
+    "poner": {
+     "NAME": "Eastern Roman Empire"
+    },
+    "motivo": "Arcadio, emperador de Oriente desde 395",
+    "fuente": "https://en.wikipedia.org/wiki/Arcadius"
+   }
+  ],
+  "world_450.geojson<world_400.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      18.5,
+      37.5,
+      23.5,
+      42.5
+     ]
+    },
+    "desde": [
+     "Visigoths"
+    ],
+    "props": {
+     "NAME": "Eastern Roman Empire",
+     "SUBJECTO": "Eastern Roman Empire",
+     "PARTOF": "Eastern Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los visigodos dejan el Ilírico en 401 y se asientan en Aquitania (418): Epiro y Macedonia vuelven a ser provincias de Oriente",
+    "fuente": "https://en.wikipedia.org/wiki/Alaric_I"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      -7.0,
+      49.5,
+      2.0,
+      56.0
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Britons",
+     "SUBJECTO": "Britons",
+     "PARTOF": "Britons",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Britania se abandona hacia 410",
+    "fuente": "https://en.wikipedia.org/wiki/Western_Roman_Empire"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Vandals",
+         "mapa": "world_500.geojson"
+        },
+        {
+         "caja": [
+          5.5,
+          28,
+          20,
+          37.5
+         ]
+        }
+       ]
+      },
+      {
+       "caja": [
+        11.9,
+        36.4,
+        16.0,
+        38.5
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Vandals",
+     "SUBJECTO": "Vandals",
+     "PARTOF": "Vandals",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino vándalo (Cartago, 439; tratado de 442): Proconsular, Bizacena, Tripolitania y el este de Numidia; Roma recupera las Mauretanias",
+    "fuente": "https://en.wikipedia.org/wiki/Vandal_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -2.0,
+       47.3
+      ],
+      [
+       0.5,
+       47.3
+      ],
+      [
+       1.5,
+       46.3
+      ],
+      [
+       2.5,
+       45.2
+      ],
+      [
+       2.5,
+       43.9
+      ],
+      [
+       2.3,
+       43.2
+      ],
+      [
+       2.2,
+       42.4
+      ],
+      [
+       -2.0,
+       42.4
+      ]
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Visigoths",
+     "SUBJECTO": "Visigoths",
+     "PARTOF": "Visigoths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino visigodo de Tolosa (418): Aquitania y Novempopulania; Narbona cae en 462",
+    "fuente": "https://en.wikipedia.org/wiki/Visigothic_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -10.0,
+       44.0
+      ],
+      [
+       -4.5,
+       43.6
+      ],
+      [
+       -5.0,
+       42.0
+      ],
+      [
+       -5.0,
+       40.5
+      ],
+      [
+       -4.2,
+       39.3
+      ],
+      [
+       -3.0,
+       38.3
+      ],
+      [
+       -2.0,
+       37.0
+      ],
+      [
+       -1.9,
+       36.5
+      ],
+      [
+       -10.0,
+       35.8
+      ]
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Sveves",
+     "SUBJECTO": "Sveves",
+     "PARTOF": "Sveves",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "reino suevo de Requiario (448-456): Gallaecia, Lusitania y Bética; Roma conserva la Tarraconense",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_the_Suebi"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       5.4,
+       45.4
+      ],
+      [
+       5.4,
+       46.6
+      ],
+      [
+       6.9,
+       46.9
+      ],
+      [
+       7.4,
+       46.3
+      ],
+      [
+       6.9,
+       45.3
+      ]
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Burgunds",
+     "SUBJECTO": "Burgunds",
+     "PARTOF": "Burgunds",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Aecio asienta a los burgundios en Sapaudia (443)",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_the_Burgundians"
+   },
+   {
+    "op": "quitar",
+    "de": "Burgunds",
+    "a": "Alamans",
+    "motivo": "el reino burgundio de Worms es destruido en 436; la orilla derecha del Rin es alamana",
+    "fuente": "https://en.wikipedia.org/wiki/Kingdom_of_the_Burgundians"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       1.6,
+       50.95
+      ],
+      [
+       2.4,
+       50.3
+      ],
+      [
+       3.5,
+       50.2
+      ],
+      [
+       4.8,
+       50.3
+      ],
+      [
+       5.8,
+       50.9
+      ],
+      [
+       6.1,
+       51.86
+      ],
+      [
+       4.4,
+       52.25
+      ],
+      [
+       3.3,
+       51.5
+      ]
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Franks",
+     "SUBJECTO": "Franks",
+     "PARTOF": "Franks",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "francos salios de Clodión en Toxandria, Tournai y Cambrai (c. 430-450)",
+    "fuente": "https://en.wikipedia.org/wiki/Chlodio"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       15.5,
+       48.3
+      ],
+      [
+       19.5,
+       48.3
+      ],
+      [
+       19.5,
+       45.0
+      ],
+      [
+       17.5,
+       45.4
+      ],
+      [
+       16.0,
+       46.3
+      ],
+      [
+       15.5,
+       47.2
+      ]
+     ]
+    },
+    "desde": [
+     "Western Roman Empire"
+    ],
+    "props": {
+     "NAME": "Hunnic Empire",
+     "SUBJECTO": "Hunnic Empire",
+     "PARTOF": "Hunnic Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Aecio cede Panonia a los hunos (433)",
+    "fuente": "https://en.wikipedia.org/wiki/Pannonia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      16.0,
+      44.0,
+      30.0,
+      49.0
+     ]
+    },
+    "desde": [],
+    "props": {
+     "NAME": "Hunnic Empire",
+     "SUBJECTO": "Hunnic Empire",
+     "PARTOF": "Hunnic Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la llanura panónica y Dacia, bajo Atila (434-453), con gépidos y ostrogodos sometidos",
+    "libre": true,
+    "fuente": "https://en.wikipedia.org/wiki/Hunnic_Empire"
+   },
+   {
+    "op": "renombrar",
+    "de": "Jin",
+    "props": {
+     "NAME": "Liu Song",
+     "SUBJECTO": "Liu Song",
+     "PARTOF": "Liu Song"
+    },
+    "motivo": "los Jin Orientales terminan en 420; en 450 reina el Liu Song (420-479)",
+    "fuente": "https://en.wikipedia.org/wiki/Liu_Song_dynasty"
+   },
+   {
+    "op": "renombrar",
+    "de": "Sixteen Kingdoms",
+    "props": {
+     "NAME": "Toba Wei",
+     "SUBJECTO": "Toba Wei",
+     "PARTOF": "Toba Wei"
+    },
+    "motivo": "el Wei del Norte unifica el norte de China en 439",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Wei"
+   },
+   {
+    "op": "renombrar",
+    "de": "Northern Liang",
+    "props": {
+     "NAME": "Toba Wei",
+     "SUBJECTO": "Toba Wei",
+     "PARTOF": "Toba Wei"
+    },
+    "motivo": "el Liang del Norte cae ante los Wei en 439",
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Liang"
+   }
+  ],
+  "world_476.geojson<world_500.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       37.9,
+       38.35
+      ],
+      [
+       37.9,
+       41.2
+      ],
+      [
+       42.0,
+       41.2
+      ],
+      [
+       41.8,
+       40.2
+      ],
+      [
+       41.5,
+       39.2
+      ],
+      [
+       41.5,
+       38.4
+      ]
+     ]
+    },
+    "desde": [
+     "Sasanian Empire"
+    ],
+    "props": {
+     "NAME": "Eastern Roman Empire",
+     "SUBJECTO": "Eastern Roman Empire",
+     "PARTOF": "Eastern Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Armenia occidental (Teodosiópolis/Karin), romana desde la partición de 387",
+    "fuente": "https://en.wikipedia.org/wiki/Peace_of_Acilisene"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       6.5,
+       36.4
+      ],
+      [
+       6.5,
+       47.6
+      ],
+      [
+       15.0,
+       47.6
+      ],
+      [
+       15.0,
+       46.5
+      ],
+      [
+       13.9,
+       45.5
+      ],
+      [
+       18.8,
+       40.0
+      ],
+      [
+       18.8,
+       36.4
+      ]
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "props": {
+     "NAME": "Kingdom of Odoacer",
+     "SUBJECTO": "Kingdom of Odoacer",
+     "PARTOF": "Kingdom of Odoacer",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Odoacro depone a Rómulo Augústulo (4 de septiembre de 476) y gobierna Italia; Genserico le cede Sicilia",
+    "fuente": "https://en.wikipedia.org/wiki/Odoacer"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       12.0,
+       36.4
+      ],
+      [
+       12.0,
+       38.4
+      ],
+      [
+       15.68,
+       38.35
+      ],
+      [
+       15.6,
+       38.05
+      ],
+      [
+       15.4,
+       37.3
+      ],
+      [
+       15.3,
+       36.4
+      ]
+     ]
+    },
+    "desde": [
+     "Vandals"
+    ],
+    "props": {
+     "NAME": "Kingdom of Odoacer",
+     "SUBJECTO": "Kingdom of Odoacer",
+     "PARTOF": "Kingdom of Odoacer",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Genserico cede Sicilia a Odoacro en 476 (los vándalos conservan Lilibeo hasta 491)",
+    "fuente": "https://en.wikipedia.org/wiki/Odoacer"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       13.9,
+       45.5
+      ],
+      [
+       15.0,
+       46.5
+      ],
+      [
+       16.0,
+       46.3
+      ],
+      [
+       16.5,
+       45.3
+      ],
+      [
+       19.3,
+       45.0
+      ],
+      [
+       19.5,
+       43.8
+      ],
+      [
+       19.4,
+       41.9
+      ],
+      [
+       18.8,
+       42.2
+      ]
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "props": {
+     "NAME": "Western Roman Empire",
+     "SUBJECTO": "Western Roman Empire",
+     "PARTOF": "Western Roman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Julio Nepote, emperador de Occidente depuesto en Italia (475), gobierna Dalmacia hasta 480",
+    "fuente": "https://en.wikipedia.org/wiki/Julius_Nepos"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "caja": [
+      4.0,
+      42.5,
+      7.0,
+      46.0
+     ]
+    },
+    "desde": [
+     "Ostrogoths"
+    ],
+    "props": {
+     "NAME": "Visigoths",
+     "SUBJECTO": "Visigoths",
+     "PARTOF": "Visigoths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Eurico toma Arlés y Marsella en 476",
+    "fuente": "https://en.wikipedia.org/wiki/Euric"
+   },
+   {
+    "op": "quitar",
+    "de": "Ostrogoths",
+    "a": null,
+    "motivo": "los ostrogodos de Teodorico están en Mesia (476-488); en Panonia, gépidos, rugios y hérulos",
+    "fuente": "https://en.wikipedia.org/wiki/Ostrogothic_Kingdom"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       -0.5,
+       49.3
+      ],
+      [
+       1.5,
+       50.2
+      ],
+      [
+       3.3,
+       49.95
+      ],
+      [
+       4.5,
+       49.7
+      ],
+      [
+       4.8,
+       48.6
+      ],
+      [
+       4.2,
+       47.8
+      ],
+      [
+       2.8,
+       47.6
+      ],
+      [
+       1.0,
+       47.3
+      ],
+      [
+       -0.4,
+       47.5
+      ],
+      [
+       -1.3,
+       48.3
+      ]
+     ]
+    },
+    "desde": [
+     "Franks"
+    ],
+    "props": {
+     "NAME": "Domain of Soissons",
+     "SUBJECTO": "Domain of Soissons",
+     "PARTOF": "Domain of Soissons",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "dominio galorromano de Siagrio (c. 465-486) entre el Somme y el Loira; Clodoveo lo conquista en 486",
+    "fuente": "https://en.wikipedia.org/wiki/Domain_of_Soissons"
+   },
+   {
+    "op": "renombrar",
+    "de": "Southern Qi",
+    "props": {
+     "NAME": "Liu Song",
+     "SUBJECTO": "Liu Song",
+     "PARTOF": "Liu Song"
+    },
+    "motivo": "el Qi del Sur empieza en 479; en 476 reina el Liu Song",
+    "fuente": "https://en.wikipedia.org/wiki/Liu_Song_dynasty"
+   }
+  ]
+ }
+}

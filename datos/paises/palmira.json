@@ -1,0 +1,67 @@
+{
+	"id": "palmira",
+	"nombre": "Imperio de Palmira",
+	"nombres": [
+		"Palmyrene Empire"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Palmira",
+			"desde": 260,
+			"hasta": 270
+		},
+		{
+			"nombre": "Imperio de Palmira",
+			"desde": 270,
+			"hasta": 273
+		}
+	],
+	"wiki": "Imperio de Palmira",
+	"relacionados": [
+		"Palmira",
+		"Reino de Palmira"
+	],
+	"vinculos": [
+		{
+			"id": "roma",
+			"tipo": "antecesor_territorial",
+			"desde": 270,
+			"hasta": 273
+		}
+	],
+	"resena": "Estado de la ciudad caravanera de Palmira, en Siria. Odenato defendió el Oriente romano frente a los sasánidas y recuperó Mesopotamia (262-263) como aliado de Galieno. Tras su muerte, su viuda Zenobia, regente de su hijo Vabalato, ocupó Egipto, Arabia y buena parte de Anatolia hasta Ancira (270-271) y ambos tomaron el título de augusto. Aureliano la derrotó en 272 y arrasó Palmira tras una nueva revuelta (273).",
+	"gobernantes": [
+		{
+			"nombre": "Odenato",
+			"titulo": "Rey de Palmira y corrector de todo el Oriente",
+			"desde": 260,
+			"hasta": 267
+		},
+		{
+			"nombre": "Vabalato",
+			"titulo": "Rey de Palmira; augusto desde 271",
+			"desde": 267,
+			"hasta": 272
+		},
+		{
+			"nombre": "Zenobia",
+			"titulo": "Regente de Vabalato; augusta desde 271",
+			"desde": 267,
+			"hasta": 272
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio de Palmira",
+			"url": "https://es.wikipedia.org/wiki/Imperio_de_Palmira",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Palmyrene Empire",
+			"url": "https://en.wikipedia.org/wiki/Palmyrene_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

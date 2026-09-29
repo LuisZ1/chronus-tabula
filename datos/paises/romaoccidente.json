@@ -10,6 +10,14 @@
 			"tipo": "predecesor"
 		},
 		{
+			"id": "soissons",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "reino-odoacro",
+			"tipo": "sucesor_territorial"
+		},
+		{
 			"id": "vandalos",
 			"tipo": "sucesor_territorial"
 		}

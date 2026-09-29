@@ -1,0 +1,62 @@
+{
+	"id": "imperio-galo",
+	"nombre": "Imperio galo",
+	"nombres": [
+		"Gallic Empire"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Imperio galo",
+			"desde": 260,
+			"hasta": 274
+		}
+	],
+	"wiki": "Imperio galo",
+	"relacionados": [
+		"Imperio de las Galias",
+		"Imperium Galliarum"
+	],
+	"vinculos": [
+		{
+			"id": "roma",
+			"tipo": "antecesor_territorial",
+			"desde": 260,
+			"hasta": 274
+		}
+	],
+	"resena": "Estado surgido en 260, durante la crisis del siglo III, cuando el general Póstumo se proclamó emperador en la Galia tras el cautiverio de Valeriano. Llegó a gobernar la Galia, Germania, Britania e Hispania con instituciones romanas propias (cónsules, senado, guardia) y moneda en Tréveris y Colonia. Hispania volvió al Imperio hacia 269 y Aureliano lo reincorporó tras vencer a Tétrico en Châlons (274).",
+	"gobernantes": [
+		{
+			"nombre": "Póstumo",
+			"titulo": "Emperador galo",
+			"desde": 260,
+			"hasta": 269
+		},
+		{
+			"nombre": "Victorino",
+			"titulo": "Emperador galo",
+			"desde": 269,
+			"hasta": 271
+		},
+		{
+			"nombre": "Tétrico I",
+			"titulo": "Emperador galo, con su hijo Tétrico II como césar",
+			"desde": 271,
+			"hasta": 274
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Imperio galo",
+			"url": "https://es.wikipedia.org/wiki/Imperio_galo",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Gallic Empire",
+			"url": "https://en.wikipedia.org/wiki/Gallic_Empire",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

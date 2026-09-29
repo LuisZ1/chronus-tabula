@@ -1,0 +1,52 @@
+{
+	"id": "reino-odoacro",
+	"nombre": "Reino de Odoacro",
+	"nombres": [
+		"Kingdom of Odoacer"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino de Italia de Odoacro",
+			"desde": 476,
+			"hasta": 493
+		}
+	],
+	"wiki": "Odoacro",
+	"relacionados": [
+		"Odoacro",
+		"Reino de Italia (476-493)"
+	],
+	"vinculos": [
+		{
+			"id": "romaoccidente",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "ostrogodos",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Gobierno de Italia del jefe hérulo Odoacro, que depuso a Rómulo Augústulo el 4 de septiembre de 476 y envió las insignias imperiales a Constantinopla, reconociendo al emperador de Oriente. Obtuvo Sicilia de los vándalos (476) y Dalmacia tras la muerte de Julio Nepote (480). Teodorico y los ostrogodos lo vencieron y lo mataron en Rávena (493).",
+	"gobernantes": [
+		{
+			"nombre": "Odoacro",
+			"titulo": "Rey (rex) en Italia",
+			"desde": 476,
+			"hasta": 493
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Odoacro",
+			"url": "https://es.wikipedia.org/wiki/Odoacro",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Odoacer",
+			"url": "https://en.wikipedia.org/wiki/Odoacer",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}
