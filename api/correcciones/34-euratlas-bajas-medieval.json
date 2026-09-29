@@ -1,0 +1,232 @@
+{
+ "tema": "Bajas medievales de la revisión Euratlas: Panonia occidental franca en 800, Asturias y León hasta el Duero en 900 y 950, beylik de Osmán en 1300 (propuesta Euratlas siglos IX-X, B y C, y resumen)",
+ "mapas": {
+  "world_800.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Avars"
+      },
+      {
+       "feat": "Western Roman Empire",
+       "mapa": "world_400.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Avars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Carolingian Empire"
+    },
+    "motivo": "tras las campañas de 791-796 la Panonia al oeste del Danubio queda integrada en el reino franco como marca ávara (del Enns a la Rába, bajo el prefecto de Baviera); los príncipes ávaros que siguen allí, como el capcan Teodoro entre Carnuntum y Savaria, gobiernan como vasallos. Se toma como límite el Danubio del limes panonio del mapa de 400. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Avar_March"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Avars"
+    },
+    "poner": {
+     "SUBJECTO": "Carolingian Empire",
+     "PARTOF": "Carolingian Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el resto del kanato entre el Danubio y el Tisza (y los grupos que se retiran al este del Tisza en 796) queda como tributario del reino franco hasta su desaparición hacia 822; la Bulgaria de Krum le quita el sureste hacia 804. Se mantiene como entidad tributaria porque las fuentes no sostienen una ocupación franca efectiva al este del Danubio",
+    "fuente": "https://en.wikipedia.org/wiki/Avar_Wars"
+   }
+  ],
+  "world_900.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "y": [
+          {
+           "feat": "León",
+           "mapa": "world_1000.geojson"
+          },
+          {
+           "feat": "Castilla",
+           "mapa": "world_1000.geojson"
+          }
+         ]
+        },
+        {
+         "menos": [
+          {
+           "caja": [
+            -10.0,
+            38.0,
+            0.0,
+            44.5
+           ]
+          },
+          {
+           "caja": [
+            -4.3,
+            38.0,
+            0.0,
+            42.0
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         -3.25,
+         42.39
+        ],
+        [
+         -2.717,
+         42.42
+        ],
+        [
+         -2.717,
+         42.5
+        ],
+        [
+         -3.25,
+         42.5
+        ],
+        [
+         -3.25,
+         42.39
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Emirate of Córdoba"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Asturias",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "con Alfonso III (866-910) el reino llega al Duero: Oporto (868), Lamego y Viseo, Zamora (893) y la meseta leonesa. Se usa como contorno el León del mapa de 1000, cuyo sur sigue el Duero. En Castilla la frontera de 900 está aún en Burgos (884) y el Arlanza, y el Duero castellano (Roa, Osma) no se alcanza hasta 912, así que al este de 4,3° O se corta en 42° N. Frontera aproximada; Coímbra y el Mondego (878) quedan fuera por prudencia. Se añade la cuña del alto Ebro (Miranda) entre el Asturias del mapa base y el contorno de 1000, que dejaba una astilla cordobesa",
+    "fuente": "https://en.wikipedia.org/wiki/Alfonso_III_of_Asturias"
+   }
+  ],
+  "world_950.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "feat": "León",
+       "mapa": "world_1000.geojson"
+      },
+      {
+       "feat": "Castilla",
+       "mapa": "world_1000.geojson"
+      },
+      {
+       "pol": [
+        [
+         -3.25,
+         42.39
+        ],
+        [
+         -2.717,
+         42.42
+        ],
+        [
+         -2.717,
+         42.5
+        ],
+        [
+         -3.25,
+         42.5
+        ],
+        [
+         -3.25,
+         42.39
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Caliphate of Córdoba"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "León",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 950 el reino de León, con el condado de Castilla, llega a la línea del Duero: Zamora (893), Toro (hacia 910), Roa y Osma (912) y Simancas (939). Contorno de León y Castilla del mapa de 1000. Frontera aproximada. Se añade la cuña del alto Ebro (Miranda) que el contorno de 1000 deja a Navarra",
+    "fuente": "https://en.wikipedia.org/wiki/Zamora,_Spain"
+   }
+  ],
+  "world_1300.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "pol": [
+      [
+       29.35,
+       40.3
+      ],
+      [
+       29.9,
+       40.35
+      ],
+      [
+       30.5,
+       40.25
+      ],
+      [
+       31.0,
+       40.0
+      ],
+      [
+       31.0,
+       39.55
+      ],
+      [
+       30.3,
+       39.45
+      ],
+      [
+       29.6,
+       39.65
+      ],
+      [
+       29.35,
+       40.0
+      ],
+      [
+       29.35,
+       40.3
+      ]
+     ]
+    },
+    "desde": [
+     "Byzantine Empire",
+     "Sultanate of Rum"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Ottoman beylik",
+     "SUBJECTO": "Ottoman beylik",
+     "PARTOF": "Ottoman beylik",
+     "ABBREVN": "Ottomans",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "hacia 1299-1300 Osmán gobierna un pequeño beylik en torno a Söğüt, en Bitinia, con Karacahisar, Bilecik, Yenişehir, İnegöl y Yarhisar; Bursa y Nicea siguen siendo bizantinas. Polígono aproximado entre İnegöl, Yenişehir, Bilecik, Söğüt y Eskişehir",
+    "fuente": "https://en.wikipedia.org/wiki/Osman_I"
+   }
+  ]
+ }
+}
