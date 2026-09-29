@@ -40,7 +40,9 @@ GEOJSON = os.path.join(RAIZ, "web", "data", "geojson")
 YEARS = os.path.join(RAIZ, "web", "data", "years.json")
 CONFLICTOS = os.path.join(RAIZ, "datos", "conflictos")
 TINTAS = ["#eaa39b", "#f1d06e", "#a9d18e", "#f2b27a", "#bda6d8", "#9cc7e0", "#d8b48a", "#b3d3c1",
-          "#df8f86", "#e6bf52", "#93c077", "#e89e5f", "#a78fc9", "#84b5d3", "#c9a072", "#98c2ab"]  # TINTAS_MAPA (web/js/nucleo.js)
+          "#eba8c4", "#8ed3cd", "#aab3e8", "#d2dc8a", "#cfc6b6",
+          "#df8f86", "#e6bf52", "#93c077", "#e89e5f", "#a78fc9", "#84b5d3", "#c9a072", "#98c2ab",
+          "#dc8cae", "#6fbfb8", "#8e99da", "#b9c66a", "#b5ab97"]  # TINTAS_MAPA (web/js/nucleo.js)
 COLORES = os.path.join(RAIZ, "web", "data", "colores.json")
 
 
