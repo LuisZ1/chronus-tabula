@@ -72,7 +72,14 @@ async function init() {
 	document.getElementById('langSelect').value = i18n.lang;
 	montarMenuIdioma();
 
-	state.years = (await (await fetch('data/years.json')).json()).sort((a, b) => a - b);
+	const [anios, colores] = await Promise.all([
+		fetch('data/years.json').then(r => r.json()),
+		fetch('data/colores.json')
+			.then(r => (r.ok ? r.json() : {}))
+			.catch(() => ({})) // sin el fichero, colores por hash (algunas vecinas pueden coincidir)
+	]);
+	COLORES = colores;
+	state.years = anios.sort((a, b) => a - b);
 	LAST_MAP_YEAR = state.years[state.years.length - 1];
 	// años modernos navegables (reproducción y botones ◀ ▶); usan el último mapa
 	for (const vy of [2014, 2020, 2022, MAX_YEAR]) if (!state.years.includes(vy)) state.years.push(vy);

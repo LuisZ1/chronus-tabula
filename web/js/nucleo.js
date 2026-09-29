@@ -9,6 +9,7 @@
 const state = {
 	years: [], // años con datos, ordenados
 	shownYear: null, // snapshot actualmente dibujado
+	colorYear: null, // año del mapa cuyos colores (data/colores.json) se aplican
 	requestedYear: 1492, // año exacto elegido por el usuario (no el del snapshot)
 	layer: null, // capa GeoJSON activa
 	cache: new Map(), // año -> GeoJSON (máx. CACHE_MAX entradas)
@@ -88,13 +89,18 @@ function fileForYear(y) {
 }
 
 /* tintas del mapa mural (css/marca.css): ocho colores planos de lámina, cada uno
-   en dos tonos, repartidos por hash del nombre. Así una entidad conserva su color
-   en todos los años y dos vecinas rara vez coinciden. */
+   en dos tonos (índices i e i+8), repartidos por hash del nombre. Así una entidad
+   conserva su color en todos los años. Para que dos vecinas no coincidan,
+   api/colorear.py genera data/colores.json con las excepciones de cada mapa
+   ({año: {clave: índice}}), que se cargan al arrancar (js/arranque.js). */
 const TINTAS_MAPA = [
 	'#eaa39b', '#f1d06e', '#a9d18e', '#f2b27a', '#bda6d8', '#9cc7e0', '#d8b48a', '#b3d3c1',
 	'#df8f86', '#e6bf52', '#93c077', '#e89e5f', '#a78fc9', '#84b5d3', '#c9a072', '#98c2ab'
 ];
-function colorFor(name) {
+let COLORES = {}; // año de mapa -> { clave: índice en TINTAS_MAPA } (data/colores.json)
+function colorFor(name, anio = state.colorYear) {
+	const exc = COLORES[anio];
+	if (exc && Object.prototype.hasOwnProperty.call(exc, name)) return TINTAS_MAPA[exc[name]];
 	let h = 0;
 	for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
 	return TINTAS_MAPA[h % TINTAS_MAPA.length];

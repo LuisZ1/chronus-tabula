@@ -39,7 +39,9 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOJSON = os.path.join(RAIZ, "web", "data", "geojson")
 YEARS = os.path.join(RAIZ, "web", "data", "years.json")
 CONFLICTOS = os.path.join(RAIZ, "datos", "conflictos")
-TINTAS = ["#eaa39b", "#f1d06e", "#a9d18e", "#f2b27a", "#bda6d8", "#9cc7e0", "#d8b48a", "#b3d3c1"]
+TINTAS = ["#eaa39b", "#f1d06e", "#a9d18e", "#f2b27a", "#bda6d8", "#9cc7e0", "#d8b48a", "#b3d3c1",
+          "#df8f86", "#e6bf52", "#93c077", "#e89e5f", "#a78fc9", "#84b5d3", "#c9a072", "#98c2ab"]  # TINTAS_MAPA (web/js/nucleo.js)
+COLORES = os.path.join(RAIZ, "web", "data", "colores.json")
 
 
 def mapa_del_anio(y):
@@ -53,10 +55,19 @@ def mapa_del_anio(y):
     return elegido, os.path.join(GEOJSON, fn)
 
 
-def color(nombre):
+def color(nombre, anio=None):
+    """El color que usa la web: excepción de data/colores.json para ese mapa o, si no, hash."""
+    if anio is not None:
+        try:
+            with open(COLORES, encoding="utf-8") as f:
+                exc = json.load(f).get(str(anio), {})
+            if nombre in exc:
+                return TINTAS[exc[nombre]]
+        except (OSError, ValueError):
+            pass
     h = 0
-    for c in nombre or "?":
-        h = (h * 31 + ord(c)) & 0xFFFFFFFF
+    for u in range(0, len((nombre or "?").encode("utf-16-le")), 2):
+        h = (h * 31 + int.from_bytes((nombre or "?").encode("utf-16-le")[u:u + 2], "little")) & 0xFFFFFFFF
     return TINTAS[h % len(TINTAS)]
 
 
@@ -97,7 +108,7 @@ def main():
         nombre = ft["properties"].get("NAME")
         if nombre:
             borde = "#b8291c" if nombre in resaltar else "#3a4450"
-            pintar(ax, g, fc=color(ft["properties"].get("SUBJECTO") or nombre), ec=borde,
+            pintar(ax, g, fc=color(ft["properties"].get("SUBJECTO") or nombre, mapa_anio), ec=borde,
                    lw=2 if nombre in resaltar else 0.5, alpha=0.85)
             vis = g.intersection(marco)
             if not vis.is_empty and vis.area > (caja[2] - caja[0]) * (caja[3] - caja[1]) * 0.004:
