@@ -1,0 +1,156 @@
+{
+ "tema": "Siglos IX-X: conquista húngara de la cuenca de los Cárpatos (895-900) y pechenegos en Etelköz (propuesta Euratlas siglos IX-X, A)",
+ "mapas": {
+  "world_900.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "feat": "Magyars",
+       "mapa": "world_1000.geojson"
+      },
+      {
+       "feat": "Western Roman Empire",
+       "mapa": "world_400.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Slavic tribes"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Magyars",
+     "SUBJECTO": "Magyars",
+     "PARTOF": "Magyars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "los magiares cruzan los Cárpatos en 894-895 y dominan primero la llanura al este del Danubio (el Tisza y Transilvania). Se usa como contorno la Hungría del mapa de 1000 sin la Panonia al oeste del Danubio (tomada del limes de la Panonia romana del mapa de 400), que no ocupan hasta 900 y en 896-900 era aún franca (Braslav) o morava; tampoco se toca la Gran Moravia, que dura hasta 902-906. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "menos": [
+        {
+         "feat": "Magyars"
+        },
+        {
+         "feat": "Magyars",
+         "mapa": "world_1000.geojson"
+        }
+       ]
+      },
+      {
+       "feat": "Magyars",
+       "mapa": "world_900.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Magyars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Pechenegs",
+     "SUBJECTO": "Pechenegs",
+     "PARTOF": "Pechenegs",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Etelköz (entre el Dniéper, el Dniéster, el Prut y el Siret), que los magiares abandonan hacia 895 ante el ataque pechenego, pasa a los pechenegos; hacia 950 su país llega por el oeste hasta el Siret o los Cárpatos orientales. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Pechenegs"
+   },
+   {
+    "op": "recortar",
+    "de": "Slavic tribes",
+    "motivo": "los eslavos del Elba de la capa «Slavic tribes» solapaban con Francia Oriental (el mismo recorte que en el mapa de 950)",
+    "fuente": "https://en.wikipedia.org/wiki/Polabian_Slavs"
+   }
+  ],
+  "world_950.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "feat": "Magyars",
+     "mapa": "world_1000.geojson"
+    },
+    "desde": [
+     "Slavic tribes"
+    ],
+    "libre": true,
+    "props": {
+     "NAME": "Magyars",
+     "SUBJECTO": "Magyars",
+     "PARTOF": "Magyars",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 950 los húngaros dominan toda la cuenca de los Cárpatos: la llanura del Tisza y Transilvania (895) y Panonia (900-907, tras el fin de Moravia y la batalla de Presburgo). Contorno de la Hungría del mapa de 1000. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "feat": "Slavic tribes"
+      },
+      {
+       "caja": [
+        15.9,
+        46.5,
+        17.0,
+        48.0
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Slavic tribes"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Magyars"
+    },
+    "motivo": "resto de «Slavic tribes» entre Francia Oriental y la Hungría del mapa de 1000 (este de Estiria y Burgenland): tras la batalla de Presburgo (907) la frontera húngara llega al Enns, así que en 950 es tierra húngara. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "n": [
+      {
+       "menos": [
+        {
+         "feat": "Magyars"
+        },
+        {
+         "feat": "Magyars",
+         "mapa": "world_1000.geojson"
+        }
+       ]
+      },
+      {
+       "feat": "Magyars",
+       "mapa": "world_900.geojson"
+      }
+     ]
+    },
+    "desde": [
+     "Magyars"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Pechenegs",
+     "SUBJECTO": "Pechenegs",
+     "PARTOF": "Pechenegs",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Etelköz es pechenega desde 895: Constantino Porfirogéneta (c. 950) sitúa el oeste de Patzinakia en el Siret o los Cárpatos orientales. Frontera aproximada",
+    "fuente": "https://en.wikipedia.org/wiki/Pechenegs"
+   }
+  ]
+ }
+}

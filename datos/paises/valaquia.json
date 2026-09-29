@@ -1,0 +1,43 @@
+{
+	"id": "valaquia",
+	"nombre": "Principado de Valaquia",
+	"nombres": [
+		"Principality of Wallachia"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Principado de Valaquia",
+			"desde": 1330,
+			"hasta": 1859,
+			"wiki": "Principado de Valaquia"
+		}
+	],
+	"wiki": "Principado de Valaquia",
+	"vinculos": [
+		{
+			"id": "rumania",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "otomano",
+			"tipo": "parte_de",
+			"desde": 1417,
+			"hasta": 1859
+		}
+	],
+	"resena": "Principado rumano entre los Cárpatos Meridionales y el Danubio, con capital en Târgoviște y después en Bucarest. Desde 1417 pagó tributo al sultán y fue vasallo del Imperio otomano, pero conservó a sus propios voivodas, su nobleza y sus leyes; solo algunas plazas del Danubio (Turnu, Giurgiu y, desde mediados del siglo XVI, Brăila) eran otomanas. Miguel el Valiente lo unió por unos meses de 1600 con Transilvania y Moldavia. En 1859 se unió a Moldavia en los Principados Unidos, origen de Rumanía.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Principado de Valaquia",
+			"url": "https://es.wikipedia.org/wiki/Principado_de_Valaquia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Principality of Wallachia",
+			"url": "https://en.wikipedia.org/wiki/Principality_of_Wallachia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

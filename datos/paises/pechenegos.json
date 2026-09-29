@@ -1,0 +1,43 @@
+{
+	"id": "pechenegos",
+	"nombre": "Pechenegos",
+	"nombres": [
+		"Pechenegs"
+	],
+	"wiki": "Pechenegos",
+	"vinculos": [
+		{
+			"id": "hungria",
+			"tipo": "antecesor_territorial"
+		}
+	],
+	"resena": "Confederación de tribus nómadas de lengua túrquica de las estepas póntico-caspias. Empujados hacia el oeste por los jázaros y otros pueblos de la estepa a finales del siglo IX, atacaron a los magiares hacia 895 y ocuparon Etelköz, entre el Dniéper y el Siret. Desde allí dominaron la estepa del norte del mar Negro durante el siglo X, alternando alianzas y guerras con Bizancio, la Rus de Kiev y Bulgaria; su kan Kurya dio muerte a Sviatoslav I de Kiev en 972. Bizantinos y cumanos los aniquilaron en la batalla de Levounion (1091).",
+	"gobernantes": [
+		{
+			"nombre": "Kurya",
+			"titulo": "Kan de los pechenegos",
+			"desde": 972,
+			"hasta": 972
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Pechenegos",
+			"url": "https://es.wikipedia.org/wiki/Pechenegos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Pechenegs",
+			"url": "https://en.wikipedia.org/wiki/Pechenegs",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Etelköz",
+			"url": "https://en.wikipedia.org/wiki/Etelk%C3%B6z",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

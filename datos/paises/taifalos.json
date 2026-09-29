@@ -1,0 +1,23 @@
+{
+	"id": "taifalos",
+	"nombre": "Taifalos",
+	"nombres": [
+		"Taifals"
+	],
+	"wiki": "Taifalos",
+	"resena": "Pueblo aliado de los tervingios desde 291, asentado en Oltenia, al oeste del Olt. Su caballería luchó contra Constantino II en 332. Cruzó el Danubio en 377 y fue derrotado ese mismo año. Roma asentó a los vencidos como colonos en el norte de Italia y en Aquitania, donde la región de Poitou llegó a llamarse Thifalia.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Taifalos",
+			"url": "https://es.wikipedia.org/wiki/Taifalos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Taifals",
+			"url": "https://en.wikipedia.org/wiki/Taifals",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

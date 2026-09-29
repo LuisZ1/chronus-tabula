@@ -1,0 +1,29 @@
+{
+	"id": "lugios",
+	"nombre": "Lugios",
+	"nombres": [
+		"Lugii"
+	],
+	"wiki": "en:Lugii",
+	"vinculos": [
+		{
+			"id": "pueblos-germanicos",
+			"tipo": "parte_de"
+		}
+	],
+	"resena": "Gran confederación de pueblos entre el Óder y el Vístula, al norte de los Sudetes y los Cárpatos, citada por Estrabón, Tácito y Ptolomeo entre los siglos I y II. Se identifica con la cultura arqueológica de Przeworsk y se ha relacionado con los vándalos; su nombre desaparece de las fuentes en el siglo III.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Lugii",
+			"url": "https://en.wikipedia.org/wiki/Lugii",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Przeworsk culture",
+			"url": "https://en.wikipedia.org/wiki/Przeworsk_culture",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

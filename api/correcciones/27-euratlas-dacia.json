@@ -1,0 +1,996 @@
+{
+	"tema": "Dacia 271-363: carpos, taifalos y tervingios en la tierra sin datos entre el Tisza, el Danubio y el Dniéster (propuesta Euratlas siglos I-VI, C)",
+	"mapas": {
+		"world_271.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"n": [
+						{
+							"caja": [
+								21.0,
+								43.5,
+								30.8,
+								48.7
+							]
+						},
+						{
+							"pol": [
+								[
+									25.9,
+									48.7
+								],
+								[
+									26.07,
+									47.95
+								],
+								[
+									26.72,
+									47.25
+								],
+								[
+									26.95,
+									46.75
+								],
+								[
+									26.93,
+									46.5
+								],
+								[
+									27.18,
+									46.1
+								],
+								[
+									27.23,
+									45.88
+								],
+								[
+									27.6,
+									45.6
+								],
+								[
+									27.98,
+									45.4
+								],
+								[
+									27.98,
+									44.5
+								],
+								[
+									30.5,
+									44.5
+								],
+								[
+									30.5,
+									48.7
+								],
+								[
+									25.9,
+									48.7
+								]
+							]
+						},
+						{
+							"feat": "Romania",
+							"mapa": "world_2010.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Carpi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "carpos, pueblo dacio libre de Moldavia entre el Siret y el Prut, al este de los Cárpatos; Aureliano los vence en 272, Diocleciano y Galerio en 296-303 y Constantino en 317-318, tras lo cual las fuentes ya no los mencionan porque Roma los trasladó a sus provincias. Límite oeste por el Siret (trazado aproximado) y este por el Prut (frontera actual de Rumanía con Moldavia); tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Carpi_(people)"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Goths",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tras el abandono de la Dacia por Aureliano (271-275) llegan los godos a Valaquia, Moldavia y el sur de Transilvania; los que viven al oeste del Dniéster aparecen como tervingios desde 291. Se amplía «Goths» (tanda 21) a la tierra sin datos entre el Tisza, el Danubio y el Dniéster; límite occidental (Banat) incierto",
+				"fuente": "https://en.wikipedia.org/wiki/History_of_Transylvania"
+			}
+		],
+		"world_275.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"n": [
+						{
+							"caja": [
+								21.0,
+								43.5,
+								30.8,
+								48.7
+							]
+						},
+						{
+							"pol": [
+								[
+									25.9,
+									48.7
+								],
+								[
+									26.07,
+									47.95
+								],
+								[
+									26.72,
+									47.25
+								],
+								[
+									26.95,
+									46.75
+								],
+								[
+									26.93,
+									46.5
+								],
+								[
+									27.18,
+									46.1
+								],
+								[
+									27.23,
+									45.88
+								],
+								[
+									27.6,
+									45.6
+								],
+								[
+									27.98,
+									45.4
+								],
+								[
+									27.98,
+									44.5
+								],
+								[
+									30.5,
+									44.5
+								],
+								[
+									30.5,
+									48.7
+								],
+								[
+									25.9,
+									48.7
+								]
+							]
+						},
+						{
+							"feat": "Romania",
+							"mapa": "world_2010.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Carpi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "carpos, pueblo dacio libre de Moldavia entre el Siret y el Prut, al este de los Cárpatos; Aureliano los vence en 272, Diocleciano y Galerio en 296-303 y Constantino en 317-318, tras lo cual las fuentes ya no los mencionan porque Roma los trasladó a sus provincias. Límite oeste por el Siret (trazado aproximado) y este por el Prut (frontera actual de Rumanía con Moldavia); tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Carpi_(people)"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Goths",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tras el abandono de la Dacia por Aureliano (271-275) llegan los godos a Valaquia, Moldavia y el sur de Transilvania; los que viven al oeste del Dniéster aparecen como tervingios desde 291. Se amplía «Goths» (tanda 21) a la tierra sin datos entre el Tisza, el Danubio y el Dniéster; límite occidental (Banat) incierto",
+				"fuente": "https://en.wikipedia.org/wiki/History_of_Transylvania"
+			}
+		],
+		"world_300.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"n": [
+						{
+							"caja": [
+								21.0,
+								43.5,
+								30.8,
+								48.7
+							]
+						},
+						{
+							"pol": [
+								[
+									25.9,
+									48.7
+								],
+								[
+									26.07,
+									47.95
+								],
+								[
+									26.72,
+									47.25
+								],
+								[
+									26.95,
+									46.75
+								],
+								[
+									26.93,
+									46.5
+								],
+								[
+									27.18,
+									46.1
+								],
+								[
+									27.23,
+									45.88
+								],
+								[
+									27.6,
+									45.6
+								],
+								[
+									27.98,
+									45.4
+								],
+								[
+									27.98,
+									44.5
+								],
+								[
+									30.5,
+									44.5
+								],
+								[
+									30.5,
+									48.7
+								],
+								[
+									25.9,
+									48.7
+								]
+							]
+						},
+						{
+							"feat": "Romania",
+							"mapa": "world_2010.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Carpi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "carpos, pueblo dacio libre de Moldavia entre el Siret y el Prut, al este de los Cárpatos; Aureliano los vence en 272, Diocleciano y Galerio en 296-303 y Constantino en 317-318, tras lo cual las fuentes ya no los mencionan porque Roma los trasladó a sus provincias. Límite oeste por el Siret (trazado aproximado) y este por el Prut (frontera actual de Rumanía con Moldavia); tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Carpi_(people)"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		],
+		"world_324.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		],
+		"world_337.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		],
+		"world_340.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		],
+		"world_350.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		],
+		"world_353.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		],
+		"world_363.geojson": [
+			{
+				"op": "asignar",
+				"region": {
+					"menos": [
+						{
+							"n": [
+								{
+									"caja": [
+										21.0,
+										43.5,
+										30.8,
+										48.7
+									]
+								},
+								{
+									"pol": [
+										[
+											24.3,
+											46.2
+										],
+										[
+											24.3,
+											45.58
+										],
+										[
+											24.37,
+											45.1
+										],
+										[
+											24.26,
+											44.66
+										],
+										[
+											24.37,
+											44.43
+										],
+										[
+											24.6,
+											44.0
+										],
+										[
+											24.87,
+											43.72
+										],
+										[
+											24.87,
+											43.3
+										],
+										[
+											21.0,
+											43.3
+										],
+										[
+											21.0,
+											46.2
+										],
+										[
+											24.3,
+											46.2
+										]
+									]
+								}
+							]
+						},
+						{
+							"feat": "Austria Hungary",
+							"mapa": "world_1880.geojson"
+						}
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Taifals",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "taifalos, aliados de los tervingios desde 291, en Oltenia: al oeste del Olt (trazado aproximado), entre el Danubio y los Cárpatos Meridionales (frontera de Rumanía con Austria-Hungría en el mapa de 1880); cruzan el Danubio en 376-377; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Taifals"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"caja": [
+						21.0,
+						43.5,
+						30.8,
+						48.7
+					]
+				},
+				"desde": [],
+				"libre": true,
+				"props": {
+					"NAME": "Tervingi",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "tervingios, godos de las llanuras al norte del bajo Danubio y al oeste del Dniéster (Valaquia, Moldavia y sur de Transilvania, cultura de Sântana de Mureș-Cherniajov): tratado con Constantino en 332, guerra con Valente en 367-369 y paso del Danubio en 376 ante los hunos; se separan de los greutungos («Goths», al este del Dniéster); límite occidental (Banat) incierto; tierra sin datos",
+				"fuente": "https://en.wikipedia.org/wiki/Thervingi"
+			}
+		]
+	}
+}

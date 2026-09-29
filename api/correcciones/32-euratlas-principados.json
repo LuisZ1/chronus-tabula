@@ -1,0 +1,2166 @@
+{
+ "tema": "Euratlas, propuesta media C (siglos XVI-XVII): Valaquia, Moldavia y Transilvania (reino húngaro oriental hasta 1570) como principados vasallos del Imperio otomano en 1500, 1530, 1580, 1600 y 1650, no como provincias",
+ "mapas": {
+  "world_1500.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          21.9,
+          43.5,
+          28.3,
+          46.3
+         ]
+        }
+       ]
+      },
+      {
+       "feat": "Imperial Hungary",
+       "mapa": "world_1500.geojson"
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         27.2,
+         43.5
+        ],
+        [
+         27.25,
+         44.1
+        ],
+        [
+         27.55,
+         44.15
+        ],
+        [
+         27.85,
+         44.2
+        ],
+        [
+         28.02,
+         44.33
+        ],
+        [
+         27.98,
+         44.5
+        ],
+        [
+         27.94,
+         44.7
+        ],
+        [
+         28.0,
+         44.95
+        ],
+        [
+         28.08,
+         45.15
+        ],
+        [
+         28.12,
+         45.3
+        ],
+        [
+         28.07,
+         45.46
+        ],
+        [
+         28.7,
+         45.6
+        ],
+        [
+         28.75,
+         45.24
+        ],
+        [
+         29.0,
+         45.22
+        ],
+        [
+         29.7,
+         45.15
+        ],
+        [
+         30.2,
+         45.0
+        ],
+        [
+         30.2,
+         43.5
+        ],
+        [
+         27.2,
+         43.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Wallachia",
+     "ABBREVN": "Wallachia",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valaquia no era una provincia otomana sino un principado propio, vasallo y tributario del sultán desde 1417, con sus voivodas y su boyardía; solo las cabezas de puente de Turnu y Giurgiu (y Brăila desde 1540-1545) eran rayas otomanas, que por su tamaño no se separan. Límites: Danubio (frontera actual de Rumanía con Bulgaria y Serbia), Cárpatos Meridionales (frontera del Reino de Hungría, «Imperial Hungary», del original de world_1500, la misma que usa Moldavia en 24-euratlas-moldavia.json), Milcov-Siret (región «Moldavia histórica») y el brazo principal del Danubio frente a la Dobrucha, que sigue otomana; trazado aproximado. En 1500 gobierna Radu IV el Grande (1495-1508).",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Wallachia"
+   }
+  ],
+  "world_1530.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          21.9,
+          43.5,
+          28.3,
+          46.3
+         ]
+        }
+       ]
+      },
+      {
+       "feat": "Imperial Hungary",
+       "mapa": "world_1500.geojson"
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         27.2,
+         43.5
+        ],
+        [
+         27.25,
+         44.1
+        ],
+        [
+         27.55,
+         44.15
+        ],
+        [
+         27.85,
+         44.2
+        ],
+        [
+         28.02,
+         44.33
+        ],
+        [
+         27.98,
+         44.5
+        ],
+        [
+         27.94,
+         44.7
+        ],
+        [
+         28.0,
+         44.95
+        ],
+        [
+         28.08,
+         45.15
+        ],
+        [
+         28.12,
+         45.3
+        ],
+        [
+         28.07,
+         45.46
+        ],
+        [
+         28.7,
+         45.6
+        ],
+        [
+         28.75,
+         45.24
+        ],
+        [
+         29.0,
+         45.22
+        ],
+        [
+         29.7,
+         45.15
+        ],
+        [
+         30.2,
+         45.0
+        ],
+        [
+         30.2,
+         43.5
+        ],
+        [
+         27.2,
+         43.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Wallachia",
+     "ABBREVN": "Wallachia",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valaquia no era una provincia otomana sino un principado propio, vasallo y tributario del sultán desde 1417, con sus voivodas y su boyardía; solo las cabezas de puente de Turnu y Giurgiu (y Brăila desde 1540-1545) eran rayas otomanas, que por su tamaño no se separan. Límites: Danubio (frontera actual de Rumanía con Bulgaria y Serbia), Cárpatos Meridionales (frontera del Reino de Hungría, «Imperial Hungary», del original de world_1500, la misma que usa Moldavia en 24-euratlas-moldavia.json), Milcov-Siret (región «Moldavia histórica») y el brazo principal del Danubio frente a la Dobrucha, que sigue otomana; trazado aproximado. En 1530 gobierna Moise (1529-1530) y después Vlad VI Înecatul.",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Wallachia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          22.0,
+          47.6,
+          26.6,
+          49.7
+         ]
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         22.0,
+         47.3
+        ],
+        [
+         22.0,
+         48.9
+        ],
+        [
+         22.86,
+         49.0
+        ],
+        [
+         23.08,
+         48.85
+        ],
+        [
+         23.6,
+         48.7
+        ],
+        [
+         24.0,
+         48.5
+        ],
+        [
+         24.5,
+         48.3
+        ],
+        [
+         24.6,
+         48.15
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         24.9,
+         47.3
+        ],
+        [
+         22.0,
+         47.3
+        ]
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         24.85,
+         47.7
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         25.0,
+         48.1
+        ],
+        [
+         25.18,
+         48.26
+        ],
+        [
+         25.35,
+         48.45
+        ],
+        [
+         25.95,
+         48.45
+        ],
+        [
+         25.95,
+         47.7
+        ],
+        [
+         24.85,
+         47.7
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Poland-Llituania"
+    },
+    "motivo": "Pocutia (Kolomyia, Sniatyn, Kosiv), entre el Dniéster y el Ceremuș, al norte de Moldavia, era polaca, no otomana: Moldavia la tuvo en prenda o la ocupó desde 1388 y 1485, pero Polonia conservó la soberanía y la recuperó en la batalla de Obertyn (22-8-1531) frente a Petru Rareș; tampoco era otomana la vertiente norte de los Cárpatos Orientales (Galitzia, voivodato de Rutenia). Se da a Polonia-Lituania la parte de la actual Ucrania al norte de la divisoria de los Cárpatos (paso de Verecke, Hoverla) y al noroeste del Ceremuș, fuera de la región de Moldavia; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Pokuttia · https://en.wikipedia.org/wiki/Battle_of_Obertyn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+         "nombre": "Moldavia histórica"
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "caja": [
+          28.1,
+          45.25,
+          28.55,
+          45.5
+         ]
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "ABBREVN": "Moldova",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Moldavia seguía siendo un Estado propio, vasallo y tributario del Imperio otomano (desde 1498), no una provincia: en 1530 reina Petru Rareș (1527-1538 y 1541-1546), que pierde Tighina (Bender) y el Budjak ante Solimán en 1538. Se usa el mismo contorno que en world_1500 (24-euratlas-moldavia.json: Cárpatos, Dniéster, Milcov-Siret, Danubio en Reni y Galați), que deja fuera el Budjak y Tighina; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Moldavia · https://en.wikipedia.org/wiki/Budjak"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           24.85,
+           47.7
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           25.0,
+           48.1
+          ],
+          [
+           25.18,
+           48.26
+          ],
+          [
+           25.35,
+           48.45
+          ],
+          [
+           25.95,
+           48.45
+          ],
+          [
+           25.95,
+           47.7
+          ],
+          [
+           24.85,
+           47.7
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova"
+    },
+    "motivo": "el alto Ceremuș y el Suceava (Putila, Seliatyn), en la Bucovina montañosa al sureste del Ceremuș, eran moldavos y no otomanos; el mapa base los deja fuera de la región de Moldavia porque allí seguía la frontera húngara de world_1500; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bukovina · https://en.wikipedia.org/wiki/Pokuttia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           22.0,
+           47.3
+          ],
+          [
+           22.0,
+           48.9
+          ],
+          [
+           22.86,
+           49.0
+          ],
+          [
+           23.08,
+           48.85
+          ],
+          [
+           23.6,
+           48.7
+          ],
+          [
+           24.0,
+           48.5
+          ],
+          [
+           24.5,
+           48.3
+          ],
+          [
+           24.6,
+           48.15
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           24.9,
+           47.3
+          ],
+          [
+           22.0,
+           47.3
+          ]
+         ]
+        },
+        {
+         "caja": [
+          23.1,
+          47.6,
+          25.0,
+          49.5
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Eastern Hungarian Kingdom",
+     "ABBREVN": "E. Hungary",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "en 1530 Transilvania no era una provincia otomana: formaba parte del reino de Hungría de Juan Zápolya (1526-1540), que en 1529 juró fidelidad al sultán Solimán; tras la toma de Buda (1541) su hijo Juan Segismundo conservó Transilvania, el Partium y hasta 1552 el Banato, lo que los historiadores llaman reino húngaro oriental (1526-1570), vasallo del Imperio otomano. Se pinta el núcleo que el reino conservó hasta 1570: Transilvania, el Partium y el Banato rumano (Reino de Hungría del original de world_1500 dentro de la Rumanía actual, más el Máramaros del alto Tisza en la actual Ucrania); la Hungría central y la del Tisza, que en 1530 también eran de Zápolya o de Fernando de Habsburgo, no se tocan aquí; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Eastern_Hungarian_Kingdom"
+   }
+  ],
+  "world_1580.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          21.9,
+          43.5,
+          28.3,
+          46.3
+         ]
+        }
+       ]
+      },
+      {
+       "feat": "Imperial Hungary",
+       "mapa": "world_1500.geojson"
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         27.2,
+         43.5
+        ],
+        [
+         27.25,
+         44.1
+        ],
+        [
+         27.55,
+         44.15
+        ],
+        [
+         27.85,
+         44.2
+        ],
+        [
+         28.02,
+         44.33
+        ],
+        [
+         27.98,
+         44.5
+        ],
+        [
+         27.94,
+         44.7
+        ],
+        [
+         28.0,
+         44.95
+        ],
+        [
+         28.08,
+         45.15
+        ],
+        [
+         28.12,
+         45.3
+        ],
+        [
+         28.07,
+         45.46
+        ],
+        [
+         28.7,
+         45.6
+        ],
+        [
+         28.75,
+         45.24
+        ],
+        [
+         29.0,
+         45.22
+        ],
+        [
+         29.7,
+         45.15
+        ],
+        [
+         30.2,
+         45.0
+        ],
+        [
+         30.2,
+         43.5
+        ],
+        [
+         27.2,
+         43.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Wallachia",
+     "ABBREVN": "Wallachia",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valaquia no era una provincia otomana sino un principado propio, vasallo y tributario del sultán desde 1417, con sus voivodas y su boyardía; solo las cabezas de puente de Turnu y Giurgiu (y Brăila desde 1540-1545) eran rayas otomanas, que por su tamaño no se separan. Límites: Danubio (frontera actual de Rumanía con Bulgaria y Serbia), Cárpatos Meridionales (frontera del Reino de Hungría, «Imperial Hungary», del original de world_1500, la misma que usa Moldavia en 24-euratlas-moldavia.json), Milcov-Siret (región «Moldavia histórica») y el brazo principal del Danubio frente a la Dobrucha, que sigue otomana; trazado aproximado. En 1580 gobierna Mihnea II Turcitul.",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Wallachia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          22.0,
+          47.6,
+          26.6,
+          49.7
+         ]
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         22.0,
+         47.3
+        ],
+        [
+         22.0,
+         48.9
+        ],
+        [
+         22.86,
+         49.0
+        ],
+        [
+         23.08,
+         48.85
+        ],
+        [
+         23.6,
+         48.7
+        ],
+        [
+         24.0,
+         48.5
+        ],
+        [
+         24.5,
+         48.3
+        ],
+        [
+         24.6,
+         48.15
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         24.9,
+         47.3
+        ],
+        [
+         22.0,
+         47.3
+        ]
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         24.85,
+         47.7
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         25.0,
+         48.1
+        ],
+        [
+         25.18,
+         48.26
+        ],
+        [
+         25.35,
+         48.45
+        ],
+        [
+         25.95,
+         48.45
+        ],
+        [
+         25.95,
+         47.7
+        ],
+        [
+         24.85,
+         47.7
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Poland-Llituania"
+    },
+    "motivo": "Pocutia (Kolomyia, Sniatyn, Kosiv), entre el Dniéster y el Ceremuș, al norte de Moldavia, era polaca, no otomana: Moldavia la tuvo en prenda o la ocupó desde 1388 y 1485, pero Polonia conservó la soberanía y la recuperó en la batalla de Obertyn (22-8-1531) frente a Petru Rareș; tampoco era otomana la vertiente norte de los Cárpatos Orientales (Galitzia, voivodato de Rutenia). Se da a Polonia-Lituania la parte de la actual Ucrania al norte de la divisoria de los Cárpatos (paso de Verecke, Hoverla) y al noroeste del Ceremuș, fuera de la región de Moldavia; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Pokuttia · https://en.wikipedia.org/wiki/Battle_of_Obertyn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+         "nombre": "Moldavia histórica"
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "caja": [
+          28.1,
+          45.25,
+          28.55,
+          45.5
+         ]
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "ABBREVN": "Moldova",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Moldavia seguía siendo un Estado propio, vasallo y tributario del Imperio otomano (desde 1498), no una provincia: en 1580 reina Iancu Sasul (1579-1582). Se usa el mismo contorno que en world_1500 (24-euratlas-moldavia.json: Cárpatos, Dniéster, Milcov-Siret, Danubio en Reni y Galați), que deja fuera el Budjak y Tighina; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Moldavia · https://en.wikipedia.org/wiki/Budjak"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           24.85,
+           47.7
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           25.0,
+           48.1
+          ],
+          [
+           25.18,
+           48.26
+          ],
+          [
+           25.35,
+           48.45
+          ],
+          [
+           25.95,
+           48.45
+          ],
+          [
+           25.95,
+           47.7
+          ],
+          [
+           24.85,
+           47.7
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova"
+    },
+    "motivo": "el alto Ceremuș y el Suceava (Putila, Seliatyn), en la Bucovina montañosa al sureste del Ceremuș, eran moldavos y no otomanos; el mapa base los deja fuera de la región de Moldavia porque allí seguía la frontera húngara de world_1500; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bukovina · https://en.wikipedia.org/wiki/Pokuttia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           23.15,
+           48.4
+          ],
+          [
+           27.5,
+           48.4
+          ],
+          [
+           27.5,
+           44.9
+          ],
+          [
+           22.9,
+           44.95
+          ],
+          [
+           22.6,
+           45.05
+          ],
+          [
+           21.9,
+           45.15
+          ],
+          [
+           21.6,
+           45.4
+          ],
+          [
+           21.6,
+           45.7
+          ],
+          [
+           21.75,
+           45.85
+          ],
+          [
+           21.95,
+           45.97
+          ],
+          [
+           22.2,
+           46.05
+          ],
+          [
+           22.35,
+           46.3
+          ],
+          [
+           22.1,
+           46.45
+          ],
+          [
+           21.5,
+           46.62
+          ],
+          [
+           21.5,
+           48.4
+          ],
+          [
+           23.15,
+           48.4
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           22.0,
+           47.3
+          ],
+          [
+           22.0,
+           48.9
+          ],
+          [
+           22.86,
+           49.0
+          ],
+          [
+           23.08,
+           48.85
+          ],
+          [
+           23.6,
+           48.7
+          ],
+          [
+           24.0,
+           48.5
+          ],
+          [
+           24.5,
+           48.3
+          ],
+          [
+           24.6,
+           48.15
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           24.9,
+           47.3
+          ],
+          [
+           22.0,
+           47.3
+          ]
+         ]
+        },
+        {
+         "caja": [
+          23.1,
+          47.6,
+          25.0,
+          49.5
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Transylvania",
+     "ABBREVN": "Transylvania",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Transilvania (1570-1711), creado por el tratado de Espira cuando Juan Segismundo Zápolya renuncia al título de rey de Hungría, era un Estado propio con príncipe electivo y dieta, vasallo y tributario del sultán, no una provincia otomana. Comprende Transilvania y el Partium (Máramaros, Közép-Szolnok, Kraszna, Bihar con Várad, Zaránd, el Kővárvidék y el banato de Lugoj y Caransebeș en el Szörény). Límites: Cárpatos (frontera del Reino de Hungría con Moldavia y Valaquia en el original de world_1500) y, al oeste, la frontera actual de Rumanía con Hungría (y, al noroeste, la de la Hungría real ya corregida en 31-euratlas-hungria.json), desviada para dejar fuera los sanjacados otomanos del eyalato de Temesvar (Timișoara, Arad, Lipova) y la franja del Danubio; Máramaros incluye el alto Tisza de la actual Ucrania (Khust, Tiachiv, Rakhiv); trazado aproximado. En 1580 (príncipe Cristóbal Báthory, 1576-1581) Ineu (Jenő, otomana de 1566 a 1595) queda fuera; Szatmár, Ugocsa y Bereg eran de la Hungría real desde Espira; lo que no es ya Hungría real se asigna aquí; el Bihar al oeste de la frontera actual (Debrecen) queda otomano.",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570%E2%80%931711) · https://en.wikipedia.org/wiki/Partium"
+   }
+  ],
+  "world_1600.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          21.9,
+          43.5,
+          28.3,
+          46.3
+         ]
+        }
+       ]
+      },
+      {
+       "feat": "Imperial Hungary",
+       "mapa": "world_1500.geojson"
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         27.2,
+         43.5
+        ],
+        [
+         27.25,
+         44.1
+        ],
+        [
+         27.55,
+         44.15
+        ],
+        [
+         27.85,
+         44.2
+        ],
+        [
+         28.02,
+         44.33
+        ],
+        [
+         27.98,
+         44.5
+        ],
+        [
+         27.94,
+         44.7
+        ],
+        [
+         28.0,
+         44.95
+        ],
+        [
+         28.08,
+         45.15
+        ],
+        [
+         28.12,
+         45.3
+        ],
+        [
+         28.07,
+         45.46
+        ],
+        [
+         28.7,
+         45.6
+        ],
+        [
+         28.75,
+         45.24
+        ],
+        [
+         29.0,
+         45.22
+        ],
+        [
+         29.7,
+         45.15
+        ],
+        [
+         30.2,
+         45.0
+        ],
+        [
+         30.2,
+         43.5
+        ],
+        [
+         27.2,
+         43.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Wallachia",
+     "ABBREVN": "Wallachia",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valaquia no era una provincia otomana sino un principado propio, vasallo y tributario del sultán desde 1417, con sus voivodas y su boyardía; solo las cabezas de puente de Turnu y Giurgiu (y Brăila desde 1540-1545) eran rayas otomanas, que por su tamaño no se separan. Límites: Danubio (frontera actual de Rumanía con Bulgaria y Serbia), Cárpatos Meridionales (frontera del Reino de Hungría, «Imperial Hungary», del original de world_1500, la misma que usa Moldavia en 24-euratlas-moldavia.json), Milcov-Siret (región «Moldavia histórica») y el brazo principal del Danubio frente a la Dobrucha, que sigue otomana; trazado aproximado. En 1600 Miguel el Valiente (1593-1601) une por unos meses Valaquia, Transilvania y Moldavia; el mapa, vigente de 1600 a 1649, mantiene los tres principados.",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Wallachia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          22.0,
+          47.6,
+          26.6,
+          49.7
+         ]
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         22.0,
+         47.3
+        ],
+        [
+         22.0,
+         48.9
+        ],
+        [
+         22.86,
+         49.0
+        ],
+        [
+         23.08,
+         48.85
+        ],
+        [
+         23.6,
+         48.7
+        ],
+        [
+         24.0,
+         48.5
+        ],
+        [
+         24.5,
+         48.3
+        ],
+        [
+         24.6,
+         48.15
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         24.9,
+         47.3
+        ],
+        [
+         22.0,
+         47.3
+        ]
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         24.85,
+         47.7
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         25.0,
+         48.1
+        ],
+        [
+         25.18,
+         48.26
+        ],
+        [
+         25.35,
+         48.45
+        ],
+        [
+         25.95,
+         48.45
+        ],
+        [
+         25.95,
+         47.7
+        ],
+        [
+         24.85,
+         47.7
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Poland-Llituania"
+    },
+    "motivo": "Pocutia (Kolomyia, Sniatyn, Kosiv), entre el Dniéster y el Ceremuș, al norte de Moldavia, era polaca, no otomana: Moldavia la tuvo en prenda o la ocupó desde 1388 y 1485, pero Polonia conservó la soberanía y la recuperó en la batalla de Obertyn (22-8-1531) frente a Petru Rareș; tampoco era otomana la vertiente norte de los Cárpatos Orientales (Galitzia, voivodato de Rutenia). Se da a Polonia-Lituania la parte de la actual Ucrania al norte de la divisoria de los Cárpatos (paso de Verecke, Hoverla) y al noroeste del Ceremuș, fuera de la región de Moldavia; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Pokuttia · https://en.wikipedia.org/wiki/Battle_of_Obertyn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+         "nombre": "Moldavia histórica"
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "caja": [
+          28.1,
+          45.25,
+          28.55,
+          45.5
+         ]
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "ABBREVN": "Moldova",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Moldavia seguía siendo un Estado propio, vasallo y tributario del Imperio otomano (desde 1498), no una provincia: en 1600 la ocupa Miguel el Valiente de mayo a septiembre, y la recuperan los Movilă con apoyo polaco. Se usa el mismo contorno que en world_1500 (24-euratlas-moldavia.json: Cárpatos, Dniéster, Milcov-Siret, Danubio en Reni y Galați), que deja fuera el Budjak y Tighina; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Moldavia · https://en.wikipedia.org/wiki/Budjak"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           24.85,
+           47.7
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           25.0,
+           48.1
+          ],
+          [
+           25.18,
+           48.26
+          ],
+          [
+           25.35,
+           48.45
+          ],
+          [
+           25.95,
+           48.45
+          ],
+          [
+           25.95,
+           47.7
+          ],
+          [
+           24.85,
+           47.7
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova"
+    },
+    "motivo": "el alto Ceremuș y el Suceava (Putila, Seliatyn), en la Bucovina montañosa al sureste del Ceremuș, eran moldavos y no otomanos; el mapa base los deja fuera de la región de Moldavia porque allí seguía la frontera húngara de world_1500; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bukovina · https://en.wikipedia.org/wiki/Pokuttia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           23.15,
+           48.4
+          ],
+          [
+           27.5,
+           48.4
+          ],
+          [
+           27.5,
+           44.9
+          ],
+          [
+           22.9,
+           44.95
+          ],
+          [
+           22.6,
+           45.05
+          ],
+          [
+           21.9,
+           45.15
+          ],
+          [
+           21.6,
+           45.4
+          ],
+          [
+           21.6,
+           45.7
+          ],
+          [
+           21.75,
+           45.85
+          ],
+          [
+           21.95,
+           45.97
+          ],
+          [
+           21.75,
+           46.3
+          ],
+          [
+           21.65,
+           46.5
+          ],
+          [
+           21.5,
+           46.62
+          ],
+          [
+           21.5,
+           48.4
+          ],
+          [
+           23.15,
+           48.4
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           22.0,
+           47.3
+          ],
+          [
+           22.0,
+           48.9
+          ],
+          [
+           22.86,
+           49.0
+          ],
+          [
+           23.08,
+           48.85
+          ],
+          [
+           23.6,
+           48.7
+          ],
+          [
+           24.0,
+           48.5
+          ],
+          [
+           24.5,
+           48.3
+          ],
+          [
+           24.6,
+           48.15
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           24.9,
+           47.3
+          ],
+          [
+           22.0,
+           47.3
+          ]
+         ]
+        },
+        {
+         "caja": [
+          23.1,
+          47.6,
+          25.0,
+          49.5
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Transylvania",
+     "ABBREVN": "Transylvania",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Transilvania (1570-1711), creado por el tratado de Espira cuando Juan Segismundo Zápolya renuncia al título de rey de Hungría, era un Estado propio con príncipe electivo y dieta, vasallo y tributario del sultán, no una provincia otomana. Comprende Transilvania y el Partium (Máramaros, Közép-Szolnok, Kraszna, Bihar con Várad, Zaránd, el Kővárvidék y el banato de Lugoj y Caransebeș en el Szörény). Límites: Cárpatos (frontera del Reino de Hungría con Moldavia y Valaquia en el original de world_1500) y, al oeste, la frontera actual de Rumanía con Hungría (y, al noroeste, la de la Hungría real ya corregida en 31-euratlas-hungria.json), desviada para dejar fuera los sanjacados otomanos del eyalato de Temesvar (Timișoara, Arad, Lipova) y la franja del Danubio; Máramaros incluye el alto Tisza de la actual Ucrania (Khust, Tiachiv, Rakhiv); trazado aproximado. En 1600 Ineu (Jenő) es transilvana (desde 1595); Szatmár, Ugocsa y Bereg eran de la Hungría real; el Bihar al oeste de la frontera actual (Debrecen) queda otomano.",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570%E2%80%931711) · https://en.wikipedia.org/wiki/Partium"
+   }
+  ],
+  "world_1650.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          21.9,
+          43.5,
+          28.3,
+          46.3
+         ]
+        }
+       ]
+      },
+      {
+       "feat": "Imperial Hungary",
+       "mapa": "world_1500.geojson"
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         27.2,
+         43.5
+        ],
+        [
+         27.25,
+         44.1
+        ],
+        [
+         27.55,
+         44.15
+        ],
+        [
+         27.85,
+         44.2
+        ],
+        [
+         28.02,
+         44.33
+        ],
+        [
+         27.98,
+         44.5
+        ],
+        [
+         27.94,
+         44.7
+        ],
+        [
+         28.0,
+         44.95
+        ],
+        [
+         28.08,
+         45.15
+        ],
+        [
+         28.12,
+         45.3
+        ],
+        [
+         28.07,
+         45.46
+        ],
+        [
+         28.7,
+         45.6
+        ],
+        [
+         28.75,
+         45.24
+        ],
+        [
+         29.0,
+         45.22
+        ],
+        [
+         29.7,
+         45.15
+        ],
+        [
+         30.2,
+         45.0
+        ],
+        [
+         30.2,
+         43.5
+        ],
+        [
+         27.2,
+         43.5
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Wallachia",
+     "ABBREVN": "Wallachia",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Valaquia no era una provincia otomana sino un principado propio, vasallo y tributario del sultán desde 1417, con sus voivodas y su boyardía; solo las cabezas de puente de Turnu y Giurgiu (y Brăila desde 1540-1545) eran rayas otomanas, que por su tamaño no se separan. Límites: Danubio (frontera actual de Rumanía con Bulgaria y Serbia), Cárpatos Meridionales (frontera del Reino de Hungría, «Imperial Hungary», del original de world_1500, la misma que usa Moldavia en 24-euratlas-moldavia.json), Milcov-Siret (región «Moldavia histórica») y el brazo principal del Danubio frente a la Dobrucha, que sigue otomana; trazado aproximado. En 1650 gobierna Mateo Basarab (1632-1654).",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Wallachia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "caja": [
+          22.0,
+          47.6,
+          26.6,
+          49.7
+         ]
+        }
+       ]
+      },
+      {
+       "pol": [
+        [
+         22.0,
+         47.3
+        ],
+        [
+         22.0,
+         48.9
+        ],
+        [
+         22.86,
+         49.0
+        ],
+        [
+         23.08,
+         48.85
+        ],
+        [
+         23.6,
+         48.7
+        ],
+        [
+         24.0,
+         48.5
+        ],
+        [
+         24.5,
+         48.3
+        ],
+        [
+         24.6,
+         48.15
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         24.9,
+         47.3
+        ],
+        [
+         22.0,
+         47.3
+        ]
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      },
+      {
+       "pol": [
+        [
+         24.85,
+         47.7
+        ],
+        [
+         24.85,
+         47.9
+        ],
+        [
+         25.0,
+         48.1
+        ],
+        [
+         25.18,
+         48.26
+        ],
+        [
+         25.35,
+         48.45
+        ],
+        [
+         25.95,
+         48.45
+        ],
+        [
+         25.95,
+         47.7
+        ],
+        [
+         24.85,
+         47.7
+        ]
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Polish–Lithuanian Commonwealth"
+    },
+    "motivo": "Pocutia (Kolomyia, Sniatyn, Kosiv), entre el Dniéster y el Ceremuș, al norte de Moldavia, era polaca, no otomana: Moldavia la tuvo en prenda o la ocupó desde 1388 y 1485, pero Polonia conservó la soberanía y la recuperó en la batalla de Obertyn (22-8-1531) frente a Petru Rareș; tampoco era otomana la vertiente norte de los Cárpatos Orientales (Galitzia, voivodato de Rutenia). Se da a Polonia-Lituania la parte de la actual Ucrania al norte de la divisoria de los Cárpatos (paso de Verecke, Hoverla) y al noroeste del Ceremuș, fuera de la región de Moldavia; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Pokuttia · https://en.wikipedia.org/wiki/Battle_of_Obertyn"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+         "nombre": "Moldavia histórica"
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "caja": [
+          28.1,
+          45.25,
+          28.55,
+          45.5
+         ]
+        },
+        {
+         "feat": "Poland-Lithuania",
+         "mapa": "world_1500.geojson"
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova",
+     "ABBREVN": "Moldova",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Moldavia seguía siendo un Estado propio, vasallo y tributario del Imperio otomano (desde 1498), no una provincia: en 1650 reina Vasile Lupu (1634-1653). Se usa el mismo contorno que en world_1500 (24-euratlas-moldavia.json: Cárpatos, Dniéster, Milcov-Siret, Danubio en Reni y Galați), que deja fuera el Budjak y Tighina; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Moldavia · https://en.wikipedia.org/wiki/Budjak"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "menos": [
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           24.85,
+           47.7
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           25.0,
+           48.1
+          ],
+          [
+           25.18,
+           48.26
+          ],
+          [
+           25.35,
+           48.45
+          ],
+          [
+           25.95,
+           48.45
+          ],
+          [
+           25.95,
+           47.7
+          ],
+          [
+           24.85,
+           47.7
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "archivo": "api/geo/correcciones/euratlas-moldavia-region.geojson",
+       "nombre": "Moldavia histórica"
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Moldova"
+    },
+    "motivo": "el alto Ceremuș y el Suceava (Putila, Seliatyn), en la Bucovina montañosa al sureste del Ceremuș, eran moldavos y no otomanos; el mapa base los deja fuera de la región de Moldavia porque allí seguía la frontera húngara de world_1500; trazado aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Bukovina · https://en.wikipedia.org/wiki/Pokuttia"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "y": [
+      {
+       "n": [
+        {
+         "feat": "Imperial Hungary",
+         "mapa": "world_1500.geojson"
+        },
+        {
+         "feat": "Romania",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           23.15,
+           48.4
+          ],
+          [
+           27.5,
+           48.4
+          ],
+          [
+           27.5,
+           44.9
+          ],
+          [
+           22.9,
+           44.95
+          ],
+          [
+           22.6,
+           45.05
+          ],
+          [
+           21.9,
+           45.15
+          ],
+          [
+           21.6,
+           45.4
+          ],
+          [
+           21.6,
+           45.7
+          ],
+          [
+           21.75,
+           45.85
+          ],
+          [
+           21.95,
+           45.97
+          ],
+          [
+           21.75,
+           46.3
+          ],
+          [
+           21.65,
+           46.5
+          ],
+          [
+           21.5,
+           46.62
+          ],
+          [
+           21.5,
+           48.4
+          ],
+          [
+           23.15,
+           48.4
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "feat": "Ukraine",
+         "mapa": "world_2010.geojson"
+        },
+        {
+         "pol": [
+          [
+           22.0,
+           47.3
+          ],
+          [
+           22.0,
+           48.9
+          ],
+          [
+           22.86,
+           49.0
+          ],
+          [
+           23.08,
+           48.85
+          ],
+          [
+           23.6,
+           48.7
+          ],
+          [
+           24.0,
+           48.5
+          ],
+          [
+           24.5,
+           48.3
+          ],
+          [
+           24.6,
+           48.15
+          ],
+          [
+           24.85,
+           47.9
+          ],
+          [
+           24.9,
+           47.3
+          ],
+          [
+           22.0,
+           47.3
+          ]
+         ]
+        },
+        {
+         "caja": [
+          23.1,
+          47.6,
+          25.0,
+          49.5
+         ]
+        }
+       ]
+      },
+      {
+       "n": [
+        {
+         "y": [
+          {
+           "feat": "Romania",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Hungary",
+           "mapa": "world_2010.geojson"
+          },
+          {
+           "feat": "Ukraine",
+           "mapa": "world_2010.geojson"
+          }
+         ]
+        },
+        {
+         "pol": [
+          [
+           21.35,
+           47.75
+          ],
+          [
+           21.38,
+           48.35
+          ],
+          [
+           22.9,
+           48.35
+          ],
+          [
+           23.15,
+           48.1
+          ],
+          [
+           23.2,
+           47.75
+          ],
+          [
+           22.9,
+           47.55
+          ],
+          [
+           22.5,
+           47.5
+          ],
+          [
+           22.1,
+           47.62
+          ],
+          [
+           21.6,
+           47.68
+          ],
+          [
+           21.35,
+           47.75
+          ]
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    "desde": [
+     "Ottoman Empire"
+    ],
+    "props": {
+     "NAME": "Principality of Transylvania",
+     "ABBREVN": "Transylvania",
+     "SUBJECTO": "Ottoman Empire",
+     "PARTOF": "Ottoman Empire",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "el principado de Transilvania (1570-1711), creado por el tratado de Espira cuando Juan Segismundo Zápolya renuncia al título de rey de Hungría, era un Estado propio con príncipe electivo y dieta, vasallo y tributario del sultán, no una provincia otomana. Comprende Transilvania y el Partium (Máramaros, Közép-Szolnok, Kraszna, Bihar con Várad, Zaránd, el Kővárvidék y el banato de Lugoj y Caransebeș en el Szörény). Límites: Cárpatos (frontera del Reino de Hungría con Moldavia y Valaquia en el original de world_1500) y, al oeste, la frontera actual de Rumanía con Hungría (y, al noroeste, la de la Hungría real ya corregida en 31-euratlas-hungria.json), desviada para dejar fuera los sanjacados otomanos del eyalato de Temesvar (Timișoara, Arad, Lipova) y la franja del Danubio; Máramaros incluye el alto Tisza de la actual Ucrania (Khust, Tiachiv, Rakhiv); trazado aproximado. En 1650 (Jorge II Rákóczi, 1648-1660) conserva además Szatmár y Szabolcs, hasta el Tisza, cedidos a los Rákóczi por la paz de Linz (1645), hasta la frontera de la Hungría real; Debrecen y el Bihar de la actual Hungría quedan otomanos; Várad y el Bihar no se pierden hasta 1660.",
+    "fuente": "https://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570%E2%80%931711) · https://en.wikipedia.org/wiki/Partium · https://en.wikipedia.org/wiki/George_I_R%C3%A1k%C3%B3czi"
+   }
+  ]
+ }
+}

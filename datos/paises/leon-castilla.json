@@ -1,0 +1,98 @@
+{
+	"id": "leon-castilla",
+	"nombre": "Reino de León y Castilla",
+	"nombres": [
+		"Kingdom of León and Castile"
+	],
+	"vinculos": [
+		{
+			"id": "castilla",
+			"tipo": "incluye",
+			"desde": 1037,
+			"hasta": 1065
+		},
+		{
+			"id": "leon",
+			"tipo": "incluye",
+			"desde": 1037,
+			"hasta": 1065
+		},
+		{
+			"id": "castilla",
+			"tipo": "incluye",
+			"desde": 1072,
+			"hasta": 1157
+		},
+		{
+			"id": "leon",
+			"tipo": "incluye",
+			"desde": 1072,
+			"hasta": 1157
+		}
+	],
+	"resena": "Unión personal de los reinos de León y Castilla (con Galicia) bajo un mismo rey en los siglos XI y XII. Fernando I, conde de Castilla, ganó el trono leonés en Tamarón (1037) y a su muerte (1065) repartió sus reinos entre sus hijos. Alfonso VI los reunió en 1072, conquistó Toledo en 1085 y se tituló emperador de toda Hispania; le sucedieron su hija Urraca y su nieto Alfonso VII, que tomó Coria, Calatrava y Almería. Al morir Alfonso VII (1157), Castilla pasó a Sancho III y León a Fernando II. Cada reino conservó sus instituciones, y la unión definitiva no llegó hasta Fernando III, en 1230.",
+	"gobernantes": [
+		{
+			"nombre": "Fernando I el Magno",
+			"titulo": "Rey de León y de Castilla",
+			"desde": 1037,
+			"hasta": 1065
+		},
+		{
+			"nombre": "Alfonso VI",
+			"titulo": "Rey de León, Castilla y Galicia",
+			"desde": 1072,
+			"hasta": 1109
+		},
+		{
+			"nombre": "Urraca",
+			"titulo": "Reina de León y de Castilla",
+			"desde": 1109,
+			"hasta": 1126
+		},
+		{
+			"nombre": "Alfonso VII el Emperador",
+			"titulo": "Rey de León y de Castilla",
+			"desde": 1126,
+			"hasta": 1157
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Ferdinand I of León",
+			"url": "https://en.wikipedia.org/wiki/Ferdinand_I_of_Le%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Alfonso VI of León and Castile",
+			"url": "https://en.wikipedia.org/wiki/Alfonso_VI_of_Le%C3%B3n_and_Castile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Urraca of León and Castile",
+			"url": "https://en.wikipedia.org/wiki/Urraca_of_Le%C3%B3n_and_Castile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Alfonso VII of León and Castile",
+			"url": "https://en.wikipedia.org/wiki/Alfonso_VII_of_Le%C3%B3n_and_Castile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of León",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Le%C3%B3n",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Castile",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Castile",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

@@ -1,0 +1,859 @@
+{
+ "tema": "Culturas arqueológicas de la Edad del Hierro renombradas a los pueblos del siglo I (propuesta Euratlas siglos I-VI, B)",
+ "mapas": {
+  "world_bc1.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en torno al cambio de era el bajo Vístula y Pomerania son de la cultura de Oksywie, antecesora directa de la de Wielbark (godos, rugios y lemovios); se rotula como pueblos germánicos, sin tocar la geometría, porque la atribución de Oksywie se discute",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ],
+  "world_14.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en torno al cambio de era el bajo Vístula y Pomerania son de la cultura de Oksywie, antecesora directa de la de Wielbark (godos, rugios y lemovios); se rotula como pueblos germánicos, sin tocar la geometría, porque la atribución de Oksywie se discute",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ],
+  "world_46.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Goths",
+     "ABBREVN": "Goths",
+     "SUBJECTO": "Goths",
+     "PARTOF": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en el siglo I la de Wielbark sustituye a la de Oksywie en el bajo Vístula y Pomerania y se asocia a los gotones de Plinio y Tácito (con rugios y lemovios); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ],
+  "world_100.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Goths",
+     "ABBREVN": "Goths",
+     "SUBJECTO": "Goths",
+     "PARTOF": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en el siglo I la de Wielbark sustituye a la de Oksywie en el bajo Vístula y Pomerania y se asocia a los gotones de Plinio y Tácito (con rugios y lemovios); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ],
+  "world_106.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Goths",
+     "ABBREVN": "Goths",
+     "SUBJECTO": "Goths",
+     "PARTOF": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en el siglo I la de Wielbark sustituye a la de Oksywie en el bajo Vístula y Pomerania y se asocia a los gotones de Plinio y Tácito (con rugios y lemovios); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ],
+  "world_117.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Goths",
+     "ABBREVN": "Goths",
+     "SUBJECTO": "Goths",
+     "PARTOF": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en el siglo I la de Wielbark sustituye a la de Oksywie en el bajo Vístula y Pomerania y se asocia a los gotones de Plinio y Tácito (con rugios y lemovios); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ],
+  "world_118.geojson": [
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Bell-shaped burials culture"
+    },
+    "poner": {
+     "NAME": "Lugii",
+     "ABBREVN": "Lugii",
+     "SUBJECTO": "Lugii",
+     "PARTOF": "Lugii",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de las tumbas de campana es de la Edad del Hierro; en el siglo I la Polonia central y meridional (alto Óder y Vístula) es de la cultura de Przeworsk, que se identifica con los lugios de Estrabón, Tácito y Ptolomeo; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Przeworsk_culture; https://en.wikipedia.org/wiki/Lugii"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Pomeranian culture "
+    },
+    "poner": {
+     "NAME": "Goths",
+     "ABBREVN": "Goths",
+     "SUBJECTO": "Goths",
+     "PARTOF": "Goths",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura pomerana terminó hacia el siglo II a. C.; en el siglo I la de Wielbark sustituye a la de Oksywie en el bajo Vístula y Pomerania y se asocia a los gotones de Plinio y Tácito (con rugios y lemovios); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Western Masurian culture"
+    },
+    "poner": {
+     "NAME": "Germanic tribes",
+     "ABBREVN": "Germanic tribes",
+     "SUBJECTO": "Germanic tribes",
+     "PARTOF": "Germanic tribes",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en los siglos I-II la tierra de Chełmno y el oeste de Masuria pasan a las culturas de Wielbark y Przeworsk (germánicos); frontera aproximada con los bálticos, como en el mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Wielbark_culture; https://en.wikipedia.org/wiki/Przeworsk_culture"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Eastern Masurian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro; en el siglo I Masuria oriental y los lagos de Podlaquia son de pueblos bálticos (galindios de Ptolomeo); se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Sambian-Nothangian culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "Sambia y Natangia, la costa del ámbar, son la tierra de los aestios de Tácito, de origen báltico; se rotula como pueblos bálticos, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Aesti; https://en.wikipedia.org/wiki/Germania_(book)"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Brushed Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de la cerámica cepillada (hasta los siglos III-V) corresponde a los antepasados de los pueblos bálticos del este de Lituania, Bielorrusia y el sudeste de Letonia; se rotula el pueblo, como en el mapa de 200, sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Brushed_Pottery_culture; https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Plain-Pottery culture"
+    },
+    "poner": {
+     "NAME": "Balts",
+     "ABBREVN": "Balts",
+     "SUBJECTO": "Balts",
+     "PARTOF": "Balts",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "cultura de la Edad del Hierro del alto Dniéper; las fuentes sitúan a los bálticos entre el bajo Vístula y el alto Daugava y el alto Dniéper; se rotula como pueblos bálticos sin tocar la geometría; el límite oriental (Oka) es aproximado",
+    "fuente": "https://en.wikipedia.org/wiki/Balts"
+   },
+   {
+    "op": "renombrar",
+    "patron": {
+     "NAME": "Milograd culture"
+    },
+    "poner": {
+     "NAME": "Zarubintsy culture",
+     "ABBREVN": "Zarubintsy culture",
+     "SUBJECTO": "Zarubintsy culture",
+     "PARTOF": "Zarubintsy culture",
+     "BORDERPRECISION": 1
+    },
+    "motivo": "la cultura de Milograd (siglos VII a. C.-I d. C.) dio paso en el Prípiat y el Dniéper medio a la de Zarubintsy (siglo III a. C.-siglo I d. C.; tardía hasta el II), posible cultura protoeslava, que se transformó en la cultura de Kiev del mapa de 200; se renombra sin tocar la geometría",
+    "fuente": "https://en.wikipedia.org/wiki/Zarubintsy_culture; https://en.wikipedia.org/wiki/Milograd_culture"
+   }
+  ]
+ }
+}
