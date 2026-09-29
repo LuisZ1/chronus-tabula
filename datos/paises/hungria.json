@@ -4,9 +4,46 @@
 	"nombres": [
 		"Kingdom of Hungary",
 		"Hungary",
-		"Magyars"
+		"Magyars",
+		"Royal Hungary"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Magiares",
+			"desde": 600,
+			"hasta": 894,
+			"wiki": "Pueblo húngaro"
+		},
+		{
+			"nombre": "Principado de Hungría",
+			"desde": 895,
+			"hasta": 999,
+			"wiki": "Conquista húngara de la cuenca de los Cárpatos"
+		},
+		{
+			"nombre": "Reino de Hungría (con Bohemia)",
+			"desde": 1490,
+			"hasta": 1526,
+			"wiki": "Vladislao II de Bohemia y Hungría"
+		}
 	],
 	"wiki": "Reino de Hungría",
+	"vinculos": [
+		{
+			"id": "hungria-oriental",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "austria",
+			"tipo": "parte_de",
+			"desde": 1526,
+			"hasta": 1918
+		},
+		{
+			"id": "pechenegos",
+			"tipo": "sucesor_territorial"
+		}
+	],
 	"resena": "El Reino de Hungría fue un reino que existió en Europa Central desde el año 1000 hasta 1919, con una interrupción de cinco meses entre ese año y 1920 durante la cual existió la República Soviética Húngara. Tras el derrocamiento del régimen comunista se restauró el reino.",
 	"gobernantes": [
 		{
@@ -20,9 +57,57 @@
 			"titulo": "Primer rey cristiano de Hungría",
 			"desde": 1000,
 			"hasta": 1038
+		},
+		{
+			"nombre": "Vladislao II Jagellón",
+			"titulo": "Rey de Hungría y de Bohemia (rey de Bohemia desde 1471)",
+			"desde": 1490,
+			"hasta": 1516
+		},
+		{
+			"nombre": "Luis II",
+			"titulo": "Rey de Hungría y de Bohemia (muere en Mohács)",
+			"desde": 1516,
+			"hasta": 1526
 		}
 	],
 	"fuentes": [
+		{
+			"id": "wikipedia-en:Vladislaus II of Hungary",
+			"url": "https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-es:Vladislao II de Bohemia y Hungría",
+			"url": "https://es.wikipedia.org/wiki/Vladislao_II_de_Bohemia_y_Hungr%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-es:Luis II de Hungría",
+			"url": "https://es.wikipedia.org/wiki/Luis_II_de_Hungr%C3%ADa",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-en:Hungarian conquest of the Carpathian Basin",
+			"url": "https://en.wikipedia.org/wiki/Hungarian_conquest_of_the_Carpathian_Basin",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Principality of Hungary",
+			"url": "https://en.wikipedia.org/wiki/Principality_of_Hungary",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Kingdom of Hungary (1526–1867)",
+			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Hungary_(1526%E2%80%931867)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
 		{
 			"id": "wikipedia-es:Reino de Hungría",
 			"url": "https://es.wikipedia.org/wiki/Reino_de_Hungría",
@@ -37,10 +122,10 @@
 		}
 	],
 	"revision": {
-		"estado": "validado",
-		"fecha": "2026-09-08",
-		"por": "panel-admin",
-		"hash": "4c37bdfbc574",
+		"estado": "borrador",
+		"fecha": "2026-09-29",
+		"por": "editor",
+		"hash": "cd4eea1b16ff",
 		"secciones": [
 			"resena"
 		]

@@ -8,13 +8,38 @@
 	"wikidata": "Q179876",
 	"relacionados": [
 		"Gran Bretaña",
-		"Inglaterra anglosajona",
-		"Britanos"
+		"Inglaterra anglosajona"
 	],
 	"vinculos": [
 		{
+			"id": "wessex",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "granbretana",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "senorio-irlanda",
+			"tipo": "incluye",
+			"desde": 1177,
+			"hasta": 1542
+		},
+		{
+			"id": "britanos",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "estanglia",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "mercia",
+			"tipo": "antecesor_territorial"
+		},
+		{
+			"id": "northumbria",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Inglaterra es una de las cuatro naciones constituyentes del Reino Unido. Su territorio está formado por la parte sur y central de Gran Bretaña, isla que comparte junto a Escocia y Gales, y cerca de cien islas más pequeñas como las islas Sorlingas y la isla de Wight.",

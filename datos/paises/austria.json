@@ -47,6 +47,12 @@
 			"hasta": 1806
 		},
 		{
+			"id": "hungria",
+			"tipo": "incluye",
+			"desde": 1526,
+			"hasta": 1918
+		},
+		{
 			"id": "checoslovaquia",
 			"tipo": "sucesor_territorial"
 		}

@@ -4,9 +4,25 @@
 	"nombres": [
 		"Moldova"
 	],
+	"nombres_periodo": [
+		{
+			"nombre": "Principado de Moldavia",
+			"desde": 1359,
+			"hasta": 1859,
+			"wiki": "Principado de Moldavia"
+		}
+	],
 	"wiki": "es:Moldavia",
 	"wikidata": "Q217",
 	"owid": "MDA",
+	"vinculos": [
+		{
+			"id": "otomano",
+			"tipo": "parte_de",
+			"desde": 1498,
+			"hasta": 1859
+		}
+	],
 	"resena": "Moldavia, oficialmente la República de Moldavia, es un país ubicado en Europa Oriental, situado entre Rumania y Ucrania. Tiene una superficie de 33 851 km² y su capital es Chisináu, situada en el centro del país.",
 	"gobernantes": [
 		{
@@ -322,6 +338,18 @@
 		}
 	],
 	"fuentes": [
+		{
+			"id": "wikipedia-es:Principado de Moldavia",
+			"url": "https://es.wikipedia.org/wiki/Principado_de_Moldavia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Moldavia",
+			"url": "https://en.wikipedia.org/wiki/Moldavia",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
 		{
 			"id": "Wikidata:Q217",
 			"url": "https://www.wikidata.org/wiki/Q217",

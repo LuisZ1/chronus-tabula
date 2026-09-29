@@ -10,6 +10,12 @@
 	"relacionados": [
 		"Rumania"
 	],
+	"vinculos": [
+		{
+			"id": "valaquia",
+			"tipo": "predecesor"
+		}
+	],
 	"resena": "Rumania o Rumanía es uno de los veintisiete Estados soberanos que forman la Unión Europea. Está ubicado en la intersección de Europa Oriental y del Sureste, y cuenta con costa en el Mar Negro por el sudeste.",
 	"gobernantes": [
 		{

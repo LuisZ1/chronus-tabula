@@ -12,6 +12,18 @@
 		{
 			"id": "castilla",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "leon-castilla",
+			"tipo": "parte_de",
+			"desde": 1037,
+			"hasta": 1065
+		},
+		{
+			"id": "leon-castilla",
+			"tipo": "parte_de",
+			"desde": 1072,
+			"hasta": 1157
 		}
 	],
 	"resena": "El reino de León fue un reino medieval independiente situado en la región noroeste de la península ibérica. Fue fundado en el año 910, cuando los príncipes cristianos del reino de Asturias, en la costa norte de la península, trasladaron su capital de Oviedo a la ciudad de León.",

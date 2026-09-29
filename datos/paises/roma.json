@@ -60,7 +60,7 @@
 			"hasta": 273
 		}
 	],
-	"resena": "Roma es una ciudad, capital de la región del Lacio y de Italia. Con una población de 2 857 321 habitantes, es el municipio más poblado de Italia y la tercera ciudad más poblada de la Unión Europea.",
+	"resena": "Estado de la Antigüedad nacido en la ciudad de Roma que, como república y desde 27 a. C. como imperio, llegó a dominar todo el Mediterráneo. En el mapa de 1 a. C. incluye la Germania entre el Rin y el Elba, la provincia que Augusto intentó organizar (7 a. C.-9 d. C.) y que se abandonó tras la derrota de Teutoburgo; desde el mapa de 14 la frontera vuelve al Rin.",
 	"gobernantes": [
 		{
 			"nombre": "República romana (Senado y cónsules)",
@@ -370,6 +370,12 @@
 			"url": "https://en.wikipedia.org/wiki/Constantius_II",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-28"
+		},
+		{
+			"id": "wikipedia-en:Germania Antiqua",
+			"url": "https://en.wikipedia.org/wiki/Germania_Antiqua",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
 		}
 	],
 	"revision": {

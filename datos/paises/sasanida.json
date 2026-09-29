@@ -9,6 +9,10 @@
 		{
 			"id": "persia",
 			"tipo": "sucesor_territorial"
+		},
+		{
+			"id": "rashidun",
+			"tipo": "sucesor_territorial"
 		}
 	],
 	"resena": "El Imperio sasánida, o Imperio de los iranios, también conocido como Segundo Imperio persa o Imperio neopersa, fue el segundo imperio persa y el cuarto y último estado iranio previo a la Conquista musulmana de los siglos VII y VIII.",

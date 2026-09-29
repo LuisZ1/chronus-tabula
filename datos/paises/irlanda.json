@@ -15,10 +15,18 @@
 	],
 	"vinculos": [
 		{
+			"id": "senorio-irlanda",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "granbretana",
 			"tipo": "parte_de",
 			"desde": 1801,
 			"hasta": 1922
+		},
+		{
+			"id": "irlanda-gaelica",
+			"tipo": "antecesor_territorial"
 		}
 	],
 	"resena": "Irlanda, también conocido como República de Irlanda, es un país soberano e insular que ocupa la mayor parte de la isla de Irlanda. Es uno de los veintisiete Estados miembros de la Unión Europea.",

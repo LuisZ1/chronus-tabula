@@ -17,6 +17,12 @@
 			"desde": 843
 		},
 		{
+			"id": "avaros",
+			"tipo": "incluye",
+			"desde": 796,
+			"hasta": 822
+		},
+		{
 			"id": "soissons",
 			"tipo": "antecesor_territorial"
 		}
