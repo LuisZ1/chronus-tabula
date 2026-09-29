@@ -602,7 +602,7 @@
      "SUBJECTO": "Kingdom of Hejaz and Nejd"
     },
     "motivo": "c01 · Reino del Hiyaz y el Néyed (1926-1932)",
-    "fuente": "https://es.wikipedia.org/wiki/Reino_del_Hiyaz_y_el_Neyed"
+    "fuente": "https://es.wikipedia.org/wiki/Reino_del_Néyed_y_del_Hiyaz"
    },
    {
     "op": "renombrar",
@@ -827,7 +827,7 @@
     "de": "Vietnam",
     "a": "North Vietnam",
     "motivo": "c07 · resto de 0 km² del polígono «Vietnam» al norte del paralelo 17, tras dividirlo",
-    "fuente": "https://es.wikipedia.org/wiki/Acuerdos_de_Ginebra_(1954)"
+    "fuente": "https://es.wikipedia.org/wiki/Conferencia_de_Ginebra_(1954)"
    },
    {
     "op": "asignar",
@@ -843,7 +843,7 @@
      "NAME": "Jordan"
     },
     "motivo": "c07 · Cisjordania, bajo administración jordana desde la guerra de 1948 y las líneas del armisticio de 1949 hasta 1967; el mapa la incluía en Israel",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_jordana_de_Cisjordania"
+    "fuente": "https://es.wikipedia.org/wiki/Ocupación_de_Cisjordania_y_Jerusalén_Este_por_Jordania"
    },
    {
     "op": "asignar",
@@ -861,7 +861,7 @@
      "BORDERPRECISION": 3
     },
     "motivo": "c07 · la Franja de Gaza, bajo administración egipcia de 1948-1949 a 1967; el mapa la incluía en Israel",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_egipcia_de_la_Franja_de_Gaza"
+    "fuente": "https://es.wikipedia.org/wiki/Ocupación_de_la_Franja_de_Gaza_por_Egipto"
    }
   ],
   "world_1994.geojson": [
@@ -1004,7 +1004,7 @@
     "de": "Bosnia-Herzegovina",
     "a": "Ottoman Empire",
     "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Bosnia es otomana hasta la ocupación austrohúngara de 1878",
-    "fuente": "https://es.wikipedia.org/wiki/Campa%C3%B1a_austroh%C3%BAngara_en_Bosnia_y_Herzegovina_de_1878"
+    "fuente": "https://es.wikipedia.org/wiki/Campaña_austrohúngara_de_ocupación_de_Bosnia_y_Herzegovina"
    },
    {
     "op": "quitar",
@@ -1129,7 +1129,7 @@
      "SUBJECTO": "Ottoman Empire"
     },
     "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Dobruja del Norte, otomana hasta 1878; límite aproximado",
-    "fuente": "https://es.wikipedia.org/wiki/Dobruja_del_Norte"
+    "fuente": "https://en.wikipedia.org/wiki/Northern_Dobruja"
    },
    {
     "op": "asignar",
@@ -1172,7 +1172,7 @@
      "SUBJECTO": "Ottoman Empire"
     },
     "motivo": "c05 · 1871 (Imperio alemán, 18-1-1871): antes del Congreso de Berlín (1878): Principados Unidos de Moldavia y Valaquia, vasallos otomanos hasta 1878",
-    "fuente": "https://es.wikipedia.org/wiki/Principados_Unidos_de_Moldavia_y_Valaquia"
+    "fuente": "https://es.wikipedia.org/wiki/Principado_de_Rumania"
    },
    {
     "op": "renombrar",
@@ -1356,7 +1356,7 @@
      "SUBJECTO": "Netherlands"
     },
     "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Surinam, neerlandés",
-    "fuente": "https://es.wikipedia.org/wiki/Surinam_(colonia_neerlandesa)"
+    "fuente": "https://es.wikipedia.org/wiki/Colonia_de_Surinam"
    },
    {
     "op": "asignar",
@@ -1443,7 +1443,7 @@
      "BORDERPRECISION": 1
     },
     "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): Uruguay independiente por la Convención Preliminar de Paz (1828)",
-    "fuente": "https://es.wikipedia.org/wiki/Convenci%C3%B3n_Preliminar_de_Paz"
+    "fuente": "https://es.wikipedia.org/wiki/Convención_Preliminar_de_Paz_(1828)"
    },
    {
     "op": "renombrar",
@@ -1595,7 +1595,7 @@
      "BORDERPRECISION": 1
     },
     "motivo": "c05 · 1830: tras las independencias hispanoamericanas (1816-1825), la de Brasil (1822), la de Grecia (Protocolo de Londres, 3-2-1830) y la revolución belga (1830): el Sind de los emires talpur, independiente hasta la conquista británica de 1843; contorno de la provincia actual (Natural Earth)",
-    "fuente": "https://es.wikipedia.org/wiki/Dinast%C3%ADa_Talpur"
+    "fuente": "https://en.wikipedia.org/wiki/Talpur_dynasty"
    },
    {
     "op": "quitar",
@@ -1871,7 +1871,7 @@
     "de": "Talpur Sindh",
     "a": "British East India Company",
     "motivo": "c05 · 1850: tras la guerra de México y Estados Unidos (Guadalupe Hidalgo, 1848), el Tratado de Oregón (1846) y la anexión británica del Punyab (1849): el Sind, conquistado por los británicos en 1843 (Miani)",
-    "fuente": "https://es.wikipedia.org/wiki/Batalla_de_Miani"
+    "fuente": "https://en.wikipedia.org/wiki/Battle_of_Miani"
    },
    {
     "op": "quitar",
@@ -1955,7 +1955,7 @@
      "NAME": "Hungary"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Rutenia subcarpática, ocupada por Hungría en marzo de 1939",
-    "fuente": "https://es.wikipedia.org/wiki/Ucrania_Carpática"
+    "fuente": "https://en.wikipedia.org/wiki/Carpatho-Ukraine"
    },
    {
     "op": "quitar",
@@ -2156,7 +2156,7 @@
      "NAME": "Germany"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: el distrito de Białystok, administrado desde Prusia Oriental (1941-1944); límite aproximado",
-    "fuente": "https://es.wikipedia.org/wiki/Distrito_de_Bia%C5%82ystok"
+    "fuente": "https://es.wikipedia.org/wiki/Distrito_de_Bialystok"
    },
    {
     "op": "asignar",
@@ -2758,7 +2758,7 @@
      "NAME": "Germany"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Baja Estiria y la Alta Carniola, anexionadas de hecho por Alemania (1941); límite aproximado",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Eslovenia"
+    "fuente": "https://en.wikipedia.org/wiki/Slovenia_in_World_War_II"
    },
    {
     "op": "asignar",
@@ -2776,7 +2776,7 @@
      "BORDERPRECISION": 1
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Montenegro, gobernación italiana (1941-1943)",
-    "fuente": "https://es.wikipedia.org/wiki/Gobernaci%C3%B3n_de_Montenegro"
+    "fuente": "https://en.wikipedia.org/wiki/Italian_governorate_of_Montenegro"
    },
    {
     "op": "asignar",
@@ -2836,7 +2836,7 @@
      "NAME": "Bulgaria"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: la Macedonia del Vardar, ocupada y anexionada por Bulgaria (1941); límite aproximado",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_b%C3%BAlgara_de_Macedonia"
+    "fuente": "https://en.wikipedia.org/wiki/Bulgarian_rule_of_Macedonia,_Morava_Valley_and_Western_Thrace_(1941–1944)"
    },
    {
     "op": "asignar",
@@ -2881,7 +2881,7 @@
      "NAME": "Bulgaria"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Macedonia oriental y Tracia occidental griegas, ocupadas y anexionadas por Bulgaria (1941); límite aproximado",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Grecia_por_las_potencias_del_Eje"
+    "fuente": "https://es.wikipedia.org/wiki/Ocupación_de_Grecia_por_las_fuerzas_del_Eje"
    },
    {
     "op": "renombrar",
@@ -2892,7 +2892,7 @@
      "SUBJECTO": "Germany"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Grecia bajo la triple ocupación alemana, italiana y búlgara (1941-1944), con el gobierno colaboracionista del Estado Heleno",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_Grecia_por_las_potencias_del_Eje"
+    "fuente": "https://es.wikipedia.org/wiki/Ocupación_de_Grecia_por_las_fuerzas_del_Eje"
    },
    {
     "op": "renombrar",
@@ -2955,7 +2955,7 @@
      "NAME": "Germany"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Alsacia y el Mosela, anexionados de hecho por Alemania (1940); límite aproximado",
-    "fuente": "https://es.wikipedia.org/wiki/Anexi%C3%B3n_de_Alsacia-Mosela_por_la_Alemania_nazi"
+    "fuente": "https://en.wikipedia.org/wiki/Annexations_of_Alsace–Lorraine"
    },
    {
     "op": "asignar",
@@ -3057,7 +3057,7 @@
     "de": "Luxembourg",
     "a": "Germany",
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Luxemburgo, anexionado de hecho por Alemania (1942)",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_Luxemburgo"
+    "fuente": "https://en.wikipedia.org/wiki/German_occupation_of_Luxembourg_during_World_War_II"
    },
    {
     "op": "renombrar",
@@ -3079,7 +3079,7 @@
      "SUBJECTO": "Germany"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: los Países Bajos, ocupados por Alemania (1940-1945)",
-    "fuente": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_alemana_de_los_Pa%C3%ADses_Bajos"
+    "fuente": "https://en.wikipedia.org/wiki/Netherlands_in_World_War_II"
    },
    {
     "op": "renombrar",
@@ -3122,7 +3122,7 @@
      "SUBJECTO": "United Kingdom"
     },
     "motivo": "c05 · 1942: máxima extensión del Eje (situación de mediados de 1942, antes de El Alamein, Stalingrado y la ocupación de la Francia de Vichy en noviembre); zonas de ocupación con BORDERPRECISION 1: Eritrea, bajo administración militar británica desde 1941",
-    "fuente": "https://es.wikipedia.org/wiki/Administraci%C3%B3n_brit%C3%A1nica_de_Eritrea"
+    "fuente": "https://en.wikipedia.org/wiki/British_Military_Administration_(Eritrea)"
    },
    {
     "op": "renombrar",
@@ -3867,7 +3867,7 @@
      "SUBJECTO": "Italy"
     },
     "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Somalia» todavía es colonia, protectorado o territorio bajo administración de Italy en 1950",
-    "fuente": "https://es.wikipedia.org/wiki/Territorio_en_fideicomiso_de_Somalia"
+    "fuente": "https://es.wikipedia.org/wiki/Fideicomiso_de_Somalia"
    },
    {
     "op": "renombrar",
@@ -3911,7 +3911,7 @@
      "SUBJECTO": "Netherlands"
     },
     "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Suriname» todavía es colonia, protectorado o territorio bajo administración de Netherlands en 1950",
-    "fuente": "https://es.wikipedia.org/wiki/Surinam_(colonia_neerlandesa)"
+    "fuente": "https://es.wikipedia.org/wiki/Colonia_de_Surinam"
    },
    {
     "op": "renombrar",
@@ -3922,7 +3922,7 @@
      "SUBJECTO": "Australia"
     },
     "motivo": "c05 · 1950: tras la partición de la India (1947), Israel (1948), la RPC (1949), las dos Alemanias (1949) e Indonesia (1949); antes de la descolonización de África: «Papua New Guinea» todavía es colonia, protectorado o territorio bajo administración de Australia en 1950",
-    "fuente": "https://es.wikipedia.org/wiki/Territorio_de_Papua_y_Nueva_Guinea"
+    "fuente": "https://es.wikipedia.org/wiki/Territorio_de_Papúa_y_Nueva_Guinea"
    },
    {
     "op": "renombrar",

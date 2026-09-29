@@ -4765,7 +4765,7 @@
      "NAME": "Portugal"
     },
     "motivo": "Portugal hasta el Tajo y el Alentejo (Lisboa 1147, Alcácer do Sal 1217, Elvas 1230); el Algarve es de 1249. Frontera aproximada",
-    "fuente": "https://en.wikipedia.org/wiki/Siege_of_Alcácer_do_Sal_(1217)"
+    "fuente": "https://en.wikipedia.org/wiki/Siege_of_Alcácer_do_Sal"
    },
    {
     "op": "asignar",
@@ -5767,7 +5767,7 @@
      "BORDERPRECISION": 1
     },
     "motivo": "en el Magreb occidental, sin el califato, mandan principados zenatas (magrawas de Fez, Sijilmasa); los almorávides empiezan en el Sáhara hacia 1040 y toman Sijilmasa en 1055",
-    "fuente": "https://en.wikipedia.org/wiki/Maghrawa"
+    "fuente": "https://en.wikipedia.org/wiki/Maghrawa_(tribe)"
    },
    {
     "op": "asignar",
@@ -7091,7 +7091,7 @@
      "BORDERPRECISION": 1
     },
     "motivo": "los muzafaríes de Yazd y Kermán (desde 1314; Kermán en 1340). Frontera aproximada",
-    "fuente": "https://en.wikipedia.org/wiki/Muzaffarids"
+    "fuente": "https://en.wikipedia.org/wiki/Muzaffarids_(Iran)"
    },
    {
     "op": "asignar",
@@ -7825,7 +7825,7 @@
      "NAME": "Northern Zhou"
     },
     "motivo": "Wei Occidental toma Hanzhong y Xiangyang y reduce a los Liang a un Estado títere en Jiangling (554). Aproximado",
-    "fuente": "https://en.wikipedia.org/wiki/Western_Liang"
+    "fuente": "https://en.wikipedia.org/wiki/Western_Liang_(555–587)"
    },
    {
     "op": "renombrar",

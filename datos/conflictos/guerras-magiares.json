@@ -62,14 +62,14 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es:Batalla de Lechfeld (955)",
-			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lechfeld_(955)",
+			"id": "wikipedia-es:Batalla de Lechfeld",
+			"url": "https://es.wikipedia.org/wiki/Batalla_de_Lechfeld",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
 		},
 		{
-			"id": "wikipedia-es:Invasiones magiares en Europa",
-			"url": "https://es.wikipedia.org/wiki/Invasiones_magiares_en_Europa",
+			"id": "wikipedia-es:Invasiones húngaras de Europa",
+			"url": "https://es.wikipedia.org/wiki/Invasiones_húngaras_de_Europa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
 		}
