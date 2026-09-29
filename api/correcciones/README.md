@@ -9,7 +9,20 @@
 | `10-antiguedad.json` | años ≤ 500 | `api/geo/correcciones/antiguedad-*.geojson` |
 | `15-roma.json` | años ≤ 500: frontera de Roma y de sus vecinos, y sus mapas intermedios (-264 a 476); se aplica después de `10-antiguedad.json` | `api/geo/correcciones/roma-*.geojson` (de momento ninguna: regiones en línea) |
 | `20-medieval.json` | 501 a 1500 | `api/geo/correcciones/medieval-*.geojson` |
+| `21-euratlas-pueblos.json` | 200 a 600: pueblos de Germania Magna y la Europa oriental sobre tierra sin datos (propuesta Euratlas siglos I-VI) | `api/geo/correcciones/euratlas-pueblos-zonas.geojson` |
+| `22-euratlas-britania.json` | 560, 600, 700 y 720: reinos de Britania e Irlanda (propuesta Euratlas siglo VII) | `api/geo/correcciones/medieval-euratlas-britania.geojson` |
+| `23-euratlas-650.json` | crea `world_650` desde `world_600`: califato rashidun (propuesta Euratlas siglo VII) | regiones en línea |
+| `24-euratlas-moldavia.json` | 1453, 1492 y 1500: principado de Moldavia (propuesta Euratlas siglos XVI-XVII) | `api/geo/correcciones/euratlas-moldavia-region.geojson` |
+| `25-euratlas-culturas.json` | -1 a 118 (`world_bc1`, 14, 46, 100, 106, 117 y 118): culturas de la Edad del Hierro renombradas a los pueblos del siglo I (Lugii, Goths, Germanic tribes, Balts, Zarubintsy culture); solo `renombrar` con `patron` (propuesta Euratlas siglos I-VI, B) | ninguna |
+| `26-euratlas-magiares.json` | 900 y 950: conquista húngara de la cuenca de los Cárpatos y pechenegos en Etelköz; en 950 repite las operaciones porque `20-medieval.json` crea `world_950` antes (propuesta Euratlas siglos IX-X, A) | regiones en línea (contornos de `world_1000` y `world_400` originales) |
+| `27-euratlas-dacia.json` | 271 a 363: carpos, taifalos, godos y tervingios en la Dacia sin datos; se aplica después de `21-euratlas-pueblos.json` (propuesta Euratlas siglos I-VI, C) | regiones en línea |
+| `28-euratlas-leon.json` | 1050, 1100 y 1150: «Kingdom of León and Castile» (uniones de 1037-1065 y 1072-1157), Calatrava y Almería en 1150 (propuesta Euratlas siglo XII) | regiones en línea |
+| `29-euratlas-bajas-antiguedad.json` | crea `world_85` desde `world_46`: Agri Decumates flavios y Britania de Agrícola hasta el istmo Forth-Clyde; repite a mano los rellenos de `world_46` (Celts, Germanic tribes, Sarmates, Arabs) porque `RELLENOS` no incluye el 85 (propuesta Euratlas siglos I-VI, D) | regiones en línea |
 | `30-moderna.json` | 1501 a 1815 | `api/geo/correcciones/moderna-*.geojson` |
+| `31-euratlas-hungria.json` | 1580, 1600 y 1650: Hungría real de los Habsburgo (propuesta Euratlas siglos XVI-XVII); se aplica después de `30-moderna.json` | `api/geo/correcciones/euratlas-hungria-frontera.geojson` |
+| `32-euratlas-principados.json` | 1500, 1530, 1580, 1600 y 1650: Valaquia, Moldova y Transilvania (reino húngaro oriental en 1530) como principados vasallos otomanos, y Pocutia polaca; se aplica después de `31-euratlas-hungria.json` (propuesta Euratlas siglos XVI-XVII, C) | regiones en línea |
+| `34-euratlas-bajas-medieval.json` | 800, 900, 950 y 1300: Panonia occidental franca y resto ávaro tributario (800), Asturias y León hasta el Duero (900 y 950) y beylik de Osmán (1300); se aplica después de `20-medieval.json` y `26-euratlas-magiares.json` (propuesta Euratlas siglos IX-X, B y C, y bajas del resumen) | regiones en línea |
+| `35-euratlas-bajas-moderna.json` | 1492 y 1500: la Pale («Lordship of Ireland») y la Irlanda gaélica; 2000 y 2010: «Byelarus» → «Belarus» (2011 y 2020 lo heredan; 1994 no, porque `40-contemporanea.json` crea 1990 desde él con «Byelarus»). Cruza épocas a propósito (bajas del resumen Euratlas) | regiones en línea |
 | `40-contemporanea.json` | ≥ 1816 | `api/geo/correcciones/contemporanea-*.geojson` |
 
 Cada época edita solo su fichero y sus geometrías. `00-ejemplo.json` está vacío y sirve de plantilla. `world_2011` no se corrige, porque lo genera `api/derivar_mapas.py` a partir de `world_2010`: se corrige `world_2010` y el cambio pasa a 2011.
@@ -73,6 +86,16 @@ python3 api/corregir_mapas.py --forzar                         # reescribe aunqu
 5. `python3 api/colorear.py`: colores de cada mapa para que dos vecinas no coincidan (`web/data/colores.json`)
 6. `python3 api/compilar.py` y `python3 api/validar.py`; vistas previas con `api/vista_previa.py`
 
+Al final del paso 1, cada mapa pasa dos limpiezas automáticas, que salen en el informe:
+
+- `∪` **fundir_sin_datos**: los trozos sin datos que ha creado o tocado una corrección se unen a la tierra sin datos vecina.
+- `·` **asignar_astillas**: en las features sin datos tocadas por una corrección, y solo en los polígonos que no están tal cual en el original:
+  - los de área ~0 (menos de 0,01 km², medida también en el plano lon/lat, donde un triángulo de vértices alineados tiene área 0 aunque la proyección lo abra) se descartan;
+  - los de menos de 50 km² (`MIN_KM2`, el umbral por debajo del cual ninguna operación mueve nada) pasan a la entidad con nombre con la que comparten más contorno, si comparten al menos el 20 % del suyo.
+
+  Son las astillas de medio píxel que deja un recorte cuyos vértices no casan con los de la vecina, y que la web dibujaba como rayas grises dentro de los Sajones, el Reino franco o los ávaros. Las islas y la tierra sin datos del original no se tocan. El informe da cuántas se asignan, a quién, cuántas se descartan y la tierra perdida (área plana), que debe ser 0.
+- Al escribir, las geometrías tocadas se ajustan con `set_precision` (shapely ≥ 2.0) a la rejilla de 1e-4°, la de los 4 decimales con que se escriben. Así el redondeo no deja espigas de anchura nula (un vértice que sale y vuelve al mismo punto), que la web también dibujaba como líneas dentro de una entidad. Las features que no toca ninguna corrección se escriben tal cual.
+
 Cada paso es idempotente. Si el paso 1 reescribe un mapa, hay que volver a pasar los pasos 2 a 5. Los rellenos que ya estaban en el original no se repiten. Si un mapa deja de tener correcciones, el paso 1 restaura su original. Un mapa nuevo que ya no se define hay que borrarlo a mano.
 
 ## Reglas
@@ -80,4 +103,4 @@ Cada paso es idempotente. Si el paso 1 reescribe un mapa, hay que volver a pasar
 - No edites a mano `web/data/years.json` ni los mapas corregidos, porque se regeneran. Tampoco edites `api/geo/originales/`, salvo para poner allí un mapa nuevo de historical-basemaps.
 - Pon `BORDERPRECISION: 1` en `props` cuando la frontera sea una reconstrucción aproximada.
 - No inventes. Si no hay fuente, no hay operación: anótalo en la propuesta.
-- Si cambias la semántica de `corregir_mapas.py`, sube `VERSION` en el script (o usa `--forzar`), porque la huella no incluye el código.
+- Si cambias la semántica de `corregir_mapas.py`, sube `VERSION` en el script (o usa `--forzar`), porque la huella no incluye el código. `VERSION` 2 (2026-09-29): astillas sin datos y rejilla de escritura.
