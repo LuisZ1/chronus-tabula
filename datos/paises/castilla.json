@@ -14,6 +14,18 @@
 		{
 			"id": "espana",
 			"tipo": "sucesor"
+		},
+		{
+			"id": "leon-castilla",
+			"tipo": "parte_de",
+			"desde": 1037,
+			"hasta": 1065
+		},
+		{
+			"id": "leon-castilla",
+			"tipo": "parte_de",
+			"desde": 1072,
+			"hasta": 1157
 		}
 	],
 	"resena": "La Corona de Castilla, como entidad histórica, se suele considerar que comienza con la última y definitiva unión dinástica de los reinos de Castilla y de León, con sus respectivos territorios, en 1230, o bien con la reunión de sus Cortes, unas décadas después.",

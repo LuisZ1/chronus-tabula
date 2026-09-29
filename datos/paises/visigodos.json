@@ -20,6 +20,14 @@
 	"wiki": "Reino visigodo",
 	"vinculos": [
 		{
+			"id": "pueblo-godo",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "tervingios",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "espana",
 			"tipo": "sucesor_territorial"
 		}

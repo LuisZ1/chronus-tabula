@@ -6,6 +6,10 @@
 	],
 	"vinculos": [
 		{
+			"id": "rashidun",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "abasi",
 			"tipo": "sucesor_territorial"
 		},

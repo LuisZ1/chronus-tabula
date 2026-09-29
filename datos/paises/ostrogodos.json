@@ -7,6 +7,10 @@
 	"wiki": "Reino ostrogodo",
 	"vinculos": [
 		{
+			"id": "pueblo-godo",
+			"tipo": "predecesor"
+		},
+		{
 			"id": "reino-odoacro",
 			"tipo": "antecesor_territorial"
 		}

@@ -5,6 +5,18 @@
 		"Avars"
 	],
 	"wiki": "Canato ávaro",
+	"vinculos": [
+		{
+			"id": "francos",
+			"tipo": "parte_de",
+			"desde": 796,
+			"hasta": 822
+		},
+		{
+			"id": "gepidos",
+			"tipo": "antecesor_territorial"
+		}
+	],
 	"gobernantes": [
 		{
 			"nombre": "Bayán I",

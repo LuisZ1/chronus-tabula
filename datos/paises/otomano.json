@@ -3,7 +3,16 @@
 	"nombre": "Imperio otomano",
 	"nombres": [
 		"Ottoman Empire",
-		"Ottoman Sultanate"
+		"Ottoman Sultanate",
+		"Ottoman beylik"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Beylik otomano",
+			"desde": 1299,
+			"hasta": 1325,
+			"wiki": "Osmán I"
+		}
 	],
 	"wikidata": "Q12560",
 	"relacionados": [
@@ -15,10 +24,34 @@
 			"tipo": "sucesor"
 		},
 		{
+			"id": "valaquia",
+			"tipo": "incluye",
+			"desde": 1417,
+			"hasta": 1859
+		},
+		{
+			"id": "moldavia",
+			"tipo": "incluye",
+			"desde": 1498,
+			"hasta": 1859
+		},
+		{
 			"id": "egipto",
 			"tipo": "incluye",
 			"desde": 1517,
 			"hasta": 1867
+		},
+		{
+			"id": "hungria-oriental",
+			"tipo": "incluye",
+			"desde": 1529,
+			"hasta": 1570
+		},
+		{
+			"id": "transilvania",
+			"tipo": "incluye",
+			"desde": 1570,
+			"hasta": 1699
 		},
 		{
 			"id": "bizancio",
@@ -311,6 +344,12 @@
 			"id": "wikipedia-es:Imperio otomano",
 			"url": "https://es.wikipedia.org/wiki/Imperio_otomano",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "wikipedia-en:Osman I",
+			"url": "https://en.wikipedia.org/wiki/Osman_I",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
 		},
 		{
 			"id": "Wikipedia (es): Imperio otomano",
