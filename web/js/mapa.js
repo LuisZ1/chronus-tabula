@@ -34,7 +34,7 @@ function rayadoSinDatos() {
 	return patronSinDatos;
 }
 
-function featureStyle(f) {
+function featureStyle(f, anio = state.colorYear) {
 	if (sinDatos(f.properties))
 		return { color: '#9aa6b1', weight: 0.5, fillColor: rayadoSinDatos(), fillOpacity: prefs.relleno ? 1 : 0 };
 	const key = f.properties.SUBJECTO || f.properties.NAME;
@@ -45,7 +45,7 @@ function featureStyle(f) {
 	return {
 		color: followed ? '#b8291c' : '#3a4450',
 		weight: followed ? 2 : 0.6,
-		fillColor: colorFor(key),
+		fillColor: colorFor(key, anio),
 		fillOpacity
 	};
 }
@@ -296,10 +296,10 @@ async function loadYearData(y) {
 /* capa saliente del modo Reproducir: copia no interactiva del mapa anterior en
    el pane 'saliente' (encima), cuya opacidad baja de 1 a 0 en 300 ms. Nunca hay
    más de dos capas vivas: si llega otro paso, la saliente previa se retira ya. */
-function retirarConFundido(oldLayer, oldGj) {
+function retirarConFundido(oldLayer, oldGj, oldYear) {
 	map.removeLayer(oldLayer);
 	if (state.saliente) map.removeLayer(state.saliente);
-	const capa = L.geoJSON(oldGj, { style: featureStyle, renderer: salienteRenderer, interactive: false });
+	const capa = L.geoJSON(oldGj, { style: f => featureStyle(f, oldYear), renderer: salienteRenderer, interactive: false });
 	state.saliente = capa.addTo(map);
 	const pane = map.getPane('saliente');
 	pane.style.transition = 'none';
@@ -330,8 +330,10 @@ async function showYear(requestedYear) {
 
 		// al reproducir, el mapa anterior se funde sobre el nuevo (se ve qué cambia);
 		// al arrastrar, con ◀ ▶ o con movimiento reducido, corte seco
+		const oldColorYear = state.colorYear;
+		state.colorYear = snap > LAST_MAP_YEAR ? LAST_MAP_YEAR : snap; // colores del mapa que se dibuja
 		if (state.layer && state.playTimer && !menosMovimiento() && state.layerGj) {
-			retirarConFundido(state.layer, state.layerGj);
+			retirarConFundido(state.layer, state.layerGj, oldColorYear);
 		} else if (state.layer) map.removeLayer(state.layer);
 		state.layerGj = gj;
 		state.layer = L.geoJSON(gj, {
