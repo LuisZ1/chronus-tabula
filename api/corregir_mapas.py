@@ -277,6 +277,37 @@ class Mapa:
     def clave(self):
         return "DERIVADO" if self.nuevo else "CORREGIDO"
 
+    def fundir_sin_datos(self):
+        """Une a la tierra sin datos vecina los trozos sin datos que ha creado o tocado una
+        corrección. Si no, el trozo cedido (p. ej. la cuña que pierden los hunos en 400)
+        queda como una feature aparte y la web dibuja su contorno dentro de la zona rayada.
+        Devuelve cuántos trozos se han unido."""
+        unidos = 0
+        cambia = True
+        while cambia:
+            cambia = False
+            vacias = [fe for fe in self.feats if not fe.nombre and not fe.geom.is_empty]
+            for fe in vacias:
+                if not fe.marca:
+                    continue
+                for otra in vacias:
+                    if otra is fe or otra.geom.is_empty or not fe.geom.buffer(1e-6).intersects(otra.geom):
+                        continue
+                    destino, pieza = (otra, fe) if km2(otra.geom) >= km2(fe.geom) else (fe, otra)
+                    destino.geom = sup(make_valid(unary_union([destino.geom, pieza.geom])))
+                    destino.orig = None
+                    for k, m in pieza.marca.items():
+                        dm = destino.marca.setdefault(k, {"base": m["base"], "motivos": [], "fuentes": []})
+                        dm["motivos"] += [x for x in m["motivos"] if x not in dm["motivos"]]
+                        dm["fuentes"] += [x for x in m["fuentes"] if x not in dm["fuentes"]]
+                    pieza.geom = Polygon()
+                    unidos += 1
+                    cambia = True
+                    break
+                if cambia:
+                    break
+        return unidos
+
     def geojson(self, huella):
         salida = []
         for fe in self.feats:
@@ -654,6 +685,11 @@ def main(argv=None):
         inf = informes.setdefault(destino, [])
         inf.append(f"  [{fichero}]" + (f" mapa nuevo derivado de {base}" if destino != base else ""))
         ap.aplicar(estados[destino], ops, inf)
+
+    for fn, m in estados.items():
+        n = m.fundir_sin_datos()
+        if n:
+            informes.setdefault(fn, []).append(f"  ∪ {fn}: {n} trozo(s) sin datos unidos a la tierra sin datos vecina")
 
     escritos = 0
     for fn in objetivo:
