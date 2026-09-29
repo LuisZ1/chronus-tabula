@@ -1,0 +1,47 @@
+{
+	"id": "senorio-irlanda",
+	"nombre": "Señorío de Irlanda",
+	"nombres": [
+		"Lordship of Ireland"
+	],
+	"wiki": "Señorío de Irlanda",
+	"vinculos": [
+		{
+			"id": "irlanda",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "inglaterra",
+			"tipo": "parte_de",
+			"desde": 1177,
+			"hasta": 1542
+		}
+	],
+	"resena": "Dominio de los reyes de Inglaterra en Irlanda desde la invasión normanda (1169-1171) y la concesión del título de señor de Irlanda a Juan sin Tierra (1177) hasta que Enrique VIII se proclamó rey de Irlanda en 1542. Reclamaba toda la isla, pero tras el resurgimiento gaélico posterior a 1350 el poder real efectivo se redujo a finales del siglo XV a la Pale: los «cuatro condados obedientes» de Dublín, Meath, Louth y Kildare, defendidos por un foso desde 1494-1495, además de algunas ciudades como Cork, Limerick, Waterford y Wexford. El mapa solo marca la Pale; el resto de la isla figura como Irlanda gaélica.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Lordship of Ireland",
+			"url": "https://en.wikipedia.org/wiki/Lordship_of_Ireland",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-en:The Pale",
+			"url": "https://en.wikipedia.org/wiki/The_Pale",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-es:Señorío de Irlanda",
+			"url": "https://es.wikipedia.org/wiki/Se%C3%B1or%C3%ADo_de_Irlanda",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-es:La Empalizada",
+			"url": "https://es.wikipedia.org/wiki/La_Empalizada",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"id": "irlanda-gaelica",
+	"nombre": "Irlanda gaélica",
+	"nombres": [
+		"Gaelic Ireland"
+	],
+	"wiki": "en:Gaelic Ireland",
+	"vinculos": [
+		{
+			"id": "irlanda",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Conjunto de señoríos gaélicos (O'Neill, O'Donnell, O'Brien, MacCarthy y otros) y de señoríos angloirlandeses gaelizados (los condes de Kildare, Ormond y Desmond) que a finales del siglo XV dominaban Irlanda fuera de la Pale y solo reconocían de palabra la soberanía del rey de Inglaterra como señor de Irlanda. No fue un Estado unificado: el mapa los agrupa porque sus fronteras no se conocen con precisión. La conquista Tudor y la proclamación del Reino de Irlanda (1542) acabaron con su independencia de hecho a lo largo del siglo XVI.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Gaelic Ireland",
+			"url": "https://en.wikipedia.org/wiki/Gaelic_Ireland",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		},
+		{
+			"id": "wikipedia-en:Lordship of Ireland",
+			"url": "https://en.wikipedia.org/wiki/Lordship_of_Ireland",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-30"
+		}
+	]
+}
