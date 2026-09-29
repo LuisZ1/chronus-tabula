@@ -52,6 +52,21 @@ y los ficheros de geometría usados. Si coincide, el mapa está al día y no se
 reescribe; por eso el script es idempotente y no pisa lo que añadan después
 rellenar_geojson.py o limpiar_geojson.py.
 
+Limpieza final de cada mapa (después de todas las operaciones):
+  1. fundir_sin_datos: los trozos sin datos creados o tocados por una corrección se unen a la
+     tierra sin datos vecina (si no, la web dibuja su contorno dentro de la zona rayada).
+  2. asignar_astillas: en las features sin datos tocadas, los polígonos que no están tal cual
+     en el original y miden menos de MIN_KM2 (50 km², el umbral por debajo del cual ninguna
+     operación mueve nada) pasan a la entidad con nombre con la que comparten más contorno (si
+     es al menos BORDE_MIN del suyo); los de área ~0 (CERO_KM2) que no tocan a nadie se descartan. Son las astillas de medio
+     píxel que deja un recorte cuyos vértices no casan con los de la vecina y que la web pinta
+     como rayas grises dentro de una entidad. La tierra sin datos del original que no ha
+     tocado ninguna corrección (islas, territorios sin datos genuinos) no se toca.
+  3. al escribir, las geometrías tocadas se ajustan con set_precision a la rejilla de 1e-4°
+     (los 4 decimales con que ya se escribían): así el redondeo no deja espigas de anchura nula,
+     que la web también dibuja como líneas dentro de la entidad. Las features sin tocar se
+     escriben tal cual del original.
+
 Originales: la primera vez que se corrige un mapa se guarda una copia exacta
 del mapa tal como estaba en api/geo/originales/<mapa>. Ese es el punto de
 partida de todas las ejecuciones siguientes (no depende de git). Si se
@@ -82,15 +97,28 @@ import sys
 try:
     from shapely.geometry import Polygon, box, mapping, shape
     from shapely.ops import transform, unary_union
+    from shapely.strtree import STRtree
+    try:
+        from shapely import set_precision  # shapely ≥ 2.0
+    except ImportError:  # pragma: no cover
+        set_precision = None
     from shapely.validation import make_valid
 except ImportError:  # pragma: no cover
     sys.exit("Este script necesita shapely: pip install shapely")
 
-VERSION = "1"  # súbela si cambia la semántica de las operaciones (fuerza regenerar)
+VERSION = "2"  # súbela si cambia la semántica de las operaciones (fuerza regenerar)
+# 2: paso asignar_astillas (astillas sin datos tocadas → entidad vecina con más frontera) y
+#    geometrías tocadas ajustadas a la rejilla de escritura con set_precision (sin espigas)
 CLAVES = ("NAME", "ABBREVN", "SUBJECTO", "BORDERPRECISION", "PARTOF")
 MIN_KM2 = 50      # trozos menores no se mueven (bordes de recorte)
 SOLAPE_KM2 = 500  # solapes menores no se avisan
 ASTILLA_KM2 = 1   # recortes menores (sustituir) no se anotan en CORREGIDO ni en el informe
+CERO_KM2 = 0.01   # polígonos sin datos menores (1 ha) se descartan: son líneas con área numérica
+# asignar_astillas: un trozo sin datos tocado de menos de MIN_KM2 (el mismo umbral por debajo del
+# cual _tomar no mueve nada, así que ninguna corrección puede asignarlo) pasa a la vecina con nombre
+# con la que comparte más frontera, si esa frontera es al menos BORDE_MIN de su contorno
+BORDE_MIN = 0.2
+EPS_GRADOS = 1e-5  # ~1 m: tolerancia para decidir qué contorno se comparte
 
 
 class Rutas:
@@ -111,6 +139,15 @@ def km2(g):
     return transform(lambda x, y, z=None: (math.radians(x) * 6371, math.sin(math.radians(y)) * 6371), g).area
 
 
+def km2_plano(g):
+    """Área en el plano lon/lat (la que ve GEOS), en km² aproximados. Un triángulo de vértices
+    alineados en grados tiene área 0 aquí, aunque km2() le dé decenas de km² porque la
+    proyección curva sus lados: es una línea, no territorio."""
+    if g.is_empty:
+        return 0.0
+    return g.area * 111.32 ** 2 * math.cos(math.radians(g.centroid.y))
+
+
 def cifra(a):
     """km² legibles: en miles si es grande."""
     return f"{a / 1e3:,.0f} mil km²" if a >= 1e4 else f"{a:,.0f} km²"
@@ -124,6 +161,19 @@ def sup(g):
         return g
     partes = [p for p in getattr(g, "geoms", []) if p.geom_type in ("Polygon", "MultiPolygon")]
     return unary_union(partes) if partes else Polygon()
+
+
+REJILLA = 1e-4  # grados: las coordenadas se escriben con 4 decimales (red)
+
+
+def rejilla(g):
+    """Ajusta la geometría a la rejilla de REJILLA grados, la misma a la que red() redondea al
+    escribir. Hacerlo con GEOS (set_precision) y no solo redondeando evita que el redondeo deje
+    espigas de anchura nula (un vértice que sale y vuelve al mismo punto) y triángulos de área
+    nula, que la web dibuja como líneas dentro de una entidad."""
+    if g.is_empty or set_precision is None:
+        return g
+    return sup(make_valid(set_precision(g, REJILLA)))
 
 
 def red(o):
@@ -253,6 +303,7 @@ class Mapa:
         self.base = base          # mapa original del que parte
         self.nuevo = False
         self.sin_geometria = []   # features sin geometría: se conservan tal cual
+        self.sd0 = []             # polígonos sin datos del original (asignar_astillas no los toca)
 
     @classmethod
     def desde_geojson(cls, fn, gj):
@@ -265,12 +316,15 @@ class Mapa:
         cab = {k: v for k, v in gj.items() if k not in ("features", "correcciones")}
         m = cls(fn, cab, feats, fn)
         m.sin_geometria = vacias
+        m.sd0 = [p for fe in feats if not fe.nombre
+                 for p in getattr(fe.geom, "geoms", [fe.geom]) if p.geom_type == "Polygon"]
         return m
 
     def derivar(self, fn):
         m = Mapa(fn, {**self.cabecera, "name": fn[:-8]}, [f.copiar() for f in self.feats], self.nombre)
         m.nuevo = True
         m.sin_geometria = list(self.sin_geometria)
+        m.sd0 = self.sd0
         return m
 
     @property
@@ -308,6 +362,75 @@ class Mapa:
                     break
         return unidos
 
+    def asignar_astillas(self):
+        """Quita las astillas sin datos que dejan las correcciones dentro o entre entidades con nombre.
+
+        Un recorte cuyos vértices no casan exactamente con los de la vecina deja trozos sin datos
+        de área casi nula (tiras de medio píxel) que la web dibuja como rayas grises dentro de los
+        Sajones, el Reino franco, los ávaros… Solo se miran los polígonos de features sin datos
+        TOCADAS por una corrección (con marca), y de ellas solo los que no están tal cual en el
+        original (fundir_sin_datos marca también la tierra sin datos grande a la que se une un trozo,
+        con sus islas), para no alterar islas ni territorios sin datos genuinos del original:
+          - los de menos de MIN_KM2 pasan a la entidad con nombre con la que comparten más contorno,
+            si ese contorno compartido es al menos BORDE_MIN del total (una isla pequeña que no toca
+            a nadie se queda como está). Esto incluye los de área ~0 (menos de CERO_KM2 en km2() o
+            en km2_plano(): triángulos de vértices alineados en grados, que la proyección de la web
+            abre en tiras finas): al unirlos a la vecina se cierra la grieta de área nula que la
+            rodea, que si no se dibuja como una línea dentro de la entidad;
+          - los de área ~0 que no tocan a ninguna entidad con nombre se descartan.
+        Devuelve (asignadas [(NAME, km²)], descartadas)."""
+        asignadas, descartadas = [], 0
+        indice = STRtree(self.sd0) if self.sd0 else None
+
+        def del_original(p):
+            """Si p es (casi) idéntico a un polígono sin datos del original, no lo ha creado una corrección."""
+            if indice is None:
+                return False
+            for i in indice.query(p):
+                q = self.sd0[int(i)]
+                if km2(p.symmetric_difference(q)) <= max(CERO_KM2, 0.001 * km2(q)):
+                    return True
+            return False
+
+        nombradas = [fe for fe in self.feats if fe.nombre and not fe.geom.is_empty]
+        for fe in [f for f in self.feats if not f.nombre and f.marca and not f.geom.is_empty]:
+            partes = [p for p in getattr(fe.geom, "geoms", [fe.geom]) if p.geom_type == "Polygon"]
+            quedan = []
+            for p in partes:
+                a = km2(p)
+                if a >= MIN_KM2 or del_original(p):
+                    quedan.append(p)
+                    continue
+                cero = min(a, km2_plano(p)) < CERO_KM2
+                zona = p.buffer(EPS_GRADOS)
+                contorno = p.boundary
+                mejor, lmax = None, 0.0
+                for o in nombradas:
+                    if not o.geom.intersects(zona):
+                        continue
+                    cerca = o.geom.intersection(zona)
+                    lon = contorno.intersection(cerca.buffer(EPS_GRADOS)).length
+                    if lon > lmax:
+                        mejor, lmax = o, lon
+                if mejor is None or lmax < BORDE_MIN * contorno.length:
+                    if cero:
+                        descartadas += 1  # línea suelta que no toca a nadie
+                    else:
+                        quedan.append(p)
+                    continue
+                # también las de área ~0: unirlas cierra la grieta de la vecina, que si no la web
+                # dibuja como una línea dentro de la entidad
+                mejor.geom = sup(make_valid(unary_union([mejor.geom, p])))
+                if a >= ASTILLA_KM2 and not cero:
+                    mejor.tocar(self.clave, self.base, "recibe una astilla sin datos que dejó un recorte vecino")
+                else:
+                    mejor.orig = None
+                asignadas.append((mejor.nombre, 0.0 if cero else a))
+            if len(quedan) != len(partes) or len(partes) != len(getattr(fe.geom, "geoms", [fe.geom])):
+                fe.geom = unary_union(quedan) if quedan else Polygon()
+                fe.orig = None
+        return asignadas, descartadas
+
     def geojson(self, huella):
         salida = []
         for fe in self.feats:
@@ -319,7 +442,13 @@ class Mapa:
                 if m["fuentes"]:
                     v["fuente"] = "; ".join(m["fuentes"])
                 p[k] = v
-            geom = fe.orig if fe.orig is not None else red(mapping(fe.geom))
+            if fe.orig is not None:
+                geom = fe.orig
+            else:
+                g = rejilla(fe.geom)
+                if g.is_empty:
+                    continue  # más estrecha que la rejilla: no es territorio
+                geom = red(mapping(g))
             salida.append({"type": "Feature", "properties": p, "geometry": geom})
         gj = {**self.cabecera, "correcciones": {"base": self.base, "huella": huella},
               "features": salida + self.sin_geometria}
@@ -690,6 +819,18 @@ def main(argv=None):
         n = m.fundir_sin_datos()
         if n:
             informes.setdefault(fn, []).append(f"  ∪ {fn}: {n} trozo(s) sin datos unidos a la tierra sin datos vecina")
+        tierra0 = unary_union([fe.geom for fe in m.feats])
+        asignadas, descartadas = m.asignar_astillas()
+        if asignadas or descartadas:
+            perdida = km2_plano(sup(tierra0.difference(unary_union([fe.geom for fe in m.feats]))))
+            por = {}
+            for nom, a in asignadas:
+                por[nom] = por.get(nom, 0) + a
+            det = ", ".join(f"{k} {v:,.1f} km²" for k, v in sorted(por.items(), key=lambda x: -x[1])[:6])
+            informes.setdefault(fn, []).append(
+                f"  · {fn}: {len(asignadas)} astilla(s) sin datos ({sum(a for _, a in asignadas):,.1f} km²) "
+                f"asignadas a la vecina con más frontera{f' ({det}…)' if det else ''}; {descartadas} de área ~0 "
+                f"sueltas descartadas; tierra perdida {perdida:,.2f} km² (área plana)")
 
     escritos = 0
     for fn in objetivo:
