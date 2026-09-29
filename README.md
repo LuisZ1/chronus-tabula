@@ -49,8 +49,8 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
                               capas, mapa, paneles, tiempo, arranque
   data/historia.json        GENERADO desde datos/ (no se edita ni se versiona):
                               el único JSON que descarga la web
-  data/geojson/             104 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,
-                              50 intermedios creados por esa misma herramienta y 2011 derivado con api/derivar_mapas.py)
+  data/geojson/             106 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,
+                              52 intermedios creados por esa misma herramienta y 2011 derivado con api/derivar_mapas.py)
   data/years.json           índice de años con mapa
   data/land.geojson         contorno de continentes (Natural Earth), recorte costero
 
