@@ -17,4 +17,6 @@ Las tres de −500 (`*-ac500`) se regeneraron el 2026-09-28 tras rellenar con `a
 
 Las 21 se regeneraron de nuevo el 2026-09-28, con la interfaz en español, tras aplicar las correcciones de fronteras de `api/correcciones/` (consultas c01-c07) y los nombres por época nuevos de las fichas.
 
+Las 21 se regeneraron el 2026-09-29 tras aplicar la tanda 1 de Euratlas (`api/correcciones/21-` a `24-` y `31-`): cambian las de 1492 (principado de Moldavia), 1650 (Hungría real de los Habsburgo) y −500 (rótulos de las fichas nuevas de pueblos, como «Pueblos germánicos»); las de 1000, 1815, 1914 y 2010 salen idénticas.
+
 Si cambian la paleta o las fronteras, conviene regenerarlas con la misma receta: `python3 api/laminas.py` con la web servida en `http://127.0.0.1:9100/` (`cd web && python3 -m http.server 9100`).
