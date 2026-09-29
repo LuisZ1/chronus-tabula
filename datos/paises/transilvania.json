@@ -1,0 +1,123 @@
+{
+	"id": "transilvania",
+	"nombre": "Principado de Transilvania",
+	"nombres": [
+		"Principality of Transylvania"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Principado de Transilvania",
+			"desde": 1570,
+			"hasta": 1711,
+			"wiki": "Principado de Transilvania"
+		}
+	],
+	"wiki": "Principado de Transilvania",
+	"vinculos": [
+		{
+			"id": "hungria-oriental",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "otomano",
+			"tipo": "parte_de",
+			"desde": 1570,
+			"hasta": 1699
+		}
+	],
+	"resena": "Estado nacido en 1570, cuando Juan Segismundo Zápolya renunció en el tratado de Espira al título de rey de Hungría y quedó como príncipe de Transilvania y del Partium. Tenía príncipes elegidos por su dieta y era vasallo y tributario del sultán otomano, aunque también negociaba con los Habsburgo. Vivió su mejor época con Gabriel Bethlen y los Rákóczi; tras perder Várad en 1660 entró en declive, y desde la paz de Karlowitz (1699) quedó bajo los Habsburgo, que suprimieron el principado en 1711.",
+	"gobernantes": [
+		{
+			"nombre": "Juan Segismundo Zápolya",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1570,
+			"hasta": 1571
+		},
+		{
+			"nombre": "Esteban Báthory",
+			"titulo": "Voivoda y príncipe de Transilvania",
+			"desde": 1571,
+			"hasta": 1586
+		},
+		{
+			"nombre": "Segismundo Báthory",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1586,
+			"hasta": 1602
+		},
+		{
+			"nombre": "Andrés Báthory",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1599,
+			"hasta": 1599
+		},
+		{
+			"nombre": "Miguel el Valiente",
+			"titulo": "Voivoda de Valaquia, gobernador de Transilvania",
+			"desde": 1599,
+			"hasta": 1600
+		},
+		{
+			"nombre": "Esteban Bocskai",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1605,
+			"hasta": 1606
+		},
+		{
+			"nombre": "Segismundo Rákóczi",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1607,
+			"hasta": 1608
+		},
+		{
+			"nombre": "Gabriel Báthory",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1608,
+			"hasta": 1613
+		},
+		{
+			"nombre": "Gabriel Bethlen",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1613,
+			"hasta": 1629
+		},
+		{
+			"nombre": "Jorge I Rákóczi",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1630,
+			"hasta": 1648
+		},
+		{
+			"nombre": "Jorge II Rákóczi",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1648,
+			"hasta": 1660
+		},
+		{
+			"nombre": "Miguel I Apafi",
+			"titulo": "Príncipe de Transilvania",
+			"desde": 1661,
+			"hasta": 1690
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Principado de Transilvania",
+			"url": "https://es.wikipedia.org/wiki/Principado_de_Transilvania",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Principality of Transylvania (1570–1711)",
+			"url": "https://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570%E2%80%931711)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Partium",
+			"url": "https://en.wikipedia.org/wiki/Partium",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

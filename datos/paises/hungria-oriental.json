@@ -1,0 +1,55 @@
+{
+	"id": "hungria-oriental",
+	"nombre": "Reino húngaro oriental",
+	"nombres": [
+		"Eastern Hungarian Kingdom"
+	],
+	"nombres_periodo": [
+		{
+			"nombre": "Reino húngaro oriental",
+			"desde": 1526,
+			"hasta": 1570,
+			"wiki": "en:Eastern Hungarian Kingdom"
+		}
+	],
+	"wiki": "en:Eastern Hungarian Kingdom",
+	"vinculos": [
+		{
+			"id": "hungria",
+			"tipo": "predecesor"
+		},
+		{
+			"id": "transilvania",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "otomano",
+			"tipo": "parte_de",
+			"desde": 1529,
+			"hasta": 1570
+		}
+	],
+	"resena": "Nombre que dan los historiadores al reino de Juan Zápolya, elegido rey de Hungría tras la batalla de Mohács (1526) frente a Fernando de Habsburgo, y de su hijo Juan Segismundo. Zápolya juró fidelidad al sultán Solimán en 1529; tras la toma otomana de Buda (1541) el reino quedó reducido a Transilvania, el Partium y, hasta 1552, el Banato. En 1570, por el tratado de Espira, Juan Segismundo renunció al título real y el reino se convirtió en el Principado de Transilvania.",
+	"gobernantes": [
+		{
+			"nombre": "Juan I Zápolya",
+			"titulo": "Rey de Hungría",
+			"desde": 1526,
+			"hasta": 1540
+		},
+		{
+			"nombre": "Juan Segismundo Zápolya",
+			"titulo": "Rey electo de Hungría",
+			"desde": 1540,
+			"hasta": 1570
+		}
+	],
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Eastern Hungarian Kingdom",
+			"url": "https://en.wikipedia.org/wiki/Eastern_Hungarian_Kingdom",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

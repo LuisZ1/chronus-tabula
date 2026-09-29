@@ -1,0 +1,153 @@
+{
+	"tema": "Reino de León y Castilla: uniones personales de 1037-1065, 1072-1109 y 1126-1157 (propuesta Euratlas siglo XII)",
+	"mapas": {
+		"world_1050.geojson": [
+			{
+				"op": "renombrar",
+				"de": "Castilla",
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Fernando I, conde de Castilla desde 1029, es rey de León desde 1037 (Tamarón): los dos reinos y Galicia tienen un mismo rey hasta su muerte en 1065, cuando los reparte entre sus hijos",
+				"fuente": "https://en.wikipedia.org/wiki/Ferdinand_I_of_Le%C3%B3n"
+			}
+		],
+		"world_1100.geojson": [
+			{
+				"op": "renombrar",
+				"de": "León",
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Alfonso VI es rey de León (1065-1109), de Galicia (1071-1109) y de Castilla (1072-1109): unión personal de los reinos, que siguen siendo entidades distintas",
+				"fuente": "https://en.wikipedia.org/wiki/Alfonso_VI_of_Le%C3%B3n_and_Castile"
+			},
+			{
+				"op": "renombrar",
+				"de": "Castilla",
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Castilla, con Toledo (1085), en unión personal con León bajo Alfonso VI (1072-1109)",
+				"fuente": "https://en.wikipedia.org/wiki/Kingdom_of_Castile"
+			}
+		],
+		"world_1150.geojson": [
+			{
+				"op": "renombrar",
+				"de": "León",
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Alfonso VII es rey de León y de Castilla (1126-1157) y emperador; a su muerte los reparte entre Sancho III (Castilla) y Fernando II (León)",
+				"fuente": "https://en.wikipedia.org/wiki/Alfonso_VII_of_Le%C3%B3n_and_Castile"
+			},
+			{
+				"op": "renombrar",
+				"de": "Castilla",
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Castilla, en unión personal con León bajo Alfonso VII (1126-1157)",
+				"fuente": "https://en.wikipedia.org/wiki/Alfonso_VII_of_Le%C3%B3n_and_Castile"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"pol": [
+						[
+							-4.0,
+							39.5
+						],
+						[
+							-3.0,
+							39.8
+						],
+						[
+							-3.3,
+							39.25
+						],
+						[
+							-3.55,
+							38.95
+						],
+						[
+							-3.85,
+							38.85
+						],
+						[
+							-4.15,
+							38.95
+						],
+						[
+							-4.4,
+							39.3
+						]
+					]
+				},
+				"desde": [
+					"Almohad Caliphate"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Calatrava (la Vieja), tomada por Alfonso VII en 1147 y cristiana hasta Alarcos (1195): avanzada en el valle del Guadiana. Frontera aproximada",
+				"fuente": "https://en.wikipedia.org/wiki/Calatrava_la_Vieja"
+			},
+			{
+				"op": "asignar",
+				"region": {
+					"pol": [
+						[
+							-2.75,
+							36.75
+						],
+						[
+							-2.25,
+							36.75
+						],
+						[
+							-2.25,
+							37.05
+						],
+						[
+							-2.75,
+							37.05
+						]
+					]
+				},
+				"desde": [
+					"Almohad Caliphate"
+				],
+				"libre": false,
+				"props": {
+					"NAME": "Kingdom of León and Castile",
+					"SUBJECTO": "Kingdom of León and Castile",
+					"PARTOF": "Kingdom of León and Castile",
+					"BORDERPRECISION": 1
+				},
+				"motivo": "Almería, conquistada en octubre de 1147 por Alfonso VII con genoveses y catalanes y recuperada por los almohades en 1157: enclave aproximado",
+				"fuente": "https://es.wikipedia.org/wiki/Alfonso_VII_de_Le%C3%B3n"
+			}
+		]
+	}
+}

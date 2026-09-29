@@ -1,0 +1,29 @@
+{
+	"id": "cultura-de-zarubintsy",
+	"nombre": "Cultura de Zarubintsy",
+	"nombres": [
+		"Zarubintsy culture"
+	],
+	"wiki": "en:Zarubintsy culture",
+	"vinculos": [
+		{
+			"id": "cultura-de-kiev",
+			"tipo": "sucesor"
+		}
+	],
+	"resena": "Cultura arqueológica del siglo III a. C. al siglo I d. C., con fases tardías en el II, en el alto y medio Dniéper y el Prípiat, hasta el Bug meridional. Sucedió en parte a la cultura de Milograd y se la relaciona con los primeros eslavos, aunque su atribución étnica se discute. Sus grupos centrales dieron paso a la cultura de Kiev.",
+	"fuentes": [
+		{
+			"id": "wikipedia-en:Zarubintsy culture",
+			"url": "https://en.wikipedia.org/wiki/Zarubintsy_culture",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Milograd culture",
+			"url": "https://en.wikipedia.org/wiki/Milograd_culture",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

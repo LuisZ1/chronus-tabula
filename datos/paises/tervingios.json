@@ -1,0 +1,43 @@
+{
+	"id": "tervingios",
+	"nombre": "Tervingios",
+	"nombres": [
+		"Tervingi"
+	],
+	"wiki": "Tervingios",
+	"vinculos": [
+		{
+			"id": "visigodos",
+			"tipo": "sucesor"
+		},
+		{
+			"id": "pueblo-godo",
+			"tipo": "parte_de"
+		},
+		{
+			"id": "carpos",
+			"tipo": "antecesor_territorial"
+		}
+	],
+	"resena": "Rama de los godos que ocupó las llanuras al norte del bajo Danubio y al oeste del Dniéster, en la antigua Dacia abandonada por Roma, desde finales del siglo III. Se la nombra por primera vez hacia 291. Firmó un tratado con Constantino en 332 y luchó contra Valente en 367-369. En 376, empujada por los hunos, cruzó el Danubio con Fritigerno y dio origen a los visigodos.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Tervingios",
+			"url": "https://es.wikipedia.org/wiki/Tervingios",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Thervingi",
+			"url": "https://en.wikipedia.org/wiki/Thervingi",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Gothic War (376–382)",
+			"url": "https://en.wikipedia.org/wiki/Gothic_War_(376%E2%80%93382)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}

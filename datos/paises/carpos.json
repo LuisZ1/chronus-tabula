@@ -1,0 +1,29 @@
+{
+	"id": "carpos",
+	"nombre": "Carpos",
+	"nombres": [
+		"Carpi"
+	],
+	"wiki": "Carpos",
+	"vinculos": [
+		{
+			"id": "tervingios",
+			"tipo": "sucesor_territorial"
+		}
+	],
+	"resena": "Pueblo dacio libre de Moldavia, entre el Siret y el Prut, al este de los Cárpatos. Desde 238 atacó muchas veces las provincias del Danubio. Aureliano lo venció en 272, Diocleciano y Galerio entre 296 y 303 y Constantino en 317-318. Roma trasladó a gran parte de los carpos a sus provincias, y después de 318 las fuentes ya no los mencionan.",
+	"fuentes": [
+		{
+			"id": "wikipedia-es:Carpos",
+			"url": "https://es.wikipedia.org/wiki/Carpos",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		},
+		{
+			"id": "wikipedia-en:Carpi (people)",
+			"url": "https://en.wikipedia.org/wiki/Carpi_(people)",
+			"licencia": "CC BY-SA",
+			"consultado": "2026-09-29"
+		}
+	]
+}
