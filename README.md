@@ -49,8 +49,8 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
                               capas, mapa, paneles, tiempo, arranque
   data/historia.json        GENERADO desde datos/ (no se edita ni se versiona):
                               el único JSON que descarga la web
-  data/geojson/             82 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,
-                              28 intermedios creados por esa misma herramienta y 2011 derivado con api/derivar_mapas.py)
+  data/geojson/             104 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,
+                              50 intermedios creados por esa misma herramienta y 2011 derivado con api/derivar_mapas.py)
   data/years.json           índice de años con mapa
   data/land.geojson         contorno de continentes (Natural Earth), recorte costero
 
@@ -77,6 +77,8 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   corregir_mapas.py         aplica las correcciones de fronteras de api/correcciones/ y crea mapas intermedios (usa shapely)
   vista_previa.py           PNG de un año del mapa, con un cambio propuesto o un conflicto encima (usa shapely y matplotlib)
   laminas.py                regenera las láminas de la portada (web/img/lamina/)
+  comprobar_enlaces.py      comprueba en la API de Wikipedia que cada enlace de fuente lleva a un artículo (necesita red)
+  colorear.py               reparte los colores para que dos territorios vecinos no coincidan (web/data/colores.json, usa shapely)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)
   validar.py                validador: esquema (schema/), años, coordenadas, nombres en los
