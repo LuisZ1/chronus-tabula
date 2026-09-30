@@ -7,13 +7,26 @@
 let historia = null; // contenido de data/historia.json
 const paisPorNombre = new Map(); // nombre del GeoJSON -> entrada de 'paises'
 const paisPorId = new Map();
-let nombresMapa = {}; // nombre del GeoJSON -> {es, en}: datos/nombres.json, compilado en historia.json
+let nombresMapa = {}; // nombre del GeoJSON -> texto en el idioma elegido (catálogo datos/i18n/)
+
+/* Un JSON por idioma, ya traducido al compilar (api/compilar.py): historia.json en
+   español (el idioma fuente) e historia.<idioma>.json para los demás; lo que no está
+   traducido llega en español. Donde el nombre cambia, 'nombre_es' guarda el original
+   (lo usan los enlaces entre fichas, que se escriben en español, y la Wikipedia). */
+function rutaHistoria(lang) {
+	return lang === 'es' ? 'data/historia.json' : `data/historia.${lang}.json`;
+}
 
 async function loadHistoria() {
+	paisPorNombre.clear();
+	paisPorId.clear();
+	cacheSeguidos = { clave: null, nombres: null };
 	try {
 		// no-cache: revalidar siempre, para que los datos recién editados/exportados
 		// aparezcan al recargar sin necesidad de vaciar la caché del navegador
-		historia = await (await fetch('data/historia.json', { cache: 'no-cache' })).json();
+		let r = await fetch(rutaHistoria(i18n.lang), { cache: 'no-cache' });
+		if (!r.ok) r = await fetch(rutaHistoria('es'), { cache: 'no-cache' }); // idioma sin compilar
+		historia = await r.json();
 		nombresMapa = historia.nombres_mapa || {};
 		for (const p of historia.paises || []) {
 			paisPorId.set(p.id, p);
@@ -51,33 +64,30 @@ function periodoActivo(pais, y) {
 }
 
 /* ---------- nombres en el idioma elegido ----------
-   Las fichas tienen 'nombre' (español) y 'nombre_en'; sus periodos, igual. Lo que
-   no tiene ficha se traduce con la tabla de nombres de los mapas (datos/nombres.json):
-   'es' siempre; 'en' solo si el nombre original no sirve como inglés (erratas,
-   nombres en francés…). Si nada lo traduce, se muestra el nombre del mapa. */
-function enIngles() {
-	return i18n.lang === 'en';
-}
-
+   Las fichas ya llegan traducidas (historia.<idioma>.json). Lo que no tiene ficha se
+   traduce con los nombres de los mapas del catálogo (nombres_mapa); si nada lo
+   traduce, se muestra el nombre del mapa tal cual. */
 function nombreMapa(name) {
-	const t = nombresMapa[name];
-	if (!t) return name;
-	return (enIngles() ? t.en : t.es) || name;
+	return nombresMapa[name] || name;
 }
 
 function nombreDe(obj) {
-	if (!obj) return null;
-	return enIngles() ? obj.nombre_en || null : obj.nombre || null;
+	return (obj && obj.nombre) || null;
+}
+
+/* nombre original (español) de una ficha: el de los enlaces entre fichas */
+function nombreEs(obj) {
+	return (obj && (obj.nombre_es || obj.nombre)) || '';
 }
 
 /* nombre visible de una guerra, batalla, zona, acontecimiento o territorio menor */
 function nombreTxt(obj) {
-	return (obj && (nombreDe(obj) || obj.nombre)) || '';
+	return (obj && obj.nombre) || '';
 }
 
 function nombrePeriodo(pais, y) {
 	const per = periodoActivo(pais, y);
-	return per ? nombreDe(per) || per.nombre : null;
+	return per ? per.nombre : null;
 }
 
 /* nombre de una ficha (título del popup, buscador, «siguiendo a…»): el del periodo
@@ -128,7 +138,7 @@ function nombreVisible(name, y, permitirHistorico) {
 		const per = nombrePeriodo(pais, y);
 		if (per) return per;
 		const propio = nombreDe(pais);
-		if (propio && (permitirHistorico || !NOMBRE_HISTORICO.test(pais.nombre || ''))) return propio;
+		if (propio && (permitirHistorico || !NOMBRE_HISTORICO.test(nombreEs(pais)))) return propio;
 	}
 	return nombreMapa(name);
 }
@@ -303,7 +313,7 @@ function followKeys() {
 	const keys = [];
 	for (const id of seguidas(state.follow, null)) {
 		const p = paisPorId.get(id);
-		if (p) keys.push(p.nombre || p.id, ...(p.relacionados || []));
+		if (p) keys.push(nombreEs(p) || p.id, ...(p.relacionados || []));
 	}
 	return [...new Set(keys.map(normTxt))];
 }

@@ -11,7 +11,7 @@ function paisDeTerritorio(t) {
 	// coincidencia exacta con el nombre (o con cada parte de un nombre compuesto
 	// como «Reino Unido / Gran Bretaña»), luego con nombres del GeoJSON y linaje
 	const partes = p =>
-		normTxt(p.nombre || '')
+		normTxt(nombreEs(p))
 			.split('/')
 			.map(x => x.trim());
 	return (
@@ -45,11 +45,11 @@ async function updateTerritorios() {
 		// se prefiere el nombre presente en el mapa cargado
 		const nombres = (p && p.nombres) || [];
 		const enMapa = nombres.find(n => state.areaByName.has(n));
-		const color = colorFor(enMapa || nombres[0] || t.pais || t.nombre);
+		const color = colorFor(enMapa || nombres[0] || t.pais || nombreEs(t));
 		// extensión aproximada: polígono recortado a la costa (para entidades
 		// sin frontera propia en los mapas, como Sumeria o las póleis griegas)
 		if (t.poligono) {
-			const anillos = t.mar ? [t.poligono] : clipZoneToLand('terr|' + t.nombre, t.poligono);
+			const anillos = t.mar ? [t.poligono] : clipZoneToLand('terr|' + nombreEs(t), t.poligono);
 			if (anillos) {
 				L.polygon(anillos, {
 					pane: 'warzones',
@@ -65,7 +65,7 @@ async function updateTerritorios() {
 			}
 		}
 		const icon = L.divIcon({
-			html: `<span class="terr-label"><span class="terr-dot" style="background:${color}"></span><span class="terr-name">${escHtml(nombreDe(t) || t.nombre)}</span></span>`,
+			html: `<span class="terr-label"><span class="terr-dot" style="background:${color}"></span><span class="terr-name">${escHtml(nombreTxt(t))}</span></span>`,
 			className: 'battle-wrap',
 			iconSize: [0, 0],
 			iconAnchor: [0, 0]

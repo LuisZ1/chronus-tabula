@@ -522,19 +522,25 @@ function setupControls() {
 	});
 
 	document.getElementById('langSelect').addEventListener('change', e => {
-		i18n.setLang(e.target.value).then(() => {
-			// los nombres de países y entidades también cambian de idioma
-			for (const d of state.labelData || []) d.display = nombreVisible(d.name, state.shownYear, false);
-			updateLabels();
-			if (historia) {
-				fillFollowDatalist();
-				updateTerritorios();
-				state.lastBattleYear = state.lastEventYear = null; // forzar el redibujado
-				updateBattles();
-				updateEvents();
-			}
-			if (state.follow) document.getElementById('followInput').value = nombreFicha(state.follow) || state.follow.id;
+		i18n.setLang(e.target.value).then(async () => {
+			// los datos (países, guerras, acontecimientos…) vienen traducidos en su
+			// propio JSON: se carga el del idioma nuevo y se redibuja lo que muestra textos
 			map.closePopup();
+			await loadHistoria();
+			if (state.follow) state.follow = paisPorId.get(state.follow.id) || null;
+			for (const d of state.labelData || []) {
+				if (d.pais) d.pais = paisPorId.get(d.pais.id) || d.pais;
+				d.display = nombreVisible(d.name, state.shownYear, false);
+			}
+			updateLabels();
+			fillFollowDatalist();
+			// forzar el redibujado de las capas que cachean su año
+			state.lastBattleYear = state.lastEventYear = state.lastTerrYear = state.lastWarYear = null;
+			updateBattles();
+			updateEvents();
+			updateTerritorios();
+			if (typeof updateWarZones === 'function') updateWarZones();
+			document.getElementById('followInput').value = state.follow ? nombreFicha(state.follow) || state.follow.id : '';
 			updateShownLabel(state.shownYear);
 			refreshLayersControl();
 			updateLegend();
@@ -555,11 +561,11 @@ function setupControls() {
 		const igual = n => normTxt(n || '').trim() === v;
 		return (
 			ps.find(p => igual(nombreFicha(p))) ||
-			ps.find(p => igual(p.nombre) || igual(p.nombre_en)) ||
-			ps.find(p => [p.nombre, p.nombre_en].some(n => (n || '').split('/').some(igual))) ||
+			ps.find(p => igual(p.nombre) || igual(p.nombre_es)) ||
+			ps.find(p => [p.nombre, p.nombre_es].some(n => (n || '').split('/').some(igual))) ||
 			ps.find(p => p.id === v) ||
 			ps.find(p => (p.nombres || []).some(igual)) ||
-			ps.find(p => (p.nombres_periodo || []).some(per => igual(per.nombre) || igual(per.nombre_en))) ||
+			ps.find(p => (p.nombres_periodo || []).some(per => igual(per.nombre) || igual(per.nombre_es))) ||
 			ps.find(p => (p.nombres || []).some(n => igual(nombreMapa(n)))) ||
 			ps.find(p => (p.relacionados || []).some(igual)) ||
 			null

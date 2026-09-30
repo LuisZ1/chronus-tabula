@@ -80,8 +80,8 @@ function popupHtml(props) {
 	// fuera de la época actual, el artículo de ese periodo
 	let wikiRef = '';
 	if (!resena) {
-		if (pais && !actual) wikiRef = periodo ? refWiki(periodo.wiki || periodo.nombre) : '';
-		else if (pais) wikiRef = refWiki(pais.wiki || pais.nombre);
+		if (pais && !actual) wikiRef = periodo ? refWiki(periodo.wiki || nombreEs(periodo)) : '';
+		else if (pais) wikiRef = refWiki(pais.wiki || nombreEs(pais));
 		else if (props.wikipedia && !/^https?:/.test(props.wikipedia)) wikiRef = 'en:' + props.wikipedia;
 	}
 
@@ -105,17 +105,51 @@ function refWiki(w) {
 
 const wikiCache = new Map();
 
-async function fetchWikiSummary(ref) {
-	if (wikiCache.has(ref)) return wikiCache.get(ref);
+/* el artículo equivalente en el idioma de la interfaz (enlace interlingüístico de
+   Wikipedia); si no existe, se queda el original */
+async function refEnIdioma(ref) {
+	const [lang, ...rest] = ref.split(':');
+	if (!i18n.lang || lang === i18n.lang) return ref;
+	try {
+		const r = await fetch(
+			`https://${lang}.wikipedia.org/w/api.php?action=query&format=json&origin=*&redirects=1&prop=langlinks&lllang=${i18n.lang}&titles=${encodeURIComponent(rest.join(':'))}`
+		);
+		if (r.ok) {
+			const pages = ((await r.json()).query || {}).pages || {};
+			for (const pg of Object.values(pages)) {
+				const ll = (pg.langlinks || [])[0];
+				if (ll && ll['*']) return i18n.lang + ':' + ll['*'];
+			}
+		}
+	} catch (e) {
+		/* sin red: el original */
+	}
+	return ref;
+}
+
+async function fetchWikiSummary(ref0) {
+	// el extracto, en el idioma de la interfaz si hay artículo en ese idioma
+	const clave = ref0 + '|' + i18n.lang;
+	if (wikiCache.has(clave)) return wikiCache.get(clave);
 	let stored = null;
 	try {
-		stored = localStorage.getItem('mapamundi.wiki.' + ref);
+		stored = localStorage.getItem('mapamundi.wiki.' + clave);
 	} catch (e) {}
 	if (stored) {
 		const v = stored === 'none' ? null : JSON.parse(stored);
-		wikiCache.set(ref, v);
+		wikiCache.set(clave, v);
 		return v;
 	}
+	const ref = await refEnIdioma(ref0);
+	const v = await resumenWiki(ref);
+	wikiCache.set(clave, v);
+	try {
+		localStorage.setItem('mapamundi.wiki.' + clave, v ? JSON.stringify(v) : 'none');
+	} catch (e) {}
+	return v;
+}
+
+async function resumenWiki(ref) {
 	const [lang, ...rest] = ref.split(':');
 	const title = rest.join(':');
 	let result = null;
@@ -136,10 +170,6 @@ async function fetchWikiSummary(ref) {
 	} catch (e) {
 		/* sin red: sin extracto */
 	}
-	wikiCache.set(ref, result);
-	try {
-		localStorage.setItem('mapamundi.wiki.' + ref, result ? JSON.stringify(result) : 'none');
-	} catch (e) {}
 	return result;
 }
 
@@ -317,9 +347,9 @@ function conflictPopupHtml(c, zona) {
 	if (zona)
 		rows += `<tr><td>${i18n.t('war.type')}</td><td>${i18n.t(zona.tipo === 'ocupado' ? 'war.occupied' : 'war.front')}</td></tr>`;
 	if (c.paises && c.paises.length)
-		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${c.paises.map(esc).join(', ')}</td></tr>`;
+		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${(c.paises_vis || c.paises).map(esc).join(', ')}</td></tr>`;
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
-	const wikiRef = refWiki(c.wiki || c.nombre);
+	const wikiRef = refWiki(c.wiki || nombreEs(c));
 	return `<div class="territory-popup war-popup" data-wiki="${esc(wikiRef)}"><h3>🔥 ${esc(nombreTxt(c))}</h3><table>${rows}</table>${c.descripcion ? `<p>${esc(c.descripcion)}</p>` : ''}${fuentesHtml(c)}${avisoDatoHtml()}</div>`;
 }
 
@@ -335,11 +365,11 @@ function battlePopupHtml(c, b) {
 			: i18n.formatYear(b.anio);
 	rows += `<tr><td>${i18n.t('battle.year')}</td><td>${bAnios}</td></tr>`;
 	if (c.paises && c.paises.length)
-		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${c.paises.map(esc).join(', ')}</td></tr>`;
+		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${(c.paises_vis || c.paises).map(esc).join(', ')}</td></tr>`;
 	if (b.bajas) rows += `<tr><td>${i18n.t('battle.casualtiesBattle')}</td><td>${esc(b.bajas)}</td></tr>`;
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
 	const desc = [b.descripcion, c.descripcion].filter(Boolean).map(esc).join('<br>');
-	const wikiRef = refWiki(b.wiki || b.nombre);
+	const wikiRef = refWiki(b.wiki || nombreEs(b));
 	return `<div class="territory-popup battle-popup" data-wiki="${esc(wikiRef)}"><h3>⚔️ ${esc(nombreTxt(b))}</h3><table>${rows}</table>${desc ? `<p>${desc}</p>` : ''}${fuentesHtml(b.fuentes ? b : c)}${avisoDatoHtml()}</div>`;
 }
 
@@ -351,8 +381,8 @@ function eventPopupHtml(ev) {
 			: i18n.formatYear(ev.anio);
 	let rows = `<tr><td>${i18n.t('event.year')}</td><td>${years}</td></tr>`;
 	if (ev.paises && ev.paises.length)
-		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${ev.paises.map(esc).join(', ')}</td></tr>`;
-	const wikiRef = refWiki(ev.wiki || ev.nombre);
+		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${(ev.paises_vis || ev.paises).map(esc).join(', ')}</td></tr>`;
+	const wikiRef = refWiki(ev.wiki || nombreEs(ev));
 	const ico = ev.categoria === 'invento' ? '💡' : '⭐';
 	return `<div class="territory-popup event-popup" data-wiki="${esc(wikiRef)}"><h3>${ico} ${esc(nombreTxt(ev))}</h3><table>${rows}</table>${ev.descripcion ? `<p>${escHtml(ev.descripcion)}</p>` : ''}${fuentesHtml(ev)}${avisoDatoHtml()}</div>`;
 }
@@ -365,6 +395,6 @@ function territorioPopupHtml(t, color) {
 		? `<tr><td>${i18n.t('terr.status')}</td><td>${esc(t.estatus)}</td></tr>`
 		: `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(nombreFicha(paisDeTerritorio(t), state.requestedYear) || t.pais)}</td></tr>`;
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(t.desde)} – ${fin}</td></tr>`;
-	const wikiRef = refWiki(t.wiki || t.nombre);
-	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(nombreDe(t) || t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}${avisoDatoHtml()}</div>`;
+	const wikiRef = refWiki(t.wiki || nombreEs(t));
+	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(nombreTxt(t))}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}${avisoDatoHtml()}</div>`;
 }
