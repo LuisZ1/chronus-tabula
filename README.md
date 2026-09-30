@@ -42,15 +42,17 @@ La web se publica automáticamente en **GitHub Pages**: cada push a `main` dispa
 web/                        LA APLICACIÓN (estática, desplegable en cualquier hosting)
   index.html                portada (landing): qué es la app y cómo se usa
   colaborar.html            cómo colaborar (enlaza a GitHub y CONTRIBUTING)
+  fuentes.html              fuentes y referencias: libros, artículos, mapas y bases de datos citados
   mapa.html                 la aplicación: mapa, paneles y barra de tiempo
   admin.html                panel de administración (necesita la API en marcha)
   css/, i18n/, lib/         estilos, traducciones y librerías locales
   js/                       lógica por secciones: nucleo, datos, fichas, zonas,
                               capas, mapa, paneles, tiempo, arranque
-  data/historia.json        GENERADO desde datos/ (no se edita ni se versiona):
-                              el único JSON que descarga la web
+  data/historia.json        GENERADOS desde datos/ (no se editan ni se versionan): los JSON
+  data/historia.<idioma>.json que descarga la web, uno por idioma
   data/geojson/             106 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,
-                              52 intermedios creados por esa misma herramienta y 2011 derivado con api/derivar_mapas.py)
+                              53 intermedios creados por esa misma herramienta, entre ellos 2011 y 2020)
+  data/fuentes*.json        GENERADOS: la página de fuentes (fuentes.html)
   data/years.json           índice de años con mapa
   data/land.geojson         contorno de continentes (Natural Earth), recorte costero
 
@@ -59,6 +61,7 @@ datos/                      ★ TODO el conocimiento curado, UN FICHERO POR ENTI
   conflictos/<id>.json      cada guerra con sus zonas y batallas
   eventos/<año>-<nombre>.json  acontecimientos e inventos
   territorios/<nombre>.json enclaves e islas
+  referencias.json          registro de fuentes: cada libro, artículo, mapa, base de datos o web, una vez
   i18n/<idioma>.json        traducciones (el español es la fuente; es.json traduce los nombres de los mapas)
   _meta.json                claves de primer nivel (la ayuda interna)
 
@@ -73,7 +76,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   dividir.py                importa un historia.json monolítico al árbol datos/
   limpiar_geojson.py        retira entidades duplicadas/anacrónicas conocidas de los mapas base
   rellenar_geojson.py       rellena la tierra sin atribuir con pueblos de mapas vecinos (usa shapely)
-  derivar_mapas.py          genera mapas posteriores a 2010 (2011: Sudán del Sur) a partir del último (usa shapely)
+  derivar_mapas.py          deriva mapas con cambios que no son correcciones (hoy ninguno; usa shapely)
                               (parches documentados; --check en CI)
   corregir_mapas.py         aplica las correcciones de fronteras de api/correcciones/ y crea mapas intermedios (usa shapely)
   vista_previa.py           PNG de un año del mapa, con un cambio propuesto o un conflicto encima (usa shapely y matplotlib)
@@ -109,7 +112,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
 
 ## Referencias de los datos
 
-Cada país, conflicto y evento lleva un campo `fuentes` con sus referencias (`wikipedia-es:…`, `wikidata:Q…`, `owid:…` o `curado`), que la app muestra al pie de cada ficha. El contenido extraído de APIs externas cita siempre su origen y licencia.
+Cada país, conflicto y evento lleva un campo `fuentes` con sus referencias (`wikipedia-es:…`, `wikidata:Q…`, una obra del registro `datos/referencias.json` como `libro:…` o `datos:owid-poblacion`, o `curado`), que la app muestra al pie de cada ficha; la página `web/fuentes.html` las reúne todas por tipo de fuente y de dato. El contenido extraído de APIs externas cita siempre su origen y licencia.
 
 ## Calidad de los datos
 

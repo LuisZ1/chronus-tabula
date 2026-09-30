@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Fuentes y referencias — Chronus Tabula</title>
+  <meta name="description" content="Todas las fuentes de Chronus Tabula: libros, artículos, mapas y bases de datos, agrupados por tipo de fuente y por tipo de dato (fronteras, gobernantes, población, guerras, acontecimientos).">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2314202b' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z'/%3E%3C/svg%3E">
+  <link rel="preload" href="lib/fuentes/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/marca.css?v=4">
+  <link rel="stylesheet" href="css/portada.css?v=11">
+</head>
+<body>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-libro" viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-8-1.5V19c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V4.5C17 4 14 4.5 12 6Z"/><path d="M12 6v14.5"/></symbol>
+    <symbol id="i-ficha" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></symbol>
+    <symbol id="i-globo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z"/></symbol>
+    <symbol id="i-marcas" viewBox="0 0 24 24"><path d="M3 18h18M7 18v-5M12 18V8M17 18v-3"/></symbol>
+    <symbol id="i-enlace" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></symbol>
+    <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+  </svg>
+
+  <a class="saltar" href="#contenido">Ir al contenido</a>
+
+  <header class="cab">
+    <div class="cab-in">
+      <a class="marca" href="index.html">Chronus Tabula</a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="#por-dato" class="solo-ancho">Por tipo de dato</a>
+        <a href="#obras" class="solo-ancho">Bibliografía y mapas</a>
+        <a href="#wikipedia" class="solo-ancho">Wikipedia y Wikidata</a>
+        <a href="colaborar.html" class="solo-ancho">Colaborar</a>
+        <a href="mapa.html" class="btn principal pequeno">Abrir el mapa</a>
+      </nav>
+    </div>
+    <nav class="subnav" aria-label="Secciones">
+      <a href="#por-dato">Por tipo de dato</a>
+      <a href="#obras">Bibliografía y mapas</a>
+      <a href="#wikipedia">Wikipedia y Wikidata</a>
+      <a href="#como">Cómo citamos</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <section class="hero corto fu-hero">
+      <div class="cont">
+        <h1>Fuentes y referencias.</h1>
+        <p class="lema">Cada dato del mapa dice de dónde sale. Aquí están todas las fuentes consultadas, agrupadas por tipo de fuente y por tipo de dato.</p>
+        <!-- las cifras se rellenan desde data/fuentes.json (lo genera api/compilar.py) -->
+        <dl class="fu-cifras" id="cifras" aria-live="polite">
+          <div><dt>libros</dt><dd data-cifra="libros">—</dd></div>
+          <div><dt>artículos</dt><dd data-cifra="articulos">—</dd></div>
+          <div><dt>mapas</dt><dd data-cifra="mapas">—</dd></div>
+        </dl>
+        <p class="fu-cifras-2" id="cifras2"></p>
+      </div>
+    </section>
+
+    <section class="bloque alt" id="por-dato">
+      <div class="cont">
+        <h2>Por tipo de dato.</h2>
+        <p class="intro">Cuántas citas respaldan cada clase de dato del mapa. Pulsa una para ver solo sus fuentes en la bibliografía.</p>
+        <div class="fu-datos" id="porDato"></div>
+      </div>
+    </section>
+
+    <section class="bloque" id="obras">
+      <div class="cont">
+        <h2>Bibliografía y mapas.</h2>
+        <p class="intro">Libros, artículos, mapas, bases de datos y webs, cada uno descrito una vez con su autor, su edición y su licencia, y las fichas del mapa que lo citan.</p>
+        <div class="fu-filtros" role="group" aria-label="Filtrar por tipo de fuente" id="filtroTipo"></div>
+        <p class="fu-filtro-dato" id="filtroDato" hidden></p>
+        <div class="fu-obras" id="listaObras"><p class="nota">Cargando las fuentes…</p></div>
+      </div>
+    </section>
+
+    <section class="bloque alt" id="wikipedia">
+      <div class="cont">
+        <h2>Wikipedia y Wikidata.</h2>
+        <p class="intro" id="wikiIntro">Buena parte de los datos se contrastan con artículos de Wikipedia y elementos de Wikidata. La lista completa está aquí, para consultarla cuando la necesites.</p>
+        <details class="fu-lista" id="listaWiki" data-lista="wikipedia">
+          <summary><svg class="icono chevron" aria-hidden="true"><use href="#i-chevron"/></svg><span>Consultar los artículos de Wikipedia citados</span></summary>
+          <div class="fu-lista-cuerpo"></div>
+        </details>
+        <details class="fu-lista" id="listaWd" data-lista="wikidata">
+          <summary><svg class="icono chevron" aria-hidden="true"><use href="#i-chevron"/></svg><span>Consultar los elementos de Wikidata citados</span></summary>
+          <div class="fu-lista-cuerpo"></div>
+        </details>
+      </div>
+    </section>
+
+    <section class="bloque" id="como">
+      <div class="cont">
+        <h2>Cómo citamos.</h2>
+        <div class="rejilla">
+          <div class="punto"><h3>Una fuente por dato</h3><p>Cada ficha del mapa (un país, una guerra, un acontecimiento) lleva su lista de fuentes, que se ve al pie de la ficha. Las fronteras citan la fuente de cada corrección.</p></div>
+          <div class="punto"><h3>Las obras, una sola vez</h3><p>Libros, mapas y bases de datos se describen una vez en el registro de referencias; las fichas solo dicen cuál usan y, si hace falta, las páginas.</p></div>
+          <div class="punto"><h3>Consultar no es copiar</h3><p>Los atlas con derechos, como Euratlas, se consultan como referencia visual; ninguna frontera se calca de ellos. Los textos guardados van atribuidos y con su licencia.</p></div>
+          <div class="punto"><h3>Elaboración propia</h3><p id="curado">Cuando un dato se deduce contrastando varias fuentes, se marca como elaboración propia.</p></div>
+        </div>
+        <p class="nota">¿Falta una fuente o hay una mal citada? <a href="colaborar.html">Puedes corregirla</a>; la <a href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md#las-referencias-son-obligatorias" target="_blank" rel="noopener">guía de contribución</a> explica cómo citar.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="cont">
+      <p>Datos con fuentes citadas: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY), <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a> (GPL-3.0) y Natural Earth (dominio público) para las fronteras. Tipografía Archivo (SIL OFL).</p>
+      <p>Los datos son orientativos y pueden contener errores. © 2026 Luis Zumárraga. Aplicación y base de datos protegidas: no se permite copiarlas ni comercializarlas.</p>
+      <p><a href="index.html">Inicio</a><a href="colaborar.html">Colaborar</a><a href="aviso-legal.html">Aviso legal y licencia</a><a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Código en GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="js/fuentes.js?v=1" defer></script>
+</body>
+</html>

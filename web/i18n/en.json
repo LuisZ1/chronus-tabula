@@ -72,5 +72,7 @@
   "panel.facts": "Points of interest",
   "panel.none": "— nothing recorded —",
   "popup.sources": "Sources",
-  "nav.title": "Drag the handles to zoom the view; drag the middle to pan (double-click: show all)"
+  "nav.title": "Drag the handles to zoom the view; drag the middle to pan (double-click: show all)",
+  "popup.ownWork": "Own work, cross-checked",
+  "popup.allSources": "All sources and references →"
 }
