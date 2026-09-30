@@ -306,12 +306,15 @@ def compilar_web(d=None):
     # la página de fuentes (web/fuentes.html): resumen y obras citadas, y aparte las
     # listas completas de artículos de Wikipedia y elementos de Wikidata (se cargan a demanda)
     import referencias
-    principal, listas = referencias.compilar_fuentes(salida)
     carpeta = os.path.dirname(HISTORIA)
-    for fn, obj in (("fuentes.json", principal), ("fuentes-listas.json", listas)):
-        with open(os.path.join(carpeta, fn), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
-            f.write("\n")
+    for lang in [traduccion.IDIOMA_FUENTE] + traduccion.idiomas():
+        datos_lang = salida if lang == traduccion.IDIOMA_FUENTE else traduccion.compilar_idioma(salida, lang)
+        principal, listas = referencias.compilar_fuentes(datos_lang, lang=lang)
+        suf = "" if lang == traduccion.IDIOMA_FUENTE else "." + lang
+        for fn, obj in ((f"fuentes{suf}.json", principal), (f"fuentes-listas{suf}.json", listas)):
+            with open(os.path.join(carpeta, fn), "w", encoding="utf-8", newline="\n") as f:
+                json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
+                f.write("\n")
     return HISTORIA
 
 

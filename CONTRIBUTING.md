@@ -376,7 +376,20 @@ python api/traducciones.py --limpiar en              # retira claves que ya no c
 
 **No cambies los `id`** de batallas, zonas, acontecimientos o territorios al corregir su nombre: son la clave de sus traducciones.
 
-**Añadir un idioma**: `python api/traducciones.py --nuevo fr`, tradúcelo con `--pendientes fr` / `--importar fr`, copia `web/i18n/es.json` a `web/i18n/fr.json` y traduce los textos de la interfaz (las claves no se tocan), añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `mapa.html`.
+### Las páginas de la web
+
+La portada, `colaborar.html`, `fuentes.html` y `aviso-legal.html` se escriben en español en el propio HTML. Cada texto lleva un atributo con su clave (`data-i18n-html`, `-alt`, `-title`, `-aria`, `-placeholder`) y las traducciones van en `web/i18n/paginas.<idioma>.json`, con el mismo formato `{"t": …, "src": …}`. `web/js/idioma.js` las aplica en el navegador, pinta la bandera del idioma en la barra superior y guarda la elección en el mismo sitio que el mapa, así que páginas y mapa van siempre en el mismo idioma.
+
+```bash
+python api/traducir_paginas.py --marcar                # pone clave a los textos nuevos del HTML
+python api/traducir_paginas.py --estado                # cobertura de cada idioma
+python api/traducir_paginas.py --pendientes en --salida pendientes.json
+python api/traducir_paginas.py --importar en pendientes.json
+```
+
+Si un elemento lo rellena un script, márcalo con `data-i18n-no` y traduce el texto en el script con `window.idioma.t('<página>.js.<clave>', 'texto en español', {variables})`; esas claves se añaden a mano al catálogo con `--importar`. Los textos del registro de obras (`uso`, `nota`, `licencia` de `datos/referencias.json`) se traducen en `datos/i18n/<idioma>.json` como las fichas, y `compilar.py` genera `web/data/fuentes.<idioma>.json`.
+
+**Añadir un idioma**: `python api/traducciones.py --nuevo fr`, tradúcelo con `--pendientes fr` / `--importar fr`, copia `web/i18n/es.json` a `web/i18n/fr.json` y traduce los textos de la interfaz (las claves no se tocan), añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `mapa.html`; para las páginas, `--pendientes fr` / `--importar fr` de `traducir_paginas.py`, el idioma en `IDIOMAS` de `web/js/idioma.js` y una opción con su bandera en el menú de idioma de cada página.
 
 ## Contribuciones que sí tocan código
 

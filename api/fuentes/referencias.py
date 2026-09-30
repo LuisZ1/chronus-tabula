@@ -240,8 +240,11 @@ def citas_de(d, raiz=RAIZ):
             anio = (-int(m.group(2)) if m.group(1) else int(m.group(2))) if m else None
             ref = ("mapas", mapa, None, anio)
             for op in ops:
-                if op.get("fuente"):
-                    out.append((cita_de_texto(op["fuente"]), "fronteras", ref))
+                # una 'fuente' puede enumerar varias URL (separadas por «;» o «·») y
+                # añadir notas: cada parte es una cita
+                partes = re.split(r"\s*[;·]\s*", op.get("fuente") or "")
+                for f in dict.fromkeys(filter(None, partes)):
+                    out.append((cita_de_texto(f), "fronteras", ref))
                 txt = f"{op.get('motivo', '')} {op.get('region', '')}".lower()
                 if "euratlas" in txt:
                     out.append(({"id": "mapa:euratlas"}, "fronteras", ref))
@@ -269,9 +272,17 @@ def citas_de(d, raiz=RAIZ):
     return out
 
 
-def compilar_fuentes(d, raiz=RAIZ):
-    """(resumen + obras, listas de Wikipedia y Wikidata) para web/data/fuentes*.json."""
+def compilar_fuentes(d, raiz=RAIZ, lang="es"):
+    """(resumen + obras, listas de Wikipedia y Wikidata) para web/data/fuentes*.json.
+    'd' son los datos ya en ese idioma (nombres de las fichas); los textos del registro
+    (uso, notas, licencias) se traducen con el catálogo del idioma."""
     reg = cargar_registro()
+    if lang != "es":
+        import traduccion
+        cat = traduccion.cargar_catalogo(lang)
+        reg = {k: {c: ((cat.get(f"referencias/{k}.{c}") or {}).get("t") or val
+                       if c in traduccion.CAMPOS_REFERENCIA else val)
+                   for c, val in v.items()} for k, v in reg.items()}
     obras, wiki, wd = {}, {}, {}
     curado = 0
     fichas = set()
