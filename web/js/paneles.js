@@ -106,7 +106,7 @@ function updateYearPanel() {
 	const y = state.requestedYear;
 	const keys = followKeys();
 	document.getElementById('ypYear').textContent =
-		i18n.formatYear(y) + (state.follow ? ' · ' + (state.follow.nombre || state.follow.id) : '');
+		i18n.formatYear(y) + (state.follow ? ' · ' + (nombreFicha(state.follow, state.shownYear) || state.follow.id) : '');
 
 	const wars = (historia.conflictos || []).filter(c => y >= c.inicio && y <= c.fin && warRelevant(c, keys));
 	const warsBox = document.getElementById('ypWars');
@@ -114,7 +114,7 @@ function updateYearPanel() {
 		? wars
 				.map(
 					c =>
-						`<div class="yp-row" data-war="${escHtml(c.id)}" role="button" tabindex="0"><span class="yp-ico">⚔️</span><span class="yp-name">${escHtml(c.nombre)}</span><span class="yp-years">${i18n.formatYear(c.inicio)}–${i18n.formatYear(c.fin)}</span></div>`
+						`<div class="yp-row" data-war="${escHtml(c.id)}" role="button" tabindex="0"><span class="yp-ico">⚔️</span><span class="yp-name">${escHtml(nombreTxt(c))}</span><span class="yp-years">${i18n.formatYear(c.inicio)}–${i18n.formatYear(c.fin)}</span></div>`
 				)
 				.join('')
 		: `<div class="yp-empty">${i18n.t('panel.none')}</div>`;
@@ -128,7 +128,7 @@ function updateYearPanel() {
 		? facts
 				.map(
 					(ev, i) =>
-						`<div class="yp-row" data-fact="${i}" role="button" tabindex="0"><span class="yp-ico">${ev.categoria === 'invento' ? '💡' : '⭐'}</span><span class="yp-name">${escHtml(ev.nombre)}</span><span class="yp-years">${i18n.formatYear(ev.anio)}</span></div>`
+						`<div class="yp-row" data-fact="${i}" role="button" tabindex="0"><span class="yp-ico">${ev.categoria === 'invento' ? '💡' : '⭐'}</span><span class="yp-name">${escHtml(nombreTxt(ev))}</span><span class="yp-years">${i18n.formatYear(ev.anio)}</span></div>`
 				)
 				.join('')
 		: `<div class="yp-empty">${i18n.t('panel.none')}</div>`;

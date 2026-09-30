@@ -7,12 +7,14 @@
 let historia = null; // contenido de data/historia.json
 const paisPorNombre = new Map(); // nombre del GeoJSON -> entrada de 'paises'
 const paisPorId = new Map();
+let nombresMapa = {}; // nombre del GeoJSON -> {es, en}: datos/nombres.json, compilado en historia.json
 
 async function loadHistoria() {
 	try {
 		// no-cache: revalidar siempre, para que los datos recién editados/exportados
 		// aparezcan al recargar sin necesidad de vaciar la caché del navegador
 		historia = await (await fetch('data/historia.json', { cache: 'no-cache' })).json();
+		nombresMapa = historia.nombres_mapa || {};
 		for (const p of historia.paises || []) {
 			paisPorId.set(p.id, p);
 			for (const n of p.nombres || []) paisPorNombre.set(n, p);
@@ -48,9 +50,46 @@ function periodoActivo(pais, y) {
 	return null;
 }
 
+/* ---------- nombres en el idioma elegido ----------
+   Las fichas tienen 'nombre' (español) y 'nombre_en'; sus periodos, igual. Lo que
+   no tiene ficha se traduce con la tabla de nombres de los mapas (datos/nombres.json):
+   'es' siempre; 'en' solo si el nombre original no sirve como inglés (erratas,
+   nombres en francés…). Si nada lo traduce, se muestra el nombre del mapa. */
+function enIngles() {
+	return i18n.lang === 'en';
+}
+
+function nombreMapa(name) {
+	const t = nombresMapa[name];
+	if (!t) return name;
+	return (enIngles() ? t.en : t.es) || name;
+}
+
+function nombreDe(obj) {
+	if (!obj) return null;
+	return enIngles() ? obj.nombre_en || null : obj.nombre || null;
+}
+
+/* nombre visible de una guerra, batalla, zona, acontecimiento o territorio menor */
+function nombreTxt(obj) {
+	return (obj && (nombreDe(obj) || obj.nombre)) || '';
+}
+
 function nombrePeriodo(pais, y) {
 	const per = periodoActivo(pais, y);
-	return per ? per.nombre : null;
+	return per ? nombreDe(per) || per.nombre : null;
+}
+
+/* nombre de una ficha (título del popup, buscador, «siguiendo a…»): el del periodo
+   del año si lo hay; si no, el de la ficha; si no tiene en ese idioma, la traducción
+   de su primer nombre en los mapas */
+function nombreFicha(pais, y) {
+	if (!pais) return null;
+	return (
+		(y != null && nombrePeriodo(pais, y)) ||
+		nombreDe(pais) ||
+		nombreMapa((pais.nombres || [])[0] || pais.nombre || pais.id)
+	);
 }
 
 /* ---------- ¿el año consultado es la época «actual» de la ficha? ----------
@@ -88,9 +127,10 @@ function nombreVisible(name, y, permitirHistorico) {
 	if (pais) {
 		const per = nombrePeriodo(pais, y);
 		if (per) return per;
-		if (pais.nombre && (permitirHistorico || !NOMBRE_HISTORICO.test(pais.nombre))) return pais.nombre;
+		const propio = nombreDe(pais);
+		if (propio && (permitirHistorico || !NOMBRE_HISTORICO.test(pais.nombre || ''))) return propio;
 	}
-	return name;
+	return nombreMapa(name);
 }
 
 /* ---------- escudo del periodo consultado ----------
@@ -226,7 +266,7 @@ function setFollow(pais) {
 	const input = document.getElementById('followInput');
 	const clear = document.getElementById('followClear');
 	if (pais) {
-		input.value = pais.nombre || pais.id;
+		input.value = nombreFicha(pais) || pais.id;
 		clear.hidden = false;
 	} else {
 		input.value = '';
@@ -245,7 +285,7 @@ function fillFollowDatalist() {
 	dl.innerHTML = '';
 	for (const p of historia.paises || []) {
 		const o = document.createElement('option');
-		o.value = p.nombre || p.id;
+		o.value = nombreFicha(p) || p.id;
 		dl.appendChild(o);
 	}
 }
