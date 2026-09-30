@@ -65,7 +65,7 @@ async function updateTerritorios() {
 			}
 		}
 		const icon = L.divIcon({
-			html: `<span class="terr-label"><span class="terr-dot" style="background:${color}"></span><span class="terr-name">${escHtml(t.nombre)}</span></span>`,
+			html: `<span class="terr-label"><span class="terr-dot" style="background:${color}"></span><span class="terr-name">${escHtml(nombreDe(t) || t.nombre)}</span></span>`,
 			className: 'battle-wrap',
 			iconSize: [0, 0],
 			iconAnchor: [0, 0]
@@ -95,7 +95,7 @@ function updateBattles() {
 			const bFin = b.hasta !== undefined && b.hasta !== null ? b.hasta : b.anio;
 			if (bFin < y - m || b.anio > y + m) continue;
 			const icon = L.divIcon({
-				html: `<span class="battle-label"><span class="battle-ico">⚔️</span><span>${escHtml(b.nombre)}</span></span>`,
+				html: `<span class="battle-label"><span class="battle-ico">⚔️</span><span>${escHtml(nombreTxt(b))}</span></span>`,
 				className: 'battle-wrap',
 				iconSize: [0, 0],
 				iconAnchor: [0, 0]
@@ -119,7 +119,7 @@ function updateEvents() {
 		if (fin < y - m || ev.anio > y + m) continue;
 		const ico = ev.categoria === 'invento' ? '💡' : '⭐';
 		const icon = L.divIcon({
-			html: `<span class="event-label"><span class="event-ico">${ico}</span><span>${escHtml(ev.nombre)}</span></span>`,
+			html: `<span class="event-label"><span class="event-ico">${ico}</span><span>${escHtml(nombreTxt(ev))}</span></span>`,
 			className: 'battle-wrap',
 			iconSize: [0, 0],
 			iconAnchor: [0, 0]

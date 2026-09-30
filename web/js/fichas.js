@@ -32,7 +32,12 @@ function popupHtml(props) {
 	// (Antiguo Egipto, no Egipto) y nada que sea solo del país actual
 	const actual = esEpocaActual(pais, y);
 	const periodo = periodoActivo(pais, y);
-	const name = (periodo && periodo.nombre) || (pais && pais.nombre) || props.NAME || i18n.t('popup.unknown');
+	const name =
+		(periodo && (nombreDe(periodo) || periodo.nombre)) ||
+		nombreDe(pais) ||
+		(props.NAME && nombreMapa(props.NAME)) ||
+		(pais && pais.nombre) ||
+		i18n.t('popup.unknown');
 	let rows = '';
 
 	for (const g of gobernanteEn(pais, y)) {
@@ -49,12 +54,12 @@ function popupHtml(props) {
 		rows += `<tr><td>${i18n.t('popup.area')}</td><td>${fmtKm2(area)}</td></tr>`;
 	}
 
-	if (props.NAME && pais && pais.nombre && pais.nombre !== props.NAME)
+	if (props.NAME && props.NAME !== name)
 		rows += `<tr><td>${i18n.t('popup.originalName')}</td><td>${esc(props.NAME)}</td></tr>`;
 	if (props.SUBJECTO && props.SUBJECTO !== props.NAME)
-		rows += `<tr><td>${i18n.t('popup.sovereign')}</td><td>${esc(props.SUBJECTO)}</td></tr>`;
+		rows += `<tr><td>${i18n.t('popup.sovereign')}</td><td>${esc(nombreVisible(props.SUBJECTO, y, true))}</td></tr>`;
 	if (props.PARTOF && props.PARTOF !== props.NAME && props.PARTOF !== props.SUBJECTO)
-		rows += `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(props.PARTOF)}</td></tr>`;
+		rows += `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(nombreVisible(props.PARTOF, y, true))}</td></tr>`;
 	if (props.RELLENO && props.RELLENO.origen) {
 		const m = /world_(bc)?(\d+)/.exec(props.RELLENO.origen);
 		const anio = m ? (m[1] ? -Number(m[2]) : Number(m[2])) : null;
@@ -303,7 +308,7 @@ function conflictPopupHtml(c, zona) {
 	const esc = escHtml;
 	let rows = '';
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(c.inicio)} – ${i18n.formatYear(c.fin)}</td></tr>`;
-	if (zona && zona.nombre) rows += `<tr><td>${i18n.t('war.theater')}</td><td>${esc(zona.nombre)}</td></tr>`;
+	if (zona && zona.nombre) rows += `<tr><td>${i18n.t('war.theater')}</td><td>${esc(nombreTxt(zona))}</td></tr>`;
 	if (zona && (zona.desde !== undefined || zona.hasta !== undefined)) {
 		const zi = zona.desde !== undefined ? zona.desde : c.inicio;
 		const zf = zona.hasta !== undefined ? zona.hasta : c.fin;
@@ -315,14 +320,14 @@ function conflictPopupHtml(c, zona) {
 		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${c.paises.map(esc).join(', ')}</td></tr>`;
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
 	const wikiRef = refWiki(c.wiki || c.nombre);
-	return `<div class="territory-popup war-popup" data-wiki="${esc(wikiRef)}"><h3>🔥 ${esc(c.nombre)}</h3><table>${rows}</table>${c.descripcion ? `<p>${esc(c.descripcion)}</p>` : ''}${fuentesHtml(c)}${avisoDatoHtml()}</div>`;
+	return `<div class="territory-popup war-popup" data-wiki="${esc(wikiRef)}"><h3>🔥 ${esc(nombreTxt(c))}</h3><table>${rows}</table>${c.descripcion ? `<p>${esc(c.descripcion)}</p>` : ''}${fuentesHtml(c)}${avisoDatoHtml()}</div>`;
 }
 
 /* ---------- batallas y eventos ---------- */
 
 function battlePopupHtml(c, b) {
 	const esc = escHtml;
-	let rows = `<tr><td>${i18n.t('battle.war')}</td><td><strong>${esc(c.nombre)}</strong></td></tr>`;
+	let rows = `<tr><td>${i18n.t('battle.war')}</td><td><strong>${esc(nombreTxt(c))}</strong></td></tr>`;
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(c.inicio)} – ${i18n.formatYear(c.fin)}</td></tr>`;
 	const bAnios =
 		b.hasta && b.hasta !== b.anio
@@ -335,7 +340,7 @@ function battlePopupHtml(c, b) {
 	if (c.bajas) rows += `<tr><td>${i18n.t('battle.casualties')}</td><td>${esc(c.bajas)}</td></tr>`;
 	const desc = [b.descripcion, c.descripcion].filter(Boolean).map(esc).join('<br>');
 	const wikiRef = refWiki(b.wiki || b.nombre);
-	return `<div class="territory-popup battle-popup" data-wiki="${esc(wikiRef)}"><h3>⚔️ ${esc(b.nombre)}</h3><table>${rows}</table>${desc ? `<p>${desc}</p>` : ''}${fuentesHtml(b.fuentes ? b : c)}${avisoDatoHtml()}</div>`;
+	return `<div class="territory-popup battle-popup" data-wiki="${esc(wikiRef)}"><h3>⚔️ ${esc(nombreTxt(b))}</h3><table>${rows}</table>${desc ? `<p>${desc}</p>` : ''}${fuentesHtml(b.fuentes ? b : c)}${avisoDatoHtml()}</div>`;
 }
 
 function eventPopupHtml(ev) {
@@ -349,7 +354,7 @@ function eventPopupHtml(ev) {
 		rows += `<tr><td>${i18n.t('battle.countries')}</td><td>${ev.paises.map(esc).join(', ')}</td></tr>`;
 	const wikiRef = refWiki(ev.wiki || ev.nombre);
 	const ico = ev.categoria === 'invento' ? '💡' : '⭐';
-	return `<div class="territory-popup event-popup" data-wiki="${esc(wikiRef)}"><h3>${ico} ${esc(ev.nombre)}</h3><table>${rows}</table>${ev.descripcion ? `<p>${escHtml(ev.descripcion)}</p>` : ''}${fuentesHtml(ev)}${avisoDatoHtml()}</div>`;
+	return `<div class="territory-popup event-popup" data-wiki="${esc(wikiRef)}"><h3>${ico} ${esc(nombreTxt(ev))}</h3><table>${rows}</table>${ev.descripcion ? `<p>${escHtml(ev.descripcion)}</p>` : ''}${fuentesHtml(ev)}${avisoDatoHtml()}</div>`;
 }
 
 function territorioPopupHtml(t, color) {
@@ -358,8 +363,8 @@ function territorioPopupHtml(t, color) {
 	// 'estatus' describe la situación jurídica sin afirmar pertenencia (el país solo da el color)
 	let rows = t.estatus
 		? `<tr><td>${i18n.t('terr.status')}</td><td>${esc(t.estatus)}</td></tr>`
-		: `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(t.pais)}</td></tr>`;
+		: `<tr><td>${i18n.t('popup.partof')}</td><td>${esc(nombreFicha(paisDeTerritorio(t), state.requestedYear) || t.pais)}</td></tr>`;
 	rows += `<tr><td>${i18n.t('battle.period')}</td><td>${i18n.formatYear(t.desde)} – ${fin}</td></tr>`;
 	const wikiRef = refWiki(t.wiki || t.nombre);
-	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}${avisoDatoHtml()}</div>`;
+	return `<div class="territory-popup terr-popup" data-wiki="${esc(wikiRef)}"><h3><span class="terr-dot" style="background:${color}"></span> ${esc(nombreDe(t) || t.nombre)}</h3><table>${rows}</table>${t.descripcion ? `<p>${esc(t.descripcion)}</p>` : ''}${fuentesHtml(t)}${avisoDatoHtml()}</div>`;
 }

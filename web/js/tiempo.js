@@ -249,13 +249,13 @@ function buildTimeMarks() {
 			top: 1,
 			items: (historia.conflictos || [])
 				.filter(c => c.inicio >= TIME_SEGMENTS[0].from && enRango(c.inicio) && warRelevant(c, keys))
-				.map(c => ({ tipo: 'war', y: c.inicio, y2: c.fin, n: c.nombre, c }))
+				.map(c => ({ tipo: 'war', y: c.inicio, y2: c.fin, n: nombreTxt(c), c }))
 		},
 		{
 			top: 17,
 			items: (historia.eventos || [])
 				.filter(ev => ev.anio >= TIME_SEGMENTS[0].from && enRango(ev.anio) && eventRelevant(ev, keys))
-				.map(ev => ({ tipo: 'event', y: ev.anio, n: ev.nombre, inv: ev.categoria === 'invento', ev }))
+				.map(ev => ({ tipo: 'event', y: ev.anio, n: nombreTxt(ev), inv: ev.categoria === 'invento', ev }))
 		}
 	];
 
@@ -523,6 +523,18 @@ function setupControls() {
 
 	document.getElementById('langSelect').addEventListener('change', e => {
 		i18n.setLang(e.target.value).then(() => {
+			// los nombres de países y entidades también cambian de idioma
+			for (const d of state.labelData || []) d.display = nombreVisible(d.name, state.shownYear, false);
+			updateLabels();
+			if (historia) {
+				fillFollowDatalist();
+				updateTerritorios();
+				state.lastBattleYear = state.lastEventYear = null; // forzar el redibujado
+				updateBattles();
+				updateEvents();
+			}
+			if (state.follow) document.getElementById('followInput').value = nombreFicha(state.follow) || state.follow.id;
+			map.closePopup();
 			updateShownLabel(state.shownYear);
 			refreshLayersControl();
 			updateLegend();
@@ -542,11 +554,13 @@ function setupControls() {
 		const ps = historia.paises || [];
 		const igual = n => normTxt(n || '').trim() === v;
 		return (
-			ps.find(p => igual(p.nombre)) ||
-			ps.find(p => (p.nombre || '').split('/').some(igual)) ||
+			ps.find(p => igual(nombreFicha(p))) ||
+			ps.find(p => igual(p.nombre) || igual(p.nombre_en)) ||
+			ps.find(p => [p.nombre, p.nombre_en].some(n => (n || '').split('/').some(igual))) ||
 			ps.find(p => p.id === v) ||
 			ps.find(p => (p.nombres || []).some(igual)) ||
-			ps.find(p => (p.nombres_periodo || []).some(per => igual(per.nombre))) ||
+			ps.find(p => (p.nombres_periodo || []).some(per => igual(per.nombre) || igual(per.nombre_en))) ||
+			ps.find(p => (p.nombres || []).some(n => igual(nombreMapa(n)))) ||
 			ps.find(p => (p.relacionados || []).some(igual)) ||
 			null
 		);
