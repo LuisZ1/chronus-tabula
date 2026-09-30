@@ -17,7 +17,8 @@
 9. [Formato canónico, esquemas y marca de revisión](#formato-canónico-esquemas-y-marca-de-revisión)
 10. [Validar y probar](#validar-y-probar)
 11. [Checklist del merge request](#checklist-del-merge-request)
-12. [Contribuciones que sí tocan código](#contribuciones-que-sí-tocan-código)
+12. [Traducciones](#traducciones)
+13. [Contribuciones que sí tocan código](#contribuciones-que-sí-tocan-código)
 
 ---
 
@@ -114,7 +115,6 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
 {
   "id": "suecia",                          // único, minúsculas, sin espacios
   "nombre": "Suecia",                      // título del popup, en español
-  "nombre_en": "Sweden",                   // (opcional) el mismo nombre en inglés, para la web en inglés
   "nombres": ["Sweden", "Sweden–Norway"],  // ★ nombres EXACTOS en los mapas GeoJSON
   "wiki": "Suecia",                        // (opcional) artículo de es.wikipedia si difiere de "nombre"
   "relacionados": ["Reino de Suecia"],     // (opcional) alias en español que no son otra ficha
@@ -139,7 +139,7 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
 ```
 
 - `nombres` es el campo clave: debe copiar **letra por letra** cómo aparece la entidad en los ficheros `web/data/geojson/world_*.geojson` (campos `NAME` o `SUBJECTO`). El mismo reino cambia de nombre entre siglos («Castilla» → «Castile» → «Castille»), así que la lista puede tener varios. [Cómo averiguarlos](#trucos).
-- **Nombres en los dos idiomas.** La web rotula en español o en inglés según el idioma elegido. Cada ficha lleva `nombre` (español) y `nombre_en` (inglés), y cada entrada de `nombres_periodo`, igual (`nombre` y `nombre_en`). Lo que no tiene ficha se traduce con `datos/nombres.json`, una línea por cada nombre de los mapas: `"Kingdom of Castile": {"es": "Reino de Castilla"}`; `en` solo hace falta cuando el original no sirve como inglés (erratas, nombres en francés): `"Comté de Toulouse": {"es": "Condado de Tolosa", "en": "County of Toulouse"}`. `validar.py` avisa de los nombres de los mapas que falten en la tabla (p. ej. tras añadir un mapa) y de los que ya no aparezcan en ninguno. `nombre_en` no entra en la huella de `revision`: traducir no obliga a revalidar. Las guerras, sus batallas y zonas, los acontecimientos y los territorios menores llevan también `nombre_en` junto a `nombre`.
+- **Se escribe en español.** Las fichas solo llevan el texto en español; las traducciones van aparte, en `datos/i18n/` (ver [Traducciones](#traducciones)).
 - `vinculos` une la ficha con otras por su `id`, con un `tipo`:
   - `predecesor` / `sucesor`: **continuidad política**. Esta ficha hereda el Estado, la dinastía o las instituciones de la otra (Corona de Castilla → España, Qing → República Popular China), directamente o a través de Estados de la misma línea que no tienen ficha.
   - `parte_de` / `incluye`: una formaba parte de la otra (Perú, parte de España de 1542 a 1824).
@@ -323,14 +323,46 @@ Después, prueba visual: arranca el servidor, ve a los años que tocan tus datos
 - [ ] Descripción del MR: qué añades/corriges y **con qué fuente** (Wikipedia, bibliografía…)
 - [ ] Todos los datos nuevos llevan `fuentes`
 - [ ] Si tocaste gobernantes/población/nombres por época de un país con `revision` validada, lo indicas en el MR
+- [ ] Si cambiaste textos en español, `python api/traducciones.py --estado` (las traducciones afectadas quedan desactualizadas: dilo en el MR)
 - [ ] Sin cambios de código no relacionados en el mismo MR
 - [ ] Acepto que mi contribución se incorpore según el apartado 4 de [LICENSE.md](LICENSE.md)
 
 La plantilla del pull request (`.github/PULL_REQUEST_TEMPLATE.md`) recoge esta lista; `.github/CODEOWNERS` asigna revisores por carpeta.
 
+## Traducciones
+
+El español es el idioma **fuente**: las fichas de `datos/` se escriben en español y no llevan traducciones. Cada idioma tiene un catálogo, `datos/i18n/<idioma>.json`, con una línea por texto:
+
+```jsonc
+"paises/egipto.nombre":                           {"t": "Egypt", "src": "5f1c2a9b"},
+"paises/egipto.nombres_periodo.-3100.nombre":     {"t": "Ancient Egypt", "src": "…"},
+"conflictos/wwi.batallas.batalla-del-somme.nombre": {"t": "Battle of the Somme", "src": "…"},
+"eventos/1492-descubrimiento-de-america.descripcion": {"t": "…", "src": "…"},
+"txt:Faraón":                                      {"t": "Pharaoh"},
+"txt:Isabel II@espana":                            {"t": "Isabella II"},
+"mapa:Kingdom of Castile":                         {"t": "Kingdom of Castile"}
+```
+
+- `<colección>/<id>.<campo>`: un campo de una ficha (nombre, reseña, descripción, bajas, estatus; en las guerras también sus batallas y zonas, por su `id`; en los países, sus nombres por época, por su año `desde`). `src` es la huella del texto español: si alguien lo cambia, la traducción queda **desactualizada** y `validar.py` avisa.
+- `txt:<texto>`: textos cortos que se repiten (nombres, cargos y títulos de gobernantes; bandos de las guerras y países de los acontecimientos). Se traducen una vez para todas las fichas; `txt:<texto>@<id de la ficha>` precisa la traducción en una ficha concreta.
+- `mapa:<nombre>`: los nombres de los mapas base, que vienen en inglés. Por eso `es.json` solo lleva claves `mapa:` (y `en.json`, solo las que difieren del original).
+
+`python api/compilar.py` genera un JSON por idioma: `web/data/historia.json` (español) y `web/data/historia.<idioma>.json`, con los textos ya traducidos (lo que falta se queda en español). La web descarga el del idioma elegido.
+
+```bash
+python api/traducciones.py --estado                  # cobertura de cada idioma
+python api/traducciones.py --pendientes en --salida pendientes.json   # lo que falta o está desactualizado
+# … rellenar "t" en pendientes.json …
+python api/traducciones.py --importar en pendientes.json
+python api/traducciones.py --limpiar en              # retira claves que ya no corresponden a nada
+```
+
+**No cambies los `id`** de batallas, zonas, acontecimientos o territorios al corregir su nombre: son la clave de sus traducciones.
+
+**Añadir un idioma**: `python api/traducciones.py --nuevo fr`, tradúcelo con `--pendientes fr` / `--importar fr`, copia `web/i18n/es.json` a `web/i18n/fr.json` y traduce los textos de la interfaz (las claves no se tocan), añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `mapa.html`.
+
 ## Contribuciones que sí tocan código
 
-- **Traducciones**: copia `web/i18n/es.json` a `web/i18n/<código>.json`, traduce los valores (las claves no se tocan), añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `mapa.html`.
 - **Interfaz o lógica**: el JavaScript vive en `web/js/`, dividido por secciones que comparten ámbito global (sin build; el orden de carga lo fija `mapa.html`):
 
   | Fichero | Qué contiene |

@@ -59,7 +59,7 @@ datos/                      ★ TODO el conocimiento curado, UN FICHERO POR ENTI
   conflictos/<id>.json      cada guerra con sus zonas y batallas
   eventos/<año>-<nombre>.json  acontecimientos e inventos
   territorios/<nombre>.json enclaves e islas
-  nombres.json              traducción al español (y, si hace falta, al inglés) de los nombres de los mapas
+  i18n/<idioma>.json        traducciones (el español es la fuente; es.json traduce los nombres de los mapas)
   _meta.json                claves de primer nivel (la ayuda interna)
 
 schema/                     EL CONTRATO DE CADA COLECCIÓN (JSON Schema): campos, tipos,
@@ -80,6 +80,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   laminas.py                regenera las láminas de la portada (web/img/lamina/)
   comprobar_enlaces.py      comprueba en la API de Wikipedia que cada enlace de fuente lleva a un artículo (necesita red)
   colorear.py               reparte los colores para que dos territorios vecinos no coincidan (web/data/colores.json, usa shapely)
+  traducciones.py           cobertura, pendientes e importación de traducciones (datos/i18n/)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)
   validar.py                validador: esquema (schema/), años, coordenadas, nombres en los

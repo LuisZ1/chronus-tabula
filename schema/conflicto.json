@@ -19,11 +19,6 @@
 			"type": "string",
 			"minLength": 1
 		},
-		"nombre_en": {
-			"type": "string",
-			"minLength": 1,
-			"description": "Nombre en inglés (web en inglés)"
-		},
 		"inicio": {
 			"type": "integer",
 			"minimum": -123000,
@@ -64,13 +59,13 @@
 					"poligono"
 				],
 				"properties": {
+					"id": {
+						"type": "string",
+						"pattern": "^[a-z0-9-]+$",
+						"description": "Identificador estable (minúsculas y guiones): es la clave de sus traducciones en datos/i18n/. No lo cambies al corregir el nombre"
+					},
 					"nombre": {
 						"type": "string"
-					},
-					"nombre_en": {
-						"type": "string",
-						"minLength": 1,
-						"description": "Nombre en inglés (web en inglés)"
 					},
 					"tipo": {
 						"enum": [
@@ -133,14 +128,14 @@
 					"lng"
 				],
 				"properties": {
+					"id": {
+						"type": "string",
+						"pattern": "^[a-z0-9-]+$",
+						"description": "Identificador estable (minúsculas y guiones): es la clave de sus traducciones en datos/i18n/. No lo cambies al corregir el nombre"
+					},
 					"nombre": {
 						"type": "string",
 						"minLength": 1
-					},
-					"nombre_en": {
-						"type": "string",
-						"minLength": 1,
-						"description": "Nombre en inglés (web en inglés)"
 					},
 					"anio": {
 						"type": "integer",
