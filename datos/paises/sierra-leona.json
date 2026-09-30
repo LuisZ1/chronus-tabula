@@ -151,39 +151,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Sierra Leona",
 			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Sierra Leone",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sierra_Leone",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-demo",
+			"id": "wikipedia-en:Demographics of Sierra Leone",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Sierra_Leone",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1044",
 			"url": "https://www.wikidata.org/wiki/Q1044",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Sierra Leona",
+			"id": "wikipedia-es:Sierra Leona",
 			"url": "https://es.wikipedia.org/wiki/Sierra_Leona",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1044",
+			"id": "wikidata:Q1044",
 			"url": "https://www.wikidata.org/wiki/Q1044",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1044",
+			"id": "wikidata:Q1044",
 			"url": "https://www.wikidata.org/wiki/Q1044",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

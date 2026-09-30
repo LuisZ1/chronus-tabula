@@ -285,7 +285,7 @@
 		},
 		"fuentes": {
 			"type": "array",
-			"description": "Toda contribución cita su fuente. 'id' es un nombre corto (p. ej. 'Wikidata:Q29'); 'consultado' es la fecha AAAA-MM o AAAA-MM-DD.",
+			"description": "Toda contribución cita su fuente. 'id': wikipedia-<idioma>:<Título> (p. ej. 'wikipedia-es:Imperio otomano'), wikidata:Q… , libro:/articulo:/mapa:/datos:/web:<clave> de datos/referencias.json, o 'curado' (elaboración propia). 'consultado' es la fecha AAAA-MM o AAAA-MM-DD; 'paginas', las páginas de un libro.",
 			"items": {
 				"type": "object",
 				"required": [
@@ -294,7 +294,7 @@
 				"properties": {
 					"id": {
 						"type": "string",
-						"minLength": 1
+						"pattern": "^(wikipedia-[a-z]{2,3}:.+|wikidata:Q[0-9]+|(libro|articulo|mapa|datos|web):[a-z0-9-]+|curado)$"
 					},
 					"url": {
 						"type": "string"
@@ -304,6 +304,10 @@
 					},
 					"consultado": {
 						"type": "string"
+					},
+					"paginas": {
+						"type": "string",
+						"description": "Páginas o capítulo (libros y artículos)"
 					}
 				}
 			}

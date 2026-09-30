@@ -136,34 +136,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Marruecos",
 			"url": "https://es.wikipedia.org/wiki/Marruecos",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-rulers",
+			"id": "wikipedia-en:List of rulers of Morocco",
 			"url": "https://en.wikipedia.org/wiki/List_of_rulers_of_Morocco",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1028",
 			"url": "https://www.wikidata.org/wiki/Q1028",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Marruecos",
+			"id": "wikipedia-es:Marruecos",
 			"url": "https://es.wikipedia.org/wiki/Marruecos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1028",
+			"id": "wikidata:Q1028",
 			"url": "https://www.wikidata.org/wiki/Q1028",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1028",
+			"id": "wikidata:Q1028",
 			"url": "https://www.wikidata.org/wiki/Q1028",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

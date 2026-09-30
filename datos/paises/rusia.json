@@ -442,13 +442,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Rusia",
+			"id": "wikipedia-es:Rusia",
 			"url": "https://es.wikipedia.org/wiki/Rusia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -532,19 +530,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q34266",
+			"id": "wikidata:Q34266",
 			"url": "https://www.wikidata.org/wiki/Q34266",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q34266",
+			"id": "wikidata:Q34266",
 			"url": "https://www.wikidata.org/wiki/Q34266",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q34266",
+			"id": "wikidata:Q34266",
 			"url": "https://www.wikidata.org/wiki/Q34266",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

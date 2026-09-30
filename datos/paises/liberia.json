@@ -236,39 +236,41 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Liberia",
 			"url": "https://es.wikipedia.org/wiki/Liberia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1014",
 			"url": "https://www.wikidata.org/wiki/Q1014",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of presidents of Liberia",
 			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Liberia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~LBR",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Liberia",
+			"id": "wikipedia-es:Liberia",
 			"url": "https://es.wikipedia.org/wiki/Liberia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1014",
+			"id": "wikidata:Q1014",
 			"url": "https://www.wikidata.org/wiki/Q1014",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1014",
+			"id": "wikidata:Q1014",
 			"url": "https://www.wikidata.org/wiki/Q1014",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

@@ -122,34 +122,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Túnez",
 			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia-en-presidentes",
+			"id": "wikipedia-en:List of presidents of Tunisia",
 			"url": "https://en.wikipedia.org/wiki/List_of_presidents_of_Tunisia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q948",
 			"url": "https://www.wikidata.org/wiki/Q948",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Túnez",
+			"id": "wikipedia-es:Túnez",
 			"url": "https://es.wikipedia.org/wiki/T%C3%BAnez",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q948",
+			"id": "wikidata:Q948",
 			"url": "https://www.wikidata.org/wiki/Q948",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q948",
+			"id": "wikidata:Q948",
 			"url": "https://www.wikidata.org/wiki/Q948",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"

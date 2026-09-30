@@ -144,39 +144,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Uganda",
 			"url": "https://es.wikipedia.org/wiki/Uganda",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Uganda",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Uganda",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-demo",
+			"id": "wikipedia-en:Demographics of Uganda",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Uganda",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1036",
 			"url": "https://www.wikidata.org/wiki/Q1036",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Uganda",
+			"id": "wikipedia-es:Uganda",
 			"url": "https://es.wikipedia.org/wiki/Uganda",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1036",
+			"id": "wikidata:Q1036",
 			"url": "https://www.wikidata.org/wiki/Q1036",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1036",
+			"id": "wikidata:Q1036",
 			"url": "https://www.wikidata.org/wiki/Q1036",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"

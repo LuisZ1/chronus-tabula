@@ -225,13 +225,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Países Bajos",
+			"id": "wikipedia-es:Países Bajos",
 			"url": "https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"

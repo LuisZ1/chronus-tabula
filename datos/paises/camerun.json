@@ -106,39 +106,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia_es",
+			"id": "wikipedia-es:Camerún",
 			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_heads",
+			"id": "wikipedia-en:List of heads of state of Cameroon",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Cameroon",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_demographics",
+			"id": "wikipedia-en:Demographics of Cameroon",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Cameroon",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1009",
 			"url": "https://www.wikidata.org/wiki/Q1009",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Camerún",
+			"id": "wikipedia-es:Camerún",
 			"url": "https://es.wikipedia.org/wiki/Camer%C3%BAn",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1009",
+			"id": "wikidata:Q1009",
 			"url": "https://www.wikidata.org/wiki/Q1009",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1009",
+			"id": "wikidata:Q1009",
 			"url": "https://www.wikidata.org/wiki/Q1009",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

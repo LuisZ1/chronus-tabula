@@ -95,33 +95,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki_es",
+			"id": "wikipedia-es:Sáhara Occidental",
 			"url": "https://es.wikipedia.org/wiki/S%C3%A1hara_Occidental",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki_en_hos",
+			"id": "wikipedia-en:List of heads of state of the Sahrawi Arab Democratic Republic",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Sahrawi_Arab_Democratic_Republic",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q6250",
 			"url": "https://www.wikidata.org/wiki/Q6250",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata_rasd",
+			"id": "wikidata:Q40362",
 			"url": "https://www.wikidata.org/wiki/Q40362",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Sáhara Occidental",
+			"id": "wikipedia-es:Sahara Occidental",
 			"url": "https://es.wikipedia.org/wiki/Sahara_Occidental",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q6250",
+			"id": "wikidata:Q6250",
 			"url": "https://www.wikidata.org/wiki/Q6250",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

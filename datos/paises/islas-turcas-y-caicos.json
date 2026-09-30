@@ -118,30 +118,29 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q18221",
+			"id": "wikidata:Q18221",
 			"url": "https://www.wikidata.org/wiki/Q18221",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Islas Turcas y Caicos",
+			"id": "wikipedia-es:Islas Turcas y Caicos",
 			"url": "https://es.wikipedia.org/wiki/Islas_Turcas_y_Caicos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q18221",
+			"id": "wikidata:Q18221",
 			"url": "https://www.wikidata.org/wiki/Q18221",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q18221",
+			"id": "wikidata:Q18221",
 			"url": "https://www.wikidata.org/wiki/Q18221",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

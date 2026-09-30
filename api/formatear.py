@@ -13,6 +13,7 @@ api/fuentes/comun.py, y guardar_historia() lo aplica a todo lo que escribe el
 pipeline (exportar.py, dividir.py). Este script existe para lo que se edita a
 mano: pásalo antes de abrir un pull request (o deja que el CI te avise).
 """
+import json
 import os
 import sys
 
@@ -20,6 +21,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "fue
 from comun import (COLECCIONES, DATOS, RAIZ, _leer_json, _nombre_fichero,  # noqa: E402
                    texto_canonico)
 import traduccion  # noqa: E402
+import referencias  # noqa: E402
 
 
 def ficheros():
@@ -58,6 +60,17 @@ def main(argv):
         if fn != esperado and not (fn.startswith(esperado[:-5] + "-") and fn[len(esperado) - 4:-5].isdigit()):
             avisos.append(f"  ⚠ {rel}: el nombre canónico del fichero sería {esperado} "
                           "(se deriva del id, o del año y el nombre); renómbralo si acabas de crearlo")
+    # registro de referencias (datos/referencias.json)
+    if os.path.exists(referencias.REGISTRO):
+        total += 1
+        with open(referencias.REGISTRO, encoding="utf-8", newline="") as f:
+            actual = f.read()
+        canon = referencias.texto_registro(json.loads(actual))
+        if actual != canon:
+            pendientes.append("datos/referencias.json")
+            if not comprobar:
+                with open(referencias.REGISTRO, "w", encoding="utf-8", newline="\n") as f:
+                    f.write(canon)
     # catálogos de traducción (datos/i18n/<idioma>.json): una línea por clave, en orden
     if os.path.isdir(traduccion.I18N):
         for fn in sorted(os.listdir(traduccion.I18N)):

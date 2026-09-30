@@ -253,44 +253,49 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia_es",
+			"id": "wikipedia-es:Sudáfrica",
 			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_heads",
+			"id": "wikipedia-en:List of heads of state of South Africa",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_South_Africa",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_demographics",
+			"id": "wikipedia-en:Demographics of South Africa",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_South_Africa",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_reino_zulu",
+			"id": "wikipedia-es:Reino zulú",
 			"url": "https://es.wikipedia.org/wiki/Reino_zul%C3%BA",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q258",
 			"url": "https://www.wikidata.org/wiki/Q258",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Sudáfrica",
+			"id": "wikipedia-es:Sudáfrica",
 			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1frica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q258",
+			"id": "wikidata:Q258",
 			"url": "https://www.wikidata.org/wiki/Q258",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q258",
+			"id": "wikidata:Q258",
 			"url": "https://www.wikidata.org/wiki/Q258",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

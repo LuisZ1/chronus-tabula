@@ -266,7 +266,24 @@ Todo dato nuevo debe llevar `fuentes` — el validador avisa si falta y el MR no
 ]
 ```
 
-Formatos de `id`: `wikipedia-es:<artículo>`, `wikidata:Q…`, `owid:<dataset>`, `curado` (elaboración propia contrastada, explica la bibliografía en el MR). La app muestra las fuentes al pie de cada ficha.
+Formatos de `id` (el validador rechaza cualquier otro):
+
+- `wikipedia-<idioma>:<Título del artículo>`: `wikipedia-es:Imperio otomano`, `wikipedia-en:Battle of Hastings`.
+- `wikidata:Q…`: un elemento de Wikidata.
+- `libro:<clave>`, `articulo:<clave>`, `mapa:<clave>`, `datos:<clave>`, `web:<clave>`: una obra del **registro de referencias**, `datos/referencias.json`, donde cada libro, artículo, mapa, base de datos o web se describe una sola vez:
+
+  ```jsonc
+  "libro:jenkins-inglaterra": {
+    "tipo": "libro", "titulo": "Breve historia de Inglaterra", "autor": "Simon Jenkins",
+    "traductor": "José C. Vales", "editorial": "…", "anio": 2020, "isbn": "…",
+    "licencia": "referencia (obra con derechos: solo se cita)"
+  }
+  ```
+
+  La ficha solo cita la clave y, si hace falta, las páginas: `{"id": "libro:jenkins-inglaterra", "paginas": "112-118"}`. Si la obra no está en el registro, añádela (campos: `tipo`, `titulo`, `autor`, `traductor`, `editorial`, `coleccion`, `anio`, `edicion`, `isbn`, `url`, `licencia`, `uso`, `datos`, `nota`).
+- `curado`: elaboración propia contrastada (explica la bibliografía en el MR).
+
+La app muestra las fuentes al pie de cada ficha, y la página **Fuentes y referencias** (`web/fuentes.html`) las agrupa todas por tipo de fuente y por tipo de dato. La genera `python api/compilar.py` en `web/data/fuentes.json` (cifras y obras) y `web/data/fuentes-listas.json` (todos los artículos de Wikipedia y elementos de Wikidata citados). Las fuentes de las correcciones de fronteras (`api/correcciones/`) también cuentan.
 
 La `url` de Wikipedia debe llevar al **título exacto del artículo**, no a uno deducido del nombre de la ficha (es «Kanato_ávaro», no «Canato_ávaro»; «Dinastía_Ming», no «Imperio_Ming_(China)»), y nunca a una página de desambiguación. Antes del merge request, pasa `python api/comprobar_enlaces.py`: consulta la API de Wikipedia (necesita conexión) y lista los enlaces que no existen o que son desambiguaciones en `datos/` y `api/correcciones/`.
 

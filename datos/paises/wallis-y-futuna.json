@@ -26,30 +26,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q35555",
+			"id": "wikidata:Q35555",
 			"url": "https://www.wikidata.org/wiki/Q35555",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Wallis y Futuna",
+			"id": "wikipedia-es:Wallis y Futuna",
 			"url": "https://es.wikipedia.org/wiki/Wallis_y_Futuna",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q35555",
+			"id": "wikidata:Q35555",
 			"url": "https://www.wikidata.org/wiki/Q35555",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P94:Q35555",
+			"id": "wikidata:Q35555",
 			"url": "https://www.wikidata.org/wiki/Q35555",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q35555",
+			"id": "wikidata:Q35555",
 			"url": "https://www.wikidata.org/wiki/Q35555",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"

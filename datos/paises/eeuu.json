@@ -635,13 +635,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Estados Unidos",
+			"id": "wikipedia-es:Estados Unidos",
 			"url": "https://es.wikipedia.org/wiki/Estados_Unidos",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -881,19 +879,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q30",
+			"id": "wikidata:Q30",
 			"url": "https://www.wikidata.org/wiki/Q30",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q30",
+			"id": "wikidata:Q30",
 			"url": "https://www.wikidata.org/wiki/Q30",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q30",
+			"id": "wikidata:Q30",
 			"url": "https://www.wikidata.org/wiki/Q30",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

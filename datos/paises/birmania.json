@@ -250,24 +250,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q836",
+			"id": "wikidata:Q836",
 			"url": "https://www.wikidata.org/wiki/Q836",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Birmania",
+			"id": "wikipedia-es:Birmania",
 			"url": "https://es.wikipedia.org/wiki/Birmania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q836",
+			"id": "wikidata:Q836",
 			"url": "https://www.wikidata.org/wiki/Q836",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
@@ -309,7 +308,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q836",
+			"id": "wikidata:Q836",
 			"url": "https://www.wikidata.org/wiki/Q836",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"

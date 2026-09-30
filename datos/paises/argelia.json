@@ -212,27 +212,29 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Argelia",
 			"url": "https://es.wikipedia.org/wiki/Argelia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q262",
 			"url": "https://www.wikidata.org/wiki/Q262",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Algeria",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Algeria",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~DZA",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Argelia",
+			"id": "wikipedia-es:Argelia",
 			"url": "https://es.wikipedia.org/wiki/Argelia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -274,13 +276,13 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q262",
+			"id": "wikidata:Q262",
 			"url": "https://www.wikidata.org/wiki/Q262",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q262",
+			"id": "wikidata:Q262",
 			"url": "https://www.wikidata.org/wiki/Q262",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"

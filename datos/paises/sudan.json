@@ -165,32 +165,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia_es",
+			"id": "wikipedia-es:Sudán",
 			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1n",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_heads",
+			"id": "wikipedia-en:List of heads of state of Sudan",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Sudan",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_demographics",
+			"id": "wikipedia-en:Demographics of Sudan",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Sudan",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_kush",
+			"id": "wikipedia-en:Kingdom of Kush",
 			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1049",
 			"url": "https://www.wikidata.org/wiki/Q1049",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Sudán",
+			"id": "wikipedia-es:Sudán",
 			"url": "https://es.wikipedia.org/wiki/Sud%C3%A1n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -238,19 +243,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q1049",
+			"id": "wikidata:Q1049",
 			"url": "https://www.wikidata.org/wiki/Q1049",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1049",
+			"id": "wikidata:Q1049",
 			"url": "https://www.wikidata.org/wiki/Q1049",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1049",
+			"id": "wikidata:Q1049",
 			"url": "https://www.wikidata.org/wiki/Q1049",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

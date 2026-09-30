@@ -29,9 +29,7 @@
 	],
 	"fuentes": [
 		{
-			"id": "openstax:world-history",
-			"url": "https://openstax.org/details/books/world-history-volume-1",
-			"licencia": "CC BY-NC-SA 4.0",
+			"id": "libro:openstax-world-history-1",
 			"consultado": "2026-09-07"
 		},
 		{
@@ -41,7 +39,7 @@
 			"consultado": "2026-09-07"
 		},
 		{
-			"id": "Wikipedia (es): Imperio songhai",
+			"id": "wikipedia-es:Imperio songhai",
 			"url": "https://es.wikipedia.org/wiki/Imperio_songhai",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"

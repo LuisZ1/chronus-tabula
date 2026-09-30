@@ -270,13 +270,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Polonia",
+			"id": "wikipedia-es:Polonia",
 			"url": "https://es.wikipedia.org/wiki/Polonia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"

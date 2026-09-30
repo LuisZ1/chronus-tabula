@@ -216,17 +216,19 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Benín",
 			"url": "https://es.wikipedia.org/wiki/Benín",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q962",
 			"url": "https://www.wikidata.org/wiki/Q962",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Benín",
+			"id": "wikipedia-es:Benín",
 			"url": "https://es.wikipedia.org/wiki/Ben%C3%ADn",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -262,13 +264,13 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q962",
+			"id": "wikidata:Q962",
 			"url": "https://www.wikidata.org/wiki/Q962",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q962",
+			"id": "wikidata:Q962",
 			"url": "https://www.wikidata.org/wiki/Q962",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"

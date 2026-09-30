@@ -35,6 +35,10 @@ SCHEMA_DIR = os.path.join(RAIZ, "schema")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
 from comun import cargar_historia, hash_revision, DATOS  # noqa: E402
 import traduccion  # noqa: E402
+import referencias as REF  # noqa: E402
+
+REGISTRO = REF.cargar_registro()
+REF_USADAS = set()
 import vinculos as VI  # noqa: E402
 
 # colección → fichero de esquema en schema/
@@ -77,6 +81,15 @@ def valida_fuentes(donde, reg, obligatorio=True):
     for f in fs:
         if not isinstance(f, dict) or not f.get("id"):
             err(donde, f"fuente inválida (falta 'id'): {f!r}")
+            continue
+        i = f["id"]
+        if not REF.ESQUEMA.match(i):
+            err(donde, f"fuente {i!r}: el 'id' debe ser wikipedia-<idioma>:<Título>, wikidata:Q…, "
+                       "libro:/articulo:/mapa:/datos:/web:<clave del registro> o 'curado' (ver CONTRIBUTING)")
+        elif i.split(":", 1)[0] in REF.TIPOS_REGISTRO:
+            REF_USADAS.add(i)
+            if i not in REGISTRO:
+                err(donde, f"fuente {i!r}: no está en datos/referencias.json; descríbela allí (autor, título, año…)")
 
 
 def valida_poligono(donde, poly):
@@ -470,6 +483,21 @@ def main():
         if "poligono" in t:
             valida_poligono(donde + " poligono", t["poligono"])
         valida_fuentes(donde, t)
+
+    # registro de referencias (datos/referencias.json)
+    campos_ok = {"tipo", "titulo", "autor", "traductor", "editorial", "coleccion", "anio", "edicion",
+                 "isbn", "url", "licencia", "uso", "datos", "nota"}
+    for k, v in REGISTRO.items():
+        donde = f"referencias.json «{k}»"
+        t = k.split(":", 1)[0]
+        if t not in REF.TIPOS_REGISTRO or not REF.ESQUEMA.match(k):
+            err(donde, f"la clave debe ser <tipo>:<clave-en-minúsculas>, con tipo {'/'.join(REF.TIPOS_REGISTRO)}")
+        elif not isinstance(v, dict) or v.get("tipo") != t or not v.get("titulo"):
+            err(donde, f"necesita 'tipo' ({t!r}, el mismo de la clave) y 'titulo'")
+        elif set(v) - campos_ok:
+            err(donde, f"campos desconocidos: {sorted(set(v) - campos_ok)}")
+        elif k not in REF_USADAS and not v.get("uso"):
+            aviso(donde, "ninguna ficha la cita; si se usa en otra parte (mapas), dilo en 'uso'")
 
     # resultado
     for a in avisos:

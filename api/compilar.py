@@ -32,6 +32,9 @@ def main():
     for lang in traduccion.idiomas():
         r = ruta_historia(lang)
         print(f"✔ {os.path.relpath(r, RAIZ)} generado ({os.path.getsize(r) / 1024:.0f} KB)")
+    for fn in ("fuentes.json", "fuentes-listas.json"):
+        r = os.path.join(os.path.dirname(ruta), fn)
+        print(f"✔ {os.path.relpath(r, RAIZ)} generado ({os.path.getsize(r) / 1024:.0f} KB)")
     return 0
 
 

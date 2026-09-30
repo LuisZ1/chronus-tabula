@@ -158,18 +158,17 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q11703",
+			"id": "wikidata:Q11703",
 			"url": "https://www.wikidata.org/wiki/Q11703",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q11703",
+			"id": "wikidata:Q11703",
 			"url": "https://www.wikidata.org/wiki/Q11703",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -187,7 +186,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q11703",
+			"id": "wikidata:Q11703",
 			"url": "https://www.wikidata.org/wiki/Q11703",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

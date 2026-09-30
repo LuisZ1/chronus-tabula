@@ -115,39 +115,41 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Gambia",
 			"url": "https://es.wikipedia.org/wiki/Gambia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1005",
 			"url": "https://www.wikidata.org/wiki/Q1005",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of the Gambia",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Gambia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~GMB",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Gambia",
+			"id": "wikipedia-es:Gambia",
 			"url": "https://es.wikipedia.org/wiki/Gambia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1005",
+			"id": "wikidata:Q1005",
 			"url": "https://www.wikidata.org/wiki/Q1005",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1005",
+			"id": "wikidata:Q1005",
 			"url": "https://www.wikidata.org/wiki/Q1005",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

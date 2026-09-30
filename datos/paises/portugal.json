@@ -452,13 +452,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Portugal",
+			"id": "wikipedia-es:Portugal",
 			"url": "https://es.wikipedia.org/wiki/Portugal",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -512,19 +510,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q45",
+			"id": "wikidata:Q45",
 			"url": "https://www.wikidata.org/wiki/Q45",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q45",
+			"id": "wikidata:Q45",
 			"url": "https://www.wikidata.org/wiki/Q45",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q45",
+			"id": "wikidata:Q45",
 			"url": "https://www.wikidata.org/wiki/Q45",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

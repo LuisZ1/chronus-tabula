@@ -204,27 +204,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Libia",
 			"url": "https://es.wikipedia.org/wiki/Libia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Libya",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Libya",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-demo",
+			"id": "wikipedia-en:Demographics of Libya",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Libya",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1016",
 			"url": "https://www.wikidata.org/wiki/Q1016",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Libia",
+			"id": "wikipedia-es:Libia",
 			"url": "https://es.wikipedia.org/wiki/Libia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -248,19 +252,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q1016",
+			"id": "wikidata:Q1016",
 			"url": "https://www.wikidata.org/wiki/Q1016",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1016",
+			"id": "wikidata:Q1016",
 			"url": "https://www.wikidata.org/wiki/Q1016",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1016",
+			"id": "wikidata:Q1016",
 			"url": "https://www.wikidata.org/wiki/Q1016",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

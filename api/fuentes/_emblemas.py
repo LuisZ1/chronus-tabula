@@ -158,7 +158,7 @@ def ejecutar(fid, prop, campo, demo_datos, argv=None):
             continue
         payload = {
             campo: emblemas,
-            "fuente": {"id": f"wikidata:{prop}:{p['wikidata']}",
+            "fuente": {"id": f"wikidata:{p['wikidata']}",
                        "url": f"https://www.wikidata.org/wiki/{p['wikidata']}",
                        "licencia": "CC0", "consultado": HOY},
         }

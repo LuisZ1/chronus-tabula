@@ -157,24 +157,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q13353",
+			"id": "wikidata:Q13353",
 			"url": "https://www.wikidata.org/wiki/Q13353",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Montserrat",
+			"id": "wikipedia-es:Montserrat",
 			"url": "https://es.wikipedia.org/wiki/Montserrat",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q13353",
+			"id": "wikidata:Q13353",
 			"url": "https://www.wikidata.org/wiki/Q13353",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -198,7 +197,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q13353",
+			"id": "wikidata:Q13353",
 			"url": "https://www.wikidata.org/wiki/Q13353",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

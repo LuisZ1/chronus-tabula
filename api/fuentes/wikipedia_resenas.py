@@ -129,7 +129,7 @@ def main():
             continue
         payload = {
             "resena": resena,
-            "fuente": {"id": f"Wikipedia (es): {titulo_wiki(p)}", "url": data.get("url"),
+            "fuente": {"id": f"wikipedia-es:{titulo_wiki(p)}", "url": data.get("url"),
                        "licencia": "CC BY-SA", "consultado": HOY},
         }
         res = f"reseña ({len(resena)} car.): «{resena[:60]}…»"

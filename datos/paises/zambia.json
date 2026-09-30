@@ -145,39 +145,41 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Zambia",
 			"url": "https://es.wikipedia.org/wiki/Zambia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q953",
 			"url": "https://www.wikidata.org/wiki/Q953",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Zambia",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Zambia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~ZMB",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Zambia",
+			"id": "wikipedia-es:Zambia",
 			"url": "https://es.wikipedia.org/wiki/Zambia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q953",
+			"id": "wikidata:Q953",
 			"url": "https://www.wikidata.org/wiki/Q953",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q953",
+			"id": "wikidata:Q953",
 			"url": "https://www.wikidata.org/wiki/Q953",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"

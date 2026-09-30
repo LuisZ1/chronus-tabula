@@ -199,18 +199,19 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q23681",
+			"id": "wikidata:Q23681",
 			"url": "https://www.wikidata.org/wiki/Q23681",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): República Turca del Norte de Chipre",
+			"id": "wikipedia-es:Chipre del Norte",
 			"url": "https://es.wikipedia.org/wiki/Chipre_del_Norte",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q23681",
+			"id": "wikidata:Q23681",
 			"url": "https://www.wikidata.org/wiki/Q23681",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -324,13 +325,13 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P1082:Q23681",
+			"id": "wikidata:Q23681",
 			"url": "https://www.wikidata.org/wiki/Q23681",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q23681",
+			"id": "wikidata:Q23681",
 			"url": "https://www.wikidata.org/wiki/Q23681",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

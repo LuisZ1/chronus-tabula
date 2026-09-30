@@ -130,8 +130,8 @@ def main():
             continue
         payload = {
             "poblacion": puntos,
-            "fuente": {"id": "owid:population", "url": "https://ourworldindata.org/grapher/population",
-                       "licencia": "CC BY (HYDE, Gapminder, ONU)", "consultado": HOY},
+            # la base de datos se describe en datos/referencias.json
+            "fuente": {"id": "datos:owid-poblacion", "consultado": HOY},
         }
         resumen = f"población {entidad}: {len(puntos)} puntos ({puntos[0]['anio']}–{puntos[-1]['anio']})"
         if proponer(con, "poblacion", pais_id, resumen, payload, "owid:population"):

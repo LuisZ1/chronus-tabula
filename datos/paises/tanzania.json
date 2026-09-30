@@ -144,39 +144,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Tanzania",
 			"url": "https://es.wikipedia.org/wiki/Tanzania",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q924",
 			"url": "https://www.wikidata.org/wiki/Q924",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "presidentes",
+			"id": "wikipedia-en:List of heads of state of Tanzania",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Tanzania",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "demografia",
+			"id": "wikipedia-en:Demographics of Tanzania",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Tanzania",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Tanzania",
+			"id": "wikipedia-es:Tanzania",
 			"url": "https://es.wikipedia.org/wiki/Tanzania",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q924",
+			"id": "wikidata:Q924",
 			"url": "https://www.wikidata.org/wiki/Q924",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q924",
+			"id": "wikidata:Q924",
 			"url": "https://www.wikidata.org/wiki/Q924",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

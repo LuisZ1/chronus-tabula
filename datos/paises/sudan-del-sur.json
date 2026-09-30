@@ -19,18 +19,16 @@
 	"fuentes": [
 		{
 			"id": "wikidata:Q958",
+			"url": "https://www.wikidata.org/wiki/Q958",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"
 		},
 		{
-			"id": "onu:estados-miembros",
-			"url": "https://www.un.org/es/about-us/member-states",
+			"id": "web:onu-estados-miembros",
 			"consultado": "2026-09-28"
 		},
 		{
-			"id": "natural-earth:admin-0",
-			"url": "https://www.naturalearthdata.com/",
-			"licencia": "dominio público",
+			"id": "mapa:natural-earth",
 			"consultado": "2026-09-28"
 		}
 	]
