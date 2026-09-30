@@ -1,26 +1,22 @@
 {
 	"id": "senegal",
 	"nombre": "Senegal",
-	"nombre_en": "Senegal",
 	"nombres": [
 		"Senegal"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Occidental Francesa (Senegal)",
-			"nombre_en": "French West Africa (Senegal)",
 			"desde": 1895,
 			"hasta": 1959
 		},
 		{
 			"nombre": "Federación de Malí",
-			"nombre_en": "Mali Federation",
 			"desde": 1959,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República del Senegal",
-			"nombre_en": "Republic of Senegal",
 			"desde": 1960,
 			"hasta": 2026
 		}

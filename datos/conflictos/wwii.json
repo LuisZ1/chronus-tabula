@@ -1,7 +1,6 @@
 {
 	"id": "wwii",
 	"nombre": "Segunda Guerra Mundial",
-	"nombre_en": "World War II",
 	"inicio": 1939,
 	"fin": 1945,
 	"paises": [
@@ -19,8 +18,8 @@
 	"wiki": "Segunda Guerra Mundial",
 	"zonas": [
 		{
+			"id": "invasion-de-polonia",
 			"nombre": "Invasión de Polonia",
-			"nombre_en": "Invasion of Poland",
 			"tipo": "frente",
 			"desde": 1939,
 			"hasta": 1939,
@@ -48,8 +47,8 @@
 			]
 		},
 		{
+			"id": "frente-occidental-francia-y-benelux",
 			"nombre": "Frente occidental (Francia y Benelux)",
-			"nombre_en": "Western Front (France and Benelux)",
 			"tipo": "frente",
 			"desde": 1940,
 			"hasta": 1940,
@@ -77,8 +76,8 @@
 			]
 		},
 		{
+			"id": "noruega",
 			"nombre": "Noruega",
-			"nombre_en": "Norway",
 			"tipo": "frente",
 			"desde": 1940,
 			"hasta": 1940,
@@ -102,8 +101,8 @@
 			]
 		},
 		{
+			"id": "batalla-de-inglaterra",
 			"nombre": "Batalla de Inglaterra",
-			"nombre_en": "Battle of Britain",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1940,
@@ -128,8 +127,8 @@
 			]
 		},
 		{
+			"id": "frente-oriental-avance-aleman",
 			"nombre": "Frente oriental (avance alemán)",
-			"nombre_en": "Eastern Front (German advance)",
 			"tipo": "frente",
 			"desde": 1941,
 			"hasta": 1942,
@@ -169,8 +168,8 @@
 			]
 		},
 		{
+			"id": "norte-de-africa",
 			"nombre": "Norte de África",
-			"nombre_en": "North Africa",
 			"tipo": "frente",
 			"desde": 1940,
 			"hasta": 1943,
@@ -202,8 +201,8 @@
 			]
 		},
 		{
+			"id": "pacifico-expansion-japonesa",
 			"nombre": "Pacífico (expansión japonesa)",
-			"nombre_en": "Pacific (Japanese expansion)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1941,
@@ -244,8 +243,8 @@
 			]
 		},
 		{
+			"id": "pacifico-contraofensiva-aliada",
 			"nombre": "Pacífico (contraofensiva aliada)",
-			"nombre_en": "Pacific (Allied counteroffensive)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1943,
@@ -282,8 +281,8 @@
 			]
 		},
 		{
+			"id": "frente-oriental-contraofensiva-sovietica",
 			"nombre": "Frente oriental (contraofensiva soviética)",
-			"nombre_en": "Eastern Front (Soviet counteroffensive)",
 			"tipo": "frente",
 			"desde": 1943,
 			"hasta": 1944,
@@ -315,8 +314,8 @@
 			]
 		},
 		{
+			"id": "italia",
 			"nombre": "Italia",
-			"nombre_en": "Italy",
 			"tipo": "frente",
 			"desde": 1943,
 			"hasta": 1945,
@@ -356,8 +355,8 @@
 			]
 		},
 		{
+			"id": "normandia-y-frente-occidental",
 			"nombre": "Normandía y Frente occidental",
-			"nombre_en": "Normandy and Western Front",
 			"tipo": "frente",
 			"desde": 1944,
 			"hasta": 1945,
@@ -389,8 +388,8 @@
 			]
 		},
 		{
+			"id": "asalto-final-a-alemania",
 			"nombre": "Asalto final a Alemania",
-			"nombre_en": "Final assault on Germany",
 			"tipo": "frente",
 			"desde": 1945,
 			"hasta": 1945,
@@ -422,8 +421,8 @@
 			]
 		},
 		{
+			"id": "europa-ocupada-por-el-eje",
 			"nombre": "Europa ocupada por el Eje",
-			"nombre_en": "Axis-occupied Europe",
 			"tipo": "ocupado",
 			"desde": 1940,
 			"hasta": 1944,
@@ -485,8 +484,8 @@
 	],
 	"batallas": [
 		{
+			"id": "asedio-de-varsovia",
 			"nombre": "Asedio de Varsovia",
-			"nombre_en": "Siege of Warsaw",
 			"anio": 1939,
 			"lat": 52.23,
 			"lng": 21.01,
@@ -494,8 +493,8 @@
 			"wiki": "Asedio de Varsovia (1939)"
 		},
 		{
+			"id": "evacuacion-de-dunkerque",
 			"nombre": "Evacuación de Dunkerque",
-			"nombre_en": "Dunkirk evacuation",
 			"anio": 1940,
 			"lat": 51.03,
 			"lng": 2.38,
@@ -503,8 +502,8 @@
 			"wiki": "Evacuación de Dunkerque"
 		},
 		{
+			"id": "batalla-de-moscu",
 			"nombre": "Batalla de Moscú",
-			"nombre_en": "Battle of Moscow",
 			"anio": 1941,
 			"lat": 55.75,
 			"lng": 37.62,
@@ -512,36 +511,36 @@
 			"wiki": "Batalla de Moscú"
 		},
 		{
+			"id": "batalla-de-balikpapan",
 			"nombre": "Batalla de Balikpapan",
-			"nombre_en": "Battle of Balikpapan",
 			"anio": 1942,
 			"lat": -1.25,
 			"lng": 116.82
 		},
 		{
+			"id": "batalla-de-buna-gona",
 			"nombre": "Batalla de Buna-Gona",
-			"nombre_en": "Battle of Buna-Gona",
 			"anio": 1942,
 			"lat": -8.65,
 			"lng": 148.35
 		},
 		{
+			"id": "batalla-de-dutch-harbor",
 			"nombre": "Batalla de Dutch Harbor",
-			"nombre_en": "Battle of Dutch Harbor",
 			"anio": 1942,
 			"lat": 53.89,
 			"lng": -166.54
 		},
 		{
+			"id": "batalla-de-port-moresby",
 			"nombre": "Batalla de Port Moresby",
-			"nombre_en": "Battle of Port Moresby",
 			"anio": 1942,
 			"lat": -9.48,
 			"lng": 147.19
 		},
 		{
+			"id": "batalla-de-stalingrado",
 			"nombre": "Batalla de Stalingrado",
-			"nombre_en": "Battle of Stalingrad",
 			"anio": 1942,
 			"lat": 48.71,
 			"lng": 44.51,
@@ -549,43 +548,43 @@
 			"bajas": "~2.000.000 de bajas"
 		},
 		{
+			"id": "batalla-de-la-bahia-de-milne",
 			"nombre": "Batalla de la Bahía de Milne",
-			"nombre_en": "Battle of Milne Bay",
 			"anio": 1942,
 			"lat": -10.32,
 			"lng": 150.48
 		},
 		{
+			"id": "batalla-del-estrecho-badung",
 			"nombre": "Batalla del Estrecho Badung",
-			"nombre_en": "Battle of Badung Strait",
 			"anio": 1942,
 			"lat": -8.63,
 			"lng": 115.39
 		},
 		{
+			"id": "batalla-del-estrecho-de-makassar",
 			"nombre": "Batalla del Estrecho de Makassar",
-			"nombre_en": "Battle of Makassar Strait",
 			"anio": 1942,
 			"lat": -7.5,
 			"lng": 115.5
 		},
 		{
+			"id": "batalla-del-mar-de-java",
 			"nombre": "Batalla del Mar de Java",
-			"nombre_en": "Battle of the Java Sea",
 			"anio": 1942,
 			"lat": -5.0,
 			"lng": 111.0
 		},
 		{
+			"id": "batalla-del-paso-de-tjiater",
 			"nombre": "Batalla del paso de Tjiater",
-			"nombre_en": "Battle of Tjiater Pass",
 			"anio": 1942,
 			"lat": -6.77,
 			"lng": 107.63
 		},
 		{
+			"id": "el-alamein",
 			"nombre": "El Alamein",
-			"nombre_en": "El Alamein",
 			"anio": 1942,
 			"lat": 30.83,
 			"lng": 28.95,
@@ -593,8 +592,8 @@
 			"bajas": "~60.000 bajas"
 		},
 		{
+			"id": "sitio-de-leningrado",
 			"nombre": "Sitio de Leningrado",
-			"nombre_en": "Siege of Leningrad",
 			"anio": 1942,
 			"lat": 59.94,
 			"lng": 30.31,
@@ -602,57 +601,57 @@
 			"wiki": "Sitio de Leningrado"
 		},
 		{
+			"id": "batalla-de-arawe",
 			"nombre": "Batalla de Arawe",
-			"nombre_en": "Battle of Arawe",
 			"anio": 1943,
 			"lat": -6.15,
 			"lng": 149.04
 		},
 		{
+			"id": "batalla-de-bairoko",
 			"nombre": "Batalla de Bairoko",
-			"nombre_en": "Battle of Bairoko",
 			"anio": 1943,
 			"lat": -8.19,
 			"lng": 157.28
 		},
 		{
+			"id": "batalla-de-el-guettar",
 			"nombre": "Batalla de El Guettar",
-			"nombre_en": "Battle of El Guettar",
 			"anio": 1943,
 			"lat": 34.34,
 			"lng": 8.95
 		},
 		{
+			"id": "batalla-de-hill-609",
 			"nombre": "Batalla de Hill 609",
-			"nombre_en": "Battle of Hill 609",
 			"anio": 1943,
 			"lat": 36.9,
 			"lng": 9.49
 		},
 		{
+			"id": "batalla-de-horaniu",
 			"nombre": "Batalla de Horaniu",
-			"nombre_en": "Battle of Horaniu",
 			"anio": 1943,
 			"lat": -7.7,
 			"lng": 156.72
 		},
 		{
+			"id": "batalla-de-kaiapit",
 			"nombre": "Batalla de Kaiapit",
-			"nombre_en": "Battle of Kaiapit",
 			"anio": 1943,
 			"lat": -6.27,
 			"lng": 146.25
 		},
 		{
+			"id": "batalla-de-kolombangara",
 			"nombre": "Batalla de Kolombangara",
-			"nombre_en": "Battle of Kolombangara",
 			"anio": 1943,
 			"lat": -7.83,
 			"lng": 157.35
 		},
 		{
+			"id": "batalla-de-kursk",
 			"nombre": "Batalla de Kursk",
-			"nombre_en": "Battle of Kursk",
 			"anio": 1943,
 			"lat": 51.73,
 			"lng": 36.19,
@@ -660,288 +659,288 @@
 			"wiki": "Batalla de Kursk"
 		},
 		{
+			"id": "batalla-de-sattelberg",
 			"nombre": "Batalla de Sattelberg",
-			"nombre_en": "Battle of Sattelberg",
 			"anio": 1943,
 			"lat": -6.49,
 			"lng": 147.77
 		},
 		{
+			"id": "batalla-de-scarlet-beach",
 			"nombre": "Batalla de Scarlet Beach",
-			"nombre_en": "Battle of Scarlet Beach",
 			"anio": 1943,
 			"lat": -6.48,
 			"lng": 147.85
 		},
 		{
+			"id": "batalla-de-sidi-bou-zid",
 			"nombre": "Batalla de Sidi Bou Zid",
-			"nombre_en": "Battle of Sidi Bou Zid",
 			"anio": 1943,
 			"lat": 34.87,
 			"lng": 9.48
 		},
 		{
+			"id": "batalla-de-sio",
 			"nombre": "Batalla de Sio",
-			"nombre_en": "Battle of Sio",
 			"anio": 1943,
 			"lat": -5.96,
 			"lng": 147.37
 		},
 		{
+			"id": "batalla-de-troina",
 			"nombre": "Batalla de Troina",
-			"nombre_en": "Battle of Troina",
 			"anio": 1943,
 			"lat": 37.78,
 			"lng": 14.6
 		},
 		{
+			"id": "batalla-de-wau",
 			"nombre": "Batalla de Wau",
-			"nombre_en": "Battle of Wau",
 			"anio": 1943,
 			"lat": -7.34,
 			"lng": 146.72
 		},
 		{
+			"id": "batalla-del-cabo-gloucester",
 			"nombre": "Batalla del Cabo Gloucester",
-			"nombre_en": "Battle of Cape Gloucester",
 			"anio": 1943,
 			"lat": -5.45,
 			"lng": 148.42
 		},
 		{
+			"id": "batalla-del-estrecho-de-blackett",
 			"nombre": "Batalla del Estrecho de Blackett",
-			"nombre_en": "Battle of Blackett Strait",
 			"anio": 1943,
 			"lat": -5.07,
 			"lng": 152.3
 		},
 		{
+			"id": "batalla-del-golfo-de-kula",
 			"nombre": "Batalla del Golfo de Kula",
-			"nombre_en": "Battle of Kula Gulf",
 			"anio": 1943,
 			"lat": -7.97,
 			"lng": 157.07
 		},
 		{
+			"id": "batalla-del-paso-de-kasserine",
 			"nombre": "Batalla del paso de Kasserine",
-			"nombre_en": "Battle of the Kasserine Pass",
 			"anio": 1943,
 			"lat": 35.26,
 			"lng": 8.74
 		},
 		{
+			"id": "batalla-naval-de-vella-lavella",
 			"nombre": "Batalla naval de Vella Lavella",
-			"nombre_en": "Naval Battle of Vella Lavella",
 			"anio": 1943,
 			"lat": -7.5,
 			"lng": 156.23
 		},
 		{
+			"id": "campana-de-bougainville",
 			"nombre": "Campaña de Bougainville",
-			"nombre_en": "Bougainville campaign",
 			"anio": 1943,
 			"lat": -6.02,
 			"lng": 155.1
 		},
 		{
+			"id": "campana-de-nueva-georgia",
 			"nombre": "Campaña de Nueva Georgia",
-			"nombre_en": "New Georgia campaign",
 			"anio": 1943,
 			"lat": -8.5,
 			"lng": 157.33
 		},
 		{
+			"id": "invasion-aliada-de-italia",
 			"nombre": "Invasión aliada de Italia",
-			"nombre_en": "Allied invasion of Italy",
 			"anio": 1943,
 			"lat": 40.68,
 			"lng": 14.76
 		},
 		{
+			"id": "operacion-cartwheel",
 			"nombre": "Operación Cartwheel",
-			"nombre_en": "Operation Cartwheel",
 			"anio": 1943,
 			"lat": -4.2,
 			"lng": 152.17
 		},
 		{
+			"id": "batalla-de-angaur",
 			"nombre": "Batalla de Angaur",
-			"nombre_en": "Battle of Angaur",
 			"anio": 1944,
 			"lat": 6.9,
 			"lng": 134.13
 		},
 		{
+			"id": "batalla-de-anzio",
 			"nombre": "Batalla de Anzio",
-			"nombre_en": "Battle of Anzio",
 			"anio": 1944,
 			"lat": 41.44,
 			"lng": 12.62
 		},
 		{
+			"id": "batalla-de-aquisgran",
 			"nombre": "Batalla de Aquisgrán",
-			"nombre_en": "Battle of Aachen",
 			"anio": 1944,
 			"lat": 50.78,
 			"lng": 6.08
 		},
 		{
+			"id": "batalla-de-arracourt",
 			"nombre": "Batalla de Arracourt",
-			"nombre_en": "Battle of Arracourt",
 			"anio": 1944,
 			"lat": 48.74,
 			"lng": 6.61
 		},
 		{
+			"id": "batalla-de-biak",
 			"nombre": "Batalla de Biak",
-			"nombre_en": "Battle of Biak",
 			"anio": 1944,
 			"lat": -1.0,
 			"lng": 136.0
 		},
 		{
+			"id": "batalla-de-brest",
 			"nombre": "Batalla de Brest",
-			"nombre_en": "Battle of Brest",
 			"anio": 1944,
 			"lat": 48.39,
 			"lng": -4.49
 		},
 		{
+			"id": "batalla-de-carentan",
 			"nombre": "Batalla de Carentan",
-			"nombre_en": "Battle of Carentan",
 			"anio": 1944,
 			"lat": 49.3,
 			"lng": -1.25
 		},
 		{
+			"id": "batalla-de-chambois",
 			"nombre": "Batalla de Chambois",
-			"nombre_en": "Battle of Chambois",
 			"anio": 1944,
 			"lat": 48.81,
 			"lng": 0.11
 		},
 		{
+			"id": "batalla-de-cherburgo",
 			"nombre": "Batalla de Cherburgo",
-			"nombre_en": "Battle of Cherbourg",
 			"anio": 1944,
 			"lat": 49.64,
 			"lng": -1.62
 		},
 		{
+			"id": "batalla-de-cisterna",
 			"nombre": "Batalla de Cisterna",
-			"nombre_en": "Battle of Cisterna",
 			"anio": 1944,
 			"lat": 41.4,
 			"lng": 13.98
 		},
 		{
+			"id": "batalla-de-crucifix-hill",
 			"nombre": "Batalla de Crucifix Hill",
-			"nombre_en": "Battle of Crucifix Hill",
 			"anio": 1944,
 			"lat": 50.8,
 			"lng": 6.14
 		},
 		{
+			"id": "batalla-de-guam",
 			"nombre": "Batalla de Guam",
-			"nombre_en": "Battle of Guam",
 			"anio": 1944,
 			"lat": 13.4,
 			"lng": 144.66
 		},
 		{
+			"id": "batalla-de-hollandia",
 			"nombre": "Batalla de Hollandia",
-			"nombre_en": "Battle of Hollandia",
 			"anio": 1944,
 			"lat": -2.53,
 			"lng": 140.72
 		},
 		{
+			"id": "batalla-de-kesternich",
 			"nombre": "Batalla de Kesternich",
-			"nombre_en": "Battle of Kesternich",
 			"anio": 1944,
 			"lat": 50.61,
 			"lng": 6.33
 		},
 		{
+			"id": "batalla-de-lanzerath-ridge",
 			"nombre": "Batalla de Lanzerath Ridge",
-			"nombre_en": "Battle of Lanzerath Ridge",
 			"anio": 1944,
 			"lat": 50.36,
 			"lng": 6.33
 		},
 		{
+			"id": "batalla-de-leyte",
 			"nombre": "Batalla de Leyte",
-			"nombre_en": "Battle of Leyte",
 			"anio": 1944,
 			"lat": 11.17,
 			"lng": 125.01
 		},
 		{
+			"id": "batalla-de-metz",
 			"nombre": "Batalla de Metz",
-			"nombre_en": "Battle of Metz",
 			"anio": 1944,
 			"lat": 49.12,
 			"lng": 6.18
 		},
 		{
+			"id": "batalla-de-montecassino",
 			"nombre": "Batalla de Montecassino",
-			"nombre_en": "Battle of Monte Cassino",
 			"anio": 1944,
 			"lat": 41.49,
 			"lng": 13.81
 		},
 		{
+			"id": "batalla-de-morotai",
 			"nombre": "Batalla de Morotai",
-			"nombre_en": "Battle of Morotai",
 			"anio": 1944,
 			"lat": 2.03,
 			"lng": 128.29
 		},
 		{
+			"id": "batalla-de-noemfoor",
 			"nombre": "Batalla de Noemfoor",
-			"nombre_en": "Battle of Noemfoor",
 			"anio": 1944,
 			"lat": -0.98,
 			"lng": 134.89
 		},
 		{
+			"id": "batalla-de-ormoc-bay",
 			"nombre": "Batalla de Ormoc Bay",
-			"nombre_en": "Battle of Ormoc Bay",
 			"anio": 1944,
 			"lat": 10.98,
 			"lng": 124.58
 		},
 		{
+			"id": "batalla-de-peleliu",
 			"nombre": "Batalla de Peleliu",
-			"nombre_en": "Battle of Peleliu",
 			"anio": 1944,
 			"lat": 7.02,
 			"lng": 134.25
 		},
 		{
+			"id": "batalla-de-st-vith",
 			"nombre": "Batalla de St. Vith",
-			"nombre_en": "Battle of St. Vith",
 			"anio": 1944,
 			"lat": 50.28,
 			"lng": 6.13
 		},
 		{
+			"id": "batalla-de-talasea",
 			"nombre": "Batalla de Talasea",
-			"nombre_en": "Battle of Talasea",
 			"anio": 1944,
 			"lat": -5.26,
 			"lng": 149.99
 		},
 		{
+			"id": "batalla-de-tinian",
 			"nombre": "Batalla de Tinian",
-			"nombre_en": "Battle of Tinian",
 			"anio": 1944,
 			"lat": 15.0,
 			"lng": 145.63
 		},
 		{
+			"id": "batalla-de-las-ardenas",
 			"nombre": "Batalla de las Ardenas",
-			"nombre_en": "Battle of the Bulge",
 			"anio": 1944,
 			"lat": 50.17,
 			"lng": 5.95,
@@ -949,43 +948,43 @@
 			"wiki": "Batalla de las Ardenas"
 		},
 		{
+			"id": "batalla-de-las-islas-green",
 			"nombre": "Batalla de las islas Green",
-			"nombre_en": "Battle of the Green Islands",
 			"anio": 1944,
 			"lat": -4.5,
 			"lng": 154.17
 		},
 		{
+			"id": "batalla-del-bosque-de-hurtgen",
 			"nombre": "Batalla del Bosque de Hürtgen",
-			"nombre_en": "Battle of Hürtgen Forest",
 			"anio": 1944,
 			"lat": 50.71,
 			"lng": 6.36
 		},
 		{
+			"id": "batalla-del-mar-de-sibuyan",
 			"nombre": "Batalla del Mar de Sibuyan",
-			"nombre_en": "Battle of the Sibuyan Sea",
 			"anio": 1944,
 			"lat": 12.75,
 			"lng": 122.5
 		},
 		{
+			"id": "batalla-del-mar-de-filipinas",
 			"nombre": "Batalla del mar de Filipinas",
-			"nombre_en": "Battle of the Philippine Sea",
 			"anio": 1944,
 			"lat": 20.0,
 			"lng": 130.0
 		},
 		{
+			"id": "bolsa-de-falaise",
 			"nombre": "Bolsa de Falaise",
-			"nombre_en": "Falaise Pocket",
 			"anio": 1944,
 			"lat": 48.89,
 			"lng": -0.19
 		},
 		{
+			"id": "desembarco-de-normandia",
 			"nombre": "Desembarco de Normandía",
-			"nombre_en": "Normandy landings",
 			"anio": 1944,
 			"lat": 49.34,
 			"lng": -0.85,
@@ -993,15 +992,15 @@
 			"bajas": "~10.000 bajas aliadas el Día D"
 		},
 		{
+			"id": "elsenborn-ridge",
 			"nombre": "Elsenborn Ridge",
-			"nombre_en": "Elsenborn Ridge",
 			"anio": 1944,
 			"lat": 50.45,
 			"lng": 6.26
 		},
 		{
+			"id": "operacion-bagration",
 			"nombre": "Operación Bagration",
-			"nombre_en": "Operation Bagration",
 			"anio": 1944,
 			"lat": 53.9,
 			"lng": 27.57,
@@ -1009,15 +1008,15 @@
 			"wiki": "Operación Bagration"
 		},
 		{
+			"id": "batalla-de-authion",
 			"nombre": "Batalla de Authion",
-			"nombre_en": "Battle of Authion",
 			"anio": 1945,
 			"lat": 44.0,
 			"lng": 7.43
 		},
 		{
+			"id": "batalla-de-berlin",
 			"nombre": "Batalla de Berlín",
-			"nombre_en": "Battle of Berlin",
 			"anio": 1945,
 			"lat": 52.52,
 			"lng": 13.4,
@@ -1025,106 +1024,106 @@
 			"bajas": "~300.000 muertos"
 		},
 		{
+			"id": "batalla-de-bologna",
 			"nombre": "Batalla de Bologna",
-			"nombre_en": "Battle of Bologna",
 			"anio": 1945,
 			"lat": 44.49,
 			"lng": 11.34
 		},
 		{
+			"id": "batalla-de-buchhof-y-stein-am-kocher",
 			"nombre": "Batalla de Buchhof y Stein am Kocher",
-			"nombre_en": "Battle of Buchhof and Stein am Kocher",
 			"anio": 1945,
 			"lat": 49.27,
 			"lng": 9.27
 		},
 		{
+			"id": "batalla-de-collecchio",
 			"nombre": "Batalla de Collecchio",
-			"nombre_en": "Battle of Collecchio",
 			"anio": 1945,
 			"lat": 44.75,
 			"lng": 10.22
 		},
 		{
+			"id": "batalla-de-kassel",
 			"nombre": "Batalla de Kassel",
-			"nombre_en": "Battle of Kassel",
 			"anio": 1945,
 			"lat": 51.29,
 			"lng": 9.43
 		},
 		{
+			"id": "batalla-de-labuan",
 			"nombre": "Batalla de Labuan",
-			"nombre_en": "Battle of Labuan",
 			"anio": 1945,
 			"lat": 5.32,
 			"lng": 115.21
 		},
 		{
+			"id": "batalla-de-luzon",
 			"nombre": "Batalla de Luzón",
-			"nombre_en": "Battle of Luzon",
 			"anio": 1945,
 			"lat": 16.0,
 			"lng": 121.0
 		},
 		{
+			"id": "batalla-de-manila",
 			"nombre": "Batalla de Manila",
-			"nombre_en": "Battle of Manila",
 			"anio": 1945,
 			"lat": 14.58,
 			"lng": 120.97
 		},
 		{
+			"id": "batalla-de-mindanao",
 			"nombre": "Batalla de Mindanao",
-			"nombre_en": "Battle of Mindanao",
 			"anio": 1945,
 			"lat": 8.0,
 			"lng": 125.0
 		},
 		{
+			"id": "batalla-de-nuremberg",
 			"nombre": "Batalla de Núremberg",
-			"nombre_en": "Battle of Nuremberg",
 			"anio": 1945,
 			"lat": 49.46,
 			"lng": 11.08
 		},
 		{
+			"id": "batalla-de-remagen",
 			"nombre": "Batalla de Remagen",
-			"nombre_en": "Battle of Remagen",
 			"anio": 1945,
 			"lat": 50.58,
 			"lng": 7.24
 		},
 		{
+			"id": "batalla-de-riva-ridge",
 			"nombre": "Batalla de Riva Ridge",
-			"nombre_en": "Battle of Riva Ridge",
 			"anio": 1945,
 			"lat": 44.19,
 			"lng": 10.83
 		},
 		{
+			"id": "batalla-de-slivice",
 			"nombre": "Batalla de Slivice",
-			"nombre_en": "Battle of Slivice",
 			"anio": 1945,
 			"lat": 49.64,
 			"lng": 14.05
 		},
 		{
+			"id": "batalla-por-el-castillo-itter",
 			"nombre": "Batalla por el Castillo Itter",
-			"nombre_en": "Battle for Castle Itter",
 			"anio": 1945,
 			"lat": 47.47,
 			"lng": 12.14
 		},
 		{
+			"id": "operacion-cowboy",
 			"nombre": "Operación Cowboy",
-			"nombre_en": "Operation Cowboy",
 			"anio": 1945,
 			"lat": 49.58,
 			"lng": 12.77
 		},
 		{
+			"id": "operacion-ten-go",
 			"nombre": "Operación Ten-Gō",
-			"nombre_en": "Operation Ten-Go",
 			"anio": 1945,
 			"lat": 30.37,
 			"lng": 128.07

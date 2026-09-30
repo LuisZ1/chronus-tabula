@@ -1,20 +1,17 @@
 {
 	"id": "chad",
 	"nombre": "Chad",
-	"nombre_en": "Chad",
 	"nombres": [
 		"Chad"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Chad francés (África Ecuatorial Francesa)",
-			"nombre_en": "French Chad (French Equatorial Africa)",
 			"desde": 1900,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República del Chad",
-			"nombre_en": "Republic of Chad",
 			"desde": 1960,
 			"hasta": 2026
 		}

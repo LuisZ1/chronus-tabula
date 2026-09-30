@@ -1,7 +1,6 @@
 {
 	"id": "malaui",
 	"nombre": "Malaui",
-	"nombre_en": "Malawi",
 	"nombres": [
 		"Malawi",
 		"Nyasaland"
@@ -9,19 +8,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio Maravi",
-			"nombre_en": "Maravi Empire",
 			"desde": 1480,
 			"hasta": 1700
 		},
 		{
 			"nombre": "Protectorado de Nyasalandia",
-			"nombre_en": "Nyasaland Protectorate",
 			"desde": 1907,
 			"hasta": 1964
 		},
 		{
 			"nombre": "Malaui",
-			"nombre_en": "Malawi",
 			"desde": 1964,
 			"hasta": 2026
 		}

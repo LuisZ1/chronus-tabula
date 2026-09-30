@@ -1,7 +1,6 @@
 {
 	"id": "siete-anos",
 	"nombre": "Guerra de los Siete Años",
-	"nombre_en": "Seven Years' War",
 	"inicio": 1756,
 	"fin": 1763,
 	"paises": [
@@ -18,8 +17,8 @@
 	"wiki": "Guerra de los Siete Años",
 	"zonas": [
 		{
+			"id": "europa-central",
 			"nombre": "Europa central",
-			"nombre_en": "Central Europe",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -45,8 +44,8 @@
 			]
 		},
 		{
+			"id": "norteamerica-guerra-franco-india",
 			"nombre": "Norteamérica (guerra franco-india)",
-			"nombre_en": "North America (French and Indian War)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -76,8 +75,8 @@
 			]
 		},
 		{
+			"id": "caribe-la-habana",
 			"nombre": "Caribe (La Habana)",
-			"nombre_en": "Caribbean (Havana)",
 			"tipo": "frente",
 			"desde": 1762,
 			"hasta": 1763,
@@ -101,8 +100,8 @@
 			]
 		},
 		{
+			"id": "india-bengala",
 			"nombre": "India (Bengala)",
-			"nombre_en": "India (Bengal)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -124,8 +123,8 @@
 			]
 		},
 		{
+			"id": "filipinas-manila",
 			"nombre": "Filipinas (Manila)",
-			"nombre_en": "Philippines (Manila)",
 			"tipo": "frente",
 			"desde": 1762,
 			"hasta": 1763,
@@ -151,22 +150,22 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-cap-francais",
 			"nombre": "Batalla de Cap-Français",
-			"nombre_en": "Battle of Cap-Français",
 			"anio": 1757,
 			"lat": 19.8,
 			"lng": -72.2
 		},
 		{
+			"id": "batalla-de-chandannagar",
 			"nombre": "Batalla de Chandannagar",
-			"nombre_en": "Battle of Chandannagar",
 			"anio": 1757,
 			"lat": 22.86,
 			"lng": 88.38
 		},
 		{
+			"id": "batalla-de-leuthen",
 			"nombre": "Batalla de Leuthen",
-			"nombre_en": "Battle of Leuthen",
 			"anio": 1757,
 			"lat": 51.15,
 			"lng": 16.75,
@@ -174,16 +173,16 @@
 			"wiki": "Batalla de Leuthen"
 		},
 		{
+			"id": "batalla-de-plassey",
 			"nombre": "Batalla de Plassey",
-			"nombre_en": "Battle of Plassey",
 			"anio": 1757,
 			"lat": 23.8,
 			"lng": 88.25,
 			"descripcion": "Clive gana Bengala para la Compañía de las Indias Orientales."
 		},
 		{
+			"id": "batalla-de-rossbach",
 			"nombre": "Batalla de Rossbach",
-			"nombre_en": "Battle of Rossbach",
 			"anio": 1757,
 			"lat": 51.27,
 			"lng": 11.89,
@@ -191,80 +190,80 @@
 			"wiki": "Batalla de Rossbach"
 		},
 		{
+			"id": "batalla-de-cuddalore-1758",
 			"nombre": "Batalla de Cuddalore (1758)",
-			"nombre_en": "Battle of Cuddalore (1758)",
 			"anio": 1758,
 			"lat": 11.75,
 			"lng": 79.75
 		},
 		{
+			"id": "batalla-de-negapatam",
 			"nombre": "Batalla de Negapatam",
-			"nombre_en": "Battle of Negapatam",
 			"anio": 1758,
 			"lat": 10.77,
 			"lng": 79.83
 		},
 		{
+			"id": "batalla-de-kunersdorf",
 			"nombre": "Batalla de Kunersdorf",
-			"nombre_en": "Battle of Kunersdorf",
 			"anio": 1759,
 			"lat": 52.35,
 			"lng": 14.61
 		},
 		{
+			"id": "batalla-de-pondicherry",
 			"nombre": "Batalla de Pondicherry",
-			"nombre_en": "Battle of Pondicherry",
 			"anio": 1759,
 			"lat": 11.93,
 			"lng": 79.83
 		},
 		{
+			"id": "batalla-de-quiberon-bay",
 			"nombre": "Batalla de Quiberon Bay",
-			"nombre_en": "Battle of Quiberon Bay",
 			"anio": 1759,
 			"lat": 47.52,
 			"lng": -3.0
 		},
 		{
+			"id": "incursion-en-el-havre",
 			"nombre": "Incursión en El Havre",
-			"nombre_en": "Raid on Le Havre",
 			"anio": 1759,
 			"lat": 49.44,
 			"lng": 0.14,
 			"wiki": "en:Le Havre raid"
 		},
 		{
+			"id": "toma-de-quebec-llanuras-de-abraham",
 			"nombre": "Toma de Quebec (llanuras de Abraham)",
-			"nombre_en": "Capture of Quebec (Plains of Abraham)",
 			"anio": 1759,
 			"lat": 46.8,
 			"lng": -71.22,
 			"descripcion": "Wolfe vence a Montcalm; Francia pierde Canadá."
 		},
 		{
+			"id": "batalla-de-neuville",
 			"nombre": "Batalla de Neuville",
-			"nombre_en": "Battle of Neuville",
 			"anio": 1760,
 			"lat": 46.42,
 			"lng": -71.58
 		},
 		{
+			"id": "accion-del-17-de-julio-de-1761",
 			"nombre": "Acción del 17 de julio de 1761",
-			"nombre_en": "Action of 17 July 1761",
 			"anio": 1761,
 			"lat": 36.5,
 			"lng": -6.39
 		},
 		{
+			"id": "batalla-de-signal-hill",
 			"nombre": "Batalla de Signal Hill",
-			"nombre_en": "Battle of Signal Hill",
 			"anio": 1762,
 			"lat": 47.57,
 			"lng": -52.68
 		},
 		{
+			"id": "toma-de-la-habana",
 			"nombre": "Toma de La Habana",
-			"nombre_en": "Capture of Havana",
 			"anio": 1762,
 			"lat": 23.13,
 			"lng": -82.35,
@@ -272,8 +271,8 @@
 			"bajas": "~5.000 bajas británicas, mayoría por fiebres"
 		},
 		{
+			"id": "toma-de-manila",
 			"nombre": "Toma de Manila",
-			"nombre_en": "Capture of Manila",
 			"anio": 1762,
 			"lat": 14.6,
 			"lng": 120.98,

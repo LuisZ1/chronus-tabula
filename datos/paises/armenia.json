@@ -1,14 +1,12 @@
 {
 	"id": "armenia",
 	"nombre": "Armenia",
-	"nombre_en": "Armenia",
 	"nombres": [
 		"Armenia"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Armenia",
-			"nombre_en": "Kingdom of Armenia",
 			"desde": -331,
 			"hasta": 428,
 			"wiki": "Reino de Armenia (Antigüedad)"

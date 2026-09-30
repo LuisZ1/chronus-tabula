@@ -1,14 +1,12 @@
 {
 	"id": "vandalos",
 	"nombre": "Reino vándalo",
-	"nombre_en": "Vandal Kingdom",
 	"nombres": [
 		"Vandals"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de los vándalos y alanos",
-			"nombre_en": "Kingdom of the Vandals and Alans",
 			"desde": 439,
 			"hasta": 534
 		}

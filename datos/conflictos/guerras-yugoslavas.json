@@ -1,7 +1,6 @@
 {
 	"id": "guerras-yugoslavas",
 	"nombre": "Guerras yugoslavas",
-	"nombre_en": "Yugoslav Wars",
 	"inicio": 1991,
 	"fin": 2001,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Guerras yugoslavas",
 	"zonas": [
 		{
+			"id": "guerra-de-croacia",
 			"nombre": "Guerra de Croacia",
-			"nombre_en": "Croatian War of Independence",
 			"tipo": "frente",
 			"desde": 1991,
 			"hasta": 1995,
@@ -41,8 +40,8 @@
 			]
 		},
 		{
+			"id": "guerra-de-bosnia",
 			"nombre": "Guerra de Bosnia",
-			"nombre_en": "Bosnian War",
 			"tipo": "frente",
 			"desde": 1992,
 			"hasta": 1995,
@@ -66,8 +65,8 @@
 			]
 		},
 		{
+			"id": "guerra-de-kosovo",
 			"nombre": "Guerra de Kosovo",
-			"nombre_en": "Kosovo War",
 			"tipo": "frente",
 			"desde": 1998,
 			"hasta": 1999,
@@ -93,8 +92,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-vukovar",
 			"nombre": "Batalla de Vukovar",
-			"nombre_en": "Battle of Vukovar",
 			"anio": 1991,
 			"lat": 45.35,
 			"lng": 19.0,
@@ -102,8 +101,8 @@
 			"wiki": "Batalla de Vukovar"
 		},
 		{
+			"id": "sitio-de-sarajevo",
 			"nombre": "Sitio de Sarajevo",
-			"nombre_en": "Siege of Sarajevo",
 			"anio": 1992,
 			"hasta": 1996,
 			"lat": 43.86,

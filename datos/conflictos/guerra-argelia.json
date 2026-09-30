@@ -1,7 +1,6 @@
 {
 	"id": "guerra-argelia",
 	"nombre": "Guerra de Independencia de Argelia",
-	"nombre_en": "Algerian War",
 	"inicio": 1954,
 	"fin": 1962,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra de Independencia de Argelia",
 	"zonas": [
 		{
+			"id": "argelia-septentrional",
 			"nombre": "Argelia septentrional",
-			"nombre_en": "Northern Algeria",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,8 +37,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-argel",
 			"nombre": "Batalla de Argel",
-			"nombre_en": "Battle of Algiers",
 			"anio": 1957,
 			"lat": 36.78,
 			"lng": 3.06

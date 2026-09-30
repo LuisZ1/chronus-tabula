@@ -1,7 +1,6 @@
 {
 	"id": "arabia-saudita",
 	"nombre": "Arabia Saudita",
-	"nombre_en": "Saudi Arabia",
 	"nombres": [
 		"Saudi Arabia",
 		"Arabia (Nejd)",
@@ -11,31 +10,26 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Emirato de Diriyah (primer Estado saudí)",
-			"nombre_en": "Emirate of Diriyah (First Saudi State)",
 			"desde": 1744,
 			"hasta": 1818
 		},
 		{
 			"nombre": "Emirato de Néyed (segundo Estado saudí)",
-			"nombre_en": "Emirate of Nejd (Second Saudi State)",
 			"desde": 1824,
 			"hasta": 1891
 		},
 		{
 			"nombre": "Emirato de Néyed y Hasa",
-			"nombre_en": "Emirate of Nejd and Hasa",
 			"desde": 1913,
 			"hasta": 1920
 		},
 		{
 			"nombre": "Sultanato de Néyed",
-			"nombre_en": "Sultanate of Nejd",
 			"desde": 1921,
 			"hasta": 1925
 		},
 		{
 			"nombre": "Reino del Hiyaz y el Néyed",
-			"nombre_en": "Kingdom of Hejaz and Nejd",
 			"desde": 1926,
 			"hasta": 1931,
 			"wiki": "Reino del Hiyaz y el Neyed"

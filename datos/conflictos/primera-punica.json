@@ -1,7 +1,6 @@
 {
 	"id": "primera-punica",
 	"nombre": "Primera guerra púnica",
-	"nombre_en": "First Punic War",
 	"inicio": -264,
 	"fin": -241,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Primera guerra púnica",
 	"zonas": [
 		{
+			"id": "sicilia",
 			"nombre": "Sicilia",
-			"nombre_en": "Sicily",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -36,8 +35,8 @@
 			]
 		},
 		{
+			"id": "mediterraneo-occidental-guerra-naval",
 			"nombre": "Mediterráneo occidental (guerra naval)",
-			"nombre_en": "Western Mediterranean (naval war)",
 			"tipo": "frente",
 			"mar": true,
 			"poligono": [
@@ -62,16 +61,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-milas",
 			"nombre": "Batalla de Milas",
-			"nombre_en": "Battle of Mylae",
 			"anio": -260,
 			"lat": 38.22,
 			"lng": 15.24,
 			"descripcion": "Primera gran victoria naval romana, gracias al corvus."
 		},
 		{
+			"id": "batalla-del-cabo-ecnomo",
 			"nombre": "Batalla del cabo Ecnomo",
-			"nombre_en": "Battle of Cape Ecnomus",
 			"anio": -256,
 			"lat": 37.1,
 			"lng": 13.9,
@@ -79,8 +78,8 @@
 			"bajas": "~30.000-40.000 bajas"
 		},
 		{
+			"id": "batalla-de-las-islas-egadas",
 			"nombre": "Batalla de las islas Egadas",
-			"nombre_en": "Battle of the Aegates",
 			"anio": -241,
 			"lat": 37.97,
 			"lng": 12.32,

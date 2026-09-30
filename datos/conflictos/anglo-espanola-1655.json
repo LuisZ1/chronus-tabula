@@ -1,7 +1,6 @@
 {
 	"id": "anglo-espanola-1655",
 	"nombre": "Guerra anglo-española (1655-1660)",
-	"nombre_en": "Anglo-Spanish War (1655-1660)",
 	"inicio": 1655,
 	"fin": 1660,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra anglo-española (1655-1660)",
 	"zonas": [
 		{
+			"id": "caribe-espanol",
 			"nombre": "Caribe español",
-			"nombre_en": "Spanish Caribbean",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -36,8 +35,8 @@
 			]
 		},
 		{
+			"id": "rutas-de-la-plata-canarias-y-cadiz",
 			"nombre": "Rutas de la Plata (Canarias y Cádiz)",
-			"nombre_en": "Silver routes (Canaries and Cádiz)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1656,
@@ -68,24 +67,24 @@
 	],
 	"batallas": [
 		{
+			"id": "toma-de-jamaica",
 			"nombre": "Toma de Jamaica",
-			"nombre_en": "Capture of Jamaica",
 			"anio": 1655,
 			"lat": 17.98,
 			"lng": -76.8,
 			"descripcion": "Penn y Venables ocupan la isla, base del futuro poder inglés en el Caribe."
 		},
 		{
+			"id": "ataque-a-santa-cruz-de-tenerife",
 			"nombre": "Ataque a Santa Cruz de Tenerife",
-			"nombre_en": "Attack on Santa Cruz de Tenerife",
 			"anio": 1657,
 			"lat": 28.47,
 			"lng": -16.25,
 			"descripcion": "Blake destruye la flota de Indias fondeada, aunque la plata ya estaba en tierra."
 		},
 		{
+			"id": "batalla-de-ocho-rios",
 			"nombre": "Batalla de Ocho Ríos",
-			"nombre_en": "Battle of Ocho Rios",
 			"anio": 1657,
 			"lat": 18.41,
 			"lng": -77.11

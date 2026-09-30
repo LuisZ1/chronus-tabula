@@ -1,7 +1,6 @@
 {
 	"id": "guerras-civiles-tetrarquia",
 	"nombre": "Guerras civiles de la tetrarquía",
-	"nombre_en": "Civil wars of the Tetrarchy",
 	"inicio": 306,
 	"fin": 324,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Guerras civiles de la Tetrarquía",
 	"zonas": [
 		{
+			"id": "italia-constantino-contra-majencio",
 			"nombre": "Italia (Constantino contra Majencio)",
-			"nombre_en": "Italy (Constantine against Maxentius)",
 			"tipo": "frente",
 			"desde": 312,
 			"hasta": 312,
@@ -41,8 +40,8 @@
 			]
 		},
 		{
+			"id": "tracia-y-bosforo-constantino-contra-licinio",
 			"nombre": "Tracia y Bósforo (Constantino contra Licinio)",
-			"nombre_en": "Thrace and the Bosporus (Constantine against Licinius)",
 			"tipo": "frente",
 			"desde": 324,
 			"hasta": 324,
@@ -68,8 +67,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-puente-milvio",
 			"nombre": "Batalla del puente Milvio",
-			"nombre_en": "Battle of the Milvian Bridge",
 			"anio": 312,
 			"lat": 41.94,
 			"lng": 12.47,
@@ -77,8 +76,8 @@
 			"wiki": "Batalla del Puente Milvio"
 		},
 		{
+			"id": "batalla-de-crisopolis",
 			"nombre": "Batalla de Crisópolis",
-			"nombre_en": "Battle of Chrysopolis",
 			"anio": 324,
 			"lat": 41.015,
 			"lng": 29.03,

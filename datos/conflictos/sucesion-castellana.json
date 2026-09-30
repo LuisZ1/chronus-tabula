@@ -1,7 +1,6 @@
 {
 	"id": "sucesion-castellana",
 	"nombre": "Guerra de Sucesión Castellana",
-	"nombre_en": "War of the Castilian Succession",
 	"inicio": 1475,
 	"fin": 1479,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra de Sucesión Castellana",
 	"zonas": [
 		{
+			"id": "frontera-castellano-portuguesa",
 			"nombre": "Frontera castellano-portuguesa",
-			"nombre_en": "Castilian-Portuguese border",
 			"tipo": "frente",
 			"desde": 1475,
 			"hasta": 1479,
@@ -42,8 +41,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-toro",
 			"nombre": "Batalla de Toro",
-			"nombre_en": "Battle of Toro",
 			"anio": 1476,
 			"lat": 41.52,
 			"lng": -5.39,

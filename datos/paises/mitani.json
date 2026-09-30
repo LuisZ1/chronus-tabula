@@ -1,7 +1,6 @@
 {
 	"id": "mitani",
 	"nombre": "Mitani",
-	"nombre_en": "Mitanni",
 	"nombres": [
 		"Mitanni",
 		"Hanigalbat"
@@ -9,13 +8,11 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Mitani",
-			"nombre_en": "Mitanni",
 			"desde": -1550,
 			"hasta": -1251
 		},
 		{
 			"nombre": "Hanigalbat",
-			"nombre_en": "Hanigalbat",
 			"desde": -1250,
 			"hasta": -1001
 		}

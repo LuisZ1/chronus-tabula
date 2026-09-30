@@ -1,7 +1,6 @@
 {
 	"id": "atila",
 	"nombre": "Campañas de Atila",
-	"nombre_en": "Campaigns of Attila",
 	"inicio": 441,
 	"fin": 453,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Atila",
 	"zonas": [
 		{
+			"id": "balcanes",
 			"nombre": "Balcanes",
-			"nombre_en": "Balkans",
 			"tipo": "frente",
 			"desde": 441,
 			"hasta": 447,
@@ -44,8 +43,8 @@
 			]
 		},
 		{
+			"id": "galia-campos-catalaunicos",
 			"nombre": "Galia (Campos Cataláunicos)",
-			"nombre_en": "Gaul (Catalaunian Plains)",
 			"tipo": "frente",
 			"desde": 450,
 			"hasta": 451,
@@ -73,8 +72,8 @@
 			]
 		},
 		{
+			"id": "italia-del-norte",
 			"nombre": "Italia del norte",
-			"nombre_en": "Northern Italy",
 			"tipo": "frente",
 			"desde": 452,
 			"hasta": 453,
@@ -104,16 +103,16 @@
 	],
 	"batallas": [
 		{
+			"id": "saqueo-de-naissus",
 			"nombre": "Saqueo de Naissus",
-			"nombre_en": "Sack of Naissus",
 			"anio": 443,
 			"lat": 43.32,
 			"lng": 21.9,
 			"descripcion": "Los hunos arrasan la ciudad balcánica con torres de asedio."
 		},
 		{
+			"id": "batalla-de-los-campos-catalaunicos",
 			"nombre": "Batalla de los Campos Cataláunicos",
-			"nombre_en": "Battle of the Catalaunian Plains",
 			"anio": 451,
 			"lat": 48.53,
 			"lng": 4.15,
@@ -121,8 +120,8 @@
 			"bajas": "~100.000 muertos según las crónicas"
 		},
 		{
+			"id": "saqueo-de-aquileya",
 			"nombre": "Saqueo de Aquileya",
-			"nombre_en": "Sack of Aquileia",
 			"anio": 452,
 			"lat": 45.77,
 			"lng": 13.37,

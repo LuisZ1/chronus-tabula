@@ -1,14 +1,13 @@
 {
 	"id": "teotihuacan",
 	"nombre": "Teotihuacán",
-	"nombre_en": "Teotihuacan",
 	"nombres": [
 		"Teotihuacán",
 		"Teotihuacàn"
 	],
 	"wiki": "Teotihuacán",
 	"wikidata": "Q172613",
-	"resena": "Teotihuacan o Teotihuacán, que, según nuevas investigaciones, también pudo haber sido conocida como Teohuacan, es el nombre que se le da al gran complejo arqueológico que fue uno de los mayores de Mesoamérica durante el clásico, más precisamente entre c. 100 a.",
+	"resena": "Teotihuacan o Teotihuacán, que, según nuevas investigaciones, también pudo haber sido conocida como Teohuacan, es el nombre que se le da al gran complejo arqueológico que fue uno de los mayores de Mesoamérica durante el período clásico.",
 	"fuentes": [
 		{
 			"id": "openstax:world-history",

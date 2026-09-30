@@ -1,7 +1,6 @@
 {
 	"id": "alejandro",
 	"nombre": "Conquistas de Alejandro Magno",
-	"nombre_en": "Wars of Alexander the Great",
 	"inicio": -334,
 	"fin": -323,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Alejandro Magno",
 	"zonas": [
 		{
+			"id": "asia-menor",
 			"nombre": "Asia Menor",
-			"nombre_en": "Asia Minor",
 			"tipo": "frente",
 			"desde": -334,
 			"hasta": -333,
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "levante-y-egipto",
 			"nombre": "Levante y Egipto",
-			"nombre_en": "The Levant and Egypt",
 			"tipo": "frente",
 			"desde": -333,
 			"hasta": -331,
@@ -83,8 +82,8 @@
 			]
 		},
 		{
+			"id": "mesopotamia-y-persia",
 			"nombre": "Mesopotamia y Persia",
-			"nombre_en": "Mesopotamia and Persia",
 			"tipo": "frente",
 			"desde": -331,
 			"hasta": -329,
@@ -120,8 +119,8 @@
 			]
 		},
 		{
+			"id": "bactria-y-sogdiana",
 			"nombre": "Bactria y Sogdiana",
-			"nombre_en": "Bactria and Sogdiana",
 			"tipo": "frente",
 			"desde": -329,
 			"hasta": -327,
@@ -149,8 +148,8 @@
 			]
 		},
 		{
+			"id": "india-valle-del-indo",
 			"nombre": "India (valle del Indo)",
-			"nombre_en": "India (Indus Valley)",
 			"tipo": "frente",
 			"desde": -327,
 			"hasta": -325,
@@ -182,8 +181,8 @@
 			]
 		},
 		{
+			"id": "imperio-conquistado",
 			"nombre": "Imperio conquistado",
-			"nombre_en": "Conquered empire",
 			"tipo": "ocupado",
 			"desde": -330,
 			"hasta": -323,
@@ -229,8 +228,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-granico",
 			"nombre": "Batalla del Gránico",
-			"nombre_en": "Battle of the Granicus",
 			"anio": -334,
 			"lat": 40.317,
 			"lng": 27.281,
@@ -238,16 +237,16 @@
 			"wiki": "Batalla del Gránico"
 		},
 		{
+			"id": "batalla-de-issos",
 			"nombre": "Batalla de Issos",
-			"nombre_en": "Battle of Issus",
 			"anio": -333,
 			"lat": 36.84,
 			"lng": 36.2,
 			"descripcion": "Primera derrota de Darío III en persona."
 		},
 		{
+			"id": "batalla-de-gaugamela",
 			"nombre": "Batalla de Gaugamela",
-			"nombre_en": "Battle of Gaugamela",
 			"anio": -331,
 			"lat": 36.56,
 			"lng": 43.44,
@@ -255,8 +254,8 @@
 			"bajas": "~50.000 persas muertos"
 		},
 		{
+			"id": "batalla-del-hidaspes",
 			"nombre": "Batalla del Hidaspes",
-			"nombre_en": "Battle of the Hydaspes",
 			"anio": -326,
 			"lat": 32.828,
 			"lng": 73.639,

@@ -1,7 +1,6 @@
 {
 	"id": "expansion-aquemenida",
 	"nombre": "Expansión del Imperio aqueménida",
-	"nombre_en": "Expansion of the Achaemenid Empire",
 	"inicio": -550,
 	"fin": -486,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Imperio aqueménida",
 	"zonas": [
 		{
+			"id": "media-y-lidia-ciro",
 			"nombre": "Media y Lidia (Ciro)",
-			"nombre_en": "Media and Lydia (Cyrus)",
 			"tipo": "frente",
 			"desde": -550,
 			"hasta": -540,
@@ -50,8 +49,8 @@
 			]
 		},
 		{
+			"id": "babilonia",
 			"nombre": "Babilonia",
-			"nombre_en": "Babylonia",
 			"tipo": "frente",
 			"desde": -539,
 			"hasta": -538,
@@ -79,8 +78,8 @@
 			]
 		},
 		{
+			"id": "egipto-cambises",
 			"nombre": "Egipto (Cambises)",
-			"nombre_en": "Egypt (Cambyses)",
 			"tipo": "frente",
 			"desde": -525,
 			"hasta": -522,
@@ -112,8 +111,8 @@
 			]
 		},
 		{
+			"id": "tracia-y-escitia-dario",
 			"nombre": "Tracia y Escitia (Darío)",
-			"nombre_en": "Thrace and Scythia (Darius)",
 			"tipo": "frente",
 			"desde": -513,
 			"hasta": -512,
@@ -141,8 +140,8 @@
 			]
 		},
 		{
+			"id": "imperio-aquemenida",
 			"nombre": "Imperio aqueménida",
-			"nombre_en": "Achaemenid Empire",
 			"tipo": "ocupado",
 			"desde": -546,
 			"hasta": -486,
@@ -192,24 +191,24 @@
 	],
 	"batallas": [
 		{
+			"id": "caida-de-sardes",
 			"nombre": "Caída de Sardes",
-			"nombre_en": "Fall of Sardis",
 			"anio": -546,
 			"lat": 38.48,
 			"lng": 28.04,
 			"descripcion": "Ciro derrota a Creso y conquista Lidia y su legendario tesoro."
 		},
 		{
+			"id": "toma-de-babilonia",
 			"nombre": "Toma de Babilonia",
-			"nombre_en": "Fall of Babylon",
 			"anio": -539,
 			"lat": 32.54,
 			"lng": 44.42,
 			"descripcion": "La gran ciudad cae casi sin lucha; Ciro libera a los judíos del exilio."
 		},
 		{
+			"id": "batalla-de-pelusio",
 			"nombre": "Batalla de Pelusio",
-			"nombre_en": "Battle of Pelusium",
 			"anio": -525,
 			"lat": 31.04,
 			"lng": 32.54,

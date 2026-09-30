@@ -1,7 +1,6 @@
 {
 	"id": "gran-guerra-del-norte",
 	"nombre": "Gran Guerra del Norte",
-	"nombre_en": "Great Northern War",
 	"inicio": 1700,
 	"fin": 1721,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Gran Guerra del Norte",
 	"zonas": [
 		{
+			"id": "baltico-oriental",
 			"nombre": "Báltico oriental",
-			"nombre_en": "Eastern Baltic",
 			"tipo": "frente",
 			"desde": 1700,
 			"hasta": 1710,
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "campana-de-ucrania-poltava",
 			"nombre": "Campaña de Ucrania (Poltava)",
-			"nombre_en": "Ukrainian campaign (Poltava)",
 			"tipo": "frente",
 			"desde": 1708,
 			"hasta": 1709,
@@ -69,8 +68,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-narva",
 			"nombre": "Batalla de Narva",
-			"nombre_en": "Battle of Narva",
 			"anio": 1700,
 			"lat": 59.375,
 			"lng": 28.18,
@@ -78,8 +77,8 @@
 			"wiki": "Batalla de Narva (1700)"
 		},
 		{
+			"id": "batalla-de-poltava",
 			"nombre": "Batalla de Poltava",
-			"nombre_en": "Battle of Poltava",
 			"anio": 1709,
 			"lat": 49.631,
 			"lng": 34.553,
@@ -87,8 +86,8 @@
 			"wiki": "Batalla de Poltava"
 		},
 		{
+			"id": "batalla-de-gangut",
 			"nombre": "Batalla de Gangut",
-			"nombre_en": "Battle of Gangut",
 			"anio": 1714,
 			"lat": 59.83,
 			"lng": 22.97,

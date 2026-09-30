@@ -1,7 +1,6 @@
 {
 	"id": "boer",
 	"nombre": "Segunda guerra bóer",
-	"nombre_en": "Second Boer War",
 	"inicio": 1899,
 	"fin": 1902,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Segunda guerra bóer",
 	"zonas": [
 		{
+			"id": "transvaal-y-orange",
 			"nombre": "Transvaal y Orange",
-			"nombre_en": "Transvaal and Orange",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,8 +38,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-spion-kop",
 			"nombre": "Batalla de Spion Kop",
-			"nombre_en": "Battle of Spion Kop",
 			"anio": 1900,
 			"lat": -28.65,
 			"lng": 29.52,
@@ -48,8 +47,8 @@
 			"bajas": "~1.700 bajas británicas"
 		},
 		{
+			"id": "liberacion-de-mafeking",
 			"nombre": "Liberación de Mafeking",
-			"nombre_en": "Relief of Mafeking",
 			"anio": 1900,
 			"lat": -25.86,
 			"lng": 25.64,

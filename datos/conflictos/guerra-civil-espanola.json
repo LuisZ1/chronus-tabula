@@ -1,7 +1,6 @@
 {
 	"id": "guerra-civil-espanola",
 	"nombre": "Guerra Civil Española",
-	"nombre_en": "Spanish Civil War",
 	"inicio": 1936,
 	"fin": 1939,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Guerra civil española",
 	"zonas": [
 		{
+			"id": "avance-sobre-madrid",
 			"nombre": "Avance sobre Madrid",
-			"nombre_en": "Advance on Madrid",
 			"tipo": "frente",
 			"desde": 1936,
 			"hasta": 1937,
@@ -41,8 +40,8 @@
 			]
 		},
 		{
+			"id": "frente-del-norte",
 			"nombre": "Frente del Norte",
-			"nombre_en": "Northern Front",
 			"tipo": "frente",
 			"desde": 1936,
 			"hasta": 1937,
@@ -66,8 +65,8 @@
 			]
 		},
 		{
+			"id": "aragon-y-el-ebro",
 			"nombre": "Aragón y el Ebro",
-			"nombre_en": "Aragon and the Ebro",
 			"tipo": "frente",
 			"desde": 1937,
 			"hasta": 1938,
@@ -91,8 +90,8 @@
 			]
 		},
 		{
+			"id": "cataluna-ofensiva-final",
 			"nombre": "Cataluña (ofensiva final)",
-			"nombre_en": "Catalonia (final offensive)",
 			"tipo": "frente",
 			"desde": 1939,
 			"hasta": 1939,
@@ -116,8 +115,8 @@
 			]
 		},
 		{
+			"id": "espana-en-guerra",
 			"nombre": "España en guerra",
-			"nombre_en": "Spain at war",
 			"tipo": "ocupado",
 			"desde": 1936,
 			"hasta": 1939,
@@ -155,16 +154,16 @@
 	],
 	"batallas": [
 		{
+			"id": "defensa-de-madrid",
 			"nombre": "Defensa de Madrid",
-			"nombre_en": "Defence of Madrid",
 			"anio": 1936,
 			"lat": 40.42,
 			"lng": -3.7,
 			"descripcion": "«No pasarán»: la capital resiste el asalto inicial."
 		},
 		{
+			"id": "batalla-del-jarama",
 			"nombre": "Batalla del Jarama",
-			"nombre_en": "Battle of Jarama",
 			"anio": 1937,
 			"lat": 40.27,
 			"lng": -3.53,
@@ -172,8 +171,8 @@
 			"bajas": "~20.000 bajas"
 		},
 		{
+			"id": "bombardeo-de-guernica",
 			"nombre": "Bombardeo de Guernica",
-			"nombre_en": "Bombing of Guernica",
 			"anio": 1937,
 			"lat": 43.32,
 			"lng": -2.68,
@@ -181,8 +180,8 @@
 			"bajas": "~150-300 civiles muertos"
 		},
 		{
+			"id": "batalla-de-teruel",
 			"nombre": "Batalla de Teruel",
-			"nombre_en": "Battle of Teruel",
 			"anio": 1938,
 			"lat": 40.34,
 			"lng": -1.11,
@@ -190,8 +189,8 @@
 			"bajas": "~40.000 bajas entre la nieve"
 		},
 		{
+			"id": "batalla-del-ebro",
 			"nombre": "Batalla del Ebro",
-			"nombre_en": "Battle of the Ebro",
 			"anio": 1938,
 			"lat": 41.08,
 			"lng": 0.44,

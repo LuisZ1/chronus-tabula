@@ -1,7 +1,6 @@
 {
 	"id": "rebelion-glyndwr",
 	"nombre": "Rebelión de Owain Glyndŵr",
-	"nombre_en": "Glyndŵr Rising",
 	"inicio": 1400,
 	"fin": 1415,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Owain Glyndŵr",
 	"zonas": [
 		{
+			"id": "gales-y-la-marca-galesa",
 			"nombre": "Gales y la Marca galesa",
-			"nombre_en": "Wales and the Welsh Marches",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -43,8 +42,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-mynydd-hyddgen",
 			"nombre": "Batalla de Mynydd Hyddgen",
-			"nombre_en": "Battle of Mynydd Hyddgen",
 			"anio": 1401,
 			"lat": 52.51,
 			"lng": -3.8,
@@ -52,8 +51,8 @@
 			"wiki": "Batalla de Mynydd Hyddgen"
 		},
 		{
+			"id": "batalla-de-tuthill",
 			"nombre": "Batalla de Tuthill",
-			"nombre_en": "Battle of Tuthill",
 			"anio": 1401,
 			"lat": 53.14,
 			"lng": -4.27,
@@ -61,8 +60,8 @@
 			"wiki": "Batalla de Tuthill"
 		},
 		{
+			"id": "batalla-de-bryn-glas",
 			"nombre": "Batalla de Bryn Glas",
-			"nombre_en": "Battle of Bryn Glas",
 			"anio": 1402,
 			"lat": 52.31,
 			"lng": -3.1,
@@ -70,8 +69,8 @@
 			"wiki": "Batalla de Bryn Glas"
 		},
 		{
+			"id": "batalla-de-shrewsbury",
 			"nombre": "Batalla de Shrewsbury",
-			"nombre_en": "Battle of Shrewsbury",
 			"anio": 1403,
 			"lat": 52.75,
 			"lng": -2.72,
@@ -79,8 +78,8 @@
 			"wiki": "Batalla de Shrewsbury"
 		},
 		{
+			"id": "batalla-de-stalling-down",
 			"nombre": "Batalla de Stalling Down",
-			"nombre_en": "Battle of Stalling Down",
 			"anio": 1403,
 			"lat": 51.46,
 			"lng": -3.42,
@@ -88,16 +87,16 @@
 			"wiki": "Batalla de Stalling Down"
 		},
 		{
+			"id": "batalla-de-campston-hill",
 			"nombre": "Batalla de Campston Hill",
-			"nombre_en": "Battle of Campston Hill",
 			"anio": 1404,
 			"lat": 51.91,
 			"lng": -2.87,
 			"descripcion": "Victoria galesa en la frontera de Monmouthshire (coordenadas aproximadas, junto a Grosmont)."
 		},
 		{
+			"id": "batalla-de-grosmont",
 			"nombre": "Batalla de Grosmont",
-			"nombre_en": "Battle of Grosmont",
 			"anio": 1405,
 			"lat": 51.91,
 			"lng": -2.87,
@@ -105,8 +104,8 @@
 			"wiki": "Batalla de Grosmont"
 		},
 		{
+			"id": "batalla-de-pwll-melyn",
 			"nombre": "Batalla de Pwll Melyn",
-			"nombre_en": "Battle of Pwll Melyn",
 			"anio": 1405,
 			"lat": 51.72,
 			"lng": -2.95,

@@ -1,7 +1,6 @@
 {
 	"id": "hungria",
 	"nombre": "Reino de Hungría",
-	"nombre_en": "Kingdom of Hungary",
 	"nombres": [
 		"Kingdom of Hungary",
 		"Hungary",
@@ -11,21 +10,18 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Magiares",
-			"nombre_en": "Magyars",
 			"desde": 600,
 			"hasta": 894,
 			"wiki": "Pueblo húngaro"
 		},
 		{
 			"nombre": "Principado de Hungría",
-			"nombre_en": "Principality of Hungary",
 			"desde": 895,
 			"hasta": 999,
 			"wiki": "Conquista húngara de la cuenca de los Cárpatos"
 		},
 		{
 			"nombre": "Reino de Hungría (con Bohemia)",
-			"nombre_en": "Kingdom of Hungary (with Bohemia)",
 			"desde": 1490,
 			"hasta": 1526,
 			"wiki": "Vladislao II de Bohemia y Hungría"

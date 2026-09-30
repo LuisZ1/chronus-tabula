@@ -1,7 +1,6 @@
 {
 	"id": "sengoku",
 	"nombre": "Unificación de Japón (Sengoku)",
-	"nombre_en": "Unification of Japan (Sengoku)",
 	"inicio": 1560,
 	"fin": 1615,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Período Sengoku",
 	"zonas": [
 		{
+			"id": "japon-central",
 			"nombre": "Japón central",
-			"nombre_en": "Central Japan",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -44,24 +43,24 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-okehazama",
 			"nombre": "Batalla de Okehazama",
-			"nombre_en": "Battle of Okehazama",
 			"anio": 1560,
 			"lat": 35.06,
 			"lng": 136.97,
 			"descripcion": "Nobunaga, con 3.000 hombres, sorprende y destruye a 25.000."
 		},
 		{
+			"id": "batalla-de-nagashino",
 			"nombre": "Batalla de Nagashino",
-			"nombre_en": "Battle of Nagashino",
 			"anio": 1575,
 			"lat": 34.92,
 			"lng": 137.56,
 			"descripcion": "Los arcabuces de Nobunaga aniquilan a la caballería Takeda."
 		},
 		{
+			"id": "batalla-de-sekigahara",
 			"nombre": "Batalla de Sekigahara",
-			"nombre_en": "Battle of Sekigahara",
 			"anio": 1600,
 			"lat": 35.37,
 			"lng": 136.46,
@@ -69,8 +68,8 @@
 			"bajas": "~30.000 muertos"
 		},
 		{
+			"id": "sitio-de-osaka",
 			"nombre": "Sitio de Osaka",
-			"nombre_en": "Siege of Osaka",
 			"anio": 1615,
 			"lat": 34.69,
 			"lng": 135.53,

@@ -1,26 +1,22 @@
 {
 	"id": "burundi",
 	"nombre": "Burundi",
-	"nombre_en": "Burundi",
 	"nombres": [
 		"Burundi"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Burundi",
-			"nombre_en": "Kingdom of Burundi",
 			"desde": 1680,
 			"hasta": 1966
 		},
 		{
 			"nombre": "Ruanda-Urundi (administración belga)",
-			"nombre_en": "Ruanda-Urundi (Belgian administration)",
 			"desde": 1916,
 			"hasta": 1962
 		},
 		{
 			"nombre": "República de Burundi",
-			"nombre_en": "Republic of Burundi",
 			"desde": 1966
 		}
 	],

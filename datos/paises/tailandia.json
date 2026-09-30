@@ -1,7 +1,6 @@
 {
 	"id": "tailandia",
 	"nombre": "Tailandia",
-	"nombre_en": "Thailand",
 	"nombres": [
 		"Thailand",
 		"Ayutthaya",
@@ -11,25 +10,21 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Ayutthaya",
-			"nombre_en": "Ayutthaya Kingdom",
 			"desde": 1351,
 			"hasta": 1766
 		},
 		{
 			"nombre": "Reino de Thonburi",
-			"nombre_en": "Thonburi Kingdom",
 			"desde": 1767,
 			"hasta": 1781
 		},
 		{
 			"nombre": "Reino de Siam (Rattanakosin)",
-			"nombre_en": "Kingdom of Siam (Rattanakosin)",
 			"desde": 1782,
 			"hasta": 1938
 		},
 		{
 			"nombre": "Reino de Tailandia",
-			"nombre_en": "Kingdom of Thailand",
 			"desde": 1939,
 			"hasta": 2026
 		}
@@ -48,7 +43,7 @@
 			"desde": 2016
 		},
 		{
-			"nombre": "Peatongtarn Shinawatra",
+			"nombre": "Paetongtarn Shinawatra",
 			"cargo": "jefe de gobierno",
 			"desde": 2024,
 			"hasta": 2024

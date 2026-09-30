@@ -1,20 +1,17 @@
 {
 	"id": "mauritania",
 	"nombre": "Mauritania",
-	"nombre_en": "Mauritania",
 	"nombres": [
 		"Mauritania"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Occidental Francesa (colonia de Mauritania)",
-			"nombre_en": "French West Africa (colony of Mauritania)",
 			"desde": 1920,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República Islámica de Mauritania",
-			"nombre_en": "Islamic Republic of Mauritania",
 			"desde": 1960,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "guerra-ruso-turca-1877",
 	"nombre": "Guerra ruso-turca de 1877-1878",
-	"nombre_en": "Russo-Turkish War of 1877-1878",
 	"inicio": 1877,
 	"fin": 1878,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Guerra ruso-turca (1877-1878)",
 	"zonas": [
 		{
+			"id": "bulgaria-danubiana",
 			"nombre": "Bulgaria danubiana",
-			"nombre_en": "Danubian Bulgaria",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "caucaso-kars",
 			"nombre": "Cáucaso (Kars)",
-			"nombre_en": "Caucasus (Kars)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -64,22 +63,22 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-paso-de-shipka",
 			"nombre": "Batalla del paso de Shipka",
-			"nombre_en": "Battle of Shipka Pass",
 			"anio": 1877,
 			"lat": 42.75,
 			"lng": 25.32
 		},
 		{
+			"id": "sitio-de-plevna",
 			"nombre": "Sitio de Plevna",
-			"nombre_en": "Siege of Plevna",
 			"anio": 1877,
 			"lat": 43.42,
 			"lng": 24.61
 		},
 		{
+			"id": "toma-de-kars",
 			"nombre": "Toma de Kars",
-			"nombre_en": "Capture of Kars",
 			"anio": 1877,
 			"lat": 40.6,
 			"lng": 43.1

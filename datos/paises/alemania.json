@@ -1,7 +1,6 @@
 {
 	"id": "alemania",
 	"nombre": "Alemania",
-	"nombre_en": "Germany",
 	"nombres": [
 		"Germany",
 		"German Empire",
@@ -10,31 +9,26 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio alemán",
-			"nombre_en": "German Empire",
 			"desde": 1871,
 			"hasta": 1918
 		},
 		{
 			"nombre": "República de Weimar",
-			"nombre_en": "Weimar Republic",
 			"desde": 1919,
 			"hasta": 1932
 		},
 		{
 			"nombre": "Alemania nazi (Tercer Reich)",
-			"nombre_en": "Nazi Germany (Third Reich)",
 			"desde": 1933,
 			"hasta": 1945
 		},
 		{
 			"nombre": "Alemania ocupada",
-			"nombre_en": "Allied-occupied Germany",
 			"desde": 1946,
 			"hasta": 1948
 		},
 		{
 			"nombre": "República Federal de Alemania",
-			"nombre_en": "Federal Republic of Germany",
 			"desde": 1949,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "caida-occidente",
 	"nombre": "Invasiones germánicas y caída de Occidente",
-	"nombre_en": "Germanic invasions and the fall of the West",
 	"inicio": 376,
 	"fin": 476,
 	"paises": [
@@ -18,8 +17,8 @@
 	"wiki": "Caída del Imperio romano de Occidente",
 	"zonas": [
 		{
+			"id": "balcanes-guerra-gotica",
 			"nombre": "Balcanes (guerra gótica)",
-			"nombre_en": "Balkans (Gothic War)",
 			"tipo": "frente",
 			"desde": 376,
 			"hasta": 382,
@@ -43,8 +42,8 @@
 			]
 		},
 		{
+			"id": "cruce-del-rin-vandalos-suevos-y-alanos",
 			"nombre": "Cruce del Rin (vándalos, suevos y alanos)",
-			"nombre_en": "Crossing of the Rhine (Vandals, Suebi and Alans)",
 			"tipo": "frente",
 			"desde": 406,
 			"hasta": 409,
@@ -72,8 +71,8 @@
 			]
 		},
 		{
+			"id": "italia-alarico",
 			"nombre": "Italia (Alarico)",
-			"nombre_en": "Italy (Alaric)",
 			"tipo": "frente",
 			"desde": 408,
 			"hasta": 410,
@@ -101,8 +100,8 @@
 			]
 		},
 		{
+			"id": "africa-vandala",
 			"nombre": "África vándala",
-			"nombre_en": "Vandal Africa",
 			"tipo": "frente",
 			"desde": 429,
 			"hasta": 439,
@@ -126,8 +125,8 @@
 			]
 		},
 		{
+			"id": "hispania-y-galia-suevos-y-visigodos",
 			"nombre": "Hispania y Galia (suevos y visigodos)",
-			"nombre_en": "Hispania and Gaul (Suebi and Visigoths)",
 			"tipo": "frente",
 			"desde": 409,
 			"hasta": 476,
@@ -159,8 +158,8 @@
 			]
 		},
 		{
+			"id": "caida-de-ravena-y-roma",
 			"nombre": "Caída de Rávena y Roma",
-			"nombre_en": "Fall of Ravenna and Rome",
 			"tipo": "frente",
 			"desde": 474,
 			"hasta": 476,
@@ -186,8 +185,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-adrianopolis",
 			"nombre": "Batalla de Adrianópolis",
-			"nombre_en": "Battle of Adrianople",
 			"anio": 378,
 			"lat": 41.67,
 			"lng": 26.57,
@@ -195,24 +194,24 @@
 			"bajas": "~20.000 romanos muertos, incluido el emperador Valente"
 		},
 		{
+			"id": "saqueo-de-roma-alarico",
 			"nombre": "Saqueo de Roma (Alarico)",
-			"nombre_en": "Sack of Rome (Alaric)",
 			"anio": 410,
 			"lat": 41.89,
 			"lng": 12.49,
 			"descripcion": "Primer saqueo de Roma en 800 años; conmoción en todo el imperio."
 		},
 		{
+			"id": "saqueo-de-roma-genserico",
 			"nombre": "Saqueo de Roma (Genserico)",
-			"nombre_en": "Sack of Rome (Genseric)",
 			"anio": 455,
 			"lat": 41.9,
 			"lng": 12.5,
 			"descripcion": "Los vándalos saquean la ciudad durante dos semanas."
 		},
 		{
+			"id": "deposicion-de-romulo-augustulo",
 			"nombre": "Deposición de Rómulo Augústulo",
-			"nombre_en": "Deposition of Romulus Augustulus",
 			"anio": 476,
 			"lat": 44.42,
 			"lng": 12.2,

@@ -1,7 +1,6 @@
 {
 	"id": "guerras-otomano-venecianas",
 	"nombre": "Guerras otomano-venecianas",
-	"nombre_en": "Ottoman–Venetian wars",
 	"inicio": 1463,
 	"fin": 1718,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerras otomano-venecianas",
 	"zonas": [
 		{
+			"id": "egeo-y-mediterraneo-oriental-en-disputa",
 			"nombre": "Egeo y Mediterráneo oriental en disputa",
-			"nombre_en": "Aegean and eastern Mediterranean in dispute",
 			"tipo": "frente",
 			"desde": 1463,
 			"hasta": 1718,
@@ -46,22 +45,22 @@
 	],
 	"batallas": [
 		{
+			"id": "sitio-de-nicosia-chipre",
 			"nombre": "Sitio de Nicosia (Chipre)",
-			"nombre_en": "Siege of Nicosia (Cyprus)",
 			"anio": 1570,
 			"lat": 35.17,
 			"lng": 33.36
 		},
 		{
+			"id": "batalla-de-lepanto",
 			"nombre": "Batalla de Lepanto",
-			"nombre_en": "Battle of Lepanto",
 			"anio": 1571,
 			"lat": 38.25,
 			"lng": 21.25
 		},
 		{
+			"id": "sitio-de-candia-creta",
 			"nombre": "Sitio de Candia (Creta)",
-			"nombre_en": "Siege of Candia (Crete)",
 			"anio": 1669,
 			"lat": 35.34,
 			"lng": 25.13

@@ -1,7 +1,6 @@
 {
 	"id": "conflicto-israel-hezbola",
 	"nombre": "Conflicto Israel–Hezbolá",
-	"nombre_en": "Israel–Hezbollah conflict",
 	"inicio": 2023,
 	"fin": 2024,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Conflicto Israel-Hezbolá (2023-presente)",
 	"zonas": [
 		{
+			"id": "sur-del-libano",
 			"nombre": "Sur del Líbano",
-			"nombre_en": "Southern Lebanon",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2024,
@@ -38,8 +37,8 @@
 			]
 		},
 		{
+			"id": "galilea-norte-de-israel",
 			"nombre": "Galilea (norte de Israel)",
-			"nombre_en": "Galilee (northern Israel)",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2024,
@@ -65,24 +64,24 @@
 	],
 	"batallas": [
 		{
+			"id": "ataque-de-los-buscas",
 			"nombre": "Ataque de los buscas",
-			"nombre_en": "Pager attacks",
 			"anio": 2024,
 			"lat": 33.89,
 			"lng": 35.5,
 			"descripcion": "Miles de buscapersonas y walkie-talkies de Hezbolá detonan a la vez."
 		},
 		{
+			"id": "invasion-del-sur-del-libano",
 			"nombre": "Invasión del sur del Líbano",
-			"nombre_en": "Invasion of southern Lebanon",
 			"anio": 2024,
 			"lat": 33.12,
 			"lng": 35.35,
 			"descripcion": "Primera incursión terrestre israelí desde 2006."
 		},
 		{
+			"id": "muerte-de-hasan-nasrala",
 			"nombre": "Muerte de Hasán Nasralá",
-			"nombre_en": "Killing of Hassan Nasrallah",
 			"anio": 2024,
 			"lat": 33.85,
 			"lng": 35.51,

@@ -1,7 +1,6 @@
 {
 	"id": "invasion-lombarda",
 	"nombre": "Invasión lombarda de Italia",
-	"nombre_en": "Lombard invasion of Italy",
 	"inicio": 568,
 	"fin": 572,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Invasión lombarda de Italia",
 	"zonas": [
 		{
+			"id": "conquista-lombarda-del-norte-de-italia",
 			"nombre": "Conquista lombarda del norte de Italia",
-			"nombre_en": "Lombard conquest of northern Italy",
 			"tipo": "ocupado",
 			"desde": 568,
 			"hasta": 572,
@@ -40,16 +39,16 @@
 	],
 	"batallas": [
 		{
+			"id": "entrada-de-los-lombardos-en-italia",
 			"nombre": "Entrada de los lombardos en Italia",
-			"nombre_en": "Lombard entry into Italy",
 			"anio": 568,
 			"lat": 46.09,
 			"lng": 13.43,
 			"descripcion": "Alboino cruza los Alpes Julianos hacia Friuli."
 		},
 		{
+			"id": "toma-de-pavia",
 			"nombre": "Toma de Pavía",
-			"nombre_en": "Fall of Pavia",
 			"anio": 572,
 			"lat": 45.19,
 			"lng": 9.15,

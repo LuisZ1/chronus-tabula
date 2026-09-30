@@ -1,7 +1,6 @@
 {
 	"id": "ghana",
 	"nombre": "Ghana",
-	"nombre_en": "Ghana",
 	"nombres": [
 		"Ghana",
 		"Gold Coast"
@@ -9,13 +8,11 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Costa de Oro británica",
-			"nombre_en": "British Gold Coast",
 			"desde": 1867,
 			"hasta": 1957
 		},
 		{
 			"nombre": "Ghana",
-			"nombre_en": "Ghana",
 			"desde": 1957,
 			"hasta": 2026
 		}

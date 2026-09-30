@@ -1,26 +1,22 @@
 {
 	"id": "republica-centroafricana",
 	"nombre": "Rep. Centroafricana",
-	"nombre_en": "Central African Rep.",
 	"nombres": [
 		"Central African Republic"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Ubangui-Chari (colonia francesa)",
-			"nombre_en": "Ubangi-Shari (French colony)",
 			"desde": 1903,
 			"hasta": 1958
 		},
 		{
 			"nombre": "República Centroafricana",
-			"nombre_en": "Central African Republic",
 			"desde": 1960,
 			"hasta": 2026
 		},
 		{
 			"nombre": "Imperio Centroafricano",
-			"nombre_en": "Central African Empire",
 			"desde": 1976,
 			"hasta": 1979
 		}

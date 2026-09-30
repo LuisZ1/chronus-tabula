@@ -1,7 +1,6 @@
 {
 	"id": "reunificacion-sui",
 	"nombre": "Reunificación Sui de China",
-	"nombre_en": "Sui reunification of China",
 	"inicio": 588,
 	"fin": 589,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Conquista Sui de Chen",
 	"zonas": [
 		{
+			"id": "ofensiva-sui-sobre-el-bajo-yangtse",
 			"nombre": "Ofensiva Sui sobre el bajo Yangtsé",
-			"nombre_en": "Sui offensive on the lower Yangtze",
 			"tipo": "frente",
 			"desde": 588,
 			"hasta": 589,
@@ -40,8 +39,8 @@
 	],
 	"batallas": [
 		{
+			"id": "conquista-de-chen-toma-de-jiankang",
 			"nombre": "Conquista de Chen (toma de Jiankang)",
-			"nombre_en": "Conquest of Chen (capture of Jiankang)",
 			"anio": 589,
 			"lat": 32.06,
 			"lng": 118.8,

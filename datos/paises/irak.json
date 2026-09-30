@@ -1,7 +1,6 @@
 {
 	"id": "irak",
 	"nombre": "Irak",
-	"nombre_en": "Iraq",
 	"nombres": [
 		"Iraq",
 		"Mesopotamia (GB)"
@@ -9,19 +8,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Mandato británico de Mesopotamia",
-			"nombre_en": "British Mandate of Mesopotamia",
 			"desde": 1920,
 			"hasta": 1920
 		},
 		{
 			"nombre": "Reino de Irak",
-			"nombre_en": "Kingdom of Iraq",
 			"desde": 1921,
 			"hasta": 1957
 		},
 		{
 			"nombre": "República de Irak",
-			"nombre_en": "Republic of Iraq",
 			"desde": 1958,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "taiwan",
 	"nombre": "República de China (Taiwán)",
-	"nombre_en": "Republic of China (Taiwan)",
 	"nombres": [
 		"Taiwan",
 		"Republic of China",
@@ -10,20 +9,17 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Taiwán bajo los Qing",
-			"nombre_en": "Taiwan under Qing rule",
 			"desde": 1683,
 			"hasta": 1894,
 			"wiki": "en:Taiwan under Qing rule"
 		},
 		{
 			"nombre": "República de China",
-			"nombre_en": "Republic of China",
 			"desde": 1912,
 			"hasta": 1948
 		},
 		{
 			"nombre": "República de China (Taiwán)",
-			"nombre_en": "Republic of China (Taiwan)",
 			"desde": 1949,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "guerras-emishi",
 	"nombre": "Guerras contra los emishi",
-	"nombre_en": "Wars against the Emishi",
 	"inicio": 774,
 	"fin": 811,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Emishi",
 	"zonas": [
 		{
+			"id": "frontera-del-tohoku",
 			"nombre": "Frontera del Tōhoku",
-			"nombre_en": "Tōhoku frontier",
 			"tipo": "frente",
 			"desde": 774,
 			"hasta": 811,
@@ -44,8 +43,8 @@
 	],
 	"batallas": [
 		{
+			"id": "campana-de-tamuramaro-fundacion-de-isawa",
 			"nombre": "Campaña de Tamuramaro (fundación de Isawa)",
-			"nombre_en": "Campaign of Tamuramaro (founding of Isawa)",
 			"anio": 802,
 			"lat": 39.15,
 			"lng": 141.13,

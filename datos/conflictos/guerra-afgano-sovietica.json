@@ -1,7 +1,6 @@
 {
 	"id": "guerra-afgano-sovietica",
 	"nombre": "Guerra de Afganistán (1978-1992) / intervención soviética",
-	"nombre_en": "Afghan War (1978-1992) / Soviet intervention",
 	"inicio": 1979,
 	"fin": 1989,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerra de Afganistán (1978-1992)",
 	"zonas": [
 		{
+			"id": "afganistan-oriental",
 			"nombre": "Afganistán oriental",
-			"nombre_en": "Eastern Afghanistan",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,15 +38,15 @@
 	],
 	"batallas": [
 		{
+			"id": "operacion-tormenta-333-kabul",
 			"nombre": "Operación Tormenta-333 (Kabul)",
-			"nombre_en": "Operation Storm-333 (Kabul)",
 			"anio": 1979,
 			"lat": 34.47,
 			"lng": 69.12
 		},
 		{
+			"id": "ofensivas-del-panjshir",
 			"nombre": "Ofensivas del Panjshir",
-			"nombre_en": "Panjshir offensives",
 			"anio": 1980,
 			"hasta": 1985,
 			"lat": 35.27,

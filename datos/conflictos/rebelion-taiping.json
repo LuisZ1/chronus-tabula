@@ -1,7 +1,6 @@
 {
 	"id": "rebelion-taiping",
 	"nombre": "Rebelión Taiping",
-	"nombre_en": "Taiping Rebellion",
 	"inicio": 1850,
 	"fin": 1864,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Rebelión Taiping",
 	"zonas": [
 		{
+			"id": "reino-celestial-valle-del-yangtse",
 			"nombre": "Reino Celestial (valle del Yangtsé)",
-			"nombre_en": "Heavenly Kingdom (Yangtze valley)",
 			"tipo": "ocupado",
 			"desde": 1853,
 			"hasta": 1864,
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "campanas-qing-de-reconquista",
 			"nombre": "Campañas Qing de reconquista",
-			"nombre_en": "Qing reconquest campaigns",
 			"tipo": "frente",
 			"desde": 1860,
 			"hasta": 1864,
@@ -66,16 +65,16 @@
 	],
 	"batallas": [
 		{
+			"id": "toma-de-nankin",
 			"nombre": "Toma de Nankín",
-			"nombre_en": "Capture of Nanjing",
 			"anio": 1853,
 			"lat": 32.06,
 			"lng": 118.8,
 			"descripcion": "Los taiping hacen de Nankín su «capital celestial» durante once años."
 		},
 		{
+			"id": "caida-de-nankin",
 			"nombre": "Caída de Nankín",
-			"nombre_en": "Fall of Nanjing",
 			"anio": 1864,
 			"lat": 32.05,
 			"lng": 118.78,

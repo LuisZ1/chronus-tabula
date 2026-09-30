@@ -1,7 +1,6 @@
 {
 	"id": "genocidio-ruanda",
 	"nombre": "Genocidio de Ruanda",
-	"nombre_en": "Rwandan genocide",
 	"inicio": 1994,
 	"fin": 1994,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Genocidio de Ruanda",
 	"zonas": [
 		{
+			"id": "ruanda",
 			"nombre": "Ruanda",
-			"nombre_en": "Rwanda",
 			"tipo": "frente",
 			"desde": 1994,
 			"hasta": 1994,
@@ -39,8 +38,8 @@
 	],
 	"batallas": [
 		{
+			"id": "toma-de-kigali",
 			"nombre": "Toma de Kigali",
-			"nombre_en": "Capture of Kigali",
 			"anio": 1994,
 			"lat": -1.95,
 			"lng": 30.06,

@@ -1,7 +1,6 @@
 {
 	"id": "sudan",
 	"nombre": "Sudán",
-	"nombre_en": "Sudan",
 	"nombres": [
 		"Sudan",
 		"Anglo-Egyption Sudan"
@@ -9,19 +8,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Estado mahdista (Mahdiyya)",
-			"nombre_en": "Mahdist State (Mahdiyya)",
 			"desde": 1885,
 			"hasta": 1899
 		},
 		{
 			"nombre": "Sudán Anglo-Egipcio",
-			"nombre_en": "Anglo-Egyptian Sudan",
 			"desde": 1899,
 			"hasta": 1956
 		},
 		{
 			"nombre": "República del Sudán",
-			"nombre_en": "Republic of the Sudan",
 			"desde": 1956
 		}
 	],

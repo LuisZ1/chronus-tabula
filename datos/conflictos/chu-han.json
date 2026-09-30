@@ -1,7 +1,6 @@
 {
 	"id": "chu-han",
 	"nombre": "Guerra Chu-Han",
-	"nombre_en": "Chu–Han Contention",
 	"inicio": -206,
 	"fin": -202,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra Chu-Han",
 	"zonas": [
 		{
+			"id": "frente-entre-chu-y-han-en-la-china-central",
 			"nombre": "Frente entre Chu y Han en la China central",
-			"nombre_en": "Front between Chu and Han in central China",
 			"tipo": "frente",
 			"desde": -206,
 			"hasta": -202,
@@ -40,8 +39,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-gaixia",
 			"nombre": "Batalla de Gaixia",
-			"nombre_en": "Battle of Gaixia",
 			"anio": -202,
 			"lat": 33.33,
 			"lng": 117.55,

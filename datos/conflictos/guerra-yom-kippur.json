@@ -1,7 +1,6 @@
 {
 	"id": "guerra-yom-kippur",
 	"nombre": "Guerra de Yom Kipur (árabe-israelí de 1973)",
-	"nombre_en": "Yom Kippur War (1973 Arab–Israeli War)",
 	"inicio": 1973,
 	"fin": 1973,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerra de Yom Kipur",
 	"zonas": [
 		{
+			"id": "frente-del-canal-de-suez",
 			"nombre": "Frente del canal de Suez",
-			"nombre_en": "Suez Canal front",
 			"tipo": "frente",
 			"desde": 1973,
 			"hasta": 1973,
@@ -43,8 +42,8 @@
 			]
 		},
 		{
+			"id": "frente-del-golan",
 			"nombre": "Frente del Golán",
-			"nombre_en": "Golan front",
 			"tipo": "frente",
 			"desde": 1973,
 			"hasta": 1973,
@@ -70,22 +69,22 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-la-granja-china",
 			"nombre": "Batalla de la Granja China",
-			"nombre_en": "Battle of the Chinese Farm",
 			"anio": 1973,
 			"lat": 30.9,
 			"lng": 32.5
 		},
 		{
+			"id": "cruce-del-canal-de-suez-operacion-badr",
 			"nombre": "Cruce del canal de Suez (Operación Badr)",
-			"nombre_en": "Crossing of the Suez Canal (Operation Badr)",
 			"anio": 1973,
 			"lat": 30.58,
 			"lng": 32.35
 		},
 		{
+			"id": "valle-de-las-lagrimas-golan",
 			"nombre": "Valle de las Lágrimas (Golán)",
-			"nombre_en": "Valley of Tears (Golan)",
 			"anio": 1973,
 			"lat": 33.12,
 			"lng": 35.77

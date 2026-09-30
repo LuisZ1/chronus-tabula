@@ -1,7 +1,6 @@
 {
 	"id": "guerra-seis-dias",
 	"nombre": "Guerra de los Seis Días",
-	"nombre_en": "Six-Day War",
 	"inicio": 1967,
 	"fin": 1967,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra de los Seis Días",
 	"zonas": [
 		{
+			"id": "peninsula-del-sinai-ocupada",
 			"nombre": "Península del Sinaí ocupada",
-			"nombre_en": "Occupied Sinai Peninsula",
 			"tipo": "ocupado",
 			"desde": 1967,
 			"hasta": 1967,
@@ -44,8 +43,8 @@
 			]
 		},
 		{
+			"id": "cisjordania-y-jerusalen-este",
 			"nombre": "Cisjordania y Jerusalén Este",
-			"nombre_en": "West Bank and East Jerusalem",
 			"tipo": "ocupado",
 			"desde": 1967,
 			"hasta": 1967,
@@ -69,8 +68,8 @@
 			]
 		},
 		{
+			"id": "altos-del-golan",
 			"nombre": "Altos del Golán",
-			"nombre_en": "Golan Heights",
 			"tipo": "ocupado",
 			"desde": 1967,
 			"hasta": 1967,
@@ -96,22 +95,22 @@
 	],
 	"batallas": [
 		{
+			"id": "combates-del-golan",
 			"nombre": "Combates del Golán",
-			"nombre_en": "Fighting on the Golan",
 			"anio": 1967,
 			"lat": 33.1,
 			"lng": 35.78
 		},
 		{
+			"id": "paso-de-mitla-sinai",
 			"nombre": "Paso de Mitla (Sinaí)",
-			"nombre_en": "Mitla Pass (Sinai)",
 			"anio": 1967,
 			"lat": 30.02,
 			"lng": 32.9
 		},
 		{
+			"id": "toma-de-jerusalen-este",
 			"nombre": "Toma de Jerusalén Este",
-			"nombre_en": "Capture of East Jerusalem",
 			"anio": 1967,
 			"lat": 31.78,
 			"lng": 35.23

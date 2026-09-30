@@ -1,7 +1,6 @@
 {
 	"id": "visigodos",
 	"nombre": "Reino visigodo de Toledo",
-	"nombre_en": "Visigothic Kingdom of Toledo",
 	"nombres": [
 		"Visigothic Kingdom",
 		"Visigoths"
@@ -9,13 +8,11 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino visigodo de Tolosa",
-			"nombre_en": "Visigothic Kingdom of Toulouse",
 			"desde": 418,
 			"hasta": 507
 		},
 		{
 			"nombre": "Reino visigodo de Toledo",
-			"nombre_en": "Visigothic Kingdom of Toledo",
 			"desde": 507,
 			"hasta": 711
 		}

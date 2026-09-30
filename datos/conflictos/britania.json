@@ -1,7 +1,6 @@
 {
 	"id": "britania",
 	"nombre": "Conquista romana de Britania",
-	"nombre_en": "Roman conquest of Britain",
 	"inicio": 43,
 	"fin": 84,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Conquista romana de Britania",
 	"zonas": [
 		{
+			"id": "sureste-invasion-de-claudio",
 			"nombre": "Sureste (invasión de Claudio)",
-			"nombre_en": "South-east (Claudian invasion)",
 			"tipo": "frente",
 			"desde": 43,
 			"hasta": 47,
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "gales",
 			"nombre": "Gales",
-			"nombre_en": "Wales",
 			"tipo": "frente",
 			"desde": 48,
 			"hasta": 77,
@@ -64,8 +63,8 @@
 			]
 		},
 		{
+			"id": "revuelta-de-boudica",
 			"nombre": "Revuelta de Boudica",
-			"nombre_en": "Boudica's revolt",
 			"tipo": "frente",
 			"desde": 60,
 			"hasta": 61,
@@ -89,8 +88,8 @@
 			]
 		},
 		{
+			"id": "caledonia-campanas-de-agricola",
 			"nombre": "Caledonia (campañas de Agrícola)",
-			"nombre_en": "Caledonia (Agricola's campaigns)",
 			"tipo": "frente",
 			"desde": 78,
 			"hasta": 84,
@@ -114,8 +113,8 @@
 			]
 		},
 		{
+			"id": "britania-romana",
 			"nombre": "Britania romana",
-			"nombre_en": "Roman Britain",
 			"tipo": "ocupado",
 			"desde": 61,
 			"hasta": 84,
@@ -145,8 +144,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-watling-street",
 			"nombre": "Batalla de Watling Street",
-			"nombre_en": "Battle of Watling Street",
 			"anio": 61,
 			"lat": 52.2,
 			"lng": -1.4,
@@ -154,8 +153,8 @@
 			"bajas": "~80.000 britanos según Tácito"
 		},
 		{
+			"id": "batalla-del-monte-graupio",
 			"nombre": "Batalla del monte Graupio",
-			"nombre_en": "Battle of Mons Graupius",
 			"anio": 84,
 			"lat": 57.3,
 			"lng": -2.8,

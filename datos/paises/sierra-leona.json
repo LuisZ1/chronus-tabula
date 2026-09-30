@@ -1,20 +1,17 @@
 {
 	"id": "sierra-leona",
 	"nombre": "Sierra Leona",
-	"nombre_en": "Sierra Leone",
 	"nombres": [
 		"Sierra Leone"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Dominio de Sierra Leona (Commonwealth)",
-			"nombre_en": "Dominion of Sierra Leone (Commonwealth)",
 			"desde": 1961,
 			"hasta": 1971
 		},
 		{
 			"nombre": "República de Sierra Leona",
-			"nombre_en": "Republic of Sierra Leone",
 			"desde": 1971,
 			"hasta": 2026
 		}

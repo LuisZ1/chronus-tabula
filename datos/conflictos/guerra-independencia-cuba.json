@@ -1,7 +1,6 @@
 {
 	"id": "guerra-independencia-cuba",
 	"nombre": "Guerras de independencia de Cuba",
-	"nombre_en": "Cuban wars of independence",
 	"inicio": 1868,
 	"fin": 1898,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra de Independencia cubana",
 	"zonas": [
 		{
+			"id": "oriente-cubano",
 			"nombre": "Oriente cubano",
-			"nombre_en": "Eastern Cuba",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -36,8 +35,8 @@
 			]
 		},
 		{
+			"id": "invasion-de-occidente",
 			"nombre": "Invasión de Occidente",
-			"nombre_en": "Invasion of the West",
 			"tipo": "frente",
 			"desde": 1895,
 			"hasta": 1896,
@@ -63,16 +62,16 @@
 	],
 	"batallas": [
 		{
+			"id": "grito-de-yara-la-demajagua",
 			"nombre": "Grito de Yara (La Demajagua)",
-			"nombre_en": "Grito de Yara (La Demajagua)",
 			"anio": 1868,
 			"lat": 20.28,
 			"lng": -77.18,
 			"descripcion": "Céspedes libera a sus esclavos en su ingenio de La Demajagua y se alza contra España (10 de octubre de 1868)."
 		},
 		{
+			"id": "batalla-de-mal-tiempo",
 			"nombre": "Batalla de Mal Tiempo",
-			"nombre_en": "Battle of Mal Tiempo",
 			"anio": 1895,
 			"lat": 22.34,
 			"lng": -80.28,

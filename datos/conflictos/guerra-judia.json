@@ -1,7 +1,6 @@
 {
 	"id": "guerra-judia",
 	"nombre": "Primera guerra judeo-romana",
-	"nombre_en": "First Jewish–Roman War",
 	"inicio": 66,
 	"fin": 73,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Primera guerra judeo-romana",
 	"zonas": [
 		{
+			"id": "galilea-y-judea",
 			"nombre": "Galilea y Judea",
-			"nombre_en": "Galilee and Judea",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -42,8 +41,8 @@
 	],
 	"batallas": [
 		{
+			"id": "sitio-de-jerusalen",
 			"nombre": "Sitio de Jerusalén",
-			"nombre_en": "Siege of Jerusalem",
 			"anio": 70,
 			"lat": 31.78,
 			"lng": 35.22,
@@ -51,8 +50,8 @@
 			"bajas": "cientos de miles de muertos"
 		},
 		{
+			"id": "sitio-de-masada",
 			"nombre": "Sitio de Masada",
-			"nombre_en": "Siege of Masada",
 			"anio": 73,
 			"lat": 31.31,
 			"lng": 35.35,

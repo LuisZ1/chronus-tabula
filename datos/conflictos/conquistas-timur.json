@@ -1,7 +1,6 @@
 {
 	"id": "conquistas-timur",
 	"nombre": "Conquistas de Tamerlán",
-	"nombre_en": "Conquests of Timur",
 	"inicio": 1370,
 	"fin": 1405,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Tamerlán",
 	"zonas": [
 		{
+			"id": "iran-y-caucaso",
 			"nombre": "Irán y Cáucaso",
-			"nombre_en": "Iran and the Caucasus",
 			"tipo": "frente",
 			"desde": 1380,
 			"hasta": 1403,
@@ -41,8 +40,8 @@
 			]
 		},
 		{
+			"id": "norte-de-la-india",
 			"nombre": "Norte de la India",
-			"nombre_en": "Northern India",
 			"tipo": "frente",
 			"desde": 1398,
 			"hasta": 1399,
@@ -68,8 +67,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-rio-terek",
 			"nombre": "Batalla del río Terek",
-			"nombre_en": "Battle of the Terek River",
 			"anio": 1395,
 			"lat": 43.58,
 			"lng": 47.45,
@@ -77,8 +76,8 @@
 			"wiki": "Batalla del río Terek"
 		},
 		{
+			"id": "saqueo-de-delhi",
 			"nombre": "Saqueo de Delhi",
-			"nombre_en": "Sack of Delhi",
 			"anio": 1398,
 			"lat": 28.61,
 			"lng": 77.21,
@@ -86,8 +85,8 @@
 			"wiki": "Saqueo de Delhi (1398)"
 		},
 		{
+			"id": "saqueo-de-bagdad",
 			"nombre": "Saqueo de Bagdad",
-			"nombre_en": "Sack of Baghdad",
 			"anio": 1401,
 			"lat": 33.35,
 			"lng": 44.34,

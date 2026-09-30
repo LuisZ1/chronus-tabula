@@ -1,7 +1,6 @@
 {
 	"id": "genpei",
 	"nombre": "Guerra Genpei (Japón)",
-	"nombre_en": "Genpei War (Japan)",
 	"inicio": 1180,
 	"fin": 1185,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerras Genpei",
 	"zonas": [
 		{
+			"id": "honshu-occidental-y-mar-interior",
 			"nombre": "Honshu occidental y mar Interior",
-			"nombre_en": "Western Honshu and the Inland Sea",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -42,16 +41,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-kurikara",
 			"nombre": "Batalla de Kurikara",
-			"nombre_en": "Battle of Kurikara",
 			"anio": 1183,
 			"lat": 36.7,
 			"lng": 136.9,
 			"descripcion": "Victoria decisiva Minamoto en el norte."
 		},
 		{
+			"id": "batalla-de-dan-no-ura",
 			"nombre": "Batalla de Dan-no-ura",
-			"nombre_en": "Battle of Dan-no-ura",
 			"anio": 1185,
 			"lat": 33.96,
 			"lng": 130.94,

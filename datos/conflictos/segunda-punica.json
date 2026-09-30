@@ -1,7 +1,6 @@
 {
 	"id": "segunda-punica",
 	"nombre": "Segunda guerra púnica",
-	"nombre_en": "Second Punic War",
 	"inicio": -218,
 	"fin": -201,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Segunda guerra púnica",
 	"zonas": [
 		{
+			"id": "hispania",
 			"nombre": "Hispania",
-			"nombre_en": "Hispania",
 			"tipo": "frente",
 			"desde": -218,
 			"hasta": -206,
@@ -50,8 +49,8 @@
 			]
 		},
 		{
+			"id": "italia-invasion-de-anibal",
 			"nombre": "Italia (invasión de Aníbal)",
-			"nombre_en": "Italy (Hannibal's invasion)",
 			"tipo": "frente",
 			"desde": -218,
 			"hasta": -203,
@@ -95,8 +94,8 @@
 			]
 		},
 		{
+			"id": "africa-desembarco-de-escipion",
 			"nombre": "África (desembarco de Escipión)",
-			"nombre_en": "Africa (Scipio's landing)",
 			"tipo": "frente",
 			"desde": -204,
 			"hasta": -201,
@@ -122,8 +121,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-cannas",
 			"nombre": "Batalla de Cannas",
-			"nombre_en": "Battle of Cannae",
 			"anio": -216,
 			"lat": 41.3,
 			"lng": 16.13,
@@ -131,8 +130,8 @@
 			"bajas": "~55.000 romanos muertos en un día"
 		},
 		{
+			"id": "batalla-de-zama",
 			"nombre": "Batalla de Zama",
-			"nombre_en": "Battle of Zama",
 			"anio": -202,
 			"lat": 36.3,
 			"lng": 9.45,

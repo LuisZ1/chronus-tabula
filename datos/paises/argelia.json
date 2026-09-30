@@ -1,7 +1,6 @@
 {
 	"id": "argelia",
 	"nombre": "Argelia",
-	"nombre_en": "Algeria",
 	"nombres": [
 		"Algeria",
 		"Algeria (France)",
@@ -11,20 +10,17 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Regencia de Argel",
-			"nombre_en": "Regency of Algiers",
 			"desde": 1516,
 			"hasta": 1829,
 			"wiki": "Regencia de Argel"
 		},
 		{
 			"nombre": "Argelia francesa",
-			"nombre_en": "French Algeria",
 			"desde": 1830,
 			"hasta": 1962
 		},
 		{
 			"nombre": "República Argelina Democrática y Popular",
-			"nombre_en": "People's Democratic Republic of Algeria",
 			"desde": 1962,
 			"hasta": 2026
 		}

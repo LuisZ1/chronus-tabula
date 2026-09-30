@@ -1,7 +1,6 @@
 {
 	"id": "poitiers",
 	"nombre": "Incursiones omeyas en la Galia",
-	"nombre_en": "Umayyad invasions of Gaul",
 	"inicio": 719,
 	"fin": 759,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Batalla de Poitiers (732)",
 	"zonas": [
 		{
+			"id": "aquitania",
 			"nombre": "Aquitania",
-			"nombre_en": "Aquitaine",
 			"tipo": "frente",
 			"desde": 719,
 			"hasta": 742,
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "septimania-reconquista-franca",
 			"nombre": "Septimania (reconquista franca)",
-			"nombre_en": "Septimania (Frankish reconquest)",
 			"tipo": "frente",
 			"desde": 736,
 			"hasta": 759,
@@ -69,8 +68,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-poitiers-tours",
 			"nombre": "Batalla de Poitiers (Tours)",
-			"nombre_en": "Battle of Poitiers (Tours)",
 			"anio": 732,
 			"lat": 46.58,
 			"lng": 0.34,

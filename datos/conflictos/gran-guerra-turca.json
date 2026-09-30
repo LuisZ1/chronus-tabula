@@ -1,7 +1,6 @@
 {
 	"id": "gran-guerra-turca",
 	"nombre": "Gran Guerra Turca (Guerra de la Santa Liga)",
-	"nombre_en": "Great Turkish War (War of the Holy League)",
 	"inicio": 1683,
 	"fin": 1699,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Gran Guerra Turca",
 	"zonas": [
 		{
+			"id": "hungria",
 			"nombre": "Hungría",
-			"nombre_en": "Hungary",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -42,8 +41,8 @@
 	],
 	"batallas": [
 		{
+			"id": "sitio-y-batalla-de-viena",
 			"nombre": "Sitio y batalla de Viena",
-			"nombre_en": "Siege and Battle of Vienna",
 			"anio": 1683,
 			"lat": 48.235,
 			"lng": 16.335,
@@ -51,8 +50,8 @@
 			"wiki": "Batalla de Viena"
 		},
 		{
+			"id": "segunda-batalla-de-mohacs",
 			"nombre": "Segunda batalla de Mohács",
-			"nombre_en": "Second Battle of Mohács",
 			"anio": 1687,
 			"lat": 45.85,
 			"lng": 18.4,
@@ -60,8 +59,8 @@
 			"wiki": "Batalla de Mohács (1687)"
 		},
 		{
+			"id": "batalla-de-zenta",
 			"nombre": "Batalla de Zenta",
-			"nombre_en": "Battle of Zenta",
 			"anio": 1697,
 			"lat": 45.926,
 			"lng": 20.098,

@@ -1,7 +1,6 @@
 {
 	"id": "conquista-hispania",
 	"nombre": "Conquista musulmana de Hispania",
-	"nombre_en": "Umayyad conquest of Hispania",
 	"inicio": 711,
 	"fin": 726,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Conquista omeya de Hispania",
 	"zonas": [
 		{
+			"id": "andalucia-y-marcha-a-toledo",
 			"nombre": "Andalucía y marcha a Toledo",
-			"nombre_en": "Andalusia and the march on Toledo",
 			"tipo": "frente",
 			"desde": 711,
 			"hasta": 713,
@@ -46,8 +45,8 @@
 			]
 		},
 		{
+			"id": "valle-del-ebro-y-noreste",
 			"nombre": "Valle del Ebro y noreste",
-			"nombre_en": "Ebro Valley and the northeast",
 			"tipo": "frente",
 			"desde": 713,
 			"hasta": 718,
@@ -75,8 +74,8 @@
 			]
 		},
 		{
+			"id": "septimania",
 			"nombre": "Septimania",
-			"nombre_en": "Septimania",
 			"tipo": "frente",
 			"desde": 719,
 			"hasta": 726,
@@ -100,8 +99,8 @@
 			]
 		},
 		{
+			"id": "al-andalus",
 			"nombre": "Al-Ándalus",
-			"nombre_en": "Al-Andalus",
 			"tipo": "ocupado",
 			"desde": 713,
 			"hasta": 726,
@@ -135,16 +134,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-guadalete",
 			"nombre": "Batalla de Guadalete",
-			"nombre_en": "Battle of Guadalete",
 			"anio": 711,
 			"lat": 36.63,
 			"lng": -5.75,
 			"descripcion": "Derrota y muerte del rey visigodo don Rodrigo."
 		},
 		{
+			"id": "batalla-de-covadonga",
 			"nombre": "Batalla de Covadonga",
-			"nombre_en": "Battle of Covadonga",
 			"anio": 722,
 			"lat": 43.31,
 			"lng": -5.06,

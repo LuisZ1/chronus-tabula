@@ -1,14 +1,12 @@
 {
 	"id": "hungria-oriental",
 	"nombre": "Reino húngaro oriental",
-	"nombre_en": "Eastern Hungarian Kingdom",
 	"nombres": [
 		"Eastern Hungarian Kingdom"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino húngaro oriental",
-			"nombre_en": "Eastern Hungarian Kingdom",
 			"desde": 1526,
 			"hasta": 1570,
 			"wiki": "en:Eastern Hungarian Kingdom"

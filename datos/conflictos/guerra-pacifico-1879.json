@@ -1,7 +1,6 @@
 {
 	"id": "guerra-pacifico-1879",
 	"nombre": "Guerra del Pacífico (1879-1884)",
-	"nombre_en": "War of the Pacific (1879-1884)",
 	"inicio": 1879,
 	"fin": 1884,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerra del Pacífico (1879-1884)",
 	"zonas": [
 		{
+			"id": "litoral-y-tarapaca",
 			"nombre": "Litoral y Tarapacá",
-			"nombre_en": "Coast and Tarapacá",
 			"tipo": "ocupado",
 			"desde": 1879,
 			"hasta": 1884,
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "campana-de-lima",
 			"nombre": "Campaña de Lima",
-			"nombre_en": "Lima campaign",
 			"tipo": "frente",
 			"desde": 1880,
 			"hasta": 1881,
@@ -64,8 +63,8 @@
 			]
 		},
 		{
+			"id": "campana-de-la-brena-sierra-peruana",
 			"nombre": "Campaña de la Breña (sierra peruana)",
-			"nombre_en": "Breña campaign (Peruvian highlands)",
 			"tipo": "frente",
 			"desde": 1881,
 			"hasta": 1883,
@@ -91,45 +90,45 @@
 	],
 	"batallas": [
 		{
+			"id": "combate-naval-de-angamos",
 			"nombre": "Combate naval de Angamos",
-			"nombre_en": "Battle of Angamos",
 			"anio": 1879,
 			"lat": -23.03,
 			"lng": -70.52,
 			"descripcion": "Captura del Huáscar; muerte de Miguel Grau."
 		},
 		{
+			"id": "combate-naval-de-iquique",
 			"nombre": "Combate naval de Iquique",
-			"nombre_en": "Battle of Iquique",
 			"anio": 1879,
 			"lat": -20.2,
 			"lng": -70.16,
 			"descripcion": "Hundimiento de la Esmeralda y muerte de Arturo Prat."
 		},
 		{
+			"id": "asalto-y-toma-del-morro-de-arica",
 			"nombre": "Asalto y toma del Morro de Arica",
-			"nombre_en": "Assault and capture of the Morro de Arica",
 			"anio": 1880,
 			"lat": -18.48,
 			"lng": -70.32
 		},
 		{
+			"id": "batalla-del-alto-de-la-alianza-tacna",
 			"nombre": "Batalla del Alto de la Alianza (Tacna)",
-			"nombre_en": "Battle of the Alto de la Alianza (Tacna)",
 			"anio": 1880,
 			"lat": -17.98,
 			"lng": -70.28
 		},
 		{
+			"id": "batallas-de-chorrillos-y-miraflores",
 			"nombre": "Batallas de Chorrillos y Miraflores",
-			"nombre_en": "Battles of Chorrillos and Miraflores",
 			"anio": 1881,
 			"lat": -12.16,
 			"lng": -77.02
 		},
 		{
+			"id": "batalla-de-huamachuco",
 			"nombre": "Batalla de Huamachuco",
-			"nombre_en": "Battle of Huamachuco",
 			"anio": 1883,
 			"lat": -7.81,
 			"lng": -78.05

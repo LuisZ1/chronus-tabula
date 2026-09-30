@@ -1,7 +1,6 @@
 {
 	"id": "asiento",
 	"nombre": "Guerra del Asiento (de la Oreja de Jenkins)",
-	"nombre_en": "War of the Asiento (War of Jenkins' Ear)",
 	"inicio": 1739,
 	"fin": 1748,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra del Asiento",
 	"zonas": [
 		{
+			"id": "caribe-espanol",
 			"nombre": "Caribe español",
-			"nombre_en": "Spanish Caribbean",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -44,8 +43,8 @@
 			]
 		},
 		{
+			"id": "florida-y-georgia",
 			"nombre": "Florida y Georgia",
-			"nombre_en": "Florida and Georgia",
 			"tipo": "frente",
 			"desde": 1740,
 			"hasta": 1743,
@@ -71,24 +70,24 @@
 	],
 	"batallas": [
 		{
+			"id": "toma-de-portobelo",
 			"nombre": "Toma de Portobelo",
-			"nombre_en": "Battle of Porto Bello",
 			"anio": 1739,
 			"lat": 9.55,
 			"lng": -79.65,
 			"descripcion": "Vernon destruye el puerto del oro panameño; euforia en Londres."
 		},
 		{
+			"id": "sitio-de-san-agustin",
 			"nombre": "Sitio de San Agustín",
-			"nombre_en": "Siege of St. Augustine",
 			"anio": 1740,
 			"lat": 29.9,
 			"lng": -81.31,
 			"descripcion": "Oglethorpe fracasa ante la Florida española."
 		},
 		{
+			"id": "sitio-de-cartagena-de-indias",
 			"nombre": "Sitio de Cartagena de Indias",
-			"nombre_en": "Battle of Cartagena de Indias",
 			"anio": 1741,
 			"lat": 10.42,
 			"lng": -75.53,

@@ -1,7 +1,6 @@
 {
 	"id": "guerra-boshin",
 	"nombre": "Guerra Boshin",
-	"nombre_en": "Boshin War",
 	"inicio": 1868,
 	"fin": 1869,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra Boshin",
 	"zonas": [
 		{
+			"id": "avance-imperial-por-honshu-hacia-el-norte",
 			"nombre": "Avance imperial por Honshu hacia el norte",
-			"nombre_en": "Imperial advance through Honshu to the north",
 			"tipo": "frente",
 			"desde": 1868,
 			"hasta": 1869,
@@ -40,16 +39,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-toba-fushimi",
 			"nombre": "Batalla de Toba-Fushimi",
-			"nombre_en": "Battle of Toba-Fushimi",
 			"anio": 1868,
 			"lat": 34.93,
 			"lng": 135.75,
 			"descripcion": "Victoria imperial al sur de Kioto que marca el fin del bakufu."
 		},
 		{
+			"id": "batalla-de-hakodate-goryokaku",
 			"nombre": "Batalla de Hakodate (Goryōkaku)",
-			"nombre_en": "Battle of Hakodate (Goryōkaku)",
 			"anio": 1869,
 			"lat": 41.8,
 			"lng": 140.76,

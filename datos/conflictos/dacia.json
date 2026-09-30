@@ -1,7 +1,6 @@
 {
 	"id": "dacia",
 	"nombre": "Guerras dacias de Trajano",
-	"nombre_en": "Trajan's Dacian Wars",
 	"inicio": 101,
 	"fin": 106,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerras dacias",
 	"zonas": [
 		{
+			"id": "dacia",
 			"nombre": "Dacia",
-			"nombre_en": "Dacia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,16 +37,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-tapae",
 			"nombre": "Batalla de Tapae",
-			"nombre_en": "Battle of Tapae",
 			"anio": 101,
 			"lat": 45.5,
 			"lng": 22.6,
 			"descripcion": "Trajano abre el camino hacia la capital dacia."
 		},
 		{
+			"id": "caida-de-sarmizegetusa",
 			"nombre": "Caída de Sarmizegetusa",
-			"nombre_en": "Fall of Sarmizegetusa",
 			"anio": 106,
 			"lat": 45.62,
 			"lng": 23.31,

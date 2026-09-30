@@ -1,7 +1,6 @@
 {
 	"id": "segunda-guerra-congo",
 	"nombre": "Segunda guerra del Congo",
-	"nombre_en": "Second Congo War",
 	"inicio": 1998,
 	"fin": 2003,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Segunda guerra del Congo",
 	"zonas": [
 		{
+			"id": "este-del-congo-kivu-e-ituri",
 			"nombre": "Este del Congo (Kivu e Ituri)",
-			"nombre_en": "Eastern Congo (Kivu and Ituri)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -42,8 +41,8 @@
 	],
 	"batallas": [
 		{
+			"id": "guerra-de-los-seis-dias-de-kisangani",
 			"nombre": "Guerra de los Seis Días de Kisangani",
-			"nombre_en": "Six-Day War of Kisangani",
 			"anio": 2000,
 			"lat": 0.52,
 			"lng": 25.2

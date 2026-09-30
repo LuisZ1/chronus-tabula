@@ -1,7 +1,6 @@
 {
 	"id": "guerra-onin",
 	"nombre": "Guerra Ōnin",
-	"nombre_en": "Ōnin War",
 	"inicio": 1467,
 	"fin": 1477,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra Ōnin",
 	"zonas": [
 		{
+			"id": "kioto-devastada",
 			"nombre": "Kioto devastada",
-			"nombre_en": "Devastated Kyoto",
 			"tipo": "frente",
 			"desde": 1467,
 			"hasta": 1477,
@@ -40,8 +39,8 @@
 	],
 	"batallas": [
 		{
+			"id": "incendio-de-kioto",
 			"nombre": "Incendio de Kioto",
-			"nombre_en": "Burning of Kyoto",
 			"anio": 1467,
 			"lat": 35.01,
 			"lng": 135.77,

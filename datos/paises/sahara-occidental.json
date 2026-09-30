@@ -1,7 +1,6 @@
 {
 	"id": "sahara-occidental",
 	"nombre": "Sáhara Occidental",
-	"nombre_en": "Western Sahara",
 	"nombres": [
 		"Western Sahara",
 		"Spanish Sahara",
@@ -10,18 +9,15 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Sahara Español (colonia)",
-			"nombre_en": "Spanish Sahara (colony)",
 			"desde": 1884,
 			"hasta": 1976
 		},
 		{
 			"nombre": "Administración marroquí (de facto, mayor parte del territorio)",
-			"nombre_en": "Moroccan administration (de facto, most of the territory)",
 			"desde": 1975
 		},
 		{
 			"nombre": "República Árabe Saharaui Democrática (proclamada)",
-			"nombre_en": "Sahrawi Arab Democratic Republic (proclaimed)",
 			"desde": 1976
 		}
 	],

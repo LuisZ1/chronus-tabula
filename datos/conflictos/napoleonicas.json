@@ -1,7 +1,6 @@
 {
 	"id": "napoleonicas",
 	"nombre": "Guerras napoleónicas",
-	"nombre_en": "Napoleonic Wars",
 	"inicio": 1803,
 	"fin": 1815,
 	"paises": [
@@ -18,8 +17,8 @@
 	"wiki": "Guerras napoleónicas",
 	"zonas": [
 		{
+			"id": "centroeuropa-austerlitz-jena",
 			"nombre": "Centroeuropa (Austerlitz, Jena)",
-			"nombre_en": "Central Europe (Austerlitz, Jena)",
 			"tipo": "frente",
 			"desde": 1805,
 			"hasta": 1807,
@@ -51,8 +50,8 @@
 			]
 		},
 		{
+			"id": "trafalgar-y-bloqueo-naval",
 			"nombre": "Trafalgar y bloqueo naval",
-			"nombre_en": "Trafalgar and the naval blockade",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1805,
@@ -77,8 +76,8 @@
 			]
 		},
 		{
+			"id": "guerra-de-la-independencia-espanola",
 			"nombre": "Guerra de la Independencia Española",
-			"nombre_en": "Peninsular War",
 			"tipo": "frente",
 			"desde": 1808,
 			"hasta": 1814,
@@ -118,8 +117,8 @@
 			]
 		},
 		{
+			"id": "campana-de-rusia",
 			"nombre": "Campaña de Rusia",
-			"nombre_en": "Russian campaign",
 			"tipo": "frente",
 			"desde": 1812,
 			"hasta": 1812,
@@ -147,8 +146,8 @@
 			]
 		},
 		{
+			"id": "alemania-leipzig",
 			"nombre": "Alemania (Leipzig)",
-			"nombre_en": "Germany (Leipzig)",
 			"tipo": "frente",
 			"desde": 1813,
 			"hasta": 1813,
@@ -176,8 +175,8 @@
 			]
 		},
 		{
+			"id": "francia-y-waterloo",
 			"nombre": "Francia y Waterloo",
-			"nombre_en": "France and Waterloo",
 			"tipo": "frente",
 			"desde": 1814,
 			"hasta": 1815,
@@ -205,8 +204,8 @@
 			]
 		},
 		{
+			"id": "europa-napoleonica",
 			"nombre": "Europa napoleónica",
-			"nombre_en": "Napoleonic Europe",
 			"tipo": "ocupado",
 			"desde": 1807,
 			"hasta": 1813,
@@ -252,16 +251,16 @@
 	],
 	"batallas": [
 		{
+			"id": "incursion-en-boulogne",
 			"nombre": "Incursión en Boulogne",
-			"nombre_en": "Raid on Boulogne",
 			"anio": 1804,
 			"lat": 50.73,
 			"lng": 1.61,
 			"wiki": "en:Raid on Boulogne"
 		},
 		{
+			"id": "batalla-de-austerlitz",
 			"nombre": "Batalla de Austerlitz",
-			"nombre_en": "Battle of Austerlitz",
 			"anio": 1805,
 			"lat": 49.13,
 			"lng": 16.76,
@@ -269,15 +268,15 @@
 			"bajas": "~25.000 bajas aliadas"
 		},
 		{
+			"id": "batalla-de-durenstein",
 			"nombre": "Batalla de Dürenstein",
-			"nombre_en": "Battle of Dürenstein",
 			"anio": 1805,
 			"lat": 48.39,
 			"lng": 15.52
 		},
 		{
+			"id": "batalla-de-trafalgar",
 			"nombre": "Batalla de Trafalgar",
-			"nombre_en": "Battle of Trafalgar",
 			"anio": 1805,
 			"lat": 36.18,
 			"lng": -6.03,
@@ -285,22 +284,22 @@
 			"bajas": "~4.500 muertos francoespañoles"
 		},
 		{
+			"id": "batalla-del-cabo-ortegal",
 			"nombre": "Batalla del Cabo Ortegal",
-			"nombre_en": "Battle of Cape Ortegal",
 			"anio": 1805,
 			"lat": 43.82,
 			"lng": -7.86
 		},
 		{
+			"id": "batalla-de-golymin",
 			"nombre": "Batalla de Golymin",
-			"nombre_en": "Battle of Golymin",
 			"anio": 1806,
 			"lat": 52.82,
 			"lng": 20.87
 		},
 		{
+			"id": "batalla-de-jena-auerstedt",
 			"nombre": "Batalla de Jena-Auerstedt",
-			"nombre_en": "Battle of Jena-Auerstedt",
 			"anio": 1806,
 			"lat": 50.927,
 			"lng": 11.586,
@@ -308,22 +307,22 @@
 			"wiki": "Batalla de Jena-Auerstedt"
 		},
 		{
+			"id": "batalla-de-pu-tusk",
 			"nombre": "Batalla de Pułtusk",
-			"nombre_en": "Battle of Pułtusk",
 			"anio": 1806,
 			"lat": 52.71,
 			"lng": 21.07
 		},
 		{
+			"id": "batalla-de-athos",
 			"nombre": "Batalla de Athos",
-			"nombre_en": "Battle of Athos",
 			"anio": 1807,
 			"lat": 40.07,
 			"lng": 24.93
 		},
 		{
+			"id": "batalla-de-eylau",
 			"nombre": "Batalla de Eylau",
-			"nombre_en": "Battle of Eylau",
 			"anio": 1807,
 			"lat": 54.4,
 			"lng": 20.63,
@@ -331,8 +330,8 @@
 			"wiki": "Batalla de Eylau"
 		},
 		{
+			"id": "batalla-de-friedland",
 			"nombre": "Batalla de Friedland",
-			"nombre_en": "Battle of Friedland",
 			"anio": 1807,
 			"lat": 54.45,
 			"lng": 21.02,
@@ -340,22 +339,22 @@
 			"wiki": "Batalla de Friedland"
 		},
 		{
+			"id": "batalla-de-heilsberg",
 			"nombre": "Batalla de Heilsberg",
-			"nombre_en": "Battle of Heilsberg",
 			"anio": 1807,
 			"lat": 54.12,
 			"lng": 20.58
 		},
 		{
+			"id": "accion-del-10-de-noviembre-de-1808",
 			"nombre": "Acción del 10 de noviembre de 1808",
-			"nombre_en": "Action of 10 November 1808",
 			"anio": 1808,
 			"lat": 45.14,
 			"lng": -1.5
 		},
 		{
+			"id": "batalla-de-bailen",
 			"nombre": "Batalla de Bailén",
-			"nombre_en": "Battle of Bailén",
 			"anio": 1808,
 			"lat": 38.1,
 			"lng": -3.78,
@@ -363,30 +362,30 @@
 			"bajas": "~2.500 franceses muertos y 17.000 prisioneros"
 		},
 		{
+			"id": "batalla-de-gronvikssund",
 			"nombre": "Batalla de Grönvikssund",
-			"nombre_en": "Battle of Grönvikssund",
 			"anio": 1808,
 			"lat": 60.5,
 			"lng": 21.42
 		},
 		{
+			"id": "batalla-de-sandostrom",
 			"nombre": "Batalla de Sandöström",
-			"nombre_en": "Battle of Sandöström",
 			"anio": 1808,
 			"lat": 60.21,
 			"lng": 22.51
 		},
 		{
+			"id": "levantamiento-del-2-de-mayo",
 			"nombre": "Levantamiento del 2 de mayo",
-			"nombre_en": "Dos de Mayo Uprising",
 			"anio": 1808,
 			"lat": 40.42,
 			"lng": -3.71,
 			"descripcion": "Madrid se alza contra las tropas de Murat; los fusilamientos del 3 de mayo los pintó Goya."
 		},
 		{
+			"id": "sitios-de-zaragoza",
 			"nombre": "Sitios de Zaragoza",
-			"nombre_en": "Sieges of Zaragoza",
 			"anio": 1808,
 			"lat": 41.65,
 			"lng": -0.88,
@@ -394,8 +393,8 @@
 			"bajas": "~50.000 muertos, la mayoría civiles"
 		},
 		{
+			"id": "batalla-de-wagram",
 			"nombre": "Batalla de Wagram",
-			"nombre_en": "Battle of Wagram",
 			"anio": 1809,
 			"lat": 48.3,
 			"lng": 16.56,
@@ -403,36 +402,36 @@
 			"wiki": "Batalla de Wagram"
 		},
 		{
+			"id": "batalla-del-canal-de-procida",
 			"nombre": "Batalla del canal de Procida",
-			"nombre_en": "Battle of the Procida Canal",
 			"anio": 1809,
 			"lat": 40.77,
 			"lng": 14.03
 		},
 		{
+			"id": "accion-del-15-de-noviembre-de-1810",
 			"nombre": "Acción del 15 de noviembre de 1810",
-			"nombre_en": "Action of 15 November 1810",
 			"anio": 1810,
 			"lat": 49.59,
 			"lng": -1.26
 		},
 		{
+			"id": "accion-del-24-de-marzo-de-1811",
 			"nombre": "Acción del 24 de marzo de 1811",
-			"nombre_en": "Action of 24 March 1811",
 			"anio": 1811,
 			"lat": 49.69,
 			"lng": -1.28
 		},
 		{
+			"id": "batalla-de-lissa",
 			"nombre": "Batalla de Lissa",
-			"nombre_en": "Battle of Lissa",
 			"anio": 1811,
 			"lat": 43.09,
 			"lng": 16.17
 		},
 		{
+			"id": "batalla-de-borodino",
 			"nombre": "Batalla de Borodinó",
-			"nombre_en": "Battle of Borodino",
 			"anio": 1812,
 			"lat": 55.52,
 			"lng": 35.82,
@@ -440,43 +439,43 @@
 			"bajas": "~70.000 muertos y heridos en un día"
 		},
 		{
+			"id": "batalla-de-grado",
 			"nombre": "Batalla de Grado",
-			"nombre_en": "Battle of Grado",
 			"anio": 1812,
 			"lat": 45.6,
 			"lng": 13.5
 		},
 		{
+			"id": "batalla-de-krasnoi",
 			"nombre": "Batalla de Krasnoi",
-			"nombre_en": "Battle of Krasnoi",
 			"anio": 1812,
 			"lat": 54.56,
 			"lng": 31.43
 		},
 		{
+			"id": "batalla-de-smolensk",
 			"nombre": "Batalla de Smolensk",
-			"nombre_en": "Battle of Smolensk",
 			"anio": 1812,
 			"lat": 54.78,
 			"lng": 32.05
 		},
 		{
+			"id": "batalla-de-vilna-1812",
 			"nombre": "Batalla de Vilna (1812)",
-			"nombre_en": "Battle of Vilnius (1812)",
 			"anio": 1812,
 			"lat": 54.68,
 			"lng": 25.28
 		},
 		{
+			"id": "batalla-de-wolkowisk",
 			"nombre": "Batalla de Wolkowisk",
-			"nombre_en": "Battle of Wolkowisk",
 			"anio": 1812,
 			"lat": 53.17,
 			"lng": 24.47
 		},
 		{
+			"id": "batalla-de-los-arapiles-salamanca",
 			"nombre": "Batalla de los Arapiles (Salamanca)",
-			"nombre_en": "Battle of the Arapiles (Salamanca)",
 			"anio": 1812,
 			"lat": 40.89,
 			"lng": -5.62,
@@ -484,37 +483,37 @@
 			"wiki": "Batalla de los Arapiles"
 		},
 		{
+			"id": "accion-del-5-de-noviembre-de-1813",
 			"nombre": "Acción del 5 de noviembre de 1813",
-			"nombre_en": "Action of 5 November 1813",
 			"anio": 1813,
 			"lat": 43.05,
 			"lng": 5.98
 		},
 		{
+			"id": "batalla-de-leipzig",
 			"nombre": "Batalla de Leipzig",
-			"nombre_en": "Battle of Leipzig",
 			"anio": 1813,
 			"lat": 51.31,
 			"lng": 12.41
 		},
 		{
+			"id": "batalla-de-vitoria",
 			"nombre": "Batalla de Vitoria",
-			"nombre_en": "Battle of Vitoria",
 			"anio": 1813,
 			"lat": 42.85,
 			"lng": -2.67,
 			"descripcion": "Wellington expulsa a José I; el botín francés queda esparcido por el campo."
 		},
 		{
+			"id": "batalla-de-craonne",
 			"nombre": "Batalla de Craonne",
-			"nombre_en": "Battle of Craonne",
 			"anio": 1814,
 			"lat": 49.44,
 			"lng": 3.72
 		},
 		{
+			"id": "batalla-de-waterloo",
 			"nombre": "Batalla de Waterloo",
-			"nombre_en": "Battle of Waterloo",
 			"anio": 1815,
 			"lat": 50.68,
 			"lng": 4.41,

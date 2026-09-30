@@ -1,7 +1,6 @@
 {
 	"id": "indonesia",
 	"nombre": "Indonesia",
-	"nombre_en": "Indonesia",
 	"nombres": [
 		"Indonesia",
 		"Dutch East Indies",
@@ -10,19 +9,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Indias Orientales de la Compañía Neerlandesa (VOC)",
-			"nombre_en": "East Indies of the Dutch East India Company (VOC)",
 			"desde": 1602,
 			"hasta": 1799
 		},
 		{
 			"nombre": "Indias Orientales Neerlandesas",
-			"nombre_en": "Dutch East Indies",
 			"desde": 1800,
 			"hasta": 1944
 		},
 		{
 			"nombre": "República de Indonesia",
-			"nombre_en": "Republic of Indonesia",
 			"desde": 1945,
 			"hasta": 2026
 		}

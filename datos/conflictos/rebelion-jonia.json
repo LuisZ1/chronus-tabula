@@ -1,7 +1,6 @@
 {
 	"id": "rebelion-jonia",
 	"nombre": "Rebelión jonia",
-	"nombre_en": "Ionian Revolt",
 	"inicio": -499,
 	"fin": -493,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Rebelión jónica",
 	"zonas": [
 		{
+			"id": "jonia-costa-de-asia-menor",
 			"nombre": "Jonia (costa de Asia Menor)",
-			"nombre_en": "Ionia (coast of Asia Minor)",
 			"tipo": "frente",
 			"desde": -499,
 			"hasta": -493,
@@ -41,15 +40,15 @@
 	],
 	"batallas": [
 		{
+			"id": "incendio-de-sardes",
 			"nombre": "Incendio de Sardes",
-			"nombre_en": "Burning of Sardis",
 			"anio": -498,
 			"lat": 38.49,
 			"lng": 28.04
 		},
 		{
+			"id": "batalla-naval-de-lade-caida-de-mileto",
 			"nombre": "Batalla naval de Lade / caída de Mileto",
-			"nombre_en": "Battle of Lade / fall of Miletus",
 			"anio": -494,
 			"lat": 37.53,
 			"lng": 27.28

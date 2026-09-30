@@ -1,7 +1,6 @@
 {
 	"id": "guerra-malvinas",
 	"nombre": "Guerra de las Malvinas",
-	"nombre_en": "Falklands War",
 	"inicio": 1982,
 	"fin": 1982,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra de las Malvinas",
 	"zonas": [
 		{
+			"id": "islas-malvinas-ocupacion-y-reconquista",
 			"nombre": "Islas Malvinas (ocupación y reconquista)",
-			"nombre_en": "Falkland Islands (occupation and recapture)",
 			"tipo": "ocupado",
 			"desde": 1982,
 			"hasta": 1982,
@@ -38,8 +37,8 @@
 			]
 		},
 		{
+			"id": "zona-de-exclusion-del-atlantico-sur",
 			"nombre": "Zona de exclusión del Atlántico Sur",
-			"nombre_en": "South Atlantic exclusion zone",
 			"tipo": "frente",
 			"desde": 1982,
 			"hasta": 1982,
@@ -65,43 +64,43 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-pradera-del-ganso-goose-green",
 			"nombre": "Batalla de Pradera del Ganso (Goose Green)",
-			"nombre_en": "Battle of Goose Green (Pradera del Ganso)",
 			"anio": 1982,
 			"lat": -51.82,
 			"lng": -58.97
 		},
 		{
+			"id": "batalla-de-san-carlos",
 			"nombre": "Batalla de San Carlos",
-			"nombre_en": "Battle of San Carlos",
 			"anio": 1982,
 			"lat": -51.51,
 			"lng": -59.08
 		},
 		{
+			"id": "batalla-del-monte-longdon",
 			"nombre": "Batalla del Monte Longdon",
-			"nombre_en": "Battle of Mount Longdon",
 			"anio": 1982,
 			"lat": -51.68,
 			"lng": -58.0
 		},
 		{
+			"id": "hundimiento-del-ara-general-belgrano",
 			"nombre": "Hundimiento del ARA General Belgrano",
-			"nombre_en": "Sinking of ARA General Belgrano",
 			"anio": 1982,
 			"lat": -55.4,
 			"lng": -61.5
 		},
 		{
+			"id": "hundimiento-del-hms-sheffield",
 			"nombre": "Hundimiento del HMS Sheffield",
-			"nombre_en": "Sinking of HMS Sheffield",
 			"anio": 1982,
 			"lat": -53.07,
 			"lng": -56.93
 		},
 		{
+			"id": "rendicion-en-puerto-argentino-stanley",
 			"nombre": "Rendición en Puerto Argentino (Stanley)",
-			"nombre_en": "Surrender at Stanley (Puerto Argentino)",
 			"anio": 1982,
 			"lat": -51.69,
 			"lng": -57.85

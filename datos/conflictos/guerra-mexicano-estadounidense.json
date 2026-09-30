@@ -1,7 +1,6 @@
 {
 	"id": "guerra-mexicano-estadounidense",
 	"nombre": "Guerra de Estados Unidos contra México",
-	"nombre_en": "Mexican–American War",
 	"inicio": 1846,
 	"fin": 1848,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Intervención estadounidense en México",
 	"zonas": [
 		{
+			"id": "norte-de-mexico-y-texas",
 			"nombre": "Norte de México y Texas",
-			"nombre_en": "Northern Mexico and Texas",
 			"tipo": "frente",
 			"desde": 1846,
 			"hasta": 1847,
@@ -38,8 +37,8 @@
 			]
 		},
 		{
+			"id": "alta-california",
 			"nombre": "Alta California",
-			"nombre_en": "Alta California",
 			"tipo": "frente",
 			"desde": 1846,
 			"hasta": 1847,
@@ -67,8 +66,8 @@
 			]
 		},
 		{
+			"id": "nuevo-mexico",
 			"nombre": "Nuevo México",
-			"nombre_en": "New Mexico",
 			"tipo": "frente",
 			"desde": 1846,
 			"hasta": 1847,
@@ -92,8 +91,8 @@
 			]
 		},
 		{
+			"id": "campana-de-veracruz-a-mexico",
 			"nombre": "Campaña de Veracruz a México",
-			"nombre_en": "Campaign from Veracruz to Mexico City",
 			"tipo": "frente",
 			"desde": 1847,
 			"hasta": 1847,
@@ -119,160 +118,160 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-chino",
 			"nombre": "Batalla de Chino",
-			"nombre_en": "Battle of Chino",
 			"anio": 1846,
 			"lat": 33.99,
 			"lng": -117.72
 		},
 		{
+			"id": "batalla-de-monterey",
 			"nombre": "Batalla de Monterey",
-			"nombre_en": "Battle of Monterey",
 			"anio": 1846,
 			"lat": 36.61,
 			"lng": -121.9,
 			"descripcion": "Ocupación estadounidense de Monterey, capital de la Alta California."
 		},
 		{
+			"id": "batalla-de-monterrey",
 			"nombre": "Batalla de Monterrey",
-			"nombre_en": "Battle of Monterrey",
 			"anio": 1846,
 			"lat": 25.68,
 			"lng": -100.31
 		},
 		{
+			"id": "batalla-de-natividad",
 			"nombre": "Batalla de Natividad",
-			"nombre_en": "Battle of Natividad",
 			"anio": 1846,
 			"lat": 36.77,
 			"lng": -121.6
 		},
 		{
+			"id": "batalla-de-palo-alto",
 			"nombre": "Batalla de Palo Alto",
-			"nombre_en": "Battle of Palo Alto",
 			"anio": 1846,
 			"lat": 26.02,
 			"lng": -97.47,
 			"descripcion": "Primera gran batalla de la guerra (8 de mayo de 1846)."
 		},
 		{
+			"id": "batalla-de-resaca-de-la-palma",
 			"nombre": "Batalla de Resaca de la Palma",
-			"nombre_en": "Battle of Resaca de la Palma",
 			"anio": 1846,
 			"lat": 25.94,
 			"lng": -97.49
 		},
 		{
+			"id": "batalla-de-san-pascual",
 			"nombre": "Batalla de San Pascual",
-			"nombre_en": "Battle of San Pasqual",
 			"anio": 1846,
 			"lat": 33.09,
 			"lng": -116.99
 		},
 		{
+			"id": "batalla-de-santa-fe",
 			"nombre": "Batalla de Santa Fe",
-			"nombre_en": "Battle of Santa Fe",
 			"anio": 1846,
 			"lat": 35.67,
 			"lng": -105.96
 		},
 		{
+			"id": "batalla-del-rancho-dominguez",
 			"nombre": "Batalla del Rancho Domínguez",
-			"nombre_en": "Battle of Dominguez Rancho",
 			"anio": 1846,
 			"lat": 33.77,
 			"lng": -118.32
 		},
 		{
+			"id": "incidente-de-thornton",
 			"nombre": "Incidente de Thornton",
-			"nombre_en": "Thornton Affair",
 			"anio": 1846,
 			"lat": 26.06,
 			"lng": -97.78,
 			"descripcion": "Escaramuza en la franja disputada entre el Nueces y el Bravo que Estados Unidos usó como casus belli."
 		},
 		{
+			"id": "sitio-de-fort-texas",
 			"nombre": "Sitio de Fort Texas",
-			"nombre_en": "Siege of Fort Texas",
 			"anio": 1846,
 			"lat": 25.9,
 			"lng": -97.49
 		},
 		{
+			"id": "batalla-de-cerro-gordo",
 			"nombre": "Batalla de Cerro Gordo",
-			"nombre_en": "Battle of Cerro Gordo",
 			"anio": 1847,
 			"lat": 19.45,
 			"lng": -96.67,
 			"descripcion": "Scott abre el camino de Veracruz a la capital."
 		},
 		{
+			"id": "batalla-de-chapultepec",
 			"nombre": "Batalla de Chapultepec",
-			"nombre_en": "Battle of Chapultepec",
 			"anio": 1847,
 			"lat": 19.42,
 			"lng": -99.18,
 			"descripcion": "Los Niños Héroes; al día siguiente cae la capital."
 		},
 		{
+			"id": "batalla-de-la-angostura-buena-vista",
 			"nombre": "Batalla de La Angostura (Buena Vista)",
-			"nombre_en": "Battle of La Angostura (Buena Vista)",
 			"anio": 1847,
 			"lat": 25.34,
 			"lng": -101.05
 		},
 		{
+			"id": "batalla-de-la-mesa",
 			"nombre": "Batalla de La Mesa",
-			"nombre_en": "Battle of La Mesa",
 			"anio": 1847,
 			"lat": 34.0,
 			"lng": -118.2
 		},
 		{
+			"id": "batalla-de-mora",
 			"nombre": "Batalla de Mora",
-			"nombre_en": "Battle of Mora",
 			"anio": 1847,
 			"lat": 35.97,
 			"lng": -105.33
 		},
 		{
+			"id": "batalla-de-sacramento",
 			"nombre": "Batalla de Sacramento",
-			"nombre_en": "Battle of the Sacramento River",
 			"anio": 1847,
 			"lat": 28.87,
 			"lng": -106.19
 		},
 		{
+			"id": "batalla-de-santa-clara",
 			"nombre": "Batalla de Santa Clara",
-			"nombre_en": "Battle of Santa Clara",
 			"anio": 1847,
 			"lat": 37.35,
 			"lng": -121.95
 		},
 		{
+			"id": "batalla-de-la-canada",
 			"nombre": "Batalla de la Cañada",
-			"nombre_en": "Battle of La Cañada",
 			"anio": 1847,
 			"lat": 35.99,
 			"lng": -106.04
 		},
 		{
+			"id": "batalla-del-paso-de-embudo",
 			"nombre": "Batalla del Paso de Embudo",
-			"nombre_en": "Battle of Embudo Pass",
 			"anio": 1847,
 			"lat": 36.2,
 			"lng": -105.9
 		},
 		{
+			"id": "batalla-del-rio-san-gabriel",
 			"nombre": "Batalla del Río San Gabriel",
-			"nombre_en": "Battle of Río San Gabriel",
 			"anio": 1847,
 			"lat": 33.99,
 			"lng": -118.11
 		},
 		{
+			"id": "segunda-batalla-de-mora",
 			"nombre": "Segunda batalla de Mora",
-			"nombre_en": "Second Battle of Mora",
 			"anio": 1847,
 			"lat": 35.97,
 			"lng": -105.33

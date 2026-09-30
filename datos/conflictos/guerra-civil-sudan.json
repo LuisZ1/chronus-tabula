@@ -1,7 +1,6 @@
 {
 	"id": "guerra-civil-sudan",
 	"nombre": "Guerra civil sudanesa",
-	"nombre_en": "Sudanese civil war",
 	"inicio": 2023,
 	"fin": 2026,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Guerra civil sudanesa (2023-presente)",
 	"zonas": [
 		{
+			"id": "batalla-de-jartum",
 			"nombre": "Batalla de Jartum",
-			"nombre_en": "Battle of Khartoum",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2025,
@@ -37,8 +36,8 @@
 			]
 		},
 		{
+			"id": "darfur",
 			"nombre": "Darfur",
-			"nombre_en": "Darfur",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2026,
@@ -64,16 +63,16 @@
 	],
 	"batallas": [
 		{
+			"id": "masacre-de-geneina",
 			"nombre": "Masacre de Geneina",
-			"nombre_en": "Geneina massacre",
 			"anio": 2023,
 			"lat": 13.45,
 			"lng": 22.44,
 			"descripcion": "Limpieza étnica contra los masalit en Darfur Occidental."
 		},
 		{
+			"id": "batalla-de-jartum",
 			"nombre": "Batalla de Jartum",
-			"nombre_en": "Battle of Khartoum",
 			"anio": 2023,
 			"hasta": 2025,
 			"lat": 15.59,
@@ -81,8 +80,8 @@
 			"descripcion": "La capital, campo de batalla urbano durante dos años; el ejército la recupera en marzo de 2025."
 		},
 		{
+			"id": "caida-de-el-fasher",
 			"nombre": "Caída de El Fasher",
-			"nombre_en": "Fall of El Fasher",
 			"anio": 2025,
 			"lat": 13.63,
 			"lng": 25.35,
