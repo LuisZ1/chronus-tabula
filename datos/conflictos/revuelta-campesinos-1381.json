@@ -1,6 +1,7 @@
 {
 	"id": "revuelta-campesinos-1381",
 	"nombre": "Revuelta de los Campesinos",
+	"nombre_en": "Peasants' Revolt",
 	"inicio": 1381,
 	"fin": 1381,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Kent, Essex y Londres",
+			"nombre_en": "Kent, Essex and London",
 			"tipo": "frente",
 			"desde": 1381,
 			"hasta": 1381,
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Enfrentamiento de Smithfield (muerte de Wat Tyler)",
+			"nombre_en": "Confrontation at Smithfield (death of Wat Tyler)",
 			"anio": 1381,
 			"lat": 51.52,
 			"lng": -0.1

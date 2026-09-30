@@ -1,6 +1,7 @@
 {
 	"id": "guerras-magiares",
 	"nombre": "Guerras germano-magiares",
+	"nombre_en": "German-Hungarian wars",
 	"inicio": 899,
 	"fin": 955,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Incursiones magiares en Europa central",
+			"nombre_en": "Hungarian raids in Central Europe",
 			"tipo": "frente",
 			"desde": 899,
 			"hasta": 955,
@@ -40,6 +42,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Presburgo",
+			"nombre_en": "Battle of Pressburg",
 			"anio": 907,
 			"lat": 48.14,
 			"lng": 17.11,
@@ -47,6 +50,7 @@
 		},
 		{
 			"nombre": "Batalla de Riade",
+			"nombre_en": "Battle of Riade",
 			"anio": 933,
 			"lat": 51.3,
 			"lng": 11.6,
@@ -54,6 +58,7 @@
 		},
 		{
 			"nombre": "Batalla de Lechfeld",
+			"nombre_en": "Battle of Lechfeld",
 			"anio": 955,
 			"lat": 48.25,
 			"lng": 10.9,

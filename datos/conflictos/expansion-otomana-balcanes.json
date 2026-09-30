@@ -1,6 +1,7 @@
 {
 	"id": "expansion-otomana-balcanes",
 	"nombre": "Expansión otomana en los Balcanes",
+	"nombre_en": "Ottoman expansion in the Balkans",
 	"inicio": 1302,
 	"fin": 1448,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Rumelia (Balcanes otomanos)",
+			"nombre_en": "Rumelia (Ottoman Balkans)",
 			"tipo": "ocupado",
 			"desde": 1354,
 			"hasta": 1448,
@@ -46,30 +48,35 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Bafeo",
+			"nombre_en": "Battle of Bapheus",
 			"anio": 1302,
 			"lat": 40.7,
 			"lng": 29.9
 		},
 		{
 			"nombre": "Batalla de Kosovo Polje",
+			"nombre_en": "Battle of Kosovo",
 			"anio": 1389,
 			"lat": 42.66,
 			"lng": 21.1
 		},
 		{
 			"nombre": "Batalla de Nicópolis",
+			"nombre_en": "Battle of Nicopolis",
 			"anio": 1396,
 			"lat": 43.7,
 			"lng": 24.9
 		},
 		{
 			"nombre": "Batalla de Varna",
+			"nombre_en": "Battle of Varna",
 			"anio": 1444,
 			"lat": 43.2,
 			"lng": 27.91
 		},
 		{
 			"nombre": "Segunda batalla de Kosovo Polje",
+			"nombre_en": "Second Battle of Kosovo",
 			"anio": 1448,
 			"lat": 42.66,
 			"lng": 21.1

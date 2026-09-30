@@ -1,6 +1,7 @@
 {
 	"id": "guerra-de-gaza",
 	"nombre": "Guerra de Gaza",
+	"nombre_en": "Gaza war",
 	"inicio": 2023,
 	"fin": 2025,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Franja de Gaza",
+			"nombre_en": "Gaza Strip",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2025,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Envolvente de Gaza (ataque del 7-O)",
+			"nombre_en": "Gaza envelope (October 7 attack)",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2023,
@@ -63,6 +66,7 @@
 	"batallas": [
 		{
 			"nombre": "Ataque del 7 de octubre",
+			"nombre_en": "October 7 attacks",
 			"anio": 2023,
 			"lat": 31.44,
 			"lng": 34.59,
@@ -72,6 +76,7 @@
 		},
 		{
 			"nombre": "Batalla de Ciudad de Gaza",
+			"nombre_en": "Battle of Gaza City",
 			"anio": 2023,
 			"lat": 31.5,
 			"lng": 34.47,
@@ -79,6 +84,7 @@
 		},
 		{
 			"nombre": "Batalla de Jan Yunis",
+			"nombre_en": "Battle of Khan Yunis",
 			"anio": 2024,
 			"lat": 31.34,
 			"lng": 34.31,
@@ -86,6 +92,7 @@
 		},
 		{
 			"nombre": "Ofensiva de Rafah",
+			"nombre_en": "Rafah offensive",
 			"anio": 2024,
 			"lat": 31.29,
 			"lng": 34.25,

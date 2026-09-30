@@ -1,6 +1,7 @@
 {
 	"id": "conquista-zhou-de-shang",
 	"nombre": "Conquista Zhou de los Shang",
+	"nombre_en": "Zhou conquest of Shang",
 	"inicio": -1046,
 	"fin": -1046,
 	"paises": [
@@ -13,6 +14,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Muye",
+			"nombre_en": "Battle of Muye",
 			"anio": -1046,
 			"lat": 35.3,
 			"lng": 113.93,

@@ -1,6 +1,7 @@
 {
 	"id": "siete-anos",
 	"nombre": "Guerra de los Siete Años",
+	"nombre_en": "Seven Years' War",
 	"inicio": 1756,
 	"fin": 1763,
 	"paises": [
@@ -18,6 +19,7 @@
 	"zonas": [
 		{
 			"nombre": "Europa central",
+			"nombre_en": "Central Europe",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -44,6 +46,7 @@
 		},
 		{
 			"nombre": "Norteamérica (guerra franco-india)",
+			"nombre_en": "North America (French and Indian War)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -74,6 +77,7 @@
 		},
 		{
 			"nombre": "Caribe (La Habana)",
+			"nombre_en": "Caribbean (Havana)",
 			"tipo": "frente",
 			"desde": 1762,
 			"hasta": 1763,
@@ -98,6 +102,7 @@
 		},
 		{
 			"nombre": "India (Bengala)",
+			"nombre_en": "India (Bengal)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -120,6 +125,7 @@
 		},
 		{
 			"nombre": "Filipinas (Manila)",
+			"nombre_en": "Philippines (Manila)",
 			"tipo": "frente",
 			"desde": 1762,
 			"hasta": 1763,
@@ -146,18 +152,21 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Cap-Français",
+			"nombre_en": "Battle of Cap-Français",
 			"anio": 1757,
 			"lat": 19.8,
 			"lng": -72.2
 		},
 		{
 			"nombre": "Batalla de Chandannagar",
+			"nombre_en": "Battle of Chandannagar",
 			"anio": 1757,
 			"lat": 22.86,
 			"lng": 88.38
 		},
 		{
 			"nombre": "Batalla de Leuthen",
+			"nombre_en": "Battle of Leuthen",
 			"anio": 1757,
 			"lat": 51.15,
 			"lng": 16.75,
@@ -166,6 +175,7 @@
 		},
 		{
 			"nombre": "Batalla de Plassey",
+			"nombre_en": "Battle of Plassey",
 			"anio": 1757,
 			"lat": 23.8,
 			"lng": 88.25,
@@ -173,6 +183,7 @@
 		},
 		{
 			"nombre": "Batalla de Rossbach",
+			"nombre_en": "Battle of Rossbach",
 			"anio": 1757,
 			"lat": 51.27,
 			"lng": 11.89,
@@ -181,42 +192,50 @@
 		},
 		{
 			"nombre": "Batalla de Cuddalore (1758)",
+			"nombre_en": "Battle of Cuddalore (1758)",
 			"anio": 1758,
 			"lat": 11.75,
 			"lng": 79.75
 		},
 		{
 			"nombre": "Batalla de Negapatam",
+			"nombre_en": "Battle of Negapatam",
 			"anio": 1758,
 			"lat": 10.77,
 			"lng": 79.83
 		},
 		{
 			"nombre": "Batalla de Kunersdorf",
+			"nombre_en": "Battle of Kunersdorf",
 			"anio": 1759,
 			"lat": 52.35,
 			"lng": 14.61
 		},
 		{
 			"nombre": "Batalla de Pondicherry",
+			"nombre_en": "Battle of Pondicherry",
 			"anio": 1759,
 			"lat": 11.93,
 			"lng": 79.83
 		},
 		{
 			"nombre": "Batalla de Quiberon Bay",
+			"nombre_en": "Battle of Quiberon Bay",
 			"anio": 1759,
 			"lat": 47.52,
 			"lng": -3.0
 		},
 		{
-			"nombre": "Raid on Le Havre",
+			"nombre": "Incursión en El Havre",
+			"nombre_en": "Raid on Le Havre",
 			"anio": 1759,
 			"lat": 49.44,
-			"lng": 0.14
+			"lng": 0.14,
+			"wiki": "en:Le Havre raid"
 		},
 		{
 			"nombre": "Toma de Quebec (llanuras de Abraham)",
+			"nombre_en": "Capture of Quebec (Plains of Abraham)",
 			"anio": 1759,
 			"lat": 46.8,
 			"lng": -71.22,
@@ -224,24 +243,28 @@
 		},
 		{
 			"nombre": "Batalla de Neuville",
+			"nombre_en": "Battle of Neuville",
 			"anio": 1760,
 			"lat": 46.42,
 			"lng": -71.58
 		},
 		{
-			"nombre": "Acción del 17 Julio 1761",
+			"nombre": "Acción del 17 de julio de 1761",
+			"nombre_en": "Action of 17 July 1761",
 			"anio": 1761,
 			"lat": 36.5,
 			"lng": -6.39
 		},
 		{
 			"nombre": "Batalla de Signal Hill",
+			"nombre_en": "Battle of Signal Hill",
 			"anio": 1762,
 			"lat": 47.57,
 			"lng": -52.68
 		},
 		{
 			"nombre": "Toma de La Habana",
+			"nombre_en": "Capture of Havana",
 			"anio": 1762,
 			"lat": 23.13,
 			"lng": -82.35,
@@ -250,6 +273,7 @@
 		},
 		{
 			"nombre": "Toma de Manila",
+			"nombre_en": "Capture of Manila",
 			"anio": 1762,
 			"lat": 14.6,
 			"lng": 120.98,

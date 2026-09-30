@@ -1,6 +1,7 @@
 {
 	"id": "expansion-neoasiria",
 	"nombre": "Expansión del Imperio neoasirio",
+	"nombre_en": "Expansion of the Neo-Assyrian Empire",
 	"inicio": -911,
 	"fin": -647,
 	"paises": [
@@ -19,6 +20,7 @@
 	"zonas": [
 		{
 			"nombre": "Siria y Levante",
+			"nombre_en": "Syria and the Levant",
 			"tipo": "frente",
 			"desde": -853,
 			"hasta": -701,
@@ -51,6 +53,7 @@
 		},
 		{
 			"nombre": "Egipto",
+			"nombre_en": "Egypt",
 			"tipo": "frente",
 			"desde": -671,
 			"hasta": -663,
@@ -83,6 +86,7 @@
 		},
 		{
 			"nombre": "Elam",
+			"nombre_en": "Elam",
 			"tipo": "frente",
 			"desde": -653,
 			"hasta": -647,
@@ -109,6 +113,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Qarqar",
+			"nombre_en": "Battle of Qarqar",
 			"anio": -853,
 			"lat": 35.74,
 			"lng": 36.33,
@@ -117,6 +122,7 @@
 		},
 		{
 			"nombre": "Destrucción de Susa",
+			"nombre_en": "Destruction of Susa",
 			"anio": -647,
 			"lat": 32.19,
 			"lng": 48.26,

@@ -1,6 +1,7 @@
 {
 	"id": "guerras-ruso-turcas",
 	"nombre": "Guerras ruso-turcas (1711-1829)",
+	"nombre_en": "Russo-Turkish wars (1711-1829)",
 	"inicio": 1711,
 	"fin": 1829,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Mar Negro, Danubio y Cáucaso en disputa",
+			"nombre_en": "Black Sea, Danube and Caucasus in dispute",
 			"tipo": "frente",
 			"desde": 1711,
 			"hasta": 1829,
@@ -41,6 +43,7 @@
 		},
 		{
 			"nombre": "Egeo (expedición rusa del Archipiélago)",
+			"nombre_en": "Aegean (Russian Archipelago Expedition)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1769,
@@ -84,12 +87,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del Prut",
+			"nombre_en": "Battle of the Prut",
 			"anio": 1711,
 			"lat": 46.6,
 			"lng": 28.0
 		},
 		{
 			"nombre": "Batalla de Chesme",
+			"nombre_en": "Battle of Chesma",
 			"anio": 1770,
 			"lat": 38.33,
 			"lng": 26.29,
@@ -97,6 +102,7 @@
 		},
 		{
 			"nombre": "Batalla de Kagul",
+			"nombre_en": "Battle of Kagul",
 			"anio": 1770,
 			"lat": 45.92,
 			"lng": 28.18,
@@ -104,6 +110,7 @@
 		},
 		{
 			"nombre": "Batalla de Rímnik",
+			"nombre_en": "Battle of Rymnik",
 			"anio": 1789,
 			"lat": 45.38,
 			"lng": 27.06,
@@ -111,6 +118,7 @@
 		},
 		{
 			"nombre": "Asalto de Izmail",
+			"nombre_en": "Siege of Izmail",
 			"anio": 1790,
 			"lat": 45.35,
 			"lng": 28.83,
@@ -118,6 +126,7 @@
 		},
 		{
 			"nombre": "Batalla de Kulevicha",
+			"nombre_en": "Battle of Kulevicha",
 			"anio": 1829,
 			"lat": 43.26,
 			"lng": 27.12,

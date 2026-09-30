@@ -1,6 +1,7 @@
 {
 	"id": "guerra-civil-espanola",
 	"nombre": "Guerra Civil Española",
+	"nombre_en": "Spanish Civil War",
 	"inicio": 1936,
 	"fin": 1939,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Avance sobre Madrid",
+			"nombre_en": "Advance on Madrid",
 			"tipo": "frente",
 			"desde": 1936,
 			"hasta": 1937,
@@ -40,6 +42,7 @@
 		},
 		{
 			"nombre": "Frente del Norte",
+			"nombre_en": "Northern Front",
 			"tipo": "frente",
 			"desde": 1936,
 			"hasta": 1937,
@@ -64,6 +67,7 @@
 		},
 		{
 			"nombre": "Aragón y el Ebro",
+			"nombre_en": "Aragon and the Ebro",
 			"tipo": "frente",
 			"desde": 1937,
 			"hasta": 1938,
@@ -88,6 +92,7 @@
 		},
 		{
 			"nombre": "Cataluña (ofensiva final)",
+			"nombre_en": "Catalonia (final offensive)",
 			"tipo": "frente",
 			"desde": 1939,
 			"hasta": 1939,
@@ -112,6 +117,7 @@
 		},
 		{
 			"nombre": "España en guerra",
+			"nombre_en": "Spain at war",
 			"tipo": "ocupado",
 			"desde": 1936,
 			"hasta": 1939,
@@ -150,6 +156,7 @@
 	"batallas": [
 		{
 			"nombre": "Defensa de Madrid",
+			"nombre_en": "Defence of Madrid",
 			"anio": 1936,
 			"lat": 40.42,
 			"lng": -3.7,
@@ -157,6 +164,7 @@
 		},
 		{
 			"nombre": "Batalla del Jarama",
+			"nombre_en": "Battle of Jarama",
 			"anio": 1937,
 			"lat": 40.27,
 			"lng": -3.53,
@@ -165,6 +173,7 @@
 		},
 		{
 			"nombre": "Bombardeo de Guernica",
+			"nombre_en": "Bombing of Guernica",
 			"anio": 1937,
 			"lat": 43.32,
 			"lng": -2.68,
@@ -173,6 +182,7 @@
 		},
 		{
 			"nombre": "Batalla de Teruel",
+			"nombre_en": "Battle of Teruel",
 			"anio": 1938,
 			"lat": 40.34,
 			"lng": -1.11,
@@ -181,6 +191,7 @@
 		},
 		{
 			"nombre": "Batalla del Ebro",
+			"nombre_en": "Battle of the Ebro",
 			"anio": 1938,
 			"lat": 41.08,
 			"lng": 0.44,

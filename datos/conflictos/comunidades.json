@@ -1,6 +1,7 @@
 {
 	"id": "comunidades",
 	"nombre": "Guerra de las Comunidades de Castilla",
+	"nombre_en": "Revolt of the Comuneros",
 	"inicio": 1520,
 	"fin": 1522,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Meseta castellana",
+			"nombre_en": "Castilian Meseta",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Villalar",
+			"nombre_en": "Battle of Villalar",
 			"anio": 1521,
 			"lat": 41.55,
 			"lng": -5.1,

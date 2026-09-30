@@ -1,6 +1,7 @@
 {
 	"id": "an-lushan",
 	"nombre": "Rebelión de An Lushan",
+	"nombre_en": "An Lushan rebellion",
 	"inicio": 755,
 	"fin": 763,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Norte de China (capitales Tang)",
+			"nombre_en": "Northern China (Tang capitals)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Caída de Chang'an",
+			"nombre_en": "Fall of Chang'an",
 			"anio": 756,
 			"lat": 34.26,
 			"lng": 108.94,
@@ -44,6 +47,7 @@
 		},
 		{
 			"nombre": "Sitio de Suiyang",
+			"nombre_en": "Siege of Suiyang",
 			"anio": 757,
 			"lat": 34.42,
 			"lng": 115.66,

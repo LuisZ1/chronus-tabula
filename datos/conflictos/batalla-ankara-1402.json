@@ -1,6 +1,7 @@
 {
 	"id": "batalla-ankara-1402",
 	"nombre": "Batalla de Ankara y colapso otomano",
+	"nombre_en": "Battle of Ankara and Ottoman collapse",
 	"inicio": 1402,
 	"fin": 1402,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Anatolia central invadida por Tamerlán",
+			"nombre_en": "Central Anatolia invaded by Timur",
 			"tipo": "frente",
 			"desde": 1402,
 			"hasta": 1402,
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Ankara",
+			"nombre_en": "Battle of Ankara",
 			"anio": 1402,
 			"lat": 40.0,
 			"lng": 33.0

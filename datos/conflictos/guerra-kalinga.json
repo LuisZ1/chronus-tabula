@@ -1,6 +1,7 @@
 {
 	"id": "guerra-kalinga",
 	"nombre": "Guerra de Kalinga",
+	"nombre_en": "Kalinga War",
 	"inicio": -262,
 	"fin": -261,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Kalinga (Odisha)",
+			"nombre_en": "Kalinga (Odisha)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -41,6 +43,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Kalinga (colinas de Dhauli)",
+			"nombre_en": "Battle of Kalinga (Dhauli hills)",
 			"anio": -261,
 			"lat": 20.19,
 			"lng": 85.84,

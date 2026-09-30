@@ -1,6 +1,7 @@
 {
 	"id": "india-britanica",
 	"nombre": "Conquista británica de la India",
+	"nombre_en": "British conquest of India",
 	"inicio": 1757,
 	"fin": 1818,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Bengala",
+			"nombre_en": "Bengal",
 			"tipo": "frente",
 			"desde": 1757,
 			"hasta": 1765,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Mysore (Tipu Sultán)",
+			"nombre_en": "Mysore (Tipu Sultan)",
 			"tipo": "frente",
 			"desde": 1767,
 			"hasta": 1799,
@@ -63,6 +66,7 @@
 		},
 		{
 			"nombre": "Guerras maratha",
+			"nombre_en": "Maratha Wars",
 			"tipo": "frente",
 			"desde": 1775,
 			"hasta": 1818,
@@ -87,6 +91,7 @@
 		},
 		{
 			"nombre": "India de la Compañía",
+			"nombre_en": "Company India",
 			"tipo": "ocupado",
 			"desde": 1765,
 			"hasta": 1818,
@@ -121,6 +126,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Plassey",
+			"nombre_en": "Battle of Plassey",
 			"anio": 1757,
 			"lat": 23.8,
 			"lng": 88.25,
@@ -128,6 +134,7 @@
 		},
 		{
 			"nombre": "Caída de Seringapatam",
+			"nombre_en": "Fall of Seringapatam",
 			"anio": 1799,
 			"lat": 12.42,
 			"lng": 76.7,
@@ -135,6 +142,7 @@
 		},
 		{
 			"nombre": "Batalla de Assaye",
+			"nombre_en": "Battle of Assaye",
 			"anio": 1803,
 			"lat": 20.25,
 			"lng": 75.89,

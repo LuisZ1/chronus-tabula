@@ -1,6 +1,7 @@
 {
 	"id": "guerra-kenmu",
 	"nombre": "Restauración Kenmu y guerra Nanbokuchō",
+	"nombre_en": "Kenmu Restoration and Nanboku-chō wars",
 	"inicio": 1333,
 	"fin": 1392,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Kioto y las cortes rivales",
+			"nombre_en": "Kyoto and the rival courts",
 			"tipo": "frente",
 			"desde": 1333,
 			"hasta": 1392,
@@ -40,6 +42,7 @@
 	"batallas": [
 		{
 			"nombre": "Caída de Kamakura",
+			"nombre_en": "Fall of Kamakura",
 			"anio": 1333,
 			"lat": 35.32,
 			"lng": 139.55,
@@ -47,6 +50,7 @@
 		},
 		{
 			"nombre": "Batalla del río Minato (Minatogawa)",
+			"nombre_en": "Battle of the Minato River (Minatogawa)",
 			"anio": 1336,
 			"lat": 34.68,
 			"lng": 135.17,

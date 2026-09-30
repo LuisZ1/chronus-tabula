@@ -1,6 +1,7 @@
 {
 	"id": "crimea",
 	"nombre": "Guerra de Crimea",
+	"nombre_en": "Crimean War",
 	"inicio": 1853,
 	"fin": 1856,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Crimea y el mar Negro",
+			"nombre_en": "Crimea and the Black Sea",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -40,24 +42,28 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Oltenitza",
+			"nombre_en": "Battle of Oltenița",
 			"anio": 1853,
 			"lat": 44.09,
 			"lng": 26.64
 		},
 		{
 			"nombre": "Batalla de Sinope",
+			"nombre_en": "Battle of Sinop",
 			"anio": 1853,
 			"lat": 42.02,
 			"lng": 35.15
 		},
 		{
 			"nombre": "Asedio de Silistra",
+			"nombre_en": "Siege of Silistra",
 			"anio": 1854,
 			"lat": 44.12,
 			"lng": 27.26
 		},
 		{
 			"nombre": "Batalla de Balaclava",
+			"nombre_en": "Battle of Balaclava",
 			"anio": 1854,
 			"lat": 44.5,
 			"lng": 33.6,
@@ -65,42 +71,49 @@
 		},
 		{
 			"nombre": "Batalla de Nigoiti",
+			"nombre_en": "Battle of Nigoeti",
 			"anio": 1854,
 			"lat": 42.08,
 			"lng": 42.11
 		},
 		{
 			"nombre": "Batalla del Choloki",
+			"nombre_en": "Battle of Choloki",
 			"anio": 1854,
 			"lat": 41.85,
 			"lng": 41.97
 		},
 		{
 			"nombre": "Batalla del río Alma",
+			"nombre_en": "Battle of the Alma",
 			"anio": 1854,
 			"lat": 44.83,
 			"lng": 33.67
 		},
 		{
 			"nombre": "Batalla de Eupatoria",
+			"nombre_en": "Battle of Eupatoria",
 			"anio": 1855,
 			"lat": 45.19,
 			"lng": 33.37
 		},
 		{
 			"nombre": "Batalla de Kinburn",
+			"nombre_en": "Battle of Kinburn",
 			"anio": 1855,
 			"lat": 46.6,
 			"lng": 31.5
 		},
 		{
 			"nombre": "Batalla del río Chórnaya",
+			"nombre_en": "Battle of the Chernaya",
 			"anio": 1855,
 			"lat": 44.47,
 			"lng": 33.85
 		},
 		{
 			"nombre": "Sitio de Sebastopol",
+			"nombre_en": "Siege of Sevastopol",
 			"anio": 1855,
 			"lat": 44.6,
 			"lng": 33.53,

@@ -1,6 +1,7 @@
 {
 	"id": "arabe-israeli-1948",
 	"nombre": "Guerra árabe-israelí de 1948",
+	"nombre_en": "1948 Arab–Israeli War",
 	"inicio": 1948,
 	"fin": 1949,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Frente sur: avance egipcio y bolsa de Faluya",
+			"nombre_en": "Southern front: Egyptian advance and the Faluja Pocket",
 			"tipo": "frente",
 			"desde": 1948,
 			"hasta": 1949,
@@ -41,6 +43,7 @@
 		},
 		{
 			"nombre": "Corredor de Jerusalén y frente de Latrún",
+			"nombre_en": "Jerusalem corridor and Latrun front",
 			"tipo": "frente",
 			"desde": 1948,
 			"hasta": 1949,
@@ -65,6 +68,7 @@
 		},
 		{
 			"nombre": "Galilea (frente norte)",
+			"nombre_en": "Galilee (northern front)",
 			"tipo": "frente",
 			"desde": 1948,
 			"hasta": 1949,
@@ -91,18 +95,21 @@
 	"batallas": [
 		{
 			"nombre": "Batallas de Latrún",
+			"nombre_en": "Battles of Latrun",
 			"anio": 1948,
 			"lat": 31.83,
 			"lng": 34.98
 		},
 		{
 			"nombre": "Bolsa de Faluya",
+			"nombre_en": "Faluja Pocket",
 			"anio": 1948,
 			"lat": 31.52,
 			"lng": 34.75
 		},
 		{
 			"nombre": "Operación Yoav (Néguev)",
+			"nombre_en": "Operation Yoav (Negev)",
 			"anio": 1948,
 			"lat": 31.25,
 			"lng": 34.6

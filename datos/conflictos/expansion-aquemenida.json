@@ -1,6 +1,7 @@
 {
 	"id": "expansion-aquemenida",
 	"nombre": "Expansión del Imperio aqueménida",
+	"nombre_en": "Expansion of the Achaemenid Empire",
 	"inicio": -550,
 	"fin": -486,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Media y Lidia (Ciro)",
+			"nombre_en": "Media and Lydia (Cyrus)",
 			"tipo": "frente",
 			"desde": -550,
 			"hasta": -540,
@@ -49,6 +51,7 @@
 		},
 		{
 			"nombre": "Babilonia",
+			"nombre_en": "Babylonia",
 			"tipo": "frente",
 			"desde": -539,
 			"hasta": -538,
@@ -77,6 +80,7 @@
 		},
 		{
 			"nombre": "Egipto (Cambises)",
+			"nombre_en": "Egypt (Cambyses)",
 			"tipo": "frente",
 			"desde": -525,
 			"hasta": -522,
@@ -109,6 +113,7 @@
 		},
 		{
 			"nombre": "Tracia y Escitia (Darío)",
+			"nombre_en": "Thrace and Scythia (Darius)",
 			"tipo": "frente",
 			"desde": -513,
 			"hasta": -512,
@@ -137,6 +142,7 @@
 		},
 		{
 			"nombre": "Imperio aqueménida",
+			"nombre_en": "Achaemenid Empire",
 			"tipo": "ocupado",
 			"desde": -546,
 			"hasta": -486,
@@ -187,6 +193,7 @@
 	"batallas": [
 		{
 			"nombre": "Caída de Sardes",
+			"nombre_en": "Fall of Sardis",
 			"anio": -546,
 			"lat": 38.48,
 			"lng": 28.04,
@@ -194,6 +201,7 @@
 		},
 		{
 			"nombre": "Toma de Babilonia",
+			"nombre_en": "Fall of Babylon",
 			"anio": -539,
 			"lat": 32.54,
 			"lng": 44.42,
@@ -201,6 +209,7 @@
 		},
 		{
 			"nombre": "Batalla de Pelusio",
+			"nombre_en": "Battle of Pelusium",
 			"anio": -525,
 			"lat": 31.04,
 			"lng": 32.54,

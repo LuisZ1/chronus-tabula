@@ -1,6 +1,7 @@
 {
 	"id": "guerras-otomano-safavies",
 	"nombre": "Guerras otomano-safávidas",
+	"nombre_en": "Ottoman–Safavid wars",
 	"inicio": 1514,
 	"fin": 1639,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Anatolia oriental, Cáucaso e Irak en disputa",
+			"nombre_en": "Contested eastern Anatolia, Caucasus and Iraq",
 			"tipo": "frente",
 			"desde": 1514,
 			"hasta": 1639,
@@ -43,12 +45,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Çaldıran",
+			"nombre_en": "Battle of Chaldiran",
 			"anio": 1514,
 			"lat": 39.06,
 			"lng": 44.32
 		},
 		{
 			"nombre": "Conquista de Tabriz y Bagdad",
+			"nombre_en": "Conquest of Tabriz and Baghdad",
 			"anio": 1534,
 			"lat": 33.31,
 			"lng": 44.36

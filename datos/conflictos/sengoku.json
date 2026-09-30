@@ -1,6 +1,7 @@
 {
 	"id": "sengoku",
 	"nombre": "Unificación de Japón (Sengoku)",
+	"nombre_en": "Unification of Japan (Sengoku)",
 	"inicio": 1560,
 	"fin": 1615,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Japón central",
+			"nombre_en": "Central Japan",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -43,6 +45,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Okehazama",
+			"nombre_en": "Battle of Okehazama",
 			"anio": 1560,
 			"lat": 35.06,
 			"lng": 136.97,
@@ -50,6 +53,7 @@
 		},
 		{
 			"nombre": "Batalla de Nagashino",
+			"nombre_en": "Battle of Nagashino",
 			"anio": 1575,
 			"lat": 34.92,
 			"lng": 137.56,
@@ -57,6 +61,7 @@
 		},
 		{
 			"nombre": "Batalla de Sekigahara",
+			"nombre_en": "Battle of Sekigahara",
 			"anio": 1600,
 			"lat": 35.37,
 			"lng": 136.46,
@@ -65,6 +70,7 @@
 		},
 		{
 			"nombre": "Sitio de Osaka",
+			"nombre_en": "Siege of Osaka",
 			"anio": 1615,
 			"lat": 34.69,
 			"lng": 135.53,

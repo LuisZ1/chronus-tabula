@@ -1,6 +1,7 @@
 {
 	"id": "primera-guerra-chino-japonesa",
 	"nombre": "Primera guerra chino-japonesa",
+	"nombre_en": "First Sino-Japanese War",
 	"inicio": 1894,
 	"fin": 1895,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Mar Amarillo, Corea y Liaodong",
+			"nombre_en": "Yellow Sea, Korea and Liaodong",
 			"tipo": "frente",
 			"desde": 1894,
 			"hasta": 1895,
@@ -40,6 +42,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del río Yalú",
+			"nombre_en": "Battle of the Yalu River",
 			"anio": 1894,
 			"lat": 39.4,
 			"lng": 123.4,
@@ -47,6 +50,7 @@
 		},
 		{
 			"nombre": "Batalla de Weihaiwei",
+			"nombre_en": "Battle of Weihaiwei",
 			"anio": 1895,
 			"lat": 37.5,
 			"lng": 122.12,

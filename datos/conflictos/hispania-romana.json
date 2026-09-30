@@ -1,6 +1,7 @@
 {
 	"id": "hispania-romana",
 	"nombre": "Conquista romana de Hispania",
+	"nombre_en": "Roman conquest of Hispania",
 	"inicio": -218,
 	"fin": -19,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Levante y valle del Guadalquivir",
+			"nombre_en": "Levante and the Guadalquivir valley",
 			"tipo": "frente",
 			"desde": -218,
 			"hasta": -195,
@@ -43,6 +45,7 @@
 		},
 		{
 			"nombre": "Lusitania (Viriato)",
+			"nombre_en": "Lusitania (Viriathus)",
 			"tipo": "frente",
 			"desde": -155,
 			"hasta": -139,
@@ -71,6 +74,7 @@
 		},
 		{
 			"nombre": "Celtiberia (Numancia)",
+			"nombre_en": "Celtiberia (Numantia)",
 			"tipo": "frente",
 			"desde": -153,
 			"hasta": -133,
@@ -95,6 +99,7 @@
 		},
 		{
 			"nombre": "Guerras cántabras",
+			"nombre_en": "Cantabrian Wars",
 			"tipo": "frente",
 			"desde": -29,
 			"hasta": -19,
@@ -119,6 +124,7 @@
 		},
 		{
 			"nombre": "Hispania romana",
+			"nombre_en": "Roman Hispania",
 			"tipo": "ocupado",
 			"desde": -133,
 			"hasta": -19,
@@ -153,6 +159,7 @@
 	"batallas": [
 		{
 			"nombre": "Asesinato de Viriato",
+			"nombre_en": "Assassination of Viriathus",
 			"anio": -139,
 			"lat": 38.9,
 			"lng": -6.3,
@@ -160,6 +167,7 @@
 		},
 		{
 			"nombre": "Sitio de Numancia",
+			"nombre_en": "Siege of Numantia",
 			"anio": -133,
 			"lat": 41.81,
 			"lng": -2.44,

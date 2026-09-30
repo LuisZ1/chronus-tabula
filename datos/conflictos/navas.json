@@ -1,6 +1,7 @@
 {
 	"id": "navas",
 	"nombre": "Cruzada de Las Navas de Tolosa",
+	"nombre_en": "Crusade of Las Navas de Tolosa",
 	"inicio": 1212,
 	"fin": 1212,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Sierra Morena y campo de batalla",
+			"nombre_en": "Sierra Morena and the battlefield",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Las Navas de Tolosa",
+			"nombre_en": "Battle of Las Navas de Tolosa",
 			"anio": 1212,
 			"lat": 38.28,
 			"lng": -3.58,

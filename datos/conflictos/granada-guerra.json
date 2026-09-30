@@ -1,6 +1,7 @@
 {
 	"id": "granada-guerra",
 	"nombre": "Guerra de Granada",
+	"nombre_en": "Granada War",
 	"inicio": 1482,
 	"fin": 1492,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Frente occidental (Ronda y Málaga)",
+			"nombre_en": "Western front (Ronda and Málaga)",
 			"tipo": "frente",
 			"desde": 1482,
 			"hasta": 1487,
@@ -38,6 +40,7 @@
 		},
 		{
 			"nombre": "Frente oriental (Baza y Almería)",
+			"nombre_en": "Eastern front (Baza and Almería)",
 			"tipo": "frente",
 			"desde": 1488,
 			"hasta": 1490,
@@ -62,6 +65,7 @@
 		},
 		{
 			"nombre": "Vega y sitio de Granada",
+			"nombre_en": "Vega and siege of Granada",
 			"tipo": "frente",
 			"desde": 1490,
 			"hasta": 1492,
@@ -86,6 +90,7 @@
 		},
 		{
 			"nombre": "Emirato nazarí",
+			"nombre_en": "Nasrid Emirate",
 			"tipo": "ocupado",
 			"desde": 1482,
 			"hasta": 1492,
@@ -112,6 +117,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Granada",
+			"nombre_en": "Fall of Granada",
 			"anio": 1492,
 			"lat": 37.18,
 			"lng": -3.6,

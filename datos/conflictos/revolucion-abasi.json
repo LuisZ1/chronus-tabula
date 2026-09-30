@@ -1,6 +1,7 @@
 {
 	"id": "revolucion-abasi",
 	"nombre": "Revolución abasí",
+	"nombre_en": "Abbasid Revolution",
 	"inicio": 747,
 	"fin": 750,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Jorasán",
+			"nombre_en": "Khorasan",
 			"tipo": "frente",
 			"desde": 747,
 			"hasta": 749,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Irak y Siria",
+			"nombre_en": "Iraq and Syria",
 			"tipo": "frente",
 			"desde": 749,
 			"hasta": 750,
@@ -63,6 +66,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del Zab",
+			"nombre_en": "Battle of the Zab",
 			"anio": 750,
 			"lat": 35.99,
 			"lng": 43.34,

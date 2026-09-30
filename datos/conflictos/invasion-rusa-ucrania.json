@@ -1,6 +1,7 @@
 {
 	"id": "invasion-rusa-ucrania",
 	"nombre": "Invasión rusa de Ucrania",
+	"nombre_en": "Russian invasion of Ukraine",
 	"inicio": 2022,
 	"fin": 2026,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Ofensiva sobre Kiev",
+			"nombre_en": "Kyiv offensive",
 			"tipo": "frente",
 			"desde": 2022,
 			"hasta": 2022,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Frente sur (Jersón–Zaporiyia)",
+			"nombre_en": "Southern front (Kherson–Zaporizhzhia)",
 			"tipo": "frente",
 			"desde": 2022,
 			"hasta": 2026,
@@ -61,6 +64,7 @@
 		},
 		{
 			"nombre": "Frente del Donbás",
+			"nombre_en": "Donbas front",
 			"tipo": "frente",
 			"desde": 2022,
 			"hasta": 2026,
@@ -85,6 +89,7 @@
 		},
 		{
 			"nombre": "Crimea ocupada",
+			"nombre_en": "Occupied Crimea",
 			"tipo": "ocupado",
 			"desde": 2022,
 			"hasta": 2026,
@@ -109,6 +114,7 @@
 		},
 		{
 			"nombre": "Incursión ucraniana en Kursk",
+			"nombre_en": "Ukrainian incursion into Kursk",
 			"tipo": "frente",
 			"desde": 2024,
 			"hasta": 2025,
@@ -135,6 +141,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Kiev",
+			"nombre_en": "Battle of Kyiv",
 			"anio": 2022,
 			"lat": 50.45,
 			"lng": 30.52,
@@ -143,12 +150,14 @@
 		},
 		{
 			"nombre": "Batalla de la isla de las Serpientes",
+			"nombre_en": "Battle of Snake Island",
 			"anio": 2022,
 			"lat": 45.26,
 			"lng": 30.2
 		},
 		{
 			"nombre": "Liberación de Jersón",
+			"nombre_en": "Liberation of Kherson",
 			"anio": 2022,
 			"lat": 46.64,
 			"lng": 32.61,
@@ -156,6 +165,7 @@
 		},
 		{
 			"nombre": "Sitio de Mariúpol",
+			"nombre_en": "Siege of Mariupol",
 			"anio": 2022,
 			"lat": 47.1,
 			"lng": 37.55,
@@ -164,6 +174,7 @@
 		},
 		{
 			"nombre": "Batalla de Bajmut",
+			"nombre_en": "Battle of Bakhmut",
 			"anio": 2022,
 			"hasta": 2023,
 			"lat": 48.59,
@@ -173,6 +184,7 @@
 		},
 		{
 			"nombre": "Batalla de Avdíivka",
+			"nombre_en": "Battle of Avdiivka",
 			"anio": 2024,
 			"lat": 48.14,
 			"lng": 37.75,
@@ -180,6 +192,7 @@
 		},
 		{
 			"nombre": "Incursión en Kursk (Sudzha)",
+			"nombre_en": "Kursk incursion (Sudzha)",
 			"anio": 2024,
 			"lat": 51.19,
 			"lng": 35.27,

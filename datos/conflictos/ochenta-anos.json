@@ -1,6 +1,7 @@
 {
 	"id": "ochenta-anos",
 	"nombre": "Guerra de los Ochenta Años (Flandes)",
+	"nombre_en": "Eighty Years' War (Flanders)",
 	"inicio": 1568,
 	"fin": 1648,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Flandes y Brabante",
+			"nombre_en": "Flanders and Brabant",
 			"tipo": "frente",
 			"desde": 1568,
 			"hasta": 1609,
@@ -43,6 +45,7 @@
 		},
 		{
 			"nombre": "Reanudación (tras la Tregua de los Doce Años)",
+			"nombre_en": "Resumption (after the Twelve Years' Truce)",
 			"tipo": "frente",
 			"desde": 1621,
 			"hasta": 1648,
@@ -71,6 +74,7 @@
 		},
 		{
 			"nombre": "Países Bajos españoles",
+			"nombre_en": "Spanish Netherlands",
 			"tipo": "ocupado",
 			"desde": 1568,
 			"hasta": 1648,
@@ -97,6 +101,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Heiligerlee",
+			"nombre_en": "Battle of Heiligerlee",
 			"anio": 1568,
 			"lat": 53.16,
 			"lng": 7.0,
@@ -105,18 +110,21 @@
 		},
 		{
 			"nombre": "Batalla de Reimerswaal",
+			"nombre_en": "Battle of Reimerswaal",
 			"anio": 1574,
 			"lat": 51.47,
 			"lng": 4.13
 		},
 		{
-			"nombre": "batalla de Borgerhout",
+			"nombre": "Batalla de Borgerhout",
+			"nombre_en": "Battle of Borgerhout",
 			"anio": 1579,
 			"lat": 51.21,
 			"lng": 4.43
 		},
 		{
 			"nombre": "Sitio de Amberes",
+			"nombre_en": "Siege of Antwerp",
 			"anio": 1585,
 			"lat": 51.22,
 			"lng": 4.4,
@@ -124,6 +132,7 @@
 		},
 		{
 			"nombre": "Batalla de Nieuwpoort",
+			"nombre_en": "Battle of Nieuwpoort",
 			"anio": 1600,
 			"lat": 51.16,
 			"lng": 2.74,
@@ -132,6 +141,7 @@
 		},
 		{
 			"nombre": "Sitio de Breda",
+			"nombre_en": "Siege of Breda",
 			"anio": 1625,
 			"lat": 51.59,
 			"lng": 4.78,
@@ -139,6 +149,7 @@
 		},
 		{
 			"nombre": "Batalla de las Dunas",
+			"nombre_en": "Battle of the Dunes",
 			"anio": 1639,
 			"lat": 51.15,
 			"lng": 1.55,

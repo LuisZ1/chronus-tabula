@@ -1,6 +1,7 @@
 {
 	"id": "guerra-austro-prusiana",
 	"nombre": "Guerra austro-prusiana (de las Siete Semanas)",
+	"nombre_en": "Austro-Prussian War (Seven Weeks' War)",
 	"inicio": 1866,
 	"fin": 1866,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Bohemia",
+			"nombre_en": "Bohemia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Sadowa (Königgrätz)",
+			"nombre_en": "Battle of Sadowa (Königgrätz)",
 			"anio": 1866,
 			"lat": 50.29,
 			"lng": 15.83

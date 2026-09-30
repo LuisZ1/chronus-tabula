@@ -1,6 +1,7 @@
 {
 	"id": "guerras-husitas",
 	"nombre": "Guerras husitas",
+	"nombre_en": "Hussite Wars",
 	"inicio": 1419,
 	"fin": 1434,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Bohemia",
+			"nombre_en": "Bohemia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Vítkov",
+			"nombre_en": "Battle of Vítkov Hill",
 			"anio": 1420,
 			"lat": 50.089,
 			"lng": 14.451,
@@ -46,6 +49,7 @@
 		},
 		{
 			"nombre": "Batalla de Kutná Hora",
+			"nombre_en": "Battle of Kutná Hora",
 			"anio": 1421,
 			"lat": 49.95,
 			"lng": 15.267,
@@ -54,6 +58,7 @@
 		},
 		{
 			"nombre": "Batalla de Domažlice",
+			"nombre_en": "Battle of Domažlice",
 			"anio": 1431,
 			"lat": 49.44,
 			"lng": 12.93,
@@ -62,6 +67,7 @@
 		},
 		{
 			"nombre": "Batalla de Lipany",
+			"nombre_en": "Battle of Lipany",
 			"anio": 1434,
 			"lat": 50.029,
 			"lng": 14.937,

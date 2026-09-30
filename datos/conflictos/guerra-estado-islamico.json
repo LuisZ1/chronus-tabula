@@ -1,6 +1,7 @@
 {
 	"id": "guerra-estado-islamico",
 	"nombre": "Guerra contra el Estado Islámico",
+	"nombre_en": "War against the Islamic State",
 	"inicio": 2014,
 	"fin": 2019,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Territorio del «califato»",
+			"nombre_en": "Territory of the “caliphate”",
 			"tipo": "ocupado",
 			"desde": 2014,
 			"hasta": 2017,
@@ -53,6 +55,7 @@
 		},
 		{
 			"nombre": "Reconquista de Mosul",
+			"nombre_en": "Recapture of Mosul",
 			"tipo": "frente",
 			"desde": 2016,
 			"hasta": 2017,
@@ -77,6 +80,7 @@
 		},
 		{
 			"nombre": "Reconquista del Éufrates (Raqqa–Baguz)",
+			"nombre_en": "Recapture of the Euphrates (Raqqa–Baghuz)",
 			"tipo": "frente",
 			"desde": 2017,
 			"hasta": 2019,
@@ -103,12 +107,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Ramadi (2014-2015)",
+			"nombre_en": "Battle of Ramadi (2014-2015)",
 			"anio": 2014,
 			"lat": 33.42,
 			"lng": 43.3
 		},
 		{
 			"nombre": "Sitio de Kobane",
+			"nombre_en": "Siege of Kobani",
 			"anio": 2015,
 			"lat": 36.89,
 			"lng": 38.35,
@@ -117,30 +123,35 @@
 		},
 		{
 			"nombre": "Batalla de Faluya",
+			"nombre_en": "Battle of Fallujah",
 			"anio": 2016,
 			"lat": 33.37,
 			"lng": 43.77
 		},
 		{
 			"nombre": "Batalla de Ramadi (2015-2016)",
+			"nombre_en": "Battle of Ramadi (2015-2016)",
 			"anio": 2016,
 			"lat": 33.42,
 			"lng": 43.3
 		},
 		{
 			"nombre": "Batalla de al-Qaryatayn",
+			"nombre_en": "Battle of al-Qaryatayn",
 			"anio": 2016,
 			"lat": 34.23,
 			"lng": 37.23
 		},
 		{
 			"nombre": "Ofensiva de Al-Shadaddah",
+			"nombre_en": "Al-Shaddadi offensive",
 			"anio": 2016,
 			"lat": 36.06,
 			"lng": 40.73
 		},
 		{
 			"nombre": "Batalla de Mosul",
+			"nombre_en": "Battle of Mosul",
 			"anio": 2016,
 			"hasta": 2017,
 			"lat": 36.34,
@@ -150,6 +161,7 @@
 		},
 		{
 			"nombre": "Batalla de Raqqa",
+			"nombre_en": "Battle of Raqqa",
 			"anio": 2017,
 			"lat": 35.95,
 			"lng": 39.01,
@@ -158,6 +170,7 @@
 		},
 		{
 			"nombre": "Batalla de Baguz",
+			"nombre_en": "Battle of Baghuz",
 			"anio": 2019,
 			"lat": 34.44,
 			"lng": 40.95,

@@ -1,6 +1,7 @@
 {
 	"id": "imjin",
 	"nombre": "Guerra Imjin (invasión japonesa de Corea)",
+	"nombre_en": "Imjin War (Japanese invasions of Korea)",
 	"inicio": 1592,
 	"fin": 1598,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Península de Corea",
+			"nombre_en": "Korean Peninsula",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -46,6 +48,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Hansando",
+			"nombre_en": "Battle of Hansan Island",
 			"anio": 1592,
 			"lat": 34.72,
 			"lng": 128.5,
@@ -53,18 +56,21 @@
 		},
 		{
 			"nombre": "Batalla de Sacheon",
+			"nombre_en": "Battle of Sacheon",
 			"anio": 1592,
 			"lat": 35.0,
 			"lng": 128.06
 		},
 		{
 			"nombre": "Batalla de Myeongnyang",
+			"nombre_en": "Battle of Myeongnyang",
 			"anio": 1597,
 			"lat": 34.57,
 			"lng": 126.31
 		},
 		{
 			"nombre": "Batalla de Noryang",
+			"nombre_en": "Battle of Noryang",
 			"anio": 1598,
 			"lat": 34.94,
 			"lng": 127.88,

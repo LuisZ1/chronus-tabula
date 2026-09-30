@@ -1,6 +1,7 @@
 {
 	"id": "revolucion-rusa",
 	"nombre": "Revolución rusa y guerra civil",
+	"nombre_en": "Russian Revolution and Civil War",
 	"inicio": 1917,
 	"fin": 1922,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Rusia europea en guerra civil",
+			"nombre_en": "European Russia in civil war",
 			"tipo": "frente",
 			"desde": 1918,
 			"hasta": 1921,
@@ -40,6 +42,7 @@
 		},
 		{
 			"nombre": "Frente de Siberia (Kolchak)",
+			"nombre_en": "Siberian Front (Kolchak)",
 			"tipo": "frente",
 			"desde": 1918,
 			"hasta": 1920,
@@ -66,6 +69,7 @@
 	"batallas": [
 		{
 			"nombre": "Asalto al Palacio de Invierno",
+			"nombre_en": "Storming of the Winter Palace",
 			"anio": 1917,
 			"lat": 59.94,
 			"lng": 30.31,
@@ -74,6 +78,7 @@
 		},
 		{
 			"nombre": "Defensa de Tsaritsyn",
+			"nombre_en": "Defence of Tsaritsyn",
 			"anio": 1918,
 			"hasta": 1919,
 			"lat": 48.71,

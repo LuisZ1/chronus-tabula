@@ -1,6 +1,7 @@
 {
 	"id": "manzikert",
 	"nombre": "Guerra bizantino-selyúcida y batalla de Manzikert",
+	"nombre_en": "Byzantine–Seljuk war and Battle of Manzikert",
 	"inicio": 1068,
 	"fin": 1071,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Armenia bizantina",
+			"nombre_en": "Byzantine Armenia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Manzikert",
+			"nombre_en": "Battle of Manzikert",
 			"anio": 1071,
 			"lat": 39.145,
 			"lng": 42.539,

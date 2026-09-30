@@ -1,6 +1,7 @@
 {
 	"id": "bulgaro-bizantinas",
 	"nombre": "Guerras búlgaro-bizantinas de Basilio II",
+	"nombre_en": "Byzantine-Bulgarian wars of Basil II",
 	"inicio": 976,
 	"fin": 1018,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Frente balcánico búlgaro-bizantino",
+			"nombre_en": "Bulgarian-Byzantine Balkan front",
 			"tipo": "frente",
 			"desde": 976,
 			"hasta": 1018,
@@ -43,6 +45,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de las Puertas de Trajano",
+			"nombre_en": "Battle of the Gates of Trajan",
 			"anio": 986,
 			"lat": 42.36,
 			"lng": 23.87,
@@ -50,6 +53,7 @@
 		},
 		{
 			"nombre": "Batalla de Kleidion (Belasitsa)",
+			"nombre_en": "Battle of Kleidion (Belasitsa)",
 			"anio": 1014,
 			"lat": 41.36,
 			"lng": 22.9,

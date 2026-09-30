@@ -1,6 +1,7 @@
 {
 	"id": "cienanos",
 	"nombre": "Guerra de los Cien Años",
+	"nombre_en": "Hundred Years' War",
 	"inicio": 1337,
 	"fin": 1453,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Guyena y suroeste",
+			"nombre_en": "Guyenne and the southwest",
 			"tipo": "frente",
 			"desde": 1337,
 			"hasta": 1360,
@@ -38,6 +40,7 @@
 		},
 		{
 			"nombre": "Campañas de Crécy y Poitiers",
+			"nombre_en": "Crécy and Poitiers campaigns",
 			"tipo": "frente",
 			"desde": 1345,
 			"hasta": 1360,
@@ -66,6 +69,7 @@
 		},
 		{
 			"nombre": "Francia anglo-borgoñona",
+			"nombre_en": "Anglo-Burgundian France",
 			"tipo": "ocupado",
 			"desde": 1420,
 			"hasta": 1436,
@@ -98,6 +102,7 @@
 		},
 		{
 			"nombre": "Campañas de Enrique V y Juana de Arco",
+			"nombre_en": "Campaigns of Henry V and Joan of Arc",
 			"tipo": "frente",
 			"desde": 1415,
 			"hasta": 1436,
@@ -126,6 +131,7 @@
 		},
 		{
 			"nombre": "Reconquista francesa",
+			"nombre_en": "French reconquest",
 			"tipo": "frente",
 			"desde": 1436,
 			"hasta": 1453,
@@ -166,6 +172,7 @@
 		},
 		{
 			"nombre": "Flandes y el Canal",
+			"nombre_en": "Flanders and the Channel",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1340,
@@ -193,12 +200,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Arnemuiden",
+			"nombre_en": "Battle of Arnemuiden",
 			"anio": 1338,
 			"lat": 51.65,
 			"lng": 3.37
 		},
 		{
 			"nombre": "Batalla naval de La Esclusa (Sluys)",
+			"nombre_en": "Battle of Sluys",
 			"anio": 1340,
 			"lat": 51.35,
 			"lng": 3.375,
@@ -208,6 +217,7 @@
 		},
 		{
 			"nombre": "Batalla de Crécy",
+			"nombre_en": "Battle of Crécy",
 			"anio": 1346,
 			"lat": 50.25,
 			"lng": 1.88,
@@ -216,48 +226,56 @@
 		},
 		{
 			"nombre": "Batalla de Lunalonge",
+			"nombre_en": "Battle of Lunalonge",
 			"anio": 1349,
 			"lat": 46.13,
 			"lng": 0.17
 		},
 		{
-			"nombre": "batalla de Winchelsea",
+			"nombre": "Batalla de Winchelsea",
+			"nombre_en": "Battle of Winchelsea",
 			"anio": 1350,
 			"lat": 50.88,
 			"lng": 0.81
 		},
 		{
 			"nombre": "Batalla de Ardres",
+			"nombre_en": "Battle of Ardres",
 			"anio": 1351,
 			"lat": 50.86,
 			"lng": 1.98
 		},
 		{
 			"nombre": "Batalla de Vlaardingen",
+			"nombre_en": "Battle of Vlaardingen",
 			"anio": 1351,
 			"lat": 51.91,
 			"lng": 4.34
 		},
 		{
 			"nombre": "Batalla de Poitiers",
+			"nombre_en": "Battle of Poitiers",
 			"anio": 1356,
 			"lat": 46.52,
 			"lng": 0.4
 		},
 		{
-			"nombre": "batalla de Nájera",
+			"nombre": "Batalla de Nájera",
+			"nombre_en": "Battle of Nájera",
 			"anio": 1367,
 			"lat": 42.43,
 			"lng": -2.7
 		},
 		{
-			"nombre": "batalla de La Rochelle",
+			"nombre": "Batalla de La Rochelle",
+			"nombre_en": "Battle of La Rochelle",
 			"anio": 1372,
 			"lat": 46.17,
 			"lng": -1.15
 		},
 		{
 			"nombre": "Batalla de Azincourt",
+			"nombre_en": "Battle of Agincourt",
 			"anio": 1415,
 			"lat": 50.46,
 			"lng": 2.14,
@@ -265,43 +283,50 @@
 			"bajas": "~6.000 franceses muertos"
 		},
 		{
-			"nombre": "batalla de Chef-de-Caux",
+			"nombre": "Batalla de Chef-de-Caux",
+			"nombre_en": "Battle of Chef-de-Caux",
 			"anio": 1416,
 			"lat": 49.51,
 			"lng": 0.08
 		},
 		{
 			"nombre": "Sitio de Bayeux (1417)",
+			"nombre_en": "Siege of Bayeux (1417)",
 			"anio": 1417,
 			"lat": 49.28,
 			"lng": -0.7
 		},
 		{
-			"nombre": "batalla de La Rochelle (1419)",
+			"nombre": "Batalla de La Rochelle (1419)",
+			"nombre_en": "Battle of La Rochelle (1419)",
 			"anio": 1419,
 			"lat": 46.15,
 			"lng": -1.2
 		},
 		{
-			"nombre": "batalla de Baugé",
+			"nombre": "Batalla de Baugé",
+			"nombre_en": "Battle of Baugé",
 			"anio": 1421,
 			"lat": 47.54,
 			"lng": -0.1
 		},
 		{
 			"nombre": "Batalla de La Brossinière",
+			"nombre_en": "Battle of La Brossinière",
 			"anio": 1423,
 			"lat": 47.77,
 			"lng": -0.74
 		},
 		{
 			"nombre": "Batalla de Verneuil",
+			"nombre_en": "Battle of Verneuil",
 			"anio": 1424,
 			"lat": 48.76,
 			"lng": 0.94
 		},
 		{
 			"nombre": "Liberación de Orleans",
+			"nombre_en": "Relief of Orléans",
 			"anio": 1429,
 			"lat": 47.9,
 			"lng": 1.9,
@@ -309,6 +334,7 @@
 		},
 		{
 			"nombre": "Batalla de Castillon",
+			"nombre_en": "Battle of Castillon",
 			"anio": 1453,
 			"lat": 44.85,
 			"lng": -0.04,

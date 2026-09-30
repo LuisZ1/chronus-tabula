@@ -1,6 +1,7 @@
 {
 	"id": "guerra-indochina",
 	"nombre": "Guerra de Indochina",
+	"nombre_en": "First Indochina War",
 	"inicio": 1946,
 	"fin": 1954,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Tonkín",
+			"nombre_en": "Tonkin",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Dien Bien Phu",
+			"nombre_en": "Battle of Dien Bien Phu",
 			"anio": 1954,
 			"lat": 21.39,
 			"lng": 103.02

@@ -1,6 +1,7 @@
 {
 	"id": "guerras-romano-partas-alto-imperio",
 	"nombre": "Guerras romano-partas del Alto Imperio",
+	"nombre_en": "Roman–Parthian wars of the Principate",
 	"inicio": 54,
 	"fin": 217,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Frontera oriental: Armenia y Mesopotamia",
+			"nombre_en": "Eastern frontier: Armenia and Mesopotamia",
 			"tipo": "frente",
 			"desde": 54,
 			"hasta": 217,
@@ -44,6 +46,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Ctesifonte por Trajano",
+			"nombre_en": "Capture of Ctesiphon by Trajan",
 			"anio": 116,
 			"lat": 33.09,
 			"lng": 44.58,

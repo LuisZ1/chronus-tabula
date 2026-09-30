@@ -1,6 +1,7 @@
 {
 	"id": "guerra-iran-irak",
 	"nombre": "Guerra Irán-Irak",
+	"nombre_en": "Iran-Iraq War",
 	"inicio": 1980,
 	"fin": 1988,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Frente del Shatt al-Arab y Juzestán",
+			"nombre_en": "Shatt al-Arab and Khuzestan front",
 			"tipo": "frente",
 			"desde": 1980,
 			"hasta": 1988,
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Jorramchahr",
+			"nombre_en": "Battle of Khorramshahr",
 			"anio": 1980,
 			"lat": 30.44,
 			"lng": 48.18,
@@ -46,6 +49,7 @@
 		},
 		{
 			"nombre": "Toma de la península de Fao",
+			"nombre_en": "Capture of the Fao Peninsula",
 			"anio": 1986,
 			"lat": 29.98,
 			"lng": 48.47,

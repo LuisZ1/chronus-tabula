@@ -1,6 +1,7 @@
 {
 	"id": "guerra-de-tigray",
 	"nombre": "Guerra de Tigray",
+	"nombre_en": "Tigray War",
 	"inicio": 2020,
 	"fin": 2022,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Tigray",
+			"nombre_en": "Tigray",
 			"tipo": "frente",
 			"desde": 2020,
 			"hasta": 2022,
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Mekele",
+			"nombre_en": "Capture of Mekelle",
 			"anio": 2020,
 			"lat": 13.49,
 			"lng": 39.47,

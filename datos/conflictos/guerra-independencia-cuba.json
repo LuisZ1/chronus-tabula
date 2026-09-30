@@ -1,6 +1,7 @@
 {
 	"id": "guerra-independencia-cuba",
 	"nombre": "Guerras de independencia de Cuba",
+	"nombre_en": "Cuban wars of independence",
 	"inicio": 1868,
 	"fin": 1898,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Oriente cubano",
+			"nombre_en": "Eastern Cuba",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -35,6 +37,7 @@
 		},
 		{
 			"nombre": "Invasión de Occidente",
+			"nombre_en": "Invasion of the West",
 			"tipo": "frente",
 			"desde": 1895,
 			"hasta": 1896,
@@ -61,6 +64,7 @@
 	"batallas": [
 		{
 			"nombre": "Grito de Yara (La Demajagua)",
+			"nombre_en": "Grito de Yara (La Demajagua)",
 			"anio": 1868,
 			"lat": 20.28,
 			"lng": -77.18,
@@ -68,6 +72,7 @@
 		},
 		{
 			"nombre": "Batalla de Mal Tiempo",
+			"nombre_en": "Battle of Mal Tiempo",
 			"anio": 1895,
 			"lat": 22.34,
 			"lng": -80.28,

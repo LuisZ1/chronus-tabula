@@ -1,6 +1,7 @@
 {
 	"id": "revolucion-mexicana",
 	"nombre": "Revolución mexicana",
+	"nombre_en": "Mexican Revolution",
 	"inicio": 1910,
 	"fin": 1917,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Norte: campañas de Villa (Chihuahua-Coahuila)",
+			"nombre_en": "North: Villa's campaigns (Chihuahua-Coahuila)",
 			"tipo": "frente",
 			"desde": 1910,
 			"hasta": 1917,
@@ -36,6 +38,7 @@
 		},
 		{
 			"nombre": "Sur: zapatismo en Morelos",
+			"nombre_en": "South: Zapatismo in Morelos",
 			"tipo": "frente",
 			"desde": 1911,
 			"hasta": 1917,
@@ -62,18 +65,21 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Ciudad Juárez",
+			"nombre_en": "Battle of Ciudad Juárez",
 			"anio": 1911,
 			"lat": 31.74,
 			"lng": -106.49
 		},
 		{
 			"nombre": "Toma de Zacatecas",
+			"nombre_en": "Battle of Zacatecas",
 			"anio": 1914,
 			"lat": 22.77,
 			"lng": -102.58
 		},
 		{
 			"nombre": "Batallas de Celaya",
+			"nombre_en": "Battles of Celaya",
 			"anio": 1915,
 			"lat": 20.52,
 			"lng": -100.81

@@ -1,6 +1,7 @@
 {
 	"id": "conquista-danesa-inglaterra",
 	"nombre": "Conquista danesa de Inglaterra",
+	"nombre_en": "Danish conquest of England",
 	"inicio": 1013,
 	"fin": 1042,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Inglaterra bajo la corona danesa",
+			"nombre_en": "England under the Danish crown",
 			"tipo": "ocupado",
 			"desde": 1016,
 			"hasta": 1042,
@@ -43,6 +45,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Assandun",
+			"nombre_en": "Battle of Assandun",
 			"anio": 1016,
 			"lat": 51.65,
 			"lng": 0.55,

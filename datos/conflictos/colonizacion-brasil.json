@@ -1,6 +1,7 @@
 {
 	"id": "colonizacion-brasil",
 	"nombre": "Colonización portuguesa de Brasil",
+	"nombre_en": "Portuguese colonization of Brazil",
 	"inicio": 1500,
 	"fin": 1654,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Factorías costeras (palo brasil)",
+			"nombre_en": "Coastal trading posts (brazilwood)",
 			"tipo": "frente",
 			"desde": 1500,
 			"hasta": 1533,
@@ -55,6 +57,7 @@
 		},
 		{
 			"nombre": "Capitanías del nordeste",
+			"nombre_en": "Northeastern captaincies",
 			"tipo": "ocupado",
 			"desde": 1534,
 			"hasta": 1654,
@@ -87,6 +90,7 @@
 		},
 		{
 			"nombre": "Bahía y gobierno general de Salvador",
+			"nombre_en": "Bahia and the general government of Salvador",
 			"tipo": "frente",
 			"desde": 1549,
 			"hasta": 1560,
@@ -111,6 +115,7 @@
 		},
 		{
 			"nombre": "Río de Janeiro (Francia Antártica)",
+			"nombre_en": "Rio de Janeiro (France Antarctique)",
 			"tipo": "frente",
 			"desde": 1555,
 			"hasta": 1567,
@@ -135,6 +140,7 @@
 		},
 		{
 			"nombre": "São Paulo y bandeiras hacia el interior",
+			"nombre_en": "São Paulo and bandeiras into the interior",
 			"tipo": "frente",
 			"desde": 1580,
 			"hasta": 1654,
@@ -163,6 +169,7 @@
 		},
 		{
 			"nombre": "Brasil holandés (Pernambuco)",
+			"nombre_en": "Dutch Brazil (Pernambuco)",
 			"tipo": "frente",
 			"desde": 1630,
 			"hasta": 1654,
@@ -193,6 +200,7 @@
 	"batallas": [
 		{
 			"nombre": "Expulsión de los franceses de Río",
+			"nombre_en": "Expulsion of the French from Rio",
 			"anio": 1567,
 			"lat": -22.91,
 			"lng": -43.17,
@@ -200,6 +208,7 @@
 		},
 		{
 			"nombre": "Batallas de Guararapes",
+			"nombre_en": "Battles of Guararapes",
 			"anio": 1648,
 			"lat": -8.08,
 			"lng": -35.02,

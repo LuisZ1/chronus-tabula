@@ -1,6 +1,7 @@
 {
 	"id": "guerras-indias",
 	"nombre": "Guerras indias y conquista del Oeste",
+	"nombre_en": "American Indian Wars and the conquest of the West",
 	"inicio": 1811,
 	"fin": 1890,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Territorio de las naciones indias",
+			"nombre_en": "Territory of the Indian nations",
 			"tipo": "ocupado",
 			"desde": 1811,
 			"hasta": 1853,
@@ -54,6 +56,7 @@
 		},
 		{
 			"nombre": "Territorio nativo (tras los primeros tratados)",
+			"nombre_en": "Native territory (after the first treaties)",
 			"tipo": "ocupado",
 			"desde": 1854,
 			"hasta": 1876,
@@ -87,6 +90,7 @@
 		},
 		{
 			"nombre": "Reservas",
+			"nombre_en": "Reservations",
 			"tipo": "ocupado",
 			"desde": 1877,
 			"hasta": 1890,
@@ -112,6 +116,7 @@
 		},
 		{
 			"nombre": "Guerra de Tecumseh",
+			"nombre_en": "Tecumseh's War",
 			"tipo": "frente",
 			"desde": 1811,
 			"hasta": 1813,
@@ -136,6 +141,7 @@
 		},
 		{
 			"nombre": "Deportaciones del Sureste (Sendero de Lágrimas)",
+			"nombre_en": "Southeastern removals (Trail of Tears)",
 			"tipo": "frente",
 			"desde": 1830,
 			"hasta": 1839,
@@ -164,6 +170,7 @@
 		},
 		{
 			"nombre": "Guerras de las Llanuras",
+			"nombre_en": "Plains Wars",
 			"tipo": "frente",
 			"desde": 1854,
 			"hasta": 1877,
@@ -192,6 +199,7 @@
 		},
 		{
 			"nombre": "Guerra de los sioux (Black Hills)",
+			"nombre_en": "Sioux War (Black Hills)",
 			"tipo": "frente",
 			"desde": 1876,
 			"hasta": 1877,
@@ -216,6 +224,7 @@
 		},
 		{
 			"nombre": "Guerras apaches",
+			"nombre_en": "Apache Wars",
 			"tipo": "frente",
 			"desde": 1861,
 			"hasta": 1886,
@@ -240,6 +249,7 @@
 		},
 		{
 			"nombre": "Wounded Knee",
+			"nombre_en": "Wounded Knee",
 			"tipo": "frente",
 			"desde": 1890,
 			"hasta": 1890,
@@ -266,6 +276,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Tippecanoe",
+			"nombre_en": "Battle of Tippecanoe",
 			"anio": 1811,
 			"lat": 40.51,
 			"lng": -86.84,
@@ -273,204 +284,241 @@
 		},
 		{
 			"nombre": "Negro Fort",
+			"nombre_en": "Negro Fort",
 			"anio": 1816,
 			"lat": 29.94,
 			"lng": -85.01
 		},
 		{
 			"nombre": "Batalla de Apple River Fort",
+			"nombre_en": "Battle of Apple River Fort",
 			"anio": 1832,
 			"lat": 42.32,
 			"lng": -90.22
 		},
 		{
 			"nombre": "Batalla de Bad Axe",
+			"nombre_en": "Battle of Bad Axe",
 			"anio": 1832,
 			"lat": 43.46,
 			"lng": -91.22
 		},
 		{
 			"nombre": "Batalla de Horseshoe Bend",
+			"nombre_en": "Battle of Horseshoe Bend",
 			"anio": 1832,
 			"lat": 42.66,
 			"lng": -89.88
 		},
 		{
 			"nombre": "Batalla de Kellogg's Grove",
+			"nombre_en": "Battle of Kellogg's Grove",
 			"anio": 1832,
 			"lat": 42.3,
 			"lng": -89.88
 		},
 		{
 			"nombre": "Batalla de Stillman's Run",
+			"nombre_en": "Battle of Stillman's Run",
 			"anio": 1832,
 			"lat": 42.11,
 			"lng": -89.18
 		},
 		{
 			"nombre": "Batalla de Waddams Grove",
+			"nombre_en": "Battle of Waddams Grove",
 			"anio": 1832,
 			"lat": 42.43,
 			"lng": -89.86
 		},
 		{
 			"nombre": "Batalla de Wisconsin Heights",
+			"nombre_en": "Battle of Wisconsin Heights",
 			"anio": 1832,
 			"lat": 43.23,
 			"lng": -89.74
 		},
 		{
 			"nombre": "Batalla de Ouithlacoochie",
+			"nombre_en": "Battle of Ouithlacoochie",
 			"anio": 1835,
 			"lat": 28.99,
 			"lng": -82.76
 		},
 		{
-			"nombre": "Ingham incident",
+			"nombre": "Incidente Ingham",
+			"nombre_en": "Ingham incident",
 			"anio": 1835,
 			"lat": 26.04,
-			"lng": -97.14
+			"lng": -97.14,
+			"wiki": "en:Ingham incident"
 		},
 		{
 			"nombre": "Batalla de San Felasco Hammock",
+			"nombre_en": "Battle of San Felasco Hammock",
 			"anio": 1836,
 			"lat": 29.74,
 			"lng": -82.44
 		},
 		{
 			"nombre": "Batalla de Wahoo Swamp",
+			"nombre_en": "Battle of Wahoo Swamp",
 			"anio": 1836,
 			"lat": 28.69,
 			"lng": -82.22
 		},
 		{
 			"nombre": "Batalla de Lake Okeechobee",
+			"nombre_en": "Battle of Lake Okeechobee",
 			"anio": 1837,
 			"lat": 27.21,
 			"lng": -80.79
 		},
 		{
 			"nombre": "Batalla de Pine Island Ridge",
+			"nombre_en": "Battle of Pine Island Ridge",
 			"anio": 1838,
 			"lat": 26.1,
 			"lng": -80.27
 		},
 		{
 			"nombre": "Batalla de Providencia",
+			"nombre_en": "Battle of Providence",
 			"anio": 1845,
 			"lat": 34.18,
 			"lng": -118.33
 		},
 		{
-			"nombre": "Battle of the Diablo Mountains",
+			"nombre": "Batalla de las montañas Diablo",
+			"nombre_en": "Battle of the Diablo Mountains",
 			"anio": 1854,
 			"lat": 31.4,
-			"lng": -104.9
+			"lng": -104.9,
+			"wiki": "en:Battle of the Diablo Mountains"
 		},
 		{
 			"nombre": "Masacre de Grattan",
+			"nombre_en": "Grattan massacre",
 			"anio": 1854,
 			"lat": 42.13,
 			"lng": -104.41
 		},
 		{
 			"nombre": "Batalla de Ash Hollow",
+			"nombre_en": "Battle of Ash Hollow",
 			"anio": 1855,
 			"lat": 41.3,
 			"lng": -102.12
 		},
 		{
 			"nombre": "Batalla de Cooke's Spring",
+			"nombre_en": "Battle of Cooke's Spring",
 			"anio": 1857,
 			"lat": 32.46,
 			"lng": -107.65
 		},
 		{
 			"nombre": "Batalla de Devil's River",
+			"nombre_en": "Battle of Devil's River",
 			"anio": 1857,
 			"lat": 30.18,
 			"lng": -101.09
 		},
 		{
 			"nombre": "Batalla de Pine Creek",
+			"nombre_en": "Battle of Pine Creek",
 			"anio": 1858,
 			"lat": 47.23,
 			"lng": -117.37
 		},
 		{
 			"nombre": "Batalla de Rio Grande City",
+			"nombre_en": "Battle of Rio Grande City",
 			"anio": 1859,
 			"lat": 26.38,
 			"lng": -98.82
 		},
 		{
 			"nombre": "Batalla de Pease River",
+			"nombre_en": "Battle of Pease River",
 			"anio": 1860,
 			"lat": 34.07,
 			"lng": -99.6
 		},
 		{
 			"nombre": "Batalla de Cookes Canyon",
+			"nombre_en": "Battle of Cookes Canyon",
 			"anio": 1861,
 			"lat": 32.46,
 			"lng": -107.67
 		},
 		{
-			"nombre": "Batalla de the Florida Mountains",
+			"nombre": "Batalla de las montañas Florida",
+			"nombre_en": "Battle of the Florida Mountains",
 			"anio": 1861,
 			"lat": 32.12,
-			"lng": -107.62
+			"lng": -107.62,
+			"wiki": "en:Battle of the Florida Mountains"
 		},
 		{
 			"nombre": "Batalla de Apache Pass",
+			"nombre_en": "Battle of Apache Pass",
 			"anio": 1862,
 			"lat": 32.16,
 			"lng": -109.45
 		},
 		{
 			"nombre": "Primera batalla de Dragoon Springs",
+			"nombre_en": "First Battle of Dragoon Springs",
 			"anio": 1862,
 			"lat": 32.0,
 			"lng": -110.02
 		},
 		{
 			"nombre": "Batalla de Big Mound",
+			"nombre_en": "Battle of Big Mound",
 			"anio": 1863,
 			"lat": 47.02,
 			"lng": -99.63
 		},
 		{
 			"nombre": "Batalla de Dead Buffalo Lake",
+			"nombre_en": "Battle of Dead Buffalo Lake",
 			"anio": 1863,
 			"lat": 46.9,
 			"lng": -99.78
 		},
 		{
 			"nombre": "Batalla de Stony Lake",
+			"nombre_en": "Battle of Stony Lake",
 			"anio": 1863,
 			"lat": 46.85,
 			"lng": -100.18
 		},
 		{
 			"nombre": "Batalla de Whitestone Hill",
+			"nombre_en": "Battle of Whitestone Hill",
 			"anio": 1863,
 			"lat": 46.17,
 			"lng": -98.86
 		},
 		{
 			"nombre": "Batalla de Killdeer Mountain",
+			"nombre_en": "Battle of Killdeer Mountain",
 			"anio": 1864,
 			"lat": 47.42,
 			"lng": -102.92
 		},
 		{
 			"nombre": "Batalla de Mount Gray",
+			"nombre_en": "Battle of Mount Gray",
 			"anio": 1864,
 			"lat": 35.75,
 			"lng": -111.47
 		},
 		{
 			"nombre": "Masacre de Sand Creek",
+			"nombre_en": "Sand Creek massacre",
 			"anio": 1864,
 			"lat": 38.55,
 			"lng": -102.51,
@@ -479,96 +527,114 @@
 		},
 		{
 			"nombre": "Batalla de Fort Buchanan",
+			"nombre_en": "Battle of Fort Buchanan",
 			"anio": 1865,
 			"lat": 31.66,
 			"lng": -110.71
 		},
 		{
-			"nombre": "Battle of the Tongue River",
+			"nombre": "Batalla del río Tongue",
+			"nombre_en": "Battle of the Tongue River",
 			"anio": 1865,
 			"lat": 44.91,
-			"lng": -107.16
+			"lng": -107.16,
+			"wiki": "en:Battle of the Tongue River"
 		},
 		{
 			"nombre": "Batalla de Beecher Island",
+			"nombre_en": "Battle of Beecher Island",
 			"anio": 1868,
 			"lat": 39.87,
 			"lng": -102.19
 		},
 		{
 			"nombre": "Batalla de Summit Springs",
+			"nombre_en": "Battle of Summit Springs",
 			"anio": 1869,
 			"lat": 40.43,
 			"lng": -103.14
 		},
 		{
 			"nombre": "Batalla de Blanco Canyon",
+			"nombre_en": "Battle of Blanco Canyon",
 			"anio": 1871,
 			"lat": 33.66,
 			"lng": -101.18
 		},
 		{
 			"nombre": "Batalla de Lost River",
+			"nombre_en": "Battle of Lost River",
 			"anio": 1872,
 			"lat": 42.0,
 			"lng": -121.52
 		},
 		{
 			"nombre": "Batalla de Salt River Canyon",
+			"nombre_en": "Battle of Salt River Canyon",
 			"anio": 1872,
 			"lat": 33.58,
 			"lng": -111.37
 		},
 		{
-			"nombre": "Battle of the North Fork of the Red River",
+			"nombre": "Batalla del North Fork del río Rojo",
+			"nombre_en": "Battle of the North Fork of the Red River",
 			"anio": 1872,
 			"lat": 35.41,
-			"lng": -100.67
+			"lng": -100.67,
+			"wiki": "en:Battle of the North Fork of the Red River"
 		},
 		{
 			"nombre": "Batalla de Dry Lake",
+			"nombre_en": "Battle of Dry Lake",
 			"anio": 1873,
 			"lat": 41.7,
 			"lng": -121.3
 		},
 		{
 			"nombre": "Batalla de Honsinger Bluff",
+			"nombre_en": "Battle of Honsinger Bluff",
 			"anio": 1873,
 			"lat": 46.49,
 			"lng": -105.92
 		},
 		{
 			"nombre": "Batalla de Sand Butte",
+			"nombre_en": "Battle of Sand Butte",
 			"anio": 1873,
 			"lat": 41.76,
 			"lng": -121.52
 		},
 		{
 			"nombre": "Batalla de Turret Peak",
+			"nombre_en": "Battle of Turret Peak",
 			"anio": 1873,
 			"lat": 34.25,
 			"lng": -111.86
 		},
 		{
 			"nombre": "Batalla de Palo Duro Canyon",
+			"nombre_en": "Battle of Palo Duro Canyon",
 			"anio": 1874,
 			"lat": 34.88,
 			"lng": -101.61
 		},
 		{
 			"nombre": "Segunda batalla de Adobe Walls",
+			"nombre_en": "Second Battle of Adobe Walls",
 			"anio": 1874,
 			"lat": 35.89,
 			"lng": -101.16
 		},
 		{
 			"nombre": "Batalla de Cedar Creek",
+			"nombre_en": "Battle of Cedar Creek",
 			"anio": 1876,
 			"lat": 47.52,
 			"lng": -106.28
 		},
 		{
 			"nombre": "Batalla de Little Bighorn",
+			"nombre_en": "Battle of the Little Bighorn",
 			"anio": 1876,
 			"lat": 45.57,
 			"lng": -107.43,
@@ -577,114 +643,136 @@
 		},
 		{
 			"nombre": "Batalla de Powder River",
+			"nombre_en": "Battle of Powder River",
 			"anio": 1876,
 			"lat": 45.44,
 			"lng": -105.41
 		},
 		{
 			"nombre": "Batalla de Prairie Dog Creek",
+			"nombre_en": "Battle of Prairie Dog Creek",
 			"anio": 1876,
 			"lat": 45.27,
 			"lng": -106.62
 		},
 		{
+			"nombre": "Batalla de Rosebud",
+			"nombre_en": "Battle of the Rosebud",
+			"anio": 1876,
+			"lat": 45.22,
+			"lng": -107.0,
+			"wiki": "en:Battle of the Rosebud"
+		},
+		{
 			"nombre": "Batalla de Slim Buttes",
+			"nombre_en": "Battle of Slim Buttes",
 			"anio": 1876,
 			"lat": 45.54,
 			"lng": -103.12
 		},
 		{
 			"nombre": "Batalla de Warbonnet Creek",
+			"nombre_en": "Battle of Warbonnet Creek",
 			"anio": 1876,
 			"lat": 42.93,
 			"lng": -103.73
 		},
 		{
-			"nombre": "Battle of the Rosebud",
-			"anio": 1876,
-			"lat": 45.22,
-			"lng": -107.0
-		},
-		{
 			"nombre": "Dull Knife Fight",
+			"nombre_en": "Dull Knife Fight",
 			"anio": 1876,
 			"lat": 43.54,
 			"lng": -107.54
 		},
 		{
 			"nombre": "Batalla de Bear Paw",
+			"nombre_en": "Battle of Bear Paw",
 			"anio": 1877,
 			"lat": 48.38,
 			"lng": -109.21
 		},
 		{
+			"nombre": "Batalla de Big Hole",
+			"nombre_en": "Battle of the Big Hole",
+			"anio": 1877,
+			"lat": 45.65,
+			"lng": -113.65,
+			"wiki": "en:Battle of the Big Hole"
+		},
+		{
 			"nombre": "Batalla de Camas Creek",
+			"nombre_en": "Battle of Camas Creek",
 			"anio": 1877,
 			"lat": 44.35,
 			"lng": -111.89
 		},
 		{
 			"nombre": "Batalla de Canyon Creek",
+			"nombre_en": "Battle of Canyon Creek",
 			"anio": 1877,
 			"lat": 45.77,
 			"lng": -108.81
 		},
 		{
 			"nombre": "Batalla de Cottonwood",
+			"nombre_en": "Battle of Cottonwood",
 			"anio": 1877,
 			"lat": 46.03,
 			"lng": -116.33
 		},
 		{
 			"nombre": "Batalla de White Bird Canyon",
+			"nombre_en": "Battle of White Bird Canyon",
 			"anio": 1877,
 			"lat": 45.79,
 			"lng": -116.28
 		},
 		{
 			"nombre": "Batalla de Wolf Mountain",
+			"nombre_en": "Battle of Wolf Mountain",
 			"anio": 1877,
 			"lat": 45.29,
 			"lng": -106.58
 		},
 		{
-			"nombre": "Battle of the Big Hole",
-			"anio": 1877,
-			"lat": 45.65,
-			"lng": -113.65
-		},
-		{
-			"nombre": "Battle of the Clearwater",
+			"nombre": "Batalla del Clearwater",
+			"nombre_en": "Battle of the Clearwater",
 			"anio": 1877,
 			"lat": 46.08,
-			"lng": -115.97
+			"lng": -115.97,
+			"wiki": "en:Battle of the Clearwater"
 		},
 		{
 			"nombre": "Batalla de Milk Creek",
+			"nombre_en": "Battle of Milk Creek",
 			"anio": 1879,
 			"lat": 40.2,
 			"lng": -107.69
 		},
 		{
 			"nombre": "Batalla de Hembrillo Basin",
+			"nombre_en": "Battle of Hembrillo Basin",
 			"anio": 1880,
 			"lat": 32.92,
 			"lng": -106.64
 		},
 		{
 			"nombre": "Batalla de Cibecue Creek",
+			"nombre_en": "Battle of Cibecue Creek",
 			"anio": 1881,
 			"lat": 34.03,
 			"lng": -110.5
 		},
 		{
 			"nombre": "Batalla de Fort Apache",
+			"nombre_en": "Battle of Fort Apache",
 			"anio": 1881,
 			"lat": 33.79,
 			"lng": -109.99
 		},
 		{
 			"nombre": "Rendición de Gerónimo",
+			"nombre_en": "Surrender of Geronimo",
 			"anio": 1886,
 			"lat": 31.48,
 			"lng": -109.06,
@@ -692,6 +780,7 @@
 		},
 		{
 			"nombre": "Masacre de Wounded Knee",
+			"nombre_en": "Wounded Knee Massacre",
 			"anio": 1890,
 			"lat": 43.14,
 			"lng": -102.36,

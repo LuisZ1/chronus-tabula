@@ -1,6 +1,7 @@
 {
 	"id": "crisis-siglo-iii",
 	"nombre": "Crisis del siglo III (anarquía militar e invasiones)",
+	"nombre_en": "Crisis of the Third Century (military anarchy and invasions)",
 	"inicio": 239,
 	"fin": 284,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Imperio galo",
+			"nombre_en": "Gallic Empire",
 			"tipo": "ocupado",
 			"desde": 260,
 			"hasta": 274,
@@ -56,6 +58,7 @@
 		},
 		{
 			"nombre": "Imperio de Palmira",
+			"nombre_en": "Palmyrene Empire",
 			"tipo": "ocupado",
 			"desde": 270,
 			"hasta": 273,
@@ -98,6 +101,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Edesa (captura de Valeriano)",
+			"nombre_en": "Battle of Edessa (capture of Valerian)",
 			"anio": 260,
 			"lat": 37.16,
 			"lng": 38.79,

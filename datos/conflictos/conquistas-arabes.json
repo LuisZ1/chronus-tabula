@@ -1,6 +1,7 @@
 {
 	"id": "conquistas-arabes",
 	"nombre": "Conquistas árabes iniciales",
+	"nombre_en": "Early Muslim conquests",
 	"inicio": 632,
 	"fin": 651,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Conquista del Levante bizantino",
+			"nombre_en": "Conquest of the Byzantine Levant",
 			"tipo": "frente",
 			"desde": 633,
 			"hasta": 640,
@@ -42,6 +44,7 @@
 		},
 		{
 			"nombre": "Conquista de la Persia sasánida",
+			"nombre_en": "Conquest of Sasanian Persia",
 			"tipo": "frente",
 			"desde": 636,
 			"hasta": 651,
@@ -70,6 +73,7 @@
 		},
 		{
 			"nombre": "Conquista de Egipto",
+			"nombre_en": "Conquest of Egypt",
 			"tipo": "ocupado",
 			"desde": 639,
 			"hasta": 642,
@@ -96,6 +100,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Yarmuk",
+			"nombre_en": "Battle of Yarmouk",
 			"anio": 636,
 			"lat": 32.75,
 			"lng": 35.9,
@@ -103,6 +108,7 @@
 		},
 		{
 			"nombre": "Batalla de al-Qadisiyya",
+			"nombre_en": "Battle of al-Qadisiyyah",
 			"anio": 637,
 			"lat": 31.8,
 			"lng": 44.3,
@@ -110,6 +116,7 @@
 		},
 		{
 			"nombre": "Batalla de Nihawand",
+			"nombre_en": "Battle of Nahavand",
 			"anio": 642,
 			"lat": 34.2,
 			"lng": 48.4,

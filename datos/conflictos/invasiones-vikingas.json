@@ -1,6 +1,7 @@
 {
 	"id": "invasiones-vikingas",
 	"nombre": "Invasiones vikingas",
+	"nombre_en": "Viking invasions",
 	"inicio": 793,
 	"fin": 1066,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Incursiones costeras en las islas británicas",
+			"nombre_en": "Coastal raids on the British Isles",
 			"tipo": "frente",
 			"desde": 793,
 			"hasta": 865,
@@ -43,6 +45,7 @@
 		},
 		{
 			"nombre": "El Danelaw (Northumbria, Anglia Oriental y las Cinco Ciudades)",
+			"nombre_en": "The Danelaw (Northumbria, East Anglia and the Five Boroughs)",
 			"tipo": "ocupado",
 			"desde": 865,
 			"hasta": 954,
@@ -71,6 +74,7 @@
 		},
 		{
 			"nombre": "Reino vikingo de Dublín",
+			"nombre_en": "Viking Kingdom of Dublin",
 			"tipo": "ocupado",
 			"desde": 841,
 			"hasta": 1014,
@@ -95,6 +99,7 @@
 		},
 		{
 			"nombre": "Incursiones por el Sena (hasta el tratado de 911)",
+			"nombre_en": "Raids along the Seine (until the treaty of 911)",
 			"tipo": "frente",
 			"desde": 834,
 			"hasta": 911,
@@ -123,6 +128,7 @@
 		},
 		{
 			"nombre": "Invasión noruega de Harald Hardrada",
+			"nombre_en": "Norwegian invasion of Harald Hardrada",
 			"tipo": "frente",
 			"desde": 1066,
 			"hasta": 1066,
@@ -149,6 +155,7 @@
 	"batallas": [
 		{
 			"nombre": "Saqueo de Lindisfarne",
+			"nombre_en": "Raid on Lindisfarne",
 			"anio": 793,
 			"lat": 55.68,
 			"lng": -1.8,
@@ -157,6 +164,7 @@
 		},
 		{
 			"nombre": "Toma de York (Jórvik)",
+			"nombre_en": "Capture of York (Jórvik)",
 			"anio": 866,
 			"lat": 53.96,
 			"lng": -1.08,
@@ -164,6 +172,7 @@
 		},
 		{
 			"nombre": "Batalla de Edington",
+			"nombre_en": "Battle of Edington",
 			"anio": 878,
 			"lat": 51.29,
 			"lng": -2.11,
@@ -172,6 +181,7 @@
 		},
 		{
 			"nombre": "Asedio de París",
+			"nombre_en": "Siege of Paris",
 			"anio": 885,
 			"hasta": 886,
 			"lat": 48.85,
@@ -181,6 +191,7 @@
 		},
 		{
 			"nombre": "Batalla de Brunanburh",
+			"nombre_en": "Battle of Brunanburh",
 			"anio": 937,
 			"lat": 53.35,
 			"lng": -3.02,
@@ -189,6 +200,7 @@
 		},
 		{
 			"nombre": "Batalla de Clontarf",
+			"nombre_en": "Battle of Clontarf",
 			"anio": 1014,
 			"lat": 53.36,
 			"lng": -6.2,

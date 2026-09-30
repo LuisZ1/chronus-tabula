@@ -1,6 +1,7 @@
 {
 	"id": "tercera-guerra-sagrada",
 	"nombre": "Tercera Guerra Sagrada",
+	"nombre_en": "Third Sacred War",
 	"inicio": -356,
 	"fin": -346,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Fócide y santuario de Delfos",
+			"nombre_en": "Phocis and the sanctuary of Delphi",
 			"tipo": "frente",
 			"desde": -356,
 			"hasta": -346,
@@ -40,12 +42,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del Campo de Azafrán",
+			"nombre_en": "Battle of Crocus Field",
 			"anio": -352,
 			"lat": 39.27,
 			"lng": 22.6
 		},
 		{
 			"nombre": "Delfos (santuario en disputa)",
+			"nombre_en": "Delphi (contested sanctuary)",
 			"anio": -346,
 			"lat": 38.48,
 			"lng": 22.5

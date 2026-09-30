@@ -1,6 +1,7 @@
 {
 	"id": "genpei",
 	"nombre": "Guerra Genpei (Japón)",
+	"nombre_en": "Genpei War (Japan)",
 	"inicio": 1180,
 	"fin": 1185,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Honshu occidental y mar Interior",
+			"nombre_en": "Western Honshu and the Inland Sea",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -41,6 +43,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Kurikara",
+			"nombre_en": "Battle of Kurikara",
 			"anio": 1183,
 			"lat": 36.7,
 			"lng": 136.9,
@@ -48,6 +51,7 @@
 		},
 		{
 			"nombre": "Batalla de Dan-no-ura",
+			"nombre_en": "Battle of Dan-no-ura",
 			"anio": 1185,
 			"lat": 33.96,
 			"lng": 130.94,

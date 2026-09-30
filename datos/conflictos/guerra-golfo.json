@@ -1,6 +1,7 @@
 {
 	"id": "guerra-golfo",
 	"nombre": "Guerra del Golfo",
+	"nombre_en": "Gulf War",
 	"inicio": 1990,
 	"fin": 1991,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Kuwait ocupado",
+			"nombre_en": "Occupied Kuwait",
 			"tipo": "ocupado",
 			"desde": 1990,
 			"hasta": 1991,
@@ -41,6 +43,7 @@
 		},
 		{
 			"nombre": "Tormenta del Desierto",
+			"nombre_en": "Desert Storm",
 			"tipo": "frente",
 			"desde": 1991,
 			"hasta": 1991,
@@ -67,12 +70,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Failaka",
+			"nombre_en": "Battle of Failaka Island",
 			"anio": 1990,
 			"lat": 29.39,
 			"lng": 48.0
 		},
 		{
 			"nombre": "Liberación de la ciudad de Kuwait",
+			"nombre_en": "Liberation of Kuwait City",
 			"anio": 1991,
 			"lat": 29.38,
 			"lng": 47.99,

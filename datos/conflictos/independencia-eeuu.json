@@ -1,6 +1,7 @@
 {
 	"id": "independencia-eeuu",
 	"nombre": "Guerra de Independencia de Estados Unidos",
+	"nombre_en": "American Revolutionary War",
 	"inicio": 1775,
 	"fin": 1783,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Control británico: Boston",
+			"nombre_en": "British control: Boston",
 			"tipo": "ocupado",
 			"desde": 1775,
 			"hasta": 1776,
@@ -40,6 +42,7 @@
 		},
 		{
 			"nombre": "Control británico: Nueva York",
+			"nombre_en": "British control: New York",
 			"tipo": "ocupado",
 			"desde": 1776,
 			"hasta": 1783,
@@ -64,6 +67,7 @@
 		},
 		{
 			"nombre": "Control británico: Filadelfia",
+			"nombre_en": "British control: Philadelphia",
 			"tipo": "ocupado",
 			"desde": 1777,
 			"hasta": 1778,
@@ -88,6 +92,7 @@
 		},
 		{
 			"nombre": "Control británico: Georgia y Charleston",
+			"nombre_en": "British control: Georgia and Charleston",
 			"tipo": "ocupado",
 			"desde": 1779,
 			"hasta": 1782,
@@ -112,6 +117,7 @@
 		},
 		{
 			"nombre": "Control británico: Canadá",
+			"nombre_en": "British control: Canada",
 			"tipo": "ocupado",
 			"desde": 1775,
 			"hasta": 1783,
@@ -136,6 +142,7 @@
 		},
 		{
 			"nombre": "Control patriota: Nueva Inglaterra",
+			"nombre_en": "Patriot control: New England",
 			"tipo": "ocupado",
 			"desde": 1776,
 			"hasta": 1783,
@@ -161,6 +168,7 @@
 		},
 		{
 			"nombre": "Control patriota: interior y Virginia",
+			"nombre_en": "Patriot control: interior and Virginia",
 			"tipo": "ocupado",
 			"desde": 1776,
 			"hasta": 1783,
@@ -190,6 +198,7 @@
 		},
 		{
 			"nombre": "Control patriota: el Sur interior",
+			"nombre_en": "Patriot control: the interior South",
 			"tipo": "ocupado",
 			"desde": 1781,
 			"hasta": 1783,
@@ -215,6 +224,7 @@
 		},
 		{
 			"nombre": "Campañas de Nueva Inglaterra y Saratoga",
+			"nombre_en": "New England and Saratoga campaigns",
 			"tipo": "frente",
 			"desde": 1775,
 			"hasta": 1777,
@@ -239,6 +249,7 @@
 		},
 		{
 			"nombre": "Campañas de los estados centrales",
+			"nombre_en": "Middle states campaigns",
 			"tipo": "frente",
 			"desde": 1776,
 			"hasta": 1779,
@@ -267,6 +278,7 @@
 		},
 		{
 			"nombre": "Campañas del Sur y Yorktown",
+			"nombre_en": "Southern campaigns and Yorktown",
 			"tipo": "frente",
 			"desde": 1779,
 			"hasta": 1781,
@@ -299,6 +311,7 @@
 		},
 		{
 			"nombre": "Gibraltar y Menorca (frente español)",
+			"nombre_en": "Gibraltar and Minorca (Spanish front)",
 			"tipo": "frente",
 			"desde": 1779,
 			"hasta": 1783,
@@ -325,222 +338,269 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Bunker Hill",
+			"nombre_en": "Battle of Bunker Hill",
 			"anio": 1775,
 			"lat": 42.38,
 			"lng": -71.06
 		},
 		{
 			"nombre": "Batalla de Chelsea Creek",
+			"nombre_en": "Battle of Chelsea Creek",
 			"anio": 1775,
 			"lat": 42.38,
 			"lng": -71.03
 		},
 		{
 			"nombre": "Batalla de Great Bridge",
+			"nombre_en": "Battle of Great Bridge",
 			"anio": 1775,
 			"lat": 36.72,
 			"lng": -76.24
 		},
 		{
 			"nombre": "Batalla de Kemp's Landing",
+			"nombre_en": "Battle of Kemp's Landing",
 			"anio": 1775,
 			"lat": 36.83,
-			"lng": -76.16
+			"lng": -76.16,
+			"wiki": "en:Battle of Kemp's Landing"
 		},
 		{
 			"nombre": "Batalla de Longue-Pointe",
+			"nombre_en": "Battle of Longue-Pointe",
 			"anio": 1775,
 			"lat": 45.56,
 			"lng": -73.53
 		},
 		{
 			"nombre": "Batalla de Quebec",
+			"nombre_en": "Battle of Quebec",
 			"anio": 1775,
 			"lat": 46.81,
 			"lng": -71.2
 		},
 		{
 			"nombre": "Captura del Fuerte Ticonderoga",
+			"nombre_en": "Capture of Fort Ticonderoga",
 			"anio": 1775,
 			"lat": 43.84,
 			"lng": -73.39
 		},
 		{
 			"nombre": "Batalla de Fort Cumberland",
+			"nombre_en": "Battle of Fort Cumberland",
 			"anio": 1776,
 			"lat": 45.87,
 			"lng": -64.29
 		},
 		{
 			"nombre": "Batalla de Fort Washington",
+			"nombre_en": "Battle of Fort Washington",
 			"anio": 1776,
 			"lat": 40.85,
 			"lng": -73.94
 		},
 		{
 			"nombre": "Batalla de Harlem Heights",
+			"nombre_en": "Battle of Harlem Heights",
 			"anio": 1776,
 			"lat": 40.81,
 			"lng": -73.96
 		},
 		{
 			"nombre": "Batalla de Iron Works Hill",
+			"nombre_en": "Battle of Iron Works Hill",
 			"anio": 1776,
 			"lat": 39.99,
 			"lng": -74.79
 		},
 		{
 			"nombre": "Batalla de Lindley's Fort",
+			"nombre_en": "Battle of Lindley's Fort",
 			"anio": 1776,
 			"lat": 34.46,
 			"lng": -82.12
 		},
 		{
 			"nombre": "Batalla de Long Island",
+			"nombre_en": "Battle of Long Island",
 			"anio": 1776,
 			"lat": 40.66,
 			"lng": -73.98
 		},
 		{
 			"nombre": "Batalla de Pell's Point",
+			"nombre_en": "Battle of Pell's Point",
 			"anio": 1776,
 			"lat": 40.87,
 			"lng": -73.81
 		},
 		{
 			"nombre": "Batalla de Saint-Pierre",
+			"nombre_en": "Battle of Saint-Pierre",
 			"anio": 1776,
 			"lat": 46.92,
 			"lng": -70.63
 		},
 		{
 			"nombre": "Batalla de Sullivan's Island",
+			"nombre_en": "Battle of Sullivan's Island",
 			"anio": 1776,
 			"lat": 32.76,
 			"lng": -79.86
 		},
 		{
 			"nombre": "Batalla de White Plains",
+			"nombre_en": "Battle of White Plains",
 			"anio": 1776,
 			"lat": 41.03,
 			"lng": -73.78
 		},
 		{
-			"nombre": "Landing at Kip's Bay",
+			"nombre": "Desembarco en Kip's Bay",
+			"nombre_en": "Landing at Kip's Bay",
 			"anio": 1776,
 			"lat": 40.74,
-			"lng": -73.97
+			"lng": -73.97,
+			"wiki": "en:Landing at Kip's Bay"
 		},
 		{
 			"nombre": "Asedio de Fort Ticonderoga",
+			"nombre_en": "Siege of Fort Ticonderoga",
 			"anio": 1777,
 			"lat": 43.84,
 			"lng": -73.39
 		},
 		{
+			"nombre": "Batalla de Assunpink Creek",
+			"nombre_en": "Battle of the Assunpink Creek",
+			"anio": 1777,
+			"lat": 40.22,
+			"lng": -74.76,
+			"wiki": "en:Battle of the Assunpink Creek"
+		},
+		{
 			"nombre": "Batalla de Bennington",
+			"nombre_en": "Battle of Bennington",
 			"anio": 1777,
 			"lat": 42.94,
 			"lng": -73.3
 		},
 		{
 			"nombre": "Batalla de Bound Brook",
+			"nombre_en": "Battle of Bound Brook",
 			"anio": 1777,
 			"lat": 40.56,
 			"lng": -74.53
 		},
 		{
 			"nombre": "Batalla de Brandywine",
+			"nombre_en": "Battle of Brandywine",
 			"anio": 1777,
 			"lat": 39.87,
 			"lng": -75.59
 		},
 		{
 			"nombre": "Batalla de Cooch's Bridge",
+			"nombre_en": "Battle of Cooch's Bridge",
 			"anio": 1777,
 			"lat": 39.64,
 			"lng": -75.73
 		},
 		{
 			"nombre": "Batalla de Fort Anne",
+			"nombre_en": "Battle of Fort Anne",
 			"anio": 1777,
 			"lat": 43.43,
 			"lng": -73.48
 		},
 		{
-			"nombre": "Batalla de Forts Clinton and Montgomery",
-			"anio": 1777,
-			"lat": 41.32,
-			"lng": -73.99
-		},
-		{
 			"nombre": "Batalla de Germantown",
+			"nombre_en": "Battle of Germantown",
 			"anio": 1777,
 			"lat": 40.02,
 			"lng": -75.16
 		},
 		{
 			"nombre": "Batalla de Gloucester",
+			"nombre_en": "Battle of Gloucester",
 			"anio": 1777,
 			"lat": 39.87,
 			"lng": -75.19
 		},
 		{
 			"nombre": "Batalla de Hubbardton",
+			"nombre_en": "Battle of Hubbardton",
 			"anio": 1777,
 			"lat": 43.7,
 			"lng": -73.14
 		},
 		{
 			"nombre": "Batalla de Machias (1777)",
+			"nombre_en": "Battle of Machias (1777)",
 			"anio": 1777,
 			"lat": 44.71,
 			"lng": -67.46
 		},
 		{
 			"nombre": "Batalla de Matson's Ford",
+			"nombre_en": "Battle of Matson's Ford",
 			"anio": 1777,
 			"lat": 40.07,
 			"lng": -75.31
 		},
 		{
 			"nombre": "Batalla de Millstone",
+			"nombre_en": "Battle of Millstone",
 			"anio": 1777,
 			"lat": 40.54,
 			"lng": -74.59
 		},
 		{
 			"nombre": "Batalla de Oriskany",
+			"nombre_en": "Battle of Oriskany",
 			"anio": 1777,
 			"lat": 43.18,
 			"lng": -75.37
 		},
 		{
 			"nombre": "Batalla de Paoli",
+			"nombre_en": "Battle of Paoli",
 			"anio": 1777,
 			"lat": 40.03,
 			"lng": -75.52
 		},
 		{
+			"nombre": "Batalla de Princeton",
+			"nombre_en": "Battle of Princeton",
+			"anio": 1777,
+			"lat": 40.33,
+			"lng": -74.67
+		},
+		{
 			"nombre": "Batalla de Punk Hill",
+			"nombre_en": "Battle of Punk Hill",
 			"anio": 1777,
 			"lat": 40.52,
 			"lng": -74.36
 		},
 		{
 			"nombre": "Batalla de Red Bank",
+			"nombre_en": "Battle of Red Bank",
 			"anio": 1777,
 			"lat": 39.87,
 			"lng": -75.19
 		},
 		{
 			"nombre": "Batalla de Ridgefield",
+			"nombre_en": "Battle of Ridgefield",
 			"anio": 1777,
 			"lat": 41.31,
 			"lng": -73.5
 		},
 		{
 			"nombre": "Batalla de Saratoga",
+			"nombre_en": "Battles of Saratoga",
 			"anio": 1777,
 			"lat": 42.99,
 			"lng": -73.64,
@@ -548,385 +608,445 @@
 		},
 		{
 			"nombre": "Batalla de Setauket",
+			"nombre_en": "Battle of Setauket",
 			"anio": 1777,
 			"lat": 40.95,
 			"lng": -73.11
 		},
 		{
 			"nombre": "Batalla de Short Hills",
+			"nombre_en": "Battle of Short Hills",
 			"anio": 1777,
 			"lat": 40.75,
 			"lng": -74.33
 		},
 		{
 			"nombre": "Batalla de Thomas Creek",
+			"nombre_en": "Battle of Thomas Creek",
 			"anio": 1777,
 			"lat": 30.51,
 			"lng": -81.79
 		},
 		{
 			"nombre": "Batalla de White Marsh",
+			"nombre_en": "Battle of White Marsh",
 			"anio": 1777,
 			"lat": 40.12,
 			"lng": -75.23
 		},
 		{
-			"nombre": "Battle of the Assunpink Creek",
-			"anio": 1777,
-			"lat": 40.22,
-			"lng": -74.76
-		},
-		{
-			"nombre": "Battle of the Clouds",
+			"nombre": "Batalla de las Nubes",
+			"nombre_en": "Battle of the Clouds",
 			"anio": 1777,
 			"lat": 40.05,
-			"lng": -75.57
+			"lng": -75.57,
+			"wiki": "en:Battle of the Clouds"
 		},
 		{
-			"nombre": "batalla de Princeton",
+			"nombre": "Batalla de los fuertes Clinton y Montgomery",
+			"nombre_en": "Battle of Forts Clinton and Montgomery",
 			"anio": 1777,
-			"lat": 40.33,
-			"lng": -74.67
+			"lat": 41.32,
+			"lng": -73.99,
+			"wiki": "en:Battle of Forts Clinton and Montgomery"
 		},
 		{
 			"nombre": "Batalla de Alligator Bridge",
+			"nombre_en": "Battle of Alligator Bridge",
 			"anio": 1778,
 			"lat": 30.57,
 			"lng": -81.83
 		},
 		{
 			"nombre": "Batalla de Barren Hill",
+			"nombre_en": "Battle of Barren Hill",
 			"anio": 1778,
 			"lat": 40.08,
 			"lng": -75.25
 		},
 		{
 			"nombre": "Batalla de Chestnut Neck",
+			"nombre_en": "Battle of Chestnut Neck",
 			"anio": 1778,
 			"lat": 39.54,
 			"lng": -74.46
 		},
 		{
 			"nombre": "Batalla de Cobleskill",
+			"nombre_en": "Battle of Cobleskill",
 			"anio": 1778,
 			"lat": 42.68,
 			"lng": -74.49
 		},
 		{
 			"nombre": "Batalla de Crooked Billet",
+			"nombre_en": "Battle of Crooked Billet",
 			"anio": 1778,
 			"lat": 40.17,
 			"lng": -75.11
 		},
 		{
 			"nombre": "Batalla de Monmouth",
+			"nombre_en": "Battle of Monmouth",
 			"anio": 1778,
 			"lat": 40.26,
 			"lng": -74.28
 		},
 		{
 			"nombre": "Batalla de Quinton's Bridge",
+			"nombre_en": "Battle of Quinton's Bridge",
 			"anio": 1778,
 			"lat": 39.55,
 			"lng": -75.41
 		},
 		{
 			"nombre": "Batalla de Rhode Island",
+			"nombre_en": "Battle of Rhode Island",
 			"anio": 1778,
 			"lat": 41.6,
 			"lng": -71.26
 		},
 		{
-			"nombre": "Baylor Massacre",
-			"anio": 1778,
-			"lat": 41.01,
-			"lng": -74.01
-		},
-		{
-			"nombre": "Cherry Valley massacre",
-			"anio": 1778,
-			"lat": 42.79,
-			"lng": -74.76
-		},
-		{
-			"nombre": "Mount Hope Bay raids",
-			"anio": 1778,
-			"lat": 41.69,
-			"lng": -71.22
-		},
-		{
-			"nombre": "batalla del cabo Finisterre (1778)",
+			"nombre": "Batalla del cabo Finisterre (1778)",
+			"nombre_en": "Battle of Cape Finisterre (1778)",
 			"anio": 1778,
 			"lat": 42.88,
 			"lng": -9.29
 		},
 		{
+			"nombre": "Cherry Valley massacre",
+			"nombre_en": "Cherry Valley massacre",
+			"anio": 1778,
+			"lat": 42.79,
+			"lng": -74.76
+		},
+		{
+			"nombre": "Masacre de Baylor",
+			"nombre_en": "Baylor Massacre",
+			"anio": 1778,
+			"lat": 41.01,
+			"lng": -74.01,
+			"wiki": "en:Baylor Massacre"
+		},
+		{
+			"nombre": "Mount Hope Bay raids",
+			"nombre_en": "Mount Hope Bay raids",
+			"anio": 1778,
+			"lat": 41.69,
+			"lng": -71.22
+		},
+		{
 			"nombre": "Batalla de Beaufort",
+			"nombre_en": "Battle of Beaufort",
 			"anio": 1779,
 			"lat": 32.5,
 			"lng": -80.74
 		},
 		{
 			"nombre": "Batalla de Chillicothe",
+			"nombre_en": "Battle of Chillicothe",
 			"anio": 1779,
 			"lat": 39.73,
 			"lng": -83.94
 		},
 		{
 			"nombre": "Batalla de Kettle Creek",
+			"nombre_en": "Battle of Kettle Creek",
 			"anio": 1779,
 			"lat": 33.69,
 			"lng": -82.89
 		},
 		{
 			"nombre": "Batalla de Minisink",
+			"nombre_en": "Battle of Minisink",
 			"anio": 1779,
 			"lat": 41.49,
 			"lng": -74.97
 		},
 		{
 			"nombre": "Batalla de Newtown",
+			"nombre_en": "Battle of Newtown",
 			"anio": 1779,
 			"lat": 42.05,
 			"lng": -76.73
 		},
 		{
 			"nombre": "Batalla de Norwalk",
+			"nombre_en": "Battle of Norwalk",
 			"anio": 1779,
 			"lat": 41.12,
 			"lng": -73.41
 		},
 		{
 			"nombre": "Batalla de Paulus Hook",
+			"nombre_en": "Battle of Paulus Hook",
 			"anio": 1779,
 			"lat": 40.71,
 			"lng": -74.04
 		},
 		{
 			"nombre": "Batalla de Stono Ferry",
+			"nombre_en": "Battle of Stono Ferry",
 			"anio": 1779,
 			"lat": 32.76,
 			"lng": -80.13
 		},
 		{
 			"nombre": "Batalla de Stony Point",
+			"nombre_en": "Battle of Stony Point",
 			"anio": 1779,
 			"lat": 41.24,
 			"lng": -73.97
 		},
 		{
+			"nombre": "Batalla del Lago Pontchartrain",
+			"nombre_en": "Battle of Lake Pontchartrain",
+			"anio": 1779,
+			"lat": 30.19,
+			"lng": -90.1
+		},
+		{
 			"nombre": "Gran Asedio de Gibraltar",
+			"nombre_en": "Great Siege of Gibraltar",
 			"anio": 1779,
 			"lat": 36.14,
 			"lng": -5.35,
 			"descripcion": "España y Francia asedian el Peñón durante casi cuatro años sin éxito."
 		},
 		{
-			"nombre": "batalla del Lago Pontchartrain",
-			"anio": 1779,
-			"lat": 30.19,
-			"lng": -90.1
-		},
-		{
 			"nombre": "Batalla de Blackstock's Farm",
+			"nombre_en": "Battle of Blackstock's Farm",
 			"anio": 1780,
 			"lat": 34.68,
 			"lng": -81.81
 		},
 		{
 			"nombre": "Batalla de Bull's Ferry",
+			"nombre_en": "Battle of Bull's Ferry",
 			"anio": 1780,
 			"lat": 40.79,
 			"lng": -74.0
 		},
 		{
 			"nombre": "Batalla de Camden",
+			"nombre_en": "Battle of Camden",
 			"anio": 1780,
 			"lat": 34.36,
 			"lng": -80.61
 		},
 		{
 			"nombre": "Batalla de Charlotte",
+			"nombre_en": "Battle of Charlotte",
 			"anio": 1780,
 			"lat": 35.23,
 			"lng": -80.84
 		},
 		{
 			"nombre": "Batalla de Colson's Mill",
+			"nombre_en": "Battle of Colson's Mill",
 			"anio": 1780,
 			"lat": 35.15,
 			"lng": -80.08
 		},
 		{
 			"nombre": "Batalla de Connecticut Farms",
+			"nombre_en": "Battle of Connecticut Farms",
 			"anio": 1780,
 			"lat": 40.7,
 			"lng": -74.27
 		},
 		{
 			"nombre": "Batalla de Fishdam Ford",
+			"nombre_en": "Battle of Fishdam Ford",
 			"anio": 1780,
 			"lat": 34.6,
 			"lng": -81.42
 		},
 		{
 			"nombre": "Batalla de Fort St. George",
+			"nombre_en": "Battle of Fort St. George",
 			"anio": 1780,
 			"lat": 40.96,
 			"lng": -73.04
 		},
 		{
 			"nombre": "Batalla de Hanging Rock",
+			"nombre_en": "Battle of Hanging Rock",
 			"anio": 1780,
 			"lat": 34.57,
 			"lng": -80.66
 		},
 		{
 			"nombre": "Batalla de Klock's Field",
+			"nombre_en": "Battle of Klock's Field",
 			"anio": 1780,
 			"lat": 43.0,
 			"lng": -74.71
 		},
 		{
 			"nombre": "Batalla de Lenud's Ferry",
+			"nombre_en": "Battle of Lenud's Ferry",
 			"anio": 1780,
 			"lat": 33.3,
 			"lng": -79.68
 		},
 		{
 			"nombre": "Batalla de Mobley's Meeting House",
+			"nombre_en": "Battle of Mobley's Meeting House",
 			"anio": 1780,
 			"lat": 34.45,
 			"lng": -81.27
 		},
 		{
 			"nombre": "Batalla de Monck's Corner",
+			"nombre_en": "Battle of Monck's Corner",
 			"anio": 1780,
 			"lat": 33.2,
 			"lng": -80.01
 		},
 		{
 			"nombre": "Batalla de Musgrove Mill",
+			"nombre_en": "Battle of Musgrove Mill",
 			"anio": 1780,
 			"lat": 34.59,
 			"lng": -81.85
 		},
 		{
 			"nombre": "Batalla de Piqua",
+			"nombre_en": "Battle of Piqua",
 			"anio": 1780,
 			"lat": 39.91,
 			"lng": -83.91
 		},
 		{
 			"nombre": "Batalla de Ramsour's Mill",
+			"nombre_en": "Battle of Ramsour's Mill",
 			"anio": 1780,
 			"lat": 35.48,
 			"lng": -81.26
 		},
 		{
 			"nombre": "Batalla de Rocky Mount",
+			"nombre_en": "Battle of Rocky Mount",
 			"anio": 1780,
 			"lat": 34.54,
 			"lng": -80.88
 		},
 		{
 			"nombre": "Batalla de San Luis",
+			"nombre_en": "Battle of St. Louis",
 			"anio": 1780,
 			"lat": 38.62,
 			"lng": -90.19
 		},
 		{
 			"nombre": "Batalla de Shallow Ford",
+			"nombre_en": "Battle of Shallow Ford",
 			"anio": 1780,
 			"lat": 36.08,
 			"lng": -80.53
 		},
 		{
 			"nombre": "Batalla de Springfield",
+			"nombre_en": "Battle of Springfield",
 			"anio": 1780,
 			"lat": 40.71,
 			"lng": -74.31
 		},
 		{
 			"nombre": "Batalla de Waxhaws",
+			"nombre_en": "Battle of Waxhaws",
 			"anio": 1780,
 			"lat": 34.74,
 			"lng": -80.63
 		},
 		{
 			"nombre": "Batalla de Young's House",
+			"nombre_en": "Battle of Young's House",
 			"anio": 1780,
 			"lat": 41.12,
 			"lng": -73.78
 		},
 		{
-			"nombre": "Acción del 21 Julio 1781",
+			"nombre": "Acción del 21 de julio de 1781",
+			"nombre_en": "Action of 21 July 1781",
 			"anio": 1781,
 			"lat": 45.91,
 			"lng": -59.97
 		},
 		{
 			"nombre": "Batalla de Blandford",
+			"nombre_en": "Battle of Blandford",
 			"anio": 1781,
 			"lat": 37.23,
 			"lng": -77.39
 		},
 		{
 			"nombre": "Batalla de Eutaw Springs",
+			"nombre_en": "Battle of Eutaw Springs",
 			"anio": 1781,
 			"lat": 33.41,
 			"lng": -80.3
 		},
 		{
 			"nombre": "Batalla de Fort Slongo",
+			"nombre_en": "Battle of Fort Slongo",
 			"anio": 1781,
 			"lat": 40.91,
 			"lng": -73.3
 		},
 		{
 			"nombre": "Batalla de Groton Heights",
+			"nombre_en": "Battle of Groton Heights",
 			"anio": 1781,
 			"lat": 41.35,
 			"lng": -72.08
 		},
 		{
 			"nombre": "Batalla de Guilford Court House",
+			"nombre_en": "Battle of Guilford Court House",
 			"anio": 1781,
 			"lat": 36.13,
 			"lng": -79.84
 		},
 		{
 			"nombre": "Batalla de Johnstown",
+			"nombre_en": "Battle of Johnstown",
 			"anio": 1781,
 			"lat": 43.01,
 			"lng": -74.37
 		},
 		{
 			"nombre": "Batalla de Lindley's Mill",
+			"nombre_en": "Battle of Lindley's Mill",
 			"anio": 1781,
 			"lat": 35.89,
 			"lng": -79.35
 		},
 		{
 			"nombre": "Batalla de Wetzell's Mill",
+			"nombre_en": "Battle of Wetzell's Mill",
 			"anio": 1781,
 			"lat": 36.08,
 			"lng": -79.79
 		},
 		{
 			"nombre": "Batalla de la Bahía de Chesapeake",
+			"nombre_en": "Battle of the Chesapeake",
 			"anio": 1781,
 			"lat": 36.97,
 			"lng": -75.54
 		},
 		{
 			"nombre": "Batalla del cabo Henry",
+			"nombre_en": "Battle of Cape Henry",
 			"anio": 1781,
 			"lat": 37.15,
 			"lng": -75.15
 		},
 		{
 			"nombre": "Sitio de Yorktown",
+			"nombre_en": "Siege of Yorktown",
 			"anio": 1781,
 			"lat": 37.24,
 			"lng": -76.51,
@@ -934,50 +1054,59 @@
 		},
 		{
 			"nombre": "Toma de Pensacola (Bernardo de Gálvez)",
+			"nombre_en": "Siege of Pensacola (Bernardo de Gálvez)",
 			"anio": 1781,
 			"lat": 30.42,
 			"lng": -87.22,
 			"descripcion": "Gálvez expulsa a los británicos de la Florida occidental."
 		},
 		{
+			"nombre": "Acción del 12 de diciembre de 1782",
+			"nombre_en": "Action of 12 December 1782",
+			"anio": 1782,
+			"lat": 43.47,
+			"lng": -8.25
+		},
+		{
 			"nombre": "Batalla de Blue Licks",
+			"nombre_en": "Battle of Blue Licks",
 			"anio": 1782,
 			"lat": 38.43,
 			"lng": -83.99
 		},
 		{
 			"nombre": "Batalla de Delaware Bay",
+			"nombre_en": "Battle of Delaware Bay",
 			"anio": 1782,
 			"lat": 39.08,
 			"lng": -74.97
 		},
 		{
-			"nombre": "Battle of the Delaware Capes",
+			"nombre": "Batalla de los cabos de Delaware",
+			"nombre_en": "Battle of the Delaware Capes",
 			"anio": 1782,
 			"lat": 38.97,
-			"lng": -74.97
+			"lng": -74.97,
+			"wiki": "en:Battle of the Delaware Capes"
 		},
 		{
 			"nombre": "Naval battle off Halifax",
+			"nombre_en": "Naval battle off Halifax",
 			"anio": 1782,
 			"lat": 44.3,
 			"lng": -63.4
 		},
 		{
 			"nombre": "Reconquista de Menorca",
+			"nombre_en": "Invasion of Minorca",
 			"anio": 1782,
 			"lat": 39.89,
 			"lng": 4.27,
 			"descripcion": "España recupera la isla perdida en Utrecht."
 		},
 		{
-			"nombre": "acción del 12 de diciembre de 1782",
-			"anio": 1782,
-			"lat": 43.47,
-			"lng": -8.25
-		},
-		{
-			"nombre": "Acción del 22 Enero 1783",
+			"nombre": "Acción del 22 de enero de 1783",
+			"nombre_en": "Action of 22 January 1783",
 			"anio": 1783,
 			"lat": 37.09,
 			"lng": -76.16

@@ -1,6 +1,7 @@
 {
 	"id": "guerras-pergamo-galatas",
 	"nombre": "Guerras de Pérgamo contra los gálatas",
+	"nombre_en": "Pergamene wars against the Galatians",
 	"inicio": -241,
 	"fin": -230,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Noroeste de Anatolia (dominio de Pérgamo)",
+			"nombre_en": "Northwestern Anatolia (Pergamene domain)",
 			"tipo": "frente",
 			"desde": -241,
 			"hasta": -230,
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del río Caico",
+			"nombre_en": "Battle of the Caicus River",
 			"anio": -241,
 			"lat": 39.1,
 			"lng": 27.0

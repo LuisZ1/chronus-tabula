@@ -1,6 +1,7 @@
 {
 	"id": "guerra-civil-severa",
 	"nombre": "Guerra civil de los Severos",
+	"nombre_en": "Severan civil war",
 	"inicio": 193,
 	"fin": 197,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Campaña contra Pescenio Níger (Oriente)",
+			"nombre_en": "Campaign against Pescennius Niger (East)",
 			"tipo": "frente",
 			"desde": 193,
 			"hasta": 194,
@@ -36,6 +38,7 @@
 		},
 		{
 			"nombre": "Campaña contra Clodio Albino (Galias)",
+			"nombre_en": "Campaign against Clodius Albinus (Gaul)",
 			"tipo": "frente",
 			"desde": 196,
 			"hasta": 197,
@@ -62,6 +65,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Isos",
+			"nombre_en": "Battle of Issus",
 			"anio": 194,
 			"lat": 36.9,
 			"lng": 36.2,
@@ -70,6 +74,7 @@
 		},
 		{
 			"nombre": "Batalla de Lugdunum",
+			"nombre_en": "Battle of Lugdunum",
 			"anio": 197,
 			"lat": 45.76,
 			"lng": 4.83,

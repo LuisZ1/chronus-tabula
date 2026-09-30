@@ -1,6 +1,7 @@
 {
 	"id": "franco-prusiana",
 	"nombre": "Guerra franco-prusiana",
+	"nombre_en": "Franco-Prussian War",
 	"inicio": 1870,
 	"fin": 1871,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Alsacia, Lorena y Sedán",
+			"nombre_en": "Alsace, Lorraine and Sedan",
 			"tipo": "frente",
 			"desde": 1870,
 			"hasta": 1870,
@@ -45,6 +47,7 @@
 		},
 		{
 			"nombre": "Sitio de París",
+			"nombre_en": "Siege of Paris",
 			"tipo": "frente",
 			"desde": 1870,
 			"hasta": 1871,
@@ -71,6 +74,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Gravelotte-Saint-Privat",
+			"nombre_en": "Battle of Gravelotte-Saint-Privat",
 			"anio": 1870,
 			"lat": 49.11,
 			"lng": 6.03,
@@ -79,6 +83,7 @@
 		},
 		{
 			"nombre": "Batalla de Sedán",
+			"nombre_en": "Battle of Sedan",
 			"anio": 1870,
 			"lat": 49.7,
 			"lng": 4.94,
@@ -87,6 +92,7 @@
 		},
 		{
 			"nombre": "Sitio de París",
+			"nombre_en": "Siege of Paris",
 			"anio": 1871,
 			"lat": 48.86,
 			"lng": 2.35,

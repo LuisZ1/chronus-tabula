@@ -1,6 +1,7 @@
 {
 	"id": "revolucion-gloriosa",
 	"nombre": "Revolución Gloriosa",
+	"nombre_en": "Glorious Revolution",
 	"inicio": 1688,
 	"fin": 1689,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Desembarco en Torbay y marcha a Londres",
+			"nombre_en": "Landing at Torbay and march on London",
 			"tipo": "frente",
 			"desde": 1688,
 			"hasta": 1688,
@@ -43,6 +45,7 @@
 	"batallas": [
 		{
 			"nombre": "Desembarco de Guillermo de Orange en Torbay",
+			"nombre_en": "Landing of William of Orange at Torbay",
 			"anio": 1688,
 			"lat": 50.43,
 			"lng": -3.51

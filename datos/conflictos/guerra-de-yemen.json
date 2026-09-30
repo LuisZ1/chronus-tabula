@@ -1,6 +1,7 @@
 {
 	"id": "guerra-de-yemen",
 	"nombre": "Guerra de Yemen",
+	"nombre_en": "Yemeni civil war",
 	"inicio": 2014,
 	"fin": 2026,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Noroeste hutí (Saná)",
+			"nombre_en": "Houthi northwest (Sanaa)",
 			"tipo": "frente",
 			"desde": 2014,
 			"hasta": 2022,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Frente del mar Rojo",
+			"nombre_en": "Red Sea front",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 2023,
@@ -66,6 +69,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Saná",
+			"nombre_en": "Capture of Sanaa",
 			"anio": 2014,
 			"lat": 15.35,
 			"lng": 44.21,
@@ -73,6 +77,7 @@
 		},
 		{
 			"nombre": "Batalla de Adén",
+			"nombre_en": "Battle of Aden",
 			"anio": 2015,
 			"lat": 12.79,
 			"lng": 45.03,
@@ -80,12 +85,14 @@
 		},
 		{
 			"nombre": "Incursión de Yakla",
+			"nombre_en": "Yakla raid",
 			"anio": 2017,
 			"lat": 14.6,
 			"lng": 45.06
 		},
 		{
 			"nombre": "Batalla de Hodeida",
+			"nombre_en": "Battle of Hodeidah",
 			"anio": 2018,
 			"lat": 14.8,
 			"lng": 42.95,

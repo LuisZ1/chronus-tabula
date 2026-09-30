@@ -1,6 +1,7 @@
 {
 	"id": "guerras-alto-karabaj",
 	"nombre": "Guerras del Alto Karabaj",
+	"nombre_en": "Nagorno-Karabakh wars",
 	"inicio": 2020,
 	"fin": 2023,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Guerra de los 44 días",
+			"nombre_en": "44-day war",
 			"tipo": "frente",
 			"desde": 2020,
 			"hasta": 2020,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Ofensiva de 2023",
+			"nombre_en": "2023 offensive",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2023,
@@ -63,6 +66,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Shusha",
+			"nombre_en": "Battle of Shusha",
 			"anio": 2020,
 			"lat": 39.76,
 			"lng": 46.75,
@@ -71,6 +75,7 @@
 		},
 		{
 			"nombre": "Caída de Stepanakert",
+			"nombre_en": "Fall of Stepanakert",
 			"anio": 2023,
 			"lat": 39.82,
 			"lng": 46.75,

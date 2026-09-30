@@ -1,6 +1,7 @@
 {
 	"id": "caida-occidente",
 	"nombre": "Invasiones germánicas y caída de Occidente",
+	"nombre_en": "Germanic invasions and the fall of the West",
 	"inicio": 376,
 	"fin": 476,
 	"paises": [
@@ -18,6 +19,7 @@
 	"zonas": [
 		{
 			"nombre": "Balcanes (guerra gótica)",
+			"nombre_en": "Balkans (Gothic War)",
 			"tipo": "frente",
 			"desde": 376,
 			"hasta": 382,
@@ -42,6 +44,7 @@
 		},
 		{
 			"nombre": "Cruce del Rin (vándalos, suevos y alanos)",
+			"nombre_en": "Crossing of the Rhine (Vandals, Suebi and Alans)",
 			"tipo": "frente",
 			"desde": 406,
 			"hasta": 409,
@@ -70,6 +73,7 @@
 		},
 		{
 			"nombre": "Italia (Alarico)",
+			"nombre_en": "Italy (Alaric)",
 			"tipo": "frente",
 			"desde": 408,
 			"hasta": 410,
@@ -98,6 +102,7 @@
 		},
 		{
 			"nombre": "África vándala",
+			"nombre_en": "Vandal Africa",
 			"tipo": "frente",
 			"desde": 429,
 			"hasta": 439,
@@ -122,6 +127,7 @@
 		},
 		{
 			"nombre": "Hispania y Galia (suevos y visigodos)",
+			"nombre_en": "Hispania and Gaul (Suebi and Visigoths)",
 			"tipo": "frente",
 			"desde": 409,
 			"hasta": 476,
@@ -154,6 +160,7 @@
 		},
 		{
 			"nombre": "Caída de Rávena y Roma",
+			"nombre_en": "Fall of Ravenna and Rome",
 			"tipo": "frente",
 			"desde": 474,
 			"hasta": 476,
@@ -180,6 +187,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Adrianópolis",
+			"nombre_en": "Battle of Adrianople",
 			"anio": 378,
 			"lat": 41.67,
 			"lng": 26.57,
@@ -188,6 +196,7 @@
 		},
 		{
 			"nombre": "Saqueo de Roma (Alarico)",
+			"nombre_en": "Sack of Rome (Alaric)",
 			"anio": 410,
 			"lat": 41.89,
 			"lng": 12.49,
@@ -195,6 +204,7 @@
 		},
 		{
 			"nombre": "Saqueo de Roma (Genserico)",
+			"nombre_en": "Sack of Rome (Genseric)",
 			"anio": 455,
 			"lat": 41.9,
 			"lng": 12.5,
@@ -202,6 +212,7 @@
 		},
 		{
 			"nombre": "Deposición de Rómulo Augústulo",
+			"nombre_en": "Deposition of Romulus Augustulus",
 			"anio": 476,
 			"lat": 44.42,
 			"lng": 12.2,

@@ -1,6 +1,7 @@
 {
 	"id": "guerra-civil-china",
 	"nombre": "Guerra civil china",
+	"nombre_en": "Chinese Civil War",
 	"inicio": 1927,
 	"fin": 1949,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Sóviets del sur y Larga Marcha",
+			"nombre_en": "Southern soviets and the Long March",
 			"tipo": "frente",
 			"desde": 1927,
 			"hasta": 1936,
@@ -36,6 +38,7 @@
 		},
 		{
 			"nombre": "Ofensivas finales (Manchuria y llanura central)",
+			"nombre_en": "Final offensives (Manchuria and the Central Plain)",
 			"tipo": "frente",
 			"desde": 1946,
 			"hasta": 1949,
@@ -66,6 +69,7 @@
 	"batallas": [
 		{
 			"nombre": "Campaña de Huaihai",
+			"nombre_en": "Huaihai campaign",
 			"anio": 1948,
 			"hasta": 1949,
 			"lat": 34.26,
@@ -74,6 +78,7 @@
 		},
 		{
 			"nombre": "Toma de Pekín",
+			"nombre_en": "Capture of Beijing",
 			"anio": 1949,
 			"lat": 39.9,
 			"lng": 116.4,

@@ -1,6 +1,7 @@
 {
 	"id": "guerra-afganistan",
 	"nombre": "Guerra de Afganistán",
+	"nombre_en": "War in Afghanistan",
 	"inicio": 2001,
 	"fin": 2021,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Invasión estadounidense",
+			"nombre_en": "US invasion",
 			"tipo": "frente",
 			"desde": 2001,
 			"hasta": 2002,
@@ -42,6 +44,7 @@
 		},
 		{
 			"nombre": "Insurgencia talibán (sur y este)",
+			"nombre_en": "Taliban insurgency (south and east)",
 			"tipo": "frente",
 			"desde": 2003,
 			"hasta": 2020,
@@ -66,6 +69,7 @@
 		},
 		{
 			"nombre": "Ofensiva talibán final",
+			"nombre_en": "Final Taliban offensive",
 			"tipo": "frente",
 			"desde": 2021,
 			"hasta": 2021,
@@ -96,12 +100,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Qala-i-Jangi",
+			"nombre_en": "Battle of Qala-i-Jangi",
 			"anio": 2001,
 			"lat": 36.67,
 			"lng": 66.98
 		},
 		{
 			"nombre": "Batalla de Tora Bora",
+			"nombre_en": "Battle of Tora Bora",
 			"anio": 2001,
 			"lat": 34.12,
 			"lng": 70.21,
@@ -110,84 +116,98 @@
 		},
 		{
 			"nombre": "Caída de Mazari Sharif",
+			"nombre_en": "Fall of Mazar-i-Sharif",
 			"anio": 2001,
 			"lat": 36.7,
 			"lng": 67.12
 		},
 		{
 			"nombre": "Batalla de Takur Ghar",
+			"nombre_en": "Battle of Takur Ghar",
 			"anio": 2002,
 			"lat": 33.34,
 			"lng": 69.21
 		},
 		{
 			"nombre": "Operación Anaconda",
+			"nombre_en": "Operation Anaconda",
 			"anio": 2002,
 			"lat": 33.37,
 			"lng": 69.18
 		},
 		{
 			"nombre": "Incidente de fuego amigo en Sangin",
+			"nombre_en": "Sangin friendly fire incident",
 			"anio": 2006,
 			"lat": 31.59,
 			"lng": 64.36
 		},
 		{
 			"nombre": "Batalla de Chora",
+			"nombre_en": "Battle of Chora",
 			"anio": 2007,
 			"lat": 32.85,
 			"lng": 66.08
 		},
 		{
 			"nombre": "Batalla de Firebase Anaconda",
+			"nombre_en": "Battle of Firebase Anaconda",
 			"anio": 2007,
 			"lat": 32.13,
 			"lng": 66.0
 		},
 		{
 			"nombre": "Batalla de Musa Qala",
+			"nombre_en": "Battle of Musa Qala",
 			"anio": 2007,
 			"lat": 32.44,
 			"lng": 64.74
 		},
 		{
 			"nombre": "Batalla de Shewan",
+			"nombre_en": "Battle of Shewan",
 			"anio": 2008,
 			"lat": 32.62,
 			"lng": 62.49
 		},
 		{
 			"nombre": "Emboscada de Uzbin",
+			"nombre_en": "Uzbin ambush",
 			"anio": 2008,
 			"lat": 34.66,
 			"lng": 69.85
 		},
 		{
 			"nombre": "Batalla de Alasay",
+			"nombre_en": "Battle of Alasay",
 			"anio": 2009,
 			"lat": 34.9,
 			"lng": 69.72
 		},
 		{
-			"nombre": "batalla de Ganjgal",
+			"nombre": "Batalla de Ganjgal",
+			"nombre_en": "Battle of Ganjgal",
 			"anio": 2009,
 			"lat": 34.79,
 			"lng": 71.16
 		},
 		{
-			"nombre": "batalla de Kamdesh",
+			"nombre": "Batalla de Kamdesh",
+			"nombre_en": "Battle of Kamdesh",
 			"anio": 2009,
 			"lat": 35.41,
 			"lng": 71.34
 		},
 		{
 			"nombre": "Operación Halmazag",
+			"nombre_en": "Operation Halmazag",
 			"anio": 2010,
 			"lat": 36.66,
 			"lng": 68.83
 		},
 		{
 			"nombre": "Operación Moshtarak (Marjah)",
+			"nombre_en": "Operation Moshtarak (Marjah)",
 			"anio": 2010,
 			"lat": 31.52,
 			"lng": 64.12,
@@ -195,18 +215,21 @@
 		},
 		{
 			"nombre": "Batalla de Joybar",
+			"nombre_en": "Battle of Joybar",
 			"anio": 2011,
 			"lat": 34.87,
 			"lng": 69.64
 		},
 		{
 			"nombre": "Batalla de Kandahar (2021)",
+			"nombre_en": "Battle of Kandahar (2021)",
 			"anio": 2021,
 			"lat": 31.61,
 			"lng": 65.72
 		},
 		{
 			"nombre": "Caída de Kabul",
+			"nombre_en": "Fall of Kabul",
 			"anio": 2021,
 			"lat": 34.53,
 			"lng": 69.17,
