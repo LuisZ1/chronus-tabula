@@ -1119,6 +1119,353 @@ kbd {
 	font-size: 0.8125rem;
 }
 
+/* ==== fuentes.html ==== */
+.fu-portada {
+	margin: var(--s-5) 0 0;
+}
+.sr {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+.fu-hero .lema {
+	margin-bottom: var(--s-6);
+}
+/* las cifras de cabecera, como la escala de una lámina: número condensado grande */
+.fu-cifras {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 0;
+	margin: 0;
+	border-top: var(--filete);
+	border-bottom: var(--filete);
+}
+.fu-cifras > div {
+	display: flex;
+	flex-direction: column-reverse;
+	padding: var(--s-4) var(--s-5) var(--s-4) 0;
+}
+.fu-cifras > div + div {
+	border-left: 1px solid var(--linea);
+	padding-left: var(--s-5);
+}
+.fu-cifras dd {
+	margin: 0;
+	font: 800 clamp(2.5rem, 1.6rem + 4vw, 5.5rem) / 0.9 var(--font);
+	font-stretch: var(--estrecha);
+	font-variant-numeric: tabular-nums;
+	color: var(--oceano);
+}
+.fu-cifras dt {
+	margin-top: var(--s-2);
+	font: 700 var(--t-small) / 1 var(--font);
+	font-stretch: 78%;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	color: var(--tinta-2);
+}
+.fu-cifras-2 {
+	max-width: 760px;
+	margin: var(--s-4) 0 0;
+	color: var(--tinta-2);
+}
+.fu-cifras-2 b {
+	color: var(--tinta);
+	font-variant-numeric: tabular-nums;
+}
+/* por tipo de dato: casillas-botón */
+.fu-datos {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr));
+	gap: var(--s-3);
+}
+.fu-dato {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	padding: var(--s-4);
+	background: var(--papel);
+	border: var(--filete);
+	border-radius: var(--r-tarjeta);
+	color: var(--tinta);
+	font: inherit;
+	text-align: left;
+	cursor: pointer;
+	touch-action: manipulation;
+	transition: background var(--d-ui) var(--ease-out);
+}
+.fu-dato b {
+	font: 800 2rem / 1 var(--font);
+	font-stretch: 75%;
+	font-variant-numeric: tabular-nums;
+}
+.fu-dato span {
+	color: var(--tinta-2);
+	font-size: var(--t-small);
+}
+.fu-dato[aria-pressed='true'] {
+	background: var(--t-amarillo);
+}
+@media (hover: hover) and (pointer: fine) {
+	.fu-dato:hover {
+		background: var(--papel-2);
+	}
+	.fu-dato[aria-pressed='true']:hover {
+		background: var(--t-amarillo);
+	}
+}
+/* filtros por tipo de fuente */
+.fu-filtros {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--s-2);
+	margin-bottom: var(--s-4);
+}
+.fu-filtro,
+.fu-quitar {
+	min-height: 40px;
+	padding: 0 var(--s-4);
+	background: var(--papel);
+	border: 1px solid var(--tinta);
+	border-radius: var(--r-chip);
+	color: var(--tinta);
+	font: 700 var(--t-small) / 1 var(--font);
+	font-stretch: 85%;
+	cursor: pointer;
+	touch-action: manipulation;
+}
+.fu-filtro[aria-pressed='true'] {
+	background: var(--tinta);
+	color: var(--papel);
+}
+.fu-quitar {
+	min-height: 32px;
+	margin-left: var(--s-2);
+}
+.fu-filtro-dato {
+	margin: 0 0 var(--s-4);
+}
+/* la bibliografía */
+.fu-grupo {
+	display: flex;
+	align-items: center;
+	gap: var(--s-2);
+	margin: var(--s-7) 0 0;
+	padding-bottom: var(--s-2);
+	border-bottom: var(--filete);
+	font: 800 1.5rem / 1 var(--font);
+	font-stretch: 75%;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+}
+.fu-grupo:first-child {
+	margin-top: var(--s-4);
+}
+.fu-grupo .icono {
+	width: 22px;
+	height: 22px;
+	color: var(--oceano);
+}
+.fu-refs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.fu-ref {
+	padding: var(--s-4) 0;
+	border-bottom: 1px solid var(--linea);
+	scroll-margin-top: 96px;
+}
+.fu-ref.destino {
+	background: linear-gradient(90deg, var(--t-amarillo) 0 6px, transparent 6px);
+	padding-left: var(--s-4);
+}
+.fu-cita {
+	max-width: 900px;
+	margin: 0;
+	line-height: 1.45;
+}
+.fu-cita cite {
+	font-style: italic;
+	font-weight: 600;
+}
+.fu-cita a {
+	color: var(--tinta);
+	text-underline-offset: 0.18em;
+}
+.fu-autor {
+	font-variant: small-caps;
+	letter-spacing: 0.02em;
+}
+.fu-meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+	margin: var(--s-2) 0 0;
+}
+.fu-lic,
+.fu-uso {
+	color: var(--tinta-2);
+	font-size: var(--t-small);
+}
+.fu-uso {
+	max-width: 900px;
+	margin: var(--s-1) 0 0;
+}
+.fu-usos {
+	margin-top: var(--s-2);
+	font-size: var(--t-small);
+}
+.fu-usos summary {
+	color: var(--oceano);
+	font-weight: 700;
+	cursor: pointer;
+	width: fit-content;
+}
+.fu-usos p {
+	margin: var(--s-2) 0 0;
+	max-width: 900px;
+	line-height: 1.7;
+}
+.fu-usos a {
+	color: var(--tinta);
+}
+/* listas completas de Wikipedia y Wikidata (cerradas por defecto) */
+.fu-lista {
+	border-top: var(--filete);
+}
+.fu-lista:last-of-type {
+	border-bottom: var(--filete);
+}
+.fu-lista summary {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	min-height: 60px;
+	font: 700 var(--t-body) / 1.2 var(--font);
+	font-stretch: 85%;
+	cursor: pointer;
+	list-style: none;
+	touch-action: manipulation;
+}
+.fu-lista summary::-webkit-details-marker {
+	display: none;
+}
+.fu-lista .chevron {
+	width: 18px;
+	height: 18px;
+	flex: none;
+	transition: transform var(--d-ui) var(--ease-out);
+}
+.fu-lista[open] .chevron {
+	transform: rotate(90deg);
+}
+.fu-lista-cuerpo {
+	padding-bottom: var(--s-5);
+}
+.fu-buscar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: var(--s-2) var(--s-3);
+	margin-bottom: var(--s-4);
+}
+.fu-buscar label {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex: 1 1 260px;
+	padding: 0 var(--s-3);
+	background: var(--papel);
+	border: 1px solid var(--tinta);
+	border-radius: var(--r-chip);
+}
+.fu-buscar label .icono {
+	width: 18px;
+	height: 18px;
+	color: var(--tinta-2);
+}
+.fu-buscar input,
+.fu-buscar select {
+	min-height: 44px;
+	font: inherit;
+	color: var(--tinta);
+}
+.fu-buscar input {
+	flex: 1;
+	min-width: 0;
+	border: 0;
+	background: none;
+	outline: none;
+}
+.fu-buscar select {
+	padding: 0 var(--s-2);
+	background: var(--papel);
+	border: 1px solid var(--tinta);
+	border-radius: var(--r-chip);
+}
+.fu-total {
+	color: var(--tinta-2);
+	font-size: var(--t-small);
+	font-variant-numeric: tabular-nums;
+}
+.fu-filas {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	columns: 2 420px;
+	column-gap: var(--s-7);
+}
+.fu-filas li {
+	break-inside: avoid;
+	padding: 6px 0;
+	border-bottom: 1px solid var(--linea-suave);
+	font-size: var(--t-small);
+	line-height: 1.4;
+}
+.fu-filas li > a {
+	color: var(--tinta);
+	font-weight: 600;
+}
+.fu-idioma {
+	margin-left: 4px;
+	padding: 1px 4px;
+	border: 1px solid var(--linea);
+	border-radius: var(--r-chip);
+	color: var(--tinta-2);
+	font-size: var(--t-micro);
+	text-transform: uppercase;
+}
+.fu-de {
+	display: block;
+	color: var(--tinta-2);
+}
+.fu-de a {
+	color: var(--tinta-2);
+}
+.fu-mas {
+	margin-top: var(--s-4);
+}
+.fu-mas[hidden] {
+	display: none;
+}
+@media (max-width: 760px) {
+	.fu-cifras > div {
+		padding-right: var(--s-3);
+	}
+	.fu-cifras > div + div {
+		padding-left: var(--s-3);
+	}
+	.fu-datos {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
 /* ==== ajustes de pantalla ==== */
 @media (max-width: 1000px) {
 	.dos-col {

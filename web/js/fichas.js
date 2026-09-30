@@ -8,16 +8,37 @@ function avisoDatoHtml() {
 	return `<p class="aviso-dato">${i18n.t('popup.disclaimer')} <a href="aviso-legal.html#exactitud" target="_blank" rel="noopener">${i18n.t('popup.disclaimerMore')}</a></p>`;
 }
 
+/* rótulo legible de una cita: «Wikipedia (es): Título», «Wikidata: Q29», o autor y
+   título de una obra del registro (datos/referencias.json), que enlaza a su
+   referencia completa en la página de fuentes */
+function fuenteHtml(f) {
+	const id = String(f.id || '');
+	const m = /^wikipedia-([a-z]+):(.+)$/.exec(id);
+	if (m) return `<a href="${escHtml(f.url || '')}" target="_blank" rel="noopener">Wikipedia (${m[1]}): ${escHtml(m[2])}</a>`;
+	if (id.startsWith('wikidata:'))
+		return `<a href="${escHtml(f.url || 'https://www.wikidata.org/wiki/' + id.slice(9))}" target="_blank" rel="noopener">Wikidata: ${escHtml(id.slice(9))}</a>`;
+	if (id === 'curado') return escHtml(i18n.t('popup.ownWork'));
+	const r = historia && historia.referencias && historia.referencias[id];
+	if (r) {
+		const txt = [r.autor, r.titulo].filter(Boolean).join(', ') + (r.anio ? ` (${r.anio})` : '');
+		return `<a href="fuentes.html#${encodeURIComponent(id)}">${escHtml(txt)}</a>${f.paginas ? ', ' + escHtml(f.paginas) : ''}`;
+	}
+	return f.url ? `<a href="${escHtml(f.url)}" target="_blank" rel="noopener">${escHtml(id || f.url)}</a>` : escHtml(id || '?');
+}
+
 function fuentesHtml(reg) {
-	const fs = reg && reg.fuentes;
-	if (!fs || !fs.length) return '';
-	const links = fs
-		.map(f => {
-			const label = escHtml(f.id || f.url || '?');
-			return f.url ? `<a href="${escHtml(f.url)}" target="_blank" rel="noopener">${label}</a>` : label;
-		})
-		.join('<br>');
-	return `<details class="fuentes"><summary>${i18n.t('popup.sources')} (${fs.length})</summary><div>${links}</div></details>`;
+	const todas = reg && reg.fuentes;
+	if (!todas || !todas.length) return '';
+	// la misma fuente consultada en fechas distintas se muestra una vez
+	const vistas = new Set();
+	const fs = todas.filter(f => {
+		const k = f.id || f.url;
+		if (vistas.has(k)) return false;
+		vistas.add(k);
+		return true;
+	});
+	const links = fs.map(fuenteHtml).join('<br>');
+	return `<details class="fuentes"><summary>${i18n.t('popup.sources')} (${fs.length})</summary><div>${links}<br><a class="todas-fuentes" href="fuentes.html">${i18n.t('popup.allSources')}</a></div></details>`;
 }
 
 /* ---------- popup de territorio ---------- */

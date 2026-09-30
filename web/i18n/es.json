@@ -72,5 +72,7 @@
   "panel.facts": "Datos de interés",
   "panel.none": "— nada registrado —",
   "popup.sources": "Fuentes",
-  "nav.title": "Arrastra los tiradores para acercar la vista; el centro para desplazarte (doble clic: ver todo)"
+  "nav.title": "Arrastra los tiradores para acercar la vista; el centro para desplazarte (doble clic: ver todo)",
+  "popup.ownWork": "Elaboración propia contrastada",
+  "popup.allSources": "Todas las fuentes y referencias →"
 }
