@@ -1,6 +1,7 @@
 {
 	"id": "macedonia",
 	"nombre": "Macedonia y Liga Helénica",
+	"nombre_en": "Macedon and Hellenic League",
 	"nombres": [
 		"Macedon and Hellenic League",
 		"Empire of Alexander",
@@ -9,17 +10,20 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Macedonia",
+			"nombre_en": "Kingdom of Macedonia",
 			"desde": -700,
 			"hasta": -337
 		},
 		{
 			"nombre": "Imperio de Alejandro Magno",
+			"nombre_en": "Empire of Alexander the Great",
 			"desde": -336,
 			"hasta": -323,
 			"wiki": "Imperio macedonio"
 		},
 		{
 			"nombre": "Reino de Macedonia",
+			"nombre_en": "Kingdom of Macedonia",
 			"desde": -322,
 			"hasta": -168
 		}

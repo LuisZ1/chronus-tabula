@@ -1,6 +1,7 @@
 {
 	"id": "urss",
 	"nombre": "Unión Soviética (URSS)",
+	"nombre_en": "Soviet Union (USSR)",
 	"nombres": [
 		"USSR"
 	],

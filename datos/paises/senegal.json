@@ -1,22 +1,26 @@
 {
 	"id": "senegal",
 	"nombre": "Senegal",
+	"nombre_en": "Senegal",
 	"nombres": [
 		"Senegal"
 	],
 	"nombres_periodo": [
 		{
-			"nombre": "Africa Occidental Francesa (Senegal)",
+			"nombre": "África Occidental Francesa (Senegal)",
+			"nombre_en": "French West Africa (Senegal)",
 			"desde": 1895,
 			"hasta": 1959
 		},
 		{
-			"nombre": "Federacion de Mali",
+			"nombre": "Federación de Malí",
+			"nombre_en": "Mali Federation",
 			"desde": 1959,
 			"hasta": 1960
 		},
 		{
-			"nombre": "Republica del Senegal",
+			"nombre": "República del Senegal",
+			"nombre_en": "Republic of Senegal",
 			"desde": 1960,
 			"hasta": 2026
 		}
@@ -141,7 +145,7 @@
 		"estado": "validado",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
-		"hash": "632c6e8a6609",
+		"hash": "5b0eaf5ff116",
 		"secciones": [
 			"banderas",
 			"escudos",

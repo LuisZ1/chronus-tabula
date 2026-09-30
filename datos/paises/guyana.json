@@ -1,6 +1,7 @@
 {
 	"id": "guyana",
 	"nombre": "Guyana",
+	"nombre_en": "Guyana",
 	"nombres": [
 		"Guyana",
 		"British Guiana"
@@ -8,6 +9,7 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Guayana Británica",
+			"nombre_en": "British Guiana",
 			"desde": 1831,
 			"hasta": 1965
 		}

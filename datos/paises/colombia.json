@@ -1,6 +1,7 @@
 {
 	"id": "colombia",
 	"nombre": "Colombia",
+	"nombre_en": "Colombia",
 	"nombres": [
 		"Colombia",
 		"Republic of New Granada"
@@ -8,6 +9,7 @@
 	"nombres_periodo": [
 		{
 			"nombre": "República de la Nueva Granada",
+			"nombre_en": "Republic of New Granada",
 			"desde": 1831,
 			"hasta": 1857
 		}

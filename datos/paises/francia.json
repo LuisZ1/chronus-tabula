@@ -1,6 +1,7 @@
 {
 	"id": "francia",
 	"nombre": "Francia",
+	"nombre_en": "France",
 	"nombres": [
 		"France",
 		"Kingdom of France",
@@ -9,62 +10,74 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Francia",
+			"nombre_en": "Kingdom of France",
 			"desde": 987,
 			"hasta": 1791
 		},
 		{
 			"nombre": "Primera República Francesa",
+			"nombre_en": "French First Republic",
 			"desde": 1792,
 			"hasta": 1803
 		},
 		{
 			"nombre": "Primer Imperio francés",
+			"nombre_en": "First French Empire",
 			"desde": 1804,
 			"hasta": 1814
 		},
 		{
 			"nombre": "Reino de Francia (Restauración)",
+			"nombre_en": "Kingdom of France (Restoration)",
 			"desde": 1815,
 			"hasta": 1829,
 			"wiki": "Restauración borbónica en Francia"
 		},
 		{
 			"nombre": "Monarquía de Julio",
+			"nombre_en": "July Monarchy",
 			"desde": 1830,
 			"hasta": 1847
 		},
 		{
 			"nombre": "Segunda República Francesa",
+			"nombre_en": "French Second Republic",
 			"desde": 1848,
 			"hasta": 1851
 		},
 		{
 			"nombre": "Segundo Imperio francés",
+			"nombre_en": "Second French Empire",
 			"desde": 1852,
 			"hasta": 1869
 		},
 		{
 			"nombre": "Tercera República Francesa",
+			"nombre_en": "French Third Republic",
 			"desde": 1870,
 			"hasta": 1939
 		},
 		{
 			"nombre": "Francia de Vichy",
+			"nombre_en": "Vichy France",
 			"desde": 1940,
 			"hasta": 1943
 		},
 		{
 			"nombre": "Gobierno provisional de la República Francesa",
+			"nombre_en": "Provisional Government of the French Republic",
 			"desde": 1944,
 			"hasta": 1945
 		},
 		{
 			"nombre": "Cuarta República Francesa",
+			"nombre_en": "French Fourth Republic",
 			"desde": 1946,
 			"hasta": 1957
 		},
 		{
 			"nombre": "Quinta República Francesa",
+			"nombre_en": "French Fifth Republic",
 			"desde": 1958,
 			"hasta": 2026
 		}

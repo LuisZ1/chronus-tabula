@@ -1,6 +1,7 @@
 {
 	"id": "israel-antiguo",
 	"nombre": "Reinos de Israel y Judá",
+	"nombre_en": "Kingdoms of Israel and Judah",
 	"nombres": [
 		"Kingdom of David and Solomon",
 		"Kingdom of Israel",
@@ -9,16 +10,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Monarquía unida (según la Biblia)",
+			"nombre_en": "United Monarchy (according to the Bible)",
 			"desde": -1047,
 			"hasta": -931
 		},
 		{
 			"nombre": "Reinos de Israel y Judá",
+			"nombre_en": "Kingdoms of Israel and Judah",
 			"desde": -930,
 			"hasta": -723
 		},
 		{
 			"nombre": "Reino de Judá",
+			"nombre_en": "Kingdom of Judah",
 			"desde": -722,
 			"hasta": -586
 		}

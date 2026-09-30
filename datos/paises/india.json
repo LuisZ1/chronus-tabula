@@ -1,6 +1,7 @@
 {
 	"id": "india",
 	"nombre": "India",
+	"nombre_en": "India",
 	"nombres": [
 		"India",
 		"British Raj"
@@ -8,11 +9,13 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Raj británico",
+			"nombre_en": "British Raj",
 			"desde": 1858,
 			"hasta": 1946
 		},
 		{
 			"nombre": "República de la India",
+			"nombre_en": "Republic of India",
 			"desde": 1947,
 			"hasta": 2026
 		}

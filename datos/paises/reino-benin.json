@@ -1,12 +1,14 @@
 {
 	"id": "reino-benin",
 	"nombre": "Reino de Benín",
+	"nombre_en": "Kingdom of Benin",
 	"nombres": [
 		"Kingdom of Benin"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Benín",
+			"nombre_en": "Kingdom of Benin",
 			"desde": 1180,
 			"hasta": 1897
 		}

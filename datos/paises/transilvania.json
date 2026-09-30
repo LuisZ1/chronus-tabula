@@ -1,12 +1,14 @@
 {
 	"id": "transilvania",
 	"nombre": "Principado de Transilvania",
+	"nombre_en": "Principality of Transylvania",
 	"nombres": [
 		"Principality of Transylvania"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Principado de Transilvania",
+			"nombre_en": "Principality of Transylvania",
 			"desde": 1570,
 			"hasta": 1711,
 			"wiki": "Principado de Transilvania"

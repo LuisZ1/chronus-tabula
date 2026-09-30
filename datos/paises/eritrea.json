@@ -1,6 +1,7 @@
 {
 	"id": "eritrea",
 	"nombre": "Eritrea",
+	"nombre_en": "Eritrea",
 	"nombres": [
 		"Eritrea",
 		"Eritrea (Italy)"
@@ -8,21 +9,25 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Eritrea italiana (colonia)",
+			"nombre_en": "Italian Eritrea (colony)",
 			"desde": 1890,
 			"hasta": 1941
 		},
 		{
 			"nombre": "Administración militar británica",
+			"nombre_en": "British Military Administration",
 			"desde": 1941,
 			"hasta": 1952
 		},
 		{
 			"nombre": "Federación con Etiopía / provincia etíope",
+			"nombre_en": "Federation with Ethiopia / Ethiopian province",
 			"desde": 1952,
 			"hasta": 1993
 		},
 		{
 			"nombre": "Estado de Eritrea",
+			"nombre_en": "State of Eritrea",
 			"desde": 1993
 		}
 	],

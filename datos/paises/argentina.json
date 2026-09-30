@@ -1,6 +1,7 @@
 {
 	"id": "argentina",
 	"nombre": "Argentina",
+	"nombre_en": "Argentina",
 	"nombres": [
 		"Argentina",
 		"United Provinces of La Plata"
@@ -8,6 +9,7 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Provincias Unidas del Río de la Plata",
+			"nombre_en": "United Provinces of the Río de la Plata",
 			"desde": 1810,
 			"hasta": 1830
 		}

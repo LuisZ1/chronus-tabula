@@ -1,17 +1,20 @@
 {
 	"id": "nigeria",
 	"nombre": "Nigeria",
+	"nombre_en": "Nigeria",
 	"nombres": [
 		"Nigeria"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Nigeria (colonia y protectorado británico)",
+			"nombre_en": "Nigeria (British colony and protectorate)",
 			"desde": 1914,
 			"hasta": 1960
 		},
 		{
 			"nombre": "Nigeria",
+			"nombre_en": "Nigeria",
 			"desde": 1960,
 			"hasta": 2026
 		}

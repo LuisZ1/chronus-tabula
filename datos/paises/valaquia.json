@@ -1,12 +1,14 @@
 {
 	"id": "valaquia",
 	"nombre": "Principado de Valaquia",
+	"nombre_en": "Principality of Wallachia",
 	"nombres": [
 		"Principality of Wallachia"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Principado de Valaquia",
+			"nombre_en": "Principality of Wallachia",
 			"desde": 1330,
 			"hasta": 1859,
 			"wiki": "Principado de Valaquia"

@@ -1,17 +1,20 @@
 {
 	"id": "burkina-faso",
 	"nombre": "Burkina Faso",
+	"nombre_en": "Burkina Faso",
 	"nombres": [
 		"Burkina Faso"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "República del Alto Volta",
+			"nombre_en": "Republic of Upper Volta",
 			"desde": 1958,
 			"hasta": 1984
 		},
 		{
 			"nombre": "Burkina Faso",
+			"nombre_en": "Burkina Faso",
 			"desde": 1984,
 			"hasta": 2026
 		}

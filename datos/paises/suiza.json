@@ -1,6 +1,7 @@
 {
 	"id": "suiza",
 	"nombre": "Suiza",
+	"nombre_en": "Switzerland",
 	"nombres": [
 		"Switzerland",
 		"Swiss Confederation",

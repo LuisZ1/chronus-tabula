@@ -1,6 +1,7 @@
 {
 	"id": "gambia",
 	"nombre": "Gambia",
+	"nombre_en": "The Gambia",
 	"nombres": [
 		"Gambia, The",
 		"Gambia"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Gambia británica (colonia y protectorado)",
+			"nombre_en": "British Gambia (colony and protectorate)",
 			"desde": 1821,
 			"hasta": 1965
 		},
 		{
 			"nombre": "Gambia (reino de la Commonwealth)",
+			"nombre_en": "The Gambia (Commonwealth realm)",
 			"desde": 1965,
 			"hasta": 1970
 		},
 		{
 			"nombre": "República de Gambia",
+			"nombre_en": "Republic of The Gambia",
 			"desde": 1970,
 			"hasta": 2026
 		}

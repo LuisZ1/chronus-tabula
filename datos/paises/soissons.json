@@ -1,12 +1,14 @@
 {
 	"id": "soissons",
 	"nombre": "Dominio de Soissons",
+	"nombre_en": "Domain of Soissons",
 	"nombres": [
 		"Domain of Soissons"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Dominio de Soissons",
+			"nombre_en": "Domain of Soissons",
 			"desde": 457,
 			"hasta": 486
 		}

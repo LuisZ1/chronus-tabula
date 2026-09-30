@@ -1,12 +1,14 @@
 {
 	"id": "costa-marfil",
 	"nombre": "Costa de Marfil",
+	"nombre_en": "Ivory Coast",
 	"nombres": [
 		"Ivory Coast"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "República de Costa de Marfil",
+			"nombre_en": "Republic of Côte d'Ivoire",
 			"desde": 1960,
 			"hasta": 2026
 		}

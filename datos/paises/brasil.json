@@ -1,6 +1,7 @@
 {
 	"id": "brasil",
 	"nombre": "Brasil",
+	"nombre_en": "Brazil",
 	"nombres": [
 		"Brazil",
 		"Viceroyalty of Brazil"
@@ -8,26 +9,31 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Brasil colonial (Portugal)",
+			"nombre_en": "Colonial Brazil (Portugal)",
 			"desde": 1500,
 			"hasta": 1814
 		},
 		{
 			"nombre": "Reino Unido de Portugal, Brasil y los Algarves",
+			"nombre_en": "United Kingdom of Portugal, Brazil and the Algarves",
 			"desde": 1815,
 			"hasta": 1821
 		},
 		{
 			"nombre": "Imperio del Brasil",
+			"nombre_en": "Empire of Brazil",
 			"desde": 1822,
 			"hasta": 1888
 		},
 		{
 			"nombre": "República de los Estados Unidos del Brasil",
+			"nombre_en": "Republic of the United States of Brazil",
 			"desde": 1889,
 			"hasta": 1966
 		},
 		{
 			"nombre": "República Federativa del Brasil",
+			"nombre_en": "Federative Republic of Brazil",
 			"desde": 1967,
 			"hasta": 2026
 		}

@@ -1,17 +1,20 @@
 {
 	"id": "mauritania",
 	"nombre": "Mauritania",
+	"nombre_en": "Mauritania",
 	"nombres": [
 		"Mauritania"
 	],
 	"nombres_periodo": [
 		{
-			"nombre": "Africa Occidental Francesa (colonia de Mauritania)",
+			"nombre": "África Occidental Francesa (colonia de Mauritania)",
+			"nombre_en": "French West Africa (colony of Mauritania)",
 			"desde": 1920,
 			"hasta": 1960
 		},
 		{
-			"nombre": "Republica Islamica de Mauritania",
+			"nombre": "República Islámica de Mauritania",
+			"nombre_en": "Islamic Republic of Mauritania",
 			"desde": 1960,
 			"hasta": 2026
 		}
@@ -171,7 +174,7 @@
 		"estado": "validado",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
-		"hash": "1710b63a9c6e",
+		"hash": "c5a31f126d8a",
 		"secciones": [
 			"banderas",
 			"escudos",

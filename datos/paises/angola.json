@@ -1,6 +1,7 @@
 {
 	"id": "angola",
 	"nombre": "Angola",
+	"nombre_en": "Angola",
 	"nombres": [
 		"Angola",
 		"Angola (Portugal)"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Angola portuguesa",
+			"nombre_en": "Portuguese Angola",
 			"desde": 1575,
 			"hasta": 1975
 		},
 		{
 			"nombre": "República Popular de Angola",
+			"nombre_en": "People's Republic of Angola",
 			"desde": 1975,
 			"hasta": 1992
 		},
 		{
 			"nombre": "República de Angola",
+			"nombre_en": "Republic of Angola",
 			"desde": 1992,
 			"hasta": 2026
 		}

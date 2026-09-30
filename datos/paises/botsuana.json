@@ -1,17 +1,20 @@
 {
 	"id": "botsuana",
 	"nombre": "Botsuana",
+	"nombre_en": "Botswana",
 	"nombres": [
 		"Botswana"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Protectorado de Bechuanalandia",
+			"nombre_en": "Bechuanaland Protectorate",
 			"desde": 1885,
 			"hasta": 1966
 		},
 		{
 			"nombre": "República de Botsuana",
+			"nombre_en": "Republic of Botswana",
 			"desde": 1966,
 			"hasta": 2026
 		}

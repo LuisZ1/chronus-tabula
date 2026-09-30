@@ -1,57 +1,68 @@
 {
 	"id": "egipto",
 	"nombre": "Egipto",
+	"nombre_en": "Egypt",
 	"nombres": [
 		"Egypt"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Antiguo Egipto",
+			"nombre_en": "Ancient Egypt",
 			"desde": -3100,
 			"hasta": -30
 		},
 		{
 			"nombre": "Egipto romano y bizantino",
+			"nombre_en": "Roman and Byzantine Egypt",
 			"desde": -30,
 			"hasta": 641
 		},
 		{
 			"nombre": "Egipto islámico",
+			"nombre_en": "Islamic Egypt",
 			"desde": 641,
 			"hasta": 1517
 		},
 		{
 			"nombre": "Egipto otomano",
+			"nombre_en": "Ottoman Egypt",
 			"desde": 1517,
 			"hasta": 1867
 		},
 		{
 			"nombre": "Jedivato de Egipto",
+			"nombre_en": "Khedivate of Egypt",
 			"desde": 1867,
 			"hasta": 1914
 		},
 		{
 			"nombre": "Sultanato de Egipto",
+			"nombre_en": "Sultanate of Egypt",
 			"desde": 1914,
 			"hasta": 1922
 		},
 		{
 			"nombre": "Reino de Egipto",
+			"nombre_en": "Kingdom of Egypt",
 			"desde": 1922,
 			"hasta": 1953
 		},
 		{
 			"nombre": "República de Egipto",
+			"nombre_en": "Republic of Egypt",
 			"desde": 1953,
 			"hasta": 1958
 		},
 		{
 			"nombre": "República Árabe Unida",
+			"nombre_en": "United Arab Republic",
 			"desde": 1958,
 			"hasta": 1971
 		},
 		{
 			"nombre": "República Árabe de Egipto",
+			"nombre_en": "Arab Republic of Egypt",
 			"desde": 1971,
 			"hasta": 2026
 		}

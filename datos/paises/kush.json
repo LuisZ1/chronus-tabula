@@ -1,6 +1,7 @@
 {
 	"id": "kush",
 	"nombre": "Reino de Kush",
+	"nombre_en": "Kingdom of Kush",
 	"nombres": [
 		"Kush",
 		"Meroe"
@@ -8,11 +9,13 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Kush (Napata)",
+			"nombre_en": "Kingdom of Kush (Napata)",
 			"desde": -750,
 			"hasta": -301
 		},
 		{
 			"nombre": "Reino de Kush (Meroe)",
+			"nombre_en": "Kingdom of Kush (Meroë)",
 			"desde": -300,
 			"hasta": 350
 		}

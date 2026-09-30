@@ -1,6 +1,7 @@
 {
 	"id": "benin",
 	"nombre": "Benín",
+	"nombre_en": "Benin",
 	"nombres": [
 		"Benin",
 		"Dahomey"
@@ -8,26 +9,31 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Dahomey",
+			"nombre_en": "Kingdom of Dahomey",
 			"desde": 1600,
 			"hasta": 1904
 		},
 		{
 			"nombre": "Dahomey (colonia francesa)",
+			"nombre_en": "Dahomey (French colony)",
 			"desde": 1904,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República de Dahomey",
+			"nombre_en": "Republic of Dahomey",
 			"desde": 1960,
 			"hasta": 1975
 		},
 		{
 			"nombre": "República Popular de Benín",
+			"nombre_en": "People's Republic of Benin",
 			"desde": 1975,
 			"hasta": 1990
 		},
 		{
 			"nombre": "República de Benín",
+			"nombre_en": "Republic of Benin",
 			"desde": 1990,
 			"hasta": 2026
 		}

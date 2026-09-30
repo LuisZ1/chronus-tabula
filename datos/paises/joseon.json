@@ -1,23 +1,27 @@
 {
 	"id": "joseon",
 	"nombre": "Corea (Goryeo y Joseon)",
+	"nombre_en": "Korea (Goryeo and Joseon)",
 	"nombres": [
 		"Korea"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Goryeo",
+			"nombre_en": "Goryeo",
 			"desde": 918,
 			"hasta": 1391,
 			"wiki": "Goryeo"
 		},
 		{
 			"nombre": "Joseon",
+			"nombre_en": "Joseon",
 			"desde": 1392,
 			"hasta": 1896
 		},
 		{
 			"nombre": "Imperio coreano",
+			"nombre_en": "Korean Empire",
 			"desde": 1897,
 			"hasta": 1910
 		}
