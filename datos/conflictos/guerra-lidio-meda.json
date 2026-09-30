@@ -1,6 +1,7 @@
 {
 	"id": "guerra-lidio-meda",
 	"nombre": "Guerra entre Lidia y Media",
+	"nombre_en": "Lydian–Median War",
 	"inicio": -590,
 	"fin": -585,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Río Halys (Kızılırmak)",
+			"nombre_en": "Halys River (Kızılırmak)",
 			"tipo": "frente",
 			"poligono": [
 				[

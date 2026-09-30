@@ -1,6 +1,7 @@
 {
 	"id": "guerras-marcomanas",
 	"nombre": "Guerras marcomanas",
+	"nombre_en": "Marcomannic Wars",
 	"inicio": 166,
 	"fin": 180,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Frente del Danubio medio (Panonia y Nórico)",
+			"nombre_en": "Middle Danube front (Pannonia and Noricum)",
 			"tipo": "frente",
 			"desde": 166,
 			"hasta": 180,
@@ -41,6 +43,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del Danubio helado (contra los yáziges)",
+			"nombre_en": "Battle on the frozen Danube (against the Iazyges)",
 			"anio": 173,
 			"lat": 47.5,
 			"lng": 18.0,

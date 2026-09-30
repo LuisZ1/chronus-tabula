@@ -1,6 +1,7 @@
 {
 	"id": "unificacion-italia",
 	"nombre": "Unificación romana de Italia",
+	"nombre_en": "Roman unification of Italy",
 	"inicio": -343,
 	"fin": -275,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Italia central (guerras samnitas)",
+			"nombre_en": "Central Italy (Samnite Wars)",
 			"tipo": "frente",
 			"desde": -343,
 			"hasta": -290,
@@ -44,6 +46,7 @@
 		},
 		{
 			"nombre": "Magna Grecia (guerra pírrica)",
+			"nombre_en": "Magna Graecia (Pyrrhic War)",
 			"tipo": "frente",
 			"desde": -280,
 			"hasta": -275,
@@ -74,6 +77,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Sentino",
+			"nombre_en": "Battle of Sentinum",
 			"anio": -295,
 			"lat": 43.4,
 			"lng": 12.9,
@@ -81,6 +85,7 @@
 		},
 		{
 			"nombre": "Batalla de Heraclea",
+			"nombre_en": "Battle of Heraclea",
 			"anio": -280,
 			"lat": 40.2,
 			"lng": 16.7,
@@ -88,6 +93,7 @@
 		},
 		{
 			"nombre": "Batalla de Benevento",
+			"nombre_en": "Battle of Beneventum",
 			"anio": -275,
 			"lat": 41.13,
 			"lng": 14.78,

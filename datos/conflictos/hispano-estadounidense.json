@@ -1,6 +1,7 @@
 {
 	"id": "hispano-estadounidense",
 	"nombre": "Guerra hispano-estadounidense (el Desastre del 98)",
+	"nombre_en": "Spanish–American War (the Disaster of '98)",
 	"inicio": 1898,
 	"fin": 1898,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Cuba",
+			"nombre_en": "Cuba",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -41,6 +43,7 @@
 		},
 		{
 			"nombre": "Filipinas (Manila)",
+			"nombre_en": "Philippines (Manila)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -65,19 +68,36 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Cavite",
+			"nombre_en": "Battle of Cavite",
 			"anio": 1898,
 			"lat": 14.48,
 			"lng": 120.9,
 			"descripcion": "Dewey destruye la escuadra española de Filipinas en horas."
 		},
 		{
+			"nombre": "Batalla de Fajardo",
+			"nombre_en": "Battle of Fajardo",
+			"anio": 1898,
+			"lat": 18.33,
+			"lng": -65.65
+		},
+		{
 			"nombre": "Batalla de Guantánamo Bay",
+			"nombre_en": "Battle of Guantánamo Bay",
 			"anio": 1898,
 			"lat": 20.02,
 			"lng": -75.11
 		},
 		{
+			"nombre": "Batalla de la bahía de Nipe",
+			"nombre_en": "Battle of Nipe Bay",
+			"anio": 1898,
+			"lat": 20.77,
+			"lng": -75.68
+		},
+		{
 			"nombre": "Batalla naval de Santiago de Cuba",
+			"nombre_en": "Battle of Santiago de Cuba",
 			"anio": 1898,
 			"lat": 19.97,
 			"lng": -75.87,
@@ -86,25 +106,15 @@
 		},
 		{
 			"nombre": "Colinas de San Juan",
+			"nombre_en": "Battle of San Juan Hill",
 			"anio": 1898,
 			"lat": 20.02,
 			"lng": -75.8,
 			"descripcion": "La carga de los Rough Riders de Roosevelt decide Santiago."
 		},
 		{
-			"nombre": "batalla de Fajardo",
-			"anio": 1898,
-			"lat": 18.33,
-			"lng": -65.65
-		},
-		{
-			"nombre": "batalla de la bahía de Nipe",
-			"anio": 1898,
-			"lat": 20.77,
-			"lng": -75.68
-		},
-		{
-			"nombre": "primera batalla de Cárdenas",
+			"nombre": "Primera batalla de Cárdenas",
+			"nombre_en": "First Battle of Cárdenas",
 			"anio": 1898,
 			"lat": 23.04,
 			"lng": -81.21

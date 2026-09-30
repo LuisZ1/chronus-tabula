@@ -1,6 +1,7 @@
 {
 	"id": "conquista-otomana-mamelucos",
 	"nombre": "Conquista otomana de los mamelucos",
+	"nombre_en": "Ottoman conquest of the Mamluk Sultanate",
 	"inicio": 1516,
 	"fin": 1517,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Siria y Egipto conquistados",
+			"nombre_en": "Conquered Syria and Egypt",
 			"tipo": "ocupado",
 			"desde": 1516,
 			"hasta": 1517,
@@ -47,12 +49,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Marj Dabiq",
+			"nombre_en": "Battle of Marj Dabiq",
 			"anio": 1516,
 			"lat": 36.5,
 			"lng": 37.2
 		},
 		{
 			"nombre": "Batalla de Ridaniyya",
+			"nombre_en": "Battle of Ridaniya",
 			"anio": 1517,
 			"lat": 30.05,
 			"lng": 31.25

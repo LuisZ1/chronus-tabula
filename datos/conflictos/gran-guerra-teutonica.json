@@ -1,6 +1,7 @@
 {
 	"id": "gran-guerra-teutonica",
 	"nombre": "Gran Guerra polaco-lituano-teutónica",
+	"nombre_en": "Polish-Lithuanian-Teutonic War",
 	"inicio": 1409,
 	"fin": 1411,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Prusia teutónica",
+			"nombre_en": "Teutonic Prussia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Grunwald (Tannenberg)",
+			"nombre_en": "Battle of Grunwald (Tannenberg)",
 			"anio": 1410,
 			"lat": 53.486,
 			"lng": 20.125,
@@ -46,6 +49,7 @@
 		},
 		{
 			"nombre": "Sitio de Marienburg",
+			"nombre_en": "Siege of Marienburg",
 			"anio": 1410,
 			"lat": 54.04,
 			"lng": 19.028,

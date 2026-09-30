@@ -1,6 +1,7 @@
 {
 	"id": "conquista-grecia",
 	"nombre": "Guerras macedónicas y conquista de Grecia",
+	"nombre_en": "Macedonian Wars and the conquest of Greece",
 	"inicio": -214,
 	"fin": -146,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Macedonia y Tesalia",
+			"nombre_en": "Macedonia and Thessaly",
 			"tipo": "frente",
 			"desde": -200,
 			"hasta": -168,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Grecia (guerra aquea)",
+			"nombre_en": "Greece (Achaean War)",
 			"tipo": "frente",
 			"desde": -148,
 			"hasta": -146,
@@ -65,6 +68,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Cinoscéfalas",
+			"nombre_en": "Battle of Cynoscephalae",
 			"anio": -197,
 			"lat": 39.42,
 			"lng": 22.55,
@@ -72,6 +76,7 @@
 		},
 		{
 			"nombre": "Batalla de Pidna",
+			"nombre_en": "Battle of Pydna",
 			"anio": -168,
 			"lat": 40.4,
 			"lng": 22.6,
@@ -80,6 +85,7 @@
 		},
 		{
 			"nombre": "Saqueo de Corinto",
+			"nombre_en": "Sack of Corinth",
 			"anio": -146,
 			"lat": 37.9,
 			"lng": 22.9,

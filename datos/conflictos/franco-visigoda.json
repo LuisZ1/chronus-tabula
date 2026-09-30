@@ -1,6 +1,7 @@
 {
 	"id": "franco-visigoda",
 	"nombre": "Guerra franco-visigoda por la Galia",
+	"nombre_en": "Franco-Visigothic War over Gaul",
 	"inicio": 507,
 	"fin": 507,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Avance franco sobre Aquitania",
+			"nombre_en": "Frankish advance into Aquitaine",
 			"tipo": "frente",
 			"desde": 507,
 			"hasta": 507,
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Vouillé",
+			"nombre_en": "Battle of Vouillé",
 			"anio": 507,
 			"lat": 46.64,
 			"lng": 0.17,

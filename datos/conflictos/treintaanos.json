@@ -1,6 +1,7 @@
 {
 	"id": "treintaanos",
 	"nombre": "Guerra de los Treinta Años",
+	"nombre_en": "Thirty Years' War",
 	"inicio": 1618,
 	"fin": 1648,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Bohemia y Palatinado",
+			"nombre_en": "Bohemia and the Palatinate",
 			"tipo": "frente",
 			"desde": 1618,
 			"hasta": 1623,
@@ -49,6 +51,7 @@
 		},
 		{
 			"nombre": "Fase danesa (norte de Alemania)",
+			"nombre_en": "Danish phase (northern Germany)",
 			"tipo": "frente",
 			"desde": 1625,
 			"hasta": 1629,
@@ -73,6 +76,7 @@
 		},
 		{
 			"nombre": "Fase sueca",
+			"nombre_en": "Swedish phase",
 			"tipo": "frente",
 			"desde": 1630,
 			"hasta": 1635,
@@ -109,6 +113,7 @@
 		},
 		{
 			"nombre": "Fase francesa",
+			"nombre_en": "French phase",
 			"tipo": "frente",
 			"desde": 1635,
 			"hasta": 1648,
@@ -137,6 +142,7 @@
 		},
 		{
 			"nombre": "Alemania devastada",
+			"nombre_en": "Devastated Germany",
 			"tipo": "ocupado",
 			"desde": 1630,
 			"hasta": 1648,
@@ -175,6 +181,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de la Montaña Blanca",
+			"nombre_en": "Battle of White Mountain",
 			"anio": 1620,
 			"lat": 50.08,
 			"lng": 14.32,
@@ -183,6 +190,7 @@
 		},
 		{
 			"nombre": "Batalla de Breitenfeld",
+			"nombre_en": "Battle of Breitenfeld",
 			"anio": 1631,
 			"lat": 51.41,
 			"lng": 12.36,
@@ -191,6 +199,7 @@
 		},
 		{
 			"nombre": "Batalla de Lützen",
+			"nombre_en": "Battle of Lützen",
 			"anio": 1632,
 			"lat": 51.26,
 			"lng": 12.14,
@@ -199,6 +208,7 @@
 		},
 		{
 			"nombre": "Batalla de Nördlingen",
+			"nombre_en": "Battle of Nördlingen",
 			"anio": 1634,
 			"lat": 48.81,
 			"lng": 10.49,
@@ -207,12 +217,14 @@
 		},
 		{
 			"nombre": "Batalla de Vlotho",
+			"nombre_en": "Battle of Vlotho",
 			"anio": 1638,
 			"lat": 52.17,
 			"lng": 8.85
 		},
 		{
 			"nombre": "Batalla de Rocroi",
+			"nombre_en": "Battle of Rocroi",
 			"anio": 1643,
 			"lat": 49.93,
 			"lng": 4.52,

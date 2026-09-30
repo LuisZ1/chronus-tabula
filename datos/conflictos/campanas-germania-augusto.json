@@ -1,6 +1,7 @@
 {
 	"id": "campanas-germania-augusto",
 	"nombre": "Campañas romanas en Germania",
+	"nombre_en": "Roman campaigns in Germania",
 	"inicio": -12,
 	"fin": 16,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Germania entre el Rin y el Elba",
+			"nombre_en": "Germania between the Rhine and the Elbe",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -42,6 +44,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del bosque de Teutoburgo",
+			"nombre_en": "Battle of the Teutoburg Forest",
 			"anio": 9,
 			"lat": 52.41,
 			"lng": 8.13,

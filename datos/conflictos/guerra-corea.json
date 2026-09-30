@@ -1,6 +1,7 @@
 {
 	"id": "guerra-corea",
 	"nombre": "Guerra de Corea",
+	"nombre_en": "Korean War",
 	"inicio": 1950,
 	"fin": 1953,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Invasión del Sur y perímetro de Pusan",
+			"nombre_en": "Invasion of the South and the Pusan Perimeter",
 			"tipo": "frente",
 			"desde": 1950,
 			"hasta": 1950,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Contraofensiva hasta el Yalu e intervención china",
+			"nombre_en": "Counteroffensive to the Yalu and Chinese intervention",
 			"tipo": "frente",
 			"desde": 1950,
 			"hasta": 1951,
@@ -63,6 +66,7 @@
 		},
 		{
 			"nombre": "Estancamiento en el paralelo 38",
+			"nombre_en": "Stalemate at the 38th parallel",
 			"tipo": "frente",
 			"desde": 1951,
 			"hasta": 1953,
@@ -89,6 +93,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del embalse de Chosin",
+			"nombre_en": "Battle of Chosin Reservoir",
 			"anio": 1950,
 			"lat": 40.48,
 			"lng": 127.2,
@@ -96,6 +101,7 @@
 		},
 		{
 			"nombre": "Desembarco de Incheon",
+			"nombre_en": "Inchon landing",
 			"anio": 1950,
 			"lat": 37.46,
 			"lng": 126.62,

@@ -1,6 +1,7 @@
 {
 	"id": "cruzada-albigense",
 	"nombre": "Cruzada albigense",
+	"nombre_en": "Albigensian Crusade",
 	"inicio": 1209,
 	"fin": 1229,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Languedoc",
+			"nombre_en": "Languedoc",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Saqueo de Béziers",
+			"nombre_en": "Sack of Béziers",
 			"anio": 1209,
 			"lat": 43.35,
 			"lng": 3.22,
@@ -47,6 +50,7 @@
 		},
 		{
 			"nombre": "Sitio de Carcasona",
+			"nombre_en": "Siege of Carcassonne",
 			"anio": 1209,
 			"lat": 43.21,
 			"lng": 2.35,
@@ -55,6 +59,7 @@
 		},
 		{
 			"nombre": "Batalla de Muret",
+			"nombre_en": "Battle of Muret",
 			"anio": 1213,
 			"lat": 43.467,
 			"lng": 1.333,
@@ -63,6 +68,7 @@
 		},
 		{
 			"nombre": "Sitio de Toulouse",
+			"nombre_en": "Siege of Toulouse",
 			"anio": 1218,
 			"lat": 43.6,
 			"lng": 1.44,

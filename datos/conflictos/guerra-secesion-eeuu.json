@@ -1,6 +1,7 @@
 {
 	"id": "guerra-secesion-eeuu",
 	"nombre": "Guerra de Secesión de Estados Unidos",
+	"nombre_en": "American Civil War",
 	"inicio": 1861,
 	"fin": 1865,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Frente oriental (Virginia)",
+			"nombre_en": "Eastern Theater (Virginia)",
 			"tipo": "frente",
 			"desde": 1861,
 			"hasta": 1865,
@@ -36,6 +38,7 @@
 		},
 		{
 			"nombre": "Frente occidental (Misisipi–Tennessee)",
+			"nombre_en": "Western Theater (Mississippi–Tennessee)",
 			"tipo": "frente",
 			"desde": 1862,
 			"hasta": 1864,
@@ -60,6 +63,7 @@
 		},
 		{
 			"nombre": "Marcha de Sherman a Georgia",
+			"nombre_en": "Sherman's March through Georgia",
 			"tipo": "frente",
 			"desde": 1864,
 			"hasta": 1865,
@@ -84,6 +88,7 @@
 		},
 		{
 			"nombre": "Frente trans-Misisipi y costa del Golfo",
+			"nombre_en": "Trans-Mississippi Theater and Gulf Coast",
 			"tipo": "frente",
 			"desde": 1861,
 			"hasta": 1865,
@@ -114,18 +119,22 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Corrick's Ford",
+			"nombre_en": "Battle of Corrick's Ford",
 			"anio": 1861,
 			"lat": 39.09,
 			"lng": -79.69
 		},
 		{
 			"nombre": "Batalla de Head of Passes",
+			"nombre_en": "Battle of the Head of Passes",
 			"anio": 1861,
 			"lat": 29.16,
-			"lng": -89.25
+			"lng": -89.25,
+			"wiki": "en:Battle of the Head of Passes"
 		},
 		{
 			"nombre": "Batalla de Antietam",
+			"nombre_en": "Battle of Antietam",
 			"anio": 1862,
 			"lat": 39.47,
 			"lng": -77.74,
@@ -135,42 +144,49 @@
 		},
 		{
 			"nombre": "Batalla de Memphis",
+			"nombre_en": "Battle of Memphis",
 			"anio": 1862,
 			"lat": 35.13,
 			"lng": -90.16
 		},
 		{
 			"nombre": "Batalla de Saint Charles",
+			"nombre_en": "Battle of Saint Charles",
 			"anio": 1862,
 			"lat": 34.38,
 			"lng": -91.13
 		},
 		{
 			"nombre": "Batalla de Stones River",
+			"nombre_en": "Battle of Stones River",
 			"anio": 1862,
 			"lat": 35.87,
 			"lng": -86.43
 		},
 		{
 			"nombre": "Batalla del puerto de Galveston",
+			"nombre_en": "Battle of Galveston Harbor",
 			"anio": 1862,
 			"lat": 29.34,
 			"lng": -94.77
 		},
 		{
 			"nombre": "Batalla de Devil's Backbone",
+			"nombre_en": "Battle of Devil's Backbone",
 			"anio": 1863,
 			"lat": 35.18,
 			"lng": -94.31
 		},
 		{
 			"nombre": "Batalla de Fayetteville",
+			"nombre_en": "Battle of Fayetteville",
 			"anio": 1863,
 			"lat": 36.07,
 			"lng": -94.16
 		},
 		{
 			"nombre": "Batalla de Gettysburg",
+			"nombre_en": "Battle of Gettysburg",
 			"anio": 1863,
 			"lat": 39.81,
 			"lng": -77.23,
@@ -180,48 +196,56 @@
 		},
 		{
 			"nombre": "Batalla de Helena",
+			"nombre_en": "Battle of Helena",
 			"anio": 1863,
 			"lat": 34.53,
 			"lng": -90.6
 		},
 		{
 			"nombre": "Batalla de Jackson",
+			"nombre_en": "Battle of Jackson",
 			"anio": 1863,
 			"lat": 32.29,
 			"lng": -90.2
 		},
 		{
 			"nombre": "Batalla de Salem Church",
+			"nombre_en": "Battle of Salem Church",
 			"anio": 1863,
 			"lat": 38.29,
 			"lng": -77.53
 		},
 		{
 			"nombre": "Combate frente al faro de Galveston",
+			"nombre_en": "Action off Galveston Light",
 			"anio": 1863,
 			"lat": 29.32,
 			"lng": -94.66
 		},
 		{
 			"nombre": "Escaramuza de Ashley's Mills",
+			"nombre_en": "Skirmish at Ashley's Mills",
 			"anio": 1863,
 			"lat": 34.7,
 			"lng": -92.1
 		},
 		{
 			"nombre": "Primera batalla de Collierville",
+			"nombre_en": "First Battle of Collierville",
 			"anio": 1863,
 			"lat": 35.04,
 			"lng": -89.66
 		},
 		{
 			"nombre": "Segunda batalla de Collierville",
+			"nombre_en": "Second Battle of Collierville",
 			"anio": 1863,
 			"lat": 35.04,
 			"lng": -89.66
 		},
 		{
 			"nombre": "Sitio de Vicksburg",
+			"nombre_en": "Siege of Vicksburg",
 			"anio": 1863,
 			"lat": 32.35,
 			"lng": -90.88,
@@ -230,66 +254,77 @@
 		},
 		{
 			"nombre": "Batalla de Brice's Cross Roads",
+			"nombre_en": "Battle of Brice's Crossroads",
 			"anio": 1864,
 			"lat": 34.51,
 			"lng": -88.73
 		},
 		{
 			"nombre": "Batalla de Elkin's Ferry",
+			"nombre_en": "Battle of Elkin's Ferry",
 			"anio": 1864,
 			"lat": 33.93,
 			"lng": -93.36
 		},
 		{
 			"nombre": "Batalla de Fort McAllister",
+			"nombre_en": "Battle of Fort McAllister",
 			"anio": 1864,
 			"lat": 31.89,
 			"lng": -81.19
 		},
 		{
 			"nombre": "Batalla de Mansfield",
+			"nombre_en": "Battle of Mansfield",
 			"anio": 1864,
 			"lat": 32.01,
 			"lng": -93.67
 		},
 		{
 			"nombre": "Batalla de Pleasant Hill",
+			"nombre_en": "Battle of Pleasant Hill",
 			"anio": 1864,
 			"lat": 31.85,
 			"lng": -93.51
 		},
 		{
 			"nombre": "Batalla de Spotsylvania",
+			"nombre_en": "Battle of Spotsylvania Court House",
 			"anio": 1864,
 			"lat": 38.22,
 			"lng": -77.6
 		},
 		{
 			"nombre": "Batalla de la Espesura (Wilderness)",
+			"nombre_en": "Battle of the Wilderness",
 			"anio": 1864,
 			"lat": 38.32,
 			"lng": -77.76
 		},
 		{
 			"nombre": "Batalla del puente de Altamaha",
+			"nombre_en": "Battle of Altamaha Bridge",
 			"anio": 1864,
 			"lat": 31.66,
 			"lng": -81.83
 		},
 		{
 			"nombre": "Emboscada al vapor J. R. Williams",
+			"nombre_en": "Ambush of the steamer J. R. Williams",
 			"anio": 1864,
 			"lat": 35.44,
 			"lng": -95.03
 		},
 		{
 			"nombre": "Batalla de Bentonville",
+			"nombre_en": "Battle of Bentonville",
 			"anio": 1865,
 			"lat": 35.31,
 			"lng": -78.32
 		},
 		{
 			"nombre": "Rendición de Appomattox",
+			"nombre_en": "Surrender at Appomattox",
 			"anio": 1865,
 			"lat": 37.38,
 			"lng": -78.8,

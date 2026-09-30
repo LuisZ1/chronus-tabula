@@ -1,6 +1,7 @@
 {
 	"id": "guerra-triple-alianza",
 	"nombre": "Guerra de la Triple Alianza (del Paraguay)",
+	"nombre_en": "War of the Triple Alliance (Paraguayan War)",
 	"inicio": 1864,
 	"fin": 1870,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Ñeembucú y Humaitá",
+			"nombre_en": "Ñeembucú and Humaitá",
 			"tipo": "frente",
 			"desde": 1864,
 			"hasta": 1868,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Campaña de las Cordilleras",
+			"nombre_en": "Campaign of the Cordilleras",
 			"tipo": "frente",
 			"desde": 1869,
 			"hasta": 1870,
@@ -65,24 +68,28 @@
 	"batallas": [
 		{
 			"nombre": "Batalla naval del Riachuelo",
+			"nombre_en": "Battle of the Riachuelo",
 			"anio": 1865,
 			"lat": -27.5,
 			"lng": -58.8
 		},
 		{
 			"nombre": "Batalla de Curupayty",
+			"nombre_en": "Battle of Curupayty",
 			"anio": 1866,
 			"lat": -27.15,
 			"lng": -58.55
 		},
 		{
 			"nombre": "Batalla de Tuyutí",
+			"nombre_en": "Battle of Tuyutí",
 			"anio": 1866,
 			"lat": -27.2,
 			"lng": -58.4
 		},
 		{
 			"nombre": "Batalla de Cerro Corá",
+			"nombre_en": "Battle of Cerro Corá",
 			"anio": 1870,
 			"lat": -22.65,
 			"lng": -56.03,

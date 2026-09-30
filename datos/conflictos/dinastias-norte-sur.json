@@ -1,6 +1,7 @@
 {
 	"id": "dinastias-norte-sur",
 	"nombre": "Dinastías del Norte y del Sur",
+	"nombre_en": "Northern and Southern dynasties",
 	"inicio": 420,
 	"fin": 589,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Dinastías del Norte",
+			"nombre_en": "Northern dynasties",
 			"tipo": "ocupado",
 			"desde": 420,
 			"hasta": 589,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Dinastías del Sur",
+			"nombre_en": "Southern dynasties",
 			"tipo": "ocupado",
 			"desde": 420,
 			"hasta": 589,

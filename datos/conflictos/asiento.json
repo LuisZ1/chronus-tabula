@@ -1,6 +1,7 @@
 {
 	"id": "asiento",
 	"nombre": "Guerra del Asiento (de la Oreja de Jenkins)",
+	"nombre_en": "War of the Asiento (War of Jenkins' Ear)",
 	"inicio": 1739,
 	"fin": 1748,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Caribe español",
+			"nombre_en": "Spanish Caribbean",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -43,6 +45,7 @@
 		},
 		{
 			"nombre": "Florida y Georgia",
+			"nombre_en": "Florida and Georgia",
 			"tipo": "frente",
 			"desde": 1740,
 			"hasta": 1743,
@@ -69,6 +72,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Portobelo",
+			"nombre_en": "Battle of Porto Bello",
 			"anio": 1739,
 			"lat": 9.55,
 			"lng": -79.65,
@@ -76,6 +80,7 @@
 		},
 		{
 			"nombre": "Sitio de San Agustín",
+			"nombre_en": "Siege of St. Augustine",
 			"anio": 1740,
 			"lat": 29.9,
 			"lng": -81.31,
@@ -83,6 +88,7 @@
 		},
 		{
 			"nombre": "Sitio de Cartagena de Indias",
+			"nombre_en": "Battle of Cartagena de Indias",
 			"anio": 1741,
 			"lat": 10.42,
 			"lng": -75.53,

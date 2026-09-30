@@ -1,6 +1,7 @@
 {
 	"id": "britania",
 	"nombre": "Conquista romana de Britania",
+	"nombre_en": "Roman conquest of Britain",
 	"inicio": 43,
 	"fin": 84,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Sureste (invasión de Claudio)",
+			"nombre_en": "South-east (Claudian invasion)",
 			"tipo": "frente",
 			"desde": 43,
 			"hasta": 47,
@@ -38,6 +40,7 @@
 		},
 		{
 			"nombre": "Gales",
+			"nombre_en": "Wales",
 			"tipo": "frente",
 			"desde": 48,
 			"hasta": 77,
@@ -62,6 +65,7 @@
 		},
 		{
 			"nombre": "Revuelta de Boudica",
+			"nombre_en": "Boudica's revolt",
 			"tipo": "frente",
 			"desde": 60,
 			"hasta": 61,
@@ -86,6 +90,7 @@
 		},
 		{
 			"nombre": "Caledonia (campañas de Agrícola)",
+			"nombre_en": "Caledonia (Agricola's campaigns)",
 			"tipo": "frente",
 			"desde": 78,
 			"hasta": 84,
@@ -110,6 +115,7 @@
 		},
 		{
 			"nombre": "Britania romana",
+			"nombre_en": "Roman Britain",
 			"tipo": "ocupado",
 			"desde": 61,
 			"hasta": 84,
@@ -140,6 +146,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Watling Street",
+			"nombre_en": "Battle of Watling Street",
 			"anio": 61,
 			"lat": 52.2,
 			"lng": -1.4,
@@ -148,6 +155,7 @@
 		},
 		{
 			"nombre": "Batalla del monte Graupio",
+			"nombre_en": "Battle of Mons Graupius",
 			"anio": 84,
 			"lat": 57.3,
 			"lng": -2.8,

@@ -1,6 +1,7 @@
 {
 	"id": "talas",
 	"nombre": "Batalla del Talas (Tang contra abasíes)",
+	"nombre_en": "Battle of Talas (Tang vs. Abbasids)",
 	"inicio": 751,
 	"fin": 751,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Valle del Talas",
+			"nombre_en": "Talas Valley",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del río Talas",
+			"nombre_en": "Battle of the Talas River",
 			"anio": 751,
 			"lat": 42.52,
 			"lng": 72.23,

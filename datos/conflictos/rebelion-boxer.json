@@ -1,6 +1,7 @@
 {
 	"id": "rebelion-boxer",
 	"nombre": "Rebelión de los bóxers",
+	"nombre_en": "Boxer Rebellion",
 	"inicio": 1899,
 	"fin": 1901,
 	"paises": [
@@ -21,6 +22,7 @@
 	"zonas": [
 		{
 			"nombre": "Zhili (Pekín-Tianjin)",
+			"nombre_en": "Zhili (Beijing-Tianjin)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -45,12 +47,14 @@
 	"batallas": [
 		{
 			"nombre": "Asedio de las legaciones de Pekín",
+			"nombre_en": "Siege of the Peking Legations",
 			"anio": 1900,
 			"lat": 39.9,
 			"lng": 116.4
 		},
 		{
 			"nombre": "Batalla de Tianjin",
+			"nombre_en": "Battle of Tientsin",
 			"anio": 1900,
 			"lat": 39.13,
 			"lng": 117.2

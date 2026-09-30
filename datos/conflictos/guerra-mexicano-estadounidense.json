@@ -1,6 +1,7 @@
 {
 	"id": "guerra-mexicano-estadounidense",
 	"nombre": "Guerra de Estados Unidos contra México",
+	"nombre_en": "Mexican–American War",
 	"inicio": 1846,
 	"fin": 1848,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Norte de México y Texas",
+			"nombre_en": "Northern Mexico and Texas",
 			"tipo": "frente",
 			"desde": 1846,
 			"hasta": 1847,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Alta California",
+			"nombre_en": "Alta California",
 			"tipo": "frente",
 			"desde": 1846,
 			"hasta": 1847,
@@ -65,6 +68,7 @@
 		},
 		{
 			"nombre": "Nuevo México",
+			"nombre_en": "New Mexico",
 			"tipo": "frente",
 			"desde": 1846,
 			"hasta": 1847,
@@ -89,6 +93,7 @@
 		},
 		{
 			"nombre": "Campaña de Veracruz a México",
+			"nombre_en": "Campaign from Veracruz to Mexico City",
 			"tipo": "frente",
 			"desde": 1847,
 			"hasta": 1847,
@@ -115,12 +120,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Chino",
+			"nombre_en": "Battle of Chino",
 			"anio": 1846,
 			"lat": 33.99,
 			"lng": -117.72
 		},
 		{
 			"nombre": "Batalla de Monterey",
+			"nombre_en": "Battle of Monterey",
 			"anio": 1846,
 			"lat": 36.61,
 			"lng": -121.9,
@@ -128,18 +135,21 @@
 		},
 		{
 			"nombre": "Batalla de Monterrey",
+			"nombre_en": "Battle of Monterrey",
 			"anio": 1846,
 			"lat": 25.68,
 			"lng": -100.31
 		},
 		{
 			"nombre": "Batalla de Natividad",
+			"nombre_en": "Battle of Natividad",
 			"anio": 1846,
 			"lat": 36.77,
 			"lng": -121.6
 		},
 		{
 			"nombre": "Batalla de Palo Alto",
+			"nombre_en": "Battle of Palo Alto",
 			"anio": 1846,
 			"lat": 26.02,
 			"lng": -97.47,
@@ -147,30 +157,35 @@
 		},
 		{
 			"nombre": "Batalla de Resaca de la Palma",
+			"nombre_en": "Battle of Resaca de la Palma",
 			"anio": 1846,
 			"lat": 25.94,
 			"lng": -97.49
 		},
 		{
 			"nombre": "Batalla de San Pascual",
+			"nombre_en": "Battle of San Pasqual",
 			"anio": 1846,
 			"lat": 33.09,
 			"lng": -116.99
 		},
 		{
 			"nombre": "Batalla de Santa Fe",
+			"nombre_en": "Battle of Santa Fe",
 			"anio": 1846,
 			"lat": 35.67,
 			"lng": -105.96
 		},
 		{
 			"nombre": "Batalla del Rancho Domínguez",
+			"nombre_en": "Battle of Dominguez Rancho",
 			"anio": 1846,
 			"lat": 33.77,
 			"lng": -118.32
 		},
 		{
 			"nombre": "Incidente de Thornton",
+			"nombre_en": "Thornton Affair",
 			"anio": 1846,
 			"lat": 26.06,
 			"lng": -97.78,
@@ -178,12 +193,14 @@
 		},
 		{
 			"nombre": "Sitio de Fort Texas",
+			"nombre_en": "Siege of Fort Texas",
 			"anio": 1846,
 			"lat": 25.9,
 			"lng": -97.49
 		},
 		{
 			"nombre": "Batalla de Cerro Gordo",
+			"nombre_en": "Battle of Cerro Gordo",
 			"anio": 1847,
 			"lat": 19.45,
 			"lng": -96.67,
@@ -191,6 +208,7 @@
 		},
 		{
 			"nombre": "Batalla de Chapultepec",
+			"nombre_en": "Battle of Chapultepec",
 			"anio": 1847,
 			"lat": 19.42,
 			"lng": -99.18,
@@ -198,54 +216,63 @@
 		},
 		{
 			"nombre": "Batalla de La Angostura (Buena Vista)",
+			"nombre_en": "Battle of La Angostura (Buena Vista)",
 			"anio": 1847,
 			"lat": 25.34,
 			"lng": -101.05
 		},
 		{
 			"nombre": "Batalla de La Mesa",
+			"nombre_en": "Battle of La Mesa",
 			"anio": 1847,
 			"lat": 34.0,
 			"lng": -118.2
 		},
 		{
 			"nombre": "Batalla de Mora",
+			"nombre_en": "Battle of Mora",
 			"anio": 1847,
 			"lat": 35.97,
 			"lng": -105.33
 		},
 		{
 			"nombre": "Batalla de Sacramento",
+			"nombre_en": "Battle of the Sacramento River",
 			"anio": 1847,
 			"lat": 28.87,
 			"lng": -106.19
 		},
 		{
 			"nombre": "Batalla de Santa Clara",
+			"nombre_en": "Battle of Santa Clara",
 			"anio": 1847,
 			"lat": 37.35,
 			"lng": -121.95
 		},
 		{
 			"nombre": "Batalla de la Cañada",
+			"nombre_en": "Battle of La Cañada",
 			"anio": 1847,
 			"lat": 35.99,
 			"lng": -106.04
 		},
 		{
 			"nombre": "Batalla del Paso de Embudo",
+			"nombre_en": "Battle of Embudo Pass",
 			"anio": 1847,
 			"lat": 36.2,
 			"lng": -105.9
 		},
 		{
 			"nombre": "Batalla del Río San Gabriel",
+			"nombre_en": "Battle of Río San Gabriel",
 			"anio": 1847,
 			"lat": 33.99,
 			"lng": -118.11
 		},
 		{
 			"nombre": "Segunda batalla de Mora",
+			"nombre_en": "Second Battle of Mora",
 			"anio": 1847,
 			"lat": 35.97,
 			"lng": -105.33

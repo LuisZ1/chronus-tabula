@@ -1,6 +1,7 @@
 {
 	"id": "guerra-gotica",
 	"nombre": "Guerra gótica: reconquista bizantina de Italia",
+	"nombre_en": "Gothic War: Byzantine reconquest of Italy",
 	"inicio": 535,
 	"fin": 554,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Campañas bizantinas en Italia",
+			"nombre_en": "Byzantine campaigns in Italy",
 			"tipo": "frente",
 			"desde": 535,
 			"hasta": 554,
@@ -47,6 +49,7 @@
 	"batallas": [
 		{
 			"nombre": "Asedio de Roma",
+			"nombre_en": "Siege of Rome",
 			"anio": 537,
 			"lat": 41.9,
 			"lng": 12.5,
@@ -54,6 +57,7 @@
 		},
 		{
 			"nombre": "Batalla de Tádinae (Busta Gallorum)",
+			"nombre_en": "Battle of Taginae (Busta Gallorum)",
 			"anio": 552,
 			"lat": 43.2,
 			"lng": 12.8,

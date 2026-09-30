@@ -1,6 +1,7 @@
 {
 	"id": "dacia",
 	"nombre": "Guerras dacias de Trajano",
+	"nombre_en": "Trajan's Dacian Wars",
 	"inicio": 101,
 	"fin": 106,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Dacia",
+			"nombre_en": "Dacia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Tapae",
+			"nombre_en": "Battle of Tapae",
 			"anio": 101,
 			"lat": 45.5,
 			"lng": 22.6,
@@ -44,6 +47,7 @@
 		},
 		{
 			"nombre": "Caída de Sarmizegetusa",
+			"nombre_en": "Fall of Sarmizegetusa",
 			"anio": 106,
 			"lat": 45.62,
 			"lng": 23.31,

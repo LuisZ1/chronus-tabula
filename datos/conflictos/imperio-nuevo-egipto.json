@@ -1,6 +1,7 @@
 {
 	"id": "imperio-nuevo-egipto",
 	"nombre": "Expansión del Imperio Nuevo egipcio",
+	"nombre_en": "Expansion of the Egyptian New Kingdom",
 	"inicio": -1550,
 	"fin": -1150,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Nubia (Kush) sometida",
+			"nombre_en": "Nubia (Kush) subjugated",
 			"tipo": "ocupado",
 			"desde": -1550,
 			"hasta": -1150,
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Campañas de Tutmosis III en Canaán y Siria",
+			"nombre_en": "Campaigns of Thutmose III in Canaan and Syria",
 			"tipo": "frente",
 			"desde": -1479,
 			"hasta": -1425,
@@ -67,6 +70,7 @@
 		},
 		{
 			"nombre": "Guerra contra los hititas (Siria)",
+			"nombre_en": "War against the Hittites (Syria)",
 			"tipo": "frente",
 			"desde": -1300,
 			"hasta": -1259,
@@ -91,6 +95,7 @@
 		},
 		{
 			"nombre": "Invasión de los Pueblos del Mar (delta del Nilo)",
+			"nombre_en": "Sea Peoples invasion (Nile Delta)",
 			"tipo": "frente",
 			"desde": -1180,
 			"hasta": -1170,
@@ -117,6 +122,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Meguido",
+			"nombre_en": "Battle of Megiddo",
 			"anio": -1457,
 			"lat": 32.58,
 			"lng": 35.18,
@@ -125,6 +131,7 @@
 		},
 		{
 			"nombre": "Batalla de Kadesh",
+			"nombre_en": "Battle of Kadesh",
 			"anio": -1274,
 			"lat": 34.56,
 			"lng": 36.52,
@@ -134,6 +141,7 @@
 		},
 		{
 			"nombre": "Batalla del Delta",
+			"nombre_en": "Battle of the Delta",
 			"anio": -1175,
 			"lat": 31.2,
 			"lng": 31.6,

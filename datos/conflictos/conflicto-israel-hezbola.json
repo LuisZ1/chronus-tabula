@@ -1,6 +1,7 @@
 {
 	"id": "conflicto-israel-hezbola",
 	"nombre": "Conflicto Israel–Hezbolá",
+	"nombre_en": "Israel–Hezbollah conflict",
 	"inicio": 2023,
 	"fin": 2024,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Sur del Líbano",
+			"nombre_en": "Southern Lebanon",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2024,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Galilea (norte de Israel)",
+			"nombre_en": "Galilee (northern Israel)",
 			"tipo": "frente",
 			"desde": 2023,
 			"hasta": 2024,
@@ -63,6 +66,7 @@
 	"batallas": [
 		{
 			"nombre": "Ataque de los buscas",
+			"nombre_en": "Pager attacks",
 			"anio": 2024,
 			"lat": 33.89,
 			"lng": 35.5,
@@ -70,6 +74,7 @@
 		},
 		{
 			"nombre": "Invasión del sur del Líbano",
+			"nombre_en": "Invasion of southern Lebanon",
 			"anio": 2024,
 			"lat": 33.12,
 			"lng": 35.35,
@@ -77,6 +82,7 @@
 		},
 		{
 			"nombre": "Muerte de Hasán Nasralá",
+			"nombre_en": "Killing of Hassan Nasrallah",
 			"anio": 2024,
 			"lat": 33.85,
 			"lng": 35.51,

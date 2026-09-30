@@ -1,6 +1,7 @@
 {
 	"id": "guerras-civiles-libia",
 	"nombre": "Guerras civiles de Libia",
+	"nombre_en": "Libyan civil wars",
 	"inicio": 2011,
 	"fin": 2020,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Alzamiento contra Gadafi (costa)",
+			"nombre_en": "Uprising against Gaddafi (coast)",
 			"tipo": "frente",
 			"desde": 2011,
 			"hasta": 2011,
@@ -47,6 +49,7 @@
 		},
 		{
 			"nombre": "Segunda guerra civil (Trípoli–Sirte–Bengasi)",
+			"nombre_en": "Second civil war (Tripoli–Sirte–Benghazi)",
 			"tipo": "frente",
 			"desde": 2014,
 			"hasta": 2020,
@@ -81,6 +84,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Sirte (muerte de Gadafi)",
+			"nombre_en": "Battle of Sirte (death of Gaddafi)",
 			"anio": 2011,
 			"lat": 31.21,
 			"lng": 16.59,
@@ -89,6 +93,7 @@
 		},
 		{
 			"nombre": "Batalla de Trípoli",
+			"nombre_en": "Battle of Tripoli",
 			"anio": 2011,
 			"lat": 32.89,
 			"lng": 13.19,
@@ -96,6 +101,7 @@
 		},
 		{
 			"nombre": "Batalla de Sirte contra el Estado Islámico",
+			"nombre_en": "Battle of Sirte against the Islamic State",
 			"anio": 2016,
 			"lat": 31.18,
 			"lng": 16.65,

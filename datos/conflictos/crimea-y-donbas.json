@@ -1,6 +1,7 @@
 {
 	"id": "crimea-y-donbas",
 	"nombre": "Anexión de Crimea y guerra del Donbás",
+	"nombre_en": "Annexation of Crimea and war in Donbas",
 	"inicio": 2014,
 	"fin": 2021,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Crimea anexionada",
+			"nombre_en": "Annexed Crimea",
 			"tipo": "ocupado",
 			"desde": 2014,
 			"hasta": 2021,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Frente del Donbás",
+			"nombre_en": "Donbas front",
 			"tipo": "frente",
 			"desde": 2014,
 			"hasta": 2021,
@@ -63,6 +66,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Ilovaisk",
+			"nombre_en": "Battle of Ilovaisk",
 			"anio": 2014,
 			"lat": 47.92,
 			"lng": 38.2,
@@ -70,6 +74,7 @@
 		},
 		{
 			"nombre": "Batalla del aeropuerto de Donetsk",
+			"nombre_en": "Battle of Donetsk Airport",
 			"anio": 2014,
 			"hasta": 2015,
 			"lat": 48.07,
@@ -78,6 +83,7 @@
 		},
 		{
 			"nombre": "Batalla de Debáltsevo",
+			"nombre_en": "Battle of Debaltseve",
 			"anio": 2015,
 			"lat": 48.34,
 			"lng": 38.4,

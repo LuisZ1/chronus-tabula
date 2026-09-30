@@ -1,6 +1,7 @@
 {
 	"id": "independencia-escocia",
 	"nombre": "Guerras de independencia de Escocia",
+	"nombre_en": "Wars of Scottish Independence",
 	"inicio": 1296,
 	"fin": 1328,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Frontera anglo-escocesa y Tierras Bajas",
+			"nombre_en": "Anglo-Scottish border and Lowlands",
 			"tipo": "frente",
 			"desde": 1296,
 			"hasta": 1328,
@@ -43,18 +45,21 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Stirling Bridge",
+			"nombre_en": "Battle of Stirling Bridge",
 			"anio": 1297,
 			"lat": 56.13,
 			"lng": -3.93
 		},
 		{
 			"nombre": "Batalla de Falkirk",
+			"nombre_en": "Battle of Falkirk",
 			"anio": 1298,
 			"lat": 55.99,
 			"lng": -3.78
 		},
 		{
 			"nombre": "Batalla de Bannockburn",
+			"nombre_en": "Battle of Bannockburn",
 			"anio": 1314,
 			"lat": 56.09,
 			"lng": -3.92

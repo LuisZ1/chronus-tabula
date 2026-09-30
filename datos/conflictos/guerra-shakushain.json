@@ -1,6 +1,7 @@
 {
 	"id": "guerra-shakushain",
 	"nombre": "Guerra de Shakushain",
+	"nombre_en": "Shakushain's revolt",
 	"inicio": 1669,
 	"fin": 1672,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Ezo (Hokkaido) en rebelión",
+			"nombre_en": "Ezo (Hokkaido) in revolt",
 			"tipo": "frente",
 			"desde": 1669,
 			"hasta": 1672,
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Combates del Shibuchari",
+			"nombre_en": "Fighting on the Shibuchari",
 			"anio": 1669,
 			"lat": 42.4,
 			"lng": 142.5,

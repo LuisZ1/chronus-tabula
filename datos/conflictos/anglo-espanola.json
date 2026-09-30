@@ -1,6 +1,7 @@
 {
 	"id": "anglo-espanola",
 	"nombre": "Guerra anglo-española",
+	"nombre_en": "Anglo-Spanish War",
 	"inicio": 1585,
 	"fin": 1604,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Flandes",
+			"nombre_en": "Flanders",
 			"tipo": "frente",
 			"desde": 1585,
 			"hasta": 1604,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "La Armada y el Canal",
+			"nombre_en": "The Armada and the Channel",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1588,
@@ -62,6 +65,7 @@
 		},
 		{
 			"nombre": "Costas atlánticas (Cádiz, Coruña, Azores)",
+			"nombre_en": "Atlantic coasts (Cádiz, Corunna, Azores)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1587,
@@ -95,6 +99,7 @@
 		},
 		{
 			"nombre": "Irlanda (Kinsale)",
+			"nombre_en": "Ireland (Kinsale)",
 			"tipo": "frente",
 			"desde": 1601,
 			"hasta": 1602,
@@ -121,6 +126,7 @@
 	"batallas": [
 		{
 			"nombre": "La Armada Invencible",
+			"nombre_en": "Spanish Armada",
 			"anio": 1588,
 			"lat": 50.1,
 			"lng": -1.0,
@@ -128,79 +134,92 @@
 			"bajas": "~15.000 muertos españoles, casi todos por naufragios"
 		},
 		{
-			"nombre": "batalla de Arques (1589)",
+			"nombre": "Batalla de Arques (1589)",
+			"nombre_en": "Battle of Arques (1589)",
 			"anio": 1589,
 			"lat": 49.88,
 			"lng": 1.13
 		},
 		{
-			"nombre": "batalla de las Islas Cíes",
+			"nombre": "Batalla de las Islas Cíes",
+			"nombre_en": "Battle of the Cíes Islands",
 			"anio": 1590,
 			"lat": 42.23,
 			"lng": -8.9
 		},
 		{
-			"nombre": "batalla de las islas Berlengas",
+			"nombre": "Batalla de las islas Berlengas",
+			"nombre_en": "Battle of the Berlengas",
 			"anio": 1591,
 			"lat": 39.43,
 			"lng": -9.52
 		},
 		{
-			"nombre": "batalla del golfo de Almería",
+			"nombre": "Batalla del golfo de Almería",
+			"nombre_en": "Battle of the Gulf of Almería",
 			"anio": 1591,
 			"lat": 36.84,
 			"lng": -2.47
 		},
 		{
-			"nombre": "batalla de Craon",
+			"nombre": "Batalla de Craon",
+			"nombre_en": "Battle of Craon",
 			"anio": 1592,
 			"lat": 47.85,
 			"lng": -0.95
 		},
 		{
-			"nombre": "batalla de Belleek (1593)",
+			"nombre": "Batalla de Belleek (1593)",
+			"nombre_en": "Battle of Belleek (1593)",
 			"anio": 1593,
 			"lat": 54.48,
 			"lng": -8.1
 		},
 		{
-			"nombre": "batalla de Blaye",
+			"nombre": "Batalla de Blaye",
+			"nombre_en": "Battle of Blaye",
 			"anio": 1593,
 			"lat": 45.13,
 			"lng": -0.67
 		},
 		{
 			"nombre": "Batalla de Yellow Ford",
+			"nombre_en": "Battle of the Yellow Ford",
 			"anio": 1598,
 			"lat": 54.38,
 			"lng": -6.95
 		},
 		{
-			"nombre": "batalla de Nieuwpoort",
+			"nombre": "Batalla de Nieuwpoort",
+			"nombre_en": "Battle of Nieuwpoort",
 			"anio": 1600,
 			"lat": 51.16,
 			"lng": 2.74
 		},
 		{
-			"nombre": "batalla de Castlehaven",
+			"nombre": "Batalla de Castlehaven",
+			"nombre_en": "Battle of Castlehaven",
 			"anio": 1601,
 			"lat": 51.51,
 			"lng": -9.18
 		},
 		{
-			"nombre": "batalla de la bahía de Sesimbra",
+			"nombre": "Batalla de la bahía de Sesimbra",
+			"nombre_en": "Battle of Sesimbra Bay",
 			"anio": 1602,
 			"lat": 38.4,
 			"lng": -9.1
 		},
 		{
-			"nombre": "batalla de los Mares Estrechos",
+			"nombre": "Batalla de los Mares Estrechos",
+			"nombre_en": "Battle of the Narrow Seas",
 			"anio": 1602,
 			"lat": 51.0,
 			"lng": 1.45
 		},
 		{
-			"nombre": "batalla naval del Golfo de Cádiz",
+			"nombre": "Batalla naval del Golfo de Cádiz",
+			"nombre_en": "Naval battle of the Gulf of Cádiz",
 			"anio": 1604,
 			"lat": 37.03,
 			"lng": -7.54

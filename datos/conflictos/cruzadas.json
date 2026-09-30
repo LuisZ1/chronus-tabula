@@ -1,6 +1,7 @@
 {
 	"id": "cruzadas",
 	"nombre": "Las Cruzadas",
+	"nombre_en": "The Crusades",
 	"inicio": 1096,
 	"fin": 1291,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Primera cruzada (Anatolia y Siria)",
+			"nombre_en": "First Crusade (Anatolia and Syria)",
 			"tipo": "frente",
 			"desde": 1096,
 			"hasta": 1099,
@@ -56,6 +58,7 @@
 		},
 		{
 			"nombre": "Estados cruzados",
+			"nombre_en": "Crusader states",
 			"tipo": "ocupado",
 			"desde": 1099,
 			"hasta": 1187,
@@ -88,6 +91,7 @@
 		},
 		{
 			"nombre": "Contraofensiva de Saladino",
+			"nombre_en": "Saladin's counteroffensive",
 			"tipo": "frente",
 			"desde": 1187,
 			"hasta": 1192,
@@ -116,6 +120,7 @@
 		},
 		{
 			"nombre": "Cuarta cruzada (Constantinopla)",
+			"nombre_en": "Fourth Crusade (Constantinople)",
 			"tipo": "frente",
 			"desde": 1202,
 			"hasta": 1204,
@@ -140,6 +145,7 @@
 		},
 		{
 			"nombre": "Cruzadas a Egipto",
+			"nombre_en": "Crusades to Egypt",
 			"tipo": "frente",
 			"desde": 1218,
 			"hasta": 1250,
@@ -164,6 +170,7 @@
 		},
 		{
 			"nombre": "Últimas plazas cruzadas (Acre)",
+			"nombre_en": "Last Crusader strongholds (Acre)",
 			"tipo": "ocupado",
 			"desde": 1250,
 			"hasta": 1291,
@@ -190,6 +197,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Jerusalén",
+			"nombre_en": "Siege of Jerusalem",
 			"anio": 1099,
 			"lat": 31.78,
 			"lng": 35.23,
@@ -198,6 +206,7 @@
 		},
 		{
 			"nombre": "Batalla de los Cuernos de Hattin",
+			"nombre_en": "Battle of Hattin",
 			"anio": 1187,
 			"lat": 32.8,
 			"lng": 35.44,
@@ -206,6 +215,7 @@
 		},
 		{
 			"nombre": "Caída de Acre",
+			"nombre_en": "Fall of Acre",
 			"anio": 1291,
 			"lat": 32.93,
 			"lng": 35.08,

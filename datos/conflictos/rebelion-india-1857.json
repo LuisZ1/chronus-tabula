@@ -1,6 +1,7 @@
 {
 	"id": "rebelion-india-1857",
 	"nombre": "Rebelión de la India de 1857 (motín de los cipayos)",
+	"nombre_en": "Indian Rebellion of 1857 (Sepoy Mutiny)",
 	"inicio": 1857,
 	"fin": 1858,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Llanura del Ganges",
+			"nombre_en": "Ganges plain",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,18 +39,21 @@
 	"batallas": [
 		{
 			"nombre": "Asedio de Cawnpore",
+			"nombre_en": "Siege of Cawnpore",
 			"anio": 1857,
 			"lat": 26.45,
 			"lng": 80.33
 		},
 		{
 			"nombre": "Asedio de Delhi",
+			"nombre_en": "Siege of Delhi",
 			"anio": 1857,
 			"lat": 28.66,
 			"lng": 77.23
 		},
 		{
 			"nombre": "Asedio de Lucknow",
+			"nombre_en": "Siege of Lucknow",
 			"anio": 1857,
 			"lat": 26.85,
 			"lng": 80.95

@@ -1,6 +1,7 @@
 {
 	"id": "sucesion-austriaca",
 	"nombre": "Guerra de Sucesión Austriaca",
+	"nombre_en": "War of the Austrian Succession",
 	"inicio": 1740,
 	"fin": 1748,
 	"paises": [
@@ -19,6 +20,7 @@
 	"zonas": [
 		{
 			"nombre": "Silesia y Bohemia",
+			"nombre_en": "Silesia and Bohemia",
 			"tipo": "frente",
 			"desde": 1740,
 			"hasta": 1745,
@@ -43,6 +45,7 @@
 		},
 		{
 			"nombre": "Países Bajos austriacos",
+			"nombre_en": "Austrian Netherlands",
 			"tipo": "frente",
 			"desde": 1744,
 			"hasta": 1748,
@@ -69,6 +72,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Mollwitz",
+			"nombre_en": "Battle of Mollwitz",
 			"anio": 1741,
 			"lat": 50.85,
 			"lng": 17.41,
@@ -77,6 +81,7 @@
 		},
 		{
 			"nombre": "Batalla de Dettingen",
+			"nombre_en": "Battle of Dettingen",
 			"anio": 1743,
 			"lat": 50.04,
 			"lng": 9.04,
@@ -85,6 +90,7 @@
 		},
 		{
 			"nombre": "Batalla de Fontenoy",
+			"nombre_en": "Battle of Fontenoy",
 			"anio": 1745,
 			"lat": 50.57,
 			"lng": 3.45,

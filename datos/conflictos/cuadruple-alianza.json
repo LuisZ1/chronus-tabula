@@ -1,6 +1,7 @@
 {
 	"id": "cuadruple-alianza",
 	"nombre": "Guerra de la Cuádruple Alianza",
+	"nombre_en": "War of the Quadruple Alliance",
 	"inicio": 1718,
 	"fin": 1720,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Sicilia y Cerdeña",
+			"nombre_en": "Sicily and Sardinia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -44,6 +46,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla del cabo Passaro",
+			"nombre_en": "Battle of Cape Passaro",
 			"anio": 1718,
 			"lat": 36.68,
 			"lng": 15.15,

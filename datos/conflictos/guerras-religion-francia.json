@@ -1,6 +1,7 @@
 {
 	"id": "guerras-religion-francia",
 	"nombre": "Guerras de religión de Francia",
+	"nombre_en": "French Wars of Religion",
 	"inicio": 1562,
 	"fin": 1598,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Francia",
+			"nombre_en": "France",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -44,6 +46,7 @@
 	"batallas": [
 		{
 			"nombre": "Matanza de Wassy",
+			"nombre_en": "Massacre of Wassy",
 			"anio": 1562,
 			"lat": 48.5,
 			"lng": 4.95,
@@ -52,6 +55,7 @@
 		},
 		{
 			"nombre": "Noche de San Bartolomé",
+			"nombre_en": "St. Bartholomew's Day massacre",
 			"anio": 1572,
 			"lat": 48.86,
 			"lng": 2.34,
@@ -60,6 +64,7 @@
 		},
 		{
 			"nombre": "Batalla de Ivry",
+			"nombre_en": "Battle of Ivry",
 			"anio": 1590,
 			"lat": 48.88,
 			"lng": 1.46,

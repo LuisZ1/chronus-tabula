@@ -1,6 +1,7 @@
 {
 	"id": "carlistas",
 	"nombre": "Guerras carlistas",
+	"nombre_en": "Carlist Wars",
 	"inicio": 1833,
 	"fin": 1876,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "País Vasco y Navarra",
+			"nombre_en": "Basque Country and Navarre",
 			"tipo": "frente",
 			"desde": 1833,
 			"hasta": 1840,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "El Maestrazgo (Cabrera)",
+			"nombre_en": "El Maestrazgo (Cabrera)",
 			"tipo": "frente",
 			"desde": 1835,
 			"hasta": 1840,
@@ -61,6 +64,7 @@
 		},
 		{
 			"nombre": "Tercera guerra carlista",
+			"nombre_en": "Third Carlist War",
 			"tipo": "frente",
 			"desde": 1872,
 			"hasta": 1876,
@@ -87,6 +91,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Luchana",
+			"nombre_en": "Battle of Luchana",
 			"anio": 1836,
 			"lat": 43.32,
 			"lng": -2.97,
@@ -94,6 +99,7 @@
 		},
 		{
 			"nombre": "Abrazo de Vergara",
+			"nombre_en": "Embrace of Vergara",
 			"anio": 1839,
 			"lat": 43.12,
 			"lng": -2.41,
@@ -101,6 +107,7 @@
 		},
 		{
 			"nombre": "Batalla de Montejurra",
+			"nombre_en": "Battle of Montejurra",
 			"anio": 1873,
 			"lat": 42.63,
 			"lng": -2.06,

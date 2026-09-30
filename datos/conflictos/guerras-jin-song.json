@@ -1,6 +1,7 @@
 {
 	"id": "guerras-jin-song",
 	"nombre": "Guerras Jin-Song",
+	"nombre_en": "Jin-Song Wars",
 	"inicio": 1125,
 	"fin": 1142,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Llanura del norte de China",
+			"nombre_en": "North China Plain",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -35,6 +37,7 @@
 		},
 		{
 			"nombre": "Yangtsé inferior",
+			"nombre_en": "Lower Yangtze",
 			"tipo": "frente",
 			"desde": 1129,
 			"hasta": 1130,
@@ -61,6 +64,7 @@
 	"batallas": [
 		{
 			"nombre": "Caída de Kaifeng (incidente de Jingkang)",
+			"nombre_en": "Fall of Kaifeng (Jingkang incident)",
 			"anio": 1127,
 			"lat": 34.8,
 			"lng": 114.35,
@@ -69,6 +73,7 @@
 		},
 		{
 			"nombre": "Batalla de Yancheng",
+			"nombre_en": "Battle of Yancheng",
 			"anio": 1140,
 			"lat": 33.58,
 			"lng": 114.02,

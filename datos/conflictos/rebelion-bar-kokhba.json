@@ -1,6 +1,7 @@
 {
 	"id": "rebelion-bar-kokhba",
 	"nombre": "Rebelión de Bar Kojba",
+	"nombre_en": "Bar Kokhba revolt",
 	"inicio": 132,
 	"fin": 136,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Judea",
+			"nombre_en": "Judea",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Asedio de Betar",
+			"nombre_en": "Siege of Betar",
 			"anio": 135,
 			"lat": 31.72,
 			"lng": 35.14,

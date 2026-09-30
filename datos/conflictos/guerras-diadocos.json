@@ -1,6 +1,7 @@
 {
 	"id": "guerras-diadocos",
 	"nombre": "Guerras de los Diádocos",
+	"nombre_en": "Wars of the Diadochi",
 	"inicio": -323,
 	"fin": -301,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Grecia y Macedonia (Guerra Lamíaca)",
+			"nombre_en": "Greece and Macedonia (Lamian War)",
 			"tipo": "frente",
 			"desde": -323,
 			"hasta": -322,
@@ -43,6 +45,7 @@
 		},
 		{
 			"nombre": "Anatolia y Siria (repartos y campañas)",
+			"nombre_en": "Anatolia and Syria (partitions and campaigns)",
 			"tipo": "frente",
 			"desde": -323,
 			"hasta": -301,
@@ -73,12 +76,14 @@
 	"batallas": [
 		{
 			"nombre": "Guerra Lamíaca (Lamia)",
+			"nombre_en": "Lamian War (Lamia)",
 			"anio": -322,
 			"lat": 38.9,
 			"lng": 22.43
 		},
 		{
 			"nombre": "Batalla de Ipso",
+			"nombre_en": "Battle of Ipsus",
 			"anio": -301,
 			"lat": 38.9,
 			"lng": 31.1

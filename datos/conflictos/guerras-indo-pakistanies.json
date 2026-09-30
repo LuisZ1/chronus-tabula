@@ -1,6 +1,7 @@
 {
 	"id": "guerras-indo-pakistanies",
 	"nombre": "Guerras indo-pakistaníes",
+	"nombre_en": "Indo-Pakistani wars",
 	"inicio": 1947,
 	"fin": 1971,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Cachemira (línea de control)",
+			"nombre_en": "Kashmir (Line of Control)",
 			"tipo": "frente",
 			"desde": 1947,
 			"hasta": 1971,
@@ -37,6 +39,7 @@
 		},
 		{
 			"nombre": "Frente de Punyab y Rajastán",
+			"nombre_en": "Punjab and Rajasthan front",
 			"tipo": "frente",
 			"desde": 1965,
 			"hasta": 1971,
@@ -61,6 +64,7 @@
 		},
 		{
 			"nombre": "Frente oriental (Bengala / Bangladés)",
+			"nombre_en": "Eastern Front (Bengal / Bangladesh)",
 			"tipo": "frente",
 			"desde": 1971,
 			"hasta": 1971,
@@ -87,18 +91,21 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Asal Uttar (1965)",
+			"nombre_en": "Battle of Asal Uttar (1965)",
 			"anio": 1965,
 			"lat": 30.9,
 			"lng": 74.6
 		},
 		{
 			"nombre": "Batalla de Longewala (1971)",
+			"nombre_en": "Battle of Longewala (1971)",
 			"anio": 1971,
 			"lat": 27.85,
 			"lng": 70.55
 		},
 		{
 			"nombre": "Caída de Daca (1971)",
+			"nombre_en": "Fall of Dhaka (1971)",
 			"anio": 1971,
 			"lat": 23.81,
 			"lng": 90.41

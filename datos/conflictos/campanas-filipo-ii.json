@@ -1,6 +1,7 @@
 {
 	"id": "campanas-filipo-ii",
 	"nombre": "Hegemonía macedónica sobre Grecia (Queronea)",
+	"nombre_en": "Macedonian hegemony over Greece (Chaeronea)",
 	"inicio": -339,
 	"fin": -338,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Beocia y Fócide",
+			"nombre_en": "Boeotia and Phocis",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Queronea",
+			"nombre_en": "Battle of Chaeronea",
 			"anio": -338,
 			"lat": 38.495,
 			"lng": 22.8475,

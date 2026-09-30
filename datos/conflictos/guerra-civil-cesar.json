@@ -1,6 +1,7 @@
 {
 	"id": "guerra-civil-cesar",
 	"nombre": "Guerra civil de César",
+	"nombre_en": "Caesar's civil war",
 	"inicio": -49,
 	"fin": -45,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Grecia y Epiro",
+			"nombre_en": "Greece and Epirus",
 			"tipo": "frente",
 			"desde": -48,
 			"hasta": -48,
@@ -36,6 +38,7 @@
 		},
 		{
 			"nombre": "Bética (Munda)",
+			"nombre_en": "Baetica (Munda)",
 			"tipo": "frente",
 			"desde": -45,
 			"hasta": -45,
@@ -62,6 +65,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Farsalia",
+			"nombre_en": "Battle of Pharsalus",
 			"anio": -48,
 			"lat": 39.41,
 			"lng": 22.28,
@@ -70,6 +74,7 @@
 		},
 		{
 			"nombre": "Batalla de Munda",
+			"nombre_en": "Battle of Munda",
 			"anio": -45,
 			"lat": 37.35,
 			"lng": -5.22,

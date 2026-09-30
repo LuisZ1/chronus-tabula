@@ -1,6 +1,7 @@
 {
 	"id": "sucesion-espanola",
 	"nombre": "Guerra de Sucesión Española",
+	"nombre_en": "War of the Spanish Succession",
 	"inicio": 1701,
 	"fin": 1714,
 	"paises": [
@@ -18,6 +19,7 @@
 	"zonas": [
 		{
 			"nombre": "Flandes y el Rin",
+			"nombre_en": "Flanders and the Rhine",
 			"tipo": "frente",
 			"desde": 1701,
 			"hasta": 1712,
@@ -50,6 +52,7 @@
 		},
 		{
 			"nombre": "Italia del norte",
+			"nombre_en": "Northern Italy",
 			"tipo": "frente",
 			"desde": 1701,
 			"hasta": 1707,
@@ -74,6 +77,7 @@
 		},
 		{
 			"nombre": "Baviera (Blenheim)",
+			"nombre_en": "Bavaria (Blenheim)",
 			"tipo": "frente",
 			"desde": 1703,
 			"hasta": 1704,
@@ -98,6 +102,7 @@
 		},
 		{
 			"nombre": "España (frentes peninsulares)",
+			"nombre_en": "Spain (peninsular fronts)",
 			"tipo": "frente",
 			"desde": 1704,
 			"hasta": 1714,
@@ -130,6 +135,7 @@
 		},
 		{
 			"nombre": "Cataluña (final)",
+			"nombre_en": "Catalonia (final phase)",
 			"tipo": "frente",
 			"desde": 1713,
 			"hasta": 1714,
@@ -155,25 +161,29 @@
 	],
 	"batallas": [
 		{
-			"nombre": "batalla de Rande",
+			"nombre": "Batalla de Rande",
+			"nombre_en": "Battle of Vigo Bay",
 			"anio": 1702,
 			"lat": 42.25,
 			"lng": -8.74
 		},
 		{
-			"nombre": "Batalla del cabo de la Roca",
-			"anio": 1703,
-			"lat": 38.78,
-			"lng": -9.53
-		},
-		{
-			"nombre": "batalla de Speyerbach",
+			"nombre": "Batalla de Speyerbach",
+			"nombre_en": "Battle of Speyerbach",
 			"anio": 1703,
 			"lat": 49.32,
 			"lng": 8.43
 		},
 		{
+			"nombre": "Batalla del cabo de la Roca",
+			"nombre_en": "Battle of Cabo da Roca",
+			"anio": 1703,
+			"lat": 38.78,
+			"lng": -9.53
+		},
+		{
 			"nombre": "Batalla de Blenheim (Höchstädt)",
+			"nombre_en": "Battle of Blenheim (Höchstädt)",
 			"anio": 1704,
 			"lat": 48.63,
 			"lng": 10.63,
@@ -181,13 +191,22 @@
 			"bajas": "~30.000 bajas francobávaras"
 		},
 		{
-			"nombre": "Battle of Orford Ness",
+			"nombre": "Batalla de Málaga (1704)",
+			"nombre_en": "Battle of Málaga (1704)",
+			"anio": 1704,
+			"lat": 36.7,
+			"lng": -4.37
+		},
+		{
+			"nombre": "Batalla de Orford Ness",
+			"nombre_en": "Battle of Orford Ness",
 			"anio": 1704,
 			"lat": 52.05,
 			"lng": 1.74
 		},
 		{
 			"nombre": "Toma de Gibraltar",
+			"nombre_en": "Capture of Gibraltar",
 			"anio": 1704,
 			"lat": 36.14,
 			"lng": -5.35,
@@ -195,37 +214,36 @@
 			"wiki": "Toma de Gibraltar"
 		},
 		{
-			"nombre": "batalla de Málaga (1704)",
-			"anio": 1704,
-			"lat": 36.7,
-			"lng": -4.37
-		},
-		{
 			"nombre": "Batalla de Elixheim",
+			"nombre_en": "Battle of Elixheim",
 			"anio": 1705,
 			"lat": 50.78,
 			"lng": 5.01
 		},
 		{
-			"nombre": "Batalla del Huerto de las Bombas",
-			"anio": 1706,
-			"lat": 37.98,
-			"lng": -1.13
-		},
-		{
-			"nombre": "batalla de Ramillies",
+			"nombre": "Batalla de Ramillies",
+			"nombre_en": "Battle of Ramillies",
 			"anio": 1706,
 			"lat": 50.64,
 			"lng": 4.92
 		},
 		{
+			"nombre": "Batalla del Huerto de las Bombas",
+			"nombre_en": "Battle of Huerto de las Bombas",
+			"anio": 1706,
+			"lat": 37.98,
+			"lng": -1.13
+		},
+		{
 			"nombre": "Acción del 2 de mayo de 1707",
+			"nombre_en": "Action of 2 May 1707",
 			"anio": 1707,
 			"lat": 50.74,
 			"lng": 0.24
 		},
 		{
 			"nombre": "Batalla de Almansa",
+			"nombre_en": "Battle of Almansa",
 			"anio": 1707,
 			"lat": 38.87,
 			"lng": -1.1,
@@ -234,12 +252,14 @@
 		},
 		{
 			"nombre": "Batalla del cabo Lizard",
+			"nombre_en": "Battle at The Lizard",
 			"anio": 1707,
 			"lat": 49.95,
 			"lng": -5.21
 		},
 		{
 			"nombre": "Batalla de Malplaquet",
+			"nombre_en": "Battle of Malplaquet",
 			"anio": 1709,
 			"lat": 50.34,
 			"lng": 3.88,
@@ -248,12 +268,14 @@
 		},
 		{
 			"nombre": "Batalla de Siracusa",
+			"nombre_en": "Battle of Syracuse",
 			"anio": 1710,
 			"lat": 37.07,
 			"lng": 15.28
 		},
 		{
 			"nombre": "Batalla de Villaviciosa",
+			"nombre_en": "Battle of Villaviciosa",
 			"anio": 1710,
 			"lat": 40.79,
 			"lng": -2.84,
@@ -262,6 +284,7 @@
 		},
 		{
 			"nombre": "Sitio de Barcelona",
+			"nombre_en": "Siege of Barcelona",
 			"anio": 1714,
 			"lat": 41.39,
 			"lng": 2.18,

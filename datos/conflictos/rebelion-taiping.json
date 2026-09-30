@@ -1,6 +1,7 @@
 {
 	"id": "rebelion-taiping",
 	"nombre": "Rebelión Taiping",
+	"nombre_en": "Taiping Rebellion",
 	"inicio": 1850,
 	"fin": 1864,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Reino Celestial (valle del Yangtsé)",
+			"nombre_en": "Heavenly Kingdom (Yangtze valley)",
 			"tipo": "ocupado",
 			"desde": 1853,
 			"hasta": 1864,
@@ -38,6 +40,7 @@
 		},
 		{
 			"nombre": "Campañas Qing de reconquista",
+			"nombre_en": "Qing reconquest campaigns",
 			"tipo": "frente",
 			"desde": 1860,
 			"hasta": 1864,
@@ -64,6 +67,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Nankín",
+			"nombre_en": "Capture of Nanjing",
 			"anio": 1853,
 			"lat": 32.06,
 			"lng": 118.8,
@@ -71,6 +75,7 @@
 		},
 		{
 			"nombre": "Caída de Nankín",
+			"nombre_en": "Fall of Nanjing",
 			"anio": 1864,
 			"lat": 32.05,
 			"lng": 118.78,

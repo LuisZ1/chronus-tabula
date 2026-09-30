@@ -1,6 +1,7 @@
 {
 	"id": "italo-etiope-adwa",
 	"nombre": "Primera guerra ítalo-etíope",
+	"nombre_en": "First Italo-Ethiopian War",
 	"inicio": 1895,
 	"fin": 1896,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Tigray y frontera de Eritrea",
+			"nombre_en": "Tigray and the Eritrean border",
 			"tipo": "frente",
 			"desde": 1895,
 			"hasta": 1896,
@@ -39,18 +41,21 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Amba Alagi",
+			"nombre_en": "Battle of Amba Alagi",
 			"anio": 1895,
 			"lat": 13.0,
 			"lng": 39.55
 		},
 		{
 			"nombre": "Asedio de Mekele",
+			"nombre_en": "Siege of Mekele",
 			"anio": 1896,
 			"lat": 13.5,
 			"lng": 39.47
 		},
 		{
 			"nombre": "Batalla de Adwa",
+			"nombre_en": "Battle of Adwa",
 			"anio": 1896,
 			"lat": 14.17,
 			"lng": 38.9

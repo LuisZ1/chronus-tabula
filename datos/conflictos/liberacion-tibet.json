@@ -1,6 +1,7 @@
 {
 	"id": "liberacion-tibet",
 	"nombre": "Incorporación del Tíbet a la República Popular China (1950-1951)",
+	"nombre_en": "Incorporation of Tibet into the People's Republic of China (1950-1951)",
 	"inicio": 1950,
 	"fin": 1951,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Meseta tibetana oriental (Kham)",
+			"nombre_en": "Eastern Tibetan Plateau (Kham)",
 			"tipo": "frente",
 			"desde": 1950,
 			"hasta": 1951,
@@ -43,6 +45,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Qamdo",
+			"nombre_en": "Battle of Chamdo",
 			"anio": 1950,
 			"lat": 31.14,
 			"lng": 97.17,

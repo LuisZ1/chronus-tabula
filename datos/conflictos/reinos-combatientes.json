@@ -1,6 +1,7 @@
 {
 	"id": "reinos-combatientes",
 	"nombre": "Periodo de los Reinos Combatientes",
+	"nombre_en": "Warring States period",
 	"inicio": -475,
 	"fin": -221,
 	"paises": [
@@ -18,6 +19,7 @@
 	"zonas": [
 		{
 			"nombre": "Estados en guerra de la llanura central china",
+			"nombre_en": "Warring states of the Central Plain of China",
 			"tipo": "frente",
 			"desde": -475,
 			"hasta": -221,
@@ -48,6 +50,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Guiling",
+			"nombre_en": "Battle of Guiling",
 			"anio": -354,
 			"lat": 35.2,
 			"lng": 114.7,
@@ -55,6 +58,7 @@
 		},
 		{
 			"nombre": "Batalla de Maling",
+			"nombre_en": "Battle of Maling",
 			"anio": -341,
 			"lat": 36.2,
 			"lng": 115.6,
@@ -62,6 +66,7 @@
 		},
 		{
 			"nombre": "Batalla de Changping",
+			"nombre_en": "Battle of Changping",
 			"anio": -260,
 			"lat": 35.8,
 			"lng": 112.92,

@@ -1,6 +1,7 @@
 {
 	"id": "rebelion-masakado",
 	"nombre": "Rebelión de Taira no Masakado",
+	"nombre_en": "Rebellion of Taira no Masakado",
 	"inicio": 939,
 	"fin": 940,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Kantō sublevado",
+			"nombre_en": "Kantō in revolt",
 			"tipo": "ocupado",
 			"desde": 939,
 			"hasta": 940,
@@ -39,6 +41,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Kojima",
+			"nombre_en": "Battle of Kojima",
 			"anio": 940,
 			"lat": 36.2,
 			"lng": 139.9,

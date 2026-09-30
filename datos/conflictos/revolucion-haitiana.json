@@ -1,6 +1,7 @@
 {
 	"id": "revolucion-haitiana",
 	"nombre": "Revolución haitiana",
+	"nombre_en": "Haitian Revolution",
 	"inicio": 1791,
 	"fin": 1804,
 	"paises": [
@@ -15,6 +16,7 @@
 	"zonas": [
 		{
 			"nombre": "Saint-Domingue en armas",
+			"nombre_en": "Saint-Domingue in arms",
 			"tipo": "frente",
 			"desde": 1791,
 			"hasta": 1804,
@@ -45,12 +47,14 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Crête-à-Pierrot",
+			"nombre_en": "Battle of Crête-à-Pierrot",
 			"anio": 1802,
 			"lat": 19.12,
 			"lng": -72.7
 		},
 		{
 			"nombre": "Batalla de Vertières",
+			"nombre_en": "Battle of Vertières",
 			"anio": 1803,
 			"lat": 19.73,
 			"lng": -72.22,

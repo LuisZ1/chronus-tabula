@@ -1,6 +1,7 @@
 {
 	"id": "guerra-independencia-grecia",
 	"nombre": "Guerra de Independencia de Grecia",
+	"nombre_en": "Greek War of Independence",
 	"inicio": 1821,
 	"fin": 1830,
 	"paises": [
@@ -16,6 +17,7 @@
 	"zonas": [
 		{
 			"nombre": "Grecia y el Peloponeso en rebelión",
+			"nombre_en": "Greece and the Peloponnese in revolt",
 			"tipo": "frente",
 			"desde": 1821,
 			"hasta": 1830,
@@ -42,6 +44,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla naval de Navarino",
+			"nombre_en": "Battle of Navarino",
 			"anio": 1827,
 			"lat": 36.92,
 			"lng": 21.7

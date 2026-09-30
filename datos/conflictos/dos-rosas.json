@@ -1,6 +1,7 @@
 {
 	"id": "dos-rosas",
 	"nombre": "Guerra de las Dos Rosas",
+	"nombre_en": "Wars of the Roses",
 	"inicio": 1455,
 	"fin": 1487,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Inglaterra (campañas dinásticas)",
+			"nombre_en": "England (dynastic campaigns)",
 			"tipo": "frente",
 			"desde": 1455,
 			"hasta": 1487,
@@ -42,18 +44,21 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Towton",
+			"nombre_en": "Battle of Towton",
 			"anio": 1461,
 			"lat": 53.84,
 			"lng": -1.27
 		},
 		{
 			"nombre": "Batalla de Bosworth",
+			"nombre_en": "Battle of Bosworth Field",
 			"anio": 1485,
 			"lat": 52.59,
 			"lng": -1.41
 		},
 		{
 			"nombre": "Batalla de Stoke Field",
+			"nombre_en": "Battle of Stoke Field",
 			"anio": 1487,
 			"lat": 53.01,
 			"lng": -0.88

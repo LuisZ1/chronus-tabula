@@ -1,6 +1,7 @@
 {
 	"id": "otomano-habsburgo",
 	"nombre": "Guerras otomano-habsburgo (siglo XVI)",
+	"nombre_en": "Ottoman–Habsburg wars (16th century)",
 	"inicio": 1526,
 	"fin": 1571,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Hungría (Mohács)",
+			"nombre_en": "Hungary (Mohács)",
 			"tipo": "frente",
 			"desde": 1526,
 			"hasta": 1541,
@@ -41,6 +43,7 @@
 		},
 		{
 			"nombre": "Sitio de Viena",
+			"nombre_en": "Siege of Vienna",
 			"tipo": "frente",
 			"desde": 1529,
 			"hasta": 1529,
@@ -65,6 +68,7 @@
 		},
 		{
 			"nombre": "Hungría otomana",
+			"nombre_en": "Ottoman Hungary",
 			"tipo": "ocupado",
 			"desde": 1541,
 			"hasta": 1571,
@@ -89,6 +93,7 @@
 		},
 		{
 			"nombre": "Mediterráneo (Malta y Lepanto)",
+			"nombre_en": "Mediterranean (Malta and Lepanto)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1538,
@@ -124,6 +129,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Mohács",
+			"nombre_en": "Battle of Mohács",
 			"anio": 1526,
 			"lat": 45.94,
 			"lng": 18.68,
@@ -132,6 +138,7 @@
 		},
 		{
 			"nombre": "Primer sitio de Viena",
+			"nombre_en": "First Siege of Vienna",
 			"anio": 1529,
 			"lat": 48.21,
 			"lng": 16.37,
@@ -139,48 +146,56 @@
 		},
 		{
 			"nombre": "Asedio de Güns",
+			"nombre_en": "Siege of Güns",
 			"anio": 1532,
 			"lat": 47.38,
 			"lng": 16.55
 		},
 		{
-			"nombre": "batalla de Préveza",
+			"nombre": "Batalla de Préveza",
+			"nombre_en": "Battle of Preveza",
 			"anio": 1538,
 			"lat": 38.96,
 			"lng": 20.75
 		},
 		{
-			"nombre": "Battle of Palast",
+			"nombre": "Batalla de Palást",
+			"nombre_en": "Battle of Palast",
 			"anio": 1552,
 			"lat": 48.15,
 			"lng": 18.97
 		},
 		{
-			"nombre": "batalla de Los Gelves",
+			"nombre": "Batalla de Los Gelves",
+			"nombre_en": "Battle of Djerba",
 			"anio": 1560,
 			"lat": 33.78,
 			"lng": 10.88
 		},
 		{
-			"nombre": "Battle of Sečany",
+			"nombre": "Batalla de Sečany",
+			"nombre_en": "Battle of Sečany",
 			"anio": 1562,
 			"lat": 48.08,
 			"lng": 19.53
 		},
 		{
-			"nombre": "sitio de Malta (1565)",
+			"nombre": "Sitio de Malta (1565)",
+			"nombre_en": "Siege of Malta (1565)",
 			"anio": 1565,
 			"lat": 35.89,
 			"lng": 14.52
 		},
 		{
 			"nombre": "Sitio de Szigetvár",
+			"nombre_en": "Siege of Szigetvár",
 			"anio": 1566,
 			"lat": 46.05,
 			"lng": 17.8
 		},
 		{
 			"nombre": "Batalla de Lepanto",
+			"nombre_en": "Battle of Lepanto",
 			"anio": 1571,
 			"lat": 38.25,
 			"lng": 21.25,

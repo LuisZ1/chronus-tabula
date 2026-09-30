@@ -1,6 +1,7 @@
 {
 	"id": "opio",
 	"nombre": "Guerras del Opio",
+	"nombre_en": "Opium Wars",
 	"inicio": 1839,
 	"fin": 1860,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "Costa de Cantón y el Yangtsé",
+			"nombre_en": "Canton coast and the Yangtze",
 			"tipo": "frente",
 			"desde": 1839,
 			"hasta": 1842,
@@ -42,6 +44,7 @@
 		},
 		{
 			"nombre": "Norte de China (Pekín)",
+			"nombre_en": "Northern China (Beijing)",
 			"tipo": "frente",
 			"desde": 1856,
 			"hasta": 1860,
@@ -68,6 +71,7 @@
 	"batallas": [
 		{
 			"nombre": "Toma de Cantón",
+			"nombre_en": "Capture of Canton",
 			"anio": 1841,
 			"lat": 23.13,
 			"lng": 113.26,
@@ -75,12 +79,14 @@
 		},
 		{
 			"nombre": "Batalla de Palikao",
+			"nombre_en": "Battle of Palikao",
 			"anio": 1860,
 			"lat": 39.91,
 			"lng": 116.61
 		},
 		{
 			"nombre": "Saqueo del Palacio de Verano",
+			"nombre_en": "Sacking of the Old Summer Palace",
 			"anio": 1860,
 			"lat": 40.01,
 			"lng": 116.27,

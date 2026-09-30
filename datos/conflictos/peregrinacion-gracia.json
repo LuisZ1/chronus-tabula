@@ -1,6 +1,7 @@
 {
 	"id": "peregrinacion-gracia",
 	"nombre": "Peregrinación de Gracia",
+	"nombre_en": "Pilgrimage of Grace",
 	"inicio": 1536,
 	"fin": 1537,
 	"paises": [
@@ -12,6 +13,7 @@
 	"zonas": [
 		{
 			"nombre": "Norte de Inglaterra (Yorkshire, Lincolnshire)",
+			"nombre_en": "Northern England (Yorkshire, Lincolnshire)",
 			"tipo": "frente",
 			"desde": 1536,
 			"hasta": 1537,
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Concentración rebelde de York",
+			"nombre_en": "Rebel muster at York",
 			"anio": 1536,
 			"lat": 53.96,
 			"lng": -1.08

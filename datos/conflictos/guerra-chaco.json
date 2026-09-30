@@ -1,6 +1,7 @@
 {
 	"id": "guerra-chaco",
 	"nombre": "Guerra del Chaco",
+	"nombre_en": "Chaco War",
 	"inicio": 1932,
 	"fin": 1935,
 	"paises": [
@@ -13,6 +14,7 @@
 	"zonas": [
 		{
 			"nombre": "Chaco Boreal",
+			"nombre_en": "Chaco Boreal",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -37,6 +39,7 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Boquerón",
+			"nombre_en": "Battle of Boquerón",
 			"anio": 1932,
 			"lat": -22.77,
 			"lng": -59.94,

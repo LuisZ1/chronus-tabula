@@ -1,6 +1,7 @@
 {
 	"id": "guerras-unificacion-italiana",
 	"nombre": "Guerras de la unificación italiana",
+	"nombre_en": "Wars of Italian unification",
 	"inicio": 1848,
 	"fin": 1870,
 	"paises": [
@@ -17,6 +18,7 @@
 	"zonas": [
 		{
 			"nombre": "Lombardía y Véneto",
+			"nombre_en": "Lombardy and Venetia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,6 +41,7 @@
 		},
 		{
 			"nombre": "Expedición de los Mil",
+			"nombre_en": "Expedition of the Thousand",
 			"tipo": "frente",
 			"desde": 1860,
 			"hasta": 1860,
@@ -69,18 +72,21 @@
 	"batallas": [
 		{
 			"nombre": "Batalla de Custoza (1848)",
+			"nombre_en": "Battle of Custoza (1848)",
 			"anio": 1848,
 			"lat": 45.38,
 			"lng": 10.8
 		},
 		{
 			"nombre": "Batalla de Magenta",
+			"nombre_en": "Battle of Magenta",
 			"anio": 1859,
 			"lat": 45.46,
 			"lng": 8.88
 		},
 		{
 			"nombre": "Batalla de Solferino",
+			"nombre_en": "Battle of Solferino",
 			"anio": 1859,
 			"lat": 45.37,
 			"lng": 10.57,
@@ -88,18 +94,21 @@
 		},
 		{
 			"nombre": "Batalla de Calatafimi",
+			"nombre_en": "Battle of Calatafimi",
 			"anio": 1860,
 			"lat": 37.91,
 			"lng": 12.86
 		},
 		{
 			"nombre": "Batalla del Volturno",
+			"nombre_en": "Battle of the Volturnus",
 			"anio": 1860,
 			"lat": 41.09,
 			"lng": 14.25
 		},
 		{
 			"nombre": "Toma de Roma (Porta Pia)",
+			"nombre_en": "Capture of Rome (Porta Pia)",
 			"anio": 1870,
 			"lat": 41.91,
 			"lng": 12.5

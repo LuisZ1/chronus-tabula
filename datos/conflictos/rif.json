@@ -1,6 +1,7 @@
 {
 	"id": "rif",
 	"nombre": "Guerra del Rif",
+	"nombre_en": "Rif War",
 	"inicio": 1911,
 	"fin": 1927,
 	"paises": [
@@ -14,6 +15,7 @@
 	"zonas": [
 		{
 			"nombre": "El Rif (norte de Marruecos)",
+			"nombre_en": "The Rif (northern Morocco)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,6 +40,7 @@
 	"batallas": [
 		{
 			"nombre": "Desastre de Annual",
+			"nombre_en": "Disaster of Annual",
 			"anio": 1921,
 			"lat": 35.23,
 			"lng": -3.87,
@@ -46,6 +49,7 @@
 		},
 		{
 			"nombre": "Desembarco de Alhucemas",
+			"nombre_en": "Alhucemas landing",
 			"anio": 1925,
 			"lat": 35.24,
 			"lng": -3.93,
