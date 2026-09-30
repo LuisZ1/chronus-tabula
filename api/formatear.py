@@ -17,8 +17,8 @@ import os
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "fuentes"))
-from comun import (COLECCIONES, DATOS, RAIZ, _leer_json, _nombre_fichero,  # noqa: E402
-                   texto_canonico)
+from comun import (COLECCIONES, DATOS, NOMBRES, RAIZ, _leer_json, _nombre_fichero,  # noqa: E402
+                   texto_canonico, texto_nombres)
 
 
 def ficheros():
@@ -57,6 +57,22 @@ def main(argv):
         if fn != esperado and not (fn.startswith(esperado[:-5] + "-") and fn[len(esperado) - 4:-5].isdigit()):
             avisos.append(f"  ⚠ {rel}: el nombre canónico del fichero sería {esperado} "
                           "(se deriva del id, o del año y el nombre); renómbralo si acabas de crearlo")
+    # tabla de nombres de los mapas (datos/nombres.json): una línea por nombre, en orden
+    if os.path.exists(NOMBRES):
+        total += 1
+        try:
+            tabla = _leer_json(NOMBRES)
+        except ValueError as e:
+            print(f"✘ JSON inválido en {e}")
+            return 1
+        with open(NOMBRES, encoding="utf-8", newline="") as f:
+            actual = f.read()
+        canon = texto_nombres(tabla)
+        if actual != canon:
+            pendientes.append("datos/nombres.json")
+            if not comprobar:
+                with open(NOMBRES, "w", encoding="utf-8", newline="\n") as f:
+                    f.write(canon)
     for a in avisos:
         print(a)
     if comprobar:

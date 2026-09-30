@@ -39,6 +39,9 @@ DATOS = os.environ.get("CHRONUS_DATOS") or os.path.join(RAIZ, "datos")
 # edita a mano ni se versiona; lo compilan servidor.py al arrancar, exportar.py
 # al aplicar propuestas, api/compilar.py y el despliegue en CI).
 HISTORIA = os.path.join(RAIZ, "web", "data", "historia.json")
+# traducción de los nombres de los mapas (NAME/SUBJECTO/PARTOF) al español y, si el
+# original no sirve como inglés, también al inglés: {"<nombre>": {"es": …, "en": …}}
+NOMBRES = os.path.join(DATOS, "nombres.json")
 COLECCIONES = ("paises", "conflictos", "eventos", "territorios")
 
 HOY = date.today().isoformat()
@@ -115,18 +118,18 @@ def _orden(coleccion):
 # formato; guardar_historia() lo aplica siempre al escribir.
 # ---------------------------------------------------------------------------
 ORDEN_CLAVES = {
-    "paises": ["id", "nombre", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
+    "paises": ["id", "nombre", "nombre_en", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
                "owid", "relacionados", "vinculos", "resena", "gobernantes", "poblacion", "escudos",
                "banderas", "fuentes", "revision"],
-    "conflictos": ["id", "nombre", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
+    "conflictos": ["id", "nombre", "nombre_en", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
                    "zonas", "batallas", "fuentes"],
-    "eventos": ["nombre", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
+    "eventos": ["nombre", "nombre_en", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
                 "wiki", "fuentes"],
-    "territorios": ["nombre", "pais", "estatus", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
+    "territorios": ["nombre", "nombre_en", "pais", "estatus", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
                     "wiki", "fuentes"],
 }
 ORDEN_SUBCLAVES = {
-    "nombres_periodo": ["nombre", "desde", "hasta", "wiki", "wikidata"],
+    "nombres_periodo": ["nombre", "nombre_en", "desde", "hasta", "wiki", "wikidata"],
     "gobernantes": ["nombre", "cargo", "titulo", "desde", "hasta"],
     "poblacion": ["anio", "valor", "fuente"],
     "escudos": ["archivo", "desde", "hasta"],
@@ -134,8 +137,8 @@ ORDEN_SUBCLAVES = {
     "fuentes": ["id", "url", "licencia", "consultado"],
     "revision": ["estado", "fecha", "por", "hash", "secciones"],
     "vinculos": ["id", "tipo", "desde", "hasta"],
-    "zonas": ["nombre", "tipo", "mar", "desde", "hasta", "color", "poligono"],
-    "batallas": ["nombre", "anio", "hasta", "lat", "lng", "descripcion", "bajas", "wiki"],
+    "zonas": ["nombre", "nombre_en", "tipo", "mar", "desde", "hasta", "color", "poligono"],
+    "batallas": ["nombre", "nombre_en", "anio", "hasta", "lat", "lng", "descripcion", "bajas", "wiki"],
 }
 
 
@@ -193,8 +196,12 @@ def hash_revision(pais):
     Se guarda en revision.hash al validar; si después difiere, los datos cambiaron
     tras la validación y hay que revisarlos de nuevo."""
     c = canonizar("paises", pais)
+    # la traducción al inglés del nombre (nombre_en) no forma parte de lo validado:
+    # añadirla o corregirla no obliga a revisar de nuevo la ficha
+    np = [{k: v for k, v in per.items() if k != "nombre_en"} if isinstance(per, dict) else per
+          for per in c.get("nombres_periodo", [])]
     canon = json.dumps({"g": c.get("gobernantes", []), "p": c.get("poblacion", []),
-                        "np": c.get("nombres_periodo", [])}, sort_keys=True, ensure_ascii=False)
+                        "np": np}, sort_keys=True, ensure_ascii=False)
     return hashlib.sha1(canon.encode("utf-8")).hexdigest()[:12]
 
 
@@ -265,6 +272,22 @@ def guardar_historia(d):
     compilar_web(d)
 
 
+def cargar_nombres():
+    """Tabla de traducción de los nombres de los mapas ({} si no existe)."""
+    return _leer_json(NOMBRES) if os.path.exists(NOMBRES) else {}
+
+
+def texto_nombres(tabla):
+    """Formato canónico de datos/nombres.json: una línea por nombre, en orden
+    alfabético (así cada traducción añadida o corregida es una línea del diff)."""
+    lineas = []
+    for k in sorted(tabla):
+        v = tabla[k] or {}
+        v = {**{c: v[c] for c in ("es", "en") if v.get(c)}, **{c: v[c] for c in sorted(v) if c not in ("es", "en")}}
+        lineas.append("\t" + json.dumps(k, ensure_ascii=False) + ": " + json.dumps(v, ensure_ascii=False))
+    return "{\n" + ",\n".join(lineas) + "\n}\n"
+
+
 def compilar_web(d=None):
     """Genera web/data/historia.json (el artefacto que descarga la web) a partir del
     árbol datos/, con las colecciones en orden canónico. Devuelve la ruta."""
@@ -274,6 +297,9 @@ def compilar_web(d=None):
     salida = {k: v for k, v in d.items() if k not in COLECCIONES}
     for col in COLECCIONES:
         salida[col] = [canonizar(col, r) for r in sorted(d.get(col, []), key=_orden(col))]
+    # nombres de los mapas en español/inglés (la web los usa si no hay ficha o si la
+    # ficha no da un nombre para ese idioma)
+    salida["nombres_mapa"] = cargar_nombres()
     with open(HISTORIA, "w", encoding="utf-8", newline="\n") as f:
         json.dump(salida, f, ensure_ascii=False, indent="\t")
         f.write("\n")
