@@ -84,6 +84,7 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   comprobar_enlaces.py      comprueba en la API de Wikipedia que cada enlace de fuente lleva a un artículo (necesita red)
   colorear.py               reparte los colores para que dos territorios vecinos no coincidan (web/data/colores.json, usa shapely)
   traducciones.py           cobertura, pendientes e importación de traducciones (datos/i18n/)
+  traducir_paginas.py       claves y traducciones de las páginas estáticas (web/i18n/paginas.<idioma>.json)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)
   validar.py                validador: esquema (schema/), años, coordenadas, nombres en los

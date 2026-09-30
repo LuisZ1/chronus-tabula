@@ -17,6 +17,13 @@
 		{ anio: 2010, texto: '2010', corto: '2010', vista: '2010/30.00/10.00/3' }
 	];
 	var ALT = 'Mapa político del mundo en {a}, cada estado con su color.';
+	/* textos que escribe este script, en el idioma de la página (js/idioma.js) */
+	function t(clave, es, vars) {
+		return window.idioma ? window.idioma.t(clave, es, vars) : es.replace(/\{(\w+)\}/g, function (m, k) { return vars && vars[k] != null ? vars[k] : m; });
+	}
+	function textoAnio(a) {
+		return a.anio < 0 ? t('index.js.ac500', a.texto) : a.texto;
+	}
 
 	var reducir = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
 	var rango = document.getElementById('escalaAnios');
@@ -67,13 +74,11 @@
 		fotos.forEach(function (p, k) {
 			var img = p.querySelector('img');
 			img.classList.toggle('activa', k === i);
-			img.alt = k === i ? ALT.replace('{a}', a.texto) : '';
+			img.alt = k === i ? t('index.js.alt', ALT, { a: textoAnio(a) }) : '';
 		});
-		rodarAnio(a.texto, dir);
-		abrir.href = 'mapa.html#' + a.vista;
-		abrir.textContent = 'Abrir ' + a.texto + ' en el mapa';
+		rodarAnio(textoAnio(a), dir);
+		rotular(a);
 		rango.value = String(i);
-		rango.setAttribute('aria-valuetext', a.texto);
 		botones.forEach(function (b, k) {
 			b.setAttribute('aria-pressed', k === i ? 'true' : 'false');
 		});
@@ -82,6 +87,24 @@
 		cargar(i + 1);
 		actual = i;
 	}
+
+	/* botón «Abrir … en el mapa» y textos accesibles del año elegido */
+	function rotular(a) {
+		abrir.href = 'mapa.html#' + a.vista;
+		abrir.textContent = t('index.js.abrir', 'Abrir {a} en el mapa', { a: textoAnio(a) });
+		rango.setAttribute('aria-valuetext', textoAnio(a));
+		var img = fotos[actualIndice(a)] && fotos[actualIndice(a)].querySelector('img');
+		if (img) img.alt = t('index.js.alt', ALT, { a: textoAnio(a) });
+	}
+	function actualIndice(a) {
+		return ANIOS.indexOf(a);
+	}
+	window.addEventListener('idioma', function () {
+		if (!abrir || !anioEl) return;
+		var a = ANIOS[actual];
+		anioEl.textContent = textoAnio(a);
+		rotular(a);
+	});
 
 	if (rango && anioEl && abrir && fotos.length === ANIOS.length) {
 		rango.addEventListener('input', function () {
@@ -163,20 +186,21 @@
 		});
 	}
 	Array.prototype.forEach.call(document.querySelectorAll('.copiar[data-copiar]'), function (b) {
-		var original = b.textContent;
 		b.addEventListener('click', function () {
+			if (!b._t) b._orig = b.textContent; // el rótulo de ese momento (en su idioma)
 			copiarTexto(urlCompleta(b.dataset.copiar)).then(
 				function () {
-					b.textContent = 'Copiado';
+					b.textContent = t('index.js.copiado', 'Copiado');
 					b.classList.add('hecho');
 				},
 				function () {
-					b.textContent = 'Selecciona y copia';
+					b.textContent = t('index.js.selecciona', 'Selecciona y copia');
 				}
 			);
 			clearTimeout(b._t);
 			b._t = setTimeout(function () {
-				b.textContent = original;
+				b._t = null;
+				b.textContent = b._orig;
 				b.classList.remove('hecho');
 			}, 1800);
 		});

@@ -49,6 +49,9 @@ SUBLISTAS = {
 }
 
 
+CAMPOS_REFERENCIA = ("uso", "nota", "licencia")
+
+
 def huella(texto):
     return hashlib.sha1(str(texto).encode("utf-8")).hexdigest()[:8]
 
@@ -118,12 +121,18 @@ def unidades(d):
                     if isinstance(p, str) and p.strip():
                         txt.add(p)
     out += [(f"txt:{t}", t) for t in sorted(txt)]
+    # el registro de referencias: lo que se escribe en español (uso, notas, licencias)
+    import referencias
+    for k, v in sorted(referencias.cargar_registro().items()):
+        for c in CAMPOS_REFERENCIA:
+            if isinstance(v.get(c), str) and v[c].strip():
+                out.append((f"referencias/{k}.{c}", v[c]))
     return out
 
 
 def es_texto_largo(clave):
     """Descripciones, reseñas y bajas (frente a nombres y textos cortos)."""
-    return clave.rsplit(".", 1)[-1] in ("resena", "descripcion", "bajas", "estatus")
+    return clave.rsplit(".", 1)[-1] in ("resena", "descripcion", "bajas", "estatus", "uso", "nota")
 
 
 # ---------------------------------------------------------------- catálogos

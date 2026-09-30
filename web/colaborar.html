@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-pagina="colaborar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -7,8 +7,20 @@
   <meta name="description" content="Cómo colaborar en Chronus Tabula: avisar de errores, aportar datos históricos con fuentes o mejorar el código. Un fichero por país, conflicto, evento o territorio; validación automática. Proyecto abierto en GitHub.">
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2314202b' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3Z'/%3E%3C/svg%3E">
+  <!-- idioma: si no es español, ocultar hasta aplicar la traducción (js/idioma.js); como mucho 1,5 s -->
+  <script>
+    (function () {
+      try {
+        var l = localStorage.getItem('mapamundi.lang') || ((navigator.language || 'es').slice(0, 2).toLowerCase() === 'es' ? 'es' : 'en');
+        if (l !== 'es') {
+          document.documentElement.classList.add('i18n-espera');
+          setTimeout(function () { document.documentElement.classList.remove('i18n-espera'); }, 1500);
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="css/marca.css?v=4">
-  <link rel="stylesheet" href="css/portada.css?v=11">
+  <link rel="stylesheet" href="css/portada.css?v=12">
 </head>
 <body>
 
@@ -28,26 +40,33 @@
     <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
   </svg>
 
-  <a class="saltar" href="#contenido">Ir al contenido</a>
+  <a data-i18n-html="colaborar.4aa874" class="saltar" href="#contenido">Ir al contenido</a>
 
   <header class="cab">
     <div class="cab-in">
       <a class="marca" href="index.html">Chronus Tabula</a>
-      <nav class="nav" aria-label="Secciones">
-        <a href="#formas" class="solo-ancho">Cómo ayudar</a>
-        <a href="#asistente" class="solo-ancho">El asistente</a>
-        <a href="#datos" class="solo-ancho">Los datos</a>
-        <a href="#flujo" class="solo-ancho">Paso a paso</a>
+      <nav data-i18n-aria="colaborar.69cc52" class="nav" aria-label="Secciones">
+        <a data-i18n-html="colaborar.6fe5eb" href="#formas" class="solo-ancho">Cómo ayudar</a>
+        <a data-i18n-html="colaborar.cc5e72" href="#asistente" class="solo-ancho">El asistente</a>
+        <a data-i18n-html="colaborar.849e32" href="#datos" class="solo-ancho">Los datos</a>
+        <a data-i18n-html="colaborar.41aac9" href="#flujo" class="solo-ancho">Paso a paso</a>
         <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener" class="solo-ancho">GitHub ↗</a>
-        <a href="mapa.html" class="btn principal pequeno">Abrir el mapa</a>
+        <span class="lang-box" data-i18n-no>
+          <button type="button" id="langBtn" class="lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="langMenu" title="Idioma · Language" aria-label="Idioma · Language"><span class="bandera" aria-hidden="true">🇪🇸</span></button>
+          <ul id="langMenu" class="lang-menu" role="listbox" aria-label="Idioma · Language" hidden>
+            <li role="option" data-lang="es" title="Español" aria-label="Español"><span class="bandera" aria-hidden="true">🇪🇸</span></li>
+            <li role="option" data-lang="en" title="English" aria-label="English"><span class="bandera" aria-hidden="true">🇬🇧</span></li>
+          </ul>
+        </span>
+        <a data-i18n-html="colaborar.c7d932" href="mapa.html" class="btn principal pequeno">Abrir el mapa</a>
       </nav>
     </div>
-    <nav class="subnav" aria-label="Secciones">
-      <a href="#formas">Cómo ayudar</a>
-      <a href="#asistente">El asistente</a>
-      <a href="#datos">Los datos</a>
-      <a href="#flujo">Paso a paso</a>
-      <a href="#reglas">Reglas</a>
+    <nav data-i18n-aria="colaborar.69cc52" class="subnav" aria-label="Secciones">
+      <a data-i18n-html="colaborar.6fe5eb" href="#formas">Cómo ayudar</a>
+      <a data-i18n-html="colaborar.cc5e72" href="#asistente">El asistente</a>
+      <a data-i18n-html="colaborar.849e32" href="#datos">Los datos</a>
+      <a data-i18n-html="colaborar.41aac9" href="#flujo">Paso a paso</a>
+      <a data-i18n-html="colaborar.b3084a" href="#reglas">Reglas</a>
       <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub ↗</a>
     </nav>
   </header>
@@ -56,87 +75,87 @@
 
     <section class="hero corto">
       <div class="cont">
-        <h1>Mejora el mapa.</h1>
-        <p class="lema">Cada país, guerra o acontecimiento es un pequeño fichero con su fuente. Corrígelo o amplíalo; no hace falta programar.</p>
+        <h1 data-i18n-html="colaborar.29ac76">Mejora el mapa.</h1>
+        <p data-i18n-html="colaborar.ff5cda" class="lema">Cada país, guerra o acontecimiento es un pequeño fichero con su fuente. Corrígelo o amplíalo; no hace falta programar.</p>
         <div class="acciones">
-          <a class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Avisar de un error</a>
-          <a class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Guía completa</a>
+          <a data-i18n-html="colaborar.c915d5" class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Avisar de un error</a>
+          <a data-i18n-html="colaborar.3ae536" class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Guía completa</a>
         </div>
       </div>
     </section>
 
     <section class="bloque alt" id="formas">
       <div class="cont">
-        <h2>Tres formas de ayudar.</h2>
-        <p class="intro">Elige según el tiempo que tengas. Todas cuentan.</p>
+        <h2 data-i18n-html="colaborar.3003f4">Tres formas de ayudar.</h2>
+        <p data-i18n-html="colaborar.699be6" class="intro">Elige según el tiempo que tengas. Todas cuentan.</p>
         <div class="rejilla">
-          <article class="tarjeta con-accion"><span class="chip">5 minutos</span><h3>Avisar de un error</h3><p>¿Una fecha de reinado mal, una frontera que no cuadra, una batalla en el sitio equivocado? Cuenta qué has visto y en qué año; una plantilla te guía.</p><a class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Abrir un aviso</a></article>
-          <article class="tarjeta con-accion"><span class="chip">En local, con el asistente</span><h3>Aportar datos</h3><p>Añade o corrige gobernantes, población, batallas, acontecimientos o territorios, siempre con su fuente. Se edita en tu copia del proyecto y llega por <em>pull request</em>. Es donde más ayuda hace falta.</p><a class="enlace-flecha" href="#asistente">Ver ejemplos con el asistente</a></article>
-          <article class="tarjeta con-accion"><span class="chip">Con Git</span><h3>Código y diseño</h3><p>JavaScript sin dependencias ni compilación, y un pequeño servidor en Python estándar. Mejoras de interfaz, accesibilidad o rendimiento son bienvenidas.</p><a class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ver el repositorio</a></article>
+          <article class="tarjeta con-accion"><span data-i18n-html="colaborar.92f57e" class="chip">5 minutos</span><h3 data-i18n-html="colaborar.c915d5">Avisar de un error</h3><p data-i18n-html="colaborar.5df543">¿Una fecha de reinado mal, una frontera que no cuadra, una batalla en el sitio equivocado? Cuenta qué has visto y en qué año; una plantilla te guía.</p><a data-i18n-html="colaborar.fbe7ad" class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula/issues/new/choose" target="_blank" rel="noopener">Abrir un aviso</a></article>
+          <article class="tarjeta con-accion"><span data-i18n-html="colaborar.a89a04" class="chip">En local, con el asistente</span><h3 data-i18n-html="colaborar.45d9a8">Aportar datos</h3><p data-i18n-html="colaborar.ab72e1">Añade o corrige gobernantes, población, batallas, acontecimientos o territorios, siempre con su fuente. Se edita en tu copia del proyecto y llega por <em>pull request</em>. Es donde más ayuda hace falta.</p><a data-i18n-html="colaborar.221379" class="enlace-flecha" href="#asistente">Ver ejemplos con el asistente</a></article>
+          <article class="tarjeta con-accion"><span data-i18n-html="colaborar.93517a" class="chip">Con Git</span><h3 data-i18n-html="colaborar.03336a">Código y diseño</h3><p data-i18n-html="colaborar.462c29">JavaScript sin dependencias ni compilación, y un pequeño servidor en Python estándar. Mejoras de interfaz, accesibilidad o rendimiento son bienvenidas.</p><a data-i18n-html="colaborar.584a63" class="enlace-flecha" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ver el repositorio</a></article>
         </div>
       </div>
     </section>
 
     <section class="bloque" id="asistente">
       <div class="cont">
-        <h2>Edita sin tocar el JSON.</h2>
-        <p class="intro">El panel de administración incluye un asistente que convierte cada ficha en un formulario. Te avisa de los errores antes de guardar y escribe el fichero con el formato correcto.</p>
-        <p class="aviso-local"><b>Solo funciona en tu equipo.</b> La web publicada no tiene panel ni guarda cambios: descarga el proyecto, edita las fichas en local con el asistente y propón los cambios con un <em>pull request</em> en GitHub. Se publican cuando alguien del proyecto los revisa y los fusiona.</p>
+        <h2 data-i18n-html="colaborar.8f1098">Edita sin tocar el JSON.</h2>
+        <p data-i18n-html="colaborar.c3ad3f" class="intro">El panel de administración incluye un asistente que convierte cada ficha en un formulario. Te avisa de los errores antes de guardar y escribe el fichero con el formato correcto.</p>
+        <p data-i18n-html="colaborar.18df57" class="aviso-local"><b>Solo funciona en tu equipo.</b> La web publicada no tiene panel ni guarda cambios: descarga el proyecto, edita las fichas en local con el asistente y propón los cambios con un <em>pull request</em> en GitHub. Se publican cuando alguien del proyecto los revisa y los fusiona.</p>
         <ol class="pasos-3">
-          <li><span class="num" aria-hidden="true">1</span><h3>Descarga el proyecto</h3><p>Haz un <em>fork</em> del <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">repositorio</a> y clónalo en tu equipo. Solo necesitas Python.</p></li>
-          <li><span class="num" aria-hidden="true">2</span><h3>Arranca el panel</h3><p>En la carpeta del proyecto, <code>python api/servidor.py</code>. Abre <code>http://localhost:9000/admin.html#editor</code>; la primera vez crearás un usuario y una contraseña locales.</p></li>
-          <li><span class="num" aria-hidden="true">3</span><h3>Edita y guarda</h3><p>Escoge Países, Conflictos, Eventos o Territorios, busca la ficha o pulsa <span class="ui">+ Nuevo</span>. <span class="ui">Revisar cambios</span> muestra los errores y las líneas que cambiarán; <span class="ui">Guardar en datos/</span> escribe el fichero en tu copia y el mapa local lo muestra al recargar.</p></li>
-          <li><span class="num" aria-hidden="true">4</span><h3>Propón el cambio</h3><p>Haz <em>commit</em> de los ficheros de <code>datos/</code>, súbelos a tu <em>fork</em> y abre un <em>pull request</em> contando qué cambias y de dónde sale. Hasta entonces, el cambio solo existe en tu equipo.</p></li>
+          <li><span class="num" aria-hidden="true">1</span><h3 data-i18n-html="colaborar.7c7801">Descarga el proyecto</h3><p data-i18n-html="colaborar.a150d3">Haz un <em>fork</em> del <a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">repositorio</a> y clónalo en tu equipo. Solo necesitas Python.</p></li>
+          <li><span class="num" aria-hidden="true">2</span><h3 data-i18n-html="colaborar.8c003b">Arranca el panel</h3><p data-i18n-html="colaborar.f2188d">En la carpeta del proyecto, <code>python api/servidor.py</code>. Abre <code>http://localhost:9000/admin.html#editor</code>; la primera vez crearás un usuario y una contraseña locales.</p></li>
+          <li><span class="num" aria-hidden="true">3</span><h3 data-i18n-html="colaborar.42ed82">Edita y guarda</h3><p data-i18n-html="colaborar.2f4514">Escoge Países, Conflictos, Eventos o Territorios, busca la ficha o pulsa <span class="ui">+ Nuevo</span>. <span class="ui">Revisar cambios</span> muestra los errores y las líneas que cambiarán; <span class="ui">Guardar en datos/</span> escribe el fichero en tu copia y el mapa local lo muestra al recargar.</p></li>
+          <li><span class="num" aria-hidden="true">4</span><h3 data-i18n-html="colaborar.437721">Propón el cambio</h3><p data-i18n-html="colaborar.7572fe">Haz <em>commit</em> de los ficheros de <code>datos/</code>, súbelos a tu <em>fork</em> y abre un <em>pull request</em> contando qué cambias y de dónde sale. Hasta entonces, el cambio solo existe en tu equipo.</p></li>
         </ol>
 
-        <h3 class="sub">Tres ejemplos</h3>
+        <h3 data-i18n-html="colaborar.3b39bd" class="sub">Tres ejemplos</h3>
         <div class="rejilla ejemplos">
           <article class="tarjeta ejemplo">
-            <span class="chip">Corregir un dato</span>
-            <h3>La fecha de un reinado</h3>
-            <p>Felipe II aparece en España de 1556 a 1598. Si una fecha estuviera mal:</p>
+            <span data-i18n-html="colaborar.3331af" class="chip">Corregir un dato</span>
+            <h3 data-i18n-html="colaborar.77f0ac">La fecha de un reinado</h3>
+            <p data-i18n-html="colaborar.496d2c">Felipe II aparece en España de 1556 a 1598. Si una fecha estuviera mal:</p>
             <ol>
-              <li><span class="ui">Países</span>, busca <kbd>españa</kbd> y ábrela.</li>
-              <li>Despliega <span class="ui">Gobernantes</span>, localiza la fila de <em>Felipe II</em> y cambia <span class="ui">Hasta</span>.</li>
-              <li>En <span class="ui">Fuentes</span>, <span class="ui">+ Añadir</span> y escribe en <span class="ui">Identificador</span> de dónde sale el dato, por ejemplo <code>wikipedia-es:Felipe II de España</code>.</li>
-              <li><span class="ui">Revisar cambios</span>: el diff marca solo esa línea y la fuente nueva. Guarda.</li>
+              <li data-i18n-html="colaborar.35eaf3"><span class="ui">Países</span>, busca <kbd>españa</kbd> y ábrela.</li>
+              <li data-i18n-html="colaborar.c6eabe">Despliega <span class="ui">Gobernantes</span>, localiza la fila de <em>Felipe II</em> y cambia <span class="ui">Hasta</span>.</li>
+              <li data-i18n-html="colaborar.e9970d">En <span class="ui">Fuentes</span>, <span class="ui">+ Añadir</span> y escribe en <span class="ui">Identificador</span> de dónde sale el dato, por ejemplo <code>wikipedia-es:Felipe II de España</code>.</li>
+              <li data-i18n-html="colaborar.c02fd4"><span class="ui">Revisar cambios</span>: el diff marca solo esa línea y la fuente nueva. Guarda.</li>
             </ol>
-            <p class="nota-ej">Si escribes un año de fin anterior al de inicio, el asistente no deja guardar y te dice por qué: <em>«'desde' (1556) es posterior a 'hasta' (1550)»</em>.</p>
+            <p data-i18n-html="colaborar.e5c10d" class="nota-ej">Si escribes un año de fin anterior al de inicio, el asistente no deja guardar y te dice por qué: <em>«'desde' (1556) es posterior a 'hasta' (1550)»</em>.</p>
           </article>
           <article class="tarjeta ejemplo">
-            <span class="chip">Añadir un acontecimiento</span>
-            <h3>La Universidad de Salamanca, 1218</h3>
+            <span data-i18n-html="colaborar.d1ce88" class="chip">Añadir un acontecimiento</span>
+            <h3 data-i18n-html="colaborar.8c5a8e">La Universidad de Salamanca, 1218</h3>
             <ol>
-              <li><span class="ui">Eventos</span> → <span class="ui">+ Nuevo evento</span>.</li>
-              <li><span class="ui">Nombre</span>: <kbd>Fundación de la Universidad de Salamanca</kbd>; <span class="ui">Año</span>: <kbd>1218</kbd>.</li>
-              <li>En <span class="ui">Coordenadas</span>, <span class="ui">Elegir en el mapa</span> y pincha sobre Salamanca (≈ 40,96, −5,66).</li>
-              <li><span class="ui">Países</span>: <kbd>Reino de León</kbd>; una <span class="ui">Descripción</span> de una frase y el <span class="ui">Artículo de Wikipedia</span>: <kbd>Universidad de Salamanca</kbd>.</li>
-              <li><span class="ui">Fuentes</span> → <span class="ui">+ Añadir</span>: <span class="ui">Identificador</span> <code>wikipedia-es:Universidad de Salamanca</code> y <span class="ui">Licencia</span> <code>CC BY-SA</code>.</li>
+              <li data-i18n-html="colaborar.2cd85a"><span class="ui">Eventos</span> → <span class="ui">+ Nuevo evento</span>.</li>
+              <li data-i18n-html="colaborar.b73ab1"><span class="ui">Nombre</span>: <kbd>Fundación de la Universidad de Salamanca</kbd>; <span class="ui">Año</span>: <kbd>1218</kbd>.</li>
+              <li data-i18n-html="colaborar.a26eb2">En <span class="ui">Coordenadas</span>, <span class="ui">Elegir en el mapa</span> y pincha sobre Salamanca (≈ 40,96, −5,66).</li>
+              <li data-i18n-html="colaborar.861e9b"><span class="ui">Países</span>: <kbd>Reino de León</kbd>; una <span class="ui">Descripción</span> de una frase y el <span class="ui">Artículo de Wikipedia</span>: <kbd>Universidad de Salamanca</kbd>.</li>
+              <li data-i18n-html="colaborar.44c543"><span class="ui">Fuentes</span> → <span class="ui">+ Añadir</span>: <span class="ui">Identificador</span> <code>wikipedia-es:Universidad de Salamanca</code> y <span class="ui">Licencia</span> <code>CC BY-SA</code>.</li>
             </ol>
-            <p class="nota-ej">Al guardar se crea <code>datos/eventos/1218-fundacion-de-la-universidad-de-salamanca.json</code> y aparece como ⭐ en el mapa de 1218.</p>
+            <p data-i18n-html="colaborar.3f6566" class="nota-ej">Al guardar se crea <code>datos/eventos/1218-fundacion-de-la-universidad-de-salamanca.json</code> y aparece como ⭐ en el mapa de 1218.</p>
           </article>
           <article class="tarjeta ejemplo">
-            <span class="chip">Ampliar un conflicto</span>
-            <h3>Una batalla que falta</h3>
-            <p>La Guerra de los Treinta Años aún no tiene la batalla de la Montaña Blanca (1620).</p>
+            <span data-i18n-html="colaborar.6c14ac" class="chip">Ampliar un conflicto</span>
+            <h3 data-i18n-html="colaborar.411a4d">Una batalla que falta</h3>
+            <p data-i18n-html="colaborar.907d5c">La Guerra de los Treinta Años aún no tiene la batalla de la Montaña Blanca (1620).</p>
             <ol>
-              <li><span class="ui">Conflictos</span>, busca <kbd>treinta</kbd> y ábrelo.</li>
-              <li>Despliega <span class="ui">Batallas</span> → <span class="ui">+ Añadir</span>.</li>
-              <li><span class="ui">Nombre</span>: <kbd>Batalla de la Montaña Blanca</kbd>; <span class="ui">Año</span>: <kbd>1620</kbd>; coordenadas junto a Praga (≈ 50,08, 14,32) con <span class="ui">Elegir en el mapa</span>.</li>
-              <li>Añade su fuente en <span class="ui">Fuentes</span> del conflicto y revisa.</li>
+              <li data-i18n-html="colaborar.fdbb2f"><span class="ui">Conflictos</span>, busca <kbd>treinta</kbd> y ábrelo.</li>
+              <li data-i18n-html="colaborar.c00629">Despliega <span class="ui">Batallas</span> → <span class="ui">+ Añadir</span>.</li>
+              <li data-i18n-html="colaborar.e98384"><span class="ui">Nombre</span>: <kbd>Batalla de la Montaña Blanca</kbd>; <span class="ui">Año</span>: <kbd>1620</kbd>; coordenadas junto a Praga (≈ 50,08, 14,32) con <span class="ui">Elegir en el mapa</span>.</li>
+              <li data-i18n-html="colaborar.351cbf">Añade su fuente en <span class="ui">Fuentes</span> del conflicto y revisa.</li>
             </ol>
-            <p class="nota-ej">No te preocupes por el orden: al guardar, las batallas se ordenan por año.</p>
+            <p data-i18n-html="colaborar.5476d6" class="nota-ej">No te preocupes por el orden: al guardar, las batallas se ordenan por año.</p>
           </article>
         </div>
-        <p class="nota">En países, <span class="ui">Vínculos con otras fichas</span> relaciona reinos entre sí (predecesor, sucesor, parte de, incluye, antecesor territorial): eliges la otra ficha de una lista y el vínculo inverso se escribe solo en ella. Así, al seguir España en el mapa se resaltan también Castilla, Aragón o Navarra en su época.</p>
-        <p class="nota">Antes del <em>pull request</em>, <code>git diff</code> te enseña exactamente qué ha escrito el asistente. Si otra persona ha cambiado la misma ficha mientras la editabas, el asistente no la sobrescribe y te pide recargarla. En países y conflictos el <span class="ui">Identificador</span> no se cambia desde aquí, y los polígonos de las zonas se editan como texto.</p>
+        <p data-i18n-html="colaborar.018091" class="nota">En países, <span class="ui">Vínculos con otras fichas</span> relaciona reinos entre sí (predecesor, sucesor, parte de, incluye, antecesor territorial): eliges la otra ficha de una lista y el vínculo inverso se escribe solo en ella. Así, al seguir España en el mapa se resaltan también Castilla, Aragón o Navarra en su época.</p>
+        <p data-i18n-html="colaborar.1f636d" class="nota">Antes del <em>pull request</em>, <code>git diff</code> te enseña exactamente qué ha escrito el asistente. Si otra persona ha cambiado la misma ficha mientras la editabas, el asistente no la sobrescribe y te pide recargarla. En países y conflictos el <span class="ui">Identificador</span> no se cambia desde aquí, y los polígonos de las zonas se editan como texto.</p>
       </div>
     </section>
 
     <section class="bloque alt" id="datos">
       <div class="cont">
-        <h2>Un fichero por entidad.</h2>
-        <p class="intro">Todo el conocimiento del mapa vive en <code>datos/</code>. Cada cambio toca solo su fichero, el diff se lee de un vistazo y dos personas no chocan aunque trabajen a la vez.</p>
+        <h2 data-i18n-html="colaborar.dcc69f">Un fichero por entidad.</h2>
+        <p data-i18n-html="colaborar.ac7374" class="intro">Todo el conocimiento del mapa vive en <code>datos/</code>. Cada cambio toca solo su fichero, el diff se lee de un vistazo y dos personas no chocan aunque trabajen a la vez.</p>
         <pre><code>datos/
   paises/&lt;id&gt;.json               espana.json, rd-congo.json, sacroimperio.json…
   conflictos/&lt;id&gt;.json           guerra-de-los-cien-anos.json…
@@ -144,34 +163,34 @@
   territorios/&lt;nombre&gt;.json      gibraltar.json, ceuta.json…
 schema/                          el contrato de cada tipo de ficha (JSON Schema)</code></pre>
         <div class="rejilla">
-          <article class="tarjeta"><h3>Países</h3><p>Nombre, nombres en los mapas y por época, gobernantes con fechas, población, escudos y banderas, reseña, fuentes y marca de revisión.</p></article>
-          <article class="tarjeta"><h3>Conflictos</h3><p>Guerras con inicio, fin y bandos; zonas de frente u ocupadas por fases, y sus batallas con coordenadas y año.</p></article>
-          <article class="tarjeta"><h3>Eventos</h3><p>Acontecimientos e inventos con año, lugar y descripción breve. El fichero empieza por el año: <code>480ac-…</code> para el 480 a. C.</p></article>
-          <article class="tarjeta"><h3>Territorios</h3><p>Enclaves e islas que no se ven a escala mundial, con el país del que heredan el color y desde cuándo.</p></article>
+          <article class="tarjeta"><h3 data-i18n-html="colaborar.760c85">Países</h3><p data-i18n-html="colaborar.5decdd">Nombre, nombres en los mapas y por época, gobernantes con fechas, población, escudos y banderas, reseña, fuentes y marca de revisión.</p></article>
+          <article class="tarjeta"><h3 data-i18n-html="colaborar.cf9157">Conflictos</h3><p data-i18n-html="colaborar.595107">Guerras con inicio, fin y bandos; zonas de frente u ocupadas por fases, y sus batallas con coordenadas y año.</p></article>
+          <article class="tarjeta"><h3 data-i18n-html="colaborar.c7b338">Eventos</h3><p data-i18n-html="colaborar.910f68">Acontecimientos e inventos con año, lugar y descripción breve. El fichero empieza por el año: <code>480ac-…</code> para el 480 a. C.</p></article>
+          <article class="tarjeta"><h3 data-i18n-html="colaborar.e54998">Territorios</h3><p data-i18n-html="colaborar.e1cb45">Enclaves e islas que no se ven a escala mundial, con el país del que heredan el color y desde cuándo.</p></article>
         </div>
-        <p class="nota">Los años negativos son a. C., las coordenadas son siempre <code>[latitud, longitud]</code> y casi todos los campos son opcionales. Las fronteras son ficheros GeoJSON aparte, de <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>.</p>
+        <p data-i18n-html="colaborar.020f77" class="nota">Los años negativos son a. C., las coordenadas son siempre <code>[latitud, longitud]</code> y casi todos los campos son opcionales. Las fronteras son ficheros GeoJSON aparte, de <a href="https://github.com/aourednik/historical-basemaps" target="_blank" rel="noopener">historical-basemaps</a>.</p>
       </div>
     </section>
 
     <section class="bloque" id="flujo">
       <div class="cont">
-        <h2>Aportar datos, paso a paso.</h2>
-        <p class="intro">El resumen; la <a href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">guía completa</a> detalla cada campo con ejemplos.</p>
+        <h2 data-i18n-html="colaborar.a3be3a">Aportar datos, paso a paso.</h2>
+        <p data-i18n-html="colaborar.5b4192" class="intro">El resumen; la <a href="https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">guía completa</a> detalla cada campo con ejemplos.</p>
         <ol class="pasos">
-          <li><h3>Haz un <em>fork</em> y clona el repositorio</h3><p>Solo necesitas Python para servirlo en tu equipo.</p></li>
-          <li><h3>Arranca la app</h3><p><code>python api/servidor.py</code> abre el mapa en <code>http://localhost:9000/</code> y el panel en <code>/admin.html</code>.</p></li>
-          <li><h3>Edita la ficha</h3><p>Con el <a href="#asistente">asistente del panel</a>, que valida y guarda por ti, o con cualquier editor de texto en <code>datos/</code>.</p></li>
-          <li><h3>Formatea y valida</h3><p><code>python api/formatear.py</code> y <code>python api/validar.py</code>. Si ambos están en verde, la integración continua también lo estará.</p></li>
-          <li><h3>Abre un <em>pull request</em></h3><p>Comprueba en el mapa los años que tocan tus datos y cuenta qué añades y de dónde sale. Al fusionarse, se publica solo.</p></li>
+          <li><h3 data-i18n-html="colaborar.bf058a">Haz un <em>fork</em> y clona el repositorio</h3><p data-i18n-html="colaborar.89dab4">Solo necesitas Python para servirlo en tu equipo.</p></li>
+          <li><h3 data-i18n-html="colaborar.6f3f70">Arranca la app</h3><p data-i18n-html="colaborar.624b74"><code>python api/servidor.py</code> abre el mapa en <code>http://localhost:9000/</code> y el panel en <code>/admin.html</code>.</p></li>
+          <li><h3 data-i18n-html="colaborar.bb94e0">Edita la ficha</h3><p data-i18n-html="colaborar.8e3869">Con el <a href="#asistente">asistente del panel</a>, que valida y guarda por ti, o con cualquier editor de texto en <code>datos/</code>.</p></li>
+          <li><h3 data-i18n-html="colaborar.e0602f">Formatea y valida</h3><p data-i18n-html="colaborar.044c1f"><code>python api/formatear.py</code> y <code>python api/validar.py</code>. Si ambos están en verde, la integración continua también lo estará.</p></li>
+          <li><h3 data-i18n-html="colaborar.8597f5">Abre un <em>pull request</em></h3><p data-i18n-html="colaborar.8c4f86">Comprueba en el mapa los años que tocan tus datos y cuenta qué añades y de dónde sale. Al fusionarse, se publica solo.</p></li>
         </ol>
         <details class="mas">
-          <summary><svg class="icono chevron" aria-hidden="true"><use href="#i-chevron"/></svg>Las herramientas, en detalle</summary>
+          <summary data-i18n-html="colaborar.2b8b27"><svg class="icono chevron" aria-hidden="true"><use href="#i-chevron"/></svg>Las herramientas, en detalle</summary>
           <ul class="lista-controles">
-            <li><svg class="icono" aria-hidden="true"><use href="#i-panel"/></svg><div><h3>Panel de administración</h3><p>Asistente de edición de fichas y conectores con Wikidata, Wikipedia y Our World in Data que dejan propuestas para revisar. Solo funciona en tu equipo.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-ficha"/></svg><div><h3><code>formatear.py</code></h3><p>Formato canónico: claves en orden fijo, listas por año, tabuladores. Los diffs solo muestran cambios reales.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-revisado"/></svg><div><h3><code>validar.py</code></h3><p>Esquema, años, coordenadas, nombres en los mapas, referencias y marcas de revisión. Cada aviso indica fichero y campo.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-libro"/></svg><div><h3><code>compilar.py</code> y <code>dividir.py</code></h3><p>Juntan <code>datos/</code> en el <code>historia.json</code> que descarga la web, y al revés. Normalmente los lanzan el servidor y el despliegue.</p></div></li>
-            <li><svg class="icono" aria-hidden="true"><use href="#i-rama"/></svg><div><h3>Despliegue</h3><p>En cada <em>push</em> a <code>main</code>, GitHub Actions formatea, valida y, si todo pasa, publica la web.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-panel"/></svg><div><h3 data-i18n-html="colaborar.17c736">Panel de administración</h3><p data-i18n-html="colaborar.c187c5">Asistente de edición de fichas y conectores con Wikidata, Wikipedia y Our World in Data que dejan propuestas para revisar. Solo funciona en tu equipo.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-ficha"/></svg><div><h3 data-i18n-html="colaborar.90bdf9"><code>formatear.py</code></h3><p data-i18n-html="colaborar.4022bf">Formato canónico: claves en orden fijo, listas por año, tabuladores. Los diffs solo muestran cambios reales.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-revisado"/></svg><div><h3 data-i18n-html="colaborar.0590a4"><code>validar.py</code></h3><p data-i18n-html="colaborar.a067d7">Esquema, años, coordenadas, nombres en los mapas, referencias y marcas de revisión. Cada aviso indica fichero y campo.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-libro"/></svg><div><h3 data-i18n-html="colaborar.e48536"><code>compilar.py</code> y <code>dividir.py</code></h3><p data-i18n-html="colaborar.d11d34">Juntan <code>datos/</code> en el <code>historia.json</code> que descarga la web, y al revés. Normalmente los lanzan el servidor y el despliegue.</p></div></li>
+            <li><svg class="icono" aria-hidden="true"><use href="#i-rama"/></svg><div><h3 data-i18n-html="colaborar.af0cce">Despliegue</h3><p data-i18n-html="colaborar.a772db">En cada <em>push</em> a <code>main</code>, GitHub Actions formatea, valida y, si todo pasa, publica la web.</p></div></li>
           </ul>
         </details>
       </div>
@@ -179,22 +198,22 @@ schema/                          el contrato de cada tipo de ficha (JSON Schema)
 
     <section class="bloque alt" id="reglas">
       <div class="cont">
-        <h2>Reglas de oro.</h2>
+        <h2 data-i18n-html="colaborar.8dbd87">Reglas de oro.</h2>
         <div class="rejilla">
-          <div class="punto"><h3>Todo con fuente</h3><p>Cada dato cita de dónde sale en <code>fuentes</code>: Wikipedia, Wikidata, un libro, un censo. Sin fuente no se acepta.</p></div>
-          <div class="punto"><h3>Hechos, no textos ajenos</h3><p>Nombres, fechas y cifras, nunca párrafos copiados. Los textos que se guardan van atribuidos y con su licencia.</p></div>
-          <div class="punto"><h3>Español primero</h3><p>Nombres y textos en español; la interfaz también existe en inglés.</p></div>
-          <div class="punto"><h3>Validador en verde</h3><p>Antes de proponer un cambio, el formateador y el validador deben pasar sin errores.</p></div>
+          <div class="punto"><h3 data-i18n-html="colaborar.a05156">Todo con fuente</h3><p data-i18n-html="colaborar.c2f0f1">Cada dato cita de dónde sale en <code>fuentes</code>: Wikipedia, Wikidata, un libro, un censo. Sin fuente no se acepta.</p></div>
+          <div class="punto"><h3 data-i18n-html="colaborar.0d150b">Hechos, no textos ajenos</h3><p data-i18n-html="colaborar.a3120e">Nombres, fechas y cifras, nunca párrafos copiados. Los textos que se guardan van atribuidos y con su licencia.</p></div>
+          <div class="punto"><h3 data-i18n-html="colaborar.67dce5">Español primero</h3><p data-i18n-html="colaborar.e73f09">Nombres y textos en español; la interfaz también existe en inglés.</p></div>
+          <div class="punto"><h3 data-i18n-html="colaborar.ed3eb1">Validador en verde</h3><p data-i18n-html="colaborar.ef0fac">Antes de proponer un cambio, el formateador y el validador deben pasar sin errores.</p></div>
         </div>
       </div>
     </section>
 
     <section class="cierre claro">
       <div class="cont">
-        <h2>¿Te animas?</h2>
+        <h2 data-i18n-html="colaborar.17eb0c">¿Te animas?</h2>
         <div class="acciones">
-          <a class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ir al repositorio</a>
-          <a class="enlace-flecha" href="mapa.html">Volver al mapa</a>
+          <a data-i18n-html="colaborar.f94916" class="btn principal grande" href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">Ir al repositorio</a>
+          <a data-i18n-html="colaborar.568d24" class="enlace-flecha" href="mapa.html">Volver al mapa</a>
         </div>
       </div>
     </section>
@@ -203,10 +222,11 @@ schema/                          el contrato de cada tipo de ficha (JSON Schema)
 
   <footer class="pie">
     <div class="cont">
-      <p>© 2026 Luis Zumárraga. El código y los datos están a la vista para colaborar, pero no son libres: no se permite copiar ni comercializar la aplicación ni su base de datos. Fuentes: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) y historical-basemaps (GPL-3.0).</p>
-      <p><a href="index.html">Inicio</a><a href="fuentes.html">Fuentes</a><a href="aviso-legal.html">Aviso legal y licencia</a><a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub</a></p>
+      <p data-i18n-html="colaborar.2629f9">© 2026 Luis Zumárraga. El código y los datos están a la vista para colaborar, pero no son libres: no se permite copiar ni comercializar la aplicación ni su base de datos. Fuentes: Wikipedia y Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) y historical-basemaps (GPL-3.0).</p>
+      <p data-i18n-html="colaborar.ff86ae"><a href="index.html">Inicio</a><a href="fuentes.html">Fuentes</a><a href="aviso-legal.html">Aviso legal y licencia</a><a href="https://github.com/LuisZ1/chronus-tabula" target="_blank" rel="noopener">GitHub</a></p>
     </div>
   </footer>
 
+  <script src="js/idioma.js?v=1" defer></script>
 </body>
 </html>
