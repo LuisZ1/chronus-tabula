@@ -79,7 +79,7 @@ Canalización (en este orden; cada paso es idempotente):
     3. python api/rellenar_geojson.py   rellena tierra sin datos (RELLENOS)
     4. python api/derivar_mapas.py      mapas posteriores a 2010 (DERIVADOS)
 Si el paso 1 reescribe un mapa, hay que volver a pasar 2-4 (el script lo recuerda).
-No se pueden corregir los mapas que genera derivar_mapas.py (world_2011): se corrige su base.
+No se pueden corregir los mapas que genere derivar_mapas.py (hoy ninguno): se corrige su base.
 Al final regenera web/data/years.json con los world_*.geojson presentes.
 
 Necesita shapely (pip install shapely); la web no. Los mapas siguen bajo GPL-3.0.

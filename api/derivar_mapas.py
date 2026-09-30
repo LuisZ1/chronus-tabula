@@ -33,23 +33,11 @@ GEOJSON = os.path.join(RAIZ, "web", "data", "geojson")
 YEARS = os.path.join(RAIZ, "web", "data", "years.json")
 GEO_EXTRA = os.path.join(RAIZ, "api", "geo")
 
-# mapa nuevo -> base y cambios, en orden
-DERIVADOS = {
-    "world_2011.geojson": {
-        "anio": 2011,
-        "base": "world_2010.geojson",
-        "separar": [
-            {
-                "de": "Sudan",
-                "geometria": "sudan-del-sur.ne50m.geojson",
-                "fuente": "Natural Earth 1:50m admin-0 (dominio público)",
-                "propiedades": {"NAME": "South Sudan", "ABBREVN": "S. Sudan", "SUBJECTO": "South Sudan",
-                                "BORDERPRECISION": 3, "PARTOF": "South Sudan"},
-                "motivo": "independencia de Sudán del Sur, 9 de julio de 2011 (ONU)",
-            },
-        ],
-    },
-}
+# mapa nuevo -> base y cambios, en orden. Hoy vacío: world_2011 (independencia de
+# Sudán del Sur) y world_2020 se crean con api/corregir_mapas.py (api/correcciones/
+# 40-contemporanea.json), que además limpia astillas y ajusta la precisión; este
+# script queda para derivar mapas con cambios que no se expresen como correcciones.
+DERIVADOS = {}
 
 
 def _redondear(obj):
