@@ -1,7 +1,6 @@
 {
 	"id": "tres-reinos",
 	"nombre": "Caída de los Han y Tres Reinos",
-	"nombre_en": "Fall of the Han and the Three Kingdoms",
 	"inicio": 184,
 	"fin": 280,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Tres Reinos",
 	"zonas": [
 		{
+			"id": "llanura-central-guerra-civil",
 			"nombre": "Llanura central (guerra civil)",
-			"nombre_en": "Central Plain (civil war)",
 			"tipo": "frente",
 			"desde": 184,
 			"hasta": 220,
@@ -43,8 +42,8 @@
 			]
 		},
 		{
+			"id": "tres-reinos-wei-shu-y-wu",
 			"nombre": "Tres Reinos (Wei, Shu y Wu)",
-			"nombre_en": "Three Kingdoms (Wei, Shu and Wu)",
 			"tipo": "ocupado",
 			"desde": 220,
 			"hasta": 280,
@@ -78,16 +77,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-guandu",
 			"nombre": "Batalla de Guandu",
-			"nombre_en": "Battle of Guandu",
 			"anio": 200,
 			"lat": 35.7,
 			"lng": 114.2,
 			"descripcion": "Cao Cao derrota a Yuan Shao y domina el norte."
 		},
 		{
+			"id": "batalla-de-los-acantilados-rojos",
 			"nombre": "Batalla de los Acantilados Rojos",
-			"nombre_en": "Battle of Red Cliffs",
 			"anio": 208,
 			"lat": 29.9,
 			"lng": 113.6,

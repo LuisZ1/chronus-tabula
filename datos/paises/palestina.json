@@ -1,14 +1,12 @@
 {
 	"id": "palestina",
 	"nombre": "Palestina",
-	"nombre_en": "Palestine",
 	"nombres": [
 		"Mandatory Palestine (GB)"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Palestina (Mandato británico)",
-			"nombre_en": "Palestine (British Mandate)",
 			"desde": 1920,
 			"hasta": 1947
 		}
@@ -72,7 +70,7 @@
 			"hasta": 2013
 		},
 		{
-			"nombre": "Rami hamdallah",
+			"nombre": "Rami Hamdallah",
 			"cargo": "jefe de gobierno",
 			"desde": 2014,
 			"hasta": 2019
@@ -256,7 +254,7 @@
 		"estado": "validado",
 		"fecha": "2026-09-26",
 		"por": "panel-admin",
-		"hash": "90fef5e6635d",
+		"hash": "a594dd8eb1ae",
 		"secciones": [
 			"banderas",
 			"escudos",

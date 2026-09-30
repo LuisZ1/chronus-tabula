@@ -1,7 +1,6 @@
 {
 	"id": "heraclio-sasanida",
 	"nombre": "Guerra bizantino-sasánida de Heraclio",
-	"nombre_en": "Byzantine–Sasanian War of Heraclius",
 	"inicio": 602,
 	"fin": 628,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra bizantino-sasánida de 602-628",
 	"zonas": [
 		{
+			"id": "ocupacion-persa-de-oriente",
 			"nombre": "Ocupación persa de Oriente",
-			"nombre_en": "Persian occupation of the East",
 			"tipo": "ocupado",
 			"desde": 614,
 			"hasta": 628,
@@ -44,8 +43,8 @@
 			]
 		},
 		{
+			"id": "contraofensiva-de-heraclio-por-el-caucaso",
 			"nombre": "Contraofensiva de Heraclio por el Cáucaso",
-			"nombre_en": "Heraclius' counteroffensive through the Caucasus",
 			"tipo": "frente",
 			"desde": 624,
 			"hasta": 628,
@@ -71,16 +70,16 @@
 	],
 	"batallas": [
 		{
+			"id": "asedio-de-constantinopla",
 			"nombre": "Asedio de Constantinopla",
-			"nombre_en": "Siege of Constantinople",
 			"anio": 626,
 			"lat": 41.0,
 			"lng": 28.98,
 			"descripcion": "Ávaros y persas fracasan ante las murallas de la ciudad."
 		},
 		{
+			"id": "batalla-de-ninive",
 			"nombre": "Batalla de Nínive",
-			"nombre_en": "Battle of Nineveh",
 			"anio": 627,
 			"lat": 36.35,
 			"lng": 43.15,

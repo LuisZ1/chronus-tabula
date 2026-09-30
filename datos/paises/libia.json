@@ -1,7 +1,6 @@
 {
 	"id": "libia",
 	"nombre": "Libia",
-	"nombre_en": "Libya",
 	"nombres": [
 		"Libya",
 		"Libya (IT)"
@@ -9,37 +8,31 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Tripolitania otomana (dominio otomano)",
-			"nombre_en": "Ottoman Tripolitania (Ottoman rule)",
 			"desde": 1551,
 			"hasta": 1911
 		},
 		{
 			"nombre": "Libia italiana",
-			"nombre_en": "Italian Libya",
 			"desde": 1911,
 			"hasta": 1943
 		},
 		{
 			"nombre": "Reino de Libia",
-			"nombre_en": "Kingdom of Libya",
 			"desde": 1951,
 			"hasta": 1969
 		},
 		{
 			"nombre": "República Árabe Libia",
-			"nombre_en": "Libyan Arab Republic",
 			"desde": 1969,
 			"hasta": 1977
 		},
 		{
 			"nombre": "Yamahiriya Árabe Libia Popular y Socialista",
-			"nombre_en": "Great Socialist People's Libyan Arab Jamahiriya",
 			"desde": 1977,
 			"hasta": 2011
 		},
 		{
 			"nombre": "Estado de Libia",
-			"nombre_en": "State of Libya",
 			"desde": 2011,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "rusia",
 	"nombre": "Rusia",
-	"nombre_en": "Russia",
 	"nombres": [
 		"Russian Empire",
 		"Russia",
@@ -10,19 +9,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio ruso",
-			"nombre_en": "Russian Empire",
 			"desde": 1721,
 			"hasta": 1916
 		},
 		{
 			"nombre": "República Rusa / RSFS de Rusia",
-			"nombre_en": "Russian Republic / Russian SFSR",
 			"desde": 1917,
 			"hasta": 1922
 		},
 		{
 			"nombre": "Federación de Rusia",
-			"nombre_en": "Russian Federation",
 			"desde": 1992,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "guerras-medicas",
 	"nombre": "Guerras médicas (Persia contra Grecia)",
-	"nombre_en": "Greco-Persian Wars (Persia vs Greece)",
 	"inicio": -499,
 	"fin": -449,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerras médicas",
 	"zonas": [
 		{
+			"id": "jonia-revuelta",
 			"nombre": "Jonia (revuelta)",
-			"nombre_en": "Ionia (revolt)",
 			"tipo": "frente",
 			"desde": -499,
 			"hasta": -493,
@@ -43,8 +42,8 @@
 			]
 		},
 		{
+			"id": "grecia-invasiones-de-dario-y-jerjes",
 			"nombre": "Grecia (invasiones de Darío y Jerjes)",
-			"nombre_en": "Greece (invasions of Darius and Xerxes)",
 			"tipo": "frente",
 			"desde": -490,
 			"hasta": -479,
@@ -74,8 +73,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-maraton",
 			"nombre": "Batalla de Maratón",
-			"nombre_en": "Battle of Marathon",
 			"anio": -490,
 			"lat": 38.15,
 			"lng": 23.97,
@@ -83,24 +82,24 @@
 			"bajas": "~6.400 persas y 192 atenienses muertos"
 		},
 		{
+			"id": "batalla-de-salamina",
 			"nombre": "Batalla de Salamina",
-			"nombre_en": "Battle of Salamis",
 			"anio": -480,
 			"lat": 37.95,
 			"lng": 23.5,
 			"descripcion": "Temístocles destruye la flota persa en el estrecho."
 		},
 		{
+			"id": "batalla-de-las-termopilas",
 			"nombre": "Batalla de las Termópilas",
-			"nombre_en": "Battle of Thermopylae",
 			"anio": -480,
 			"lat": 38.8,
 			"lng": 22.53,
 			"descripcion": "Leónidas y sus 300 espartanos resisten hasta el final."
 		},
 		{
+			"id": "batalla-de-platea",
 			"nombre": "Batalla de Platea",
-			"nombre_en": "Battle of Plataea",
 			"anio": -479,
 			"lat": 38.22,
 			"lng": 23.27,

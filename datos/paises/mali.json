@@ -1,26 +1,22 @@
 {
 	"id": "mali",
 	"nombre": "Imperio de Malí",
-	"nombre_en": "Mali Empire",
 	"nombres": [
 		"Mali"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio de Malí",
-			"nombre_en": "Mali Empire",
 			"desde": 1235,
 			"hasta": 1610
 		},
 		{
 			"nombre": "Sudán Francés (colonia)",
-			"nombre_en": "French Sudan (colony)",
 			"desde": 1892,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República de Malí",
-			"nombre_en": "Republic of Mali",
 			"desde": 1960,
 			"hasta": 2026
 		}

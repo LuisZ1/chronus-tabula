@@ -1,20 +1,17 @@
 {
 	"id": "gabon",
 	"nombre": "Gabón",
-	"nombre_en": "Gabon",
 	"nombres": [
 		"Gabon"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Gabón (colonia francesa / África Ecuatorial Francesa)",
-			"nombre_en": "Gabon (French colony / French Equatorial Africa)",
 			"desde": 1885,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República Gabonesa",
-			"nombre_en": "Gabonese Republic",
 			"desde": 1960
 		}
 	],

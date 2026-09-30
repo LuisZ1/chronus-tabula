@@ -1,7 +1,6 @@
 {
 	"id": "tunez",
 	"nombre": "Túnez",
-	"nombre_en": "Tunisia",
 	"nombres": [
 		"Tunisia",
 		"Tunis"
@@ -9,19 +8,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Protectorado francés de Túnez",
-			"nombre_en": "French protectorate of Tunisia",
 			"desde": 1881,
 			"hasta": 1956
 		},
 		{
 			"nombre": "Reino de Túnez",
-			"nombre_en": "Kingdom of Tunisia",
 			"desde": 1956,
 			"hasta": 1957
 		},
 		{
 			"nombre": "República Tunecina",
-			"nombre_en": "Tunisian Republic",
 			"desde": 1957,
 			"hasta": 2026
 		}

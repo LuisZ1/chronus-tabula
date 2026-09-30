@@ -1,7 +1,6 @@
 {
 	"id": "segunda-guerra-chino-japonesa",
 	"nombre": "Segunda guerra chino-japonesa",
-	"nombre_en": "Second Sino-Japanese War",
 	"inicio": 1937,
 	"fin": 1945,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Segunda guerra sino-japonesa",
 	"zonas": [
 		{
+			"id": "china-oriental-ocupada",
 			"nombre": "China oriental ocupada",
-			"nombre_en": "Occupied eastern China",
 			"tipo": "frente",
 			"desde": 1937,
 			"hasta": 1945,
@@ -44,24 +43,24 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-shanghai",
 			"nombre": "Batalla de Shanghái",
-			"nombre_en": "Battle of Shanghai",
 			"anio": 1937,
 			"lat": 31.23,
 			"lng": 121.47,
 			"descripcion": "Tres meses de combates urbanos antes de la caída de la ciudad."
 		},
 		{
+			"id": "incidente-del-puente-de-marco-polo",
 			"nombre": "Incidente del Puente de Marco Polo",
-			"nombre_en": "Marco Polo Bridge Incident",
 			"anio": 1937,
 			"lat": 39.85,
 			"lng": 116.13,
 			"descripcion": "Choque que inicia la guerra total en el norte de China."
 		},
 		{
+			"id": "masacre-de-nankin",
 			"nombre": "Masacre de Nankín",
-			"nombre_en": "Nanjing Massacre",
 			"anio": 1937,
 			"lat": 32.06,
 			"lng": 118.8,

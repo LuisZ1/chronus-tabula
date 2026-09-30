@@ -1,7 +1,6 @@
 {
 	"id": "mitridaticas",
 	"nombre": "Guerras mitridáticas",
-	"nombre_en": "Mithridatic Wars",
 	"inicio": -88,
 	"fin": -63,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerras mitridáticas",
 	"zonas": [
 		{
+			"id": "grecia-y-el-egeo",
 			"nombre": "Grecia y el Egeo",
-			"nombre_en": "Greece and the Aegean",
 			"tipo": "frente",
 			"desde": -88,
 			"hasta": -85,
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "anatolia-y-el-ponto",
 			"nombre": "Anatolia y el Ponto",
-			"nombre_en": "Anatolia and Pontus",
 			"tipo": "frente",
 			"desde": -74,
 			"hasta": -63,
@@ -66,8 +65,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-queronea",
 			"nombre": "Batalla de Queronea",
-			"nombre_en": "Battle of Chaeronea",
 			"anio": -86,
 			"lat": 38.5,
 			"lng": 22.85,

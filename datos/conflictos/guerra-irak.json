@@ -1,7 +1,6 @@
 {
 	"id": "guerra-irak",
 	"nombre": "Guerra de Irak",
-	"nombre_en": "Iraq War",
 	"inicio": 2003,
 	"fin": 2011,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra de Irak",
 	"zonas": [
 		{
+			"id": "mesopotamia-central",
 			"nombre": "Mesopotamia central",
-			"nombre_en": "Central Mesopotamia",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -40,22 +39,22 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-nasiriya",
 			"nombre": "Batalla de Nasiriya",
-			"nombre_en": "Battle of Nasiriyah",
 			"anio": 2003,
 			"lat": 31.04,
 			"lng": 46.26
 		},
 		{
+			"id": "caida-de-bagdad",
 			"nombre": "Caída de Bagdad",
-			"nombre_en": "Fall of Baghdad",
 			"anio": 2003,
 			"lat": 33.31,
 			"lng": 44.36
 		},
 		{
+			"id": "segunda-batalla-de-faluya",
 			"nombre": "Segunda batalla de Faluya",
-			"nombre_en": "Second Battle of Fallujah",
 			"anio": 2004,
 			"lat": 33.35,
 			"lng": 43.78

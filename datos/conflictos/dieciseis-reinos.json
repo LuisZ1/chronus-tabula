@@ -1,7 +1,6 @@
 {
 	"id": "dieciseis-reinos",
 	"nombre": "Dieciséis Reinos",
-	"nombre_en": "Sixteen Kingdoms",
 	"inicio": 304,
 	"fin": 439,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Dieciséis Reinos",
 	"zonas": [
 		{
+			"id": "norte-de-china",
 			"nombre": "Norte de China",
-			"nombre_en": "Northern China",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -48,8 +47,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-rio-fei-feishui",
 			"nombre": "Batalla del río Fei (Feishui)",
-			"nombre_en": "Battle of Fei River (Feishui)",
 			"anio": 383,
 			"lat": 32.55,
 			"lng": 116.8,

@@ -1,7 +1,6 @@
 {
 	"id": "revolucion-francesa",
 	"nombre": "Revolución francesa y guerras revolucionarias",
-	"nombre_en": "French Revolution and French Revolutionary Wars",
 	"inicio": 1789,
 	"fin": 1802,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Revolución francesa",
 	"zonas": [
 		{
+			"id": "francia-revolucionaria",
 			"nombre": "Francia revolucionaria",
-			"nombre_en": "Revolutionary France",
 			"tipo": "frente",
 			"desde": 1792,
 			"hasta": 1802,
@@ -45,8 +44,8 @@
 			]
 		},
 		{
+			"id": "guerra-de-la-vendee",
 			"nombre": "Guerra de la Vendée",
-			"nombre_en": "War in the Vendée",
 			"tipo": "frente",
 			"desde": 1793,
 			"hasta": 1796,
@@ -70,8 +69,8 @@
 			]
 		},
 		{
+			"id": "italia-del-norte-campanas-de-bonaparte",
 			"nombre": "Italia del norte (campañas de Bonaparte)",
-			"nombre_en": "Northern Italy (Bonaparte's campaigns)",
 			"tipo": "frente",
 			"desde": 1796,
 			"hasta": 1800,
@@ -95,8 +94,8 @@
 			]
 		},
 		{
+			"id": "alemania-meridional-danubio",
 			"nombre": "Alemania meridional (Danubio)",
-			"nombre_en": "Southern Germany (Danube)",
 			"tipo": "frente",
 			"desde": 1796,
 			"hasta": 1800,
@@ -120,8 +119,8 @@
 			]
 		},
 		{
+			"id": "campana-de-egipto",
 			"nombre": "Campaña de Egipto",
-			"nombre_en": "French campaign in Egypt",
 			"tipo": "frente",
 			"desde": 1798,
 			"hasta": 1801,
@@ -147,8 +146,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-valmy",
 			"nombre": "Batalla de Valmy",
-			"nombre_en": "Battle of Valmy",
 			"anio": 1792,
 			"lat": 49.08,
 			"lng": 4.77,
@@ -156,8 +155,8 @@
 			"wiki": "Batalla de Valmy"
 		},
 		{
+			"id": "batalla-de-fleurus",
 			"nombre": "Batalla de Fleurus",
-			"nombre_en": "Battle of Fleurus",
 			"anio": 1794,
 			"lat": 50.48,
 			"lng": 4.55,
@@ -165,8 +164,8 @@
 			"wiki": "Batalla de Fleurus (1794)"
 		},
 		{
+			"id": "batalla-de-rivoli",
 			"nombre": "Batalla de Rivoli",
-			"nombre_en": "Battle of Rivoli",
 			"anio": 1797,
 			"lat": 45.57,
 			"lng": 10.82,
@@ -174,8 +173,8 @@
 			"wiki": "Batalla de Rívoli"
 		},
 		{
+			"id": "batalla-de-las-piramides",
 			"nombre": "Batalla de las Pirámides",
-			"nombre_en": "Battle of the Pyramids",
 			"anio": 1798,
 			"lat": 30.08,
 			"lng": 31.2,
@@ -183,8 +182,8 @@
 			"wiki": "Batalla de las Pirámides"
 		},
 		{
+			"id": "batalla-del-nilo-abukir",
 			"nombre": "Batalla del Nilo (Abukir)",
-			"nombre_en": "Battle of the Nile (Aboukir)",
 			"anio": 1798,
 			"lat": 31.33,
 			"lng": 30.12,
@@ -192,8 +191,8 @@
 			"wiki": "Batalla del Nilo"
 		},
 		{
+			"id": "batalla-de-hohenlinden",
 			"nombre": "Batalla de Hohenlinden",
-			"nombre_en": "Battle of Hohenlinden",
 			"anio": 1800,
 			"lat": 48.16,
 			"lng": 12.0,
@@ -201,8 +200,8 @@
 			"wiki": "Batalla de Hohenlinden"
 		},
 		{
+			"id": "batalla-de-marengo",
 			"nombre": "Batalla de Marengo",
-			"nombre_en": "Battle of Marengo",
 			"anio": 1800,
 			"lat": 44.886,
 			"lng": 8.678,

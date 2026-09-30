@@ -1,7 +1,6 @@
 {
 	"id": "segunda-guerra-italo-etiope",
 	"nombre": "Segunda guerra ítalo-etíope",
-	"nombre_en": "Second Italo-Ethiopian War",
 	"inicio": 1935,
 	"fin": 1937,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Segunda guerra ítalo-etíope",
 	"zonas": [
 		{
+			"id": "frente-norte-tigray",
 			"nombre": "Frente norte (Tigray)",
-			"nombre_en": "Northern front (Tigray)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,15 +37,15 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-maychew",
 			"nombre": "Batalla de Maychew",
-			"nombre_en": "Battle of Maychew",
 			"anio": 1936,
 			"lat": 12.78,
 			"lng": 39.54
 		},
 		{
+			"id": "toma-de-adis-abeba",
 			"nombre": "Toma de Adís Abeba",
-			"nombre_en": "Capture of Addis Ababa",
 			"anio": 1936,
 			"lat": 9.03,
 			"lng": 38.74

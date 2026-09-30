@@ -1,14 +1,12 @@
 {
 	"id": "imperio-galo",
 	"nombre": "Imperio galo",
-	"nombre_en": "Gallic Empire",
 	"nombres": [
 		"Gallic Empire"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio galo",
-			"nombre_en": "Gallic Empire",
 			"desde": 260,
 			"hasta": 274
 		}

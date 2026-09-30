@@ -1,7 +1,6 @@
 {
 	"id": "galias",
 	"nombre": "Guerra de las Galias",
-	"nombre_en": "Gallic Wars",
 	"inicio": -58,
 	"fin": -50,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra de las Galias",
 	"zonas": [
 		{
+			"id": "galia-central-y-belga",
 			"nombre": "Galia central y belga",
-			"nombre_en": "Central and Belgic Gaul",
 			"tipo": "frente",
 			"desde": -58,
 			"hasta": -53,
@@ -46,8 +45,8 @@
 			]
 		},
 		{
+			"id": "britania-expediciones",
 			"nombre": "Britania (expediciones)",
-			"nombre_en": "Britain (expeditions)",
 			"tipo": "frente",
 			"desde": -55,
 			"hasta": -54,
@@ -71,8 +70,8 @@
 			]
 		},
 		{
+			"id": "revuelta-de-vercingetorix-alesia",
 			"nombre": "Revuelta de Vercingétorix (Alesia)",
-			"nombre_en": "Revolt of Vercingetorix (Alesia)",
 			"tipo": "frente",
 			"desde": -52,
 			"hasta": -51,
@@ -102,8 +101,8 @@
 	],
 	"batallas": [
 		{
+			"id": "sitio-de-alesia",
 			"nombre": "Sitio de Alesia",
-			"nombre_en": "Siege of Alesia",
 			"anio": -52,
 			"lat": 47.54,
 			"lng": 4.5,

@@ -1,7 +1,6 @@
 {
 	"id": "guerras-romano-partas-republica",
 	"nombre": "Guerras romano-partas (fase republicana y triunviral)",
-	"nombre_en": "Roman–Parthian Wars (republican and triumviral phase)",
 	"inicio": -54,
 	"fin": -36,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerras romano-partas",
 	"zonas": [
 		{
+			"id": "alta-mesopotamia-y-siria",
 			"nombre": "Alta Mesopotamia y Siria",
-			"nombre_en": "Upper Mesopotamia and Syria",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -43,8 +42,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-carras",
 			"nombre": "Batalla de Carras",
-			"nombre_en": "Battle of Carrhae",
 			"anio": -53,
 			"lat": 36.87,
 			"lng": 39.03,

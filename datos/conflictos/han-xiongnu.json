@@ -1,7 +1,6 @@
 {
 	"id": "han-xiongnu",
 	"nombre": "Guerras Han-Xiongnu",
-	"nombre_en": "Han-Xiongnu Wars",
 	"inicio": -200,
 	"fin": -119,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerras Han-Xiongnu",
 	"zonas": [
 		{
+			"id": "frontera-norte-y-estepa-de-mongolia",
 			"nombre": "Frontera norte y estepa de Mongolia",
-			"nombre_en": "Northern frontier and Mongolian steppe",
 			"tipo": "frente",
 			"desde": -133,
 			"hasta": -119,
@@ -40,8 +39,8 @@
 	],
 	"batallas": [
 		{
+			"id": "cerco-de-pingcheng",
 			"nombre": "Cerco de Pingcheng",
-			"nombre_en": "Siege of Pingcheng",
 			"anio": -200,
 			"lat": 40.09,
 			"lng": 113.3,

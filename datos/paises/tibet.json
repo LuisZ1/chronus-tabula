@@ -1,7 +1,6 @@
 {
 	"id": "tibet",
 	"nombre": "Tíbet (gobierno de Lhasa)",
-	"nombre_en": "Tibet (Lhasa government)",
 	"nombres": [
 		"Tibet",
 		"Tibetan principalities"
@@ -9,14 +8,12 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Tíbet",
-			"nombre_en": "Tibet",
 			"desde": 843,
 			"hasta": 1912,
 			"wiki": "Historia del Tíbet"
 		},
 		{
 			"nombre": "Tíbet (gobierno de Lhasa)",
-			"nombre_en": "Tibet (Lhasa government)",
 			"desde": 1913,
 			"hasta": 1950,
 			"wiki": "Tíbet (1912-1951)"

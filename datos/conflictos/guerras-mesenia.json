@@ -1,7 +1,6 @@
 {
 	"id": "guerras-mesenia",
 	"nombre": "Guerras de Mesenia",
-	"nombre_en": "Messenian Wars",
 	"inicio": -743,
 	"fin": -464,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerras Mesenias",
 	"zonas": [
 		{
+			"id": "mesenia-peloponeso-suroccidental",
 			"nombre": "Mesenia (Peloponeso suroccidental)",
-			"nombre_en": "Messenia (southwestern Peloponnese)",
 			"tipo": "ocupado",
 			"desde": -743,
 			"hasta": -464,
@@ -40,15 +39,15 @@
 	],
 	"batallas": [
 		{
+			"id": "monte-itome",
 			"nombre": "Monte Itome",
-			"nombre_en": "Mount Ithome",
 			"anio": -724,
 			"lat": 37.18,
 			"lng": 21.93
 		},
 		{
+			"id": "revuelta-de-hilotas-del-monte-itome",
 			"nombre": "Revuelta de hilotas del monte Itome",
-			"nombre_en": "Helot revolt of Mount Ithome",
 			"anio": -464,
 			"lat": 37.18,
 			"lng": 21.93

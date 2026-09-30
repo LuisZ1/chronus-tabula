@@ -1,20 +1,17 @@
 {
 	"id": "guinea-ecuatorial",
 	"nombre": "Guinea Ecuatorial",
-	"nombre_en": "Equatorial Guinea",
 	"nombres": [
 		"Equatorial Guinea"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Guinea Española",
-			"nombre_en": "Spanish Guinea",
 			"desde": 1926,
 			"hasta": 1968
 		},
 		{
 			"nombre": "Guinea Ecuatorial",
-			"nombre_en": "Equatorial Guinea",
 			"desde": 1968,
 			"hasta": 2026
 		}

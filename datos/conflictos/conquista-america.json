@@ -1,7 +1,6 @@
 {
 	"id": "conquista-america",
 	"nombre": "Conquista española de América",
-	"nombre_en": "Spanish conquest of the Americas",
 	"inicio": 1492,
 	"fin": 1580,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Colonización española de América",
 	"zonas": [
 		{
+			"id": "antillas-la-espanola-cuba-puerto-rico",
 			"nombre": "Antillas (La Española, Cuba, Puerto Rico)",
-			"nombre_en": "Antilles (Hispaniola, Cuba, Puerto Rico)",
 			"tipo": "frente",
 			"desde": 1493,
 			"hasta": 1519,
@@ -48,8 +47,8 @@
 			]
 		},
 		{
+			"id": "antillas-espanolas",
 			"nombre": "Antillas españolas",
-			"nombre_en": "Spanish Antilles",
 			"tipo": "ocupado",
 			"desde": 1519,
 			"hasta": 1580,
@@ -81,8 +80,8 @@
 			]
 		},
 		{
+			"id": "mexico-imperio-mexica",
 			"nombre": "México (Imperio mexica)",
-			"nombre_en": "Mexico (Aztec Empire)",
 			"tipo": "frente",
 			"desde": 1519,
 			"hasta": 1521,
@@ -110,8 +109,8 @@
 			]
 		},
 		{
+			"id": "expansion-por-nueva-espana-occidente-y-norte",
 			"nombre": "Expansión por Nueva España (occidente y norte)",
-			"nombre_en": "Expansion across New Spain (west and north)",
 			"tipo": "frente",
 			"desde": 1522,
 			"hasta": 1550,
@@ -143,8 +142,8 @@
 			]
 		},
 		{
+			"id": "guatemala-y-centroamerica",
 			"nombre": "Guatemala y Centroamérica",
-			"nombre_en": "Guatemala and Central America",
 			"tipo": "frente",
 			"desde": 1524,
 			"hasta": 1541,
@@ -176,8 +175,8 @@
 			]
 		},
 		{
+			"id": "yucatan-mayas",
 			"nombre": "Yucatán (mayas)",
-			"nombre_en": "Yucatán (Maya)",
 			"tipo": "frente",
 			"desde": 1527,
 			"hasta": 1547,
@@ -205,8 +204,8 @@
 			]
 		},
 		{
+			"id": "nueva-espana",
 			"nombre": "Nueva España",
-			"nombre_en": "New Spain",
 			"tipo": "ocupado",
 			"desde": 1521,
 			"hasta": 1580,
@@ -242,8 +241,8 @@
 			]
 		},
 		{
+			"id": "peru-imperio-inca",
 			"nombre": "Perú (Imperio inca)",
-			"nombre_en": "Peru (Inca Empire)",
 			"tipo": "frente",
 			"desde": 1532,
 			"hasta": 1536,
@@ -279,8 +278,8 @@
 			]
 		},
 		{
+			"id": "resistencia-inca-de-vilcabamba",
 			"nombre": "Resistencia inca de Vilcabamba",
-			"nombre_en": "Inca resistance at Vilcabamba",
 			"tipo": "frente",
 			"desde": 1537,
 			"hasta": 1572,
@@ -304,8 +303,8 @@
 			]
 		},
 		{
+			"id": "nueva-granada-muiscas",
 			"nombre": "Nueva Granada (muiscas)",
-			"nombre_en": "New Granada (Muisca)",
 			"tipo": "frente",
 			"desde": 1525,
 			"hasta": 1539,
@@ -337,8 +336,8 @@
 			]
 		},
 		{
+			"id": "venezuela-los-welser",
 			"nombre": "Venezuela (los Welser)",
-			"nombre_en": "Venezuela (the Welsers)",
 			"tipo": "frente",
 			"desde": 1528,
 			"hasta": 1546,
@@ -366,8 +365,8 @@
 			]
 		},
 		{
+			"id": "chile-guerra-de-arauco",
 			"nombre": "Chile (guerra de Arauco)",
-			"nombre_en": "Chile (Arauco War)",
 			"tipo": "frente",
 			"desde": 1540,
 			"hasta": 1553,
@@ -395,8 +394,8 @@
 			]
 		},
 		{
+			"id": "rio-de-la-plata-y-paraguay",
 			"nombre": "Río de la Plata y Paraguay",
-			"nombre_en": "Río de la Plata and Paraguay",
 			"tipo": "frente",
 			"desde": 1536,
 			"hasta": 1580,
@@ -432,8 +431,8 @@
 			]
 		},
 		{
+			"id": "florida",
 			"nombre": "Florida",
-			"nombre_en": "Florida",
 			"tipo": "frente",
 			"desde": 1513,
 			"hasta": 1565,
@@ -461,8 +460,8 @@
 			]
 		},
 		{
+			"id": "virreinato-del-peru-consolidacion",
 			"nombre": "Virreinato del Perú (consolidación)",
-			"nombre_en": "Viceroyalty of Peru (consolidation)",
 			"tipo": "ocupado",
 			"desde": 1540,
 			"hasta": 1580,
@@ -500,24 +499,24 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-centla",
 			"nombre": "Batalla de Centla",
-			"nombre_en": "Battle of Centla",
 			"anio": 1519,
 			"lat": 18.28,
 			"lng": -92.65,
 			"descripcion": "Primera batalla de Cortés en tierras mexicas; recibe a la Malinche."
 		},
 		{
+			"id": "batalla-de-otumba",
 			"nombre": "Batalla de Otumba",
-			"nombre_en": "Battle of Otumba",
 			"anio": 1520,
 			"lat": 19.7,
 			"lng": -98.76,
 			"descripcion": "Cortés derrota al ejército mexica en campo abierto tras la Noche Triste."
 		},
 		{
+			"id": "la-noche-triste",
 			"nombre": "La Noche Triste",
-			"nombre_en": "La Noche Triste",
 			"anio": 1520,
 			"lat": 19.44,
 			"lng": -99.19,
@@ -525,8 +524,8 @@
 			"bajas": "~600 españoles y miles de aliados"
 		},
 		{
+			"id": "caida-de-tenochtitlan",
 			"nombre": "Caída de Tenochtitlan",
-			"nombre_en": "Fall of Tenochtitlan",
 			"anio": 1521,
 			"lat": 19.43,
 			"lng": -99.13,
@@ -534,8 +533,8 @@
 			"bajas": "~100.000-240.000 muertos"
 		},
 		{
+			"id": "emboscada-de-cajamarca",
 			"nombre": "Emboscada de Cajamarca",
-			"nombre_en": "Ambush at Cajamarca",
 			"anio": 1532,
 			"lat": -7.16,
 			"lng": -78.51,
@@ -543,16 +542,16 @@
 			"bajas": "~6.000-7.000 incas muertos"
 		},
 		{
+			"id": "toma-de-cuzco",
 			"nombre": "Toma de Cuzco",
-			"nombre_en": "Capture of Cuzco",
 			"anio": 1533,
 			"lat": -13.52,
 			"lng": -71.97,
 			"descripcion": "Pizarro entra en la capital inca."
 		},
 		{
+			"id": "sitio-de-cuzco-manco-inca",
 			"nombre": "Sitio de Cuzco (Manco Inca)",
-			"nombre_en": "Siege of Cuzco (Manco Inca)",
 			"anio": 1536,
 			"lat": -13.53,
 			"lng": -71.95,

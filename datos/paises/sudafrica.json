@@ -1,7 +1,6 @@
 {
 	"id": "sudafrica",
 	"nombre": "Sudáfrica",
-	"nombre_en": "South Africa",
 	"nombres": [
 		"South Africa",
 		"Union of South Africa",
@@ -10,25 +9,21 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Colonia del Cabo",
-			"nombre_en": "Cape Colony",
 			"desde": 1652,
 			"hasta": 1805
 		},
 		{
 			"nombre": "Colonia del Cabo / colonias británicas y repúblicas bóer",
-			"nombre_en": "Cape Colony / British colonies and Boer republics",
 			"desde": 1806,
 			"hasta": 1910
 		},
 		{
 			"nombre": "Unión Sudafricana",
-			"nombre_en": "Union of South Africa",
 			"desde": 1910,
 			"hasta": 1961
 		},
 		{
 			"nombre": "República de Sudáfrica",
-			"nombre_en": "Republic of South Africa",
 			"desde": 1961,
 			"hasta": 2026
 		}

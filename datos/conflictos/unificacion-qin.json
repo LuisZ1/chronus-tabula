@@ -1,7 +1,6 @@
 {
 	"id": "unificacion-qin",
 	"nombre": "Unificación de China por Qin",
-	"nombre_en": "Qin's wars of unification",
 	"inicio": -230,
 	"fin": -221,
 	"paises": [
@@ -18,8 +17,8 @@
 	"wiki": "Dinastía Qin",
 	"zonas": [
 		{
+			"id": "reinos-combatientes-orientales",
 			"nombre": "Reinos Combatientes orientales",
-			"nombre_en": "Eastern Warring States",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -51,16 +50,16 @@
 	],
 	"batallas": [
 		{
+			"id": "caida-de-handan-zhao",
 			"nombre": "Caída de Handan (Zhao)",
-			"nombre_en": "Fall of Handan (Zhao)",
 			"anio": -228,
 			"lat": 36.6,
 			"lng": 114.5,
 			"descripcion": "Qin toma la capital de Zhao."
 		},
 		{
+			"id": "conquista-de-qi",
 			"nombre": "Conquista de Qi",
-			"nombre_en": "Conquest of Qi",
 			"anio": -221,
 			"lat": 36.8,
 			"lng": 118.0,

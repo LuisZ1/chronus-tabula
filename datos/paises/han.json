@@ -1,7 +1,6 @@
 {
 	"id": "han",
 	"nombre": "Imperio Han (China)",
-	"nombre_en": "Han Empire (China)",
 	"nombres": [
 		"Han Empire",
 		"Han"
@@ -9,13 +8,11 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Han Occidental",
-			"nombre_en": "Western Han",
 			"desde": -206,
 			"hasta": 8
 		},
 		{
 			"nombre": "Han Oriental",
-			"nombre_en": "Eastern Han",
 			"desde": 25,
 			"hasta": 220
 		}

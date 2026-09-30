@@ -1,7 +1,6 @@
 {
 	"id": "imjin",
 	"nombre": "Guerra Imjin (invasión japonesa de Corea)",
-	"nombre_en": "Imjin War (Japanese invasions of Korea)",
 	"inicio": 1592,
 	"fin": 1598,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Invasiones japonesas de Corea (1592-1598)",
 	"zonas": [
 		{
+			"id": "peninsula-de-corea",
 			"nombre": "Península de Corea",
-			"nombre_en": "Korean Peninsula",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -47,30 +46,30 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-hansando",
 			"nombre": "Batalla de Hansando",
-			"nombre_en": "Battle of Hansan Island",
 			"anio": 1592,
 			"lat": 34.72,
 			"lng": 128.5,
 			"descripcion": "Yi Sun-sin destruye la flota japonesa con la táctica del ala de grulla."
 		},
 		{
+			"id": "batalla-de-sacheon",
 			"nombre": "Batalla de Sacheon",
-			"nombre_en": "Battle of Sacheon",
 			"anio": 1592,
 			"lat": 35.0,
 			"lng": 128.06
 		},
 		{
+			"id": "batalla-de-myeongnyang",
 			"nombre": "Batalla de Myeongnyang",
-			"nombre_en": "Battle of Myeongnyang",
 			"anio": 1597,
 			"lat": 34.57,
 			"lng": 126.31
 		},
 		{
+			"id": "batalla-de-noryang",
 			"nombre": "Batalla de Noryang",
-			"nombre_en": "Battle of Noryang",
 			"anio": 1598,
 			"lat": 34.94,
 			"lng": 127.88,

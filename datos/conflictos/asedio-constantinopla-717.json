@@ -1,7 +1,6 @@
 {
 	"id": "asedio-constantinopla-717",
 	"nombre": "Segundo asedio árabe de Constantinopla",
-	"nombre_en": "Second Arab siege of Constantinople",
 	"inicio": 717,
 	"fin": 718,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Segundo asedio árabe de Constantinopla",
 	"zonas": [
 		{
+			"id": "constantinopla-y-el-bosforo",
 			"nombre": "Constantinopla y el Bósforo",
-			"nombre_en": "Constantinople and the Bosporus",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,8 +38,8 @@
 	],
 	"batallas": [
 		{
+			"id": "asedio-de-constantinopla",
 			"nombre": "Asedio de Constantinopla",
-			"nombre_en": "Siege of Constantinople",
 			"anio": 717,
 			"hasta": 718,
 			"lat": 41.01,

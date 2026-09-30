@@ -1,7 +1,6 @@
 {
 	"id": "guerra-egipcio-otomana",
 	"nombre": "Guerra egipcio-otomana",
-	"nombre_en": "Egyptian–Ottoman War",
 	"inicio": 1831,
 	"fin": 1839,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra egipcio-otomana (1831-1833)",
 	"zonas": [
 		{
+			"id": "anatolia-y-siria-campana-egipcia",
 			"nombre": "Anatolia y Siria (campaña egipcia)",
-			"nombre_en": "Anatolia and Syria (Egyptian campaign)",
 			"tipo": "frente",
 			"desde": 1831,
 			"hasta": 1839,
@@ -40,15 +39,15 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-konya",
 			"nombre": "Batalla de Konya",
-			"nombre_en": "Battle of Konya",
 			"anio": 1832,
 			"lat": 37.87,
 			"lng": 32.49
 		},
 		{
+			"id": "batalla-de-nezib-nizip",
 			"nombre": "Batalla de Nezib (Nizip)",
-			"nombre_en": "Battle of Nezib (Nizip)",
 			"anio": 1839,
 			"lat": 37.01,
 			"lng": 37.79

@@ -1,7 +1,6 @@
 {
 	"id": "guerra-africa",
 	"nombre": "Guerra de África (1859-1860)",
-	"nombre_en": "Hispano-Moroccan War (1859-1860)",
 	"inicio": 1859,
 	"fin": 1860,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra de África (1859-1860)",
 	"zonas": [
 		{
+			"id": "entre-ceuta-y-tetuan",
 			"nombre": "Entre Ceuta y Tetuán",
-			"nombre_en": "Between Ceuta and Tetuán",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,8 +37,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-tetuan",
 			"nombre": "Batalla de Tetuán",
-			"nombre_en": "Battle of Tetuán",
 			"anio": 1860,
 			"lat": 35.57,
 			"lng": -5.37,

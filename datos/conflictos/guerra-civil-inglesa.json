@@ -1,7 +1,6 @@
 {
 	"id": "guerra-civil-inglesa",
 	"nombre": "Guerra Civil inglesa",
-	"nombre_en": "English Civil War",
 	"inicio": 1642,
 	"fin": 1651,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerra Civil inglesa",
 	"zonas": [
 		{
+			"id": "islas-britanicas",
 			"nombre": "Islas Británicas",
-			"nombre_en": "British Isles",
 			"tipo": "frente",
 			"desde": 1642,
 			"hasta": 1651,
@@ -45,29 +44,29 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-edgehill",
 			"nombre": "Batalla de Edgehill",
-			"nombre_en": "Battle of Edgehill",
 			"anio": 1642,
 			"lat": 52.15,
 			"lng": -1.46
 		},
 		{
+			"id": "batalla-de-marston-moor",
 			"nombre": "Batalla de Marston Moor",
-			"nombre_en": "Battle of Marston Moor",
 			"anio": 1644,
 			"lat": 53.97,
 			"lng": -1.28
 		},
 		{
+			"id": "batalla-de-naseby",
 			"nombre": "Batalla de Naseby",
-			"nombre_en": "Battle of Naseby",
 			"anio": 1645,
 			"lat": 52.4,
 			"lng": -0.98
 		},
 		{
+			"id": "batalla-de-worcester",
 			"nombre": "Batalla de Worcester",
-			"nombre_en": "Battle of Worcester",
 			"anio": 1651,
 			"lat": 52.19,
 			"lng": -2.22

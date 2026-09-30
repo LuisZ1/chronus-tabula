@@ -1,7 +1,6 @@
 {
 	"id": "ano-cuatro-emperadores",
 	"nombre": "Año de los cuatro emperadores",
-	"nombre_en": "Year of the Four Emperors",
 	"inicio": 68,
 	"fin": 69,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Año de los cuatro emperadores",
 	"zonas": [
 		{
+			"id": "guerra-civil-en-el-valle-del-po",
 			"nombre": "Guerra civil en el valle del Po",
-			"nombre_en": "Civil war in the Po Valley",
 			"tipo": "frente",
 			"desde": 68,
 			"hasta": 69,
@@ -39,8 +38,8 @@
 	],
 	"batallas": [
 		{
+			"id": "primera-batalla-de-bedriacum",
 			"nombre": "Primera batalla de Bedriacum",
-			"nombre_en": "First Battle of Bedriacum",
 			"anio": 69,
 			"lat": 45.15,
 			"lng": 10.55,
@@ -48,8 +47,8 @@
 			"wiki": "Primera batalla de Bedriacum"
 		},
 		{
+			"id": "segunda-batalla-de-bedriacum",
 			"nombre": "Segunda batalla de Bedriacum",
-			"nombre_en": "Second Battle of Bedriacum",
 			"anio": 69,
 			"lat": 45.13,
 			"lng": 10.02,

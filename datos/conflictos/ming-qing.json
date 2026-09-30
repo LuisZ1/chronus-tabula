@@ -1,7 +1,6 @@
 {
 	"id": "ming-qing",
 	"nombre": "Conquista manchú de China (Ming → Qing)",
-	"nombre_en": "Manchu conquest of China (Ming → Qing)",
 	"inicio": 1618,
 	"fin": 1683,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Transición de Ming a Qing",
 	"zonas": [
 		{
+			"id": "manchuria-y-la-frontera-norte",
 			"nombre": "Manchuria y la frontera norte",
-			"nombre_en": "Manchuria and the northern frontier",
 			"tipo": "frente",
 			"desde": 1618,
 			"hasta": 1644,
@@ -43,8 +42,8 @@
 			]
 		},
 		{
+			"id": "china-del-norte-caida-de-pekin",
 			"nombre": "China del norte (caída de Pekín)",
-			"nombre_en": "Northern China (fall of Beijing)",
 			"tipo": "frente",
 			"desde": 1644,
 			"hasta": 1645,
@@ -68,8 +67,8 @@
 			]
 		},
 		{
+			"id": "china-del-sur-resistencia-ming",
 			"nombre": "China del sur (resistencia Ming)",
-			"nombre_en": "Southern China (Ming resistance)",
 			"tipo": "frente",
 			"desde": 1645,
 			"hasta": 1662,
@@ -97,8 +96,8 @@
 			]
 		},
 		{
+			"id": "taiwan-koxinga",
 			"nombre": "Taiwán (Koxinga)",
-			"nombre_en": "Taiwan (Koxinga)",
 			"tipo": "frente",
 			"desde": 1661,
 			"hasta": 1683,
@@ -124,32 +123,32 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-ningyuan",
 			"nombre": "Batalla de Ningyuan",
-			"nombre_en": "Battle of Ningyuan",
 			"anio": 1626,
 			"lat": 40.72,
 			"lng": 120.83,
 			"descripcion": "Los cañones Ming hieren de muerte a Nurhaci."
 		},
 		{
+			"id": "batalla-de-shanhaiguan",
 			"nombre": "Batalla de Shanhaiguan",
-			"nombre_en": "Battle of Shanhai Pass",
 			"anio": 1644,
 			"lat": 40.01,
 			"lng": 119.75,
 			"descripcion": "Wu Sangui abre la Gran Muralla a los manchúes."
 		},
 		{
+			"id": "caida-de-pekin",
 			"nombre": "Caída de Pekín",
-			"nombre_en": "Fall of Beijing",
 			"anio": 1644,
 			"lat": 39.9,
 			"lng": 116.4,
 			"descripcion": "Li Zicheng toma la capital; el último emperador Ming se ahorca."
 		},
 		{
+			"id": "sitio-de-yangzhou",
 			"nombre": "Sitio de Yangzhou",
-			"nombre_en": "Siege of Yangzhou",
 			"anio": 1645,
 			"lat": 32.39,
 			"lng": 119.44,
@@ -157,8 +156,8 @@
 			"bajas": "masacre de la población durante diez días"
 		},
 		{
+			"id": "batalla-de-penghu",
 			"nombre": "Batalla de Penghu",
-			"nombre_en": "Battle of Penghu",
 			"anio": 1683,
 			"lat": 23.57,
 			"lng": 119.58,

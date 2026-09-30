@@ -1,7 +1,6 @@
 {
 	"id": "constantinopla",
 	"nombre": "Conquista otomana de Constantinopla",
-	"nombre_en": "Ottoman conquest of Constantinople",
 	"inicio": 1453,
 	"fin": 1453,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Caída de Constantinopla",
 	"zonas": [
 		{
+			"id": "sitio-de-constantinopla",
 			"nombre": "Sitio de Constantinopla",
-			"nombre_en": "Siege of Constantinople",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,8 +37,8 @@
 	],
 	"batallas": [
 		{
+			"id": "caida-de-constantinopla",
 			"nombre": "Caída de Constantinopla",
-			"nombre_en": "Fall of Constantinople",
 			"anio": 1453,
 			"lat": 41.01,
 			"lng": 28.98,

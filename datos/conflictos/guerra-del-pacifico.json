@@ -1,7 +1,6 @@
 {
 	"id": "guerra-del-pacifico",
 	"nombre": "Guerra del Pacífico (1941-1945)",
-	"nombre_en": "Pacific War (1941-1945)",
 	"inicio": 1941,
 	"fin": 1945,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra del Pacífico",
 	"zonas": [
 		{
+			"id": "expansion-japonesa-malasia-indias-orientales-filipinas",
 			"nombre": "Expansión japonesa (Malasia, Indias Orientales, Filipinas)",
-			"nombre_en": "Japanese expansion (Malaya, East Indies, Philippines)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1941,
@@ -61,8 +60,8 @@
 			]
 		},
 		{
+			"id": "hawai-ataque-a-pearl-harbor",
 			"nombre": "Hawái (ataque a Pearl Harbor)",
-			"nombre_en": "Hawaii (attack on Pearl Harbor)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1941,
@@ -87,8 +86,8 @@
 			]
 		},
 		{
+			"id": "midway",
 			"nombre": "Midway",
-			"nombre_en": "Midway",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1942,
@@ -113,8 +112,8 @@
 			]
 		},
 		{
+			"id": "birmania",
 			"nombre": "Birmania",
-			"nombre_en": "Burma",
 			"tipo": "frente",
 			"desde": 1942,
 			"hasta": 1945,
@@ -146,8 +145,8 @@
 			]
 		},
 		{
+			"id": "contraofensiva-aliada-salomon-nueva-guinea-marianas-filipinas",
 			"nombre": "Contraofensiva aliada (Salomón, Nueva Guinea, Marianas, Filipinas)",
-			"nombre_en": "Allied counteroffensive (Solomons, New Guinea, Marianas, Philippines)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1943,
@@ -180,8 +179,8 @@
 			]
 		},
 		{
+			"id": "asalto-a-japon-iwo-jima-okinawa-bombardeos",
 			"nombre": "Asalto a Japón (Iwo Jima, Okinawa, bombardeos)",
-			"nombre_en": "Assault on Japan (Iwo Jima, Okinawa, bombings)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1945,
@@ -216,32 +215,32 @@
 	],
 	"batallas": [
 		{
+			"id": "ataque-a-pearl-harbor",
 			"nombre": "Ataque a Pearl Harbor",
-			"nombre_en": "Attack on Pearl Harbor",
 			"anio": 1941,
 			"lat": 21.36,
 			"lng": -157.95,
 			"descripcion": "Ataque sorpresa que arrastra a EE. UU. a la guerra."
 		},
 		{
+			"id": "batalla-de-bataan",
 			"nombre": "Batalla de Bataan",
-			"nombre_en": "Battle of Bataan",
 			"anio": 1942,
 			"lat": 14.6,
 			"lng": 120.5,
 			"descripcion": "Rendición de las fuerzas filipino-estadounidenses en Luzón (abril de 1942)."
 		},
 		{
+			"id": "batalla-de-guadalcanal",
 			"nombre": "Batalla de Guadalcanal",
-			"nombre_en": "Guadalcanal campaign",
 			"anio": 1942,
 			"lat": -9.43,
 			"lng": 160.05,
 			"descripcion": "Primera gran ofensiva aliada en el Pacífico (agosto de 1942 – febrero de 1943)."
 		},
 		{
+			"id": "batalla-de-midway",
 			"nombre": "Batalla de Midway",
-			"nombre_en": "Battle of Midway",
 			"anio": 1942,
 			"lat": 28.2,
 			"lng": -177.37,
@@ -249,48 +248,48 @@
 			"bajas": "4 portaaviones japoneses hundidos"
 		},
 		{
+			"id": "batalla-del-mar-del-coral",
 			"nombre": "Batalla del Mar del Coral",
-			"nombre_en": "Battle of the Coral Sea",
 			"anio": 1942,
 			"lat": -15.0,
 			"lng": 155.0,
 			"descripcion": "Primer combate naval librado solo entre portaaviones (mayo de 1942)."
 		},
 		{
+			"id": "caida-de-singapur",
 			"nombre": "Caída de Singapur",
-			"nombre_en": "Fall of Singapore",
 			"anio": 1942,
 			"lat": 1.35,
 			"lng": 103.82,
 			"descripcion": "Rendición de la guarnición británica ante el ejército japonés (15 de febrero de 1942)."
 		},
 		{
+			"id": "batalla-de-saipan",
 			"nombre": "Batalla de Saipán",
-			"nombre_en": "Battle of Saipan",
 			"anio": 1944,
 			"lat": 15.19,
 			"lng": 145.75,
 			"descripcion": "Conquista de las Marianas, base de los bombardeos sobre Japón (junio–julio de 1944)."
 		},
 		{
+			"id": "batalla-del-golfo-de-leyte",
 			"nombre": "Batalla del golfo de Leyte",
-			"nombre_en": "Battle of Leyte Gulf",
 			"anio": 1944,
 			"lat": 10.37,
 			"lng": 125.36,
 			"descripcion": "La mayor batalla naval de la guerra; inicio de la reconquista de Filipinas (octubre de 1944)."
 		},
 		{
+			"id": "batalla-de-iwo-jima",
 			"nombre": "Batalla de Iwo Jima",
-			"nombre_en": "Battle of Iwo Jima",
 			"anio": 1945,
 			"lat": 24.78,
 			"lng": 141.32,
 			"descripcion": "Sangrienta toma estadounidense de la isla."
 		},
 		{
+			"id": "batalla-de-okinawa",
 			"nombre": "Batalla de Okinawa",
-			"nombre_en": "Battle of Okinawa",
 			"anio": 1945,
 			"lat": 26.5,
 			"lng": 128.0,

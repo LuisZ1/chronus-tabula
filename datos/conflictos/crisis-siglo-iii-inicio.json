@@ -1,7 +1,6 @@
 {
 	"id": "crisis-siglo-iii-inicio",
 	"nombre": "Crisis del siglo III (inicio: anarquía militar)",
-	"nombre_en": "Crisis of the Third Century (onset: military anarchy)",
 	"inicio": 235,
 	"fin": 238,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Crisis del siglo III",
 	"zonas": [
 		{
+			"id": "guerra-entre-maximino-y-el-senado-norte-de-italia",
 			"nombre": "Guerra entre Maximino y el Senado (norte de Italia)",
-			"nombre_en": "War between Maximinus and the Senate (northern Italy)",
 			"tipo": "frente",
 			"desde": 238,
 			"hasta": 238,
@@ -39,8 +38,8 @@
 	],
 	"batallas": [
 		{
+			"id": "asedio-de-aquileya",
 			"nombre": "Asedio de Aquileya",
-			"nombre_en": "Siege of Aquileia",
 			"anio": 238,
 			"lat": 45.77,
 			"lng": 13.37,

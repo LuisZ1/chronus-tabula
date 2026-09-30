@@ -1,7 +1,6 @@
 {
 	"id": "reconquista",
 	"nombre": "La Reconquista",
-	"nombre_en": "Reconquista",
 	"inicio": 722,
 	"fin": 1492,
 	"paises": [
@@ -21,8 +20,8 @@
 	"wiki": "Reconquista",
 	"zonas": [
 		{
+			"id": "frontera-del-duero",
 			"nombre": "Frontera del Duero",
-			"nombre_en": "Duero frontier",
 			"tipo": "frente",
 			"desde": 722,
 			"hasta": 1000,
@@ -46,8 +45,8 @@
 			]
 		},
 		{
+			"id": "frontera-del-tajo-al-guadalquivir",
 			"nombre": "Frontera del Tajo al Guadalquivir",
-			"nombre_en": "Frontier from the Tagus to the Guadalquivir",
 			"tipo": "frente",
 			"desde": 1000,
 			"hasta": 1250,
@@ -75,8 +74,8 @@
 			]
 		},
 		{
+			"id": "frontera-de-granada",
 			"nombre": "Frontera de Granada",
-			"nombre_en": "Granada frontier",
 			"tipo": "frente",
 			"desde": 1250,
 			"hasta": 1492,
@@ -106,8 +105,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-clavijo-legendaria",
 			"nombre": "Batalla de Clavijo (legendaria)",
-			"nombre_en": "Battle of Clavijo (legendary)",
 			"anio": 844,
 			"lat": 42.25,
 			"lng": -2.36,
@@ -115,16 +114,16 @@
 			"wiki": "Batalla de Clavijo"
 		},
 		{
+			"id": "batalla-de-simancas",
 			"nombre": "Batalla de Simancas",
-			"nombre_en": "Battle of Simancas",
 			"anio": 939,
 			"lat": 41.59,
 			"lng": -4.83,
 			"descripcion": "Ramiro II de León derrota a Abderramán III."
 		},
 		{
+			"id": "batalla-de-calatanazor",
 			"nombre": "Batalla de Calatañazor",
-			"nombre_en": "Battle of Calatañazor",
 			"anio": 1002,
 			"lat": 41.6,
 			"lng": -2.83,
@@ -132,90 +131,90 @@
 			"wiki": "Batalla de Calatañazor"
 		},
 		{
+			"id": "batalla-de-golpejera",
 			"nombre": "Batalla de Golpejera",
-			"nombre_en": "Battle of Golpejera",
 			"anio": 1072,
 			"lat": 42.24,
 			"lng": -4.66
 		},
 		{
+			"id": "toma-de-toledo",
 			"nombre": "Toma de Toledo",
-			"nombre_en": "Capture of Toledo",
 			"anio": 1085,
 			"lat": 39.86,
 			"lng": -4.03,
 			"descripcion": "Alfonso VI conquista la antigua capital visigoda; la frontera salta al Tajo."
 		},
 		{
+			"id": "batalla-de-sagrajas-zalaca",
 			"nombre": "Batalla de Sagrajas (Zalaca)",
-			"nombre_en": "Battle of Sagrajas (Zallaqa)",
 			"anio": 1086,
 			"lat": 38.93,
 			"lng": -6.94,
 			"descripcion": "Los almorávides aplastan a Alfonso VI y frenan el avance cristiano."
 		},
 		{
+			"id": "batalla-de-almodovar-del-rio",
 			"nombre": "Batalla de Almodóvar del Río",
-			"nombre_en": "Battle of Almodóvar del Río",
 			"anio": 1091,
 			"lat": 37.8,
 			"lng": -5.02
 		},
 		{
+			"id": "conquista-de-valencia-el-cid",
 			"nombre": "Conquista de Valencia (el Cid)",
-			"nombre_en": "Conquest of Valencia (El Cid)",
 			"anio": 1094,
 			"lat": 39.47,
 			"lng": -0.38,
 			"descripcion": "Rodrigo Díaz de Vivar toma la ciudad, que perderá su viuda en 1102."
 		},
 		{
+			"id": "batalla-de-bairen",
 			"nombre": "Batalla de Bairén",
-			"nombre_en": "Battle of Bairén",
 			"anio": 1097,
 			"lat": 39.0,
 			"lng": -0.26
 		},
 		{
+			"id": "batalla-de-ucles",
 			"nombre": "Batalla de Uclés",
-			"nombre_en": "Battle of Uclés",
 			"anio": 1108,
 			"lat": 39.98,
 			"lng": -2.86,
 			"descripcion": "Desastre castellano; muere el heredero Sancho Alfónsez."
 		},
 		{
+			"id": "batalla-de-montiel-1143",
 			"nombre": "Batalla de Montiel (1143)",
-			"nombre_en": "Battle of Montiel (1143)",
 			"anio": 1143,
 			"lat": 39.0,
 			"lng": -4.0
 		},
 		{
+			"id": "conquista-de-lisboa-1147",
 			"nombre": "Conquista de Lisboa (1147)",
-			"nombre_en": "Conquest of Lisbon (1147)",
 			"anio": 1147,
 			"lat": 38.71,
 			"lng": -9.13,
 			"descripcion": "Alfonso I Enríquez toma la ciudad con ayuda de los cruzados de la Segunda Cruzada (1 de julio - 25 de octubre de 1147); Alfonso VI la había ocupado brevemente en 1093-1094."
 		},
 		{
+			"id": "batalla-de-calatrava",
 			"nombre": "Batalla de Calatrava",
-			"nombre_en": "Battle of Calatrava",
 			"anio": 1173,
 			"lat": 38.85,
 			"lng": -4.07
 		},
 		{
+			"id": "batalla-del-campo-de-monteagudo",
 			"nombre": "Batalla del Campo de Monteagudo",
-			"nombre_en": "Battle of Campo de Monteagudo",
 			"anio": 1190,
 			"lat": 40.44,
 			"lng": -0.85
 		},
 		{
+			"id": "batalla-de-alarcos",
 			"nombre": "Batalla de Alarcos",
-			"nombre_en": "Battle of Alarcos",
 			"anio": 1195,
 			"lat": 38.95,
 			"lng": -4.01,
@@ -223,16 +222,16 @@
 			"bajas": "~20.000 bajas castellanas según las crónicas"
 		},
 		{
+			"id": "conquista-de-sevilla",
 			"nombre": "Conquista de Sevilla",
-			"nombre_en": "Conquest of Seville",
 			"anio": 1248,
 			"lat": 37.39,
 			"lng": -5.99,
 			"descripcion": "Fernando III toma la mayor ciudad de al-Ándalus tras dos años de asedio."
 		},
 		{
+			"id": "batalla-del-salado",
 			"nombre": "Batalla del Salado",
-			"nombre_en": "Battle of Río Salado",
 			"anio": 1340,
 			"lat": 36.18,
 			"lng": -5.71,

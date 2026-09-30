@@ -1,7 +1,6 @@
 {
 	"id": "treintaanos",
 	"nombre": "Guerra de los Treinta Años",
-	"nombre_en": "Thirty Years' War",
 	"inicio": 1618,
 	"fin": 1648,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Guerra de los Treinta Años",
 	"zonas": [
 		{
+			"id": "bohemia-y-palatinado",
 			"nombre": "Bohemia y Palatinado",
-			"nombre_en": "Bohemia and the Palatinate",
 			"tipo": "frente",
 			"desde": 1618,
 			"hasta": 1623,
@@ -50,8 +49,8 @@
 			]
 		},
 		{
+			"id": "fase-danesa-norte-de-alemania",
 			"nombre": "Fase danesa (norte de Alemania)",
-			"nombre_en": "Danish phase (northern Germany)",
 			"tipo": "frente",
 			"desde": 1625,
 			"hasta": 1629,
@@ -75,8 +74,8 @@
 			]
 		},
 		{
+			"id": "fase-sueca",
 			"nombre": "Fase sueca",
-			"nombre_en": "Swedish phase",
 			"tipo": "frente",
 			"desde": 1630,
 			"hasta": 1635,
@@ -112,8 +111,8 @@
 			]
 		},
 		{
+			"id": "fase-francesa",
 			"nombre": "Fase francesa",
-			"nombre_en": "French phase",
 			"tipo": "frente",
 			"desde": 1635,
 			"hasta": 1648,
@@ -141,8 +140,8 @@
 			]
 		},
 		{
+			"id": "alemania-devastada",
 			"nombre": "Alemania devastada",
-			"nombre_en": "Devastated Germany",
 			"tipo": "ocupado",
 			"desde": 1630,
 			"hasta": 1648,
@@ -180,8 +179,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-la-montana-blanca",
 			"nombre": "Batalla de la Montaña Blanca",
-			"nombre_en": "Battle of White Mountain",
 			"anio": 1620,
 			"lat": 50.08,
 			"lng": 14.32,
@@ -189,8 +188,8 @@
 			"wiki": "Batalla de la Montaña Blanca"
 		},
 		{
+			"id": "batalla-de-breitenfeld",
 			"nombre": "Batalla de Breitenfeld",
-			"nombre_en": "Battle of Breitenfeld",
 			"anio": 1631,
 			"lat": 51.41,
 			"lng": 12.36,
@@ -198,8 +197,8 @@
 			"bajas": "~13.000 imperiales muertos"
 		},
 		{
+			"id": "batalla-de-lutzen",
 			"nombre": "Batalla de Lützen",
-			"nombre_en": "Battle of Lützen",
 			"anio": 1632,
 			"lat": 51.26,
 			"lng": 12.14,
@@ -207,8 +206,8 @@
 			"wiki": "Batalla de Lützen (1632)"
 		},
 		{
+			"id": "batalla-de-nordlingen",
 			"nombre": "Batalla de Nördlingen",
-			"nombre_en": "Battle of Nördlingen",
 			"anio": 1634,
 			"lat": 48.81,
 			"lng": 10.49,
@@ -216,15 +215,15 @@
 			"wiki": "Batalla de Nördlingen (1634)"
 		},
 		{
+			"id": "batalla-de-vlotho",
 			"nombre": "Batalla de Vlotho",
-			"nombre_en": "Battle of Vlotho",
 			"anio": 1638,
 			"lat": 52.17,
 			"lng": 8.85
 		},
 		{
+			"id": "batalla-de-rocroi",
 			"nombre": "Batalla de Rocroi",
-			"nombre_en": "Battle of Rocroi",
 			"anio": 1643,
 			"lat": 49.93,
 			"lng": 4.52,

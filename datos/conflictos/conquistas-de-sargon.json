@@ -1,7 +1,6 @@
 {
 	"id": "conquistas-de-sargon",
 	"nombre": "Conquistas de Sargón de Acad",
-	"nombre_en": "Conquests of Sargon of Akkad",
 	"inicio": -2334,
 	"fin": -2279,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Imperio acadio",
 	"zonas": [
 		{
+			"id": "sumer-y-acad",
 			"nombre": "Sumer y Acad",
-			"nombre_en": "Sumer and Akkad",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -41,8 +40,8 @@
 			]
 		},
 		{
+			"id": "alta-mesopotamia-y-siria",
 			"nombre": "Alta Mesopotamia y Siria",
-			"nombre_en": "Upper Mesopotamia and Syria",
 			"tipo": "frente",
 			"poligono": [
 				[

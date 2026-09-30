@@ -1,7 +1,6 @@
 {
 	"id": "guerras-balcanes",
 	"nombre": "Guerras de los Balcanes",
-	"nombre_en": "Balkan Wars",
 	"inicio": 1912,
 	"fin": 1913,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Guerras Balcánicas",
 	"zonas": [
 		{
+			"id": "macedonia-y-tracia-disputadas",
 			"nombre": "Macedonia y Tracia disputadas",
-			"nombre_en": "Contested Macedonia and Thrace",
 			"tipo": "frente",
 			"desde": 1912,
 			"hasta": 1913,
@@ -48,36 +47,36 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-kirk-kilisse",
 			"nombre": "Batalla de Kirk Kilisse",
-			"nombre_en": "Battle of Kirk Kilisse",
 			"anio": 1912,
 			"lat": 41.73,
 			"lng": 27.22
 		},
 		{
+			"id": "batalla-de-kumanovo",
 			"nombre": "Batalla de Kumanovo",
-			"nombre_en": "Battle of Kumanovo",
 			"anio": 1912,
 			"lat": 42.13,
 			"lng": 21.71
 		},
 		{
+			"id": "batalla-de-lule-burgas",
 			"nombre": "Batalla de Lule Burgas",
-			"nombre_en": "Battle of Lule Burgas",
 			"anio": 1912,
 			"lat": 41.4,
 			"lng": 27.36
 		},
 		{
+			"id": "asedio-de-adrianopolis",
 			"nombre": "Asedio de Adrianópolis",
-			"nombre_en": "Siege of Adrianople",
 			"anio": 1913,
 			"lat": 41.68,
 			"lng": 26.56
 		},
 		{
+			"id": "batalla-de-bizani-janina",
 			"nombre": "Batalla de Bizani (Janina)",
-			"nombre_en": "Battle of Bizani (Ioannina)",
 			"anio": 1913,
 			"lat": 39.6,
 			"lng": 20.83

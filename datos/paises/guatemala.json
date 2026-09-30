@@ -1,7 +1,6 @@
 {
 	"id": "guatemala",
 	"nombre": "Guatemala",
-	"nombre_en": "Guatemala",
 	"nombres": [
 		"Guatemala"
 	],
@@ -35,7 +34,7 @@
 			"hasta": 2012
 		},
 		{
-			"nombre": "Otto Pérez Seorina",
+			"nombre": "Otto Pérez Molina",
 			"cargo": "jefe de gobierno",
 			"desde": 2012,
 			"hasta": 2015

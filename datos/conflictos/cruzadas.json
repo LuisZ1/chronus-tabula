@@ -1,7 +1,6 @@
 {
 	"id": "cruzadas",
 	"nombre": "Las Cruzadas",
-	"nombre_en": "The Crusades",
 	"inicio": 1096,
 	"fin": 1291,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Cruzadas",
 	"zonas": [
 		{
+			"id": "primera-cruzada-anatolia-y-siria",
 			"nombre": "Primera cruzada (Anatolia y Siria)",
-			"nombre_en": "First Crusade (Anatolia and Syria)",
 			"tipo": "frente",
 			"desde": 1096,
 			"hasta": 1099,
@@ -57,8 +56,8 @@
 			]
 		},
 		{
+			"id": "estados-cruzados",
 			"nombre": "Estados cruzados",
-			"nombre_en": "Crusader states",
 			"tipo": "ocupado",
 			"desde": 1099,
 			"hasta": 1187,
@@ -90,8 +89,8 @@
 			]
 		},
 		{
+			"id": "contraofensiva-de-saladino",
 			"nombre": "Contraofensiva de Saladino",
-			"nombre_en": "Saladin's counteroffensive",
 			"tipo": "frente",
 			"desde": 1187,
 			"hasta": 1192,
@@ -119,8 +118,8 @@
 			]
 		},
 		{
+			"id": "cuarta-cruzada-constantinopla",
 			"nombre": "Cuarta cruzada (Constantinopla)",
-			"nombre_en": "Fourth Crusade (Constantinople)",
 			"tipo": "frente",
 			"desde": 1202,
 			"hasta": 1204,
@@ -144,8 +143,8 @@
 			]
 		},
 		{
+			"id": "cruzadas-a-egipto",
 			"nombre": "Cruzadas a Egipto",
-			"nombre_en": "Crusades to Egypt",
 			"tipo": "frente",
 			"desde": 1218,
 			"hasta": 1250,
@@ -169,8 +168,8 @@
 			]
 		},
 		{
+			"id": "ultimas-plazas-cruzadas-acre",
 			"nombre": "Últimas plazas cruzadas (Acre)",
-			"nombre_en": "Last Crusader strongholds (Acre)",
 			"tipo": "ocupado",
 			"desde": 1250,
 			"hasta": 1291,
@@ -196,8 +195,8 @@
 	],
 	"batallas": [
 		{
+			"id": "toma-de-jerusalen",
 			"nombre": "Toma de Jerusalén",
-			"nombre_en": "Siege of Jerusalem",
 			"anio": 1099,
 			"lat": 31.78,
 			"lng": 35.23,
@@ -205,8 +204,8 @@
 			"bajas": "matanza de ~10.000-40.000 habitantes"
 		},
 		{
+			"id": "batalla-de-los-cuernos-de-hattin",
 			"nombre": "Batalla de los Cuernos de Hattin",
-			"nombre_en": "Battle of Hattin",
 			"anio": 1187,
 			"lat": 32.8,
 			"lng": 35.44,
@@ -214,8 +213,8 @@
 			"bajas": "~17.000 cruzados muertos o capturados"
 		},
 		{
+			"id": "caida-de-acre",
 			"nombre": "Caída de Acre",
-			"nombre_en": "Fall of Acre",
 			"anio": 1291,
 			"lat": 32.93,
 			"lng": 35.08,

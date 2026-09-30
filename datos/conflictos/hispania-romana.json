@@ -1,7 +1,6 @@
 {
 	"id": "hispania-romana",
 	"nombre": "Conquista romana de Hispania",
-	"nombre_en": "Roman conquest of Hispania",
 	"inicio": -218,
 	"fin": -19,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Conquista romana de Hispania",
 	"zonas": [
 		{
+			"id": "levante-y-valle-del-guadalquivir",
 			"nombre": "Levante y valle del Guadalquivir",
-			"nombre_en": "Levante and the Guadalquivir valley",
 			"tipo": "frente",
 			"desde": -218,
 			"hasta": -195,
@@ -44,8 +43,8 @@
 			]
 		},
 		{
+			"id": "lusitania-viriato",
 			"nombre": "Lusitania (Viriato)",
-			"nombre_en": "Lusitania (Viriathus)",
 			"tipo": "frente",
 			"desde": -155,
 			"hasta": -139,
@@ -73,8 +72,8 @@
 			]
 		},
 		{
+			"id": "celtiberia-numancia",
 			"nombre": "Celtiberia (Numancia)",
-			"nombre_en": "Celtiberia (Numantia)",
 			"tipo": "frente",
 			"desde": -153,
 			"hasta": -133,
@@ -98,8 +97,8 @@
 			]
 		},
 		{
+			"id": "guerras-cantabras",
 			"nombre": "Guerras cántabras",
-			"nombre_en": "Cantabrian Wars",
 			"tipo": "frente",
 			"desde": -29,
 			"hasta": -19,
@@ -123,8 +122,8 @@
 			]
 		},
 		{
+			"id": "hispania-romana",
 			"nombre": "Hispania romana",
-			"nombre_en": "Roman Hispania",
 			"tipo": "ocupado",
 			"desde": -133,
 			"hasta": -19,
@@ -158,16 +157,16 @@
 	],
 	"batallas": [
 		{
+			"id": "asesinato-de-viriato",
 			"nombre": "Asesinato de Viriato",
-			"nombre_en": "Assassination of Viriathus",
 			"anio": -139,
 			"lat": 38.9,
 			"lng": -6.3,
 			"descripcion": "Roma compra a sus asesinos: «Roma no paga a traidores»."
 		},
 		{
+			"id": "sitio-de-numancia",
 			"nombre": "Sitio de Numancia",
-			"nombre_en": "Siege of Numantia",
 			"anio": -133,
 			"lat": 41.81,
 			"lng": -2.44,

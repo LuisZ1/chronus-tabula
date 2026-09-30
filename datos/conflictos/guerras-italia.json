@@ -1,7 +1,6 @@
 {
 	"id": "guerras-italia",
 	"nombre": "Guerras de Italia",
-	"nombre_en": "Italian Wars",
 	"inicio": 1494,
 	"fin": 1559,
 	"paises": [
@@ -17,8 +16,8 @@
 	"wiki": "Guerras italianas",
 	"zonas": [
 		{
+			"id": "napoles-el-gran-capitan",
 			"nombre": "Nápoles (el Gran Capitán)",
-			"nombre_en": "Naples (the Great Captain)",
 			"tipo": "frente",
 			"desde": 1494,
 			"hasta": 1504,
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "lombardia",
 			"nombre": "Lombardía",
-			"nombre_en": "Lombardy",
 			"tipo": "frente",
 			"desde": 1515,
 			"hasta": 1559,
@@ -67,8 +66,8 @@
 			]
 		},
 		{
+			"id": "italia-espanola",
 			"nombre": "Italia española",
-			"nombre_en": "Spanish Italy",
 			"tipo": "ocupado",
 			"desde": 1504,
 			"hasta": 1559,
@@ -102,16 +101,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-cerinola",
 			"nombre": "Batalla de Ceriñola",
-			"nombre_en": "Battle of Cerignola",
 			"anio": 1503,
 			"lat": 41.27,
 			"lng": 15.9,
 			"descripcion": "El Gran Capitán gana la primera batalla decidida por la pólvora de infantería."
 		},
 		{
+			"id": "batalla-de-pavia",
 			"nombre": "Batalla de Pavía",
-			"nombre_en": "Battle of Pavia",
 			"anio": 1525,
 			"lat": 45.19,
 			"lng": 9.16,
@@ -119,16 +118,16 @@
 			"bajas": "~8.000 franceses muertos"
 		},
 		{
+			"id": "batalla-del-solent",
 			"nombre": "Batalla del Solent",
-			"nombre_en": "Battle of the Solent",
 			"anio": 1545,
 			"lat": 50.78,
 			"lng": -1.23,
 			"wiki": "en:Battle of the Solent"
 		},
 		{
+			"id": "batalla-de-san-quintin",
 			"nombre": "Batalla de San Quintín",
-			"nombre_en": "Battle of St. Quentin",
 			"anio": 1557,
 			"lat": 49.85,
 			"lng": 3.29,

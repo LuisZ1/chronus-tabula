@@ -1,7 +1,6 @@
 {
 	"id": "caida-de-asiria",
 	"nombre": "Caída del Imperio asirio",
-	"nombre_en": "Fall of the Assyrian Empire",
 	"inicio": -626,
 	"fin": -605,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Batalla de Nínive (612 a. C.)",
 	"zonas": [
 		{
+			"id": "asiria-alto-tigris",
 			"nombre": "Asiria (Alto Tigris)",
-			"nombre_en": "Assyria (Upper Tigris)",
 			"tipo": "frente",
 			"desde": -616,
 			"hasta": -609,
@@ -40,8 +39,8 @@
 			]
 		},
 		{
+			"id": "eufrates-medio-harran-y-karkemish",
 			"nombre": "Éufrates medio (Harrán y Karkemish)",
-			"nombre_en": "Middle Euphrates (Harran and Carchemish)",
 			"tipo": "frente",
 			"desde": -610,
 			"hasta": -605,
@@ -67,8 +66,8 @@
 	],
 	"batallas": [
 		{
+			"id": "caida-de-ninive",
 			"nombre": "Caída de Nínive",
-			"nombre_en": "Fall of Nineveh",
 			"anio": -612,
 			"lat": 36.35,
 			"lng": 43.14,
@@ -76,8 +75,8 @@
 			"wiki": "Batalla de Nínive (612 a. C.)"
 		},
 		{
+			"id": "batalla-de-karkemish",
 			"nombre": "Batalla de Karkemish",
-			"nombre_en": "Battle of Carchemish",
 			"anio": -605,
 			"lat": 36.83,
 			"lng": 38.02,

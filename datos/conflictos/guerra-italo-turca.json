@@ -1,7 +1,6 @@
 {
 	"id": "guerra-italo-turca",
 	"nombre": "Guerra ítalo-turca",
-	"nombre_en": "Italo-Turkish War",
 	"inicio": 1911,
 	"fin": 1912,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra ítalo-turca",
 	"zonas": [
 		{
+			"id": "tripolitania-y-cirenaica",
 			"nombre": "Tripolitania y Cirenaica",
-			"nombre_en": "Tripolitania and Cyrenaica",
 			"tipo": "frente",
 			"desde": 1911,
 			"hasta": 1912,
@@ -40,8 +39,8 @@
 	],
 	"batallas": [
 		{
+			"id": "desembarco-italiano-en-tripolitania",
 			"nombre": "Desembarco italiano en Tripolitania",
-			"nombre_en": "Italian landing in Tripolitania",
 			"anio": 1911,
 			"lat": 32.9,
 			"lng": 13.2

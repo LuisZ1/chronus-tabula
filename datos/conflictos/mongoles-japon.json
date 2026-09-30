@@ -1,7 +1,6 @@
 {
 	"id": "mongoles-japon",
 	"nombre": "Invasiones mongolas de Japón",
-	"nombre_en": "Mongol invasions of Japan",
 	"inicio": 1274,
 	"fin": 1281,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Invasiones mongolas de Japón",
 	"zonas": [
 		{
+			"id": "bahia-de-hakata-kyushu",
 			"nombre": "Bahía de Hakata (Kyushu)",
-			"nombre_en": "Hakata Bay (Kyushu)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -39,16 +38,16 @@
 	],
 	"batallas": [
 		{
+			"id": "primera-invasion-bun-ei",
 			"nombre": "Primera invasión (Bun'ei)",
-			"nombre_en": "First invasion (Bun'ei)",
 			"anio": 1274,
 			"lat": 33.62,
 			"lng": 130.35,
 			"descripcion": "Los mongoles desembarcan en Hakata; una tormenta destroza su flota."
 		},
 		{
+			"id": "segunda-invasion-y-kamikaze",
 			"nombre": "Segunda invasión y kamikaze",
-			"nombre_en": "Second invasion and kamikaze",
 			"anio": 1281,
 			"lat": 33.6,
 			"lng": 130.3,

@@ -1,7 +1,6 @@
 {
 	"id": "hastings",
 	"nombre": "Conquista normanda de Inglaterra",
-	"nombre_en": "Norman conquest of England",
 	"inicio": 1066,
 	"fin": 1071,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Conquista normanda de Inglaterra",
 	"zonas": [
 		{
+			"id": "sur-de-inglaterra",
 			"nombre": "Sur de Inglaterra",
-			"nombre_en": "Southern England",
 			"tipo": "frente",
 			"desde": 1066,
 			"hasta": 1068,
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "norte-harrying-of-the-north",
 			"nombre": "Norte (Harrying of the North)",
-			"nombre_en": "North (Harrying of the North)",
 			"tipo": "frente",
 			"desde": 1069,
 			"hasta": 1071,
@@ -66,15 +65,15 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-fulford",
 			"nombre": "Batalla de Fulford",
-			"nombre_en": "Battle of Fulford",
 			"anio": 1066,
 			"lat": 53.93,
 			"lng": -1.07
 		},
 		{
+			"id": "batalla-de-hastings",
 			"nombre": "Batalla de Hastings",
-			"nombre_en": "Battle of Hastings",
 			"anio": 1066,
 			"lat": 50.91,
 			"lng": 0.49,
@@ -82,15 +81,15 @@
 			"bajas": "~7.000 muertos"
 		},
 		{
+			"id": "batalla-de-stamford-bridge",
 			"nombre": "Batalla de Stamford Bridge",
-			"nombre_en": "Battle of Stamford Bridge",
 			"anio": 1066,
 			"lat": 53.99,
 			"lng": -0.91
 		},
 		{
+			"id": "sitio-de-exeter-1068",
 			"nombre": "Sitio de Exeter (1068)",
-			"nombre_en": "Siege of Exeter (1068)",
 			"anio": 1068,
 			"lat": 50.73,
 			"lng": -3.53

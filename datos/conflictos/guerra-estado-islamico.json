@@ -1,7 +1,6 @@
 {
 	"id": "guerra-estado-islamico",
 	"nombre": "Guerra contra el Estado Islámico",
-	"nombre_en": "War against the Islamic State",
 	"inicio": 2014,
 	"fin": 2019,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Estado Islámico",
 	"zonas": [
 		{
+			"id": "territorio-del-califato",
 			"nombre": "Territorio del «califato»",
-			"nombre_en": "Territory of the “caliphate”",
 			"tipo": "ocupado",
 			"desde": 2014,
 			"hasta": 2017,
@@ -54,8 +53,8 @@
 			]
 		},
 		{
+			"id": "reconquista-de-mosul",
 			"nombre": "Reconquista de Mosul",
-			"nombre_en": "Recapture of Mosul",
 			"tipo": "frente",
 			"desde": 2016,
 			"hasta": 2017,
@@ -79,8 +78,8 @@
 			]
 		},
 		{
+			"id": "reconquista-del-eufrates-raqqa-baguz",
 			"nombre": "Reconquista del Éufrates (Raqqa–Baguz)",
-			"nombre_en": "Recapture of the Euphrates (Raqqa–Baghuz)",
 			"tipo": "frente",
 			"desde": 2017,
 			"hasta": 2019,
@@ -106,15 +105,15 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-ramadi-2014-2015",
 			"nombre": "Batalla de Ramadi (2014-2015)",
-			"nombre_en": "Battle of Ramadi (2014-2015)",
 			"anio": 2014,
 			"lat": 33.42,
 			"lng": 43.3
 		},
 		{
+			"id": "sitio-de-kobane",
 			"nombre": "Sitio de Kobane",
-			"nombre_en": "Siege of Kobani",
 			"anio": 2015,
 			"lat": 36.89,
 			"lng": 38.35,
@@ -122,36 +121,36 @@
 			"wiki": "Sitio de Kobane"
 		},
 		{
+			"id": "batalla-de-faluya",
 			"nombre": "Batalla de Faluya",
-			"nombre_en": "Battle of Fallujah",
 			"anio": 2016,
 			"lat": 33.37,
 			"lng": 43.77
 		},
 		{
+			"id": "batalla-de-ramadi-2015-2016",
 			"nombre": "Batalla de Ramadi (2015-2016)",
-			"nombre_en": "Battle of Ramadi (2015-2016)",
 			"anio": 2016,
 			"lat": 33.42,
 			"lng": 43.3
 		},
 		{
+			"id": "batalla-de-al-qaryatayn",
 			"nombre": "Batalla de al-Qaryatayn",
-			"nombre_en": "Battle of al-Qaryatayn",
 			"anio": 2016,
 			"lat": 34.23,
 			"lng": 37.23
 		},
 		{
+			"id": "ofensiva-de-al-shadaddah",
 			"nombre": "Ofensiva de Al-Shadaddah",
-			"nombre_en": "Al-Shaddadi offensive",
 			"anio": 2016,
 			"lat": 36.06,
 			"lng": 40.73
 		},
 		{
+			"id": "batalla-de-mosul",
 			"nombre": "Batalla de Mosul",
-			"nombre_en": "Battle of Mosul",
 			"anio": 2016,
 			"hasta": 2017,
 			"lat": 36.34,
@@ -160,8 +159,8 @@
 			"wiki": "Batalla de Mosul (2016-2017)"
 		},
 		{
+			"id": "batalla-de-raqqa",
 			"nombre": "Batalla de Raqqa",
-			"nombre_en": "Battle of Raqqa",
 			"anio": 2017,
 			"lat": 35.95,
 			"lng": 39.01,
@@ -169,8 +168,8 @@
 			"wiki": "Batalla de Raqa (2017)"
 		},
 		{
+			"id": "batalla-de-baguz",
 			"nombre": "Batalla de Baguz",
-			"nombre_en": "Battle of Baghuz",
 			"anio": 2019,
 			"lat": 34.44,
 			"lng": 40.95,

@@ -1,7 +1,6 @@
 {
 	"id": "anglo-espanola-1796",
 	"nombre": "Guerra anglo-española (1796-1802)",
-	"nombre_en": "Anglo-Spanish War (1796-1802)",
 	"inicio": 1796,
 	"fin": 1802,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Guerra anglo-española (1796-1802)",
 	"zonas": [
 		{
+			"id": "atlantico-iberico-y-canarias",
 			"nombre": "Atlántico ibérico y Canarias",
-			"nombre_en": "Iberian Atlantic and the Canary Islands",
 			"tipo": "frente",
 			"mar": true,
 			"poligono": [
@@ -44,24 +43,24 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-cabo-de-san-vicente",
 			"nombre": "Batalla del cabo de San Vicente",
-			"nombre_en": "Battle of Cape St. Vincent",
 			"anio": 1797,
 			"lat": 37.02,
 			"lng": -8.99,
 			"descripcion": "Jervis y Nelson derrotan a la flota española."
 		},
 		{
+			"id": "defensa-de-santa-cruz-de-tenerife",
 			"nombre": "Defensa de Santa Cruz de Tenerife",
-			"nombre_en": "Battle of Santa Cruz de Tenerife",
 			"anio": 1797,
 			"lat": 28.47,
 			"lng": -16.25,
 			"descripcion": "El general Gutiérrez rechaza a Nelson, que pierde el brazo derecho."
 		},
 		{
+			"id": "accion-del-19-de-febrero-de-1801",
 			"nombre": "Acción del 19 de febrero de 1801",
-			"nombre_en": "Action of 19 February 1801",
 			"anio": 1801,
 			"lat": 35.92,
 			"lng": -5.31

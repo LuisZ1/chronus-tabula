@@ -1,7 +1,6 @@
 {
 	"id": "somalia",
 	"nombre": "Somalia",
-	"nombre_en": "Somalia",
 	"nombres": [
 		"Somalia",
 		"Italian Somaliland"
@@ -9,25 +8,21 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Somalilandia italiana y británica (colonias)",
-			"nombre_en": "Italian and British Somaliland (colonies)",
 			"desde": 1889,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República Somalí",
-			"nombre_en": "Somali Republic",
 			"desde": 1960,
 			"hasta": 1969
 		},
 		{
 			"nombre": "República Democrática Somalí",
-			"nombre_en": "Somali Democratic Republic",
 			"desde": 1969,
 			"hasta": 1991
 		},
 		{
 			"nombre": "República Federal de Somalia",
-			"nombre_en": "Federal Republic of Somalia",
 			"desde": 2012
 		}
 	],

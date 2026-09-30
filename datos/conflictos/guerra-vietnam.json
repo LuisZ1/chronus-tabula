@@ -1,7 +1,6 @@
 {
 	"id": "guerra-vietnam",
 	"nombre": "Guerra de Vietnam",
-	"nombre_en": "Vietnam War",
 	"inicio": 1955,
 	"fin": 1975,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra de Vietnam",
 	"zonas": [
 		{
+			"id": "vietnam-del-sur-guerrilla-y-ofensivas",
 			"nombre": "Vietnam del Sur (guerrilla y ofensivas)",
-			"nombre_en": "South Vietnam (guerrilla war and offensives)",
 			"tipo": "frente",
 			"desde": 1960,
 			"hasta": 1975,
@@ -44,8 +43,8 @@
 			]
 		},
 		{
+			"id": "bombardeos-sobre-el-norte-rolling-thunder",
 			"nombre": "Bombardeos sobre el Norte (Rolling Thunder)",
-			"nombre_en": "Bombing of the North (Rolling Thunder)",
 			"tipo": "frente",
 			"desde": 1965,
 			"hasta": 1972,
@@ -71,8 +70,8 @@
 	],
 	"batallas": [
 		{
+			"id": "incidente-del-golfo-de-tonkin",
 			"nombre": "Incidente del golfo de Tonkín",
-			"nombre_en": "Gulf of Tonkin incident",
 			"anio": 1964,
 			"lat": 19.7,
 			"lng": 106.46,
@@ -80,8 +79,8 @@
 			"wiki": "Incidente del golfo de Tonkín"
 		},
 		{
+			"id": "ofensiva-del-tet",
 			"nombre": "Ofensiva del Tet",
-			"nombre_en": "Tet Offensive",
 			"anio": 1968,
 			"lat": 16.47,
 			"lng": 107.58,
@@ -89,8 +88,8 @@
 			"wiki": "Ofensiva del Tet"
 		},
 		{
+			"id": "caida-de-saigon",
 			"nombre": "Caída de Saigón",
-			"nombre_en": "Fall of Saigon",
 			"anio": 1975,
 			"lat": 10.78,
 			"lng": 106.7,

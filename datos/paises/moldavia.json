@@ -1,14 +1,12 @@
 {
 	"id": "moldavia",
 	"nombre": "Moldavia",
-	"nombre_en": "Moldova",
 	"nombres": [
 		"Moldova"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Principado de Moldavia",
-			"nombre_en": "Principality of Moldavia",
 			"desde": 1359,
 			"hasta": 1859,
 			"wiki": "Principado de Moldavia"

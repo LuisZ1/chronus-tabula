@@ -1,7 +1,6 @@
 {
 	"id": "guerra-peloponeso",
 	"nombre": "Guerra del Peloponeso",
-	"nombre_en": "Peloponnesian War",
 	"inicio": -431,
 	"fin": -404,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Guerra del Peloponeso",
 	"zonas": [
 		{
+			"id": "liga-de-delos-dominio-ateniense-del-egeo",
 			"nombre": "Liga de Delos (dominio ateniense del Egeo)",
-			"nombre_en": "Delian League (Athenian dominion of the Aegean)",
 			"tipo": "frente",
 			"desde": -431,
 			"hasta": -404,
@@ -49,8 +48,8 @@
 			]
 		},
 		{
+			"id": "liga-del-peloponeso-esparta-y-aliados",
 			"nombre": "Liga del Peloponeso (Esparta y aliados)",
-			"nombre_en": "Peloponnesian League (Sparta and allies)",
 			"tipo": "frente",
 			"desde": -431,
 			"hasta": -404,
@@ -78,8 +77,8 @@
 			]
 		},
 		{
+			"id": "expedicion-ateniense-a-sicilia",
 			"nombre": "Expedición ateniense a Sicilia",
-			"nombre_en": "Athenian expedition to Sicily",
 			"tipo": "frente",
 			"desde": -415,
 			"hasta": -413,
@@ -105,43 +104,43 @@
 	],
 	"batallas": [
 		{
+			"id": "asedio-de-potidea-432-430-a-c",
 			"nombre": "Asedio de Potidea (432-430 a. C.)",
-			"nombre_en": "Siege of Potidaea (432-430 BC)",
 			"anio": -431,
 			"lat": 40.19,
 			"lng": 23.33
 		},
 		{
+			"id": "anfipolis",
 			"nombre": "Anfípolis",
-			"nombre_en": "Amphipolis",
 			"anio": -422,
 			"lat": 40.82,
 			"lng": 23.84
 		},
 		{
+			"id": "mantinea",
 			"nombre": "Mantinea",
-			"nombre_en": "Mantinea",
 			"anio": -418,
 			"lat": 37.62,
 			"lng": 22.39
 		},
 		{
+			"id": "desastre-de-siracusa",
 			"nombre": "Desastre de Siracusa",
-			"nombre_en": "Disaster at Syracuse",
 			"anio": -413,
 			"lat": 37.07,
 			"lng": 15.29
 		},
 		{
+			"id": "arginusas",
 			"nombre": "Arginusas",
-			"nombre_en": "Arginusae",
 			"anio": -406,
 			"lat": 39.02,
 			"lng": 26.78
 		},
 		{
+			"id": "egospotamos",
 			"nombre": "Egospótamos",
-			"nombre_en": "Aegospotami",
 			"anio": -405,
 			"lat": 40.23,
 			"lng": 26.53

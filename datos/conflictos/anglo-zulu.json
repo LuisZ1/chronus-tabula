@@ -1,7 +1,6 @@
 {
 	"id": "anglo-zulu",
 	"nombre": "Guerra anglo-zulú",
-	"nombre_en": "Anglo-Zulu War",
 	"inicio": 1879,
 	"fin": 1879,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra anglo-zulú",
 	"zonas": [
 		{
+			"id": "zululandia",
 			"nombre": "Zululandia",
-			"nombre_en": "Zululand",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,8 +37,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-isandlwana",
 			"nombre": "Batalla de Isandlwana",
-			"nombre_en": "Battle of Isandlwana",
 			"anio": 1879,
 			"lat": -28.36,
 			"lng": 30.65,
@@ -47,8 +46,8 @@
 			"bajas": "~1.300 británicos muertos"
 		},
 		{
+			"id": "defensa-de-rorke-s-drift",
 			"nombre": "Defensa de Rorke's Drift",
-			"nombre_en": "Battle of Rorke's Drift",
 			"anio": 1879,
 			"lat": -28.35,
 			"lng": 30.54,

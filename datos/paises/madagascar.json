@@ -1,7 +1,6 @@
 {
 	"id": "madagascar",
 	"nombre": "Madagascar",
-	"nombre_en": "Madagascar",
 	"nombres": [
 		"Madagascar",
 		"Madagascar (France)"
@@ -9,31 +8,26 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Madagascar (Imerina)",
-			"nombre_en": "Kingdom of Madagascar (Imerina)",
 			"desde": 1817,
 			"hasta": 1897
 		},
 		{
 			"nombre": "Madagascar (colonia francesa)",
-			"nombre_en": "Madagascar (French colony)",
 			"desde": 1897,
 			"hasta": 1958
 		},
 		{
 			"nombre": "República Malgache",
-			"nombre_en": "Malagasy Republic",
 			"desde": 1958,
 			"hasta": 1975
 		},
 		{
 			"nombre": "República Democrática de Madagascar",
-			"nombre_en": "Democratic Republic of Madagascar",
 			"desde": 1975,
 			"hasta": 1992
 		},
 		{
 			"nombre": "República de Madagascar",
-			"nombre_en": "Republic of Madagascar",
 			"desde": 1992,
 			"hasta": 2026
 		}

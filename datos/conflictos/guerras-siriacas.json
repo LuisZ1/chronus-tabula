@@ -1,7 +1,6 @@
 {
 	"id": "guerras-siriacas",
 	"nombre": "Guerras Siriacas",
-	"nombre_en": "Syrian Wars",
 	"inicio": -274,
 	"fin": -168,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerras Sirias",
 	"zonas": [
 		{
+			"id": "celesiria-y-fenicia-frente-terrestre",
 			"nombre": "Celesiria y Fenicia (frente terrestre)",
-			"nombre_en": "Coele-Syria and Phoenicia (land front)",
 			"tipo": "frente",
 			"desde": -274,
 			"hasta": -168,
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "egeo-oriental-y-costa-de-anatolia",
 			"nombre": "Egeo oriental y costa de Anatolia",
-			"nombre_en": "Eastern Aegean and the Anatolian coast",
 			"tipo": "frente",
 			"desde": -274,
 			"hasta": -168,
@@ -69,15 +68,15 @@
 	],
 	"batallas": [
 		{
+			"id": "rafia",
 			"nombre": "Rafia",
-			"nombre_en": "Raphia",
 			"anio": -217,
 			"lat": 31.29,
 			"lng": 34.25
 		},
 		{
+			"id": "panion",
 			"nombre": "Panion",
-			"nombre_en": "Panium",
 			"anio": -200,
 			"lat": 33.25,
 			"lng": 35.69

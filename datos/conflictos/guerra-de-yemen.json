@@ -1,7 +1,6 @@
 {
 	"id": "guerra-de-yemen",
 	"nombre": "Guerra de Yemen",
-	"nombre_en": "Yemeni civil war",
 	"inicio": 2014,
 	"fin": 2026,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra civil yemení (2014-actualidad)",
 	"zonas": [
 		{
+			"id": "noroeste-huti-sana",
 			"nombre": "Noroeste hutí (Saná)",
-			"nombre_en": "Houthi northwest (Sanaa)",
 			"tipo": "frente",
 			"desde": 2014,
 			"hasta": 2022,
@@ -40,8 +39,8 @@
 			]
 		},
 		{
+			"id": "frente-del-mar-rojo",
 			"nombre": "Frente del mar Rojo",
-			"nombre_en": "Red Sea front",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 2023,
@@ -68,31 +67,31 @@
 	],
 	"batallas": [
 		{
+			"id": "toma-de-sana",
 			"nombre": "Toma de Saná",
-			"nombre_en": "Capture of Sanaa",
 			"anio": 2014,
 			"lat": 15.35,
 			"lng": 44.21,
 			"descripcion": "Los hutíes ocupan la capital y disuelven el gobierno."
 		},
 		{
+			"id": "batalla-de-aden",
 			"nombre": "Batalla de Adén",
-			"nombre_en": "Battle of Aden",
 			"anio": 2015,
 			"lat": 12.79,
 			"lng": 45.03,
 			"descripcion": "El gobierno reconocido resiste en el sur con apoyo de la coalición."
 		},
 		{
+			"id": "incursion-de-yakla",
 			"nombre": "Incursión de Yakla",
-			"nombre_en": "Yakla raid",
 			"anio": 2017,
 			"lat": 14.6,
 			"lng": 45.06
 		},
 		{
+			"id": "batalla-de-hodeida",
 			"nombre": "Batalla de Hodeida",
-			"nombre_en": "Battle of Hodeidah",
 			"anio": 2018,
 			"lat": 14.8,
 			"lng": 42.95,

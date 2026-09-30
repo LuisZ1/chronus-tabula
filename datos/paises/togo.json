@@ -1,7 +1,6 @@
 {
 	"id": "togo",
 	"nombre": "Togo",
-	"nombre_en": "Togo",
 	"nombres": [
 		"Togo",
 		"Togoland"
@@ -9,19 +8,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Togolandia alemana",
-			"nombre_en": "German Togoland",
 			"desde": 1884,
 			"hasta": 1914
 		},
 		{
 			"nombre": "Togo francés",
-			"nombre_en": "French Togoland",
 			"desde": 1916,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República Togolesa",
-			"nombre_en": "Togolese Republic",
 			"desde": 1960,
 			"hasta": 2026
 		}

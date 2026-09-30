@@ -1,7 +1,6 @@
 {
 	"id": "tercera-punica",
 	"nombre": "Tercera guerra púnica",
-	"nombre_en": "Third Punic War",
 	"inicio": -149,
 	"fin": -146,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Tercera guerra púnica",
 	"zonas": [
 		{
+			"id": "cartago-y-su-territorio",
 			"nombre": "Cartago y su territorio",
-			"nombre_en": "Carthage and its territory",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -38,8 +37,8 @@
 	],
 	"batallas": [
 		{
+			"id": "destruccion-de-cartago",
 			"nombre": "Destrucción de Cartago",
-			"nombre_en": "Destruction of Carthage",
 			"anio": -146,
 			"lat": 36.85,
 			"lng": 10.32,

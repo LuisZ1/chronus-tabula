@@ -1,7 +1,6 @@
 {
 	"id": "guerras-ruso-turcas",
 	"nombre": "Guerras ruso-turcas (1711-1829)",
-	"nombre_en": "Russo-Turkish wars (1711-1829)",
 	"inicio": 1711,
 	"fin": 1829,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerras ruso-turcas",
 	"zonas": [
 		{
+			"id": "mar-negro-danubio-y-caucaso-en-disputa",
 			"nombre": "Mar Negro, Danubio y Cáucaso en disputa",
-			"nombre_en": "Black Sea, Danube and Caucasus in dispute",
 			"tipo": "frente",
 			"desde": 1711,
 			"hasta": 1829,
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "egeo-expedicion-rusa-del-archipielago",
 			"nombre": "Egeo (expedición rusa del Archipiélago)",
-			"nombre_en": "Aegean (Russian Archipelago Expedition)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1769,
@@ -86,47 +85,47 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-prut",
 			"nombre": "Batalla del Prut",
-			"nombre_en": "Battle of the Prut",
 			"anio": 1711,
 			"lat": 46.6,
 			"lng": 28.0
 		},
 		{
+			"id": "batalla-de-chesme",
 			"nombre": "Batalla de Chesme",
-			"nombre_en": "Battle of Chesma",
 			"anio": 1770,
 			"lat": 38.33,
 			"lng": 26.29,
 			"descripcion": "La flota rusa del Báltico, llegada por el Mediterráneo, destruye la otomana frente a Çeşme."
 		},
 		{
+			"id": "batalla-de-kagul",
 			"nombre": "Batalla de Kagul",
-			"nombre_en": "Battle of Kagul",
 			"anio": 1770,
 			"lat": 45.92,
 			"lng": 28.18,
 			"descripcion": "Rumiántsev derrota al gran visir junto al río Kagul (hoy Cahul, Moldavia)."
 		},
 		{
+			"id": "batalla-de-rimnik",
 			"nombre": "Batalla de Rímnik",
-			"nombre_en": "Battle of Rymnik",
 			"anio": 1789,
 			"lat": 45.38,
 			"lng": 27.06,
 			"descripcion": "Suvórov y el príncipe de Coburgo vencen a los otomanos junto al río Râmnicu Sărat."
 		},
 		{
+			"id": "asalto-de-izmail",
 			"nombre": "Asalto de Izmail",
-			"nombre_en": "Siege of Izmail",
 			"anio": 1790,
 			"lat": 45.35,
 			"lng": 28.83,
 			"descripcion": "Suvórov toma al asalto la fortaleza otomana del Danubio."
 		},
 		{
+			"id": "batalla-de-kulevicha",
 			"nombre": "Batalla de Kulevicha",
-			"nombre_en": "Battle of Kulevicha",
 			"anio": 1829,
 			"lat": 43.26,
 			"lng": 27.12,

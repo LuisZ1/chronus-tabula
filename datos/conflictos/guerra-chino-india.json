@@ -1,7 +1,6 @@
 {
 	"id": "guerra-chino-india",
 	"nombre": "Guerra chino-india",
-	"nombre_en": "Sino-Indian War",
 	"inicio": 1962,
 	"fin": 1962,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra chino-india",
 	"zonas": [
 		{
+			"id": "nefa-arunachal",
 			"nombre": "NEFA (Arunachal)",
-			"nombre_en": "NEFA (Arunachal)",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -36,8 +35,8 @@
 			]
 		},
 		{
+			"id": "aksai-chin",
 			"nombre": "Aksai Chin",
-			"nombre_en": "Aksai Chin",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -61,8 +60,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-walong",
 			"nombre": "Batalla de Walong",
-			"nombre_en": "Battle of Walong",
 			"anio": 1962,
 			"lat": 28.13,
 			"lng": 97.02,
@@ -70,8 +69,8 @@
 			"wiki": "Batalla de Walong"
 		},
 		{
+			"id": "batalla-del-paso-de-sela",
 			"nombre": "Batalla del paso de Sela",
-			"nombre_en": "Battle of Sela Pass",
 			"anio": 1962,
 			"lat": 27.5,
 			"lng": 92.1,

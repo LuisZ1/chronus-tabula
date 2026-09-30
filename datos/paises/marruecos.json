@@ -1,7 +1,6 @@
 {
 	"id": "marruecos",
 	"nombre": "Marruecos",
-	"nombre_en": "Morocco",
 	"nombres": [
 		"Morocco",
 		"Morocco (France)",
@@ -10,13 +9,11 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Protectorado francés y español de Marruecos",
-			"nombre_en": "French and Spanish protectorates in Morocco",
 			"desde": 1912,
 			"hasta": 1956
 		},
 		{
 			"nombre": "Reino de Marruecos",
-			"nombre_en": "Kingdom of Morocco",
 			"desde": 1957,
 			"hasta": 2026
 		}

@@ -1,26 +1,22 @@
 {
 	"id": "guinea",
 	"nombre": "Guinea",
-	"nombre_en": "Guinea",
 	"nombres": [
 		"Guinea"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Imamato de Futa Yallon",
-			"nombre_en": "Imamate of Futa Jallon",
 			"desde": 1727,
 			"hasta": 1896
 		},
 		{
 			"nombre": "Guinea Francesa",
-			"nombre_en": "French Guinea",
 			"desde": 1891,
 			"hasta": 1958
 		},
 		{
 			"nombre": "República de Guinea",
-			"nombre_en": "Republic of Guinea",
 			"desde": 1958,
 			"hasta": 2026
 		}

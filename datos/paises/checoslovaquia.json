@@ -1,38 +1,32 @@
 {
 	"id": "checoslovaquia",
 	"nombre": "Checoslovaquia",
-	"nombre_en": "Czechoslovakia",
 	"nombres": [
 		"Czechoslovakia"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Primera República Checoslovaca",
-			"nombre_en": "First Czechoslovak Republic",
 			"desde": 1918,
 			"hasta": 1938
 		},
 		{
 			"nombre": "Protectorado de Bohemia y Moravia / República Eslovaca",
-			"nombre_en": "Protectorate of Bohemia and Moravia / Slovak Republic",
 			"desde": 1939,
 			"hasta": 1944
 		},
 		{
 			"nombre": "República Checoslovaca",
-			"nombre_en": "Czechoslovak Republic",
 			"desde": 1945,
 			"hasta": 1959
 		},
 		{
 			"nombre": "República Socialista Checoslovaca",
-			"nombre_en": "Czechoslovak Socialist Republic",
 			"desde": 1960,
 			"hasta": 1989
 		},
 		{
 			"nombre": "República Federal Checa y Eslovaca",
-			"nombre_en": "Czech and Slovak Federative Republic",
 			"desde": 1990,
 			"hasta": 1992
 		}

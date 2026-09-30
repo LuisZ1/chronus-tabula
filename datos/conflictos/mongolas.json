@@ -1,7 +1,6 @@
 {
 	"id": "mongolas",
 	"nombre": "Conquistas mongolas",
-	"nombre_en": "Mongol conquests",
 	"inicio": 1206,
 	"fin": 1279,
 	"paises": [
@@ -19,8 +18,8 @@
 	"wiki": "Invasiones mongolas",
 	"zonas": [
 		{
+			"id": "mongolia-y-china-jin",
 			"nombre": "Mongolia y China Jin",
-			"nombre_en": "Mongolia and Jin China",
 			"tipo": "frente",
 			"desde": 1206,
 			"hasta": 1234,
@@ -52,8 +51,8 @@
 			]
 		},
 		{
+			"id": "corasmia-y-persia",
 			"nombre": "Corasmia y Persia",
-			"nombre_en": "Khwarazm and Persia",
 			"tipo": "frente",
 			"desde": 1219,
 			"hasta": 1231,
@@ -85,8 +84,8 @@
 			]
 		},
 		{
+			"id": "rus-y-europa-oriental",
 			"nombre": "Rus y Europa oriental",
-			"nombre_en": "Rus' and Eastern Europe",
 			"tipo": "frente",
 			"desde": 1236,
 			"hasta": 1242,
@@ -122,8 +121,8 @@
 			]
 		},
 		{
+			"id": "oriente-proximo-bagdad",
 			"nombre": "Oriente Próximo (Bagdad)",
-			"nombre_en": "Near East (Baghdad)",
 			"tipo": "frente",
 			"desde": 1256,
 			"hasta": 1260,
@@ -151,8 +150,8 @@
 			]
 		},
 		{
+			"id": "china-song",
 			"nombre": "China Song",
-			"nombre_en": "Song China",
 			"tipo": "frente",
 			"desde": 1258,
 			"hasta": 1279,
@@ -180,8 +179,8 @@
 			]
 		},
 		{
+			"id": "dominios-mongoles",
 			"nombre": "Dominios mongoles",
-			"nombre_en": "Mongol dominions",
 			"tipo": "ocupado",
 			"desde": 1242,
 			"hasta": 1279,
@@ -233,8 +232,8 @@
 			]
 		},
 		{
+			"id": "primera-incursion-en-la-estepa-pontica",
 			"nombre": "Primera incursión en la estepa póntica",
-			"nombre_en": "First raid into the Pontic steppe",
 			"tipo": "frente",
 			"desde": 1222,
 			"hasta": 1223,
@@ -270,8 +269,8 @@
 			]
 		},
 		{
+			"id": "siria-y-palestina",
 			"nombre": "Siria y Palestina",
-			"nombre_en": "Syria and Palestine",
 			"tipo": "frente",
 			"desde": 1259,
 			"hasta": 1260,
@@ -317,32 +316,32 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-del-rio-kalka",
 			"nombre": "Batalla del río Kalka",
-			"nombre_en": "Battle of the Kalka River",
 			"anio": 1223,
 			"lat": 47.25,
 			"lng": 37.5,
 			"descripcion": "Subotai y Jebe derrotan a los príncipes de la Rus y a los cumanos (31 de mayo de 1223)."
 		},
 		{
+			"id": "batalla-de-legnica",
 			"nombre": "Batalla de Legnica",
-			"nombre_en": "Battle of Legnica",
 			"anio": 1241,
 			"lat": 51.15,
 			"lng": 16.22,
 			"descripcion": "Los mongoles derrotan a polacos y caballeros teutónicos."
 		},
 		{
+			"id": "batalla-de-mohi",
 			"nombre": "Batalla de Mohi",
-			"nombre_en": "Battle of Mohi",
 			"anio": 1241,
 			"lat": 47.98,
 			"lng": 20.91,
 			"descripcion": "Batu y Subotai aniquilan al ejército de Bela IV de Hungría (11 de abril de 1241)."
 		},
 		{
+			"id": "saqueo-de-bagdad",
 			"nombre": "Saqueo de Bagdad",
-			"nombre_en": "Siege of Baghdad",
 			"anio": 1258,
 			"lat": 33.34,
 			"lng": 44.4,
@@ -350,16 +349,16 @@
 			"bajas": "~200.000-800.000 muertos"
 		},
 		{
+			"id": "batalla-de-ain-yalut",
 			"nombre": "Batalla de Ain Yalut",
-			"nombre_en": "Battle of Ain Jalut",
 			"anio": 1260,
 			"lat": 32.55,
 			"lng": 35.36,
 			"descripcion": "Los mamelucos de Qutuz y Baibars detienen el avance mongol hacia Egipto (3 de septiembre de 1260)."
 		},
 		{
+			"id": "sitio-de-xiangyang",
 			"nombre": "Sitio de Xiangyang",
-			"nombre_en": "Siege of Xiangyang",
 			"anio": 1273,
 			"lat": 32.01,
 			"lng": 112.12,

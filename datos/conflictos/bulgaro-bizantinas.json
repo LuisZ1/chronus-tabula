@@ -1,7 +1,6 @@
 {
 	"id": "bulgaro-bizantinas",
 	"nombre": "Guerras búlgaro-bizantinas de Basilio II",
-	"nombre_en": "Byzantine-Bulgarian wars of Basil II",
 	"inicio": 976,
 	"fin": 1018,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Batalla de Kleidion",
 	"zonas": [
 		{
+			"id": "frente-balcanico-bulgaro-bizantino",
 			"nombre": "Frente balcánico búlgaro-bizantino",
-			"nombre_en": "Bulgarian-Byzantine Balkan front",
 			"tipo": "frente",
 			"desde": 976,
 			"hasta": 1018,
@@ -44,16 +43,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-las-puertas-de-trajano",
 			"nombre": "Batalla de las Puertas de Trajano",
-			"nombre_en": "Battle of the Gates of Trajan",
 			"anio": 986,
 			"lat": 42.36,
 			"lng": 23.87,
 			"descripcion": "Samuel derrota a Basilio II en su primera campaña."
 		},
 		{
+			"id": "batalla-de-kleidion-belasitsa",
 			"nombre": "Batalla de Kleidion (Belasitsa)",
-			"nombre_en": "Battle of Kleidion (Belasitsa)",
 			"anio": 1014,
 			"lat": 41.36,
 			"lng": 22.9,

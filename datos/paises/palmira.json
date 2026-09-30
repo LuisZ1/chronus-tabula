@@ -1,20 +1,17 @@
 {
 	"id": "palmira",
 	"nombre": "Imperio de Palmira",
-	"nombre_en": "Palmyrene Empire",
 	"nombres": [
 		"Palmyrene Empire"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Palmira",
-			"nombre_en": "Kingdom of Palmyra",
 			"desde": 260,
 			"hasta": 270
 		},
 		{
 			"nombre": "Imperio de Palmira",
-			"nombre_en": "Palmyrene Empire",
 			"desde": 270,
 			"hasta": 273
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "guerra-barones",
 	"nombre": "Segunda Guerra de los Barones",
-	"nombre_en": "Second Barons' War",
 	"inicio": 1264,
 	"fin": 1267,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Segunda Guerra de los Barones",
 	"zonas": [
 		{
+			"id": "sur-y-centro-de-inglaterra",
 			"nombre": "Sur y centro de Inglaterra",
-			"nombre_en": "Southern and central England",
 			"tipo": "frente",
 			"desde": 1264,
 			"hasta": 1267,
@@ -43,15 +42,15 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-lewes",
 			"nombre": "Batalla de Lewes",
-			"nombre_en": "Battle of Lewes",
 			"anio": 1264,
 			"lat": 50.87,
 			"lng": -0.01
 		},
 		{
+			"id": "batalla-de-evesham",
 			"nombre": "Batalla de Evesham",
-			"nombre_en": "Battle of Evesham",
 			"anio": 1265,
 			"lat": 52.09,
 			"lng": -1.95

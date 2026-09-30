@@ -1,7 +1,6 @@
 {
 	"id": "guerra-1812",
 	"nombre": "Guerra anglo-estadounidense de 1812",
-	"nombre_en": "War of 1812",
 	"inicio": 1812,
 	"fin": 1815,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Guerra anglo-estadounidense de 1812",
 	"zonas": [
 		{
+			"id": "frontera-de-canada-y-los-grandes-lagos",
 			"nombre": "Frontera de Canadá y los Grandes Lagos",
-			"nombre_en": "Canadian border and the Great Lakes",
 			"tipo": "frente",
 			"poligono": [
 				[
@@ -42,8 +41,8 @@
 			]
 		},
 		{
+			"id": "bahia-de-chesapeake",
 			"nombre": "Bahía de Chesapeake",
-			"nombre_en": "Chesapeake Bay",
 			"tipo": "frente",
 			"desde": 1813,
 			"hasta": 1814,
@@ -69,349 +68,349 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-brownstown",
 			"nombre": "Batalla de Brownstown",
-			"nombre_en": "Battle of Brownstown",
 			"anio": 1812,
 			"lat": 42.09,
 			"lng": -83.2
 		},
 		{
+			"id": "batalla-de-fort-dearborn",
 			"nombre": "Batalla de Fort Dearborn",
-			"nombre_en": "Battle of Fort Dearborn",
 			"anio": 1812,
 			"lat": 41.86,
 			"lng": -87.62
 		},
 		{
+			"id": "batalla-de-frenchman-s-creek",
 			"nombre": "Batalla de Frenchman's Creek",
-			"nombre_en": "Battle of Frenchman's Creek",
 			"anio": 1812,
 			"lat": 42.94,
 			"lng": -78.93
 		},
 		{
+			"id": "batalla-de-lacolle-mills-1812",
 			"nombre": "Batalla de Lacolle Mills",
-			"nombre_en": "Battle of Lacolle Mills",
 			"anio": 1812,
 			"lat": 45.08,
 			"lng": -73.37
 		},
 		{
+			"id": "batalla-de-maguaga",
 			"nombre": "Batalla de Maguaga",
-			"nombre_en": "Battle of Maguaga",
 			"anio": 1812,
 			"lat": 42.14,
 			"lng": -83.18
 		},
 		{
+			"id": "batalla-de-queenston-heights",
 			"nombre": "Batalla de Queenston Heights",
-			"nombre_en": "Battle of Queenston Heights",
 			"anio": 1812,
 			"lat": 43.16,
 			"lng": -79.05
 		},
 		{
+			"id": "batalla-de-river-canard",
 			"nombre": "Batalla de River Canard",
-			"nombre_en": "Battle of River Canard",
 			"anio": 1812,
 			"lat": 42.19,
 			"lng": -83.09
 		},
 		{
+			"id": "batalla-de-beaver-dams",
 			"nombre": "Batalla de Beaver Dams",
-			"nombre_en": "Battle of Beaver Dams",
 			"anio": 1813,
 			"lat": 43.12,
 			"lng": -79.19
 		},
 		{
+			"id": "batalla-de-buffalo",
 			"nombre": "Batalla de Buffalo",
-			"nombre_en": "Battle of Buffalo",
 			"anio": 1813,
 			"lat": 42.94,
 			"lng": -78.9
 		},
 		{
+			"id": "batalla-de-burnt-corn",
 			"nombre": "Batalla de Burnt Corn",
-			"nombre_en": "Battle of Burnt Corn",
 			"anio": 1813,
 			"lat": 31.19,
 			"lng": -87.13
 		},
 		{
+			"id": "batalla-de-chateauguay",
 			"nombre": "Batalla de Châteauguay",
-			"nombre_en": "Battle of the Châteauguay",
 			"anio": 1813,
 			"lat": 45.16,
 			"lng": -73.93
 		},
 		{
+			"id": "batalla-de-craney-island",
 			"nombre": "Batalla de Craney Island",
-			"nombre_en": "Battle of Craney Island",
 			"anio": 1813,
 			"lat": 36.95,
 			"lng": -76.35
 		},
 		{
+			"id": "batalla-de-crysler-s-farm",
 			"nombre": "Batalla de Crysler's Farm",
-			"nombre_en": "Battle of Crysler's Farm",
 			"anio": 1813,
 			"lat": 44.94,
 			"lng": -75.07
 		},
 		{
+			"id": "batalla-de-fort-george",
 			"nombre": "Batalla de Fort George",
-			"nombre_en": "Battle of Fort George",
 			"anio": 1813,
 			"lat": 43.25,
 			"lng": -79.06
 		},
 		{
+			"id": "batalla-de-fort-stephenson",
 			"nombre": "Batalla de Fort Stephenson",
-			"nombre_en": "Battle of Fort Stephenson",
 			"anio": 1813,
 			"lat": 41.35,
 			"lng": -83.12
 		},
 		{
+			"id": "batalla-de-frenchtown",
 			"nombre": "Batalla de Frenchtown",
-			"nombre_en": "Battle of Frenchtown",
 			"anio": 1813,
 			"lat": 41.91,
 			"lng": -83.38
 		},
 		{
+			"id": "batalla-de-ogdensburg",
 			"nombre": "Batalla de Ogdensburg",
-			"nombre_en": "Battle of Ogdensburg",
 			"anio": 1813,
 			"lat": 44.69,
 			"lng": -75.5
 		},
 		{
+			"id": "batalla-de-st-michaels",
 			"nombre": "Batalla de St. Michaels",
-			"nombre_en": "Battle of St. Michaels",
 			"anio": 1813,
 			"lat": 38.79,
 			"lng": -76.22
 		},
 		{
+			"id": "batalla-de-stoney-creek",
 			"nombre": "Batalla de Stoney Creek",
-			"nombre_en": "Battle of Stoney Creek",
 			"anio": 1813,
 			"lat": 43.22,
 			"lng": -79.76
 		},
 		{
+			"id": "batalla-de-talladega",
 			"nombre": "Batalla de Talladega",
-			"nombre_en": "Battle of Talladega",
 			"anio": 1813,
 			"lat": 33.45,
 			"lng": -86.17
 		},
 		{
+			"id": "batalla-de-tallushatchee",
 			"nombre": "Batalla de Tallushatchee",
-			"nombre_en": "Battle of Tallushatchee",
 			"anio": 1813,
 			"lat": 33.81,
 			"lng": -85.91
 		},
 		{
+			"id": "batalla-de-york",
 			"nombre": "Batalla de York",
-			"nombre_en": "Battle of York",
 			"anio": 1813,
 			"lat": 43.64,
 			"lng": -79.4
 		},
 		{
+			"id": "batalla-del-tamesis",
 			"nombre": "Batalla del Támesis",
-			"nombre_en": "Battle of the Thames",
 			"anio": 1813,
 			"lat": 42.56,
 			"lng": -81.93
 		},
 		{
+			"id": "combate-de-la-shannon-y-de-la-chesapeake",
 			"nombre": "Combate de la Shannon y de la Chesapeake",
-			"nombre_en": "Capture of USS Chesapeake",
 			"anio": 1813,
 			"lat": 42.65,
 			"lng": -70.57
 		},
 		{
+			"id": "incursion-en-black-rock",
 			"nombre": "Incursión en Black Rock",
-			"nombre_en": "Raid on Black Rock",
 			"anio": 1813,
 			"lat": 42.93,
 			"lng": -78.9,
 			"wiki": "en:Raid on Black Rock"
 		},
 		{
+			"id": "incursion-en-havre-de-grace",
 			"nombre": "Incursión en Havre de Grace",
-			"nombre_en": "Raid on Havre de Grace",
 			"anio": 1813,
 			"lat": 39.54,
 			"lng": -76.08,
 			"wiki": "en:Raid on Havre de Grace"
 		},
 		{
+			"id": "masacre-del-fuerte-mims",
 			"nombre": "Masacre del Fuerte Mims",
-			"nombre_en": "Fort Mims massacre",
 			"anio": 1813,
 			"lat": 31.18,
 			"lng": -87.84
 		},
 		{
+			"id": "segunda-batalla-de-sacket-s-harbor",
 			"nombre": "Segunda batalla de Sacket's Harbor",
-			"nombre_en": "Second Battle of Sacket's Harbor",
 			"anio": 1813,
 			"lat": 43.95,
 			"lng": -76.13
 		},
 		{
+			"id": "batalla-de-baltimore",
 			"nombre": "Batalla de Baltimore",
-			"nombre_en": "Battle of Baltimore",
 			"anio": 1814,
 			"lat": 39.26,
 			"lng": -76.58
 		},
 		{
+			"id": "batalla-de-big-sandy-creek",
 			"nombre": "Batalla de Big Sandy Creek",
-			"nombre_en": "Battle of Big Sandy Creek",
 			"anio": 1814,
 			"lat": 43.71,
 			"lng": -76.18
 		},
 		{
+			"id": "batalla-de-calebee-creek",
 			"nombre": "Batalla de Calebee Creek",
-			"nombre_en": "Battle of Calebee Creek",
 			"anio": 1814,
 			"lat": 32.41,
 			"lng": -85.7
 		},
 		{
+			"id": "batalla-de-caulk-s-field",
 			"nombre": "Batalla de Caulk's Field",
-			"nombre_en": "Battle of Caulk's Field",
 			"anio": 1814,
 			"lat": 39.21,
 			"lng": -76.2
 		},
 		{
+			"id": "batalla-de-chippawa",
 			"nombre": "Batalla de Chippawa",
-			"nombre_en": "Battle of Chippawa",
 			"anio": 1814,
 			"lat": 43.05,
 			"lng": -79.02
 		},
 		{
+			"id": "batalla-de-cook-s-mills",
 			"nombre": "Batalla de Cook's Mills",
-			"nombre_en": "Battle of Cook's Mills",
 			"anio": 1814,
 			"lat": 43.0,
 			"lng": -79.17
 		},
 		{
+			"id": "batalla-de-credit-island",
 			"nombre": "Batalla de Credit Island",
-			"nombre_en": "Battle of Credit Island",
 			"anio": 1814,
 			"lat": 41.5,
 			"lng": -90.62,
 			"wiki": "en:Battle of Credit Island"
 		},
 		{
+			"id": "batalla-de-fort-oswego",
 			"nombre": "Batalla de Fort Oswego",
-			"nombre_en": "Battle of Fort Oswego",
 			"anio": 1814,
 			"lat": 43.47,
 			"lng": -76.51
 		},
 		{
+			"id": "batalla-de-hampden",
 			"nombre": "Batalla de Hampden",
-			"nombre_en": "Battle of Hampden",
 			"anio": 1814,
 			"lat": 44.74,
 			"lng": -68.84
 		},
 		{
+			"id": "batalla-de-horseshoe-bend",
 			"nombre": "Batalla de Horseshoe Bend",
-			"nombre_en": "Battle of Horseshoe Bend",
 			"anio": 1814,
 			"lat": 32.98,
 			"lng": -85.74
 		},
 		{
+			"id": "batalla-de-lacolle-mills-1814",
 			"nombre": "Batalla de Lacolle Mills",
-			"nombre_en": "Battle of Lacolle Mills",
 			"anio": 1814,
 			"lat": 45.07,
 			"lng": -73.34
 		},
 		{
+			"id": "batalla-de-longwoods",
 			"nombre": "Batalla de Longwoods",
-			"nombre_en": "Battle of Longwoods",
 			"anio": 1814,
 			"lat": 42.69,
 			"lng": -81.7
 		},
 		{
+			"id": "batalla-de-lundy-s-lane",
 			"nombre": "Batalla de Lundy's Lane",
-			"nombre_en": "Battle of Lundy's Lane",
 			"anio": 1814,
 			"lat": 43.09,
 			"lng": -79.1
 		},
 		{
+			"id": "batalla-de-mackinac-island",
 			"nombre": "Batalla de Mackinac Island",
-			"nombre_en": "Battle of Mackinac Island",
 			"anio": 1814,
 			"lat": 45.85,
 			"lng": -84.62
 		},
 		{
+			"id": "batalla-de-malcolm-s-mills",
 			"nombre": "Batalla de Malcolm's Mills",
-			"nombre_en": "Battle of Malcolm's Mills",
 			"anio": 1814,
 			"lat": 43.03,
 			"lng": -80.33
 		},
 		{
+			"id": "batalla-de-north-point",
 			"nombre": "Batalla de North Point",
-			"nombre_en": "Battle of North Point",
 			"anio": 1814,
 			"lat": 39.28,
 			"lng": -76.49
 		},
 		{
+			"id": "batalla-de-plattsburgh",
 			"nombre": "Batalla de Plattsburgh",
-			"nombre_en": "Battle of Plattsburgh",
 			"anio": 1814,
 			"lat": 44.68,
 			"lng": -73.38
 		},
 		{
+			"id": "batallas-de-emuckfaw-y-enotachopo-creek",
 			"nombre": "Batallas de Emuckfaw y Enotachopo Creek",
-			"nombre_en": "Battles of Emuckfaw and Enotachopo Creek",
 			"anio": 1814,
 			"lat": 32.97,
 			"lng": -85.74,
 			"wiki": "en:Battles of Emuckfaw and Enotachopo Creek"
 		},
 		{
+			"id": "quema-de-washington",
 			"nombre": "Quema de Washington",
-			"nombre_en": "Burning of Washington",
 			"anio": 1814,
 			"lat": 38.9,
 			"lng": -77.04,
 			"descripcion": "Los británicos incendian el Capitolio y la Casa Blanca."
 		},
 		{
+			"id": "batalla-de-fort-peter",
 			"nombre": "Batalla de Fort Peter",
-			"nombre_en": "Battle of Fort Peter",
 			"anio": 1815,
 			"lat": 30.76,
 			"lng": -81.52
 		},
 		{
+			"id": "batalla-de-nueva-orleans",
 			"nombre": "Batalla de Nueva Orleans",
-			"nombre_en": "Battle of New Orleans",
 			"anio": 1815,
 			"lat": 29.94,
 			"lng": -89.99,
@@ -419,8 +418,8 @@
 			"bajas": "~2.000 bajas británicas"
 		},
 		{
+			"id": "batalla-del-sink-hole",
 			"nombre": "Batalla del Sink Hole",
-			"nombre_en": "Battle of the Sink Hole",
 			"anio": 1815,
 			"lat": 38.93,
 			"lng": -90.69,

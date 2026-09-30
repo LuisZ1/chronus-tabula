@@ -1,7 +1,6 @@
 {
 	"id": "lesoto",
 	"nombre": "Lesoto",
-	"nombre_en": "Lesotho",
 	"nombres": [
 		"Lesotho",
 		"Basutoland"
@@ -9,19 +8,16 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Moshoeshoe I (Basutolandia)",
-			"nombre_en": "Kingdom of Moshoeshoe I (Basutoland)",
 			"desde": 1824,
 			"hasta": 1868
 		},
 		{
 			"nombre": "Basutolandia (protectorado británico)",
-			"nombre_en": "Basutoland (British protectorate)",
 			"desde": 1868,
 			"hasta": 1966
 		},
 		{
 			"nombre": "Reino de Lesoto",
-			"nombre_en": "Kingdom of Lesotho",
 			"desde": 1966
 		}
 	],

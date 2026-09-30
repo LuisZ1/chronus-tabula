@@ -1,7 +1,6 @@
 {
 	"id": "zimbabue-pais",
 	"nombre": "Zimbabue",
-	"nombre_en": "Zimbabwe",
 	"nombres": [
 		"Zimbabwe",
 		"Rhodesia"
@@ -9,25 +8,21 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Rhodesia del Sur",
-			"nombre_en": "Southern Rhodesia",
 			"desde": 1898,
 			"hasta": 1965
 		},
 		{
 			"nombre": "Rhodesia",
-			"nombre_en": "Rhodesia",
 			"desde": 1965,
 			"hasta": 1979
 		},
 		{
 			"nombre": "Zimbabwe Rhodesia",
-			"nombre_en": "Zimbabwe Rhodesia",
 			"desde": 1979,
 			"hasta": 1979
 		},
 		{
 			"nombre": "Zimbabue",
-			"nombre_en": "Zimbabwe",
 			"desde": 1980,
 			"hasta": 2026
 		}

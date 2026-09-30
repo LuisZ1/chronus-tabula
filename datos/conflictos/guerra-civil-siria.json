@@ -1,7 +1,6 @@
 {
 	"id": "guerra-civil-siria",
 	"nombre": "Guerra civil siria",
-	"nombre_en": "Syrian civil war",
 	"inicio": 2011,
 	"fin": 2024,
 	"paises": [
@@ -16,8 +15,8 @@
 	"wiki": "Guerra civil siria",
 	"zonas": [
 		{
+			"id": "alzamiento-y-guerra-en-el-oeste",
 			"nombre": "Alzamiento y guerra en el oeste",
-			"nombre_en": "Uprising and war in the west",
 			"tipo": "frente",
 			"desde": 2011,
 			"hasta": 2018,
@@ -49,8 +48,8 @@
 			]
 		},
 		{
+			"id": "batalla-de-alepo",
 			"nombre": "Batalla de Alepo",
-			"nombre_en": "Battle of Aleppo",
 			"tipo": "frente",
 			"desde": 2012,
 			"hasta": 2016,
@@ -74,8 +73,8 @@
 			]
 		},
 		{
+			"id": "reducto-de-idlib",
 			"nombre": "Reducto de Idlib",
-			"nombre_en": "Idlib stronghold",
 			"tipo": "frente",
 			"desde": 2017,
 			"hasta": 2023,
@@ -99,8 +98,8 @@
 			]
 		},
 		{
+			"id": "ofensiva-final-alepo-damasco",
 			"nombre": "Ofensiva final (Alepo → Damasco)",
-			"nombre_en": "Final offensive (Aleppo → Damascus)",
 			"tipo": "frente",
 			"desde": 2024,
 			"hasta": 2024,
@@ -130,8 +129,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-alepo",
 			"nombre": "Batalla de Alepo",
-			"nombre_en": "Battle of Aleppo",
 			"anio": 2012,
 			"hasta": 2016,
 			"lat": 36.2,
@@ -140,31 +139,31 @@
 			"wiki": "Batalla de Alepo"
 		},
 		{
+			"id": "toma-de-palmira-por-el-ei",
 			"nombre": "Toma de Palmira por el EI",
-			"nombre_en": "Capture of Palmyra by the Islamic State",
 			"anio": 2015,
 			"lat": 34.55,
 			"lng": 38.28,
 			"descripcion": "El Estado Islámico destruye parte del patrimonio de la ciudad antigua."
 		},
 		{
+			"id": "ofensiva-de-guta-oriental",
 			"nombre": "Ofensiva de Guta Oriental",
-			"nombre_en": "Eastern Ghouta offensive",
 			"anio": 2018,
 			"lat": 33.52,
 			"lng": 36.4,
 			"descripcion": "El régimen recupera el cinturón rebelde de Damasco."
 		},
 		{
+			"id": "operacion-rama-de-olivo",
 			"nombre": "Operación Rama de Olivo",
-			"nombre_en": "Operation Olive Branch",
 			"anio": 2019,
 			"lat": 36.51,
 			"lng": 36.87
 		},
 		{
+			"id": "caida-de-damasco",
 			"nombre": "Caída de Damasco",
-			"nombre_en": "Fall of Damascus",
 			"anio": 2024,
 			"lat": 33.51,
 			"lng": 36.29,

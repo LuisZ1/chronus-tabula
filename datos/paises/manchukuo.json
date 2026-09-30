@@ -1,20 +1,17 @@
 {
 	"id": "manchukuo",
 	"nombre": "Manchukuo",
-	"nombre_en": "Manchukuo",
 	"nombres": [
 		"Manchuria"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Manchuria (República de China)",
-			"nombre_en": "Manchuria (Republic of China)",
 			"desde": 1912,
 			"hasta": 1931
 		},
 		{
 			"nombre": "Manchukuo (Estado títere japonés)",
-			"nombre_en": "Manchukuo (Japanese puppet state)",
 			"desde": 1932,
 			"hasta": 1945
 		}

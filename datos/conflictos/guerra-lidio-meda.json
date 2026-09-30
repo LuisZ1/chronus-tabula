@@ -1,7 +1,6 @@
 {
 	"id": "guerra-lidio-meda",
 	"nombre": "Guerra entre Lidia y Media",
-	"nombre_en": "Lydian–Median War",
 	"inicio": -590,
 	"fin": -585,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Batalla del Eclipse",
 	"zonas": [
 		{
+			"id": "rio-halys-k-z-l-rmak",
 			"nombre": "Río Halys (Kızılırmak)",
-			"nombre_en": "Halys River (Kızılırmak)",
 			"tipo": "frente",
 			"poligono": [
 				[

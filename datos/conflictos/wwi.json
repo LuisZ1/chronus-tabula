@@ -1,7 +1,6 @@
 {
 	"id": "wwi",
 	"nombre": "Primera Guerra Mundial",
-	"nombre_en": "World War I",
 	"inicio": 1914,
 	"fin": 1918,
 	"paises": [
@@ -19,8 +18,8 @@
 	"wiki": "Primera Guerra Mundial",
 	"zonas": [
 		{
+			"id": "frente-occidental",
 			"nombre": "Frente occidental",
-			"nombre_en": "Western Front",
 			"tipo": "frente",
 			"desde": 1914,
 			"hasta": 1918,
@@ -56,8 +55,8 @@
 			]
 		},
 		{
+			"id": "frente-oriental",
 			"nombre": "Frente oriental",
-			"nombre_en": "Eastern Front",
 			"tipo": "frente",
 			"desde": 1914,
 			"hasta": 1917,
@@ -89,8 +88,8 @@
 			]
 		},
 		{
+			"id": "serbia-y-balcanes",
 			"nombre": "Serbia y Balcanes",
-			"nombre_en": "Serbia and the Balkans",
 			"tipo": "frente",
 			"desde": 1914,
 			"hasta": 1918,
@@ -118,8 +117,8 @@
 			]
 		},
 		{
+			"id": "galipoli",
 			"nombre": "Galípoli",
-			"nombre_en": "Gallipoli",
 			"tipo": "frente",
 			"desde": 1915,
 			"hasta": 1916,
@@ -143,8 +142,8 @@
 			]
 		},
 		{
+			"id": "frente-italiano-isonzo",
 			"nombre": "Frente italiano (Isonzo)",
-			"nombre_en": "Italian Front (Isonzo)",
 			"tipo": "frente",
 			"desde": 1915,
 			"hasta": 1918,
@@ -168,8 +167,8 @@
 			]
 		},
 		{
+			"id": "mar-del-norte-bloqueo-y-jutlandia",
 			"nombre": "Mar del Norte (bloqueo y Jutlandia)",
-			"nombre_en": "North Sea (blockade and Jutland)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1914,
@@ -196,29 +195,29 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-antivari",
 			"nombre": "Batalla de Antivari",
-			"nombre_en": "Battle of Antivari",
 			"anio": 1914,
 			"lat": 42.1,
 			"lng": 19.05
 		},
 		{
+			"id": "batalla-de-donon",
 			"nombre": "Batalla de Donon",
-			"nombre_en": "Battle of Donon",
 			"anio": 1914,
 			"lat": 48.51,
 			"lng": 7.17
 		},
 		{
+			"id": "batalla-de-monchy-au-bois",
 			"nombre": "Batalla de Monchy-au-Bois",
-			"nombre_en": "Battle of Monchy-au-Bois",
 			"anio": 1914,
 			"lat": 50.18,
 			"lng": 2.66
 		},
 		{
+			"id": "batalla-de-tannenberg",
 			"nombre": "Batalla de Tannenberg",
-			"nombre_en": "Battle of Tannenberg",
 			"anio": 1914,
 			"lat": 53.49,
 			"lng": 20.13,
@@ -226,22 +225,22 @@
 			"wiki": "Batalla de Tannenberg (1914)"
 		},
 		{
+			"id": "batalla-del-mosa-1914",
 			"nombre": "Batalla del Mosa (1914)",
-			"nombre_en": "Battle of the Meuse (1914)",
 			"anio": 1914,
 			"lat": 49.7,
 			"lng": 4.94
 		},
 		{
+			"id": "bombardeo-de-odesa",
 			"nombre": "Bombardeo de Odesa",
-			"nombre_en": "Bombardment of Odessa",
 			"anio": 1914,
 			"lat": 46.47,
 			"lng": 30.73
 		},
 		{
+			"id": "primera-batalla-del-marne",
 			"nombre": "Primera batalla del Marne",
-			"nombre_en": "First Battle of the Marne",
 			"anio": 1914,
 			"lat": 48.95,
 			"lng": 3.4,
@@ -249,36 +248,36 @@
 			"bajas": "~500.000 bajas"
 		},
 		{
+			"id": "segunda-batalla-de-cracovia",
 			"nombre": "Segunda batalla de Cracovia",
-			"nombre_en": "Second Battle of Kraków",
 			"anio": 1914,
 			"lat": 50.06,
 			"lng": 19.94
 		},
 		{
+			"id": "batalla-de-durazzo-1915",
 			"nombre": "Batalla de Durazzo",
-			"nombre_en": "Battle of Durazzo",
 			"anio": 1915,
 			"lat": 41.28,
 			"lng": 19.33
 		},
 		{
+			"id": "batalla-del-golfo-de-riga",
 			"nombre": "Batalla del golfo de Riga",
-			"nombre_en": "Battle of the Gulf of Riga",
 			"anio": 1915,
 			"lat": 57.75,
 			"lng": 23.5
 		},
 		{
+			"id": "batallas-de-przasnysz",
 			"nombre": "Batallas de Przasnysz",
-			"nombre_en": "Battles of Przasnysz",
 			"anio": 1915,
 			"lat": 52.13,
 			"lng": 20.05
 		},
 		{
+			"id": "galipoli",
 			"nombre": "Galípoli",
-			"nombre_en": "Gallipoli",
 			"anio": 1915,
 			"lat": 40.24,
 			"lng": 26.28,
@@ -286,8 +285,8 @@
 			"bajas": "~500.000 bajas"
 		},
 		{
+			"id": "batalla-de-jutlandia",
 			"nombre": "Batalla de Jutlandia",
-			"nombre_en": "Battle of Jutland",
 			"anio": 1916,
 			"lat": 56.7,
 			"lng": 5.9,
@@ -295,8 +294,8 @@
 			"wiki": "Batalla de Jutlandia"
 		},
 		{
+			"id": "batalla-de-verdun",
 			"nombre": "Batalla de Verdún",
-			"nombre_en": "Battle of Verdun",
 			"anio": 1916,
 			"lat": 49.2,
 			"lng": 5.43,
@@ -304,8 +303,8 @@
 			"bajas": "~700.000 bajas"
 		},
 		{
+			"id": "batalla-del-somme",
 			"nombre": "Batalla del Somme",
-			"nombre_en": "Battle of the Somme",
 			"anio": 1916,
 			"lat": 50.02,
 			"lng": 2.65,
@@ -313,8 +312,8 @@
 			"bajas": "~1.000.000 de bajas"
 		},
 		{
+			"id": "ofensiva-brusilov",
 			"nombre": "Ofensiva Brusílov",
-			"nombre_en": "Brusilov offensive",
 			"anio": 1916,
 			"lat": 50.75,
 			"lng": 25.33,
@@ -322,22 +321,22 @@
 			"wiki": "Ofensiva Brusílov"
 		},
 		{
+			"id": "ofensiva-de-monastir",
 			"nombre": "Ofensiva de Monastir",
-			"nombre_en": "Monastir offensive",
 			"anio": 1916,
 			"lat": 41.03,
 			"lng": 21.42
 		},
 		{
+			"id": "batalla-de-cambrai",
 			"nombre": "Batalla de Cambrai",
-			"nombre_en": "Battle of Cambrai",
 			"anio": 1917,
 			"lat": 50.12,
 			"lng": 3.12
 		},
 		{
+			"id": "batalla-de-caporetto",
 			"nombre": "Batalla de Caporetto",
-			"nombre_en": "Battle of Caporetto",
 			"anio": 1917,
 			"lat": 46.25,
 			"lng": 13.58,
@@ -345,8 +344,8 @@
 			"wiki": "Batalla de Caporetto"
 		},
 		{
+			"id": "batalla-de-passchendaele",
 			"nombre": "Batalla de Passchendaele",
-			"nombre_en": "Battle of Passchendaele",
 			"anio": 1917,
 			"lat": 50.9,
 			"lng": 3.02,
@@ -354,141 +353,141 @@
 			"wiki": "Batalla de Passchendaele"
 		},
 		{
+			"id": "segunda-batalla-del-aisne-ofensiva-nivelle",
 			"nombre": "Segunda batalla del Aisne (ofensiva Nivelle)",
-			"nombre_en": "Second Battle of the Aisne (Nivelle offensive)",
 			"anio": 1917,
 			"lat": 49.4,
 			"lng": 3.6
 		},
 		{
+			"id": "batalla-de-amiens",
 			"nombre": "Batalla de Amiens",
-			"nombre_en": "Battle of Amiens",
 			"anio": 1918,
 			"lat": 49.89,
 			"lng": 2.29
 		},
 		{
+			"id": "batalla-de-belleau-wood",
 			"nombre": "Batalla de Belleau Wood",
-			"nombre_en": "Battle of Belleau Wood",
 			"anio": 1918,
 			"lat": 49.07,
 			"lng": 3.29
 		},
 		{
+			"id": "batalla-de-blanc-mont-ridge",
 			"nombre": "Batalla de Blanc Mont Ridge",
-			"nombre_en": "Battle of Blanc Mont Ridge",
 			"anio": 1918,
 			"lat": 48.79,
 			"lng": 4.44
 		},
 		{
+			"id": "batalla-de-cantigny",
 			"nombre": "Batalla de Cantigny",
-			"nombre_en": "Battle of Cantigny",
 			"anio": 1918,
 			"lat": 49.66,
 			"lng": 2.49
 		},
 		{
+			"id": "batalla-de-chateau-thierry",
 			"nombre": "Batalla de Château-Thierry",
-			"nombre_en": "Battle of Château-Thierry",
 			"anio": 1918,
 			"lat": 49.04,
 			"lng": 3.37
 		},
 		{
+			"id": "batalla-de-durazzo-1918",
 			"nombre": "Batalla de Durazzo",
-			"nombre_en": "Battle of Durazzo",
 			"anio": 1918,
 			"lat": 41.25,
 			"lng": 19.33
 		},
 		{
+			"id": "batalla-de-hamel",
 			"nombre": "Batalla de Hamel",
-			"nombre_en": "Battle of Hamel",
 			"anio": 1918,
 			"lat": 49.9,
 			"lng": 2.58
 		},
 		{
+			"id": "batalla-de-imbros",
 			"nombre": "Batalla de Imbros",
-			"nombre_en": "Battle of Imbros",
 			"anio": 1918,
 			"lat": 40.23,
 			"lng": 25.97
 		},
 		{
+			"id": "batalla-de-la-lys",
 			"nombre": "Batalla de La Lys",
-			"nombre_en": "Battle of the Lys",
 			"anio": 1918,
 			"lat": 50.71,
 			"lng": 2.9
 		},
 		{
+			"id": "batalla-de-saint-mihiel",
 			"nombre": "Batalla de Saint-Mihiel",
-			"nombre_en": "Battle of Saint-Mihiel",
 			"anio": 1918,
 			"lat": 48.89,
 			"lng": 5.54
 		},
 		{
+			"id": "batalla-de-soissons",
 			"nombre": "Batalla de Soissons",
-			"nombre_en": "Battle of Soissons",
 			"anio": 1918,
 			"lat": 49.38,
 			"lng": 3.32
 		},
 		{
+			"id": "batalla-de-st-quentin-canal",
 			"nombre": "Batalla de St. Quentin Canal",
-			"nombre_en": "Battle of the St. Quentin Canal",
 			"anio": 1918,
 			"lat": 49.98,
 			"lng": 3.23
 		},
 		{
+			"id": "batalla-de-vittorio-veneto",
 			"nombre": "Batalla de Vittorio Veneto",
-			"nombre_en": "Battle of Vittorio Veneto",
 			"anio": 1918,
 			"lat": 45.96,
 			"lng": 12.35
 		},
 		{
+			"id": "batalla-del-sambre-1918",
 			"nombre": "Batalla del Sambre (1918)",
-			"nombre_en": "Battle of the Sambre (1918)",
 			"anio": 1918,
 			"lat": 50.47,
 			"lng": 4.87
 		},
 		{
+			"id": "marcha-sobre-hielo-de-la-flota-del-baltico",
 			"nombre": "Marcha sobre hielo de la Flota del Báltico",
-			"nombre_en": "Ice Cruise of the Baltic Fleet",
 			"anio": 1918,
 			"lat": 58.62,
 			"lng": 20.42
 		},
 		{
+			"id": "operacion-michael",
 			"nombre": "Operación Michael",
-			"nombre_en": "Operation Michael",
 			"anio": 1918,
 			"lat": 49.85,
 			"lng": 3.28
 		},
 		{
+			"id": "segunda-batalla-del-marne",
 			"nombre": "Segunda batalla del Marne",
-			"nombre_en": "Second Battle of the Marne",
 			"anio": 1918,
 			"lat": 49.08,
 			"lng": 3.67
 		},
 		{
+			"id": "segunda-batalla-del-somme",
 			"nombre": "Segunda batalla del Somme",
-			"nombre_en": "Second Battle of the Somme",
 			"anio": 1918,
 			"lat": 50.02,
 			"lng": 2.8
 		},
 		{
+			"id": "tercera-batalla-del-aisne",
 			"nombre": "Tercera batalla del Aisne",
-			"nombre_en": "Third Battle of the Aisne",
 			"anio": 1918,
 			"lat": 49.38,
 			"lng": 3.73

@@ -1,20 +1,17 @@
 {
 	"id": "liberia",
 	"nombre": "Liberia",
-	"nombre_en": "Liberia",
 	"nombres": [
 		"Liberia"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Colonia de la Sociedad Americana de Colonización (Mancomunidad de Liberia)",
-			"nombre_en": "Colony of the American Colonization Society (Commonwealth of Liberia)",
 			"desde": 1822,
 			"hasta": 1847
 		},
 		{
 			"nombre": "República de Liberia",
-			"nombre_en": "Republic of Liberia",
 			"desde": 1847,
 			"hasta": 2026
 		}

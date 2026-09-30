@@ -1,7 +1,6 @@
 {
 	"id": "india-britanica",
 	"nombre": "Conquista británica de la India",
-	"nombre_en": "British conquest of India",
 	"inicio": 1757,
 	"fin": 1818,
 	"paises": [
@@ -15,8 +14,8 @@
 	"wiki": "Compañía Británica de las Indias Orientales",
 	"zonas": [
 		{
+			"id": "bengala",
 			"nombre": "Bengala",
-			"nombre_en": "Bengal",
 			"tipo": "frente",
 			"desde": 1757,
 			"hasta": 1765,
@@ -40,8 +39,8 @@
 			]
 		},
 		{
+			"id": "mysore-tipu-sultan",
 			"nombre": "Mysore (Tipu Sultán)",
-			"nombre_en": "Mysore (Tipu Sultan)",
 			"tipo": "frente",
 			"desde": 1767,
 			"hasta": 1799,
@@ -65,8 +64,8 @@
 			]
 		},
 		{
+			"id": "guerras-maratha",
 			"nombre": "Guerras maratha",
-			"nombre_en": "Maratha Wars",
 			"tipo": "frente",
 			"desde": 1775,
 			"hasta": 1818,
@@ -90,8 +89,8 @@
 			]
 		},
 		{
+			"id": "india-de-la-compania",
 			"nombre": "India de la Compañía",
-			"nombre_en": "Company India",
 			"tipo": "ocupado",
 			"desde": 1765,
 			"hasta": 1818,
@@ -125,24 +124,24 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-plassey",
 			"nombre": "Batalla de Plassey",
-			"nombre_en": "Battle of Plassey",
 			"anio": 1757,
 			"lat": 23.8,
 			"lng": 88.25,
 			"descripcion": "Clive, con 3.000 hombres y sobornos, gana Bengala."
 		},
 		{
+			"id": "caida-de-seringapatam",
 			"nombre": "Caída de Seringapatam",
-			"nombre_en": "Fall of Seringapatam",
 			"anio": 1799,
 			"lat": 12.42,
 			"lng": 76.7,
 			"descripcion": "Muere Tipu Sultán, el «Tigre de Mysore»."
 		},
 		{
+			"id": "batalla-de-assaye",
 			"nombre": "Batalla de Assaye",
-			"nombre_en": "Battle of Assaye",
 			"anio": 1803,
 			"lat": 20.25,
 			"lng": 75.89,

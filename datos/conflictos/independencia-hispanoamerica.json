@@ -1,7 +1,6 @@
 {
 	"id": "independencia-hispanoamerica",
 	"nombre": "Independencia hispanoamericana",
-	"nombre_en": "Spanish American wars of independence",
 	"inicio": 1810,
 	"fin": 1826,
 	"paises": [
@@ -18,8 +17,8 @@
 	"wiki": "Guerras de independencia hispanoamericanas",
 	"zonas": [
 		{
+			"id": "nueva-espana-mexico",
 			"nombre": "Nueva España (México)",
-			"nombre_en": "New Spain (Mexico)",
 			"tipo": "frente",
 			"desde": 1810,
 			"hasta": 1821,
@@ -43,8 +42,8 @@
 			]
 		},
 		{
+			"id": "venezuela-y-nueva-granada",
 			"nombre": "Venezuela y Nueva Granada",
-			"nombre_en": "Venezuela and New Granada",
 			"tipo": "frente",
 			"desde": 1810,
 			"hasta": 1823,
@@ -76,8 +75,8 @@
 			]
 		},
 		{
+			"id": "rio-de-la-plata-y-chile",
 			"nombre": "Río de la Plata y Chile",
-			"nombre_en": "Río de la Plata and Chile",
 			"tipo": "frente",
 			"desde": 1810,
 			"hasta": 1818,
@@ -105,8 +104,8 @@
 			]
 		},
 		{
+			"id": "peru-y-alto-peru",
 			"nombre": "Perú y Alto Perú",
-			"nombre_en": "Peru and Upper Peru",
 			"tipo": "frente",
 			"desde": 1820,
 			"hasta": 1826,
@@ -140,8 +139,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-chacabuco",
 			"nombre": "Batalla de Chacabuco",
-			"nombre_en": "Battle of Chacabuco",
 			"anio": 1817,
 			"lat": -32.99,
 			"lng": -70.66,
@@ -149,8 +148,8 @@
 			"wiki": "Batalla de Chacabuco"
 		},
 		{
+			"id": "batalla-de-maipu",
 			"nombre": "Batalla de Maipú",
-			"nombre_en": "Battle of Maipú",
 			"anio": 1818,
 			"lat": -33.51,
 			"lng": -70.77,
@@ -158,16 +157,16 @@
 			"wiki": "Batalla de Maipú"
 		},
 		{
+			"id": "batalla-de-boyaca",
 			"nombre": "Batalla de Boyacá",
-			"nombre_en": "Battle of Boyacá",
 			"anio": 1819,
 			"lat": 5.45,
 			"lng": -73.42,
 			"descripcion": "Bolívar asegura la independencia de Nueva Granada."
 		},
 		{
+			"id": "batalla-de-carabobo",
 			"nombre": "Batalla de Carabobo",
-			"nombre_en": "Battle of Carabobo",
 			"anio": 1821,
 			"lat": 9.97,
 			"lng": -68.12,
@@ -175,15 +174,15 @@
 			"wiki": "Batalla de Carabobo (1821)"
 		},
 		{
+			"id": "batalla-de-pichincha",
 			"nombre": "Batalla de Pichincha",
-			"nombre_en": "Battle of Pichincha",
 			"anio": 1822,
 			"lat": -0.22,
 			"lng": -78.53
 		},
 		{
+			"id": "batalla-de-ayacucho",
 			"nombre": "Batalla de Ayacucho",
-			"nombre_en": "Battle of Ayacucho",
 			"anio": 1824,
 			"lat": -13.65,
 			"lng": -74.22,
@@ -191,8 +190,8 @@
 			"bajas": "~2.100 muertos"
 		},
 		{
+			"id": "batalla-de-junin",
 			"nombre": "Batalla de Junín",
-			"nombre_en": "Battle of Junín",
 			"anio": 1824,
 			"lat": -11.03,
 			"lng": -76.08,

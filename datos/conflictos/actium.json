@@ -1,7 +1,6 @@
 {
 	"id": "actium",
 	"nombre": "Guerra final de la República romana",
-	"nombre_en": "Final War of the Roman Republic",
 	"inicio": -32,
 	"fin": -30,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Batalla de Accio",
 	"zonas": [
 		{
+			"id": "mar-jonico-accio",
 			"nombre": "Mar Jónico (Accio)",
-			"nombre_en": "Ionian Sea (Actium)",
 			"tipo": "frente",
 			"mar": true,
 			"desde": -31,
@@ -39,8 +38,8 @@
 			]
 		},
 		{
+			"id": "egipto",
 			"nombre": "Egipto",
-			"nombre_en": "Egypt",
 			"tipo": "frente",
 			"desde": -30,
 			"hasta": -30,
@@ -66,16 +65,16 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-accio",
 			"nombre": "Batalla de Accio",
-			"nombre_en": "Battle of Actium",
 			"anio": -31,
 			"lat": 38.94,
 			"lng": 20.77,
 			"descripcion": "Agripa destruye la flota de Antonio y Cleopatra."
 		},
 		{
+			"id": "toma-de-alejandria",
 			"nombre": "Toma de Alejandría",
-			"nombre_en": "Capture of Alexandria",
 			"anio": -30,
 			"lat": 31.2,
 			"lng": 29.92,

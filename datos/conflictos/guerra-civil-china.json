@@ -1,7 +1,6 @@
 {
 	"id": "guerra-civil-china",
 	"nombre": "Guerra civil china",
-	"nombre_en": "Chinese Civil War",
 	"inicio": 1927,
 	"fin": 1949,
 	"paises": [
@@ -12,8 +11,8 @@
 	"wiki": "Guerra civil china",
 	"zonas": [
 		{
+			"id": "soviets-del-sur-y-larga-marcha",
 			"nombre": "Sóviets del sur y Larga Marcha",
-			"nombre_en": "Southern soviets and the Long March",
 			"tipo": "frente",
 			"desde": 1927,
 			"hasta": 1936,
@@ -37,8 +36,8 @@
 			]
 		},
 		{
+			"id": "ofensivas-finales-manchuria-y-llanura-central",
 			"nombre": "Ofensivas finales (Manchuria y llanura central)",
-			"nombre_en": "Final offensives (Manchuria and the Central Plain)",
 			"tipo": "frente",
 			"desde": 1946,
 			"hasta": 1949,
@@ -68,8 +67,8 @@
 	],
 	"batallas": [
 		{
+			"id": "campana-de-huaihai",
 			"nombre": "Campaña de Huaihai",
-			"nombre_en": "Huaihai campaign",
 			"anio": 1948,
 			"hasta": 1949,
 			"lat": 34.26,
@@ -77,8 +76,8 @@
 			"descripcion": "Medio millón de soldados del KMT aniquilados o capturados: la batalla decisiva."
 		},
 		{
+			"id": "toma-de-pekin",
 			"nombre": "Toma de Pekín",
-			"nombre_en": "Capture of Beijing",
 			"anio": 1949,
 			"lat": 39.9,
 			"lng": 116.4,

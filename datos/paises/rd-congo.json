@@ -1,7 +1,6 @@
 {
 	"id": "rd-congo",
 	"nombre": "RD del Congo",
-	"nombre_en": "DR Congo",
 	"nombres": [
 		"Zaire",
 		"Belgian Congo",
@@ -11,25 +10,21 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Congo Belga",
-			"nombre_en": "Belgian Congo",
 			"desde": 1908,
 			"hasta": 1960
 		},
 		{
 			"nombre": "Congo (Léopoldville)",
-			"nombre_en": "Congo (Léopoldville)",
 			"desde": 1960,
 			"hasta": 1971
 		},
 		{
 			"nombre": "Zaire",
-			"nombre_en": "Zaire",
 			"desde": 1971,
 			"hasta": 1997
 		},
 		{
 			"nombre": "RD del Congo",
-			"nombre_en": "DR Congo",
 			"desde": 1997
 		}
 	],

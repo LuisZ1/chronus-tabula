@@ -1,7 +1,6 @@
 {
 	"id": "camerun",
 	"nombre": "Camerún",
-	"nombre_en": "Cameroon",
 	"nombres": [
 		"Cameroon",
 		"Kamerun"
@@ -9,37 +8,31 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Kamerun (colonia alemana)",
-			"nombre_en": "Kamerun (German colony)",
 			"desde": 1884,
 			"hasta": 1919
 		},
 		{
 			"nombre": "Cameroun francés / Cameroons británico (mandatos)",
-			"nombre_en": "French Cameroun / British Cameroons (mandates)",
 			"desde": 1919,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República de Camerún",
-			"nombre_en": "Republic of Cameroon",
 			"desde": 1960,
 			"hasta": 1961
 		},
 		{
 			"nombre": "República Federal de Camerún",
-			"nombre_en": "Federal Republic of Cameroon",
 			"desde": 1961,
 			"hasta": 1972
 		},
 		{
 			"nombre": "República Unida de Camerún",
-			"nombre_en": "United Republic of Cameroon",
 			"desde": 1972,
 			"hasta": 1984
 		},
 		{
 			"nombre": "República de Camerún",
-			"nombre_en": "Republic of Cameroon",
 			"desde": 1984,
 			"hasta": 2026
 		}

@@ -1,7 +1,6 @@
 {
 	"id": "guerra-ruso-japonesa",
 	"nombre": "Guerra ruso-japonesa",
-	"nombre_en": "Russo-Japanese War",
 	"inicio": 1904,
 	"fin": 1905,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Guerra ruso-japonesa",
 	"zonas": [
 		{
+			"id": "manchuria-meridional",
 			"nombre": "Manchuria meridional",
-			"nombre_en": "Southern Manchuria",
 			"tipo": "frente",
 			"desde": 1904,
 			"hasta": 1905,
@@ -38,8 +37,8 @@
 			]
 		},
 		{
+			"id": "estrecho-de-tsushima",
 			"nombre": "Estrecho de Tsushima",
-			"nombre_en": "Tsushima Strait",
 			"tipo": "frente",
 			"mar": true,
 			"desde": 1905,
@@ -66,8 +65,8 @@
 	],
 	"batallas": [
 		{
+			"id": "sitio-de-port-arthur",
 			"nombre": "Sitio de Port Arthur",
-			"nombre_en": "Siege of Port Arthur",
 			"anio": 1904,
 			"hasta": 1905,
 			"lat": 38.82,
@@ -76,16 +75,16 @@
 			"wiki": "Sitio de Port Arthur"
 		},
 		{
+			"id": "batalla-de-mukden",
 			"nombre": "Batalla de Mukden",
-			"nombre_en": "Battle of Mukden",
 			"anio": 1905,
 			"lat": 41.8,
 			"lng": 123.43,
 			"descripcion": "La mayor batalla terrestre hasta entonces: más de 600.000 combatientes."
 		},
 		{
+			"id": "batalla-de-tsushima",
 			"nombre": "Batalla de Tsushima",
-			"nombre_en": "Battle of Tsushima",
 			"anio": 1905,
 			"lat": 34.45,
 			"lng": 130.15,

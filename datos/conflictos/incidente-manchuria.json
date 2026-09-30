@@ -1,7 +1,6 @@
 {
 	"id": "incidente-manchuria",
 	"nombre": "Incidente de Manchuria",
-	"nombre_en": "Manchurian Incident",
 	"inicio": 1931,
 	"fin": 1932,
 	"paises": [
@@ -13,8 +12,8 @@
 	"wiki": "Incidente de Mukden",
 	"zonas": [
 		{
+			"id": "manchuria-ocupada",
 			"nombre": "Manchuria ocupada",
-			"nombre_en": "Occupied Manchuria",
 			"tipo": "ocupado",
 			"desde": 1931,
 			"hasta": 1932,
@@ -40,8 +39,8 @@
 	],
 	"batallas": [
 		{
+			"id": "incidente-de-mukden",
 			"nombre": "Incidente de Mukden",
-			"nombre_en": "Mukden Incident",
 			"anio": 1931,
 			"lat": 41.8,
 			"lng": 123.43,

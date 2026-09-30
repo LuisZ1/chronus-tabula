@@ -1,7 +1,6 @@
 {
 	"id": "guerra-civil-castellana",
 	"nombre": "Primera guerra civil castellana",
-	"nombre_en": "First Castilian Civil War",
 	"inicio": 1351,
 	"fin": 1369,
 	"paises": [
@@ -14,8 +13,8 @@
 	"wiki": "Primera guerra civil castellana",
 	"zonas": [
 		{
+			"id": "castilla",
 			"nombre": "Castilla",
-			"nombre_en": "Castile",
 			"tipo": "frente",
 			"desde": 1366,
 			"hasta": 1369,
@@ -41,8 +40,8 @@
 	],
 	"batallas": [
 		{
+			"id": "batalla-de-najera",
 			"nombre": "Batalla de Nájera",
-			"nombre_en": "Battle of Nájera",
 			"anio": 1367,
 			"lat": 42.43,
 			"lng": -2.7,
@@ -50,8 +49,8 @@
 			"wiki": "Batalla de Nájera"
 		},
 		{
+			"id": "batalla-de-montiel",
 			"nombre": "Batalla de Montiel",
-			"nombre_en": "Battle of Montiel",
 			"anio": 1369,
 			"lat": 38.7,
 			"lng": -2.87,
