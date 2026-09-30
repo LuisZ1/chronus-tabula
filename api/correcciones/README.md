@@ -25,7 +25,7 @@
 | `35-euratlas-bajas-moderna.json` | 1492 y 1500: la Pale («Lordship of Ireland») y la Irlanda gaélica; 2000 y 2010: «Byelarus» → «Belarus» (2011 y 2020 lo heredan; 1994 no, porque `40-contemporanea.json` crea 1990 desde él con «Byelarus»). Cruza épocas a propósito (bajas del resumen Euratlas) | regiones en línea |
 | `40-contemporanea.json` | ≥ 1816 | `api/geo/correcciones/contemporanea-*.geojson` |
 
-Cada época edita solo su fichero y sus geometrías. `00-ejemplo.json` está vacío y sirve de plantilla. `world_2011` no se corrige, porque lo genera `api/derivar_mapas.py` a partir de `world_2010`: se corrige `world_2010` y el cambio pasa a 2011.
+Cada época edita solo su fichero y sus geometrías. `00-ejemplo.json` está vacío y sirve de plantilla. `world_2011` y `world_2020` se crean en `40-contemporanea.json` a partir de `world_2010` (Sudán del Sur, con la geometría de Natural Earth y la tierra sobrante de la silueta de Sudán repartida entre sus vecinos: `api/geo/correcciones/sudan-del-sur-vecinos.geojson`).
 
 ## Formato
 

@@ -4289,6 +4289,107 @@
     "fuente": "https://es.wikipedia.org/wiki/Brun%C3%A9i"
    }
   ],
+  "world_2011.geojson<world_2010.geojson": [
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/sudan-del-sur.ne50m.geojson"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "South Sudan",
+     "ABBREVN": "S. Sudan",
+     "SUBJECTO": "South Sudan",
+     "BORDERPRECISION": 3,
+     "PARTOF": "South Sudan"
+    },
+    "motivo": "independencia de Sudán del Sur, 9-7-2011 (ONU)",
+    "fuente": "Natural Earth 1:50m admin-0 (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Kenya"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kenya"
+    },
+    "motivo": "la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Kenya según Natural Earth (triángulo de Ilemi, administrado de facto por Kenia)",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Uganda"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Uganda"
+    },
+    "motivo": "la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Uganda según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Democratic Republic of the Congo"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Democratic Republic of the Congo"
+    },
+    "motivo": "la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Democratic Republic of the Congo según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Central African Republic"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Central African Republic"
+    },
+    "motivo": "la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Central African Republic según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Ethiopia"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ethiopia"
+    },
+    "motivo": "la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Ethiopia según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   }
+  ],
   "world_2020.geojson<world_2010.geojson": [
    {
     "op": "asignar",
@@ -4306,8 +4407,88 @@
      "BORDERPRECISION": 3,
      "PARTOF": "South Sudan"
     },
-    "motivo": "c05 · 2020: mapa actual: independencia de Sudán del Sur, 9-7-2011 (ONU); la misma geometría de Natural Earth que world_2011 (api/derivar_mapas.py)",
+    "motivo": "c05 · 2020: mapa actual: independencia de Sudán del Sur, 9-7-2011 (ONU); la misma geometría de Natural Earth que world_2011",
     "fuente": "Natural Earth 1:50m admin-0 (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Kenya"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Kenya"
+    },
+    "motivo": "c05 · 2020: la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Kenya según Natural Earth (triángulo de Ilemi, administrado de facto por Kenia)",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Uganda"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Uganda"
+    },
+    "motivo": "c05 · 2020: la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Uganda según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Democratic Republic of the Congo"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Democratic Republic of the Congo"
+    },
+    "motivo": "c05 · 2020: la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Democratic Republic of the Congo según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Central African Republic"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Central African Republic"
+    },
+    "motivo": "c05 · 2020: la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Central African Republic según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
+   },
+   {
+    "op": "asignar",
+    "region": {
+     "archivo": "api/geo/correcciones/sudan-del-sur-vecinos.geojson",
+     "nombre": "Ethiopia"
+    },
+    "desde": [
+     "Sudan"
+    ],
+    "libre": false,
+    "props": {
+     "NAME": "Ethiopia"
+    },
+    "motivo": "c05 · 2020: la silueta de Sudán del mapa base va más allá de la frontera de Sudán del Sur de Natural Earth y lo rodeaba con astillas de Sudán; esta tierra es de Ethiopia según Natural Earth",
+    "fuente": "Natural Earth 1:50m Admin 0 – Countries (dominio público)"
    },
    {
     "op": "renombrar",
