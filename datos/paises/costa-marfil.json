@@ -99,39 +99,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Costa de Marfil",
 			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Ivory Coast",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ivory_Coast",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-demo",
+			"id": "wikipedia-en:Demographics of Ivory Coast",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Ivory_Coast",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1008",
 			"url": "https://www.wikidata.org/wiki/Q1008",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Costa de Marfil",
+			"id": "wikipedia-es:Costa de Marfil",
 			"url": "https://es.wikipedia.org/wiki/Costa_de_Marfil",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1008",
+			"id": "wikidata:Q1008",
 			"url": "https://www.wikidata.org/wiki/Q1008",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1008",
+			"id": "wikidata:Q1008",
 			"url": "https://www.wikidata.org/wiki/Q1008",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

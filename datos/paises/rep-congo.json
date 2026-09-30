@@ -123,29 +123,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:República del Congo",
 			"url": "https://es.wikipedia.org/wiki/República_del_Congo",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q971",
 			"url": "https://www.wikidata.org/wiki/Q971",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): República del Congo",
+			"id": "wikipedia-es:República del Congo",
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_del_Congo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q971",
+			"id": "wikidata:Q971",
 			"url": "https://www.wikidata.org/wiki/Q971",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q971",
+			"id": "wikidata:Q971",
 			"url": "https://www.wikidata.org/wiki/Q971",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

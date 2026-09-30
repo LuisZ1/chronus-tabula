@@ -39,24 +39,25 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q17012",
+			"id": "wikidata:Q17012",
 			"url": "https://www.wikidata.org/wiki/Q17012",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Guadalupe",
+			"id": "wikipedia-es:Guadalupe (Francia)",
 			"url": "https://es.wikipedia.org/wiki/Guadalupe_(Francia)",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q17012",
+			"id": "wikidata:Q17012",
 			"url": "https://www.wikidata.org/wiki/Q17012",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q17012",
+			"id": "wikidata:Q17012",
 			"url": "https://www.wikidata.org/wiki/Q17012",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -68,7 +69,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q17012",
+			"id": "wikidata:Q17012",
 			"url": "https://www.wikidata.org/wiki/Q17012",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

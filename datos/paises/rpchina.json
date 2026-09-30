@@ -95,15 +95,13 @@
 			"consultado": "2026-09-07"
 		},
 		{
-			"id": "Wikipedia (es): República Popular China",
+			"id": "wikipedia-es:República Popular China",
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Popular_China",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-28"
 		}
 	],

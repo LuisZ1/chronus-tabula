@@ -104,34 +104,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Senegal",
 			"url": "https://es.wikipedia.org/wiki/Senegal",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia-es-presidentes",
+			"id": "wikipedia-es:Anexo:Presidentes de Senegal",
 			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Senegal",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1041",
 			"url": "https://www.wikidata.org/wiki/Q1041",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Senegal",
+			"id": "wikipedia-es:Senegal",
 			"url": "https://es.wikipedia.org/wiki/Senegal",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1041",
+			"id": "wikidata:Q1041",
 			"url": "https://www.wikidata.org/wiki/Q1041",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1041",
+			"id": "wikidata:Q1041",
 			"url": "https://www.wikidata.org/wiki/Q1041",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

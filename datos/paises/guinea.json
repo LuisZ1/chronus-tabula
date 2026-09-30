@@ -116,29 +116,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Guinea",
 			"url": "https://es.wikipedia.org/wiki/Guinea",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1006",
 			"url": "https://www.wikidata.org/wiki/Q1006",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Guinea",
+			"id": "wikipedia-es:Guinea",
 			"url": "https://es.wikipedia.org/wiki/Guinea",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1006",
+			"id": "wikidata:Q1006",
 			"url": "https://www.wikidata.org/wiki/Q1006",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1006",
+			"id": "wikidata:Q1006",
 			"url": "https://www.wikidata.org/wiki/Q1006",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

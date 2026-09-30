@@ -464,28 +464,29 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Egipto",
 			"url": "https://es.wikipedia.org/wiki/Egipto",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia-es-antiguo",
+			"id": "wikipedia-es:Antiguo Egipto",
 			"url": "https://es.wikipedia.org/wiki/Antiguo_Egipto",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q79",
 			"url": "https://www.wikidata.org/wiki/Q79",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Egipto",
+			"id": "wikipedia-es:Egipto",
 			"url": "https://es.wikipedia.org/wiki/Egipto",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -503,19 +504,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q79",
+			"id": "wikidata:Q79",
 			"url": "https://www.wikidata.org/wiki/Q79",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q79",
+			"id": "wikidata:Q79",
 			"url": "https://www.wikidata.org/wiki/Q79",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q79",
+			"id": "wikidata:Q79",
 			"url": "https://www.wikidata.org/wiki/Q79",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

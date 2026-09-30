@@ -104,29 +104,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki_es",
+			"id": "wikipedia-es:Kenia",
 			"url": "https://es.wikipedia.org/wiki/Kenia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q114",
 			"url": "https://www.wikidata.org/wiki/Q114",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Kenia",
+			"id": "wikipedia-es:Kenia",
 			"url": "https://es.wikipedia.org/wiki/Kenia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q114",
+			"id": "wikidata:Q114",
 			"url": "https://www.wikidata.org/wiki/Q114",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q114",
+			"id": "wikidata:Q114",
 			"url": "https://www.wikidata.org/wiki/Q114",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

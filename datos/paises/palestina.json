@@ -166,9 +166,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "ONU: resolución 67/19 de la Asamblea General (2012)",
-			"url": "https://digitallibrary.un.org/record/739660",
-			"licencia": "documento oficial",
+			"id": "web:onu-resolucion-67-19",
 			"consultado": "2026-09-09"
 		},
 		{
@@ -220,31 +218,29 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P1082:Q219060",
+			"id": "wikidata:Q219060",
 			"url": "https://www.wikidata.org/wiki/Q219060",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "Wikipedia (es): Estado de Palestina",
+			"id": "wikipedia-es:Palestina",
 			"url": "https://es.wikipedia.org/wiki/Palestina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P94:Q219060",
+			"id": "wikidata:Q219060",
 			"url": "https://www.wikidata.org/wiki/Q219060",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q219060",
+			"id": "wikidata:Q219060",
 			"url": "https://www.wikidata.org/wiki/Q219060",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

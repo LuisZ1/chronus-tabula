@@ -131,7 +131,7 @@ def main():
             m["fuente"] = "Wikidata (P1082)"
         payload = {
             "poblacion": muestra,
-            "fuente": {"id": f"wikidata:P1082:{p['wikidata']}",
+            "fuente": {"id": f"wikidata:{p['wikidata']}",
                        "url": f"https://www.wikidata.org/wiki/{p['wikidata']}",
                        "licencia": "CC0", "consultado": HOY},
         }

@@ -242,22 +242,25 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Etiopía",
 			"url": "https://es.wikipedia.org/wiki/Etiop%C3%ADa",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia-en-jefes",
+			"id": "wikipedia-en:List of heads of state of Ethiopia",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Ethiopia",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q115",
 			"url": "https://www.wikidata.org/wiki/Q115",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Etiopía",
+			"id": "wikipedia-es:Etiopía",
 			"url": "https://es.wikipedia.org/wiki/Etiop%C3%ADa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -281,19 +284,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q115",
+			"id": "wikidata:Q115",
 			"url": "https://www.wikidata.org/wiki/Q115",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q115",
+			"id": "wikidata:Q115",
 			"url": "https://www.wikidata.org/wiki/Q115",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q115",
+			"id": "wikidata:Q115",
 			"url": "https://www.wikidata.org/wiki/Q115",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

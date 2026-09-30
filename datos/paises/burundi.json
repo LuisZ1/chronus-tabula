@@ -158,34 +158,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki_es",
+			"id": "wikipedia-es:Burundi",
 			"url": "https://es.wikipedia.org/wiki/Burundi",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki_en_hos",
+			"id": "wikipedia-en:List of heads of state of Burundi",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burundi",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q967",
 			"url": "https://www.wikidata.org/wiki/Q967",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Burundi",
+			"id": "wikipedia-es:Burundi",
 			"url": "https://es.wikipedia.org/wiki/Burundi",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q967",
+			"id": "wikidata:Q967",
 			"url": "https://www.wikidata.org/wiki/Q967",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q967",
+			"id": "wikidata:Q967",
 			"url": "https://www.wikidata.org/wiki/Q967",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

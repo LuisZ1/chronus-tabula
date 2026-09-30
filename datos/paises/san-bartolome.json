@@ -26,30 +26,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q25362",
+			"id": "wikidata:Q25362",
 			"url": "https://www.wikidata.org/wiki/Q25362",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): San Bartolomé",
+			"id": "wikipedia-es:San Bartolomé (Francia)",
 			"url": "https://es.wikipedia.org/wiki/San_Bartolomé_(Francia)",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q25362",
+			"id": "wikidata:Q25362",
 			"url": "https://www.wikidata.org/wiki/Q25362",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P94:Q25362",
+			"id": "wikidata:Q25362",
 			"url": "https://www.wikidata.org/wiki/Q25362",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q25362",
+			"id": "wikidata:Q25362",
 			"url": "https://www.wikidata.org/wiki/Q25362",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

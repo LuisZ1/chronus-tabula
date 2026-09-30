@@ -205,39 +205,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Nigeria",
 			"url": "https://es.wikipedia.org/wiki/Nigeria",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1033",
 			"url": "https://www.wikidata.org/wiki/Q1033",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "presidentes",
+			"id": "wikipedia-en:List of heads of state of Nigeria",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Nigeria",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "demografia",
+			"id": "wikipedia-en:Demographics of Nigeria",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Nigeria",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Nigeria",
+			"id": "wikipedia-es:Nigeria",
 			"url": "https://es.wikipedia.org/wiki/Nigeria",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1033",
+			"id": "wikidata:Q1033",
 			"url": "https://www.wikidata.org/wiki/Q1033",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1033",
+			"id": "wikidata:Q1033",
 			"url": "https://www.wikidata.org/wiki/Q1033",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

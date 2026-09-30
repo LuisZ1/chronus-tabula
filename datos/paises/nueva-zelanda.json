@@ -141,24 +141,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q664",
+			"id": "wikidata:Q664",
 			"url": "https://www.wikidata.org/wiki/Q664",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Nueva Zelanda",
+			"id": "wikipedia-es:Nueva Zelanda",
 			"url": "https://es.wikipedia.org/wiki/Nueva_Zelanda",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q664",
+			"id": "wikidata:Q664",
 			"url": "https://www.wikidata.org/wiki/Q664",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -182,7 +181,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q664",
+			"id": "wikidata:Q664",
 			"url": "https://www.wikidata.org/wiki/Q664",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

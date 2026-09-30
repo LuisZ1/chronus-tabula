@@ -140,39 +140,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Chad",
 			"url": "https://es.wikipedia.org/wiki/Chad",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q657",
 			"url": "https://www.wikidata.org/wiki/Q657",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "presidentes",
+			"id": "wikipedia-en:List of heads of state of Chad",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Chad",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "demografia",
+			"id": "wikipedia-en:Demographics of Chad",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Chad",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Chad",
+			"id": "wikipedia-es:Chad",
 			"url": "https://es.wikipedia.org/wiki/Chad",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q657",
+			"id": "wikidata:Q657",
 			"url": "https://www.wikidata.org/wiki/Q657",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q657",
+			"id": "wikidata:Q657",
 			"url": "https://www.wikidata.org/wiki/Q657",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

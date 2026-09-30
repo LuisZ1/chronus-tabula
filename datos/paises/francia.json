@@ -652,13 +652,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Francia",
+			"id": "wikipedia-es:Francia",
 			"url": "https://es.wikipedia.org/wiki/Francia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -790,19 +788,19 @@
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q142",
+			"id": "wikidata:Q142",
 			"url": "https://www.wikidata.org/wiki/Q142",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q142",
+			"id": "wikidata:Q142",
 			"url": "https://www.wikidata.org/wiki/Q142",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q142",
+			"id": "wikidata:Q142",
 			"url": "https://www.wikidata.org/wiki/Q142",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

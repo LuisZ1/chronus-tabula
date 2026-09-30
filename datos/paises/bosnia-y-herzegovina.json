@@ -501,24 +501,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q225",
+			"id": "wikidata:Q225",
 			"url": "https://www.wikidata.org/wiki/Q225",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Bosnia y Herzegovina",
+			"id": "wikipedia-es:Bosnia y Herzegovina",
 			"url": "https://es.wikipedia.org/wiki/Bosnia_y_Herzegovina",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q225",
+			"id": "wikidata:Q225",
 			"url": "https://www.wikidata.org/wiki/Q225",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
@@ -752,7 +751,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q225",
+			"id": "wikidata:Q225",
 			"url": "https://www.wikidata.org/wiki/Q225",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

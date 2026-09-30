@@ -246,24 +246,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q228",
+			"id": "wikidata:Q228",
 			"url": "https://www.wikidata.org/wiki/Q228",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Andorra",
+			"id": "wikipedia-es:Andorra",
 			"url": "https://es.wikipedia.org/wiki/Andorra",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q228",
+			"id": "wikidata:Q228",
 			"url": "https://www.wikidata.org/wiki/Q228",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
@@ -311,7 +310,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q228",
+			"id": "wikidata:Q228",
 			"url": "https://www.wikidata.org/wiki/Q228",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"

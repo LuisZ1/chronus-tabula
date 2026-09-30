@@ -26,24 +26,25 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q17054",
+			"id": "wikidata:Q17054",
 			"url": "https://www.wikidata.org/wiki/Q17054",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Martinica",
+			"id": "wikipedia-es:Martinica",
 			"url": "https://es.wikipedia.org/wiki/Martinica",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q17054",
+			"id": "wikidata:Q17054",
 			"url": "https://www.wikidata.org/wiki/Q17054",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q17054",
+			"id": "wikidata:Q17054",
 			"url": "https://www.wikidata.org/wiki/Q17054",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

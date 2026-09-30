@@ -145,39 +145,41 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:República Centroafricana",
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q929",
 			"url": "https://www.wikidata.org/wiki/Q929",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of the Central African Republic",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_the_Central_African_Republic",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid",
-			"url": "https://ourworldindata.org/grapher/population?country=~CAF",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): República Centroafricana",
+			"id": "wikipedia-es:República Centroafricana",
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Centroafricana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q929",
+			"id": "wikidata:Q929",
 			"url": "https://www.wikidata.org/wiki/Q929",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q929",
+			"id": "wikidata:Q929",
 			"url": "https://www.wikidata.org/wiki/Q929",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

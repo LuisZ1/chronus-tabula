@@ -85,34 +85,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki_es",
+			"id": "wikipedia-es:Eritrea",
 			"url": "https://es.wikipedia.org/wiki/Eritrea",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki_en_hos",
+			"id": "wikipedia-en:List of heads of state of Eritrea",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Eritrea",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q986",
 			"url": "https://www.wikidata.org/wiki/Q986",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Eritrea",
+			"id": "wikipedia-es:Eritrea",
 			"url": "https://es.wikipedia.org/wiki/Eritrea",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q986",
+			"id": "wikidata:Q986",
 			"url": "https://www.wikidata.org/wiki/Q986",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q986",
+			"id": "wikidata:Q986",
 			"url": "https://www.wikidata.org/wiki/Q986",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

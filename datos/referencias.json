@@ -1,0 +1,208 @@
+{
+	"articulo:britannica-guerras-mesenias": {
+		"tipo": "articulo",
+		"titulo": "Messenian Wars",
+		"autor": "Encyclopaedia Britannica",
+		"url": "https://www.britannica.com/event/Messenian-Wars",
+		"licencia": "referencia"
+	},
+	"datos:owid-poblacion": {
+		"tipo": "datos",
+		"titulo": "Population",
+		"autor": "Our World in Data",
+		"url": "https://ourworldindata.org/grapher/population",
+		"licencia": "CC BY 4.0",
+		"datos": [
+			"poblacion"
+		],
+		"nota": "Serie histórica elaborada a partir de HYDE, Gapminder y ONU (World Population Prospects)"
+	},
+	"datos:wikimedia-commons": {
+		"tipo": "datos",
+		"titulo": "Wikimedia Commons: escudos y banderas históricos",
+		"autor": "Wikimedia Commons",
+		"url": "https://commons.wikimedia.org/",
+		"licencia": "la de cada archivo (dominio público, CC BY-SA…)",
+		"uso": "escudos y banderas por época de las fichas (campos escudos y banderas) y emblemas actuales que la web busca en vivo en Wikidata",
+		"datos": [
+			"emblemas"
+		],
+		"nota": "Cada archivo lleva su autor y su licencia en Commons"
+	},
+	"libro:doval-china-milenaria": {
+		"tipo": "libro",
+		"titulo": "Breve historia de la China milenaria",
+		"autor": "Gregorio Doval",
+		"editorial": "Nowtilus",
+		"coleccion": "Breve historia",
+		"anio": 2011,
+		"licencia": "referencia (obra con derechos: solo se cita)"
+	},
+	"libro:herodiano-historia": {
+		"tipo": "libro",
+		"titulo": "Historia del Imperio romano después de Marco Aurelio",
+		"autor": "Herodiano",
+		"traductor": "Juan J. Torres Esbarranch",
+		"editorial": "Gredos",
+		"coleccion": "Biblioteca Clásica Gredos, 80",
+		"anio": 1985,
+		"isbn": "84-249-0992-5",
+		"licencia": "referencia (traducción con derechos: solo se cita)"
+	},
+	"libro:herodoto-historia-vi-ix": {
+		"tipo": "libro",
+		"titulo": "Historia, libros VI-IX",
+		"autor": "Heródoto",
+		"traductor": "Carlos Schrader",
+		"editorial": "Gredos",
+		"coleccion": "Biblioteca Clásica Gredos",
+		"licencia": "referencia (traducción con derechos: solo se cita)"
+	},
+	"libro:iecc-republica-popular-china": {
+		"tipo": "libro",
+		"titulo": "Breve historia de la República Popular China (1949-2019)",
+		"autor": "Instituto de Estudios de la China Contemporánea",
+		"traductor": "Lou Yu",
+		"editorial": "CLACSO",
+		"anio": 2023,
+		"isbn": "978-987-813-493-2",
+		"url": "https://libreria.clacso.org/",
+		"licencia": "CC BY-NC-ND 4.0"
+	},
+	"libro:jenkins-inglaterra": {
+		"tipo": "libro",
+		"titulo": "Breve historia de Inglaterra",
+		"autor": "Simon Jenkins",
+		"traductor": "José C. Vales",
+		"anio": 2020,
+		"licencia": "referencia (obra con derechos: solo se cita)",
+		"nota": "Edición española; título original: A Short History of England (2011)"
+	},
+	"libro:le-gall-le-glay-imperio-romano": {
+		"tipo": "libro",
+		"titulo": "El Imperio romano. El Alto Imperio, desde la batalla de Actium hasta la muerte de Severo Alejandro (31 a. C.-235 d. C.)",
+		"autor": "Joël Le Gall; Marcel Le Glay",
+		"editorial": "Akal",
+		"anio": 1995,
+		"isbn": "84-460-0278-7",
+		"licencia": "referencia (obra con derechos: solo se cita)",
+		"nota": "Título original: L'Empire romain (Presses Universitaires de France, 1987)"
+	},
+	"libro:mariana-historia-general-espana": {
+		"tipo": "libro",
+		"titulo": "Historia general de España",
+		"autor": "Juan de Mariana",
+		"anio": 1601,
+		"licencia": "dominio público",
+		"nota": "Primera edición en castellano, 1601; consultada en una edición digital basada en la de 1780"
+	},
+	"libro:openstax-world-history-1": {
+		"tipo": "libro",
+		"titulo": "World History, Volume 1: to 1500",
+		"autor": "OpenStax",
+		"editorial": "OpenStax (Rice University)",
+		"anio": 2022,
+		"url": "https://openstax.org/details/books/world-history-volume-1",
+		"licencia": "CC BY-NC-SA 4.0"
+	},
+	"libro:romero-imperio-otomano": {
+		"tipo": "libro",
+		"titulo": "Breve historia del Imperio otomano",
+		"autor": "Eladio Romero; Iván Romero",
+		"editorial": "Nowtilus",
+		"coleccion": "Breve historia",
+		"anio": 2017,
+		"licencia": "referencia (obra con derechos: solo se cita)"
+	},
+	"mapa:euratlas": {
+		"tipo": "mapa",
+		"titulo": "Euratlas Periodis Web: mapas históricos de Europa, siglos I-XXI",
+		"autor": "Christos Nüssli (Euratlas-Nüssli)",
+		"url": "https://www.euratlas.net/history/",
+		"licencia": "© Euratlas-Nüssli: consultado solo como referencia visual; no se copia ni se calca",
+		"uso": "consultado como referencia visual para corregir las fronteras europeas de los mapas base",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"mapa:historical-basemaps": {
+		"tipo": "mapa",
+		"titulo": "historical-basemaps",
+		"autor": "André Ourednik y colaboradores",
+		"url": "https://github.com/aourednik/historical-basemaps",
+		"licencia": "GPL-3.0",
+		"uso": "mapas base de fronteras (53 años), corregidos y ampliados con mapas intermedios",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"mapa:jcdonceld-imperio-romano": {
+		"tipo": "mapa",
+		"titulo": "Mapas interactivos del Imperio romano",
+		"autor": "jcdonceld (blog)",
+		"url": "https://jcdonceld.blogspot.com/2010/04/mapas-interactivos-del-imperio-romano.html",
+		"licencia": "referencia (consultado)",
+		"uso": "consultado para corregir la extensión del Imperio romano y crear sus mapas intermedios",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"mapa:natural-earth": {
+		"tipo": "mapa",
+		"titulo": "Natural Earth 1:50m: Admin 0 – Countries y Land",
+		"autor": "Natural Earth (NACIS)",
+		"url": "https://www.naturalearthdata.com/",
+		"licencia": "dominio público",
+		"uso": "contorno de costas (recorte de zonas de guerra y territorios) y fronteras recientes (Sudán del Sur, Curazao…)",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"mapa:orbis-stanford": {
+		"tipo": "mapa",
+		"titulo": "ORBIS: The Stanford Geospatial Network Model of the Roman World",
+		"autor": "Walter Scheidel; Elijah Meeks (Stanford University)",
+		"url": "https://orbis.stanford.edu/",
+		"licencia": "referencia (consultado)",
+		"uso": "consultado para corregir la extensión del Imperio romano y crear sus mapas intermedios",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"mapa:sobrehistoria-imperio-romano": {
+		"tipo": "mapa",
+		"titulo": "Mapa del Imperio romano",
+		"autor": "SobreHistoria",
+		"url": "https://sobrehistoria.com/mapa-del-imperio-romano/",
+		"licencia": "referencia (consultado)",
+		"uso": "consultado para corregir la extensión del Imperio romano y crear sus mapas intermedios",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"mapa:truttafario-imperio-romano": {
+		"tipo": "mapa",
+		"titulo": "Mapas del Imperio romano (serie por décadas)",
+		"autor": "Truttafario",
+		"url": "https://truttafario.com/category/mapas-del-imperio/",
+		"licencia": "referencia (consultado)",
+		"uso": "consultado para corregir la extensión del Imperio romano y crear sus mapas intermedios",
+		"datos": [
+			"fronteras"
+		]
+	},
+	"web:onu-estados-miembros": {
+		"tipo": "web",
+		"titulo": "Estados miembros",
+		"autor": "Naciones Unidas",
+		"url": "https://www.un.org/es/about-us/member-states",
+		"licencia": "referencia"
+	},
+	"web:onu-resolucion-67-19": {
+		"tipo": "web",
+		"titulo": "Resolución 67/19 de la Asamblea General: Estatuto de Palestina en las Naciones Unidas (2012)",
+		"autor": "Naciones Unidas",
+		"url": "https://undocs.org/es/A/RES/67/19",
+		"licencia": "referencia"
+	}
+}

@@ -173,32 +173,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki_es_imperio",
+			"id": "wikipedia-es:Imperio de Malí",
 			"url": "https://es.wikipedia.org/wiki/Imperio_de_Mal%C3%AD",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki_es_mali",
+			"id": "wikipedia-es:Mali",
 			"url": "https://es.wikipedia.org/wiki/Mali",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki_en_hos",
+			"id": "wikipedia-en:List of heads of state of Mali",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Mali",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata_imperio",
+			"id": "wikidata:Q463705",
 			"url": "https://www.wikidata.org/wiki/Q463705",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata_mali",
+			"id": "wikidata:Q912",
 			"url": "https://www.wikidata.org/wiki/Q912",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Imperio de Malí",
+			"id": "wikipedia-es:Imperio de Mali",
 			"url": "https://es.wikipedia.org/wiki/Imperio_de_Mali",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"

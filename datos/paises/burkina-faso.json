@@ -135,34 +135,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Burkina Faso",
 			"url": "https://es.wikipedia.org/wiki/Burkina_Faso",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wiki-en-hos",
+			"id": "wikipedia-en:List of heads of state of Burkina Faso",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Burkina_Faso",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q965",
 			"url": "https://www.wikidata.org/wiki/Q965",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Burkina Faso",
+			"id": "wikipedia-es:Burkina Faso",
 			"url": "https://es.wikipedia.org/wiki/Burkina_Faso",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q965",
+			"id": "wikidata:Q965",
 			"url": "https://www.wikidata.org/wiki/Q965",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q965",
+			"id": "wikidata:Q965",
 			"url": "https://www.wikidata.org/wiki/Q965",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

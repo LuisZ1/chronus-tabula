@@ -293,24 +293,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q221",
+			"id": "wikidata:Q221",
 			"url": "https://www.wikidata.org/wiki/Q221",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Macedonia del Norte",
+			"id": "wikipedia-es:Macedonia del Norte",
 			"url": "https://es.wikipedia.org/wiki/Macedonia_del_Norte",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q221",
+			"id": "wikidata:Q221",
 			"url": "https://www.wikidata.org/wiki/Q221",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -388,7 +387,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q221",
+			"id": "wikidata:Q221",
 			"url": "https://www.wikidata.org/wiki/Q221",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

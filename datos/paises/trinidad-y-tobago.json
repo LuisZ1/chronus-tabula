@@ -150,18 +150,17 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q754",
+			"id": "wikidata:Q754",
 			"url": "https://www.wikidata.org/wiki/Q754",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Trinidad y Tobago",
+			"id": "wikipedia-es:Trinidad y Tobago",
 			"url": "https://es.wikipedia.org/wiki/Trinidad_y_Tobago",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
@@ -185,13 +184,13 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P94:Q754",
+			"id": "wikidata:Q754",
 			"url": "https://www.wikidata.org/wiki/Q754",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q754",
+			"id": "wikidata:Q754",
 			"url": "https://www.wikidata.org/wiki/Q754",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

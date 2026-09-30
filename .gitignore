@@ -19,6 +19,7 @@ Thumbs.db
 Claude outputs/
 web/data/historia.json
 web/data/historia.*.json
+web/data/fuentes*.json
 
 # herramientas locales de Claude Code (skills y agentes de terceros, hooks): no se publican
 .claude/

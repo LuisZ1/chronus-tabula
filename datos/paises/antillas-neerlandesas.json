@@ -46,30 +46,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q25227",
+			"id": "wikidata:Q25227",
 			"url": "https://www.wikidata.org/wiki/Q25227",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Antillas Neerlandesas",
+			"id": "wikipedia-es:Antillas Neerlandesas",
 			"url": "https://es.wikipedia.org/wiki/Antillas_Neerlandesas",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q25227",
+			"id": "wikidata:Q25227",
 			"url": "https://www.wikidata.org/wiki/Q25227",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q25227",
+			"id": "wikidata:Q25227",
 			"url": "https://www.wikidata.org/wiki/Q25227",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q25227",
+			"id": "wikidata:Q25227",
 			"url": "https://www.wikidata.org/wiki/Q25227",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"

@@ -66,30 +66,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q3769",
+			"id": "wikidata:Q3769",
 			"url": "https://www.wikidata.org/wiki/Q3769",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Guayana Francesa",
+			"id": "wikipedia-es:Guayana Francesa",
 			"url": "https://es.wikipedia.org/wiki/Guayana_Francesa",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q3769",
+			"id": "wikidata:Q3769",
 			"url": "https://www.wikidata.org/wiki/Q3769",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P1082:Q3769",
+			"id": "wikidata:Q3769",
 			"url": "https://www.wikidata.org/wiki/Q3769",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q3769",
+			"id": "wikidata:Q3769",
 			"url": "https://www.wikidata.org/wiki/Q3769",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

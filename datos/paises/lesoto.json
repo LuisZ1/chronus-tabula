@@ -173,34 +173,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia_es",
+			"id": "wikipedia-es:Lesoto",
 			"url": "https://es.wikipedia.org/wiki/Lesoto",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_demographics",
+			"id": "wikipedia-en:Demographics of Lesotho",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Lesotho",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1013",
 			"url": "https://www.wikidata.org/wiki/Q1013",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Lesoto",
+			"id": "wikipedia-es:Lesoto",
 			"url": "https://es.wikipedia.org/wiki/Lesoto",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1013",
+			"id": "wikidata:Q1013",
 			"url": "https://www.wikidata.org/wiki/Q1013",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q1013",
+			"id": "wikidata:Q1013",
 			"url": "https://www.wikidata.org/wiki/Q1013",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

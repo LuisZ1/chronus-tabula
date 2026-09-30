@@ -261,24 +261,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q711",
+			"id": "wikidata:Q711",
 			"url": "https://www.wikidata.org/wiki/Q711",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Mongolia",
+			"id": "wikipedia-es:Mongolia",
 			"url": "https://es.wikipedia.org/wiki/Mongolia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q711",
+			"id": "wikidata:Q711",
 			"url": "https://www.wikidata.org/wiki/Q711",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -326,7 +325,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q711",
+			"id": "wikidata:Q711",
 			"url": "https://www.wikidata.org/wiki/Q711",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

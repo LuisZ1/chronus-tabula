@@ -509,24 +509,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q419",
+			"id": "wikidata:Q419",
 			"url": "https://www.wikidata.org/wiki/Q419",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Perú",
+			"id": "wikipedia-es:Perú",
 			"url": "https://es.wikipedia.org/wiki/Per%C3%BA",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q419",
+			"id": "wikidata:Q419",
 			"url": "https://www.wikidata.org/wiki/Q419",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
@@ -778,7 +777,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q419",
+			"id": "wikidata:Q419",
 			"url": "https://www.wikidata.org/wiki/Q419",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

@@ -163,39 +163,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wiki-es",
+			"id": "wikipedia-es:Zimbabue",
 			"url": "https://es.wikipedia.org/wiki/Zimbabue",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q954",
 			"url": "https://www.wikidata.org/wiki/Q954",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "presidentes",
+			"id": "wikipedia-en:List of heads of state of Zimbabwe",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Zimbabwe",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "demografia",
+			"id": "wikipedia-en:Demographics of Zimbabwe",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Zimbabwe",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Zimbabue",
+			"id": "wikipedia-es:Zimbabue",
 			"url": "https://es.wikipedia.org/wiki/Zimbabue",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q954",
+			"id": "wikidata:Q954",
 			"url": "https://www.wikidata.org/wiki/Q954",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q954",
+			"id": "wikidata:Q954",
 			"url": "https://www.wikidata.org/wiki/Q954",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"

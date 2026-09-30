@@ -268,24 +268,23 @@
 	],
 	"fuentes": [
 		{
-			"id": "Wikidata:Q224",
+			"id": "wikidata:Q224",
 			"url": "https://www.wikidata.org/wiki/Q224",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "Wikipedia (es): Croacia",
+			"id": "wikipedia-es:Croacia",
 			"url": "https://es.wikipedia.org/wiki/Croacia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q224",
+			"id": "wikidata:Q224",
 			"url": "https://www.wikidata.org/wiki/Q224",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
@@ -333,7 +332,7 @@
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q224",
+			"id": "wikidata:Q224",
 			"url": "https://www.wikidata.org/wiki/Q224",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

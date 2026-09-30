@@ -302,13 +302,11 @@
 			"licencia": "CC BY-SA"
 		},
 		{
-			"id": "owid:population",
-			"url": "https://ourworldindata.org/grapher/population",
-			"licencia": "CC BY (HYDE, Gapminder, ONU)",
+			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-02"
 		},
 		{
-			"id": "Wikipedia (es): Suecia",
+			"id": "wikipedia-es:Suecia",
 			"url": "https://es.wikipedia.org/wiki/Suecia",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"

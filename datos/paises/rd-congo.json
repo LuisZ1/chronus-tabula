@@ -155,39 +155,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia_es",
+			"id": "wikipedia-es:República Democrática del Congo",
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_demographics",
+			"id": "wikipedia-en:Demographics of the Democratic Republic of the Congo",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_the_Democratic_Republic_of_the_Congo",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_kongo",
+			"id": "wikipedia-en:Kingdom of Kongo",
 			"url": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q974",
 			"url": "https://www.wikidata.org/wiki/Q974",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): República Democrática del Congo",
+			"id": "wikipedia-es:República Democrática del Congo",
 			"url": "https://es.wikipedia.org/wiki/Rep%C3%BAblica_Democr%C3%A1tica_del_Congo",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q974",
+			"id": "wikidata:Q974",
 			"url": "https://www.wikidata.org/wiki/Q974",
 			"licencia": "CC0",
 			"consultado": "2026-09-09"
 		},
 		{
-			"id": "wikidata:P41:Q974",
+			"id": "wikidata:Q974",
 			"url": "https://www.wikidata.org/wiki/Q974",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

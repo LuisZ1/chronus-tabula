@@ -248,7 +248,7 @@ def guardar_historia(d):
     los ficheros de entidades que ya no están, y recompila web/data/historia.json."""
     os.makedirs(DATOS, exist_ok=True)
     # 'idioma' y 'nombres_mapa' los añade la compilación: no son datos curados
-    meta = {k: v for k, v in d.items() if k not in COLECCIONES and k not in ("idioma", "nombres_mapa")}
+    meta = {k: v for k, v in d.items() if k not in COLECCIONES and k not in ("idioma", "nombres_mapa", "referencias")}
     _escribir_json(os.path.join(DATOS, "_meta.json"), meta)
     for col in COLECCIONES:
         carpeta = os.path.join(DATOS, col)
@@ -291,7 +291,7 @@ def compilar_web(d=None):
     if d is None:
         d = cargar_historia()
     os.makedirs(os.path.dirname(HISTORIA), exist_ok=True)
-    salida = {k: v for k, v in d.items() if k not in COLECCIONES and k not in ("idioma", "nombres_mapa")}
+    salida = {k: v for k, v in d.items() if k not in COLECCIONES and k not in ("idioma", "nombres_mapa", "referencias")}
     for col in COLECCIONES:
         salida[col] = [canonizar(col, r) for r in sorted(d.get(col, []), key=_orden(col))]
     # un JSON por idioma: historia.json (español, el idioma fuente; lo usan también
@@ -302,6 +302,15 @@ def compilar_web(d=None):
         ruta = HISTORIA if lang == traduccion.IDIOMA_FUENTE else ruta_historia(lang)
         with open(ruta, "w", encoding="utf-8", newline="\n") as f:
             json.dump(traduccion.compilar_idioma(salida, lang), f, ensure_ascii=False, indent="\t")
+            f.write("\n")
+    # la página de fuentes (web/fuentes.html): resumen y obras citadas, y aparte las
+    # listas completas de artículos de Wikipedia y elementos de Wikidata (se cargan a demanda)
+    import referencias
+    principal, listas = referencias.compilar_fuentes(salida)
+    carpeta = os.path.dirname(HISTORIA)
+    for fn, obj in (("fuentes.json", principal), ("fuentes-listas.json", listas)):
+        with open(os.path.join(carpeta, fn), "w", encoding="utf-8", newline="\n") as f:
+            json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
             f.write("\n")
     return HISTORIA
 

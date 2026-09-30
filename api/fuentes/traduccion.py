@@ -241,4 +241,9 @@ def compilar_idioma(d, lang):
                     reg["paises_vis"] = vis  # 'paises' sigue en español: lo usa el filtro
     out["idioma"] = lang
     out["nombres_mapa"] = nombres_mapa(lang)
+    # las obras del registro, para rotular las fuentes de las fichas (la página de
+    # fuentes tiene la referencia completa)
+    import referencias
+    out["referencias"] = {k: {c: v[c] for c in ("tipo", "titulo", "autor", "anio") if v.get(c)}
+                          for k, v in referencias.cargar_registro().items()}
     return out

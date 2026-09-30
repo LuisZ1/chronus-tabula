@@ -97,39 +97,43 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia_es",
+			"id": "wikipedia-es:Gabón",
 			"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_heads",
+			"id": "wikipedia-en:List of heads of state of Gabon",
 			"url": "https://en.wikipedia.org/wiki/List_of_heads_of_state_of_Gabon",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia_en_demographics",
+			"id": "wikipedia-en:Demographics of Gabon",
 			"url": "https://en.wikipedia.org/wiki/Demographics_of_Gabon",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q1000",
 			"url": "https://www.wikidata.org/wiki/Q1000",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Gabón",
+			"id": "wikipedia-es:Gabón",
 			"url": "https://es.wikipedia.org/wiki/Gab%C3%B3n",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q1000",
+			"id": "wikidata:Q1000",
 			"url": "https://www.wikidata.org/wiki/Q1000",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q1000",
+			"id": "wikidata:Q1000",
 			"url": "https://www.wikidata.org/wiki/Q1000",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"

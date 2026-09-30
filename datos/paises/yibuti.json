@@ -76,29 +76,31 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Yibuti",
 			"url": "https://es.wikipedia.org/wiki/Yibuti",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q977",
 			"url": "https://www.wikidata.org/wiki/Q977",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Yibuti",
+			"id": "wikipedia-es:Yibuti",
 			"url": "https://es.wikipedia.org/wiki/Yibuti",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q977",
+			"id": "wikidata:Q977",
 			"url": "https://www.wikidata.org/wiki/Q977",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q977",
+			"id": "wikidata:Q977",
 			"url": "https://www.wikidata.org/wiki/Q977",
 			"licencia": "CC0",
 			"consultado": "2026-09-28"

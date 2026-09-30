@@ -105,34 +105,37 @@
 	],
 	"fuentes": [
 		{
-			"id": "wikipedia-es",
+			"id": "wikipedia-es:Botsuana",
 			"url": "https://es.wikipedia.org/wiki/Botsuana",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikipedia-es-presidentes",
+			"id": "wikipedia-es:Anexo:Presidentes de Botsuana",
 			"url": "https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Botsuana",
+			"licencia": "CC BY-SA",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "wikidata",
+			"id": "wikidata:Q963",
 			"url": "https://www.wikidata.org/wiki/Q963",
+			"licencia": "CC0",
 			"consultado": "2026-09"
 		},
 		{
-			"id": "Wikipedia (es): Botsuana",
+			"id": "wikipedia-es:Botsuana",
 			"url": "https://es.wikipedia.org/wiki/Botsuana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P94:Q963",
+			"id": "wikidata:Q963",
 			"url": "https://www.wikidata.org/wiki/Q963",
 			"licencia": "CC0",
 			"consultado": "2026-09-08"
 		},
 		{
-			"id": "wikidata:P41:Q963",
+			"id": "wikidata:Q963",
 			"url": "https://www.wikidata.org/wiki/Q963",
 			"licencia": "CC0",
 			"consultado": "2026-09-10"
