@@ -103,6 +103,10 @@
 		{
 			"id": "curado",
 			"licencia": "elaboración propia contrastada con Wikipedia"
+		},
+		{
+			"id": "libro:doval-china-milenaria",
+			"consultado": "2026-09-07"
 		}
 	]
 }

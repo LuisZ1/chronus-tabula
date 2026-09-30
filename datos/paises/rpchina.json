@@ -103,6 +103,10 @@
 		{
 			"id": "datos:owid-poblacion",
 			"consultado": "2026-09-28"
+		},
+		{
+			"id": "libro:iecc-republica-popular-china",
+			"consultado": "2026-09-07"
 		}
 	],
 	"revision": {

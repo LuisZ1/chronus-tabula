@@ -90,6 +90,14 @@
 			"url": "https://es.wikipedia.org/wiki/Revolución_mexicana",
 			"licencia": "CC BY-SA",
 			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:santillana-historia-mundo",
+			"consultado": "2026-09-07"
+		},
+		{
+			"id": "libro:yancovic-cronologia",
+			"consultado": "2026-09-07"
 		}
 	]
 }

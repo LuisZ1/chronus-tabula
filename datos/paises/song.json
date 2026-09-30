@@ -46,6 +46,10 @@
 			"id": "wikipedia-es:Dinastía Song",
 			"url": "https://es.wikipedia.org/wiki/Dinastía_Song",
 			"licencia": "CC BY-SA"
+		},
+		{
+			"id": "libro:doval-china-milenaria",
+			"consultado": "2026-09-07"
 		}
 	]
 }
