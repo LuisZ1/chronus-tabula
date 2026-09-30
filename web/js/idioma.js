@@ -1,21 +1,22 @@
 /* Chronus Tabula — idioma.js
    Idioma de las páginas estáticas (portada, colaborar, fuentes, aviso legal).
-   El español es el idioma fuente y está escrito en el HTML; cada texto lleva su
-   clave (data-i18n-html, -alt, -title, -aria, -placeholder: las marca
-   api/traducir_paginas.py) y las traducciones están en i18n/paginas.<idioma>.json.
-   Al volver al español se restaura el texto original. El idioma elegido se guarda
-   en el mismo sitio que el del mapa (localStorage 'mapamundi.lang'), así que las
-   páginas y el mapa van siempre en el mismo idioma.
+      El español está escrito en el HTML; cada texto lleva su clave (data-i18n para el
+   contenido; data-i18n-alt, -title, -aria, -placeholder para atributos) y los textos
+   de cada idioma están en i18n/<idioma>.json, un árbol por página y sección
+   (index.portada.titulo, comun.abrirMapa…; ver api/traducir_interfaz.py). Al volver
+   al español se restaura el texto original del HTML. El idioma elegido se guarda en
+   el mismo sitio que el del mapa (localStorage 'mapamundi.lang'), así que las páginas
+   y el mapa van siempre en el mismo idioma.
 
-   Para los textos que escriben los scripts: window.idioma.t(clave, textoEspañol,
-   {variables}) y el evento 'idioma' en window cuando cambia. */
+   Para los textos que escriben los scripts: window.idioma.t(clave, {variables}),
+   después de window.idioma.listo, y el evento 'idioma' en window cuando cambia. */
 (function () {
 	'use strict';
 	var CLAVE = 'mapamundi.lang';
 	var IDIOMAS = ['es', 'en'];
 	var NOMBRES = { es: 'Español', en: 'English' };
 	var ATRIBUTOS = {
-		'data-i18n-html': null,
+		'data-i18n': null,
 		'data-i18n-alt': 'alt',
 		'data-i18n-title': 'title',
 		'data-i18n-aria': 'aria-label',
@@ -40,9 +41,19 @@
 		return IDIOMAS.indexOf(nav) >= 0 ? nav : 'en';
 	}
 
-	function t(clave, es, vars) {
-		var e = lang !== 'es' && dicc[clave];
-		var txt = (e && (e.t || e)) || es || clave;
+	/* {a: {b: 'x'}} → {'a.b': 'x'} */
+	function aplanar(o, pref, out) {
+		out = out || {};
+		Object.keys(o).forEach(function (k) {
+			var v = o[k];
+			if (v && typeof v === 'object') aplanar(v, pref + k + '.', out);
+			else out[pref + k] = v;
+		});
+		return out;
+	}
+
+	function t(clave, vars) {
+		var txt = dicc[clave] != null ? String(dicc[clave]) : clave;
 		if (vars)
 			txt = txt.replace(/\{(\w+)\}/g, function (m, k) {
 				return vars[k] != null ? vars[k] : m;
@@ -59,8 +70,8 @@
 				var k = destino || 'html';
 				if (!(k in o)) o[k] = destino ? el.getAttribute(destino) : el.innerHTML;
 				originales.set(el, o);
-				var e = lang !== 'es' && dicc[el.getAttribute(sel)];
-				var v = e ? e.t : o[k];
+				var e = lang !== 'es' ? dicc[el.getAttribute(sel)] : null;
+				var v = e != null ? e : o[k];
 				if (destino) el.setAttribute(destino, v);
 				else if (el.innerHTML !== v) el.innerHTML = v;
 			});
@@ -69,17 +80,21 @@
 		var d = document.querySelector('meta[name="description"]');
 		var o = originales.get(document) || { titulo: document.title, desc: d ? d.content : '' };
 		originales.set(document, o);
-		document.title = t(pagina + '.titulo', o.titulo);
-		if (d) d.content = t(pagina + '.descripcion', o.desc);
+		var ti = lang !== 'es' && dicc[pagina + '.meta.titulo'];
+		var de = lang !== 'es' && dicc[pagina + '.meta.descripcion'];
+		document.title = ti || o.titulo;
+		if (d) d.content = de || o.desc;
 		pintarBoton();
 		document.documentElement.classList.remove('i18n-espera');
 	}
 
 	function cargar(l) {
-		if (l === 'es') return Promise.resolve({});
-		return fetch('i18n/paginas.' + l + '.json', { cache: 'no-cache' })
+		return fetch('i18n/' + l + '.json', { cache: 'no-cache' })
 			.then(function (r) {
 				return r.ok ? r.json() : {};
+			})
+			.then(function (arbol) {
+				return aplanar(arbol, '');
 			})
 			.catch(function () {
 				return {};

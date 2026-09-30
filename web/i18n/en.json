@@ -1,78 +1,704 @@
 {
-  "app.title": "Chronus Tabula",
-  "ui.loading": "Loading…",
-  "ui.showing": "Borders from",
-  "ui.prev": "Previous year with data",
-  "ui.next": "Next year with data",
-  "ui.typeYear": "Type a year (negative = BC)",
-  "ui.help": "Help: how to use the map",
-  "ui.noData": "Could not load data for this year",
-  "year.bc": "BC",
-  "year.ad": "AD",
-  "popup.sovereign": "Sovereignty",
-  "popup.partof": "Part of",
-  "popup.precision": "Border precision",
-  "popup.wikipedia": "Wikipedia",
-  "popup.unknown": "Unnamed territory",
-  "popup.todayNote": "About the present-day country (not the year shown):",
-  "ui.sliderLabel": "Map year",
-  "popup.disclaimer": "Approximate data: it may contain errors.",
-  "popup.disclaimerMore": "Legal notice",
-  "sheet.label": "Territory details",
-  "sheet.close": "Close details",
-  "popup.noData": "No data",
-  "popup.noDataText": "The border map for this period does not assign this territory to any people or state. It does not mean it was uninhabited.",
-  "popup.filled": "Border taken from",
-  "popup.filledText": "the {y} map (this period's map lacks it)",
-  "basemap.neutral": "Light gray (Esri)",
-  "basemap.osm": "OpenStreetMap",
-  "basemap.terrain": "Terrain (Esri)",
-  "popup.ruler": "Ruler",
-  "popup.population": "Population",
-  "popup.popData": "data from",
-  "popup.originalName": "Name in source data",
-  "battle.war": "Conflict",
-  "battle.period": "Period",
-  "battle.year": "Battle year",
-  "battle.countries": "Countries involved",
-  "battle.casualties": "Conflict casualties",
-  "battle.casualtiesBattle": "Battle casualties",
-  "layers.title": "Layers",
-  "layers.battles": "Battles",
-  "layers.events": "Events",
-  "layers.names": "Names",
-  "layers.coa": "Coats of arms",
-  "layers.flags": "Flags",
-  "layers.emblemTitle": "Next to each country name: its coat of arms or its flag for the selected year (one or the other)",
-  "layers.fill": "Colors",
-  "legend.title": "Entities of the year",
-  "follow.placeholder": "Follow a kingdom…",
-  "follow.clear": "Stop following",
-  "play.title": "Play through history",
-  "play.speed": "Speed",
-  "popup.area": "Estimated area",
-  "event.year": "Year",
-  "wiki.more": "read more ↗",
-  "wiki.source": "Source: Wikipedia",
-  "layers.zones": "War zones",
-  "layers.margin": "Year margin",
-  "layers.marginTitle": "Also show battles and events from years near the selected one",
-  "layers.territories": "Minor territories",
-  "layers.territorial": "Follow territorial predecessors",
-  "layers.territorialTitle": "When following a kingdom, also highlight those who ruled its territory before without being the same state (e.g. the Caliphate of Córdoba when following Spain)",
-  "terr.status": "Status",
-  "terr.present": "present",
-  "war.theater": "Theater of operations",
-  "war.phase": "Phase",
-  "war.type": "Zone type",
-  "war.front": "Active combat front",
-  "war.occupied": "Occupied territory / rear",
-  "panel.thisYear": "This year",
-  "panel.wars": "Active conflicts",
-  "panel.facts": "Points of interest",
-  "panel.none": "— nothing recorded —",
-  "popup.sources": "Sources",
-  "nav.title": "Drag the handles to zoom the view; drag the middle to pan (double-click: show all)",
-  "popup.ownWork": "Own work, cross-checked",
-  "popup.allSources": "All sources and references →"
+	"comun": {
+		"saltar": "Skip to content",
+		"secciones": "Sections",
+		"abrirMapa": "Open the map",
+		"enlaces": {
+			"inicio": "Home",
+			"fuentes": "Sources",
+			"colaborar": "Contribute",
+			"legal": "Legal notice and licence",
+			"github": "Code on GitHub"
+		},
+		"pie": {
+			"aviso": "The data is for guidance only and may contain errors. © 2026 Luis Zumárraga. The application and database are protected: copying or commercialising them is not permitted."
+		}
+	},
+	"mapa": {
+		"app": {
+			"title": "Chronus Tabula"
+		},
+		"ui": {
+			"loading": "Loading…",
+			"showing": "Borders from",
+			"prev": "Previous year with data",
+			"next": "Next year with data",
+			"typeYear": "Type a year (negative = BC)",
+			"help": "Help: how to use the map",
+			"noData": "Could not load data for this year",
+			"sliderLabel": "Map year"
+		},
+		"year": {
+			"bc": "BC",
+			"ad": "AD"
+		},
+		"popup": {
+			"sovereign": "Sovereignty",
+			"partof": "Part of",
+			"precision": "Border precision",
+			"wikipedia": "Wikipedia",
+			"unknown": "Unnamed territory",
+			"todayNote": "About the present-day country (not the year shown):",
+			"disclaimer": "Approximate data: it may contain errors.",
+			"disclaimerMore": "Legal notice",
+			"noData": "No data",
+			"noDataText": "The border map for this period does not assign this territory to any people or state. It does not mean it was uninhabited.",
+			"filled": "Border taken from",
+			"filledText": "the {y} map (this period's map lacks it)",
+			"ruler": "Ruler",
+			"population": "Population",
+			"popData": "data from",
+			"originalName": "Name in source data",
+			"area": "Estimated area",
+			"sources": "Sources",
+			"ownWork": "Own work, cross-checked",
+			"allSources": "All sources and references →"
+		},
+		"sheet": {
+			"label": "Territory details",
+			"close": "Close details"
+		},
+		"basemap": {
+			"neutral": "Light gray (Esri)",
+			"osm": "OpenStreetMap",
+			"terrain": "Terrain (Esri)"
+		},
+		"battle": {
+			"war": "Conflict",
+			"period": "Period",
+			"year": "Battle year",
+			"countries": "Countries involved",
+			"casualties": "Conflict casualties",
+			"casualtiesBattle": "Battle casualties"
+		},
+		"layers": {
+			"title": "Layers",
+			"battles": "Battles",
+			"events": "Events",
+			"names": "Names",
+			"coa": "Coats of arms",
+			"flags": "Flags",
+			"emblemTitle": "Next to each country name: its coat of arms or its flag for the selected year (one or the other)",
+			"fill": "Colors",
+			"zones": "War zones",
+			"margin": "Year margin",
+			"marginTitle": "Also show battles and events from years near the selected one",
+			"territories": "Minor territories",
+			"territorial": "Follow territorial predecessors",
+			"territorialTitle": "When following a kingdom, also highlight those who ruled its territory before without being the same state (e.g. the Caliphate of Córdoba when following Spain)"
+		},
+		"legend": {
+			"title": "Entities of the year"
+		},
+		"follow": {
+			"placeholder": "Follow a kingdom…",
+			"clear": "Stop following"
+		},
+		"play": {
+			"title": "Play through history",
+			"speed": "Speed"
+		},
+		"event": {
+			"year": "Year"
+		},
+		"wiki": {
+			"more": "read more ↗",
+			"source": "Source: Wikipedia"
+		},
+		"terr": {
+			"status": "Status",
+			"present": "present"
+		},
+		"war": {
+			"theater": "Theater of operations",
+			"phase": "Phase",
+			"type": "Zone type",
+			"front": "Active combat front",
+			"occupied": "Occupied territory / rear"
+		},
+		"panel": {
+			"thisYear": "This year",
+			"wars": "Active conflicts",
+			"facts": "Points of interest",
+			"none": "— nothing recorded —"
+		},
+		"nav": {
+			"title": "Drag the handles to zoom the view; drag the middle to pan (double-click: show all)"
+		}
+	},
+	"index": {
+		"meta": {
+			"titulo": "Chronus Tabula — the world, year by year",
+			"descripcion": "Interactive historical map: pick a year, from 3000 BC to today, and explore borders, kingdoms, rulers, battles and events, every fact with its source."
+		},
+		"menu": {
+			"leer": "How to read it",
+			"clase": "In class"
+		},
+		"portada": {
+			"titulo": "The world in",
+			"lema": "Borders, rulers, battles and events for any year from 3000 BC to today, every fact with its source.",
+			"leyenda": {
+				"titulo": "Key",
+				"estados": "States and territories",
+				"guerra": "War zone",
+				"ejemplo": "CASTILE",
+				"nombre": "Name at the time",
+				"sinDatos": "No data"
+			},
+			"escala": {
+				"titulo": "Year scale",
+				"ayuda": "Drag or pick",
+				"menos500": "−500",
+				"anios": "Map years",
+				"ac500": "500 BC"
+			},
+			"imagen": "Political map of the world in 1492: Castile, Portugal, the Ottoman Empire, the Inca Empire and other states, each in its own colour.",
+			"imagenAnio": "Political map of the world in {a}, each state in its own colour.",
+			"abrir": "Open {a} on the map",
+			"ac500": "500 BC"
+		},
+		"leer": {
+			"titulo": "How to read the map",
+			"intro": "Everything on the map belongs to the year you pick. Change the year, and the borders, the names and what’s happening change with it.",
+			"fronteras": {
+				"titulo": "Borders",
+				"texto": "Each colour is a state or territory. They come from 106 historical maps; between two dates, the latest available one is shown (the bar tells you which year the borders are from)."
+			},
+			"ejemploNombre": "Belgian Congo",
+			"nombres": {
+				"titulo": "Names of the time",
+				"texto": "The label changes with the year: Belgian Congo, Zaire or Democratic Republic of the Congo."
+			},
+			"ficha": {
+				"titulo": "Tap for a profile",
+				"texto": "That year’s ruler, capital, population, form of government and sources."
+			},
+			"ejemploBatalla": "Lepanto",
+			"batallas": {
+				"titulo": "Battles",
+				"texto": "Those of the year, with sides, outcome and the conflict they belong to."
+			},
+			"guerras": {
+				"titulo": "War zones",
+				"texto": "Territory contested during a conflict, hatched in red."
+			},
+			"ejemploEvento": "Printing press",
+			"acontecimientos": {
+				"titulo": "Events and inventions",
+				"texto": "What happened around that date, and where."
+			},
+			"ejemploTerritorio": "Malta",
+			"territorios": {
+				"titulo": "Small territories",
+				"texto": "Islands and enclaves too small to show as an area, marked with a dot."
+			},
+			"sinDatos": {
+				"titulo": "No data",
+				"texto": "Land that the map of that period doesn’t assign to any people or state. It wasn’t empty: there’s simply no reliable border to draw."
+			},
+			"emblemas": {
+				"titulo": "Coats of arms and flags",
+				"texto": "Those of each period, where they exist."
+			}
+		},
+		"gestos": {
+			"titulo": "Three moves",
+			"intro": "Nothing to install, no account to create. It works the same on a projector, a computer or a phone.",
+			"anio": {
+				"titulo": "Pick the year",
+				"texto": "Drag the timeline, type a date or jump from battle to battle. Try <a href=\"mapa.html#-480/38.80/22.50/6\">480 BC, at Thermopylae</a>."
+			},
+			"territorio": {
+				"titulo": "Tap a territory",
+				"texto": "Its profile opens: who ruled, since when, capital, population and where each fact comes from."
+			},
+			"compartir": {
+				"titulo": "Share the moment",
+				"texto": "The address saves the year, place and zoom. Anyone who opens it sees exactly the same.",
+				"copiar": "Copy"
+			}
+		},
+		"controles": {
+			"titulo": "All controls",
+			"reproducir": {
+				"titulo": "Play",
+				"texto": "Time moves forward on its own and you watch states rise and fall."
+			},
+			"saltos": {
+				"titulo": "Jumps",
+				"texto": "From map to map, battle to battle or event to event."
+			},
+			"buscar": {
+				"titulo": "Search",
+				"texto": "A country, a battle or an event, and the map goes to the year and the place."
+			},
+			"seguir": {
+				"titulo": "Follow a territory",
+				"texto": "Pin it and watch how its extent changes over the centuries."
+			},
+			"capas": {
+				"titulo": "Layers",
+				"texto": "Show or hide battles, war zones, events and labels."
+			},
+			"teclado": {
+				"titulo": "Keyboard",
+				"texto": "<kbd>←</kbd> <kbd>→</kbd> change the year; <kbd>Space</kbd> plays."
+			},
+			"movil": {
+				"titulo": "On your phone",
+				"texto": "Panels open from the bottom and close with a swipe."
+			}
+		},
+		"clase": {
+			"titulo": "Maps to open in class",
+			"intro": "Each one is a link: project it as it is, or share it so everyone can explore it on their own screen.",
+			"termopilas": {
+				"anio": "480 BC",
+				"texto": "Thermopylae: how far did the Persian Empire reach?",
+				"imagen": "Map of the eastern Mediterranean around 500 BC"
+			},
+			"abrir": "Open",
+			"copiar": "Copy link",
+			"granada": {
+				"texto": "The Iberian Peninsula in the year Granada falls and Columbus sets sail.",
+				"imagen": "Map of the world in 1492"
+			},
+			"waterloo": {
+				"texto": "Europe after Waterloo and the Congress of Vienna.",
+				"imagen": "Map of the world in 1815"
+			},
+			"granGuerra": {
+				"texto": "Europe before the Great War. Compare it with <a href=\"mapa.html#1920/50.00/15.00/4\">1920</a>: three empires are gone.",
+				"imagen": "Map of the world in 1914"
+			},
+			"copiado": "Copied",
+			"selecciona": "Select and copy"
+		},
+		"datos": {
+			"titulo": "Every fact, with its source",
+			"cifras": "Today the map brings together <b>382</b> states and entities, <b>1,051</b> battles from <b>203</b> conflicts, <b>457</b> war zones, <b>251</b> events and <b>35</b> small territories.",
+			"aviso": "Borders are approximate: they summarise situations that were often blurred or disputed. The data is for guidance only and may contain errors: if you find one, <a href=\"colaborar.html#asistente\">you can fix it</a>. <a href=\"aviso-legal.html#exactitud\">More on data accuracy</a>.",
+			"todas": "<a class=\"enlace-flecha\" href=\"fuentes.html\">All sources and references</a>",
+			"fuentes": {
+				"basemaps": "Borders · 53 maps, corrected (and 53 derived from them)",
+				"wikipedia": "Profiles and dates · CC BY-SA",
+				"wikidata": "Rulers and coordinates · CC0",
+				"owid": "Population · CC BY"
+			}
+		},
+		"cierre": {
+			"titulo": "Pick a year.",
+			"colaborar": "Contribute to the project"
+		},
+		"pie": {
+			"fuentes": "Data with cited sources: Wikipedia and Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) and <a href=\"https://github.com/aourednik/historical-basemaps\" rel=\"noopener\" target=\"_blank\">historical-basemaps</a> for borders. Archivo typeface (SIL OFL)."
+		}
+	},
+	"colaborar": {
+		"meta": {
+			"titulo": "Contribute — Chronus Tabula",
+			"descripcion": "How to contribute to Chronus Tabula: report errors, add historical data with sources or improve the code. One file per country, conflict, event or territory; automatic validation. Open project on GitHub."
+		},
+		"menu": {
+			"formas": "How to help",
+			"asistente": "The assistant",
+			"datos": "The data",
+			"flujo": "Step by step",
+			"reglas": "Rules"
+		},
+		"portada": {
+			"titulo": "Make the map better.",
+			"lema": "Every country, war or event is a small file with its source. Fix it or expand it; no coding needed.",
+			"guia": "Full guide"
+		},
+		"formas": {
+			"avisar": {
+				"titulo": "Report an error",
+				"etiqueta": "5 minutes",
+				"texto": "A wrong reign date, a border that doesn’t add up, a battle in the wrong place? Tell us what you saw and in which year; a template guides you.",
+				"boton": "Open a report"
+			},
+			"titulo": "Three ways to help.",
+			"intro": "Choose based on the time you have. Every one counts.",
+			"datos": {
+				"etiqueta": "Locally, with the assistant",
+				"titulo": "Contribute data",
+				"texto": "Add or fix rulers, population, battles, events or territories, always with a source. You edit your own copy of the project and it arrives as a <em>pull request</em>. This is where help is needed most.",
+				"boton": "See examples with the assistant"
+			},
+			"codigo": {
+				"etiqueta": "With Git",
+				"titulo": "Code and design",
+				"texto": "JavaScript with no dependencies or build step, plus a small server in standard Python. Improvements to the interface, accessibility or performance are welcome.",
+				"boton": "See the repository"
+			}
+		},
+		"asistente": {
+			"titulo": "Edit without touching the JSON.",
+			"intro": "The admin panel includes an assistant that turns each record into a form. It flags errors before you save and writes the file in the right format.",
+			"soloLocal": "<b>It only works on your own computer.</b> The published site has no panel and doesn’t save changes: download the project, edit the records locally with the assistant, and propose your changes with a <em>pull request</em> on GitHub. They’re published once someone on the project reviews and merges them.",
+			"descargar": {
+				"titulo": "Download the project",
+				"texto": "<em>Fork</em> the <a href=\"https://github.com/LuisZ1/chronus-tabula\" rel=\"noopener\" target=\"_blank\">repository</a> and clone it to your computer. All you need is Python."
+			},
+			"arrancar": {
+				"titulo": "Start the panel",
+				"texto": "In the project folder, run <code>python api/servidor.py</code>. Open <code>http://localhost:9000/admin.html#editor</code>; the first time, you’ll create a local username and password."
+			},
+			"editar": {
+				"titulo": "Edit and save",
+				"texto": "Choose Countries, Conflicts, Events or Territories, find the record or press <span class=\"ui\">+ New</span>. <span class=\"ui\">Review changes</span> shows the errors and the lines that will change; <span class=\"ui\">Save to datos/</span> writes the file to your copy, and the local map shows it when you reload."
+			},
+			"proponer": {
+				"titulo": "Propose the change",
+				"texto": "<em>Commit</em> the files in <code>datos/</code>, push them to your <em>fork</em> and open a <em>pull request</em> explaining what you’re changing and where it comes from. Until then, the change only exists on your computer."
+			},
+			"vinculos": "For countries, <span class=\"ui\">Links to other records</span> connects kingdoms to each other (predecessor, successor, part of, includes, territorial ancestor): you pick the other record from a list, and the reverse link is written into it automatically. That way, when you follow Spain on the map, Castile, Aragon and Navarre light up too in their own time.",
+			"diff": "Before the <em>pull request</em>, <code>git diff</code> shows you exactly what the assistant has written. If someone else changed the same record while you were editing it, the assistant won't overwrite it and asks you to reload. For countries and conflicts, the <span class=\"ui\">Identifier</span> can't be changed from here, and zone polygons are edited as text."
+		},
+		"ejemplos": {
+			"titulo": "Three examples",
+			"reinado": {
+				"etiqueta": "Fix a fact",
+				"titulo": "The date of a reign",
+				"texto": "Philip II appears in Spain from 1556 to 1598. If one of the dates were wrong:",
+				"paso1": "<span class=\"ui\">Countries</span>, search for <kbd>españa</kbd> and open it.",
+				"paso2": "Expand <span class=\"ui\">Rulers</span>, find the row for <em>Felipe II</em> and change <span class=\"ui\">To</span>.",
+				"paso3": "Under <span class=\"ui\">Sources</span>, press <span class=\"ui\">+ Add</span> and enter in <span class=\"ui\">Identifier</span> where the fact comes from, for example <code>wikipedia-es:Felipe II de España</code>.",
+				"paso4": "<span class=\"ui\">Review changes</span>: the diff marks only that line and the new source. Save.",
+				"nota": "If you enter an end year earlier than the start year, the assistant won’t let you save and tells you why: <em>«'desde' (1556) is later than 'hasta' (1550)»</em>."
+			},
+			"evento": {
+				"etiqueta": "Add an event",
+				"titulo": "The University of Salamanca, 1218",
+				"paso1": "<span class=\"ui\">Events</span> → <span class=\"ui\">+ New event</span>.",
+				"paso2": "<span class=\"ui\">Name</span>: <kbd>Fundación de la Universidad de Salamanca</kbd>; <span class=\"ui\">Year</span>: <kbd>1218</kbd>.",
+				"paso3": "Under <span class=\"ui\">Coordinates</span>, press <span class=\"ui\">Pick on map</span> and click on Salamanca (≈ 40.96, −5.66).",
+				"paso4": "<span class=\"ui\">Countries</span>: <kbd>Reino de León</kbd>; a one-sentence <span class=\"ui\">Description</span> and the <span class=\"ui\">Wikipedia article</span>: <kbd>Universidad de Salamanca</kbd>.",
+				"paso5": "<span class=\"ui\">Sources</span> → <span class=\"ui\">+ Add</span>: <span class=\"ui\">Identifier</span> <code>wikipedia-es:Universidad de Salamanca</code> and <span class=\"ui\">Licence</span> <code>CC BY-SA</code>.",
+				"nota": "Saving creates <code>datos/eventos/1218-fundacion-de-la-universidad-de-salamanca.json</code>, and it appears as ⭐ on the 1218 map."
+			},
+			"batalla": {
+				"etiqueta": "Expand a conflict",
+				"titulo": "A missing battle",
+				"texto": "The Thirty Years’ War doesn’t have the Battle of White Mountain (1620) yet.",
+				"paso1": "<span class=\"ui\">Conflicts</span>, search for <kbd>treinta</kbd> and open it.",
+				"paso2": "Expand <span class=\"ui\">Battles</span> → <span class=\"ui\">+ Add</span>.",
+				"paso3": "<span class=\"ui\">Name</span>: <kbd>Batalla de la Montaña Blanca</kbd>; <span class=\"ui\">Year</span>: <kbd>1620</kbd>; coordinates near Prague (≈ 50.08, 14.32) with <span class=\"ui\">Pick on map</span>.",
+				"paso4": "Add its source under the conflict’s <span class=\"ui\">Sources</span> and review.",
+				"nota": "Don't worry about the order: when you save, battles are sorted by year."
+			}
+		},
+		"datos": {
+			"titulo": "One file per entity.",
+			"intro": "Everything the map knows lives in <code>datos/</code>. Each change touches only its own file, the diff reads at a glance, and two people never collide even when working at the same time.",
+			"paises": {
+				"titulo": "Countries",
+				"texto": "Name, names on the maps and by period, rulers with dates, population, coats of arms and flags, summary, sources and review mark."
+			},
+			"conflictos": {
+				"titulo": "Conflicts",
+				"texto": "Wars with start, end and sides; front lines or occupied zones by phase, and their battles with coordinates and year."
+			},
+			"eventos": {
+				"titulo": "Events",
+				"texto": "Events and inventions with year, place and a short description. The file name starts with the year: <code>480ac-…</code> for 480 BC."
+			},
+			"territorios": {
+				"titulo": "Territories",
+				"texto": "Enclaves and islands too small to see at world scale, with the country they take their colour from and since when."
+			},
+			"convenciones": "Negative years are BC, coordinates are always <code>[latitud, longitud]</code> and almost every field is optional. Borders are separate GeoJSON files, from <a href=\"https://github.com/aourednik/historical-basemaps\" rel=\"noopener\" target=\"_blank\">historical-basemaps</a>."
+		},
+		"flujo": {
+			"titulo": "Contributing data, step by step.",
+			"intro": "The short version; the <a href=\"https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md\" rel=\"noopener\" target=\"_blank\">full guide</a> covers every field with examples.",
+			"fork": {
+				"titulo": "<em>Fork</em> and clone the repository",
+				"texto": "All you need is Python to serve it on your computer."
+			},
+			"arrancar": {
+				"titulo": "Start the app",
+				"texto": "<code>python api/servidor.py</code> opens the map at <code>http://localhost:9000/</code> and the panel at <code>/admin.html</code>."
+			},
+			"editar": {
+				"titulo": "Edit the record",
+				"texto": "With the <a href=\"#asistente\">panel's assistant</a>, which validates and saves for you, or with any text editor in <code>datos/</code>."
+			},
+			"validar": {
+				"titulo": "Format and validate",
+				"texto": "<code>python api/formatear.py</code> and <code>python api/validar.py</code>. If both are green, continuous integration will be too."
+			},
+			"pr": {
+				"titulo": "Open a <em>pull request</em>",
+				"texto": "Check the years your data touches on the map, and explain what you're adding and where it comes from. Once merged, it's published automatically."
+			}
+		},
+		"herramientas": {
+			"titulo": "The tools in detail",
+			"panel": {
+				"titulo": "Admin panel",
+				"texto": "A record-editing assistant, plus connectors to Wikidata, Wikipedia and Our World in Data that leave proposals for you to review. It only runs on your own computer."
+			},
+			"formatear": {
+				"titulo": "<code>formatear.py</code>",
+				"texto": "Canonical format: keys in a fixed order, lists by year, tabs. Diffs only show real changes."
+			},
+			"validar": {
+				"titulo": "<code>validar.py</code>",
+				"texto": "Schema, years, coordinates, names on the maps, references and review marks. Every warning names the file and field."
+			},
+			"compilar": {
+				"titulo": "<code>compilar.py</code> and <code>dividir.py</code>",
+				"texto": "They combine <code>datos/</code> into the <code>historia.json</code> the website downloads, and back again. Usually the server and the deployment run them."
+			},
+			"despliegue": {
+				"titulo": "Deployment",
+				"texto": "On every <em>push</em> to <code>main</code>, GitHub Actions formats, validates and, if everything passes, publishes the website."
+			}
+		},
+		"reglas": {
+			"titulo": "Golden rules.",
+			"fuente": {
+				"titulo": "Everything sourced",
+				"texto": "Every piece of data cites where it comes from in <code>fuentes</code>: Wikipedia, Wikidata, a book, a census. No source, no entry."
+			},
+			"hechos": {
+				"titulo": "Facts, not other people's text",
+				"texto": "Names, dates and figures, never copied paragraphs. Any text that is stored is attributed and carries its licence."
+			},
+			"espanol": {
+				"titulo": "Spanish first",
+				"texto": "Names and texts in Spanish; the interface is also available in English."
+			},
+			"validador": {
+				"titulo": "Validator in the green",
+				"texto": "Before you propose a change, the formatter and the validator must pass with no errors."
+			}
+		},
+		"cierre": {
+			"titulo": "Ready to join in?",
+			"repositorio": "Go to the repository",
+			"volver": "Back to the map"
+		},
+		"pie": {
+			"aviso": "© 2026 Luis Zumárraga. The code and data are open to view so you can contribute, but they are not free: copying or commercialising the application or its database is not allowed. Sources: Wikipedia and Wikidata (CC BY-SA / CC0), Our World in Data (CC BY) and historical-basemaps (GPL-3.0)."
+		}
+	},
+	"fuentes": {
+		"meta": {
+			"titulo": "Sources and references — Chronus Tabula",
+			"descripcion": "All of Chronus Tabula's sources: books, articles, maps and databases, grouped by source type and by data type (borders, rulers, population, wars, events)."
+		},
+		"menu": {
+			"porDato": "By data type",
+			"obras": "Bibliography and maps",
+			"wikipedia": "Wikipedia and Wikidata",
+			"como": "How we cite"
+		},
+		"portada": {
+			"titulo": "Sources and references.",
+			"lema": "Every piece of data on the map says where it comes from. Here are all the sources consulted, grouped by source type and by data type.",
+			"cifras": {
+				"libros": "books",
+				"articulos": "articles",
+				"mapas": "maps"
+			}
+		},
+		"porDato": {
+			"titulo": "By data type.",
+			"intro": "How many citations back each kind of data on the map. Click one to see only its sources in the bibliography."
+		},
+		"obras": {
+			"titulo": "Bibliography and maps.",
+			"intro": "Books, articles, maps, databases and websites, each described once with its author, edition and licence, along with the map records that cite it.",
+			"filtro": "Filter by source type",
+			"todas": "All ({n})",
+			"traduccion": "Trans. {t}",
+			"coleccion": "series {c}",
+			"mapaDe": "Map of {a}",
+			"antesDeCristo": "{n} BC",
+			"soloDato": "Only the sources for <b>{dato}</b>.",
+			"verTodas": "Show all",
+			"ninguna": "No works of that type for this data.",
+			"usadoMapa": "Used in 1 map",
+			"usadoMapas": "Used in {n} maps",
+			"citadoVez": "Cited once",
+			"citadoVeces": "Cited {n} times",
+			"error": "data/fuentes.json could not be loaded.",
+			"cargando": "Loading the sources…"
+		},
+		"wikipedia": {
+			"titulo": "Wikipedia and Wikidata.",
+			"intro": "Much of the data is checked against Wikipedia articles and Wikidata items. The full list is here, whenever you need it."
+		},
+		"como": {
+			"titulo": "How we cite.",
+			"unaFuente": {
+				"titulo": "A source for every fact",
+				"texto": "Every record on the map (a country, a war, an event) has its own list of sources, shown at the foot of the record. Borders cite the source of each correction."
+			},
+			"unaVez": {
+				"titulo": "Each work, described once",
+				"texto": "Books, maps and databases are described once in the reference register; records only say which one they use and, if needed, the pages."
+			},
+			"consultar": {
+				"titulo": "Consulting is not copying",
+				"texto": "Copyrighted atlases, such as Euratlas, are consulted as a visual reference; no border is traced from them. Stored texts are attributed and carry their licence."
+			},
+			"propia": {
+				"titulo": "Own work",
+				"texto": "Is a source missing or cited wrongly? <a href=\"colaborar.html\">You can fix it</a>; the <a href=\"https://github.com/LuisZ1/chronus-tabula/blob/main/CONTRIBUTING.md#las-referencias-son-obligatorias\" rel=\"noopener\" target=\"_blank\">contribution guide</a> explains how to cite."
+			}
+		},
+		"pie": {
+			"fuentes": "Data with cited sources: Wikipedia and Wikidata (CC BY-SA / CC0), Our World in Data (CC BY), <a href=\"https://github.com/aourednik/historical-basemaps\" rel=\"noopener\" target=\"_blank\">historical-basemaps</a> (GPL-3.0) and Natural Earth (public domain) for borders. Archivo typeface (SIL OFL)."
+		},
+		"tipos": {
+			"libro": {
+				"varios": "Books",
+				"uno": "Book"
+			},
+			"articulo": {
+				"varios": "Articles",
+				"uno": "Article"
+			},
+			"mapa": {
+				"varios": "Maps and atlases",
+				"uno": "Map"
+			},
+			"datos": {
+				"varios": "Databases",
+				"uno": "Database"
+			},
+			"web": {
+				"varios": "Websites",
+				"uno": "Website"
+			}
+		},
+		"clasesDato": {
+			"fronteras": "Borders",
+			"estados": "States and polities",
+			"gobernantes": "Rulers",
+			"poblacion": "Population",
+			"guerras": "Wars and battles",
+			"acontecimientos": "Events",
+			"territorios": "Minor territories",
+			"emblemas": "Coats of arms and flags"
+		},
+		"resumen": {
+			"texto": "Of the articles, <b>{wp}</b> are from Wikipedia ({langs}){otros}. There are also <b>{datos}</b> databases, <b>{webs}</b> websites and <b>{wd}</b> Wikidata items: <b>{citas}</b> citations in <b>{fichas}</b> entries and in the border maps.",
+			"otros": " and <b>{n}</b> from other works",
+			"enIdioma": "{n} in {idioma}",
+			"curado": "When a piece of data is worked out by cross-checking several sources, it is marked as our own work ({n} citations)."
+		},
+		"listas": {
+			"verWikipedia": "Browse the {n} Wikipedia articles cited",
+			"verWikidata": "Browse the {n} Wikidata items cited",
+			"cargando": "Loading…",
+			"error": "The list could not be loaded.",
+			"buscar": "Search",
+			"buscarArticulo": "Search for an article…",
+			"buscarQid": "Search for a Qid or an entry…",
+			"idioma": "Language",
+			"todosIdiomas": "All languages",
+			"tipoDato": "Data type",
+			"todosDatos": "All data",
+			"deTotal": "{a} of {b}",
+			"mas": "Show more ({n} left)",
+			"yMas": " and {n} more"
+		},
+		"idiomas": {
+			"es": "Spanish",
+			"en": "English",
+			"de": "German",
+			"fr": "French",
+			"it": "Italian",
+			"pt": "Portuguese"
+		}
+	},
+	"legal": {
+		"meta": {
+			"titulo": "Legal notice and licence — Chronus Tabula",
+			"descripcion": "Data accuracy, permitted use, intellectual property and third-party licences for Chronus Tabula."
+		},
+		"menu": {
+			"exactitud": "Accuracy",
+			"uso": "Permitted use",
+			"propiedad": "Intellectual property",
+			"terceros": "Third parties",
+			"propiedadCorto": "Ownership"
+		},
+		"portada": {
+			"titulo": "Legal notice",
+			"lema": "What this map does and does not guarantee, what you can do with it and who owns what. The full, binding version is in the repository's <a href=\"https://github.com/LuisZ1/chronus-tabula/blob/main/LICENSE.md\" rel=\"noopener\" target=\"_blank\">LICENSE.md</a> file."
+		},
+		"exactitud": {
+			"titulo": "The data may be wrong",
+			"intro": "<b>Approximate data.</b> Chronus Tabula is an educational project under construction. Its data may contain errors, omissions, anachronisms or simplifications, and does not always match historical reality or every historian's interpretation.",
+			"fronteras": "<b>Borders are approximate.</b> They come from world-scale summary maps drawn for a small number of dates; between two dates, the most recent available map is shown. Many borders were blurred, shifting or disputed, and the map presents them as a line.",
+			"completados": "<b>Some territories have been filled in.</b> Where a period's map did not assign an area to anyone, the people from a map close in time has been used (the record says so). Anything still unassigned appears hatched as «no data», which does not mean it was uninhabited.",
+			"fechas": "<b>Dates, rulers and figures</b> are gathered from public sources (Wikipedia, Wikidata, Our World in Data) and may inherit their errors. Ancient populations are estimates with very wide margins.",
+			"nombres": "<b>The names</b> of peoples and states are current conventions in Spanish or English, not necessarily what they called themselves.",
+			"vinculos": "<b>The links between entities</b> (predecessor, successor, territorial ancestor) summarise one interpretation. They are there to follow the history of a territory, not to settle debates about identity.",
+			"contrastar": "Before using any data in academic work, an exam or a publication, check it against the sources each record cites or against specialist literature. If you find an error, <a href=\"https://github.com/LuisZ1/chronus-tabula/issues/new/choose\" rel=\"noopener\" target=\"_blank\">let us know</a> or <a href=\"colaborar.html\">fix it</a>.",
+			"garantia": "The project is provided «as is», with no guarantee of accuracy, completeness or availability. To the extent permitted by law, the owner is not liable for any damage that may arise from the use of the information or the application."
+		},
+		"uso": {
+			"titulo": "What you can do",
+			"si": "Yes",
+			"aprender": {
+				"titulo": "Use the map to learn and teach",
+				"texto": "Consult it, project it in class, share links to specific moments and take screenshots for educational purposes, crediting «Chronus Tabula»."
+			},
+			"citar": {
+				"titulo": "Cite specific data",
+				"texto": "A date, a ruler or a figure, with attribution."
+			},
+			"codigo": {
+				"titulo": "Study the code and contribute",
+				"texto": "Read the code, download it for personal non-commercial use and copy the repository (<em>fork</em>) to propose improvements to the project via <em>pull request</em>."
+			},
+			"no": "No",
+			"copiar": {
+				"titulo": "Copy or commercialise the application",
+				"texto": "Publish another copy of the website, sell it, integrate it into a paid product or service, or create another application from its code or its design."
+			},
+			"reutilizar": {
+				"titulo": "Reuse the database",
+				"texto": "Extract or redistribute the data as organised (the records, their structure and format, the links, the names by period), in whole or in a substantial part, for another application, database or API, whether commercial or not, or use it to feed or train commercial services."
+			},
+			"permiso": "For any use not listed here, ask the owner for permission (see <a href=\"#contacto\">Contact</a>). Third-party parts have their own terms, below."
+		},
+		"propiedad": {
+			"titulo": "Who owns it",
+			"intro": "© 2026 Luis Zumárraga. Except for third-party content, the application and its database are the work of the owner.",
+			"software": "<b>The software</b> (pages, styles, code, scripts, schemas and design) is offered under the <a href=\"https://polyformproject.org/licenses/strict/1.0.0\" rel=\"noopener\" target=\"_blank\">PolyForm Strict 1.0.0</a> licence. It permits non-commercial use; it does not permit distributing it, modifying it or creating derivative works, except to propose contributions to the official repository.",
+			"baseDatos": "<b>The database</b> (selection, organisation, format and structure of the records, links, original summaries and curation of dates and sources) has all rights reserved. It is protected by copyright in compilations and by the database maker's <i>sui generis</i> right: articles 12 and 133 to 137 of the Spanish Intellectual Property Act (Ley de Propiedad Intelectual) and Directive 96/9/EC.",
+			"hechos": "<b>Historical facts</b> belong to no one. What is protected is the work of gathering, verifying and organising them, not the ability to research them in the original sources.",
+			"contribuciones": "<b>Contributions</b> remain the property of whoever makes them. By submitting them, you grant the owner a non-exclusive, perpetual licence to use them in the project (details in <a href=\"https://github.com/LuisZ1/chronus-tabula/blob/main/LICENSE.md\" rel=\"noopener\" target=\"_blank\">LICENSE.md</a>)."
+		},
+		"terceros": {
+			"titulo": "Third-party content",
+			"intro": "These parts keep their original licence, which takes precedence over the above. If you want to reuse them, go to their source and comply with its terms.",
+			"basemaps": "Border maps, including in their corrected version · GPL-3.0",
+			"wikipedia": "Summaries and extracts, marked with their source · CC BY-SA 4.0",
+			"wikidata": "Rulers, dates and coordinates · CC0",
+			"owid": "Population · CC BY 4.0",
+			"commons": "Coats of arms and flags, linked · each file's own licence",
+			"leaflet": "Map engine · BSD-2-Clause",
+			"polygonClipping": "Polygon operations · MIT",
+			"archivo": "Typeface · SIL Open Font License 1.1",
+			"banderas": "Flags in the language selector · MIT and CC BY 4.0",
+			"teselas": "Base map tiles · their terms of use"
+		},
+		"contacto": {
+			"titulo": "Contact",
+			"texto": "To request permission (commercial use, data reuse, integration into another project), report an error or flag possible misuse, open an <em>issue</em> on <a href=\"https://github.com/LuisZ1/chronus-tabula/issues\" rel=\"noopener\" target=\"_blank\">GitHub</a> or write to the owner via their profile."
+		},
+		"pie": {
+			"aviso": "© 2026 Luis Zumárraga · Software under PolyForm Strict 1.0.0 · Database with all rights reserved · Third-party content under its own licence."
+		}
+	}
 }

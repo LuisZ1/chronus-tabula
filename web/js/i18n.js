@@ -1,4 +1,6 @@
-/* Sistema i18n minimalista basado en ficheros JSON en /i18n.
+/* Textos de la aplicación del mapa: la rama «mapa» de i18n/<idioma>.json (el mismo
+   catálogo que las páginas; ver api/traducir_interfaz.py). Las claves van sin el
+   prefijo: t('ui.loading') es mapa.ui.loading.
    Para añadir un idioma: crear i18n/xx.json y añadir la opción al <select>. */
 const i18n = {
 	lang: 'es',
@@ -15,11 +17,20 @@ const i18n = {
 	async setLang(lang) {
 		if (!this.supported.includes(lang)) lang = 'en';
 		const res = await fetch(`i18n/${lang}.json`);
-		this.dict = await res.json();
+		this.dict = this.aplanar((await res.json()).mapa || {});
 		this.lang = lang;
 		localStorage.setItem('mapamundi.lang', lang);
 		document.documentElement.lang = lang;
 		this.apply();
+	},
+
+	/* {ui: {loading: '…'}} → {'ui.loading': '…'} */
+	aplanar(o, pref = '', out = {}) {
+		for (const [k, v] of Object.entries(o)) {
+			if (v && typeof v === 'object') this.aplanar(v, `${pref}${k}.`, out);
+			else out[pref + k] = v;
+		}
+		return out;
 	},
 
 	t(key) {

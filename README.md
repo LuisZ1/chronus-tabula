@@ -45,7 +45,8 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
   fuentes.html              fuentes y referencias: libros, artículos, mapas y bases de datos citados
   mapa.html                 la aplicación: mapa, paneles y barra de tiempo
   admin.html                panel de administración (necesita la API en marcha)
-  css/, i18n/, lib/         estilos, traducciones y librerías locales
+  css/, lib/                estilos y librerías locales
+  i18n/<idioma>.json        textos de la interfaz (mapa y páginas), un árbol por página y sección
   js/                       lógica por secciones: nucleo, datos, fichas, zonas,
                               capas, mapa, paneles, tiempo, arranque
   data/historia.json        GENERADOS desde datos/ (no se editan ni se versionan): los JSON
@@ -84,7 +85,8 @@ api/                        EL SERVIDOR DE ADMINISTRACIÓN (Python, sin dependen
   comprobar_enlaces.py      comprueba en la API de Wikipedia que cada enlace de fuente lleva a un artículo (necesita red)
   colorear.py               reparte los colores para que dos territorios vecinos no coincidan (web/data/colores.json, usa shapely)
   traducciones.py           cobertura, pendientes e importación de traducciones (datos/i18n/)
-  traducir_paginas.py       claves y traducciones de las páginas estáticas (web/i18n/paginas.<idioma>.json)
+  traducir_interfaz.py      textos de la interfaz (web/i18n/<idioma>.json): claves, cobertura e importación
+  i18n/huellas.<idioma>.json  de qué español sale cada traducción de la interfaz (lo escribe traducir_interfaz.py)
   formatear.py              formato canónico de datos/ (orden de claves, tabs, listas por año);
                               --check lo comprueba sin tocar nada (lo usa el CI)
   validar.py                validador: esquema (schema/), años, coordenadas, nombres en los
@@ -162,7 +164,7 @@ Las ingestas reales requieren internet abierto (ejecútalas en tu máquina); `--
 
 Todo lo que se ve en el mapa sale de los ficheros de `datos/` (uno por país, conflicto, evento o territorio), pensados para editarse sin tocar código; `web/data/historia.json` se genera a partir de ellos y no se edita a mano. La guía completa, con ejemplos copiables de cada tipo de dato y la checklist de merge request, está en **[CONTRIBUTING.md](CONTRIBUTING.md)**. En resumen:
 
-1. Haz un fork y edita el fichero de la entidad en `datos/` (p. ej. `datos/paises/espana.json`; o `web/i18n/*.json` para traducciones).
+1. Haz un fork y edita el fichero de la entidad en `datos/` (p. ej. `datos/paises/espana.json`; o `web/i18n/<idioma>.json` para los textos de la interfaz).
 2. Formatea y valida: `python api/formatear.py` y `python api/validar.py`
 3. Prueba en local moviendo el deslizador por los años que tocan tus datos.
 4. Abre el merge request explicando la fuente de tus datos.

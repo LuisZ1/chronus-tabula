@@ -16,13 +16,14 @@
 		{ anio: 1914, texto: '1914', corto: '1914', vista: '1914/30.00/10.00/3' },
 		{ anio: 2010, texto: '2010', corto: '2010', vista: '2010/30.00/10.00/3' }
 	];
-	var ALT = 'Mapa político del mundo en {a}, cada estado con su color.';
-	/* textos que escribe este script, en el idioma de la página (js/idioma.js) */
-	function t(clave, es, vars) {
-		return window.idioma ? window.idioma.t(clave, es, vars) : es.replace(/\{(\w+)\}/g, function (m, k) { return vars && vars[k] != null ? vars[k] : m; });
+	/* textos que escribe este script: rama «index» de i18n/<idioma>.json (js/idioma.js).
+	   Hasta que el catálogo está cargado se deja el texto que trae el HTML. */
+	var listo = false;
+	function t(clave, vars) {
+		return window.idioma.t('index.' + clave, vars);
 	}
 	function textoAnio(a) {
-		return a.anio < 0 ? t('index.js.ac500', a.texto) : a.texto;
+		return a.anio < 0 && listo ? t('portada.ac500') : a.texto;
 	}
 
 	var reducir = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -74,7 +75,7 @@
 		fotos.forEach(function (p, k) {
 			var img = p.querySelector('img');
 			img.classList.toggle('activa', k === i);
-			img.alt = k === i ? t('index.js.alt', ALT, { a: textoAnio(a) }) : '';
+			img.alt = k === i ? (listo ? t('portada.imagenAnio', { a: textoAnio(a) }) : img.alt) : '';
 		});
 		rodarAnio(textoAnio(a), dir);
 		rotular(a);
@@ -91,15 +92,17 @@
 	/* botón «Abrir … en el mapa» y textos accesibles del año elegido */
 	function rotular(a) {
 		abrir.href = 'mapa.html#' + a.vista;
-		abrir.textContent = t('index.js.abrir', 'Abrir {a} en el mapa', { a: textoAnio(a) });
 		rango.setAttribute('aria-valuetext', textoAnio(a));
+		if (!listo) return;
+		abrir.textContent = t('portada.abrir', { a: textoAnio(a) });
 		var img = fotos[actualIndice(a)] && fotos[actualIndice(a)].querySelector('img');
-		if (img) img.alt = t('index.js.alt', ALT, { a: textoAnio(a) });
+		if (img) img.alt = t('portada.imagenAnio', { a: textoAnio(a) });
 	}
 	function actualIndice(a) {
 		return ANIOS.indexOf(a);
 	}
 	window.addEventListener('idioma', function () {
+		listo = true;
 		if (!abrir || !anioEl) return;
 		var a = ANIOS[actual];
 		anioEl.textContent = textoAnio(a);
@@ -190,11 +193,11 @@
 			if (!b._t) b._orig = b.textContent; // el rótulo de ese momento (en su idioma)
 			copiarTexto(urlCompleta(b.dataset.copiar)).then(
 				function () {
-					b.textContent = t('index.js.copiado', 'Copiado');
+					b.textContent = t('clase.copiado');
 					b.classList.add('hecho');
 				},
 				function () {
-					b.textContent = t('index.js.selecciona', 'Selecciona y copia');
+					b.textContent = t('clase.selecciona');
 				}
 			);
 			clearTimeout(b._t);

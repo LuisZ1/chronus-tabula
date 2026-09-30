@@ -376,20 +376,41 @@ python api/traducciones.py --limpiar en              # retira claves que ya no c
 
 **No cambies los `id`** de batallas, zonas, acontecimientos o territorios al corregir su nombre: son la clave de sus traducciones.
 
-### Las páginas de la web
+### La interfaz: el mapa y las páginas
 
-La portada, `colaborar.html`, `fuentes.html` y `aviso-legal.html` se escriben en español en el propio HTML. Cada texto lleva un atributo con su clave (`data-i18n-html`, `-alt`, `-title`, `-aria`, `-placeholder`) y las traducciones van en `web/i18n/paginas.<idioma>.json`, con el mismo formato `{"t": …, "src": …}`. `web/js/idioma.js` las aplica en el navegador, pinta la bandera del idioma en la barra superior y guarda la elección en el mismo sitio que el mapa, así que páginas y mapa van siempre en el mismo idioma.
+Los textos de la interfaz (los de la aplicación del mapa y los de la portada, `colaborar.html`, `fuentes.html` y `aviso-legal.html`) van en un catálogo por idioma, `web/i18n/<idioma>.json`, con el mismo árbol en todos: primero la página y dentro la sección y el texto.
 
-```bash
-python api/traducir_paginas.py --marcar                # pone clave a los textos nuevos del HTML
-python api/traducir_paginas.py --estado                # cobertura de cada idioma
-python api/traducir_paginas.py --pendientes en --salida pendientes.json
-python api/traducir_paginas.py --importar en pendientes.json
+```json
+{
+	"comun": { "abrirMapa": "Abrir el mapa", "enlaces": { "fuentes": "Fuentes", "colaborar": "Colaborar" } },
+	"mapa": { "ui": { "loading": "Cargando…" }, "popup": { "ruler": "Gobernante" } },
+	"index": {
+		"meta": { "titulo": "…", "descripcion": "…" },
+		"menu": { "leer": "Cómo se lee", "clase": "En clase" },
+		"portada": { "titulo": "El mundo en", "abrir": "Abrir {a} en el mapa" }
+	},
+	"colaborar": { "formas": { "avisar": { "boton": "Abrir un aviso" } } }
+}
 ```
 
-Si un elemento lo rellena un script, márcalo con `data-i18n-no` y traduce el texto en el script con `window.idioma.t('<página>.js.<clave>', 'texto en español', {variables})`; esas claves se añaden a mano al catálogo con `--importar`. Los textos del registro de obras (`uso`, `nota`, `licencia` de `datos/referencias.json`) se traducen en `datos/i18n/<idioma>.json` como las fichas, y `compilar.py` genera `web/data/fuentes.<idioma>.json`.
+- `comun` reúne lo que comparten las páginas (menú, pie, «Abrir el mapa»); `mapa`, la aplicación; `index`, `colaborar`, `fuentes` y `legal`, cada página.
+- `es.json` es la referencia. Para traducir, copia su árbol y cambia solo los valores: las claves no se tocan, y lo que va entre llaves (`{a}`, `{n}`) o las etiquetas (`<b>`, `<a href>`, `<span class="ui">`) se dejan tal cual.
+- En las páginas, el español está escrito en el propio HTML (así funcionan sin JavaScript y los buscadores las leen) y cada elemento lleva su clave: `data-i18n="index.portada.lema"` para el contenido y `data-i18n-alt`, `-title`, `-aria` o `-placeholder` para atributos. `web/js/idioma.js` aplica el idioma elegido, pinta su bandera en la barra superior y lo comparte con el mapa. Los nombres propios que no se traducen (Wikipedia, Leaflet…) llevan `translate="no"`, y lo que rellena un script, `data-i18n-no`.
+- Los textos que escriben los scripts se piden por su clave: `window.idioma.t('fuentes.obras.citadoVeces', {n: 3})` en las páginas e `i18n.t('ui.loading')` en el mapa (sin el prefijo `mapa.`). Esos textos, y toda la rama `mapa`, se escriben directamente en `es.json`.
 
-**Añadir un idioma**: `python api/traducciones.py --nuevo fr`, tradúcelo con `--pendientes fr` / `--importar fr`, copia `web/i18n/es.json` a `web/i18n/fr.json` y traduce los textos de la interfaz (las claves no se tocan), añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `mapa.html`; para las páginas, `--pendientes fr` / `--importar fr` de `traducir_paginas.py`, el idioma en `IDIOMAS` de `web/js/idioma.js` y una opción con su bandera en el menú de idioma de cada página.
+```bash
+python api/traducir_interfaz.py --sincronizar          # clave a los textos nuevos del HTML y es.json al día
+python api/traducir_interfaz.py --estado               # cobertura: al día, desactualizados, sin traducir
+python api/traducir_interfaz.py --pendientes en --salida pendientes.json   # el árbol de lo que falta
+python api/traducir_interfaz.py --importar en pendientes.json              # una vez traducido
+python api/traducir_interfaz.py --confirmar en         # si has editado en.json a mano
+```
+
+Al añadir o cambiar un texto en una página, ejecuta `--sincronizar`: le pone una clave (`<página>.<sección>.<primeras palabras>`; cámbiala por otra más clara si quieres, en el HTML) y copia el español a `es.json`. Para saber qué traducciones se han quedado viejas, `api/i18n/huellas.<idioma>.json` guarda la huella del español del que salió cada una; no hace falta tocarlo, lo escriben `--importar` y `--confirmar`.
+
+Los textos del registro de obras (`uso`, `nota`, `licencia` de `datos/referencias.json`) se traducen en `datos/i18n/<idioma>.json` como las fichas, y `compilar.py` genera `web/data/fuentes.<idioma>.json`.
+
+**Añadir un idioma**: para los datos, `python api/traducciones.py --nuevo fr` y tradúcelo con `--pendientes fr` / `--importar fr`; para la interfaz, `python api/traducir_interfaz.py --nuevo fr` y lo mismo con `--pendientes fr` / `--importar fr`. Después, añade el idioma a `supported` en `web/js/i18n.js` y una `<option>` al selector de `mapa.html`, y en las páginas a `IDIOMAS` de `web/js/idioma.js` con una opción y su bandera en el menú de idioma.
 
 ## Contribuciones que sí tocan código
 

@@ -19,7 +19,7 @@ El fichero de --pendientes es {clave: {"es": texto español, "t": traducción ac
 se rellena "t" y se devuelve con --importar (acepta también {clave: "texto"}).
 Tras importar: python api/formatear.py --check, python api/validar.py y
 python api/compilar.py (genera web/data/historia.<idioma>.json).
-Para añadir un idioma a la web: --nuevo xx, traducir, y crear web/i18n/xx.json
+Para añadir un idioma a la web: --nuevo xx y traducir; la interfaz, con api/traducir_interfaz.py --nuevo xx
 (textos de la interfaz) y su opción en el selector de mapa.html (ver CONTRIBUTING).
 """
 import argparse
