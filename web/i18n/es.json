@@ -124,6 +124,9 @@
 		},
 		"nav": {
 			"title": "Arrastra los tiradores para acercar la vista; el centro para desplazarte (doble clic: ver todo)"
+		},
+		"group": {
+			"count": "{n} marcas aquí"
 		}
 	},
 	"index": {

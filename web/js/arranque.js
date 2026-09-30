@@ -126,6 +126,7 @@ async function init() {
 	state.territoryLayer = L.layerGroup();
 	map.on('zoomend', updateTerrZoom);
 	updateTerrZoom();
+	setupRotulos(); // que los rótulos de las marcas no se tapen (js/rotulos.js)
 
 	setupControls();
 	setupLayersPanel();

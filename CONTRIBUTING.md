@@ -422,7 +422,8 @@ Los textos del registro de obras (`uso`, `nota`, `licencia` de `datos/referencia
   | `datos.js` | carga de `historia.json`, países, seguimiento y relevancia |
   | `fichas.js` | popups, fuentes y extractos de Wikipedia |
   | `zonas.js` | zonas de guerra y recorte costero |
-  | `capas.js` | marcadores: batallas, eventos y territorios menores |
+  | `capas.js` | marcadores: batallas, eventos y territorios menores (un punto y su rótulo) |
+  | `rotulos.js` | que los rótulos no se tapen: cada uno en el primer hueco libre junto a su punto (con hilo si queda lejos); las marcas en el mismo sitio, o las que no caben en una zona, en un círculo con número que se abre al acercar |
   | `mapa.js` | estilo, etiquetas y emblemas (escudo o bandera), análisis del año, carga y capas base |
   | `paneles.js` | leyenda, panel «Este año» y panel de capas |
   | `tiempo.js` | barra de tiempo, escala del modo móvil, marcas y reproducción |
