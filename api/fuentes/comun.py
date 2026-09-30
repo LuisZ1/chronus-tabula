@@ -39,9 +39,7 @@ DATOS = os.environ.get("CHRONUS_DATOS") or os.path.join(RAIZ, "datos")
 # edita a mano ni se versiona; lo compilan servidor.py al arrancar, exportar.py
 # al aplicar propuestas, api/compilar.py y el despliegue en CI).
 HISTORIA = os.path.join(RAIZ, "web", "data", "historia.json")
-# traducción de los nombres de los mapas (NAME/SUBJECTO/PARTOF) al español y, si el
-# original no sirve como inglés, también al inglés: {"<nombre>": {"es": …, "en": …}}
-NOMBRES = os.path.join(DATOS, "nombres.json")
+
 COLECCIONES = ("paises", "conflictos", "eventos", "territorios")
 
 HOY = date.today().isoformat()
@@ -118,18 +116,18 @@ def _orden(coleccion):
 # formato; guardar_historia() lo aplica siempre al escribir.
 # ---------------------------------------------------------------------------
 ORDEN_CLAVES = {
-    "paises": ["id", "nombre", "nombre_en", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
+    "paises": ["id", "nombre", "nombres", "nombres_periodo", "wiki", "wikidata", "wikidata_hist",
                "owid", "relacionados", "vinculos", "resena", "gobernantes", "poblacion", "escudos",
                "banderas", "fuentes", "revision"],
-    "conflictos": ["id", "nombre", "nombre_en", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
+    "conflictos": ["id", "nombre", "inicio", "fin", "paises", "bajas", "descripcion", "wiki",
                    "zonas", "batallas", "fuentes"],
-    "eventos": ["nombre", "nombre_en", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
+    "eventos": ["id", "nombre", "anio", "hasta", "categoria", "lat", "lng", "paises", "descripcion",
                 "wiki", "fuentes"],
-    "territorios": ["nombre", "nombre_en", "pais", "estatus", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
+    "territorios": ["id", "nombre", "pais", "estatus", "desde", "hasta", "lat", "lng", "poligono", "descripcion",
                     "wiki", "fuentes"],
 }
 ORDEN_SUBCLAVES = {
-    "nombres_periodo": ["nombre", "nombre_en", "desde", "hasta", "wiki", "wikidata"],
+    "nombres_periodo": ["nombre", "desde", "hasta", "wiki", "wikidata"],
     "gobernantes": ["nombre", "cargo", "titulo", "desde", "hasta"],
     "poblacion": ["anio", "valor", "fuente"],
     "escudos": ["archivo", "desde", "hasta"],
@@ -137,8 +135,8 @@ ORDEN_SUBCLAVES = {
     "fuentes": ["id", "url", "licencia", "consultado"],
     "revision": ["estado", "fecha", "por", "hash", "secciones"],
     "vinculos": ["id", "tipo", "desde", "hasta"],
-    "zonas": ["nombre", "nombre_en", "tipo", "mar", "desde", "hasta", "color", "poligono"],
-    "batallas": ["nombre", "nombre_en", "anio", "hasta", "lat", "lng", "descripcion", "bajas", "wiki"],
+    "zonas": ["id", "nombre", "tipo", "mar", "desde", "hasta", "color", "poligono"],
+    "batallas": ["id", "nombre", "anio", "hasta", "lat", "lng", "descripcion", "bajas", "wiki"],
 }
 
 
@@ -196,12 +194,8 @@ def hash_revision(pais):
     Se guarda en revision.hash al validar; si después difiere, los datos cambiaron
     tras la validación y hay que revisarlos de nuevo."""
     c = canonizar("paises", pais)
-    # la traducción al inglés del nombre (nombre_en) no forma parte de lo validado:
-    # añadirla o corregirla no obliga a revisar de nuevo la ficha
-    np = [{k: v for k, v in per.items() if k != "nombre_en"} if isinstance(per, dict) else per
-          for per in c.get("nombres_periodo", [])]
     canon = json.dumps({"g": c.get("gobernantes", []), "p": c.get("poblacion", []),
-                        "np": np}, sort_keys=True, ensure_ascii=False)
+                        "np": c.get("nombres_periodo", [])}, sort_keys=True, ensure_ascii=False)
     return hashlib.sha1(canon.encode("utf-8")).hexdigest()[:12]
 
 
@@ -253,7 +247,8 @@ def guardar_historia(d):
     """Escribe cada entidad en su fichero de datos/ (solo los que cambian), retira
     los ficheros de entidades que ya no están, y recompila web/data/historia.json."""
     os.makedirs(DATOS, exist_ok=True)
-    meta = {k: v for k, v in d.items() if k not in COLECCIONES}
+    # 'idioma' y 'nombres_mapa' los añade la compilación: no son datos curados
+    meta = {k: v for k, v in d.items() if k not in COLECCIONES and k not in ("idioma", "nombres_mapa")}
     _escribir_json(os.path.join(DATOS, "_meta.json"), meta)
     for col in COLECCIONES:
         carpeta = os.path.join(DATOS, col)
@@ -272,20 +267,22 @@ def guardar_historia(d):
     compilar_web(d)
 
 
-def cargar_nombres():
-    """Tabla de traducción de los nombres de los mapas ({} si no existe)."""
-    return _leer_json(NOMBRES) if os.path.exists(NOMBRES) else {}
-
-
-def texto_nombres(tabla):
-    """Formato canónico de datos/nombres.json: una línea por nombre, en orden
-    alfabético (así cada traducción añadida o corregida es una línea del diff)."""
-    lineas = []
-    for k in sorted(tabla):
-        v = tabla[k] or {}
-        v = {**{c: v[c] for c in ("es", "en") if v.get(c)}, **{c: v[c] for c in sorted(v) if c not in ("es", "en")}}
-        lineas.append("\t" + json.dumps(k, ensure_ascii=False) + ": " + json.dumps(v, ensure_ascii=False))
-    return "{\n" + ",\n".join(lineas) + "\n}\n"
+def cargar_geonombres():
+    """Nombres (NAME, SUBJECTO, PARTOF) que aparecen en algún mapa de web/data/geojson."""
+    import re
+    carpeta = os.path.join(RAIZ, "web", "data", "geojson")
+    out = set()
+    if not os.path.isdir(carpeta):
+        return out
+    for fn in os.listdir(carpeta):
+        if re.match(r"world_(bc)?\d+\.geojson$", fn):
+            with open(os.path.join(carpeta, fn), encoding="utf-8") as f:
+                for ft in json.load(f).get("features", []):
+                    p = ft.get("properties") or {}
+                    for k in ("NAME", "SUBJECTO", "PARTOF"):
+                        if isinstance(p.get(k), str) and p[k].strip():
+                            out.add(p[k])
+    return out
 
 
 def compilar_web(d=None):
@@ -294,16 +291,24 @@ def compilar_web(d=None):
     if d is None:
         d = cargar_historia()
     os.makedirs(os.path.dirname(HISTORIA), exist_ok=True)
-    salida = {k: v for k, v in d.items() if k not in COLECCIONES}
+    salida = {k: v for k, v in d.items() if k not in COLECCIONES and k not in ("idioma", "nombres_mapa")}
     for col in COLECCIONES:
         salida[col] = [canonizar(col, r) for r in sorted(d.get(col, []), key=_orden(col))]
-    # nombres de los mapas en español/inglés (la web los usa si no hay ficha o si la
-    # ficha no da un nombre para ese idioma)
-    salida["nombres_mapa"] = cargar_nombres()
-    with open(HISTORIA, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(salida, f, ensure_ascii=False, indent="\t")
-        f.write("\n")
+    # un JSON por idioma: historia.json (español, el idioma fuente; lo usan también
+    # el panel de edición y los scripts) e historia.<idioma>.json con los textos de
+    # cada catálogo datos/i18n/<idioma>.json (lo que falta queda en español)
+    import traduccion
+    for lang in [traduccion.IDIOMA_FUENTE] + traduccion.idiomas():
+        ruta = HISTORIA if lang == traduccion.IDIOMA_FUENTE else ruta_historia(lang)
+        with open(ruta, "w", encoding="utf-8", newline="\n") as f:
+            json.dump(traduccion.compilar_idioma(salida, lang), f, ensure_ascii=False, indent="\t")
+            f.write("\n")
     return HISTORIA
+
+
+def ruta_historia(lang):
+    """web/data/historia.json (español) o web/data/historia.<idioma>.json."""
+    return HISTORIA if lang == "es" else os.path.join(os.path.dirname(HISTORIA), f"historia.{lang}.json")
 
 
 def proponer(con, tipo, pais, resumen, payload, fuente):

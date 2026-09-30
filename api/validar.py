@@ -33,7 +33,8 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOJSON_DIR = os.path.join(RAIZ, "web", "data", "geojson")
 SCHEMA_DIR = os.path.join(RAIZ, "schema")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
-from comun import cargar_historia, cargar_nombres, hash_revision, DATOS  # noqa: E402
+from comun import cargar_historia, hash_revision, DATOS  # noqa: E402
+import traduccion  # noqa: E402
 import vinculos as VI  # noqa: E402
 
 # colección → fichero de esquema en schema/
@@ -247,26 +248,52 @@ def main():
     else:
         aviso("geojson", "no encuentro data/geojson; se omite la comprobación de nombres")
 
-    # 2b) traducción de los nombres de los mapas (datos/nombres.json): la web rotula
-    #     en el idioma elegido; un nombre sin traducir sale tal cual (en inglés)
-    tabla = cargar_nombres()
-    if not isinstance(tabla, dict):
-        err("nombres.json", "debe ser un objeto {nombre del mapa: {es, en}}")
-        tabla = {}
-    for k, v in tabla.items():
-        if not isinstance(v, dict) or not isinstance(v.get("es"), str) or not v["es"]:
-            err(f"nombres.json «{k}»", "cada nombre necesita al menos 'es' (texto no vacío)")
-        elif set(v) - {"es", "en"}:
-            err(f"nombres.json «{k}»", f"claves desconocidas: {sorted(set(v) - {'es', 'en'})}")
-    if nombres_geo and n_mapas >= 40:
-        sin = sorted((nombres_geo | partof_geo) - set(tabla))
-        if sin:
-            aviso("nombres.json", f"{len(sin)} nombre(s) de los mapas sin traducir (se verán tal cual en "
-                                  f"los dos idiomas): {sin[:15]}{' …' if len(sin) > 15 else ''}")
-        sobran = sorted(set(tabla) - nombres_geo - partof_geo)
-        if sobran:
-            aviso("nombres.json", f"{len(sobran)} nombre(s) que ya no aparecen en ningún mapa: "
-                                  f"{sobran[:15]}{' …' if len(sobran) > 15 else ''}")
+    # 2b) traducciones (datos/i18n/<idioma>.json). El español es la fuente: es.json
+    #     solo traduce los nombres de los mapas (mapa:…), que vienen en inglés.
+    for lang in [traduccion.IDIOMA_FUENTE] + traduccion.idiomas():
+        donde = f"i18n/{lang}.json"
+        try:
+            cat = traduccion.cargar_catalogo(lang)
+        except ValueError as e:
+            err(donde, f"JSON inválido: {e}")
+            continue
+        for k, v in cat.items():
+            if not isinstance(v, dict) or not isinstance(v.get("t"), str) or not v["t"].strip():
+                err(f"{donde} «{k}»", "cada entrada necesita 't' (el texto traducido)")
+            elif set(v) - {"t", "src"}:
+                err(f"{donde} «{k}»", f"claves desconocidas: {sorted(set(v) - {'t', 'src'})}")
+            elif not (k.startswith("mapa:") or k.startswith("txt:") or "/" in k):
+                err(f"{donde} «{k}»", "clave desconocida: usa <colección>/<id>.<campo>, txt:<texto> o mapa:<nombre>")
+            elif lang == traduccion.IDIOMA_FUENTE and not k.startswith("mapa:"):
+                err(f"{donde} «{k}»", "el español es el idioma fuente: es.json solo lleva nombres de los mapas (mapa:…)")
+        mapa = {k[5:] for k in cat if k.startswith("mapa:")}
+        if nombres_geo and n_mapas >= 40:
+            sobran = sorted(mapa - nombres_geo - partof_geo)
+            if sobran:
+                aviso(donde, f"{len(sobran)} nombre(s) de los mapas que ya no aparecen en ninguno: "
+                             f"{sobran[:10]}{' …' if len(sobran) > 10 else ''}")
+            if lang == traduccion.IDIOMA_FUENTE:
+                sin = sorted(n for n in (nombres_geo | partof_geo) - mapa if n.strip())
+                if sin:
+                    aviso(donde, f"{len(sin)} nombre(s) de los mapas sin traducir (se verán tal cual): "
+                                 f"{sin[:10]}{' …' if len(sin) > 10 else ''} — python api/traducciones.py --pendientes es")
+        if lang == traduccion.IDIOMA_FUENTE:
+            continue
+        est = traduccion.estado(d, lang, cat)
+        if est["desactualizada"]:
+            aviso(donde, f"{len(est['desactualizada'])} traducción(es) desactualizada(s): el texto español cambió "
+                         f"después de traducirlo ({[k for k, _ in est['desactualizada'][:5]]}…) — "
+                         f"python api/traducciones.py --pendientes {lang}")
+        if est["huerfanas"]:
+            aviso(donde, f"{len(est['huerfanas'])} clave(s) que ya no corresponden a ningún texto "
+                         f"({est['huerfanas'][:5]}…): python api/traducciones.py --limpiar {lang}")
+    # ids de batallas y zonas: dan la clave de su traducción, no pueden repetirse
+    for c in d.get("conflictos", []):
+        for lista in ("batallas", "zonas"):
+            ids_el = [x.get("id") for x in c.get(lista, []) or [] if isinstance(x, dict) and x.get("id")]
+            rep = sorted({i for i in ids_el if ids_el.count(i) > 1})
+            if rep:
+                err(f"conflictos/{c.get('id')}", f"{lista}: id repetido {rep}")
 
     # 3) países
     ids = set()
