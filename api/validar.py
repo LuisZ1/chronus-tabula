@@ -33,7 +33,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GEOJSON_DIR = os.path.join(RAIZ, "web", "data", "geojson")
 SCHEMA_DIR = os.path.join(RAIZ, "schema")
 sys.path.insert(0, os.path.join(RAIZ, "api", "fuentes"))
-from comun import cargar_historia, hash_revision, DATOS  # noqa: E402
+from comun import cargar_historia, cargar_nombres, hash_revision, DATOS  # noqa: E402
 import vinculos as VI  # noqa: E402
 
 # colección → fichero de esquema en schema/
@@ -222,6 +222,7 @@ def main():
     #    duplicadas dentro de un mismo mapa (misma caja y vértices parecidos: el
     #    territorio se pintaría dos veces con dos rótulos; api/limpiar_geojson.py)
     nombres_geo = set()
+    partof_geo = set()
     n_mapas = 0
     if os.path.isdir(GEOJSON_DIR):
         for fn in sorted(os.listdir(GEOJSON_DIR)):
@@ -236,6 +237,8 @@ def main():
                     for k in ("NAME", "SUBJECTO"):
                         if p.get(k):
                             nombres_geo.add(p[k])
+                    if p.get("PARTOF"):
+                        partof_geo.add(p["PARTOF"])
                 for a, b in geometrias_repetidas(gj.get("features", [])):
                     aviso(fn, f"«{a}» y «{b}» tienen (casi) la misma geometría: se pintarían dos veces; "
                               "añade el caso a PARCHES en api/limpiar_geojson.py y ejecútalo")
@@ -243,6 +246,27 @@ def main():
                 aviso(fn, f"no se pudo leer: {e}")
     else:
         aviso("geojson", "no encuentro data/geojson; se omite la comprobación de nombres")
+
+    # 2b) traducción de los nombres de los mapas (datos/nombres.json): la web rotula
+    #     en el idioma elegido; un nombre sin traducir sale tal cual (en inglés)
+    tabla = cargar_nombres()
+    if not isinstance(tabla, dict):
+        err("nombres.json", "debe ser un objeto {nombre del mapa: {es, en}}")
+        tabla = {}
+    for k, v in tabla.items():
+        if not isinstance(v, dict) or not isinstance(v.get("es"), str) or not v["es"]:
+            err(f"nombres.json «{k}»", "cada nombre necesita al menos 'es' (texto no vacío)")
+        elif set(v) - {"es", "en"}:
+            err(f"nombres.json «{k}»", f"claves desconocidas: {sorted(set(v) - {'es', 'en'})}")
+    if nombres_geo and n_mapas >= 40:
+        sin = sorted((nombres_geo | partof_geo) - set(tabla))
+        if sin:
+            aviso("nombres.json", f"{len(sin)} nombre(s) de los mapas sin traducir (se verán tal cual en "
+                                  f"los dos idiomas): {sin[:15]}{' …' if len(sin) > 15 else ''}")
+        sobran = sorted(set(tabla) - nombres_geo - partof_geo)
+        if sobran:
+            aviso("nombres.json", f"{len(sobran)} nombre(s) que ya no aparecen en ningún mapa: "
+                                  f"{sobran[:15]}{' …' if len(sobran) > 15 else ''}")
 
     # 3) países
     ids = set()

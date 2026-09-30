@@ -19,6 +19,11 @@
 			"type": "string",
 			"minLength": 1
 		},
+		"nombre_en": {
+			"type": "string",
+			"minLength": 1,
+			"description": "Nombre en inglés (web en inglés)"
+		},
 		"inicio": {
 			"type": "integer",
 			"minimum": -123000,
@@ -61,6 +66,11 @@
 				"properties": {
 					"nombre": {
 						"type": "string"
+					},
+					"nombre_en": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Nombre en inglés (web en inglés)"
 					},
 					"tipo": {
 						"enum": [
@@ -126,6 +136,11 @@
 					"nombre": {
 						"type": "string",
 						"minLength": 1
+					},
+					"nombre_en": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Nombre en inglés (web en inglés)"
 					},
 					"anio": {
 						"type": "integer",

@@ -16,6 +16,11 @@
 			"type": "string",
 			"minLength": 1
 		},
+		"nombre_en": {
+			"type": "string",
+			"minLength": 1,
+			"description": "Nombre en inglés (web en inglés)"
+		},
 		"pais": {
 			"type": "string",
 			"description": "Nombre del país del que hereda el color (debe coincidir con 'nombre', 'nombres' o 'relacionados' de una ficha de 'paises')"

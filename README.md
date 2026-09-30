@@ -59,6 +59,7 @@ datos/                      ★ TODO el conocimiento curado, UN FICHERO POR ENTI
   conflictos/<id>.json      cada guerra con sus zonas y batallas
   eventos/<año>-<nombre>.json  acontecimientos e inventos
   territorios/<nombre>.json enclaves e islas
+  nombres.json              traducción al español (y, si hace falta, al inglés) de los nombres de los mapas
   _meta.json                claves de primer nivel (la ayuda interna)
 
 schema/                     EL CONTRATO DE CADA COLECCIÓN (JSON Schema): campos, tipos,

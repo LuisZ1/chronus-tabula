@@ -20,6 +20,11 @@
 			"minLength": 1,
 			"description": "Nombre en español que se muestra en el mapa y en la ficha"
 		},
+		"nombre_en": {
+			"type": "string",
+			"minLength": 1,
+			"description": "Nombre en inglés (se muestra con la web en inglés; si falta, se usa la traducción de datos/nombres.json o el nombre del mapa)"
+		},
 		"nombres": {
 			"type": "array",
 			"minItems": 1,
@@ -41,6 +46,11 @@
 					"nombre": {
 						"type": "string",
 						"minLength": 1
+					},
+					"nombre_en": {
+						"type": "string",
+						"minLength": 1,
+						"description": "Nombre en inglés de ese periodo (web en inglés)"
 					},
 					"desde": {
 						"type": "integer",

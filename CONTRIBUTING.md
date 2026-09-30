@@ -114,6 +114,7 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
 {
   "id": "suecia",                          // único, minúsculas, sin espacios
   "nombre": "Suecia",                      // título del popup, en español
+  "nombre_en": "Sweden",                   // (opcional) el mismo nombre en inglés, para la web en inglés
   "nombres": ["Sweden", "Sweden–Norway"],  // ★ nombres EXACTOS en los mapas GeoJSON
   "wiki": "Suecia",                        // (opcional) artículo de es.wikipedia si difiere de "nombre"
   "relacionados": ["Reino de Suecia"],     // (opcional) alias en español que no son otra ficha
@@ -138,6 +139,7 @@ Cada entrada de `paises` enlaza una entidad histórica con los territorios del m
 ```
 
 - `nombres` es el campo clave: debe copiar **letra por letra** cómo aparece la entidad en los ficheros `web/data/geojson/world_*.geojson` (campos `NAME` o `SUBJECTO`). El mismo reino cambia de nombre entre siglos («Castilla» → «Castile» → «Castille»), así que la lista puede tener varios. [Cómo averiguarlos](#trucos).
+- **Nombres en los dos idiomas.** La web rotula en español o en inglés según el idioma elegido. Cada ficha lleva `nombre` (español) y `nombre_en` (inglés), y cada entrada de `nombres_periodo`, igual (`nombre` y `nombre_en`). Lo que no tiene ficha se traduce con `datos/nombres.json`, una línea por cada nombre de los mapas: `"Kingdom of Castile": {"es": "Reino de Castilla"}`; `en` solo hace falta cuando el original no sirve como inglés (erratas, nombres en francés): `"Comté de Toulouse": {"es": "Condado de Tolosa", "en": "County of Toulouse"}`. `validar.py` avisa de los nombres de los mapas que falten en la tabla (p. ej. tras añadir un mapa) y de los que ya no aparezcan en ninguno. `nombre_en` no entra en la huella de `revision`: traducir no obliga a revalidar. Las guerras, sus batallas y zonas, los acontecimientos y los territorios menores llevan también `nombre_en` junto a `nombre`.
 - `vinculos` une la ficha con otras por su `id`, con un `tipo`:
   - `predecesor` / `sucesor`: **continuidad política**. Esta ficha hereda el Estado, la dinastía o las instituciones de la otra (Corona de Castilla → España, Qing → República Popular China), directamente o a través de Estados de la misma línea que no tienen ficha.
   - `parte_de` / `incluye`: una formaba parte de la otra (Perú, parte de España de 1542 a 1824).
