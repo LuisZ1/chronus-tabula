@@ -48,7 +48,7 @@ web/                        LA APLICACIÓN (estática, desplegable en cualquier 
   css/, lib/                estilos y librerías locales
   i18n/<idioma>.json        textos de la interfaz (mapa y páginas), un árbol por página y sección
   js/                       lógica por secciones: nucleo, datos, fichas, zonas,
-                              capas, mapa, paneles, tiempo, arranque
+                              capas, rotulos, mapa, paneles, tiempo, arranque
   data/historia.json        GENERADOS desde datos/ (no se editan ni se versionan): los JSON
   data/historia.<idioma>.json que descarga la web, uno por idioma
   data/geojson/             106 mapas de fronteras world_*.geojson (53 de historical-basemaps corregidos con api/corregir_mapas.py,

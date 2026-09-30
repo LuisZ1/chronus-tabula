@@ -2,6 +2,22 @@
    Marcadores del año: batallas, eventos y territorios menores.
    Los ficheros de js/ comparten ámbito global y se cargan en el orden de mapa.html. */
 
+/* Cada marcador es un punto en su coordenada exacta y un rótulo que js/rotulos.js
+   coloca donde no tape a otro (o agrupa en un círculo con número). k: b batalla,
+   e acontecimiento, i invento, t territorio. */
+function marcaRotulada(latlng, k, rotulo, color) {
+	const pt = `<span class="rot-pt"${color ? ` style="background:${color}"` : ''}></span>`;
+	const icon = L.divIcon({
+		html: `<div class="rot rot-${k}">${pt}<span class="rot-hilo"></span>${rotulo}</div>`,
+		className: 'battle-wrap',
+		iconSize: [0, 0],
+		iconAnchor: [0, 0]
+	});
+	const mk = L.marker(latlng, { icon, keyboard: false });
+	mk.rot = { k };
+	return mk;
+}
+
 /* ---------- territorios menores (Ceuta, Canarias, Azores, Gibraltar…) ---------- */
 
 function paisDeTerritorio(t) {
@@ -64,13 +80,7 @@ async function updateTerritorios() {
 					.addTo(state.territoryLayer);
 			}
 		}
-		const icon = L.divIcon({
-			html: `<span class="terr-label"><span class="terr-dot" style="background:${color}"></span><span class="terr-name">${escHtml(nombreTxt(t))}</span></span>`,
-			className: 'battle-wrap',
-			iconSize: [0, 0],
-			iconAnchor: [0, 0]
-		});
-		L.marker([t.lat, t.lng], { icon, keyboard: false })
+		marcaRotulada([t.lat, t.lng], 't', `<span class="terr-label"><span class="terr-name">${escHtml(nombreTxt(t))}</span></span>`, color)
 			.bindPopup(() => territorioPopupHtml(t, color), { maxWidth: 340 })
 			.addTo(state.territoryLayer);
 	}
@@ -94,13 +104,7 @@ function updateBattles() {
 			// solo en el año (o años) en que se libró, ± el margen elegido
 			const bFin = b.hasta !== undefined && b.hasta !== null ? b.hasta : b.anio;
 			if (bFin < y - m || b.anio > y + m) continue;
-			const icon = L.divIcon({
-				html: `<span class="battle-label"><span class="battle-ico">⚔️</span><span>${escHtml(nombreTxt(b))}</span></span>`,
-				className: 'battle-wrap',
-				iconSize: [0, 0],
-				iconAnchor: [0, 0]
-			});
-			L.marker([b.lat, b.lng], { icon, keyboard: false })
+			marcaRotulada([b.lat, b.lng], 'b', `<span class="battle-label"><span class="battle-ico">⚔️</span><span>${escHtml(nombreTxt(b))}</span></span>`)
 				.bindPopup(() => battlePopupHtml(c, b), { maxWidth: 340 })
 				.addTo(state.battleLayer);
 		}
@@ -117,14 +121,8 @@ function updateEvents() {
 	for (const ev of historia.eventos || []) {
 		const fin = ev.hasta !== undefined ? ev.hasta : ev.anio;
 		if (fin < y - m || ev.anio > y + m) continue;
-		const ico = ev.categoria === 'invento' ? '💡' : '⭐';
-		const icon = L.divIcon({
-			html: `<span class="event-label"><span class="event-ico">${ico}</span><span>${escHtml(nombreTxt(ev))}</span></span>`,
-			className: 'battle-wrap',
-			iconSize: [0, 0],
-			iconAnchor: [0, 0]
-		});
-		L.marker([ev.lat, ev.lng], { icon, keyboard: false })
+		const inv = ev.categoria === 'invento';
+		marcaRotulada([ev.lat, ev.lng], inv ? 'i' : 'e', `<span class="event-label"><span class="event-ico">${inv ? '💡' : '⭐'}</span><span>${escHtml(nombreTxt(ev))}</span></span>`)
 			.bindPopup(() => eventPopupHtml(ev), { maxWidth: 340 })
 			.addTo(state.eventLayer);
 	}

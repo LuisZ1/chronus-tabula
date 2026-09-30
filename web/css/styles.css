@@ -1630,3 +1630,110 @@ body {
 	outline: 2px solid var(--oceano);
 	outline-offset: 1px;
 }
+
+/* ---- Rótulos que no se tapan (js/rotulos.js) ----
+   Cada marca: un punto en su coordenada y su rótulo donde haya hueco (por defecto,
+   encima). Las que no caben, o están en el mismo sitio, van en un círculo con número. */
+.rot {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.rot-pt {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 7px;
+	height: 7px;
+	margin: -3.5px 0 0 -3.5px;
+	border-radius: 50%;
+	background: var(--rojo, #b8291c);
+	border: 1.5px solid #fff;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.45);
+	cursor: pointer;
+}
+.rot-e .rot-pt,
+.rot-i .rot-pt {
+	background: #c9a227;
+}
+.rot-t .rot-pt {
+	width: 9px;
+	height: 9px;
+	margin: -4.5px 0 0 -4.5px;
+}
+.rot > .battle-label,
+.rot > .event-label,
+.rot > .terr-label {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translate(-50%, calc(-100% - 5px));
+}
+.rot.en-abanico > .battle-label,
+.rot.en-abanico > .event-label,
+.rot.en-abanico > .terr-label {
+	transform: translate(0, -50%);
+}
+.rot-hilo {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 1px;
+	background: rgba(20, 32, 43, 0.55);
+	transform-origin: 0 50%;
+	pointer-events: none;
+}
+.rot.sin-rotulo > .battle-label,
+.rot.sin-rotulo > .event-label,
+.rot.sin-rotulo > .terr-label,
+#map.terr-mini .rot-t > .terr-label {
+	display: none;
+}
+.rot.vuelo {
+	transition:
+		transform 0.38s var(--ease-out),
+		opacity 0.25s ease;
+}
+.grupo-marcas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transform: translate(-50%, -50%);
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+	transition: transform 0.15s var(--ease-out);
+}
+.grupo-marcas::before {
+	content: '';
+	position: absolute;
+	inset: 4px;
+	border-radius: 50%;
+	background: #fff;
+}
+.grupo-marcas span {
+	position: relative;
+	font: 800 13px/1 var(--font);
+	font-variant-numeric: tabular-nums;
+	color: var(--tinta, #14202b);
+}
+.leaflet-marker-icon:hover .grupo-marcas,
+.leaflet-marker-icon:focus-visible .grupo-marcas {
+	transform: translate(-50%, -50%) scale(1.08);
+}
+.leaflet-marker-icon:focus-visible .grupo-marcas {
+	outline: 3px solid var(--oceano, #1b4a73);
+	outline-offset: 2px;
+}
+.grupo-abierto .grupo-marcas {
+	opacity: 0.35;
+}
+@media (prefers-reduced-motion: reduce) {
+	.rot.vuelo,
+	.grupo-marcas {
+		transition: none;
+	}
+}

@@ -124,6 +124,9 @@
 		},
 		"nav": {
 			"title": "Drag the handles to zoom the view; drag the middle to pan (double-click: show all)"
+		},
+		"group": {
+			"count": "{n} markers here"
 		}
 	},
 	"index": {
