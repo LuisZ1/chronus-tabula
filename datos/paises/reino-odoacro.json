@@ -1,12 +1,14 @@
 {
 	"id": "reino-odoacro",
 	"nombre": "Reino de Odoacro",
+	"nombre_en": "Kingdom of Odoacer",
 	"nombres": [
 		"Kingdom of Odoacer"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Italia de Odoacro",
+			"nombre_en": "Odoacer's Kingdom of Italy",
 			"desde": 476,
 			"hasta": 493
 		}

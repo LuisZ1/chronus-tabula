@@ -1,6 +1,7 @@
 {
 	"id": "dinamarca",
 	"nombre": "Dinamarca / Dinamarca-Noruega",
+	"nombre_en": "Denmark / Denmark-Norway",
 	"nombres": [
 		"Denmark-Norway",
 		"Denmark"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Dinamarca",
+			"nombre_en": "Kingdom of Denmark",
 			"desde": 1000,
 			"hasta": 1536
 		},
 		{
 			"nombre": "Dinamarca-Noruega",
+			"nombre_en": "Denmark-Norway",
 			"desde": 1537,
 			"hasta": 1814
 		},
 		{
 			"nombre": "Reino de Dinamarca",
+			"nombre_en": "Kingdom of Denmark",
 			"desde": 1814,
 			"hasta": 2026
 		}

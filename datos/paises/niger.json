@@ -1,17 +1,20 @@
 {
 	"id": "niger",
 	"nombre": "Níger",
+	"nombre_en": "Niger",
 	"nombres": [
 		"Niger"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Níger francés (África Occidental Francesa)",
+			"nombre_en": "French Niger (French West Africa)",
 			"desde": 1922,
 			"hasta": 1960
 		},
 		{
 			"nombre": "República del Níger",
+			"nombre_en": "Republic of the Niger",
 			"desde": 1960,
 			"hasta": 2026
 		}

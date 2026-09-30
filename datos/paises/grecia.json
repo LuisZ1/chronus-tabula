@@ -1,6 +1,7 @@
 {
 	"id": "grecia",
 	"nombre": "Grecia",
+	"nombre_en": "Greece",
 	"nombres": [
 		"Greece"
 	],

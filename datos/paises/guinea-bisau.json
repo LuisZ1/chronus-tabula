@@ -1,6 +1,7 @@
 {
 	"id": "guinea-bisau",
 	"nombre": "Guinea-Bisau",
+	"nombre_en": "Guinea-Bissau",
 	"nombres": [
 		"Guinea-Bissau",
 		"Guinea-Bissau (Portugal)",
@@ -9,11 +10,13 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Guinea Portuguesa",
+			"nombre_en": "Portuguese Guinea",
 			"desde": 1588,
 			"hasta": 1973
 		},
 		{
-			"nombre": "Republica de Guinea-Bisau",
+			"nombre": "República de Guinea-Bisau",
+			"nombre_en": "Republic of Guinea-Bissau",
 			"desde": 1973,
 			"hasta": 2026
 		}

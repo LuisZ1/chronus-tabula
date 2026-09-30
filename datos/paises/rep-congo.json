@@ -1,6 +1,7 @@
 {
 	"id": "rep-congo",
 	"nombre": "Rep. del Congo",
+	"nombre_en": "Rep. of the Congo",
 	"nombres": [
 		"Congo",
 		"Congo (France)"
@@ -8,21 +9,25 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Congo Francés",
+			"nombre_en": "French Congo",
 			"desde": 1882,
 			"hasta": 1958
 		},
 		{
 			"nombre": "República del Congo",
+			"nombre_en": "Republic of the Congo",
 			"desde": 1960,
 			"hasta": 1969
 		},
 		{
 			"nombre": "República Popular del Congo",
+			"nombre_en": "People's Republic of the Congo",
 			"desde": 1969,
 			"hasta": 1992
 		},
 		{
 			"nombre": "República del Congo",
+			"nombre_en": "Republic of the Congo",
 			"desde": 1992,
 			"hasta": 2026
 		}

@@ -1,6 +1,7 @@
 {
 	"id": "esuatini",
 	"nombre": "Esuatini",
+	"nombre_en": "Eswatini",
 	"nombres": [
 		"Swaziland",
 		"Eswatini"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Suazilandia (protectorado británico)",
+			"nombre_en": "Swaziland (British protectorate)",
 			"desde": 1903,
 			"hasta": 1968
 		},
 		{
 			"nombre": "Reino de Suazilandia",
+			"nombre_en": "Kingdom of Swaziland",
 			"desde": 1968,
 			"hasta": 2018
 		},
 		{
 			"nombre": "Reino de Esuatini",
+			"nombre_en": "Kingdom of Eswatini",
 			"desde": 2018,
 			"hasta": 2026
 		}

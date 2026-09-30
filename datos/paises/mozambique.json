@@ -1,6 +1,7 @@
 {
 	"id": "mozambique",
 	"nombre": "Mozambique",
+	"nombre_en": "Mozambique",
 	"nombres": [
 		"Mozambique",
 		"Mozambique (Portugal)"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "África Oriental Portuguesa (colonia)",
+			"nombre_en": "Portuguese East Africa (colony)",
 			"desde": 1505,
 			"hasta": 1975
 		},
 		{
 			"nombre": "República Popular de Mozambique",
+			"nombre_en": "People's Republic of Mozambique",
 			"desde": 1975,
 			"hasta": 1990
 		},
 		{
 			"nombre": "República de Mozambique",
+			"nombre_en": "Republic of Mozambique",
 			"desde": 1990,
 			"hasta": 2026
 		}

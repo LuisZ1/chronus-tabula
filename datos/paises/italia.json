@@ -1,6 +1,7 @@
 {
 	"id": "italia",
 	"nombre": "Italia",
+	"nombre_en": "Italy",
 	"nombres": [
 		"Italy",
 		"Kingfom of Italy"
@@ -8,11 +9,13 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Italia",
+			"nombre_en": "Kingdom of Italy",
 			"desde": 1861,
 			"hasta": 1945
 		},
 		{
 			"nombre": "República Italiana",
+			"nombre_en": "Italian Republic",
 			"desde": 1946,
 			"hasta": 2026
 		}

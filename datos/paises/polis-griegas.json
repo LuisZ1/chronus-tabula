@@ -1,6 +1,7 @@
 {
 	"id": "polis-griegas",
 	"nombre": "Grecia antigua (micénicos y polis)",
+	"nombre_en": "Ancient Greece (Mycenaeans and poleis)",
 	"nombres": [
 		"Greek city-states",
 		"Greek colonies",
@@ -9,11 +10,13 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Grecia micénica",
+			"nombre_en": "Mycenaean Greece",
 			"desde": -1750,
 			"hasta": -1050
 		},
 		{
 			"nombre": "Polis griegas",
+			"nombre_en": "Greek city-states",
 			"desde": -800,
 			"hasta": -146
 		}

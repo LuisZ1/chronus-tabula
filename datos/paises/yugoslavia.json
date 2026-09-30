@@ -1,6 +1,7 @@
 {
 	"id": "yugoslavia",
 	"nombre": "Yugoslavia",
+	"nombre_en": "Yugoslavia",
 	"nombres": [
 		"Yugoslavia",
 		"Federal Republic of Yugoslavia"
@@ -8,26 +9,31 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de los Serbios, Croatas y Eslovenos",
+			"nombre_en": "Kingdom of Serbs, Croats and Slovenes",
 			"desde": 1918,
 			"hasta": 1928
 		},
 		{
 			"nombre": "Reino de Yugoslavia",
+			"nombre_en": "Kingdom of Yugoslavia",
 			"desde": 1929,
 			"hasta": 1944
 		},
 		{
 			"nombre": "República Federativa Socialista de Yugoslavia",
+			"nombre_en": "Socialist Federal Republic of Yugoslavia",
 			"desde": 1945,
 			"hasta": 1991
 		},
 		{
 			"nombre": "República Federal de Yugoslavia",
+			"nombre_en": "Federal Republic of Yugoslavia",
 			"desde": 1992,
 			"hasta": 2002
 		},
 		{
 			"nombre": "Serbia y Montenegro",
+			"nombre_en": "Serbia and Montenegro",
 			"desde": 2003,
 			"hasta": 2006
 		}

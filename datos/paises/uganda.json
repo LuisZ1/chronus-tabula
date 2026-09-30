@@ -1,17 +1,20 @@
 {
 	"id": "uganda",
 	"nombre": "Uganda",
+	"nombre_en": "Uganda",
 	"nombres": [
 		"Uganda"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Dominio de Uganda (Commonwealth)",
+			"nombre_en": "Dominion of Uganda (Commonwealth)",
 			"desde": 1962,
 			"hasta": 1963
 		},
 		{
 			"nombre": "República de Uganda",
+			"nombre_en": "Republic of Uganda",
 			"desde": 1963,
 			"hasta": 2026
 		}

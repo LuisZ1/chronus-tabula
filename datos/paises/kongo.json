@@ -1,12 +1,14 @@
 {
 	"id": "kongo",
 	"nombre": "Reino del Kongo",
+	"nombre_en": "Kingdom of Kongo",
 	"nombres": [
 		"Kingdom of Kongo"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Reino del Kongo",
+			"nombre_en": "Kingdom of Kongo",
 			"desde": 1390,
 			"hasta": 1914
 		}

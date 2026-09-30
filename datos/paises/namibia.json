@@ -1,6 +1,7 @@
 {
 	"id": "namibia",
 	"nombre": "Namibia",
+	"nombre_en": "Namibia",
 	"nombres": [
 		"Namibia",
 		"German South-West Africa"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "África del Sudoeste Alemana",
+			"nombre_en": "German South West Africa",
 			"desde": 1884,
 			"hasta": 1915
 		},
 		{
 			"nombre": "África del Sudoeste (mandato/administración sudafricana)",
+			"nombre_en": "South West Africa (South African mandate/administration)",
 			"desde": 1915,
 			"hasta": 1990
 		},
 		{
 			"nombre": "República de Namibia",
+			"nombre_en": "Republic of Namibia",
 			"desde": 1990,
 			"hasta": 2026
 		}

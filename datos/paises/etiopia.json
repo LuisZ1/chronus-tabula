@@ -1,6 +1,7 @@
 {
 	"id": "etiopia",
-	"nombre": "Etiopia",
+	"nombre": "Etiopía",
+	"nombre_en": "Ethiopia",
 	"nombres": [
 		"Ethiopia",
 		"Axum",
@@ -10,21 +11,25 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Aksum",
+			"nombre_en": "Kingdom of Aksum",
 			"desde": -100,
 			"hasta": 940
 		},
 		{
-			"nombre": "Imperio de Etiopia (Abisinia)",
+			"nombre": "Imperio de Etiopía (Abisinia)",
+			"nombre_en": "Ethiopian Empire (Abyssinia)",
 			"desde": 1270,
 			"hasta": 1974
 		},
 		{
-			"nombre": "Republica Democratica Popular de Etiopia (Derg)",
+			"nombre": "República Democrática Popular de Etiopía (Derg)",
+			"nombre_en": "People's Democratic Republic of Ethiopia (Derg)",
 			"desde": 1974,
 			"hasta": 1991
 		},
 		{
-			"nombre": "Republica Democratica Federal de Etiopia",
+			"nombre": "República Democrática Federal de Etiopía",
+			"nombre_en": "Federal Democratic Republic of Ethiopia",
 			"desde": 1991,
 			"hasta": 2026
 		}

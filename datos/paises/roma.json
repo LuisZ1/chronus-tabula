@@ -1,6 +1,7 @@
 {
 	"id": "roma",
 	"nombre": "Roma",
+	"nombre_en": "Rome",
 	"nombres": [
 		"Rome",
 		"Roman Empire",
@@ -18,12 +19,14 @@
 	"nombres_periodo": [
 		{
 			"nombre": "República romana",
+			"nombre_en": "Roman Republic",
 			"desde": -509,
 			"hasta": -28,
 			"wiki": "República romana"
 		},
 		{
 			"nombre": "Imperio romano",
+			"nombre_en": "Roman Empire",
 			"desde": -27,
 			"hasta": 395,
 			"wiki": "Imperio romano"

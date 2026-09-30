@@ -1,17 +1,20 @@
 {
 	"id": "kenia",
 	"nombre": "Kenia",
+	"nombre_en": "Kenya",
 	"nombres": [
 		"Kenya"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Oriental Británica / Colonia de Kenia",
+			"nombre_en": "British East Africa / Kenya Colony",
 			"desde": 1895,
 			"hasta": 1963
 		},
 		{
 			"nombre": "República de Kenia",
+			"nombre_en": "Republic of Kenya",
 			"desde": 1963,
 			"hasta": 2026
 		}

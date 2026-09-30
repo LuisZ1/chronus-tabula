@@ -1,6 +1,7 @@
 {
 	"id": "ruanda",
 	"nombre": "Ruanda",
+	"nombre_en": "Rwanda",
 	"nombres": [
 		"Rwanda",
 		"Rwanda (Belgium)"
@@ -8,16 +9,19 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Reino de Ruanda",
+			"nombre_en": "Kingdom of Rwanda",
 			"desde": 1600,
 			"hasta": 1961
 		},
 		{
 			"nombre": "Ruanda-Urundi (mandato belga)",
+			"nombre_en": "Ruanda-Urundi (Belgian mandate)",
 			"desde": 1922,
 			"hasta": 1962
 		},
 		{
 			"nombre": "República de Ruanda",
+			"nombre_en": "Republic of Rwanda",
 			"desde": 1962,
 			"hasta": 2026
 		}

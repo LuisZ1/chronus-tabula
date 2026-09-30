@@ -1,17 +1,20 @@
 {
 	"id": "zambia",
 	"nombre": "Zambia",
+	"nombre_en": "Zambia",
 	"nombres": [
 		"Zambia"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Rodesia del Norte (protectorado británico)",
+			"nombre_en": "Northern Rhodesia (British protectorate)",
 			"desde": 1911,
 			"hasta": 1964
 		},
 		{
 			"nombre": "República de Zambia",
+			"nombre_en": "Republic of Zambia",
 			"desde": 1964,
 			"hasta": 2026
 		}

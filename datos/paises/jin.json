@@ -1,17 +1,20 @@
 {
 	"id": "jin",
 	"nombre": "Dinastía Jin",
+	"nombre_en": "Jin dynasty",
 	"nombres": [
 		"Jin"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Jin Occidental",
+			"nombre_en": "Western Jin",
 			"desde": 266,
 			"hasta": 316
 		},
 		{
 			"nombre": "Jin Oriental",
+			"nombre_en": "Eastern Jin",
 			"desde": 317,
 			"hasta": 420
 		}

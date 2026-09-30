@@ -1,6 +1,7 @@
 {
 	"id": "austria",
 	"nombre": "Austria / Imperio austrohúngaro",
+	"nombre_en": "Austria / Austro-Hungarian Empire",
 	"nombres": [
 		"Austria",
 		"Austrian Empire",
@@ -11,26 +12,31 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Imperio austríaco",
+			"nombre_en": "Austrian Empire",
 			"desde": 1804,
 			"hasta": 1866
 		},
 		{
 			"nombre": "Austria-Hungría",
+			"nombre_en": "Austria-Hungary",
 			"desde": 1867,
 			"hasta": 1918
 		},
 		{
 			"nombre": "Primera República de Austria",
+			"nombre_en": "First Austrian Republic",
 			"desde": 1919,
 			"hasta": 1937
 		},
 		{
 			"nombre": "Austria (anexionada al Reich)",
+			"nombre_en": "Austria (annexed to the Reich)",
 			"desde": 1938,
 			"hasta": 1944
 		},
 		{
 			"nombre": "República de Austria",
+			"nombre_en": "Republic of Austria",
 			"desde": 1945,
 			"hasta": 2026
 		}

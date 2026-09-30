@@ -1,6 +1,7 @@
 {
 	"id": "xiongnu",
 	"nombre": "Xiongnu",
+	"nombre_en": "Xiongnu",
 	"nombres": [
 		"Xiongnu",
 		"Southern Xiongnu"
@@ -8,11 +9,13 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Confederación xiongnu",
+			"nombre_en": "Xiongnu confederation",
 			"desde": -209,
 			"hasta": 48
 		},
 		{
 			"nombre": "Xiongnu del Sur",
+			"nombre_en": "Southern Xiongnu",
 			"desde": 48,
 			"hasta": 216
 		}

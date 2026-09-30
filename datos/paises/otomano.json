@@ -1,6 +1,7 @@
 {
 	"id": "otomano",
 	"nombre": "Imperio otomano",
+	"nombre_en": "Ottoman Empire",
 	"nombres": [
 		"Ottoman Empire",
 		"Ottoman Sultanate",
@@ -9,6 +10,7 @@
 	"nombres_periodo": [
 		{
 			"nombre": "Beylik otomano",
+			"nombre_en": "Ottoman beylik",
 			"desde": 1299,
 			"hasta": 1325,
 			"wiki": "Osmán I"

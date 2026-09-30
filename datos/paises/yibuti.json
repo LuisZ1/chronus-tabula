@@ -1,22 +1,26 @@
 {
 	"id": "yibuti",
 	"nombre": "Yibuti",
+	"nombre_en": "Djibouti",
 	"nombres": [
 		"Djibouti"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "Somalilandia Francesa",
+			"nombre_en": "French Somaliland",
 			"desde": 1896,
 			"hasta": 1967
 		},
 		{
-			"nombre": "Territorio Frances de los Afars y los Issas",
+			"nombre": "Territorio Francés de los Afars y los Issas",
+			"nombre_en": "French Territory of the Afars and the Issas",
 			"desde": 1967,
 			"hasta": 1977
 		},
 		{
-			"nombre": "Republica de Yibuti",
+			"nombre": "República de Yibuti",
+			"nombre_en": "Republic of Djibouti",
 			"desde": 1977,
 			"hasta": 2026
 		}
@@ -108,7 +112,7 @@
 		"estado": "validado",
 		"fecha": "2026-09-28",
 		"por": "panel-admin",
-		"hash": "e58225e05623",
+		"hash": "5d9ca0b71401",
 		"secciones": [
 			"banderas",
 			"escudos",

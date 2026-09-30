@@ -1,27 +1,32 @@
 {
 	"id": "tanzania",
 	"nombre": "Tanzania",
+	"nombre_en": "Tanzania",
 	"nombres": [
 		"Tanzania, United Republic of"
 	],
 	"nombres_periodo": [
 		{
 			"nombre": "África Oriental Alemana",
+			"nombre_en": "German East Africa",
 			"desde": 1885,
 			"hasta": 1919
 		},
 		{
 			"nombre": "Territorio de Tanganica (mandato/administración británica)",
+			"nombre_en": "Tanganyika Territory (British mandate/administration)",
 			"desde": 1919,
 			"hasta": 1961
 		},
 		{
 			"nombre": "Tanganica",
+			"nombre_en": "Tanganyika",
 			"desde": 1961,
 			"hasta": 1964
 		},
 		{
 			"nombre": "República Unida de Tanzania",
+			"nombre_en": "United Republic of Tanzania",
 			"desde": 1964,
 			"hasta": 2026
 		}
